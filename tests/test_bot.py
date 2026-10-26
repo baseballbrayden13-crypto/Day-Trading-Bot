@@ -12,15 +12,20 @@ from bot.strategy import add_indicators, rsi
 ET = ZoneInfo("America/New_York")
 
 
-def synthetic_bars(days=10, seed=0, drift=0.0):
+def synthetic_bars(days=10, seed=0, drift=0.0, gap_sd=0.0):
     rng = np.random.default_rng(seed)
     idx = []
     for d in pd.bdate_range("2026-03-02", periods=days):
         start = pd.Timestamp(d.date()).tz_localize(ET) + pd.Timedelta(hours=9, minutes=30)
         idx += list(pd.date_range(start, periods=78, freq="5min"))
     idx = pd.DatetimeIndex(idx).tz_convert("UTC")
-    close = 100 * np.exp(np.cumsum(rng.normal(drift, 0.002, len(idx))))
+    steps = rng.normal(drift, 0.002, len(idx))
+    if gap_sd:
+        steps[::78] += rng.normal(0, gap_sd, days)  # overnight gap at each open
+    close = 100 * np.exp(np.cumsum(steps))
     open_ = np.r_[close[0], close[:-1]]
+    if gap_sd:
+        open_[::78] = close[::78] / np.exp(rng.normal(0, 0.002, days))  # open near the gapped first close
     high = np.maximum(open_, close) * (1 + rng.uniform(0, 0.001, len(idx)))
     low = np.minimum(open_, close) * (1 - rng.uniform(0, 0.001, len(idx)))
     vol = rng.integers(1_000, 10_000, len(idx))
@@ -136,3 +141,101 @@ def test_live_requires_both_flags(monkeypatch):
     assert not Settings().is_live
     monkeypatch.setenv("LIVE_TRADING_CONFIRM", "I_UNDERSTAND_REAL_MONEY")
     assert Settings().is_live
+
+
+def test_every_strategy_backtests_and_ends_flat():
+    from bot.strategy import STRATEGIES
+
+    frames = {"AAA": synthetic_bars(days=20, seed=1, gap_sd=0.01), "BBB": synthetic_bars(days=20, seed=2, gap_sd=0.01)}
+    for name in STRATEGIES:
+        res = run_backtest(frames, Settings(strategy=name), 25_000)
+        log = res["trade_log"]
+        assert len(log), f"{name} never traded on 20 days of random data"
+        same_day = log["entry_time"].dt.tz_convert(ET).dt.date == log["exit_time"].dt.tz_convert(ET).dt.date
+        assert same_day.all(), name
+
+
+def test_mean_reversion_signals_target_above_entry_and_stop_below():
+    from bot.strategy import bollinger_signal, vwap_reversion_signal
+
+    cfg = Settings()
+    df = add_indicators(synthetic_bars(days=20, seed=5), cfg)
+    for fn in (vwap_reversion_signal, bollinger_signal):
+        sigs = [fn("AAA", df.iloc[: i + 1], cfg) for i in range(30, len(df))]
+        sigs = [s for s in sigs if s is not None]
+        assert sigs, fn.__name__
+        assert all(s.stop < s.price < s.target for s in sigs), fn.__name__
+
+
+def test_unknown_strategy_is_a_clear_error():
+    import pytest
+
+    from bot.strategy import entry_signal
+
+    with pytest.raises(ValueError, match="choose one of"):
+        entry_signal("AAA", add_indicators(synthetic_bars(), Settings()), Settings(strategy="nope"))
+
+
+def test_compare_runs_each_strategy():
+    from bot.compare import compare
+    from bot.strategy import STRATEGIES
+
+    table = compare({"AAA": synthetic_bars(days=20, seed=1)}, Settings(), list(STRATEGIES))
+    assert set(table.index) == set(STRATEGIES)
+
+
+def test_backtest_charges_sell_fees():
+    frames = {"AAA": synthetic_bars(days=20, seed=1)}
+    free = run_backtest(frames, Settings(sec_fee_rate=0, taf_per_share=0), 25_000)
+    paid = run_backtest(frames, Settings(), 25_000)
+    assert paid["fees"] > 0 and free["fees"] == 0
+    assert paid["final_equity"] < free["final_equity"]
+    log = paid["trade_log"]
+    assert abs(paid["final_equity"] - (25_000 + log["pnl"].sum())) < 1e-6
+
+
+def test_taf_is_capped():
+    from bot.backtest import sell_fees
+
+    cfg = Settings(sec_fee_rate=0)
+    assert sell_fees(1_000_000, 10, cfg) == cfg.taf_max
+
+
+def test_daily_levels_use_only_finished_days():
+    df = add_indicators(synthetic_bars(days=3, seed=1), Settings())
+    days = df.index.tz_convert(ET).date
+    first, second = df[days == days[0]], df[days == sorted(set(days))[1]]
+    assert first["prev_high"].isna().all()
+    assert (second["prev_high"] == first["high"].max()).all()
+    assert (second["prev_close"] == first["close"].iloc[-1]).all()
+    assert (second["day_open"] == second["open"].iloc[0]).all()
+
+
+def test_orb_filters_only_remove_trades(monkeypatch):
+    frames = {"AAA": synthetic_bars(days=20, seed=1), "BBB": synthetic_bars(days=20, seed=2)}
+    base = run_backtest(frames, Settings(strategy="orb"), 25_000)["trades"]
+    for kw in [dict(orb_vwap_filter=True), dict(orb_volume_mult=1.5), dict(orb_max_range_pct=0.3), dict(orb_gap="up")]:
+        assert run_backtest(frames, Settings(strategy="orb", **kw), 25_000)["trades"] <= base, kw
+
+
+def test_orb_mid_stop_is_tighter():
+    from bot.strategy import orb_signal
+
+    df = add_indicators(synthetic_bars(days=10, seed=4), Settings())
+    i = int(np.flatnonzero(df["orb_break"].to_numpy())[0])
+    low = orb_signal("AAA", df.iloc[: i + 1], Settings(orb_stop="low"))
+    mid = orb_signal("AAA", df.iloc[: i + 1], Settings(orb_stop="mid"))
+    assert low.stop < mid.stop < mid.price
+
+
+def test_research_scores_in_and_out_of_sample_separately():
+    from bot import research
+
+    frames = {"AAA": synthetic_bars(days=20, seed=1)}
+    split = frames["AAA"].index[len(frames["AAA"]) // 2]
+    research._init(frames, None, split, 25_000)
+    r = research.evaluate(Settings(strategy="orb"))
+    whole = run_backtest(frames, Settings(strategy="orb"), 25_000)
+    assert r["is"]["trades"] + r["oos"]["trades"] == whole["trades"]
+    assert abs(r["is"]["pnl"] + r["oos"]["pnl"] - whole["trade_log"]["pnl"].sum()) < 1e-6
+    assert not research.better(r, r)  # equal is not an improvement

@@ -28,6 +28,11 @@ class Position:
     entry_time: pd.Timestamp
 
 
+def sell_fees(qty: int, price: float, cfg: Settings) -> float:
+    """SEC fee on the sale value plus the FINRA trading activity fee (capped), both charged on sells."""
+    return qty * price * cfg.sec_fee_rate + min(qty * cfg.taf_per_share, cfg.taf_max)
+
+
 def run_backtest(
     frames: dict[str, pd.DataFrame], cfg: Settings, starting_cash: float = 25_000,
     market: pd.DataFrame | None = None,
@@ -56,10 +61,13 @@ def run_backtest(
     def close(p: Position, px: float, t, why: str):
         nonlocal cash
         fill = px * (1 - slip)
-        cash += p.qty * fill - p.qty * cfg.commission_per_share
+        fees = sell_fees(p.qty, fill, cfg)
+        cash += p.qty * fill - p.qty * cfg.commission_per_share - fees
         trades.append({
             "symbol": p.symbol, "entry_time": p.entry_time, "exit_time": t, "qty": p.qty,
-            "entry": p.entry, "exit": fill, "pnl": p.qty * (fill - p.entry) - 2 * p.qty * cfg.commission_per_share,
+            "entry": p.entry, "exit": fill,
+            "pnl": p.qty * (fill - p.entry) - 2 * p.qty * cfg.commission_per_share - fees,
+            "fees": fees + 2 * p.qty * cfg.commission_per_share,
             "exit_reason": why,
         })
         risk.record_exit(p.symbol)
@@ -142,6 +150,7 @@ def summarize(trades: list[dict], curve: list, starting_cash: float) -> dict:
         "max_drawdown": float(dd),
         "final_equity": float(final),
         "avg_trade": float(tdf["pnl"].mean()) if len(tdf) else 0.0,
+        "fees": float(tdf["fees"].sum()) if len(tdf) else 0.0,
         "trade_log": tdf,
         "equity_curve": eq,
     }
@@ -180,7 +189,8 @@ def main() -> None:
     print(f"Profit factor:  {res['profit_factor']:.2f}")
     print(f"Total return:   {res['total_return']:+.2%}")
     print(f"Max drawdown:   {res['max_drawdown']:.2%}")
-    print(f"Avg trade P&L:  ${res['avg_trade']:,.2f}")
+    print(f"Avg trade P&L:  ${res['avg_trade']:,.2f}  (after fees and {cfg.slippage_bps:g} bps slippage each way)")
+    print(f"Fees paid:      ${res['fees']:,.2f}")
     print(f"Final equity:   ${res['final_equity']:,.2f}")
     if res["trades"] < 30:
         print("\nWarning: fewer than 30 trades. This result says almost nothing yet.")

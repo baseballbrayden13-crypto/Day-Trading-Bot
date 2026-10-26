@@ -21,6 +21,8 @@ Options (see `main()` in `bot/backtest.py`):
 | `--cash` | `25000` | Starting equity |
 | `--out` | `backtest_trades.csv` | Trade-by-trade CSV: `symbol,entry_time,exit_time,qty,entry,exit,pnl,exit_reason` |
 
+To compare every strategy on the same data in one table, run `.venv/Scripts/python -m bot.compare --source alpaca --days 180 --cash 5000` (same flags, plus `--strategies` to pick a subset). brayden's paper account is $5,000, so pass `--cash 5000`.
+
 Strategy and risk settings come from `.env` through `bot/config.py` (`STRATEGY`, `ORB_*`, `EMA_*`, `STOP_ATR`, `TARGET_ATR`, `MARKET_FILTER`, `SLIPPAGE_BPS`, ...). To try a setting without editing `.env`, set it as an environment variable for one run only, e.g. `STRATEGY=orb ORB_TARGET_R=1 .venv/Scripts/python -m bot.backtest ...`. Never edit `.env` itself.
 
 Default to `--out` names that don't overwrite earlier results the user may want to keep (e.g. `backtest_trades_<label>.csv`).

@@ -18,6 +18,8 @@ backtest_trades.csv
 backtest_trades_*.csv
 reports/
 state/
+data_cache/
+compare_*.csv
 *.sqlite
 *.db
 
