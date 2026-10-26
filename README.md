@@ -59,6 +59,14 @@ saved to `reports/research_<date>.md`. Nothing in `.env` is changed.
 python -m bot.research --source alpaca --days 1095 --cash 5000
 ```
 
+To try a grid of settings on top of your current `.env` (or your current
+settings on other stocks), use `bot.sweep`. It uses the same cache and split:
+
+```bash
+python -m bot.sweep --set ORB_TARGET_R=1.25,1.5,1.75 --set ORB_GAP_MIN_PCT=0,0.5 --label target-gap
+python -m bot.sweep --symbols AMZN,GOOGL,META,TSLA --label new-stocks
+```
+
 ## Setup (about 10 minutes)
 
 1. **Install Python 3.11+**, then in this folder:

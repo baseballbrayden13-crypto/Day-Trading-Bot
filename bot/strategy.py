@@ -157,9 +157,10 @@ def orb_signal(symbol: str, bars: pd.DataFrame, cfg: Settings) -> Signal | None:
         return None
     if cfg.orb_max_range_pct and (row["or_high"] - row["or_low"]) / price * 100 > cfg.orb_max_range_pct:
         return None
-    if cfg.orb_gap == "up" and not row["day_open"] > row["prev_close"]:
+    gap = (row["day_open"] / row["prev_close"] - 1) * 100  # today's open vs yesterday's close, in %
+    if cfg.orb_gap == "up" and not (gap > 0 and gap >= cfg.orb_gap_min_pct):
         return None
-    if cfg.orb_gap == "down" and not row["day_open"] < row["prev_close"]:
+    if cfg.orb_gap == "down" and not (gap < 0 and -gap >= cfg.orb_gap_min_pct):
         return None
     stop = float(row["or_low"]) if cfg.orb_stop == "low" else float(row["or_high"] + row["or_low"]) / 2
     if not price > stop:

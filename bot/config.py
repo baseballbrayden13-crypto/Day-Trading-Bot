@@ -44,6 +44,7 @@ class Settings:
     orb_volume_mult: float = field(default_factory=lambda: _float("ORB_VOLUME_MULT", 0))  # breakout volume vs 20-bar avg; 0 = off
     orb_max_range_pct: float = field(default_factory=lambda: _float("ORB_MAX_RANGE_PCT", 0))  # skip wider ranges, % of price; 0 = off
     orb_gap: str = field(default_factory=lambda: os.getenv("ORB_GAP", "any").strip().lower())  # any, up or down
+    orb_gap_min_pct: float = field(default_factory=lambda: _float("ORB_GAP_MIN_PCT", 0))  # with ORB_GAP: minimum gap size, %
     gap_min_pct: float = field(default_factory=lambda: _float("GAP_MIN_PCT", 1.0))  # gap_reversal: minimum gap down, %
     ema_fast: int = field(default_factory=lambda: _int("EMA_FAST", 9))
     ema_slow: int = field(default_factory=lambda: _int("EMA_SLOW", 21))

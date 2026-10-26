@@ -239,3 +239,27 @@ def test_research_scores_in_and_out_of_sample_separately():
     assert r["is"]["trades"] + r["oos"]["trades"] == whole["trades"]
     assert abs(r["is"]["pnl"] + r["oos"]["pnl"] - whole["trade_log"]["pnl"].sum()) < 1e-6
     assert not research.better(r, r)  # equal is not an improvement
+
+
+def test_gap_min_pct_needs_a_bigger_gap():
+    from bot.strategy import orb_signal
+
+    df = add_indicators(synthetic_bars(days=20, seed=4, gap_sd=0.01), Settings())
+    for i in np.flatnonzero(df["orb_break"].to_numpy()):
+        row = df.iloc[i]
+        gap = (row["day_open"] / row["prev_close"] - 1) * 100
+        if np.isnan(gap):
+            continue
+        any_down = orb_signal("A", df.iloc[: i + 1], Settings(orb_gap="down"))
+        big_down = orb_signal("A", df.iloc[: i + 1], Settings(orb_gap="down", orb_gap_min_pct=0.5))
+        assert (any_down is not None) == (gap < 0)
+        assert (big_down is not None) == (gap <= -0.5)
+
+
+def test_sweep_parses_a_grid():
+    from bot.sweep import parse_sets
+
+    combos = parse_sets(["ORB_TARGET_R=1,2", "ORB_GAP=any,down", "ORB_VWAP_FILTER=true"], Settings())
+    assert len(combos) == 4
+    assert {"orb_target_r": 2.0, "orb_gap": "down", "orb_vwap_filter": True} in combos
+    assert parse_sets([], Settings()) == [{}]
