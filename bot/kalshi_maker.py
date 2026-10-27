@@ -296,6 +296,7 @@ def main() -> None:
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
                         handlers=[logging.StreamHandler(), logging.FileHandler("kalshi.log")])
+    kl.single_instance("kalshi-maker")  # never two makers on one state file
     cfg = kl.load_settings()
     cfg["max_quotes"] = int(os.getenv("KALSHI_MAX_QUOTES", "3"))
     cfg["quote_min"] = int(os.getenv("KALSHI_QUOTE_MIN", "30"))
