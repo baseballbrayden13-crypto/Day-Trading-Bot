@@ -45,6 +45,9 @@ class Settings:
     orb_max_range_pct: float = field(default_factory=lambda: _float("ORB_MAX_RANGE_PCT", 0))  # skip wider ranges, % of price; 0 = off
     orb_gap: str = field(default_factory=lambda: os.getenv("ORB_GAP", "any").strip().lower())  # any, up or down
     orb_gap_min_pct: float = field(default_factory=lambda: _float("ORB_GAP_MIN_PCT", 0))  # with ORB_GAP: minimum gap size, %
+    # Backtest only (live orders are fixed brackets): once price reaches entry + N x risk, raise the stop.
+    stop_breakeven_r: float = field(default_factory=lambda: _float("STOP_BREAKEVEN_R", 0))  # move stop to entry; 0 = off
+    stop_trail_r: float = field(default_factory=lambda: _float("STOP_TRAIL_R", 0))  # trail stop N x risk under the high; 0 = off
     gap_min_pct: float = field(default_factory=lambda: _float("GAP_MIN_PCT", 1.0))  # gap_reversal: minimum gap down, %
     ema_fast: int = field(default_factory=lambda: _int("EMA_FAST", 9))
     ema_slow: int = field(default_factory=lambda: _int("EMA_SLOW", 21))

@@ -26,6 +26,19 @@ class Position:
     stop: float
     target: float
     entry_time: pd.Timestamp
+    risk: float = 0.0  # entry minus the starting stop, per share
+    high: float = 0.0  # highest price since entry
+
+
+def raise_stop(p: Position, bar_high: float, cfg: Settings) -> None:
+    """Breakeven and trailing stops. Uses this bar's high, so the new stop applies from the next bar."""
+    p.high = max(p.high, bar_high)
+    if p.risk <= 0:
+        return
+    if cfg.stop_breakeven_r and p.high >= p.entry + cfg.stop_breakeven_r * p.risk:
+        p.stop = max(p.stop, p.entry)
+    if cfg.stop_trail_r:
+        p.stop = max(p.stop, p.high - cfg.stop_trail_r * p.risk)
 
 
 def sell_fees(qty: int, price: float, cfg: Settings) -> float:
@@ -90,7 +103,7 @@ def run_backtest(
                 qty = risk.position_size(mark(t), fill, sig.stop)
                 if qty > 0 and qty * fill <= cash:
                     cash -= qty * fill + qty * cfg.commission_per_share
-                    positions[sym] = Position(sym, qty, fill, sig.stop, sig.target, t)
+                    positions[sym] = Position(sym, qty, fill, sig.stop, sig.target, t, fill - sig.stop, fill)
                     risk.record_entry(sym)
 
             # 2. manage open position: stop first (conservative), then target
@@ -104,6 +117,8 @@ def run_backtest(
                     close(p, bar["close"], t, "end of day")
                 elif exit_on_trend_break(df.loc[:t], cfg):
                     close(p, bar["close"], t, "trend break")
+                else:
+                    raise_stop(p, bar["high"], cfg)
 
         risk.check_daily_loss(mark(t))
         if risk.halted:

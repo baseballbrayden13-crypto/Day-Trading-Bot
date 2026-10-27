@@ -1,3 +1,4 @@
+import dataclasses
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -263,3 +264,17 @@ def test_sweep_parses_a_grid():
     assert len(combos) == 4
     assert {"orb_target_r": 2.0, "orb_gap": "down", "orb_vwap_filter": True} in combos
     assert parse_sets([], Settings()) == [{}]
+
+
+def test_breakeven_and_trailing_stops_only_rise():
+    from bot.backtest import Position, raise_stop
+    cfg = dataclasses.replace(Settings(), stop_breakeven_r=1.0, stop_trail_r=1.5)
+    p = Position("X", 10, 100.0, 98.0, 106.0, pd.Timestamp("2026-03-02", tz="UTC"), 2.0, 100.0)
+    raise_stop(p, 101.0, cfg)
+    assert p.stop == 98.0  # not up 1R yet; trail (101 - 3) is still below the stop
+    raise_stop(p, 102.5, cfg)
+    assert p.stop == 100.0  # reached 1R: breakeven
+    raise_stop(p, 104.0, cfg)
+    assert p.stop == 101.0  # trails 1.5R (3.00) under the high
+    raise_stop(p, 103.0, cfg)
+    assert p.stop == 101.0  # never lowered
