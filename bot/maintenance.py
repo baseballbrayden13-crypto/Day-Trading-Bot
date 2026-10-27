@@ -158,7 +158,7 @@ def check_task(bot: Bot, tasks: list[dict], snap: dict, now: datetime) -> list[F
         out.append(Finding(bot.num, "act", "task", f"The market is open but \"{t['name']}\" isn't running "
                            f"(last result: {TASK_CODES.get(code, hex(code))}). Bot 1 can't trade today until it's restarted.",
                            f"Start the task again (Task Scheduler > {t['name']} > Run), and keep its window open."))
-    elif code not in (0, 0x41301, 0x41303):
+    elif state != "Running" and code not in (0, 0x41301, 0x41303):  # while running, Windows still shows the last run's code
         out.append(Finding(bot.num, "act" if bot.always_on else "watch", "task",
                            f"Its last run ended badly: {TASK_CODES.get(code, hex(code))} (code {hex(code)}).",
                            "Read the end of its log. If the window was closed, the bot stopped with it."))

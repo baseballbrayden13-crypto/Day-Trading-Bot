@@ -222,3 +222,10 @@ def test_tasks_parse_single_or_list():
     assert data_bot.scheduled_tasks(lambda: one)[0]["state"] == "Running"
     assert len(data_bot.scheduled_tasks(lambda: "[" + one + "," + one + "]")) == 2
     assert data_bot.scheduled_tasks(lambda: "") == []
+
+
+def test_running_task_ignores_last_runs_code():
+    s = healthy_snapshot()
+    s["clock"]["is_open"] = True
+    s["tasks"] = [{"name": "Trading bot (paper)", "state": "Running", "last_result": 0xC000013A}]  # restarted after a crash
+    assert mt.check_task(FLEET[0], s["tasks"], s, NOW) == []
