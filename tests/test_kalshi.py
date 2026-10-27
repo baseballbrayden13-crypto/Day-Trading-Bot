@@ -273,3 +273,12 @@ def test_too_many_free_trades_means_trade_nothing(monkeypatch, tmp_path):
     cfg = {"budget": D(20), "min_profit": D("0.10"), "step": D("0.25"), "min_settled": 5, "max_found": 10}
     assert kl.trade(api, cfg, many) == set() and api.orders == []
     assert kl.trade(api, cfg, many[:1]) == {"E0"}
+
+
+def test_backtest_raw_edge():
+    from bot import kalshi_backtest as kb
+
+    no = {"A": [(D("0.55"), 1)], "B": [(D("0.60"), 1)]}  # YES bids 0.45 + 0.40 = 0.85
+    assert kb.raw_edge(no, {}, [], True) == D("-0.15")
+    pairs = [({"ticker": "A"}, {"ticker": "B"})]
+    assert kb.raw_edge(no, {"B": [(D("0.40"), 1)]}, pairs, False) == D("0.05")  # 0.45 bid over 0.40 ask
