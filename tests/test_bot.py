@@ -430,3 +430,28 @@ def test_rotation_holds_cash_when_nothing_qualifies_and_accounts_for_costs():
     assert eq.iloc[-1] > 5_000  # holds the rising one
     free = run_rotation({"UP": up, "DOWN": down}, Settings(slippage_bps=0, sec_fee_rate=0, taf_per_share=0), top=1, lookback=3)
     assert free.iloc[-1] > eq.iloc[-1]  # costs are charged
+
+
+def test_rotation_orders_sell_first_and_reach_the_targets():
+    from datetime import date
+    from bot.rotation_live import due, orders_for
+    moves = orders_for({"QQQ": 0.5, "GLD": 0.5}, {"SPY": 3, "QQQ": 1}, {"QQQ": 500.0, "GLD": 250.0, "SPY": 600.0}, 5_000)
+    assert moves == [("SPY", -3), ("GLD", 10), ("QQQ", 4)]  # sells come first
+    assert orders_for({}, {"SPY": 2}, {"SPY": 600.0}, 5_000) == [("SPY", -2)]  # nothing qualifies: all cash
+    assert due(date(2026, 11, 2), {"last_month": "2026-10"}) and not due(date(2026, 11, 20), {"last_month": "2026-11"})
+
+
+def test_rotation_bot_refuses_live_and_ignores_the_orb_env(tmp_path, monkeypatch):
+    from bot import rotation_live
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(rotation_live, "ENV_FILE", tmp_path / ".env.rotation")
+    with pytest.raises(SystemExit, match="missing"):
+        rotation_live.load_settings()
+    (tmp_path / ".env.rotation").write_text("ALPACA_API_KEY=bot2key\nALPACA_SECRET_KEY=bot2secret\n")
+    monkeypatch.setenv("ALPACA_API_KEY", "orbkey")
+    monkeypatch.setenv("LIVE_TRADING", "true")  # set for the ORB bot; must not leak into bot 2
+    cfg = rotation_live.load_settings()
+    assert cfg.alpaca_key == "bot2key" and not cfg.live_trading
+    (tmp_path / ".env.rotation").write_text("ALPACA_API_KEY=k\nLIVE_TRADING=true\n")
+    with pytest.raises(SystemExit, match="paper only"):
+        rotation_live.load_settings()

@@ -67,6 +67,22 @@ python -m bot.sweep --set ORB_TARGET_R=1.25,1.5,1.75 --set ORB_GAP_MIN_PCT=0,0.5
 python -m bot.sweep --symbols AMZN,GOOGL,META,TSLA --label new-stocks
 ```
 
+## Bot 2: monthly ETF rotation (paper)
+
+Once a month it holds the 3 strongest of 15 ETFs over the last 3 months, skipping any
+below their 200-day average (cash instead). Over 2006-2026 that made about 9.6% a year
+vs 11.2% for SPY, with a worst drop of -26% vs -55% (`python -m bot.rotation`).
+It runs on its own Alpaca paper account so it never shares money with ORB:
+
+```
+python set_keys.py --file .env.rotation      # bot 2's paper keys (hidden input)
+python -m bot.rotation_live --dry-run         # what it would hold now; places nothing
+python -m bot.rotation_live                   # rebalances on the first trading day of a month
+```
+
+Schedule `python -m bot.rotation_live` once a day after 9:45am ET; it does nothing
+except on the first trading day of each month.
+
 ## Setup (about 10 minutes)
 
 1. **Install Python 3.11+**, then in this folder:

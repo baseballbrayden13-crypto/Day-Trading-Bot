@@ -26,3 +26,6 @@ compare_*.csv
 # Local Windows shortcut
 *.lnk
 fills/
+.env.rotation
+rotation_state.json
+rotation.log
