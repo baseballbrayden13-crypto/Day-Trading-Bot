@@ -406,3 +406,15 @@ def test_momentum_decides_once_a_day_after_the_first_30_minutes():
     entries = trades["entry_time"].dt.tz_convert(ET)
     assert ((entries.dt.hour == 15) & (entries.dt.minute == 25)).all()  # filled at the open after the 15:20 bar
     assert entries.dt.date.is_unique
+
+
+def test_overnight_trade_returns_include_costs():
+    from bot.overnight import RULES, overnight_trades
+    df = synthetic_daily(days=400, seed=7)
+    free = overnight_trades(df, "every", Settings(slippage_bps=0, sec_fee_rate=0, taf_per_share=0))
+    raw = (df["open"].shift(-1) / df["close"] - 1).dropna()
+    assert free.values == pytest.approx(raw.values)  # no costs: exactly close-to-next-open
+    costly = overnight_trades(df, "every", Settings(slippage_bps=5))
+    assert (costly < free).all()
+    for rule in RULES:  # every rule only picks nights from the full set
+        assert set(overnight_trades(df, rule, Settings()).index) <= set(free.index)
