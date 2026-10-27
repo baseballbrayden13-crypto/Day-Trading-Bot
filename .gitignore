@@ -37,3 +37,5 @@ kalshi_key.pem
 *.pem
 kalshi_data/
 kalshi_state.json
+kalshi_data_demo/
+kalshi_paper_state.json

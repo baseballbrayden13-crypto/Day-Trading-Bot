@@ -207,3 +207,10 @@ def test_backtest_builds_books_from_candles_and_checks_real_payout():
     b = best_ladder(event(), [rung("A100", 100), rung("A105", 105)], no, yes, D(20))
     assert kb.paid(b, {"A100": "yes", "A105": "no"}) == 2 * b.sets  # landed between the rungs: both legs pay
     assert kb.paid(b, {"A100": "no", "A105": "no"}) == b.sets
+
+
+def test_paper_api_fills_without_sending_orders(monkeypatch):
+    api = kl.PaperKalshi()
+    monkeypatch.setattr(api, "request", lambda *a, **k: pytest.fail("paper mode must not call Kalshi for orders"))
+    assert api.order("A", "no", 3, D("0.55")) == 3 and api.balance() > 1000
+    assert api.key is None

@@ -2,6 +2,7 @@
 
     python -m bot.kalshi_live --scan        # read-only sweep of real Kalshi prices, no keys, no orders
     python -m bot.kalshi_live --scorecard   # which series have produced trades so far
+    python -m bot.kalshi_live --paper       # sweep real prices and paper-trade a pretend $20 (no keys, no orders)
     python -m bot.kalshi_live --trade       # sweep, then buy the best baskets on the DEMO account
 
 Each sweep reads every open event (sports, politics, weather, economics, ...), checks every mutually
@@ -386,16 +387,39 @@ def trade(api: Kalshi, cfg: dict, baskets: list[Basket]) -> set[str]:
     return traded
 
 
+class PaperKalshi(Kalshi):
+    """Real Kalshi prices with pretend orders: every order fills in full at its limit, which the
+    sweep has just checked against the full order book. Optimistic about speed (no one else grabs
+    the trade first), honest about price, depth and fees. Never signs a request or sends an order."""
+
+    def __init__(self):
+        super().__init__("prod")
+
+    def balance(self) -> Decimal:
+        return D(10 ** 9)  # the pretend budget in kalshi_paper_state.json is the only limit
+
+    def order(self, ticker, outcome, count, limit, tif="fill_or_kill", reduce_only=False) -> int:
+        log.info("PAPER %s %d %s %s at %s", "sell" if reduce_only else "buy", count, outcome.upper(), ticker, limit)
+        return count
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Kalshi bot: locked-in baskets worth $0.10+ after fees")
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--scan", action="store_true", help="read-only sweep of real Kalshi prices")
     g.add_argument("--trade", action="store_true", help="sweep and trade (demo unless .env.kalshi says otherwise)")
+    g.add_argument("--paper", action="store_true", help="sweep real prices and paper-trade a pretend budget")
     g.add_argument("--scorecard", action="store_true", help="print the series ranking so far")
     ap.add_argument("--loop", type=int, default=0, help="repeat every N minutes instead of once")
     args = ap.parse_args()
+    global DATA, STATE
+    if args.trade:  # demo books are fake, so keep their logs apart from the real-market ones
+        DATA, STATE = Path("kalshi_data_demo"), Path("kalshi_state.json")
+    elif args.paper:
+        STATE = Path("kalshi_paper_state.json")
+    logname = "kalshi_demo.log" if args.trade else "kalshi_paper.log" if args.paper else "kalshi.log"
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
-                        handlers=[logging.StreamHandler(), logging.FileHandler("kalshi.log")])
+                        handlers=[logging.StreamHandler(), logging.FileHandler(logname)])
     cfg = load_settings()
     if args.scorecard:
         path = DATA / "scorecard.csv"
@@ -406,13 +430,17 @@ def main() -> None:
             raise SystemExit("No Kalshi key yet. Run: python set_kalshi_key.py")
         api = Kalshi(cfg["env"], cfg["key_id"], cfg["key_file"])
         log.info("Trading on Kalshi %s, budget $%s, min profit $%s", cfg["env"].upper(), cfg["budget"], cfg["min_profit"])
+    elif args.paper:
+        api = PaperKalshi()
+        log.info("Paper trading on REAL Kalshi prices, pretend budget $%s, min profit $%s", cfg["budget"], cfg["min_profit"])
     else:
         api = Kalshi("prod")  # real prices, public data, never signs or places orders
+    trading = args.trade or args.paper
     while True:
         when = datetime.now(timezone.utc)
-        budget = free_budget(cfg, load_state()) if args.trade else cfg["budget"]
+        budget = free_budget(cfg, load_state()) if trading else cfg["budget"]
         events, baskets = sweep(api, cfg, max(budget, D(0)))
-        traded = trade(api, cfg, baskets) if args.trade else set()
+        traded = trade(api, cfg, baskets) if trading else set()
         log_prices(events, when)
         log_baskets(baskets, traded, when, cfg["min_profit"])
         ranked = update_scorecard(events, baskets, cfg["min_profit"])
