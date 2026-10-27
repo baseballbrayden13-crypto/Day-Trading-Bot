@@ -46,6 +46,16 @@ def sell_fees(qty: int, price: float, cfg: Settings) -> float:
     return qty * price * cfg.sec_fee_rate + min(qty * cfg.taf_per_share, cfg.taf_max)
 
 
+def entry_fill(signal_price: float, bar, cfg: Settings) -> float | None:
+    """Market order: next open plus slippage. Limit order: the limit (or a better open), or no fill."""
+    if cfg.entry_limit_bps < 0:
+        return bar["open"] * (1 + cfg.slippage_bps / 10_000)
+    limit = signal_price * (1 + cfg.entry_limit_bps / 10_000)
+    if bar["low"] > limit:
+        return None  # price ran away; the order expires unfilled
+    return min(bar["open"], limit)
+
+
 def run_backtest(
     frames: dict[str, pd.DataFrame], cfg: Settings, starting_cash: float = 25_000,
     market: pd.DataFrame | None = None,
@@ -99,7 +109,8 @@ def run_backtest(
             # 1. fill entries signalled on the previous bar
             sig = pending.pop(sym, None)
             if sig is not None and sym not in positions:
-                fill = bar["open"] * (1 + slip)
+                fill = entry_fill(sig.price, bar, cfg)
+            if sig is not None and sym not in positions and fill is not None:
                 qty = risk.position_size(mark(t), fill, sig.stop)
                 if qty > 0 and qty * fill <= cash:
                     cash -= qty * fill + qty * cfg.commission_per_share

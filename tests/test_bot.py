@@ -301,3 +301,14 @@ def test_fill_tracker_measures_slippage(tmp_path):
     assert rows[0]["entry_bps"] == pytest.approx(2.0)
     assert rows[0]["exit"] == "stop" and rows[0]["exit_bps"] == pytest.approx(1.01, abs=0.01)
     assert "as good as the backtest" in summary(rows)
+
+
+def test_limit_entries_fill_only_at_or_under_the_limit():
+    from bot.backtest import entry_fill
+    cfg = Settings()
+    bar = {"open": 100.10, "low": 99.95}
+    assert entry_fill(100.0, bar, cfg) == pytest.approx(100.10 * (1 + cfg.slippage_bps / 10_000))  # market
+    lim = dataclasses.replace(cfg, entry_limit_bps=5)
+    assert entry_fill(100.0, bar, lim) == pytest.approx(100.05)  # opened above the limit, dipped back to it
+    assert entry_fill(100.0, {"open": 100.10, "low": 100.08}, lim) is None  # never came back: no fill
+    assert entry_fill(100.0, {"open": 99.90, "low": 99.80}, lim) == pytest.approx(99.90)  # better open
