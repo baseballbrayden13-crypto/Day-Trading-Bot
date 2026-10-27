@@ -5,7 +5,7 @@ maintenance bot (bot.maintenance); the trading bots themselves don't read it.
 Defaults match the 2026-10-27 lineup. To change an account, a folder or a limit without editing
 code, put overrides in fleet.json next to .env, keyed by bot number, e.g.
 
-    {"4": {"home": "C:/Users/baseb/Downloads/kalshi-run"}, "1": {"account": "QIE2"}}
+    {"4": {"home": "C:/Users/baseb/Downloads/kalshi-run"}, "4b": {"home": "C:/.../kalshi-maker"}, "1": {"account": "QIE2"}}
 """
 from __future__ import annotations
 
@@ -37,10 +37,19 @@ class Bot:
     min_trades: int = 30  # fewer closed trades than this says little
     symbols: tuple[str, ...] = ()
     notes: str = ""
+    label: str = ""  # what people call it ("4b"); defaults to the number. fleet.json overrides use it too
+    # Kalshi bots: (mode, data folder, state file, log) for each way it runs
+    runs: tuple[tuple[str, str, str, str], ...] = ()
+    err_log: str = ""  # where its scheduled task sends crashes (stdout goes to the normal log)
+    stale_minutes: int = 0  # a looping bot whose log or summary is older than this has stopped; 0 = use the schedule
     extra: dict = field(default_factory=dict, compare=False, hash=False)
 
     def path(self, name: str) -> Path:
         return Path(self.home) / name
+
+    @property
+    def tag(self) -> str:
+        return self.label or str(self.num)
 
 
 ROTATION_ETFS = ("SPY", "QQQ", "IWM", "EFA", "EEM", "XLK", "XLF", "XLE", "XLV", "XLI", "XLY", "XLP", "XLU", "GLD", "TLT")
@@ -62,9 +71,16 @@ FLEET: list[Bot] = [
         # 12 years BTC/ETH above the 50-day: worst drops -29% to -60%.
         max_drawdown_pct=45.0, max_day_loss_pct=15.0, min_profit_factor=0, min_trades=0,
         symbols=("BTC/USD", "ETH/USD"), notes="Holds a coin only while it closes above its 50-day average."),
-    Bot(4, "Kalshi", "kalshi", ".env.kalshi", "", "kalshi_paper.log", days="daily", runs_at="00:00", task="Kalshi",
+    Bot(4, "Kalshi paper", "kalshi", ".env.kalshi", "", "kalshi_paper.log", days="daily", runs_at="00:00",
+        task="Trading bot 4 (Kalshi, paper)", always_on=True, stale_minutes=180,
+        runs=(("paper", "kalshi_data", "kalshi_paper_state.json", "kalshi_paper.log"),), err_log="kalshi_paper_err.log",
         start_equity=20.0, max_drawdown_pct=10.0, max_day_loss_pct=10.0, min_profit_factor=0, min_trades=0,
-        notes="Locked-in trades only, so any loss means a leg missed or a market was misread."),
+        notes="Real Kalshi prices, pretend $20. Locked-in trades only, so any loss means a leg missed or a market was misread."),
+    Bot(5, "Kalshi maker", "kalshi", ".env.kalshi", "", "kalshi.log", label="4b", home="../kalshi-maker", days="daily",
+        runs_at="00:00", task="Trading bot 4b (Kalshi maker, demo)", always_on=True, stale_minutes=30,
+        runs=(("maker", "kalshi_data", "kalshi_state.json", "kalshi.log"),), err_log="kalshi_maker_err.log",
+        start_equity=20.0, max_drawdown_pct=10.0, max_day_loss_pct=10.0, min_profit_factor=0, min_trades=0,
+        notes="DEMO account. Rests maker bids, sweeps every 5 minutes, so its log should never be quiet for long."),
 ]
 
 
@@ -76,8 +92,8 @@ def load(config: Path = CONFIG) -> list[Bot]:
     names = set(Bot.__dataclass_fields__)
     out = []
     for b in FLEET:
-        o = dict(over.get(str(b.num), {}))
-        known = {k: (tuple(v) if k == "symbols" else v) for k, v in o.items() if k in names and k != "extra"}
+        o = dict(over.get(b.tag, over.get(str(b.num), {})))
+        known = {k: (tuple(tuple(r) for r in v) if k == "runs" else tuple(v) if k == "symbols" else v) for k, v in o.items() if k in names and k != "extra"}
         extra = {k: v for k, v in o.items() if k not in names}
         out.append(replace(b, **known, extra={**b.extra, **extra}))
     return out

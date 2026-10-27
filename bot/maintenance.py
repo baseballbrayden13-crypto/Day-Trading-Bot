@@ -1,10 +1,10 @@
-"""Maintenance bot: checks every bot in the fleet and flags the ones that aren't working or performing.
+"""Medic, the maintenance bot: checks every bot in the fleet and flags the ones that aren't working or performing.
 
     python -m bot.maintenance             # check the data bot's latest snapshot
     python -m bot.maintenance --collect   # run the data bot first, then check
-    python -m bot.maintenance --alert     # also push new "act" findings to the phone (NTFY_TOPIC in .env)
+    python -m bot.maintenance --alert     # also push one summary to the phone (NTFY_TOPIC in .env)
 
-It reads fleet_data/ (written by python -m bot.data_bot) and compares each bot with what its
+It reads fleet_data/ (written by Scout, python -m bot.data_bot) and compares each bot with what its
 backtest says is normal (limits in bot.fleet). Each finding is one of:
 
     ok     nothing to do
@@ -16,7 +16,11 @@ It never changes a bot, its settings or its orders. Fixes that would change how 
 written to fleet_data/proposals.csv in the Strategy Lab Changes-log format (status "Proposed"),
 so each one can be approved, applied and logged with an undo, or ignored.
 
-Writes fleet_data/maintenance.md (the report), maintenance.json and proposals.csv.
+A "watch" that shows up REPEAT_TO_ACT checks in a row becomes "act", and the report lists what is
+new and what got fixed since the last check.
+
+Writes fleet_data/maintenance.md (the report), maintenance.json, proposals.csv, and for the
+Strategy Lab site health.csv (one row per bot) and findings.csv.
 """
 from __future__ import annotations
 
@@ -35,6 +39,7 @@ ET = ZoneInfo("America/New_York")
 OUT = Path("fleet_data")
 LEVELS = ["ok", "info", "watch", "act"]
 STALE_HOURS = 26  # a daily job that is later than this missed a run
+REPEAT_TO_ACT = 3  # checks in a row a "watch" can stay before it becomes "act"
 
 
 @dataclass
@@ -154,9 +159,9 @@ def check_task(bot: Bot, tasks: list[dict], snap: dict, now: datetime) -> list[F
     if state == "Disabled":
         out.append(Finding(bot.num, "act", "task", f"Its Windows task \"{t['name']}\" is disabled, so bot {bot.num} won't run.",
                            "Re-enable it in Task Scheduler if that wasn't on purpose."))
-    if bot.always_on and clock.get("is_open") and state != "Running":
-        out.append(Finding(bot.num, "act", "task", f"The market is open but \"{t['name']}\" isn't running "
-                           f"(last result: {TASK_CODES.get(code, hex(code))}). Bot 1 can't trade today until it's restarted.",
+    if bot.always_on and (clock.get("is_open") or bot.kind == "kalshi") and state != "Running":
+        out.append(Finding(bot.num, "act", "task", f"{'The market is open but ' if bot.kind != 'kalshi' else ''}\"{t['name']}\" isn't running "
+                           f"(last result: {TASK_CODES.get(code, hex(code))}). Bot {bot.tag} can't trade until it's restarted.",
                            f"Start the task again (Task Scheduler > {t['name']} > Run), and keep its window open."))
     elif state != "Running" and code not in (0, 0x41301, 0x41303):  # while running, Windows still shows the last run's code
         out.append(Finding(bot.num, "act" if bot.always_on else "watch", "task",
@@ -300,43 +305,87 @@ def check_performance(bot: Bot, trades: list[dict], s: dict) -> list[Finding]:
 
 
 def check_kalshi(bot: Bot, s: dict, now: datetime) -> list[Finding]:
-    out = []
+    out, n, name = [], bot.num, f"Bot {bot.tag}"
     for e in s.get("errors", []):
-        out.append(Finding(4, "act", "data", f"Kalshi: {e}.", "Run the Kalshi bot at least once, or set bot 4's home folder in fleet.json."))
-    for mode in ("paper", "demo"):
+        out.append(Finding(n, "act", "data", f"{name}: {e}", f"Run it at least once, or set bot {bot.tag}'s home folder in fleet.json."))
+    for mode, *_ in bot.runs:
         m = s.get(mode)
         if not m:
             continue
         summ = m.get("summary") or {}
-        when = _t(summ.get("updated", ""))
-        if when is None or now - when > timedelta(hours=STALE_HOURS):
-            out.append(Finding(4, "act" if mode == "paper" else "watch", "schedule",
-                               f"Kalshi {mode} run last updated {when:%a %m/%d %H:%M}." if when else f"Kalshi {mode} has no summary.json.",
-                               "Check that its loop or scheduled task is still running."))
-        if int(summ.get("stray_positions", 0) or 0):
-            out.append(Finding(4, "act", "stray", f"Kalshi {mode}: {summ['stray_positions']} half-filled positions are still held.",
+        seen = [t for t in (_t(summ.get("updated", "")), _t((m.get("log") or {}).get("modified", ""))) if t]
+        when = max(seen) if seen else None
+        limit = timedelta(minutes=bot.stale_minutes) if bot.stale_minutes else timedelta(hours=STALE_HOURS)
+        if when is None or now - when > limit:
+            out.append(Finding(n, "act", "schedule", f"{name} ({mode}) last wrote anything {when:%a %m/%d %H:%M} ET, "
+                               f"over {limit.total_seconds() / 60:.0f} minutes ago." if when else f"{name} ({mode}) has no log or summary.",
+                               "Its loop has stopped. Check its scheduled task and its _err.log."))
+        stray = int(summ.get("stray_positions", 0) or 0) or m.get("stray", 0)
+        if stray:
+            out.append(Finding(n, "act", "stray", f"{name}: {stray} half-filled positions are still held.",
                                "Check them on Kalshi; the bot couldn't sell them back."))
         if m.get("losing_trades"):
-            out.append(Finding(4, "act", "losses", f"Kalshi {mode}: {m['losing_trades']} 'locked-in' trades lost money. Locked trades can't lose "
+            out.append(Finding(n, "act", "losses", f"{name}: {m['losing_trades']} 'locked-in' trades lost money. Locked trades can't lose "
                                "unless a leg missed or the bot misread a market.", "Read kalshi_data/opportunities.csv for those events.",
-                               proposal=f"Pause Kalshi {mode} trading until the losing trades are explained.", risk="Medium"))
-        eq, start = float(summ.get("equity", 0) or 0), float(summ.get("start_budget", bot.start_equity) or bot.start_equity)
-        if eq and eq < start * (1 - bot.max_drawdown_pct / 100):
-            out.append(Finding(4, "act", "drawdown", f"Kalshi {mode} is at ${eq:.2f} of its ${start:.2f} start."))
+                               proposal=f"Pause {name} until the losing trades are explained.", risk="Medium"))
+        start = float(summ.get("start_budget", bot.start_equity) or bot.start_equity)
+        eq = float(summ.get("equity", 0) or 0) or start + float(m.get("realized", 0) or 0)
+        if eq < start * (1 - bot.max_drawdown_pct / 100):
+            out.append(Finding(n, "act", "drawdown", f"{name} is at ${eq:.2f} of its ${start:.2f} start."))
         if int(summ.get("problems", 0) or 0):
-            out.append(Finding(4, "watch", "errors", f"Kalshi {mode}: {summ['problems']} warnings last loop. Latest: "
+            out.append(Finding(n, "watch", "errors", f"{name}: {summ['problems']} warnings last loop. Latest: "
                                f"{(summ.get('last_problems') or [''])[-1][:200]}"))
-        if mode == "paper" and summ and not m.get("closed") and not m.get("open"):
-            out.append(Finding(4, "info", "performance", "No Kalshi paper trades yet. Expected: the 14-day backtest found 0 taker "
-                               "trades worth $0.10, which is why resting maker bids are being tested on demo."))
+        out += [replace(f, message=f"{name}: {f.message}") for f in check_log(bot, m.get("log") or {})]
+        if not m.get("closed") and not m.get("open"):
+            out.append(Finding(n, "info", "performance", f"No {name} trades yet" + (
+                f"; {m['quotes']} maker quotes resting." if m.get("quotes") else
+                ". Expected: the 14-day backtest found 0 taker trades worth $0.10.")))
+        else:
+            out.append(Finding(n, "info", "return", f"{name}: {m.get('closed', 0)} settled, {m.get('open', 0)} open, "
+                               f"${float(m.get('realized', 0)):+.2f} settled profit."))
     return out
+
+
+def check_crashes(snap: dict, bots: list[Bot], now: datetime) -> list[Finding]:
+    """Scheduled tasks send crashes to *_err.log files; one written to in the last day means a crash."""
+    out = []
+    for e in snap.get("err_logs", []):
+        when = _t(e.get("modified", ""))
+        if when is None or now - when > timedelta(days=1):
+            continue
+        owner = next((b for b in bots if b.err_log and b.err_log == e["file"] and Path(b.home) == Path(e["home"])), None)
+        owner = owner or next((b for b in bots if b.err_log == e["file"]), None)
+        last = next((l for l in reversed(e.get("tail", [])) if l.strip()), "")
+        out.append(Finding(owner.num if owner else 0, "act", "crash",
+                           f"{e['file']} got new crash output at {when:%a %H:%M} ET: {last[:200]}",
+                           "Read that file for the traceback; the bot may have stopped."))
+    return out
+
+
+def check_benchmark(bot: Bot, equity_rows: list[dict], bench: list[dict]) -> list[Finding]:
+    """Compare a bot with just holding its market (bot 2: SPY, bot 3: half BTC, half ETH) since its first day."""
+    pick = {2: ("SPY",), 3: ("BTC/USD", "ETH/USD")}.get(bot.num)
+    rows = sorted((r for r in equity_rows if str(r["bot"]) == str(bot.num)), key=lambda r: r["day"])
+    if not pick or len(rows) < 2:
+        return []
+    first, last = rows[0]["day"], rows[-1]["day"]
+    closes = {(r["day"], r["symbol"]): float(r["close"]) for r in bench}
+    moves = []
+    for sym in pick:
+        days = sorted(d for d, s in closes if s == sym and first <= d <= last)
+        if len(days) < 2:
+            return []
+        moves.append(closes[(days[-1], sym)] / closes[(days[0], sym)] - 1)
+    hold = sum(moves) / len(moves) * 100
+    mine = (float(rows[-1]["equity"]) / float(rows[0]["equity"]) - 1) * 100
+    return [Finding(bot.num, "info", "vs hold", f"Since {first}: bot {mine:+.1f}% vs just holding {' + '.join(pick)} {hold:+.1f}%.")]
 
 
 def check_fleet(snap: dict, bots: list[Bot], now: datetime) -> list[Finding]:
     out = []
     taken = _t(snap.get("taken", ""))
     if taken is None or now - taken > timedelta(hours=STALE_HOURS):
-        out.append(Finding(0, "act", "data", f"The newest fleet data is from {taken:%a %m/%d %H:%M}." if taken else "No fleet data yet.",
+        out.append(Finding(0, "act", "data", f"Scout's newest data is from {taken:%a %m/%d %H:%M}." if taken else "No Scout data yet.",
                            "Run python -m bot.data_bot (or schedule bot.maintenance --collect daily)."))
     seen: dict[str, int] = {}
     for num, s in snap.get("bots", {}).items():
@@ -348,32 +397,58 @@ def check_fleet(snap: dict, bots: list[Bot], now: datetime) -> list[Finding]:
         elif acct:
             seen[acct] = int(num)
     for e in snap.get("errors", []):
-        out.append(Finding(0, "info", "data", f"Data bot: {e}"))
-    return out
+        out.append(Finding(0, "info", "data", f"Scout: {e}"))
+    return out + check_crashes(snap, bots, now)
 
 
-def run_checks(snap: dict, bots: list[Bot], equity_rows: list[dict], trades: list[dict], now: datetime) -> list[Finding]:
+def run_checks(snap: dict, bots: list[Bot], equity_rows: list[dict], trades: list[dict], now: datetime,
+               bench: list[dict] = ()) -> list[Finding]:
     findings = check_fleet(snap, bots, now)
     trading_today = snap.get("clock", {}).get("trading_day")
     for b in bots:
         s = snap.get("bots", {}).get(str(b.num))
         if s is None:
-            findings.append(Finding(b.num, "watch", "data", f"No data for bot {b.num} in the snapshot."))
+            findings.append(Finding(b.num, "watch", "data", f"No Scout data for bot {b.tag} in the snapshot."))
             continue
         if b.kind == "kalshi":
-            findings += check_kalshi(b, s, now)
-            for t in [t for t in snap.get("tasks", []) if "kalshi" in t.get("name", "").lower()]:  # paper bot, maker test, ...
-                findings += check_task(replace(b, task=t["name"]), [t], snap, now)
+            findings += check_kalshi(b, s, now) + check_task(b, snap.get("tasks", []), snap, now)
             continue
         tasks = snap.get("tasks", [])
         found = check_connection(b, s) + check_task(b, tasks, snap, now)
         found += check_schedule(b, s, now, trading_today, find_task(b, tasks)) + check_log(b, s.get("log") or {})
         found += check_risk(b, s, equity_rows) + check_holdings(b, s, snap, now) + check_performance(b, trades, s)
+        found += check_benchmark(b, equity_rows, bench)
         findings += found
     return findings
 
 
 # ---------------------------------------------------------------- output
+
+def key(f: Finding) -> str:
+    return f"{f.bot}|{f.check}"
+
+
+def escalate(findings: list[Finding], streaks_path: Path) -> list[Finding]:
+    """A 'watch' seen REPEAT_TO_ACT checks in a row is no longer a blip: make it 'act'."""
+    old = json.loads(streaks_path.read_text()) if streaks_path.exists() else {}
+    streaks, out = {}, []
+    for f in findings:
+        if f.level == "watch":
+            n = streaks[key(f)] = old.get(key(f), 0) + 1
+            if n >= REPEAT_TO_ACT:
+                f = replace(f, level="act", message=f"{f.message} (Flagged {n} checks in a row.)")
+        out.append(f)
+    streaks_path.write_text(json.dumps(streaks, indent=1))
+    return out
+
+
+def changes(findings: list[Finding], previous: list[dict]) -> tuple[list[Finding], list[dict]]:
+    """(new problems, problems from last check that are gone). Problems = watch or act."""
+    before = {f"{p['bot']}|{p['check']}": p for p in previous if p["level"] in ("watch", "act")}
+    now = {key(f) for f in findings if f.level in ("watch", "act")}
+    new = [f for f in findings if f.level in ("watch", "act") and key(f) not in before]
+    return new, [p for k, p in before.items() if k not in now]
+
 
 def status(findings: list[Finding], num: int) -> str:
     levels = [f.level for f in findings if f.bot == num]
@@ -383,9 +458,26 @@ def status(findings: list[Finding], num: int) -> str:
 LABEL = {"ok": "OK", "info": "OK", "watch": "WATCH", "act": "NEEDS ACTION"}
 
 
-def report(findings: list[Finding], bots: list[Bot], now: datetime) -> str:
-    lines = [f"# Fleet maintenance report, {now.astimezone(ET):%a %b %d %Y %H:%M} ET", ""]
-    for num, name in [(0, "Whole fleet")] + [(b.num, f"Bot {b.num}: {b.name}") for b in bots]:
+def names(bots: list[Bot]) -> dict[int, str]:
+    return {0: "Whole fleet"} | {b.num: f"Bot {b.tag}: {b.name}" for b in bots}
+
+
+def headline(findings: list[Finding], num: int) -> str:
+    worst = sorted((f for f in findings if f.bot == num), key=lambda f: -LEVELS.index(f.level))
+    if not worst or worst[0].level in ("ok", "info"):
+        return "Running normally."
+    return worst[0].message
+
+
+def report(findings: list[Finding], bots: list[Bot], now: datetime, new: list[Finding] = (), fixed: list[dict] = ()) -> str:
+    title = names(bots)
+    lines = [f"# Medic report, {now.astimezone(ET):%a %b %d %Y %H:%M} ET", ""]
+    if new or fixed:
+        lines.append("## Since the last check")
+        lines += [f"- New: {title.get(f.bot, f.bot).split(':')[0]}: {f.message}" for f in new]
+        lines += [f"- Fixed: {title.get(p['bot'], p['bot']).split(':')[0]}: {p['message']}" for p in fixed]
+        lines.append("")
+    for num, name in title.items():
         mine = sorted((f for f in findings if f.bot == num), key=lambda f: -LEVELS.index(f.level))
         if num == 0 and not mine:
             continue
@@ -397,17 +489,40 @@ def report(findings: list[Finding], bots: list[Bot], now: datetime) -> str:
         if not mine:
             lines.append("- Nothing to report.")
         lines.append("")
-    lines.append("This bot only reads. Proposed changes are in fleet_data/proposals.csv; none were applied.")
+    lines.append("Medic only reads. Proposed changes are in fleet_data/proposals.csv; none were applied.")
     return "\n".join(lines)
 
 
 def proposals(findings: list[Finding], bots: list[Bot], now: datetime) -> list[dict]:
     """Changes-log rows (id,date,area,title,what,why,status,risk,undo) for brayden to approve or ignore."""
-    names = {b.num: f"Bot {b.num}" for b in bots} | {0: "Fleet"}
-    return [{"id": "", "date": now.astimezone(ET).date().isoformat(), "area": names.get(f.bot, "Fleet"), "title": f.proposal,
+    area = {b.num: f"Bot {b.tag}" for b in bots} | {0: "Fleet"}
+    return [{"id": "", "date": now.astimezone(ET).date().isoformat(), "area": area.get(f.bot, "Fleet"), "title": f.proposal,
              "what": f.proposal, "why": f.message, "status": "Proposed", "risk": f.risk,
              "undo": "Not applied yet. If approved, the change is logged here with its own undo."}
             for f in findings if f.proposal]
+
+
+def site_rows(findings: list[Finding], bots: list[Bot], now: datetime) -> tuple[list[dict], list[dict]]:
+    """health.csv (one row per bot) and findings.csv, for the Strategy Lab site."""
+    checked = now.isoformat(timespec="seconds")
+    tags = {0: "fleet"} | {b.num: b.tag for b in bots}
+    health = [{"checked": checked, "bot": n, "label": tags[n], "name": names(bots)[n].split(": ")[-1],
+               "status": status(findings, n), "headline": headline(findings, n)} for n in tags]
+    rows = [{"checked": checked, "bot": f.bot, "label": tags.get(f.bot, f.bot), "level": f.level, "check": f.check,
+             "message": f.message, "fix": f.fix} for f in findings]
+    return health, rows
+
+
+def digest(findings: list[Finding], bots: list[Bot], new: list[Finding]) -> tuple[str, str, str]:
+    """One phone message per run: (title, text, priority). Loud only when something new needs action."""
+    bad = [(n, status(findings, n)) for n in [0] + [b.num for b in bots] if status(findings, n) in ("watch", "act")]
+    tags = {0: "fleet"} | {b.num: f"bot {b.tag}" for b in bots}
+    if not bad:
+        return "Medic: all bots OK", f"All {len(bots)} bots checked, nothing needs you.", "low"
+    acts = [n for n, st in bad if st == "act"]
+    title = f"Medic: {len(acts)} need action" if acts else f"Medic: {len(bad)} to watch"
+    text = "; ".join(f"{tags[n]}: {headline(findings, n)}" for n, _ in bad)
+    return title, text[:900], "high" if any(f.level == "act" for f in new) else "default"
 
 
 def new_alerts(findings: list[Finding], sent_path: Path, now: datetime) -> list[Finding]:
@@ -433,10 +548,17 @@ def _read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
+def _write_csv(path: Path, rows: list[dict], fields: list[str]) -> None:
+    with path.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fields)
+        w.writeheader()
+        w.writerows(rows)
+
+
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Maintenance bot: check every bot (read-only)")
-    ap.add_argument("--collect", action="store_true", help="run the data bot first")
-    ap.add_argument("--alert", action="store_true", help="push new 'act' findings to the phone")
+    ap = argparse.ArgumentParser(description="Medic, the maintenance bot: check every bot (read-only)")
+    ap.add_argument("--collect", action="store_true", help="run Scout (the data bot) first")
+    ap.add_argument("--alert", action="store_true", help="push one summary to the phone")
     args = ap.parse_args()
     bots = load()
     now = datetime.now(timezone.utc)
@@ -446,19 +568,23 @@ def main() -> None:
         data_bot.save(data_bot.collect(bots, now))
     snap_path = OUT / "snapshot.json"
     snap = json.loads(snap_path.read_text()) if snap_path.exists() else {}
-    findings = run_checks(snap, bots, _read_csv(OUT / "equity.csv"), _read_csv(OUT / "trades.csv"), now)
     OUT.mkdir(exist_ok=True)
-    text = report(findings, bots, now)
+    findings = run_checks(snap, bots, _read_csv(OUT / "equity.csv"), _read_csv(OUT / "trades.csv"), now,
+                          _read_csv(OUT / "benchmarks.csv"))
+    findings = escalate(findings, OUT / "medic_streaks.json")
+    last_path = OUT / "maintenance.json"
+    previous = json.loads(last_path.read_text()).get("findings", []) if last_path.exists() else []
+    new, fixed = changes(findings, previous)
+    text = report(findings, bots, now, new, fixed)
     (OUT / "maintenance.md").write_text(text, encoding="utf-8")
-    (OUT / "maintenance.json").write_text(json.dumps({
+    last_path.write_text(json.dumps({
         "checked": now.isoformat(timespec="seconds"),
         "status": {str(n): status(findings, n) for n in [0] + [b.num for b in bots]},
         "findings": [asdict(f) for f in findings]}, indent=1))
-    rows = proposals(findings, bots, now)
-    with (OUT / "proposals.csv").open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, ["id", "date", "area", "title", "what", "why", "status", "risk", "undo"])
-        w.writeheader()
-        w.writerows(rows)
+    _write_csv(OUT / "proposals.csv", proposals(findings, bots, now), ["id", "date", "area", "title", "what", "why", "status", "risk", "undo"])
+    health, rows = site_rows(findings, bots, now)
+    _write_csv(OUT / "health.csv", health, ["checked", "bot", "label", "name", "status", "headline"])
+    _write_csv(OUT / "findings.csv", rows, ["checked", "bot", "label", "level", "check", "message", "fix"])
     print(text)
     if args.alert:
         from dotenv import dotenv_values
@@ -466,8 +592,9 @@ def main() -> None:
         from .notify import send
 
         topic = (dotenv_values(".env").get("NTFY_TOPIC") or "").strip() if Path(".env").exists() else ""
-        for f in new_alerts(findings, OUT / "alerted.json", now):
-            send(SimpleNamespace(ntfy_topic=topic), f"Bot {f.bot or 'fleet'} needs attention", f"{f.message} {f.fix}"[:400], "high")
+        fresh = new_alerts(findings, OUT / "alerted.json", now)
+        title, body, priority = digest(findings, bots, fresh)
+        send(SimpleNamespace(ntfy_topic=topic), title, body, priority)
 
 
 if __name__ == "__main__":

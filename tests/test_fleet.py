@@ -97,7 +97,8 @@ def test_collect_reads_accounts_orders_logs_and_kalshi(tmp_path):
     data_bot.save(snap, out)  # a second run the same day doesn't duplicate rows
     eq = data_bot._read_csv(out / "equity.csv")
     assert {(r["day"], r["bot"]) for r in eq} == {("2026-10-26", "1"), ("2026-10-26", "2"), ("2026-10-27", "1"),
-                                                   ("2026-10-27", "2"), ("2026-10-27", "4")}
+                                                   ("2026-10-27", "2"), ("2026-10-27", "4"),
+                                                   ("2026-10-27", "5")}
     assert len(data_bot._read_csv(out / "trades.csv")) == 2
     assert (out / "history" / "2026-10-27.json").exists()
 
@@ -124,6 +125,9 @@ def healthy_snapshot():
             "3": {"account": acct("KTS7"), "positions": [{"symbol": "BTCUSD"}], "log": log, "errors": []},
             "4": {"paper": {"summary": {"updated": NOW.isoformat(), "equity": "20", "start_budget": "20", "problems": 0},
                             "closed": 0, "open": 0, "losing_trades": 0}, "errors": []},
+            "5": {"maker": {"summary": None, "realized": 0.0, "closed": 0, "open": 0, "losing_trades": 0, "quotes": 2,
+                            "log": {"exists": True, "modified": (NOW - timedelta(minutes=4)).isoformat(), "errors_24h": 0}},
+                  "errors": []},
         },
     }
 
@@ -200,13 +204,15 @@ def test_scheduled_task_checks():
     s["clock"]["is_open"] = True
     s["tasks"] = [{"name": "Trading bot (paper)", "state": "Ready", "last_result": 0xC000013A},
                   {"name": "Trading bot 2 (rotation, paper)", "state": "Ready", "last_result": 0},
-                  {"name": "Kalshi paper bot", "state": "Ready", "last_result": 0xC000013A}]
+                  {"name": "Trading bot 4 (Kalshi, paper)", "state": "Ready", "last_result": 0xC000013A},
+                  {"name": "Trading bot 4b (Kalshi maker, demo)", "state": "Running", "last_result": 0x41301}]
     s["bots"]["1"]["log"] = {**s["bots"]["1"]["log"], "modified": datetime(2026, 10, 27, 9, 30, tzinfo=ET).isoformat()}  # quiet loop log is fine
     f = mt.run_checks(s, FLEET, [], [], NOW)
     task1 = [x for x in f if x.bot == 1 and x.check == "task"]
     assert len(task1) == 1 and task1[0].level == "act" and "window was closed" in task1[0].message
     assert not [x for x in f if x.bot == 1 and x.check == "schedule"]
-    assert [x.level for x in f if x.bot == 4 and x.check == "task"] == ["watch"]
+    assert [x.level for x in f if x.bot == 4 and x.check == "task"] == ["act"]  # a Kalshi loop should always run
+    assert not [x for x in f if x.bot == 5 and x.check == "task"]
     assert not [x for x in f if x.bot == 2 and x.level in ("watch", "act")]
 
 
@@ -229,3 +235,47 @@ def test_running_task_ignores_last_runs_code():
     s["clock"]["is_open"] = True
     s["tasks"] = [{"name": "Trading bot (paper)", "state": "Running", "last_result": 0xC000013A}]  # restarted after a crash
     assert mt.check_task(FLEET[0], s["tasks"], s, NOW) == []
+
+
+def test_repeated_watch_becomes_act(tmp_path):
+    p = tmp_path / "streaks.json"
+    w = [mt.Finding(2, "watch", "holdings", "mismatch")]
+    assert [f.level for f in mt.escalate(w, p)] == ["watch"]
+    assert [f.level for f in mt.escalate(w, p)] == ["watch"]
+    assert [f.level for f in mt.escalate(w, p)] == ["act"]
+    mt.escalate([], p)  # cleared once it goes away
+    assert [f.level for f in mt.escalate(w, p)] == ["watch"]
+
+
+def test_new_and_fixed_since_last_check():
+    prev = [{"bot": 1, "check": "task", "level": "act", "message": "window closed"}]
+    new, fixed = mt.changes([mt.Finding(3, "watch", "holdings", "x"), mt.Finding(1, "info", "return", "y")], prev)
+    assert [f.bot for f in new] == [3] and fixed[0]["message"] == "window closed"
+
+
+def test_crash_log_is_flagged_on_its_bot():
+    s = healthy_snapshot()
+    s["err_logs"] = [{"home": ".", "file": "kalshi_paper_err.log", "modified": (NOW - timedelta(hours=1)).isoformat(),
+                      "tail": ["Traceback ...", "KeyError: 'x'"]},
+                     {"home": ".", "file": "old_err.log", "modified": (NOW - timedelta(days=3)).isoformat(), "tail": ["x"]}]
+    crashes = [f for f in mt.run_checks(s, FLEET, [], [], NOW) if f.check == "crash"]
+    assert len(crashes) == 1 and crashes[0].bot == 4 and crashes[0].level == "act" and "KeyError" in crashes[0].message
+
+
+def test_bot_compared_with_just_holding():
+    eq = [{"day": "2026-10-01", "bot": "3", "equity": "5000"}, {"day": "2026-10-20", "bot": "3", "equity": "5500"}]
+    bench = [{"day": d, "symbol": s, "close": c} for d, s, c in
+             [("2026-10-01", "BTC/USD", 100), ("2026-10-20", "BTC/USD", 120), ("2026-10-01", "ETH/USD", 10), ("2026-10-20", "ETH/USD", 10)]]
+    f = mt.check_benchmark(FLEET[2], eq, bench)
+    assert f and "+10.0%" in f[0].message and "+10.0%" in f[0].message.split("holding")[1]
+
+
+def test_digest_and_site_rows():
+    f = mt.run_checks(healthy_snapshot(), FLEET, [], [], NOW)
+    assert mt.digest(f, FLEET, [])[0] == "Medic: all bots OK"
+    bad = f + [mt.Finding(1, "act", "task", "Bot 1 isn't running.")]
+    title, text, prio = mt.digest(bad, FLEET, [bad[-1]])
+    assert title == "Medic: 1 need action" and "bot 1: Bot 1 isn't running." in text and prio == "high"
+    health, rows = mt.site_rows(bad, FLEET, NOW)
+    assert [h["label"] for h in health] == ["fleet", "1", "2", "3", "4", "4b"]
+    assert health[1]["status"] == "act" and health[2]["headline"] == "Running normally."

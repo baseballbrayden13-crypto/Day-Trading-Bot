@@ -1,4 +1,4 @@
-"""Data bot: gathers everything the fleet's bots and their reviewers need, in one place.
+"""Scout, the data bot: gathers everything the fleet's bots and their reviewers need, in one place.
 
     python -m bot.data_bot              # collect now, write fleet_data/
     python -m bot.data_bot --days 60    # look further back for orders and log errors
@@ -17,7 +17,8 @@ Writes, in fleet_data/:
     positions.csv         what each bot holds right now
     market.csv            per symbol: last close, 1-day / 1-month change, above its 200-day average, volatility
     news.csv              last day's headlines for bot 1's stocks
-The maintenance bot (python -m bot.maintenance) reads these.
+    benchmarks.csv        day,symbol,close for SPY, BTC and ETH: what just holding would have done
+Medic, the maintenance bot (python -m bot.maintenance), reads these.
 """
 from __future__ import annotations
 
@@ -141,7 +142,7 @@ def _json(path: Path):
 
 
 def alpaca_bot(bot: Bot, client, now: datetime, days: int) -> dict:
-    out: dict = {"name": bot.name, "kind": bot.kind, "errors": []}
+    out: dict = {"name": bot.name, "label": bot.tag, "kind": bot.kind, "errors": []}
     for key, fn in (("account", lambda: account(client)), ("positions", lambda: positions(client)),
                     ("orders", lambda: filled_orders(client, now - timedelta(days=days))),
                     ("equity_history", lambda: equity_history(client))):
@@ -177,20 +178,38 @@ def fills(bot: Bot, client, now: datetime, days: int) -> dict:
 # ---------------------------------------------------------------- Kalshi
 
 def kalshi_bot(bot: Bot, now: datetime, days: int) -> dict:
-    """Bot 4 writes its own summaries; the data bot only reads them (Kalshi is blocked from the cloud anyway)."""
-    out: dict = {"name": bot.name, "kind": "kalshi", "errors": []}
-    for mode, folder, state, logname in (("paper", "kalshi_data", "kalshi_paper_state.json", "kalshi_paper.log"),
-                                         ("demo", "kalshi_data_demo", "kalshi_state.json", "kalshi_demo.log")):
+    """Kalshi bots write their own state (and the paper bot a summary); Scout only reads them
+    (Kalshi is blocked from the cloud anyway)."""
+    out: dict = {"name": bot.name, "label": bot.tag, "kind": "kalshi", "start": bot.start_equity, "errors": []}
+    for mode, folder, state, logname in bot.runs:
         summary = _json(bot.path(folder) / "summary.json")
         st = _json(bot.path(state))
-        if summary is None and st is None:
+        lg = log_health(bot.path(logname), now, days)
+        if summary is None and st is None and not lg.get("exists"):
             continue
-        losses = [c for c in (st or {}).get("closed", []) if _f(c.get("pnl")) < 0]
-        out[mode] = {"summary": summary, "realized": _f((st or {}).get("realized")),
-                     "open": len((st or {}).get("open", [])), "closed": len((st or {}).get("closed", [])),
-                     "losing_trades": len(losses), "log": log_health(bot.path(logname), now, days)}
-    if "paper" not in out and "demo" not in out:
-        out["errors"].append(f"no Kalshi summary or state files in {bot.home}")
+        st = st if isinstance(st, dict) and "error" not in st else {}
+        losses = [c for c in st.get("closed", []) if _f(c.get("pnl")) < 0]
+        out[mode] = {"summary": summary, "realized": _f(st.get("realized")), "open": len(st.get("open", [])),
+                     "closed": len(st.get("closed", [])), "losing_trades": len(losses),
+                     "stray": sum(1 for b in st.get("open", []) if b.get("sets", 1) == 0),
+                     "quotes": len(st.get("quotes", [])), "log": lg}
+    if not any(m in out for m, *_ in bot.runs):
+        out["errors"].append(f"no Kalshi summary, state or log files in folder '{bot.home}'")
+    return out
+
+
+def err_logs(bots: list[Bot], now: datetime) -> list[dict]:
+    """Every *_err.log next to the bots: a scheduled task sends crashes there (normal output goes to stdout)."""
+    out, seen = [], set()
+    for home in dict.fromkeys(b.home for b in bots):
+        for p in sorted(Path(home).glob("*_err.log")):
+            if p.resolve() in seen or not p.stat().st_size:
+                continue
+            seen.add(p.resolve())
+            lines = p.read_text(encoding="utf-8", errors="ignore").splitlines()
+            out.append({"home": home, "file": p.name, "size": p.stat().st_size,
+                        "modified": datetime.fromtimestamp(p.stat().st_mtime, ET).isoformat(timespec="seconds"),
+                        "tail": [l[:300] for l in lines[-5:]]})
     return out
 
 
@@ -251,6 +270,14 @@ def headlines(symbols: list[str], key: str, secret: str, now: datetime) -> list[
     return out
 
 
+BENCHMARKS = ("SPY", "BTC/USD", "ETH/USD")
+
+
+def bench_rows(closes, symbols) -> list[dict]:
+    return [{"day": (t.date() if hasattr(t, "date") else t).isoformat(), "symbol": sym, "close": round(float(v), 4)}
+            for sym in symbols if sym in closes.columns for t, v in closes[sym].dropna().items()]
+
+
 def market(bots: list[Bot], now: datetime) -> tuple[dict, list[str]]:
     errors: list[str] = []
     key = secret = ""
@@ -261,10 +288,12 @@ def market(bots: list[Bot], now: datetime) -> tuple[dict, list[str]]:
                 break
     stocks = sorted({s for b in bots for s in b.symbols if "/" not in s})
     coins = sorted({s for b in bots for s in b.symbols if "/" in s})
-    rows, news = [], []
+    rows, news, bench = [], [], []
     if key:
         try:
-            rows += market_rows(stock_closes(stocks, key, secret, now))
+            closes = stock_closes(stocks, key, secret, now)
+            rows += market_rows(closes)
+            bench += bench_rows(closes, BENCHMARKS)
         except Exception as e:
             errors.append(f"stock prices: {type(e).__name__}: {e}"[:300])
         try:
@@ -275,7 +304,9 @@ def market(bots: list[Bot], now: datetime) -> tuple[dict, list[str]]:
         errors.append("stock prices: no Alpaca keys found in any bot's env file")
     if coins:
         try:
-            rows += market_rows(crypto_closes(coins, now))
+            closes = crypto_closes(coins, now)
+            rows += market_rows(closes)
+            bench += bench_rows(closes, BENCHMARKS)
         except Exception as e:
             errors.append(f"crypto prices: {type(e).__name__}: {e}"[:300])
     spy = next((r for r in rows if r["symbol"] == "SPY"), None)
@@ -283,7 +314,7 @@ def market(bots: list[Bot], now: datetime) -> tuple[dict, list[str]]:
     if spy:
         regime = {"spy_above_200d": spy["above_200d"], "spy_vol_20d_pct": spy["vol_20d_pct"],
                   "calm": spy["vol_20d_pct"] is not None and spy["vol_20d_pct"] < 20}
-    return {"symbols": rows, "news": news, "regime": regime}, errors
+    return {"symbols": rows, "news": news, "regime": regime, "benchmarks": bench}, errors
 
 
 def market_clock(client, now: datetime) -> dict:
@@ -336,6 +367,10 @@ def collect(bots: list[Bot], now: datetime, days: int = 30, with_market: bool = 
         snap["tasks"] = tasks()
     except Exception as e:
         snap["errors"].append(f"scheduled tasks: {type(e).__name__}: {e}"[:300])
+    try:
+        snap["err_logs"] = err_logs(bots, now)
+    except Exception as e:
+        snap["errors"].append(f"crash logs: {type(e).__name__}: {e}"[:300])
     clock_done = False
     for b in bots:
         if b.kind == "kalshi":
@@ -344,7 +379,7 @@ def collect(bots: list[Bot], now: datetime, days: int = 30, with_market: bool = 
         try:
             client = client_for(b)
         except Exception as e:
-            snap["bots"][str(b.num)] = {"name": b.name, "kind": b.kind, "errors": [f"connect: {e}"[:300]],
+            snap["bots"][str(b.num)] = {"name": b.name, "label": b.tag, "kind": b.kind, "errors": [f"connect: {e}"[:300]],
                                         "log": log_health(b.path(b.log_file), now, days)}
             continue
         snap["bots"][str(b.num)] = alpaca_bot(b, client, now, days)
@@ -377,10 +412,12 @@ def _read_csv(path: Path) -> list[dict]:
 def bot_equity(snap_bot: dict) -> float | None:
     if "account" in snap_bot:
         return snap_bot["account"]["equity"]
-    for mode in ("paper", "demo"):  # Kalshi: the paper test is the one that counts
-        s = (snap_bot.get(mode) or {}).get("summary") or {}
-        if "equity" in s:
-            return _f(s["equity"])
+    for mode in ("paper", "maker", "demo"):  # Kalshi: its summary, else start + settled profit
+        m = snap_bot.get(mode)
+        if not m:
+            continue
+        s = m.get("summary") or {}
+        return _f(s["equity"]) if "equity" in s else snap_bot.get("start", 0) + m.get("realized", 0)
     return None
 
 
@@ -415,10 +452,13 @@ def save(snap: dict, out: Path = OUT) -> None:
     _write_csv(out / "market.csv", m.get("symbols", []),
                ["symbol", "day", "close", "chg_1d_pct", "chg_1m_pct", "above_50d", "above_200d", "vol_20d_pct"])
     _write_csv(out / "news.csv", m.get("news", []), ["symbol", "time", "headline", "source"])
+    bench = {(r["day"], r["symbol"]): r for r in _read_csv(out / "benchmarks.csv")}
+    bench.update({(r["day"], r["symbol"]): r for r in m.get("benchmarks", [])})
+    _write_csv(out / "benchmarks.csv", sorted(bench.values(), key=lambda r: (r["day"], r["symbol"])), ["day", "symbol", "close"])
 
 
 def describe(snap: dict) -> str:
-    lines = [f"Fleet data at {snap['taken']}"]
+    lines = [f"Scout: fleet data at {snap['taken']}"]
     for num, b in snap["bots"].items():
         eq = bot_equity(b)
         held = ", ".join(p["symbol"] for p in b.get("positions", [])) or "nothing"
@@ -427,7 +467,7 @@ def describe(snap: dict) -> str:
             bits.append(f"{len(b['orders'])} fills")
         if b.get("errors"):
             bits.append(f"{len(b['errors'])} errors")
-        lines.append(f"  Bot {num} {b['name']}: " + ", ".join(bits))
+        lines.append(f"  Bot {b.get('label', num)} {b['name']}: " + ", ".join(bits))
     if snap.get("market", {}).get("regime"):
         r = snap["market"]["regime"]
         lines.append(f"  Market: SPY {'above' if r['spy_above_200d'] else 'below'} its 200-day average, "
@@ -438,7 +478,7 @@ def describe(snap: dict) -> str:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Data bot: collect fleet data (read-only)")
+    ap = argparse.ArgumentParser(description="Scout, the data bot: collect fleet data (read-only)")
     ap.add_argument("--days", type=int, default=30)
     ap.add_argument("--no-market", action="store_true")
     args = ap.parse_args()

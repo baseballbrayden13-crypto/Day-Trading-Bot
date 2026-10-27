@@ -118,9 +118,10 @@ skips trades that tie money up longer), `KALSHI_STEP` (0.25: the budget steps up
 profits grow it 25%, after `KALSHI_MIN_SETTLED`=5 paid-out baskets). Real money needs `KALSHI_ENV=prod` and
 `KALSHI_LIVE_CONFIRM=I_UNDERSTAND_REAL_MONEY`.
 
-## Helper bots: data and maintenance (read-only)
+## Helper bots: Scout (data) and Medic (diagnostics), read-only
 
-Two bots that look after the trading bots. Neither places, cancels or closes an order, and neither
+Two bots that look after the trading bots: **Scout** (`bot.data_bot`) gathers the data and
+**Medic** (`bot.maintenance`) checks every bot with it. Neither places, cancels or closes an order, and neither
 edits a `.env` file. The fleet (which bot uses which keys, log, account and backtest limits) is in
 `bot/fleet.py`; override any of it without touching code in `fleet.json`, e.g.
 `{"4": {"home": "C:/Users/baseb/Downloads/kalshi-run"}}` if the Kalshi bot runs in another folder.
@@ -131,18 +132,22 @@ python -m bot.maintenance --collect        # collect, then check every bot -> fl
 python -m bot.maintenance --collect --alert  # same, and push new problems to the phone (NTFY_TOPIC)
 ```
 
-The **data bot** writes `fleet_data/snapshot.json` (everything from the run), `equity.csv` (one row
+**Scout** writes `fleet_data/snapshot.json` (everything from the run), `equity.csv` (one row
 per bot per day, same columns as the Strategy Lab equity data), `trades.csv` (every fill, all
 bots), `positions.csv`, `market.csv` (trend and volatility for every symbol the fleet trades) and
-`news.csv`. One failing source (bad keys, network) is recorded and the rest still run.
+`news.csv` and `benchmarks.csv` (SPY, BTC and ETH, to compare each bot with just holding). It also
+reads each bot's Windows task and any `*_err.log` crash file. One failing source (bad keys, network) is recorded and the rest still run.
 
-The **maintenance bot** grades each bot ok / info / watch / act: keys rejected or missing, keys on
+**Medic** grades each bot (including the Kalshi maker, "bot 4b") ok / info / watch / act: keys rejected or missing, keys on
 the wrong account or two bots on one account, a missed scheduled run, errors in the log, a LIVE
 connection, a day loss or drop from peak past the backtest's worst, bot 1 holding after the close,
 bot 2/3 holdings that don't match their rules, bot 1's profit factor and real slippage once there
 are enough trades, and Kalshi stray positions or losing "locked-in" trades. Every finding says
 what to do. Fixes that would change how a bot trades go to `fleet_data/proposals.csv` in the
-Strategy Lab Changes-log format (status "Proposed"); nothing is applied without an OK.
+Strategy Lab Changes-log format (status "Proposed"); nothing is applied without an OK. A "watch"
+that repeats 3 checks in a row becomes "act", the report starts with what's new and what got fixed
+since the last check, `--alert` sends one summary push per run, and `health.csv` / `findings.csv`
+feed the Strategy Lab site.
 
 On Windows it also reads each bot's scheduled task (running or not, last result code), which
 catches a bot whose window was closed even when its log looks fine. Schedule it once a day after
