@@ -77,19 +77,27 @@ def summarize(rows: list[dict]) -> list[dict]:
             **{f"{side}_ev{tag}": (f"{v:+.3f}" if v is not None else "")
                for side in ("yes", "no") for tag, sub in (("", g), ("_early", early), ("_late", late))
                for v in [ev(sub, side)]},
-            **{f"{side}_t": f"{t_stat(profits(g, side)):.1f}" for side in ("yes", "no")},
+            **{f"{side}_t": f"{t_stat(profits(g, side), [r['ask'] if side == 'yes' else 1 - r['bid'] for r in g]):.1f}"
+               for side in ("yes", "no")},
         })
     return out
 
 
-def t_stat(xs: list) -> float:
-    """Average / standard error. Above ~2 is unlikely to be luck (per bucket, before testing many)."""
+def t_stat(xs: list, prices: list | None = None) -> float:
+    """Average profit / its standard error, for bets that pay $1 or $0 at a given price. With `prices`
+    (what each contract cost, fees aside) the error comes from the price: if the price were fair, a
+    contract's profit has stdev sqrt(p(1-p)). That stays honest when every bet in a bucket lost or
+    won (the sample stdev would be zero and the t-stat would blow up). Above ~2 is unlikely to be luck."""
     n = len(xs)
     if n < 2:
         return 0.0
     m = sum(float(x) for x in xs) / n
-    sd = math.sqrt(sum((float(x) - m) ** 2 for x in xs) / (n - 1))
-    return m / (sd / math.sqrt(n)) if sd else (math.copysign(99.0, m) if m else 0.0)
+    if prices:
+        p = min(max(sum(float(q) for q in prices) / len(prices), 0.02), 0.98)
+        sd = math.sqrt(p * (1 - p))
+    else:
+        sd = math.sqrt(sum((float(x) - m) ** 2 for x in xs) / (n - 1))
+    return m / (sd / math.sqrt(n)) if sd else 0.0
 
 
 def promising(row: dict, side: str, min_ev: Decimal, min_events: int, min_t: float = 0.0) -> bool:
