@@ -404,8 +404,12 @@ def trade(api: Kalshi, cfg: dict, baskets: list[Basket]) -> set[str]:
     held = {b["event"] for b in state["open"]}
     locked = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
     if len(locked) > cfg["max_found"]:  # free money is rare; dozens at once means the bot misread markets
-        log.error("%d locked-in trades in one sweep is too good to be true. Trading nothing; check the opportunities log.", len(locked))
-        alert("paused: too good to be true", f"{len(locked)} 'locked-in' trades in one sweep. Nothing traded.", "high")
+        msg = "%d locked-in trades in one sweep is too good to be true. Trading nothing; check the opportunities log."
+        if MODE == "demo":  # demo books are thin junk, so this trips there routinely
+            log.warning(msg, len(locked))
+        else:
+            log.error(msg, len(locked))
+            alert("paused: too good to be true", f"{len(locked)} 'locked-in' trades in one sweep. Nothing traded.", "high")
         save_state(state)
         return set()
     traded = set()
