@@ -195,3 +195,15 @@ def test_backwards_ladder_locks_in_a_dollar_a_pair():
     assert b.payout_min == b.sets and b.profit == b.sets * D("0.10") - b.fees and b.profit >= D("0.10")
     fair = {"A100": [(D("0.60"), 10)], "A105": [(D("0.55"), 10)]}
     assert best_ladder(event(), markets, no_asks, fair, D(20)) is None
+
+
+def test_backtest_builds_books_from_candles_and_checks_real_payout():
+    from bot import kalshi_backtest as kb
+
+    c = lambda bid, ask: {"yes_bid": {"close_dollars": bid}, "yes_ask": {"close_dollars": ask}}
+    series = {"A100": {60: c("0.35", "0.40")}, "A105": {60: c("0.50", None)}}
+    no, yes = kb.books_at(series, 60, 10)
+    assert no == {"A100": [(D("0.65"), 10)], "A105": [(D("0.50"), 10)]} and yes == {"A100": [(D("0.40"), 10)]}
+    b = best_ladder(event(), [rung("A100", 100), rung("A105", 105)], no, yes, D(20))
+    assert kb.paid(b, {"A100": "yes", "A105": "no"}) == 2 * b.sets  # landed between the rungs: both legs pay
+    assert kb.paid(b, {"A100": "no", "A105": "no"}) == b.sets
