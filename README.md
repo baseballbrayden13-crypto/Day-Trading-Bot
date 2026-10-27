@@ -112,7 +112,8 @@ python -m bot.kalshi_live --trade         # sweep and trade on the DEMO account
 ```
 
 Settings in `.env.kalshi`: `KALSHI_BUDGET` (20), `KALSHI_MIN_PROFIT` (0.10), `KALSHI_MAX_DAYS` (60,
-skips trades that tie money up longer). Real money needs `KALSHI_ENV=prod` and
+skips trades that tie money up longer), `KALSHI_STEP` (0.25: the budget steps up 25% each time settled
+profits grow it 25%, after `KALSHI_MIN_SETTLED`=5 paid-out baskets). Real money needs `KALSHI_ENV=prod` and
 `KALSHI_LIVE_CONFIRM=I_UNDERSTAND_REAL_MONEY`.
 
 ## Setup (about 10 minutes)

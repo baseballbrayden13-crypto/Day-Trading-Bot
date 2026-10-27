@@ -11,7 +11,8 @@ exclusive one for a NO basket (see bot.kalshi), double-checks the full order boo
     kalshi_data/scorecard.csv       per series: sweeps seen, opportunities, best profit (decides focus)
     kalshi_data/prices/<day>.csv.gz top of book for every market, for testing expected-profit ideas later
 
-With --trade it spends at most KALSHI_BUDGET (default $20) of the account, only on baskets that lock
+With --trade it spends at most KALSHI_BUDGET (default $20) of the account, raised 25% each time
+settled profits grow the pot 25% (after 5 paid-out baskets), only on baskets that lock
 in KALSHI_MIN_PROFIT (default $0.10) after fees, best profit per day of waiting first. Legs are
 fill-or-kill orders; if one fails, the legs already bought are sold back.
 
@@ -35,7 +36,7 @@ from pathlib import Path
 
 import requests
 
-from .kalshi import ONE, Basket, D, asks_from_bids, no_basket, pick, yes_basket
+from .kalshi import ONE, Basket, D, asks_from_bids, no_basket, pick, stake, yes_basket
 
 ENV_FILE = Path(".env.kalshi")
 DATA = Path("kalshi_data")
@@ -63,6 +64,8 @@ def load_settings() -> dict:
         "min_profit": D(os.getenv("KALSHI_MIN_PROFIT", "0.10")),
         "max_days": float(os.getenv("KALSHI_MAX_DAYS", "60")),  # skip baskets that tie money up longer
         "max_sets": int(os.getenv("KALSHI_MAX_SETS", "50")),
+        "step": D(os.getenv("KALSHI_STEP", "0.25")),  # raise the budget 25% each time profits grow it 25%
+        "min_settled": int(os.getenv("KALSHI_MIN_SETTLED", "5")),  # ...but only after 5 baskets have paid out
     }
 
 
@@ -295,8 +298,10 @@ def settle(api: Kalshi, state: dict) -> None:
 
 
 def free_budget(cfg: dict, state: dict) -> Decimal:
-    """KALSHI_BUDGET plus profits so far, minus what's tied up in open baskets."""
-    return cfg["budget"] + D(state["realized"]) - sum((D(b["outlay"]) for b in state["open"]), D(0))
+    """The current bet level (see bot.kalshi.stake: KALSHI_BUDGET, stepping up 25% per 25% of settled
+    growth) minus what's tied up in open baskets."""
+    level = stake(cfg["budget"], D(state["realized"]), len(state["closed"]), cfg["step"], cfg["min_settled"])
+    return level - sum((D(b["outlay"]) for b in state["open"]), D(0))
 
 
 def execute(api: Kalshi, b: Basket) -> bool:

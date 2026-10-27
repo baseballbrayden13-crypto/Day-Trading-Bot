@@ -4,7 +4,7 @@ from decimal import Decimal as D
 import pytest
 
 from bot import kalshi_live as kl
-from bot.kalshi import asks_from_bids, buy, fee, no_basket, pick, yes_basket
+from bot.kalshi import asks_from_bids, buy, fee, no_basket, pick, stake, yes_basket
 
 NOW = datetime(2026, 10, 27, tzinfo=timezone.utc)
 SOON = (NOW + timedelta(days=3)).isoformat()
@@ -137,3 +137,18 @@ def test_sweep_and_logs_end_to_end(monkeypatch, tmp_path):
     ranked = kl.update_scorecard(events, baskets, D("0.10"))
     assert ranked[0]["series"] == "SER" and ranked[0]["opportunities"] == 1
     assert (tmp_path / "opportunities.csv").exists() and list((tmp_path / "prices").iterdir())
+
+
+def test_stake_steps_up_only_after_real_growth():
+    assert stake(D(20), D(0), 0) == 20
+    assert stake(D(20), D("4.99"), 10) == 20  # not 25% up yet: extra profit is kept aside
+    assert stake(D(20), D(5), 10) == 25
+    assert stake(D(20), D(5), 4) == 20  # too few paid-out baskets
+    assert stake(D(20), D("11.25"), 10) == D("31.25")
+    assert stake(D(20), D(-3), 10) == 17  # below the start it bets only what's left
+
+
+def test_free_budget_uses_the_step_level():
+    cfg = {"budget": D(20), "step": D("0.25"), "min_settled": 5}
+    state = {"realized": "6", "open": [{"outlay": "8"}], "closed": [{}] * 5}
+    assert kl.free_budget(cfg, state) == 17  # level $25, $8 in play
