@@ -26,12 +26,14 @@ from .kalshi import D, Basket, best_ladder, ladder_pairs, no_basket
 from .kalshi_live import Kalshi, load_settings, multiplier
 
 
-def settled_events(api: Kalshi, days: int, limit: int) -> list[dict]:
+def settled_events(api: Kalshi, days: int, limit: int, series: str = "") -> list[dict]:
     since = int((datetime.now(timezone.utc) - timedelta(days=days)).timestamp())
     events, cursor = [], ""
     while len(events) < limit:
-        page = api.request("GET", "/events", {"status": "settled", "with_nested_markets": "true", "limit": 200,
-                                              "cursor": cursor, "min_close_ts": since})
+        params = {"status": "settled", "with_nested_markets": "true", "limit": 200, "cursor": cursor, "min_close_ts": since}
+        if series:
+            params["series_ticker"] = series
+        page = api.request("GET", "/events", params)
         events += page.get("events", [])
         cursor = page.get("cursor") or ""
         if not cursor:
@@ -82,11 +84,13 @@ def main() -> None:
     ap.add_argument("--hours", type=int, default=48, help="price history before each event's close")
     ap.add_argument("--period", type=int, default=5, help="candle length in minutes")
     ap.add_argument("--depth", type=int, default=10, help="contracts assumed at each price")
-    ap.add_argument("--max-events", type=int, default=3000)
+    ap.add_argument("--max-events", type=int, default=3000, help="per series when --series is given")
+    ap.add_argument("--series", default="", help="comma list, e.g. KXBTCD,KXNHLTOTAL,KXNBASPREAD (default: everything)")
     args = ap.parse_args()
     cfg = load_settings()
     api = Kalshi("prod")  # real past prices; public data, never signs or trades
-    events = settled_events(api, args.days, args.max_events)
+    names = [s.strip() for s in args.series.split(",") if s.strip()] or [""]
+    events = [e for name in names for e in settled_events(api, args.days, args.max_events, name)]
     print(f"{len(events)} settled events in the last {args.days} days")
 
     rows, by_series, checked = [], defaultdict(lambda: [0, 0, D(0)]), 0
