@@ -214,3 +214,17 @@ def test_paper_api_fills_without_sending_orders(monkeypatch):
     monkeypatch.setattr(api, "request", lambda *a, **k: pytest.fail("paper mode must not call Kalshi for orders"))
     assert api.order("A", "no", 3, D("0.55")) == 3 and api.balance() > 1000
     assert api.key is None
+
+
+def test_summary_json(monkeypatch, tmp_path):
+    import json
+
+    monkeypatch.setattr(kl, "DATA", tmp_path)
+    monkeypatch.setattr(kl, "STATE", tmp_path / "state.json")
+    kl.save_state({"realized": "6", "open": [{"outlay": "8", "locked_profit": "0.20", "sets": 2}],
+                   "closed": [{"sets": 1}] * 5})
+    cfg = {"env": "demo", "budget": D(20), "min_profit": D("0.10"), "step": D("0.25"), "min_settled": 5}
+    kl.log.warning("test problem")
+    kl.write_summary(cfg, "paper", [{}], [], set(), [], datetime.now(timezone.utc))
+    s = json.loads((tmp_path / "summary.json").read_text())
+    assert s["equity"] == "26.00" and s["bet_level"] == "25.00" and s["in_play"] == "8.00" and s["problems"] >= 1
