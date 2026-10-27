@@ -88,7 +88,8 @@ def main() -> None:
     cfg = Settings(slippage_bps=args.slippage)
     frames = {s: daily_bars(s, args.years, cfg, source="yfinance").dropna() for s in args.symbols.split(",")}
     frames = {s: df for s, df in frames.items() if len(df) > 300}
-    spy = frames["SPY"]["close"]
+    # SPY is the yardstick even when it isn't one of the ETFs being rotated
+    spy = (frames["SPY"] if "SPY" in frames else daily_bars("SPY", args.years, cfg, source="yfinance").dropna())["close"]
     split = spy.index[int(len(spy) * 2 / 3)]
     out = [f"# Monthly ETF rotation, {datetime.now():%Y-%m-%d}", "",
            f"{', '.join(frames)} | $5,000 | {args.slippage:g} bps per fill + sell fees | out-of-sample from {split:%Y-%m-%d}", "",
