@@ -36,7 +36,7 @@ from pathlib import Path
 
 import requests
 
-from .kalshi import ONE, Basket, D, asks_from_bids, no_basket, pick, stake, yes_basket
+from .kalshi import ONE, Basket, D, asks_from_bids, fee, no_basket, pick, stake, yes_basket
 
 ENV_FILE = Path(".env.kalshi")
 DATA = Path("kalshi_data")
@@ -300,13 +300,16 @@ def settle(api: Kalshi, state: dict) -> None:
 def free_budget(cfg: dict, state: dict) -> Decimal:
     """The current bet level (see bot.kalshi.stake: KALSHI_BUDGET, stepping up 25% per 25% of settled
     growth) minus what's tied up in open baskets."""
-    level = stake(cfg["budget"], D(state["realized"]), len(state["closed"]), cfg["step"], cfg["min_settled"])
+    level = stake(cfg["budget"], D(state["realized"]), sum(1 for c in state["closed"] if c.get("sets", 1) > 0), cfg["step"], cfg["min_settled"])
     return level - sum((D(b["outlay"]) for b in state["open"]), D(0))
 
 
-def execute(api: Kalshi, b: Basket) -> bool:
+def execute(api: Kalshi, b: Basket, state: dict | None = None) -> bool:
     """Buy every leg fill-or-kill. On a miss, sell back what was bought (losing at most 5c a contract)
-    and give up; anything that won't sell stays open and is logged for a person to check."""
+    and give up; anything that won't sell stays open and is logged for a person to check. The sell-back
+    loss is booked in `state` (worst case) and unsold contracts are tracked until they settle, so the
+    profit total that sets the bet size never counts money that isn't there."""
+    state = state if state is not None else {"realized": "0", "open": []}
     done = []
     for leg in b.legs:
         try:
@@ -325,8 +328,14 @@ def execute(api: Kalshi, b: Basket) -> bool:
                 except RuntimeError as err:
                     log.error("Could not sell back %s: %s", got.ticker, err)
                     sold = 0
+                paid = (got.cost + got.fee) * n / got.count
+                loss = paid * sold / n - (floor * sold - fee(sold, floor, b.fee_multiplier))  # sold at the floor or better
+                state["realized"] = str(D(state["realized"]) - loss)
                 if sold < n:
                     log.error("STRAY POSITION: %d %s contracts of %s still held. Check it on Kalshi.", n - sold, got.side.upper(), got.ticker)
+                    state["open"].append({"event": f"{b.event_ticker} (stray)", "series": b.series_ticker, "title": b.title, "sets": 0,
+                                          "outlay": str(paid * (n - sold) / n), "locked_profit": "0", "opened": datetime.now(timezone.utc).isoformat(),
+                                          "legs": [{"ticker": got.ticker, "side": got.side, "count": n - sold, "limit": str(got.limit)}]})
             return False
         done.append((leg, filled))
     return True
@@ -340,7 +349,7 @@ def trade(api: Kalshi, cfg: dict, baskets: list[Basket]) -> set[str]:
     traded = set()
     for b in pick([b for b in baskets if b.event_ticker not in held], budget, cfg["min_profit"]):
         log.info("Buying %s: %d sets of NO on %d markets, cost $%.2f, locks in $%.2f", b.event_ticker, b.sets, len(b.legs), b.outlay, b.profit)
-        if execute(api, b):
+        if execute(api, b, state):
             traded.add(b.event_ticker)
             state["open"].append({"event": b.event_ticker, "series": b.series_ticker, "title": b.title, "sets": b.sets,
                                   "outlay": str(b.outlay), "locked_profit": str(b.profit), "opened": datetime.now(timezone.utc).isoformat(),

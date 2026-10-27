@@ -101,6 +101,24 @@ def test_execute_sells_back_filled_legs_when_one_misses():
     assert kl.execute(FakeApi(), b)
 
 
+def test_sell_back_loss_is_booked_and_strays_are_tracked():
+    books = {"A": [(D("0.55"), 10)], "B": [(D("0.60"), 10)], "C": [(D("0.70"), 10)]}
+    b = no_basket(event(), books, D(20))
+    state = {"realized": "0", "open": [], "closed": []}
+    assert not kl.execute(FakeApi(fail_on="B"), b, state)
+    assert D(state["realized"]) < 0 and state["open"] == []  # sold back at a (worst-case) loss
+
+    class NoBuyers(FakeApi):
+        def order(self, ticker, outcome, count, limit, tif="fill_or_kill", reduce_only=False):
+            return 0 if reduce_only else super().order(ticker, outcome, count, limit, tif, reduce_only)
+
+    state = {"realized": "0", "open": [], "closed": []}
+    assert not kl.execute(NoBuyers(fail_on="B"), b, state)
+    assert D(state["realized"]) == 0 and state["open"][0]["legs"][0]["ticker"] == "A"  # held until it settles
+    cfg = {"budget": D(20), "step": D("0.25"), "min_settled": 5}
+    assert kl.free_budget(cfg, state) < 20  # the stray's cost isn't available to bet
+
+
 def test_candidates_need_mutually_exclusive_events_closing_soon():
     soon = (datetime.now(timezone.utc) + timedelta(days=2)).isoformat()
     later = (datetime.now(timezone.utc) + timedelta(days=400)).isoformat()
