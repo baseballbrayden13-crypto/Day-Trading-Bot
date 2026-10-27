@@ -2,6 +2,7 @@
 
     python -m bot.kalshi_maker                  # demo: taker sweep + new quotes every 5 min, quotes checked every 5 s
     python -m bot.kalshi_maker --minutes 10     # same, but cancel everything and stop after 10 minutes
+    python -m bot.kalshi_maker --paper          # REAL prices, pretend quotes filled only by real trades (no keys, no orders)
 
 A NO basket on n markets of a mutually exclusive event pays at least k x (n - 1) (see bot.kalshi). Paying
 the ask on every leg rarely beats that by $0.10. Here the bot instead rests a post-only NO bid on one leg,
@@ -13,10 +14,15 @@ Quotes are cancelled when the other legs move so the hedge no longer pays, after
 (they also expire on Kalshi by themselves then, in case this program dies), and on exit. If a hedge misses,
 the filled contracts are sold back the same way execute() does, and the loss is booked. Their full cost is
 reserved from the budget while they rest, so taker trades can't spend the same money.
+
+--paper answers the question demo can't (demo has almost no other traders): would real quotes fill? See
+PaperMakerApi for the fill rule. It keeps its own state (kalshi_maker_paper_state.json), data
+(kalshi_data_maker_paper/) and log (kalshi_maker_paper.log).
 """
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import os
 import sys
@@ -289,23 +295,133 @@ def cancel_all(api) -> None:
     check(api, {"quote_min": -1, "min_profit": D(0)})  # hedge any last fills, drop the rest
 
 
+class PaperMakerApi(kl.Kalshi):
+    """Real Kalshi prices and trades, pretend orders. Never signs a request or sends an order.
+
+    A pretend quote (a NO bid at q) fills only from real prints after it was placed, where a taker bought YES:
+    - a print at a NO price below q went through our level, so it fills us up to the print's size;
+    - prints exactly at q fill us only once their total size passes the NO bids that were already resting
+      at q when we placed it (we're last in the queue).
+    Taker orders (hedge legs, sell-backs) fill only if the real book has the size at or inside the limit."""
+
+    def __init__(self, path: Path):
+        super().__init__("prod")
+        self.path = path
+        self.orders = json.loads(path.read_text()) if path.exists() else {}
+
+    def _save(self) -> None:
+        self.path.write_text(json.dumps(self.orders, indent=1))
+
+    def balance(self) -> Decimal:
+        return D(10 ** 9)  # the pretend budget in the state file is the only limit
+
+    def request(self, method: str, path: str, params=None, body=None) -> dict:
+        if method == "POST" and path == "/portfolio/events/orders":
+            return self._rest(body)
+        if method == "DELETE" and path.startswith("/portfolio/events/orders/"):
+            o = self.orders.get(path.rsplit("/", 1)[-1])
+            if o:
+                self._update(o)
+                if o["status"] == "resting":
+                    o["status"] = "canceled"
+                self._save()
+            return {}
+        if method == "GET" and path == "/portfolio/orders":
+            out = []
+            for o in self.orders.values():
+                if o["ticker"] == (params or {}).get("ticker"):
+                    self._update(o)
+                    out.append({"order_id": o["id"], "fill_count_fp": f"{o['filled']}.00", "status": o["status"]})
+            self._save()
+            return {"orders": out}
+        if method != "GET":
+            raise RuntimeError(f"paper mode never sends {method} {path}")
+        return super().request(method, path, params, body)
+
+    def _rest(self, body: dict) -> dict:
+        ticker, q = body["ticker"], ONE - D(body["price"])
+        book = self.orderbooks([ticker]).get(ticker, {})
+        ahead = sum((int(D(str(n))) for p, n in book.get("no_dollars") or [] if D(str(p)) == q), 0)
+        oid = f"paper-{len(self.orders) + 1}-{int(time.time())}"
+        self.orders[oid] = {"id": oid, "ticker": ticker, "price": str(q), "count": int(D(body["count"])), "ahead": ahead,
+                            "placed": time.time(), "checked": time.time(), "expires": body.get("expiration_time") or 0,
+                            "through": 0, "at_price": 0, "filled": 0, "status": "resting"}
+        self._save()
+        log.info("PAPER rest NO bid %s at $%s x%s (%d already bid at that price)", ticker, q, body["count"], ahead)
+        return {"order_id": oid, "fill_count": "0.00", "remaining_count": body["count"]}
+
+    def _update(self, o: dict) -> None:
+        """Count real prints since the last check against the pretend quote."""
+        if o["status"] != "resting":
+            return
+        end = min(time.time(), o["expires"] or float("inf"))
+        trades, cursor = [], ""
+        while True:
+            params = {"ticker": o["ticker"], "min_ts": int(o["checked"]), "max_ts": int(end) + 1, "limit": 1000}
+            if cursor:
+                params["cursor"] = cursor
+            page = super().request("GET", "/markets/trades", params)
+            trades += page.get("trades", [])
+            cursor = page.get("cursor") or ""
+            if not cursor or not page.get("trades"):
+                break
+        q = D(o["price"])
+        for t in trades:
+            ts = datetime.fromisoformat(t["created_time"].replace("Z", "+00:00")).timestamp()
+            if ts <= o["placed"] or ts <= o["checked"] or ts > end or t.get("taker_outcome_side", t.get("taker_side")) != "yes":
+                continue
+            n, price = int(D(t["count_fp"])), D(t["no_price_dollars"])
+            if price < q:
+                o["through"] += n
+            elif price == q:
+                o["at_price"] += n
+        o["checked"] = end
+        o["filled"] = min(o["count"], o["through"] + max(0, o["at_price"] - o["ahead"]))
+        if o["filled"] >= o["count"]:
+            o["status"] = "executed"
+        elif o["expires"] and time.time() >= o["expires"]:
+            o["status"] = "canceled"
+        if o["filled"]:
+            log.info("PAPER %s NO bid at $%s: %d/%d filled by real trades", o["ticker"], q, o["filled"], o["count"])
+
+    def order(self, ticker: str, outcome: str, count: int, limit: Decimal, tif: str = "fill_or_kill",
+              reduce_only: bool = False) -> int:
+        book = self.orderbooks([ticker]).get(ticker, {})
+        asks = asks_from_bids(book.get("yes_dollars" if outcome == "no" else "no_dollars") or [])
+        got = sum((n for p, n in asks if p <= limit), 0)
+        filled = count if got >= count else (got if tif == "immediate_or_cancel" else 0)
+        log.info("PAPER %s %d %s %s at up to $%s: %s", "sell" if reduce_only else "buy", count, outcome.upper(), ticker,
+                 limit, f"filled {filled}" if filled else "not on the book")
+        return filled
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Kalshi bot with maker quotes (demo unless .env.kalshi says otherwise)")
     ap.add_argument("--sweep", type=int, default=5, help="minutes between sweeps")
     ap.add_argument("--poll", type=int, default=5, help="seconds between quote checks")
     ap.add_argument("--minutes", type=float, default=0, help="stop (cancelling all quotes) after this long; 0 = run until Ctrl+C")
+    ap.add_argument("--paper", action="store_true", help="real prices, pretend quotes filled only by real trades; no keys, no orders")
     args = ap.parse_args()
+    mode = "maker-paper" if args.paper else "maker"
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
-                        handlers=[logging.StreamHandler(sys.stdout), logging.FileHandler("kalshi.log")])
-    kl.single_instance("kalshi-maker")  # never two makers on one state file
+                        handlers=[logging.StreamHandler(sys.stdout),
+                                  logging.FileHandler("kalshi_maker_paper.log" if args.paper else "kalshi.log")])
+    kl.single_instance(f"kalshi-{mode}")  # never two makers on one state file
     cfg = kl.load_settings()
     cfg["max_quotes"] = int(os.getenv("KALSHI_MAX_QUOTES", "3"))
     cfg["quote_min"] = int(os.getenv("KALSHI_QUOTE_MIN", "30"))
-    if not cfg["key_id"] or not Path(cfg["key_file"]).exists():
-        raise SystemExit("No Kalshi key yet. Run: python set_kalshi_key.py")
-    api = kl.Kalshi(cfg["env"], cfg["key_id"], cfg["key_file"])
-    log.info("Maker mode on Kalshi %s, budget $%s, min profit $%s, up to %d quotes", cfg["env"].upper(), cfg["budget"],
-             cfg["min_profit"], cfg["max_quotes"])
+    kl.MODE = mode
+    if args.paper:
+        kl.STATE, kl.DATA = Path("kalshi_maker_paper_state.json"), Path("kalshi_data_maker_paper")
+        api = PaperMakerApi(Path("kalshi_maker_paper_orders.json"))
+        log.info("Maker PAPER mode on REAL Kalshi prices, pretend budget $%s, min profit $%s, up to %d quotes",
+                 cfg["budget"], cfg["min_profit"], cfg["max_quotes"])
+    else:
+        if not cfg["key_id"] or not Path(cfg["key_file"]).exists():
+            raise SystemExit("No Kalshi key yet. Run: python set_kalshi_key.py")
+        api = kl.Kalshi(cfg["env"], cfg["key_id"], cfg["key_file"])
+        log.info("Maker mode on Kalshi %s, budget $%s, min profit $%s, up to %d quotes", cfg["env"].upper(), cfg["budget"],
+                 cfg["min_profit"], cfg["max_quotes"])
     stop = time.time() + args.minutes * 60 if args.minutes else float("inf")
     next_sweep = 0.0
     try:
@@ -318,7 +434,9 @@ def main() -> None:
                     traded = kl.trade(api, cfg, baskets)
                     kl.log_prices(events, when)
                     kl.log_baskets(baskets, traded, when, cfg["min_profit"])
-                    kl.update_scorecard(events, baskets, cfg["min_profit"])
+                    ranked = kl.update_scorecard(events, baskets, cfg["min_profit"])
+                    good = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
+                    kl.write_summary(cfg, mode, events, good, traded, ranked, when)
                     placed = place(api, cfg, events)
                     log.info("Swept %d events: %d taker trades, %d new quotes, %d resting", len(events), len(traded), placed,
                              len(kl.load_state().get("quotes", [])))

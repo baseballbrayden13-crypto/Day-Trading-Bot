@@ -138,3 +138,63 @@ def test_no_quotes_on_events_that_are_not_mutually_exclusive(monkeypatch, tmp_pa
     cfg = {**CFG, "budget": D(20), "step": D(0), "min_settled": 5, "max_days": 60}
     assert km.find_quotes(ladder, cfg, D(20), set()) == []
     assert km.find_quotes([{**ladder[0], "mutually_exclusive": True}], cfg, D(20), set())
+
+
+class FakeExchange:
+    """What PaperMakerApi reads from Kalshi: one order book and a list of real prints."""
+
+    def __init__(self, no_bids, trades):
+        self.no_bids, self.trades = no_bids, trades
+
+    def __call__(self, api, method, path, params=None, body=None):
+        assert method == "GET", "paper mode must never send orders"
+        if path == "/markets/trades":
+            return {"trades": self.trades, "cursor": ""}
+        if path.startswith("/markets/orderbooks"):
+            return {"orderbooks": [{"ticker": "A", "orderbook_fp": {"no_dollars": self.no_bids, "yes_dollars": [["0.40", "10"]]}}]}
+        raise AssertionError(path)
+
+
+def _print(after, no_price, n, taker="yes"):
+    when = datetime.fromtimestamp(after + 1, timezone.utc).isoformat().replace("+00:00", "Z")
+    return {"created_time": when, "taker_outcome_side": taker, "no_price_dollars": str(no_price), "count_fp": f"{n}.00"}
+
+
+def _paper(monkeypatch, tmp_path, no_bids, trades_after):
+    api = km.PaperMakerApi(tmp_path / "orders.json")
+    ex = FakeExchange(no_bids, [])
+    monkeypatch.setattr(kl.Kalshi, "request", lambda self, *a, **k: ex(self, *a, **k))
+    oid = api.request("POST", "/portfolio/events/orders", body={"ticker": "A", "price": "0.4800", "count": "5"})["order_id"]
+    placed = api.orders[oid]["placed"] = api.orders[oid]["placed"] - 60  # placed a minute ago
+    api.orders[oid]["checked"] = placed - 10  # look back past placement; prints before it must not count
+    ex.trades = trades_after(placed)
+    return api, oid
+
+
+def test_paper_quote_fills_only_from_real_prints_through_or_past_the_queue(monkeypatch, tmp_path):
+    # NO bid at 0.52 with 3 contracts already bid there. Prints: one before we joined, one where a taker SOLD
+    # YES, 2 at our price (still inside the queue ahead of us), then 4 through our price.
+    api, oid = _paper(monkeypatch, tmp_path, [["0.5200", "3"]], lambda t: [
+        _print(t - 5, "0.50", 9), _print(t, "0.50", 9, taker="no"), _print(t, "0.52", 2), _print(t, "0.51", 4)])
+    assert api.orders[oid]["ahead"] == 3
+    got = api.request("GET", "/portfolio/orders", params={"ticker": "A"})["orders"][0]
+    assert got["fill_count_fp"] == "4.00" and got["status"] == "resting"
+
+
+def test_paper_quote_at_our_price_fills_after_the_queue_ahead(monkeypatch, tmp_path):
+    api, oid = _paper(monkeypatch, tmp_path, [["0.5200", "3"]], lambda t: [_print(t, "0.52", 4), _print(t, "0.52", 6)])
+    got = api.request("GET", "/portfolio/orders", params={"ticker": "A"})["orders"][0]
+    assert got["fill_count_fp"] == "5.00" and got["status"] == "executed"  # 10 printed, 3 ahead of us, we wanted 5
+
+
+def test_paper_taker_orders_fill_only_if_the_book_has_them(monkeypatch, tmp_path):
+    api, _ = _paper(monkeypatch, tmp_path, [["0.5200", "3"]], lambda t: [])
+    assert api.order("A", "no", 10, D("0.60")) == 10  # NO asks: 10 at 0.60 (from the YES bid at 0.40)
+    assert api.order("A", "no", 11, D("0.60")) == 0  # fill-or-kill: not enough
+    assert api.order("A", "no", 5, D("0.59")) == 0  # limit below the ask
+    try:
+        api.request("DELETE", "/portfolio/orders/x")
+    except RuntimeError:
+        pass
+    else:
+        raise AssertionError("paper mode sent a DELETE")
