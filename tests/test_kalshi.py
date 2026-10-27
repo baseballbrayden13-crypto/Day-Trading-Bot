@@ -330,5 +330,5 @@ def test_calibration_buckets_and_split():
     assert 2 < float(t[0]["no_t"]) < 40
     # a coin flip priced at 0.50 has no edge: t stays small
     assert abs(kc.t_stat([D("0.48"), D("-0.52")] * 50, [D("0.5")] * 100)) < 1
-    # 0 of 85 longshots won at 6.7c: NO profit 0.067 less fee each. Real, but nowhere near t=20
-    assert 3 < kc.t_stat([D("0.063")] * 85, [D("0.933")] * 85) < 6
+    # 0 of 85 longshots won at 6.7c: NO profit 0.067 less fee each. Mildly significant (t~2.3), nowhere near t=20
+    assert 2 < kc.t_stat([D("0.063")] * 85, [D("0.933")] * 85) < 3
