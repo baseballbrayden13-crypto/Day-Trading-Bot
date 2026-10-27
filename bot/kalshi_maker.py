@@ -245,7 +245,8 @@ def place(api, cfg: dict, events: list[dict]) -> int:
                        "placed": time.time(), "hedge": [{"ticker": l.ticker, "limit": str(l.limit)} for l in q.hedge]})
         budget -= q.reserve
         placed += 1
-        log.info("Resting NO bid on %s at $%s x%d (%s): locks in $%.2f if it fills", q.ticker, q.price, q.sets, q.event_ticker, q.profit)
+        log.info("Resting NO bid on %s at $%s x%d (%s): locks in $%.2f if it fills; hedge NO %s", q.ticker, q.price, q.sets,
+                 q.event_ticker, q.profit, ", ".join(f"{l.ticker.rsplit('-', 1)[-1]}@{l.limit}" for l in q.hedge))
         kl.save_state(state)
     kl.save_state(state)
     return placed
