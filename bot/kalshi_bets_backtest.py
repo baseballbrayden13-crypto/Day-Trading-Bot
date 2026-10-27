@@ -193,7 +193,7 @@ def report(bets: list[dict], label: str) -> None:
     cost = sum((b["price"] * b["count"] + b["fee"] for b in bets), D(0))
     print(f"{label}: {len(bets)} bets, won {won}, profit ${sum(pnl, D(0)):.2f} on ${cost:.2f} bet "
           f"(expected ${sum((b['expected'] for b in bets), D(0)):.2f}); earlier half ${early:.2f}, later half ${late:.2f}; "
-          f"t-stat {t_stat(pnl):.1f}")
+          f"t-stat {t_stat([b['pnl'] / b['count'] for b in bets], [b['price'] for b in bets]):.1f}")
 
 
 def main() -> None:

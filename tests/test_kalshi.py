@@ -321,12 +321,14 @@ def test_calibration_buckets_and_split():
     assert kc.quote_before([c(10, "0.10", "0.12"), c(20, "0.11", "0.13"), c(30, "0.5", "0.6")], 25) == (D("0.11"), D("0.13"))
     assert kc.quote_before([c(10, "0", "0.12")], 25) is None
     # long shots at 10c that never win: buying NO at 0.90 makes ~ +0.09 a contract after fees, in both halves
-    rows = [{"event": f"E{i}", "ask": D("0.11"), "bid": D("0.10"), "won": False, "close": f"2026-10-{i + 1:02d}"} for i in range(40)]
+    rows = [{"event": f"E{i}", "ask": D("0.11"), "bid": D("0.10"), "won": False, "close": f"2026-10-{i % 28 + 1:02d}"} for i in range(80)]
     t = kc.summarize(rows)
     assert len(t) == 1 and t[0]["bucket"] == "0.10-0.15" and t[0]["yes_won"] == "0.000"
     assert D(t[0]["no_ev"]) > D("0.08") and kc.promising(t[0], "no", D("0.02"), 30)
     assert not kc.promising(t[0], "yes", D("0.02"), 30)
-    assert kc.promising(t[0], "no", D("0.02"), 30, 2.0)  # never lost: t is huge
+    assert kc.promising(t[0], "no", D("0.02"), 30, 2.0)  # 80 of 80 NO wins at 0.90: beyond luck, and t stays finite
+    assert 2 < float(t[0]["no_t"]) < 40
     # a coin flip priced at 0.50 has no edge: t stays small
-    assert abs(kc.t_stat([D("0.48"), D("-0.52")] * 50)) < 1
-    assert kc.t_stat([D("0.1"), D("0.3")] * 50) > 5
+    assert abs(kc.t_stat([D("0.48"), D("-0.52")] * 50, [D("0.5")] * 100)) < 1
+    # 0 of 85 longshots won at 6.7c: NO profit 0.067 less fee each. Real, but nowhere near t=20
+    assert 3 < kc.t_stat([D("0.063")] * 85, [D("0.933")] * 85) < 6
