@@ -147,9 +147,13 @@ def cancel(api, order_id: str, ticker: str) -> None:
         log.info("Cancel %s: %s", order_id, err)
 
 
-def filled(api, order_id: str) -> tuple[int, str]:
-    o = api.request("GET", f"/portfolio/orders/{order_id}").get("order", {})
-    return int(D(o.get("fill_count_fp") or "0")), o.get("status", "")
+def filled(api, order_id: str, ticker: str) -> tuple[int, str]:
+    """Contracts filled so far and the order's status. Orders placed through /portfolio/events/orders
+    404 on GET /portfolio/orders/{id}, but they do show up in the per-market order list."""
+    for o in api.request("GET", "/portfolio/orders", params={"ticker": ticker}).get("orders", []):
+        if o.get("order_id") == order_id:
+            return int(D(o.get("fill_count_fp") or "0")), o.get("status", "")
+    raise RuntimeError(f"order {order_id} not in the {ticker} order list")
 
 
 def sell_back(api, state: dict, q: dict, ticker: str, n: int, price: Decimal, paid: Decimal) -> None:
@@ -253,7 +257,7 @@ def check(api, cfg: dict) -> None:
     keep = []
     for q in state.get("quotes", []):
         try:
-            n, status = filled(api, q["order_id"])
+            n, status = filled(api, q["order_id"], q["ticker"])
         except RuntimeError as err:
             log.warning("Quote %s: can't read order: %s", q["event"], err)
             keep.append(q)
@@ -264,7 +268,7 @@ def check(api, cfg: dict) -> None:
         live = status == "resting" and q["done"] < q["sets"]
         if live and (time.time() - q["placed"] > cfg["quote_min"] * 60 or not still_pays(api, q, cfg)):
             cancel(api, q["order_id"], q["ticker"])
-            n, _ = filled(api, q["order_id"])  # a fill can land between the check and the cancel
+            n, _ = filled(api, q["order_id"], q["ticker"])  # a fill can land between the check and the cancel
             if n > q["done"]:
                 hedge(api, state, q, n - q["done"])
                 q["done"] = n

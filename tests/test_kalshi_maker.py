@@ -50,7 +50,7 @@ class FakeApi:
         if method == "DELETE":
             self.cancelled.append(path)
             return {}
-        return {"order": {"fill_count_fp": f"{self.fills}.00", "status": "resting"}}
+        return {"orders": [{"order_id": "o1", "fill_count_fp": f"{self.fills}.00", "status": "resting"}]}
 
     def order(self, ticker, outcome, count, limit, tif="fill_or_kill", reduce_only=False):
         self.orders.append((ticker, outcome, count, limit, reduce_only))
