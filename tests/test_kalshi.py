@@ -146,6 +146,7 @@ def test_stake_steps_up_only_after_real_growth():
     assert stake(D(20), D(5), 4) == 20  # too few paid-out baskets
     assert stake(D(20), D("11.25"), 10) == D("31.25")
     assert stake(D(20), D(-3), 10) == 17  # below the start it bets only what's left
+    assert stake(D(20), D(50), 10, step=D(0)) == 20  # step 0 = flat budget
 
 
 def test_free_budget_uses_the_step_level():

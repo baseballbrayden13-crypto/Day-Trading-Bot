@@ -172,7 +172,7 @@ def stake(base: Decimal, realized: Decimal, settled: int, step: Decimal = D("0.2
     if pot < base:
         return max(pot, D(0))
     level = base
-    if settled >= min_settled:
+    if settled >= min_settled and step > 0:  # KALSHI_STEP=0 keeps a flat budget
         while level * (1 + step) <= pot:
             level *= 1 + step
     return level.quantize(CENT)
