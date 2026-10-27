@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import logging
 import time
+from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -125,6 +126,10 @@ def main() -> None:
     if get_strategy(cfg.strategy).short:
         raise SystemExit(f"{cfg.strategy} is backtest only for now; the live bot can't place short orders yet.")
     broker = Broker(cfg)
+    try:  # lets bots 2 and 3 refuse to run on this account
+        Path("bot1_account.txt").write_text(broker.account_number())
+    except Exception:
+        log.exception("Could not record the account number")
     risk = RiskManager(cfg)
     reviewer = None
     if cfg.ai_review:

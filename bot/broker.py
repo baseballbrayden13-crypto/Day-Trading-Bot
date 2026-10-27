@@ -20,6 +20,9 @@ class Broker:
         self.client = TradingClient(cfg.alpaca_key, cfg.alpaca_secret, paper=self.paper)
         log.info("Connected to Alpaca %s account", "PAPER" if self.paper else "*** LIVE ***")
 
+    def account_number(self) -> str:
+        return str(self.client.get_account().account_number)
+
     def equity(self) -> float:
         return float(self.client.get_account().equity)
 

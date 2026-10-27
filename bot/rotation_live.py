@@ -49,6 +49,29 @@ def load_settings():
     return cfg
 
 
+BOT1_ACCOUNT = Path("bot1_account.txt")  # written by bot.live at startup: bot 1's account number (not a secret)
+
+
+def ensure_own_account(broker, bot1_file: Path = BOT1_ACCOUNT) -> str:
+    """Refuse to run on bot 1's account: its 3:50pm close-all and sizing would collide with this bot.
+    Checks the number bot.live saved, and bot 1's keys in .env if they still work."""
+    mine = broker.account_number()
+    bot1 = {bot1_file.read_text().strip()} if bot1_file.exists() else set()
+    try:
+        from dotenv import dotenv_values
+        from alpaca.trading.client import TradingClient
+
+        main = dotenv_values(".env")
+        if main.get("ALPACA_API_KEY") and main.get("ALPACA_SECRET_KEY"):
+            bot1.add(str(TradingClient(main["ALPACA_API_KEY"], main["ALPACA_SECRET_KEY"], paper=True)
+                         .get_account().account_number))
+    except Exception:
+        pass  # bot 1's keys may be stale; the saved number still protects it
+    if mine in bot1:
+        raise SystemExit(f"These keys open bot 1's account (...{mine[-4:]}). Make keys in a different paper account.")
+    return mine
+
+
 def daily_closes(symbols: list[str], cfg) -> pd.DataFrame:
     """Adjusted daily closes for the last ~14 months, finished days only."""
     from alpaca.data.enums import Adjustment
@@ -90,6 +113,7 @@ def main() -> None:
     from .notify import send
 
     broker = Broker(cfg)
+    ensure_own_account(broker)
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
     today = datetime.now(ET).date()
     if not (args.force or args.dry_run or due(today, state)):

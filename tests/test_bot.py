@@ -489,3 +489,14 @@ def test_crypto_bot_uses_its_own_keys(tmp_path, monkeypatch):
         crypto_live.load_settings()
     (tmp_path / ".env.crypto").write_text("ALPACA_API_KEY=bot3key\nALPACA_SECRET_KEY=s\n")
     assert crypto_live.load_settings().alpaca_key == "bot3key"
+
+
+def test_bots_2_and_3_refuse_bot_1s_account(tmp_path, monkeypatch):
+    from types import SimpleNamespace as NS
+    from bot.rotation_live import ensure_own_account
+    monkeypatch.chdir(tmp_path)  # no .env here
+    saved = tmp_path / "bot1_account.txt"
+    saved.write_text("PA3BXI0")
+    with pytest.raises(SystemExit, match="bot 1's account"):
+        ensure_own_account(NS(account_number=lambda: "PA3BXI0"), saved)
+    assert ensure_own_account(NS(account_number=lambda: "PA9NEW1"), saved) == "PA9NEW1"

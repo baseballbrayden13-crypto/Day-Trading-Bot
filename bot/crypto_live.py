@@ -82,6 +82,9 @@ def main() -> None:
     from .notify import send
 
     broker = Broker(cfg)
+    from .rotation_live import ensure_own_account
+
+    ensure_own_account(broker)
     closes = daily_closes(symbols)
     target = want(closes, ma)
     # Alpaca reports crypto positions as e.g. BTCUSD; map them back to BTC/USD
