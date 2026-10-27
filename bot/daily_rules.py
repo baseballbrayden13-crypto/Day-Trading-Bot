@@ -69,7 +69,10 @@ def main() -> None:
     ap.add_argument("--years", type=int, default=20)
     ap.add_argument("--symbols", default="SPY,QQQ,BTC-USD,ETH-USD")
     ap.add_argument("--crypto-fee", type=float, default=25.0, help="bps per side for crypto")
+    ap.add_argument("--ma", default="", help="extra trend rules to try, e.g. 20,30,75,100 (adds trend20 ...)")
     args = ap.parse_args()
+    for n in [int(x) for x in args.ma.split(",") if x.strip()]:
+        RULES.setdefault(f"trend{n}", lambda df, n=n: _above(df, n))
     cfg = Settings()
     out = [f"# Daily hold-or-cash bots, {datetime.now():%Y-%m-%d}", "",
            f"Stocks: {cfg.slippage_bps:g} bps per side + sell fees. Crypto: {args.crypto_fee:g} bps per side. "
