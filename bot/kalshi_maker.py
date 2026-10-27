@@ -220,10 +220,6 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-def reserved(state: dict) -> Decimal:
-    return sum((D(q["reserve"]) * (q["sets"] - q["done"]) / q["sets"] for q in state.get("quotes", [])), D(0))
-
-
 def place(api, cfg: dict, events: list[dict]) -> int:
     """Rest new quotes (up to KALSHI_MAX_QUOTES at once) with whatever budget is free."""
     state = kl.load_state()

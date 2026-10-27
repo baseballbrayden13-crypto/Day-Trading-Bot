@@ -352,9 +352,10 @@ def settle(api: Kalshi, state: dict) -> None:
 
 def free_budget(cfg: dict, state: dict) -> Decimal:
     """The current bet level (see bot.kalshi.stake: KALSHI_BUDGET, stepping up 25% per 25% of settled
-    growth) minus what's tied up in open baskets."""
+    growth) minus what's tied up in open baskets and reserved by resting maker quotes (bot.kalshi_maker)."""
     level = stake(cfg["budget"], D(state["realized"]), sum(1 for c in state["closed"] if c.get("sets", 1) > 0), cfg["step"], cfg["min_settled"])
-    return level - sum((D(b["outlay"]) for b in state["open"]), D(0))
+    quotes = sum((D(q["reserve"]) * (q["sets"] - q["done"]) / q["sets"] for q in state.get("quotes", [])), D(0))
+    return level - sum((D(b["outlay"]) for b in state["open"]), D(0)) - quotes
 
 
 def execute(api: Kalshi, b: Basket, state: dict | None = None) -> bool:
