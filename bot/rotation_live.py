@@ -1,6 +1,6 @@
 """Bot 2: monthly ETF rotation on its own Alpaca PAPER account.
 
-    python -m bot.rotation_live            # rebalances on the first trading day of a month, else does nothing
+    python -m bot.rotation_live            # rebalances at its first run in a month it hasn't traded yet, else does nothing
     python -m bot.rotation_live --dry-run  # show what it would hold now, place nothing
     python -m bot.rotation_live --force    # rebalance today even if it's mid-month
 
