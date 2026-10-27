@@ -512,30 +512,31 @@ def main() -> None:
         api = Kalshi("prod")  # real prices, public data, never signs or places orders
     trading = args.trade or args.paper
     while True:
-        when = datetime.now(timezone.utc)
-        budget = free_budget(cfg, load_state()) if trading else cfg["budget"]
         try:
-            events, baskets = sweep(api, cfg, max(budget, D(0)))
-        except Exception as err:  # Kalshi down or a bug: say so, wait, try again
-            log.error("Sweep failed: %s", err)
-            alert("error", f"Sweep failed: {err}"[:300], "high")
+            loop_once(api, cfg, args, trading)
+        except Exception as err:  # Kalshi down or a bug: log the traceback, alert, wait, try again
+            log.exception("Loop failed: %s", err)
+            alert("error", f"Loop failed: {err}"[:300], "high")
             if not args.loop:
                 raise
-            time.sleep(args.loop * 60)
-            continue
-        traded = trade(api, cfg, baskets) if trading else set()
-        log_prices(events, when)
-        log_baskets(baskets, traded, when, cfg["min_profit"])
-        ranked = update_scorecard(events, baskets, cfg["min_profit"])
-        good = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
-        log.info("Swept %d events (%d markets): %d locked-in baskets worth $%s+, %d traded. Top series: %s",
-                 len(events), sum(len(e.get("markets", [])) for e in events), len(good), cfg["min_profit"], len(traded),
-                 ", ".join(r["series"] for r in ranked[:5] if int(r["opportunities"])) or "none yet")
-        write_summary(cfg, "demo" if args.trade else "paper" if args.paper else "scan", events, good, traded, ranked, when)
         if not args.loop:
             return
         time.sleep(args.loop * 60)
 
+
+def loop_once(api: Kalshi, cfg: dict, args, trading: bool) -> None:
+    when = datetime.now(timezone.utc)
+    budget = free_budget(cfg, load_state()) if trading else cfg["budget"]
+    events, baskets = sweep(api, cfg, max(budget, D(0)))
+    traded = trade(api, cfg, baskets) if trading else set()
+    log_prices(events, when)
+    log_baskets(baskets, traded, when, cfg["min_profit"])
+    ranked = update_scorecard(events, baskets, cfg["min_profit"])
+    good = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
+    log.info("Swept %d events (%d markets): %d locked-in baskets worth $%s+, %d traded. Top series: %s",
+             len(events), sum(len(e.get("markets", [])) for e in events), len(good), cfg["min_profit"], len(traded),
+             ", ".join(r["series"] for r in ranked[:5] if int(r["opportunities"])) or "none yet")
+    write_summary(cfg, "demo" if args.trade else "paper" if args.paper else "scan", events, good, traded, ranked, when)
 
 if __name__ == "__main__":
     main()
