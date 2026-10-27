@@ -469,3 +469,23 @@ def test_daily_rules_hold_the_right_days_and_charge_switches():
     hold = RULES["trend200"](df)
     assert (free[~hold] == 0).all()  # cash on days out of the market
     assert (paid <= free + 1e-12).all() and paid.sum() < free.sum()
+
+
+def test_crypto_bot_trades_only_when_a_coin_flips():
+    from bot.crypto_live import plan, want
+    idx = pd.date_range("2026-01-01", periods=60, tz="UTC")
+    closes = pd.DataFrame({"BTC/USD": np.linspace(50, 100, 60), "ETH/USD": np.linspace(100, 50, 60)}, index=idx)
+    assert want(closes, 50) == {"BTC/USD": 0.5}  # rising coin above its average, falling one below
+    assert want(closes.iloc[:10], 50) == {}  # not enough history: cash
+    assert plan({"BTC/USD": 0.5}, {}, 5_000) == [("BTC/USD", "buy", 2500.0)]
+    assert plan({"BTC/USD": 0.5}, {"BTC/USD": 0.03}, 5_000) == []  # still in: no trade
+    assert plan({}, {"BTC/USD": 0.03, "ETH/USD": 0.5}, 5_000) == [("BTC/USD", "sell", 0.03), ("ETH/USD", "sell", 0.5)]
+
+
+def test_crypto_bot_uses_its_own_keys(tmp_path, monkeypatch):
+    from bot import crypto_live
+    monkeypatch.setattr(crypto_live, "ENV_FILE", tmp_path / ".env.crypto")
+    with pytest.raises(SystemExit, match=".env.crypto"):
+        crypto_live.load_settings()
+    (tmp_path / ".env.crypto").write_text("ALPACA_API_KEY=bot3key\nALPACA_SECRET_KEY=s\n")
+    assert crypto_live.load_settings().alpaca_key == "bot3key"

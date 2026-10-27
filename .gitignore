@@ -29,3 +29,5 @@ fills/
 .env.rotation
 rotation_state.json
 rotation.log
+.env.crypto
+crypto.log

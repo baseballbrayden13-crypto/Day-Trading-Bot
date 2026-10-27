@@ -83,6 +83,19 @@ python -m bot.rotation_live                   # rebalances on the first trading 
 Schedule `python -m bot.rotation_live` once a day after 9:45am ET; it does nothing
 except on the first trading day of each month.
 
+## Crypto trend bot (paper)
+
+Holds BTC and ETH, half the account each, while each is above its 50-day average, and
+cash otherwise (`python -m bot.daily_rules` for the research). Over 2014-2026 it beat
+holding ETH and roughly halved BTC's worst drop, but expect -40% to -60% drops anyway.
+It runs on its own Alpaca paper account:
+
+```
+python set_keys.py --file .env.crypto
+python -m bot.crypto_live --dry-run    # what it would hold now; places nothing
+python -m bot.crypto_live              # schedule daily, e.g. 8:15pm ET
+```
+
 ## Setup (about 10 minutes)
 
 1. **Install Python 3.11+**, then in this folder:
