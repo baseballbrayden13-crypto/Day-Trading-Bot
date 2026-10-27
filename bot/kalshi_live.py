@@ -420,6 +420,28 @@ def trade(api: Kalshi, cfg: dict, baskets: list[Basket]) -> set[str]:
     return traded
 
 
+_LOCK = None
+
+
+def single_instance(name: str) -> None:
+    """Exit if another copy of this mode is already running in this folder. The OS releases the
+    lock when the process ends, however it ends, so a crash never leaves it stuck."""
+    global _LOCK
+    _LOCK = open(f".{name}.lock", "a+")
+    try:
+        if os.name == "nt":
+            import msvcrt
+
+            _LOCK.seek(0)
+            msvcrt.locking(_LOCK.fileno(), msvcrt.LK_NBLCK, 1)
+        else:
+            import fcntl
+
+            fcntl.flock(_LOCK.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        raise SystemExit(f"Another Kalshi bot ({name}) is already running in this folder.")
+
+
 class _Problems(logging.Handler):
     """Counts warnings and errors (and keeps the last few) for summary.json."""
 
@@ -495,6 +517,8 @@ def main() -> None:
                         handlers=[logging.StreamHandler(), logging.FileHandler(logname)])
     cfg = load_settings()
     MODE = "demo" if args.trade else "paper" if args.paper else "scan"
+    if args.loop and MODE != "scan":
+        single_instance(f"kalshi-{MODE}")
     NTFY = cfg["ntfy_topic"] if MODE != "scan" else ""
     if args.scorecard:
         path = DATA / "scorecard.csv"
