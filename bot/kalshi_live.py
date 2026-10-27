@@ -55,6 +55,8 @@ def _main_env(name: str) -> str:
     return (dotenv_values(".env").get(name) or "").strip() if Path(".env").exists() else ""
 
 
+LAST_PRICES: datetime | None = None
+PRICE_EVERY = 5  # minutes between price snapshots, however often the bot sweeps
 MODE = "scan"  # "demo" or "paper" once main() picks, for alert titles
 NTFY = ""
 
@@ -589,7 +591,10 @@ def loop_once(api: Kalshi, cfg: dict, args, trading: bool) -> None:
     budget = free_budget(cfg, load_state()) if trading else cfg["budget"]
     events, baskets = sweep(api, cfg, max(budget, D(0)))
     traded = trade(api, cfg, baskets) if trading else set()
-    log_prices(events, when)
+    global LAST_PRICES
+    if LAST_PRICES is None or (when - LAST_PRICES).total_seconds() >= PRICE_EVERY * 60:  # keeps the log a sane size
+        log_prices(events, when)
+        LAST_PRICES = when
     log_baskets(baskets, traded, when, cfg["min_profit"])
     ranked = update_scorecard(events, baskets, cfg["min_profit"])
     good = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
