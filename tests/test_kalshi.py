@@ -282,3 +282,15 @@ def test_backtest_raw_edge():
     assert kb.raw_edge(no, {}, [], True) == D("-0.15")
     pairs = [({"ticker": "A"}, {"ticker": "B"})]
     assert kb.raw_edge(no, {"B": [(D("0.40"), 1)]}, pairs, False) == D("0.05")  # 0.45 bid over 0.40 ask
+
+
+def test_backtest_carries_quotes_forward_until_stale():
+    from bot import kalshi_backtest as kb
+
+    c = lambda bid: {"yes_bid": {"close_dollars": bid}, "yes_ask": {"close_dollars": None}}
+    series = {"A": {60: c("0.30")}, "B": {600: c("0.40")}}
+    no, _ = kb.books_at(series, 600, 10, stale=1800)
+    assert set(no) == {"A", "B"}  # A's quote from 9 minutes ago still counts
+    no, _ = kb.books_at(series, 60 + 1801, 10, stale=1800)
+    assert set(no) == {"B"}  # ...but not after 30 minutes
+    assert kb.books_at(series, 30, 10)[0] == {}  # nothing before the first candle
