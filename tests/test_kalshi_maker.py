@@ -50,6 +50,8 @@ class FakeApi:
         if method == "DELETE":
             self.cancelled.append(path)
             return {}
+        if path == "/markets/trades":
+            return {"trades": [] if getattr(self, "quiet", False) else [{"ticker": params["ticker"]}]}
         return {"orders": [{"order_id": "o1", "fill_count_fp": f"{self.fills}.00", "status": "resting"}]}
 
     def order(self, ticker, outcome, count, limit, tif="fill_or_kill", reduce_only=False):
@@ -119,7 +121,7 @@ def test_quote_survives_while_it_still_pays(monkeypatch, tmp_path):
 def test_place_posts_a_post_only_no_bid(monkeypatch, tmp_path):
     monkeypatch.setattr(kl, "STATE", tmp_path / "state.json")
     mk = lambda t: {"ticker": t, "status": "active", "close_time": SOON, "yes_bid_dollars": str(1 - ASKS[t][0][0]),
-                    "yes_bid_size_fp": "10", "yes_ask_dollars": str(1 - BIDS[t]), "yes_ask_size_fp": "10"}
+                    "yes_bid_size_fp": "10", "yes_ask_dollars": str(1 - BIDS[t]), "yes_ask_size_fp": "10", "volume_24h_fp": "500"}
     events = [{**EVENT, "mutually_exclusive": True, "markets": [mk(t) for t in ASKS]}]
     books = {t: {"yes_dollars": [[str(1 - ASKS[t][0][0]), "10"]], "no_dollars": [[str(BIDS[t]), "10"]]} for t in ASKS}
     api = FakeApi(books=books)
@@ -133,7 +135,7 @@ def test_place_posts_a_post_only_no_bid(monkeypatch, tmp_path):
 def test_no_quotes_on_events_that_are_not_mutually_exclusive(monkeypatch, tmp_path):
     monkeypatch.setattr(kl, "STATE", tmp_path / "state.json")
     mk = lambda t: {"ticker": t, "status": "active", "close_time": SOON, "yes_bid_dollars": str(1 - ASKS[t][0][0]),
-                    "yes_bid_size_fp": "10", "yes_ask_dollars": str(1 - BIDS[t]), "yes_ask_size_fp": "10"}
+                    "yes_bid_size_fp": "10", "yes_ask_dollars": str(1 - BIDS[t]), "yes_ask_size_fp": "10", "volume_24h_fp": "500"}
     ladder = [{**EVENT, "mutually_exclusive": False, "markets": [mk(t) for t in ASKS]}]  # e.g. "above $104", "above $107"
     cfg = {**CFG, "budget": D(20), "step": D(0), "min_settled": 5, "max_days": 60}
     assert km.find_quotes(ladder, cfg, D(20), set()) == []
@@ -211,10 +213,27 @@ def test_replay_hedge_cost_respects_limits():
 
 def test_no_quotes_on_events_that_are_already_decided(monkeypatch, tmp_path):
     mk = lambda t, bid: {"ticker": t, "status": "active", "close_time": SOON, "yes_bid_dollars": bid,
-                         "yes_bid_size_fp": "10", "yes_ask_dollars": str(1 - BIDS[t]), "yes_ask_size_fp": "10"}
+                         "yes_bid_size_fp": "10", "yes_ask_dollars": str(1 - BIDS[t]), "yes_ask_size_fp": "10", "volume_24h_fp": "500"}
     bids = {t: str(1 - ASKS[t][0][0]) for t in ASKS}
     cfg = {**CFG, "budget": D(20), "step": D(0), "min_settled": 5, "max_days": 60}
     live = [{**EVENT, "mutually_exclusive": True, "markets": [mk(t, bids[t]) for t in ASKS]}]
     assert km.find_quotes(live, cfg, D(20), set())
     done = [{**live[0], "markets": [mk("A", "0.9800")] + [mk(t, bids[t]) for t in ("B", "C")]}]  # e.g. an MVP award already won
     assert km.find_quotes(done, cfg, D(20), set()) == []
+
+
+def _flow_events(volume):
+    mk = lambda t: {"ticker": t, "status": "active", "close_time": SOON, "yes_bid_dollars": str(1 - ASKS[t][0][0]),
+                    "yes_bid_size_fp": "10", "yes_ask_dollars": str(1 - BIDS[t]), "yes_ask_size_fp": "10", "volume_24h_fp": volume}
+    return [{**EVENT, "mutually_exclusive": True, "markets": [mk(t) for t in ASKS]}]
+
+
+def test_quotes_need_real_trade_flow(monkeypatch, tmp_path):
+    cfg = {**CFG, "budget": D(20), "step": D(0), "min_settled": 5, "max_days": 60}
+    assert km.find_quotes(_flow_events("500"), cfg, D(20), set())
+    assert km.find_quotes(_flow_events("20"), cfg, D(20), set()) == []  # under 100 contracts in 24h
+    books = {t: {"yes_dollars": [[str(1 - ASKS[t][0][0]), "10"]], "no_dollars": [[str(BIDS[t]), "10"]]} for t in ASKS}
+    busy, quiet = FakeApi(books=books), FakeApi(books=books)
+    quiet.quiet = True  # no trade in the last hour
+    assert km.find_quotes(_flow_events("500"), cfg, D(20), set(), busy)
+    assert km.find_quotes(_flow_events("500"), cfg, D(20), set(), quiet) == []

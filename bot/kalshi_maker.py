@@ -37,6 +37,8 @@ from . import kalshi_live as kl
 
 MAKER_RATE = D("0.0175")
 DECIDED = D("0.95")  # skip events where some market's YES bid is already this high
+MIN_VOLUME = 100  # contracts traded in the last 24h on the market we'd quote (KALSHI_MIN_VOLUME)
+ACTIVE_MIN = 60  # ...and at least one trade in this many minutes (KALSHI_ACTIVE_MIN): a quote only fills from real trades
 log = logging.getLogger("kalshi")
 
 
@@ -110,8 +112,16 @@ def _top_no_bid(m: dict) -> Decimal:
     return ONE - D(ask) if ask and 0 < D(ask) < 1 else D(0)
 
 
+def traded_recently(api, ticker: str, minutes: int) -> bool:
+    page = api.request("GET", "/markets/trades", {"ticker": ticker, "min_ts": int(time.time()) - minutes * 60, "limit": 1})
+    return bool(page.get("trades"))
+
+
 def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], api=None) -> list[Quote]:
-    """Screen every candidate event on the listing's top of book, then re-price the best few on the full book."""
+    """Screen every candidate event on the listing's top of book, then re-price the best few on the full book.
+    Quotes only go on markets with real trade flow (KALSHI_MIN_VOLUME contracts in 24h and a trade in the last
+    KALSHI_ACTIVE_MIN minutes), busiest first: a quote on a dead market just holds a slot and never fills."""
+    min_volume, active = cfg.get("min_volume", MIN_VOLUME), cfg.get("active_min", ACTIVE_MIN)
     rough = []
     for e, markets in kl.candidates(events, cfg):
         if e["event_ticker"] in skip or not e.get("mutually_exclusive"):
@@ -121,21 +131,24 @@ def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], 
         mult = kl.multiplier(e)
         q = best_quote(e, {m["ticker"]: kl._top_no_asks(m) for m in markets}, {m["ticker"]: _top_no_bid(m) for m in markets},
                        budget, cfg["min_profit"], cfg["max_sets"], mult)
-        if q:
-            rough.append((q, e, markets, mult))
-    rough.sort(key=lambda r: -r[0].score())
+        volume = {m["ticker"]: D(m.get("volume_24h_fp") or "0") for m in markets}
+        if q and volume[q.ticker] >= min_volume:
+            rough.append((q, e, markets, mult, volume[q.ticker]))
+    rough.sort(key=lambda r: (-r[4], -r[0].score()))
     out = []
-    for q, e, markets, mult in rough[: cfg["max_quotes"] * 3]:
+    for q, e, markets, mult, _ in rough[: cfg["max_quotes"] * 3]:
         if api is None:
             out.append(q)
+            continue
+        if not traded_recently(api, q.ticker, active):
             continue
         books = api.orderbooks([m["ticker"] for m in markets])
         full = best_quote(e, {t: asks_from_bids(b.get("yes_dollars") or []) for t, b in books.items()},
                           {t: (D(str(b["no_dollars"][-1][0])) if b.get("no_dollars") else D(0)) for t, b in books.items()},
                           budget, cfg["min_profit"], cfg["max_sets"], mult)
-        if full:
+        if full and full.ticker == q.ticker or full and traded_recently(api, full.ticker, active):
             out.append(full)
-    return sorted(out, key=lambda q: -q.score())
+    return out  # busiest markets first
 
 
 # ---------------------------------------------------------------- orders
@@ -413,6 +426,8 @@ def main() -> None:
     cfg = kl.load_settings()
     cfg["max_quotes"] = int(os.getenv("KALSHI_MAX_QUOTES", "3"))
     cfg["quote_min"] = int(os.getenv("KALSHI_QUOTE_MIN", "30"))
+    cfg["min_volume"] = int(os.getenv("KALSHI_MIN_VOLUME", str(MIN_VOLUME)))
+    cfg["active_min"] = int(os.getenv("KALSHI_ACTIVE_MIN", str(ACTIVE_MIN)))
     kl.MODE = mode
     if args.paper:
         kl.STATE, kl.DATA = Path("kalshi_maker_paper_state.json"), Path("kalshi_data_maker_paper")
