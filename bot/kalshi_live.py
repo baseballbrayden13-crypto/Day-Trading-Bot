@@ -404,7 +404,7 @@ def trade(api: Kalshi, cfg: dict, baskets: list[Basket]) -> set[str]:
     locked = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
     if len(locked) > cfg["max_found"]:  # free money is rare; dozens at once means the bot misread markets
         msg = "%d locked-in trades in one sweep is too good to be true. Trading nothing; check the opportunities log."
-        if MODE == "demo":  # demo books are thin junk, so this trips there routinely
+        if getattr(api, "base", "") == URLS["demo"]:  # demo books are thin junk, so this trips there routinely
             log.warning(msg, len(locked))
         else:
             log.error(msg, len(locked))
