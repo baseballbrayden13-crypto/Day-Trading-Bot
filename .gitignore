@@ -32,3 +32,8 @@ rotation.log
 .env.crypto
 crypto.log
 bot1_account.txt
+.env.kalshi
+kalshi_key.pem
+*.pem
+kalshi_data/
+kalshi_state.json

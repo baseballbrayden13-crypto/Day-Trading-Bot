@@ -96,6 +96,25 @@ python -m bot.crypto_live --dry-run    # what it would hold now; places nothing
 python -m bot.crypto_live              # schedule daily, e.g. 8:15pm ET
 ```
 
+## Kalshi bot (demo)
+
+Scans every open Kalshi market for trades that lock in at least $0.10 after Kalshi's fees, with a
+$20 budget. In an event where only one outcome can win, buying NO on several outcomes always pays
+at least (outcomes - 1) dollars per set, so when the YES bids add up to more than $1 plus fees the
+profit is guaranteed whoever wins (`bot/kalshi.py`). Every sweep also logs each market's prices and
+updates a scorecard of which series produce trades, for testing expected-profit ideas later.
+
+```
+python -m bot.kalshi_live --scan          # read-only sweep of real prices; no keys, no orders
+python -m bot.kalshi_live --scorecard     # which series have had $0.10+ trades
+python set_kalshi_key.py                  # demo key from demo.kalshi.co -> .env.kalshi
+python -m bot.kalshi_live --trade         # sweep and trade on the DEMO account
+```
+
+Settings in `.env.kalshi`: `KALSHI_BUDGET` (20), `KALSHI_MIN_PROFIT` (0.10), `KALSHI_MAX_DAYS` (60,
+skips trades that tie money up longer). Real money needs `KALSHI_ENV=prod` and
+`KALSHI_LIVE_CONFIRM=I_UNDERSTAND_REAL_MONEY`.
+
 ## Setup (about 10 minutes)
 
 1. **Install Python 3.11+**, then in this folder:
