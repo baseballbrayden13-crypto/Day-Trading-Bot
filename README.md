@@ -108,7 +108,8 @@ updates a scorecard of which series produce trades, for testing expected-profit 
 python -m bot.kalshi_live --scan          # read-only sweep of real prices; no keys, no orders
 python -m bot.kalshi_live --scorecard     # which series have had $0.10+ trades
 python set_kalshi_key.py                  # demo key from demo.kalshi.co -> .env.kalshi
-python -m bot.kalshi_live --trade         # sweep and trade on the DEMO account
+python -m bot.kalshi_live --paper         # real prices, pretend $20 (the main test)
+python -m bot.kalshi_live --trade         # sweep and trade on the DEMO account (checks ordering works)
 python -m bot.kalshi_backtest --days 14  # replay settled events (rough: assumes 10 contracts per price)
 ```
 
