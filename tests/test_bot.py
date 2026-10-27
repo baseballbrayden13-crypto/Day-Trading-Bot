@@ -455,3 +455,17 @@ def test_rotation_bot_refuses_live_and_ignores_the_orb_env(tmp_path, monkeypatch
     (tmp_path / ".env.rotation").write_text("ALPACA_API_KEY=k\nLIVE_TRADING=true\n")
     with pytest.raises(SystemExit, match="paper only"):
         rotation_live.load_settings()
+
+
+def test_daily_rules_hold_the_right_days_and_charge_switches():
+    from bot.daily_rules import RULES, strategy_returns, turn_of_month
+    df = synthetic_daily(days=600, seed=9)
+    tom = turn_of_month(df)
+    first_day = df.index.to_series().groupby(df.index.year * 12 + df.index.month).transform("min") == df.index
+    assert tom[first_day].all()  # always holds over the first day of a month
+    assert 0.2 < tom.mean() < 0.35  # about 6 of ~21 days
+    free = strategy_returns(df, "trend200", 0.0)
+    paid = strategy_returns(df, "trend200", 0.001)
+    hold = RULES["trend200"](df)
+    assert (free[~hold] == 0).all()  # cash on days out of the market
+    assert (paid <= free + 1e-12).all() and paid.sum() < free.sum()
