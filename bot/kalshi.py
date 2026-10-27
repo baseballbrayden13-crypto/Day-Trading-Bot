@@ -119,7 +119,10 @@ class Basket:
 
 def no_basket(event: dict, books: dict[str, list[tuple[Decimal, int]]], budget: Decimal,
               max_sets: int = 50, multiplier: Decimal = ONE) -> Basket | None:
-    """Most profitable NO basket that fits the budget, or None. `books` maps ticker -> NO asks."""
+    """Most profitable NO basket that fits the budget, or None. `books` maps ticker -> NO asks.
+    Only for events Kalshi marks mutually exclusive: anywhere else two NOs can both lose."""
+    if event.get("mutually_exclusive") is False:
+        return None
     best = None
     for k in range(1, max_sets + 1):
         legs = []
