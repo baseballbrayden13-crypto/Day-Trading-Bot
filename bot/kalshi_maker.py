@@ -36,6 +36,7 @@ from .kalshi import CENT, FEE_RATE, ONE, Basket, D, Leg, asks_from_bids, buy, fe
 from . import kalshi_live as kl
 
 MAKER_RATE = D("0.0175")
+DECIDED = D("0.95")  # skip events where some market's YES bid is already this high
 log = logging.getLogger("kalshi")
 
 
@@ -115,6 +116,8 @@ def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], 
     for e, markets in kl.candidates(events, cfg):
         if e["event_ticker"] in skip or not e.get("mutually_exclusive"):
             continue  # a NO basket only locks in when at most one market can win ("above $104" and "above $107" can both)
+        if any(D(m.get("yes_bid_dollars") or "0") >= DECIDED for m in markets):
+            continue  # effectively decided (a 95c+ favourite): nobody will sell us NO on the losers, so the quote never fills
         mult = kl.multiplier(e)
         q = best_quote(e, {m["ticker"]: kl._top_no_asks(m) for m in markets}, {m["ticker"]: _top_no_bid(m) for m in markets},
                        budget, cfg["min_profit"], cfg["max_sets"], mult)

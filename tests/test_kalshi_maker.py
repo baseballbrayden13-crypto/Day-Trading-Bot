@@ -207,3 +207,14 @@ def test_replay_hedge_cost_respects_limits():
     assert hedge_cost(hedge, {"B": [(D("0.61"), 10)]}, 2, D(1), False) is None  # ask moved past the limit: hedge fails
     assert hedge_cost(hedge, {}, 2, D(1), False) is None
     assert hedge_cost(hedge, {"B": [(D("0.61"), 10)]}, 2, D(1), True) is not None and hedge[0]["limit"] == D("0.61")
+
+
+def test_no_quotes_on_events_that_are_already_decided(monkeypatch, tmp_path):
+    mk = lambda t, bid: {"ticker": t, "status": "active", "close_time": SOON, "yes_bid_dollars": bid,
+                         "yes_bid_size_fp": "10", "yes_ask_dollars": str(1 - BIDS[t]), "yes_ask_size_fp": "10"}
+    bids = {t: str(1 - ASKS[t][0][0]) for t in ASKS}
+    cfg = {**CFG, "budget": D(20), "step": D(0), "min_settled": 5, "max_days": 60}
+    live = [{**EVENT, "mutually_exclusive": True, "markets": [mk(t, bids[t]) for t in ASKS]}]
+    assert km.find_quotes(live, cfg, D(20), set())
+    done = [{**live[0], "markets": [mk("A", "0.9800")] + [mk(t, bids[t]) for t in ("B", "C")]}]  # e.g. an MVP award already won
+    assert km.find_quotes(done, cfg, D(20), set()) == []
