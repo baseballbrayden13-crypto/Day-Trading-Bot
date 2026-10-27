@@ -228,3 +228,48 @@ def test_summary_json(monkeypatch, tmp_path):
     kl.write_summary(cfg, "paper", [{}], [], set(), [], datetime.now(timezone.utc))
     s = json.loads((tmp_path / "summary.json").read_text())
     assert s["equity"] == "26.00" and s["bet_level"] == "25.00" and s["in_play"] == "8.00" and s["problems"] >= 1
+
+
+def test_alerts_go_through_ntfy_only_when_set(monkeypatch):
+    sent = []
+    import bot.notify as notify
+
+    monkeypatch.setattr(notify, "send", lambda cfg, title, msg, priority="default": sent.append((cfg.ntfy_topic, title)))
+    monkeypatch.setattr(kl, "NTFY", "")
+    kl.alert("trade", "x")
+    assert sent == []
+    monkeypatch.setattr(kl, "NTFY", "topic123")
+    monkeypatch.setattr(kl, "MODE", "paper")
+    kl.alert("trade", "x")
+    assert sent == [("topic123", "Kalshi bot (paper): trade")]
+
+
+def test_spread_markets_for_different_teams_are_not_a_ladder():
+    laz = {"ticker": "KXSERIEASPREAD-26NOV01LAZCAG-LAZ3", "strike_type": "greater", "floor_strike": 2.5,
+           "yes_sub_title": "Lazio wins by over 2.5 goals"}
+    laz2 = {"ticker": "KXSERIEASPREAD-26NOV01LAZCAG-LAZ2", "strike_type": "greater", "floor_strike": 1.5,
+            "yes_sub_title": "Lazio wins by over 1.5 goals"}
+    cag = {"ticker": "KXSERIEASPREAD-26NOV01LAZCAG-CAG2", "strike_type": "greater", "floor_strike": 1.5,
+           "yes_sub_title": "Cagliari wins by over 1.5 goals"}
+    assert not implies(laz, cag)
+    assert implies(laz, laz2)
+    btc_hi = {"ticker": "KXBTCD-26OCT2717-T104999.99", "strike_type": "greater", "floor_strike": 104999.99,
+              "yes_sub_title": "$105,000 or above"}
+    btc_lo = {"ticker": "KXBTCD-26OCT2717-T99999.99", "strike_type": "greater", "floor_strike": 99999.99,
+              "yes_sub_title": "$100,000 or above"}
+    assert implies(btc_hi, btc_lo)
+
+
+def test_too_many_free_trades_means_trade_nothing(monkeypatch, tmp_path):
+    monkeypatch.setattr(kl, "STATE", tmp_path / "s.json")
+    books = {"A": [(D("0.55"), 10)], "B": [(D("0.60"), 10)], "C": [(D("0.70"), 10)]}
+    many = [no_basket({**event(), "event_ticker": f"E{i}"}, books, D(20)) for i in range(11)]
+
+    class Api(FakeApi):
+        def balance(self):
+            return D(100)
+
+    api = Api()
+    cfg = {"budget": D(20), "min_profit": D("0.10"), "step": D("0.25"), "min_settled": 5, "max_found": 10}
+    assert kl.trade(api, cfg, many) == set() and api.orders == []
+    assert kl.trade(api, cfg, many[:1]) == {"E0"}

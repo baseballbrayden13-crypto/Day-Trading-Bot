@@ -17,6 +17,7 @@ doesn't promise, so it is logged for research but never traded.
 """
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from decimal import ROUND_CEILING, Decimal
@@ -184,9 +185,29 @@ def stake(base: Decimal, realized: Decimal, settled: int, step: Decimal = D("0.2
 UP, DOWN = {"greater", "greater_or_equal"}, {"less", "less_or_equal"}
 
 
+def _skeleton(text: str) -> str:
+    """Text with the numbers taken out: rungs of one ladder differ only in their numbers."""
+    return re.sub(r"[-+]?[\d.,]+", "#", text or "").strip().lower()
+
+
+def same_underlying(a: dict, b: dict) -> bool:
+    """Both markets measure the same thing. Spread and team-total events mix teams ("Lazio wins by
+    3+" next to "Cagliari wins by 2+"), so the ticker endings without their numbers (LAZ3 -> LAZ, T104999.99
+    -> T) and the subtitles without their numbers must match."""
+    ta, tb = a.get("ticker", ""), b.get("ticker", "")
+    if _skeleton(ta.rsplit("-", 1)[-1]) != _skeleton(tb.rsplit("-", 1)[-1]):
+        return False
+    sa = a.get("yes_sub_title") or a.get("subtitle") or ""
+    sb = b.get("yes_sub_title") or b.get("subtitle") or ""
+    return _skeleton(sa) == _skeleton(sb)
+
+
 def implies(a: dict, b: dict) -> bool:
     """True when market `a` resolving YES forces `b` YES: two rungs of the same ladder in one event,
-    e.g. "above $105k" implies "above $100k", and "below 60F" implies "below 65F". Strict strikes only."""
+    e.g. "above $105k" implies "above $100k", and "below 60F" implies "below 65F". Strict strikes only,
+    and only when both rungs measure the same thing (see same_underlying)."""
+    if not same_underlying(a, b) or a.get("close_time") != b.get("close_time"):
+        return False
     ta, tb = a.get("strike_type"), b.get("strike_type")
     if ta in UP and tb in UP and a.get("floor_strike") is not None and b.get("floor_strike") is not None:
         return float(a["floor_strike"]) > float(b["floor_strike"])
