@@ -50,7 +50,7 @@ def daily_bars(symbol: str, years: int, cfg: Settings, cache: Path = Path("data_
                          multi_level_index=False)
         if df.empty:
             return df
-        df = df.rename(columns=str.lower)[["open", "high", "low", "close", "volume"]]
+        df = df.rename(columns=str.lower)[["open", "high", "low", "close", "volume"]].dropna()  # today's bar is NaN
         df.index = pd.to_datetime(df.index).tz_localize("UTC")
         df.to_pickle(path)
         return df
