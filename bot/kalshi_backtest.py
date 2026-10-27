@@ -74,6 +74,20 @@ def books_at(series: dict[str, dict[int, dict]], ts: int, depth: int):
     return no, yes
 
 
+def raw_edge(no: dict, yes: dict, pairs: list, me: bool) -> Decimal | None:
+    """Best price gap before fees and depth: YES bids over $1 for a who-wins basket, or the higher
+    rung's YES bid over the lower rung's YES ask for a ladder. Positive = a trade before fees."""
+    best = None
+    if me and len(no) >= 2:
+        best = sum((1 - a[0][0] for a in no.values()), D(0)) - 1
+    for narrow, wide in pairs:
+        n, w = no.get(narrow["ticker"]), yes.get(wide["ticker"])
+        if n and w:
+            gap = (1 - n[0][0]) - w[0][0]
+            best = gap if best is None else max(best, gap)
+    return best
+
+
 def paid(b: Basket, results: dict[str, str]) -> Decimal:
     return sum((D(l.count) for l in b.legs if results.get(l.ticker) == l.side), D(0))
 
@@ -93,7 +107,7 @@ def main() -> None:
     events = [e for name in names for e in settled_events(api, args.days, args.max_events, name)]
     print(f"{len(events)} settled events in the last {args.days} days")
 
-    rows, by_series, checked = [], defaultdict(lambda: [0, 0, D(0)]), 0
+    rows, by_series, checked, edges = [], defaultdict(lambda: [0, 0, D(0)]), 0, []
     for e in events:
         markets = [m for m in e.get("markets", []) if m.get("market_type", "binary") == "binary" and m.get("close_time")]
         me = bool(e.get("mutually_exclusive"))
@@ -112,8 +126,13 @@ def main() -> None:
         ev = {**e, "close_time": close.isoformat()}
         mult = multiplier(e)
         by_series[e.get("series_ticker", "")][0] += 1
+        pairs = ladder_pairs(markets)
+        best_edge = None
         for ts in stamps:
             no, yes = books_at(series, ts, args.depth)
+            edge = raw_edge(no, yes, pairs, me)
+            if edge is not None and (best_edge is None or edge > best_edge):
+                best_edge = edge
             found = []
             if me:
                 found.append(no_basket(ev, no, cfg["budget"], cfg["max_sets"], mult))
@@ -132,6 +151,8 @@ def main() -> None:
             s[1] += 1
             s[2] += real
             break  # one trade per event
+        if best_edge is not None:
+            edges.append(best_edge)
 
     out = Path("reports")
     out.mkdir(exist_ok=True)
@@ -144,6 +165,11 @@ def main() -> None:
     total = sum((D(r[10]) for r in rows), D(0))
     print(f"\nChecked {checked} events (only-one-wins or ladders). Trades worth ${cfg['min_profit']}+ after fees: {len(rows)}, "
           f"real profit ${total:.2f} (assuming {args.depth} contracts at each price).")
+    if edges:  # near misses, before fees: shows the data is flowing and how far off the trades were
+        edges.sort()
+        print(f"Best edge per event before fees (1.00 = a dollar per set): median {edges[len(edges) // 2]:+.3f}, "
+              f"best {edges[-1]:+.3f}; events above 0: {sum(e > 0 for e in edges)}, above +0.02: {sum(e > D('0.02') for e in edges)}, "
+              f"above +0.05: {sum(e > D('0.05') for e in edges)} of {len(edges)}")
     print(f"Per day: {len(rows) / max(args.days, 1):.1f} trades, ${total / max(args.days, 1):.2f}")
     print("\nTop series (events checked, trades, real profit):")
     for s, (n, k, p) in sorted(by_series.items(), key=lambda x: (-x[1][1], -x[1][2]))[:15]:
