@@ -294,3 +294,9 @@ def test_backtest_carries_quotes_forward_until_stale():
     no, _ = kb.books_at(series, 60 + 1801, 10, stale=1800)
     assert set(no) == {"B"}  # ...but not after 30 minutes
     assert kb.books_at(series, 30, 10)[0] == {}  # nothing before the first candle
+
+
+def test_no_basket_refuses_events_that_are_not_mutually_exclusive():
+    books = {"A": [(D("0.55"), 10)], "B": [(D("0.60"), 10)], "C": [(D("0.70"), 10)]}
+    assert no_basket({**event(), "mutually_exclusive": False}, books, D(20)) is None
+    assert no_basket({**event(), "mutually_exclusive": True}, books, D(20)) is not None
