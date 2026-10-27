@@ -5,7 +5,7 @@
     python -m bot.kalshi_live --trade       # sweep, then buy the best baskets on the DEMO account
 
 Each sweep reads every open event (sports, politics, weather, economics, ...), checks every mutually
-exclusive one for a NO basket (see bot.kalshi), double-checks the full order book, and logs:
+exclusive one for a NO basket and every strike ladder for backwards-priced rungs (see bot.kalshi), double-checks the full order book, and logs:
 
     kalshi_data/opportunities.csv   every basket found, locked in or not, traded or not
     kalshi_data/scorecard.csv       per series: sweeps seen, opportunities, best profit (decides focus)
@@ -36,7 +36,7 @@ from pathlib import Path
 
 import requests
 
-from .kalshi import ONE, Basket, D, asks_from_bids, fee, no_basket, pick, stake, yes_basket
+from .kalshi import ONE, Basket, D, asks_from_bids, best_ladder, fee, ladder_pairs, no_basket, pick, stake, yes_basket
 
 ENV_FILE = Path(".env.kalshi")
 DATA = Path("kalshi_data")
@@ -168,12 +168,12 @@ def _top_yes_asks(m: dict) -> list[tuple[Decimal, int]]:
 
 
 def candidates(events: list[dict], cfg: dict) -> list[tuple[dict, list[dict]]]:
-    """Mutually exclusive events with 2+ active markets, closing within KALSHI_MAX_DAYS."""
+    """Events with 2+ active markets, closing within KALSHI_MAX_DAYS."""
     now = datetime.now(timezone.utc)
     out = []
     for e in events:
         markets = [m for m in e.get("markets", []) if m.get("status") in ("active", "open") and m.get("market_type", "binary") == "binary"]
-        if not e.get("mutually_exclusive") or len(markets) < 2:
+        if len(markets) < 2:
             continue
         close = max(m.get("close_time", "") for m in markets)
         days = (datetime.fromisoformat(close.replace("Z", "+00:00")) - now).total_seconds() / 86400 if close else 9999
@@ -188,12 +188,39 @@ def multiplier(e: dict) -> Decimal:
     return D(str(m)) if m not in (None, "") else ONE
 
 
+def ladder_check(api: Kalshi, e: dict, markets: list[dict], budget: Decimal, cfg: dict, mult: Decimal) -> Basket | None:
+    """Best backwards-priced ladder pair in the event, confirmed on the full order books."""
+    if not ladder_pairs(markets):
+        return None
+    no_top = {m["ticker"]: _top_no_asks(m) for m in markets}
+    yes_top = {m["ticker"]: _top_yes_asks(m) for m in markets}
+    quick = best_ladder(e, markets, no_top, yes_top, max(budget, D(1000)), cfg["max_sets"], mult)
+    if not quick:
+        return None
+    tickers = [l.ticker for l in quick.legs]
+    books = api.orderbooks(tickers)
+    no_full = {t: asks_from_bids(books.get(t, {}).get("yes_dollars") or []) for t in tickers}
+    yes_full = {t: asks_from_bids(books.get(t, {}).get("no_dollars") or []) for t in tickers}
+    pair = [m for m in markets if m["ticker"] in tickers]
+    b = best_ladder(e, pair, no_full, yes_full, budget, cfg["max_sets"], mult)
+    if b:
+        return b
+    quick.extra["note"] = "gone or over budget on the full book"
+    quick.locked = False
+    return quick
+
+
 def sweep(api: Kalshi, cfg: dict, budget: Decimal) -> tuple[list[dict], list[Basket]]:
     """One pass over every open event. Returns (events, baskets confirmed on the full order book)."""
     events = api.open_events()
     found = []
     for e, markets in candidates(events, cfg):
         mult = multiplier(e)
+        lad = ladder_check(api, e, markets, budget, cfg, mult)
+        if lad:
+            found.append(lad)
+        if not e.get("mutually_exclusive"):
+            continue  # baskets need "only one can win"
         quick = no_basket(e, {m["ticker"]: _top_no_asks(m) for m in markets}, max(budget, D(1000)), cfg["max_sets"], mult)
         yb = yes_basket(e, {m["ticker"]: _top_yes_asks(m) for m in markets}, max(budget, D(1000)), cfg["max_sets"], mult)
         if yb:
@@ -348,7 +375,7 @@ def trade(api: Kalshi, cfg: dict, baskets: list[Basket]) -> set[str]:
     held = {b["event"] for b in state["open"]}
     traded = set()
     for b in pick([b for b in baskets if b.event_ticker not in held], budget, cfg["min_profit"]):
-        log.info("Buying %s: %d sets of NO on %d markets, cost $%.2f, locks in $%.2f", b.event_ticker, b.sets, len(b.legs), b.outlay, b.profit)
+        log.info("Buying %s (%s): %d sets on %d markets, cost $%.2f, locks in $%.2f", b.event_ticker, b.kind, b.sets, len(b.legs), b.outlay, b.profit)
         if execute(api, b, state):
             traded.add(b.event_ticker)
             state["open"].append({"event": b.event_ticker, "series": b.series_ticker, "title": b.title, "sets": b.sets,
