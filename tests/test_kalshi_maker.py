@@ -128,3 +128,13 @@ def test_place_posts_a_post_only_no_bid(monkeypatch, tmp_path):
     body = api.orders[0]
     assert body["side"] == "ask" and body["post_only"] and body["time_in_force"] == "good_till_canceled" and body["expiration_time"]
     assert len(kl.load_state()["quotes"]) == 1
+
+
+def test_no_quotes_on_events_that_are_not_mutually_exclusive(monkeypatch, tmp_path):
+    monkeypatch.setattr(kl, "STATE", tmp_path / "state.json")
+    mk = lambda t: {"ticker": t, "status": "active", "close_time": SOON, "yes_bid_dollars": str(1 - ASKS[t][0][0]),
+                    "yes_bid_size_fp": "10", "yes_ask_dollars": str(1 - BIDS[t]), "yes_ask_size_fp": "10"}
+    ladder = [{**EVENT, "mutually_exclusive": False, "markets": [mk(t) for t in ASKS]}]  # e.g. "above $104", "above $107"
+    cfg = {**CFG, "budget": D(20), "step": D(0), "min_settled": 5, "max_days": 60}
+    assert km.find_quotes(ladder, cfg, D(20), set()) == []
+    assert km.find_quotes([{**ladder[0], "mutually_exclusive": True}], cfg, D(20), set())

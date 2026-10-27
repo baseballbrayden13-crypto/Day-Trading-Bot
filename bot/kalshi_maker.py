@@ -106,8 +106,8 @@ def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], 
     """Screen every candidate event on the listing's top of book, then re-price the best few on the full book."""
     rough = []
     for e, markets in kl.candidates(events, cfg):
-        if e["event_ticker"] in skip:
-            continue
+        if e["event_ticker"] in skip or not e.get("mutually_exclusive"):
+            continue  # a NO basket only locks in when at most one market can win ("above $104" and "above $107" can both)
         mult = kl.multiplier(e)
         q = best_quote(e, {m["ticker"]: kl._top_no_asks(m) for m in markets}, {m["ticker"]: _top_no_bid(m) for m in markets},
                        budget, cfg["min_profit"], cfg["max_sets"], mult)
