@@ -9,12 +9,16 @@ YES at the ask, or NO at 1 - the YES bid, would have made per contract after Kal
 
 It splits the markets into an earlier and a later half by close time. A bucket is only worth a
 paper test if it pays in both halves, on enough markets from enough different events (markets in
-one event move together, so 50 rungs of one ladder count as about one bet). Public data only.
+one event move together, so 50 rungs of one ladder count as about one bet), and clearly more than
+luck: its t-stat (average profit / its standard error) must be at least --min-t. With 20 buckets x 2
+sides, a couple will look good by chance at t ~ 1.5. --by-series repeats the table per series so a
+flag driven by one series shows up. Public data only.
 """
 from __future__ import annotations
 
 import argparse
 import csv
+import math
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from decimal import Decimal
@@ -57,12 +61,13 @@ def summarize(rows: list[dict]) -> list[dict]:
     for b in sorted(groups):
         g = groups[b]
 
-        def ev(sub, side):
-            if not sub:
-                return None
+        def profits(sub, side):
             if side == "yes":
-                return sum((int(r["won"]) - r["ask"] - fee(1, r["ask"]) for r in sub), D(0)) / len(sub)
-            return sum((int(not r["won"]) - (1 - r["bid"]) - fee(1, 1 - r["bid"]) for r in sub), D(0)) / len(sub)
+                return [int(r["won"]) - r["ask"] - fee(1, r["ask"]) for r in sub]
+            return [int(not r["won"]) - (1 - r["bid"]) - fee(1, 1 - r["bid"]) for r in sub]
+
+        def ev(sub, side):
+            return sum(profits(sub, side), D(0)) / len(sub) if sub else None
 
         early, late = [r for r in g if r["close"] < cut], [r for r in g if r["close"] >= cut]
         out.append({
@@ -72,13 +77,25 @@ def summarize(rows: list[dict]) -> list[dict]:
             **{f"{side}_ev{tag}": (f"{v:+.3f}" if v is not None else "")
                for side in ("yes", "no") for tag, sub in (("", g), ("_early", early), ("_late", late))
                for v in [ev(sub, side)]},
+            **{f"{side}_t": f"{t_stat(profits(g, side)):.1f}" for side in ("yes", "no")},
         })
     return out
 
 
-def promising(row: dict, side: str, min_ev: Decimal, min_events: int) -> bool:
+def t_stat(xs: list) -> float:
+    """Average / standard error. Above ~2 is unlikely to be luck (per bucket, before testing many)."""
+    n = len(xs)
+    if n < 2:
+        return 0.0
+    m = sum(float(x) for x in xs) / n
+    sd = math.sqrt(sum((float(x) - m) ** 2 for x in xs) / (n - 1))
+    return m / (sd / math.sqrt(n)) if sd else (math.copysign(99.0, m) if m else 0.0)
+
+
+def promising(row: dict, side: str, min_ev: Decimal, min_events: int, min_t: float = 0.0) -> bool:
     vals = [row.get(f"{side}_ev{t}") for t in ("", "_early", "_late")]
-    return row["events"] >= min_events and all(v not in (None, "") and D(v) >= min_ev for v in vals)
+    return (row["events"] >= min_events and float(row.get(f"{side}_t") or 0) >= min_t
+            and all(v not in (None, "") and D(v) >= min_ev for v in vals))
 
 
 def main() -> None:
@@ -89,6 +106,8 @@ def main() -> None:
     ap.add_argument("--max-events", type=int, default=400, help="per series")
     ap.add_argument("--min-ev", type=D, default=D("0.02"), help="per-contract profit after fees to flag a bucket")
     ap.add_argument("--min-events", type=int, default=30)
+    ap.add_argument("--min-t", type=float, default=2.0, help="t-stat needed to flag (2 ~ unlikely to be luck)")
+    ap.add_argument("--by-series", action="store_true", help="also print each series' flagged buckets")
     args = ap.parse_args()
     api = Kalshi("prod")
     names = [s.strip() for s in args.series.split(",") if s.strip()] or [""]
@@ -123,13 +142,21 @@ def main() -> None:
             w = csv.DictWriter(f, fieldnames=list(table[0]))
             w.writeheader()
             w.writerows(table)
-    print(f"\n{'bucket':12} {'mkts':>5} {'evts':>5} {'ask':>6} {'won':>6} {'YES ev':>7} {'NO ev':>7}  (per contract, after fees)")
-    for r in table:
-        flag = " <- YES" if promising(r, "yes", args.min_ev, args.min_events) else \
-               " <- NO" if promising(r, "no", args.min_ev, args.min_events) else ""
-        print(f"{r['bucket']:12} {r['markets']:5} {r['events']:5} {r['avg_ask']:>6} {r['yes_won']:>6} "
-              f"{r['yes_ev']:>7} {r['no_ev']:>7}{flag}")
-    print(f"\nFlagged = at least +${args.min_ev} a contract overall AND in both halves, over {args.min_events}+ events.")
+    def show(table, title):
+        print(f"\n{title}\n{'bucket':12} {'mkts':>5} {'evts':>5} {'ask':>6} {'won':>6} {'YES ev':>7} {'t':>5} "
+              f"{'NO ev':>7} {'t':>5}  (per contract, after fees)")
+        for r in table:
+            flag = " <- YES" if promising(r, "yes", args.min_ev, args.min_events, args.min_t) else \
+                   " <- NO" if promising(r, "no", args.min_ev, args.min_events, args.min_t) else ""
+            print(f"{r['bucket']:12} {r['markets']:5} {r['events']:5} {r['avg_ask']:>6} {r['yes_won']:>6} "
+                  f"{r['yes_ev']:>7} {r['yes_t']:>5} {r['no_ev']:>7} {r['no_t']:>5}{flag}")
+
+    show(table, "All series")
+    if args.by_series:
+        for name in sorted({r["series"] for r in rows}):
+            show(summarize([r for r in rows if r["series"] == name]), name)
+    print(f"\nFlagged = at least +${args.min_ev} a contract overall AND in both halves, over {args.min_events}+ events, "
+          f"t-stat {args.min_t}+. Testing 40 bucket/side pairs, expect about one false flag at t 2.")
     print(f"Saved to {path}")
 
 

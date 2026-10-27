@@ -326,3 +326,7 @@ def test_calibration_buckets_and_split():
     assert len(t) == 1 and t[0]["bucket"] == "0.10-0.15" and t[0]["yes_won"] == "0.000"
     assert D(t[0]["no_ev"]) > D("0.08") and kc.promising(t[0], "no", D("0.02"), 30)
     assert not kc.promising(t[0], "yes", D("0.02"), 30)
+    assert kc.promising(t[0], "no", D("0.02"), 30, 2.0)  # never lost: t is huge
+    # a coin flip priced at 0.50 has no edge: t stays small
+    assert abs(kc.t_stat([D("0.48"), D("-0.52")] * 50)) < 1
+    assert kc.t_stat([D("0.1"), D("0.3")] * 50) > 5
