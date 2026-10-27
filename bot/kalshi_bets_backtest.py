@@ -57,12 +57,19 @@ def coin_history(product: str, start: datetime, end: datetime) -> list[tuple[int
     out, t = {}, start
     while t < end:
         stop = min(t + timedelta(hours=300), end)
-        r = kb._http.get(f"https://api.exchange.coinbase.com/products/{product}/candles", timeout=30,
-                         params={"granularity": 3600, "start": t.isoformat(), "end": stop.isoformat()})
-        r.raise_for_status()
+        for attempt in range(5):  # Coinbase drops connections when called quickly: back off and retry
+            try:
+                r = kb._http.get(f"https://api.exchange.coinbase.com/products/{product}/candles", timeout=30,
+                                 params={"granularity": 3600, "start": t.isoformat(), "end": stop.isoformat()})
+                r.raise_for_status()
+                break
+            except Exception:  # noqa: BLE001 - requests raises several kinds
+                if attempt == 4:
+                    raise
+                time.sleep(2 ** attempt)
         out.update({int(c[0]): float(c[4]) for c in r.json()})
         t = stop
-        time.sleep(0.2)
+        time.sleep(0.5)
     return sorted(out.items())
 
 
