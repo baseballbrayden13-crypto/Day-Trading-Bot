@@ -14,6 +14,7 @@ from zoneinfo import ZoneInfo
 from .broker import Broker
 from .config import Settings
 from .data import from_alpaca
+from .fills import log_order
 from .risk import RiskManager
 from .strategy import add_indicators, entry_signal, exit_on_trend_break, market_ok
 
@@ -77,8 +78,12 @@ def run_once(cfg: Settings, broker: Broker, risk: RiskManager, reviewer=None) ->
         if qty <= 0:
             continue
         log.info("BUY %s x%d @~%.2f stop %.2f target %.2f | %s", sym, qty, sig.price, sig.stop, sig.target, sig.reason)
-        broker.buy_bracket(sym, qty, sig.stop, sig.target)
+        order = broker.buy_bracket(sym, qty, sig.stop, sig.target)
         risk.record_entry(sym)
+        try:
+            log_order(sym, qty, sig.price, sig.stop, sig.target, str(order.id))
+        except Exception:
+            log.exception("Could not log %s to the fill tracker", sym)
 
 
 def keep_awake() -> None:

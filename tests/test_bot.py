@@ -1,4 +1,5 @@
 import dataclasses
+import pytest
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -278,3 +279,25 @@ def test_breakeven_and_trailing_stops_only_rise():
     assert p.stop == 101.0  # trails 1.5R (3.00) under the high
     raise_stop(p, 103.0, cfg)
     assert p.stop == 101.0  # never lowered
+
+
+def test_fill_tracker_measures_slippage(tmp_path):
+    from types import SimpleNamespace as NS
+    from bot.fills import check, log_order, slippage_bps, summary
+    import csv
+
+    assert slippage_bps(100, 100.05, "buy") == pytest.approx(5)
+    assert slippage_bps(100, 99.95, "sell") == pytest.approx(5)
+    path = tmp_path / "signals.csv"
+    log_order("AAPL", 10, 200.0, 198.0, 203.0, "o1", path)
+    log_order("NVDA", 5, 100.0, 99.0, 101.5, "o2", path)
+    orders = {
+        "o1": NS(filled_avg_price="200.04", legs=[NS(filled_avg_price="197.98", order_type="stop"),
+                                                  NS(filled_avg_price=None, order_type="limit")]),
+        "o2": NS(filled_avg_price=None, legs=[]),  # never filled
+    }
+    rows = check(list(csv.DictReader(path.open())), orders.get)
+    assert len(rows) == 1
+    assert rows[0]["entry_bps"] == pytest.approx(2.0)
+    assert rows[0]["exit"] == "stop" and rows[0]["exit_bps"] == pytest.approx(1.01, abs=0.01)
+    assert "as good as the backtest" in summary(rows)

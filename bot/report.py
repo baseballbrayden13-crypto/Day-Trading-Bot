@@ -18,8 +18,8 @@ from .broker import Broker
 from .config import Settings
 
 ET = ZoneInfo("America/New_York")
-# New breakout (1R target, entries by 11:30), Oct 2023 - Oct 2026, before the Claude reviewer.
-BACKTEST = {"win_rate": 0.527, "profit_factor": 1.02, "trades_per_day": 2.4}
+# Tuned ORB (1.5R, SPY filter, gap-down days, 2/day, entries by 11:30), Oct 2023 - Oct 2026: 839 trades.
+BACKTEST = {"win_rate": 0.51, "profit_factor": 1.30, "trades_per_day": 1.1}
 
 
 def filled_orders(broker: Broker, since: datetime) -> list:
