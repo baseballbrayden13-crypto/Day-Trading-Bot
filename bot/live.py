@@ -15,6 +15,7 @@ from .broker import Broker
 from .config import Settings
 from .data import from_alpaca
 from .fills import log_order
+from .notify import send
 from .risk import RiskManager
 from .strategy import add_indicators, entry_signal, exit_on_trend_break, get_strategy, market_ok
 
@@ -35,13 +36,21 @@ def run_once(cfg: Settings, broker: Broker, risk: RiskManager, reviewer=None) ->
         risk.new_day(now_et.date(), equity)
         log.info("New day %s, starting equity $%.2f", now_et.date(), equity)
 
+    was_open = risk.open_symbols
     risk.open_symbols = broker.open_symbols()  # broker is the source of truth
+    for sym in sorted(was_open - risk.open_symbols):  # its stop or target filled at Alpaca
+        send(cfg, f"Closed {sym}", f"{sym} is no longer open (its stop or target filled). Equity ${equity:,.2f}")
+    was_halted = risk.halted
     risk.check_daily_loss(equity)
+    if risk.halted and not was_halted:
+        send(cfg, "Bot halted for the day", risk.halt_reason, priority="high")
 
     if risk.halted or risk.must_flatten(now_et):
         if risk.open_symbols:
             log.info("Flattening all positions: %s", risk.halt_reason or "end of day")
             broker.close_all()
+            send(cfg, "Closed everything", f"{', '.join(sorted(risk.open_symbols))}: {risk.halt_reason or 'end of day'}")
+            risk.open_symbols = set()
         return
 
     allow_entries = True
@@ -59,6 +68,8 @@ def run_once(cfg: Settings, broker: Broker, risk: RiskManager, reviewer=None) ->
             if exit_on_trend_break(bars, cfg):
                 log.info("EXIT %s: trend break", sym)
                 broker.close(sym)
+                risk.open_symbols.discard(sym)
+                send(cfg, f"Closed {sym}", f"{sym} closed by the bot: trend break")
             continue
 
         if not allow_entries:
@@ -80,6 +91,7 @@ def run_once(cfg: Settings, broker: Broker, risk: RiskManager, reviewer=None) ->
         log.info("BUY %s x%d @~%.2f stop %.2f target %.2f | %s", sym, qty, sig.price, sig.stop, sig.target, sig.reason)
         order = broker.buy_bracket(sym, qty, sig.stop, sig.target)
         risk.record_entry(sym)
+        send(cfg, f"Bought {sym}", f"{qty} x {sym} @ ~${sig.price:.2f}, stop ${sig.stop:.2f}, target ${sig.target:.2f}")
         try:
             log_order(sym, qty, sig.price, sig.stop, sig.target, str(order.id))
         except Exception:
@@ -117,6 +129,7 @@ def main() -> None:
         log.info("Claude trade review ON (%s)", cfg.ai_model)
 
     log.info("Watching %s on %d-min bars. Ctrl+C to stop.", ", ".join(cfg.symbols), cfg.bar_minutes)
+    send(cfg, "Bot started", f"Paper bot watching {', '.join(cfg.symbols)} ({cfg.strategy})")
     while True:
         try:
             if broker.market_open():
@@ -125,8 +138,9 @@ def main() -> None:
         except KeyboardInterrupt:
             log.info("Stopped. Open positions keep their stop-loss and take-profit orders at Alpaca.")
             break
-        except Exception:
+        except Exception as e:
             log.exception("Error in loop; retrying next bar")
+            send(cfg, "Bot error", f"{type(e).__name__}: {e}"[:300], priority="high")
             time.sleep(60)
 
 

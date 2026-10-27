@@ -84,6 +84,7 @@ class Settings:
     taf_max: float = field(default_factory=lambda: _float("TAF_MAX", 9.79))  # TAF cap per trade
 
     # Optional Claude trade reviewer
+    ntfy_topic: str = field(default_factory=lambda: os.getenv("NTFY_TOPIC", "").strip())  # phone alerts; empty = off
     ai_review: bool = field(default_factory=lambda: _bool("AI_REVIEW", False))
     ai_model: str = field(default_factory=lambda: os.getenv("AI_MODEL", "claude-opus-5-5"))
     ai_min_confidence: float = field(default_factory=lambda: _float("AI_MIN_CONFIDENCE", 0.6))

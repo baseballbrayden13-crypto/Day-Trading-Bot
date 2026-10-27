@@ -361,3 +361,13 @@ def test_swing_rules_trade_and_account_for_every_dollar():
         assert res["final"] == pytest.approx(5_000 + t["pnl"].sum(), abs=0.01), rule
         assert (t["exit_time"] > t["entry_time"]).all(), rule  # never sells on the day it buys
         assert (t["qty"] * t["entry"] <= 5_000 / 2 * 1.5).all(), rule  # roughly one slot each
+
+
+def test_alerts_are_off_without_a_topic_and_never_raise(monkeypatch):
+    from bot import notify
+    assert notify.send(Settings(), "t", "m") is False  # no NTFY_TOPIC: nothing sent
+
+    def boom(*a, **k):
+        raise OSError("offline")
+    monkeypatch.setattr(notify.urllib.request, "urlopen", boom)
+    assert notify.send(dataclasses.replace(Settings(), ntfy_topic="x"), "t", "m") is False
