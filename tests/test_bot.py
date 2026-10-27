@@ -418,3 +418,15 @@ def test_overnight_trade_returns_include_costs():
     assert (costly < free).all()
     for rule in RULES:  # every rule only picks nights from the full set
         assert set(overnight_trades(df, rule, Settings()).index) <= set(free.index)
+
+
+def test_rotation_holds_cash_when_nothing_qualifies_and_accounts_for_costs():
+    from bot.rotation import run_rotation
+    up = synthetic_daily(days=700, seed=1, drift=0.002)
+    down = synthetic_daily(days=700, seed=2, drift=-0.002)
+    eq = run_rotation({"DOWN": down}, Settings(), top=1, lookback=3)
+    assert eq.iloc[-1] == pytest.approx(5_000)  # always below its 200-day average: never buys
+    eq = run_rotation({"UP": up, "DOWN": down}, Settings(), top=1, lookback=3)
+    assert eq.iloc[-1] > 5_000  # holds the rising one
+    free = run_rotation({"UP": up, "DOWN": down}, Settings(slippage_bps=0, sec_fee_rate=0, taf_per_share=0), top=1, lookback=3)
+    assert free.iloc[-1] > eq.iloc[-1]  # costs are charged
