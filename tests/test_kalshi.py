@@ -4,7 +4,7 @@ from decimal import Decimal as D
 import pytest
 
 from bot import kalshi_live as kl
-from bot.kalshi import asks_from_bids, buy, fee, no_basket, pick, stake, yes_basket
+from bot.kalshi import asks_from_bids, best_ladder, buy, fee, implies, no_basket, pick, stake, yes_basket
 
 NOW = datetime(2026, 10, 27, tzinfo=timezone.utc)
 SOON = (NOW + timedelta(days=3)).isoformat()
@@ -127,7 +127,7 @@ def test_candidates_need_mutually_exclusive_events_closing_soon():
               {"event_ticker": "NOTME", "mutually_exclusive": False, "markets": [mk("a", soon), mk("b", soon)]},
               {"event_ticker": "LATE", "mutually_exclusive": True, "markets": [mk("a", later), mk("b", later)]}]
     cfg = {"max_days": 60}
-    assert [e["event_ticker"] for e, _ in kl.candidates(events, cfg)] == ["OK"]
+    assert [e["event_ticker"] for e, _ in kl.candidates(events, cfg)] == ["OK", "NOTME"]  # ladders don't need "only one wins"
 
 
 def test_sweep_and_logs_end_to_end(monkeypatch, tmp_path):
@@ -171,3 +171,27 @@ def test_free_budget_uses_the_step_level():
     cfg = {"budget": D(20), "step": D("0.25"), "min_settled": 5}
     state = {"realized": "6", "open": [{"outlay": "8"}], "closed": [{}] * 5}
     assert kl.free_budget(cfg, state) == 17  # level $25, $8 in play
+
+
+def rung(t, floor=None, cap=None, kind="greater"):
+    return {"ticker": t, "strike_type": kind, "floor_strike": floor, "cap_strike": cap}
+
+
+def test_ladder_rungs_imply_each_other():
+    assert implies(rung("A105", 105), rung("A100", 100))
+    assert not implies(rung("A100", 100), rung("A105", 105))
+    assert implies(rung("B60", cap=60, kind="less"), rung("B65", cap=65, kind="less_or_equal"))
+    assert not implies(rung("A100", 100), rung("B65", cap=65, kind="less"))
+    assert not implies(rung("A100", 100), rung("A100b", 100, kind="greater_or_equal"))  # same strike: skip
+
+
+def test_backwards_ladder_locks_in_a_dollar_a_pair():
+    markets = [rung("A100", 100), rung("A105", 105)]
+    # "above 105" bid at 0.50 while "above 100" is offered at 0.40: NO 105 costs 0.50, YES 100 costs 0.40.
+    no_asks = {"A105": [(D("0.50"), 10)], "A100": [(D("0.45"), 10)]}
+    yes_asks = {"A100": [(D("0.40"), 10)], "A105": [(D("0.55"), 10)]}
+    b = best_ladder(event(), markets, no_asks, yes_asks, D(20))
+    assert {(l.ticker, l.side) for l in b.legs} == {("A105", "no"), ("A100", "yes")}
+    assert b.payout_min == b.sets and b.profit == b.sets * D("0.10") - b.fees and b.profit >= D("0.10")
+    fair = {"A100": [(D("0.60"), 10)], "A105": [(D("0.55"), 10)]}
+    assert best_ladder(event(), markets, no_asks, fair, D(20)) is None

@@ -9,6 +9,9 @@ Per set, market i adds (1 - NO ask_i - fee_i) and the basket costs one dollar on
 worth including whenever its YES bid is above its fee, and the trade works when the YES bids add up
 to more than $1 plus fees. Markets that can't help are left out.
 
+Ladders: in events with rungs like "above $100k / above $105k", NO on a higher rung plus YES on a
+lower rung always pays at least $1, so that pair is locked in whenever it costs under $1 after fees.
+
 The YES basket (buy YES on every market) is only locked in if one of them must win, which Kalshi
 doesn't promise, so it is logged for research but never traded.
 """
@@ -81,7 +84,7 @@ class Basket:
     event_ticker: str
     series_ticker: str
     title: str
-    kind: str  # "no_basket" (locked in) or "yes_basket" (research only)
+    kind: str  # "no_basket" or "ladder" (locked in), or "yes_basket" (research only)
     sets: int
     legs: list[Leg]
     payout_min: Decimal  # dollars it pays at worst
@@ -176,3 +179,52 @@ def stake(base: Decimal, realized: Decimal, settled: int, step: Decimal = D("0.2
         while level * (1 + step) <= pot:
             level *= 1 + step
     return level.quantize(CENT)
+
+
+UP, DOWN = {"greater", "greater_or_equal"}, {"less", "less_or_equal"}
+
+
+def implies(a: dict, b: dict) -> bool:
+    """True when market `a` resolving YES forces `b` YES: two rungs of the same ladder in one event,
+    e.g. "above $105k" implies "above $100k", and "below 60F" implies "below 65F". Strict strikes only."""
+    ta, tb = a.get("strike_type"), b.get("strike_type")
+    if ta in UP and tb in UP and a.get("floor_strike") is not None and b.get("floor_strike") is not None:
+        return float(a["floor_strike"]) > float(b["floor_strike"])
+    if ta in DOWN and tb in DOWN and a.get("cap_strike") is not None and b.get("cap_strike") is not None:
+        return float(a["cap_strike"]) < float(b["cap_strike"])
+    return False
+
+
+def ladder_pairs(markets: list[dict]) -> list[tuple[dict, dict]]:
+    """Every (narrow, wide) pair where the narrow rung implies the wide one."""
+    return [(a, b) for a in markets for b in markets if a is not b and implies(a, b)]
+
+
+def ladder(event: dict, narrow: str, wide: str, no_asks_narrow: list[tuple[Decimal, int]],
+           yes_asks_wide: list[tuple[Decimal, int]], budget: Decimal, max_sets: int = 50,
+           multiplier: Decimal = ONE) -> Basket | None:
+    """NO on the narrow rung plus YES on the wide rung always pays at least $1 a pair: if the narrow
+    one hits, so does the wide one; if it doesn't, its NO pays. So when the wide rung's YES plus the
+    narrow rung's NO cost under $1 after fees (the narrow rung is priced as likelier), it's locked in."""
+    best = None
+    for k in range(1, max_sets + 1):
+        n, w = buy(no_asks_narrow, k, multiplier), buy(yes_asks_wide, k, multiplier)
+        if not n or not w:
+            break
+        b = Basket(event["event_ticker"], event.get("series_ticker", ""), event.get("title", ""), "ladder", k,
+                   [Leg(narrow, "no", k, n.cost, n.fee, n.worst), Leg(wide, "yes", k, w.cost, w.fee, w.worst)],
+                   D(k), event.get("close_time", ""), True, multiplier)
+        if b.outlay > budget:
+            break
+        if b.profit > 0 and (best is None or b.profit > best.profit):
+            best = b
+    return best
+
+
+def best_ladder(event: dict, markets: list[dict], no_asks: dict, yes_asks: dict, budget: Decimal,
+                max_sets: int = 50, multiplier: Decimal = ONE) -> Basket | None:
+    """Most profitable ladder pair in an event (one per event, since pairs share order books)."""
+    found = [ladder(event, a["ticker"], b["ticker"], no_asks.get(a["ticker"], []), yes_asks.get(b["ticker"], []),
+                    budget, max_sets, multiplier) for a, b in ladder_pairs(markets)]
+    found = [f for f in found if f]
+    return max(found, key=lambda f: f.profit) if found else None
