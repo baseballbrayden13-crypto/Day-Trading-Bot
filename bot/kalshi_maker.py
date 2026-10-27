@@ -303,18 +303,21 @@ def main() -> None:
     next_sweep = 0.0
     try:
         while time.time() < stop:
-            if time.time() >= next_sweep:
-                when = datetime.now(timezone.utc)
-                events, baskets = kl.sweep(api, cfg, max(kl.free_budget(cfg, kl.load_state()), D(0)))
-                traded = kl.trade(api, cfg, baskets)
-                kl.log_prices(events, when)
-                kl.log_baskets(baskets, traded, when, cfg["min_profit"])
-                kl.update_scorecard(events, baskets, cfg["min_profit"])
-                placed = place(api, cfg, events)
-                log.info("Swept %d events: %d taker trades, %d new quotes, %d resting", len(events), len(traded), placed,
-                         len(kl.load_state().get("quotes", [])))
-                next_sweep = time.time() + args.sweep * 60
-            check(api, cfg)
+            try:  # any error: log the traceback and keep going (a dead loop would leave quotes unwatched)
+                if time.time() >= next_sweep:
+                    next_sweep = time.time() + args.sweep * 60
+                    when = datetime.now(timezone.utc)
+                    events, baskets = kl.sweep(api, cfg, max(kl.free_budget(cfg, kl.load_state()), D(0)))
+                    traded = kl.trade(api, cfg, baskets)
+                    kl.log_prices(events, when)
+                    kl.log_baskets(baskets, traded, when, cfg["min_profit"])
+                    kl.update_scorecard(events, baskets, cfg["min_profit"])
+                    placed = place(api, cfg, events)
+                    log.info("Swept %d events: %d taker trades, %d new quotes, %d resting", len(events), len(traded), placed,
+                             len(kl.load_state().get("quotes", [])))
+                check(api, cfg)
+            except Exception:
+                log.exception("Maker loop error; carrying on")
             time.sleep(args.poll)
     finally:
         cancel_all(api)
