@@ -56,7 +56,7 @@ def _main_env(name: str) -> str:
 
 
 LAST_PRICES: datetime | None = None
-PRICE_EVERY = 5  # minutes between price snapshots, however often the bot sweeps
+PRICE_EVERY = 15  # minutes between price snapshots, however often the bot sweeps
 MODE = "scan"  # "demo" or "paper" once main() picks, for alert titles
 NTFY = ""
 
@@ -278,6 +278,9 @@ def log_prices(events: list[dict], when: datetime) -> None:
             w.writerow(["time", "series", "event", "ticker", "yes_bid", "yes_ask", "last", "volume_24h", "open_interest", "close_time"])
         for e in events:
             for m in e.get("markets", []):
+                bid, ask = float(m.get("yes_bid_dollars") or 0), float(m.get("yes_ask_dollars") or 1)
+                if bid <= 0 and ask >= 1:
+                    continue  # nobody quoting: nothing to learn, and most markets are like this
                 w.writerow([when.isoformat(timespec="seconds"), e.get("series_ticker", ""), e.get("event_ticker", ""),
                             m.get("ticker", ""), m.get("yes_bid_dollars", ""), m.get("yes_ask_dollars", ""),
                             m.get("last_price_dollars", ""), m.get("volume_24h_fp", ""), m.get("open_interest_fp", ""),
