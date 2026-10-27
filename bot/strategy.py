@@ -9,6 +9,9 @@ the backtest, live loop and `python -m bot.compare` all pick it up.
                   Exit on an ATR stop, an ATR target, or a bearish EMA cross.
   orb             First close above the opening range high.
   orb_short       Mirror of orb: short the first close below the opening range low (backtest only for now).
+  momentum        Intraday momentum: if the first 30 minutes (vs yesterday's close) rose more than
+                  MOM_MIN_PCT, buy late in the day (MOM_ENTRY) and hold into the end-of-day flatten.
+  momentum_short  The same for days that fell: short late in the day (backtest only for now).
   vwap_reversion  Price stretches well below VWAP with RSI oversold; target VWAP.
   bollinger       Close crosses back above the lower Bollinger band; target the middle band.
   pdh_break       First close above the previous day's high.
@@ -74,6 +77,7 @@ def add_indicators(df: pd.DataFrame, cfg: Settings) -> pd.DataFrame:
     out["rsi2"] = rsi(out["close"], 2)
     out["vol_avg"] = out["volume"].rolling(20).mean().shift(1)  # average of the 20 bars before this one
     out = _add_daily_levels(out)
+    out = _add_first_30(out)
     out = _add_opening_range(out, cfg.orb_minutes, cfg.orb_max_per_day)
     return out
 
@@ -86,6 +90,17 @@ def _add_daily_levels(out: pd.DataFrame) -> pd.DataFrame:
     prev = daily.shift(1)
     out["prev_high"] = day.map(prev["high"]).astype(float)
     out["prev_close"] = day.map(prev["close"]).astype(float)
+    return out
+
+
+def _add_first_30(out: pd.DataFrame) -> pd.DataFrame:
+    """% move from yesterday's close to the close of the first 30 minutes, known only after 10:00 ET."""
+    et = out.index.tz_convert("America/New_York")
+    day = pd.Series(et.date, index=out.index)
+    mins_in = (et.hour * 60 + et.minute) - (9 * 60 + 30)
+    first = pd.Series(mins_in < 30, index=out.index)
+    close_30 = out["close"].where(first).groupby(day).transform("last")
+    out["r30"] = ((close_30 / out["prev_close"] - 1) * 100).where(~first)
     return out
 
 
@@ -215,6 +230,37 @@ def orb_short_signal(symbol: str, bars: pd.DataFrame, cfg: Settings) -> Signal |
         target=price - cfg.orb_target_r * (stop - price),
         reason=f"broke below {cfg.orb_minutes}-min opening range low {row['or_low']:.2f}",
     )
+
+
+def _momentum(symbol: str, bars: pd.DataFrame, cfg: Settings, short: bool) -> Signal | None:
+    row = bars.iloc[-1]
+    et = bars.index[-1].tz_convert("America/New_York")
+    h, m = map(int, cfg.mom_entry.split(":"))
+    if (et.hour, et.minute) != (h, m) or np.isnan(row["r30"]):  # one decision a day, on the MOM_ENTRY bar
+        return None
+    move = -row["r30"] if short else row["r30"]
+    if not move > cfg.mom_min_pct:
+        return None
+    price, a = float(row["close"]), float(row["atr"])
+    if a <= 0 or np.isnan(a):
+        return None
+    sign = -1 if short else 1
+    return Signal(
+        symbol=symbol,
+        side="sell" if short else "buy",
+        price=price,
+        stop=price - sign * cfg.stop_atr * a,
+        target=price + sign * 10 * a,  # effectively no target: the end-of-day flatten exits
+        reason=f"first 30 min {row['r30']:+.2f}% vs yesterday's close",
+    )
+
+
+def momentum_signal(symbol: str, bars: pd.DataFrame, cfg: Settings) -> Signal | None:
+    return _momentum(symbol, bars, cfg, short=False)
+
+
+def momentum_short_signal(symbol: str, bars: pd.DataFrame, cfg: Settings) -> Signal | None:
+    return _momentum(symbol, bars, cfg, short=True)
 
 
 def vwap_reversion_signal(symbol: str, bars: pd.DataFrame, cfg: Settings) -> Signal | None:
@@ -362,6 +408,8 @@ STRATEGIES: dict[str, Strategy] = {
         Strategy("ema_cross", ema_cross_signal, ema_cross_exit),
         Strategy("orb", orb_signal),
         Strategy("orb_short", orb_short_signal, short=True),
+        Strategy("momentum", momentum_signal),
+        Strategy("momentum_short", momentum_short_signal, short=True),
         Strategy("vwap_reversion", vwap_reversion_signal),
         Strategy("bollinger", bollinger_signal),
         Strategy("pdh_break", pdh_break_signal),

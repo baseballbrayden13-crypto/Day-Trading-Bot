@@ -51,6 +51,8 @@ class Settings:
     # Enter with a limit order this many bps above the signal price instead of a market order (backtest and live).
     # An entry that hasn't filled by the next bar is cancelled. -1 = market order.
     entry_limit_bps: float = field(default_factory=lambda: _float("ENTRY_LIMIT_BPS", -1))
+    mom_entry: str = field(default_factory=lambda: os.getenv("MOM_ENTRY", "15:20").strip())  # momentum: bar that decides, ET
+    mom_min_pct: float = field(default_factory=lambda: _float("MOM_MIN_PCT", 0.0))  # momentum: first-30-min move needed, %
     gap_min_pct: float = field(default_factory=lambda: _float("GAP_MIN_PCT", 1.0))  # gap_reversal: minimum gap down, %
     ema_fast: int = field(default_factory=lambda: _int("EMA_FAST", 9))
     ema_slow: int = field(default_factory=lambda: _int("EMA_SLOW", 21))

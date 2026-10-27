@@ -393,3 +393,16 @@ def test_live_entry_uses_a_limit_only_when_asked(monkeypatch):
         live.run_once(cfg, broker, RiskManager(cfg))
         assert ("cancel" in calls) == (bps >= 0)
         assert calls[-1] == (pytest.approx(expected) if expected else None)
+
+
+def test_momentum_decides_once_a_day_after_the_first_30_minutes():
+    df = add_indicators(synthetic_bars(days=10, seed=5, gap_sd=0.01), Settings())
+    et = df.index.tz_convert(ET)
+    first = (et.hour * 60 + et.minute) < 10 * 60
+    assert df.loc[first, "r30"].isna().all()  # unknown before 10:00
+    trades = run_backtest({"AAA": synthetic_bars(days=30, seed=5, gap_sd=0.01)},
+                          Settings(strategy="momentum", market_filter=""), 25_000)["trade_log"]
+    assert len(trades)
+    entries = trades["entry_time"].dt.tz_convert(ET)
+    assert ((entries.dt.hour == 15) & (entries.dt.minute == 25)).all()  # filled at the open after the 15:20 bar
+    assert entries.dt.date.is_unique
