@@ -19,6 +19,7 @@ from __future__ import annotations
 import argparse
 import logging
 import os
+import sys
 import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -295,7 +296,7 @@ def main() -> None:
     ap.add_argument("--minutes", type=float, default=0, help="stop (cancelling all quotes) after this long; 0 = run until Ctrl+C")
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
-                        handlers=[logging.StreamHandler(), logging.FileHandler("kalshi.log")])
+                        handlers=[logging.StreamHandler(sys.stdout), logging.FileHandler("kalshi.log")])
     kl.single_instance("kalshi-maker")  # never two makers on one state file
     cfg = kl.load_settings()
     cfg["max_quotes"] = int(os.getenv("KALSHI_MAX_QUOTES", "3"))
