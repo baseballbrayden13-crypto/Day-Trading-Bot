@@ -371,3 +371,25 @@ def test_alerts_are_off_without_a_topic_and_never_raise(monkeypatch):
         raise OSError("offline")
     monkeypatch.setattr(notify.urllib.request, "urlopen", boom)
     assert notify.send(dataclasses.replace(Settings(), ntfy_topic="x"), "t", "m") is False
+
+
+def test_live_entry_uses_a_limit_only_when_asked(monkeypatch):
+    from types import SimpleNamespace as NS
+    from bot import live
+    from bot.strategy import Signal
+
+    calls = []
+    broker = NS(equity=lambda: 5_000.0, open_symbols=lambda: set(), close_all=lambda: None,
+                cancel_unfilled_entries=lambda: calls.append("cancel") or [],
+                buy_bracket=lambda sym, qty, stop, target, limit=None: calls.append(limit) or NS(id="o1"))
+    monkeypatch.setattr(live, "from_alpaca", lambda *a, **k: synthetic_bars(days=2))
+    monkeypatch.setattr(live, "add_indicators", lambda df, cfg: df)
+    monkeypatch.setattr(live, "entry_signal", lambda sym, bars, cfg: Signal(sym, "buy", 100.0, 99.0, 101.5, "test"))
+    monkeypatch.setattr(live, "log_order", lambda *a, **k: None)
+    monkeypatch.setattr(live, "datetime", NS(now=lambda tz: datetime(2026, 3, 2, 10, 0, tzinfo=tz)))
+    for bps, expected in ((-1, None), (5, 100.05)):
+        calls.clear()
+        cfg = dataclasses.replace(Settings(), symbols=["AAA"], entry_limit_bps=bps, market_filter="")
+        live.run_once(cfg, broker, RiskManager(cfg))
+        assert ("cancel" in calls) == (bps >= 0)
+        assert calls[-1] == (pytest.approx(expected) if expected else None)

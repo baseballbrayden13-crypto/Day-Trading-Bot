@@ -48,8 +48,8 @@ class Settings:
     # Backtest only (live orders are fixed brackets): once price reaches entry + N x risk, raise the stop.
     stop_breakeven_r: float = field(default_factory=lambda: _float("STOP_BREAKEVEN_R", 0))  # move stop to entry; 0 = off
     stop_trail_r: float = field(default_factory=lambda: _float("STOP_TRAIL_R", 0))  # trail stop N x risk under the high; 0 = off
-    # Backtest only: enter with a limit order this many bps above the signal price instead of a market order.
-    # It fills on the next bar only if price trades at or under the limit, with no slippage. -1 = market order.
+    # Enter with a limit order this many bps above the signal price instead of a market order (backtest and live).
+    # An entry that hasn't filled by the next bar is cancelled. -1 = market order.
     entry_limit_bps: float = field(default_factory=lambda: _float("ENTRY_LIMIT_BPS", -1))
     gap_min_pct: float = field(default_factory=lambda: _float("GAP_MIN_PCT", 1.0))  # gap_reversal: minimum gap down, %
     ema_fast: int = field(default_factory=lambda: _int("EMA_FAST", 9))

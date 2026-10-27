@@ -36,6 +36,9 @@ def run_once(cfg: Settings, broker: Broker, risk: RiskManager, reviewer=None) ->
         risk.new_day(now_et.date(), equity)
         log.info("New day %s, starting equity $%.2f", now_et.date(), equity)
 
+    if cfg.entry_limit_bps >= 0:
+        for sym in broker.cancel_unfilled_entries():
+            log.info("Cancelled unfilled limit entry for %s", sym)
     was_open = risk.open_symbols
     risk.open_symbols = broker.open_symbols()  # broker is the source of truth
     for sym in sorted(was_open - risk.open_symbols):  # its stop or target filled at Alpaca
@@ -88,8 +91,10 @@ def run_once(cfg: Settings, broker: Broker, risk: RiskManager, reviewer=None) ->
         qty = risk.position_size(equity, sig.price, sig.stop)
         if qty <= 0:
             continue
-        log.info("BUY %s x%d @~%.2f stop %.2f target %.2f | %s", sym, qty, sig.price, sig.stop, sig.target, sig.reason)
-        order = broker.buy_bracket(sym, qty, sig.stop, sig.target)
+        limit = sig.price * (1 + cfg.entry_limit_bps / 10_000) if cfg.entry_limit_bps >= 0 else None
+        log.info("BUY %s x%d @%s%.2f stop %.2f target %.2f | %s", sym, qty, "limit " if limit else "~",
+                 limit or sig.price, sig.stop, sig.target, sig.reason)
+        order = broker.buy_bracket(sym, qty, sig.stop, sig.target, limit)
         risk.record_entry(sym)
         send(cfg, f"Bought {sym}", f"{qty} x {sym} @ ~${sig.price:.2f}, stop ${sig.stop:.2f}, target ${sig.target:.2f}")
         try:
