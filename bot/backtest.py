@@ -15,7 +15,7 @@ import pandas as pd
 from .config import Settings
 from .data import load_bars
 from .risk import RiskManager
-from .strategy import add_indicators, entry_signal, exit_on_trend_break, market_ok
+from .strategy import add_indicators, entry_signal, exit_on_trend_break, get_strategy, market_ok
 
 
 @dataclass
@@ -26,15 +26,24 @@ class Position:
     stop: float
     target: float
     entry_time: pd.Timestamp
-    risk: float = 0.0  # entry minus the starting stop, per share
-    high: float = 0.0  # highest price since entry
+    risk: float = 0.0  # distance from entry to the starting stop, per share
+    high: float = 0.0  # best price since entry: the highest for a long, the lowest for a short
+    short: bool = False
 
 
 def raise_stop(p: Position, bar_high: float, cfg: Settings) -> None:
-    """Breakeven and trailing stops. Uses this bar's high, so the new stop applies from the next bar."""
-    p.high = max(p.high, bar_high)
+    """Breakeven and trailing stops. Uses this bar's high (low, for a short), so the new stop
+    applies from the next bar. Stops only ever move in the trade's favour."""
     if p.risk <= 0:
         return
+    if p.short:
+        p.high = min(p.high, bar_high)
+        if cfg.stop_breakeven_r and p.high <= p.entry - cfg.stop_breakeven_r * p.risk:
+            p.stop = min(p.stop, p.entry)
+        if cfg.stop_trail_r:
+            p.stop = min(p.stop, p.high + cfg.stop_trail_r * p.risk)
+        return
+    p.high = max(p.high, bar_high)
     if cfg.stop_breakeven_r and p.high >= p.entry + cfg.stop_breakeven_r * p.risk:
         p.stop = max(p.stop, p.entry)
     if cfg.stop_trail_r:
@@ -46,20 +55,22 @@ def sell_fees(qty: int, price: float, cfg: Settings) -> float:
     return qty * price * cfg.sec_fee_rate + min(qty * cfg.taf_per_share, cfg.taf_max)
 
 
-def entry_fill(signal_price: float, bar, cfg: Settings) -> float | None:
+def entry_fill(signal_price: float, bar, cfg: Settings, short: bool = False) -> float | None:
     """Market order: next open plus slippage. Limit order: the limit (or a better open), or no fill."""
+    sign = -1 if short else 1
     if cfg.entry_limit_bps < 0:
-        return bar["open"] * (1 + cfg.slippage_bps / 10_000)
-    limit = signal_price * (1 + cfg.entry_limit_bps / 10_000)
-    if bar["low"] > limit:
+        return bar["open"] * (1 + sign * cfg.slippage_bps / 10_000)
+    limit = signal_price * (1 + sign * cfg.entry_limit_bps / 10_000)
+    if (bar["high"] < limit) if short else (bar["low"] > limit):
         return None  # price ran away; the order expires unfilled
-    return min(bar["open"], limit)
+    return max(bar["open"], limit) if short else min(bar["open"], limit)
 
 
 def run_backtest(
     frames: dict[str, pd.DataFrame], cfg: Settings, starting_cash: float = 25_000,
     market: pd.DataFrame | None = None,
 ) -> dict:
+    short = get_strategy(cfg.strategy).short
     data = {s: add_indicators(df, cfg) for s, df in frames.items() if not df.empty}
     if cfg.market_filter and market is None:
         market = frames.get(cfg.market_filter)
@@ -78,18 +89,25 @@ def run_backtest(
         for p in positions.values():
             df = data[p.symbol]
             px = df.loc[:t, "close"].iloc[-1]
-            val += p.qty * px
+            val += -p.qty * px if p.short else p.qty * px
         return val
 
     def close(p: Position, px: float, t, why: str):
         nonlocal cash
-        fill = px * (1 - slip)
-        fees = sell_fees(p.qty, fill, cfg)
-        cash += p.qty * fill - p.qty * cfg.commission_per_share - fees
+        if p.short:  # buy to cover; the sell fees were paid at entry
+            fill = px * (1 + slip)
+            fees = sell_fees(p.qty, p.entry, cfg)
+            cash -= p.qty * fill + p.qty * cfg.commission_per_share
+            gross = p.qty * (p.entry - fill)
+        else:
+            fill = px * (1 - slip)
+            fees = sell_fees(p.qty, fill, cfg)
+            cash += p.qty * fill - p.qty * cfg.commission_per_share - fees
+            gross = p.qty * (fill - p.entry)
         trades.append({
             "symbol": p.symbol, "entry_time": p.entry_time, "exit_time": t, "qty": p.qty,
-            "entry": p.entry, "exit": fill,
-            "pnl": p.qty * (fill - p.entry) - 2 * p.qty * cfg.commission_per_share - fees,
+            "entry": p.entry, "exit": fill, "side": "short" if p.short else "long",
+            "pnl": gross - 2 * p.qty * cfg.commission_per_share - fees,
             "fees": fees + 2 * p.qty * cfg.commission_per_share,
             "exit_reason": why,
         })
@@ -109,27 +127,35 @@ def run_backtest(
             # 1. fill entries signalled on the previous bar
             sig = pending.pop(sym, None)
             if sig is not None and sym not in positions:
-                fill = entry_fill(sig.price, bar, cfg)
+                fill = entry_fill(sig.price, bar, cfg, short)
             if sig is not None and sym not in positions and fill is not None:
-                qty = risk.position_size(mark(t), fill, sig.stop)
+                # size a short like a long by mirroring the stop around the fill
+                qty = risk.position_size(mark(t), fill, 2 * fill - sig.stop if short else sig.stop)
                 if qty > 0 and qty * fill <= cash:
-                    cash -= qty * fill + qty * cfg.commission_per_share
-                    positions[sym] = Position(sym, qty, fill, sig.stop, sig.target, t, fill - sig.stop, fill)
+                    if short:  # sale proceeds are held as cash, less the sell fees paid now
+                        cash += qty * fill - qty * cfg.commission_per_share - sell_fees(qty, fill, cfg)
+                    else:
+                        cash -= qty * fill + qty * cfg.commission_per_share
+                    positions[sym] = Position(sym, qty, fill, sig.stop, sig.target, t, abs(fill - sig.stop), fill, short)
                     risk.record_entry(sym)
 
             # 2. manage open position: stop first (conservative), then target
             p = positions.get(sym)
             if p is not None:
-                if bar["low"] <= p.stop:
+                if p.short and bar["high"] >= p.stop:
+                    close(p, max(p.stop, bar["open"]), t, "stop")
+                elif p.short and bar["low"] <= p.target:
+                    close(p, min(p.target, bar["open"]), t, "target")
+                elif not p.short and bar["low"] <= p.stop:
                     close(p, min(p.stop, bar["open"]), t, "stop")
-                elif bar["high"] >= p.target:
+                elif not p.short and bar["high"] >= p.target:
                     close(p, max(p.target, bar["open"]), t, "target")
                 elif risk.must_flatten(now_et):
                     close(p, bar["close"], t, "end of day")
                 elif exit_on_trend_break(df.loc[:t], cfg):
                     close(p, bar["close"], t, "trend break")
                 else:
-                    raise_stop(p, bar["high"], cfg)
+                    raise_stop(p, bar["low"] if p.short else bar["high"], cfg)
 
         risk.check_daily_loss(mark(t))
         if risk.halted:
@@ -137,7 +163,7 @@ def run_backtest(
                 close(p, data[p.symbol].loc[:t, "close"].iloc[-1], t, "daily loss halt")
 
         # 3. look for new entries on this bar's close
-        if cfg.market_filter and not market_ok(mkt.loc[:t] if mkt is not None else None):
+        if cfg.market_filter and not market_ok(mkt.loc[:t] if mkt is not None else None, short):
             equity_curve.append((t, mark(t)))
             continue
         for sym, df in data.items():

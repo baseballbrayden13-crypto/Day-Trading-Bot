@@ -312,3 +312,31 @@ def test_limit_entries_fill_only_at_or_under_the_limit():
     assert entry_fill(100.0, bar, lim) == pytest.approx(100.05)  # opened above the limit, dipped back to it
     assert entry_fill(100.0, {"open": 100.10, "low": 100.08}, lim) is None  # never came back: no fill
     assert entry_fill(100.0, {"open": 99.90, "low": 99.80}, lim) == pytest.approx(99.90)  # better open
+
+
+def test_short_orb_books_profit_when_price_falls_and_cash_adds_up():
+    frames = {"AAA": synthetic_bars(days=30, seed=3, gap_sd=0.01), "BBB": synthetic_bars(days=30, seed=4, gap_sd=0.01)}
+    for name in ("orb", "orb_short"):
+        res = run_backtest(frames, Settings(strategy=name), 25_000)
+        log = res["trade_log"]
+        assert len(log), name
+        # the equity curve and the trade log must agree: every dollar is accounted for
+        assert res["final_equity"] == pytest.approx(25_000 + log["pnl"].sum(), abs=0.01), name
+    log = run_backtest(frames, Settings(strategy="orb_short"), 25_000)["trade_log"]
+    assert (log["side"] == "short").all()
+    wins = log[log["exit"] < log["entry"]]
+    assert (wins["pnl"] > -wins["fees"]).all()  # covering lower than the short price makes money before costs
+    stops = log[log["exit_reason"] == "stop"]
+    assert (stops["exit"] > stops["entry"]).all()  # a short's stop is above the entry
+
+
+def test_short_stops_move_down_only():
+    from bot.backtest import Position, raise_stop
+    cfg = dataclasses.replace(Settings(), stop_breakeven_r=1.0, stop_trail_r=1.5)
+    p = Position("X", 10, 100.0, 102.0, 94.0, pd.Timestamp("2026-03-02", tz="UTC"), 2.0, 100.0, True)
+    raise_stop(p, 97.5, cfg)
+    assert p.stop == 100.0  # down 1R: breakeven
+    raise_stop(p, 96.0, cfg)
+    assert p.stop == 99.0  # trails 1.5R above the low
+    raise_stop(p, 98.0, cfg)
+    assert p.stop == 99.0

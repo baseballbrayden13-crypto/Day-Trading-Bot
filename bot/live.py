@@ -16,7 +16,7 @@ from .config import Settings
 from .data import from_alpaca
 from .fills import log_order
 from .risk import RiskManager
-from .strategy import add_indicators, entry_signal, exit_on_trend_break, market_ok
+from .strategy import add_indicators, entry_signal, exit_on_trend_break, get_strategy, market_ok
 
 ET = ZoneInfo("America/New_York")
 log = logging.getLogger("bot")
@@ -105,6 +105,8 @@ def main() -> None:
         handlers=[logging.StreamHandler(), logging.FileHandler("trades.log")],
     )
     cfg = Settings()
+    if get_strategy(cfg.strategy).short:
+        raise SystemExit(f"{cfg.strategy} is backtest only for now; the live bot can't place short orders yet.")
     broker = Broker(cfg)
     risk = RiskManager(cfg)
     reviewer = None

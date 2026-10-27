@@ -1,6 +1,6 @@
 """Indicators and entry/exit signals.
 
-Every strategy is long only and intraday, and is registered in STRATEGIES at
+Every strategy is intraday and long only except orb_short, and is registered in STRATEGIES at
 the bottom of this file. Pick one with STRATEGY in .env. To add a strategy,
 write an entry function (and optionally an exit function) and register it;
 the backtest, live loop and `python -m bot.compare` all pick it up.
@@ -8,6 +8,7 @@ the backtest, live loop and `python -m bot.compare` all pick it up.
   ema_cross       Fast EMA crosses above slow EMA, price above VWAP, RSI 50-70.
                   Exit on an ATR stop, an ATR target, or a bearish EMA cross.
   orb             First close above the opening range high.
+  orb_short       Mirror of orb: short the first close below the opening range low (backtest only for now).
   vwap_reversion  Price stretches well below VWAP with RSI oversold; target VWAP.
   bollinger       Close crosses back above the lower Bollinger band; target the middle band.
   pdh_break       First close above the previous day's high.
@@ -100,6 +101,10 @@ def _add_opening_range(out: pd.DataFrame, minutes: int, max_per_day: int = 1) ->
     prev_above = above.groupby(day).shift(fill_value=False).astype(bool)
     cross = above & ~prev_above  # a close back above the range high after being at or below it
     out["orb_break"] = cross & (cross.astype(int).groupby(day).cumsum() <= max_per_day)
+    below = (out["close"] < out["or_low"]).fillna(False)
+    prev_below = below.groupby(day).shift(fill_value=False).astype(bool)
+    down = below & ~prev_below
+    out["orb_breakdown"] = down & (down.astype(int).groupby(day).cumsum() <= max_per_day)
     return out
 
 
@@ -172,6 +177,43 @@ def orb_signal(symbol: str, bars: pd.DataFrame, cfg: Settings) -> Signal | None:
         stop=stop,
         target=price + cfg.orb_target_r * (price - stop),
         reason=f"broke {cfg.orb_minutes}-min opening range high {row['or_high']:.2f}",
+    )
+
+
+def orb_short_signal(symbol: str, bars: pd.DataFrame, cfg: Settings) -> Signal | None:
+    """Mirror of orb_signal: short the first close below the opening range low.
+    Stop at the range high (or midpoint), target orb_target_r times the risk below.
+    ORB_GAP still picks the days (try up, down and any); the volume and range filters apply too."""
+    row = bars.iloc[-1]
+    if not row["orb_breakdown"]:
+        return None
+    if cfg.orb_last_entry:
+        h, m = map(int, cfg.orb_last_entry.split(":"))
+        et = bars.index[-1].tz_convert("America/New_York")
+        if et.hour * 60 + et.minute >= h * 60 + m:
+            return None
+    price = float(row["close"])
+    if cfg.orb_vwap_filter and not price < row["vwap"]:
+        return None
+    if cfg.orb_volume_mult and not row["volume"] >= cfg.orb_volume_mult * row["vol_avg"]:
+        return None
+    if cfg.orb_max_range_pct and (row["or_high"] - row["or_low"]) / price * 100 > cfg.orb_max_range_pct:
+        return None
+    gap = (row["day_open"] / row["prev_close"] - 1) * 100
+    if cfg.orb_gap == "up" and not (gap > 0 and gap >= cfg.orb_gap_min_pct):
+        return None
+    if cfg.orb_gap == "down" and not (gap < 0 and -gap >= cfg.orb_gap_min_pct):
+        return None
+    stop = float(row["or_high"]) if cfg.orb_stop == "low" else float(row["or_high"] + row["or_low"]) / 2
+    if not stop > price:
+        return None
+    return Signal(
+        symbol=symbol,
+        side="sell",
+        price=price,
+        stop=stop,
+        target=price - cfg.orb_target_r * (stop - price),
+        reason=f"broke below {cfg.orb_minutes}-min opening range low {row['or_low']:.2f}",
     )
 
 
@@ -284,12 +326,13 @@ def rsi2_exit(bars: pd.DataFrame, cfg: Settings | None) -> bool:
     return bool(bars.iloc[-1]["rsi2"] > 70)
 
 
-def market_ok(market_bars: pd.DataFrame | None) -> bool:
-    """True when the market symbol's last close is above its session VWAP. No data = don't trade."""
+def market_ok(market_bars: pd.DataFrame | None, short: bool = False) -> bool:
+    """True when the market symbol's last close is above its session VWAP (below it, for short
+    strategies). No data = don't trade."""
     if market_bars is None or market_bars.empty:
         return False
     row = market_bars.iloc[-1]
-    return bool(row["close"] > row["vwap"])
+    return bool(row["close"] < row["vwap"]) if short else bool(row["close"] > row["vwap"])
 
 
 def exit_on_trend_break(bars: pd.DataFrame, cfg: Settings | None = None) -> bool:
@@ -310,6 +353,7 @@ class Strategy:
     name: str
     entry: Callable[[str, pd.DataFrame, Settings], Signal | None]
     exit: Callable[[pd.DataFrame, Settings | None], bool] = hold_to_bracket
+    short: bool = False  # sells first, covers later
 
 
 STRATEGIES: dict[str, Strategy] = {
@@ -317,6 +361,7 @@ STRATEGIES: dict[str, Strategy] = {
     for s in [
         Strategy("ema_cross", ema_cross_signal, ema_cross_exit),
         Strategy("orb", orb_signal),
+        Strategy("orb_short", orb_short_signal, short=True),
         Strategy("vwap_reversion", vwap_reversion_signal),
         Strategy("bollinger", bollinger_signal),
         Strategy("pdh_break", pdh_break_signal),
