@@ -82,7 +82,7 @@ def test_collect_reads_accounts_orders_logs_and_kalshi(tmp_path):
         2: FakeClient("PA99998T7Y", positions=["XLE"]),
         3: FakeClient(fail="401 unauthorized"),
     }
-    snap = data_bot.collect(bots, NOW, with_market=False, client_for=lambda b: clients[b.num])
+    snap = data_bot.collect(bots, NOW, with_market=False, client_for=lambda b: clients[b.num], tasks=lambda: [])
     b1 = snap["bots"]["1"]
     assert b1["account"]["account"] == "QIE2" and b1["account"]["status"] == "ACTIVE"
     assert [o["side"] for o in b1["orders"]] == ["buy", "sell"]
@@ -157,8 +157,8 @@ def test_broken_fleet_is_flagged_with_fixes():
 def test_weekday_bot_is_not_late_on_weekend():
     bot1 = FLEET[0]
     sunday = datetime(2026, 11, 1, 12, tzinfo=ET)
-    assert mt.last_due(bot1, sunday) == datetime(2026, 10, 30, 9, 45, tzinfo=ET)  # Friday's run
-    assert mt.last_due(bot1, datetime(2026, 10, 27, 9, 0, tzinfo=ET)) == datetime(2026, 10, 26, 9, 45, tzinfo=ET)
+    assert mt.last_due(bot1, sunday) == datetime(2026, 10, 30, 9, 20, tzinfo=ET)  # Friday's run
+    assert mt.last_due(bot1, datetime(2026, 10, 27, 9, 0, tzinfo=ET)) == datetime(2026, 10, 26, 9, 20, tzinfo=ET)
     holiday = datetime(2026, 11, 26, 12, tzinfo=ET)  # Thanksgiving
     assert mt.last_due(bot1, holiday, trading_today=False).date().isoformat() == "2026-11-25"
 
@@ -193,3 +193,32 @@ def test_alerts_once_a_day(tmp_path):
     assert len(mt.new_alerts(f, p, NOW)) == 1
     assert mt.new_alerts(f, p, NOW + timedelta(hours=2)) == []
     assert len(mt.new_alerts(f, p, NOW + timedelta(hours=25))) == 1
+
+
+def test_scheduled_task_checks():
+    s = healthy_snapshot()
+    s["clock"]["is_open"] = True
+    s["tasks"] = [{"name": "Trading bot (paper)", "state": "Ready", "last_result": 0xC000013A},
+                  {"name": "Trading bot 2 (rotation, paper)", "state": "Ready", "last_result": 0},
+                  {"name": "Kalshi paper bot", "state": "Ready", "last_result": 0xC000013A}]
+    s["bots"]["1"]["log"] = {**s["bots"]["1"]["log"], "modified": datetime(2026, 10, 27, 9, 30, tzinfo=ET).isoformat()}  # quiet loop log is fine
+    f = mt.run_checks(s, FLEET, [], [], NOW)
+    task1 = [x for x in f if x.bot == 1 and x.check == "task"]
+    assert len(task1) == 1 and task1[0].level == "act" and "window was closed" in task1[0].message
+    assert not [x for x in f if x.bot == 1 and x.check == "schedule"]
+    assert [x.level for x in f if x.bot == 4 and x.check == "task"] == ["watch"]
+    assert not [x for x in f if x.bot == 2 and x.level in ("watch", "act")]
+
+
+def test_log_written_at_task_start_counts():
+    s = healthy_snapshot()
+    nine_fifty = datetime(2026, 10, 27, 9, 50, 30, tzinfo=ET)
+    s["bots"]["2"]["log"]["modified"] = nine_fifty.isoformat()
+    assert mt.check_schedule(FLEET[1], s["bots"]["2"], nine_fifty + timedelta(minutes=5), True) == []
+
+
+def test_tasks_parse_single_or_list():
+    one = '{"name": "Kalshi", "state": "Running", "last_result": 267009}'
+    assert data_bot.scheduled_tasks(lambda: one)[0]["state"] == "Running"
+    assert len(data_bot.scheduled_tasks(lambda: "[" + one + "," + one + "]")) == 2
+    assert data_bot.scheduled_tasks(lambda: "") == []

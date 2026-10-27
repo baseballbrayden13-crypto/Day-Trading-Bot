@@ -144,8 +144,9 @@ are enough trades, and Kalshi stray positions or losing "locked-in" trades. Ever
 what to do. Fixes that would change how a bot trades go to `fleet_data/proposals.csv` in the
 Strategy Lab Changes-log format (status "Proposed"); nothing is applied without an OK.
 
-Schedule it once a day after bot 3's 8:15pm run, e.g. a Windows task at 8:30pm ET running
-`python -m bot.maintenance --collect --alert` in this folder.
+On Windows it also reads each bot's scheduled task (running or not, last result code), which
+catches a bot whose window was closed even when its log looks fine. Schedule it once a day after
+bot 3's 8:15pm run with `Run fleet maintenance.bat` (the command to register it is inside).
 
 ## Setup (about 10 minutes)
 

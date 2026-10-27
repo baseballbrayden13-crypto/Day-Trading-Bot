@@ -300,10 +300,42 @@ def market_clock(client, now: datetime) -> dict:
             "trading_day": trading_day}
 
 
+# ---------------------------------------------------------------- Windows scheduled tasks
+
+TASKS_PS = (
+    "Get-ScheduledTask | Where-Object { $_.TaskName -match 'bot|kalshi|fleet' } | ForEach-Object { "
+    "$i = $_ | Get-ScheduledTaskInfo; [pscustomobject]@{ name = $_.TaskName; state = [string]$_.State; "
+    "last_run = $i.LastRunTime.ToString('o'); last_result = $i.LastTaskResult; next_run = if ($i.NextRunTime) "
+    "{ $i.NextRunTime.ToString('o') } else { '' } } } | ConvertTo-Json -Depth 2"
+)
+
+
+def scheduled_tasks(run=None) -> list[dict]:
+    """The bots' Windows tasks: state (Running/Ready/Disabled), last run, last result code. [] off Windows."""
+    import subprocess
+    import sys
+
+    if run is None:
+        if sys.platform != "win32":
+            return []
+        run = lambda: subprocess.run(["powershell", "-NoProfile", "-Command", TASKS_PS], capture_output=True,
+                                     text=True, timeout=60).stdout
+    text = (run() or "").strip()
+    if not text:
+        return []
+    got = json.loads(text)
+    return [got] if isinstance(got, dict) else got
+
+
 # ---------------------------------------------------------------- run and save
 
-def collect(bots: list[Bot], now: datetime, days: int = 30, with_market: bool = True, client_for=trading_client) -> dict:
+def collect(bots: list[Bot], now: datetime, days: int = 30, with_market: bool = True, client_for=trading_client,
+            tasks=scheduled_tasks) -> dict:
     snap: dict = {"taken": now.isoformat(timespec="seconds"), "bots": {}, "errors": []}
+    try:
+        snap["tasks"] = tasks()
+    except Exception as e:
+        snap["errors"].append(f"scheduled tasks: {type(e).__name__}: {e}"[:300])
     clock_done = False
     for b in bots:
         if b.kind == "kalshi":

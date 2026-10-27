@@ -23,7 +23,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from types import SimpleNamespace
@@ -128,10 +128,49 @@ def check_connection(bot: Bot, s: dict) -> list[Finding]:
     return out
 
 
-def check_schedule(bot: Bot, s: dict, now: datetime, trading_today: bool | None) -> list[Finding]:
+# Windows task result codes worth naming (anything else nonzero is shown as hex)
+TASK_CODES = {0: "finished OK", 0x41301: "still running", 0x41303: "has not run yet", 0x41306: "stopped by Task Scheduler",
+              0xC000013A: "its window was closed (or Ctrl+C)", 0x1: "the script exited with an error", 0x8007010B: "its start-in folder is wrong",
+              0x800710E0: "refused to start (the PC was busy or asleep)"}
+
+
+def find_task(bot: Bot, tasks: list[dict]) -> dict | None:
+    if not bot.task:
+        return None
+    exact = [t for t in tasks if t.get("name", "").lower() == bot.task.lower()]
+    loose = [t for t in tasks if bot.task.lower() in t.get("name", "").lower()]
+    return (exact or loose or [None])[0]
+
+
+def check_task(bot: Bot, tasks: list[dict], snap: dict, now: datetime) -> list[Finding]:
+    """Uses the Windows task itself, which knows more than the log: is it running, did it crash."""
+    t = find_task(bot, tasks)
+    if t is None:
+        return []
+    out = []
+    code = int(t.get("last_result") or 0) & 0xFFFFFFFF
+    clock = snap.get("clock", {})
+    state = str(t.get("state", ""))
+    if state == "Disabled":
+        out.append(Finding(bot.num, "act", "task", f"Its Windows task \"{t['name']}\" is disabled, so bot {bot.num} won't run.",
+                           "Re-enable it in Task Scheduler if that wasn't on purpose."))
+    if bot.always_on and clock.get("is_open") and state != "Running":
+        out.append(Finding(bot.num, "act", "task", f"The market is open but \"{t['name']}\" isn't running "
+                           f"(last result: {TASK_CODES.get(code, hex(code))}). Bot 1 can't trade today until it's restarted.",
+                           f"Start the task again (Task Scheduler > {t['name']} > Run), and keep its window open."))
+    elif code not in (0, 0x41301, 0x41303):
+        out.append(Finding(bot.num, "act" if bot.always_on else "watch", "task",
+                           f"Its last run ended badly: {TASK_CODES.get(code, hex(code))} (code {hex(code)}).",
+                           "Read the end of its log. If the window was closed, the bot stopped with it."))
+    return out
+
+
+def check_schedule(bot: Bot, s: dict, now: datetime, trading_today: bool | None, task: dict | None = None) -> list[Finding]:
     lg = s.get("log") or {}
     if bot.kind == "kalshi":
         return []  # bot 4 reports through its summary file (check_kalshi)
+    if bot.always_on and task is not None:
+        return []  # a loop's log can sit still for hours; check_task looks at the task instead
     if not lg.get("exists"):
         return [Finding(bot.num, "act", "schedule", f"{bot.log_file} doesn't exist in {bot.home}, so bot {bot.num} has never run here.",
                         "Check its Windows scheduled task, or set this bot's home folder in fleet.json.")]
@@ -323,8 +362,12 @@ def run_checks(snap: dict, bots: list[Bot], equity_rows: list[dict], trades: lis
             continue
         if b.kind == "kalshi":
             findings += check_kalshi(b, s, now)
+            for t in [t for t in snap.get("tasks", []) if "kalshi" in t.get("name", "").lower()]:  # paper bot, maker test, ...
+                findings += check_task(replace(b, task=t["name"]), [t], snap, now)
             continue
-        found = check_connection(b, s) + check_schedule(b, s, now, trading_today) + check_log(b, s.get("log") or {})
+        tasks = snap.get("tasks", [])
+        found = check_connection(b, s) + check_task(b, tasks, snap, now)
+        found += check_schedule(b, s, now, trading_today, find_task(b, tasks)) + check_log(b, s.get("log") or {})
         found += check_risk(b, s, equity_rows) + check_holdings(b, s, snap, now) + check_performance(b, trades, s)
         findings += found
     return findings

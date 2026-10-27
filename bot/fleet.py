@@ -26,7 +26,9 @@ class Bot:
     log_file: str
     home: str = "."  # folder the bot runs in (its logs and state files are there)
     days: str = "weekdays"  # "weekdays" or "daily"
-    runs_at: str = "09:20"  # ET; the log should be newer than this on a run day
+    runs_at: str = "09:20"  # ET, when its scheduled task starts; the log should change at or after this on a run day
+    task: str = ""  # its Windows scheduled task name (checked when the data bot runs on Windows)
+    always_on: bool = False  # the task should still be running during market hours (bot 1's loop)
     start_equity: float = 5000.0
     # What the backtest says is normal. Past these, the maintenance bot raises a flag.
     max_drawdown_pct: float = 10.0  # backtest worst drop from peak; watch past it, act past 1.5x
@@ -44,20 +46,23 @@ class Bot:
 ROTATION_ETFS = ("SPY", "QQQ", "IWM", "EFA", "EEM", "XLK", "XLF", "XLE", "XLV", "XLI", "XLY", "XLP", "XLU", "GLD", "TLT")
 
 FLEET: list[Bot] = [
-    Bot(1, "ORB day trader", "alpaca", ".env", "QIE2", "trades.log", days="weekdays", runs_at="09:45",
+    Bot(1, "ORB day trader", "alpaca", ".env", "QIE2", "trades.log", days="weekdays", runs_at="09:20",
+        task="Trading bot (paper)", always_on=True,
         # Tuned ORB, 3 years: worst drop 2.6%, out-of-sample PF 1.22. Risk halt at -2% a day.
         max_drawdown_pct=2.6, max_day_loss_pct=2.0, min_profit_factor=1.0, min_trades=30,
         symbols=("SPY", "QQQ", "AAPL", "MSFT", "NVDA"),
         notes="Flat by 3:50pm every day; any position after the close is a problem."),
-    Bot(2, "ETF rotation", "alpaca", ".env.rotation", "8T7Y", "rotation.log", days="weekdays", runs_at="09:55",
+    Bot(2, "ETF rotation", "alpaca", ".env.rotation", "8T7Y", "rotation.log", days="weekdays", runs_at="09:50",
+        task="Trading bot 2",
         # 20 years top 3 / 3 months / cash: 9.6%/yr, worst drop -26%.
         max_drawdown_pct=26.0, max_day_loss_pct=6.0, min_profit_factor=0, min_trades=0,
         symbols=ROTATION_ETFS, notes="Trades once a month; holdings should match rotation_state.json."),
-    Bot(3, "Crypto trend", "alpaca", ".env.crypto", "KTS7", "crypto.log", days="daily", runs_at="20:20",
+    Bot(3, "Crypto trend", "alpaca", ".env.crypto", "KTS7", "crypto.log", days="daily", runs_at="20:15",
+        task="Trading bot 3 (crypto, paper)",
         # 12 years BTC/ETH above the 50-day: worst drops -29% to -60%.
         max_drawdown_pct=45.0, max_day_loss_pct=15.0, min_profit_factor=0, min_trades=0,
         symbols=("BTC/USD", "ETH/USD"), notes="Holds a coin only while it closes above its 50-day average."),
-    Bot(4, "Kalshi", "kalshi", ".env.kalshi", "", "kalshi_paper.log", days="daily", runs_at="00:00",
+    Bot(4, "Kalshi", "kalshi", ".env.kalshi", "", "kalshi_paper.log", days="daily", runs_at="00:00", task="Kalshi",
         start_equity=20.0, max_drawdown_pct=10.0, max_day_loss_pct=10.0, min_profit_factor=0, min_trades=0,
         notes="Locked-in trades only, so any loss means a leg missed or a market was misread."),
 ]
