@@ -198,3 +198,12 @@ def test_paper_taker_orders_fill_only_if_the_book_has_them(monkeypatch, tmp_path
         pass
     else:
         raise AssertionError("paper mode sent a DELETE")
+
+
+def test_replay_hedge_cost_respects_limits():
+    from bot.kalshi_maker_replay import hedge_cost
+    hedge = [{"ticker": "B", "limit": D("0.60")}]
+    assert hedge_cost(hedge, {"B": [(D("0.60"), 10)]}, 2, D(1), False) == D("1.20") + D("0.04")
+    assert hedge_cost(hedge, {"B": [(D("0.61"), 10)]}, 2, D(1), False) is None  # ask moved past the limit: hedge fails
+    assert hedge_cost(hedge, {}, 2, D(1), False) is None
+    assert hedge_cost(hedge, {"B": [(D("0.61"), 10)]}, 2, D(1), True) is not None and hedge[0]["limit"] == D("0.61")
