@@ -1,6 +1,6 @@
 """Replay recently settled Kalshi events to see how often locked-in trades showed up.
 
-    python -m bot.kalshi_backtest --days 14 --hours 48 --period 5
+    python -m bot.kalshi_backtest --days 14 --hours 24 --period 1 --series KXBTCD,KXNHLTOTAL
 
 For every event that settled in the last --days, it pulls the --period-minute price history of each
 market over its last --hours, and at each step checks for a NO basket and a backwards ladder worth
@@ -10,11 +10,13 @@ trade really paid.
 
 Rough guide only. The history has the best bid and ask each period but not how many contracts were
 there, so it assumes --depth contracts at each price, which overstates what $20 could get. Gaps
-shorter than --period minutes don't show up at all. Public data only: no keys, no orders.
+shorter than --period minutes don't show up at all, and quotes are carried forward for up to --stale
+minutes between candles (Kalshi skips quiet minutes). Public data only: no keys, no orders.
 """
 from __future__ import annotations
 
 import argparse
+import bisect
 import csv
 import time
 from collections import defaultdict
@@ -59,13 +61,18 @@ def _px(c: dict, side: str) -> Decimal | None:
     return D(v) if v not in (None, "") and 0 < D(v) < 1 else None
 
 
-def books_at(series: dict[str, dict[int, dict]], ts: int, depth: int):
-    """NO asks and YES asks per market at time ts, from the bid/ask closes (depth is assumed)."""
+def books_at(series: dict[str, dict[int, dict]], ts: int, depth: int, stale: int = 1800):
+    """NO asks and YES asks per market at time ts, from the bid/ask closes (depth is assumed). Kalshi
+    only has candles for minutes with activity, so each market keeps its last quote for up to `stale`
+    seconds."""
     no, yes = {}, {}
     for t, by_ts in series.items():
-        c = by_ts.get(ts)
-        if not c:
+        keys = by_ts.get("_keys") or sorted(k for k in by_ts if k != "_keys")
+        by_ts["_keys"] = keys
+        i = bisect.bisect_right(keys, ts) - 1
+        if i < 0 or ts - keys[i] > stale:
             continue
+        c = by_ts[keys[i]]
         bid, ask = _px(c, "yes_bid"), _px(c, "yes_ask")
         if bid is not None:
             no[t] = [(1 - bid, depth)]
@@ -95,8 +102,9 @@ def paid(b: Basket, results: dict[str, str]) -> Decimal:
 def main() -> None:
     ap = argparse.ArgumentParser(description="Replay settled Kalshi events for locked-in trades")
     ap.add_argument("--days", type=int, default=14, help="events that settled in the last N days")
-    ap.add_argument("--hours", type=int, default=48, help="price history before each event's close")
-    ap.add_argument("--period", type=int, default=5, help="candle length in minutes")
+    ap.add_argument("--hours", type=int, default=24, help="price history before each event's close")
+    ap.add_argument("--period", type=int, default=1, choices=[1, 60, 1440], help="candle length in minutes (Kalshi only has these)")
+    ap.add_argument("--stale", type=int, default=30, help="minutes a market's last quote stays valid with no new candle")
     ap.add_argument("--depth", type=int, default=10, help="contracts assumed at each price")
     ap.add_argument("--max-events", type=int, default=3000, help="per series when --series is given")
     ap.add_argument("--series", default="", help="comma list, e.g. KXBTCD,KXNHLTOTAL,KXNBASPREAD (default: everything)")
@@ -107,7 +115,7 @@ def main() -> None:
     events = [e for name in names for e in settled_events(api, args.days, args.max_events, name)]
     print(f"{len(events)} settled events in the last {args.days} days")
 
-    rows, by_series, checked, edges = [], defaultdict(lambda: [0, 0, D(0)]), 0, []
+    rows, by_series, checked, edges, empty = [], defaultdict(lambda: [0, 0, D(0)]), 0, [], 0
     for e in events:
         markets = [m for m in e.get("markets", []) if m.get("market_type", "binary") == "binary" and m.get("close_time")]
         me = bool(e.get("mutually_exclusive"))
@@ -121,7 +129,10 @@ def main() -> None:
         except RuntimeError as err:
             print(f"skip {e['event_ticker']}: {err}")
             continue
-        series = {t: {c["end_period_ts"]: c for c in cs} for t, cs in hist.items()}
+        series = {t: {c["end_period_ts"]: c for c in cs} for t, cs in hist.items() if cs}
+        if not series:
+            empty += 1
+            continue
         stamps = sorted({ts for s in series.values() for ts in s})
         ev = {**e, "close_time": close.isoformat()}
         mult = multiplier(e)
@@ -129,7 +140,7 @@ def main() -> None:
         pairs = ladder_pairs(markets)
         best_edge = None
         for ts in stamps:
-            no, yes = books_at(series, ts, args.depth)
+            no, yes = books_at(series, ts, args.depth, args.stale * 60)
             edge = raw_edge(no, yes, pairs, me)
             if edge is not None and (best_edge is None or edge > best_edge):
                 best_edge = edge
@@ -165,6 +176,8 @@ def main() -> None:
     total = sum((D(r[10]) for r in rows), D(0))
     print(f"\nChecked {checked} events (only-one-wins or ladders). Trades worth ${cfg['min_profit']}+ after fees: {len(rows)}, "
           f"real profit ${total:.2f} (assuming {args.depth} contracts at each price).")
+    if empty:
+        print(f"WARNING: {empty} events had no price candles at all (check --period / --hours).")
     if edges:  # near misses, before fees: shows the data is flowing and how far off the trades were
         edges.sort()
         print(f"Best edge per event before fees (1.00 = a dollar per set): median {edges[len(edges) // 2]:+.3f}, "
