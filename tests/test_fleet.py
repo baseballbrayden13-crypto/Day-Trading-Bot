@@ -237,14 +237,16 @@ def test_running_task_ignores_last_runs_code():
     assert mt.check_task(FLEET[0], s["tasks"], s, NOW) == []
 
 
-def test_repeated_watch_becomes_act(tmp_path):
+def test_repeated_watch_becomes_act_after_three_days(tmp_path):
     p = tmp_path / "streaks.json"
     w = [mt.Finding(2, "watch", "holdings", "mismatch")]
-    assert [f.level for f in mt.escalate(w, p)] == ["watch"]
-    assert [f.level for f in mt.escalate(w, p)] == ["watch"]
-    assert [f.level for f in mt.escalate(w, p)] == ["act"]
-    mt.escalate([], p)  # cleared once it goes away
-    assert [f.level for f in mt.escalate(w, p)] == ["watch"]
+    day = lambda n, h=21: NOW + timedelta(days=n, hours=h - 21)
+    for run in range(4):  # many checks on one day never escalate
+        assert [f.level for f in mt.escalate(w, p, day(0, 10 + run))] == ["watch"]
+    assert [f.level for f in mt.escalate(w, p, day(1))] == ["watch"]
+    assert [f.level for f in mt.escalate(w, p, day(2))] == ["act"]
+    mt.escalate([], p, day(3))  # cleared once it goes away
+    assert [f.level for f in mt.escalate(w, p, day(4))] == ["watch"]
 
 
 def test_new_and_fixed_since_last_check():

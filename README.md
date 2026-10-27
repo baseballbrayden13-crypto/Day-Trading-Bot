@@ -145,7 +145,7 @@ bot 2/3 holdings that don't match their rules, bot 1's profit factor and real sl
 are enough trades, and Kalshi stray positions or losing "locked-in" trades. Every finding says
 what to do. Fixes that would change how a bot trades go to `fleet_data/proposals.csv` in the
 Strategy Lab Changes-log format (status "Proposed"); nothing is applied without an OK. A "watch"
-that repeats 3 checks in a row becomes "act", the report starts with what's new and what got fixed
+that repeats 3 days in a row becomes "act", the report starts with what's new and what got fixed
 since the last check, `--alert` sends one summary push per run, and `health.csv` / `findings.csv`
 feed the Strategy Lab site.
 

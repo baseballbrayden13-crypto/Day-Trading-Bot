@@ -16,7 +16,7 @@ It never changes a bot, its settings or its orders. Fixes that would change how 
 written to fleet_data/proposals.csv in the Strategy Lab Changes-log format (status "Proposed"),
 so each one can be approved, applied and logged with an undo, or ignored.
 
-A "watch" that shows up REPEAT_TO_ACT checks in a row becomes "act", and the report lists what is
+A "watch" that shows up REPEAT_TO_ACT days in a row becomes "act", and the report lists what is
 new and what got fixed since the last check.
 
 Writes fleet_data/maintenance.md (the report), maintenance.json, proposals.csv, and for the
@@ -39,7 +39,7 @@ ET = ZoneInfo("America/New_York")
 OUT = Path("fleet_data")
 LEVELS = ["ok", "info", "watch", "act"]
 STALE_HOURS = 26  # a daily job that is later than this missed a run
-REPEAT_TO_ACT = 3  # checks in a row a "watch" can stay before it becomes "act"
+REPEAT_TO_ACT = 3  # days in a row a "watch" can stay before it becomes "act"
 
 
 @dataclass
@@ -454,15 +454,21 @@ def key(f: Finding) -> str:
     return f"{f.bot}|{f.check}"
 
 
-def escalate(findings: list[Finding], streaks_path: Path) -> list[Finding]:
-    """A 'watch' seen REPEAT_TO_ACT checks in a row is no longer a blip: make it 'act'."""
+def escalate(findings: list[Finding], streaks_path: Path, now: datetime | None = None) -> list[Finding]:
+    """A 'watch' seen on REPEAT_TO_ACT days in a row is no longer a blip: make it 'act'. Counts days, not
+    runs, so checking several times in one day (or a 1-day error window) doesn't escalate anything."""
+    today = (now or datetime.now(timezone.utc)).astimezone(ET).date()
     old = json.loads(streaks_path.read_text()) if streaks_path.exists() else {}
     streaks, out = {}, []
     for f in findings:
         if f.level == "watch":
-            n = streaks[key(f)] = old.get(key(f), 0) + 1
-            if n >= REPEAT_TO_ACT:
-                f = replace(f, level="act", message=f"{f.message} (Flagged {n} checks in a row.)")
+            prev = old.get(key(f))
+            prev = prev if isinstance(prev, dict) else {"days": 0, "last": ""}
+            last = datetime.fromisoformat(prev["last"]).date() if prev["last"] else None
+            days = prev["days"] if last == today else prev["days"] + 1 if last == today - timedelta(days=1) else 1
+            streaks[key(f)] = {"days": days, "last": today.isoformat()}
+            if days >= REPEAT_TO_ACT:
+                f = replace(f, level="act", message=f"{f.message} (Flagged {days} days in a row.)")
         out.append(f)
     streaks_path.write_text(json.dumps(streaks, indent=1))
     return out
@@ -600,7 +606,7 @@ def main() -> None:
     findings = run_checks(snap, bots, _read_csv(OUT / "equity.csv"), _read_csv(OUT / "trades.csv"), now,
                           _read_csv(OUT / "benchmarks.csv"), err_seen)
     seen_path.write_text(json.dumps(err_seen, indent=1))
-    findings = escalate(findings, OUT / "medic_streaks.json")
+    findings = escalate(findings, OUT / "medic_streaks.json", now)
     last_path = OUT / "maintenance.json"
     previous = json.loads(last_path.read_text()).get("findings", []) if last_path.exists() else []
     new, fixed = changes(findings, previous)
