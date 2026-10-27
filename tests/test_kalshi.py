@@ -312,3 +312,17 @@ def test_single_instance_lock(monkeypatch, tmp_path):
     other = subprocess.run([sys.executable, "-c", code], cwd=tmp_path, capture_output=True, text=True,
                            env={**__import__("os").environ, "PYTHONPATH": str(__import__("pathlib").Path(kl.__file__).parents[1])})
     assert other.returncode != 0 and "already running" in other.stderr
+
+
+def test_calibration_buckets_and_split():
+    from bot import kalshi_calibration as kc
+
+    c = lambda ts, bid, ask: {"end_period_ts": ts, "yes_bid": {"close_dollars": bid}, "yes_ask": {"close_dollars": ask}}
+    assert kc.quote_before([c(10, "0.10", "0.12"), c(20, "0.11", "0.13"), c(30, "0.5", "0.6")], 25) == (D("0.11"), D("0.13"))
+    assert kc.quote_before([c(10, "0", "0.12")], 25) is None
+    # long shots at 10c that never win: buying NO at 0.90 makes ~ +0.09 a contract after fees, in both halves
+    rows = [{"event": f"E{i}", "ask": D("0.11"), "bid": D("0.10"), "won": False, "close": f"2026-10-{i + 1:02d}"} for i in range(40)]
+    t = kc.summarize(rows)
+    assert len(t) == 1 and t[0]["bucket"] == "0.10-0.15" and t[0]["yes_won"] == "0.000"
+    assert D(t[0]["no_ev"]) > D("0.08") and kc.promising(t[0], "no", D("0.02"), 30)
+    assert not kc.promising(t[0], "yes", D("0.02"), 30)

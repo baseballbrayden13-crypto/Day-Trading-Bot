@@ -29,6 +29,7 @@ import gzip
 import json
 import logging
 import os
+import sys
 import time
 import uuid
 from datetime import datetime, timezone
@@ -514,7 +515,7 @@ def main() -> None:
         STATE = Path("kalshi_paper_state.json")
     logname = "kalshi_demo.log" if args.trade else "kalshi_paper.log" if args.paper else "kalshi.log"
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
-                        handlers=[logging.StreamHandler(), logging.FileHandler(logname)])
+                        handlers=[logging.StreamHandler(sys.stdout), logging.FileHandler(logname)])
     cfg = load_settings()
     MODE = "demo" if args.trade else "paper" if args.paper else "scan"
     if args.loop and MODE != "scan":
