@@ -340,3 +340,24 @@ def test_short_stops_move_down_only():
     assert p.stop == 99.0  # trails 1.5R above the low
     raise_stop(p, 98.0, cfg)
     assert p.stop == 99.0
+
+
+def synthetic_daily(days=900, seed=0, drift=0.0004):
+    rng = np.random.default_rng(seed)
+    close = 100 * np.exp(np.cumsum(rng.normal(drift, 0.015, days)))
+    open_ = close * np.exp(rng.normal(0, 0.004, days))
+    idx = pd.bdate_range("2020-01-01", periods=days, tz="UTC")
+    return pd.DataFrame({"open": open_, "high": np.maximum(open_, close) * 1.005,
+                         "low": np.minimum(open_, close) * 0.995, "close": close, "volume": 1e6}, index=idx)
+
+
+def test_swing_rules_trade_and_account_for_every_dollar():
+    from bot.swing import RULES, run_swing
+    frames = {"AAA": synthetic_daily(seed=1), "BBB": synthetic_daily(seed=2), "CCC": synthetic_daily(seed=3)}
+    for rule in RULES:
+        res = run_swing(frames, rule, Settings(), 5_000, slots=2)
+        t = res["trades"]
+        assert len(t), rule
+        assert res["final"] == pytest.approx(5_000 + t["pnl"].sum(), abs=0.01), rule
+        assert (t["exit_time"] > t["entry_time"]).all(), rule  # never sells on the day it buys
+        assert (t["qty"] * t["entry"] <= 5_000 / 2 * 1.5).all(), rule  # roughly one slot each
