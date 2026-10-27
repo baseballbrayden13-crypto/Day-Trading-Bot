@@ -387,6 +387,46 @@ def trade(api: Kalshi, cfg: dict, baskets: list[Basket]) -> set[str]:
     return traded
 
 
+class _Problems(logging.Handler):
+    """Counts warnings and errors (and keeps the last few) for summary.json."""
+
+    def __init__(self):
+        super().__init__(logging.WARNING)
+        self.count, self.last = 0, []
+
+    def emit(self, record):
+        self.count += 1
+        self.last = (self.last + [f"{datetime.now(timezone.utc):%Y-%m-%d %H:%M} {record.getMessage()}"])[-5:]
+
+
+PROBLEMS = _Problems()
+log.addHandler(PROBLEMS)
+
+
+def write_summary(cfg: dict, mode: str, events: list[dict], good: list[Basket], traded: set[str],
+                  ranked: list[dict], when: datetime) -> dict:
+    """kalshi_data/summary.json (or kalshi_data_demo/) after every loop, for the website and the nightly review."""
+    state = load_state()
+    closed = [c for c in state["closed"] if c.get("sets", 1) > 0]
+    realized = D(state["realized"])
+    s = {
+        "updated": when.isoformat(timespec="seconds"), "mode": mode, "env": cfg["env"] if mode == "demo" else "prod-prices",
+        "start_budget": str(cfg["budget"]), "min_profit": str(cfg["min_profit"]),
+        "equity": f"{cfg['budget'] + realized:.2f}", "realized_profit": f"{realized:.2f}",
+        "bet_level": f"{stake(cfg['budget'], realized, len(closed), cfg['step'], cfg['min_settled']):.2f}",
+        "open_trades": len(state["open"]), "open_locked_profit": f"{sum((D(b['locked_profit']) for b in state['open']), D(0)):.2f}",
+        "in_play": f"{sum((D(b['outlay']) for b in state['open']), D(0)):.2f}",
+        "stray_positions": sum(1 for b in state["open"] if b.get("sets", 1) == 0),
+        "closed_trades": len(closed), "trades_this_loop": len(traded),
+        "events_swept": len(events), "found_this_loop": len(good),
+        "top_series": [r["series"] for r in ranked[:5] if int(r["opportunities"])],
+        "problems": PROBLEMS.count, "last_problems": PROBLEMS.last,
+    }
+    DATA.mkdir(parents=True, exist_ok=True)
+    (DATA / "summary.json").write_text(json.dumps(s, indent=1))
+    return s
+
+
 class PaperKalshi(Kalshi):
     """Real Kalshi prices with pretend orders: every order fills in full at its limit, which the
     sweep has just checked against the full order book. Optimistic about speed (no one else grabs
@@ -448,6 +488,7 @@ def main() -> None:
         log.info("Swept %d events (%d markets): %d locked-in baskets worth $%s+, %d traded. Top series: %s",
                  len(events), sum(len(e.get("markets", [])) for e in events), len(good), cfg["min_profit"], len(traded),
                  ", ".join(r["series"] for r in ranked[:5] if int(r["opportunities"])) or "none yet")
+        write_summary(cfg, "demo" if args.trade else "paper" if args.paper else "scan", events, good, traded, ranked, when)
         if not args.loop:
             return
         time.sleep(args.loop * 60)
