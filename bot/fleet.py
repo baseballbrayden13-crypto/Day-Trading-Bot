@@ -42,6 +42,7 @@ class Bot:
     runs: tuple[tuple[str, str, str, str], ...] = ()
     err_log: str = ""  # where its scheduled task sends crashes (stdout goes to the normal log)
     stale_minutes: int = 0  # a looping bot whose log or summary is older than this has stopped; 0 = use the schedule
+    optional: bool = False  # not set up yet: no files and no task = "not set up", not a problem
     extra: dict = field(default_factory=dict, compare=False, hash=False)
 
     def path(self, name: str) -> Path:
@@ -81,6 +82,11 @@ FLEET: list[Bot] = [
         runs=(("maker", "kalshi_data", "kalshi_state.json", "kalshi.log"),), err_log="kalshi_maker_err.log",
         start_equity=20.0, max_drawdown_pct=10.0, max_day_loss_pct=10.0, min_profit_factor=0, min_trades=0,
         notes="DEMO account. Rests maker bids, sweeps every 5 minutes, so its log should never be quiet for long."),
+    Bot(6, "Kalshi maker paper", "kalshi", ".env.kalshi", "", "kalshi_maker_paper.log", label="4c", home="../kalshi-maker-paper",
+        days="daily", runs_at="00:00", task="Trading bot 4c (Kalshi maker, paper)", always_on=True, stale_minutes=30, optional=True,
+        runs=(("maker_paper", "kalshi_data_maker_paper", "kalshi_maker_paper_state.json", "kalshi_maker_paper.log"),),
+        err_log="kalshi_maker_paper_err.log", start_equity=20.0, max_drawdown_pct=10.0, max_day_loss_pct=10.0,
+        min_profit_factor=0, min_trades=0, notes="Maker quotes on real Kalshi prices with a pretend $20."),
 ]
 
 

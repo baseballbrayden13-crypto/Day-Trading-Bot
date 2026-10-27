@@ -433,6 +433,9 @@ def run_checks(snap: dict, bots: list[Bot], equity_rows: list[dict], trades: lis
     tasks = snap.get("tasks", [])
     for b in bots:
         s = snap.get("bots", {}).get(str(b.num))
+        if b.optional and not find_task(b, tasks) and not any(m in (s or {}) for m, *_ in b.runs):
+            findings.append(Finding(b.num, "info", "setup", f"Bot {b.tag} isn't set up on this PC yet."))
+            continue
         if s is None:
             findings.append(Finding(b.num, "watch", "data", f"No Scout data for bot {b.tag} in the snapshot."))
             continue

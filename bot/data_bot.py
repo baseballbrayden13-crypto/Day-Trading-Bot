@@ -423,7 +423,7 @@ def _read_csv(path: Path) -> list[dict]:
 def bot_equity(snap_bot: dict) -> float | None:
     if "account" in snap_bot:
         return snap_bot["account"]["equity"]
-    for mode in ("paper", "maker", "demo"):  # Kalshi: its summary, else start + settled profit
+    for mode in ("paper", "maker", "maker_paper", "demo"):  # Kalshi: its summary, else start + settled profit
         m = snap_bot.get(mode)
         if not m:
             continue
