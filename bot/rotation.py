@@ -40,12 +40,14 @@ def targets(close: pd.DataFrame, top: int = 3, lookback: int = 3, safe: str = ""
 
 
 def run_rotation(frames: dict[str, pd.DataFrame], cfg: Settings, top: int = 3, lookback: int = 6,
-                 safe: str = "", cash: float = 5_000) -> pd.Series:
-    """Daily equity curve. Decisions on month-end closes, fills at the next open with slippage and sell fees."""
+                 safe: str = "", cash: float = 5_000, guard: bool = False) -> pd.Series:
+    """Daily equity curve. Decisions on month-end closes, fills at the next open with slippage and sell fees.
+    guard: also sell a holding mid-month (next open) once it closes below its 200-day average."""
     close = pd.DataFrame({s: df["close"] for s, df in frames.items()}).dropna(how="all").ffill()
     open_ = pd.DataFrame({s: df["open"] for s, df in frames.items()}).reindex(close.index).ffill()
     ym = close.index.year * 12 + close.index.month
     month_end = pd.Series(ym, index=close.index) != pd.Series(ym, index=close.index).shift(-1)  # last day of each month
+    below = close < close.rolling(200).mean()
     slip = cfg.slippage_bps / 10_000
     shares: dict[str, int] = {}
     want: dict[str, float] | None = None  # symbol -> share of the account
@@ -68,6 +70,8 @@ def run_rotation(frames: dict[str, pd.DataFrame], cfg: Settings, top: int = 3, l
             want = None
         if month_end.iloc[i] and i >= 200:
             want = targets(close.iloc[: i + 1], top, lookback, safe)
+        elif guard and i >= 200 and any(below.at[d, s] for s in shares if s != safe):
+            want = {s: 1 / top for s in shares if s == safe or not below.at[d, s]}  # drop the broken ones, keep the rest
         curve.append((d, cash + sum(q * close.at[d, s] for s, q in shares.items())))
     return pd.Series(dict(curve))
 
@@ -84,6 +88,7 @@ def main() -> None:
     ap.add_argument("--years", type=int, default=20)
     ap.add_argument("--symbols", default=DEFAULT)
     ap.add_argument("--slippage", type=float, default=5.0)
+    ap.add_argument("--guard", action="store_true", help="also try selling mid-month below the 200-day average")
     args = ap.parse_args()
     cfg = Settings(slippage_bps=args.slippage)
     frames = {s: daily_bars(s, args.years, cfg, source="yfinance").dropna() for s in args.symbols.split(",")}
@@ -100,9 +105,11 @@ def main() -> None:
     for top in (1, 2, 3):
         for lookback in (3, 6, 12):
             for safe in ("", "TLT"):
-                eq = run_rotation(frames, cfg, top, lookback, safe)[start:]
-                label = f"top {top}, {lookback}-month lookback" + (f", else {safe}" if safe else ", else cash")
-                out.append(f"| {label} | {describe(eq)} | {describe(eq[:split])} | {describe(eq[split:])} |")
+                for guard in ((False, True) if args.guard else (False,)):
+                    eq = run_rotation(frames, cfg, top, lookback, safe, guard=guard)[start:]
+                    label = (f"top {top}, {lookback}-month lookback" + (f", else {safe}" if safe else ", else cash")
+                             + (", mid-month 200-day exit" if guard else ""))
+                    out.append(f"| {label} | {describe(eq)} | {describe(eq[:split])} | {describe(eq[split:])} |")
     text = "\n".join(out)
     print(text)
     Path("reports").mkdir(exist_ok=True)

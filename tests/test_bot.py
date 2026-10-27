@@ -432,6 +432,20 @@ def test_rotation_holds_cash_when_nothing_qualifies_and_accounts_for_costs():
     assert free.iloc[-1] > eq.iloc[-1]  # costs are charged
 
 
+def test_rotation_guard_sells_mid_month_when_a_holding_breaks_its_200_day_average():
+    import numpy as np
+    from bot.rotation import run_rotation
+    idx = pd.bdate_range("2020-01-01", periods=700, tz="UTC")
+    px = 100 * 1.002 ** np.arange(700)
+    px[idx >= idx[450]] *= 0.5  # smooth climb, then halves overnight
+    df = pd.DataFrame({"open": px, "high": px, "low": px, "close": px, "volume": 1}, index=idx)
+    plain = run_rotation({"X": df}, Settings(), top=1, lookback=3)
+    guarded = run_rotation({"X": df}, Settings(), top=1, lookback=3, guard=True)
+    assert plain.iloc[:450].equals(guarded.iloc[:450])  # identical until the break
+    assert guarded.iloc[451:470].nunique() == 1  # sold at the next open: flat cash from then on
+    assert plain.iloc[451:456].nunique() > 1  # the plain one keeps holding until month end
+
+
 def test_rotation_orders_sell_first_and_reach_the_targets():
     from datetime import date
     from bot.rotation_live import due, orders_for
