@@ -109,6 +109,7 @@ python -m bot.kalshi_live --scan          # read-only sweep of real prices; no k
 python -m bot.kalshi_live --scorecard     # which series have had $0.10+ trades
 python set_kalshi_key.py                  # demo key from demo.kalshi.co -> .env.kalshi
 python -m bot.kalshi_live --trade         # sweep and trade on the DEMO account
+python -m bot.kalshi_backtest --days 14  # replay settled events (rough: assumes 10 contracts per price)
 ```
 
 Settings in `.env.kalshi`: `KALSHI_BUDGET` (20), `KALSHI_MIN_PROFIT` (0.10), `KALSHI_MAX_DAYS` (60,
