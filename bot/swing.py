@@ -20,6 +20,7 @@ Writes reports/swing_<date>.md. Research only; nothing here places orders.
 from __future__ import annotations
 
 import argparse
+import dataclasses
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -34,12 +35,25 @@ from .strategy import rsi
 DEFAULT_SYMBOLS = "SPY,QQQ,IWM,DIA,AAPL,MSFT,NVDA,AMZN,GOOGL,META,JPM,XLF,XLE,XLV,GLD,TLT"
 
 
-def daily_bars(symbol: str, years: int, cfg: Settings, cache: Path = Path("data_cache")) -> pd.DataFrame:
-    """Split- and dividend-adjusted daily bars from Alpaca, cached."""
+def daily_bars(symbol: str, years: int, cfg: Settings, cache: Path = Path("data_cache"),
+               source: str = "alpaca") -> pd.DataFrame:
+    """Split- and dividend-adjusted daily bars, cached. Alpaca's free daily history starts in
+    mid-2020; Yahoo (source="yfinance") goes back decades, so it can test 2008 and 2022."""
     cache.mkdir(exist_ok=True)
-    path = cache / f"{symbol}_1d_{years}y.pkl"
+    path = cache / f"{symbol}_1d_{years}y{'_yf' if source == 'yfinance' else ''}.pkl"
     if path.exists():
         return pd.read_pickle(path)
+    if source == "yfinance":
+        import yfinance as yf
+
+        df = yf.download(symbol, period=f"{years}y", interval="1d", progress=False, auto_adjust=True,
+                         multi_level_index=False)
+        if df.empty:
+            return df
+        df = df.rename(columns=str.lower)[["open", "high", "low", "close", "volume"]]
+        df.index = pd.to_datetime(df.index).tz_localize("UTC")
+        df.to_pickle(path)
+        return df
     from alpaca.data.enums import Adjustment
     from alpaca.data.historical import StockHistoricalDataClient
     from alpaca.data.requests import StockBarsRequest
@@ -194,11 +208,15 @@ def main() -> None:
     ap.add_argument("--slots", type=int, default=5, help="max positions at once")
     ap.add_argument("--symbols", default=DEFAULT_SYMBOLS)
     ap.add_argument("--oos", type=float, default=1 / 3)
+    ap.add_argument("--source", default="alpaca", help="alpaca (from mid-2020) or yfinance (decades)")
+    ap.add_argument("--slippage", type=float, default=None, help="bps per fill; default SLIPPAGE_BPS")
     args = ap.parse_args()
     cfg = Settings()
+    if args.slippage is not None:
+        cfg = dataclasses.replace(cfg, slippage_bps=args.slippage)
     frames = {}
     for s in args.symbols.split(","):
-        frames[s] = daily_bars(s, args.years, cfg)
+        frames[s] = daily_bars(s, args.years, cfg, source=args.source)
         print(f"  {s}: {len(frames[s]):,} days")
     frames = {s: df for s, df in frames.items() if not df.empty}
     start = min(df.index[0] for df in frames.values()) + timedelta(days=300)  # after the 200-day warm-up
