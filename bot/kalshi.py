@@ -160,3 +160,19 @@ def pick(baskets: list[Basket], budget: Decimal, min_profit: Decimal, now: datet
             chosen.append(b)
             left -= b.outlay
     return chosen
+
+
+def stake(base: Decimal, realized: Decimal, settled: int, step: Decimal = D("0.25"), min_settled: int = 5) -> Decimal:
+    """How much the bot may have in play. It starts at `base` ($20) and goes up one level each time
+    settled profit grows the pot by another `step` (25%): $20 -> $25 -> $31.25 -> ... Profit in
+    between is kept aside, not bet. No step-ups before `min_settled` baskets have paid out, so one
+    lucky trade can't raise the bets. After a loss it drops to the level the pot still covers, and
+    below `base` it bets only what's left."""
+    pot = base + realized
+    if pot < base:
+        return max(pot, D(0))
+    level = base
+    if settled >= min_settled:
+        while level * (1 + step) <= pot:
+            level *= 1 + step
+    return level.quantize(CENT)
