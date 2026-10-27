@@ -118,6 +118,35 @@ skips trades that tie money up longer), `KALSHI_STEP` (0.25: the budget steps up
 profits grow it 25%, after `KALSHI_MIN_SETTLED`=5 paid-out baskets). Real money needs `KALSHI_ENV=prod` and
 `KALSHI_LIVE_CONFIRM=I_UNDERSTAND_REAL_MONEY`.
 
+## Helper bots: data and maintenance (read-only)
+
+Two bots that look after the trading bots. Neither places, cancels or closes an order, and neither
+edits a `.env` file. The fleet (which bot uses which keys, log, account and backtest limits) is in
+`bot/fleet.py`; override any of it without touching code in `fleet.json`, e.g.
+`{"4": {"home": "C:/Users/baseb/Downloads/kalshi-run"}}` if the Kalshi bot runs in another folder.
+
+```
+python -m bot.data_bot                     # collect accounts, fills, positions, logs, Kalshi, prices, news -> fleet_data/
+python -m bot.maintenance --collect        # collect, then check every bot -> fleet_data/maintenance.md
+python -m bot.maintenance --collect --alert  # same, and push new problems to the phone (NTFY_TOPIC)
+```
+
+The **data bot** writes `fleet_data/snapshot.json` (everything from the run), `equity.csv` (one row
+per bot per day, same columns as the Strategy Lab equity data), `trades.csv` (every fill, all
+bots), `positions.csv`, `market.csv` (trend and volatility for every symbol the fleet trades) and
+`news.csv`. One failing source (bad keys, network) is recorded and the rest still run.
+
+The **maintenance bot** grades each bot ok / info / watch / act: keys rejected or missing, keys on
+the wrong account or two bots on one account, a missed scheduled run, errors in the log, a LIVE
+connection, a day loss or drop from peak past the backtest's worst, bot 1 holding after the close,
+bot 2/3 holdings that don't match their rules, bot 1's profit factor and real slippage once there
+are enough trades, and Kalshi stray positions or losing "locked-in" trades. Every finding says
+what to do. Fixes that would change how a bot trades go to `fleet_data/proposals.csv` in the
+Strategy Lab Changes-log format (status "Proposed"); nothing is applied without an OK.
+
+Schedule it once a day after bot 3's 8:15pm run, e.g. a Windows task at 8:30pm ET running
+`python -m bot.maintenance --collect --alert` in this folder.
+
 ## Setup (about 10 minutes)
 
 1. **Install Python 3.11+**, then in this folder:
