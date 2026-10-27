@@ -253,13 +253,28 @@ def test_new_and_fixed_since_last_check():
     assert [f.bot for f in new] == [3] and fixed[0]["message"] == "window closed"
 
 
-def test_crash_log_is_flagged_on_its_bot():
+def test_crash_lines_only_and_only_new_since_last_check(tmp_path):
+    (tmp_path / "kalshi_paper_err.log").write_text(
+        "2026-10-27 14:39:00,000 INFO Swept 14745 events: 0 traded\n"  # normal output that went to stderr
+        "Traceback (most recent call last):\n  File x\nKeyError: 'x'\n")
+    (tmp_path / "chatter_err.log").write_text("2026-10-27 14:39:00,000 WARNING Leg failed\n")
+    bots = bots_in(tmp_path)
     s = healthy_snapshot()
-    s["err_logs"] = [{"home": ".", "file": "kalshi_paper_err.log", "modified": (NOW - timedelta(hours=1)).isoformat(),
-                      "tail": ["Traceback ...", "KeyError: 'x'"]},
-                     {"home": ".", "file": "old_err.log", "modified": (NOW - timedelta(days=3)).isoformat(), "tail": ["x"]}]
-    crashes = [f for f in mt.run_checks(s, FLEET, [], [], NOW) if f.check == "crash"]
-    assert len(crashes) == 1 and crashes[0].bot == 4 and crashes[0].level == "act" and "KeyError" in crashes[0].message
+    s["err_logs"] = data_bot.err_logs(bots, NOW)
+    assert [len(e["crashes"]) for e in s["err_logs"]] == [0, 2]  # chatter_err.log, kalshi_paper_err.log
+    seen = {}
+    crashes = [f for f in mt.run_checks(s, bots, [], [], NOW, err_seen=seen) if f.check == "crash"]
+    assert len(crashes) == 1 and crashes[0].bot == 4 and "KeyError" in crashes[0].message
+    assert not [f for f in mt.run_checks(s, bots, [], [], NOW, err_seen=seen) if f.check == "crash"]  # nothing new
+    with (tmp_path / "kalshi_paper_err.log").open("a") as f:
+        f.write("2026-10-27 15:00:00,000 INFO more chatter\n")
+    s["err_logs"] = data_bot.err_logs(bots, NOW)
+    assert not [f for f in mt.run_checks(s, bots, [], [], NOW, err_seen=seen) if f.check == "crash"]
+    with (tmp_path / "kalshi_paper_err.log").open("a") as f:
+        f.write("RuntimeError: boom\n")
+    s["err_logs"] = data_bot.err_logs(bots, NOW)
+    again = [f for f in mt.run_checks(s, bots, [], [], NOW, err_seen=seen) if f.check == "crash"]
+    assert len(again) == 1 and "boom" in again[0].message
 
 
 def test_bot_compared_with_just_holding():

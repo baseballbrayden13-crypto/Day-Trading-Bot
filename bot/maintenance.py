@@ -351,18 +351,27 @@ def check_kalshi(bot: Bot, s: dict, now: datetime) -> list[Finding]:
     return out
 
 
-def check_crashes(snap: dict, bots: list[Bot], now: datetime) -> list[Finding]:
-    """Scheduled tasks send crashes to *_err.log files; one written to in the last day means a crash."""
+def check_crashes(snap: dict, bots: list[Bot], now: datetime, seen: dict | None = None) -> list[Finding]:
+    """Scheduled tasks send crashes to *_err.log files. Flags Traceback/Error/Exception lines written since
+    the last check (`seen`: file -> size then, updated in place); with no earlier check, those from the last day."""
     out = []
+    seen = {} if seen is None else seen
     for e in snap.get("err_logs", []):
+        name = f"{e['home']}/{e['file']}"
+        before = seen.get(name)
+        seen[name] = e.get("size", 0)
+        if before is not None and e.get("size", 0) < before:
+            before = 0  # the file was emptied or replaced
         when = _t(e.get("modified", ""))
-        if when is None or now - when > timedelta(days=1):
+        if before is None and (when is None or now - when > timedelta(days=1)):
+            continue
+        fresh = [c for c in e.get("crashes", []) if before is None or c["at"] >= before]
+        if not fresh:
             continue
         owner = next((b for b in bots if b.err_log and b.err_log == e["file"] and Path(b.home) == Path(e["home"])), None)
         owner = owner or next((b for b in bots if b.err_log == e["file"]), None)
-        last = next((l for l in reversed(e.get("tail", [])) if l.strip()), "")
         out.append(Finding(owner.num if owner else 0, "act", "crash",
-                           f"{e['file']} got new crash output at {when:%a %H:%M} ET: {last[:200]}",
+                           f"{e['file']} got {len(fresh)} new crash lines (by {when:%a %H:%M} ET). Latest: {fresh[-1]['line'][:200]}",
                            "Read that file for the traceback; the bot may have stopped."))
     return out
 
@@ -405,7 +414,7 @@ def check_fleet(snap: dict, bots: list[Bot], now: datetime) -> list[Finding]:
             seen[acct] = int(num)
     for e in snap.get("errors", []):
         out.append(Finding(0, "info", "data", f"Scout: {e}"))
-    return out + check_crashes(snap, bots, now)
+    return out
 
 
 def safely(fn, num: int, *args) -> list[Finding]:
@@ -418,8 +427,8 @@ def safely(fn, num: int, *args) -> list[Finding]:
 
 
 def run_checks(snap: dict, bots: list[Bot], equity_rows: list[dict], trades: list[dict], now: datetime,
-               bench: list[dict] = ()) -> list[Finding]:
-    findings = safely(check_fleet, 0, snap, bots, now)
+               bench: list[dict] = (), err_seen: dict | None = None) -> list[Finding]:
+    findings = safely(check_fleet, 0, snap, bots, now) + safely(check_crashes, 0, snap, bots, now, err_seen)
     trading_today = snap.get("clock", {}).get("trading_day")
     tasks = snap.get("tasks", [])
     for b in bots:
@@ -586,8 +595,11 @@ def main() -> None:
     snap_path = OUT / "snapshot.json"
     snap = json.loads(snap_path.read_text()) if snap_path.exists() else {}
     OUT.mkdir(exist_ok=True)
+    seen_path = OUT / "err_seen.json"
+    err_seen = json.loads(seen_path.read_text()) if seen_path.exists() else {}
     findings = run_checks(snap, bots, _read_csv(OUT / "equity.csv"), _read_csv(OUT / "trades.csv"), now,
-                          _read_csv(OUT / "benchmarks.csv"))
+                          _read_csv(OUT / "benchmarks.csv"), err_seen)
+    seen_path.write_text(json.dumps(err_seen, indent=1))
     findings = escalate(findings, OUT / "medic_streaks.json")
     last_path = OUT / "maintenance.json"
     previous = json.loads(last_path.read_text()).get("findings", []) if last_path.exists() else []

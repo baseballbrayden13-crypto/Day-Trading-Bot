@@ -198,18 +198,29 @@ def kalshi_bot(bot: Bot, now: datetime, days: int) -> dict:
     return out
 
 
+CRASH = re.compile(r"Traceback|Error|Exception")
+CHATTER = re.compile(r"^\d{4}-\d{2}-\d{2} [\d:,]+ (DEBUG|INFO|WARNING) ")  # normal log lines that landed on stderr
+
+
 def err_logs(bots: list[Bot], now: datetime) -> list[dict]:
-    """Every *_err.log next to the bots: a scheduled task sends crashes there (normal output goes to stdout)."""
+    """Every *_err.log next to the bots: a scheduled task sends crashes there (normal output goes to stdout).
+    Only Traceback / Error / Exception lines count, each with its byte offset so Medic can tell new from old."""
     out, seen = [], set()
     for home in dict.fromkeys(b.home for b in bots):
         for p in sorted(Path(home).glob("*_err.log")):
             if p.resolve() in seen or not p.stat().st_size:
                 continue
             seen.add(p.resolve())
-            lines = p.read_text(encoding="utf-8", errors="ignore").splitlines()
+            crashes, offset = [], 0
+            with p.open("rb") as f:
+                for raw in f:
+                    line = raw.decode("utf-8", errors="ignore").rstrip()
+                    if CRASH.search(line) and not CHATTER.match(line):
+                        crashes.append({"at": offset, "line": line[:300]})
+                    offset += len(raw)
             out.append({"home": home, "file": p.name, "size": p.stat().st_size,
                         "modified": datetime.fromtimestamp(p.stat().st_mtime, ET).isoformat(timespec="seconds"),
-                        "tail": [l[:300] for l in lines[-5:]]})
+                        "crashes": crashes[-20:]})
     return out
 
 
