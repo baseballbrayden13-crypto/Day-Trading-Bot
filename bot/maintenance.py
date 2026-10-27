@@ -87,8 +87,13 @@ def drawdown(series: list[float]) -> float:
     return (1 - series[-1] / peak) * 100 if peak > 0 else 0.0
 
 
+def bot_rows(rows: list[dict], num: int) -> list[dict]:
+    """A bot's equity rows by day, skipping $0 days from before its account was funded."""
+    return [r for r in sorted(rows, key=lambda r: r["day"]) if str(r["bot"]) == str(num) and float(r["equity"] or 0) > 0]
+
+
 def equity_series(rows: list[dict], num: int) -> list[float]:
-    return [float(r["equity"]) for r in sorted(rows, key=lambda r: r["day"]) if str(r["bot"]) == str(num)]
+    return [float(r["equity"]) for r in bot_rows(rows, num)]
 
 
 def round_trips(trades: list[dict], num: int) -> list[dict]:
@@ -365,7 +370,7 @@ def check_crashes(snap: dict, bots: list[Bot], now: datetime) -> list[Finding]:
 def check_benchmark(bot: Bot, equity_rows: list[dict], bench: list[dict]) -> list[Finding]:
     """Compare a bot with just holding its market (bot 2: SPY, bot 3: half BTC, half ETH) since its first day."""
     pick = {2: ("SPY",), 3: ("BTC/USD", "ETH/USD")}.get(bot.num)
-    rows = sorted((r for r in equity_rows if str(r["bot"]) == str(bot.num)), key=lambda r: r["day"])
+    rows = bot_rows(equity_rows, bot.num)
     if not pick or len(rows) < 2:
         return []
     first, last = rows[0]["day"], rows[-1]["day"]
@@ -374,6 +379,8 @@ def check_benchmark(bot: Bot, equity_rows: list[dict], bench: list[dict]) -> lis
     for sym in pick:
         days = sorted(d for d, s in closes if s == sym and first <= d <= last)
         if len(days) < 2:
+            return []
+        if closes[(days[0], sym)] <= 0:
             return []
         moves.append(closes[(days[-1], sym)] / closes[(days[0], sym)] - 1)
     hold = sum(moves) / len(moves) * 100
@@ -401,23 +408,33 @@ def check_fleet(snap: dict, bots: list[Bot], now: datetime) -> list[Finding]:
     return out + check_crashes(snap, bots, now)
 
 
+def safely(fn, num: int, *args) -> list[Finding]:
+    """One broken check becomes a finding instead of killing the whole report."""
+    try:
+        return fn(*args)
+    except Exception as e:
+        return [Finding(num, "watch", "medic", f"Medic's {fn.__name__} check failed: {type(e).__name__}: {e}"[:300],
+                        "A Medic bug, not a bot problem. The other checks still ran.")]
+
+
 def run_checks(snap: dict, bots: list[Bot], equity_rows: list[dict], trades: list[dict], now: datetime,
                bench: list[dict] = ()) -> list[Finding]:
-    findings = check_fleet(snap, bots, now)
+    findings = safely(check_fleet, 0, snap, bots, now)
     trading_today = snap.get("clock", {}).get("trading_day")
+    tasks = snap.get("tasks", [])
     for b in bots:
         s = snap.get("bots", {}).get(str(b.num))
         if s is None:
             findings.append(Finding(b.num, "watch", "data", f"No Scout data for bot {b.tag} in the snapshot."))
             continue
         if b.kind == "kalshi":
-            findings += check_kalshi(b, s, now) + check_task(b, snap.get("tasks", []), snap, now)
+            findings += safely(check_kalshi, b.num, b, s, now) + safely(check_task, b.num, b, tasks, snap, now)
             continue
-        tasks = snap.get("tasks", [])
-        found = check_connection(b, s) + check_task(b, tasks, snap, now)
-        found += check_schedule(b, s, now, trading_today, find_task(b, tasks)) + check_log(b, s.get("log") or {})
-        found += check_risk(b, s, equity_rows) + check_holdings(b, s, snap, now) + check_performance(b, trades, s)
-        found += check_benchmark(b, equity_rows, bench)
+        found = safely(check_connection, b.num, b, s) + safely(check_task, b.num, b, tasks, snap, now)
+        found += safely(lambda: check_schedule(b, s, now, trading_today, find_task(b, tasks)), b.num)
+        found += safely(check_log, b.num, b, s.get("log") or {}) + safely(check_risk, b.num, b, s, equity_rows)
+        found += safely(check_holdings, b.num, b, s, snap, now) + safely(check_performance, b.num, b, trades, s)
+        found += safely(check_benchmark, b.num, b, equity_rows, bench)
         findings += found
     return findings
 

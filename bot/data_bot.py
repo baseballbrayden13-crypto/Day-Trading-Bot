@@ -433,6 +433,8 @@ def save(snap: dict, out: Path = OUT) -> None:
     rows = {(r["day"], r["bot"]): r for r in _read_csv(out / "equity.csv")}
     for num, b in snap["bots"].items():
         for h in b.get("equity_history", []):
+            if h["equity"] <= 0:  # Alpaca reports $0 for days before the account was funded
+                continue
             rows.setdefault((h["day"], num), {"day": h["day"], "bot": num, "equity": h["equity"]})
         eq = bot_equity(b)
         if eq is not None:

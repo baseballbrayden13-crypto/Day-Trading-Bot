@@ -279,3 +279,14 @@ def test_digest_and_site_rows():
     health, rows = mt.site_rows(bad, FLEET, NOW)
     assert [h["label"] for h in health] == ["fleet", "1", "2", "3", "4", "4b"]
     assert health[1]["status"] == "act" and health[2]["headline"] == "Running normally."
+
+
+def test_unfunded_zero_days_are_ignored_and_a_broken_check_is_contained():
+    eq = [{"day": "2026-09-28", "bot": "3", "equity": "0.0"}, {"day": "2026-10-01", "bot": "3", "equity": "5000"},
+          {"day": "2026-10-20", "bot": "3", "equity": "5500"}]
+    bench = [{"day": d, "symbol": s, "close": c} for d, s, c in
+             [("2026-10-01", "BTC/USD", 100), ("2026-10-20", "BTC/USD", 120), ("2026-10-01", "ETH/USD", 10), ("2026-10-20", "ETH/USD", 10)]]
+    assert mt.check_benchmark(FLEET[2], eq, bench)
+    assert [f.level for f in mt.check_risk(FLEET[2], {}, eq) if f.check == "drawdown"] == []
+    f = mt.run_checks(healthy_snapshot(), FLEET, [{"day": "2026-10-01", "bot": "2", "equity": "oops"}], [], NOW)
+    assert any(x.check == "medic" for x in f) and any(x.bot == 4 for x in f)  # later checks still ran
