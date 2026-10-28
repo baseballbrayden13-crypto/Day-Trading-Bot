@@ -314,12 +314,12 @@
   "count": 3,
   "ahead": 0,
   "placed": 1793225386.6869206,
-  "checked": 1793226691.6942644,
+  "checked": 1793227186,
   "expires": 1793227186,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-24-1793226602": {
   "id": "paper-24-1793226602",
@@ -328,11 +328,25 @@
   "count": 3,
   "ahead": 0,
   "placed": 1793226602.6678932,
-  "checked": 1793226691.8112135,
+  "checked": 1793227509.630832,
   "expires": 1793228402,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-25-1793227818": {
+  "id": "paper-25-1793227818",
+  "ticker": "KXLOLFBLOOD-26OCT281900LYIG-2-IG",
+  "price": "0.4000",
+  "count": 5,
+  "ahead": 229,
+  "placed": 1793227818.587303,
+  "checked": 1793227910.7984252,
+  "expires": 1793229618,
+  "through": 7,
+  "at_price": 27,
+  "filled": 5,
+  "status": "executed"
  }
 }

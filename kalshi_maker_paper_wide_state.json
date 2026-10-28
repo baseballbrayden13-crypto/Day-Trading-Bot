@@ -48,6 +48,23 @@
      "limit": "0.8500"
     }
    ]
+  },
+  {
+   "event": "KXLOLFBLOOD-26OCT281900LYIG-2 (stray)",
+   "series": "KXLOLFBLOOD",
+   "title": "LYON vs. Invictus Gaming: Game 2 First Blood",
+   "sets": 0,
+   "outlay": "2.03",
+   "locked_profit": "0",
+   "opened": "2026-10-28T22:51:50.980436+00:00",
+   "legs": [
+    {
+     "ticker": "KXLOLFBLOOD-26OCT281900LYIG-2-IG",
+     "side": "no",
+     "count": 5,
+     "limit": "0.40"
+    }
+   ]
   }
  ],
  "closed": [
@@ -99,52 +116,5 @@
    "closed": "2026-10-28T21:34:12.116270+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXTOPSONG-26NOV07",
-   "series": "KXTOPSONG",
-   "title": "#1 on the Billboard Hot 100 chart for the Week of Nov 7, 2026?",
-   "ticker": "KXTOPSONG-26NOV07-THE",
-   "order_id": "paper-23-1793225386",
-   "price": "0.2800",
-   "sets": 3,
-   "done": 0,
-   "reserve": "4.1000",
-   "multiplier": "1",
-   "placed": 1793225386.6877358,
-   "hedge": [
-    {
-     "ticker": "KXTOPSONG-26NOV07-CHO",
-     "limit": "0.0900"
-    },
-    {
-     "ticker": "KXTOPSONG-26NOV07-HOU",
-     "limit": "0.9800"
-    }
-   ]
-  },
-  {
-   "event": "KXXRP-26OCT2819",
-   "series": "KXXRP",
-   "title": " XRP price range at Oct 28, 2026 at 7pm EDT? ",
-   "ticker": "KXXRP-26OCT2819-B1.3899500",
-   "order_id": "paper-24-1793226602",
-   "price": "0.3300",
-   "sets": 3,
-   "done": 0,
-   "reserve": "4.1600",
-   "multiplier": "1",
-   "placed": 1793226602.6688118,
-   "hedge": [
-    {
-     "ticker": "KXXRP-26OCT2819-B1.3099500",
-     "limit": "0.9800"
-    },
-    {
-     "ticker": "KXXRP-26OCT2819-B1.3299500",
-     "limit": "0.0800"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

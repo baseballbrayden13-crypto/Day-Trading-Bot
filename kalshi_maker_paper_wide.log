@@ -232,3 +232,17 @@
 2026-10-28 18:30:02,668 INFO PAPER rest NO bid KXXRP-26OCT2819-B1.3899500 at $0.3300 x3 (0 already bid at that price)
 2026-10-28 18:30:02,668 INFO Resting NO bid on KXXRP-26OCT2819-B1.3899500 at $0.3300 x3 (KXXRP-26OCT2819): locks in $1.84 if it fills; hedge NO B1.3099500@0.9600, B1.3299500@0.0800
 2026-10-28 18:30:02,670 INFO Swept 15509 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-28 18:35:04,314 INFO Swept 15512 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-28 18:40:06,840 INFO Swept 15508 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-28 18:45:09,499 INFO Swept 15503 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 18:45:09,697 INFO Quote KXXRP-26OCT2819 cancelled (0/3 filled)
+2026-10-28 18:50:18,587 INFO PAPER rest NO bid KXLOLFBLOOD-26OCT281900LYIG-2-IG at $0.4000 x5 (229 already bid at that price)
+2026-10-28 18:50:18,588 INFO Resting NO bid on KXLOLFBLOOD-26OCT281900LYIG-2-IG at $0.40 x5 (KXLOLFBLOOD-26OCT281900LYIG-2): locks in $0.13 if it fills; hedge NO LY@0.5500
+2026-10-28 18:50:18,589 INFO Swept 15519 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 18:51:50,859 INFO PAPER KXLOLFBLOOD-26OCT281900LYIG-2-IG NO bid at $0.4000: 5/5 filled by real trades
+2026-10-28 18:51:50,919 INFO PAPER buy 5 NO KXLOLFBLOOD-26OCT281900LYIG-2-LY at up to $0.5500: not on the book
+2026-10-28 18:51:50,919 WARNING Quote KXLOLFBLOOD-26OCT281900LYIG-2: hedge missed on KXLOLFBLOOD-26OCT281900LYIG-2-LY. Selling back 5 contracts on 1 legs.
+2026-10-28 18:51:50,980 INFO PAPER sell 5 YES KXLOLFBLOOD-26OCT281900LYIG-2-IG at up to $0.65: not on the book
+2026-10-28 18:51:50,980 ERROR STRAY POSITION: 5 NO contracts of KXLOLFBLOOD-26OCT281900LYIG-2-IG still held. Check it on Kalshi.
+2026-10-28 18:55:19,953 INFO Swept 15525 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 19:00:20,695 INFO Swept 15537 events: 0 taker trades, 0 new quotes, 0 resting
