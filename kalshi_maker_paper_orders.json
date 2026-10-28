@@ -96,5 +96,33 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-8-1793180787": {
+  "id": "paper-8-1793180787",
+  "ticker": "KXBBLGAME-26OCT301500RASHAG-HAG",
+  "price": "0.2700",
+  "count": 20,
+  "ahead": 15,
+  "placed": 1793180787.25342,
+  "checked": 1793180925.7261956,
+  "expires": 1793182587,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-9-1793181092": {
+  "id": "paper-9-1793181092",
+  "ticker": "KXBBLGAME-26OCT301330SKYSCJ-SKY",
+  "price": "0.1100",
+  "count": 20,
+  "ahead": 14,
+  "placed": 1793181092.5179515,
+  "checked": 1793182396.724395,
+  "expires": 1793182892,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
