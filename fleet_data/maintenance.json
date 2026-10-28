@@ -1,0 +1,64 @@
+{
+ "checked": "2026-10-28T05:07:36+00:00",
+ "status": {
+  "0": "ok",
+  "2": "act",
+  "3": "act"
+ },
+ "findings": [
+  {
+   "bot": 2,
+   "level": "act",
+   "check": "schedule",
+   "message": "rotation.log doesn't exist in ., so bot 2 has never run here.",
+   "fix": "Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 2,
+   "level": "info",
+   "check": "return",
+   "message": "$5,003.32, +0.1% since the $5,000 start.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 2,
+   "level": "info",
+   "check": "vs hold",
+   "message": "Since 2026-10-23: bot +0.1% vs just holding SPY +1.3%.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 3,
+   "level": "act",
+   "check": "schedule",
+   "message": "crypto.log doesn't exist in ., so bot 3 has never run here.",
+   "fix": "Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 3,
+   "level": "info",
+   "check": "return",
+   "message": "$5,000.00, +0.0% since the $5,000 start.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 3,
+   "level": "info",
+   "check": "vs hold",
+   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -1.0%.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  }
+ ]
+}
