@@ -4,21 +4,21 @@
  "closed": [],
  "quotes": [
   {
-   "event": "KXMLBWSOUTCOME-26",
-   "series": "KXMLBWSOUTCOME",
-   "title": "Pro Baseball Championship Outcome",
-   "ticker": "KXMLBWSOUTCOME-26-MILTB",
-   "order_id": "paper-3-1793172015",
-   "price": "0.08",
+   "event": "KXNFLGAME-26NOV08LVSF",
+   "series": "KXNFLGAME",
+   "title": "Las Vegas vs San Francisco",
+   "ticker": "KXNFLGAME-26NOV08LVSF-LV",
+   "order_id": "paper-5-1793174426",
+   "price": "0.80",
    "sets": 20,
    "done": 0,
-   "reserve": "19.7600",
+   "reserve": "19.8700",
    "multiplier": "1",
-   "placed": 1793172015.8353605,
+   "placed": 1793174426.4786367,
    "hedge": [
     {
-     "ticker": "KXMLBWSOUTCOME-26-TBMIL",
-     "limit": "0.9000"
+     "ticker": "KXNFLGAME-26NOV08LVSF-SF",
+     "limit": "0.1800"
     }
    ]
   }
