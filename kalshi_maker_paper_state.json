@@ -4,17 +4,36 @@
  "closed": [],
  "quotes": [
   {
+   "event": "KXBBLGAME-26OCT301330SKYSCJ",
+   "series": "KXBBLGAME",
+   "title": "Fraport Skyliners vs Medipolis SC Jena",
+   "ticker": "KXBBLGAME-26OCT301330SKYSCJ-SKY",
+   "order_id": "paper-34-1793210852",
+   "price": "0.11",
+   "sets": 11,
+   "done": 0,
+   "reserve": "10.8900",
+   "multiplier": "1",
+   "placed": 1793210852.300322,
+   "hedge": [
+    {
+     "ticker": "KXBBLGAME-26OCT301330SKYSCJ-SCJ",
+     "limit": "0.8700"
+    }
+   ]
+  },
+  {
    "event": "KXSERIECCUPGAME-26OCT28ACDDES",
    "series": "KXSERIECCUPGAME",
    "title": "Dolomiti Bellunesi vs Desenzano",
    "ticker": "KXSERIECCUPGAME-26OCT28ACDDES-DES",
-   "order_id": "paper-31-1793208146",
-   "price": "0.0900",
-   "sets": 10,
+   "order_id": "paper-35-1793211150",
+   "price": "0.3500",
+   "sets": 4,
    "done": 0,
-   "reserve": "17.8300",
+   "reserve": "7.7900",
    "multiplier": "1",
-   "placed": 1793208146.1338792,
+   "placed": 1793211150.930748,
    "hedge": [
     {
      "ticker": "KXSERIECCUPGAME-26OCT28ACDDES-ACD",
@@ -22,7 +41,7 @@
     },
     {
      "ticker": "KXSERIECCUPGAME-26OCT28ACDDES-TIE",
-     "limit": "0.8000"
+     "limit": "0.6200"
     }
    ]
   }
