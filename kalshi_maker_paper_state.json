@@ -2,5 +2,25 @@
  "realized": "-1.19",
  "open": [],
  "closed": [],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLOWTNOLA-26OCT28",
+   "series": "KXLOWTNOLA",
+   "title": "Lowest temperature in New Orleans on Oct 28, 2026?",
+   "ticker": "KXLOWTNOLA-26OCT28-B60.5",
+   "order_id": "paper-30-1793206037",
+   "price": "0.01",
+   "sets": 18,
+   "done": 0,
+   "reserve": "17.8600",
+   "multiplier": "1",
+   "placed": 1793206037.525166,
+   "hedge": [
+    {
+     "ticker": "KXLOWTNOLA-26OCT28-B58.5",
+     "limit": "0.9800"
+    }
+   ]
+  }
+ ]
 }
