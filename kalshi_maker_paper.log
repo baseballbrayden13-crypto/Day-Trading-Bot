@@ -33,3 +33,14 @@
 2026-10-28 09:00:36,141 INFO Swept 15419 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-28 09:05:46,025 INFO Swept 15410 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-28 09:10:52,423 INFO Swept 15430 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 09:15:53,386 INFO Swept 15442 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 09:20:55,174 INFO Swept 15432 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 09:25:58,547 INFO PAPER rest NO bid KXCBDECISIONCANADA-26OCT-H0 at $0.7400 x19 (167 already bid at that price)
+2026-10-28 09:25:58,547 INFO Resting NO bid on KXCBDECISIONCANADA-26OCT-H0 at $0.74 x19 (KXCBDECISIONCANADA-26OCT): locks in $0.26 if it fills; hedge NO H25@0.2300
+2026-10-28 09:25:58,548 INFO Swept 15412 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 09:27:05,257 INFO Quote KXCBDECISIONCANADA-26OCT cancelled (0/19 filled)
+2026-10-28 09:31:03,870 INFO PAPER rest NO bid KXMLBWSOUTCOME-26-MILTB at $0.0800 x19 (12044 already bid at that price)
+2026-10-28 09:31:03,870 INFO Resting NO bid on KXMLBWSOUTCOME-26-MILTB at $0.08 x19 (KXMLBWSOUTCOME-26): locks in $0.23 if it fills; hedge NO TBMIL@0.9000
+2026-10-28 09:31:03,871 INFO Swept 15408 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 09:36:02,776 INFO Swept 15404 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 09:41:02,434 INFO Swept 15417 events: 0 taker trades, 0 new quotes, 1 resting
