@@ -251,3 +251,20 @@ def test_per_quote_cap_limits_each_quote(monkeypatch, tmp_path):
     monkeypatch.setattr(kl, "STATE", tmp_path / "state2.json")
     assert km.place(FakeApi(books=books), {**cfg, "max_per_quote": D(0)}, events) == 1  # 0 = no cap
     assert D(kl.load_state()["quotes"][0]["reserve"]) > 5
+
+
+def test_safest_bet_is_booked_once_in_its_own_state(tmp_path, monkeypatch):
+    from datetime import datetime, timezone
+
+    from bot import kalshi_bets as kb
+    from bot import kalshi_maker as km
+
+    monkeypatch.setattr(kb, "STATE", tmp_path / "s.json")
+    monkeypatch.setattr(kb, "DATA", tmp_path / "d")
+    when = datetime(2026, 10, 28, 20, 0, tzinfo=timezone.utc)
+    m = {"ticker": "B", "status": "active", "yes_bid_dollars": "0.96", "yes_ask_dollars": "0.97", "volume_24h_fp": "500",
+         "close_time": "2026-10-29T02:00:00Z"}
+    ev = [{"event_ticker": "E", "series_ticker": "S", "markets": [m]}]
+    km.safest_bet(ev, {"budget": D(20)}, when)
+    km.safest_bet(ev, {"budget": D(20)}, when)
+    assert len(kb.load_state()["open"]) == 1

@@ -277,6 +277,17 @@ def place(api, cfg: dict, events: list[dict]) -> int:
     return placed
 
 
+def safest_bet(events: list[dict], cfg: dict, when: datetime) -> None:
+    """Once a day (from 3pm Eastern) paper-bet $1 on the likeliest outcome closing within 24h. Kept in its own
+    state file and summary, apart from the locked-in profit, because it can lose."""
+    from . import kalshi_bets as kb
+
+    state = kb.load_state()
+    kb.place(state, kb.daily_safest(events, when, {"_state": state}), cfg["budget"])
+    kb.save_state(state)
+    kb.summary(state, cfg["budget"], when)
+
+
 def check(api, cfg: dict) -> None:
     """Hedge new fills; cancel quotes that are done, stale or no longer pay."""
     state = kl.load_state()
@@ -446,6 +457,11 @@ def main() -> None:
         api = kl.Kalshi(cfg["env"], cfg["key_id"], cfg["key_file"])
         log.info("Maker mode on Kalshi %s, budget $%s, min profit $%s, up to %d quotes", cfg["env"].upper(), cfg["budget"],
                  cfg["min_profit"], cfg["max_quotes"])
+    safest_on = args.paper and os.getenv("KALSHI_SAFEST", "") == "on"  # one pretend "safest" bet a day, own record
+    if safest_on:
+        from . import kalshi_bets as kb
+
+        kb.STATE, kb.DATA = Path(f"kalshi_bets{sfx}_state.json"), Path(f"kalshi_data_bets{sfx}")
     stop = time.time() + args.minutes * 60 if args.minutes else float("inf")
     next_sweep = 0.0
     try:
@@ -462,6 +478,8 @@ def main() -> None:
                     good = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
                     kl.write_summary(cfg, mode, events, good, traded, ranked, when)
                     placed = place(api, cfg, events)
+                    if safest_on:
+                        safest_bet(events, cfg, when)
                     log.info("Swept %d events: %d taker trades, %d new quotes, %d resting", len(events), len(traded), placed,
                              len(kl.load_state().get("quotes", [])))
                 check(api, cfg)
