@@ -17,38 +17,92 @@
      "limit": "0.3800"
     }
    ]
+  },
+  {
+   "event": "KXKNVBCUPADVANCE-26OCT28SPAFOR",
+   "series": "KXKNVBCUPADVANCE",
+   "title": "Sparta vs Sittard",
+   "sets": 2,
+   "outlay": "1.8500",
+   "locked_profit": "0.1500",
+   "opened": "2026-10-28T20:15:58.426650+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXKNVBCUPADVANCE-26OCT28SPAFOR-SPA",
+     "side": "no",
+     "count": 2,
+     "limit": "0.2300"
+    },
+    {
+     "ticker": "KXKNVBCUPADVANCE-26OCT28SPAFOR-FOR",
+     "side": "no",
+     "count": 2,
+     "limit": "0.6700"
+    }
+   ]
   }
  ],
  "closed": [],
  "quotes": [
   {
-   "event": "KXCHINAAI-26NOV09",
-   "series": "KXCHINAAI",
-   "title": "Top Chinese AI Company week of November 2nd",
-   "ticker": "KXCHINAAI-26NOV09-DEEP",
-   "order_id": "paper-3-1793217186",
-   "price": "0.6800",
-   "sets": 1,
+   "event": "KXKNVBCUPADVANCE-26OCT28WATBRE",
+   "series": "KXKNVBCUPADVANCE",
+   "title": "JOS Watergraafsmeer vs Breda",
+   "ticker": "KXKNVBCUPADVANCE-26OCT28WATBRE-WAT",
+   "order_id": "paper-4-1793217800",
+   "price": "0.56",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.8500",
+   "reserve": "4.8700",
    "multiplier": "1",
-   "placed": 1793217186.230452,
+   "placed": 1793217800.9682055,
    "hedge": [
     {
-     "ticker": "KXCHINAAI-26NOV09-MOON",
-     "limit": "0.9100"
+     "ticker": "KXKNVBCUPADVANCE-26OCT28WATBRE-BRE",
+     "limit": "0.3900"
+    }
+   ]
+  },
+  {
+   "event": "KXNFLNEXTTEAM-26JSWEAT10",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Josh Sweat Next Team",
+   "ticker": "KXNFLNEXTTEAM-26JSWEAT10-DAL",
+   "order_id": "paper-5-1793218120",
+   "price": "0.0400",
+   "sets": 3,
+   "done": 0,
+   "reserve": "4.9400",
+   "multiplier": "1",
+   "placed": 1793218120.798741,
+   "hedge": [
+    {
+     "ticker": "KXNFLNEXTTEAM-26JSWEAT10-ARI",
+     "limit": "0.6000"
     },
     {
-     "ticker": "KXCHINAAI-26NOV09-ALIB",
-     "limit": "0.8800"
-    },
-    {
-     "ticker": "KXCHINAAI-26NOV09-XIAO",
-     "limit": "0.3400"
-    },
-    {
-     "ticker": "KXCHINAAI-26NOV09-ZAI",
+     "ticker": "KXNFLNEXTTEAM-26JSWEAT10-CHI",
      "limit": "0.9800"
+    }
+   ]
+  },
+  {
+   "event": "KXXRP-26OCT2817",
+   "series": "KXXRP",
+   "title": " XRP price range at Oct 28, 2026 at 5pm EDT? ",
+   "ticker": "KXXRP-26OCT2817-B1.3499500",
+   "order_id": "paper-6-1793218425",
+   "price": "0.3300",
+   "sets": 7,
+   "done": 0,
+   "reserve": "4.4000",
+   "multiplier": "1",
+   "placed": 1793218425.0340135,
+   "hedge": [
+    {
+     "ticker": "KXXRP-26OCT2817-B1.3299500",
+     "limit": "0.3700"
     }
    ]
   }
