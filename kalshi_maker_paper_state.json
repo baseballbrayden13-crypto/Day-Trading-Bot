@@ -4,20 +4,20 @@
  "closed": [],
  "quotes": [
   {
-   "event": "KXMLBWSOUTCOME-26",
-   "series": "KXMLBWSOUTCOME",
-   "title": "Pro Baseball Championship Outcome",
-   "ticker": "KXMLBWSOUTCOME-26-MILTB",
-   "order_id": "paper-18-1793194263",
+   "event": "KXITFWMATCH-26OCT28AGUEST",
+   "series": "KXITFWMATCH",
+   "title": "Agudelo vs Estevez",
+   "ticker": "KXITFWMATCH-26OCT28AGUEST-EST",
+   "order_id": "paper-19-1793196375",
    "price": "0.08",
    "sets": 19,
    "done": 0,
    "reserve": "18.7700",
    "multiplier": "1",
-   "placed": 1793194263.8707547,
+   "placed": 1793196375.2989266,
    "hedge": [
     {
-     "ticker": "KXMLBWSOUTCOME-26-TBMIL",
+     "ticker": "KXITFWMATCH-26OCT28AGUEST-AGU",
      "limit": "0.9000"
     }
    ]
