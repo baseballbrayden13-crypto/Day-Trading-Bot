@@ -33,6 +33,8 @@ $tasks = @(
      Trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Saturday -At "10:00AM" },
   @{ Name = "Fleet reporter (weekly)"; Args = "-m bot.reporter";
      Trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Sunday -At "6:00PM" },
+  @{ Name = "Fleet alerts from GitHub"; Args = "-m bot.popup --cloud-alerts";
+     Trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).Date -RepetitionInterval (New-TimeSpan -Minutes 15) },
   @{ Name = "Fleet summary at logon"; Args = "-m bot.popup --summary";
      Trigger = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME }
 )

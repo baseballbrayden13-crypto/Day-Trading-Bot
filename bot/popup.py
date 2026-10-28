@@ -2,6 +2,7 @@
 
     python -m bot.popup --summary        # Medic's latest grades (PC + cloud), and helper alerts since the last summary
     python -m bot.popup --summary --print   # the same, printed instead of a window
+    python -m bot.popup --cloud-alerts   # pop up new watch/act alerts from the GitHub bots (a 15-minute PC task)
     python -m bot.popup --title T --text X [--warn]   # one message box (bot.alerts uses this)
 
 The summary is meant for a "when I log on" task, so whenever the PC is on you see how every bot did,
@@ -21,6 +22,7 @@ from .fleet import load
 
 OUT = Path("fleet_data")
 CLOUD = "https://raw.githubusercontent.com/baseballbrayden13-crypto/Day-Trading-Bot/bot-state/fleet_data/health.csv"
+CLOUD_ALERTS = CLOUD.replace("health.csv", "alerts.csv")
 WORDS = {"ok": "OK", "info": "OK", "watch": "watch", "act": "NEEDS ACTION"}
 
 
@@ -35,6 +37,21 @@ def box(title: str, text: str, warn: bool = False) -> None:
 
 def _rows(text: str) -> list[dict]:
     return list(csv.DictReader(io.StringIO(text)))
+
+
+def new_alerts(rows: list[dict], since: str) -> list[dict]:
+    return [a for a in rows if a.get("time", "") > since and a.get("level") in ("watch", "act")]
+
+
+def cloud_alerts(seen_file: Path, fetch=None) -> list[dict]:
+    """Watch/act alerts the GitHub bots logged since the last check. The first check only marks the spot."""
+    rows = (fetch or cloud_health)(CLOUD_ALERTS)
+    if not rows:
+        return []
+    since = seen_file.read_text().strip() if seen_file.exists() else ""
+    seen_file.parent.mkdir(exist_ok=True)
+    seen_file.write_text(max(r.get("time", "") for r in rows))
+    return new_alerts(rows, since) if since else []
 
 
 def cloud_health(url: str = CLOUD) -> list[dict]:
@@ -75,19 +92,31 @@ def summary(rows: list[dict], alerts: list[dict]) -> tuple[str, bool]:
 def main() -> None:
     ap = argparse.ArgumentParser(description="Fleet popups")
     ap.add_argument("--summary", action="store_true")
+    ap.add_argument("--cloud-alerts", action="store_true")
     ap.add_argument("--title", default="Fleet helpers")
     ap.add_argument("--text", default="")
     ap.add_argument("--warn", action="store_true")
     ap.add_argument("--print", action="store_true", help="print the summary instead of a window (and don't mark alerts seen)")
     args = ap.parse_args()
+    if args.cloud_alerts:
+        from .alerts import quiet_hours
+
+        if quiet_hours():
+            return  # the logon summary or the next check after 7am shows them
+        alerts = cloud_alerts(OUT / "cloud_alerts_seen.txt")
+        if alerts:
+            act = any(a["level"] == "act" for a in alerts)
+            box(alerts[-1]["title"] if len(alerts) == 1 else f"{len(alerts)} alerts from the GitHub bots",
+                "\n\n".join(f"{a['title']}: {a['text'][:300]}" for a in alerts[-5:]), act)
+        return
     if not args.summary:
         box(args.title, args.text, args.warn)
         return
     local = _rows((OUT / "health.csv").read_text(encoding="utf-8")) if (OUT / "health.csv").exists() else []
     seen_file = OUT / "popup_seen.txt"
     since = seen_file.read_text().strip() if seen_file.exists() else ""
-    alerts = [a for a in (_rows((OUT / "alerts.csv").read_text(encoding="utf-8")) if (OUT / "alerts.csv").exists() else [])
-              if a["time"] > since and a["level"] in ("watch", "act")]
+    alerts = new_alerts(_rows((OUT / "alerts.csv").read_text(encoding="utf-8")) if (OUT / "alerts.csv").exists() else [], since)
+    alerts += new_alerts(cloud_health(CLOUD_ALERTS), since)
     text, bad = summary(merge(local, cloud_health(), load()), alerts)
     if args.print:
         print(text)

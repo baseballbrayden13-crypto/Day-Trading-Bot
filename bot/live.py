@@ -3,13 +3,21 @@
 Every bar it: refreshes data, checks risk limits, exits on trend breaks,
 looks for new entries, optionally asks Claude to review them, then places
 bracket orders. Everything is logged to trades.log.
+
+On GitHub (jobs stop at 6 hours) the day is split into two runs:
+    python -m bot.live --start-window 08:30-12:00 --until 12:40
+    python -m bot.live --start-window 12:00-15:50 --until 16:05
+A run started outside its window exits at once. The day's starting equity, trade count and halt
+are saved in risk_state.json, so the second run picks up where the first stopped.
 """
 from __future__ import annotations
 
+import argparse
+import json
 import logging
 import time
 from pathlib import Path
-from datetime import datetime
+from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
 from .broker import Broker
@@ -22,6 +30,36 @@ from .strategy import add_indicators, entry_signal, exit_on_trend_break, get_str
 
 ET = ZoneInfo("America/New_York")
 log = logging.getLogger("bot")
+RISK_STATE = Path("risk_state.json")
+
+
+def hhmm(text: str) -> tuple[int, int]:
+    h, m = text.split(":")
+    return int(h), int(m)
+
+
+def in_window(now_et: datetime, window: str) -> bool:
+    lo, hi = (hhmm(x) for x in window.split("-"))
+    return lo <= (now_et.hour, now_et.minute) < hi
+
+
+def save_risk(risk: RiskManager, path: Path = RISK_STATE) -> None:
+    if risk.day:
+        path.write_text(json.dumps({"day": risk.day.isoformat(), "start_equity": risk.start_equity,
+                                    "trades_today": risk.trades_today, "halted": risk.halted, "halt_reason": risk.halt_reason}))
+
+
+def load_risk(risk: RiskManager, today: date, path: Path = RISK_STATE) -> bool:
+    """Restore today's counters from an earlier run; a file from another day is ignored."""
+    try:
+        s = json.loads(path.read_text())
+    except (OSError, ValueError):
+        return False
+    if s.get("day") != today.isoformat():
+        return False
+    risk.day, risk.start_equity, risk.trades_today = today, float(s["start_equity"]), int(s["trades_today"])
+    risk.halted, risk.halt_reason = bool(s.get("halted")), s.get("halt_reason", "")
+    return True
 
 
 def seconds_to_next_bar(minutes: int) -> float:
@@ -116,6 +154,13 @@ def keep_awake() -> None:
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser(description="Bot 1 paper trading loop")
+    ap.add_argument("--start-window", default="", help="ET HH:MM-HH:MM; started outside it, exit at once")
+    ap.add_argument("--until", default="", help="stop at this ET time (open positions keep their bracket orders)")
+    args = ap.parse_args()
+    if args.start_window and not in_window(datetime.now(ET), args.start_window):
+        print(f"{datetime.now(ET):%H:%M} ET is outside this run's start window {args.start_window}; nothing to do.")
+        return
     keep_awake()
     logging.basicConfig(
         level=logging.INFO,
@@ -131,6 +176,9 @@ def main() -> None:
     except Exception:
         log.exception("Could not record the account number")
     risk = RiskManager(cfg)
+    if load_risk(risk, datetime.now(ET).date()):
+        log.info("Picked up today's counters: start equity $%.2f, %d trades%s", risk.start_equity, risk.trades_today,
+                 ", halted" if risk.halted else "")
     reviewer = None
     if cfg.ai_review:
         from .ai_review import AIReviewer
@@ -140,10 +188,15 @@ def main() -> None:
 
     log.info("Watching %s on %d-min bars. Ctrl+C to stop.", ", ".join(cfg.symbols), cfg.bar_minutes)
     send(cfg, "Bot started", f"Paper bot watching {', '.join(cfg.symbols)} ({cfg.strategy})")
+    until = hhmm(args.until) if args.until else None
     while True:
         try:
+            if until and (datetime.now(ET).hour, datetime.now(ET).minute) >= until:
+                log.info("Run over at %s ET; positions keep their stop-loss and take-profit orders at Alpaca.", args.until)
+                break
             if broker.market_open():
                 run_once(cfg, broker, risk, reviewer)
+                save_risk(risk)
             time.sleep(seconds_to_next_bar(cfg.bar_minutes))
         except KeyboardInterrupt:
             log.info("Stopped. Open positions keep their stop-loss and take-profit orders at Alpaca.")
