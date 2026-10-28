@@ -1,0 +1,11 @@
+time,series,event,title,kind,locked_in,sets,markets,cost,fees,pays_at_least,profit,meets_min,days_to_close,traded,note
+2026-10-28T05:32:01+00:00,KXNCAAMBNEXTCOACH,KXNCAAMBNEXTCOACH-KU26,Kansas Basketball: Next Head Coach,yes_basket,False,50,25,17.50,1.32,50.00,31.18,True,13.4,False,
+2026-10-28T05:32:01+00:00,KXSTATELEG,KXSTATELEG-NHSEN26,New Hampshire State Senate winner?,yes_basket,False,50,2,38.00,1.64,50.00,10.36,True,49.4,False,
+2026-10-28T05:32:01+00:00,KXSTATELEG,KXSTATELEG-MEHOUSE26,Maine State House winner?,yes_basket,False,50,2,49.00,0.52,50.00,0.48,True,49.4,False,
+2026-10-28T05:32:01+00:00,KXNETFLIXRANKMOVIE,KXNETFLIXRANKMOVIE-26NOV02,Top US Netflix Movie this week?,yes_basket,False,2,10,0.70,0.12,2.00,1.18,True,6.0,False,
+2026-10-28T05:32:01+00:00,KXTOPUSAGEAI,KXTOPUSAGEAI-26OCT26,Most popular AI this week,yes_basket,False,1,7,0.89,0.08,1.00,0.03,False,4.9,False,
+2026-10-28T05:37:01+00:00,KXNCAAMBNEXTCOACH,KXNCAAMBNEXTCOACH-KU26,Kansas Basketball: Next Head Coach,yes_basket,False,50,25,17.50,1.32,50.00,31.18,True,13.4,False,
+2026-10-28T05:37:01+00:00,KXSTATELEG,KXSTATELEG-NHSEN26,New Hampshire State Senate winner?,yes_basket,False,50,2,38.00,1.64,50.00,10.36,True,49.4,False,
+2026-10-28T05:37:01+00:00,KXSTATELEG,KXSTATELEG-MEHOUSE26,Maine State House winner?,yes_basket,False,50,2,49.00,0.52,50.00,0.48,True,49.4,False,
+2026-10-28T05:37:01+00:00,KXNETFLIXRANKMOVIE,KXNETFLIXRANKMOVIE-26NOV02,Top US Netflix Movie this week?,yes_basket,False,2,10,0.70,0.12,2.00,1.18,True,6.0,False,
+2026-10-28T05:37:01+00:00,KXTOPUSAGEAI,KXTOPUSAGEAI-26OCT26,Most popular AI this week,yes_basket,False,1,7,0.89,0.08,1.00,0.03,False,4.9,False,
