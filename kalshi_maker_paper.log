@@ -21,3 +21,15 @@
 2026-10-28 03:30:16,637 INFO Swept 15236 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-28 03:35:21,565 INFO Swept 15240 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-28 03:40:22,636 INFO Swept 15250 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 08:43:26,011 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 3 quotes
+2026-10-28 08:45:34,186 INFO PAPER rest NO bid KXCS2MAP-26OCT280700NEMIMGLZ-2-NEMI at $0.8700 x19 (302 already bid at that price)
+2026-10-28 08:45:34,186 INFO Resting NO bid on KXCS2MAP-26OCT280700NEMIMGLZ-2-NEMI at $0.87 x19 (KXCS2MAP-26OCT280700NEMIMGLZ-2): locks in $0.20 if it fills; hedge NO MGLZ@0.1100
+2026-10-28 08:45:34,187 INFO Swept 15440 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 08:45:34,373 INFO Quote KXCS2MAP-26OCT280700NEMIMGLZ-2 cancelled (0/19 filled)
+2026-10-28 08:50:36,574 INFO PAPER rest NO bid KXMLBWSOUTCOME-26-MILTB at $0.0800 x19 (12148 already bid at that price)
+2026-10-28 08:50:36,574 INFO Resting NO bid on KXMLBWSOUTCOME-26-MILTB at $0.08 x19 (KXMLBWSOUTCOME-26): locks in $0.23 if it fills; hedge NO TBMIL@0.9000
+2026-10-28 08:50:36,575 INFO Swept 15433 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 08:55:36,179 INFO Swept 15414 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 09:00:36,141 INFO Swept 15419 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 09:05:46,025 INFO Swept 15410 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 09:10:52,423 INFO Swept 15430 events: 0 taker trades, 0 new quotes, 1 resting

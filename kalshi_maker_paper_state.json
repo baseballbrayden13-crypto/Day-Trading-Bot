@@ -2,5 +2,25 @@
  "realized": "-1.19",
  "open": [],
  "closed": [],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXMLBWSOUTCOME-26",
+   "series": "KXMLBWSOUTCOME",
+   "title": "Pro Baseball Championship Outcome",
+   "ticker": "KXMLBWSOUTCOME-26-MILTB",
+   "order_id": "paper-16-1793191836",
+   "price": "0.08",
+   "sets": 19,
+   "done": 0,
+   "reserve": "18.7700",
+   "multiplier": "1",
+   "placed": 1793191836.5744514,
+   "hedge": [
+    {
+     "ticker": "KXMLBWSOUTCOME-26-TBMIL",
+     "limit": "0.9000"
+    }
+   ]
+  }
+ ]
 }
