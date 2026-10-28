@@ -294,7 +294,7 @@ def test_digest_and_site_rows():
     title, text, prio = mt.digest(bad, FLEET, [bad[-1]])
     assert title == "Medic: 1 need action" and "bot 1: Bot 1 isn't running." in text and prio == "high"
     health, rows = mt.site_rows(bad, FLEET, NOW)
-    assert [h["label"] for h in health] == ["fleet", "1", "2", "3", "4", "4b", "4c"]
+    assert [h["label"] for h in health] == ["fleet", "1", "2", "3", "4", "4b", "4c", "4e"]
     assert [h["status"] for h in health if h["label"] == "4c"] == ["info"]  # optional, not set up: no alarm
     assert health[1]["status"] == "act" and health[2]["headline"] == "Running normally."
 

@@ -487,15 +487,18 @@ def run_checks(snap: dict, bots: list[Bot], equity_rows: list[dict], trades: lis
     trading_today = snap.get("clock", {}).get("trading_day")
     tasks = snap.get("tasks", [])
     for b in bots:
+        if b.runs_on == "off":  # retired: nothing to check, nothing to flag
+            continue
         s = snap.get("bots", {}).get(str(b.num))
-        if b.optional and not find_task(b, tasks) and not any(m in (s or {}) for m, *_ in b.runs):
+        if b.optional and b.runs_on == host() and not find_task(b, tasks) and not any(m in (s or {}) for m, *_ in b.runs):
             findings.append(Finding(b.num, "info", "setup", f"Bot {b.tag} isn't set up on this PC yet."))
             continue
         if s is None:
             findings.append(Finding(b.num, "watch", "data", f"No Scout data for bot {b.tag} in the snapshot."))
             continue
         if b.kind == "kalshi":
-            findings += safely(check_kalshi, b.num, b, s, now) + safely(check_task, b.num, b, tasks, snap, now)
+            if b.runs_on == host():  # its summary files and task are on this machine; the other side's Medic checks the rest
+                findings += safely(check_kalshi, b.num, b, s, now) + safely(check_task, b.num, b, tasks, snap, now)
             continue
         found = safely(check_connection, b.num, b, s)
         if b.runs_on == host():  # its logs, task and state files are on this machine
