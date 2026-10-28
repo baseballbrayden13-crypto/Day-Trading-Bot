@@ -164,6 +164,8 @@ def alpaca_bot(bot: Bot, client, now: datetime, days: int) -> dict:
 
 def fills(bot: Bot, client, now: datetime, days: int) -> dict:
     """Bot 1's real slippage (bot.fills): wanted price vs Alpaca's fill."""
+    from alpaca.trading.requests import GetOrderByIdRequest
+
     from .fills import check
 
     path = bot.path("fills/signals.csv")
@@ -172,7 +174,7 @@ def fills(bot: Bot, client, now: datetime, days: int) -> dict:
     with path.open(encoding="utf-8") as f:
         rows = [r for r in csv.DictReader(f) if datetime.fromisoformat(r["time"]) >= now - timedelta(days=days)]
     try:
-        got = check(rows, lambda oid: client.get_order_by_id(oid, nested=True)) if rows else []
+        got = check(rows, lambda oid: client.get_order_by_id(oid, GetOrderByIdRequest(nested=True))) if rows else []
     except Exception as e:
         return {"entries": len(rows), "error": f"{type(e).__name__}: {e}"[:300]}
     bps = [r["entry_bps"] for r in got] + [r["exit_bps"] for r in got if r["exit"] == "stop"]
