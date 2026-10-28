@@ -294,3 +294,58 @@ def test_backtest_carries_quotes_forward_until_stale():
     no, _ = kb.books_at(series, 60 + 1801, 10, stale=1800)
     assert set(no) == {"B"}  # ...but not after 30 minutes
     assert kb.books_at(series, 30, 10)[0] == {}  # nothing before the first candle
+
+
+def test_no_basket_refuses_events_that_are_not_mutually_exclusive():
+    books = {"A": [(D("0.55"), 10)], "B": [(D("0.60"), 10)], "C": [(D("0.70"), 10)]}
+    assert no_basket({**event(), "mutually_exclusive": False}, books, D(20)) is None
+    assert no_basket({**event(), "mutually_exclusive": True}, books, D(20)) is not None
+
+
+def test_single_instance_lock(monkeypatch, tmp_path):
+    import subprocess
+    import sys
+
+    monkeypatch.chdir(tmp_path)
+    kl.single_instance("kalshi-test")  # this process holds it
+    code = "import bot.kalshi_live as k; k.single_instance('kalshi-test')"
+    other = subprocess.run([sys.executable, "-c", code], cwd=tmp_path, capture_output=True, text=True,
+                           env={**__import__("os").environ, "PYTHONPATH": str(__import__("pathlib").Path(kl.__file__).parents[1])})
+    assert other.returncode != 0 and "already running" in other.stderr
+
+
+def test_calibration_buckets_and_split():
+    from bot import kalshi_calibration as kc
+
+    c = lambda ts, bid, ask: {"end_period_ts": ts, "yes_bid": {"close_dollars": bid}, "yes_ask": {"close_dollars": ask}}
+    assert kc.quote_before([c(10, "0.10", "0.12"), c(20, "0.11", "0.13"), c(30, "0.5", "0.6")], 25) == (D("0.11"), D("0.13"))
+    assert kc.quote_before([c(10, "0", "0.12")], 25) is None
+    # long shots at 10c that never win: buying NO at 0.90 makes ~ +0.09 a contract after fees, in both halves
+    rows = [{"event": f"E{i}", "ask": D("0.11"), "bid": D("0.10"), "won": False, "close": f"2026-10-{i % 28 + 1:02d}"} for i in range(80)]
+    t = kc.summarize(rows)
+    assert len(t) == 1 and t[0]["bucket"] == "0.10-0.15" and t[0]["yes_won"] == "0.000"
+    assert D(t[0]["no_ev"]) > D("0.08") and kc.promising(t[0], "no", D("0.02"), 30)
+    assert not kc.promising(t[0], "yes", D("0.02"), 30)
+    assert kc.promising(t[0], "no", D("0.02"), 30, 2.0)  # 80 of 80 NO wins at 0.90: beyond luck, and t stays finite
+    assert 2 < float(t[0]["no_t"]) < 40
+    # a coin flip priced at 0.50 has no edge: t stays small
+    assert abs(kc.t_stat([D("0.48"), D("-0.52")] * 50, [D("0.5")] * 100)) < 1
+    # 0 of 85 longshots won at 6.7c: NO profit 0.067 less fee each. Mildly significant (t~2.3), nowhere near t=20
+    assert 2 < kc.t_stat([D("0.063")] * 85, [D("0.933")] * 85) < 3
+
+def test_watchdog_exits_a_hung_process(tmp_path):
+    """A process that never calls heartbeat() again is killed with exit code 3 (the .bat then restarts it)."""
+    import subprocess
+    import sys
+    import textwrap
+
+    code = textwrap.dedent("""
+        import time
+        from bot import kalshi_live as kl
+        real_sleep = time.sleep
+        kl.time.sleep = lambda s: real_sleep(0.05)   # the watchdog's 60 s tick, sped up
+        kl.start_watchdog(minutes=0.0005)
+        real_sleep(30)
+    """)
+    r = subprocess.run([sys.executable, "-c", code], capture_output=True, timeout=25, cwd=__import__("pathlib").Path(__file__).resolve().parent.parent)
+    assert r.returncode == 3
