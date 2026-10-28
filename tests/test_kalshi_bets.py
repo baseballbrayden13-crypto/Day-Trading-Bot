@@ -90,3 +90,18 @@ def test_paper_book_places_settles_and_keeps_pots_apart(tmp_path, monkeypatch):
     s = kb.summary(state, D(20), datetime.now(timezone.utc))
     assert s["strategies"]["weather"]["realized_profit"] == "4.98" and s["strategies"]["crypto"]["open_bets"] == 1
     assert (tmp_path / "d" / "summary.json").exists()
+
+
+def test_daily_safest_picks_one_liquid_favorite_after_3pm_once():
+    from datetime import datetime, timezone
+
+    now = datetime(2026, 10, 28, 20, 0, tzinfo=timezone.utc)  # 4pm Eastern
+    mk = lambda t, bid, ask, vol="500", hrs=5: {"ticker": t, "status": "active", "yes_bid_dollars": bid, "yes_ask_dollars": ask,
+                                              "volume_24h_fp": vol, "close_time": f"2026-10-29T{1 + hrs:02d}:00:00Z"}
+    ev = [{"event_ticker": "E", "series_ticker": "S", "markets": [mk("A", "0.95", "0.96"), mk("B", "0.96", "0.97"),
+                                                                  mk("C", "0.99", "1.00"), mk("D", "0.96", "0.97", vol="5")]}]
+    bets = kb.daily_safest(ev, now, {})
+    assert len(bets) == 1 and bets[0].ticker == "B" and bets[0].side == "yes"
+    assert kb.daily_safest(ev, datetime(2026, 10, 28, 17, 0, tzinfo=timezone.utc), {}) == []  # 1pm Eastern: too early
+    state = {"open": [{"strategy": "daily_safest", "placed": now.isoformat()}], "closed": []}
+    assert kb.daily_safest(ev, now, {"_state": state}) == []  # already bet today

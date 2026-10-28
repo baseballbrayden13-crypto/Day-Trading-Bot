@@ -297,7 +297,45 @@ def _bets_for(e: dict, now: datetime, cfg: dict, name: str, p_yes, note: str, si
     return out
 
 
-STRATEGIES = {"weather": weather, "crypto": crypto, "favorites": favorites}
+SAFEST_BAND = (0.95, 0.98)  # price range of the "safest" side: near-certain, but not so near that fees eat the win
+SAFEST_STAKE = D("1")
+SAFEST_HOUR_ET = 15  # one a day, from 3pm Eastern
+
+
+def daily_safest(events: list[dict], now: datetime, cfg: dict, data=None) -> list[Bet]:
+    """One pretend bet a day on the likeliest outcome among liquid markets closing within 24h. No edge is
+    claimed (the prob recorded is just the price), so this tracks what always taking the safe side really pays."""
+    et = now.astimezone(ZoneInfo("America/New_York"))
+    state = cfg.get("_state") or {"open": [], "closed": []}
+    today = {b["placed"][:10] for b in state["open"] + state["closed"] if b["strategy"] == "daily_safest"}
+    if et.hour < SAFEST_HOUR_ET or now.date().isoformat() in today or et.date().isoformat() in today:
+        return []
+    best = None
+    for e in events:
+        mult = kl.multiplier(e)
+        for m in e.get("markets", []):
+            if m.get("status") not in ("active", "open") or not (0.5 <= _hours_left(m, now) <= 24):
+                continue
+            if D(m.get("volume_24h_fp") or "0") < 100:
+                continue
+            ask, bid = m.get("yes_ask_dollars"), m.get("yes_bid_dollars")
+            if not ask or not bid or D(ask) - D(bid) > D("0.02"):
+                continue  # a wide spread is a hidden cost
+            for side, price in (("yes", D(ask)), ("no", 1 - D(bid))):
+                if not (SAFEST_BAND[0] <= float(price) <= SAFEST_BAND[1]):
+                    continue
+                count = int(SAFEST_STAKE / price)
+                if count < 1:
+                    continue
+                f = fee(count, price, mult)
+                if best is None or price > best[0]:
+                    best = (price, Bet("daily_safest", m["ticker"], e.get("event_ticker", ""), e.get("series_ticker", ""), side, count,
+                                       f"{price:.4f}", f"{f:.2f}", float(price), m.get("close_time", ""),
+                                       now.isoformat(timespec="seconds"), "daily safest: likeliest outcome closing within 24h"))
+    return [best[1]] if best else []
+
+
+STRATEGIES = {"weather": weather, "crypto": crypto, "favorites": favorites, "daily_safest": daily_safest}
 
 
 # ---------------------------------------------------------------- paper book
@@ -373,6 +411,7 @@ def run_once(api, cfg: dict, names: list[str]) -> dict:
     state = load_state()
     settle(api, state)
     events = api.open_events()
+    cfg = {**cfg, "_state": state}
     bets = [b for n in names for b in STRATEGIES[n](events, now, cfg)]
     placed = place(state, bets, cfg["budget"])
     save_state(state)
