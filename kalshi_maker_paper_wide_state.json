@@ -1,5 +1,5 @@
 {
- "realized": "1.0400",
+ "realized": "1.0900",
  "open": [
   {
    "event": "KXHIGHTSAN-26OCT28",
@@ -114,6 +114,33 @@
    "paid": "2",
    "pnl": "0.1500",
    "closed": "2026-10-28T21:34:12.116270+00:00"
+  },
+  {
+   "event": "KXNBARACE-26OCT28PHIIND-10",
+   "series": "KXNBARACE",
+   "title": "Philadelphia vs Indiana: Race to 10 Points",
+   "sets": 2,
+   "outlay": "1.9500",
+   "locked_profit": "0.0500",
+   "opened": "2026-10-28T23:17:09.157567+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXNBARACE-26OCT28PHIIND-10-PHI",
+     "side": "no",
+     "count": 2,
+     "limit": "0.3300"
+    },
+    {
+     "ticker": "KXNBARACE-26OCT28PHIIND-10-IND",
+     "side": "no",
+     "count": 2,
+     "limit": "0.6200"
+    }
+   ],
+   "paid": "2",
+   "pnl": "0.0500",
+   "closed": "2026-10-28T23:30:15.860154+00:00"
   }
  ],
  "quotes": []

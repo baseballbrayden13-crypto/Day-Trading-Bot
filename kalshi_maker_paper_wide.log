@@ -246,3 +246,23 @@
 2026-10-28 18:51:50,980 ERROR STRAY POSITION: 5 NO contracts of KXLOLFBLOOD-26OCT281900LYIG-2-IG still held. Check it on Kalshi.
 2026-10-28 18:55:19,953 INFO Swept 15525 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-28 19:00:20,695 INFO Swept 15537 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 19:05:18,330 INFO Swept 15542 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 19:10:26,363 INFO Swept 15584 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 19:15:28,884 INFO PAPER rest NO bid KXNBARACE-26OCT28PHIIND-10-PHI at $0.3300 x5 (0 already bid at that price)
+2026-10-28 19:15:28,884 INFO Resting NO bid on KXNBARACE-26OCT28PHIIND-10-PHI at $0.3300 x5 (KXNBARACE-26OCT28PHIIND-10): locks in $0.14 if it fills; hedge NO IND@0.6200
+2026-10-28 19:15:28,945 INFO PAPER rest NO bid KXBRASILEIRO1H-26OCT28RBBCHA-TIE at $0.8300 x5 (0 already bid at that price)
+2026-10-28 19:15:28,946 INFO Resting NO bid on KXBRASILEIRO1H-26OCT28RBBCHA-TIE at $0.8300 x5 (KXBRASILEIRO1H-26OCT28RBBCHA): locks in $0.56 if it fills; hedge NO RBB@0.0500
+2026-10-28 19:15:29,007 INFO PAPER rest NO bid KXNBARACE-26OCT28CHADET-10-DET at $0.7600 x5 (0 already bid at that price)
+2026-10-28 19:15:29,008 INFO Resting NO bid on KXNBARACE-26OCT28CHADET-10-DET at $0.7600 x5 (KXNBARACE-26OCT28CHADET-10): locks in $0.38 if it fills; hedge NO CHA@0.1500
+2026-10-28 19:15:29,009 INFO Swept 15601 events: 0 taker trades, 3 new quotes, 3 resting
+2026-10-28 19:15:34,806 INFO Quote KXNBARACE-26OCT28CHADET-10 cancelled (0/5 filled)
+2026-10-28 19:17:09,094 INFO PAPER KXNBARACE-26OCT28PHIIND-10-PHI NO bid at $0.3300: 2/5 filled by real trades
+2026-10-28 19:17:09,157 INFO PAPER buy 2 NO KXNBARACE-26OCT28PHIIND-10-IND at up to $0.6200: filled 2
+2026-10-28 19:17:09,157 INFO Quote KXNBARACE-26OCT28PHIIND-10 filled 2: hedged, locks in $0.05
+2026-10-28 19:17:09,282 INFO PAPER KXNBARACE-26OCT28PHIIND-10-PHI NO bid at $0.3300: 2/5 filled by real trades
+2026-10-28 19:17:09,284 INFO Quote KXNBARACE-26OCT28PHIIND-10 cancelled (2/5 filled)
+2026-10-28 19:20:34,664 INFO Swept 15607 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 19:21:36,440 INFO Quote KXBRASILEIRO1H-26OCT28RBBCHA cancelled (0/5 filled)
+2026-10-28 19:25:34,746 INFO Swept 15602 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 19:30:15,860 INFO Settled KXNBARACE-26OCT28PHIIND-10: paid $2, profit $0.05
+2026-10-28 19:30:35,328 INFO Swept 15615 events: 0 taker trades, 0 new quotes, 0 resting

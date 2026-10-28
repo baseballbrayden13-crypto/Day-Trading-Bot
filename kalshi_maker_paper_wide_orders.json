@@ -348,5 +348,47 @@
   "at_price": 27,
   "filled": 5,
   "status": "executed"
+ },
+ "paper-26-1793229328": {
+  "id": "paper-26-1793229328",
+  "ticker": "KXNBARACE-26OCT28PHIIND-10-PHI",
+  "price": "0.3300",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793229328.883624,
+  "checked": 1793229429.2199965,
+  "expires": 1793231128,
+  "through": 2,
+  "at_price": 0,
+  "filled": 2,
+  "status": "canceled"
+ },
+ "paper-27-1793229328": {
+  "id": "paper-27-1793229328",
+  "ticker": "KXBRASILEIRO1H-26OCT28RBBCHA-TIE",
+  "price": "0.8300",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793229328.945153,
+  "checked": 1793229696.3733435,
+  "expires": 1793231128,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-28-1793229329": {
+  "id": "paper-28-1793229329",
+  "ticker": "KXNBARACE-26OCT28CHADET-10-DET",
+  "price": "0.7600",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793229329.0072148,
+  "checked": 1793229334.7437012,
+  "expires": 1793231128,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
