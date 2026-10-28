@@ -250,3 +250,13 @@ whether it does better than that.
 - Run several strategies at once in the paper loop, each with its own slice of the account.
 - Feed news headlines to the Claude reviewer so it can skip stocks with earnings or big news.
 - Track paper results weekly in a spreadsheet to see if live matches the backtest.
+
+### Moving bot 1 and the helpers to GitHub
+
+`Move bots to GitHub.bat` (double-click before 9am or after 4pm on a weekday) turns off the PC tasks
+for bots 1-3, Guard, Lab and Reporter, copies bot 1's `.env` into the `BOT1_ENV` secret and sets the
+repository variable `BOT1_CLOUD=on`. Then `Cloud bot 1 (paper)` trades in two runs a day (9:05am-12:38pm
+and 12:40-4:05pm ET, with Guard alongside) and `Cloud weekly helpers` runs Lab and Reporter. Until
+`BOT1_CLOUD` is on, both workflows do nothing. Alerts from the GitHub bots pop up on the PC through the
+"Fleet alerts from GitHub" task (`install_helpers.ps1`). Undo: `"Move bots to GitHub.bat" undo`.
+The Kalshi bots and the PC's Medic stay on the PC for now.

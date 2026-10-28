@@ -129,6 +129,8 @@ def log_health(path: Path, now: datetime, days: int = 7) -> dict:
             errors.append(line[:300])
             errors_24h += t >= day_ago
     modified = datetime.fromtimestamp(path.stat().st_mtime, ET)
+    if host() == "cloud" and last_time:  # a fresh clone gives every file a new mtime; the last line says when it ran
+        modified = last_time.replace(tzinfo=ET)
     return {"exists": True, "modified": modified.isoformat(timespec="seconds"),
             "last_line_time": last_time.isoformat() if last_time else "",
             "errors": len(errors), "errors_24h": errors_24h, "last_errors": errors[-3:],

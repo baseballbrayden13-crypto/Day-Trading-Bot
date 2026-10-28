@@ -20,7 +20,7 @@ permissions:
   contents: write  # to save state on the bot-state branch
 
 concurrency:
-  group: cloud-bots  # never two runs writing the state branch at once
+  group: cloud-bots  # bot 1 and the weekly helpers have their own groups; save_state.sh handles races
   cancel-in-progress: false
 
 jobs:
@@ -29,6 +29,7 @@ jobs:
     timeout-minutes: 20
     env:
       FLEET_HOST: cloud
+      TZ: America/New_York  # log times in ET, like on the PC
       PYTHONPATH: ${{ github.workspace }}/code
       BOT1_ACCOUNT: ${{ vars.BOT1_ACCOUNT }}  # bots 2 and 3 refuse to run on bot 1's account
     steps:
@@ -38,18 +39,17 @@ jobs:
           path: code
           ref: ${{ vars.BOT_CODE_REF || github.ref }}
 
-      - name: Saved state (bot-state branch)
-        run: |
-          if git ls-remote --exit-code --heads "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" bot-state; then
-            git clone --depth 1 --branch bot-state "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" state
-          else
-            mkdir state && (cd state && git init -q -b bot-state && git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}")
-          fi
-          cp code/cloud/gitignore state/.gitignore
-          cp code/cloud/fleet.json state/fleet.json
-          if [ ! -f state/rotation_state.json ] && [ -n "$BOT2_STATE" ]; then echo "$BOT2_STATE" > state/rotation_state.json; fi
+      - name: Saved state and keys (keys are never saved)
+        run: bash code/cloud/setup_state.sh
         env:
+          REPO_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}
           BOT2_STATE: ${{ vars.BOT2_STATE }}
+          BOT1_ENV: ${{ secrets.BOT1_ENV }}
+          BOT1_CLOUD: ${{ vars.BOT1_CLOUD }}
+          BOT2_KEY: ${{ secrets.BOT2_ALPACA_API_KEY }}
+          BOT2_SECRET: ${{ secrets.BOT2_ALPACA_SECRET_KEY }}
+          BOT3_KEY: ${{ secrets.BOT3_ALPACA_API_KEY }}
+          BOT3_SECRET: ${{ secrets.BOT3_ALPACA_SECRET_KEY }}
 
       - uses: actions/setup-python@v5
         with:
@@ -72,13 +72,6 @@ jobs:
           fi
           echo "what=$what" >> "$GITHUB_OUTPUT"
 
-      - name: Keys (from secrets, never saved)
-        working-directory: state
-        run: |
-          umask 077
-          printf 'ALPACA_API_KEY=%s\nALPACA_SECRET_KEY=%s\n' "${{ secrets.BOT2_ALPACA_API_KEY }}" "${{ secrets.BOT2_ALPACA_SECRET_KEY }}" > .env.rotation
-          printf 'ALPACA_API_KEY=%s\nALPACA_SECRET_KEY=%s\n' "${{ secrets.BOT3_ALPACA_API_KEY }}" "${{ secrets.BOT3_ALPACA_SECRET_KEY }}" > .env.crypto
-
       - name: Bot 2 (ETF rotation)
         if: contains(fromJSON('["bot2","all"]'), steps.pick.outputs.what)
         working-directory: state
@@ -98,9 +91,5 @@ jobs:
         if: always()
         working-directory: state
         run: |
-          rm -f .env.rotation .env.crypto
-          git config user.name "cloud-bots"
-          git config user.email "cloud-bots@users.noreply.github.com"
-          git add -A
-          git commit -qm "Cloud run ${{ steps.pick.outputs.what }} $(date -u +%FT%TZ)" || exit 0
-          git push -q origin HEAD:bot-state
+          rm -f .env .env.rotation .env.crypto
+          bash ../code/cloud/save_state.sh "${{ steps.pick.outputs.what }}"
