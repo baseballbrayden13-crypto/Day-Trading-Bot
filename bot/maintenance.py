@@ -184,6 +184,11 @@ def check_schedule(bot: Bot, s: dict, now: datetime, trading_today: bool | None,
         return []  # bot 4 reports through its summary file (check_kalshi)
     if bot.always_on and task is not None:
         return []  # a loop's log can sit still for hours; check_task looks at the task instead
+    if not lg.get("exists") and bot.runs_on == "cloud":
+        # The log only reaches the saved state after a cloud run's first save, so a bot that hasn't run yet
+        # (or that this Medic run didn't run) has none. "watch" turns into "act" by itself after 3 days.
+        return [Finding(bot.num, "watch", "schedule", f"No saved {bot.log_file} for bot {bot.tag} yet, so no cloud run has been saved for it.",
+                        "If this stays for days, open the Actions tab and check its workflow runs and that its keys are in the repository secrets.")]
     if not lg.get("exists"):
         return [Finding(bot.num, "act", "schedule", f"{bot.log_file} doesn't exist in {bot.home}, so bot {bot.num} has never run here.",
                         "Check its Windows scheduled task, or set this bot's home folder in fleet.json." if bot.runs_on == "pc" else
