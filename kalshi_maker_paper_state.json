@@ -4,21 +4,21 @@
  "closed": [],
  "quotes": [
   {
-   "event": "KXBBLGAME-26OCT301500RASHAG",
-   "series": "KXBBLGAME",
-   "title": "Rasta Vechta vs Phoenix Hagen",
-   "ticker": "KXBBLGAME-26OCT301500RASHAG-RAS",
-   "order_id": "paper-6-1793176551",
-   "price": "0.70",
+   "event": "KXMLBWSOUTCOME-26",
+   "series": "KXMLBWSOUTCOME",
+   "title": "Pro Baseball Championship Outcome",
+   "ticker": "KXMLBWSOUTCOME-26-MILTB",
+   "order_id": "paper-7-1793178668",
+   "price": "0.08",
    "sets": 20,
    "done": 0,
    "reserve": "19.7600",
    "multiplier": "1",
-   "placed": 1793176551.6620307,
+   "placed": 1793178668.611823,
    "hedge": [
     {
-     "ticker": "KXBBLGAME-26OCT301500RASHAG-HAG",
-     "limit": "0.2700"
+     "ticker": "KXMLBWSOUTCOME-26-TBMIL",
+     "limit": "0.9000"
     }
    ]
   }
