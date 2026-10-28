@@ -2,5 +2,44 @@
  "realized": "-1.19",
  "open": [],
  "closed": [],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXITFDOUBLES-26OCT28JONJONKOZRAT",
+   "series": "KXITFDOUBLES",
+   "title": "Jones / Jones vs Kozlovsky / Rat",
+   "ticker": "KXITFDOUBLES-26OCT28JONJONKOZRAT-KOZRAT",
+   "order_id": "paper-25-1793200900",
+   "price": "0.7600",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8600",
+   "multiplier": "1",
+   "placed": 1793200900.9354095,
+   "hedge": [
+    {
+     "ticker": "KXITFDOUBLES-26OCT28JONJONKOZRAT-JONJON",
+     "limit": "0.0800"
+    }
+   ]
+  },
+  {
+   "event": "KXWEUROLEAGUEGAME-26OCT281300FCAFEN",
+   "series": "KXWEUROLEAGUEGAME",
+   "title": "Flammes Carolo Basket Ardennes vs Fenerbahce",
+   "ticker": "KXWEUROLEAGUEGAME-26OCT281300FCAFEN-FCA",
+   "order_id": "paper-26-1793201503",
+   "price": "0.90",
+   "sets": 18,
+   "done": 0,
+   "reserve": "17.7700",
+   "multiplier": "1",
+   "placed": 1793201503.0139701,
+   "hedge": [
+    {
+     "ticker": "KXWEUROLEAGUEGAME-26OCT281300FCAFEN-FEN",
+     "limit": "0.0800"
+    }
+   ]
+  }
+ ]
 }
