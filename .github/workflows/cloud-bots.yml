@@ -43,7 +43,7 @@ jobs:
           if git ls-remote --exit-code --heads "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" bot-state; then
             git clone --depth 1 --branch bot-state "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" state
           else
-            mkdir state && cd state && git init -b bot-state && git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}"
+            mkdir state && (cd state && git init -q -b bot-state && git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}")
           fi
           cp code/cloud/gitignore state/.gitignore
           cp code/cloud/fleet.json state/fleet.json
