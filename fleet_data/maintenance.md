@@ -1,8 +1,4 @@
-# Medic report, Wed Oct 28 2026 01:07 ET
-
-## Since the last check
-- New: Bot 2: rotation.log doesn't exist in ., so bot 2 has never run here.
-- New: Bot 3: crypto.log doesn't exist in ., so bot 3 has never run here.
+# Medic report, Wed Oct 28 2026 01:20 ET
 
 ## Bot 2: ETF rotation: NEEDS ACTION
 - **act** (schedule) rotation.log doesn't exist in ., so bot 2 has never run here. Fix: Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.
