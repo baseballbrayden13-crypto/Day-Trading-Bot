@@ -1,6 +1,56 @@
 {
- "realized": "-0.2180",
+ "realized": "1.1600",
  "open": [
+  {
+   "event": "KXHIGHTSAN-26OCT28",
+   "series": "KXHIGHTSAN",
+   "title": "Highest temperature in San Diego on Oct 28, 2026?",
+   "sets": 1,
+   "outlay": "0.9500",
+   "locked_profit": "0.0500",
+   "opened": "2026-10-28T21:54:58.527434+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXHIGHTSAN-26OCT28-B73.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0800"
+    },
+    {
+     "ticker": "KXHIGHTSAN-26OCT28-B75.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.8500"
+    }
+   ]
+  },
+  {
+   "event": "KXHIGHTSAN-26OCT28",
+   "series": "KXHIGHTSAN",
+   "title": "Highest temperature in San Diego on Oct 28, 2026?",
+   "sets": 2,
+   "outlay": "1.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-10-28T21:59:44.015810+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXHIGHTSAN-26OCT28-B73.5",
+     "side": "no",
+     "count": 2,
+     "limit": "0.0800"
+    },
+    {
+     "ticker": "KXHIGHTSAN-26OCT28-B75.5",
+     "side": "no",
+     "count": 2,
+     "limit": "0.8500"
+    }
+   ]
+  }
+ ],
+ "closed": [
   {
    "event": "KXKNVBCUPADVANCE-26OCT28SPAFOR (stray)",
    "series": "KXKNVBCUPADVANCE",
@@ -16,7 +66,10 @@
      "count": 2,
      "limit": "0.3800"
     }
-   ]
+   ],
+   "paid": "2",
+   "pnl": "1.2280",
+   "closed": "2026-10-28T21:34:11.983816+00:00"
   },
   {
    "event": "KXKNVBCUPADVANCE-26OCT28SPAFOR",
@@ -40,46 +93,52 @@
      "count": 2,
      "limit": "0.6700"
     }
-   ]
+   ],
+   "paid": "2",
+   "pnl": "0.1500",
+   "closed": "2026-10-28T21:34:12.116270+00:00"
   }
  ],
- "closed": [],
  "quotes": [
   {
-   "event": "KXITFDOUBLES-26OCT28ASYBESOMASHI",
-   "series": "KXITFDOUBLES",
-   "title": "Asylkozhaev / Bessonov vs Omarkhanov / Shin",
-   "ticker": "KXITFDOUBLES-26OCT28ASYBESOMASHI-ASYBES",
-   "order_id": "paper-15-1793222062",
-   "price": "0.05",
-   "sets": 5,
+   "event": "KXTOPSONG-26NOV07",
+   "series": "KXTOPSONG",
+   "title": "#1 on the Billboard Hot 100 chart for the Week of Nov 7, 2026?",
+   "ticker": "KXTOPSONG-26NOV07-THE",
+   "order_id": "paper-18-1793223272",
+   "price": "0.3700",
+   "sets": 3,
    "done": 0,
-   "reserve": "4.8900",
+   "reserve": "4.3700",
    "multiplier": "1",
-   "placed": 1793222062.4545307,
+   "placed": 1793223272.6067548,
    "hedge": [
     {
-     "ticker": "KXITFDOUBLES-26OCT28ASYBESOMASHI-OMASHI",
-     "limit": "0.9200"
+     "ticker": "KXTOPSONG-26NOV07-CHO",
+     "limit": "0.0900"
+    },
+    {
+     "ticker": "KXTOPSONG-26NOV07-HOU",
+     "limit": "0.9800"
     }
    ]
   },
   {
-   "event": "KXUFCFIGHT-26OCT31BEKPET",
-   "series": "KXUFCFIGHT",
-   "title": "Fight Night: Azamat Bekoev vs Andre Petroski",
-   "ticker": "KXUFCFIGHT-26OCT31BEKPET-BEK",
-   "order_id": "paper-17-1793222968",
-   "price": "0.3900",
+   "event": "KXHIGHTSAN-26OCT28",
+   "series": "KXHIGHTSAN",
+   "title": "Highest temperature in San Diego on Oct 28, 2026?",
+   "ticker": "KXHIGHTSAN-26OCT28-B73.5",
+   "order_id": "paper-22-1793224482",
+   "price": "0.0800",
    "sets": 5,
-   "done": 0,
-   "reserve": "4.8700",
+   "done": 3,
+   "reserve": "4.7100",
    "multiplier": "1",
-   "placed": 1793222968.572735,
+   "placed": 1793224482.4771783,
    "hedge": [
     {
-     "ticker": "KXUFCFIGHT-26OCT31BEKPET-PET",
-     "limit": "0.5600"
+     "ticker": "KXHIGHTSAN-26OCT28-B75.5",
+     "limit": "0.8500"
     }
    ]
   }
