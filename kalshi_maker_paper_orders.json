@@ -132,10 +132,24 @@
   "count": 20,
   "ahead": 10813,
   "placed": 1793183207.7611253,
-  "checked": 1793184200.2395706,
+  "checked": 1793185007,
   "expires": 1793185007,
   "through": 0,
   "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-11-1793185322": {
+  "id": "paper-11-1793185322",
+  "ticker": "KXSSHIELDMATCH-26OCT272000WEARED-WEA",
+  "price": "0.0400",
+  "count": 20,
+  "ahead": 350,
+  "placed": 1793185322.0616562,
+  "checked": 1793186003.4231846,
+  "expires": 1793187121,
+  "through": 0,
+  "at_price": 10,
   "filled": 0,
   "status": "resting"
  }
