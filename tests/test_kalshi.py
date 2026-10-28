@@ -349,3 +349,17 @@ def test_watchdog_exits_a_hung_process(tmp_path):
     """)
     r = subprocess.run([sys.executable, "-c", code], capture_output=True, timeout=25, cwd=__import__("pathlib").Path(__file__).resolve().parent.parent)
     assert r.returncode == 3
+
+
+def test_price_log_can_be_switched_off(tmp_path, monkeypatch):
+    from datetime import datetime, timezone
+
+    from bot import kalshi_live as kl
+
+    monkeypatch.setattr(kl, "DATA", tmp_path)
+    monkeypatch.setenv("KALSHI_PRICE_LOG", "off")
+    kl.log_prices([{"series_ticker": "S", "event_ticker": "E", "markets": [{"ticker": "T"}]}], datetime.now(timezone.utc))
+    assert not (tmp_path / "prices").exists()
+    monkeypatch.setenv("KALSHI_PRICE_LOG", "on")
+    kl.log_prices([{"series_ticker": "S", "event_ticker": "E", "markets": [{"ticker": "T"}]}], datetime.now(timezone.utc))
+    assert any((tmp_path / "prices").iterdir())

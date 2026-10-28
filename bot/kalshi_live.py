@@ -268,7 +268,10 @@ def sweep(api: Kalshi, cfg: dict, budget: Decimal) -> tuple[list[dict], list[Bas
 
 
 def log_prices(events: list[dict], when: datetime) -> None:
-    """Top of book for every open market, one gzip file a day, to test expected-profit ideas later."""
+    """Top of book for every open market, one gzip file a day, to test expected-profit ideas later.
+    KALSHI_PRICE_LOG=off skips it (the GitHub copies do, to keep the state branch small)."""
+    if os.getenv("KALSHI_PRICE_LOG", "on").strip().lower() == "off":
+        return
     path = DATA / "prices" / f"{when:%Y-%m-%d}.csv.gz"
     path.parent.mkdir(parents=True, exist_ok=True)
     new = not path.exists()

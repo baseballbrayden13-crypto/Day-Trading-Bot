@@ -105,7 +105,7 @@ def test_cloud_host_checks_only_cloud_bots(tmp_path, monkeypatch):
     cfg = tmp_path / "fleet.json"
     cfg.write_text((__import__("pathlib").Path(__file__).parents[1] / "cloud" / "fleet.json").read_text())
     bots = load(cfg)
-    assert [b.tag for b in bots] == ["2", "3"] and all(b.runs_on == "cloud" for b in bots)
+    assert [b.tag for b in bots] == ["2", "3", "4", "4c"] and all(b.runs_on == "cloud" for b in bots)
     monkeypatch.setenv("FLEET_HOST", "pc")
     s = {"taken": NOW.isoformat(), "errors": [], "bots": {"2": {"account": reading()["account"], "positions": [], "errors": [],
                                                              "log": {"exists": False}}}}
