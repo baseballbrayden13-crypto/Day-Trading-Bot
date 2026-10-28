@@ -4,21 +4,21 @@
  "closed": [],
  "quotes": [
   {
-   "event": "KXNFLGAME-26NOV08LVSF",
-   "series": "KXNFLGAME",
-   "title": "Las Vegas vs San Francisco",
-   "ticker": "KXNFLGAME-26NOV08LVSF-LV",
-   "order_id": "paper-5-1793174426",
-   "price": "0.80",
+   "event": "KXBBLGAME-26OCT301500RASHAG",
+   "series": "KXBBLGAME",
+   "title": "Rasta Vechta vs Phoenix Hagen",
+   "ticker": "KXBBLGAME-26OCT301500RASHAG-RAS",
+   "order_id": "paper-6-1793176551",
+   "price": "0.70",
    "sets": 20,
    "done": 0,
-   "reserve": "19.8700",
+   "reserve": "19.7600",
    "multiplier": "1",
-   "placed": 1793174426.4786367,
+   "placed": 1793176551.6620307,
    "hedge": [
     {
-     "ticker": "KXNFLGAME-26NOV08LVSF-SF",
-     "limit": "0.1800"
+     "ticker": "KXBBLGAME-26OCT301500RASHAG-HAG",
+     "limit": "0.2700"
     }
    ]
   }
