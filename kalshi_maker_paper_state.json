@@ -1,24 +1,24 @@
 {
- "realized": "0",
+ "realized": "-1.19",
  "open": [],
  "closed": [],
  "quotes": [
   {
-   "event": "KXCBDECISIONCANADA-26OCT",
-   "series": "KXCBDECISIONCANADA",
-   "title": "Bank of Canada decision in Oct 2026?",
-   "ticker": "KXCBDECISIONCANADA-26OCT-H25",
-   "order_id": "paper-12-1793187438",
-   "price": "0.16",
-   "sets": 20,
+   "event": "KXMLBWSOUTCOME-26",
+   "series": "KXMLBWSOUTCOME",
+   "title": "Pro Baseball Championship Outcome",
+   "ticker": "KXMLBWSOUTCOME-26-MILTB",
+   "order_id": "paper-13-1793188345",
+   "price": "0.08",
+   "sets": 19,
    "done": 0,
-   "reserve": "19.8600",
+   "reserve": "18.7700",
    "multiplier": "1",
-   "placed": 1793187438.9117,
+   "placed": 1793188345.963357,
    "hedge": [
     {
-     "ticker": "KXCBDECISIONCANADA-26OCT-H0",
-     "limit": "0.8200"
+     "ticker": "KXMLBWSOUTCOME-26-TBMIL",
+     "limit": "0.9000"
     }
    ]
   }
