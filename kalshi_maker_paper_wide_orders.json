@@ -244,12 +244,12 @@
   "count": 3,
   "ahead": 0,
   "placed": 1793223272.6059592,
-  "checked": 1793224889.0210207,
+  "checked": 1793225072,
   "expires": 1793225072,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-19-1793223875": {
   "id": "paper-19-1793223875",
@@ -300,11 +300,39 @@
   "count": 5,
   "ahead": 0,
   "placed": 1793224482.4763353,
-  "checked": 1793224889.1490273,
+  "checked": 1793224915.4447167,
   "expires": 1793226282,
   "through": 1,
-  "at_price": 2,
-  "filled": 3,
+  "at_price": 4,
+  "filled": 5,
+  "status": "executed"
+ },
+ "paper-23-1793225386": {
+  "id": "paper-23-1793225386",
+  "ticker": "KXTOPSONG-26NOV07-THE",
+  "price": "0.2800",
+  "count": 3,
+  "ahead": 0,
+  "placed": 1793225386.6869206,
+  "checked": 1793226691.6942644,
+  "expires": 1793227186,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-24-1793226602": {
+  "id": "paper-24-1793226602",
+  "ticker": "KXXRP-26OCT2819-B1.3899500",
+  "price": "0.3300",
+  "count": 3,
+  "ahead": 0,
+  "placed": 1793226602.6678932,
+  "checked": 1793226691.8112135,
+  "expires": 1793228402,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
   "status": "resting"
  }
 }

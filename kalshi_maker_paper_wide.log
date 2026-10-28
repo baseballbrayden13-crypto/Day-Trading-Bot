@@ -214,3 +214,21 @@
 2026-10-28 18:01:18,696 INFO PAPER KXHIGHTSAN-26OCT28-B73.5 NO bid at $0.0800: 3/5 filled by real trades
 2026-10-28 18:01:23,956 INFO PAPER KXHIGHTSAN-26OCT28-B73.5 NO bid at $0.0800: 3/5 filled by real trades
 2026-10-28 18:01:29,215 INFO PAPER KXHIGHTSAN-26OCT28-B73.5 NO bid at $0.0800: 3/5 filled by real trades
+2026-10-28 18:01:34,474 INFO PAPER KXHIGHTSAN-26OCT28-B73.5 NO bid at $0.0800: 3/5 filled by real trades
+2026-10-28 18:01:39,732 INFO PAPER KXHIGHTSAN-26OCT28-B73.5 NO bid at $0.0800: 3/5 filled by real trades
+2026-10-28 18:01:44,993 INFO PAPER KXHIGHTSAN-26OCT28-B73.5 NO bid at $0.0800: 3/5 filled by real trades
+2026-10-28 18:01:50,251 INFO PAPER KXHIGHTSAN-26OCT28-B73.5 NO bid at $0.0800: 3/5 filled by real trades
+2026-10-28 18:01:55,509 INFO PAPER KXHIGHTSAN-26OCT28-B73.5 NO bid at $0.0800: 5/5 filled by real trades
+2026-10-28 18:01:55,572 INFO PAPER buy 2 NO KXHIGHTSAN-26OCT28-B75.5 at up to $0.8500: not on the book
+2026-10-28 18:01:55,572 WARNING Quote KXHIGHTSAN-26OCT28: hedge missed on KXHIGHTSAN-26OCT28-B75.5. Selling back 2 contracts on 1 legs.
+2026-10-28 18:01:55,636 INFO PAPER sell 2 YES KXHIGHTSAN-26OCT28-B73.5 at up to $0.9700: filled 2
+2026-10-28 18:04:46,672 INFO Swept 15477 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 18:09:46,687 INFO PAPER rest NO bid KXTOPSONG-26NOV07-THE at $0.2800 x3 (0 already bid at that price)
+2026-10-28 18:09:46,687 INFO Resting NO bid on KXTOPSONG-26NOV07-THE at $0.2800 x3 (KXTOPSONG-26NOV07): locks in $1.90 if it fills; hedge NO CHO@0.0900, HOU@0.9800
+2026-10-28 18:09:46,689 INFO Swept 15490 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 18:14:50,065 INFO Swept 15501 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 18:19:55,266 INFO Swept 15513 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 18:24:58,601 INFO Swept 15510 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 18:30:02,668 INFO PAPER rest NO bid KXXRP-26OCT2819-B1.3899500 at $0.3300 x3 (0 already bid at that price)
+2026-10-28 18:30:02,668 INFO Resting NO bid on KXXRP-26OCT2819-B1.3899500 at $0.3300 x3 (KXXRP-26OCT2819): locks in $1.84 if it fills; hedge NO B1.3099500@0.9600, B1.3299500@0.0800
+2026-10-28 18:30:02,670 INFO Swept 15509 events: 0 taker trades, 1 new quotes, 2 resting

@@ -1,5 +1,5 @@
 {
- "realized": "1.1600",
+ "realized": "1.0400",
  "open": [
   {
    "event": "KXHIGHTSAN-26OCT28",
@@ -105,13 +105,13 @@
    "series": "KXTOPSONG",
    "title": "#1 on the Billboard Hot 100 chart for the Week of Nov 7, 2026?",
    "ticker": "KXTOPSONG-26NOV07-THE",
-   "order_id": "paper-18-1793223272",
-   "price": "0.3700",
+   "order_id": "paper-23-1793225386",
+   "price": "0.2800",
    "sets": 3,
    "done": 0,
-   "reserve": "4.3700",
+   "reserve": "4.1000",
    "multiplier": "1",
-   "placed": 1793223272.6067548,
+   "placed": 1793225386.6877358,
    "hedge": [
     {
      "ticker": "KXTOPSONG-26NOV07-CHO",
@@ -124,21 +124,25 @@
    ]
   },
   {
-   "event": "KXHIGHTSAN-26OCT28",
-   "series": "KXHIGHTSAN",
-   "title": "Highest temperature in San Diego on Oct 28, 2026?",
-   "ticker": "KXHIGHTSAN-26OCT28-B73.5",
-   "order_id": "paper-22-1793224482",
-   "price": "0.0800",
-   "sets": 5,
-   "done": 3,
-   "reserve": "4.7100",
+   "event": "KXXRP-26OCT2819",
+   "series": "KXXRP",
+   "title": " XRP price range at Oct 28, 2026 at 7pm EDT? ",
+   "ticker": "KXXRP-26OCT2819-B1.3899500",
+   "order_id": "paper-24-1793226602",
+   "price": "0.3300",
+   "sets": 3,
+   "done": 0,
+   "reserve": "4.1600",
    "multiplier": "1",
-   "placed": 1793224482.4771783,
+   "placed": 1793226602.6688118,
    "hedge": [
     {
-     "ticker": "KXHIGHTSAN-26OCT28-B75.5",
-     "limit": "0.8500"
+     "ticker": "KXXRP-26OCT2819-B1.3099500",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXXRP-26OCT2819-B1.3299500",
+     "limit": "0.0800"
     }
    ]
   }
