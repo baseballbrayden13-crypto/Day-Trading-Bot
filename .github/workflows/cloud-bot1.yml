@@ -91,14 +91,14 @@ jobs:
         if: steps.go.outputs.run == 'yes'
         run: pip install -r code/requirements.txt
 
-      - name: Bot 1 + Guard (state saved every 30 minutes)
+      - name: Bot 1 + Guard (state and site chart data saved every 30 minutes)
         if: steps.go.outputs.run == 'yes'
         working-directory: state
         run: |
           test -s .env || { echo "No BOT1_ENV secret yet: run 'Copy keys to GitHub.bat' on the PC."; exit 1; }
           python -m bot.guard --loop 10 --until "${{ steps.part.outputs.until }}" > guard.out 2>&1 &
           guard=$!
-          (while sleep 1800; do bash ../code/cloud/save_state.sh "bot1 checkpoint" || true; done) &
+          (while sleep 1800; do python -m bot.site_data > site_data.out 2>&1 || true; bash ../code/cloud/save_state.sh "bot1 checkpoint" || true; done) &
           saver=$!
           python -m bot.live --start-window "${{ steps.part.outputs.window }}" --until "${{ steps.part.outputs.until }}"
           kill $saver 2>/dev/null || true
@@ -109,5 +109,6 @@ jobs:
         if: always() && steps.go.outputs.run == 'yes'
         working-directory: state
         run: |
+          python -m bot.site_data > site_data.out 2>&1 || true
           rm -f .env .env.rotation .env.crypto
           bash ../code/cloud/save_state.sh "bot1 ${{ steps.part.outputs.part }}"
