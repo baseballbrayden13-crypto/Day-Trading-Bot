@@ -113,7 +113,7 @@ def test_cloud_host_checks_only_cloud_bots(tmp_path, monkeypatch):
     assert not [x for x in f if x.check == "schedule"]
     monkeypatch.setenv("FLEET_HOST", "cloud")
     f = mt.run_checks(s, bots[:1], [], [], NOW)
-    assert [x.level for x in f if x.check == "schedule"] == ["act"]
+    assert [x.level for x in f if x.check == "schedule"] == ["watch"]  # no saved cloud log yet: watch, escalates after 3 days
 
 
 def test_network_errors_are_not_key_errors():
@@ -130,3 +130,14 @@ def test_quiet_hours(monkeypatch):
     assert not alerts.quiet_hours(datetime(2026, 10, 28, 10, 0, tzinfo=ET))
     monkeypatch.setattr(alerts, "_env", lambda name: "off" if name == "ALERTS_QUIET" else "")
     assert not alerts.quiet_hours(datetime(2026, 10, 28, 0, 50, tzinfo=ET))
+
+
+def test_cloud_bot_without_a_saved_log_is_a_watch_not_an_act(monkeypatch):
+    monkeypatch.setenv("FLEET_HOST", "cloud")
+    from dataclasses import replace
+
+    bot = replace(FLEET[1], runs_on="cloud")
+    f = mt.check_schedule(bot, {"log": {"exists": False}}, NOW, True)
+    assert [x.level for x in f] == ["watch"] and "cloud run" in f[0].message
+    pc = replace(FLEET[1], runs_on="pc")
+    assert [x.level for x in mt.check_schedule(pc, {"log": {"exists": False}}, NOW, True)] == ["act"]
