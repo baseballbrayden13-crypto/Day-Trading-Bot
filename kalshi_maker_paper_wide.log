@@ -1,0 +1,20 @@
+2026-10-28 15:31:15,828 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-10-28 15:33:00,165 INFO PAPER BET daily_safest: 1 NO KXRAIN-26OCT28-HOU at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-10-28 15:33:00,165 INFO Swept 15527 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 15:38:02,097 INFO Swept 15523 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 15:43:03,201 INFO PAPER rest NO bid KXBOXING-26OCT31PICASSMARTIN-MARTIN at $0.7500 x5 (34 already bid at that price)
+2026-10-28 15:43:03,201 INFO Resting NO bid on KXBOXING-26OCT31PICASSMARTIN-MARTIN at $0.75 x5 (KXBOXING-26OCT31PICASSMARTIN): locks in $0.12 if it fills; hedge NO PICASS@0.2100
+2026-10-28 15:43:03,263 INFO PAPER rest NO bid KXKNVBCUPADVANCE-26OCT28SPAFOR-SPA at $0.3800 x5 (0 already bid at that price)
+2026-10-28 15:43:03,263 INFO Resting NO bid on KXKNVBCUPADVANCE-26OCT28SPAFOR-SPA at $0.3800 x5 (KXKNVBCUPADVANCE-26OCT28SPAFOR): locks in $0.38 if it fills; hedge NO FOR@0.5200
+2026-10-28 15:43:03,264 INFO Swept 15517 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-28 15:43:19,198 INFO Quote KXBOXING-26OCT31PICASSMARTIN cancelled (0/5 filled)
+2026-10-28 15:43:24,386 INFO PAPER KXKNVBCUPADVANCE-26OCT28SPAFOR-SPA NO bid at $0.3800: 5/5 filled by real trades
+2026-10-28 15:43:24,447 INFO PAPER buy 5 NO KXKNVBCUPADVANCE-26OCT28SPAFOR-FOR at up to $0.5300: not on the book
+2026-10-28 15:43:24,447 WARNING Quote KXKNVBCUPADVANCE-26OCT28SPAFOR: hedge missed on KXKNVBCUPADVANCE-26OCT28SPAFOR-FOR. Selling back 5 contracts on 1 legs.
+2026-10-28 15:43:24,508 INFO PAPER sell 5 YES KXKNVBCUPADVANCE-26OCT28SPAFOR-SPA at up to $0.6700: filled 3
+2026-10-28 15:43:24,508 ERROR STRAY POSITION: 2 NO contracts of KXKNVBCUPADVANCE-26OCT28SPAFOR-SPA still held. Check it on Kalshi.
+2026-10-28 15:48:05,687 INFO Swept 15521 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 15:53:06,230 INFO PAPER rest NO bid KXCHINAAI-26NOV09-DEEP at $0.6800 x1 (0 already bid at that price)
+2026-10-28 15:53:06,230 INFO Resting NO bid on KXCHINAAI-26NOV09-DEEP at $0.6800 x1 (KXCHINAAI-26NOV09): locks in $0.15 if it fills; hedge NO MOON@0.9100, ALIB@0.8800, XIAO@0.3400, ZAI@0.9800
+2026-10-28 15:53:06,231 INFO Swept 15511 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 15:58:05,126 INFO Swept 15522 events: 0 taker trades, 0 new quotes, 1 resting

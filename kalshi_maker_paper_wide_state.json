@@ -1,0 +1,56 @@
+{
+ "realized": "-0.2180",
+ "open": [
+  {
+   "event": "KXKNVBCUPADVANCE-26OCT28SPAFOR (stray)",
+   "series": "KXKNVBCUPADVANCE",
+   "title": "Sparta vs Sittard",
+   "sets": 0,
+   "outlay": "0.7720",
+   "locked_profit": "0",
+   "opened": "2026-10-28T19:43:24.508489+00:00",
+   "legs": [
+    {
+     "ticker": "KXKNVBCUPADVANCE-26OCT28SPAFOR-SPA",
+     "side": "no",
+     "count": 2,
+     "limit": "0.3800"
+    }
+   ]
+  }
+ ],
+ "closed": [],
+ "quotes": [
+  {
+   "event": "KXCHINAAI-26NOV09",
+   "series": "KXCHINAAI",
+   "title": "Top Chinese AI Company week of November 2nd",
+   "ticker": "KXCHINAAI-26NOV09-DEEP",
+   "order_id": "paper-3-1793217186",
+   "price": "0.6800",
+   "sets": 1,
+   "done": 0,
+   "reserve": "3.8500",
+   "multiplier": "1",
+   "placed": 1793217186.230452,
+   "hedge": [
+    {
+     "ticker": "KXCHINAAI-26NOV09-MOON",
+     "limit": "0.9100"
+    },
+    {
+     "ticker": "KXCHINAAI-26NOV09-ALIB",
+     "limit": "0.8800"
+    },
+    {
+     "ticker": "KXCHINAAI-26NOV09-XIAO",
+     "limit": "0.3400"
+    },
+    {
+     "ticker": "KXCHINAAI-26NOV09-ZAI",
+     "limit": "0.9800"
+    }
+   ]
+  }
+ ]
+}
