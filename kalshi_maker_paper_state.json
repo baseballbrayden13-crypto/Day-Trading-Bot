@@ -4,21 +4,21 @@
  "closed": [],
  "quotes": [
   {
-   "event": "KXBBLGAME-26OCT301330SKYSCJ",
-   "series": "KXBBLGAME",
-   "title": "Fraport Skyliners vs Medipolis SC Jena",
-   "ticker": "KXBBLGAME-26OCT301330SKYSCJ-SKY",
-   "order_id": "paper-9-1793181092",
-   "price": "0.11",
+   "event": "KXMLBWSOUTCOME-26",
+   "series": "KXMLBWSOUTCOME",
+   "title": "Pro Baseball Championship Outcome",
+   "ticker": "KXMLBWSOUTCOME-26-MILTB",
+   "order_id": "paper-10-1793183207",
+   "price": "0.08",
    "sets": 20,
    "done": 0,
-   "reserve": "19.8000",
+   "reserve": "19.7600",
    "multiplier": "1",
-   "placed": 1793181092.5185764,
+   "placed": 1793183207.7617168,
    "hedge": [
     {
-     "ticker": "KXBBLGAME-26OCT301330SKYSCJ-SCJ",
-     "limit": "0.8700"
+     "ticker": "KXMLBWSOUTCOME-26-TBMIL",
+     "limit": "0.9000"
     }
    ]
   }
