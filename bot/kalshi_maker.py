@@ -421,10 +421,12 @@ def main() -> None:
     ap.add_argument("--paper", action="store_true", help="real prices, pretend quotes filled only by real trades; no keys, no orders")
     args = ap.parse_args()
     mode = "maker-paper" if args.paper else "maker"
+    tag = os.getenv("KALSHI_VARIANT", "").strip()  # a second paper copy with its own files, for side-by-side tests
+    sfx = f"_{tag}" if tag and args.paper else ""
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
                         handlers=[logging.StreamHandler(sys.stdout),
-                                  logging.FileHandler("kalshi_maker_paper.log" if args.paper else "kalshi.log")])
-    kl.single_instance(f"kalshi-{mode}")  # never two makers on one state file
+                                  logging.FileHandler(f"kalshi_maker_paper{sfx}.log" if args.paper else "kalshi.log")])
+    kl.single_instance(f"kalshi-{mode}{sfx}")  # never two makers on one state file
     kl.start_watchdog(20)  # a pass is at most a sweep (~2-6 min) plus a 5 s poll; 20 idle minutes means a hung network call
     cfg = kl.load_settings()
     cfg["max_quotes"] = int(os.getenv("KALSHI_MAX_QUOTES", "3"))
@@ -434,8 +436,8 @@ def main() -> None:
     cfg["max_per_quote"] = D(os.getenv("KALSHI_MAX_PER_QUOTE", "0"))
     kl.MODE = mode
     if args.paper:
-        kl.STATE, kl.DATA = Path("kalshi_maker_paper_state.json"), Path("kalshi_data_maker_paper")
-        api = PaperMakerApi(Path("kalshi_maker_paper_orders.json"))
+        kl.STATE, kl.DATA = Path(f"kalshi_maker_paper{sfx}_state.json"), Path(f"kalshi_data_maker_paper{sfx}")
+        api = PaperMakerApi(Path(f"kalshi_maker_paper{sfx}_orders.json"))
         log.info("Maker PAPER mode on REAL Kalshi prices, pretend budget $%s, min profit $%s, up to %d quotes",
                  cfg["budget"], cfg["min_profit"], cfg["max_quotes"])
     else:
