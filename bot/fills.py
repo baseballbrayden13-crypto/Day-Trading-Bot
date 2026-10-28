@@ -94,13 +94,15 @@ def main() -> None:
     if not SIGNALS.exists():
         print(f"No {SIGNALS} yet. bot.live writes it when it places its first order.")
         return
+    from alpaca.trading.requests import GetOrderByIdRequest
+
     from .broker import Broker
 
     broker = Broker(Settings())
     since = datetime.now(ET) - timedelta(days=args.days)
     with SIGNALS.open(encoding="utf-8") as f:
         rows = [r for r in csv.DictReader(f) if datetime.fromisoformat(r["time"]) >= since]
-    result = check(rows, lambda oid: broker.client.get_order_by_id(oid, nested=True))
+    result = check(rows, lambda oid: broker.client.get_order_by_id(oid, GetOrderByIdRequest(nested=True)))
     for r in result:
         print(f"{r['time'][:16]}  {r['symbol']:<5} wanted {r['wanted']:>9.2f}  got {r['entry_fill']:>9.2f}  "
               f"{r['entry_bps']:+6.1f} bps" + (f"  | {r['exit']} {r['exit_bps']:+.1f} bps" if r["exit"] else ""))
