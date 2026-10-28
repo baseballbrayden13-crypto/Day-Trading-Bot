@@ -332,3 +332,20 @@ def test_calibration_buckets_and_split():
     assert abs(kc.t_stat([D("0.48"), D("-0.52")] * 50, [D("0.5")] * 100)) < 1
     # 0 of 85 longshots won at 6.7c: NO profit 0.067 less fee each. Mildly significant (t~2.3), nowhere near t=20
     assert 2 < kc.t_stat([D("0.063")] * 85, [D("0.933")] * 85) < 3
+
+def test_watchdog_exits_a_hung_process(tmp_path):
+    """A process that never calls heartbeat() again is killed with exit code 3 (the .bat then restarts it)."""
+    import subprocess
+    import sys
+    import textwrap
+
+    code = textwrap.dedent("""
+        import time
+        from bot import kalshi_live as kl
+        real_sleep = time.sleep
+        kl.time.sleep = lambda s: real_sleep(0.05)   # the watchdog's 60 s tick, sped up
+        kl.start_watchdog(minutes=0.0005)
+        real_sleep(30)
+    """)
+    r = subprocess.run([sys.executable, "-c", code], capture_output=True, timeout=25, cwd=__import__("pathlib").Path(__file__).resolve().parent.parent)
+    assert r.returncode == 3
