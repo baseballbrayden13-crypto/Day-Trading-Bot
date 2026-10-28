@@ -165,7 +165,7 @@ bot 3's 8:15pm run with `Run fleet maintenance.bat` (the command to register it 
 Medic also replays bot 1's day through the backtest (did it trade when it should have?) and lists
 upcoming earnings for the fleet's stocks plus any dates in `fleet_events.json`
 (`[{"date": "2026-11-10", "what": "CPI"}]`). The helpers' alerts are PC popups (`bot.alerts`);
-set `ALERTS_PHONE=true` in `.env` to also get "act" alerts on the phone. Set all the tasks up with
+set `ALERTS_PHONE=true` in `.env` to also get "act" alerts on the phone. No popups 11pm-7am ET (`ALERTS_QUIET=23-7`, or `off`); those wait for the next summary. Set all the tasks up with
 `Install fleet helpers.bat` (they catch up after the PC was asleep); undo with
 `powershell -File install_helpers.ps1 -Remove`.
 
@@ -175,7 +175,7 @@ set `ALERTS_PHONE=true` in `.env` to also get "act" alerts on the phone. Set all
 Scout + Medic for them on GitHub, so they run with the PC off. Their logs, state and Medic's results
 are saved on the `bot-state` branch (public, like the repo; keys never are). To turn it on:
 
-1. `python set_cloud_keys.py` copies bots 2 and 3's keys from `.env.rotation` / `.env.crypto` into the
+1. `Copy keys to GitHub.bat` (or `python set_cloud_keys.py`) copies bots 2 and 3's keys from `.env.rotation` / `.env.crypto` into the
    repository's secrets (and bot 1's account number, and bot 2's month state) without showing them.
 2. Turn off the PC's tasks for bots 2 and 3, and put `{"2": {"runs_on": "cloud"}, "3": {"runs_on": "cloud"}}`
    in the PC's `fleet.json`.

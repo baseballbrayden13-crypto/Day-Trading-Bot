@@ -120,3 +120,13 @@ def test_network_errors_are_not_key_errors():
     s = {"errors": ["account: ProxyError: Tunnel connection failed: 403 Forbidden"]}
     f = mt.check_connection(FLEET[1], s)
     assert [x.check for x in f] == ["data"]
+
+
+def test_quiet_hours(monkeypatch):
+    from bot import alerts
+
+    monkeypatch.setattr(alerts, "_env", lambda name: "")
+    assert alerts.quiet_hours(datetime(2026, 10, 28, 0, 50, tzinfo=ET))
+    assert not alerts.quiet_hours(datetime(2026, 10, 28, 10, 0, tzinfo=ET))
+    monkeypatch.setattr(alerts, "_env", lambda name: "off" if name == "ALERTS_QUIET" else "")
+    assert not alerts.quiet_hours(datetime(2026, 10, 28, 0, 50, tzinfo=ET))

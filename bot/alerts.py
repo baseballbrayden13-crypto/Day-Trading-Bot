@@ -31,6 +31,18 @@ def popup(title: str, text: str, warn: bool = False) -> bool:
     return True
 
 
+def quiet_hours(now: datetime | None = None) -> bool:
+    """No popups from 11pm to 7am ET (ALERTS_QUIET=23-7 in .env to change, "off" for none)."""
+    from zoneinfo import ZoneInfo
+
+    span = _env("ALERTS_QUIET") or "23-7"
+    if span.lower() == "off":
+        return False
+    start, end = (int(x) for x in span.split("-"))
+    h = (now or datetime.now(timezone.utc)).astimezone(ZoneInfo("America/New_York")).hour
+    return (h >= start or h < end) if start > end else start <= h < end
+
+
 def notify(who: str, title: str, text: str, level: str = "info", log: Path = LOG) -> None:
     """level: info, watch or act. Every alert is logged; watch/act pop up on the PC."""
     log.parent.mkdir(exist_ok=True)
@@ -40,8 +52,8 @@ def notify(who: str, title: str, text: str, level: str = "info", log: Path = LOG
         if new:
             w.writerow(["time", "who", "level", "title", "text"])
         w.writerow([datetime.now(timezone.utc).isoformat(timespec="seconds"), who, level, title, text])
-    if level in ("watch", "act"):
-        popup(title, text, warn=level == "act")
+    if level in ("watch", "act") and not quiet_hours():
+        popup(title, text, warn=level == "act")  # at night it waits for the logon / morning summary instead
     if _env("ALERTS_PHONE").lower() in {"1", "true", "yes", "on"} and level == "act":
         from .notify import send
 

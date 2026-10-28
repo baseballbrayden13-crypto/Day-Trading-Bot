@@ -1,6 +1,7 @@
 """Popups on the PC.
 
     python -m bot.popup --summary        # Medic's latest grades (PC + cloud), and helper alerts since the last summary
+    python -m bot.popup --summary --print   # the same, printed instead of a window
     python -m bot.popup --title T --text X [--warn]   # one message box (bot.alerts uses this)
 
 The summary is meant for a "when I log on" task, so whenever the PC is on you see how every bot did,
@@ -77,6 +78,7 @@ def main() -> None:
     ap.add_argument("--title", default="Fleet helpers")
     ap.add_argument("--text", default="")
     ap.add_argument("--warn", action="store_true")
+    ap.add_argument("--print", action="store_true", help="print the summary instead of a window (and don't mark alerts seen)")
     args = ap.parse_args()
     if not args.summary:
         box(args.title, args.text, args.warn)
@@ -87,6 +89,9 @@ def main() -> None:
     alerts = [a for a in (_rows((OUT / "alerts.csv").read_text(encoding="utf-8")) if (OUT / "alerts.csv").exists() else [])
               if a["time"] > since and a["level"] in ("watch", "act")]
     text, bad = summary(merge(local, cloud_health(), load()), alerts)
+    if args.print:
+        print(text)
+        return
     OUT.mkdir(exist_ok=True)
     seen_file.write_text(datetime.now(timezone.utc).isoformat(timespec="seconds"))
     box("Medic: something needs a look" if bad else "Medic: all bots OK", text, bad)
