@@ -1,7 +1,14 @@
 checked,bot,label,level,check,message,fix
-2026-10-28T05:20:57+00:00,2,2,act,schedule,"rotation.log doesn't exist in ., so bot 2 has never run here.",Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.
-2026-10-28T05:20:57+00:00,2,2,info,return,"$5,003.32, +0.1% since the $5,000 start.",
-2026-10-28T05:20:57+00:00,2,2,info,vs hold,Since 2026-10-23: bot +0.1% vs just holding SPY +1.3%.,
-2026-10-28T05:20:57+00:00,3,3,act,schedule,"crypto.log doesn't exist in ., so bot 3 has never run here.",Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.
-2026-10-28T05:20:57+00:00,3,3,info,return,"$5,000.00, +0.0% since the $5,000 start.",
-2026-10-28T05:20:57+00:00,3,3,info,vs hold,Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -1.0%.,
+2026-10-28T14:36:16+00:00,0,fleet,info,events,Coming up: MSFT earnings Wed 10/28. Odd results around these days are normal.,
+2026-10-28T14:36:16+00:00,1,1,ok,replay,2026-10-28: bot 1 did what the backtest would have (0 entries).,
+2026-10-28T14:36:16+00:00,1,1,act,schedule,"trades.log doesn't exist in ., so bot 1 has never run here.",Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.
+2026-10-28T14:36:16+00:00,1,1,info,return,"$5,002.80, +0.1% since the $5,000 start.",
+2026-10-28T14:36:16+00:00,1,1,info,performance,1 closed trades so far; 30 are needed before the results say anything about the strategy.,
+2026-10-28T14:36:16+00:00,2,2,act,schedule,"rotation.log doesn't exist in ., so bot 2 has never run here.",Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.
+2026-10-28T14:36:16+00:00,2,2,info,return,"$5,018.30, +0.4% since the $5,000 start.",
+2026-10-28T14:36:16+00:00,2,2,info,vs hold,Since 2026-10-23: bot +0.4% vs just holding SPY +1.4%.,
+2026-10-28T14:36:16+00:00,3,3,act,schedule,"crypto.log doesn't exist in ., so bot 3 has never run here.",Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.
+2026-10-28T14:36:16+00:00,3,3,info,return,"$5,000.00, +0.0% since the $5,000 start.",
+2026-10-28T14:36:16+00:00,3,3,info,vs hold,Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -1.0%.,
+2026-10-28T14:36:16+00:00,4,4,info,performance,No Bot 4 trades yet. Expected: the 14-day backtest found 0 taker trades worth $0.10.,
+2026-10-28T14:36:16+00:00,6,4c,info,performance,No Bot 4c trades yet; 1 maker quotes resting.,

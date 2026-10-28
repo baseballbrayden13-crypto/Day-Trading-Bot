@@ -1,6 +1,138 @@
 {
- "taken": "2026-10-28T05:20:57+00:00",
+ "taken": "2026-10-28T14:36:16+00:00",
  "bots": {
+  "1": {
+   "name": "ORB day trader",
+   "label": "1",
+   "kind": "alpaca",
+   "errors": [],
+   "account": {
+    "account": "QIE2",
+    "equity": 5002.8,
+    "last_equity": 5002.8,
+    "cash": 5002.8,
+    "status": "ACTIVE",
+    "trading_blocked": false,
+    "account_blocked": false
+   },
+   "positions": [],
+   "orders": [
+    {
+     "time": "2026-10-27T14:35:09.052644+00:00",
+     "symbol": "AAPL",
+     "side": "buy",
+     "qty": 2.0,
+     "price": 345.585,
+     "type": "market",
+     "order_id": "74274ab2-dfee-499b-b43e-59e8f37a3007"
+    },
+    {
+     "time": "2026-10-27T19:55:14.544649+00:00",
+     "symbol": "AAPL",
+     "side": "sell",
+     "qty": 2.0,
+     "price": 347.0,
+     "type": "market",
+     "order_id": "cd3bf48c-d9de-407e-9967-4f47335977ac"
+    }
+   ],
+   "equity_history": [
+    {
+     "day": "2026-09-28",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-09-29",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-09-30",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-01",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-02",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-05",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-06",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-07",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-08",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-09",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-12",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-13",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-14",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-15",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-16",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-19",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-20",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-21",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-22",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-23",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-26",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-27",
+     "equity": 5002.8
+    }
+   ],
+   "log": {
+    "exists": false
+   },
+   "fills": {
+    "entries": 0
+   }
+  },
   "2": {
    "name": "ETF rotation",
    "label": "2",
@@ -8,9 +140,9 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 5003.32,
-    "last_equity": 0.0,
-    "cash": 300.58,
+    "equity": 5018.3,
+    "last_equity": 4997.94,
+    "cash": 300.57,
     "status": "ACTIVE",
     "trading_blocked": false,
     "account_blocked": false
@@ -20,22 +152,22 @@
      "symbol": "XLE",
      "qty": 23.0,
      "avg_entry": 69.180435,
-     "market_value": 1571.59,
-     "unrealized_pl": -19.560005
+     "market_value": 1572.28,
+     "unrealized_pl": -18.870005
     },
     {
      "symbol": "XLK",
      "qty": 8.0,
      "avg_entry": 187.56,
-     "market_value": 1523.84,
-     "unrealized_pl": 23.36
+     "market_value": 1521.04,
+     "unrealized_pl": 20.56
     },
     {
      "symbol": "XLV",
      "qty": 9.0,
      "avg_entry": 178.643333,
-     "market_value": 1607.31,
-     "unrealized_pl": -0.479997
+     "market_value": 1624.41,
+     "unrealized_pl": 16.620003
     }
    ],
    "orders": [
@@ -147,6 +279,14 @@
     {
      "day": "2026-10-23",
      "equity": 5000.0
+    },
+    {
+     "day": "2026-10-26",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-27",
+     "equity": 4997.94
     }
    ],
    "log": {
@@ -170,7 +310,7 @@
    "account": {
     "account": "KTS7",
     "equity": 5000.0,
-    "last_equity": 0.0,
+    "last_equity": 5000.0,
     "cash": 5000.0,
     "status": "ACTIVE",
     "trading_blocked": false,
@@ -258,10 +398,122 @@
     {
      "day": "2026-10-23",
      "equity": 5000.0
+    },
+    {
+     "day": "2026-10-26",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-27",
+     "equity": 5000.0
     }
    ],
    "log": {
     "exists": false
+   }
+  },
+  "4": {
+   "name": "Kalshi paper",
+   "label": "4",
+   "kind": "kalshi",
+   "start": 20.0,
+   "errors": [],
+   "paper": {
+    "summary": {
+     "updated": "2026-10-28T14:23:27+00:00",
+     "mode": "paper",
+     "env": "prod-prices",
+     "start_budget": "20",
+     "min_profit": "0.10",
+     "equity": "20.00",
+     "realized_profit": "0.00",
+     "bet_level": "20.00",
+     "open_trades": 0,
+     "open_locked_profit": "0.00",
+     "in_play": "0.00",
+     "stray_positions": 0,
+     "closed_trades": 0,
+     "trades_this_loop": 0,
+     "events_swept": 15441,
+     "found_this_loop": 0,
+     "top_series": [],
+     "problems": 0,
+     "last_problems": []
+    },
+    "realized": 0.0,
+    "open": 0,
+    "closed": 0,
+    "losing_trades": 0,
+    "stray": 0,
+    "quotes": 0,
+    "log": {
+     "exists": true,
+     "modified": "2026-10-28T10:24:46-04:00",
+     "last_line_time": "2026-10-28T10:24:46",
+     "errors": 0,
+     "errors_24h": 0,
+     "last_errors": [],
+     "tail": [
+      "2026-10-28 10:14:46,453 INFO Swept 15461 events (160789 markets): 0 locked-in baskets worth $0.10+, 0 traded. Top series: none yet",
+      "2026-10-28 10:18:27,904 INFO Paper trading on REAL Kalshi prices, pretend budget $20, min profit $0.10",
+      "2026-10-28 10:19:47,344 INFO Swept 15456 events (160801 markets): 0 locked-in baskets worth $0.10+, 0 traded. Top series: none yet",
+      "2026-10-28 10:23:27,789 INFO Paper trading on REAL Kalshi prices, pretend budget $20, min profit $0.10",
+      "2026-10-28 10:24:46,856 INFO Swept 15441 events (160759 markets): 0 locked-in baskets worth $0.10+, 0 traded. Top series: none yet"
+     ],
+     "live_warning": false
+    }
+   }
+  },
+  "6": {
+   "name": "Kalshi maker paper",
+   "label": "4c",
+   "kind": "kalshi",
+   "start": 20.0,
+   "errors": [],
+   "maker_paper": {
+    "summary": {
+     "updated": "2026-10-28T14:09:14+00:00",
+     "mode": "maker-paper",
+     "env": "prod-prices",
+     "start_budget": "20",
+     "min_profit": "0.10",
+     "equity": "18.81",
+     "realized_profit": "-1.19",
+     "bet_level": "18.81",
+     "open_trades": 0,
+     "open_locked_profit": "0.00",
+     "in_play": "0.00",
+     "stray_positions": 0,
+     "closed_trades": 0,
+     "trades_this_loop": 0,
+     "events_swept": 15469,
+     "found_this_loop": 0,
+     "top_series": [],
+     "problems": 0,
+     "last_problems": []
+    },
+    "realized": -1.19,
+    "open": 0,
+    "closed": 0,
+    "losing_trades": 0,
+    "stray": 0,
+    "quotes": 1,
+    "log": {
+     "exists": true,
+     "modified": "2026-10-28T09:41:02-04:00",
+     "last_line_time": "2026-10-28T09:41:02",
+     "errors": 0,
+     "errors_24h": 0,
+     "last_errors": [],
+     "tail": [
+      "2026-10-28 09:31:03,870 INFO PAPER rest NO bid KXMLBWSOUTCOME-26-MILTB at $0.0800 x19 (12044 already bid at that price)",
+      "2026-10-28 09:31:03,870 INFO Resting NO bid on KXMLBWSOUTCOME-26-MILTB at $0.08 x19 (KXMLBWSOUTCOME-26): locks in $0.23 if it fills; hedge NO TBMIL@0.9000",
+      "2026-10-28 09:31:03,871 INFO Swept 15408 events: 0 taker trades, 1 new quotes, 1 resting",
+      "2026-10-28 09:36:02,776 INFO Swept 15404 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-10-28 09:41:02,434 INFO Swept 15417 events: 0 taker trades, 0 new quotes, 1 resting"
+     ],
+     "live_warning": false
+    }
    }
   }
  },
@@ -269,162 +521,192 @@
  "tasks": [],
  "err_logs": [],
  "clock": {
-  "is_open": false,
-  "next_open": "2026-10-28T09:30:00-04:00",
+  "is_open": true,
+  "next_open": "2026-10-29T09:30:00-04:00",
   "next_close": "2026-10-28T16:00:00-04:00",
   "trading_day": true
  },
  "market": {
   "symbols": [
    {
+    "symbol": "AAPL",
+    "day": "2026-10-28",
+    "close": 345.01,
+    "chg_1d_pct": -0.6,
+    "chg_1m_pct": 4.68,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 13.4
+   },
+   {
     "symbol": "EEM",
-    "day": "2026-10-27",
-    "close": 62.51,
-    "chg_1d_pct": 1.13,
-    "chg_1m_pct": -6.99,
+    "day": "2026-10-28",
+    "close": 63.055,
+    "chg_1d_pct": 0.87,
+    "chg_1m_pct": -6.45,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 19.5
+    "vol_20d_pct": 19.9
    },
    {
     "symbol": "EFA",
-    "day": "2026-10-27",
-    "close": 103.57,
-    "chg_1d_pct": 0.64,
-    "chg_1m_pct": -1.39,
+    "day": "2026-10-28",
+    "close": 103.275,
+    "chg_1d_pct": -0.28,
+    "chg_1m_pct": -1.21,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 10.6
+    "vol_20d_pct": 10.4
    },
    {
     "symbol": "GLD",
-    "day": "2026-10-27",
-    "close": 372.305,
-    "chg_1d_pct": 1.21,
-    "chg_1m_pct": -1.49,
+    "day": "2026-10-28",
+    "close": 370.27,
+    "chg_1d_pct": -0.55,
+    "chg_1m_pct": -3.31,
     "above_200d": false,
     "above_50d": false,
     "vol_20d_pct": 17.3
    },
    {
     "symbol": "IWM",
-    "day": "2026-10-27",
-    "close": 280.18,
-    "chg_1d_pct": 1.17,
-    "chg_1m_pct": 0.05,
+    "day": "2026-10-28",
+    "close": 280.005,
+    "chg_1d_pct": -0.06,
+    "chg_1m_pct": 0.33,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 15.0
    },
    {
+    "symbol": "MSFT",
+    "day": "2026-10-28",
+    "close": 529.55,
+    "chg_1d_pct": -0.38,
+    "chg_1m_pct": 4.05,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 19.2
+   },
+   {
+    "symbol": "NVDA",
+    "day": "2026-10-28",
+    "close": 218.14,
+    "chg_1d_pct": 0.12,
+    "chg_1m_pct": -4.0,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 29.9
+   },
+   {
     "symbol": "QQQ",
-    "day": "2026-10-27",
-    "close": 721.22,
-    "chg_1d_pct": 1.28,
-    "chg_1m_pct": -2.08,
+    "day": "2026-10-28",
+    "close": 721.81,
+    "chg_1d_pct": 0.08,
+    "chg_1m_pct": -2.19,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 19.5
    },
    {
     "symbol": "SPY",
-    "day": "2026-10-27",
-    "close": 769.7,
-    "chg_1d_pct": 0.58,
-    "chg_1m_pct": 0.55,
+    "day": "2026-10-28",
+    "close": 770.7,
+    "chg_1d_pct": 0.13,
+    "chg_1m_pct": 0.83,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 10.0
+    "vol_20d_pct": 9.9
    },
    {
     "symbol": "TLT",
-    "day": "2026-10-27",
-    "close": 81.64,
-    "chg_1d_pct": -0.06,
-    "chg_1m_pct": 4.24,
+    "day": "2026-10-28",
+    "close": 81.47,
+    "chg_1d_pct": -0.21,
+    "chg_1m_pct": 4.54,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 10.4
+    "vol_20d_pct": 10.2
    },
    {
     "symbol": "XLE",
-    "day": "2026-10-27",
-    "close": 68.23,
-    "chg_1d_pct": -2.02,
-    "chg_1m_pct": 9.84,
+    "day": "2026-10-28",
+    "close": 68.34,
+    "chg_1d_pct": 0.16,
+    "chg_1m_pct": 11.03,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 21.6
+    "vol_20d_pct": 21.5
    },
    {
     "symbol": "XLF",
-    "day": "2026-10-27",
-    "close": 55.88,
-    "chg_1d_pct": -0.29,
-    "chg_1m_pct": 3.1,
+    "day": "2026-10-28",
+    "close": 56.02,
+    "chg_1d_pct": 0.25,
+    "chg_1m_pct": 3.72,
     "above_200d": true,
-    "above_50d": false,
-    "vol_20d_pct": 12.5
+    "above_50d": true,
+    "vol_20d_pct": 11.4
    },
    {
     "symbol": "XLI",
-    "day": "2026-10-27",
-    "close": 167.94,
-    "chg_1d_pct": 0.59,
-    "chg_1m_pct": -0.47,
+    "day": "2026-10-28",
+    "close": 167.91,
+    "chg_1d_pct": -0.02,
+    "chg_1m_pct": -0.72,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 14.7
+    "vol_20d_pct": 13.9
    },
    {
     "symbol": "XLK",
-    "day": "2026-10-27",
-    "close": 189.49,
-    "chg_1d_pct": 1.7,
-    "chg_1m_pct": -2.59,
+    "day": "2026-10-28",
+    "close": 190.03,
+    "chg_1d_pct": 0.28,
+    "chg_1m_pct": -2.29,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 25.2
+    "vol_20d_pct": 25.1
    },
    {
     "symbol": "XLP",
-    "day": "2026-10-27",
-    "close": 87.17,
-    "chg_1d_pct": -0.93,
-    "chg_1m_pct": 5.93,
+    "day": "2026-10-28",
+    "close": 86.93,
+    "chg_1d_pct": -0.28,
+    "chg_1m_pct": 6.23,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 20.1
+    "vol_20d_pct": 19.0
    },
    {
     "symbol": "XLU",
-    "day": "2026-10-27",
-    "close": 42.855,
-    "chg_1d_pct": 0.68,
-    "chg_1m_pct": 9.16,
+    "day": "2026-10-28",
+    "close": 42.725,
+    "chg_1d_pct": -0.3,
+    "chg_1m_pct": 7.59,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 16.7
+    "vol_20d_pct": 16.4
    },
    {
     "symbol": "XLV",
-    "day": "2026-10-27",
-    "close": 179.19,
-    "chg_1d_pct": -0.06,
-    "chg_1m_pct": 4.64,
+    "day": "2026-10-28",
+    "close": 180.42,
+    "chg_1d_pct": 0.69,
+    "chg_1m_pct": 5.68,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 19.2
+    "vol_20d_pct": 18.3
    },
    {
     "symbol": "XLY",
-    "day": "2026-10-27",
-    "close": 115.445,
-    "chg_1d_pct": 1.03,
-    "chg_1m_pct": 5.92,
-    "above_200d": true,
+    "day": "2026-10-28",
+    "close": 115.03,
+    "chg_1d_pct": -0.36,
+    "chg_1m_pct": 5.4,
+    "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 14.5
+    "vol_20d_pct": 14.6
    },
    {
     "symbol": "BTC/USD",
@@ -450,32 +732,50 @@
   "news": [
    {
     "symbol": "SPY",
-    "time": "2026-10-28T03:03:05+00:00",
-    "headline": "Anthony Scaramucci Says Joe Biden Was 'Actually Good for the Stock Market,' Blames Trump for Causing 'Self-Harm' to Economy",
+    "time": "2026-10-28T14:31:59+00:00",
+    "headline": "USA Gasoline Inventories 3.870M Barrel Build Vs 1.400M Barrel Draw Est.",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-10-27T20:49:18+00:00",
-    "headline": "API Crude Oil Stock 2.031M Barrel Draw Vs 0.800M Barrel Build Est.",
+    "time": "2026-10-28T14:31:33+00:00",
+    "headline": "USA Crude Oil Inventories 1.892M Barrel Draw vs 0.100M Barrel Build Est.",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-10-27T20:12:04+00:00",
-    "headline": "S&P 500 Rose 14% In A Year And Got Cheaper",
+    "time": "2026-10-28T14:21:18+00:00",
+    "headline": "'Adnoc Tells Clients New Hormuz Bypass Pipe to Start Early 2027' - Bloomberg",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-10-27T18:42:47+00:00",
-    "headline": "AI's Biggest Constraint Could Be Capital Availability\u2014Anthropic, Meta And SpaceX Put Markets To The Test",
+    "time": "2026-10-28T13:40:07+00:00",
+    "headline": "Dot-Com Style Rotation? Strategists Warn Improving Market Breadth Could Be A Bull Trap: 'Be Careful What You Wish For'",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-10-27T19:38:46+00:00",
-    "headline": "Refiner Stocks Suffer Worst Day Since the Tariff Shock: The Threat Is Not Cheaper Oil",
+    "time": "2026-10-28T13:14:28+00:00",
+    "headline": "'Top Treasury trade official leaving for Netflix' - Axios",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "QQQ",
+    "time": "2026-10-28T13:40:07+00:00",
+    "headline": "Dot-Com Style Rotation? Strategists Warn Improving Market Breadth Could Be A Bull Trap: 'Be Careful What You Wish For'",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "QQQ",
+    "time": "2026-10-28T12:41:20+00:00",
+    "headline": "Stock Market Today: S&P 500, Nasdaq 100 Futures Gain Ahead of Federal Reserve Interest Rate Decision\u2014 SKHY, STX, V, GOOGL in Focus (UPDATED)",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "QQQ",
+    "time": "2026-10-28T05:36:20+00:00",
+    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
     "source": "benzinga"
    },
    {
@@ -491,123 +791,99 @@
     "source": "benzinga"
    },
    {
-    "symbol": "QQQ",
-    "time": "2026-10-27T17:01:35+00:00",
-    "headline": "Nasdaq 100 Climbs on Chip Rally, Boeing Sinks 10%: Stock Market Today",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "QQQ",
-    "time": "2026-10-27T15:13:26+00:00",
-    "headline": "Microsoft Q1 Preview: AI, Cloud Key As Company Eyes 15th Straight Double Beat",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "QQQ",
-    "time": "2026-10-27T15:00:23+00:00",
-    "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "IWM",
-    "time": "2026-10-27T17:01:35+00:00",
-    "headline": "Nasdaq 100 Climbs on Chip Rally, Boeing Sinks 10%: Stock Market Today",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "IWM",
-    "time": "2026-10-27T15:00:23+00:00",
-    "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLK",
-    "time": "2026-10-28T03:26:17+00:00",
-    "headline": "Jim Cramer Says Micron Shouldn't Follow 'Whatever' SK Hynix Does As MU Shares Jump After Hours: 'I'm Hoping The Linkage Ends One Day'",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLK",
-    "time": "2026-10-27T20:15:26+00:00",
-    "headline": "If You Invested $100 In State Street Technology Select Sector SPDR ETF Stock 20 Years Ago, You Would Have This Much Today",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLK",
-    "time": "2026-10-27T17:01:35+00:00",
-    "headline": "Nasdaq 100 Climbs on Chip Rally, Boeing Sinks 10%: Stock Market Today",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLK",
-    "time": "2026-10-27T15:00:23+00:00",
-    "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLF",
-    "time": "2026-10-27T15:00:23+00:00",
-    "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLE",
-    "time": "2026-10-27T17:01:35+00:00",
-    "headline": "Nasdaq 100 Climbs on Chip Rally, Boeing Sinks 10%: Stock Market Today",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLE",
-    "time": "2026-10-27T15:00:23+00:00",
-    "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLV",
-    "time": "2026-10-27T15:00:23+00:00",
-    "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLI",
-    "time": "2026-10-27T15:00:23+00:00",
-    "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLY",
-    "time": "2026-10-27T15:00:23+00:00",
-    "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLP",
-    "time": "2026-10-27T15:00:23+00:00",
-    "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "XLU",
-    "time": "2026-10-27T15:00:23+00:00",
-    "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "GLD",
-    "time": "2026-10-27T11:15:51+00:00",
-    "headline": "'Another Golden Asteroid Story': Why Lab-Made Gold Won't Crash Bullion",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "TLT",
-    "time": "2026-10-27T13:05:45+00:00",
-    "headline": "Theralase Technologies Inc. Provides Bladder Cancer Clinical Study Update",
+    "symbol": "AAPL",
+    "time": "2026-10-28T13:31:16+00:00",
+    "headline": "Apple Teases Redesigned MacBook Pro Launch",
     "source": "fiscal.ai"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-10-28T12:06:18+00:00",
+    "headline": "Delta Air, American Tower, Apple And A Health Care: CNBC\u2019s \u2018Final Trades\u2019",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-10-28T11:21:04+00:00",
+    "headline": "\u2018Hard to Know If We\u2019re in an AI Bubble\u2019 Jeff Bezos Says, But Should a Retiree Buy AI Stocks? \u2014 \u2018I Would Usually Tell a Retiree to Buy the S&P 500\u2019",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-10-28T10:31:36+00:00",
+    "headline": "South Korea Fines Apple Over App Store Payment Policies",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-10-28T08:06:22+00:00",
+    "headline": "Kevin O'Leary Warns Investors Could Get 'Slaughtered' by Ignoring Diversification, Shares His 5% Stock and 20% Sector Rule",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-10-28T14:31:59+00:00",
+    "headline": "Microsoft Earnings Prediction Market Preview: What Will Satya Nadella Say?",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-10-28T13:50:57+00:00",
+    "headline": "Bill Ackman\u2019s Test for a Great Stock: Should Be 'Enormously Valuable' Even if Markets Shut for 20 Years",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-10-28T13:31:41+00:00",
+    "headline": "Microsoft and Dayforce Expand Strategic Collaboration",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-10-28T12:27:16+00:00",
+    "headline": "Verisk Integrates Amazon Quick, Microsoft Copilot, Claude Into Its Operations",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-10-28T11:21:04+00:00",
+    "headline": "\u2018Hard to Know If We\u2019re in an AI Bubble\u2019 Jeff Bezos Says, But Should a Retiree Buy AI Stocks? \u2014 \u2018I Would Usually Tell a Retiree to Buy the S&P 500\u2019",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-28T14:07:56+00:00",
+    "headline": "Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-28T13:35:47+00:00",
+    "headline": "Google Earnings Prediction Market Preview: What Will Sundar Pichai Say?",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-28T12:22:12+00:00",
+    "headline": "EXCLUSIVE: SK Hynix Soars 11% on Record Profit, But This Expert Says Samsung Will Lead HBM in 2027",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-28T12:01:27+00:00",
+    "headline": "HIVE Digital Technologies Secures Financing for NVIDIA GB200 GPU Cluster",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-28T11:21:04+00:00",
+    "headline": "\u2018Hard to Know If We\u2019re in an AI Bubble\u2019 Jeff Bezos Says, But Should a Retiree Buy AI Stocks? \u2014 \u2018I Would Usually Tell a Retiree to Buy the S&P 500\u2019",
+    "source": "benzinga"
    }
   ],
   "regime": {
    "spy_above_200d": true,
-   "spy_vol_20d_pct": 10.0,
+   "spy_vol_20d_pct": 9.9,
    "calm": true
   },
   "benchmarks": [
@@ -2090,6 +2366,11 @@
     "day": "2026-10-27",
     "symbol": "SPY",
     "close": 769.7
+   },
+   {
+    "day": "2026-10-28",
+    "symbol": "SPY",
+    "close": 770.7
    },
    {
     "day": "2025-08-25",
@@ -6383,5 +6664,23 @@
    }
   ]
  },
- "events": []
+ "events": [
+  {
+   "date": "2026-10-28",
+   "what": "MSFT earnings",
+   "symbol": "MSFT",
+   "when": "time-after-hours"
+  },
+  {
+   "date": "2026-11-02",
+   "what": "AAPL earnings",
+   "symbol": "AAPL",
+   "when": "time-after-hours"
+  }
+ ],
+ "replay": {
+  "day": "2026-10-28",
+  "strategy": "orb",
+  "trades": []
+ }
 }

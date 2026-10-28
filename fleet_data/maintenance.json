@@ -1,11 +1,59 @@
 {
- "checked": "2026-10-28T05:20:57+00:00",
+ "checked": "2026-10-28T14:36:16+00:00",
  "status": {
-  "0": "ok",
+  "0": "info",
+  "1": "act",
   "2": "act",
-  "3": "act"
+  "3": "act",
+  "4": "info",
+  "6": "info"
  },
  "findings": [
+  {
+   "bot": 0,
+   "level": "info",
+   "check": "events",
+   "message": "Coming up: MSFT earnings Wed 10/28. Odd results around these days are normal.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 1,
+   "level": "ok",
+   "check": "replay",
+   "message": "2026-10-28: bot 1 did what the backtest would have (0 entries).",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 1,
+   "level": "act",
+   "check": "schedule",
+   "message": "trades.log doesn't exist in ., so bot 1 has never run here.",
+   "fix": "Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 1,
+   "level": "info",
+   "check": "return",
+   "message": "$5,002.80, +0.1% since the $5,000 start.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 1,
+   "level": "info",
+   "check": "performance",
+   "message": "1 closed trades so far; 30 are needed before the results say anything about the strategy.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
   {
    "bot": 2,
    "level": "act",
@@ -19,7 +67,7 @@
    "bot": 2,
    "level": "info",
    "check": "return",
-   "message": "$5,003.32, +0.1% since the $5,000 start.",
+   "message": "$5,018.30, +0.4% since the $5,000 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -28,7 +76,7 @@
    "bot": 2,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot +0.1% vs just holding SPY +1.3%.",
+   "message": "Since 2026-10-23: bot +0.4% vs just holding SPY +1.4%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -56,6 +104,24 @@
    "level": "info",
    "check": "vs hold",
    "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -1.0%.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 4,
+   "level": "info",
+   "check": "performance",
+   "message": "No Bot 4 trades yet. Expected: the 14-day backtest found 0 taker trades worth $0.10.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 6,
+   "level": "info",
+   "check": "performance",
+   "message": "No Bot 4c trades yet; 1 maker quotes resting.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
