@@ -1,0 +1,5 @@
+# Copied to the bot-state branch as .gitignore: keys never get committed
+.env*
+*.pem
+__pycache__/
+data_cache/

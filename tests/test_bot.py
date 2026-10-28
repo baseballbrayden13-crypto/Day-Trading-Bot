@@ -1,3 +1,5 @@
+import dataclasses
+import pytest
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -239,3 +241,276 @@ def test_research_scores_in_and_out_of_sample_separately():
     assert r["is"]["trades"] + r["oos"]["trades"] == whole["trades"]
     assert abs(r["is"]["pnl"] + r["oos"]["pnl"] - whole["trade_log"]["pnl"].sum()) < 1e-6
     assert not research.better(r, r)  # equal is not an improvement
+
+
+def test_gap_min_pct_needs_a_bigger_gap():
+    from bot.strategy import orb_signal
+
+    df = add_indicators(synthetic_bars(days=20, seed=4, gap_sd=0.01), Settings())
+    for i in np.flatnonzero(df["orb_break"].to_numpy()):
+        row = df.iloc[i]
+        gap = (row["day_open"] / row["prev_close"] - 1) * 100
+        if np.isnan(gap):
+            continue
+        any_down = orb_signal("A", df.iloc[: i + 1], Settings(orb_gap="down"))
+        big_down = orb_signal("A", df.iloc[: i + 1], Settings(orb_gap="down", orb_gap_min_pct=0.5))
+        assert (any_down is not None) == (gap < 0)
+        assert (big_down is not None) == (gap <= -0.5)
+
+
+def test_sweep_parses_a_grid():
+    from bot.sweep import parse_sets
+
+    combos = parse_sets(["ORB_TARGET_R=1,2", "ORB_GAP=any,down", "ORB_VWAP_FILTER=true"], Settings())
+    assert len(combos) == 4
+    assert {"orb_target_r": 2.0, "orb_gap": "down", "orb_vwap_filter": True} in combos
+    assert parse_sets([], Settings()) == [{}]
+
+
+def test_breakeven_and_trailing_stops_only_rise():
+    from bot.backtest import Position, raise_stop
+    cfg = dataclasses.replace(Settings(), stop_breakeven_r=1.0, stop_trail_r=1.5)
+    p = Position("X", 10, 100.0, 98.0, 106.0, pd.Timestamp("2026-03-02", tz="UTC"), 2.0, 100.0)
+    raise_stop(p, 101.0, cfg)
+    assert p.stop == 98.0  # not up 1R yet; trail (101 - 3) is still below the stop
+    raise_stop(p, 102.5, cfg)
+    assert p.stop == 100.0  # reached 1R: breakeven
+    raise_stop(p, 104.0, cfg)
+    assert p.stop == 101.0  # trails 1.5R (3.00) under the high
+    raise_stop(p, 103.0, cfg)
+    assert p.stop == 101.0  # never lowered
+
+
+def test_fill_tracker_measures_slippage(tmp_path):
+    from types import SimpleNamespace as NS
+    from bot.fills import check, log_order, slippage_bps, summary
+    import csv
+
+    assert slippage_bps(100, 100.05, "buy") == pytest.approx(5)
+    assert slippage_bps(100, 99.95, "sell") == pytest.approx(5)
+    path = tmp_path / "signals.csv"
+    log_order("AAPL", 10, 200.0, 198.0, 203.0, "o1", path)
+    log_order("NVDA", 5, 100.0, 99.0, 101.5, "o2", path)
+    orders = {
+        "o1": NS(filled_avg_price="200.04", legs=[NS(filled_avg_price="197.98", order_type="stop"),
+                                                  NS(filled_avg_price=None, order_type="limit")]),
+        "o2": NS(filled_avg_price=None, legs=[]),  # never filled
+    }
+    rows = check(list(csv.DictReader(path.open())), orders.get)
+    assert len(rows) == 1
+    assert rows[0]["entry_bps"] == pytest.approx(2.0)
+    assert rows[0]["exit"] == "stop" and rows[0]["exit_bps"] == pytest.approx(1.01, abs=0.01)
+    assert "as good as the backtest" in summary(rows)
+
+
+def test_limit_entries_fill_only_at_or_under_the_limit():
+    from bot.backtest import entry_fill
+    cfg = Settings()
+    bar = {"open": 100.10, "low": 99.95}
+    assert entry_fill(100.0, bar, cfg) == pytest.approx(100.10 * (1 + cfg.slippage_bps / 10_000))  # market
+    lim = dataclasses.replace(cfg, entry_limit_bps=5)
+    assert entry_fill(100.0, bar, lim) == pytest.approx(100.05)  # opened above the limit, dipped back to it
+    assert entry_fill(100.0, {"open": 100.10, "low": 100.08}, lim) is None  # never came back: no fill
+    assert entry_fill(100.0, {"open": 99.90, "low": 99.80}, lim) == pytest.approx(99.90)  # better open
+
+
+def test_short_orb_books_profit_when_price_falls_and_cash_adds_up():
+    frames = {"AAA": synthetic_bars(days=30, seed=3, gap_sd=0.01), "BBB": synthetic_bars(days=30, seed=4, gap_sd=0.01)}
+    for name in ("orb", "orb_short"):
+        res = run_backtest(frames, Settings(strategy=name), 25_000)
+        log = res["trade_log"]
+        assert len(log), name
+        # the equity curve and the trade log must agree: every dollar is accounted for
+        assert res["final_equity"] == pytest.approx(25_000 + log["pnl"].sum(), abs=0.01), name
+    log = run_backtest(frames, Settings(strategy="orb_short"), 25_000)["trade_log"]
+    assert (log["side"] == "short").all()
+    wins = log[log["exit"] < log["entry"]]
+    assert (wins["pnl"] > -wins["fees"]).all()  # covering lower than the short price makes money before costs
+    stops = log[log["exit_reason"] == "stop"]
+    assert (stops["exit"] > stops["entry"]).all()  # a short's stop is above the entry
+
+
+def test_short_stops_move_down_only():
+    from bot.backtest import Position, raise_stop
+    cfg = dataclasses.replace(Settings(), stop_breakeven_r=1.0, stop_trail_r=1.5)
+    p = Position("X", 10, 100.0, 102.0, 94.0, pd.Timestamp("2026-03-02", tz="UTC"), 2.0, 100.0, True)
+    raise_stop(p, 97.5, cfg)
+    assert p.stop == 100.0  # down 1R: breakeven
+    raise_stop(p, 96.0, cfg)
+    assert p.stop == 99.0  # trails 1.5R above the low
+    raise_stop(p, 98.0, cfg)
+    assert p.stop == 99.0
+
+
+def synthetic_daily(days=900, seed=0, drift=0.0004):
+    rng = np.random.default_rng(seed)
+    close = 100 * np.exp(np.cumsum(rng.normal(drift, 0.015, days)))
+    open_ = close * np.exp(rng.normal(0, 0.004, days))
+    idx = pd.bdate_range("2020-01-01", periods=days, tz="UTC")
+    return pd.DataFrame({"open": open_, "high": np.maximum(open_, close) * 1.005,
+                         "low": np.minimum(open_, close) * 0.995, "close": close, "volume": 1e6}, index=idx)
+
+
+def test_swing_rules_trade_and_account_for_every_dollar():
+    from bot.swing import RULES, run_swing
+    frames = {"AAA": synthetic_daily(seed=1), "BBB": synthetic_daily(seed=2), "CCC": synthetic_daily(seed=3)}
+    for rule in RULES:
+        res = run_swing(frames, rule, Settings(), 5_000, slots=2)
+        t = res["trades"]
+        assert len(t), rule
+        assert res["final"] == pytest.approx(5_000 + t["pnl"].sum(), abs=0.01), rule
+        assert (t["exit_time"] > t["entry_time"]).all(), rule  # never sells on the day it buys
+        assert (t["qty"] * t["entry"] <= 5_000 / 2 * 1.5).all(), rule  # roughly one slot each
+
+
+def test_alerts_are_off_without_a_topic_and_never_raise(monkeypatch):
+    from bot import notify
+    assert notify.send(Settings(), "t", "m") is False  # no NTFY_TOPIC: nothing sent
+
+    def boom(*a, **k):
+        raise OSError("offline")
+    monkeypatch.setattr(notify.urllib.request, "urlopen", boom)
+    assert notify.send(dataclasses.replace(Settings(), ntfy_topic="x"), "t", "m") is False
+
+
+def test_live_entry_uses_a_limit_only_when_asked(monkeypatch):
+    from types import SimpleNamespace as NS
+    from bot import live
+    from bot.strategy import Signal
+
+    calls = []
+    broker = NS(equity=lambda: 5_000.0, open_symbols=lambda: set(), close_all=lambda: None,
+                cancel_unfilled_entries=lambda: calls.append("cancel") or [],
+                buy_bracket=lambda sym, qty, stop, target, limit=None: calls.append(limit) or NS(id="o1"))
+    monkeypatch.setattr(live, "from_alpaca", lambda *a, **k: synthetic_bars(days=2))
+    monkeypatch.setattr(live, "add_indicators", lambda df, cfg: df)
+    monkeypatch.setattr(live, "entry_signal", lambda sym, bars, cfg: Signal(sym, "buy", 100.0, 99.0, 101.5, "test"))
+    monkeypatch.setattr(live, "log_order", lambda *a, **k: None)
+    monkeypatch.setattr(live, "datetime", NS(now=lambda tz: datetime(2026, 3, 2, 10, 0, tzinfo=tz)))
+    for bps, expected in ((-1, None), (5, 100.05)):
+        calls.clear()
+        cfg = dataclasses.replace(Settings(), symbols=["AAA"], entry_limit_bps=bps, market_filter="")
+        live.run_once(cfg, broker, RiskManager(cfg))
+        assert ("cancel" in calls) == (bps >= 0)
+        assert calls[-1] == (pytest.approx(expected) if expected else None)
+
+
+def test_momentum_decides_once_a_day_after_the_first_30_minutes():
+    df = add_indicators(synthetic_bars(days=10, seed=5, gap_sd=0.01), Settings())
+    et = df.index.tz_convert(ET)
+    first = (et.hour * 60 + et.minute) < 10 * 60
+    assert df.loc[first, "r30"].isna().all()  # unknown before 10:00
+    trades = run_backtest({"AAA": synthetic_bars(days=30, seed=5, gap_sd=0.01)},
+                          Settings(strategy="momentum", market_filter=""), 25_000)["trade_log"]
+    assert len(trades)
+    entries = trades["entry_time"].dt.tz_convert(ET)
+    assert ((entries.dt.hour == 15) & (entries.dt.minute == 25)).all()  # filled at the open after the 15:20 bar
+    assert entries.dt.date.is_unique
+
+
+def test_overnight_trade_returns_include_costs():
+    from bot.overnight import RULES, overnight_trades
+    df = synthetic_daily(days=400, seed=7)
+    free = overnight_trades(df, "every", Settings(slippage_bps=0, sec_fee_rate=0, taf_per_share=0))
+    raw = (df["open"].shift(-1) / df["close"] - 1).dropna()
+    assert free.values == pytest.approx(raw.values)  # no costs: exactly close-to-next-open
+    costly = overnight_trades(df, "every", Settings(slippage_bps=5))
+    assert (costly < free).all()
+    for rule in RULES:  # every rule only picks nights from the full set
+        assert set(overnight_trades(df, rule, Settings()).index) <= set(free.index)
+
+
+def test_rotation_holds_cash_when_nothing_qualifies_and_accounts_for_costs():
+    from bot.rotation import run_rotation
+    up = synthetic_daily(days=700, seed=1, drift=0.002)
+    down = synthetic_daily(days=700, seed=2, drift=-0.002)
+    eq = run_rotation({"DOWN": down}, Settings(), top=1, lookback=3)
+    assert eq.iloc[-1] == pytest.approx(5_000)  # always below its 200-day average: never buys
+    eq = run_rotation({"UP": up, "DOWN": down}, Settings(), top=1, lookback=3)
+    assert eq.iloc[-1] > 5_000  # holds the rising one
+    free = run_rotation({"UP": up, "DOWN": down}, Settings(slippage_bps=0, sec_fee_rate=0, taf_per_share=0), top=1, lookback=3)
+    assert free.iloc[-1] > eq.iloc[-1]  # costs are charged
+
+
+def test_rotation_guard_sells_mid_month_when_a_holding_breaks_its_200_day_average():
+    import numpy as np
+    from bot.rotation import run_rotation
+    idx = pd.bdate_range("2020-01-01", periods=700, tz="UTC")
+    px = 100 * 1.002 ** np.arange(700)
+    px[idx >= idx[450]] *= 0.5  # smooth climb, then halves overnight
+    df = pd.DataFrame({"open": px, "high": px, "low": px, "close": px, "volume": 1}, index=idx)
+    plain = run_rotation({"X": df}, Settings(), top=1, lookback=3)
+    guarded = run_rotation({"X": df}, Settings(), top=1, lookback=3, guard=True)
+    assert plain.iloc[:450].equals(guarded.iloc[:450])  # identical until the break
+    assert guarded.iloc[451:470].nunique() == 1  # sold at the next open: flat cash from then on
+    assert plain.iloc[451:456].nunique() > 1  # the plain one keeps holding until month end
+
+
+def test_rotation_orders_sell_first_and_reach_the_targets():
+    from datetime import date
+    from bot.rotation_live import due, orders_for
+    moves = orders_for({"QQQ": 0.5, "GLD": 0.5}, {"SPY": 3, "QQQ": 1}, {"QQQ": 500.0, "GLD": 250.0, "SPY": 600.0}, 5_000)
+    assert moves == [("SPY", -3), ("GLD", 10), ("QQQ", 4)]  # sells come first
+    assert orders_for({}, {"SPY": 2}, {"SPY": 600.0}, 5_000) == [("SPY", -2)]  # nothing qualifies: all cash
+    assert due(date(2026, 11, 2), {"last_month": "2026-10"}) and not due(date(2026, 11, 20), {"last_month": "2026-11"})
+
+
+def test_rotation_bot_refuses_live_and_ignores_the_orb_env(tmp_path, monkeypatch):
+    from bot import rotation_live
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(rotation_live, "ENV_FILE", tmp_path / ".env.rotation")
+    with pytest.raises(SystemExit, match="missing"):
+        rotation_live.load_settings()
+    (tmp_path / ".env.rotation").write_text("ALPACA_API_KEY=bot2key\nALPACA_SECRET_KEY=bot2secret\n")
+    monkeypatch.setenv("ALPACA_API_KEY", "orbkey")
+    monkeypatch.setenv("LIVE_TRADING", "true")  # set for the ORB bot; must not leak into bot 2
+    cfg = rotation_live.load_settings()
+    assert cfg.alpaca_key == "bot2key" and not cfg.live_trading
+    (tmp_path / ".env.rotation").write_text("ALPACA_API_KEY=k\nLIVE_TRADING=true\n")
+    with pytest.raises(SystemExit, match="paper only"):
+        rotation_live.load_settings()
+
+
+def test_daily_rules_hold_the_right_days_and_charge_switches():
+    from bot.daily_rules import RULES, strategy_returns, turn_of_month
+    df = synthetic_daily(days=600, seed=9)
+    tom = turn_of_month(df)
+    first_day = df.index.to_series().groupby(df.index.year * 12 + df.index.month).transform("min") == df.index
+    assert tom[first_day].all()  # always holds over the first day of a month
+    assert 0.2 < tom.mean() < 0.35  # about 6 of ~21 days
+    free = strategy_returns(df, "trend200", 0.0)
+    paid = strategy_returns(df, "trend200", 0.001)
+    hold = RULES["trend200"](df)
+    assert (free[~hold] == 0).all()  # cash on days out of the market
+    assert (paid <= free + 1e-12).all() and paid.sum() < free.sum()
+
+
+def test_crypto_bot_trades_only_when_a_coin_flips():
+    from bot.crypto_live import plan, want
+    idx = pd.date_range("2026-01-01", periods=60, tz="UTC")
+    closes = pd.DataFrame({"BTC/USD": np.linspace(50, 100, 60), "ETH/USD": np.linspace(100, 50, 60)}, index=idx)
+    assert want(closes, 50) == {"BTC/USD": 0.5}  # rising coin above its average, falling one below
+    assert want(closes.iloc[:10], 50) == {}  # not enough history: cash
+    assert plan({"BTC/USD": 0.5}, {}, 5_000) == [("BTC/USD", "buy", 2500.0)]
+    assert plan({"BTC/USD": 0.5}, {"BTC/USD": 0.03}, 5_000) == []  # still in: no trade
+    assert plan({}, {"BTC/USD": 0.03, "ETH/USD": 0.5}, 5_000) == [("BTC/USD", "sell", 0.03), ("ETH/USD", "sell", 0.5)]
+
+
+def test_crypto_bot_uses_its_own_keys(tmp_path, monkeypatch):
+    from bot import crypto_live
+    monkeypatch.setattr(crypto_live, "ENV_FILE", tmp_path / ".env.crypto")
+    with pytest.raises(SystemExit, match=".env.crypto"):
+        crypto_live.load_settings()
+    (tmp_path / ".env.crypto").write_text("ALPACA_API_KEY=bot3key\nALPACA_SECRET_KEY=s\n")
+    assert crypto_live.load_settings().alpaca_key == "bot3key"
+
+
+def test_bots_2_and_3_refuse_bot_1s_account(tmp_path, monkeypatch):
+    from types import SimpleNamespace as NS
+    from bot.rotation_live import ensure_own_account
+    monkeypatch.chdir(tmp_path)  # no .env here
+    saved = tmp_path / "bot1_account.txt"
+    saved.write_text("PA3BXI0")
+    with pytest.raises(SystemExit, match="bot 1's account"):
+        ensure_own_account(NS(account_number=lambda: "PA3BXI0"), saved)
+    assert ensure_own_account(NS(account_number=lambda: "PA9NEW1"), saved) == "PA9NEW1"

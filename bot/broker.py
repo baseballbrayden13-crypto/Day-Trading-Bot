@@ -20,6 +20,9 @@ class Broker:
         self.client = TradingClient(cfg.alpaca_key, cfg.alpaca_secret, paper=self.paper)
         log.info("Connected to Alpaca %s account", "PAPER" if self.paper else "*** LIVE ***")
 
+    def account_number(self) -> str:
+        return str(self.client.get_account().account_number)
+
     def equity(self) -> float:
         return float(self.client.get_account().equity)
 
@@ -29,13 +32,13 @@ class Broker:
     def open_symbols(self) -> set[str]:
         return {p.symbol for p in self.client.get_all_positions()}
 
-    def buy_bracket(self, symbol: str, qty: int, stop: float, target: float):
-        """Market buy with an attached stop-loss and take-profit, so the
-        position is protected at the broker even if this program crashes."""
+    def buy_bracket(self, symbol: str, qty: int, stop: float, target: float, limit: float | None = None):
+        """Buy with an attached stop-loss and take-profit, so the position is protected
+        at the broker even if this program crashes. Market order, or a limit order at `limit`."""
         from alpaca.trading.enums import OrderClass, OrderSide, TimeInForce
-        from alpaca.trading.requests import MarketOrderRequest, StopLossRequest, TakeProfitRequest
+        from alpaca.trading.requests import LimitOrderRequest, MarketOrderRequest, StopLossRequest, TakeProfitRequest
 
-        req = MarketOrderRequest(
+        args = dict(
             symbol=symbol,
             qty=qty,
             side=OrderSide.BUY,
@@ -44,7 +47,18 @@ class Broker:
             take_profit=TakeProfitRequest(limit_price=round(target, 2)),
             stop_loss=StopLossRequest(stop_price=round(stop, 2)),
         )
+        req = LimitOrderRequest(limit_price=round(limit, 2), **args) if limit else MarketOrderRequest(**args)
         return self.client.submit_order(req)
+
+    def cancel_unfilled_entries(self) -> list[str]:
+        """Cancel buy orders still waiting to fill (a limit entry gets one bar). Returns their symbols."""
+        from alpaca.trading.enums import OrderSide, QueryOrderStatus
+        from alpaca.trading.requests import GetOrdersRequest
+
+        open_orders = self.client.get_orders(GetOrdersRequest(status=QueryOrderStatus.OPEN, side=OrderSide.BUY))
+        for o in open_orders:
+            self.client.cancel_order_by_id(o.id)
+        return [o.symbol for o in open_orders]
 
     def close(self, symbol: str):
         from alpaca.trading.enums import QueryOrderStatus

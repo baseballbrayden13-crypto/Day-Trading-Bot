@@ -59,6 +59,130 @@ saved to `reports/research_<date>.md`. Nothing in `.env` is changed.
 python -m bot.research --source alpaca --days 1095 --cash 5000
 ```
 
+To try a grid of settings on top of your current `.env` (or your current
+settings on other stocks), use `bot.sweep`. It uses the same cache and split:
+
+```bash
+python -m bot.sweep --set ORB_TARGET_R=1.25,1.5,1.75 --set ORB_GAP_MIN_PCT=0,0.5 --label target-gap
+python -m bot.sweep --symbols AMZN,GOOGL,META,TSLA --label new-stocks
+```
+
+## Bot 2: monthly ETF rotation (paper)
+
+Once a month it holds the 3 strongest of 15 ETFs over the last 3 months, skipping any
+below their 200-day average (cash instead). Over 2006-2026 that made about 9.6% a year
+vs 11.2% for SPY, with a worst drop of -26% vs -55% (`python -m bot.rotation`).
+It runs on its own Alpaca paper account so it never shares money with ORB:
+
+```
+python set_keys.py --file .env.rotation      # bot 2's paper keys (hidden input)
+python -m bot.rotation_live --dry-run         # what it would hold now; places nothing
+python -m bot.rotation_live                   # rebalances on the first trading day of a month
+```
+
+Schedule `python -m bot.rotation_live` once a day after 9:45am ET; it does nothing
+except on the first trading day of each month.
+
+## Crypto trend bot (paper)
+
+Holds BTC and ETH, half the account each, while each is above its 50-day average, and
+cash otherwise (`python -m bot.daily_rules` for the research). Over 2014-2026 it beat
+holding ETH and roughly halved BTC's worst drop, but expect -40% to -60% drops anyway.
+It runs on its own Alpaca paper account:
+
+```
+python set_keys.py --file .env.crypto
+python -m bot.crypto_live --dry-run    # what it would hold now; places nothing
+python -m bot.crypto_live              # schedule daily, e.g. 8:15pm ET
+```
+
+## Kalshi bot (demo)
+
+Scans every open Kalshi market for trades that lock in at least $0.10 after Kalshi's fees, with a
+$20 budget. In an event where only one outcome can win, buying NO on several outcomes always pays
+at least (outcomes - 1) dollars per set, so when the YES bids add up to more than $1 plus fees the
+profit is guaranteed whoever wins (`bot/kalshi.py`). Every sweep also logs each market's prices and
+updates a scorecard of which series produce trades, for testing expected-profit ideas later.
+
+```
+python -m bot.kalshi_live --scan          # read-only sweep of real prices; no keys, no orders
+python -m bot.kalshi_live --scorecard     # which series have had $0.10+ trades
+python set_kalshi_key.py                  # demo key from demo.kalshi.co -> .env.kalshi
+python -m bot.kalshi_live --paper         # real prices, pretend $20 (the main test)
+python -m bot.kalshi_live --trade         # sweep and trade on the DEMO account (checks ordering works)
+python -m bot.kalshi_backtest --days 14  # replay settled events (rough: assumes 10 contracts per price)
+```
+
+Settings in `.env.kalshi`: `KALSHI_BUDGET` (20), `KALSHI_MIN_PROFIT` (0.10), `KALSHI_MAX_DAYS` (60,
+skips trades that tie money up longer), `KALSHI_STEP` (0.25: the budget steps up 25% each time settled
+profits grow it 25%, after `KALSHI_MIN_SETTLED`=5 paid-out baskets). Real money needs `KALSHI_ENV=prod` and
+`KALSHI_LIVE_CONFIRM=I_UNDERSTAND_REAL_MONEY`.
+
+## Helper bots: Scout (data) and Medic (diagnostics), read-only
+
+Two bots that look after the trading bots: **Scout** (`bot.data_bot`) gathers the data and
+**Medic** (`bot.maintenance`) checks every bot with it. Neither places, cancels or closes an order, and neither
+edits a `.env` file. The fleet (which bot uses which keys, log, account and backtest limits) is in
+`bot/fleet.py`; override any of it without touching code in `fleet.json`, e.g.
+`{"4": {"home": "C:/Users/baseb/Downloads/kalshi-run"}}` if the Kalshi bot runs in another folder.
+
+```
+python -m bot.data_bot                     # collect accounts, fills, positions, logs, Kalshi, prices, news -> fleet_data/
+python -m bot.maintenance --collect        # collect, then check every bot -> fleet_data/maintenance.md
+python -m bot.maintenance --collect --alert  # same, and push new problems to the phone (NTFY_TOPIC)
+```
+
+**Scout** writes `fleet_data/snapshot.json` (everything from the run), `equity.csv` (one row
+per bot per day, same columns as the Strategy Lab equity data), `trades.csv` (every fill, all
+bots), `positions.csv`, `market.csv` (trend and volatility for every symbol the fleet trades) and
+`news.csv` and `benchmarks.csv` (SPY, BTC and ETH, to compare each bot with just holding). It also
+reads each bot's Windows task and any `*_err.log` crash file. One failing source (bad keys, network) is recorded and the rest still run.
+
+**Medic** grades each bot (including the Kalshi maker, "bot 4b") ok / info / watch / act: keys rejected or missing, keys on
+the wrong account or two bots on one account, a missed scheduled run, errors in the log, a LIVE
+connection, a day loss or drop from peak past the backtest's worst, bot 1 holding after the close,
+bot 2/3 holdings that don't match their rules, bot 1's profit factor and real slippage once there
+are enough trades, and Kalshi stray positions or losing "locked-in" trades. Every finding says
+what to do. Fixes that would change how a bot trades go to `fleet_data/proposals.csv` in the
+Strategy Lab Changes-log format (status "Proposed"); nothing is applied without an OK. A "watch"
+that repeats 3 days in a row becomes "act", the report starts with what's new and what got fixed
+since the last check, `--alert` sends one summary push per run, and `health.csv` / `findings.csv`
+feed the Strategy Lab site.
+
+On Windows it also reads each bot's scheduled task (running or not, last result code), which
+catches a bot whose window was closed even when its log looks fine. Schedule it once a day after
+bot 3's 8:15pm run with `Run fleet maintenance.bat` (the command to register it is inside).
+
+## More helpers: Guard, Lab, Reporter (read-only)
+
+| Helper | Command | When | What it does |
+|---|---|---|---|
+| Guard | `python -m bot.guard --loop 10 --until 16:10` | weekdays 9:25am | every 10 minutes: daily loss near or past each bot's limit, the whole fleet down 2%, a holding too big, a short, bot 1 holding after 3:55pm, Kalshi stray positions |
+| Lab | `python -m bot.lab` | Saturdays | re-tests every bot on fresh data ("is the edge fading?") and runs one experiment from `fleet_data/lab_queue.txt` |
+| Reporter | `python -m bot.reporter` | Sundays | a plain-English report card per bot, grade A to D |
+| Summary | `python -m bot.popup --summary` | at logon | Medic's latest grades (PC and cloud) and the helpers' alerts since last time |
+
+Medic also replays bot 1's day through the backtest (did it trade when it should have?) and lists
+upcoming earnings for the fleet's stocks plus any dates in `fleet_events.json`
+(`[{"date": "2026-11-10", "what": "CPI"}]`). The helpers' alerts are PC popups (`bot.alerts`);
+set `ALERTS_PHONE=true` in `.env` to also get "act" alerts on the phone. No popups 11pm-7am ET (`ALERTS_QUIET=23-7`, or `off`); those wait for the next summary. Set all the tasks up with
+`Install fleet helpers.bat` (they catch up after the PC was asleep); undo with
+`powershell -File install_helpers.ps1 -Remove`.
+
+## Bots 2 and 3 in the cloud (GitHub Actions, free)
+
+`.github/workflows/cloud-bots.yml` runs bot 2 (weekdays ~9:52am ET), bot 3 (nightly ~8:20pm ET) and
+Scout + Medic for them on GitHub, so they run with the PC off. Their logs, state and Medic's results
+are saved on the `bot-state` branch (public, like the repo; keys never are). To turn it on:
+
+1. `Copy keys to GitHub.bat` (or `python set_cloud_keys.py`) copies bots 2 and 3's keys from `.env.rotation` / `.env.crypto` into the
+   repository's secrets (and bot 1's account number, and bot 2's month state) without showing them.
+2. Turn off the PC's tasks for bots 2 and 3, and put `{"2": {"runs_on": "cloud"}, "3": {"runs_on": "cloud"}}`
+   in the PC's `fleet.json`.
+3. Run it once from the Actions tab ("Cloud bots (paper)" > Run workflow > all).
+
+Scheduled runs only start once the workflow is on the default branch (main).
+
 ## Setup (about 10 minutes)
 
 1. **Install Python 3.11+**, then in this folder:

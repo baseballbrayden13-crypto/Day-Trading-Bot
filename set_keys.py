@@ -1,8 +1,15 @@
-"""Paste your Alpaca paper keys into .env without opening the file. Input is hidden."""
+"""Paste your Alpaca paper keys into .env (or another file with --file) without opening it. Input is hidden."""
 from getpass import getpass
 from pathlib import Path
 
-env = Path(__file__).with_name(".env")
+import sys
+
+# python set_keys.py                         -> the ORB bot's .env
+# python set_keys.py --file .env.rotation    -> bot 2's own paper account
+name = sys.argv[sys.argv.index("--file") + 1] if "--file" in sys.argv else ".env"
+env = Path(__file__).with_name(name)
+if not env.exists():
+    env.write_text("ALPACA_API_KEY=\nALPACA_SECRET_KEY=\n")
 key = getpass("Paste your Alpaca API key (hidden), then press Enter: ").strip()
 secret = getpass("Paste your Alpaca secret key (hidden), then press Enter: ").strip()
 
