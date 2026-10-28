@@ -1,0 +1,8 @@
+{
+  "1": {"skip": true},
+  "2": {"runs_on": "cloud", "env_file": ".env.rotation"},
+  "3": {"runs_on": "cloud", "env_file": ".env.crypto"},
+  "4": {"skip": true},
+  "4b": {"skip": true},
+  "4c": {"skip": true}
+}

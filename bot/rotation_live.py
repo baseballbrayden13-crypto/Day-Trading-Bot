@@ -57,6 +57,8 @@ def ensure_own_account(broker, bot1_file: Path = BOT1_ACCOUNT) -> str:
     Checks the number bot.live saved, and bot 1's keys in .env if they still work."""
     mine = broker.account_number()
     bot1 = {bot1_file.read_text().strip()} if bot1_file.exists() else set()
+    if os.getenv("BOT1_ACCOUNT", "").strip():  # set on GitHub Actions, where bot 1's files aren't
+        bot1.add(os.getenv("BOT1_ACCOUNT").strip())
     try:
         from dotenv import dotenv_values
         from alpaca.trading.client import TradingClient

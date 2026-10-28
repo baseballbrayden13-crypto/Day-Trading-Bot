@@ -18,6 +18,8 @@ Writes, in fleet_data/:
     market.csv            per symbol: last close, 1-day / 1-month change, above its 200-day average, volatility
     news.csv              last day's headlines for bot 1's stocks
     benchmarks.csv        day,symbol,close for SPY, BTC and ETH: what just holding would have done
+    events.csv            the next week's earnings for the fleet's stocks, plus dates in fleet_events.json (Fed, CPI...)
+It also replays bot 1's last trading day through the backtest (snapshot "replay") for Medic to compare.
 Medic, the maintenance bot (python -m bot.maintenance), reads these.
 """
 from __future__ import annotations
@@ -31,7 +33,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from .fleet import Bot, load
+from .fleet import Bot, host, load
 
 ET = ZoneInfo("America/New_York")
 OUT = Path("fleet_data")
@@ -342,6 +344,76 @@ def market_clock(client, now: datetime) -> dict:
             "trading_day": trading_day}
 
 
+# ---------------------------------------------------------------- Bot 1 replay
+
+def replay_bot1(now: datetime, loader=None) -> dict:
+    """Run the last trading day's real 5-minute bars through the backtest with bot 1's settings (.env),
+    so Medic can compare what the bot should have done with what it did."""
+    from .backtest import run_backtest
+    from .config import Settings
+    from .data import from_alpaca
+
+    cfg = Settings()
+    syms = list(dict.fromkeys(cfg.symbols + ([cfg.market_filter] if cfg.market_filter else [])))
+    frames = loader(syms) if loader else {s: from_alpaca(s, days=10, cfg=cfg) for s in syms}
+    frames = {s: df for s, df in frames.items() if len(df)}
+    if not frames:
+        return {"error": "no bars"}
+    day = max(df.index[-1] for df in frames.values()).tz_convert(ET).date()
+    res = run_backtest({s: frames[s] for s in cfg.symbols if s in frames}, cfg, 5_000,
+                       market=frames.get(cfg.market_filter) if cfg.market_filter else None)
+    log = res["trade_log"]
+    trades = [] if not len(log) else [
+        {"symbol": r.symbol, "entry_time": r.entry_time.isoformat(), "entry": round(float(r.entry), 4),
+         "exit": round(float(r.exit), 4), "pnl": round(float(r.pnl), 2), "exit_reason": r.exit_reason}
+        for r in log.itertuples() if r.entry_time.tz_convert(ET).date() == day]
+    return {"day": day.isoformat(), "strategy": cfg.strategy, "trades": trades}
+
+
+# ---------------------------------------------------------------- event calendar
+
+EVENTS_FILE = Path("fleet_events.json")  # [{"date": "2026-11-10", "what": "CPI"}, ...]: Fed days, CPI, jobs report
+
+
+def earnings(symbols: list[str], now: datetime, days: int = 7, fetch=None) -> list[dict]:
+    """Upcoming earnings for the fleet's stocks, from Nasdaq's public calendar (no key)."""
+    import requests
+
+    def get(day: str) -> list[dict]:
+        r = requests.get("https://api.nasdaq.com/api/calendar/earnings", params={"date": day}, timeout=15,
+                         headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"})
+        return ((r.json().get("data") or {}).get("rows")) or []
+
+    fetch = fetch or get
+    want, out = set(symbols), []
+    for i in range(days):
+        day = (now.astimezone(ET).date() + timedelta(days=i))
+        if day.weekday() >= 5:
+            continue
+        for row in fetch(day.isoformat()):
+            if row.get("symbol") in want:
+                out.append({"date": day.isoformat(), "what": f"{row['symbol']} earnings", "symbol": row["symbol"],
+                            "when": row.get("time", "")})
+    return out
+
+
+def calendar(bots: list[Bot], now: datetime, fetch=None, events_file: Path = EVENTS_FILE) -> tuple[list[dict], list[str]]:
+    errors, out = [], []
+    stocks = sorted({s for b in bots for s in b.symbols if "/" not in s} - set(("SPY", "QQQ", "IWM", "EFA", "EEM", "XLK", "XLF", "XLE",
+                                                                                "XLV", "XLI", "XLY", "XLP", "XLU", "GLD", "TLT")))
+    try:
+        out += earnings(stocks, now, fetch=fetch)
+    except Exception as e:
+        errors.append(f"earnings calendar: {type(e).__name__}: {e}"[:300])
+    if events_file.exists():
+        try:
+            today = now.astimezone(ET).date().isoformat()
+            out += [e for e in json.loads(events_file.read_text()) if e.get("date", "") >= today]
+        except ValueError as e:
+            errors.append(f"{events_file.name}: {e}"[:300])
+    return sorted(out, key=lambda e: e["date"]), errors
+
+
 # ---------------------------------------------------------------- Windows scheduled tasks
 
 TASKS_PS = (
@@ -403,6 +475,14 @@ def collect(bots: list[Bot], now: datetime, days: int = 30, with_market: bool = 
     if with_market:
         snap["market"], errs = market(bots, now)
         snap["errors"] += errs
+        snap["events"], errs = calendar(bots, now)
+        snap["errors"] += errs
+        b1 = next((b for b in bots if b.num == 1 and b.runs_on == host()), None)
+        if b1 is not None and "account" in snap["bots"].get("1", {}) and snap.get("clock", {}).get("trading_day"):
+            try:
+                snap["replay"] = replay_bot1(now)
+            except Exception as e:
+                snap["errors"].append(f"bot 1 replay: {type(e).__name__}: {e}"[:300])
     return snap
 
 
@@ -465,6 +545,7 @@ def save(snap: dict, out: Path = OUT) -> None:
     _write_csv(out / "market.csv", m.get("symbols", []),
                ["symbol", "day", "close", "chg_1d_pct", "chg_1m_pct", "above_50d", "above_200d", "vol_20d_pct"])
     _write_csv(out / "news.csv", m.get("news", []), ["symbol", "time", "headline", "source"])
+    _write_csv(out / "events.csv", snap.get("events", []), ["date", "what", "symbol", "when"])
     bench = {(r["day"], r["symbol"]): r for r in _read_csv(out / "benchmarks.csv")}
     bench.update({(r["day"], r["symbol"]): r for r in m.get("benchmarks", [])})
     _write_csv(out / "benchmarks.csv", sorted(bench.values(), key=lambda r: (r["day"], r["symbol"])), ["day", "symbol", "close"])

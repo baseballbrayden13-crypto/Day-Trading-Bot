@@ -6,14 +6,24 @@ Defaults match the 2026-10-27 lineup. To change an account, a folder or a limit 
 code, put overrides in fleet.json next to .env, keyed by bot number, e.g.
 
     {"4": {"home": "C:/Users/baseb/Downloads/kalshi-run"}, "4b": {"home": "C:/.../kalshi-maker"}, "1": {"account": "QIE2"}}
+
+Bots 2 and 3 can run on GitHub Actions instead (.github/workflows/cloud-bots.yml); then fleet.json on
+the PC says {"2": {"runs_on": "cloud"}, "3": {"runs_on": "cloud"}} so the PC's Medic doesn't expect
+their logs there, and the cloud copy (cloud/fleet.json) skips the PC-only bots.
 """
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import dataclass, field, replace
 from pathlib import Path
 
 CONFIG = Path("fleet.json")
+
+
+def host() -> str:
+    """Where Scout and Medic are running: "pc" (default) or "cloud" (set FLEET_HOST=cloud in GitHub Actions)."""
+    return os.getenv("FLEET_HOST", "pc").strip().lower() or "pc"
 
 
 @dataclass(frozen=True)
@@ -43,6 +53,9 @@ class Bot:
     err_log: str = ""  # where its scheduled task sends crashes (stdout goes to the normal log)
     stale_minutes: int = 0  # a looping bot whose log or summary is older than this has stopped; 0 = use the schedule
     optional: bool = False  # not set up yet: no files and no task = "not set up", not a problem
+    max_position_share: float = 1.0  # Guard: one holding bigger than this share of the bot's equity is out of line
+    runs_on: str = "pc"  # "pc" or "cloud" (GitHub Actions); Scout/Medic only check logs and tasks where it runs
+    skip: bool = False  # leave this bot out entirely on this machine (e.g. the cloud has no keys for it)
     extra: dict = field(default_factory=dict, compare=False, hash=False)
 
     def path(self, name: str) -> Path:
@@ -59,18 +72,18 @@ FLEET: list[Bot] = [
     Bot(1, "ORB day trader", "alpaca", ".env", "QIE2", "trades.log", days="weekdays", runs_at="09:20",
         task="Trading bot (paper)", always_on=True,
         # Tuned ORB, 3 years: worst drop 2.6%, out-of-sample PF 1.22. Risk halt at -2% a day.
-        max_drawdown_pct=2.6, max_day_loss_pct=2.0, min_profit_factor=1.0, min_trades=30,
+        max_drawdown_pct=2.6, max_day_loss_pct=2.0, min_profit_factor=1.0, min_trades=30, max_position_share=0.25,
         symbols=("SPY", "QQQ", "AAPL", "MSFT", "NVDA"),
         notes="Flat by 3:50pm every day; any position after the close is a problem."),
     Bot(2, "ETF rotation", "alpaca", ".env.rotation", "8T7Y", "rotation.log", days="weekdays", runs_at="09:50",
         task="Trading bot 2",
         # 20 years top 3 / 3 months / cash: 9.6%/yr, worst drop -26%.
-        max_drawdown_pct=26.0, max_day_loss_pct=6.0, min_profit_factor=0, min_trades=0,
+        max_drawdown_pct=26.0, max_day_loss_pct=6.0, min_profit_factor=0, min_trades=0, max_position_share=0.40,
         symbols=ROTATION_ETFS, notes="Trades once a month; holdings should match rotation_state.json."),
     Bot(3, "Crypto trend", "alpaca", ".env.crypto", "KTS7", "crypto.log", days="daily", runs_at="20:15",
         task="Trading bot 3 (crypto, paper)",
         # 12 years BTC/ETH above the 50-day: worst drops -29% to -60%.
-        max_drawdown_pct=45.0, max_day_loss_pct=15.0, min_profit_factor=0, min_trades=0,
+        max_drawdown_pct=45.0, max_day_loss_pct=15.0, min_profit_factor=0, min_trades=0, max_position_share=0.60,
         symbols=("BTC/USD", "ETH/USD"), notes="Holds a coin only while it closes above its 50-day average."),
     Bot(4, "Kalshi paper", "kalshi", ".env.kalshi", "", "kalshi_paper.log", days="daily", runs_at="00:00",
         task="Trading bot 4 (Kalshi, paper)", always_on=True, stale_minutes=180,
@@ -102,7 +115,7 @@ def load(config: Path = CONFIG) -> list[Bot]:
         known = {k: (tuple(tuple(r) for r in v) if k == "runs" else tuple(v) if k == "symbols" else v) for k, v in o.items() if k in names and k != "extra"}
         extra = {k: v for k, v in o.items() if k not in names}
         out.append(replace(b, **known, extra={**b.extra, **extra}))
-    return out
+    return [b for b in out if not b.skip]
 
 
 def by_num(bots: list[Bot]) -> dict[int, Bot]:

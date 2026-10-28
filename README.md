@@ -153,6 +153,36 @@ On Windows it also reads each bot's scheduled task (running or not, last result 
 catches a bot whose window was closed even when its log looks fine. Schedule it once a day after
 bot 3's 8:15pm run with `Run fleet maintenance.bat` (the command to register it is inside).
 
+## More helpers: Guard, Lab, Reporter (read-only)
+
+| Helper | Command | When | What it does |
+|---|---|---|---|
+| Guard | `python -m bot.guard --loop 10 --until 16:10` | weekdays 9:25am | every 10 minutes: daily loss near or past each bot's limit, the whole fleet down 2%, a holding too big, a short, bot 1 holding after 3:55pm, Kalshi stray positions |
+| Lab | `python -m bot.lab` | Saturdays | re-tests every bot on fresh data ("is the edge fading?") and runs one experiment from `fleet_data/lab_queue.txt` |
+| Reporter | `python -m bot.reporter` | Sundays | a plain-English report card per bot, grade A to D |
+| Summary | `python -m bot.popup --summary` | at logon | Medic's latest grades (PC and cloud) and the helpers' alerts since last time |
+
+Medic also replays bot 1's day through the backtest (did it trade when it should have?) and lists
+upcoming earnings for the fleet's stocks plus any dates in `fleet_events.json`
+(`[{"date": "2026-11-10", "what": "CPI"}]`). The helpers' alerts are PC popups (`bot.alerts`);
+set `ALERTS_PHONE=true` in `.env` to also get "act" alerts on the phone. Set all the tasks up with
+`Install fleet helpers.bat` (they catch up after the PC was asleep); undo with
+`powershell -File install_helpers.ps1 -Remove`.
+
+## Bots 2 and 3 in the cloud (GitHub Actions, free)
+
+`.github/workflows/cloud-bots.yml` runs bot 2 (weekdays ~9:52am ET), bot 3 (nightly ~8:20pm ET) and
+Scout + Medic for them on GitHub, so they run with the PC off. Their logs, state and Medic's results
+are saved on the `bot-state` branch (public, like the repo; keys never are). To turn it on:
+
+1. `python set_cloud_keys.py` copies bots 2 and 3's keys from `.env.rotation` / `.env.crypto` into the
+   repository's secrets (and bot 1's account number, and bot 2's month state) without showing them.
+2. Turn off the PC's tasks for bots 2 and 3, and put `{"2": {"runs_on": "cloud"}, "3": {"runs_on": "cloud"}}`
+   in the PC's `fleet.json`.
+3. Run it once from the Actions tab ("Cloud bots (paper)" > Run workflow > all).
+
+Scheduled runs only start once the workflow is on the default branch (main).
+
 ## Setup (about 10 minutes)
 
 1. **Install Python 3.11+**, then in this folder:

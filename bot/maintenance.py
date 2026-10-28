@@ -2,7 +2,7 @@
 
     python -m bot.maintenance             # check the data bot's latest snapshot
     python -m bot.maintenance --collect   # run the data bot first, then check
-    python -m bot.maintenance --alert     # also push one summary to the phone (NTFY_TOPIC in .env)
+    python -m bot.maintenance --alert     # also pop up a summary on the PC when something needs a look (bot.alerts)
 
 It reads fleet_data/ (written by Scout, python -m bot.data_bot) and compares each bot with what its
 backtest says is normal (limits in bot.fleet). Each finding is one of:
@@ -33,7 +33,7 @@ from pathlib import Path
 from types import SimpleNamespace
 from zoneinfo import ZoneInfo
 
-from .fleet import Bot, by_num, load
+from .fleet import Bot, by_num, host, load
 
 ET = ZoneInfo("America/New_York")
 OUT = Path("fleet_data")
@@ -120,10 +120,13 @@ def check_connection(bot: Bot, s: dict) -> list[Finding]:
     if any("no Alpaca keys" in e for e in errs):
         return [Finding(bot.num, "act", "keys", f"No Alpaca keys in {bot.env_file}, so the bot can't trade.",
                         f"Run python set_keys.py --file {bot.env_file} with keys from paper account ...{bot.account}.")]
-    if any(w in e.lower() for e in errs for w in ("401", "unauthorized", "forbidden", "403")):
-        out.append(Finding(bot.num, "act", "keys", f"Alpaca rejected bot {bot.num}'s keys: {errs[0]}",
+    network = ("proxy", "connection", "timeout", "timed out", "name resolution", "max retries")
+    rejected = [e for e in errs if any(w in e.lower() for w in ("401", "unauthorized", "forbidden", "403"))
+                and not any(w in e.lower() for w in network)]
+    if rejected:
+        out.append(Finding(bot.num, "act", "keys", f"Alpaca rejected bot {bot.num}'s keys: {rejected[0]}",
                            f"Make new keys on paper account ...{bot.account} (pick it top-left in Alpaca first) and run "
-                           f"python set_keys.py --file {bot.env_file}. Making keys on the wrong account revokes that account's keys."))
+                           f"python set_keys.py --file {bot.env_file}" + (" then python set_cloud_keys.py" if bot.runs_on == "cloud" else "") + ". Making keys on the wrong account revokes that account's keys."))
     elif errs:
         out.append(Finding(bot.num, "watch", "data", f"Couldn't read everything from Alpaca: {'; '.join(errs)[:300]}",
                            "Usually a network blip. If it repeats tomorrow, check the keys and Alpaca's status page."))
@@ -183,7 +186,8 @@ def check_schedule(bot: Bot, s: dict, now: datetime, trading_today: bool | None,
         return []  # a loop's log can sit still for hours; check_task looks at the task instead
     if not lg.get("exists"):
         return [Finding(bot.num, "act", "schedule", f"{bot.log_file} doesn't exist in {bot.home}, so bot {bot.num} has never run here.",
-                        "Check its Windows scheduled task, or set this bot's home folder in fleet.json.")]
+                        "Check its Windows scheduled task, or set this bot's home folder in fleet.json." if bot.runs_on == "pc" else
+                        "Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.")]
     due = last_due(bot, now, trading_today)
     seen = _t(lg.get("modified", ""))
     if seen is None or seen < due:
@@ -192,7 +196,8 @@ def check_schedule(bot: Bot, s: dict, now: datetime, trading_today: bool | None,
         return [Finding(bot.num, "act" if missed else "watch", "schedule",
                         f"Bot {bot.num} should have run by {due:%a %H:%M} ET but its log last changed {seen:%a %m/%d %H:%M}." if seen else
                         f"Bot {bot.num}'s log has no timestamp.",
-                        "Check its Windows scheduled task (last run result), that the PC was awake, and the end of the log for a crash.")]
+                        "Check its Windows scheduled task (last run result), that the PC was awake, and the end of the log for a crash."
+                        if bot.runs_on == "pc" else "Check the Cloud bots runs on GitHub (Actions tab) for a failed or skipped run.")]
     return []
 
 
@@ -397,6 +402,50 @@ def check_benchmark(bot: Bot, equity_rows: list[dict], bench: list[dict]) -> lis
     return [Finding(bot.num, "info", "vs hold", f"Since {first}: bot {mine:+.1f}% vs just holding {' + '.join(pick)} {hold:+.1f}%.")]
 
 
+def check_replay(snap: dict, trades: list[dict]) -> list[Finding]:
+    """Bot 1's real day vs the backtest on the same bars: missed or unexpected entries point at a live bug."""
+    rp = snap.get("replay") or {}
+    if not rp.get("day"):
+        return []
+    day = rp["day"]
+    live = {}
+    for t in trades:
+        if str(t["bot"]) == "1" and t["side"] == "buy" and _t(t["time"]) and _t(t["time"]).astimezone(ET).date().isoformat() == day:
+            live.setdefault(t["symbol"], []).append(t)
+    test = {}
+    for t in rp.get("trades", []):
+        test.setdefault(t["symbol"], []).append(t)
+    out = []
+    for sym in sorted(set(test) | set(live)):
+        n_test, n_live = len(test.get(sym, [])), len(live.get(sym, []))
+        if n_test > n_live:
+            t = test[sym][n_live]
+            out.append(Finding(1, "watch", "replay", f"On {day} the backtest would have bought {sym} at "
+                               f"{_t(t['entry_time']).astimezone(ET):%H:%M} (~${t['entry']:.2f}) but bot 1 didn't.",
+                               "Check trades.log that day: was it running, did a risk limit block it, or did the live data differ?"))
+        elif n_live > n_test:
+            out.append(Finding(1, "watch", "replay", f"On {day} bot 1 bought {sym} {n_live - n_test} more time(s) than the backtest would have.",
+                               "Check trades.log for that entry's reason; live and backtest should agree."))
+        else:
+            for lt, bt in zip(live.get(sym, []), test.get(sym, [])):
+                bps = (float(lt["price"]) / bt["entry"] - 1) * 10_000
+                if abs(bps) > 25:
+                    out.append(Finding(1, "info", "replay", f"{sym} on {day}: live entry ${float(lt['price']):.2f} vs backtest "
+                                       f"${bt['entry']:.2f} ({bps:+.0f} bps)."))
+    if not out:
+        out.append(Finding(1, "ok", "replay", f"{day}: bot 1 did what the backtest would have ({sum(map(len, test.values()))} entries)."))
+    return out
+
+
+def check_events(snap: dict, now: datetime) -> list[Finding]:
+    soon = now.astimezone(ET).date() + timedelta(days=3)
+    up = [e for e in snap.get("events", []) if e["date"] <= soon.isoformat()]
+    if not up:
+        return []
+    return [Finding(0, "info", "events", "Coming up: " + "; ".join(f"{e['what']} {datetime.fromisoformat(e['date']):%a %m/%d}"
+                                                                    for e in up[:8]) + ". Odd results around these days are normal.")]
+
+
 def check_fleet(snap: dict, bots: list[Bot], now: datetime) -> list[Finding]:
     out = []
     taken = _t(snap.get("taken", ""))
@@ -429,6 +478,7 @@ def safely(fn, num: int, *args) -> list[Finding]:
 def run_checks(snap: dict, bots: list[Bot], equity_rows: list[dict], trades: list[dict], now: datetime,
                bench: list[dict] = (), err_seen: dict | None = None) -> list[Finding]:
     findings = safely(check_fleet, 0, snap, bots, now) + safely(check_crashes, 0, snap, bots, now, err_seen)
+    findings += safely(check_events, 0, snap, now) + safely(check_replay, 1, snap, trades)
     trading_today = snap.get("clock", {}).get("trading_day")
     tasks = snap.get("tasks", [])
     for b in bots:
@@ -442,10 +492,12 @@ def run_checks(snap: dict, bots: list[Bot], equity_rows: list[dict], trades: lis
         if b.kind == "kalshi":
             findings += safely(check_kalshi, b.num, b, s, now) + safely(check_task, b.num, b, tasks, snap, now)
             continue
-        found = safely(check_connection, b.num, b, s) + safely(check_task, b.num, b, tasks, snap, now)
-        found += safely(lambda: check_schedule(b, s, now, trading_today, find_task(b, tasks)), b.num)
-        found += safely(check_log, b.num, b, s.get("log") or {}) + safely(check_risk, b.num, b, s, equity_rows)
-        found += safely(check_holdings, b.num, b, s, snap, now) + safely(check_performance, b.num, b, trades, s)
+        found = safely(check_connection, b.num, b, s)
+        if b.runs_on == host():  # its logs, task and state files are on this machine
+            found += safely(check_task, b.num, b, tasks, snap, now)
+            found += safely(lambda: check_schedule(b, s, now, trading_today, find_task(b, tasks)), b.num)
+            found += safely(check_log, b.num, b, s.get("log") or {}) + safely(check_holdings, b.num, b, s, snap, now)
+        found += safely(check_risk, b.num, b, s, equity_rows) + safely(check_performance, b.num, b, trades, s)
         found += safely(check_benchmark, b.num, b, equity_rows, bench)
         findings += found
     return findings
@@ -593,7 +645,7 @@ def _write_csv(path: Path, rows: list[dict], fields: list[str]) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description="Medic, the maintenance bot: check every bot (read-only)")
     ap.add_argument("--collect", action="store_true", help="run Scout (the data bot) first")
-    ap.add_argument("--alert", action="store_true", help="push one summary to the phone")
+    ap.add_argument("--alert", action="store_true", help="pop up a summary when something needs a look")
     args = ap.parse_args()
     bots = load()
     now = datetime.now(timezone.utc)
@@ -619,21 +671,21 @@ def main() -> None:
         "checked": now.isoformat(timespec="seconds"),
         "status": {str(n): status(findings, n) for n in [0] + [b.num for b in bots]},
         "findings": [asdict(f) for f in findings]}, indent=1))
+    day = now.astimezone(ET).date().isoformat()  # one row per day, the day's last check (Reporter reads it)
+    hist = [r for r in _read_csv(OUT / "medic_history.csv") if r["day"] != day]
+    hist.append({"day": day, "status": json.dumps({str(n): status(findings, n) for n in [0] + [b.num for b in bots]})})
+    _write_csv(OUT / "medic_history.csv", hist, ["day", "status"])
     _write_csv(OUT / "proposals.csv", proposals(findings, bots, now), ["id", "date", "area", "title", "what", "why", "status", "risk", "undo"])
     health, rows = site_rows(findings, bots, now)
     _write_csv(OUT / "health.csv", health, ["checked", "bot", "label", "name", "status", "headline"])
     _write_csv(OUT / "findings.csv", rows, ["checked", "bot", "label", "level", "check", "message", "fix"])
     print(text)
     if args.alert:
-        from dotenv import dotenv_values
+        from .alerts import notify
 
-        from .notify import send
-
-        topic = (dotenv_values(".env").get("NTFY_TOPIC") or "").strip() if Path(".env").exists() else ""
         fresh = new_alerts(findings, OUT / "alerted.json", now)
         title, body, priority = digest(findings, bots, fresh)
-        send(SimpleNamespace(ntfy_topic=topic), title, body, priority)
-
+        notify("medic", title, body, "act" if priority == "high" else "info" if priority == "low" else "watch")
 
 if __name__ == "__main__":
     main()
