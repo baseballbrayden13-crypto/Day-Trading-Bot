@@ -13,3 +13,11 @@
 2026-10-28 03:00:01,473 INFO Swept 15117 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-28 03:05:02,540 INFO Swept 15113 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-28 03:10:05,512 INFO Swept 15129 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 03:15:07,942 INFO Swept 15157 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 03:20:15,835 INFO PAPER rest NO bid KXMLBWSOUTCOME-26-MILTB at $0.0800 x20 (28 already bid at that price)
+2026-10-28 03:20:15,835 INFO Resting NO bid on KXMLBWSOUTCOME-26-MILTB at $0.08 x20 (KXMLBWSOUTCOME-26): locks in $0.24 if it fills; hedge NO TBMIL@0.9000
+2026-10-28 03:20:15,836 INFO Swept 15221 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 03:25:16,418 INFO Swept 15231 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 03:30:16,637 INFO Swept 15236 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 03:35:21,565 INFO Swept 15240 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 03:40:22,636 INFO Swept 15250 events: 0 taker trades, 0 new quotes, 1 resting
