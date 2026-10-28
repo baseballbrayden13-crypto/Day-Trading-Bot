@@ -29,6 +29,7 @@ import gzip
 import json
 import logging
 import os
+import sys
 import time
 import uuid
 from datetime import datetime, timezone
@@ -54,6 +55,8 @@ def _main_env(name: str) -> str:
     return (dotenv_values(".env").get(name) or "").strip() if Path(".env").exists() else ""
 
 
+LAST_PRICES: datetime | None = None
+PRICE_EVERY = 15  # minutes between price snapshots, however often the bot sweeps
 MODE = "scan"  # "demo" or "paper" once main() picks, for alert titles
 NTFY = ""
 
@@ -275,6 +278,9 @@ def log_prices(events: list[dict], when: datetime) -> None:
             w.writerow(["time", "series", "event", "ticker", "yes_bid", "yes_ask", "last", "volume_24h", "open_interest", "close_time"])
         for e in events:
             for m in e.get("markets", []):
+                bid, ask = float(m.get("yes_bid_dollars") or 0), float(m.get("yes_ask_dollars") or 1)
+                if bid <= 0 and ask >= 1:
+                    continue  # nobody quoting: nothing to learn, and most markets are like this
                 w.writerow([when.isoformat(timespec="seconds"), e.get("series_ticker", ""), e.get("event_ticker", ""),
                             m.get("ticker", ""), m.get("yes_bid_dollars", ""), m.get("yes_ask_dollars", ""),
                             m.get("last_price_dollars", ""), m.get("volume_24h_fp", ""), m.get("open_interest_fp", ""),
@@ -352,9 +358,10 @@ def settle(api: Kalshi, state: dict) -> None:
 
 def free_budget(cfg: dict, state: dict) -> Decimal:
     """The current bet level (see bot.kalshi.stake: KALSHI_BUDGET, stepping up 25% per 25% of settled
-    growth) minus what's tied up in open baskets."""
+    growth) minus what's tied up in open baskets and reserved by resting maker quotes (bot.kalshi_maker)."""
     level = stake(cfg["budget"], D(state["realized"]), sum(1 for c in state["closed"] if c.get("sets", 1) > 0), cfg["step"], cfg["min_settled"])
-    return level - sum((D(b["outlay"]) for b in state["open"]), D(0))
+    quotes = sum((D(q["reserve"]) * (q["sets"] - q["done"]) / q["sets"] for q in state.get("quotes", [])), D(0))
+    return level - sum((D(b["outlay"]) for b in state["open"]), D(0)) - quotes
 
 
 def execute(api: Kalshi, b: Basket, state: dict | None = None) -> bool:
@@ -402,8 +409,12 @@ def trade(api: Kalshi, cfg: dict, baskets: list[Basket]) -> set[str]:
     held = {b["event"] for b in state["open"]}
     locked = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
     if len(locked) > cfg["max_found"]:  # free money is rare; dozens at once means the bot misread markets
-        log.error("%d locked-in trades in one sweep is too good to be true. Trading nothing; check the opportunities log.", len(locked))
-        alert("paused: too good to be true", f"{len(locked)} 'locked-in' trades in one sweep. Nothing traded.", "high")
+        msg = "%d locked-in trades in one sweep is too good to be true. Trading nothing; check the opportunities log."
+        if getattr(api, "base", "") == URLS["demo"]:  # demo books are thin junk, so this trips there routinely
+            log.warning(msg, len(locked))
+        else:
+            log.error(msg, len(locked))
+            alert("paused: too good to be true", f"{len(locked)} 'locked-in' trades in one sweep. Nothing traded.", "high")
         save_state(state)
         return set()
     traded = set()
@@ -418,6 +429,56 @@ def trade(api: Kalshi, cfg: dict, baskets: list[Basket]) -> set[str]:
             save_state(state)
     save_state(state)
     return traded
+
+
+_LOCK = None
+
+
+def single_instance(name: str) -> None:
+    """Exit if another copy of this mode is already running in this folder. The OS releases the
+    lock when the process ends, however it ends, so a crash never leaves it stuck."""
+    global _LOCK
+    _LOCK = open(f".{name}.lock", "a+")
+    try:
+        if os.name == "nt":
+            import msvcrt
+
+            _LOCK.seek(0)
+            msvcrt.locking(_LOCK.fileno(), msvcrt.LK_NBLCK, 1)
+        else:
+            import fcntl
+
+            fcntl.flock(_LOCK.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        raise SystemExit(f"Another Kalshi bot ({name}) is already running in this folder.")
+
+
+_BEAT = time.monotonic()
+
+
+def heartbeat() -> None:
+    """Call once per finished loop pass; the watchdog restarts the bot if it stops being called."""
+    global _BEAT
+    _BEAT = time.monotonic()
+
+
+def start_watchdog(minutes: float = 20.0, exit_code: int = 3) -> None:
+    """Kill the process if the loop hasn't finished a pass for `minutes`. A DNS lookup or TLS handshake
+    can hang forever after a network outage (requests' timeout doesn't cover them), and a hung bot
+    looks alive. Exiting lets the run_*.bat wrapper start a fresh copy."""
+    import threading
+
+    def watch():
+        while True:
+            time.sleep(60)
+            idle = (time.monotonic() - _BEAT) / 60
+            if idle > minutes:
+                log.error("No loop pass finished in %.0f minutes (network hang?). Exiting so the task restarts me.", idle)
+                logging.shutdown()
+                os._exit(exit_code)
+
+    heartbeat()
+    threading.Thread(target=watch, daemon=True, name="watchdog").start()
 
 
 class _Problems(logging.Handler):
@@ -443,7 +504,7 @@ def write_summary(cfg: dict, mode: str, events: list[dict], good: list[Basket], 
     closed = [c for c in state["closed"] if c.get("sets", 1) > 0]
     realized = D(state["realized"])
     s = {
-        "updated": when.isoformat(timespec="seconds"), "mode": mode, "env": cfg["env"] if mode == "demo" else "prod-prices",
+        "updated": when.isoformat(timespec="seconds"), "mode": mode, "env": cfg["env"] if mode in ("demo", "maker") else "prod-prices",
         "start_budget": str(cfg["budget"]), "min_profit": str(cfg["min_profit"]),
         "equity": f"{cfg['budget'] + realized:.2f}", "realized_profit": f"{realized:.2f}",
         "bet_level": f"{stake(cfg['budget'], realized, len(closed), cfg['step'], cfg['min_settled']):.2f}",
@@ -492,9 +553,12 @@ def main() -> None:
         STATE = Path("kalshi_paper_state.json")
     logname = "kalshi_demo.log" if args.trade else "kalshi_paper.log" if args.paper else "kalshi.log"
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
-                        handlers=[logging.StreamHandler(), logging.FileHandler(logname)])
+                        handlers=[logging.StreamHandler(sys.stdout), logging.FileHandler(logname)])
     cfg = load_settings()
     MODE = "demo" if args.trade else "paper" if args.paper else "scan"
+    if args.loop and MODE != "scan":
+        single_instance(f"kalshi-{MODE}")
+        start_watchdog(max(20.0, args.loop * 2 + 10))
     NTFY = cfg["ntfy_topic"] if MODE != "scan" else ""
     if args.scorecard:
         path = DATA / "scorecard.csv"
@@ -512,30 +576,35 @@ def main() -> None:
         api = Kalshi("prod")  # real prices, public data, never signs or places orders
     trading = args.trade or args.paper
     while True:
-        when = datetime.now(timezone.utc)
-        budget = free_budget(cfg, load_state()) if trading else cfg["budget"]
         try:
-            events, baskets = sweep(api, cfg, max(budget, D(0)))
-        except Exception as err:  # Kalshi down or a bug: say so, wait, try again
-            log.error("Sweep failed: %s", err)
-            alert("error", f"Sweep failed: {err}"[:300], "high")
+            loop_once(api, cfg, args, trading)
+        except Exception as err:  # Kalshi down or a bug: log the traceback, alert, wait, try again
+            log.exception("Loop failed: %s", err)
+            alert("error", f"Loop failed: {err}"[:300], "high")
             if not args.loop:
                 raise
-            time.sleep(args.loop * 60)
-            continue
-        traded = trade(api, cfg, baskets) if trading else set()
-        log_prices(events, when)
-        log_baskets(baskets, traded, when, cfg["min_profit"])
-        ranked = update_scorecard(events, baskets, cfg["min_profit"])
-        good = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
-        log.info("Swept %d events (%d markets): %d locked-in baskets worth $%s+, %d traded. Top series: %s",
-                 len(events), sum(len(e.get("markets", [])) for e in events), len(good), cfg["min_profit"], len(traded),
-                 ", ".join(r["series"] for r in ranked[:5] if int(r["opportunities"])) or "none yet")
-        write_summary(cfg, "demo" if args.trade else "paper" if args.paper else "scan", events, good, traded, ranked, when)
+        heartbeat()
         if not args.loop:
             return
         time.sleep(args.loop * 60)
 
+
+def loop_once(api: Kalshi, cfg: dict, args, trading: bool) -> None:
+    when = datetime.now(timezone.utc)
+    budget = free_budget(cfg, load_state()) if trading else cfg["budget"]
+    events, baskets = sweep(api, cfg, max(budget, D(0)))
+    traded = trade(api, cfg, baskets) if trading else set()
+    global LAST_PRICES
+    if LAST_PRICES is None or (when - LAST_PRICES).total_seconds() >= PRICE_EVERY * 60:  # keeps the log a sane size
+        log_prices(events, when)
+        LAST_PRICES = when
+    log_baskets(baskets, traded, when, cfg["min_profit"])
+    ranked = update_scorecard(events, baskets, cfg["min_profit"])
+    good = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
+    log.info("Swept %d events (%d markets): %d locked-in baskets worth $%s+, %d traded. Top series: %s",
+             len(events), sum(len(e.get("markets", [])) for e in events), len(good), cfg["min_profit"], len(traded),
+             ", ".join(r["series"] for r in ranked[:5] if int(r["opportunities"])) or "none yet")
+    write_summary(cfg, "demo" if args.trade else "paper" if args.paper else "scan", events, good, traded, ranked, when)
 
 if __name__ == "__main__":
     main()
