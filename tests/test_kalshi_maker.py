@@ -237,3 +237,34 @@ def test_quotes_need_real_trade_flow(monkeypatch, tmp_path):
     quiet.quiet = True  # no trade in the last hour
     assert km.find_quotes(_flow_events("500"), cfg, D(20), set(), busy)
     assert km.find_quotes(_flow_events("500"), cfg, D(20), set(), quiet) == []
+
+
+def test_per_quote_cap_limits_each_quote(monkeypatch, tmp_path):
+    monkeypatch.setattr(kl, "STATE", tmp_path / "state.json")
+    mk = lambda t: {"ticker": t, "status": "active", "close_time": SOON, "yes_bid_dollars": str(1 - ASKS[t][0][0]),
+                    "yes_bid_size_fp": "10", "yes_ask_dollars": str(1 - BIDS[t]), "yes_ask_size_fp": "10", "volume_24h_fp": "500"}
+    events = [{**EVENT, "mutually_exclusive": True, "markets": [mk(t) for t in ASKS]}]
+    books = {t: {"yes_dollars": [[str(1 - ASKS[t][0][0]), "10"]], "no_dollars": [[str(BIDS[t]), "10"]]} for t in ASKS}
+    cfg = {**CFG, "budget": D(20), "step": D(0), "min_settled": 5, "max_days": 60, "min_profit": D("0.03")}
+    assert km.place(FakeApi(books=books), {**cfg, "max_per_quote": D(5)}, events) == 1
+    assert D(kl.load_state()["quotes"][0]["reserve"]) <= 5
+    monkeypatch.setattr(kl, "STATE", tmp_path / "state2.json")
+    assert km.place(FakeApi(books=books), {**cfg, "max_per_quote": D(0)}, events) == 1  # 0 = no cap
+    assert D(kl.load_state()["quotes"][0]["reserve"]) > 5
+
+
+def test_safest_bet_is_booked_once_in_its_own_state(tmp_path, monkeypatch):
+    from datetime import datetime, timezone
+
+    from bot import kalshi_bets as kb
+    from bot import kalshi_maker as km
+
+    monkeypatch.setattr(kb, "STATE", tmp_path / "s.json")
+    monkeypatch.setattr(kb, "DATA", tmp_path / "d")
+    when = datetime(2026, 10, 28, 20, 0, tzinfo=timezone.utc)
+    m = {"ticker": "B", "status": "active", "yes_bid_dollars": "0.96", "yes_ask_dollars": "0.97", "volume_24h_fp": "500",
+         "close_time": "2026-10-29T02:00:00Z"}
+    ev = [{"event_ticker": "E", "series_ticker": "S", "markets": [m]}]
+    km.safest_bet(ev, {"budget": D(20)}, when)
+    km.safest_bet(ev, {"budget": D(20)}, when)
+    assert len(kb.load_state()["open"]) == 1

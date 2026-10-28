@@ -72,6 +72,11 @@ def alert(title: str, message: str, priority: str = "default") -> None:
     send(SimpleNamespace(ntfy_topic=NTFY), f"Kalshi bot ({MODE}): {title}", message, priority)
 
 
+PROD_MAX_BUDGET = D("20")   # real money: the bot can never be given more than this, whatever the env file says
+PROD_MAX_BASKET = D("5")    # ...or put more than this into one basket
+PROD_STOP_LOSS = D("3")     # ...and stops trading for good once realized losses reach this
+
+
 def load_settings() -> dict:
     from dotenv import load_dotenv
 
@@ -82,7 +87,7 @@ def load_settings() -> dict:
         raise SystemExit(f"KALSHI_ENV must be demo or prod, not {env!r}")
     if env == "prod" and os.getenv("KALSHI_LIVE_CONFIRM", "") != "I_UNDERSTAND_REAL_MONEY":
         raise SystemExit("KALSHI_ENV=prod trades real money and also needs KALSHI_LIVE_CONFIRM=I_UNDERSTAND_REAL_MONEY.")
-    return {
+    cfg = {
         "env": env,
         "key_id": os.getenv("KALSHI_KEY_ID", "").strip(),
         "key_file": os.getenv("KALSHI_KEY_FILE", "kalshi_key.pem").strip(),
@@ -95,6 +100,11 @@ def load_settings() -> dict:
         "max_found": int(os.getenv("KALSHI_MAX_FOUND", "10")),  # more than this per sweep = something's wrong, trade nothing
         "ntfy_topic": os.getenv("NTFY_TOPIC") or _main_env("NTFY_TOPIC"),  # phone alerts, same topic as the other bots
     }
+    if env == "prod":  # hard limits for real money: the env file can lower these but never raise them
+        cfg["budget"] = min(cfg["budget"], PROD_MAX_BUDGET)
+        cfg["step"] = D(0)  # no stepping the bet size up with profits
+        cfg["min_profit"] = max(cfg["min_profit"], D("0.10"))
+    return cfg
 
 
 class Kalshi:
@@ -409,6 +419,13 @@ def trade(api: Kalshi, cfg: dict, baskets: list[Basket]) -> set[str]:
     state = load_state()
     settle(api, state)
     budget = min(free_budget(cfg, state), api.balance())
+    if cfg.get("env") == "prod":
+        if D(state["realized"]) <= -PROD_STOP_LOSS:
+            log.error("Real-money stop-loss hit (realized $%s). Trading nothing until brayden resets it.", state["realized"])
+            alert("real money stopped", f"Realized ${state['realized']}: stop-loss ${PROD_STOP_LOSS} reached. No more trades.", "high")
+            save_state(state)
+            return set()
+        budget = min(budget, PROD_MAX_BASKET)
     held = {b["event"] for b in state["open"]}
     locked = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
     if len(locked) > cfg["max_found"]:  # free money is rare; dozens at once means the bot misread markets

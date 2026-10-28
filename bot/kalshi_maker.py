@@ -248,14 +248,16 @@ def _now() -> str:
 
 
 def place(api, cfg: dict, events: list[dict]) -> int:
-    """Rest new quotes (up to KALSHI_MAX_QUOTES at once) with whatever budget is free."""
+    """Rest new quotes (up to KALSHI_MAX_QUOTES at once) with whatever budget is free, each costing at most
+    KALSHI_MAX_PER_QUOTE (0 = no cap) so one slow-settling basket can't tie up the whole budget."""
     state = kl.load_state()
     quotes = state.setdefault("quotes", [])
     slots = cfg["max_quotes"] - len(quotes)
     budget = min(kl.free_budget(cfg, state), api.balance())
+    per_quote = min(budget, cfg["max_per_quote"]) if cfg.get("max_per_quote") else budget
     skip = {b["event"] for b in state["open"]} | {q["event"] for q in quotes}
     placed = 0
-    for q in find_quotes(events, cfg, max(budget, D(0)), skip, api) if slots > 0 and budget > 0 else []:
+    for q in find_quotes(events, cfg, max(per_quote, D(0)), skip, api) if slots > 0 and budget > 0 else []:
         if placed >= slots or q.reserve > budget:
             continue
         try:
@@ -273,6 +275,17 @@ def place(api, cfg: dict, events: list[dict]) -> int:
         kl.save_state(state)
     kl.save_state(state)
     return placed
+
+
+def safest_bet(events: list[dict], cfg: dict, when: datetime) -> None:
+    """Once a day (from 3pm Eastern) paper-bet $1 on the likeliest outcome closing within 24h. Kept in its own
+    state file and summary, apart from the locked-in profit, because it can lose."""
+    from . import kalshi_bets as kb
+
+    state = kb.load_state()
+    kb.place(state, kb.daily_safest(events, when, {"_state": state}), cfg["budget"])
+    kb.save_state(state)
+    kb.summary(state, cfg["budget"], when)
 
 
 def check(api, cfg: dict) -> None:
@@ -419,20 +432,23 @@ def main() -> None:
     ap.add_argument("--paper", action="store_true", help="real prices, pretend quotes filled only by real trades; no keys, no orders")
     args = ap.parse_args()
     mode = "maker-paper" if args.paper else "maker"
+    tag = os.getenv("KALSHI_VARIANT", "").strip()  # a second paper copy with its own files, for side-by-side tests
+    sfx = f"_{tag}" if tag and args.paper else ""
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
                         handlers=[logging.StreamHandler(sys.stdout),
-                                  logging.FileHandler("kalshi_maker_paper.log" if args.paper else "kalshi.log")])
-    kl.single_instance(f"kalshi-{mode}")  # never two makers on one state file
+                                  logging.FileHandler(f"kalshi_maker_paper{sfx}.log" if args.paper else "kalshi.log")])
+    kl.single_instance(f"kalshi-{mode}{sfx}")  # never two makers on one state file
     kl.start_watchdog(20)  # a pass is at most a sweep (~2-6 min) plus a 5 s poll; 20 idle minutes means a hung network call
     cfg = kl.load_settings()
     cfg["max_quotes"] = int(os.getenv("KALSHI_MAX_QUOTES", "3"))
     cfg["quote_min"] = int(os.getenv("KALSHI_QUOTE_MIN", "30"))
     cfg["min_volume"] = int(os.getenv("KALSHI_MIN_VOLUME", str(MIN_VOLUME)))
     cfg["active_min"] = int(os.getenv("KALSHI_ACTIVE_MIN", str(ACTIVE_MIN)))
+    cfg["max_per_quote"] = D(os.getenv("KALSHI_MAX_PER_QUOTE", "0"))
     kl.MODE = mode
     if args.paper:
-        kl.STATE, kl.DATA = Path("kalshi_maker_paper_state.json"), Path("kalshi_data_maker_paper")
-        api = PaperMakerApi(Path("kalshi_maker_paper_orders.json"))
+        kl.STATE, kl.DATA = Path(f"kalshi_maker_paper{sfx}_state.json"), Path(f"kalshi_data_maker_paper{sfx}")
+        api = PaperMakerApi(Path(f"kalshi_maker_paper{sfx}_orders.json"))
         log.info("Maker PAPER mode on REAL Kalshi prices, pretend budget $%s, min profit $%s, up to %d quotes",
                  cfg["budget"], cfg["min_profit"], cfg["max_quotes"])
     else:
@@ -441,6 +457,11 @@ def main() -> None:
         api = kl.Kalshi(cfg["env"], cfg["key_id"], cfg["key_file"])
         log.info("Maker mode on Kalshi %s, budget $%s, min profit $%s, up to %d quotes", cfg["env"].upper(), cfg["budget"],
                  cfg["min_profit"], cfg["max_quotes"])
+    safest_on = args.paper and os.getenv("KALSHI_SAFEST", "") == "on"  # one pretend "safest" bet a day, own record
+    if safest_on:
+        from . import kalshi_bets as kb
+
+        kb.STATE, kb.DATA = Path(f"kalshi_bets{sfx}_state.json"), Path(f"kalshi_data_bets{sfx}")
     stop = time.time() + args.minutes * 60 if args.minutes else float("inf")
     next_sweep = 0.0
     try:
@@ -457,6 +478,8 @@ def main() -> None:
                     good = [b for b in baskets if b.locked and b.profit >= cfg["min_profit"]]
                     kl.write_summary(cfg, mode, events, good, traded, ranked, when)
                     placed = place(api, cfg, events)
+                    if safest_on:
+                        safest_bet(events, cfg, when)
                     log.info("Swept %d events: %d taker trades, %d new quotes, %d resting", len(events), len(traded), placed,
                              len(kl.load_state().get("quotes", [])))
                 check(api, cfg)
