@@ -248,14 +248,16 @@ def _now() -> str:
 
 
 def place(api, cfg: dict, events: list[dict]) -> int:
-    """Rest new quotes (up to KALSHI_MAX_QUOTES at once) with whatever budget is free."""
+    """Rest new quotes (up to KALSHI_MAX_QUOTES at once) with whatever budget is free, each costing at most
+    KALSHI_MAX_PER_QUOTE (0 = no cap) so one slow-settling basket can't tie up the whole budget."""
     state = kl.load_state()
     quotes = state.setdefault("quotes", [])
     slots = cfg["max_quotes"] - len(quotes)
     budget = min(kl.free_budget(cfg, state), api.balance())
+    per_quote = min(budget, cfg["max_per_quote"]) if cfg.get("max_per_quote") else budget
     skip = {b["event"] for b in state["open"]} | {q["event"] for q in quotes}
     placed = 0
-    for q in find_quotes(events, cfg, max(budget, D(0)), skip, api) if slots > 0 and budget > 0 else []:
+    for q in find_quotes(events, cfg, max(per_quote, D(0)), skip, api) if slots > 0 and budget > 0 else []:
         if placed >= slots or q.reserve > budget:
             continue
         try:
@@ -429,6 +431,7 @@ def main() -> None:
     cfg["quote_min"] = int(os.getenv("KALSHI_QUOTE_MIN", "30"))
     cfg["min_volume"] = int(os.getenv("KALSHI_MIN_VOLUME", str(MIN_VOLUME)))
     cfg["active_min"] = int(os.getenv("KALSHI_ACTIVE_MIN", str(ACTIVE_MIN)))
+    cfg["max_per_quote"] = D(os.getenv("KALSHI_MAX_PER_QUOTE", "0"))
     kl.MODE = mode
     if args.paper:
         kl.STATE, kl.DATA = Path("kalshi_maker_paper_state.json"), Path("kalshi_data_maker_paper")
