@@ -1,0 +1,6 @@
+2026-10-28 01:32:02,984 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 3 quotes
+2026-10-28 01:33:43,017 INFO PAPER rest NO bid KXCBDECISIONBRAZIL-26NOV04-H25P at $0.9100 x6 (0 already bid at that price)
+2026-10-28 01:33:43,017 INFO Resting NO bid on KXCBDECISIONBRAZIL-26NOV04-H25P at $0.91 x6 (KXCBDECISIONBRAZIL-26NOV04): locks in $0.14 if it fills; hedge NO C25@0.7500, HOLD@0.3100, H25@0.9800
+2026-10-28 01:33:43,018 INFO Swept 15064 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 01:38:47,354 INFO Swept 15059 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 01:40:04,458 INFO Stopped; all quotes cancelled.
