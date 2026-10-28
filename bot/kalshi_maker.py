@@ -423,6 +423,7 @@ def main() -> None:
                         handlers=[logging.StreamHandler(sys.stdout),
                                   logging.FileHandler("kalshi_maker_paper.log" if args.paper else "kalshi.log")])
     kl.single_instance(f"kalshi-{mode}")  # never two makers on one state file
+    kl.start_watchdog(20)  # a pass is at most a sweep (~2-6 min) plus a 5 s poll; 20 idle minutes means a hung network call
     cfg = kl.load_settings()
     cfg["max_quotes"] = int(os.getenv("KALSHI_MAX_QUOTES", "3"))
     cfg["quote_min"] = int(os.getenv("KALSHI_QUOTE_MIN", "30"))
@@ -462,6 +463,7 @@ def main() -> None:
             except Exception:
                 log.exception("Maker loop error; carrying on")
             time.sleep(args.poll)
+            kl.heartbeat()
     finally:
         cancel_all(api)
         log.info("Stopped; all quotes cancelled.")
