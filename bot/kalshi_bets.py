@@ -399,6 +399,7 @@ def main() -> None:
     cfg = {"budget": base["budget"], "min_profit": base["min_profit"], "stake": args.stake, "min_edge": args.min_edge}
     if not args.once:
         kl.single_instance("kalshi-bets")
+        kl.start_watchdog(max(20.0, args.loop * 2 + 10))
     api = kl.PaperKalshi()  # real prices, never signs or orders
     log.info("Paper bets on REAL Kalshi prices: %s, $%s pretend each, stake up to $%s, edge %.0fc+, expected $%s+",
              names, cfg["budget"], args.stake, args.min_edge * 100, cfg["min_profit"])
@@ -409,6 +410,7 @@ def main() -> None:
             log.exception("Bets loop failed: %s", err)
             if args.once:
                 raise
+        kl.heartbeat()
         if args.once:
             return
         time.sleep(args.loop * 60)

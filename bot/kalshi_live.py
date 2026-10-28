@@ -452,6 +452,34 @@ def single_instance(name: str) -> None:
         raise SystemExit(f"Another Kalshi bot ({name}) is already running in this folder.")
 
 
+_BEAT = time.monotonic()
+
+
+def heartbeat() -> None:
+    """Call once per finished loop pass; the watchdog restarts the bot if it stops being called."""
+    global _BEAT
+    _BEAT = time.monotonic()
+
+
+def start_watchdog(minutes: float = 20.0, exit_code: int = 3) -> None:
+    """Kill the process if the loop hasn't finished a pass for `minutes`. A DNS lookup or TLS handshake
+    can hang forever after a network outage (requests' timeout doesn't cover them), and a hung bot
+    looks alive. Exiting lets the run_*.bat wrapper start a fresh copy."""
+    import threading
+
+    def watch():
+        while True:
+            time.sleep(60)
+            idle = (time.monotonic() - _BEAT) / 60
+            if idle > minutes:
+                log.error("No loop pass finished in %.0f minutes (network hang?). Exiting so the task restarts me.", idle)
+                logging.shutdown()
+                os._exit(exit_code)
+
+    heartbeat()
+    threading.Thread(target=watch, daemon=True, name="watchdog").start()
+
+
 class _Problems(logging.Handler):
     """Counts warnings and errors (and keeps the last few) for summary.json."""
 
@@ -475,7 +503,7 @@ def write_summary(cfg: dict, mode: str, events: list[dict], good: list[Basket], 
     closed = [c for c in state["closed"] if c.get("sets", 1) > 0]
     realized = D(state["realized"])
     s = {
-        "updated": when.isoformat(timespec="seconds"), "mode": mode, "env": cfg["env"] if mode == "demo" else "prod-prices",
+        "updated": when.isoformat(timespec="seconds"), "mode": mode, "env": cfg["env"] if mode in ("demo", "maker") else "prod-prices",
         "start_budget": str(cfg["budget"]), "min_profit": str(cfg["min_profit"]),
         "equity": f"{cfg['budget'] + realized:.2f}", "realized_profit": f"{realized:.2f}",
         "bet_level": f"{stake(cfg['budget'], realized, len(closed), cfg['step'], cfg['min_settled']):.2f}",
@@ -529,6 +557,7 @@ def main() -> None:
     MODE = "demo" if args.trade else "paper" if args.paper else "scan"
     if args.loop and MODE != "scan":
         single_instance(f"kalshi-{MODE}")
+        start_watchdog(max(20.0, args.loop * 2 + 10))
     NTFY = cfg["ntfy_topic"] if MODE != "scan" else ""
     if args.scorecard:
         path = DATA / "scorecard.csv"
@@ -553,6 +582,7 @@ def main() -> None:
             alert("error", f"Loop failed: {err}"[:300], "high")
             if not args.loop:
                 raise
+        heartbeat()
         if not args.loop:
             return
         time.sleep(args.loop * 60)
