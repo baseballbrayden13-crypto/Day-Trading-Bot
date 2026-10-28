@@ -4,21 +4,44 @@
  "closed": [],
  "quotes": [
   {
-   "event": "KXITFWMATCH-26OCT28AGUEST",
-   "series": "KXITFWMATCH",
-   "title": "Agudelo vs Estevez",
-   "ticker": "KXITFWMATCH-26OCT28AGUEST-EST",
-   "order_id": "paper-19-1793196375",
-   "price": "0.08",
-   "sets": 19,
+   "event": "KXLOWTDEN-26OCT28",
+   "series": "KXLOWTDEN",
+   "title": "Lowest temperature in Denver on Oct 28, 2026?",
+   "ticker": "KXLOWTDEN-26OCT28-B37.5",
+   "order_id": "paper-20-1793198491",
+   "price": "0.89",
+   "sets": 4,
    "done": 0,
-   "reserve": "18.7700",
+   "reserve": "7.8900",
    "multiplier": "1",
-   "placed": 1793196375.2989266,
+   "placed": 1793198491.9009879,
    "hedge": [
     {
-     "ticker": "KXITFWMATCH-26OCT28AGUEST-AGU",
-     "limit": "0.9000"
+     "ticker": "KXLOWTDEN-26OCT28-B35.5",
+     "limit": "0.9900"
+    },
+    {
+     "ticker": "KXLOWTDEN-26OCT28-B39.5",
+     "limit": "0.0800"
+    }
+   ]
+  },
+  {
+   "event": "KXLOWTPHX-26OCT28",
+   "series": "KXLOWTPHX",
+   "title": "Lowest temperature in Phoenix on Oct 28, 2026?",
+   "ticker": "KXLOWTPHX-26OCT28-B60.5",
+   "order_id": "paper-21-1793198491",
+   "price": "0.92",
+   "sets": 10,
+   "done": 0,
+   "reserve": "9.8600",
+   "multiplier": "1",
+   "placed": 1793198491.9638917,
+   "hedge": [
+    {
+     "ticker": "KXLOWTPHX-26OCT28-T61",
+     "limit": "0.0600"
     }
    ]
   }
