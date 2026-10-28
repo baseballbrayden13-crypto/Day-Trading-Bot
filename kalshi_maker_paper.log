@@ -4,3 +4,12 @@
 2026-10-28 01:33:43,018 INFO Swept 15064 events: 0 taker trades, 1 new quotes, 1 resting
 2026-10-28 01:38:47,354 INFO Swept 15059 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-28 01:40:04,458 INFO Stopped; all quotes cancelled.
+2026-10-28 02:42:47,536 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 3 quotes
+2026-10-28 02:44:55,072 INFO PAPER rest NO bid KXMLBWSOUTCOME-26-MILTB at $0.0800 x20 (28 already bid at that price)
+2026-10-28 02:44:55,072 INFO Resting NO bid on KXMLBWSOUTCOME-26-MILTB at $0.08 x20 (KXMLBWSOUTCOME-26): locks in $0.24 if it fills; hedge NO TBMIL@0.9000
+2026-10-28 02:44:55,073 INFO Swept 15101 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 02:49:56,177 INFO Swept 15115 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 02:54:56,273 INFO Swept 15116 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 03:00:01,473 INFO Swept 15117 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 03:05:02,540 INFO Swept 15113 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 03:10:05,512 INFO Swept 15129 events: 0 taker trades, 0 new quotes, 1 resting
