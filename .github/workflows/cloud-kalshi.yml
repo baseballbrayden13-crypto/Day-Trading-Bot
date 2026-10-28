@@ -70,6 +70,7 @@ jobs:
       - name: Bot 4c (maker paper; restarted if its watchdog trips)
         working-directory: state
         run: |
+          python ../code/cloud/merge_carryover.py  # one-time: adds the PC copy's open baskets (no-op after the first run)
           end=$(( $(date +%s) + ${{ inputs.minutes || 345 }} * 60 ))
           (while sleep 1800; do bash ../code/cloud/save_state.sh "kalshi 4c checkpoint" || true; done) &
           saver=$!
