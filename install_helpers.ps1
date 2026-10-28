@@ -2,7 +2,24 @@
 #   right-click "Install fleet helpers.bat" > Run   (or: powershell -ExecutionPolicy Bypass -File install_helpers.ps1)
 # Every task uses "run as soon as possible after a missed start", so a check the PC slept through
 # runs when it wakes. Undo: powershell -File install_helpers.ps1 -Remove
-param([switch]$Remove)
+# Start times are written without a time-zone offset, so they stay at the same clock time when
+# daylight saving starts or ends (with an offset, Windows keeps the UTC moment and a 9:20am task
+# runs at 8:20am all winter). -FixTimes rewrites every existing "Trading bot*" and "Fleet*" task's
+# triggers the same way, without changing anything else about them.
+param([switch]$Remove, [switch]$FixTimes)
+function Use-LocalTime($trigger) {
+  if ($trigger.StartBoundary) { $trigger.StartBoundary = ([datetime]$trigger.StartBoundary).ToString("yyyy-MM-ddTHH:mm:ss") }
+  $trigger
+}
+if ($FixTimes) {
+  foreach ($task in Get-ScheduledTask -TaskName "Trading bot*", "Fleet*" -ErrorAction SilentlyContinue) {
+    $triggers = @($task.Triggers | ForEach-Object { Use-LocalTime $_ })
+    Set-ScheduledTask -TaskName $task.TaskName -TaskPath $task.TaskPath -Trigger $triggers | Out-Null
+    $next = (Get-ScheduledTaskInfo -TaskName $task.TaskName -TaskPath $task.TaskPath).NextRunTime
+    Write-Host "$($task.TaskName): $(($triggers | ForEach-Object { $_.StartBoundary }) -join ', ')  next run $next"
+  }
+  exit
+}
 $dir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $py = Join-Path $dir ".venv\Scripts\pythonw.exe"
 if (-not (Test-Path $py)) { $py = Join-Path $dir ".venv\Scripts\python.exe" }
@@ -26,7 +43,7 @@ foreach ($t in $tasks) {
     continue
   }
   $action = New-ScheduledTaskAction -Execute $py -Argument $t.Args -WorkingDirectory $dir
-  Register-ScheduledTask -TaskName $t.Name -Action $action -Trigger $t.Trigger -Settings $settings -Force | Out-Null
+  Register-ScheduledTask -TaskName $t.Name -Action $action -Trigger (Use-LocalTime $t.Trigger) -Settings $settings -Force | Out-Null
   Write-Host "Set up $($t.Name)"
 }
 Write-Host "Done. Tell Claude."
