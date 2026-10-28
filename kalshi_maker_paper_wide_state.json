@@ -46,17 +46,36 @@
  "closed": [],
  "quotes": [
   {
+   "event": "KXITFDOUBLES-26OCT28ASYBESOMASHI",
+   "series": "KXITFDOUBLES",
+   "title": "Asylkozhaev / Bessonov vs Omarkhanov / Shin",
+   "ticker": "KXITFDOUBLES-26OCT28ASYBESOMASHI-ASYBES",
+   "order_id": "paper-9-1793219941",
+   "price": "0.05",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8900",
+   "multiplier": "1",
+   "placed": 1793219941.1907418,
+   "hedge": [
+    {
+     "ticker": "KXITFDOUBLES-26OCT28ASYBESOMASHI-OMASHI",
+     "limit": "0.9200"
+    }
+   ]
+  },
+  {
    "event": "KXKNVBCUPADVANCE-26OCT28WATBRE",
    "series": "KXKNVBCUPADVANCE",
    "title": "JOS Watergraafsmeer vs Breda",
    "ticker": "KXKNVBCUPADVANCE-26OCT28WATBRE-WAT",
-   "order_id": "paper-4-1793217800",
-   "price": "0.56",
-   "sets": 5,
+   "order_id": "paper-10-1793220242",
+   "price": "0.5600",
+   "sets": 3,
    "done": 0,
-   "reserve": "4.8700",
+   "reserve": "2.8400",
    "multiplier": "1",
-   "placed": 1793217800.9682055,
+   "placed": 1793220242.1138616,
    "hedge": [
     {
      "ticker": "KXKNVBCUPADVANCE-26OCT28WATBRE-BRE",
@@ -65,44 +84,52 @@
    ]
   },
   {
-   "event": "KXNFLNEXTTEAM-26JSWEAT10",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Josh Sweat Next Team",
-   "ticker": "KXNFLNEXTTEAM-26JSWEAT10-DAL",
-   "order_id": "paper-5-1793218120",
-   "price": "0.0400",
-   "sets": 3,
+   "event": "KXYTTOPVIDEOG2D-26OCT28",
+   "series": "KXYTTOPVIDEOG2D",
+   "title": "Runner-Up Daily Music Video Global on YouTube: Oct 28, 2026",
+   "ticker": "KXYTTOPVIDEOG2D-26OCT28-XAM",
+   "order_id": "paper-13-1793220545",
+   "price": "0.6300",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.9400",
+   "reserve": "2.8800",
    "multiplier": "1",
-   "placed": 1793218120.798741,
+   "placed": 1793220545.7037535,
    "hedge": [
     {
-     "ticker": "KXNFLNEXTTEAM-26JSWEAT10-ARI",
-     "limit": "0.6000"
+     "ticker": "KXYTTOPVIDEOG2D-26OCT28-TAR",
+     "limit": "0.8800"
     },
     {
-     "ticker": "KXNFLNEXTTEAM-26JSWEAT10-CHI",
-     "limit": "0.9800"
+     "ticker": "KXYTTOPVIDEOG2D-26OCT28-DAI",
+     "limit": "0.9600"
+    },
+    {
+     "ticker": "KXYTTOPVIDEOG2D-26OCT28-CAS",
+     "limit": "0.3800"
     }
    ]
   },
   {
-   "event": "KXXRP-26OCT2817",
-   "series": "KXXRP",
-   "title": " XRP price range at Oct 28, 2026 at 5pm EDT? ",
-   "ticker": "KXXRP-26OCT2817-B1.3499500",
-   "order_id": "paper-6-1793218425",
-   "price": "0.3300",
-   "sets": 7,
+   "event": "KXNFLNEXTTEAM-26JSWEAT10",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Josh Sweat Next Team",
+   "ticker": "KXNFLNEXTTEAM-26JSWEAT10-DAL",
+   "order_id": "paper-14-1793221149",
+   "price": "0.0400",
+   "sets": 3,
    "done": 0,
-   "reserve": "4.4000",
+   "reserve": "4.7900",
    "multiplier": "1",
-   "placed": 1793218425.0340135,
+   "placed": 1793221149.0249245,
    "hedge": [
     {
-     "ticker": "KXXRP-26OCT2817-B1.3299500",
-     "limit": "0.3700"
+     "ticker": "KXNFLNEXTTEAM-26JSWEAT10-ARI",
+     "limit": "0.5500"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JSWEAT10-CHI",
+     "limit": "0.9800"
     }
    ]
   }
