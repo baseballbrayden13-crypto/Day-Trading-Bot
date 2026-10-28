@@ -349,3 +349,32 @@ def test_watchdog_exits_a_hung_process(tmp_path):
     """)
     r = subprocess.run([sys.executable, "-c", code], capture_output=True, timeout=25, cwd=__import__("pathlib").Path(__file__).resolve().parent.parent)
     assert r.returncode == 3
+
+
+def test_prod_settings_are_capped(monkeypatch, tmp_path):
+    from bot import kalshi_live as kl
+
+    monkeypatch.setattr(kl, "ENV_FILE", tmp_path / "none")
+    for k, v in {"KALSHI_ENV": "prod", "KALSHI_LIVE_CONFIRM": "I_UNDERSTAND_REAL_MONEY", "KALSHI_BUDGET": "500",
+                 "KALSHI_STEP": "0.25", "KALSHI_MIN_PROFIT": "0.01"}.items():
+        monkeypatch.setenv(k, v)
+    cfg = kl.load_settings()
+    assert cfg["budget"] == kl.PROD_MAX_BUDGET and cfg["step"] == 0 and cfg["min_profit"] == D("0.10")
+
+
+def test_prod_stop_loss_trades_nothing(monkeypatch, tmp_path):
+    from bot import kalshi_live as kl
+
+    class Api:
+        base = kl.URLS["prod"]
+
+        def balance(self):
+            return D(20)
+
+    state = {"realized": "-3.00", "open": [], "closed": []}
+    monkeypatch.setattr(kl, "load_state", lambda: state)
+    monkeypatch.setattr(kl, "save_state", lambda s: None)
+    monkeypatch.setattr(kl, "settle", lambda api, s: None)
+    monkeypatch.setattr(kl, "alert", lambda *a, **k: None)
+    cfg = {"env": "prod", "budget": D(20), "step": D(0), "min_settled": 5, "min_profit": D("0.10"), "max_found": 10}
+    assert kl.trade(Api(), cfg, []) == set()
