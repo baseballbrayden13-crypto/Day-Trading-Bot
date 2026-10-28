@@ -4,21 +4,21 @@
  "closed": [],
  "quotes": [
   {
-   "event": "KXSSHIELDMATCH-26OCT272000WEARED",
-   "series": "KXSSHIELDMATCH",
-   "title": "South Australia Redbacks vs Western Australia",
-   "ticker": "KXSSHIELDMATCH-26OCT272000WEARED-WEA",
-   "order_id": "paper-11-1793185322",
-   "price": "0.04",
+   "event": "KXCBDECISIONCANADA-26OCT",
+   "series": "KXCBDECISIONCANADA",
+   "title": "Bank of Canada decision in Oct 2026?",
+   "ticker": "KXCBDECISIONCANADA-26OCT-H25",
+   "order_id": "paper-12-1793187438",
+   "price": "0.16",
    "sets": 20,
    "done": 0,
-   "reserve": "19.8900",
+   "reserve": "19.8600",
    "multiplier": "1",
-   "placed": 1793185322.0623395,
+   "placed": 1793187438.9117,
    "hedge": [
     {
-     "ticker": "KXSSHIELDMATCH-26OCT272000WEARED-RED",
-     "limit": "0.9500"
+     "ticker": "KXCBDECISIONCANADA-26OCT-H0",
+     "limit": "0.8200"
     }
    ]
   }
