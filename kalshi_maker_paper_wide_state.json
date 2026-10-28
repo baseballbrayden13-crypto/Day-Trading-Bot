@@ -50,13 +50,13 @@
    "series": "KXITFDOUBLES",
    "title": "Asylkozhaev / Bessonov vs Omarkhanov / Shin",
    "ticker": "KXITFDOUBLES-26OCT28ASYBESOMASHI-ASYBES",
-   "order_id": "paper-9-1793219941",
+   "order_id": "paper-15-1793222062",
    "price": "0.05",
    "sets": 5,
    "done": 0,
    "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793219941.1907418,
+   "placed": 1793222062.4545307,
    "hedge": [
     {
      "ticker": "KXITFDOUBLES-26OCT28ASYBESOMASHI-OMASHI",
@@ -65,71 +65,21 @@
    ]
   },
   {
-   "event": "KXKNVBCUPADVANCE-26OCT28WATBRE",
-   "series": "KXKNVBCUPADVANCE",
-   "title": "JOS Watergraafsmeer vs Breda",
-   "ticker": "KXKNVBCUPADVANCE-26OCT28WATBRE-WAT",
-   "order_id": "paper-10-1793220242",
-   "price": "0.5600",
-   "sets": 3,
+   "event": "KXUFCFIGHT-26OCT31BEKPET",
+   "series": "KXUFCFIGHT",
+   "title": "Fight Night: Azamat Bekoev vs Andre Petroski",
+   "ticker": "KXUFCFIGHT-26OCT31BEKPET-BEK",
+   "order_id": "paper-17-1793222968",
+   "price": "0.3900",
+   "sets": 5,
    "done": 0,
-   "reserve": "2.8400",
+   "reserve": "4.8700",
    "multiplier": "1",
-   "placed": 1793220242.1138616,
+   "placed": 1793222968.572735,
    "hedge": [
     {
-     "ticker": "KXKNVBCUPADVANCE-26OCT28WATBRE-BRE",
-     "limit": "0.3900"
-    }
-   ]
-  },
-  {
-   "event": "KXYTTOPVIDEOG2D-26OCT28",
-   "series": "KXYTTOPVIDEOG2D",
-   "title": "Runner-Up Daily Music Video Global on YouTube: Oct 28, 2026",
-   "ticker": "KXYTTOPVIDEOG2D-26OCT28-XAM",
-   "order_id": "paper-13-1793220545",
-   "price": "0.6300",
-   "sets": 1,
-   "done": 0,
-   "reserve": "2.8800",
-   "multiplier": "1",
-   "placed": 1793220545.7037535,
-   "hedge": [
-    {
-     "ticker": "KXYTTOPVIDEOG2D-26OCT28-TAR",
-     "limit": "0.8800"
-    },
-    {
-     "ticker": "KXYTTOPVIDEOG2D-26OCT28-DAI",
-     "limit": "0.9600"
-    },
-    {
-     "ticker": "KXYTTOPVIDEOG2D-26OCT28-CAS",
-     "limit": "0.3800"
-    }
-   ]
-  },
-  {
-   "event": "KXNFLNEXTTEAM-26JSWEAT10",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Josh Sweat Next Team",
-   "ticker": "KXNFLNEXTTEAM-26JSWEAT10-DAL",
-   "order_id": "paper-14-1793221149",
-   "price": "0.0400",
-   "sets": 3,
-   "done": 0,
-   "reserve": "4.7900",
-   "multiplier": "1",
-   "placed": 1793221149.0249245,
-   "hedge": [
-    {
-     "ticker": "KXNFLNEXTTEAM-26JSWEAT10-ARI",
-     "limit": "0.5500"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JSWEAT10-CHI",
-     "limit": "0.9800"
+     "ticker": "KXUFCFIGHT-26OCT31BEKPET-PET",
+     "limit": "0.5600"
     }
    ]
   }

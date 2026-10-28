@@ -125,3 +125,16 @@
 2026-10-28 16:59:09,024 INFO Resting NO bid on KXNFLNEXTTEAM-26JSWEAT10-DAL at $0.0400 x3 (KXNFLNEXTTEAM-26JSWEAT10): locks in $1.21 if it fills; hedge NO ARI@0.5500, CHI@0.9800
 2026-10-28 16:59:09,026 INFO Swept 15641 events: 0 taker trades, 1 new quotes, 5 resting
 2026-10-28 16:59:09,454 INFO Quote KXITFWDOUBLES-26OCT28FERVILAVAHAR cancelled (0/1 filled)
+2026-10-28 17:04:16,855 INFO Swept 15606 events: 0 taker trades, 0 new quotes, 4 resting
+2026-10-28 17:09:21,517 INFO Swept 15628 events: 0 taker trades, 0 new quotes, 4 resting
+2026-10-28 17:14:22,454 INFO PAPER rest NO bid KXITFDOUBLES-26OCT28ASYBESOMASHI-ASYBES at $0.0500 x5 (6 already bid at that price)
+2026-10-28 17:14:22,454 INFO Resting NO bid on KXITFDOUBLES-26OCT28ASYBESOMASHI-ASYBES at $0.05 x5 (KXITFDOUBLES-26OCT28ASYBESOMASHI): locks in $0.11 if it fills; hedge NO OMASHI@0.9200
+2026-10-28 17:14:22,455 INFO Swept 15621 events: 0 taker trades, 1 new quotes, 4 resting
+2026-10-28 17:19:22,903 INFO Swept 15628 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-28 17:24:25,498 INFO PAPER rest NO bid KXSERIECCUPGAME-26OCT28ACCRAV-ACC at $0.5200 x5 (21 already bid at that price)
+2026-10-28 17:24:25,499 INFO Resting NO bid on KXSERIECCUPGAME-26OCT28ACCRAV-ACC at $0.52 x5 (KXSERIECCUPGAME-26OCT28ACCRAV): locks in $0.13 if it fills; hedge NO TIE@0.4300
+2026-10-28 17:24:25,500 INFO Swept 15621 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-28 17:24:52,944 INFO Quote KXSERIECCUPGAME-26OCT28ACCRAV cancelled (0/5 filled)
+2026-10-28 17:29:28,572 INFO PAPER rest NO bid KXUFCFIGHT-26OCT31BEKPET-BEK at $0.3900 x5 (0 already bid at that price)
+2026-10-28 17:29:28,572 INFO Resting NO bid on KXUFCFIGHT-26OCT31BEKPET-BEK at $0.3900 x5 (KXUFCFIGHT-26OCT31BEKPET): locks in $0.13 if it fills; hedge NO PET@0.5600
+2026-10-28 17:29:28,574 INFO Swept 15617 events: 0 taker trades, 1 new quotes, 3 resting
