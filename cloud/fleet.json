@@ -11,13 +11,17 @@
     "env_file": ".env.crypto"
   },
   "4": {
-    "runs_on": "cloud",
-    "home": "."
+    "skip": true
   },
   "4b": {
     "skip": true
   },
   "4c": {
+    "runs_on": "cloud",
+    "home": ".",
+    "optional": false
+  },
+  "4e": {
     "runs_on": "cloud",
     "home": ".",
     "optional": false

@@ -54,7 +54,7 @@ class Bot:
     stale_minutes: int = 0  # a looping bot whose log or summary is older than this has stopped; 0 = use the schedule
     optional: bool = False  # not set up yet: no files and no task = "not set up", not a problem
     max_position_share: float = 1.0  # Guard: one holding bigger than this share of the bot's equity is out of line
-    runs_on: str = "pc"  # "pc" or "cloud" (GitHub Actions); Scout/Medic only check logs and tasks where it runs
+    runs_on: str = "pc"  # "pc", "cloud" (GitHub Actions) or "off" (retired); Scout/Medic only check logs and tasks where it runs
     skip: bool = False  # leave this bot out entirely on this machine (e.g. the cloud has no keys for it)
     extra: dict = field(default_factory=dict, compare=False, hash=False)
 
@@ -100,6 +100,12 @@ FLEET: list[Bot] = [
         runs=(("maker_paper", "kalshi_data_maker_paper", "kalshi_maker_paper_state.json", "kalshi_maker_paper.log"),),
         err_log="kalshi_maker_paper_err.log", start_equity=20.0, max_drawdown_pct=10.0, max_day_loss_pct=10.0,
         min_profit_factor=0, min_trades=0, notes="Maker quotes on real Kalshi prices with a pretend $20."),
+    Bot(7, "Kalshi combined", "kalshi", ".env.kalshi", "", "kalshi_maker_paper_wide.log", label="4e", home="../kalshi-maker-paper",
+        days="daily", runs_at="00:00", task="Trading bot 4e (Kalshi combined, paper)", always_on=True, stale_minutes=30, optional=True,
+        runs=(("maker_paper", "kalshi_data_maker_paper_wide", "kalshi_maker_paper_wide_state.json", "kalshi_maker_paper_wide.log"),),
+        err_log="kalshi_maker_paper_wide_err.log", start_equity=20.0, max_drawdown_pct=10.0, max_day_loss_pct=10.0,
+        min_profit_factor=0, min_trades=0,
+        notes="Looser maker copy (10 quotes, $5 each) plus a taker scan and one pretend 'safest' bet a day, pretend $20. Runs on GitHub."),
 ]
 
 

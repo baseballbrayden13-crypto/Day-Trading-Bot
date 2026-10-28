@@ -105,7 +105,7 @@ def test_cloud_host_checks_only_cloud_bots(tmp_path, monkeypatch):
     cfg = tmp_path / "fleet.json"
     cfg.write_text((__import__("pathlib").Path(__file__).parents[1] / "cloud" / "fleet.json").read_text())
     bots = load(cfg)
-    assert [b.tag for b in bots] == ["2", "3", "4", "4c"] and all(b.runs_on == "cloud" for b in bots)
+    assert [b.tag for b in bots] == ["2", "3", "4c", "4e"] and all(b.runs_on == "cloud" for b in bots)
     monkeypatch.setenv("FLEET_HOST", "pc")
     s = {"taken": NOW.isoformat(), "errors": [], "bots": {"2": {"account": reading()["account"], "positions": [], "errors": [],
                                                              "log": {"exists": False}}}}
@@ -141,3 +141,14 @@ def test_cloud_bot_without_a_saved_log_is_a_watch_not_an_act(monkeypatch):
     assert [x.level for x in f] == ["watch"] and "cloud run" in f[0].message
     pc = replace(FLEET[1], runs_on="pc")
     assert [x.level for x in mt.check_schedule(pc, {"log": {"exists": False}}, NOW, True)] == ["act"]
+
+
+def test_kalshi_bots_on_the_other_machine_or_retired_are_not_checked(monkeypatch):
+    from dataclasses import replace
+
+    monkeypatch.setenv("FLEET_HOST", "pc")
+    kal = next(b for b in FLEET if b.kind == "kalshi" and b.label == "4b")
+    snap = {"taken": NOW.isoformat(), "errors": [], "bots": {str(kal.num): {"errors": ["no files"]}}}
+    assert [f.check for f in mt.run_checks(snap, [replace(kal, runs_on="pc")], [], [], NOW)] == ["data"]
+    assert mt.run_checks(snap, [replace(kal, runs_on="cloud")], [], [], NOW) == []
+    assert mt.run_checks(snap, [replace(kal, runs_on="off")], [], [], NOW) == []
