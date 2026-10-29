@@ -363,3 +363,17 @@
 2026-10-28 22:44:57,476 INFO PAPER rest NO bid KXESOCCERGAME-26OCT282236DZENDRAK-DRAK at $0.2800 x3 (0 already bid at that price)
 2026-10-28 22:44:57,476 INFO Resting NO bid on KXESOCCERGAME-26OCT282236DZENDRAK-DRAK at $0.2800 x3 (KXESOCCERGAME-26OCT282236DZENDRAK): locks in $0.79 if it fills; hedge NO DZEN@0.6000
 2026-10-28 22:44:57,478 INFO Swept 15650 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 22:49:59,223 INFO PAPER rest NO bid KXAHLGAME-26OCT282105CHACOL-COL at $0.1200 x3 (5 already bid at that price)
+2026-10-28 22:49:59,223 INFO Resting NO bid on KXAHLGAME-26OCT282105CHACOL-COL at $0.12 x3 (KXAHLGAME-26OCT282105CHACOL): locks in $0.11 if it fills; hedge NO CHA@0.8300
+2026-10-28 22:49:59,225 INFO Swept 15620 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-28 22:51:23,603 INFO Quote KXESOCCERGAME-26OCT282236DZENDRAK cancelled (0/3 filled)
+2026-10-28 22:55:01,797 INFO Swept 15595 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 22:55:53,179 INFO Quote KXAHLGAME-26OCT282105CHACOL cancelled (0/3 filled)
+2026-10-28 23:00:02,083 INFO PAPER rest NO bid KXCOPADELREYGAME-26OCT28NUMOVI-OVI at $0.3600 x2 (0 already bid at that price)
+2026-10-28 23:00:02,083 INFO Resting NO bid on KXCOPADELREYGAME-26OCT28NUMOVI-OVI at $0.3600 x2 (KXCOPADELREYGAME-26OCT28NUMOVI): locks in $0.15 if it fills; hedge NO NUM@0.8000, TIE@0.7300
+2026-10-28 23:00:02,085 INFO Swept 15592 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 23:05:05,375 INFO Swept 15587 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 23:10:09,336 INFO PAPER rest NO bid KXLOWTSATX-26OCT29-T68 at $0.5000 x1 (0 already bid at that price)
+2026-10-28 23:10:09,336 INFO Resting NO bid on KXLOWTSATX-26OCT29-T68 at $0.5000 x1 (KXLOWTSATX-26OCT29): locks in $0.10 if it fills; hedge NO B65.5@0.8500, B67.5@0.5100
+2026-10-28 23:10:09,338 INFO Swept 15596 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-28 23:15:11,408 INFO Swept 15589 events: 0 taker trades, 0 new quotes, 2 resting

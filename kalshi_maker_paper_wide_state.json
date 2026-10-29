@@ -196,21 +196,48 @@
  ],
  "quotes": [
   {
-   "event": "KXESOCCERGAME-26OCT282236DZENDRAK",
-   "series": "KXESOCCERGAME",
-   "title": "eSoccer: Manchester City (Dzen) vs Chelsea (Drakon)",
-   "ticker": "KXESOCCERGAME-26OCT282236DZENDRAK-DRAK",
-   "order_id": "paper-45-1793241897",
-   "price": "0.2800",
-   "sets": 3,
+   "event": "KXCOPADELREYGAME-26OCT28NUMOVI",
+   "series": "KXCOPADELREYGAME",
+   "title": "Numancia vs Oviedo: Regulation Time Moneyline",
+   "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-OVI",
+   "order_id": "paper-47-1793242802",
+   "price": "0.3600",
+   "sets": 2,
    "done": 0,
-   "reserve": "2.2100",
+   "reserve": "3.8500",
    "multiplier": "1",
-   "placed": 1793241897.4767158,
+   "placed": 1793242802.0833857,
    "hedge": [
     {
-     "ticker": "KXESOCCERGAME-26OCT282236DZENDRAK-DZEN",
-     "limit": "0.6000"
+     "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-NUM",
+     "limit": "0.8100"
+    },
+    {
+     "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-TIE",
+     "limit": "0.7300"
+    }
+   ]
+  },
+  {
+   "event": "KXLOWTSATX-26OCT29",
+   "series": "KXLOWTSATX",
+   "title": "Lowest temperature in San Antonio on Oct 29, 2026?",
+   "ticker": "KXLOWTSATX-26OCT29-T68",
+   "order_id": "paper-48-1793243409",
+   "price": "0.5000",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.9000",
+   "multiplier": "1",
+   "placed": 1793243409.3365755,
+   "hedge": [
+    {
+     "ticker": "KXLOWTSATX-26OCT29-B65.5",
+     "limit": "0.8500"
+    },
+    {
+     "ticker": "KXLOWTSATX-26OCT29-B67.5",
+     "limit": "0.5100"
     }
    ]
   }
