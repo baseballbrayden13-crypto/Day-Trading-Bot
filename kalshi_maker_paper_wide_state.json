@@ -1,5 +1,5 @@
 {
- "realized": "0.4300",
+ "realized": "0.7600",
  "open": [
   {
    "event": "KXHIGHTSAN-26OCT28",
@@ -70,30 +70,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.6600"
-    }
-   ]
-  },
-  {
-   "event": "KXEBASKETBALLGAME-26OCT290054DAVILARR",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: New Orleans Pelicans (Davis) vs Indiana Pacers (Larry)",
-   "sets": 5,
-   "outlay": "4.6700",
-   "locked_profit": "0.3300",
-   "opened": "2026-10-29T05:16:18.042250+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXEBASKETBALLGAME-26OCT290054DAVILARR-LARR",
-     "side": "no",
-     "count": 5,
-     "limit": "0.7500"
-    },
-    {
-     "ticker": "KXEBASKETBALLGAME-26OCT290054DAVILARR-DAVI",
-     "side": "no",
-     "count": 5,
-     "limit": "0.1700"
     }
    ]
   }
@@ -273,7 +249,77 @@
    "paid": "5",
    "pnl": "0.5000",
    "closed": "2026-10-29T04:55:47.464562+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT290054DAVILARR",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: New Orleans Pelicans (Davis) vs Indiana Pacers (Larry)",
+   "sets": 5,
+   "outlay": "4.6700",
+   "locked_profit": "0.3300",
+   "opened": "2026-10-29T05:16:18.042250+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT290054DAVILARR-LARR",
+     "side": "no",
+     "count": 5,
+     "limit": "0.7500"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT290054DAVILARR-DAVI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.1700"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.3300",
+   "closed": "2026-10-29T05:25:53.287490+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXCOPADELREYGAME-26OCT28NUMOVI",
+   "series": "KXCOPADELREYGAME",
+   "title": "Numancia vs Oviedo: Regulation Time Moneyline",
+   "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-OVI",
+   "order_id": "paper-64-1793252774",
+   "price": "0.3600",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.8500",
+   "multiplier": "1",
+   "placed": 1793252774.095004,
+   "hedge": [
+    {
+     "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-NUM",
+     "limit": "0.8000"
+    },
+    {
+     "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-TIE",
+     "limit": "0.7300"
+    }
+   ]
+  },
+  {
+   "event": "KXNASCARTRUCKSERIES-NTS26",
+   "series": "KXNASCARTRUCKSERIES",
+   "title": "NASCAR Truck Series Champion",
+   "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
+   "order_id": "paper-65-1793252774",
+   "price": "0.75",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8600",
+   "multiplier": "1",
+   "placed": 1793252774.159935,
+   "hedge": [
+    {
+     "ticker": "KXNASCARTRUCKSERIES-NTS26-KHON",
+     "limit": "0.2100"
+    }
+   ]
+  }
+ ]
 }
