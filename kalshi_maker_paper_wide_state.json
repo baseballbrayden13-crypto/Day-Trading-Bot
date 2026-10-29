@@ -1,5 +1,5 @@
 {
- "realized": "0.2500",
+ "realized": "0.4300",
  "open": [
   {
    "event": "KXCOPADELREYADVANCE-26OCT29ATLCDE",
@@ -26,26 +26,26 @@
    ]
   },
   {
-   "event": "KXPHLGAME-26OCT291300BYTSAN",
-   "series": "KXPHLGAME",
-   "title": "TMH Polonia Bytom vs KH Sanok",
+   "event": "KXWNBAGAME-26OCT31ATLGS",
+   "series": "KXWNBAGAME",
+   "title": "Game 7: Atlanta vs Golden State",
    "sets": 5,
-   "outlay": "4.8200",
-   "locked_profit": "0.1800",
-   "opened": "2026-10-29T18:50:20.440323+00:00",
+   "outlay": "4.7700",
+   "locked_profit": "0.2300",
+   "opened": "2026-10-29T19:36:09.205519+00:00",
    "maker": true,
    "legs": [
     {
-     "ticker": "KXPHLGAME-26OCT291300BYTSAN-SAN",
+     "ticker": "KXWNBAGAME-26OCT31ATLGS-GS",
      "side": "no",
      "count": 5,
-     "limit": "0.5400"
+     "limit": "0.3600"
     },
     {
-     "ticker": "KXPHLGAME-26OCT291300BYTSAN-BYT",
+     "ticker": "KXWNBAGAME-26OCT31ATLGS-ATL",
      "side": "no",
      "count": 5,
-     "limit": "0.4000"
+     "limit": "0.5700"
     }
    ]
   }
@@ -373,6 +373,33 @@
    "paid": "0",
    "pnl": "-1.1900",
    "closed": "2026-10-29T15:31:39.388310+00:00"
+  },
+  {
+   "event": "KXPHLGAME-26OCT291300BYTSAN",
+   "series": "KXPHLGAME",
+   "title": "TMH Polonia Bytom vs KH Sanok",
+   "sets": 5,
+   "outlay": "4.8200",
+   "locked_profit": "0.1800",
+   "opened": "2026-10-29T18:50:20.440323+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXPHLGAME-26OCT291300BYTSAN-SAN",
+     "side": "no",
+     "count": 5,
+     "limit": "0.5400"
+    },
+    {
+     "ticker": "KXPHLGAME-26OCT291300BYTSAN-BYT",
+     "side": "no",
+     "count": 5,
+     "limit": "0.4000"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.1800",
+   "closed": "2026-10-29T19:15:07.362466+00:00"
   }
  ],
  "quotes": [
@@ -381,16 +408,54 @@
    "series": "KXITFWDOUBLES",
    "title": "Drenser-Hagmann / Guzman vs Kupres / Paskauskas",
    "ticker": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS-KUPPAS",
-   "order_id": "paper-165-1793299517",
+   "order_id": "paper-170-1793301636",
+   "price": "0.2300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.9000",
+   "multiplier": "1",
+   "placed": 1793301636.1057298,
+   "hedge": [
+    {
+     "ticker": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS-DREGUZ",
+     "limit": "0.6400"
+    }
+   ]
+  },
+  {
+   "event": "KXCOPADELREYADVANCE-26OCT29AURDEP",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "Auriense Cented Academy vs Deportivo De La Coruna",
+   "ticker": "KXCOPADELREYADVANCE-26OCT29AURDEP-DEP",
+   "order_id": "paper-173-1793301940",
+   "price": "0.03",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8800",
+   "multiplier": "1",
+   "placed": 1793301940.8028455,
+   "hedge": [
+    {
+     "ticker": "KXCOPADELREYADVANCE-26OCT29AURDEP-AUR",
+     "limit": "0.9400"
+    }
+   ]
+  },
+  {
+   "event": "KXITFDOUBLES-26OCT29OKOVANAUNKLI",
+   "series": "KXITFDOUBLES",
+   "title": "Okonkwo / Vance vs Aunion Duran / Klimas",
+   "ticker": "KXITFDOUBLES-26OCT29OKOVANAUNKLI-AUNKLI",
+   "order_id": "paper-175-1793302546",
    "price": "0.2200",
    "sets": 1,
    "done": 0,
    "reserve": "0.8900",
    "multiplier": "1",
-   "placed": 1793299517.2253966,
+   "placed": 1793302546.7406352,
    "hedge": [
     {
-     "ticker": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS-DREGUZ",
+     "ticker": "KXITFDOUBLES-26OCT29OKOVANAUNKLI-OKOVAN",
      "limit": "0.6400"
     }
    ]
@@ -400,25 +465,25 @@
    "series": "KXNEXTTEAMNHL",
    "title": "Dylan Larkin's Next Team",
    "ticker": "KXNEXTTEAMNHL-26DLARKIN71-VGK",
-   "order_id": "paper-169-1793300725",
-   "price": "0.1600",
+   "order_id": "paper-176-1793302846",
+   "price": "0.2600",
    "sets": 1,
    "done": 0,
-   "reserve": "3.3700",
+   "reserve": "3.3500",
    "multiplier": "1",
-   "placed": 1793300725.0769506,
+   "placed": 1793302846.7046156,
    "hedge": [
     {
      "ticker": "KXNEXTTEAMNHL-26DLARKIN71-DET",
-     "limit": "0.9300"
+     "limit": "0.9700"
     },
     {
      "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MIN",
-     "limit": "0.6400"
+     "limit": "0.5000"
     },
     {
      "ticker": "KXNEXTTEAMNHL-26DLARKIN71-NJD",
-     "limit": "0.6300"
+     "limit": "0.5700"
     },
     {
      "ticker": "KXNEXTTEAMNHL-26DLARKIN71-PHI",
