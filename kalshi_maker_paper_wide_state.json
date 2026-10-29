@@ -24,30 +24,6 @@
      "limit": "0.5700"
     }
    ]
-  },
-  {
-   "event": "KXDELGAME-26OCT291430LOWAUG",
-   "series": "KXDELGAME",
-   "title": "Lowen Frankfurt vs Augsburger Panther",
-   "sets": 1,
-   "outlay": "0.8700",
-   "locked_profit": "0.1300",
-   "opened": "2026-10-29T20:41:47.493779+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXDELGAME-26OCT291430LOWAUG-AUG",
-     "side": "no",
-     "count": 1,
-     "limit": "0.0600"
-    },
-    {
-     "ticker": "KXDELGAME-26OCT291430LOWAUG-LOW",
-     "side": "no",
-     "count": 1,
-     "limit": "0.7800"
-    }
-   ]
   }
  ],
  "closed": [
@@ -427,63 +403,71 @@
    "paid": "5",
    "pnl": "0.1400",
    "closed": "2026-10-29T20:26:21.998364+00:00"
+  },
+  {
+   "event": "KXDELGAME-26OCT291430LOWAUG",
+   "series": "KXDELGAME",
+   "title": "Lowen Frankfurt vs Augsburger Panther",
+   "sets": 1,
+   "outlay": "0.8700",
+   "locked_profit": "0.1300",
+   "opened": "2026-10-29T20:41:47.493779+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXDELGAME-26OCT291430LOWAUG-AUG",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0600"
+    },
+    {
+     "ticker": "KXDELGAME-26OCT291430LOWAUG-LOW",
+     "side": "no",
+     "count": 1,
+     "limit": "0.7800"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.1300",
+   "closed": "2026-10-29T21:01:48.886580+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXCOPADELREYADVANCE-26OCT29GUIGIJ",
-   "series": "KXCOPADELREYADVANCE",
-   "title": "Guijuelo vs Gijon",
-   "ticker": "KXCOPADELREYADVANCE-26OCT29GUIGIJ-GUI",
-   "order_id": "paper-180-1793304988",
-   "price": "0.2900",
-   "sets": 3,
+   "event": "KXLOLFDRAGON-26OCT291900CFOKC-2",
+   "series": "KXLOLFDRAGON",
+   "title": "CTBC Flying Oyster vs. Karmine Corp: Game 2 First Dragon",
+   "ticker": "KXLOLFDRAGON-26OCT291900CFOKC-2-NEITHER",
+   "order_id": "paper-189-1793308037",
+   "price": "0.2400",
+   "sets": 19,
    "done": 0,
-   "reserve": "2.6900",
+   "reserve": "4.8400",
    "multiplier": "1",
-   "placed": 1793304988.3783183,
+   "placed": 1793308037.2595258,
    "hedge": [
     {
-     "ticker": "KXCOPADELREYADVANCE-26OCT29GUIGIJ-GIJ",
-     "limit": "0.5800"
+     "ticker": "KXLOLFDRAGON-26OCT291900CFOKC-2-CFO",
+     "limit": "0.0100"
     }
    ]
   },
   {
-   "event": "KXKNVBCUPADVANCE-26OCT29TREHER",
-   "series": "KXKNVBCUPADVANCE",
-   "title": "Treffers Groesbeek vs Heracles Almelo",
-   "ticker": "KXKNVBCUPADVANCE-26OCT29TREHER-HER",
-   "order_id": "paper-182-1793305901",
-   "price": "0.5500",
-   "sets": 5,
+   "event": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB",
+   "series": "KXATPCHALLENGERDOUBLES",
+   "title": "Bagnis / Gomez vs Magadan / Zeballos",
+   "ticker": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB-MAGZEB",
+   "order_id": "paper-190-1793308336",
+   "price": "0.2100",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.4100",
+   "reserve": "0.8700",
    "multiplier": "1",
-   "placed": 1793305901.9746084,
+   "placed": 1793308336.9434662,
    "hedge": [
     {
-     "ticker": "KXKNVBCUPADVANCE-26OCT29TREHER-TRE",
-     "limit": "0.3300"
-    }
-   ]
-  },
-  {
-   "event": "KXITFDOUBLES-26OCT28BILWRIDEGSIM",
-   "series": "KXITFDOUBLES",
-   "title": "Bilicic / Wriedt vs Degroot / Simons",
-   "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI",
-   "order_id": "paper-183-1793305901",
-   "price": "0.1100",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8100",
-   "multiplier": "1",
-   "placed": 1793305901.9995008,
-   "hedge": [
-    {
-     "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-DEGSIM",
-     "limit": "0.8400"
+     "ticker": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB-BAGGOM",
+     "limit": "0.6300"
     }
    ]
   }
