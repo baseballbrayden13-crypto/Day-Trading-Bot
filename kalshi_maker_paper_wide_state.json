@@ -1,5 +1,5 @@
 {
- "realized": "-1.0100",
+ "realized": "-0.0700",
  "open": [
   {
    "event": "KXHIGHTSAN-26OCT28",
@@ -46,54 +46,6 @@
      "side": "no",
      "count": 2,
      "limit": "0.8500"
-    }
-   ]
-  },
-  {
-   "event": "KXMLBLEADERPLAYOFF-26KS",
-   "series": "KXMLBLEADERPLAYOFF",
-   "title": "Playoff Strikeouts Leader",
-   "sets": 6,
-   "outlay": "4.8300",
-   "locked_profit": "1.1700",
-   "opened": "2026-10-29T01:19:14.480337+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXMLBLEADERPLAYOFF-26KS-DRASMUSSEN57",
-     "side": "no",
-     "count": 6,
-     "limit": "0.6500"
-    },
-    {
-     "ticker": "KXMLBLEADERPLAYOFF-26KS-GWILLIAMS32",
-     "side": "no",
-     "count": 6,
-     "limit": "0.1400"
-    }
-   ]
-  },
-  {
-   "event": "KXLBPGAME-26OCT281800CAIPAI",
-   "series": "KXLBPGAME",
-   "title": "Caimanes Del Llano vs Paisas Basketball",
-   "sets": 5,
-   "outlay": "4.8600",
-   "locked_profit": "0.1400",
-   "opened": "2026-10-29T01:50:33.236800+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXLBPGAME-26OCT281800CAIPAI-CAI",
-     "side": "no",
-     "count": 5,
-     "limit": "0.6300"
-    },
-    {
-     "ticker": "KXLBPGAME-26OCT281800CAIPAI-PAI",
-     "side": "no",
-     "count": 5,
-     "limit": "0.3200"
     }
    ]
   }
@@ -192,6 +144,60 @@
    "paid": "0",
    "pnl": "-2.03",
    "closed": "2026-10-28T23:35:17.519731+00:00"
+  },
+  {
+   "event": "KXMLBLEADERPLAYOFF-26KS",
+   "series": "KXMLBLEADERPLAYOFF",
+   "title": "Playoff Strikeouts Leader",
+   "sets": 6,
+   "outlay": "4.8300",
+   "locked_profit": "1.1700",
+   "opened": "2026-10-29T01:19:14.480337+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXMLBLEADERPLAYOFF-26KS-DRASMUSSEN57",
+     "side": "no",
+     "count": 6,
+     "limit": "0.6500"
+    },
+    {
+     "ticker": "KXMLBLEADERPLAYOFF-26KS-GWILLIAMS32",
+     "side": "no",
+     "count": 6,
+     "limit": "0.1400"
+    }
+   ],
+   "paid": "6",
+   "pnl": "1.1700",
+   "closed": "2026-10-29T03:24:59.805279+00:00"
+  },
+  {
+   "event": "KXLBPGAME-26OCT281800CAIPAI",
+   "series": "KXLBPGAME",
+   "title": "Caimanes Del Llano vs Paisas Basketball",
+   "sets": 5,
+   "outlay": "4.8600",
+   "locked_profit": "0.1400",
+   "opened": "2026-10-29T01:50:33.236800+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLBPGAME-26OCT281800CAIPAI-CAI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.6300"
+    },
+    {
+     "ticker": "KXLBPGAME-26OCT281800CAIPAI-PAI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.3200"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.1400",
+   "closed": "2026-10-29T03:45:09.880306+00:00"
   }
  ],
  "quotes": [
@@ -200,13 +206,13 @@
    "series": "KXCOPADELREYGAME",
    "title": "Numancia vs Oviedo: Regulation Time Moneyline",
    "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-OVI",
-   "order_id": "paper-47-1793242802",
-   "price": "0.3600",
+   "order_id": "paper-50-1793244922",
+   "price": "0.37",
    "sets": 2,
    "done": 0,
-   "reserve": "3.8500",
+   "reserve": "3.8900",
    "multiplier": "1",
-   "placed": 1793242802.0833857,
+   "placed": 1793244922.7028859,
    "hedge": [
     {
      "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-NUM",
@@ -219,25 +225,40 @@
    ]
   },
   {
-   "event": "KXLOWTSATX-26OCT29",
-   "series": "KXLOWTSATX",
-   "title": "Lowest temperature in San Antonio on Oct 29, 2026?",
-   "ticker": "KXLOWTSATX-26OCT29-T68",
-   "order_id": "paper-48-1793243409",
-   "price": "0.5000",
-   "sets": 1,
+   "event": "KXTRUTHSOCIALD-26OCT28",
+   "series": "KXTRUTHSOCIALD",
+   "title": "Trump Truth Social posts on Oct 28, 2026?",
+   "ticker": "KXTRUTHSOCIALD-26OCT28-B22",
+   "order_id": "paper-51-1793245225",
+   "price": "0.7700",
+   "sets": 3,
    "done": 0,
-   "reserve": "1.9000",
+   "reserve": "2.6100",
    "multiplier": "1",
-   "placed": 1793243409.3365755,
+   "placed": 1793245225.0652723,
    "hedge": [
     {
-     "ticker": "KXLOWTSATX-26OCT29-B65.5",
-     "limit": "0.8500"
-    },
+     "ticker": "KXTRUTHSOCIALD-26OCT28-B17",
+     "limit": "0.0900"
+    }
+   ]
+  },
+  {
+   "event": "KXLOWTNOLA-26OCT28",
+   "series": "KXLOWTNOLA",
+   "title": "Lowest temperature in New Orleans on Oct 28, 2026?",
+   "ticker": "KXLOWTNOLA-26OCT28-B58.5",
+   "order_id": "paper-52-1793245526",
+   "price": "0.76",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8800",
+   "multiplier": "1",
+   "placed": 1793245526.3178277,
+   "hedge": [
     {
-     "ticker": "KXLOWTSATX-26OCT29-B67.5",
-     "limit": "0.5100"
+     "ticker": "KXLOWTNOLA-26OCT28-B60.5",
+     "limit": "0.2000"
     }
    ]
   }
