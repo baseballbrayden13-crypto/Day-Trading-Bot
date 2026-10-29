@@ -287,13 +287,13 @@
    "series": "KXWTAMATCH",
    "title": "Osaka vs Pohankova",
    "ticker": "KXWTAMATCH-26OCT28OSAPOH-POH",
-   "order_id": "paper-75-1793257491",
+   "order_id": "paper-80-1793259595",
    "price": "0.3600",
    "sets": 5,
    "done": 0,
    "reserve": "4.8200",
    "multiplier": "1",
-   "placed": 1793257491.5342636,
+   "placed": 1793259595.110902,
    "hedge": [
     {
      "ticker": "KXWTAMATCH-26OCT28OSAPOH-OSA",
@@ -306,13 +306,13 @@
    "series": "KXODIMATCH",
    "title": "Sri Lanka vs England",
    "ticker": "KXODIMATCH-26OCT290400ENGSRI-SRI",
-   "order_id": "paper-76-1793257491",
+   "order_id": "paper-81-1793259595",
    "price": "0.5200",
    "sets": 5,
    "done": 0,
    "reserve": "4.6400",
    "multiplier": "1",
-   "placed": 1793257491.5961282,
+   "placed": 1793259595.1727712,
    "hedge": [
     {
      "ticker": "KXODIMATCH-26OCT290400ENGSRI-ENG",
@@ -325,13 +325,13 @@
    "series": "KXITFMATCH",
    "title": "Fitriadi vs Tamm",
    "ticker": "KXITFMATCH-26OCT29FITTAM-FIT",
-   "order_id": "paper-77-1793257491",
-   "price": "0.1100",
+   "order_id": "paper-82-1793259595",
+   "price": "0.0500",
    "sets": 5,
    "done": 0,
-   "reserve": "4.6500",
+   "reserve": "4.3500",
    "multiplier": "1",
-   "placed": 1793257491.6581385,
+   "placed": 1793259595.2350342,
    "hedge": [
     {
      "ticker": "KXITFMATCH-26OCT29FITTAM-TAM",
@@ -344,13 +344,13 @@
    "series": "KXHIGHTMIN",
    "title": "Highest temperature in Minneapolis on Oct 29, 2026?",
    "ticker": "KXHIGHTMIN-26OCT29-B56.5",
-   "order_id": "paper-78-1793257491",
+   "order_id": "paper-83-1793259595",
    "price": "0.2000",
    "sets": 1,
    "done": 0,
    "reserve": "1.8500",
    "multiplier": "1",
-   "placed": 1793257491.7201474,
+   "placed": 1793259595.297127,
    "hedge": [
     {
      "ticker": "KXHIGHTMIN-26OCT29-T56",
@@ -363,21 +363,40 @@
    ]
   },
   {
-   "event": "KXODIMATCH-26OCT290130OMAUAE",
-   "series": "KXODIMATCH",
-   "title": "United Arab Emirates vs Oman",
-   "ticker": "KXODIMATCH-26OCT290130OMAUAE-OMA",
-   "order_id": "paper-79-1793257793",
-   "price": "0.5700",
+   "event": "KXCS2GAME-26OCT290500HOTUB8",
+   "series": "KXCS2GAME",
+   "title": "HOTU vs. B8",
+   "ticker": "KXCS2GAME-26OCT290500HOTUB8-HOTU",
+   "order_id": "paper-84-1793259895",
+   "price": "0.45",
    "sets": 1,
    "done": 0,
-   "reserve": "0.8500",
+   "reserve": "0.9000",
    "multiplier": "1",
-   "placed": 1793257793.5539792,
+   "placed": 1793259895.9286146,
    "hedge": [
     {
-     "ticker": "KXODIMATCH-26OCT290130OMAUAE-UAE",
-     "limit": "0.2500"
+     "ticker": "KXCS2GAME-26OCT290500HOTUB8-B8",
+     "limit": "0.4200"
+    }
+   ]
+  },
+  {
+   "event": "KXCS2MAP-26OCT290400NEMIFUT-1",
+   "series": "KXCS2MAP",
+   "title": "Nemiga vs. FUT Esports: Map 1 Winner",
+   "ticker": "KXCS2MAP-26OCT290400NEMIFUT-1-NEMI",
+   "order_id": "paper-85-1793260190",
+   "price": "0.0900",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.5000",
+   "multiplier": "1",
+   "placed": 1793260190.8799012,
+   "hedge": [
+    {
+     "ticker": "KXCS2MAP-26OCT290400NEMIFUT-1-FUT",
+     "limit": "0.3800"
     }
    ]
   }

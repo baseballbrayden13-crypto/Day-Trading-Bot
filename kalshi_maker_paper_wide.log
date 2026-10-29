@@ -526,3 +526,21 @@
 2026-10-29 03:19:41,831 INFO Swept 15295 events: 0 taker trades, 0 new quotes, 5 resting
 2026-10-29 03:24:43,267 INFO Swept 15295 events: 0 taker trades, 0 new quotes, 5 resting
 2026-10-29 03:29:48,890 INFO Swept 15295 events: 0 taker trades, 0 new quotes, 5 resting
+2026-10-29 03:34:50,474 INFO Swept 15295 events: 0 taker trades, 0 new quotes, 5 resting
+2026-10-29 03:39:55,110 INFO PAPER rest NO bid KXWTAMATCH-26OCT28OSAPOH-POH at $0.3600 x5 (0 already bid at that price)
+2026-10-29 03:39:55,110 INFO Resting NO bid on KXWTAMATCH-26OCT28OSAPOH-POH at $0.3600 x5 (KXWTAMATCH-26OCT28OSAPOH): locks in $0.18 if it fills; hedge NO OSA@0.5800
+2026-10-29 03:39:55,172 INFO PAPER rest NO bid KXODIMATCH-26OCT290400ENGSRI-SRI at $0.5200 x5 (0 already bid at that price)
+2026-10-29 03:39:55,172 INFO Resting NO bid on KXODIMATCH-26OCT290400ENGSRI-SRI at $0.5200 x5 (KXODIMATCH-26OCT290400ENGSRI): locks in $0.36 if it fills; hedge NO ENG@0.4000
+2026-10-29 03:39:55,234 INFO PAPER rest NO bid KXITFMATCH-26OCT29FITTAM-FIT at $0.0500 x5 (0 already bid at that price)
+2026-10-29 03:39:55,235 INFO Resting NO bid on KXITFMATCH-26OCT29FITTAM-FIT at $0.0500 x5 (KXITFMATCH-26OCT29FITTAM): locks in $0.65 if it fills; hedge NO TAM@0.8400
+2026-10-29 03:39:55,297 INFO PAPER rest NO bid KXHIGHTMIN-26OCT29-B56.5 at $0.2000 x1 (0 already bid at that price)
+2026-10-29 03:39:55,297 INFO Resting NO bid on KXHIGHTMIN-26OCT29-B56.5 at $0.2000 x1 (KXHIGHTMIN-26OCT29): locks in $0.15 if it fills; hedge NO T56@0.8600, B58.5@0.7500
+2026-10-29 03:39:55,299 INFO Swept 15295 events: 0 taker trades, 4 new quotes, 5 resting
+2026-10-29 03:44:55,928 INFO PAPER rest NO bid KXCS2GAME-26OCT290500HOTUB8-HOTU at $0.4500 x1 (1 already bid at that price)
+2026-10-29 03:44:55,928 INFO Resting NO bid on KXCS2GAME-26OCT290500HOTUB8-HOTU at $0.45 x1 (KXCS2GAME-26OCT290500HOTUB8): locks in $0.10 if it fills; hedge NO B8@0.4200
+2026-10-29 03:44:55,930 INFO Swept 15295 events: 0 taker trades, 1 new quotes, 5 resting
+2026-10-29 03:49:50,879 INFO PAPER rest NO bid KXCS2MAP-26OCT290400NEMIFUT-1-NEMI at $0.0900 x1 (0 already bid at that price)
+2026-10-29 03:49:50,879 INFO Resting NO bid on KXCS2MAP-26OCT290400NEMIFUT-1-NEMI at $0.0900 x1 (KXCS2MAP-26OCT290400NEMIFUT-1): locks in $0.50 if it fills; hedge NO FUT@0.3800
+2026-10-29 03:49:50,882 INFO Swept 15295 events: 0 taker trades, 1 new quotes, 6 resting
+2026-10-29 03:54:56,574 INFO Swept 15295 events: 0 taker trades, 0 new quotes, 6 resting
+2026-10-29 03:59:56,903 INFO Swept 15295 events: 0 taker trades, 0 new quotes, 6 resting
