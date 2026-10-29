@@ -594,12 +594,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793239783.9407637,
-  "checked": 1793240235.4900372,
+  "checked": 1793241064.1949854,
   "expires": 1793241583,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-44-1793239784": {
   "id": "paper-44-1793239784",
@@ -608,8 +608,22 @@
   "count": 2,
   "ahead": 2,
   "placed": 1793239784.0030122,
-  "checked": 1793240235.6216152,
+  "checked": 1793241583,
   "expires": 1793241583,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-45-1793241897": {
+  "id": "paper-45-1793241897",
+  "ticker": "KXESOCCERGAME-26OCT282236DZENDRAK-DRAK",
+  "price": "0.2800",
+  "count": 3,
+  "ahead": 0,
+  "placed": 1793241897.4757373,
+  "checked": 1793242035.819587,
+  "expires": 1793243697,
   "through": 0,
   "at_price": 0,
   "filled": 0,

@@ -196,44 +196,21 @@
  ],
  "quotes": [
   {
-   "event": "KXMLS2H-26OCT28MINSKC",
-   "series": "KXMLS2H",
-   "title": "Minnesota vs Kansas City: Second Half Winner",
-   "ticker": "KXMLS2H-26OCT28MINSKC-SKC",
-   "order_id": "paper-43-1793239783",
-   "price": "0.3700",
-   "sets": 2,
+   "event": "KXESOCCERGAME-26OCT282236DZENDRAK",
+   "series": "KXESOCCERGAME",
+   "title": "eSoccer: Manchester City (Dzen) vs Chelsea (Drakon)",
+   "ticker": "KXESOCCERGAME-26OCT282236DZENDRAK-DRAK",
+   "order_id": "paper-45-1793241897",
+   "price": "0.2800",
+   "sets": 3,
    "done": 0,
-   "reserve": "3.7700",
+   "reserve": "2.2100",
    "multiplier": "1",
-   "placed": 1793239783.941704,
+   "placed": 1793241897.4767158,
    "hedge": [
     {
-     "ticker": "KXMLS2H-26OCT28MINSKC-MIN",
-     "limit": "0.5800"
-    },
-    {
-     "ticker": "KXMLS2H-26OCT28MINSKC-TIE",
-     "limit": "0.9800"
-    }
-   ]
-  },
-  {
-   "event": "KXUFCFIGHT-26OCT31BEKPET",
-   "series": "KXUFCFIGHT",
-   "title": "Fight Night: Azamat Bekoev vs Andre Petroski",
-   "ticker": "KXUFCFIGHT-26OCT31BEKPET-PET",
-   "order_id": "paper-44-1793239784",
-   "price": "0.57",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.8900",
-   "multiplier": "1",
-   "placed": 1793239784.0038404,
-   "hedge": [
-    {
-     "ticker": "KXUFCFIGHT-26OCT31BEKPET-BEK",
-     "limit": "0.3500"
+     "ticker": "KXESOCCERGAME-26OCT282236DZENDRAK-DZEN",
+     "limit": "0.6000"
     }
    ]
   }

@@ -354,3 +354,12 @@
 2026-10-28 22:09:44,003 INFO Resting NO bid on KXUFCFIGHT-26OCT31BEKPET-PET at $0.57 x2 (KXUFCFIGHT-26OCT31BEKPET): locks in $0.11 if it fills; hedge NO BEK@0.3500
 2026-10-28 22:09:44,005 INFO Swept 15891 events: 0 taker trades, 2 new quotes, 2 resting
 2026-10-28 22:14:42,817 INFO Swept 15877 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-28 22:19:46,144 INFO Swept 15800 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-28 22:24:47,425 INFO Swept 15782 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-28 22:29:50,683 INFO Swept 15769 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-28 22:31:04,257 INFO Quote KXMLS2H-26OCT28MINSKC cancelled (0/2 filled)
+2026-10-28 22:34:53,958 INFO Swept 15749 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 22:39:54,455 INFO Swept 15700 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 22:44:57,476 INFO PAPER rest NO bid KXESOCCERGAME-26OCT282236DZENDRAK-DRAK at $0.2800 x3 (0 already bid at that price)
+2026-10-28 22:44:57,476 INFO Resting NO bid on KXESOCCERGAME-26OCT282236DZENDRAK-DRAK at $0.2800 x3 (KXESOCCERGAME-26OCT282236DZENDRAK): locks in $0.79 if it fills; hedge NO DZEN@0.6000
+2026-10-28 22:44:57,478 INFO Swept 15650 events: 0 taker trades, 1 new quotes, 1 resting
