@@ -1,5 +1,5 @@
 {
- "realized": "0.7600",
+ "realized": "0.8600",
  "open": [
   {
    "event": "KXHIGHTSAN-26OCT28",
@@ -46,30 +46,6 @@
      "side": "no",
      "count": 2,
      "limit": "0.8500"
-    }
-   ]
-  },
-  {
-   "event": "KXWT20MATCH-26OCT282330KNTWMGOAWM",
-   "series": "KXWT20MATCH",
-   "title": "Goa Women vs Karnataka Women",
-   "sets": 5,
-   "outlay": "4.9000",
-   "locked_profit": "0.1000",
-   "opened": "2026-10-29T04:56:51.194266+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXWT20MATCH-26OCT282330KNTWMGOAWM-KNTWM",
-     "side": "no",
-     "count": 5,
-     "limit": "0.30"
-    },
-    {
-     "ticker": "KXWT20MATCH-26OCT282330KNTWMGOAWM-GOAWM",
-     "side": "no",
-     "count": 5,
-     "limit": "0.6600"
     }
    ]
   }
@@ -276,50 +252,34 @@
    "paid": "5",
    "pnl": "0.3300",
    "closed": "2026-10-29T05:25:53.287490+00:00"
-  }
- ],
- "quotes": [
-  {
-   "event": "KXLOWTNYC-26OCT29",
-   "series": "KXLOWTNYC",
-   "title": "Lowest temperature in New York City on Oct 29, 2026?",
-   "ticker": "KXLOWTNYC-26OCT29-B49.5",
-   "order_id": "paper-68-1793256399",
-   "price": "0.2100",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.7300",
-   "multiplier": "1",
-   "placed": 1793256399.1964016,
-   "hedge": [
-    {
-     "ticker": "KXLOWTNYC-26OCT29-B47.5",
-     "limit": "0.9800"
-    },
-    {
-     "ticker": "KXLOWTNYC-26OCT29-B51.5",
-     "limit": "0.5300"
-    }
-   ]
   },
   {
-   "event": "KXESOCCERGAME-26OCT290238BONYHURR",
-   "series": "KXESOCCERGAME",
-   "title": "eSoccer: Getafe CF (Bony) vs RC Celta (Hurricane)",
-   "ticker": "KXESOCCERGAME-26OCT290238BONYHURR-TIE",
-   "order_id": "paper-69-1793256399",
-   "price": "0.5200",
+   "event": "KXWT20MATCH-26OCT282330KNTWMGOAWM",
+   "series": "KXWT20MATCH",
+   "title": "Goa Women vs Karnataka Women",
    "sets": 5,
-   "done": 0,
-   "reserve": "4.3100",
-   "multiplier": "1",
-   "placed": 1793256399.258093,
-   "hedge": [
+   "outlay": "4.9000",
+   "locked_profit": "0.1000",
+   "opened": "2026-10-29T04:56:51.194266+00:00",
+   "maker": true,
+   "legs": [
     {
-     "ticker": "KXESOCCERGAME-26OCT290238BONYHURR-BONY",
-     "limit": "0.3200"
+     "ticker": "KXWT20MATCH-26OCT282330KNTWMGOAWM-KNTWM",
+     "side": "no",
+     "count": 5,
+     "limit": "0.30"
+    },
+    {
+     "ticker": "KXWT20MATCH-26OCT282330KNTWMGOAWM-GOAWM",
+     "side": "no",
+     "count": 5,
+     "limit": "0.6600"
     }
-   ]
+   ],
+   "paid": "5",
+   "pnl": "0.1000",
+   "closed": "2026-10-29T06:56:34.090749+00:00"
   }
- ]
+ ],
+ "quotes": []
 }
