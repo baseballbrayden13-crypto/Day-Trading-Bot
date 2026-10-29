@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-29T15:15:16+00:00",
+ "updated": "2026-10-29T15:45:26+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "21.44",
- "realized_profit": "1.44",
+ "equity": "20.25",
+ "realized_profit": "0.25",
  "bet_level": "20.00",
  "open_trades": 0,
  "open_locked_profit": "0.00",
@@ -13,11 +13,13 @@
  "stray_positions": 0,
  "closed_trades": 9,
  "trades_this_loop": 0,
- "events_swept": 15609,
+ "events_swept": 15591,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 1,
+ "problems": 3,
  "last_problems": [
-  "2026-10-29 13:18 Quote KXKBOGAME-26OCT300530SAMKIA: hedge missed on KXKBOGAME-26OCT300530SAMKIA-KIA. Selling back 5 contracts on 1 legs."
+  "2026-10-29 13:18 Quote KXKBOGAME-26OCT300530SAMKIA: hedge missed on KXKBOGAME-26OCT300530SAMKIA-KIA. Selling back 5 contracts on 1 legs.",
+  "2026-10-29 15:22 Quote KXSAUDIPL1H-26OCT29KHAHAZ: hedge missed on KXSAUDIPL1H-26OCT29KHAHAZ-KHA. Selling back 2 contracts on 1 legs.",
+  "2026-10-29 15:22 STRAY POSITION: 2 NO contracts of KXSAUDIPL1H-26OCT29KHAHAZ-HAZ still held. Check it on Kalshi."
  ]
 }

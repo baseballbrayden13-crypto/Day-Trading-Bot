@@ -1,5 +1,5 @@
 {
- "realized": "1.4400",
+ "realized": "0.2500",
  "open": [],
  "closed": [
   {
@@ -304,44 +304,68 @@
    "paid": "2",
    "pnl": "0.1100",
    "closed": "2026-10-29T14:11:00.825718+00:00"
+  },
+  {
+   "event": "KXSAUDIPL1H-26OCT29KHAHAZ (stray)",
+   "series": "KXSAUDIPL1H",
+   "title": "Al-Khaleej vs Al-Hazm: First Half Winner",
+   "sets": 0,
+   "outlay": "1.1900",
+   "locked_profit": "0",
+   "opened": "2026-10-29T15:22:06.314126+00:00",
+   "legs": [
+    {
+     "ticker": "KXSAUDIPL1H-26OCT29KHAHAZ-HAZ",
+     "side": "no",
+     "count": 2,
+     "limit": "0.5900"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-1.1900",
+   "closed": "2026-10-29T15:31:39.388310+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXVALORANTAWARD-CHAMPSH26MVP",
-   "series": "KXVALORANTAWARD",
-   "title": "VALORANT Champions Shanghai MVP",
-   "ticker": "KXVALORANTAWARD-CHAMPSH26MVP-LUKXO",
-   "order_id": "paper-129-1793285802",
-   "price": "0.1400",
-   "sets": 12,
+   "event": "KXNFLNEXTTEAM-26GWILSON5",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Garrett Wilson Next Team",
+   "ticker": "KXNFLNEXTTEAM-26GWILSON5-LA",
+   "order_id": "paper-136-1793288219",
+   "price": "0.0900",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.8700",
+   "reserve": "4.7600",
    "multiplier": "1",
-   "placed": 1793285802.9561718,
+   "placed": 1793288219.6067746,
    "hedge": [
     {
-     "ticker": "KXVALORANTAWARD-CHAMPSH26MVP-ERDE",
-     "limit": "0.3000"
+     "ticker": "KXNFLNEXTTEAM-26GWILSON5-NYJ",
+     "limit": "0.2600"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26GWILSON5-SF",
+     "limit": "0.8300"
     }
    ]
   },
   {
-   "event": "KXPGA3BALL-VIMO26R1JDAHBGRIANOV",
-   "series": "KXPGA3BALL",
-   "title": "1st Round 3-Ball: Dahmen/Griffin/Novak",
-   "ticker": "KXPGA3BALL-VIMO26R1JDAHBGRIANOV-ANOV",
-   "order_id": "paper-132-1793287011",
-   "price": "0.7200",
-   "sets": 5,
+   "event": "KXKHLGAME-26OCT291000TORAVT",
+   "series": "KXKHLGAME",
+   "title": "Torpedo Nizhny Novgorod vs Avtomobilist Yekaterinburg",
+   "ticker": "KXKHLGAME-26OCT291000TORAVT-AVT",
+   "order_id": "paper-137-1793288821",
+   "price": "0.30",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.7900",
+   "reserve": "3.8900",
    "multiplier": "1",
-   "placed": 1793287011.030442,
+   "placed": 1793288821.5032535,
    "hedge": [
     {
-     "ticker": "KXPGA3BALL-VIMO26R1JDAHBGRIANOV-BGRI",
-     "limit": "0.2200"
+     "ticker": "KXKHLGAME-26OCT291000TORAVT-TOR",
+     "limit": "0.6500"
     }
    ]
   }
