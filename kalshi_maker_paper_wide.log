@@ -398,3 +398,14 @@
 2026-10-28 23:46:05,026 INFO PAPER buy 5 NO KXEBASKETBALLGAME-26OCT282359DAVITIM-DAVI at up to $0.4300: not on the book
 2026-10-28 23:46:05,026 WARNING Quote KXEBASKETBALLGAME-26OCT282359DAVITIM: hedge missed on KXEBASKETBALLGAME-26OCT282359DAVITIM-DAVI. Selling back 5 contracts on 1 legs.
 2026-10-28 23:46:05,089 INFO PAPER sell 5 YES KXEBASKETBALLGAME-26OCT282359DAVITIM-TIM at up to $0.5300: filled 5
+2026-10-28 23:50:28,607 INFO PAPER rest NO bid KXBILLBOARDRUNNERUPALBUM-26NOV07-MUS at $0.1300 x1 (0 already bid at that price)
+2026-10-28 23:50:28,607 INFO Resting NO bid on KXBILLBOARDRUNNERUPALBUM-26NOV07-MUS at $0.1300 x1 (KXBILLBOARDRUNNERUPALBUM-26NOV07): locks in $0.15 if it fills; hedge NO DAM@0.9400, DAN@0.9500, THE@0.9400, YOU@0.8400
+2026-10-28 23:50:28,609 INFO Swept 15486 events: 0 taker trades, 1 new quotes, 4 resting
+2026-10-28 23:55:28,730 INFO Swept 15472 events: 0 taker trades, 0 new quotes, 4 resting
+2026-10-28 23:57:31,149 INFO Quote KXLOWTNOLA-26OCT28 cancelled (0/5 filled)
+2026-10-29 00:00:30,404 INFO Swept 15465 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-29 00:00:30,742 INFO Quote KXTRUTHSOCIALD-26OCT28 cancelled (0/3 filled)
+2026-10-29 00:00:36,081 INFO Quote KXCOPADELREYGAME-26OCT28NUMOVI cancelled (0/2 filled)
+2026-10-29 00:05:38,546 INFO Swept 15394 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 00:10:38,247 INFO Swept 15396 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 00:15:44,107 INFO Swept 15390 events: 0 taker trades, 0 new quotes, 1 resting

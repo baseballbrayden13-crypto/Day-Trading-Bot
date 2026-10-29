@@ -202,63 +202,33 @@
  ],
  "quotes": [
   {
-   "event": "KXCOPADELREYGAME-26OCT28NUMOVI",
-   "series": "KXCOPADELREYGAME",
-   "title": "Numancia vs Oviedo: Regulation Time Moneyline",
-   "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-OVI",
-   "order_id": "paper-50-1793244922",
-   "price": "0.37",
-   "sets": 2,
+   "event": "KXBILLBOARDRUNNERUPALBUM-26NOV07",
+   "series": "KXBILLBOARDRUNNERUPALBUM",
+   "title": "#2 on the Billboard 200 chart for the Week of Nov 7, 2026?",
+   "ticker": "KXBILLBOARDRUNNERUPALBUM-26NOV07-MUS",
+   "order_id": "paper-53-1793245828",
+   "price": "0.1300",
+   "sets": 1,
    "done": 0,
-   "reserve": "3.8900",
+   "reserve": "3.8500",
    "multiplier": "1",
-   "placed": 1793244922.7028859,
+   "placed": 1793245828.6076734,
    "hedge": [
     {
-     "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-NUM",
-     "limit": "0.8100"
+     "ticker": "KXBILLBOARDRUNNERUPALBUM-26NOV07-DAM",
+     "limit": "0.9400"
     },
     {
-     "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-TIE",
-     "limit": "0.7300"
-    }
-   ]
-  },
-  {
-   "event": "KXTRUTHSOCIALD-26OCT28",
-   "series": "KXTRUTHSOCIALD",
-   "title": "Trump Truth Social posts on Oct 28, 2026?",
-   "ticker": "KXTRUTHSOCIALD-26OCT28-B22",
-   "order_id": "paper-51-1793245225",
-   "price": "0.7700",
-   "sets": 3,
-   "done": 0,
-   "reserve": "2.6100",
-   "multiplier": "1",
-   "placed": 1793245225.0652723,
-   "hedge": [
+     "ticker": "KXBILLBOARDRUNNERUPALBUM-26NOV07-DAN",
+     "limit": "0.9500"
+    },
     {
-     "ticker": "KXTRUTHSOCIALD-26OCT28-B17",
-     "limit": "0.0900"
-    }
-   ]
-  },
-  {
-   "event": "KXLOWTNOLA-26OCT28",
-   "series": "KXLOWTNOLA",
-   "title": "Lowest temperature in New Orleans on Oct 28, 2026?",
-   "ticker": "KXLOWTNOLA-26OCT28-B58.5",
-   "order_id": "paper-52-1793245526",
-   "price": "0.76",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8800",
-   "multiplier": "1",
-   "placed": 1793245526.3178277,
-   "hedge": [
+     "ticker": "KXBILLBOARDRUNNERUPALBUM-26NOV07-THE",
+     "limit": "0.9500"
+    },
     {
-     "ticker": "KXLOWTNOLA-26OCT28-B60.5",
-     "limit": "0.2000"
+     "ticker": "KXBILLBOARDRUNNERUPALBUM-26NOV07-YOU",
+     "limit": "0.8400"
     }
    ]
   }
