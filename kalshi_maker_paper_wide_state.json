@@ -351,25 +351,5 @@
    "closed": "2026-10-29T15:31:39.388310+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXPHLGAME-26OCT291300BYTSAN",
-   "series": "KXPHLGAME",
-   "title": "TMH Polonia Bytom vs KH Sanok",
-   "ticker": "KXPHLGAME-26OCT291300BYTSAN-SAN",
-   "order_id": "paper-159-1793297917",
-   "price": "0.5400",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8200",
-   "multiplier": "1",
-   "placed": 1793297917.7677195,
-   "hedge": [
-    {
-     "ticker": "KXPHLGAME-26OCT291300BYTSAN-BYT",
-     "limit": "0.4000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
