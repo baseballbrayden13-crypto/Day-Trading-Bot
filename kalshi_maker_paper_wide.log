@@ -841,3 +841,17 @@
 2026-10-29 13:07:39,990 INFO Swept 15630 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-29 13:12:43,870 INFO Swept 15697 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-29 13:17:44,394 INFO Swept 15759 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 13:20:29,163 INFO Quote KXCOPADELREYADVANCE-26OCT29SPOSEV cancelled (0/5 filled)
+2026-10-29 13:22:48,809 INFO Swept 15778 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 13:27:52,158 INFO Swept 15780 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 13:32:56,492 INFO Swept 15769 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 13:38:00,119 INFO PAPER rest NO bid KXSLBGAME-26OCT301530CHELIV-CHE at $0.4000 x2 (0 already bid at that price)
+2026-10-29 13:38:00,119 INFO Resting NO bid on KXSLBGAME-26OCT301530CHELIV-CHE at $0.4000 x2 (KXSLBGAME-26OCT301530CHELIV): locks in $0.11 if it fills; hedge NO LIV@0.5200
+2026-10-29 13:38:00,155 INFO PAPER rest NO bid KXPHLGAME-26OCT291300BYTSAN-SAN at $0.5400 x5 (0 already bid at that price)
+2026-10-29 13:38:00,155 INFO Resting NO bid on KXPHLGAME-26OCT291300BYTSAN-SAN at $0.5400 x5 (KXPHLGAME-26OCT291300BYTSAN): locks in $0.18 if it fills; hedge NO BYT@0.4000
+2026-10-29 13:38:00,157 INFO Swept 15767 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-29 13:43:05,715 INFO Swept 15790 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 13:45:18,550 INFO Quote KXSLBGAME-26OCT301530CHELIV cancelled (0/2 filled)
+2026-10-29 13:48:23,743 INFO PAPER rest NO bid KXLOWTPHX-26OCT29-B61.5 at $0.9000 x5 (0 already bid at that price)
+2026-10-29 13:48:23,743 INFO Resting NO bid on KXLOWTPHX-26OCT29-B61.5 at $0.9000 x5 (KXLOWTPHX-26OCT29): locks in $0.17 if it fills; hedge NO B63.5@0.0600
+2026-10-29 13:48:23,745 INFO Swept 15814 events: 0 taker trades, 1 new quotes, 2 resting

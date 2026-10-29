@@ -328,40 +328,40 @@
  ],
  "quotes": [
   {
-   "event": "KXITFDOUBLES-26OCT28BILWRIDEGSIM",
-   "series": "KXITFDOUBLES",
-   "title": "Bilicic / Wriedt vs Degroot / Simons",
-   "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI",
-   "order_id": "paper-148-1793292757",
-   "price": "0.4600",
+   "event": "KXPHLGAME-26OCT291300BYTSAN",
+   "series": "KXPHLGAME",
+   "title": "TMH Polonia Bytom vs KH Sanok",
+   "ticker": "KXPHLGAME-26OCT291300BYTSAN-SAN",
+   "order_id": "paper-152-1793295480",
+   "price": "0.5400",
    "sets": 5,
    "done": 0,
-   "reserve": "4.4200",
+   "reserve": "4.8200",
    "multiplier": "1",
-   "placed": 1793292757.9805958,
+   "placed": 1793295480.1555,
    "hedge": [
     {
-     "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-DEGSIM",
+     "ticker": "KXPHLGAME-26OCT291300BYTSAN-BYT",
      "limit": "0.4000"
     }
    ]
   },
   {
-   "event": "KXCOPADELREYADVANCE-26OCT29SPOSEV",
-   "series": "KXCOPADELREYADVANCE",
-   "title": "AD Sporting Hortaleza vs Sevilla",
-   "ticker": "KXCOPADELREYADVANCE-26OCT29SPOSEV-SEV",
-   "order_id": "paper-150-1793293659",
-   "price": "0.03",
+   "event": "KXLOWTPHX-26OCT29",
+   "series": "KXLOWTPHX",
+   "title": "Lowest temperature in Phoenix on Oct 29, 2026?",
+   "ticker": "KXLOWTPHX-26OCT29-B61.5",
+   "order_id": "paper-153-1793296103",
+   "price": "0.9000",
    "sets": 5,
    "done": 0,
-   "reserve": "4.8800",
+   "reserve": "4.8300",
    "multiplier": "1",
-   "placed": 1793293659.98861,
+   "placed": 1793296103.743476,
    "hedge": [
     {
-     "ticker": "KXCOPADELREYADVANCE-26OCT29SPOSEV-SPO",
-     "limit": "0.9400"
+     "ticker": "KXLOWTPHX-26OCT29-B63.5",
+     "limit": "0.0600"
     }
    ]
   }
