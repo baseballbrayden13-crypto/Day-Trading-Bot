@@ -482,3 +482,13 @@
 2026-10-29 02:11:25,682 INFO Swept 15340 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-29 02:11:52,295 INFO Quote KXEBASKETBALLGAME-26OCT290150GAVIKYLE cancelled (0/5 filled)
 2026-10-29 02:16:26,617 INFO Swept 15336 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 02:21:27,124 INFO Swept 15334 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 02:26:26,945 INFO Swept 15329 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 02:31:31,947 INFO Swept 15339 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 02:36:31,789 INFO Swept 15345 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 02:41:35,682 INFO Swept 15340 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 02:46:39,196 INFO PAPER rest NO bid KXLOWTNYC-26OCT29-B49.5 at $0.2100 x1 (0 already bid at that price)
+2026-10-29 02:46:39,196 INFO Resting NO bid on KXLOWTNYC-26OCT29-B49.5 at $0.2100 x1 (KXLOWTNYC-26OCT29): locks in $0.27 if it fills; hedge NO B47.5@0.9700, B51.5@0.5100
+2026-10-29 02:46:39,257 INFO PAPER rest NO bid KXESOCCERGAME-26OCT290238BONYHURR-TIE at $0.5200 x5 (0 already bid at that price)
+2026-10-29 02:46:39,258 INFO Resting NO bid on KXESOCCERGAME-26OCT290238BONYHURR-TIE at $0.5200 x5 (KXESOCCERGAME-26OCT290238BONYHURR): locks in $0.69 if it fills; hedge NO BONY@0.3200
+2026-10-29 02:46:39,259 INFO Swept 15341 events: 0 taker trades, 2 new quotes, 2 resting

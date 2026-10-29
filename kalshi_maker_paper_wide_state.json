@@ -278,5 +278,48 @@
    "closed": "2026-10-29T05:25:53.287490+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLOWTNYC-26OCT29",
+   "series": "KXLOWTNYC",
+   "title": "Lowest temperature in New York City on Oct 29, 2026?",
+   "ticker": "KXLOWTNYC-26OCT29-B49.5",
+   "order_id": "paper-68-1793256399",
+   "price": "0.2100",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.7300",
+   "multiplier": "1",
+   "placed": 1793256399.1964016,
+   "hedge": [
+    {
+     "ticker": "KXLOWTNYC-26OCT29-B47.5",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXLOWTNYC-26OCT29-B51.5",
+     "limit": "0.5300"
+    }
+   ]
+  },
+  {
+   "event": "KXESOCCERGAME-26OCT290238BONYHURR",
+   "series": "KXESOCCERGAME",
+   "title": "eSoccer: Getafe CF (Bony) vs RC Celta (Hurricane)",
+   "ticker": "KXESOCCERGAME-26OCT290238BONYHURR-TIE",
+   "order_id": "paper-69-1793256399",
+   "price": "0.5200",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.3100",
+   "multiplier": "1",
+   "placed": 1793256399.258093,
+   "hedge": [
+    {
+     "ticker": "KXESOCCERGAME-26OCT290238BONYHURR-BONY",
+     "limit": "0.3200"
+    }
+   ]
+  }
+ ]
 }
