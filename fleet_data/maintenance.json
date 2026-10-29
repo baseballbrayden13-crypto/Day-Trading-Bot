@@ -1,12 +1,12 @@
 {
- "checked": "2026-10-28T14:36:16+00:00",
+ "checked": "2026-10-29T01:23:38+00:00",
  "status": {
   "0": "info",
-  "1": "act",
-  "2": "act",
-  "3": "act",
-  "4": "info",
-  "6": "info"
+  "1": "info",
+  "2": "info",
+  "3": "info",
+  "6": "act",
+  "7": "act"
  },
  "findings": [
   {
@@ -24,15 +24,6 @@
    "check": "replay",
    "message": "2026-10-28: bot 1 did what the backtest would have (0 entries).",
    "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 1,
-   "level": "act",
-   "check": "schedule",
-   "message": "trades.log doesn't exist in ., so bot 1 has never run here.",
-   "fix": "Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.",
    "proposal": "",
    "risk": "Low"
   },
@@ -56,18 +47,9 @@
   },
   {
    "bot": 2,
-   "level": "act",
-   "check": "schedule",
-   "message": "rotation.log doesn't exist in ., so bot 2 has never run here.",
-   "fix": "Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 2,
    "level": "info",
    "check": "return",
-   "message": "$5,018.30, +0.4% since the $5,000 start.",
+   "message": "$5,028.52, +0.6% since the $5,000 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -76,17 +58,8 @@
    "bot": 2,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot +0.4% vs just holding SPY +1.4%.",
+   "message": "Since 2026-10-23: bot +0.6% vs just holding SPY +1.6%.",
    "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 3,
-   "level": "act",
-   "check": "schedule",
-   "message": "crypto.log doesn't exist in ., so bot 3 has never run here.",
-   "fix": "Check the Cloud bots run on GitHub (Actions tab) and that its keys are in the repository secrets.",
    "proposal": "",
    "risk": "Low"
   },
@@ -103,25 +76,61 @@
    "bot": 3,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -1.0%.",
-   "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 4,
-   "level": "info",
-   "check": "performance",
-   "message": "No Bot 4 trades yet. Expected: the 14-day backtest found 0 taker trades worth $0.10.",
+   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -0.5%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
   },
   {
    "bot": 6,
+   "level": "act",
+   "check": "schedule",
+   "message": "Bot 4c (maker_paper) last wrote anything Wed 10/28 20:53 ET, over 30 minutes ago.",
+   "fix": "Its loop has stopped. Check its scheduled task and its _err.log.",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 6,
    "level": "info",
-   "check": "performance",
-   "message": "No Bot 4c trades yet; 1 maker quotes resting.",
+   "check": "return",
+   "message": "Bot 4c: 1 settled, 2 open, $-0.99 settled profit.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 7,
+   "level": "act",
+   "check": "losses",
+   "message": "Bot 4e: 1 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
+   "fix": "Read kalshi_data/opportunities.csv for those events.",
+   "proposal": "Pause Bot 4e until the losing trades are explained.",
+   "risk": "Medium"
+  },
+  {
+   "bot": 7,
+   "level": "watch",
+   "check": "errors",
+   "message": "Bot 4e: 5 warnings last loop. Latest: 2026-10-28 22:51 STRAY POSITION: 5 NO contracts of KXLOLFBLOOD-26OCT281900LYIG-2-IG still held. Check it on Kalshi.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 7,
+   "level": "watch",
+   "check": "errors",
+   "message": "Bot 4e: 2 errors in the last day. Latest: 2026-10-28 18:51:50,980 ERROR STRAY POSITION: 5 NO contracts of KXLOLFBLOOD-26OCT281900LYIG-2-IG still held. Check it on Kalshi.",
+   "fix": "Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug.",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 7,
+   "level": "info",
+   "check": "return",
+   "message": "Bot 4e: 4 settled, 2 open, $-0.94 settled profit.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
