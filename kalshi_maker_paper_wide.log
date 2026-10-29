@@ -651,3 +651,7 @@
 2026-10-29 08:33:05,482 INFO PAPER rest NO bid KXSLBGAME-26OCT301530CHELIV-CHE at $0.4200 x2 (0 already bid at that price)
 2026-10-29 08:33:05,482 INFO Resting NO bid on KXSLBGAME-26OCT301530CHELIV-CHE at $0.4200 x2 (KXSLBGAME-26OCT301530CHELIV): locks in $0.13 if it fills; hedge NO LIV@0.5200
 2026-10-29 08:33:05,484 INFO Swept 15433 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-29 08:38:08,622 INFO Swept 15440 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 08:43:13,043 INFO Swept 15436 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 08:48:17,934 INFO Swept 15440 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 08:48:23,329 INFO Stopped; all quotes cancelled.
