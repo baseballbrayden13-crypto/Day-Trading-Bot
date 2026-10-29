@@ -281,5 +281,105 @@
    "closed": "2026-10-29T06:56:34.090749+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXWTAMATCH-26OCT28OSAPOH",
+   "series": "KXWTAMATCH",
+   "title": "Osaka vs Pohankova",
+   "ticker": "KXWTAMATCH-26OCT28OSAPOH-POH",
+   "order_id": "paper-75-1793257491",
+   "price": "0.3600",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8200",
+   "multiplier": "1",
+   "placed": 1793257491.5342636,
+   "hedge": [
+    {
+     "ticker": "KXWTAMATCH-26OCT28OSAPOH-OSA",
+     "limit": "0.5800"
+    }
+   ]
+  },
+  {
+   "event": "KXODIMATCH-26OCT290400ENGSRI",
+   "series": "KXODIMATCH",
+   "title": "Sri Lanka vs England",
+   "ticker": "KXODIMATCH-26OCT290400ENGSRI-SRI",
+   "order_id": "paper-76-1793257491",
+   "price": "0.5200",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.6400",
+   "multiplier": "1",
+   "placed": 1793257491.5961282,
+   "hedge": [
+    {
+     "ticker": "KXODIMATCH-26OCT290400ENGSRI-ENG",
+     "limit": "0.4000"
+    }
+   ]
+  },
+  {
+   "event": "KXITFMATCH-26OCT29FITTAM",
+   "series": "KXITFMATCH",
+   "title": "Fitriadi vs Tamm",
+   "ticker": "KXITFMATCH-26OCT29FITTAM-FIT",
+   "order_id": "paper-77-1793257491",
+   "price": "0.1100",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.6500",
+   "multiplier": "1",
+   "placed": 1793257491.6581385,
+   "hedge": [
+    {
+     "ticker": "KXITFMATCH-26OCT29FITTAM-TAM",
+     "limit": "0.8400"
+    }
+   ]
+  },
+  {
+   "event": "KXHIGHTMIN-26OCT29",
+   "series": "KXHIGHTMIN",
+   "title": "Highest temperature in Minneapolis on Oct 29, 2026?",
+   "ticker": "KXHIGHTMIN-26OCT29-B56.5",
+   "order_id": "paper-78-1793257491",
+   "price": "0.2000",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.8500",
+   "multiplier": "1",
+   "placed": 1793257491.7201474,
+   "hedge": [
+    {
+     "ticker": "KXHIGHTMIN-26OCT29-T56",
+     "limit": "0.8600"
+    },
+    {
+     "ticker": "KXHIGHTMIN-26OCT29-B58.5",
+     "limit": "0.7500"
+    }
+   ]
+  },
+  {
+   "event": "KXODIMATCH-26OCT290130OMAUAE",
+   "series": "KXODIMATCH",
+   "title": "United Arab Emirates vs Oman",
+   "ticker": "KXODIMATCH-26OCT290130OMAUAE-OMA",
+   "order_id": "paper-79-1793257793",
+   "price": "0.5700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8500",
+   "multiplier": "1",
+   "placed": 1793257793.5539792,
+   "hedge": [
+    {
+     "ticker": "KXODIMATCH-26OCT290130OMAUAE-UAE",
+     "limit": "0.2500"
+    }
+   ]
+  }
+ ]
 }

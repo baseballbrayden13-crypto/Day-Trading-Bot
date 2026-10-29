@@ -509,3 +509,20 @@
 2026-10-29 03:01:52,024 INFO Resting NO bid on KXITFWMATCH-26OCT29DEKWIL-DEK at $0.1700 x1 (KXITFWMATCH-26OCT29DEKWIL): locks in $0.15 if it fills; hedge NO WIL@0.6500
 2026-10-29 03:01:52,025 INFO Swept 15331 events: 0 taker trades, 5 new quotes, 5 resting
 2026-10-29 03:02:15,629 INFO Stopped; all quotes cancelled.
+2026-10-29 03:02:54,202 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-10-29 03:04:51,534 INFO PAPER rest NO bid KXWTAMATCH-26OCT28OSAPOH-POH at $0.3600 x5 (0 already bid at that price)
+2026-10-29 03:04:51,534 INFO Resting NO bid on KXWTAMATCH-26OCT28OSAPOH-POH at $0.3600 x5 (KXWTAMATCH-26OCT28OSAPOH): locks in $0.18 if it fills; hedge NO OSA@0.5800
+2026-10-29 03:04:51,596 INFO PAPER rest NO bid KXODIMATCH-26OCT290400ENGSRI-SRI at $0.5200 x5 (0 already bid at that price)
+2026-10-29 03:04:51,596 INFO Resting NO bid on KXODIMATCH-26OCT290400ENGSRI-SRI at $0.5200 x5 (KXODIMATCH-26OCT290400ENGSRI): locks in $0.36 if it fills; hedge NO ENG@0.4000
+2026-10-29 03:04:51,658 INFO PAPER rest NO bid KXITFMATCH-26OCT29FITTAM-FIT at $0.1100 x5 (0 already bid at that price)
+2026-10-29 03:04:51,658 INFO Resting NO bid on KXITFMATCH-26OCT29FITTAM-FIT at $0.1100 x5 (KXITFMATCH-26OCT29FITTAM): locks in $0.35 if it fills; hedge NO TAM@0.8400
+2026-10-29 03:04:51,720 INFO PAPER rest NO bid KXHIGHTMIN-26OCT29-B56.5 at $0.2000 x1 (0 already bid at that price)
+2026-10-29 03:04:51,720 INFO Resting NO bid on KXHIGHTMIN-26OCT29-B56.5 at $0.2000 x1 (KXHIGHTMIN-26OCT29): locks in $0.15 if it fills; hedge NO T56@0.8600, B58.5@0.7500
+2026-10-29 03:04:51,722 INFO Swept 15295 events: 0 taker trades, 4 new quotes, 4 resting
+2026-10-29 03:09:53,553 INFO PAPER rest NO bid KXODIMATCH-26OCT290130OMAUAE-OMA at $0.5700 x1 (0 already bid at that price)
+2026-10-29 03:09:53,554 INFO Resting NO bid on KXODIMATCH-26OCT290130OMAUAE-OMA at $0.5700 x1 (KXODIMATCH-26OCT290130OMAUAE): locks in $0.15 if it fills; hedge NO UAE@0.2500
+2026-10-29 03:09:53,556 INFO Swept 15295 events: 0 taker trades, 1 new quotes, 5 resting
+2026-10-29 03:14:45,385 INFO Swept 15295 events: 0 taker trades, 0 new quotes, 5 resting
+2026-10-29 03:19:41,831 INFO Swept 15295 events: 0 taker trades, 0 new quotes, 5 resting
+2026-10-29 03:24:43,267 INFO Swept 15295 events: 0 taker trades, 0 new quotes, 5 resting
+2026-10-29 03:29:48,890 INFO Swept 15295 events: 0 taker trades, 0 new quotes, 5 resting
