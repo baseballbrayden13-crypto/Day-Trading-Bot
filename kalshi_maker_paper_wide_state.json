@@ -1,55 +1,6 @@
 {
- "realized": "1.2800",
- "open": [
-  {
-   "event": "KXHIGHTSAN-26OCT28",
-   "series": "KXHIGHTSAN",
-   "title": "Highest temperature in San Diego on Oct 28, 2026?",
-   "sets": 1,
-   "outlay": "0.9500",
-   "locked_profit": "0.0500",
-   "opened": "2026-10-28T21:54:58.527434+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXHIGHTSAN-26OCT28-B73.5",
-     "side": "no",
-     "count": 1,
-     "limit": "0.0800"
-    },
-    {
-     "ticker": "KXHIGHTSAN-26OCT28-B75.5",
-     "side": "no",
-     "count": 1,
-     "limit": "0.8500"
-    }
-   ]
-  },
-  {
-   "event": "KXHIGHTSAN-26OCT28",
-   "series": "KXHIGHTSAN",
-   "title": "Highest temperature in San Diego on Oct 28, 2026?",
-   "sets": 2,
-   "outlay": "1.8900",
-   "locked_profit": "0.1100",
-   "opened": "2026-10-28T21:59:44.015810+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXHIGHTSAN-26OCT28-B73.5",
-     "side": "no",
-     "count": 2,
-     "limit": "0.0800"
-    },
-    {
-     "ticker": "KXHIGHTSAN-26OCT28-B75.5",
-     "side": "no",
-     "count": 2,
-     "limit": "0.8500"
-    }
-   ]
-  }
- ],
+ "realized": "1.4400",
+ "open": [],
  "closed": [
   {
    "event": "KXKNVBCUPADVANCE-26OCT28SPAFOR (stray)",
@@ -299,48 +250,114 @@
    "paid": "1",
    "pnl": "0.7700",
    "closed": "2026-10-29T11:52:30.580446+00:00"
+  },
+  {
+   "event": "KXHIGHTSAN-26OCT28",
+   "series": "KXHIGHTSAN",
+   "title": "Highest temperature in San Diego on Oct 28, 2026?",
+   "sets": 1,
+   "outlay": "0.9500",
+   "locked_profit": "0.0500",
+   "opened": "2026-10-28T21:54:58.527434+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXHIGHTSAN-26OCT28-B73.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0800"
+    },
+    {
+     "ticker": "KXHIGHTSAN-26OCT28-B75.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.8500"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.0500",
+   "closed": "2026-10-29T14:11:00.758681+00:00"
+  },
+  {
+   "event": "KXHIGHTSAN-26OCT28",
+   "series": "KXHIGHTSAN",
+   "title": "Highest temperature in San Diego on Oct 28, 2026?",
+   "sets": 2,
+   "outlay": "1.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-10-28T21:59:44.015810+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXHIGHTSAN-26OCT28-B73.5",
+     "side": "no",
+     "count": 2,
+     "limit": "0.0800"
+    },
+    {
+     "ticker": "KXHIGHTSAN-26OCT28-B75.5",
+     "side": "no",
+     "count": 2,
+     "limit": "0.8500"
+    }
+   ],
+   "paid": "2",
+   "pnl": "0.1100",
+   "closed": "2026-10-29T14:11:00.825718+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXNEXTTEAMNHL-26ATUCH89",
-   "series": "KXNEXTTEAMNHL",
-   "title": "Alex Tuch's Next Team",
-   "ticker": "KXNEXTTEAMNHL-26ATUCH89-COL",
-   "order_id": "paper-115-1793280357",
-   "price": "0.8900",
-   "sets": 5,
+   "event": "KXPGA3BALL-VIMO26R1CCONTFINMHOM",
+   "series": "KXPGA3BALL",
+   "title": "1st Round 3-Ball: Conners/Finau/Homa",
+   "ticker": "KXPGA3BALL-VIMO26R1CCONTFINMHOM-MHOM",
+   "order_id": "paper-120-1793283078",
+   "price": "0.3700",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.8400",
+   "reserve": "3.6800",
    "multiplier": "1",
-   "placed": 1793280357.905059,
+   "placed": 1793283078.3156164,
    "hedge": [
     {
-     "ticker": "KXNEXTTEAMNHL-26ATUCH89-WSH",
-     "limit": "0.0700"
+     "ticker": "KXPGA3BALL-VIMO26R1CCONTFINMHOM-CCON",
+     "limit": "0.6300"
+    },
+    {
+     "ticker": "KXPGA3BALL-VIMO26R1CCONTFINMHOM-TFIN",
+     "limit": "0.8000"
     }
    ]
   },
   {
-   "event": "KXPGA3BALL-VIMO26R1AECKPKIZDWAL",
-   "series": "KXPGA3BALL",
-   "title": "1st Round 3-Ball: Eckroat/Kizzire/Walker",
-   "ticker": "KXPGA3BALL-VIMO26R1AECKPKIZDWAL-DWAL",
-   "order_id": "paper-116-1793280962",
-   "price": "0.4100",
-   "sets": 2,
+   "event": "KXLOWTBOS-26OCT30",
+   "series": "KXLOWTBOS",
+   "title": "Lowest temperature in Boston on Oct 30, 2026?",
+   "ticker": "KXLOWTBOS-26OCT30-B48.5",
+   "order_id": "paper-122-1793283381",
+   "price": "0.1400",
+   "sets": 1,
    "done": 0,
-   "reserve": "3.8900",
+   "reserve": "3.6600",
    "multiplier": "1",
-   "placed": 1793280962.2606025,
+   "placed": 1793283381.0435102,
    "hedge": [
     {
-     "ticker": "KXPGA3BALL-VIMO26R1AECKPKIZDWAL-AECK",
-     "limit": "0.6000"
+     "ticker": "KXLOWTBOS-26OCT30-T46",
+     "limit": "0.9800"
     },
     {
-     "ticker": "KXPGA3BALL-VIMO26R1AECKPKIZDWAL-PKIZ",
-     "limit": "0.9000"
+     "ticker": "KXLOWTBOS-26OCT30-B46.5",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXLOWTBOS-26OCT30-B50.5",
+     "limit": "0.7000"
+    },
+    {
+     "ticker": "KXLOWTBOS-26OCT30-B52.5",
+     "limit": "0.8000"
     }
    ]
   }
