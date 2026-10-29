@@ -5,3 +5,7 @@
 2026-10-28 13:22:17,124 INFO Picked up today's counters: start equity $5002.80, 0 trades
 2026-10-28 13:22:17,124 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.
 2026-10-28 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca.
+2026-10-29 10:00:55,975 INFO Connected to Alpaca PAPER account
+2026-10-29 10:00:56,187 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.
+2026-10-29 10:00:56,305 INFO New day 2026-10-29, starting equity $5002.80
+2026-10-29 10:05:07,236 INFO BUY SPY x1 @~769.72 stop 767.31 target 773.34 | broke 15-min opening range high 769.17
