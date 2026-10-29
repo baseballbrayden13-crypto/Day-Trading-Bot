@@ -1,6 +1,31 @@
 {
  "realized": "0.2500",
- "open": [],
+ "open": [
+  {
+   "event": "KXCOPADELREYADVANCE-26OCT29ATLCDE",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "Atletico Baleares vs Eldense",
+   "sets": 5,
+   "outlay": "4.8600",
+   "locked_profit": "0.1400",
+   "opened": "2026-10-29T18:05:11.759493+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCOPADELREYADVANCE-26OCT29ATLCDE-CDE",
+     "side": "no",
+     "count": 5,
+     "limit": "0.3300"
+    },
+    {
+     "ticker": "KXCOPADELREYADVANCE-26OCT29ATLCDE-ATL",
+     "side": "no",
+     "count": 5,
+     "limit": "0.6200"
+    }
+   ]
+  }
+ ],
  "closed": [
   {
    "event": "KXKNVBCUPADVANCE-26OCT28SPAFOR (stray)",
@@ -332,36 +357,17 @@
    "series": "KXPHLGAME",
    "title": "TMH Polonia Bytom vs KH Sanok",
    "ticker": "KXPHLGAME-26OCT291300BYTSAN-SAN",
-   "order_id": "paper-152-1793295480",
+   "order_id": "paper-159-1793297917",
    "price": "0.5400",
    "sets": 5,
    "done": 0,
    "reserve": "4.8200",
    "multiplier": "1",
-   "placed": 1793295480.1555,
+   "placed": 1793297917.7677195,
    "hedge": [
     {
      "ticker": "KXPHLGAME-26OCT291300BYTSAN-BYT",
      "limit": "0.4000"
-    }
-   ]
-  },
-  {
-   "event": "KXLOWTPHX-26OCT29",
-   "series": "KXLOWTPHX",
-   "title": "Lowest temperature in Phoenix on Oct 29, 2026?",
-   "ticker": "KXLOWTPHX-26OCT29-B61.5",
-   "order_id": "paper-153-1793296103",
-   "price": "0.9000",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8300",
-   "multiplier": "1",
-   "placed": 1793296103.743476,
-   "hedge": [
-    {
-     "ticker": "KXLOWTPHX-26OCT29-B63.5",
-     "limit": "0.0600"
     }
    ]
   }
