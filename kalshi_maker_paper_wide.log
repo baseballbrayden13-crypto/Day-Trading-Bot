@@ -726,3 +726,19 @@
 2026-10-29 10:16:21,043 INFO PAPER rest NO bid KXLOWTBOS-26OCT30-B48.5 at $0.1400 x1 (0 already bid at that price)
 2026-10-29 10:16:21,043 INFO Resting NO bid on KXLOWTBOS-26OCT30-B48.5 at $0.1400 x1 (KXLOWTBOS-26OCT30): locks in $0.34 if it fills; hedge NO T46@0.9800, B46.5@0.9800, B50.5@0.7000, B52.5@0.7900
 2026-10-29 10:16:21,045 INFO Swept 15534 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 10:19:41,862 INFO Quote KXPGA3BALL-VIMO26R1CCONTFINMHOM cancelled (0/2 filled)
+2026-10-29 10:21:25,260 INFO PAPER rest NO bid KXVALORANTAWARD-CHAMPSH26MVP-LUKXO at $0.1500 x12 (0 already bid at that price)
+2026-10-29 10:21:25,260 INFO Resting NO bid on KXVALORANTAWARD-CHAMPSH26MVP-LUKXO at $0.1500 x12 (KXVALORANTAWARD-CHAMPSH26MVP): locks in $7.01 if it fills; hedge NO ERDE@0.2500
+2026-10-29 10:21:25,262 INFO Swept 15536 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 10:26:25,615 INFO Swept 15525 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 10:31:25,919 INFO PAPER rest NO bid KXITFDOUBLES-26OCT29FRYMCKGANNIR-FRYMCK at $0.2200 x1 (0 already bid at that price)
+2026-10-29 10:31:25,920 INFO Resting NO bid on KXITFDOUBLES-26OCT29FRYMCKGANNIR-FRYMCK at $0.2200 x1 (KXITFDOUBLES-26OCT29FRYMCKGANNIR): locks in $0.11 if it fills; hedge NO GANNIR@0.6400
+2026-10-29 10:31:25,922 INFO Swept 15520 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-29 10:36:28,696 INFO Swept 15520 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-29 10:41:31,143 INFO PAPER rest NO bid KXPGA3BALL-VIMO26R1CBLAISALCTAN-CBLA at $0.3300 x2 (0 already bid at that price)
+2026-10-29 10:41:31,143 INFO Resting NO bid on KXPGA3BALL-VIMO26R1CBLAISALCTAN-CBLA at $0.3300 x2 (KXPGA3BALL-VIMO26R1CBLAISALCTAN): locks in $0.27 if it fills; hedge NO ISAL@0.6100, CTAN@0.8900
+2026-10-29 10:41:31,145 INFO Swept 15513 events: 0 taker trades, 1 new quotes, 4 resting
+2026-10-29 10:41:41,984 INFO Quote KXITFDOUBLES-26OCT29FRYMCKGANNIR cancelled (0/1 filled)
+2026-10-29 10:46:37,062 INFO PAPER rest NO bid KXNEXTTEAMNHL-26ATUCH89-ANA at $0.2400 x15 (0 already bid at that price)
+2026-10-29 10:46:37,062 INFO Resting NO bid on KXNEXTTEAMNHL-26ATUCH89-ANA at $0.2400 x15 (KXNEXTTEAMNHL-26ATUCH89): locks in $10.23 if it fills; hedge NO WSH@0.0700
+2026-10-29 10:46:37,064 INFO Swept 15521 events: 0 taker trades, 1 new quotes, 4 resting

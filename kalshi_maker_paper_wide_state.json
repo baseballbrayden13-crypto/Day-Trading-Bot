@@ -308,56 +308,63 @@
  ],
  "quotes": [
   {
-   "event": "KXPGA3BALL-VIMO26R1CCONTFINMHOM",
-   "series": "KXPGA3BALL",
-   "title": "1st Round 3-Ball: Conners/Finau/Homa",
-   "ticker": "KXPGA3BALL-VIMO26R1CCONTFINMHOM-MHOM",
-   "order_id": "paper-120-1793283078",
-   "price": "0.3700",
-   "sets": 2,
+   "event": "KXVALORANTAWARD-CHAMPSH26MVP",
+   "series": "KXVALORANTAWARD",
+   "title": "VALORANT Champions Shanghai MVP",
+   "ticker": "KXVALORANTAWARD-CHAMPSH26MVP-LUKXO",
+   "order_id": "paper-123-1793283685",
+   "price": "0.1500",
+   "sets": 12,
    "done": 0,
-   "reserve": "3.6800",
+   "reserve": "4.9900",
    "multiplier": "1",
-   "placed": 1793283078.3156164,
+   "placed": 1793283685.2603326,
    "hedge": [
     {
-     "ticker": "KXPGA3BALL-VIMO26R1CCONTFINMHOM-CCON",
-     "limit": "0.6300"
-    },
-    {
-     "ticker": "KXPGA3BALL-VIMO26R1CCONTFINMHOM-TFIN",
-     "limit": "0.8000"
+     "ticker": "KXVALORANTAWARD-CHAMPSH26MVP-ERDE",
+     "limit": "0.2500"
     }
    ]
   },
   {
-   "event": "KXLOWTBOS-26OCT30",
-   "series": "KXLOWTBOS",
-   "title": "Lowest temperature in Boston on Oct 30, 2026?",
-   "ticker": "KXLOWTBOS-26OCT30-B48.5",
-   "order_id": "paper-122-1793283381",
-   "price": "0.1400",
-   "sets": 1,
+   "event": "KXPGA3BALL-VIMO26R1CBLAISALCTAN",
+   "series": "KXPGA3BALL",
+   "title": "1st Round 3-Ball: Blanchet/Salinda/Tankersley",
+   "ticker": "KXPGA3BALL-VIMO26R1CBLAISALCTAN-CBLA",
+   "order_id": "paper-125-1793284891",
+   "price": "0.3300",
+   "sets": 2,
    "done": 0,
-   "reserve": "3.6600",
+   "reserve": "3.7300",
    "multiplier": "1",
-   "placed": 1793283381.0435102,
+   "placed": 1793284891.1432545,
    "hedge": [
     {
-     "ticker": "KXLOWTBOS-26OCT30-T46",
-     "limit": "0.9800"
+     "ticker": "KXPGA3BALL-VIMO26R1CBLAISALCTAN-ISAL",
+     "limit": "0.6100"
     },
     {
-     "ticker": "KXLOWTBOS-26OCT30-B46.5",
-     "limit": "0.9800"
-    },
+     "ticker": "KXPGA3BALL-VIMO26R1CBLAISALCTAN-CTAN",
+     "limit": "0.8900"
+    }
+   ]
+  },
+  {
+   "event": "KXNEXTTEAMNHL-26ATUCH89",
+   "series": "KXNEXTTEAMNHL",
+   "title": "Alex Tuch's Next Team",
+   "ticker": "KXNEXTTEAMNHL-26ATUCH89-ANA",
+   "order_id": "paper-126-1793285197",
+   "price": "0.2400",
+   "sets": 15,
+   "done": 0,
+   "reserve": "4.7700",
+   "multiplier": "1",
+   "placed": 1793285197.0628965,
+   "hedge": [
     {
-     "ticker": "KXLOWTBOS-26OCT30-B50.5",
-     "limit": "0.7000"
-    },
-    {
-     "ticker": "KXLOWTBOS-26OCT30-B52.5",
-     "limit": "0.8000"
+     "ticker": "KXNEXTTEAMNHL-26ATUCH89-WSH",
+     "limit": "0.0700"
     }
    ]
   }
