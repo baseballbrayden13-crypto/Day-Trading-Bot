@@ -72,6 +72,30 @@
      "limit": "0.1400"
     }
    ]
+  },
+  {
+   "event": "KXLBPGAME-26OCT281800CAIPAI",
+   "series": "KXLBPGAME",
+   "title": "Caimanes Del Llano vs Paisas Basketball",
+   "sets": 5,
+   "outlay": "4.8600",
+   "locked_profit": "0.1400",
+   "opened": "2026-10-29T01:50:33.236800+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLBPGAME-26OCT281800CAIPAI-CAI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.6300"
+    },
+    {
+     "ticker": "KXLBPGAME-26OCT281800CAIPAI-PAI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.3200"
+    }
+   ]
   }
  ],
  "closed": [
@@ -172,21 +196,44 @@
  ],
  "quotes": [
   {
-   "event": "KXLBPGAME-26OCT281800CAIPAI",
-   "series": "KXLBPGAME",
-   "title": "Caimanes Del Llano vs Paisas Basketball",
-   "ticker": "KXLBPGAME-26OCT281800CAIPAI-CAI",
-   "order_id": "paper-39-1793237963",
-   "price": "0.6300",
-   "sets": 5,
+   "event": "KXMLS2H-26OCT28MINSKC",
+   "series": "KXMLS2H",
+   "title": "Minnesota vs Kansas City: Second Half Winner",
+   "ticker": "KXMLS2H-26OCT28MINSKC-SKC",
+   "order_id": "paper-43-1793239783",
+   "price": "0.3700",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.8600",
+   "reserve": "3.7700",
    "multiplier": "1",
-   "placed": 1793237963.4337,
+   "placed": 1793239783.941704,
    "hedge": [
     {
-     "ticker": "KXLBPGAME-26OCT281800CAIPAI-PAI",
-     "limit": "0.3200"
+     "ticker": "KXMLS2H-26OCT28MINSKC-MIN",
+     "limit": "0.5800"
+    },
+    {
+     "ticker": "KXMLS2H-26OCT28MINSKC-TIE",
+     "limit": "0.9800"
+    }
+   ]
+  },
+  {
+   "event": "KXUFCFIGHT-26OCT31BEKPET",
+   "series": "KXUFCFIGHT",
+   "title": "Fight Night: Azamat Bekoev vs Andre Petroski",
+   "ticker": "KXUFCFIGHT-26OCT31BEKPET-PET",
+   "order_id": "paper-44-1793239784",
+   "price": "0.57",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8900",
+   "multiplier": "1",
+   "placed": 1793239784.0038404,
+   "hedge": [
+    {
+     "ticker": "KXUFCFIGHT-26OCT31BEKPET-BEK",
+     "limit": "0.3500"
     }
    ]
   }

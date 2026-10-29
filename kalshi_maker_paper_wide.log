@@ -332,3 +332,25 @@
 2026-10-28 21:39:23,433 INFO Resting NO bid on KXLBPGAME-26OCT281800CAIPAI-CAI at $0.6300 x5 (KXLBPGAME-26OCT281800CAIPAI): locks in $0.14 if it fills; hedge NO PAI@0.3200
 2026-10-28 21:39:23,435 INFO Swept 15949 events: 0 taker trades, 1 new quotes, 1 resting
 2026-10-28 21:44:27,558 INFO Swept 15920 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 21:49:30,074 INFO PAPER rest NO bid KXESOCCERGAME-26OCT282156DZENDRAK-DRAK at $0.7600 x2 (0 already bid at that price)
+2026-10-28 21:49:30,074 INFO Resting NO bid on KXESOCCERGAME-26OCT282156DZENDRAK-DRAK at $0.7600 x2 (KXESOCCERGAME-26OCT282156DZENDRAK): locks in $0.11 if it fills; hedge NO DZEN@0.2300, TIE@0.9300
+2026-10-28 21:49:30,076 INFO Swept 15902 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-28 21:50:33,169 INFO PAPER KXLBPGAME-26OCT281800CAIPAI-CAI NO bid at $0.6300: 5/5 filled by real trades
+2026-10-28 21:50:33,236 INFO PAPER buy 5 NO KXLBPGAME-26OCT281800CAIPAI-PAI at up to $0.3200: filled 5
+2026-10-28 21:50:33,236 INFO Quote KXLBPGAME-26OCT281800CAIPAI filled 5: hedged, locks in $0.14
+2026-10-28 21:54:34,178 INFO Swept 15901 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 21:56:22,227 INFO Quote KXESOCCERGAME-26OCT282156DZENDRAK cancelled (0/2 filled)
+2026-10-28 21:59:34,793 INFO PAPER rest NO bid KXAHLGAME-26OCT282105CHACOL-COL at $0.2200 x5 (0 already bid at that price)
+2026-10-28 21:59:34,793 INFO Resting NO bid on KXAHLGAME-26OCT282105CHACOL-COL at $0.2200 x5 (KXAHLGAME-26OCT282105CHACOL): locks in $0.16 if it fills; hedge NO CHA@0.7300
+2026-10-28 21:59:34,795 INFO Swept 15911 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 22:04:40,667 INFO PAPER rest NO bid KXNBA4Q-26OCT28ORLTOR-ORL at $0.1500 x9 (0 already bid at that price)
+2026-10-28 22:04:40,667 INFO Resting NO bid on KXNBA4Q-26OCT28ORLTOR-ORL at $0.1500 x9 (KXNBA4Q-26OCT28ORLTOR): locks in $7.52 if it fills; hedge NO TOR@0.0100
+2026-10-28 22:04:40,669 INFO Swept 15879 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-28 22:04:46,247 INFO Quote KXNBA4Q-26OCT28ORLTOR cancelled (0/9 filled)
+2026-10-28 22:05:22,211 INFO Quote KXAHLGAME-26OCT282105CHACOL cancelled (0/5 filled)
+2026-10-28 22:09:43,941 INFO PAPER rest NO bid KXMLS2H-26OCT28MINSKC-SKC at $0.3700 x2 (0 already bid at that price)
+2026-10-28 22:09:43,941 INFO Resting NO bid on KXMLS2H-26OCT28MINSKC-SKC at $0.3700 x2 (KXMLS2H-26OCT28MINSKC): locks in $0.23 if it fills; hedge NO MIN@0.5800, TIE@0.9500
+2026-10-28 22:09:44,003 INFO PAPER rest NO bid KXUFCFIGHT-26OCT31BEKPET-PET at $0.5700 x2 (2 already bid at that price)
+2026-10-28 22:09:44,003 INFO Resting NO bid on KXUFCFIGHT-26OCT31BEKPET-PET at $0.57 x2 (KXUFCFIGHT-26OCT31BEKPET): locks in $0.11 if it fills; hedge NO BEK@0.3500
+2026-10-28 22:09:44,005 INFO Swept 15891 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-28 22:14:42,817 INFO Swept 15877 events: 0 taker trades, 0 new quotes, 2 resting
