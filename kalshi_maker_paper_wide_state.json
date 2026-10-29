@@ -307,13 +307,13 @@
    "series": "KXNEXTTEAMNHL",
    "title": "Alex Tuch's Next Team",
    "ticker": "KXNEXTTEAMNHL-26ATUCH89-COL",
-   "order_id": "paper-105-1793278236",
-   "price": "0.89",
-   "sets": 4,
+   "order_id": "paper-115-1793280357",
+   "price": "0.8900",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.8700",
+   "reserve": "4.8400",
    "multiplier": "1",
-   "placed": 1793278236.129362,
+   "placed": 1793280357.905059,
    "hedge": [
     {
      "ticker": "KXNEXTTEAMNHL-26ATUCH89-WSH",
@@ -322,63 +322,25 @@
    ]
   },
   {
-   "event": "KXLOWTPHX-26OCT29",
-   "series": "KXLOWTPHX",
-   "title": "Lowest temperature in Phoenix on Oct 29, 2026?",
-   "ticker": "KXLOWTPHX-26OCT29-B61.5",
-   "order_id": "paper-107-1793278540",
-   "price": "0.48",
-   "sets": 1,
+   "event": "KXPGA3BALL-VIMO26R1AECKPKIZDWAL",
+   "series": "KXPGA3BALL",
+   "title": "1st Round 3-Ball: Eckroat/Kizzire/Walker",
+   "ticker": "KXPGA3BALL-VIMO26R1AECKPKIZDWAL-DWAL",
+   "order_id": "paper-116-1793280962",
+   "price": "0.4100",
+   "sets": 2,
    "done": 0,
-   "reserve": "1.9000",
+   "reserve": "3.8900",
    "multiplier": "1",
-   "placed": 1793278540.7329817,
+   "placed": 1793280962.2606025,
    "hedge": [
     {
-     "ticker": "KXLOWTPHX-26OCT29-B59.5",
-     "limit": "0.9800"
+     "ticker": "KXPGA3BALL-VIMO26R1AECKPKIZDWAL-AECK",
+     "limit": "0.6000"
     },
     {
-     "ticker": "KXLOWTPHX-26OCT29-B63.5",
-     "limit": "0.4000"
-    }
-   ]
-  },
-  {
-   "event": "KXITFDOUBLES-26OCT29OKOVANAUNKLI",
-   "series": "KXITFDOUBLES",
-   "title": "Okonkwo / Vance vs Aunion Duran / Klimas",
-   "ticker": "KXITFDOUBLES-26OCT29OKOVANAUNKLI-AUNKLI",
-   "order_id": "paper-110-1793279145",
-   "price": "0.23",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.9000",
-   "multiplier": "1",
-   "placed": 1793279145.5393817,
-   "hedge": [
-    {
-     "ticker": "KXITFDOUBLES-26OCT29OKOVANAUNKLI-OKOVAN",
-     "limit": "0.6400"
-    }
-   ]
-  },
-  {
-   "event": "KXLOWTLV-26OCT29",
-   "series": "KXLOWTLV",
-   "title": "Lowest temperature in Las Vegas on Oct 29, 2026?",
-   "ticker": "KXLOWTLV-26OCT29-B56.5",
-   "order_id": "paper-113-1793279756",
-   "price": "0.7900",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.8200",
-   "multiplier": "1",
-   "placed": 1793279756.3325686,
-   "hedge": [
-    {
-     "ticker": "KXLOWTLV-26OCT29-B58.5",
-     "limit": "0.1500"
+     "ticker": "KXPGA3BALL-VIMO26R1AECKPKIZDWAL-PKIZ",
+     "limit": "0.9000"
     }
    ]
   }
