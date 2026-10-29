@@ -1061,3 +1061,14 @@
 2026-10-29 19:13:11,849 INFO PAPER rest NO bid KXNCAAHGAME-26OCT29LIUWMU-LIU at $0.9000 x5 (6 already bid at that price)
 2026-10-29 19:13:11,849 INFO Resting NO bid on KXNCAAHGAME-26OCT29LIUWMU-LIU at $0.90 x5 (KXNCAAHGAME-26OCT29LIUWMU): locks in $0.11 if it fills; hedge NO WMU@0.0700
 2026-10-29 19:13:11,851 INFO Swept 16228 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 19:18:15,360 INFO PAPER rest NO bid KXPGAR1LEAD-VIMO26-KVIL at $0.0180 x2 (0 already bid at that price)
+2026-10-29 19:18:15,360 INFO Resting NO bid on KXPGAR1LEAD-VIMO26-KVIL at $0.0180 x2 (KXPGAR1LEAD-VIMO26): locks in $0.16 if it fills; hedge NO ADUM@0.9930, JKAN@0.8900
+2026-10-29 19:18:15,365 INFO Swept 16232 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 19:23:19,033 INFO Swept 16231 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 19:28:22,929 INFO PAPER rest NO bid KXPGA3BALL-VIMO26R1GHIGBHORAORT-AORT at $0.1100 x1 (0 already bid at that price)
+2026-10-29 19:28:22,929 INFO Resting NO bid on KXPGA3BALL-VIMO26R1GHIGBHORAORT-AORT at $0.1100 x1 (KXPGA3BALL-VIMO26R1GHIGBHORAORT): locks in $0.49 if it fills; hedge NO GHIG@0.3700
+2026-10-29 19:28:22,932 INFO Swept 16224 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-29 19:33:22,476 INFO Swept 16222 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-29 19:33:22,589 INFO Quote KXPGAR1LEAD-VIMO26 cancelled (0/2 filled)
+2026-10-29 19:38:25,743 INFO Swept 16233 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 19:43:29,095 INFO Swept 16229 events: 0 taker trades, 0 new quotes, 2 resting

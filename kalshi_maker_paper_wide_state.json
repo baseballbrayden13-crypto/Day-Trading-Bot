@@ -536,21 +536,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26OCT29LIUWMU",
-   "series": "KXNCAAHGAME",
-   "title": "LIU vs Western Michigan",
-   "ticker": "KXNCAAHGAME-26OCT29LIUWMU-LIU",
-   "order_id": "paper-197-1793315591",
-   "price": "0.90",
-   "sets": 5,
+   "event": "KXPGA3BALL-VIMO26R1GHIGBHORAORT",
+   "series": "KXPGA3BALL",
+   "title": "1st Round 3-Ball: Higgo/Horschel/Ortiz",
+   "ticker": "KXPGA3BALL-VIMO26R1GHIGBHORAORT-AORT",
+   "order_id": "paper-199-1793316502",
+   "price": "0.1100",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.8900",
+   "reserve": "0.5100",
    "multiplier": "1",
-   "placed": 1793315591.8492723,
+   "placed": 1793316502.9298902,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26OCT29LIUWMU-WMU",
-     "limit": "0.0700"
+     "ticker": "KXPGA3BALL-VIMO26R1GHIGBHORAORT-GHIG",
+     "limit": "0.3700"
     }
    ]
   }
