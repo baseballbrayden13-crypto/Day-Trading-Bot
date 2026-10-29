@@ -895,3 +895,26 @@
 2026-10-29 14:33:40,829 INFO Resting NO bid on KXHIGHTEWR-26OCT29-B71.5 at $0.2700 x6 (KXHIGHTEWR-26OCT29): locks in $1.56 if it fills; hedge NO B69.5@0.4700
 2026-10-29 14:33:40,831 INFO Swept 16085 events: 0 taker trades, 2 new quotes, 5 resting
 2026-10-29 14:34:02,614 INFO Stopped; all quotes cancelled.
+2026-10-29 14:43:04,948 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-10-29 14:45:17,225 INFO PAPER rest NO bid KXITFWDOUBLES-26OCT29DREGUZKUPPAS-KUPPAS at $0.2200 x1 (0 already bid at that price)
+2026-10-29 14:45:17,225 INFO Resting NO bid on KXITFWDOUBLES-26OCT29DREGUZKUPPAS-KUPPAS at $0.2200 x1 (KXITFWDOUBLES-26OCT29DREGUZKUPPAS): locks in $0.11 if it fills; hedge NO DREGUZ@0.6400
+2026-10-29 14:45:17,252 INFO PAPER rest NO bid KXPHLGAME-26OCT291300BYTSAN-SAN at $0.5400 x5 (0 already bid at that price)
+2026-10-29 14:45:17,252 INFO Resting NO bid on KXPHLGAME-26OCT291300BYTSAN-SAN at $0.5400 x5 (KXPHLGAME-26OCT291300BYTSAN): locks in $0.18 if it fills; hedge NO BYT@0.4000
+2026-10-29 14:45:17,255 INFO Swept 16086 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-29 14:50:20,346 INFO Swept 16085 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 14:50:20,416 INFO PAPER KXPHLGAME-26OCT291300BYTSAN-SAN NO bid at $0.5400: 5/5 filled by real trades
+2026-10-29 14:50:20,440 INFO PAPER buy 5 NO KXPHLGAME-26OCT291300BYTSAN-BYT at up to $0.4000: filled 5
+2026-10-29 14:50:20,440 INFO Quote KXPHLGAME-26OCT291300BYTSAN filled 5: hedged, locks in $0.18
+2026-10-29 14:55:21,509 INFO PAPER rest NO bid KXKNVBCUPADVANCE-26OCT29KOZFCU-KOZ at $0.4700 x5 (10 already bid at that price)
+2026-10-29 14:55:21,509 INFO Resting NO bid on KXKNVBCUPADVANCE-26OCT29KOZFCU-KOZ at $0.47 x5 (KXKNVBCUPADVANCE-26OCT29KOZFCU): locks in $0.13 if it fills; hedge NO FCU@0.4800
+2026-10-29 14:55:21,512 INFO Swept 16075 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 15:00:23,638 INFO PAPER rest NO bid KXTRUTHSOCIALD-26OCT29-T40 at $0.4000 x4 (0 already bid at that price)
+2026-10-29 15:00:23,638 INFO Resting NO bid on KXTRUTHSOCIALD-26OCT29-T40 at $0.40 x4 (KXTRUTHSOCIALD-26OCT29): locks in $0.11 if it fills; hedge NO B34@0.5500
+2026-10-29 15:00:23,640 INFO Swept 16063 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-29 15:01:57,173 INFO Quote KXTRUTHSOCIALD-26OCT29 cancelled (0/4 filled)
+2026-10-29 15:05:25,076 INFO PAPER rest NO bid KXNEXTTEAMNHL-26DLARKIN71-VGK at $0.1600 x1 (0 already bid at that price)
+2026-10-29 15:05:25,077 INFO Resting NO bid on KXNEXTTEAMNHL-26DLARKIN71-VGK at $0.1600 x1 (KXNEXTTEAMNHL-26DLARKIN71): locks in $0.63 if it fills; hedge NO DET@0.9300, MIN@0.6200, NJD@0.6100, PHI@0.9800
+2026-10-29 15:05:25,282 INFO PAPER BET daily_safest: 1 NO KXACTBLUETOP-26OCT30-AELS at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-10-29 15:05:25,284 INFO Swept 16038 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-29 15:05:25,427 INFO Quote KXKNVBCUPADVANCE-26OCT29KOZFCU cancelled (0/5 filled)
+2026-10-29 15:10:25,323 INFO Swept 16133 events: 0 taker trades, 0 new quotes, 2 resting
