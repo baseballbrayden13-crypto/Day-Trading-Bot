@@ -585,3 +585,17 @@
 2026-10-29 06:22:11,890 INFO Swept 15393 events: 0 taker trades, 1 new quotes, 1 resting
 2026-10-29 06:27:13,399 INFO Swept 15389 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-29 06:32:10,503 INFO Swept 15388 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 06:37:14,436 INFO PAPER rest NO bid KXCOPADELREYADVANCE-26OCT28PESHUE-HUE at $0.2200 x4 (16 already bid at that price)
+2026-10-29 06:37:14,436 INFO Resting NO bid on KXCOPADELREYADVANCE-26OCT28PESHUE-HUE at $0.22 x4 (KXCOPADELREYADVANCE-26OCT28PESHUE): locks in $0.12 if it fills; hedge NO PES@0.7300
+2026-10-29 06:37:14,438 INFO Swept 15388 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 06:42:19,502 INFO PAPER rest NO bid KXNASCARTRUCKSERIES-NTS26-LRIG at $0.7700 x5 (37 already bid at that price)
+2026-10-29 06:42:19,502 INFO Resting NO bid on KXNASCARTRUCKSERIES-NTS26-LRIG at $0.77 x5 (KXNASCARTRUCKSERIES-NTS26): locks in $0.12 if it fills; hedge NO KHON@0.1900
+2026-10-29 06:42:19,503 INFO Swept 15384 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-29 06:47:18,423 INFO Swept 15384 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-29 06:52:22,286 INFO PAPER rest NO bid KXWTADOUBLES-26OCT28MUHZHAERRPAO-MUHZHA at $0.3300 x5 (0 already bid at that price)
+2026-10-29 06:52:22,286 INFO Resting NO bid on KXWTADOUBLES-26OCT28MUHZHAERRPAO-MUHZHA at $0.3300 x5 (KXWTADOUBLES-26OCT28MUHZHAERRPAO): locks in $0.94 if it fills; hedge NO ERRPAO@0.4600
+2026-10-29 06:52:22,288 INFO Swept 15380 events: 0 taker trades, 1 new quotes, 4 resting
+2026-10-29 06:57:26,461 INFO PAPER rest NO bid KXITFMATCH-26OCT28LIUCOL-COL at $0.7200 x4 (0 already bid at that price)
+2026-10-29 06:57:26,461 INFO Resting NO bid on KXITFMATCH-26OCT28LIUCOL-COL at $0.7200 x4 (KXITFMATCH-26OCT28LIUCOL): locks in $0.13 if it fills; hedge NO LIU@0.2300
+2026-10-29 06:57:26,463 INFO Swept 15382 events: 0 taker trades, 1 new quotes, 4 resting
+2026-10-29 07:02:24,089 INFO Swept 15383 events: 0 taker trades, 0 new quotes, 4 resting
