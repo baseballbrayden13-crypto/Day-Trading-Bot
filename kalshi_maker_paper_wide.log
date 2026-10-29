@@ -287,3 +287,10 @@
 2026-10-28 20:31:06,961 INFO PAPER rest NO bid KXBRASILEIROSCORE-26OCT28FLUINT-FLU0INT1 at $0.0100 x20 (0 already bid at that price)
 2026-10-28 20:31:06,961 INFO Resting NO bid on KXBRASILEIROSCORE-26OCT28FLUINT-FLU0INT1 at $0.01 x20 (KXBRASILEIROSCORE-26OCT28FLUINT): locks in $15.15 if it fills; hedge NO FLU2INT1@0.2200
 2026-10-28 20:31:06,962 INFO Swept 15829 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 20:32:39,383 INFO Quote KXBRASILEIROSCORE-26OCT28FLUINT cancelled (0/20 filled)
+2026-10-28 20:36:11,456 INFO Swept 15828 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 20:41:12,495 INFO Swept 15887 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 20:46:16,421 INFO Swept 15902 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 20:51:18,613 INFO Swept 15882 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 20:56:21,176 INFO Swept 15894 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 21:01:18,849 INFO Swept 15888 events: 0 taker trades, 0 new quotes, 0 resting
