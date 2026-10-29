@@ -577,3 +577,11 @@
 2026-10-29 05:51:47,559 INFO Swept 15378 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-29 05:56:52,181 INFO Swept 15374 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-29 06:01:55,503 INFO Swept 15376 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 06:07:03,012 INFO Swept 15382 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 06:12:06,792 INFO Swept 15386 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 06:17:09,074 INFO Swept 15391 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 06:22:11,888 INFO PAPER rest NO bid KXITFMATCH-26OCT28LIUCOL-COL at $0.7200 x4 (5 already bid at that price)
+2026-10-29 06:22:11,888 INFO Resting NO bid on KXITFMATCH-26OCT28LIUCOL-COL at $0.72 x4 (KXITFMATCH-26OCT28LIUCOL): locks in $0.13 if it fills; hedge NO LIU@0.2300
+2026-10-29 06:22:11,890 INFO Swept 15393 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 06:27:13,399 INFO Swept 15389 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 06:32:10,503 INFO Swept 15388 events: 0 taker trades, 0 new quotes, 1 resting
