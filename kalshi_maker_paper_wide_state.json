@@ -328,21 +328,40 @@
  ],
  "quotes": [
   {
-   "event": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS",
-   "series": "KXITFWDOUBLES",
-   "title": "Drenser-Hagmann / Guzman vs Kupres / Paskauskas",
-   "ticker": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS-KUPPAS",
-   "order_id": "paper-143-1793291242",
-   "price": "0.2300",
-   "sets": 1,
+   "event": "KXITFDOUBLES-26OCT28BILWRIDEGSIM",
+   "series": "KXITFDOUBLES",
+   "title": "Bilicic / Wriedt vs Degroot / Simons",
+   "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI",
+   "order_id": "paper-148-1793292757",
+   "price": "0.4600",
+   "sets": 5,
    "done": 0,
-   "reserve": "0.9000",
+   "reserve": "4.4200",
    "multiplier": "1",
-   "placed": 1793291242.1664233,
+   "placed": 1793292757.9805958,
    "hedge": [
     {
-     "ticker": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS-DREGUZ",
-     "limit": "0.6400"
+     "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-DEGSIM",
+     "limit": "0.4000"
+    }
+   ]
+  },
+  {
+   "event": "KXCOPADELREYADVANCE-26OCT29SPOSEV",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "AD Sporting Hortaleza vs Sevilla",
+   "ticker": "KXCOPADELREYADVANCE-26OCT29SPOSEV-SEV",
+   "order_id": "paper-150-1793293659",
+   "price": "0.03",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8800",
+   "multiplier": "1",
+   "placed": 1793293659.98861,
+   "hedge": [
+    {
+     "ticker": "KXCOPADELREYADVANCE-26OCT29SPOSEV-SPO",
+     "limit": "0.9400"
     }
    ]
   }

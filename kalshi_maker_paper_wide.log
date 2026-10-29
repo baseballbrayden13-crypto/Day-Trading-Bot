@@ -822,3 +822,22 @@
 2026-10-29 12:47:33,267 INFO Swept 15615 events: 0 taker trades, 0 new quotes, 4 resting
 2026-10-29 12:47:33,534 INFO Quote KXCOPADELREYADVANCE-26OCT29SPOSEV cancelled (0/5 filled)
 2026-10-29 12:48:50,656 INFO Quote KXNEXTTEAMNHL-26ATUCH89 cancelled (0/2 filled)
+2026-10-29 12:52:37,894 INFO PAPER rest NO bid KXNEXTTEAMNHL-26ATUCH89-ANA at $0.3700 x1 (0 already bid at that price)
+2026-10-29 12:52:37,894 INFO Resting NO bid on KXNEXTTEAMNHL-26ATUCH89-ANA at $0.3700 x1 (KXNEXTTEAMNHL-26ATUCH89): locks in $0.27 if it fills; hedge NO COL@0.9800, WSH@0.3400
+2026-10-29 12:52:37,936 INFO PAPER rest NO bid KXVHGCB-26OCT29-E8.1 at $0.2800 x5 (15 already bid at that price)
+2026-10-29 12:52:37,937 INFO Resting NO bid on KXVHGCB-26OCT29-E8.1 at $0.28 x5 (KXVHGCB-26OCT29): locks in $0.10 if it fills; hedge NO E8.2@0.6800
+2026-10-29 12:52:37,980 INFO PAPER rest NO bid KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI at $0.4600 x5 (0 already bid at that price)
+2026-10-29 12:52:37,980 INFO Resting NO bid on KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI at $0.4600 x5 (KXITFDOUBLES-26OCT28BILWRIDEGSIM): locks in $0.58 if it fills; hedge NO DEGSIM@0.4000
+2026-10-29 12:52:37,982 INFO Swept 15610 events: 0 taker trades, 3 new quotes, 4 resting
+2026-10-29 12:53:26,413 INFO Quote KXNEXTTEAMNHL-26ATUCH89 cancelled (0/1 filled)
+2026-10-29 12:57:38,548 INFO PAPER rest NO bid KXTRUTHSOCIALD-26OCT29-B12 at $0.8200 x1 (0 already bid at that price)
+2026-10-29 12:57:38,548 INFO Resting NO bid on KXTRUTHSOCIALD-26OCT29-B12 at $0.8200 x1 (KXTRUTHSOCIALD-26OCT29): locks in $0.10 if it fills; hedge NO B17@0.7700, B22@0.7800, B27@0.8100, B34@0.7900, T40@0.8200
+2026-10-29 12:57:38,550 INFO Swept 15614 events: 0 taker trades, 1 new quotes, 4 resting
+2026-10-29 12:57:43,879 INFO Quote KXTRUTHSOCIALD-26OCT29 cancelled (0/1 filled)
+2026-10-29 12:58:34,810 INFO Quote KXVHGCB-26OCT29 cancelled (0/5 filled)
+2026-10-29 13:02:39,233 INFO Swept 15610 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 13:07:39,988 INFO PAPER rest NO bid KXCOPADELREYADVANCE-26OCT29SPOSEV-SEV at $0.0300 x5 (58 already bid at that price)
+2026-10-29 13:07:39,988 INFO Resting NO bid on KXCOPADELREYADVANCE-26OCT29SPOSEV-SEV at $0.03 x5 (KXCOPADELREYADVANCE-26OCT29SPOSEV): locks in $0.12 if it fills; hedge NO SPO@0.9400
+2026-10-29 13:07:39,990 INFO Swept 15630 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 13:12:43,870 INFO Swept 15697 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 13:17:44,394 INFO Swept 15759 events: 0 taker trades, 0 new quotes, 2 resting
