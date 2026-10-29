@@ -312,59 +312,36 @@
    "series": "KXVALORANTAWARD",
    "title": "VALORANT Champions Shanghai MVP",
    "ticker": "KXVALORANTAWARD-CHAMPSH26MVP-LUKXO",
-   "order_id": "paper-123-1793283685",
-   "price": "0.1500",
+   "order_id": "paper-129-1793285802",
+   "price": "0.1400",
    "sets": 12,
    "done": 0,
-   "reserve": "4.9900",
+   "reserve": "4.8700",
    "multiplier": "1",
-   "placed": 1793283685.2603326,
+   "placed": 1793285802.9561718,
    "hedge": [
     {
      "ticker": "KXVALORANTAWARD-CHAMPSH26MVP-ERDE",
-     "limit": "0.2500"
+     "limit": "0.3000"
     }
    ]
   },
   {
-   "event": "KXPGA3BALL-VIMO26R1CBLAISALCTAN",
+   "event": "KXPGA3BALL-VIMO26R1JDAHBGRIANOV",
    "series": "KXPGA3BALL",
-   "title": "1st Round 3-Ball: Blanchet/Salinda/Tankersley",
-   "ticker": "KXPGA3BALL-VIMO26R1CBLAISALCTAN-CBLA",
-   "order_id": "paper-125-1793284891",
-   "price": "0.3300",
-   "sets": 2,
+   "title": "1st Round 3-Ball: Dahmen/Griffin/Novak",
+   "ticker": "KXPGA3BALL-VIMO26R1JDAHBGRIANOV-ANOV",
+   "order_id": "paper-132-1793287011",
+   "price": "0.7200",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.7300",
+   "reserve": "4.7900",
    "multiplier": "1",
-   "placed": 1793284891.1432545,
+   "placed": 1793287011.030442,
    "hedge": [
     {
-     "ticker": "KXPGA3BALL-VIMO26R1CBLAISALCTAN-ISAL",
-     "limit": "0.6100"
-    },
-    {
-     "ticker": "KXPGA3BALL-VIMO26R1CBLAISALCTAN-CTAN",
-     "limit": "0.8900"
-    }
-   ]
-  },
-  {
-   "event": "KXNEXTTEAMNHL-26ATUCH89",
-   "series": "KXNEXTTEAMNHL",
-   "title": "Alex Tuch's Next Team",
-   "ticker": "KXNEXTTEAMNHL-26ATUCH89-ANA",
-   "order_id": "paper-126-1793285197",
-   "price": "0.2400",
-   "sets": 15,
-   "done": 0,
-   "reserve": "4.7700",
-   "multiplier": "1",
-   "placed": 1793285197.0628965,
-   "hedge": [
-    {
-     "ticker": "KXNEXTTEAMNHL-26ATUCH89-WSH",
-     "limit": "0.0700"
+     "ticker": "KXPGA3BALL-VIMO26R1JDAHBGRIANOV-BGRI",
+     "limit": "0.2200"
     }
    ]
   }
