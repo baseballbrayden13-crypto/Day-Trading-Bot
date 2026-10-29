@@ -281,5 +281,25 @@
    "closed": "2026-10-29T06:56:34.090749+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXEBASKETBALLGAME-26OCT290512RAYMELO",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Indiana Pacers (Ray) vs New Orleans Pelicans (Melo)",
+   "ticker": "KXEBASKETBALLGAME-26OCT290512RAYMELO-RAY",
+   "order_id": "paper-88-1793265686",
+   "price": "0.2800",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.1600",
+   "multiplier": "1",
+   "placed": 1793265686.9835675,
+   "hedge": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT290512RAYMELO-MELO",
+     "limit": "0.7400"
+    }
+   ]
+  }
+ ]
 }

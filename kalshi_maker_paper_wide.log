@@ -559,3 +559,14 @@
 2026-10-29 05:00:43,551 INFO Resting NO bid on KXITFDOUBLES-26OCT28ASYBESOMASHI-ASYBES at $0.0300 x50 (KXITFDOUBLES-26OCT28ASYBESOMASHI): locks in $47.93 if it fills; hedge NO OMASHI@0.0100
 2026-10-29 05:00:43,553 INFO Swept 15284 events: 0 taker trades, 1 new quotes, 1 resting
 2026-10-29 05:01:50,267 INFO Quote KXITFDOUBLES-26OCT28ASYBESOMASHI cancelled (0/50 filled)
+2026-10-29 05:06:17,956 INFO Swept 15244 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 05:11:24,056 INFO Swept 15356 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 05:16:27,665 INFO PAPER rest NO bid KXEBASKETBALLGAME-26OCT290512MICKJASO-JASO at $0.2600 x5 (0 already bid at that price)
+2026-10-29 05:16:27,665 INFO Resting NO bid on KXEBASKETBALLGAME-26OCT290512MICKJASO-JASO at $0.2600 x5 (KXEBASKETBALLGAME-26OCT290512MICKJASO): locks in $0.59 if it fills; hedge NO MICK@0.6900
+2026-10-29 05:16:27,666 INFO Swept 15369 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 05:21:26,983 INFO PAPER rest NO bid KXEBASKETBALLGAME-26OCT290512RAYMELO-RAY at $0.2800 x5 (0 already bid at that price)
+2026-10-29 05:21:26,983 INFO Resting NO bid on KXEBASKETBALLGAME-26OCT290512RAYMELO-RAY at $0.2800 x5 (KXEBASKETBALLGAME-26OCT290512RAYMELO): locks in $0.84 if it fills; hedge NO MELO@0.5400
+2026-10-29 05:21:26,985 INFO Swept 15369 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 05:26:34,260 INFO Swept 15369 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 05:28:51,030 INFO Quote KXEBASKETBALLGAME-26OCT290512MICKJASO cancelled (0/5 filled)
+2026-10-29 05:31:32,792 INFO Swept 15372 events: 0 taker trades, 0 new quotes, 1 resting
