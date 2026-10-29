@@ -1025,3 +1025,15 @@
 2026-10-29 17:32:23,115 INFO Swept 16190 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-29 17:37:23,248 INFO Swept 16182 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-29 17:42:27,090 INFO Swept 16184 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 17:47:31,244 INFO Swept 16195 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 17:52:36,397 INFO PAPER rest NO bid KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI at $0.1200 x5 (0 already bid at that price)
+2026-10-29 17:52:36,397 INFO Resting NO bid on KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI at $0.1200 x5 (KXITFDOUBLES-26OCT28BILWRIDEGSIM): locks in $0.14 if it fills; hedge NO DEGSIM@0.8400
+2026-10-29 17:52:36,399 INFO Swept 16186 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 17:53:47,883 INFO PAPER KXCOPADELREYADVANCE-26OCT28GTOOUR-OUR NO bid at $0.3500: 6/6 filled by real trades
+2026-10-29 17:53:47,910 INFO PAPER buy 6 NO KXCOPADELREYADVANCE-26OCT28GTOOUR-GTO at up to $0.4500: filled 6
+2026-10-29 17:53:47,910 INFO Quote KXCOPADELREYADVANCE-26OCT28GTOOUR filled 6: hedged, locks in $1.06
+2026-10-29 17:57:13,831 INFO Settled KXKNVBCUPADVANCE-26OCT29GROEMM: paid $5, profit $0.12
+2026-10-29 17:57:36,374 INFO Swept 16147 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 18:02:28,806 INFO Swept 16133 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 18:07:45,034 INFO Swept 16140 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 18:12:50,433 INFO Swept 16195 events: 0 taker trades, 0 new quotes, 1 resting

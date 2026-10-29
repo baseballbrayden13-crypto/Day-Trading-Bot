@@ -1,5 +1,5 @@
 {
- "realized": "0.4900",
+ "realized": "0.6100",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -50,26 +50,26 @@
    ]
   },
   {
-   "event": "KXKNVBCUPADVANCE-26OCT29GROEMM",
-   "series": "KXKNVBCUPADVANCE",
-   "title": "Groningen vs Emmen",
-   "sets": 5,
-   "outlay": "4.8800",
-   "locked_profit": "0.1200",
-   "opened": "2026-10-29T21:28:08.111682+00:00",
+   "event": "KXCOPADELREYADVANCE-26OCT28GTOOUR",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "Torrelavega vs Ourense",
+   "sets": 6,
+   "outlay": "4.9400",
+   "locked_profit": "1.0600",
+   "opened": "2026-10-29T21:53:47.910288+00:00",
    "maker": true,
    "legs": [
     {
-     "ticker": "KXKNVBCUPADVANCE-26OCT29GROEMM-EMM",
+     "ticker": "KXCOPADELREYADVANCE-26OCT28GTOOUR-OUR",
      "side": "no",
-     "count": 5,
-     "limit": "0.16"
+     "count": 6,
+     "limit": "0.3500"
     },
     {
-     "ticker": "KXKNVBCUPADVANCE-26OCT29GROEMM-GRO",
+     "ticker": "KXCOPADELREYADVANCE-26OCT28GTOOUR-GTO",
      "side": "no",
-     "count": 5,
-     "limit": "0.8000"
+     "count": 6,
+     "limit": "0.4500"
     }
    ]
   }
@@ -478,25 +478,52 @@
    "paid": "1",
    "pnl": "0.1300",
    "closed": "2026-10-29T21:01:48.886580+00:00"
+  },
+  {
+   "event": "KXKNVBCUPADVANCE-26OCT29GROEMM",
+   "series": "KXKNVBCUPADVANCE",
+   "title": "Groningen vs Emmen",
+   "sets": 5,
+   "outlay": "4.8800",
+   "locked_profit": "0.1200",
+   "opened": "2026-10-29T21:28:08.111682+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXKNVBCUPADVANCE-26OCT29GROEMM-EMM",
+     "side": "no",
+     "count": 5,
+     "limit": "0.16"
+    },
+    {
+     "ticker": "KXKNVBCUPADVANCE-26OCT29GROEMM-GRO",
+     "side": "no",
+     "count": 5,
+     "limit": "0.8000"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.1200",
+   "closed": "2026-10-29T21:57:13.831798+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXCOPADELREYADVANCE-26OCT28GTOOUR",
-   "series": "KXCOPADELREYADVANCE",
-   "title": "Torrelavega vs Ourense",
-   "ticker": "KXCOPADELREYADVANCE-26OCT28GTOOUR-OUR",
-   "order_id": "paper-192-1793309240",
-   "price": "0.3500",
-   "sets": 6,
+   "event": "KXITFDOUBLES-26OCT28BILWRIDEGSIM",
+   "series": "KXITFDOUBLES",
+   "title": "Bilicic / Wriedt vs Degroot / Simons",
+   "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI",
+   "order_id": "paper-193-1793310756",
+   "price": "0.1200",
+   "sets": 5,
    "done": 0,
-   "reserve": "4.4500",
+   "reserve": "4.8600",
    "multiplier": "1",
-   "placed": 1793309241.0013466,
+   "placed": 1793310756.397532,
    "hedge": [
     {
-     "ticker": "KXCOPADELREYADVANCE-26OCT28GTOOUR-GTO",
-     "limit": "0.4500"
+     "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-DEGSIM",
+     "limit": "0.8400"
     }
    ]
   }
