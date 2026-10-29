@@ -303,40 +303,40 @@
  ],
  "quotes": [
   {
-   "event": "KXITFDOUBLES-26OCT29HORLAWBOZPEL",
+   "event": "KXITFDOUBLES-26OCT29OKOVANAUNKLI",
    "series": "KXITFDOUBLES",
-   "title": "Horwood / Lawlor vs Bozemoj / Pel",
-   "ticker": "KXITFDOUBLES-26OCT29HORLAWBOZPEL-HORLAW",
-   "order_id": "paper-100-1793275074",
-   "price": "0.2200",
-   "sets": 2,
+   "title": "Okonkwo / Vance vs Aunion Duran / Klimas",
+   "ticker": "KXITFDOUBLES-26OCT29OKOVANAUNKLI-AUNKLI",
+   "order_id": "paper-102-1793276590",
+   "price": "0.22",
+   "sets": 5,
    "done": 0,
-   "reserve": "1.7700",
+   "reserve": "4.8600",
    "multiplier": "1",
-   "placed": 1793275074.8585742,
+   "placed": 1793276590.1134686,
    "hedge": [
     {
-     "ticker": "KXITFDOUBLES-26OCT29HORLAWBOZPEL-BOZPEL",
-     "limit": "0.6400"
+     "ticker": "KXITFDOUBLES-26OCT29OKOVANAUNKLI-OKOVAN",
+     "limit": "0.7600"
     }
    ]
   },
   {
-   "event": "KXITFWDOUBLES-26OCT29OLIROOGRENOR",
-   "series": "KXITFWDOUBLES",
-   "title": "Olivia Hansen / Roots vs Grekul / Norin",
-   "ticker": "KXITFWDOUBLES-26OCT29OLIROOGRENOR-GRENOR",
-   "order_id": "paper-101-1793275382",
-   "price": "0.2500",
+   "event": "KXSLBGAME-26OCT301530CHELIV",
+   "series": "KXSLBGAME",
+   "title": "Cheshire Phoenix vs Liverpool",
+   "ticker": "KXSLBGAME-26OCT301530CHELIV-CHE",
+   "order_id": "paper-104-1793277185",
+   "price": "0.4200",
    "sets": 2,
    "done": 0,
-   "reserve": "1.6800",
+   "reserve": "1.8700",
    "multiplier": "1",
-   "placed": 1793275382.6762087,
+   "placed": 1793277185.482716,
    "hedge": [
     {
-     "ticker": "KXITFWDOUBLES-26OCT29OLIROOGRENOR-OLIROO",
-     "limit": "0.6400"
+     "ticker": "KXSLBGAME-26OCT301530CHELIV-LIV",
+     "limit": "0.5200"
     }
    ]
   }

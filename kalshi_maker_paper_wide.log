@@ -638,3 +638,16 @@
 2026-10-29 08:03:02,676 INFO PAPER rest NO bid KXITFWDOUBLES-26OCT29OLIROOGRENOR-GRENOR at $0.2500 x2 (0 already bid at that price)
 2026-10-29 08:03:02,676 INFO Resting NO bid on KXITFWDOUBLES-26OCT29OLIROOGRENOR-GRENOR at $0.2500 x2 (KXITFWDOUBLES-26OCT29OLIROOGRENOR): locks in $0.32 if it fills; hedge NO OLIROO@0.6400
 2026-10-29 08:03:02,678 INFO Swept 15408 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 08:08:03,698 INFO Swept 15435 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 08:13:05,030 INFO Swept 15444 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 08:18:07,398 INFO Swept 15445 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 08:23:10,113 INFO PAPER rest NO bid KXITFDOUBLES-26OCT29OKOVANAUNKLI-AUNKLI at $0.2200 x5 (22 already bid at that price)
+2026-10-29 08:23:10,113 INFO Resting NO bid on KXITFDOUBLES-26OCT29OKOVANAUNKLI-AUNKLI at $0.22 x5 (KXITFDOUBLES-26OCT29OKOVANAUNKLI): locks in $0.14 if it fills; hedge NO OKOVAN@0.7600
+2026-10-29 08:23:10,177 INFO PAPER rest NO bid KXLOWTSDF-26OCT29-B47.5 at $0.8700 x5 (5 already bid at that price)
+2026-10-29 08:23:10,177 INFO Resting NO bid on KXLOWTSDF-26OCT29-B47.5 at $0.87 x5 (KXLOWTSDF-26OCT29): locks in $0.10 if it fills; hedge NO B51.5@0.1000
+2026-10-29 08:23:10,179 INFO Swept 15438 events: 0 taker trades, 2 new quotes, 4 resting
+2026-10-29 08:23:21,789 INFO Quote KXLOWTSDF-26OCT29 cancelled (0/5 filled)
+2026-10-29 08:28:10,576 INFO Swept 15434 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-29 08:33:05,482 INFO PAPER rest NO bid KXSLBGAME-26OCT301530CHELIV-CHE at $0.4200 x2 (0 already bid at that price)
+2026-10-29 08:33:05,482 INFO Resting NO bid on KXSLBGAME-26OCT301530CHELIV-CHE at $0.4200 x2 (KXSLBGAME-26OCT301530CHELIV): locks in $0.13 if it fills; hedge NO LIV@0.5200
+2026-10-29 08:33:05,484 INFO Swept 15433 events: 0 taker trades, 1 new quotes, 3 resting
