@@ -294,3 +294,12 @@
 2026-10-28 20:51:18,613 INFO Swept 15882 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-28 20:56:21,176 INFO Swept 15894 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-28 21:01:18,849 INFO Swept 15888 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 21:06:30,799 INFO Swept 15875 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 21:11:31,281 INFO PAPER rest NO bid KXMLS1HSCORE-26OCT28STLPOR-STL1POR1 at $0.5400 x1 (0 already bid at that price)
+2026-10-28 21:11:31,281 INFO Resting NO bid on KXMLS1HSCORE-26OCT28STLPOR-STL1POR1 at $0.5400 x1 (KXMLS1HSCORE-26OCT28STLPOR): locks in $0.16 if it fills; hedge NO STL0POR0@0.5300, STL0POR1@0.8900, STL1POR0@0.8400, STL2POR0@0.9800
+2026-10-28 21:11:31,283 INFO Swept 15983 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 21:13:29,546 INFO Quote KXMLS1HSCORE-26OCT28STLPOR cancelled (0/1 filled)
+2026-10-28 21:16:33,522 INFO PAPER rest NO bid KXAHLGAME-26OCT281905HERROC-HER at $0.1200 x5 (92 already bid at that price)
+2026-10-28 21:16:33,522 INFO Resting NO bid on KXAHLGAME-26OCT281905HERROC-HER at $0.12 x5 (KXAHLGAME-26OCT281905HERROC): locks in $0.14 if it fills; hedge NO ROC@0.8400
+2026-10-28 21:16:33,524 INFO Swept 16023 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 21:16:38,716 INFO Stopped; all quotes cancelled.
