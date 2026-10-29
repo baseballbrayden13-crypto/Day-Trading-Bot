@@ -1,5 +1,5 @@
 {
- "realized": "0.4300",
+ "realized": "0.3500",
  "open": [
   {
    "event": "KXCOPADELREYADVANCE-26OCT29ATLCDE",
@@ -404,90 +404,40 @@
  ],
  "quotes": [
   {
-   "event": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS",
-   "series": "KXITFWDOUBLES",
-   "title": "Drenser-Hagmann / Guzman vs Kupres / Paskauskas",
-   "ticker": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS-KUPPAS",
-   "order_id": "paper-170-1793301636",
-   "price": "0.2300",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.9000",
-   "multiplier": "1",
-   "placed": 1793301636.1057298,
-   "hedge": [
-    {
-     "ticker": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS-DREGUZ",
-     "limit": "0.6400"
-    }
-   ]
-  },
-  {
-   "event": "KXCOPADELREYADVANCE-26OCT29AURDEP",
+   "event": "KXCOPADELREYADVANCE-26OCT28CIEGCF",
    "series": "KXCOPADELREYADVANCE",
-   "title": "Auriense Cented Academy vs Deportivo De La Coruna",
-   "ticker": "KXCOPADELREYADVANCE-26OCT29AURDEP-DEP",
-   "order_id": "paper-173-1793301940",
-   "price": "0.03",
+   "title": "Cieza vs Granada",
+   "ticker": "KXCOPADELREYADVANCE-26OCT28CIEGCF-CIE",
+   "order_id": "paper-177-1793303759",
+   "price": "0.8300",
    "sets": 5,
    "done": 0,
-   "reserve": "4.8800",
+   "reserve": "4.4800",
    "multiplier": "1",
-   "placed": 1793301940.8028455,
+   "placed": 1793303759.4397507,
    "hedge": [
     {
-     "ticker": "KXCOPADELREYADVANCE-26OCT29AURDEP-AUR",
-     "limit": "0.9400"
+     "ticker": "KXCOPADELREYADVANCE-26OCT28CIEGCF-GCF",
+     "limit": "0.0700"
     }
    ]
   },
   {
-   "event": "KXITFDOUBLES-26OCT29OKOVANAUNKLI",
-   "series": "KXITFDOUBLES",
-   "title": "Okonkwo / Vance vs Aunion Duran / Klimas",
-   "ticker": "KXITFDOUBLES-26OCT29OKOVANAUNKLI-AUNKLI",
-   "order_id": "paper-175-1793302546",
-   "price": "0.2200",
-   "sets": 1,
+   "event": "KXCOPADELREYADVANCE-26OCT29AEPATH",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "Prat vs Bilbao",
+   "ticker": "KXCOPADELREYADVANCE-26OCT29AEPATH-AEP",
+   "order_id": "paper-179-1793304685",
+   "price": "0.4200",
+   "sets": 5,
    "done": 0,
-   "reserve": "0.8900",
+   "reserve": "2.3500",
    "multiplier": "1",
-   "placed": 1793302546.7406352,
+   "placed": 1793304685.6137655,
    "hedge": [
     {
-     "ticker": "KXITFDOUBLES-26OCT29OKOVANAUNKLI-OKOVAN",
-     "limit": "0.6400"
-    }
-   ]
-  },
-  {
-   "event": "KXNEXTTEAMNHL-26DLARKIN71",
-   "series": "KXNEXTTEAMNHL",
-   "title": "Dylan Larkin's Next Team",
-   "ticker": "KXNEXTTEAMNHL-26DLARKIN71-VGK",
-   "order_id": "paper-176-1793302846",
-   "price": "0.2600",
-   "sets": 1,
-   "done": 0,
-   "reserve": "3.3500",
-   "multiplier": "1",
-   "placed": 1793302846.7046156,
-   "hedge": [
-    {
-     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-DET",
-     "limit": "0.9700"
-    },
-    {
-     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MIN",
-     "limit": "0.5000"
-    },
-    {
-     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-NJD",
-     "limit": "0.5700"
-    },
-    {
-     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-PHI",
-     "limit": "0.9800"
+     "ticker": "KXCOPADELREYADVANCE-26OCT29AEPATH-ATH",
+     "limit": "0.1700"
     }
    ]
   }

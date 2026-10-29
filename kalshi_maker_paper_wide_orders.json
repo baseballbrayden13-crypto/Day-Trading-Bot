@@ -2372,12 +2372,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793301636.1033692,
-  "checked": 1793302987.420053,
+  "checked": 1793303436,
   "expires": 1793303436,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-171-1793301636": {
   "id": "paper-171-1793301636",
@@ -2414,12 +2414,12 @@
   "count": 5,
   "ahead": 881,
   "placed": 1793301940.8008797,
-  "checked": 1793302987.4694972,
+  "checked": 1793303452.7095404,
   "expires": 1793303740,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-174-1793302546": {
   "id": "paper-174-1793302546",
@@ -2442,12 +2442,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793302546.7384834,
-  "checked": 1793302987.516862,
+  "checked": 1793304346,
   "expires": 1793304346,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-176-1793302846": {
   "id": "paper-176-1793302846",
@@ -2456,8 +2456,50 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793302846.7021928,
-  "checked": 1793302987.56563,
+  "checked": 1793304646,
   "expires": 1793304646,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-177-1793303759": {
+  "id": "paper-177-1793303759",
+  "ticker": "KXCOPADELREYADVANCE-26OCT28CIEGCF-CIE",
+  "price": "0.8300",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793303759.4371545,
+  "checked": 1793304792.9235256,
+  "expires": 1793305559,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-178-1793304058": {
+  "id": "paper-178-1793304058",
+  "ticker": "KXCOPADELREYADVANCE-26OCT29GUIGIJ-GUI",
+  "price": "0.4500",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793304058.4721212,
+  "checked": 1793304381.5902894,
+  "expires": 1793305858,
+  "through": 3,
+  "at_price": 0,
+  "filled": 1,
+  "status": "executed"
+ },
+ "paper-179-1793304685": {
+  "id": "paper-179-1793304685",
+  "ticker": "KXCOPADELREYADVANCE-26OCT29AEPATH-AEP",
+  "price": "0.4200",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793304685.611212,
+  "checked": 1793304792.9769392,
+  "expires": 1793306485,
   "through": 0,
   "at_price": 0,
   "filled": 0,
