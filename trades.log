@@ -11,3 +11,6 @@
 2026-10-29 10:05:07,236 INFO BUY SPY x1 @~769.72 stop 767.31 target 773.34 | broke 15-min opening range high 769.17
 2026-10-29 10:35:07,680 INFO BUY QQQ x1 @~716.83 stop 711.67 target 724.56 | broke 15-min opening range high 716.82
 2026-10-29 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.
+2026-10-29 13:23:37,939 INFO Connected to Alpaca PAPER account
+2026-10-29 13:23:37,984 INFO Picked up today's counters: start equity $5002.80, 2 trades
+2026-10-29 13:23:37,984 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.
