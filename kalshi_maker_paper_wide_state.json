@@ -1,5 +1,5 @@
 {
- "realized": "-0.0700",
+ "realized": "0.4300",
  "open": [
   {
    "event": "KXHIGHTSAN-26OCT28",
@@ -50,26 +50,50 @@
    ]
   },
   {
-   "event": "KXEBASKETBALLGAME-26OCT290026GAVIKYLE",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: Denver Nuggets (Gavi) vs Dallas Mavericks (Kyle)",
+   "event": "KXWT20MATCH-26OCT282330KNTWMGOAWM",
+   "series": "KXWT20MATCH",
+   "title": "Goa Women vs Karnataka Women",
    "sets": 5,
-   "outlay": "4.5000",
-   "locked_profit": "0.5000",
-   "opened": "2026-10-29T04:37:22.009023+00:00",
+   "outlay": "4.9000",
+   "locked_profit": "0.1000",
+   "opened": "2026-10-29T04:56:51.194266+00:00",
    "maker": true,
    "legs": [
     {
-     "ticker": "KXEBASKETBALLGAME-26OCT290026GAVIKYLE-KYLE",
+     "ticker": "KXWT20MATCH-26OCT282330KNTWMGOAWM-KNTWM",
      "side": "no",
      "count": 5,
-     "limit": "0.8000"
+     "limit": "0.30"
     },
     {
-     "ticker": "KXEBASKETBALLGAME-26OCT290026GAVIKYLE-GAVI",
+     "ticker": "KXWT20MATCH-26OCT282330KNTWMGOAWM-GOAWM",
      "side": "no",
      "count": 5,
-     "limit": "0.0900"
+     "limit": "0.6600"
+    }
+   ]
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT290054DAVILARR",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: New Orleans Pelicans (Davis) vs Indiana Pacers (Larry)",
+   "sets": 5,
+   "outlay": "4.6700",
+   "locked_profit": "0.3300",
+   "opened": "2026-10-29T05:16:18.042250+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT290054DAVILARR-LARR",
+     "side": "no",
+     "count": 5,
+     "limit": "0.7500"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT290054DAVILARR-DAVI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.1700"
     }
    ]
   }
@@ -222,6 +246,33 @@
    "paid": "5",
    "pnl": "0.1400",
    "closed": "2026-10-29T03:45:09.880306+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT290026GAVIKYLE",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Denver Nuggets (Gavi) vs Dallas Mavericks (Kyle)",
+   "sets": 5,
+   "outlay": "4.5000",
+   "locked_profit": "0.5000",
+   "opened": "2026-10-29T04:37:22.009023+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT290026GAVIKYLE-KYLE",
+     "side": "no",
+     "count": 5,
+     "limit": "0.8000"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT290026GAVIKYLE-GAVI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.0900"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.5000",
+   "closed": "2026-10-29T04:55:47.464562+00:00"
   }
  ],
  "quotes": []
