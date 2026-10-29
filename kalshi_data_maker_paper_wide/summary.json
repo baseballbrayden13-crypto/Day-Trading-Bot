@@ -1,27 +1,23 @@
 {
- "updated": "2026-10-29T01:14:14+00:00",
+ "updated": "2026-10-29T01:42:33+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "19.06",
- "realized_profit": "-0.94",
- "bet_level": "19.06",
- "open_trades": 2,
- "open_locked_profit": "0.16",
- "in_play": "2.84",
+ "equity": "18.99",
+ "realized_profit": "-1.01",
+ "bet_level": "18.99",
+ "open_trades": 3,
+ "open_locked_profit": "1.33",
+ "in_play": "7.67",
  "stray_positions": 0,
  "closed_trades": 2,
  "trades_this_loop": 0,
- "events_swept": 16023,
+ "events_swept": 15920,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 5,
+ "problems": 1,
  "last_problems": [
-  "2026-10-28 19:43 Quote KXKNVBCUPADVANCE-26OCT28SPAFOR: hedge missed on KXKNVBCUPADVANCE-26OCT28SPAFOR-FOR. Selling back 5 contracts on 1 legs.",
-  "2026-10-28 19:43 STRAY POSITION: 2 NO contracts of KXKNVBCUPADVANCE-26OCT28SPAFOR-SPA still held. Check it on Kalshi.",
-  "2026-10-28 22:01 Quote KXHIGHTSAN-26OCT28: hedge missed on KXHIGHTSAN-26OCT28-B75.5. Selling back 2 contracts on 1 legs.",
-  "2026-10-28 22:51 Quote KXLOLFBLOOD-26OCT281900LYIG-2: hedge missed on KXLOLFBLOOD-26OCT281900LYIG-2-LY. Selling back 5 contracts on 1 legs.",
-  "2026-10-28 22:51 STRAY POSITION: 5 NO contracts of KXLOLFBLOOD-26OCT281900LYIG-2-IG still held. Check it on Kalshi."
+  "2026-10-29 01:20 Quote KXBRASILEIRO1H-26OCT28BAHSPA: hedge missed on KXBRASILEIRO1H-26OCT28BAHSPA-TIE. Selling back 5 contracts on 1 legs."
  ]
 }

@@ -1,5 +1,5 @@
 {
- "realized": "-0.9400",
+ "realized": "-1.0100",
  "open": [
   {
    "event": "KXHIGHTSAN-26OCT28",
@@ -46,6 +46,30 @@
      "side": "no",
      "count": 2,
      "limit": "0.8500"
+    }
+   ]
+  },
+  {
+   "event": "KXMLBLEADERPLAYOFF-26KS",
+   "series": "KXMLBLEADERPLAYOFF",
+   "title": "Playoff Strikeouts Leader",
+   "sets": 6,
+   "outlay": "4.8300",
+   "locked_profit": "1.1700",
+   "opened": "2026-10-29T01:19:14.480337+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXMLBLEADERPLAYOFF-26KS-DRASMUSSEN57",
+     "side": "no",
+     "count": 6,
+     "limit": "0.6500"
+    },
+    {
+     "ticker": "KXMLBLEADERPLAYOFF-26KS-GWILLIAMS32",
+     "side": "no",
+     "count": 6,
+     "limit": "0.1400"
     }
    ]
   }
@@ -146,5 +170,25 @@
    "closed": "2026-10-28T23:35:17.519731+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLBPGAME-26OCT281800CAIPAI",
+   "series": "KXLBPGAME",
+   "title": "Caimanes Del Llano vs Paisas Basketball",
+   "ticker": "KXLBPGAME-26OCT281800CAIPAI-CAI",
+   "order_id": "paper-39-1793237963",
+   "price": "0.6300",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8600",
+   "multiplier": "1",
+   "placed": 1793237963.4337,
+   "hedge": [
+    {
+     "ticker": "KXLBPGAME-26OCT281800CAIPAI-PAI",
+     "limit": "0.3200"
+    }
+   ]
+  }
+ ]
 }
