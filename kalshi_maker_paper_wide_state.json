@@ -48,6 +48,23 @@
      "limit": "0.8500"
     }
    ]
+  },
+  {
+   "event": "KXITFDOUBLES-26OCT29KHASHEHRALAK (stray)",
+   "series": "KXITFDOUBLES",
+   "title": "Kharlamov / Shebekin vs Hrazdil / Lakshmanan",
+   "sets": 0,
+   "outlay": "0.2300",
+   "locked_profit": "0",
+   "opened": "2026-10-29T11:14:04.268712+00:00",
+   "legs": [
+    {
+     "ticker": "KXITFDOUBLES-26OCT29KHASHEHRALAK-KHASHE",
+     "side": "no",
+     "count": 1,
+     "limit": "0.2200"
+    }
+   ]
   }
  ],
  "closed": [
@@ -283,78 +300,29 @@
  ],
  "quotes": [
   {
-   "event": "KXCOPADELREYADVANCE-26OCT28PESHUE",
-   "series": "KXCOPADELREYADVANCE",
-   "title": "Pena Sport vs Huesca",
-   "ticker": "KXCOPADELREYADVANCE-26OCT28PESHUE-HUE",
-   "order_id": "paper-90-1793270234",
-   "price": "0.22",
-   "sets": 4,
+   "event": "KXDOGE-26OCT2917",
+   "series": "KXDOGE",
+   "title": "Dogecoin price range on Oct 29, 2026 at 5pm EDT?",
+   "ticker": "KXDOGE-26OCT2917-B0.062",
+   "order_id": "paper-96-1793273559",
+   "price": "0.1600",
+   "sets": 1,
    "done": 0,
-   "reserve": "3.8800",
+   "reserve": "2.6600",
    "multiplier": "1",
-   "placed": 1793270234.4369671,
+   "placed": 1793273559.5790956,
    "hedge": [
     {
-     "ticker": "KXCOPADELREYADVANCE-26OCT28PESHUE-PES",
-     "limit": "0.7300"
-    }
-   ]
-  },
-  {
-   "event": "KXNASCARTRUCKSERIES-NTS26",
-   "series": "KXNASCARTRUCKSERIES",
-   "title": "NASCAR Truck Series Champion",
-   "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
-   "order_id": "paper-91-1793270539",
-   "price": "0.77",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8800",
-   "multiplier": "1",
-   "placed": 1793270539.502199,
-   "hedge": [
+     "ticker": "KXDOGE-26OCT2917-B0.047",
+     "limit": "0.9800"
+    },
     {
-     "ticker": "KXNASCARTRUCKSERIES-NTS26-KHON",
-     "limit": "0.1900"
-    }
-   ]
-  },
-  {
-   "event": "KXWTADOUBLES-26OCT28MUHZHAERRPAO",
-   "series": "KXWTADOUBLES",
-   "title": "Muhammad / Zhang vs Errani / Paolini",
-   "ticker": "KXWTADOUBLES-26OCT28MUHZHAERRPAO-MUHZHA",
-   "order_id": "paper-92-1793271142",
-   "price": "0.3300",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.0600",
-   "multiplier": "1",
-   "placed": 1793271142.2863865,
-   "hedge": [
+     "ticker": "KXDOGE-26OCT2917-B0.052",
+     "limit": "0.9800"
+    },
     {
-     "ticker": "KXWTADOUBLES-26OCT28MUHZHAERRPAO-ERRPAO",
-     "limit": "0.4600"
-    }
-   ]
-  },
-  {
-   "event": "KXITFMATCH-26OCT28LIUCOL",
-   "series": "KXITFMATCH",
-   "title": "LIU vs Colby",
-   "ticker": "KXITFMATCH-26OCT28LIUCOL-COL",
-   "order_id": "paper-93-1793271446",
-   "price": "0.7200",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.8700",
-   "multiplier": "1",
-   "placed": 1793271446.4615602,
-   "hedge": [
-    {
-     "ticker": "KXITFMATCH-26OCT28LIUCOL-LIU",
-     "limit": "0.2300"
+     "ticker": "KXDOGE-26OCT2917-B0.077",
+     "limit": "0.7000"
     }
    ]
   }

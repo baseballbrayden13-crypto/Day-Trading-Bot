@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T11:00:16+00:00",
+ "updated": "2026-10-29T11:30:35+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -7,15 +7,18 @@
  "equity": "20.86",
  "realized_profit": "0.86",
  "bet_level": "20.00",
- "open_trades": 2,
+ "open_trades": 3,
  "open_locked_profit": "0.16",
- "in_play": "2.84",
- "stray_positions": 0,
+ "in_play": "3.07",
+ "stray_positions": 1,
  "closed_trades": 7,
  "trades_this_loop": 0,
- "events_swept": 15383,
+ "events_swept": 15375,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 0,
- "last_problems": []
+ "problems": 2,
+ "last_problems": [
+  "2026-10-29 11:14 Quote KXITFDOUBLES-26OCT29KHASHEHRALAK: hedge missed on KXITFDOUBLES-26OCT29KHASHEHRALAK-HRALAK. Selling back 1 contracts on 1 legs.",
+  "2026-10-29 11:14 STRAY POSITION: 1 NO contracts of KXITFDOUBLES-26OCT29KHASHEHRALAK-KHASHE still held. Check it on Kalshi."
+ ]
 }

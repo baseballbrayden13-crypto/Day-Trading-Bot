@@ -1252,12 +1252,12 @@
   "count": 4,
   "ahead": 16,
   "placed": 1793270234.435481,
-  "checked": 1793271799.1865125,
+  "checked": 1793272034,
   "expires": 1793272034,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-91-1793270539": {
   "id": "paper-91-1793270539",
@@ -1266,12 +1266,12 @@
   "count": 5,
   "ahead": 37,
   "placed": 1793270539.5006208,
-  "checked": 1793271799.3140233,
+  "checked": 1793272339,
   "expires": 1793272339,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-92-1793271142": {
   "id": "paper-92-1793271142",
@@ -1280,12 +1280,12 @@
   "count": 5,
   "ahead": 0,
   "placed": 1793271142.284955,
-  "checked": 1793271799.4430702,
+  "checked": 1793272942,
   "expires": 1793272942,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-93-1793271446": {
   "id": "paper-93-1793271446",
@@ -1294,8 +1294,50 @@
   "count": 4,
   "ahead": 0,
   "placed": 1793271446.4599462,
-  "checked": 1793271799.5692866,
+  "checked": 1793273246,
   "expires": 1793273246,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-94-1793272352": {
+  "id": "paper-94-1793272352",
+  "ticker": "KXITFDOUBLES-26OCT29KHASHEHRALAK-KHASHE",
+  "price": "0.2200",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793272352.2583346,
+  "checked": 1793272444.079252,
+  "expires": 1793274152,
+  "through": 2,
+  "at_price": 0,
+  "filled": 1,
+  "status": "executed"
+ },
+ "paper-95-1793272656": {
+  "id": "paper-95-1793272656",
+  "ticker": "KXITFDOUBLES-26OCT29ABDKVAOMASHI-OMASHI",
+  "price": "0.2000",
+  "count": 5,
+  "ahead": 5,
+  "placed": 1793272656.2622907,
+  "checked": 1793273125.6008208,
+  "expires": 1793274456,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-96-1793273559": {
+  "id": "paper-96-1793273559",
+  "ticker": "KXDOGE-26OCT2917-B0.062",
+  "price": "0.1600",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793273559.5775814,
+  "checked": 1793273600.6499445,
+  "expires": 1793275359,
   "through": 0,
   "at_price": 0,
   "filled": 0,
