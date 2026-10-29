@@ -1037,3 +1037,14 @@
 2026-10-29 18:02:28,806 INFO Swept 16133 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-29 18:07:45,034 INFO Swept 16140 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-29 18:12:50,433 INFO Swept 16195 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 18:17:29,185 INFO Settled KXCOPADELREYADVANCE-26OCT28GTOOUR: paid $6, profit $1.06
+2026-10-29 18:17:50,602 INFO Swept 16206 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 18:22:50,672 INFO Swept 16215 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 18:27:55,338 INFO PAPER rest NO bid KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI at $0.1200 x5 (3 already bid at that price)
+2026-10-29 18:27:55,338 INFO Resting NO bid on KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI at $0.12 x5 (KXITFDOUBLES-26OCT28BILWRIDEGSIM): locks in $0.14 if it fills; hedge NO DEGSIM@0.8400
+2026-10-29 18:27:55,340 INFO Swept 16209 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 18:32:53,890 INFO PAPER rest NO bid KXMIBENSONELSAYED-26DEC01-R9 at $0.1300 x1 (1 already bid at that price)
+2026-10-29 18:32:53,890 INFO Resting NO bid on KXMIBENSONELSAYED-26DEC01-R9 at $0.13 x1 (KXMIBENSONELSAYED-26DEC01): locks in $0.10 if it fills; hedge NO R6@0.9700, R3@0.7900, R0@0.9600
+2026-10-29 18:32:53,893 INFO Swept 16210 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 18:37:54,657 INFO Swept 16211 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 18:42:56,230 INFO Swept 16204 events: 0 taker trades, 0 new quotes, 2 resting

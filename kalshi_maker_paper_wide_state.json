@@ -1,5 +1,5 @@
 {
- "realized": "0.6100",
+ "realized": "1.6700",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -46,30 +46,6 @@
      "side": "no",
      "count": 1,
      "limit": "0.6300"
-    }
-   ]
-  },
-  {
-   "event": "KXCOPADELREYADVANCE-26OCT28GTOOUR",
-   "series": "KXCOPADELREYADVANCE",
-   "title": "Torrelavega vs Ourense",
-   "sets": 6,
-   "outlay": "4.9400",
-   "locked_profit": "1.0600",
-   "opened": "2026-10-29T21:53:47.910288+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXCOPADELREYADVANCE-26OCT28GTOOUR-OUR",
-     "side": "no",
-     "count": 6,
-     "limit": "0.3500"
-    },
-    {
-     "ticker": "KXCOPADELREYADVANCE-26OCT28GTOOUR-GTO",
-     "side": "no",
-     "count": 6,
-     "limit": "0.4500"
     }
    ]
   }
@@ -505,6 +481,33 @@
    "paid": "5",
    "pnl": "0.1200",
    "closed": "2026-10-29T21:57:13.831798+00:00"
+  },
+  {
+   "event": "KXCOPADELREYADVANCE-26OCT28GTOOUR",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "Torrelavega vs Ourense",
+   "sets": 6,
+   "outlay": "4.9400",
+   "locked_profit": "1.0600",
+   "opened": "2026-10-29T21:53:47.910288+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCOPADELREYADVANCE-26OCT28GTOOUR-OUR",
+     "side": "no",
+     "count": 6,
+     "limit": "0.3500"
+    },
+    {
+     "ticker": "KXCOPADELREYADVANCE-26OCT28GTOOUR-GTO",
+     "side": "no",
+     "count": 6,
+     "limit": "0.4500"
+    }
+   ],
+   "paid": "6",
+   "pnl": "1.0600",
+   "closed": "2026-10-29T22:17:29.185626+00:00"
   }
  ],
  "quotes": [
@@ -513,17 +516,44 @@
    "series": "KXITFDOUBLES",
    "title": "Bilicic / Wriedt vs Degroot / Simons",
    "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI",
-   "order_id": "paper-193-1793310756",
-   "price": "0.1200",
+   "order_id": "paper-194-1793312875",
+   "price": "0.12",
    "sets": 5,
    "done": 0,
    "reserve": "4.8600",
    "multiplier": "1",
-   "placed": 1793310756.397532,
+   "placed": 1793312875.338499,
    "hedge": [
     {
      "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-DEGSIM",
      "limit": "0.8400"
+    }
+   ]
+  },
+  {
+   "event": "KXMIBENSONELSAYED-26DEC01",
+   "series": "KXMIBENSONELSAYED",
+   "title": "Michigan: Benson's margin vs. El-Sayed's margin?",
+   "ticker": "KXMIBENSONELSAYED-26DEC01-R9",
+   "order_id": "paper-195-1793313173",
+   "price": "0.13",
+   "sets": 1,
+   "done": 0,
+   "reserve": "2.9000",
+   "multiplier": "1",
+   "placed": 1793313173.890657,
+   "hedge": [
+    {
+     "ticker": "KXMIBENSONELSAYED-26DEC01-R6",
+     "limit": "0.9700"
+    },
+    {
+     "ticker": "KXMIBENSONELSAYED-26DEC01-R3",
+     "limit": "0.7900"
+    },
+    {
+     "ticker": "KXMIBENSONELSAYED-26DEC01-R0",
+     "limit": "0.9600"
     }
    ]
   }
