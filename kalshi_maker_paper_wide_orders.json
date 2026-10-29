@@ -888,12 +888,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793252774.0937767,
-  "checked": 1793252858.2515335,
+  "checked": 1793254574,
   "expires": 1793254574,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-65-1793252774": {
   "id": "paper-65-1793252774",
@@ -902,11 +902,39 @@
   "count": 5,
   "ahead": 39,
   "placed": 1793252774.158665,
-  "checked": 1793252858.377172,
+  "checked": 1793252905.7876036,
   "expires": 1793254574,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-66-1793253078": {
+  "id": "paper-66-1793253078",
+  "ticker": "KXITFMATCH-26OCT29SHETOS-TOS",
+  "price": "0.8800",
+  "count": 5,
+  "ahead": 5,
+  "placed": 1793253078.7418013,
+  "checked": 1793253131.5351975,
+  "expires": 1793254878,
+  "through": 0,
+  "at_price": 3,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-67-1793253983": {
+  "id": "paper-67-1793253983",
+  "ticker": "KXEBASKETBALLGAME-26OCT290150GAVIKYLE-KYLE",
+  "price": "0.0200",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793253983.82551,
+  "checked": 1793254312.2315702,
+  "expires": 1793255783,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

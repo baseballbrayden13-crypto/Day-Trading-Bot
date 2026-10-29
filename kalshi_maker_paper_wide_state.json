@@ -278,48 +278,5 @@
    "closed": "2026-10-29T05:25:53.287490+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXCOPADELREYGAME-26OCT28NUMOVI",
-   "series": "KXCOPADELREYGAME",
-   "title": "Numancia vs Oviedo: Regulation Time Moneyline",
-   "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-OVI",
-   "order_id": "paper-64-1793252774",
-   "price": "0.3600",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.8500",
-   "multiplier": "1",
-   "placed": 1793252774.095004,
-   "hedge": [
-    {
-     "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-NUM",
-     "limit": "0.8000"
-    },
-    {
-     "ticker": "KXCOPADELREYGAME-26OCT28NUMOVI-TIE",
-     "limit": "0.7300"
-    }
-   ]
-  },
-  {
-   "event": "KXNASCARTRUCKSERIES-NTS26",
-   "series": "KXNASCARTRUCKSERIES",
-   "title": "NASCAR Truck Series Champion",
-   "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
-   "order_id": "paper-65-1793252774",
-   "price": "0.75",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8600",
-   "multiplier": "1",
-   "placed": 1793252774.159935,
-   "hedge": [
-    {
-     "ticker": "KXNASCARTRUCKSERIES-NTS26-KHON",
-     "limit": "0.2100"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

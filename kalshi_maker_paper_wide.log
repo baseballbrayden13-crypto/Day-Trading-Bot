@@ -469,3 +469,16 @@
 2026-10-29 01:46:14,159 INFO PAPER rest NO bid KXNASCARTRUCKSERIES-NTS26-LRIG at $0.7500 x5 (39 already bid at that price)
 2026-10-29 01:46:14,159 INFO Resting NO bid on KXNASCARTRUCKSERIES-NTS26-LRIG at $0.75 x5 (KXNASCARTRUCKSERIES-NTS26): locks in $0.14 if it fills; hedge NO KHON@0.2100
 2026-10-29 01:46:14,161 INFO Swept 15322 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-29 01:48:25,979 INFO Quote KXNASCARTRUCKSERIES-NTS26 cancelled (0/5 filled)
+2026-10-29 01:51:18,742 INFO PAPER rest NO bid KXITFMATCH-26OCT29SHETOS-TOS at $0.8800 x5 (5 already bid at that price)
+2026-10-29 01:51:18,743 INFO Resting NO bid on KXITFMATCH-26OCT29SHETOS-TOS at $0.88 x5 (KXITFMATCH-26OCT29SHETOS): locks in $0.11 if it fills; hedge NO SHE@0.0900
+2026-10-29 01:51:18,744 INFO Swept 15318 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 01:52:11,599 INFO Quote KXITFMATCH-26OCT29SHETOS cancelled (0/5 filled)
+2026-10-29 01:56:21,462 INFO Swept 15313 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 02:01:22,892 INFO Swept 15309 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 02:06:23,826 INFO PAPER rest NO bid KXEBASKETBALLGAME-26OCT290150GAVIKYLE-KYLE at $0.0200 x5 (0 already bid at that price)
+2026-10-29 02:06:23,826 INFO Resting NO bid on KXEBASKETBALLGAME-26OCT290150GAVIKYLE-KYLE at $0.0200 x5 (KXEBASKETBALLGAME-26OCT290150GAVIKYLE): locks in $0.59 if it fills; hedge NO GAVI@0.8500
+2026-10-29 02:06:23,828 INFO Swept 15342 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 02:11:25,682 INFO Swept 15340 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 02:11:52,295 INFO Quote KXEBASKETBALLGAME-26OCT290150GAVIKYLE cancelled (0/5 filled)
+2026-10-29 02:16:26,617 INFO Swept 15336 events: 0 taker trades, 0 new quotes, 1 resting
