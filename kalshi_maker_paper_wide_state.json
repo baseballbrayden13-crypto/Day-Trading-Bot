@@ -1,5 +1,5 @@
 {
- "realized": "0.8600",
+ "realized": "1.6300",
  "open": [
   {
    "event": "KXHIGHTSAN-26OCT28",
@@ -46,23 +46,6 @@
      "side": "no",
      "count": 2,
      "limit": "0.8500"
-    }
-   ]
-  },
-  {
-   "event": "KXITFDOUBLES-26OCT29KHASHEHRALAK (stray)",
-   "series": "KXITFDOUBLES",
-   "title": "Kharlamov / Shebekin vs Hrazdil / Lakshmanan",
-   "sets": 0,
-   "outlay": "0.2300",
-   "locked_profit": "0",
-   "opened": "2026-10-29T11:14:04.268712+00:00",
-   "legs": [
-    {
-     "ticker": "KXITFDOUBLES-26OCT29KHASHEHRALAK-KHASHE",
-     "side": "no",
-     "count": 1,
-     "limit": "0.2200"
     }
    ]
   }
@@ -296,33 +279,64 @@
    "paid": "5",
    "pnl": "0.1000",
    "closed": "2026-10-29T06:56:34.090749+00:00"
+  },
+  {
+   "event": "KXITFDOUBLES-26OCT29KHASHEHRALAK (stray)",
+   "series": "KXITFDOUBLES",
+   "title": "Kharlamov / Shebekin vs Hrazdil / Lakshmanan",
+   "sets": 0,
+   "outlay": "0.2300",
+   "locked_profit": "0",
+   "opened": "2026-10-29T11:14:04.268712+00:00",
+   "legs": [
+    {
+     "ticker": "KXITFDOUBLES-26OCT29KHASHEHRALAK-KHASHE",
+     "side": "no",
+     "count": 1,
+     "limit": "0.2200"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.7700",
+   "closed": "2026-10-29T11:52:30.580446+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXDOGE-26OCT2917",
-   "series": "KXDOGE",
-   "title": "Dogecoin price range on Oct 29, 2026 at 5pm EDT?",
-   "ticker": "KXDOGE-26OCT2917-B0.062",
-   "order_id": "paper-96-1793273559",
-   "price": "0.1600",
-   "sets": 1,
+   "event": "KXITFDOUBLES-26OCT29HORLAWBOZPEL",
+   "series": "KXITFDOUBLES",
+   "title": "Horwood / Lawlor vs Bozemoj / Pel",
+   "ticker": "KXITFDOUBLES-26OCT29HORLAWBOZPEL-HORLAW",
+   "order_id": "paper-100-1793275074",
+   "price": "0.2200",
+   "sets": 2,
    "done": 0,
-   "reserve": "2.6600",
+   "reserve": "1.7700",
    "multiplier": "1",
-   "placed": 1793273559.5790956,
+   "placed": 1793275074.8585742,
    "hedge": [
     {
-     "ticker": "KXDOGE-26OCT2917-B0.047",
-     "limit": "0.9800"
-    },
+     "ticker": "KXITFDOUBLES-26OCT29HORLAWBOZPEL-BOZPEL",
+     "limit": "0.6400"
+    }
+   ]
+  },
+  {
+   "event": "KXITFWDOUBLES-26OCT29OLIROOGRENOR",
+   "series": "KXITFWDOUBLES",
+   "title": "Olivia Hansen / Roots vs Grekul / Norin",
+   "ticker": "KXITFWDOUBLES-26OCT29OLIROOGRENOR-GRENOR",
+   "order_id": "paper-101-1793275382",
+   "price": "0.2500",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6800",
+   "multiplier": "1",
+   "placed": 1793275382.6762087,
+   "hedge": [
     {
-     "ticker": "KXDOGE-26OCT2917-B0.052",
-     "limit": "0.9800"
-    },
-    {
-     "ticker": "KXDOGE-26OCT2917-B0.077",
-     "limit": "0.7000"
+     "ticker": "KXITFWDOUBLES-26OCT29OLIROOGRENOR-OLIROO",
+     "limit": "0.6400"
     }
    ]
   }

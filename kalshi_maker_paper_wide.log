@@ -617,3 +617,24 @@
 2026-10-29 07:32:39,578 INFO PAPER rest NO bid KXDOGE-26OCT2917-B0.062 at $0.1600 x1 (0 already bid at that price)
 2026-10-29 07:32:39,579 INFO Resting NO bid on KXDOGE-26OCT2917-B0.062 at $0.1600 x1 (KXDOGE-26OCT2917): locks in $0.34 if it fills; hedge NO B0.047@0.9800, B0.052@0.9800, B0.077@0.4900
 2026-10-29 07:32:39,580 INFO Swept 15375 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 07:37:43,279 INFO Swept 15375 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 07:42:46,866 INFO PAPER rest NO bid KXITFDOUBLES-26OCT29HORLAWBOZPEL-HORLAW at $0.2200 x2 (0 already bid at that price)
+2026-10-29 07:42:46,866 INFO Resting NO bid on KXITFDOUBLES-26OCT29HORLAWBOZPEL-HORLAW at $0.2200 x2 (KXITFDOUBLES-26OCT29HORLAWBOZPEL): locks in $0.23 if it fills; hedge NO BOZPEL@0.6400
+2026-10-29 07:42:46,932 INFO PAPER rest NO bid KXLOWTMIA-26OCT29-B74.5 at $0.1700 x2 (0 already bid at that price)
+2026-10-29 07:42:46,932 INFO Resting NO bid on KXLOWTMIA-26OCT29-B74.5 at $0.1700 x2 (KXLOWTMIA-26OCT29): locks in $0.11 if it fills; hedge NO B72.5@0.9900, B76.5@0.7600
+2026-10-29 07:42:46,934 INFO Swept 15374 events: 0 taker trades, 2 new quotes, 3 resting
+2026-10-29 07:43:08,982 INFO Quote KXLOWTMIA-26OCT29 cancelled (0/2 filled)
+2026-10-29 07:47:52,469 INFO Swept 15364 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 07:47:52,661 INFO Quote KXDOGE-26OCT2917 cancelled (0/1 filled)
+2026-10-29 07:52:30,580 INFO Settled KXITFDOUBLES-26OCT29KHASHEHRALAK (stray): paid $1, profit $0.77
+2026-10-29 07:52:51,774 INFO PAPER rest NO bid KXLOWTBOS-26OCT29-T48 at $0.1800 x5 (0 already bid at that price)
+2026-10-29 07:52:51,774 INFO Resting NO bid on KXLOWTBOS-26OCT29-T48 at $0.1800 x5 (KXLOWTBOS-26OCT29): locks in $1.21 if it fills; hedge NO B47.5@0.5600
+2026-10-29 07:52:51,776 INFO Swept 15360 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 07:53:13,115 INFO Quote KXLOWTBOS-26OCT29 cancelled (0/5 filled)
+2026-10-29 07:54:40,374 INFO Quote KXITFDOUBLES-26OCT29HORLAWBOZPEL cancelled (0/2 filled)
+2026-10-29 07:57:54,858 INFO PAPER rest NO bid KXITFDOUBLES-26OCT29HORLAWBOZPEL-HORLAW at $0.2200 x2 (0 already bid at that price)
+2026-10-29 07:57:54,858 INFO Resting NO bid on KXITFDOUBLES-26OCT29HORLAWBOZPEL-HORLAW at $0.2200 x2 (KXITFDOUBLES-26OCT29HORLAWBOZPEL): locks in $0.23 if it fills; hedge NO BOZPEL@0.6400
+2026-10-29 07:57:54,860 INFO Swept 15358 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 08:03:02,676 INFO PAPER rest NO bid KXITFWDOUBLES-26OCT29OLIROOGRENOR-GRENOR at $0.2500 x2 (0 already bid at that price)
+2026-10-29 08:03:02,676 INFO Resting NO bid on KXITFWDOUBLES-26OCT29OLIROOGRENOR-GRENOR at $0.2500 x2 (KXITFWDOUBLES-26OCT29OLIROOGRENOR): locks in $0.32 if it fills; hedge NO OLIROO@0.6400
+2026-10-29 08:03:02,678 INFO Swept 15408 events: 0 taker trades, 1 new quotes, 2 resting
