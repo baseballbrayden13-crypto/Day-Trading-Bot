@@ -1,30 +1,6 @@
 {
- "realized": "0.3500",
+ "realized": "0.4900",
  "open": [
-  {
-   "event": "KXCOPADELREYADVANCE-26OCT29ATLCDE",
-   "series": "KXCOPADELREYADVANCE",
-   "title": "Atletico Baleares vs Eldense",
-   "sets": 5,
-   "outlay": "4.8600",
-   "locked_profit": "0.1400",
-   "opened": "2026-10-29T18:05:11.759493+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXCOPADELREYADVANCE-26OCT29ATLCDE-CDE",
-     "side": "no",
-     "count": 5,
-     "limit": "0.3300"
-    },
-    {
-     "ticker": "KXCOPADELREYADVANCE-26OCT29ATLCDE-ATL",
-     "side": "no",
-     "count": 5,
-     "limit": "0.6200"
-    }
-   ]
-  },
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
    "series": "KXWNBAGAME",
@@ -46,6 +22,30 @@
      "side": "no",
      "count": 5,
      "limit": "0.5700"
+    }
+   ]
+  },
+  {
+   "event": "KXDELGAME-26OCT291430LOWAUG",
+   "series": "KXDELGAME",
+   "title": "Lowen Frankfurt vs Augsburger Panther",
+   "sets": 1,
+   "outlay": "0.8700",
+   "locked_profit": "0.1300",
+   "opened": "2026-10-29T20:41:47.493779+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXDELGAME-26OCT291430LOWAUG-AUG",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0600"
+    },
+    {
+     "ticker": "KXDELGAME-26OCT291430LOWAUG-LOW",
+     "side": "no",
+     "count": 1,
+     "limit": "0.7800"
     }
    ]
   }
@@ -400,44 +400,90 @@
    "paid": "5",
    "pnl": "0.1800",
    "closed": "2026-10-29T19:15:07.362466+00:00"
+  },
+  {
+   "event": "KXCOPADELREYADVANCE-26OCT29ATLCDE",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "Atletico Baleares vs Eldense",
+   "sets": 5,
+   "outlay": "4.8600",
+   "locked_profit": "0.1400",
+   "opened": "2026-10-29T18:05:11.759493+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCOPADELREYADVANCE-26OCT29ATLCDE-CDE",
+     "side": "no",
+     "count": 5,
+     "limit": "0.3300"
+    },
+    {
+     "ticker": "KXCOPADELREYADVANCE-26OCT29ATLCDE-ATL",
+     "side": "no",
+     "count": 5,
+     "limit": "0.6200"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.1400",
+   "closed": "2026-10-29T20:26:21.998364+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXCOPADELREYADVANCE-26OCT28CIEGCF",
+   "event": "KXCOPADELREYADVANCE-26OCT29GUIGIJ",
    "series": "KXCOPADELREYADVANCE",
-   "title": "Cieza vs Granada",
-   "ticker": "KXCOPADELREYADVANCE-26OCT28CIEGCF-CIE",
-   "order_id": "paper-177-1793303759",
-   "price": "0.8300",
-   "sets": 5,
+   "title": "Guijuelo vs Gijon",
+   "ticker": "KXCOPADELREYADVANCE-26OCT29GUIGIJ-GUI",
+   "order_id": "paper-180-1793304988",
+   "price": "0.2900",
+   "sets": 3,
    "done": 0,
-   "reserve": "4.4800",
+   "reserve": "2.6900",
    "multiplier": "1",
-   "placed": 1793303759.4397507,
+   "placed": 1793304988.3783183,
    "hedge": [
     {
-     "ticker": "KXCOPADELREYADVANCE-26OCT28CIEGCF-GCF",
-     "limit": "0.0700"
+     "ticker": "KXCOPADELREYADVANCE-26OCT29GUIGIJ-GIJ",
+     "limit": "0.5800"
     }
    ]
   },
   {
-   "event": "KXCOPADELREYADVANCE-26OCT29AEPATH",
-   "series": "KXCOPADELREYADVANCE",
-   "title": "Prat vs Bilbao",
-   "ticker": "KXCOPADELREYADVANCE-26OCT29AEPATH-AEP",
-   "order_id": "paper-179-1793304685",
-   "price": "0.4200",
+   "event": "KXKNVBCUPADVANCE-26OCT29TREHER",
+   "series": "KXKNVBCUPADVANCE",
+   "title": "Treffers Groesbeek vs Heracles Almelo",
+   "ticker": "KXKNVBCUPADVANCE-26OCT29TREHER-HER",
+   "order_id": "paper-182-1793305901",
+   "price": "0.5500",
    "sets": 5,
    "done": 0,
-   "reserve": "2.3500",
+   "reserve": "4.4100",
    "multiplier": "1",
-   "placed": 1793304685.6137655,
+   "placed": 1793305901.9746084,
    "hedge": [
     {
-     "ticker": "KXCOPADELREYADVANCE-26OCT29AEPATH-ATH",
-     "limit": "0.1700"
+     "ticker": "KXKNVBCUPADVANCE-26OCT29TREHER-TRE",
+     "limit": "0.3300"
+    }
+   ]
+  },
+  {
+   "event": "KXITFDOUBLES-26OCT28BILWRIDEGSIM",
+   "series": "KXITFDOUBLES",
+   "title": "Bilicic / Wriedt vs Degroot / Simons",
+   "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI",
+   "order_id": "paper-183-1793305901",
+   "price": "0.1100",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8100",
+   "multiplier": "1",
+   "placed": 1793305901.9995008,
+   "hedge": [
+    {
+     "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-DEGSIM",
+     "limit": "0.8400"
     }
    ]
   }
