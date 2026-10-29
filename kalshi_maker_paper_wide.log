@@ -550,3 +550,12 @@
 2026-10-29 04:20:20,399 INFO Swept 15284 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-29 04:25:23,444 INFO Swept 15284 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-29 04:30:26,445 INFO Swept 15284 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 04:35:29,071 INFO Swept 15284 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 04:40:32,165 INFO Swept 15284 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 04:45:34,919 INFO Swept 15284 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 04:50:37,872 INFO Swept 15284 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 04:55:40,825 INFO Swept 15284 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 05:00:43,551 INFO PAPER rest NO bid KXITFDOUBLES-26OCT28ASYBESOMASHI-ASYBES at $0.0300 x50 (0 already bid at that price)
+2026-10-29 05:00:43,551 INFO Resting NO bid on KXITFDOUBLES-26OCT28ASYBESOMASHI-ASYBES at $0.0300 x50 (KXITFDOUBLES-26OCT28ASYBESOMASHI): locks in $47.93 if it fills; hedge NO OMASHI@0.0100
+2026-10-29 05:00:43,553 INFO Swept 15284 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 05:01:50,267 INFO Quote KXITFDOUBLES-26OCT28ASYBESOMASHI cancelled (0/50 filled)
