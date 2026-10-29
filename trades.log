@@ -9,3 +9,4 @@
 2026-10-29 10:00:56,187 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.
 2026-10-29 10:00:56,305 INFO New day 2026-10-29, starting equity $5002.80
 2026-10-29 10:05:07,236 INFO BUY SPY x1 @~769.72 stop 767.31 target 773.34 | broke 15-min opening range high 769.17
+2026-10-29 10:35:07,680 INFO BUY QQQ x1 @~716.83 stop 711.67 target 724.56 | broke 15-min opening range high 716.82
