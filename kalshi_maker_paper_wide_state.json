@@ -332,82 +332,17 @@
    "series": "KXITFWDOUBLES",
    "title": "Drenser-Hagmann / Guzman vs Kupres / Paskauskas",
    "ticker": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS-KUPPAS",
-   "order_id": "paper-138-1793289124",
-   "price": "0.2200",
+   "order_id": "paper-143-1793291242",
+   "price": "0.2300",
    "sets": 1,
    "done": 0,
-   "reserve": "0.8900",
+   "reserve": "0.9000",
    "multiplier": "1",
-   "placed": 1793289124.571699,
+   "placed": 1793291242.1664233,
    "hedge": [
     {
      "ticker": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS-DREGUZ",
      "limit": "0.6400"
-    }
-   ]
-  },
-  {
-   "event": "KXLOWTPHX-26OCT29",
-   "series": "KXLOWTPHX",
-   "title": "Lowest temperature in Phoenix on Oct 29, 2026?",
-   "ticker": "KXLOWTPHX-26OCT29-B61.5",
-   "order_id": "paper-139-1793290034",
-   "price": "0.88",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8900",
-   "multiplier": "1",
-   "placed": 1793290034.751162,
-   "hedge": [
-    {
-     "ticker": "KXLOWTPHX-26OCT29-B63.5",
-     "limit": "0.0900"
-    }
-   ]
-  },
-  {
-   "event": "KXNFLNEXTTEAM-26GWILSON5",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Garrett Wilson Next Team",
-   "ticker": "KXNFLNEXTTEAM-26GWILSON5-LA",
-   "order_id": "paper-141-1793290333",
-   "price": "0.1000",
-   "sets": 2,
-   "done": 0,
-   "reserve": "4.3900",
-   "multiplier": "1",
-   "placed": 1793290333.9907866,
-   "hedge": [
-    {
-     "ticker": "KXNFLNEXTTEAM-26GWILSON5-LAC",
-     "limit": "0.9700"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26GWILSON5-NYJ",
-     "limit": "0.2600"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26GWILSON5-SF",
-     "limit": "0.8400"
-    }
-   ]
-  },
-  {
-   "event": "KXITFDOUBLES-26OCT28BILWRIDEGSIM",
-   "series": "KXITFDOUBLES",
-   "title": "Bilicic / Wriedt vs Degroot / Simons",
-   "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI",
-   "order_id": "paper-142-1793290636",
-   "price": "0.4600",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.4200",
-   "multiplier": "1",
-   "placed": 1793290636.881851,
-   "hedge": [
-    {
-     "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-DEGSIM",
-     "limit": "0.4000"
     }
    ]
   }

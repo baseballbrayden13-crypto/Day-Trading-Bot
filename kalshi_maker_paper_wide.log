@@ -808,3 +808,17 @@
 2026-10-29 12:17:16,881 INFO Resting NO bid on KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI at $0.4600 x5 (KXITFDOUBLES-26OCT28BILWRIDEGSIM): locks in $0.58 if it fills; hedge NO DEGSIM@0.4000
 2026-10-29 12:17:16,883 INFO Swept 15610 events: 0 taker trades, 1 new quotes, 5 resting
 2026-10-29 12:18:44,735 INFO Quote KXNEXTTEAMNHL-26ATUCH89 cancelled (0/2 filled)
+2026-10-29 12:22:17,435 INFO Swept 15606 events: 0 taker trades, 0 new quotes, 4 resting
+2026-10-29 12:27:22,166 INFO PAPER rest NO bid KXITFWDOUBLES-26OCT29DREGUZKUPPAS-KUPPAS at $0.2300 x1 (0 already bid at that price)
+2026-10-29 12:27:22,166 INFO Resting NO bid on KXITFWDOUBLES-26OCT29DREGUZKUPPAS-KUPPAS at $0.2300 x1 (KXITFWDOUBLES-26OCT29DREGUZKUPPAS): locks in $0.10 if it fills; hedge NO DREGUZ@0.6400
+2026-10-29 12:27:22,192 INFO PAPER rest NO bid KXNEXTTEAMNHL-26ATUCH89-ANA at $0.5000 x2 (0 already bid at that price)
+2026-10-29 12:27:22,193 INFO Resting NO bid on KXNEXTTEAMNHL-26ATUCH89-ANA at $0.5000 x2 (KXNEXTTEAMNHL-26ATUCH89): locks in $0.14 if it fills; hedge NO COL@0.9800, WSH@0.4200
+2026-10-29 12:27:22,195 INFO Swept 15606 events: 0 taker trades, 2 new quotes, 5 resting
+2026-10-29 12:32:21,449 INFO Swept 15599 events: 0 taker trades, 0 new quotes, 5 resting
+2026-10-29 12:37:27,467 INFO Swept 15622 events: 0 taker trades, 0 new quotes, 5 resting
+2026-10-29 12:42:29,845 INFO PAPER rest NO bid KXCOPADELREYADVANCE-26OCT29SPOSEV-SEV at $0.0300 x5 (143 already bid at that price)
+2026-10-29 12:42:29,845 INFO Resting NO bid on KXCOPADELREYADVANCE-26OCT29SPOSEV-SEV at $0.03 x5 (KXCOPADELREYADVANCE-26OCT29SPOSEV): locks in $0.12 if it fills; hedge NO SPO@0.9400
+2026-10-29 12:42:29,847 INFO Swept 15611 events: 0 taker trades, 1 new quotes, 5 resting
+2026-10-29 12:47:33,267 INFO Swept 15615 events: 0 taker trades, 0 new quotes, 4 resting
+2026-10-29 12:47:33,534 INFO Quote KXCOPADELREYADVANCE-26OCT29SPOSEV cancelled (0/5 filled)
+2026-10-29 12:48:50,656 INFO Quote KXNEXTTEAMNHL-26ATUCH89 cancelled (0/2 filled)

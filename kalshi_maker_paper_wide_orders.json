@@ -1924,12 +1924,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793289124.5697575,
-  "checked": 1793290762.23936,
+  "checked": 1793290924,
   "expires": 1793290924,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-139-1793290034": {
   "id": "paper-139-1793290034",
@@ -1938,12 +1938,12 @@
   "count": 5,
   "ahead": 3,
   "placed": 1793290034.6888235,
-  "checked": 1793290762.3361897,
+  "checked": 1793291834,
   "expires": 1793291834,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-140-1793290333": {
   "id": "paper-140-1793290333",
@@ -1966,12 +1966,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793290333.9890428,
-  "checked": 1793290762.432905,
+  "checked": 1793292133,
   "expires": 1793292133,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-142-1793290636": {
   "id": "paper-142-1793290636",
@@ -1980,11 +1980,53 @@
   "count": 5,
   "ahead": 0,
   "placed": 1793290636.8797717,
-  "checked": 1793290762.5300148,
+  "checked": 1793292436,
   "expires": 1793292436,
   "through": 0,
   "at_price": 0,
   "filled": 0,
+  "status": "canceled"
+ },
+ "paper-143-1793291242": {
+  "id": "paper-143-1793291242",
+  "ticker": "KXITFWDOUBLES-26OCT29DREGUZKUPPAS-KUPPAS",
+  "price": "0.2300",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793291242.164312,
+  "checked": 1793292566.0526314,
+  "expires": 1793293042,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
   "status": "resting"
+ },
+ "paper-144-1793291242": {
+  "id": "paper-144-1793291242",
+  "ticker": "KXNEXTTEAMNHL-26ATUCH89-ANA",
+  "price": "0.5000",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793291242.1913197,
+  "checked": 1793292530.5265062,
+  "expires": 1793293042,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-145-1793292149": {
+  "id": "paper-145-1793292149",
+  "ticker": "KXCOPADELREYADVANCE-26OCT29SPOSEV-SEV",
+  "price": "0.0300",
+  "count": 5,
+  "ahead": 143,
+  "placed": 1793292149.843484,
+  "checked": 1793292453.4981263,
+  "expires": 1793293949,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
