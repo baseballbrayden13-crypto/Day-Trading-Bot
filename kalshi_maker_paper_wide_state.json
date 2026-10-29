@@ -48,6 +48,30 @@
      "limit": "0.8500"
     }
    ]
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT290026GAVIKYLE",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Denver Nuggets (Gavi) vs Dallas Mavericks (Kyle)",
+   "sets": 5,
+   "outlay": "4.5000",
+   "locked_profit": "0.5000",
+   "opened": "2026-10-29T04:37:22.009023+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT290026GAVIKYLE-KYLE",
+     "side": "no",
+     "count": 5,
+     "limit": "0.8000"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT290026GAVIKYLE-GAVI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.0900"
+    }
+   ]
   }
  ],
  "closed": [
@@ -200,37 +224,5 @@
    "closed": "2026-10-29T03:45:09.880306+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXBILLBOARDRUNNERUPALBUM-26NOV07",
-   "series": "KXBILLBOARDRUNNERUPALBUM",
-   "title": "#2 on the Billboard 200 chart for the Week of Nov 7, 2026?",
-   "ticker": "KXBILLBOARDRUNNERUPALBUM-26NOV07-MUS",
-   "order_id": "paper-53-1793245828",
-   "price": "0.1300",
-   "sets": 1,
-   "done": 0,
-   "reserve": "3.8500",
-   "multiplier": "1",
-   "placed": 1793245828.6076734,
-   "hedge": [
-    {
-     "ticker": "KXBILLBOARDRUNNERUPALBUM-26NOV07-DAM",
-     "limit": "0.9400"
-    },
-    {
-     "ticker": "KXBILLBOARDRUNNERUPALBUM-26NOV07-DAN",
-     "limit": "0.9500"
-    },
-    {
-     "ticker": "KXBILLBOARDRUNNERUPALBUM-26NOV07-THE",
-     "limit": "0.9500"
-    },
-    {
-     "ticker": "KXBILLBOARDRUNNERUPALBUM-26NOV07-YOU",
-     "limit": "0.8400"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

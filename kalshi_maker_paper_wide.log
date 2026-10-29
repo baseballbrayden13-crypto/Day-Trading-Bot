@@ -409,3 +409,23 @@
 2026-10-29 00:05:38,546 INFO Swept 15394 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-29 00:10:38,247 INFO Swept 15396 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-29 00:15:44,107 INFO Swept 15390 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 00:20:43,657 INFO Swept 15389 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 00:25:43,990 INFO PAPER rest NO bid KXUFCFIGHT-26OCT31BEKPET-PET at $0.6200 x5 (1 already bid at that price)
+2026-10-29 00:25:43,990 INFO Resting NO bid on KXUFCFIGHT-26OCT31BEKPET-PET at $0.62 x5 (KXUFCFIGHT-26OCT31BEKPET): locks in $0.14 if it fills; hedge NO BEK@0.3300
+2026-10-29 00:25:44,053 INFO PAPER rest NO bid KXMLS2H-26OCT28VANSD-TIE at $0.3600 x7 (0 already bid at that price)
+2026-10-29 00:25:44,053 INFO Resting NO bid on KXMLS2H-26OCT28VANSD-TIE at $0.3600 x7 (KXMLS2H-26OCT28VANSD): locks in $2.15 if it fills; hedge NO VAN@0.3400
+2026-10-29 00:25:44,055 INFO Swept 15387 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-29 00:30:49,384 INFO Swept 15384 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 00:32:24,338 INFO Quote KXMLS2H-26OCT28VANSD cancelled (0/7 filled)
+2026-10-29 00:35:52,364 INFO PAPER rest NO bid KXEBASKETBALLGAME-26OCT290026GAVIKYLE-KYLE at $0.8000 x5 (0 already bid at that price)
+2026-10-29 00:35:52,364 INFO Resting NO bid on KXEBASKETBALLGAME-26OCT290026GAVIKYLE-KYLE at $0.8000 x5 (KXEBASKETBALLGAME-26OCT290026GAVIKYLE): locks in $0.50 if it fills; hedge NO GAVI@0.0900
+2026-10-29 00:35:52,366 INFO Swept 15383 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 00:37:21,945 INFO PAPER KXEBASKETBALLGAME-26OCT290026GAVIKYLE-KYLE NO bid at $0.8000: 5/5 filled by real trades
+2026-10-29 00:37:22,008 INFO PAPER buy 5 NO KXEBASKETBALLGAME-26OCT290026GAVIKYLE-GAVI at up to $0.0900: filled 5
+2026-10-29 00:37:22,009 INFO Quote KXEBASKETBALLGAME-26OCT290026GAVIKYLE filled 5: hedged, locks in $0.50
+2026-10-29 00:40:54,181 INFO Swept 15359 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 00:40:54,361 INFO Quote KXUFCFIGHT-26OCT31BEKPET cancelled (0/5 filled)
+2026-10-29 00:45:59,514 INFO PAPER rest NO bid KXUFCFIGHT-26OCT31BEKPET-PET at $0.6200 x5 (4 already bid at that price)
+2026-10-29 00:45:59,514 INFO Resting NO bid on KXUFCFIGHT-26OCT31BEKPET-PET at $0.62 x5 (KXUFCFIGHT-26OCT31BEKPET): locks in $0.14 if it fills; hedge NO BEK@0.3300
+2026-10-29 00:45:59,516 INFO Swept 15342 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 00:46:15,070 INFO Quote KXUFCFIGHT-26OCT31BEKPET cancelled (0/5 filled)
