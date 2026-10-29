@@ -275,3 +275,15 @@
 2026-10-28 19:55:43,369 INFO Resting NO bid on KXLOLFBLOOD-26OCT281900LYIG-3-LY at $0.5500 x5 (KXLOLFBLOOD-26OCT281900LYIG-3): locks in $0.13 if it fills; hedge NO IG@0.4000
 2026-10-28 19:55:43,370 INFO Swept 15672 events: 0 taker trades, 1 new quotes, 1 resting
 2026-10-28 20:00:44,810 INFO Swept 15674 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 20:05:51,098 INFO Swept 15689 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 20:10:50,725 INFO Swept 15729 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 20:15:54,684 INFO PAPER rest NO bid KXNBARACE-26OCT28GSWMIN-10-GSW at $0.8000 x6 (0 already bid at that price)
+2026-10-28 20:15:54,684 INFO Resting NO bid on KXNBARACE-26OCT28GSWMIN-10-GSW at $0.8000 x6 (KXNBARACE-26OCT28GSWMIN-10): locks in $1.11 if it fills; hedge NO MIN@0.0100
+2026-10-28 20:15:54,685 INFO Swept 15796 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-28 20:16:47,310 INFO Quote KXLOLFBLOOD-26OCT281900LYIG-3 cancelled (0/5 filled)
+2026-10-28 20:20:55,863 INFO Swept 15822 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 20:25:59,770 INFO Swept 15825 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-28 20:25:59,949 INFO Quote KXNBARACE-26OCT28GSWMIN-10 cancelled (0/6 filled)
+2026-10-28 20:31:06,961 INFO PAPER rest NO bid KXBRASILEIROSCORE-26OCT28FLUINT-FLU0INT1 at $0.0100 x20 (0 already bid at that price)
+2026-10-28 20:31:06,961 INFO Resting NO bid on KXBRASILEIROSCORE-26OCT28FLUINT-FLU0INT1 at $0.01 x20 (KXBRASILEIROSCORE-26OCT28FLUINT): locks in $15.15 if it fills; hedge NO FLU2INT1@0.2200
+2026-10-28 20:31:06,962 INFO Swept 15829 events: 0 taker trades, 1 new quotes, 1 resting

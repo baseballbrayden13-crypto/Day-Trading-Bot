@@ -148,21 +148,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLOLFBLOOD-26OCT281900LYIG-3",
-   "series": "KXLOLFBLOOD",
-   "title": "LYON vs. Invictus Gaming: Game 3 First Blood",
-   "ticker": "KXLOLFBLOOD-26OCT281900LYIG-3-LY",
-   "order_id": "paper-29-1793231743",
-   "price": "0.5500",
-   "sets": 5,
+   "event": "KXBRASILEIROSCORE-26OCT28FLUINT",
+   "series": "KXBRASILEIROSCORE",
+   "title": "Fluminense FC RJ vs SC Internacional RS: Correct Score",
+   "ticker": "KXBRASILEIROSCORE-26OCT28FLUINT-FLU0INT1",
+   "order_id": "paper-31-1793233866",
+   "price": "0.01",
+   "sets": 20,
    "done": 0,
-   "reserve": "4.8700",
+   "reserve": "4.8500",
    "multiplier": "1",
-   "placed": 1793231743.3690042,
+   "placed": 1793233866.9614358,
    "hedge": [
     {
-     "ticker": "KXLOLFBLOOD-26OCT281900LYIG-3-IG",
-     "limit": "0.4000"
+     "ticker": "KXBRASILEIROSCORE-26OCT28FLUINT-FLU2INT1",
+     "limit": "0.2200"
     }
    ]
   }
