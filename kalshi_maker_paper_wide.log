@@ -266,3 +266,12 @@
 2026-10-28 19:25:34,746 INFO Swept 15602 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-28 19:30:15,860 INFO Settled KXNBARACE-26OCT28PHIIND-10: paid $2, profit $0.05
 2026-10-28 19:30:35,328 INFO Swept 15615 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 19:35:17,519 INFO Settled KXLOLFBLOOD-26OCT281900LYIG-2 (stray): paid $0, profit $-2.03
+2026-10-28 19:35:38,087 INFO Swept 15630 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 19:40:40,145 INFO Swept 15651 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 19:45:40,484 INFO Swept 15648 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 19:50:42,734 INFO Swept 15662 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-28 19:55:43,368 INFO PAPER rest NO bid KXLOLFBLOOD-26OCT281900LYIG-3-LY at $0.5500 x5 (0 already bid at that price)
+2026-10-28 19:55:43,369 INFO Resting NO bid on KXLOLFBLOOD-26OCT281900LYIG-3-LY at $0.5500 x5 (KXLOLFBLOOD-26OCT281900LYIG-3): locks in $0.13 if it fills; hedge NO IG@0.4000
+2026-10-28 19:55:43,370 INFO Swept 15672 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-28 20:00:44,810 INFO Swept 15674 events: 0 taker trades, 0 new quotes, 1 resting
