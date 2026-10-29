@@ -24,6 +24,54 @@
      "limit": "0.5700"
     }
    ]
+  },
+  {
+   "event": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB",
+   "series": "KXATPCHALLENGERDOUBLES",
+   "title": "Bagnis / Gomez vs Magadan / Zeballos",
+   "sets": 1,
+   "outlay": "0.8700",
+   "locked_profit": "0.1300",
+   "opened": "2026-10-29T21:22:19.586352+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB-MAGZEB",
+     "side": "no",
+     "count": 1,
+     "limit": "0.2100"
+    },
+    {
+     "ticker": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB-BAGGOM",
+     "side": "no",
+     "count": 1,
+     "limit": "0.6300"
+    }
+   ]
+  },
+  {
+   "event": "KXKNVBCUPADVANCE-26OCT29GROEMM",
+   "series": "KXKNVBCUPADVANCE",
+   "title": "Groningen vs Emmen",
+   "sets": 5,
+   "outlay": "4.8800",
+   "locked_profit": "0.1200",
+   "opened": "2026-10-29T21:28:08.111682+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXKNVBCUPADVANCE-26OCT29GROEMM-EMM",
+     "side": "no",
+     "count": 5,
+     "limit": "0.16"
+    },
+    {
+     "ticker": "KXKNVBCUPADVANCE-26OCT29GROEMM-GRO",
+     "side": "no",
+     "count": 5,
+     "limit": "0.8000"
+    }
+   ]
   }
  ],
  "closed": [
@@ -434,40 +482,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLOLFDRAGON-26OCT291900CFOKC-2",
-   "series": "KXLOLFDRAGON",
-   "title": "CTBC Flying Oyster vs. Karmine Corp: Game 2 First Dragon",
-   "ticker": "KXLOLFDRAGON-26OCT291900CFOKC-2-NEITHER",
-   "order_id": "paper-189-1793308037",
-   "price": "0.2400",
-   "sets": 19,
+   "event": "KXCOPADELREYADVANCE-26OCT28GTOOUR",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "Torrelavega vs Ourense",
+   "ticker": "KXCOPADELREYADVANCE-26OCT28GTOOUR-OUR",
+   "order_id": "paper-192-1793309240",
+   "price": "0.3500",
+   "sets": 6,
    "done": 0,
-   "reserve": "4.8400",
+   "reserve": "4.4500",
    "multiplier": "1",
-   "placed": 1793308037.2595258,
+   "placed": 1793309241.0013466,
    "hedge": [
     {
-     "ticker": "KXLOLFDRAGON-26OCT291900CFOKC-2-CFO",
-     "limit": "0.0100"
-    }
-   ]
-  },
-  {
-   "event": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB",
-   "series": "KXATPCHALLENGERDOUBLES",
-   "title": "Bagnis / Gomez vs Magadan / Zeballos",
-   "ticker": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB-MAGZEB",
-   "order_id": "paper-190-1793308336",
-   "price": "0.2100",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8700",
-   "multiplier": "1",
-   "placed": 1793308336.9434662,
-   "hedge": [
-    {
-     "ticker": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB-BAGGOM",
-     "limit": "0.6300"
+     "ticker": "KXCOPADELREYADVANCE-26OCT28GTOOUR-GTO",
+     "limit": "0.4500"
     }
    ]
   }
