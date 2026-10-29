@@ -48,6 +48,30 @@
      "limit": "0.6300"
     }
    ]
+  },
+  {
+   "event": "KXITFDOUBLES-26OCT28BILWRIDEGSIM",
+   "series": "KXITFDOUBLES",
+   "title": "Bilicic / Wriedt vs Degroot / Simons",
+   "sets": 5,
+   "outlay": "4.8600",
+   "locked_profit": "0.1400",
+   "opened": "2026-10-29T23:09:46.564303+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.12"
+    },
+    {
+     "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-DEGSIM",
+     "side": "no",
+     "count": 5,
+     "limit": "0.8400"
+    }
+   ]
   }
  ],
  "closed": [
@@ -512,48 +536,21 @@
  ],
  "quotes": [
   {
-   "event": "KXITFDOUBLES-26OCT28BILWRIDEGSIM",
-   "series": "KXITFDOUBLES",
-   "title": "Bilicic / Wriedt vs Degroot / Simons",
-   "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI",
-   "order_id": "paper-194-1793312875",
-   "price": "0.12",
+   "event": "KXNCAAHGAME-26OCT29LIUWMU",
+   "series": "KXNCAAHGAME",
+   "title": "LIU vs Western Michigan",
+   "ticker": "KXNCAAHGAME-26OCT29LIUWMU-LIU",
+   "order_id": "paper-197-1793315591",
+   "price": "0.90",
    "sets": 5,
    "done": 0,
-   "reserve": "4.8600",
+   "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793312875.338499,
+   "placed": 1793315591.8492723,
    "hedge": [
     {
-     "ticker": "KXITFDOUBLES-26OCT28BILWRIDEGSIM-DEGSIM",
-     "limit": "0.8400"
-    }
-   ]
-  },
-  {
-   "event": "KXMIBENSONELSAYED-26DEC01",
-   "series": "KXMIBENSONELSAYED",
-   "title": "Michigan: Benson's margin vs. El-Sayed's margin?",
-   "ticker": "KXMIBENSONELSAYED-26DEC01-R9",
-   "order_id": "paper-195-1793313173",
-   "price": "0.13",
-   "sets": 1,
-   "done": 0,
-   "reserve": "2.9000",
-   "multiplier": "1",
-   "placed": 1793313173.890657,
-   "hedge": [
-    {
-     "ticker": "KXMIBENSONELSAYED-26DEC01-R6",
-     "limit": "0.9700"
-    },
-    {
-     "ticker": "KXMIBENSONELSAYED-26DEC01-R3",
-     "limit": "0.7900"
-    },
-    {
-     "ticker": "KXMIBENSONELSAYED-26DEC01-R0",
-     "limit": "0.9600"
+     "ticker": "KXNCAAHGAME-26OCT29LIUWMU-WMU",
+     "limit": "0.0700"
     }
    ]
   }

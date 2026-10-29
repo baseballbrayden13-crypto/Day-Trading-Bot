@@ -1048,3 +1048,16 @@
 2026-10-29 18:32:53,893 INFO Swept 16210 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-29 18:37:54,657 INFO Swept 16211 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-29 18:42:56,230 INFO Swept 16204 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 18:48:00,259 INFO Swept 16204 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 18:53:03,978 INFO Swept 16203 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 18:58:07,978 INFO Swept 16196 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 19:03:05,591 INFO Swept 16194 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 19:08:10,193 INFO PAPER rest NO bid KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI at $0.1200 x5 (3 already bid at that price)
+2026-10-29 19:08:10,193 INFO Resting NO bid on KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI at $0.12 x5 (KXITFDOUBLES-26OCT28BILWRIDEGSIM): locks in $0.14 if it fills; hedge NO DEGSIM@0.8400
+2026-10-29 19:08:10,195 INFO Swept 16194 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 19:09:46,530 INFO PAPER KXITFDOUBLES-26OCT28BILWRIDEGSIM-BILWRI NO bid at $0.1200: 5/5 filled by real trades
+2026-10-29 19:09:46,564 INFO PAPER buy 5 NO KXITFDOUBLES-26OCT28BILWRIDEGSIM-DEGSIM at up to $0.8400: filled 5
+2026-10-29 19:09:46,564 INFO Quote KXITFDOUBLES-26OCT28BILWRIDEGSIM filled 5: hedged, locks in $0.14
+2026-10-29 19:13:11,849 INFO PAPER rest NO bid KXNCAAHGAME-26OCT29LIUWMU-LIU at $0.9000 x5 (6 already bid at that price)
+2026-10-29 19:13:11,849 INFO Resting NO bid on KXNCAAHGAME-26OCT29LIUWMU-LIU at $0.90 x5 (KXNCAAHGAME-26OCT29LIUWMU): locks in $0.11 if it fills; hedge NO WMU@0.0700
+2026-10-29 19:13:11,851 INFO Swept 16228 events: 0 taker trades, 1 new quotes, 1 resting
