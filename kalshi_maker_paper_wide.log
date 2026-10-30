@@ -1231,3 +1231,16 @@
 2026-10-30 02:29:15,046 INFO Resting NO bid on KXITFWDOUBLES-26OCT29ELJFROLINURH-LINURH at $0.23 x1 (KXITFWDOUBLES-26OCT29ELJFROLINURH): locks in $0.10 if it fills; hedge NO ELJFRO@0.6400
 2026-10-30 02:29:15,048 INFO Swept 16301 events: 0 taker trades, 1 new quotes, 1 resting
 2026-10-30 02:29:20,140 INFO Stopped; all quotes cancelled.
+2026-10-30 02:45:46,946 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-10-30 02:47:35,337 INFO PAPER rest NO bid KXLOWTMIN-26OCT30-B39.5 at $0.3200 x1 (0 already bid at that price)
+2026-10-30 02:47:35,337 INFO Resting NO bid on KXLOWTMIN-26OCT30-B39.5 at $0.3200 x1 (KXLOWTMIN-26OCT30): locks in $0.15 if it fills; hedge NO B35.5@0.9600, B37.5@0.9300, T40@0.5900
+2026-10-30 02:47:35,339 INFO Swept 16315 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 02:52:41,224 INFO Swept 16312 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 02:52:41,427 INFO Quote KXLOWTMIN-26OCT30 cancelled (0/1 filled)
+2026-10-30 02:57:41,863 INFO Swept 16311 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 03:02:38,605 INFO PAPER rest NO bid KXEBASKETBALLGAME-26OCT300252DIRKMELO-DIRK at $0.4800 x9 (0 already bid at that price)
+2026-10-30 03:02:38,605 INFO Resting NO bid on KXEBASKETBALLGAME-26OCT300252DIRKMELO-DIRK at $0.4800 x9 (KXEBASKETBALLGAME-26OCT300252DIRKMELO): locks in $4.16 if it fills; hedge NO MELO@0.0500
+2026-10-30 03:02:38,607 INFO Swept 16312 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 03:07:42,378 INFO Swept 16324 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 03:08:03,076 INFO Quote KXEBASKETBALLGAME-26OCT300252DIRKMELO cancelled (0/9 filled)
+2026-10-30 03:12:46,668 INFO Swept 16335 events: 0 taker trades, 0 new quotes, 0 resting
