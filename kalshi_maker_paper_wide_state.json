@@ -762,21 +762,21 @@
  ],
  "quotes": [
   {
-   "event": "KXITFMATCH-26OCT28LIUCOL",
-   "series": "KXITFMATCH",
-   "title": "LIU vs Colby",
-   "ticker": "KXITFMATCH-26OCT28LIUCOL-LIU",
-   "order_id": "paper-249-1793368339",
-   "price": "0.08",
-   "sets": 5,
+   "event": "KXITFWDOUBLES-26OCT30DARROUARSLAC",
+   "series": "KXITFWDOUBLES",
+   "title": "Dartron / Rouvroy vs Arseneault / Lacasse",
+   "ticker": "KXITFWDOUBLES-26OCT30DARROUARSLAC-DARROU",
+   "order_id": "paper-251-1793370162",
+   "price": "0.32",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.9000",
+   "reserve": "3.9000",
    "multiplier": "1",
-   "placed": 1793368339.4941094,
+   "placed": 1793370162.5595188,
    "hedge": [
     {
-     "ticker": "KXITFMATCH-26OCT28LIUCOL-COL",
-     "limit": "0.8900"
+     "ticker": "KXITFWDOUBLES-26OCT30DARROUARSLAC-ARSLAC",
+     "limit": "0.6400"
     }
    ]
   }

@@ -1495,3 +1495,12 @@
 2026-10-30 10:03:00,348 INFO Quote KXWTADOUBLES-26OCT30KUDTIMTJEWIL cancelled (0/3 filled)
 2026-10-30 10:07:28,468 INFO Swept 16642 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 10:12:32,972 INFO Swept 16738 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 10:17:38,309 INFO Swept 16737 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 10:20:27,653 INFO Quote KXITFMATCH-26OCT28LIUCOL cancelled (0/5 filled)
+2026-10-30 10:22:42,559 INFO PAPER rest NO bid KXITFWDOUBLES-26OCT30DARROUARSLAC-DARROU at $0.3200 x4 (1 already bid at that price)
+2026-10-30 10:22:42,559 INFO Resting NO bid on KXITFWDOUBLES-26OCT30DARROUARSLAC-DARROU at $0.32 x4 (KXITFWDOUBLES-26OCT30DARROUARSLAC): locks in $0.10 if it fills; hedge NO ARSLAC@0.6400
+2026-10-30 10:22:42,561 INFO Swept 16737 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 10:27:47,009 INFO Swept 16726 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 10:32:52,435 INFO Swept 16740 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 10:37:51,765 INFO Swept 16736 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 10:42:57,324 INFO Swept 16733 events: 0 taker trades, 0 new quotes, 1 resting
