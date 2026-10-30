@@ -1645,3 +1645,17 @@
 2026-10-30 16:33:45,743 INFO Swept 17061 events: 0 taker trades, 0 new quotes, 4 resting
 2026-10-30 16:38:47,437 INFO Swept 17050 events: 0 taker trades, 0 new quotes, 4 resting
 2026-10-30 16:40:09,223 INFO Quote KXLOWTOKC-26OCT30 cancelled (0/2 filled)
+2026-10-30 16:43:51,495 INFO PAPER rest NO bid KXCS2GAME-26OCT311400FOKBAKS-BAKS at $0.1100 x1 (0 already bid at that price)
+2026-10-30 16:43:51,495 INFO Resting NO bid on KXCS2GAME-26OCT311400FOKBAKS-BAKS at $0.1100 x1 (KXCS2GAME-26OCT311400FOKBAKS): locks in $0.50 if it fills; hedge NO FOK@0.3600
+2026-10-30 16:43:51,498 INFO Swept 17102 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 16:48:55,507 INFO Swept 17104 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 16:53:59,141 INFO PAPER rest NO bid KXSLBGAME-26OCT301530MANBFL-MAN at $0.1500 x5 (0 already bid at that price)
+2026-10-30 16:53:59,141 INFO Resting NO bid on KXSLBGAME-26OCT301530MANBFL-MAN at $0.1500 x5 (KXSLBGAME-26OCT301530MANBFL): locks in $0.22 if it fills; hedge NO BFL@0.7900
+2026-10-30 16:53:59,144 INFO Swept 17089 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 16:54:04,482 INFO Quote KXSLBGAME-26OCT301530MANBFL cancelled (0/5 filled)
+2026-10-30 16:59:03,355 INFO PAPER rest NO bid KXSLBGAME-26OCT301530CHELIV-CHE at $0.0500 x3 (10 already bid at that price)
+2026-10-30 16:59:03,355 INFO Resting NO bid on KXSLBGAME-26OCT301530CHELIV-CHE at $0.05 x3 (KXSLBGAME-26OCT301530CHELIV): locks in $0.12 if it fills; hedge NO LIV@0.9000
+2026-10-30 16:59:03,358 INFO Swept 17042 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 16:59:18,821 INFO Quote KXSLBGAME-26OCT301530CHELIV cancelled (0/3 filled)
+2026-10-30 17:04:07,981 INFO Swept 16985 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 17:09:12,582 INFO Swept 16990 events: 0 taker trades, 0 new quotes, 1 resting

@@ -792,21 +792,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAWVMATCH-26NOV011400UCFARIZ",
-   "series": "KXNCAAWVMATCH",
-   "title": "Central Florida vs Arizona",
-   "ticker": "KXNCAAWVMATCH-26NOV011400UCFARIZ-UCF",
-   "order_id": "paper-275-1793392119",
-   "price": "0.1400",
+   "event": "KXCS2GAME-26OCT311400FOKBAKS",
+   "series": "KXCS2GAME",
+   "title": "FOKUS vs. BakS eSports",
+   "ticker": "KXCS2GAME-26OCT311400FOKBAKS-BAKS",
+   "order_id": "paper-276-1793393031",
+   "price": "0.1100",
    "sets": 1,
    "done": 0,
-   "reserve": "0.7500",
+   "reserve": "0.5000",
    "multiplier": "1",
-   "placed": 1793392119.1017675,
+   "placed": 1793393031.49528,
    "hedge": [
     {
-     "ticker": "KXNCAAWVMATCH-26NOV011400UCFARIZ-ARIZ",
-     "limit": "0.5800"
+     "ticker": "KXCS2GAME-26OCT311400FOKBAKS-FOK",
+     "limit": "0.3600"
     }
    ]
   }
