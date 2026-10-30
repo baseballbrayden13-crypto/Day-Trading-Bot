@@ -1713,3 +1713,11 @@
 2026-10-30 19:10:24,827 INFO PAPER rest NO bid KXNFLNEXTTEAM-26GWILSON5-SF at $0.7800 x2 (0 already bid at that price)
 2026-10-30 19:10:24,827 INFO Resting NO bid on KXNFLNEXTTEAM-26GWILSON5-SF at $0.7800 x2 (KXNFLNEXTTEAM-26GWILSON5): locks in $0.13 if it fills; hedge NO KC@0.9500, NYJ@0.1800
 2026-10-30 19:10:24,830 INFO Swept 17007 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 19:15:31,082 INFO PAPER rest NO bid KXNCAAWVMATCH-26NOV011400UCFARIZ-UCF at $0.1200 x1 (0 already bid at that price)
+2026-10-30 19:15:31,082 INFO Resting NO bid on KXNCAAWVMATCH-26NOV011400UCFARIZ-UCF at $0.1200 x1 (KXNCAAWVMATCH-26NOV011400UCFARIZ): locks in $0.33 if it fills; hedge NO ARIZ@0.5200
+2026-10-30 19:15:31,085 INFO Swept 17007 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 19:20:31,936 INFO Swept 17005 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-30 19:20:52,744 INFO Quote KXNCAAWVMATCH-26NOV011400UCFARIZ cancelled (0/1 filled)
+2026-10-30 19:25:37,310 INFO Swept 17000 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 19:30:41,634 INFO Swept 17000 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 19:35:45,956 INFO Swept 16991 events: 0 taker trades, 0 new quotes, 2 resting
