@@ -1,5 +1,5 @@
 {
- "taken": "2026-10-29T01:23:38+00:00",
+ "taken": "2026-10-30T01:26:58+00:00",
  "bots": {
   "1": {
    "name": "ORB day trader",
@@ -8,9 +8,9 @@
    "errors": [],
    "account": {
     "account": "QIE2",
-    "equity": 5002.8,
+    "equity": 4998.02,
     "last_equity": 5002.8,
-    "cash": 5002.8,
+    "cash": 4998.02,
     "status": "ACTIVE",
     "trading_blocked": false,
     "account_blocked": false
@@ -34,13 +34,45 @@
      "price": 347.0,
      "type": "market",
      "order_id": "cd3bf48c-d9de-407e-9967-4f47335977ac"
+    },
+    {
+     "time": "2026-10-29T14:05:09.893542+00:00",
+     "symbol": "SPY",
+     "side": "buy",
+     "qty": 1.0,
+     "price": 769.84,
+     "type": "market",
+     "order_id": "a597dad4-f007-499b-a2e5-c93d40df1c01"
+    },
+    {
+     "time": "2026-10-29T14:35:09.309131+00:00",
+     "symbol": "QQQ",
+     "side": "buy",
+     "qty": 1.0,
+     "price": 716.8,
+     "type": "market",
+     "order_id": "796a4d20-0c34-46d3-9fce-235320cf2249"
+    },
+    {
+     "time": "2026-10-29T17:47:31.256154+00:00",
+     "symbol": "SPY",
+     "side": "sell",
+     "qty": 1.0,
+     "price": 767.26,
+     "type": "stop",
+     "order_id": "33181ee1-0b5a-4b26-984f-23486564329d"
+    },
+    {
+     "time": "2026-10-29T19:55:16.473022+00:00",
+     "symbol": "QQQ",
+     "side": "sell",
+     "qty": 1.0,
+     "price": 714.6,
+     "type": "market",
+     "order_id": "6a2e04da-e65a-41a1-9e21-bc690d9e9c32"
     }
    ],
    "equity_history": [
-    {
-     "day": "2026-09-28",
-     "equity": 0.0
-    },
     {
      "day": "2026-09-29",
      "equity": 0.0
@@ -124,26 +156,32 @@
     {
      "day": "2026-10-27",
      "equity": 5002.8
+    },
+    {
+     "day": "2026-10-28",
+     "equity": 5002.8
     }
    ],
    "log": {
     "exists": true,
-    "modified": "2026-10-28T16:05:05-04:00",
-    "last_line_time": "2026-10-28T16:05:05",
+    "modified": "2026-10-29T16:05:05-04:00",
+    "last_line_time": "2026-10-29T16:05:05",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-10-28 10:29:55,822 INFO New day 2026-10-28, starting equity $5002.80",
-     "2026-10-28 13:22:16,905 INFO Connected to Alpaca PAPER account",
-     "2026-10-28 13:22:17,124 INFO Picked up today's counters: start equity $5002.80, 0 trades",
-     "2026-10-28 13:22:17,124 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.",
-     "2026-10-28 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca."
+     "2026-10-29 13:23:37,984 INFO Picked up today's counters: start equity $5002.80, 2 trades",
+     "2026-10-29 13:23:37,984 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.",
+     "2026-10-29 15:50:05,321 INFO Flattening all positions: end of day",
+     "2026-10-29 15:55:05,130 INFO Flattening all positions: end of day",
+     "2026-10-29 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca."
     ],
     "live_warning": false
    },
    "fills": {
-    "entries": 0
+    "entries": 2,
+    "fills": 3,
+    "avg_bps": 0.6
    }
   },
   "2": {
@@ -153,8 +191,8 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 5028.52,
-    "last_equity": 4997.94,
+    "equity": 5034.5,
+    "last_equity": 5020.4,
     "cash": 300.57,
     "status": "ACTIVE",
     "trading_blocked": false,
@@ -165,22 +203,22 @@
      "symbol": "XLE",
      "qty": 23.0,
      "avg_entry": 69.180435,
-     "market_value": 1584.01,
-     "unrealized_pl": -7.140005
+     "market_value": 1594.82,
+     "unrealized_pl": 3.669995
     },
     {
      "symbol": "XLK",
      "qty": 8.0,
      "avg_entry": 187.56,
-     "market_value": 1512.24,
-     "unrealized_pl": 11.76
+     "market_value": 1465.2,
+     "unrealized_pl": -35.28
     },
     {
      "symbol": "XLV",
      "qty": 9.0,
      "avg_entry": 178.643333,
-     "market_value": 1631.7,
-     "unrealized_pl": 23.910003
+     "market_value": 1673.91,
+     "unrealized_pl": 66.120003
     }
    ],
    "orders": [
@@ -213,10 +251,6 @@
     }
    ],
    "equity_history": [
-    {
-     "day": "2026-09-28",
-     "equity": 0.0
-    },
     {
      "day": "2026-09-29",
      "equity": 0.0
@@ -300,20 +334,25 @@
     {
      "day": "2026-10-27",
      "equity": 4997.94
+    },
+    {
+     "day": "2026-10-28",
+     "equity": 5020.4
     }
    ],
    "log": {
     "exists": true,
-    "modified": "2026-10-28T11:36:18-04:00",
-    "last_line_time": "2026-10-28T11:36:18",
+    "modified": "2026-10-29T11:37:45-04:00",
+    "last_line_time": "2026-10-29T11:37:45",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-10-28 10:38:00,022 INFO Connected to Alpaca PAPER account",
-     "2026-10-28 10:38:00,679 INFO Already rebalanced in October; nothing to do.",
-     "2026-10-28 11:36:18,375 INFO Connected to Alpaca PAPER account",
-     "2026-10-28 11:36:18,671 INFO Already rebalanced in October; nothing to do."
+     "2026-10-28 11:36:18,671 INFO Already rebalanced in October; nothing to do.",
+     "2026-10-29 10:39:25,374 INFO Connected to Alpaca PAPER account",
+     "2026-10-29 10:39:25,764 INFO Already rebalanced in October; nothing to do.",
+     "2026-10-29 11:37:44,785 INFO Connected to Alpaca PAPER account",
+     "2026-10-29 11:37:45,205 INFO Already rebalanced in October; nothing to do."
     ],
     "live_warning": false
    },
@@ -344,10 +383,6 @@
    "positions": [],
    "orders": [],
    "equity_history": [
-    {
-     "day": "2026-09-28",
-     "equity": 0.0
-    },
     {
      "day": "2026-09-29",
      "equity": 0.0
@@ -431,18 +466,24 @@
     {
      "day": "2026-10-27",
      "equity": 5000.0
+    },
+    {
+     "day": "2026-10-28",
+     "equity": 5000.0
     }
    ],
    "log": {
     "exists": true,
-    "modified": "2026-10-28T21:23:38-04:00",
-    "last_line_time": "2026-10-28T21:23:38",
+    "modified": "2026-10-29T21:26:58-04:00",
+    "last_line_time": "2026-10-29T21:26:58",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
      "2026-10-28 21:23:37,052 INFO Connected to Alpaca PAPER account",
-     "2026-10-28 21:23:38,011 INFO 2026-10-28 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
+     "2026-10-28 21:23:38,011 INFO 2026-10-28 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
+     "2026-10-29 21:26:57,696 INFO Connected to Alpaca PAPER account",
+     "2026-10-29 21:26:58,678 INFO 2026-10-29 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
     ],
     "live_warning": false
    }
@@ -455,7 +496,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-10-29T00:51:18+00:00",
+     "updated": "2026-10-30T00:54:56+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -469,7 +510,7 @@
      "stray_positions": 0,
      "closed_trades": 1,
      "trades_this_loop": 0,
-     "events_swept": 15887,
+     "events_swept": 16387,
      "found_this_loop": 0,
      "top_series": [],
      "problems": 0,
@@ -483,17 +524,17 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-10-28T20:53:22-04:00",
-     "last_line_time": "2026-10-28T20:53:22",
+     "modified": "2026-10-29T20:57:24-04:00",
+     "last_line_time": "2026-10-29T20:57:24",
      "errors": 0,
      "errors_24h": 0,
      "last_errors": [],
      "tail": [
-      "2026-10-28 20:33:10,918 INFO Swept 15829 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-10-28 20:38:12,697 INFO Swept 15859 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-10-28 20:43:13,719 INFO Swept 15896 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-10-28 20:48:18,444 INFO Swept 15892 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-10-28 20:53:22,064 INFO Swept 15887 events: 0 taker trades, 0 new quotes, 0 resting"
+      "2026-10-29 20:37:17,125 INFO Swept 16349 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-10-29 20:42:18,320 INFO Swept 16387 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-10-29 20:47:19,549 INFO Swept 16384 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-10-29 20:52:21,798 INFO Swept 16377 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-10-29 20:57:24,187 INFO Swept 16387 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -507,54 +548,49 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-10-29T01:14:14+00:00",
+     "updated": "2026-10-30T01:09:21+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
      "min_profit": "0.10",
-     "equity": "19.06",
-     "realized_profit": "-0.94",
-     "bet_level": "19.06",
-     "open_trades": 2,
-     "open_locked_profit": "0.16",
-     "in_play": "2.84",
+     "equity": "21.67",
+     "realized_profit": "1.67",
+     "bet_level": "20.00",
+     "open_trades": 3,
+     "open_locked_profit": "0.50",
+     "in_play": "10.50",
      "stray_positions": 0,
-     "closed_trades": 2,
+     "closed_trades": 14,
      "trades_this_loop": 0,
-     "events_swept": 16023,
+     "events_swept": 16405,
      "found_this_loop": 0,
      "top_series": [],
-     "problems": 5,
-     "last_problems": [
-      "2026-10-28 19:43 Quote KXKNVBCUPADVANCE-26OCT28SPAFOR: hedge missed on KXKNVBCUPADVANCE-26OCT28SPAFOR-FOR. Selling back 5 contracts on 1 legs.",
-      "2026-10-28 19:43 STRAY POSITION: 2 NO contracts of KXKNVBCUPADVANCE-26OCT28SPAFOR-SPA still held. Check it on Kalshi.",
-      "2026-10-28 22:01 Quote KXHIGHTSAN-26OCT28: hedge missed on KXHIGHTSAN-26OCT28-B75.5. Selling back 2 contracts on 1 legs.",
-      "2026-10-28 22:51 Quote KXLOLFBLOOD-26OCT281900LYIG-2: hedge missed on KXLOLFBLOOD-26OCT281900LYIG-2-LY. Selling back 5 contracts on 1 legs.",
-      "2026-10-28 22:51 STRAY POSITION: 5 NO contracts of KXLOLFBLOOD-26OCT281900LYIG-2-IG still held. Check it on Kalshi."
-     ]
+     "problems": 0,
+     "last_problems": []
     },
-    "realized": -0.94,
-    "open": 2,
-    "closed": 4,
-    "losing_trades": 1,
+    "realized": 1.67,
+    "open": 3,
+    "closed": 18,
+    "losing_trades": 2,
     "stray": 0,
-    "quotes": 0,
+    "quotes": 1,
     "log": {
      "exists": true,
-     "modified": "2026-10-28T21:16:38-04:00",
-     "last_line_time": "2026-10-28T21:16:38",
-     "errors": 2,
+     "modified": "2026-10-29T21:12:10-04:00",
+     "last_line_time": "2026-10-29T21:12:10",
+     "errors": 4,
      "errors_24h": 2,
      "last_errors": [
-      "2026-10-28 15:43:24,508 ERROR STRAY POSITION: 2 NO contracts of KXKNVBCUPADVANCE-26OCT28SPAFOR-SPA still held. Check it on Kalshi.",
-      "2026-10-28 18:51:50,980 ERROR STRAY POSITION: 5 NO contracts of KXLOLFBLOOD-26OCT281900LYIG-2-IG still held. Check it on Kalshi."
+      "2026-10-28 18:51:50,980 ERROR STRAY POSITION: 5 NO contracts of KXLOLFBLOOD-26OCT281900LYIG-2-IG still held. Check it on Kalshi.",
+      "2026-10-29 07:14:04,268 ERROR STRAY POSITION: 1 NO contracts of KXITFDOUBLES-26OCT29KHASHEHRALAK-KHASHE still held. Check it on Kalshi.",
+      "2026-10-29 11:22:06,314 ERROR STRAY POSITION: 2 NO contracts of KXSAUDIPL1H-26OCT29KHAHAZ-HAZ still held. Check it on Kalshi."
      ],
      "tail": [
-      "2026-10-28 21:13:29,546 INFO Quote KXMLS1HSCORE-26OCT28STLPOR cancelled (0/1 filled)",
-      "2026-10-28 21:16:33,522 INFO PAPER rest NO bid KXAHLGAME-26OCT281905HERROC-HER at $0.1200 x5 (92 already bid at that price)",
-      "2026-10-28 21:16:33,522 INFO Resting NO bid on KXAHLGAME-26OCT281905HERROC-HER at $0.12 x5 (KXAHLGAME-26OCT281905HERROC): locks in $0.14 if it fills; hedge NO ROC@0.8400",
-      "2026-10-28 21:16:33,524 INFO Swept 16023 events: 0 taker trades, 1 new quotes, 1 resting",
-      "2026-10-28 21:16:38,716 INFO Stopped; all quotes cancelled."
+      "2026-10-29 20:57:01,665 INFO Swept 16382 events: 0 taker trades, 1 new quotes, 2 resting",
+      "2026-10-29 21:02:01,545 INFO Swept 16375 events: 0 taker trades, 0 new quotes, 2 resting",
+      "2026-10-29 21:02:01,670 INFO Quote KXDOGE-26OCT2921 cancelled (0/12 filled)",
+      "2026-10-29 21:07:04,710 INFO Swept 16369 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-10-29 21:12:10,214 INFO Swept 16405 events: 0 taker trades, 0 new quotes, 1 resting"
      ],
      "live_warning": false
     }
@@ -566,376 +602,371 @@
  "err_logs": [],
  "clock": {
   "is_open": false,
-  "next_open": "2026-10-29T09:30:00-04:00",
-  "next_close": "2026-10-29T16:00:00-04:00",
+  "next_open": "2026-10-30T09:30:00-04:00",
+  "next_close": "2026-10-30T16:00:00-04:00",
   "trading_day": true
  },
  "market": {
   "symbols": [
    {
     "symbol": "AAPL",
-    "day": "2026-10-28",
-    "close": 344.06,
-    "chg_1d_pct": -0.88,
-    "chg_1m_pct": 4.39,
+    "day": "2026-10-29",
+    "close": 348.98,
+    "chg_1d_pct": 1.43,
+    "chg_1m_pct": 4.73,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 13.6
+    "vol_20d_pct": 13.8
    },
    {
     "symbol": "EEM",
-    "day": "2026-10-28",
-    "close": 63.53,
-    "chg_1d_pct": 1.63,
-    "chg_1m_pct": -5.74,
+    "day": "2026-10-29",
+    "close": 62.74,
+    "chg_1d_pct": -1.24,
+    "chg_1m_pct": -6.04,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 20.6
+    "vol_20d_pct": 20.9
    },
    {
     "symbol": "EFA",
-    "day": "2026-10-28",
-    "close": 103.71,
-    "chg_1d_pct": 0.14,
-    "chg_1m_pct": -0.79,
+    "day": "2026-10-29",
+    "close": 104.34,
+    "chg_1d_pct": 0.61,
+    "chg_1m_pct": 0.42,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 10.4
+    "vol_20d_pct": 9.9
    },
    {
     "symbol": "GLD",
-    "day": "2026-10-28",
-    "close": 373.52,
-    "chg_1d_pct": 0.33,
-    "chg_1m_pct": -2.46,
+    "day": "2026-10-29",
+    "close": 368.6,
+    "chg_1d_pct": -1.32,
+    "chg_1m_pct": -3.23,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 17.3
+    "vol_20d_pct": 17.7
    },
    {
     "symbol": "IWM",
-    "day": "2026-10-28",
-    "close": 281.3,
-    "chg_1d_pct": 0.4,
-    "chg_1m_pct": 0.79,
+    "day": "2026-10-29",
+    "close": 284.01,
+    "chg_1d_pct": 0.96,
+    "chg_1m_pct": 2.18,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 15.0
+    "vol_20d_pct": 15.3
    },
    {
     "symbol": "MSFT",
-    "day": "2026-10-28",
-    "close": 532.23,
-    "chg_1d_pct": 0.12,
-    "chg_1m_pct": 4.58,
+    "day": "2026-10-29",
+    "close": 530.39,
+    "chg_1d_pct": -0.35,
+    "chg_1m_pct": 3.41,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 19.1
+    "vol_20d_pct": 19.2
    },
    {
     "symbol": "NVDA",
-    "day": "2026-10-28",
-    "close": 215.34,
-    "chg_1d_pct": -1.16,
-    "chg_1m_pct": -5.23,
+    "day": "2026-10-29",
+    "close": 213.7,
+    "chg_1d_pct": -0.76,
+    "chg_1m_pct": -6.39,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 30.0
+    "vol_20d_pct": 29.6
    },
    {
     "symbol": "QQQ",
-    "day": "2026-10-28",
-    "close": 725.59,
-    "chg_1d_pct": 0.61,
-    "chg_1m_pct": -1.68,
+    "day": "2026-10-29",
+    "close": 715.42,
+    "chg_1d_pct": -1.4,
+    "chg_1m_pct": -3.26,
     "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 19.6
+    "above_50d": false,
+    "vol_20d_pct": 20.1
    },
    {
     "symbol": "SPY",
-    "day": "2026-10-28",
-    "close": 772.28,
-    "chg_1d_pct": 0.34,
-    "chg_1m_pct": 1.03,
+    "day": "2026-10-29",
+    "close": 769.49,
+    "chg_1d_pct": -0.36,
+    "chg_1m_pct": 0.94,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 10.0
+    "vol_20d_pct": 10.1
    },
    {
     "symbol": "TLT",
-    "day": "2026-10-28",
-    "close": 81.01,
-    "chg_1d_pct": -0.77,
-    "chg_1m_pct": 3.95,
+    "day": "2026-10-29",
+    "close": 81.48,
+    "chg_1d_pct": 0.58,
+    "chg_1m_pct": 5.09,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 10.7
+    "vol_20d_pct": 10.8
    },
    {
     "symbol": "XLE",
-    "day": "2026-10-28",
-    "close": 68.46,
-    "chg_1d_pct": 0.34,
-    "chg_1m_pct": 11.23,
+    "day": "2026-10-29",
+    "close": 68.715,
+    "chg_1d_pct": 0.37,
+    "chg_1m_pct": 11.77,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 21.4
+    "vol_20d_pct": 20.8
    },
    {
     "symbol": "XLF",
-    "day": "2026-10-28",
-    "close": 56.12,
-    "chg_1d_pct": 0.43,
-    "chg_1m_pct": 3.91,
+    "day": "2026-10-29",
+    "close": 56.935,
+    "chg_1d_pct": 1.45,
+    "chg_1m_pct": 6.66,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 11.4
+    "vol_20d_pct": 12.2
    },
    {
     "symbol": "XLI",
-    "day": "2026-10-28",
-    "close": 168.51,
-    "chg_1d_pct": 0.34,
-    "chg_1m_pct": -0.37,
+    "day": "2026-10-29",
+    "close": 170.11,
+    "chg_1d_pct": 0.95,
+    "chg_1m_pct": 1.9,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 14.0
+    "vol_20d_pct": 13.9
    },
    {
     "symbol": "XLK",
-    "day": "2026-10-28",
-    "close": 191.09,
-    "chg_1d_pct": 0.84,
-    "chg_1m_pct": -1.74,
+    "day": "2026-10-29",
+    "close": 188.755,
+    "chg_1d_pct": -1.22,
+    "chg_1m_pct": -3.56,
     "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 25.3
+    "above_50d": false,
+    "vol_20d_pct": 25.2
    },
    {
     "symbol": "XLP",
-    "day": "2026-10-28",
-    "close": 86.87,
-    "chg_1d_pct": -0.34,
-    "chg_1m_pct": 6.16,
+    "day": "2026-10-29",
+    "close": 88.15,
+    "chg_1d_pct": 1.47,
+    "chg_1m_pct": 9.39,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 19.1
+    "vol_20d_pct": 19.3
    },
    {
     "symbol": "XLU",
-    "day": "2026-10-28",
-    "close": 42.5,
-    "chg_1d_pct": -0.83,
-    "chg_1m_pct": 7.03,
+    "day": "2026-10-29",
+    "close": 43.145,
+    "chg_1d_pct": 1.52,
+    "chg_1m_pct": 9.42,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 16.8
+    "vol_20d_pct": 17.2
    },
    {
     "symbol": "XLV",
-    "day": "2026-10-28",
-    "close": 179.77,
-    "chg_1d_pct": 0.32,
-    "chg_1m_pct": 5.3,
+    "day": "2026-10-29",
+    "close": 184.06,
+    "chg_1d_pct": 2.39,
+    "chg_1m_pct": 9.27,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 18.2
+    "vol_20d_pct": 18.5
    },
    {
     "symbol": "XLY",
-    "day": "2026-10-28",
-    "close": 115.31,
-    "chg_1d_pct": -0.12,
-    "chg_1m_pct": 5.65,
+    "day": "2026-10-29",
+    "close": 116.18,
+    "chg_1d_pct": 0.75,
+    "chg_1m_pct": 6.72,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 14.5
    },
    {
     "symbol": "BTC/USD",
-    "day": "2026-10-28",
-    "close": 81254.0525,
-    "chg_1d_pct": 0.55,
-    "chg_1m_pct": -2.43,
+    "day": "2026-10-29",
+    "close": 77805.6655,
+    "chg_1d_pct": -4.24,
+    "chg_1m_pct": -4.76,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 20.5
+    "vol_20d_pct": 25.0
    },
    {
     "symbol": "ETH/USD",
-    "day": "2026-10-28",
-    "close": 2356.9865,
-    "chg_1d_pct": 0.41,
-    "chg_1m_pct": -8.41,
+    "day": "2026-10-29",
+    "close": 2248.9,
+    "chg_1d_pct": -4.59,
+    "chg_1m_pct": -9.03,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 25.9
+    "vol_20d_pct": 30.0
    }
   ],
   "news": [
    {
     "symbol": "SPY",
-    "time": "2026-10-28T21:20:10+00:00",
-    "headline": "On CNBC, Treasury Secretary Bessent Said Consumer Behavior Is Quite Strong, Business Behavior Is Quite Strong; In General The Trade Deals Are Pretty Locked In",
+    "time": "2026-10-29T20:30:41+00:00",
+    "headline": "Bitcoin Could Repeat Its SpaceX IPO Dump Ahead of Anthropic IPO, Analyst Warns",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-10-28T20:38:05+00:00",
-    "headline": "'Vance Reaches Out to Iranian Hard-Liner in Bid to Restart Peace Talks'- WSJ Exclusive",
+    "time": "2026-10-29T19:25:39+00:00",
+    "headline": "Polymarket Temporarily Halts Trading After Third-Party Provider Impacted",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-10-28T20:20:25+00:00",
-    "headline": "Live On CNBC, Treasury Secretary Bessent Says Operation Economic Outcast Against Iran Has Been Very Successful, Currency Has Collapsed",
+    "time": "2026-10-29T19:19:59+00:00",
+    "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-10-28T20:19:55+00:00",
-    "headline": "Live On CNBC, Treasury Secretary Bessent Says I Don't Think Credit In The AI Space Is Problematic",
+    "time": "2026-10-29T19:19:34+00:00",
+    "headline": "'Top Admiral Briefs Trump On Iran Attack Options; A Thursday White House Meeting Included A Rare In-Person Briefing By Adm. Cooper As The U.S. Weighs New Combat Operations' - WSJ Exclusive",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-10-28T20:18:45+00:00",
-    "headline": "President Donald J. Trump Adjusts Imports Of Robotics, Industrial Machinery, And Their Parts And Components Into The United States; Trump Says Imported Robotics And Machinery Pose Nation Security Risks, But Does Not Impose Any Immediate Tariffs; Trump Directs Officials To Negotiate Agreements With Trading Partners To Address National Security Risks With Respect To Imports Of Robotics And Industrial Machinery From Any Country.",
+    "time": "2026-10-29T17:17:25+00:00",
+    "headline": "We Will Not Take Any Steps Before The U.S. Implements Our Conditions Al-Mayadeen Has Clarified, Citing An Informed Iranian Source, Regarding The Correspondence Between JD Vance And Major General Rezaei; Trump's Claim That Vance's Letter Was In Response To Iran's Request For Equipment And Medicine Is Completely False",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-10-28T18:31:33+00:00",
-    "headline": "Fed Just Paused, But Prediction Markets Aren't Buying It\u2014Polymarket Sees 82% December Hike Odds",
+    "time": "2026-10-29T19:19:59+00:00",
+    "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-10-28T16:30:24+00:00",
-    "headline": "SK Hynix, Vertiv Rescue AI Trade As Oil Tops $102 Before Fed: Stock Market Today",
+    "time": "2026-10-29T16:30:03+00:00",
+    "headline": "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-10-28T15:25:17+00:00",
-    "headline": "Microsoft And Google Face Monetization Test Amid Expected Fed Pause\u2014 Seagate And Oil Cloud AI Trade",
+    "time": "2026-10-29T16:22:00+00:00",
+    "headline": "Alphabet Sinks 11.8%, Small Caps Rally on Strong GDP Growth: Stock Market Today",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-10-28T15:00:23+00:00",
-    "headline": "Cyclicals Lead Sectors In Wednesday Trading As Real Estate Trails",
+    "time": "2026-10-29T15:00:28+00:00",
+    "headline": "8 Of 11 Sectors Rise Thursday As Defensives Lead",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-10-28T13:40:07+00:00",
-    "headline": "Dot-Com Style Rotation? Strategists Warn Improving Market Breadth Could Be A Bull Trap: 'Be Careful What You Wish For'",
+    "time": "2026-10-29T13:16:13+00:00",
+    "headline": "Alphabet Stock Set for Worst Day Since March 2020: Search Slowdown Overshadows Cloud Boom",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-10-28T19:01:47+00:00",
-    "headline": "Apple Stock Dips: What's Going On?",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "AAPL",
-    "time": "2026-10-28T18:01:33+00:00",
-    "headline": "Apple Announces Redesigned MacBook Pro with Touchscreen and OLED Display",
+    "time": "2026-10-29T20:31:27+00:00",
+    "headline": "Apple Faces Long-Term Chip Supply Constraints Through 2030",
     "source": "fiscal.ai"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-10-28T17:25:25+00:00",
-    "headline": "Apple New 14-Inch,  16-Inch MacBook Pro With PROLED XDR Display, Tandem OLED Technology, M5 Pro Chip, Starting At $2,899, $3,399, Respectively",
+    "time": "2026-10-29T17:23:06+00:00",
+    "headline": "Apple Cuts Taiwan App Store Commission Rate In Taiwan From 30% To 26%, Effective Oct. 31",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-10-28T17:22:41+00:00",
-    "headline": "Apple Introduced New 14-Inch, 16-Inch MacBook Pro With PROLED XDR Display Featuring Breakthrough Tandem OLED Technology",
+    "time": "2026-10-29T16:30:03+00:00",
+    "headline": "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-10-28T16:47:47+00:00",
-    "headline": "High-Yield ETFs for Retirement: Why JEPI, QQQI Could Come with a Catch",
+    "time": "2026-10-29T16:22:00+00:00",
+    "headline": "Alphabet Sinks 11.8%, Small Caps Rally on Strong GDP Growth: Stock Market Today",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-10-29T14:15:01+00:00",
+    "headline": "Apple Stock Heads Toward All-Time High: What's Going On?",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-10-29T01:08:43+00:00",
-    "headline": "Alphabet, Microsoft, ServiceNow, Lumentum Holdings and Oracle: Why These 5 Stocks Are on Investors' Radars Today",
+    "time": "2026-10-29T22:00:30+00:00",
+    "headline": "El-Sayed Leads Michigan Senate Poll by 7 Points, Wants 50% Public Ownership of OpenAI, Anthropic",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-10-28T22:12:10+00:00",
-    "headline": "Microsoft Q1 2027 Earnings Call Transcript",
+    "time": "2026-10-29T21:38:47+00:00",
+    "headline": "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $722",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-10-28T22:01:25+00:00",
-    "headline": "Microsoft Sees Q2 Sales $96.000B-$97.100B vs $95.616B Est",
+    "time": "2026-10-29T20:21:36+00:00",
+    "headline": "RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-10-28T22:00:32+00:00",
-    "headline": "Microsoft CFO Says Q2 Agents And Infra Revenue Expected To Be $80.1B To $80.7B; Q2 Azure Growth Expected To Be 49%",
+    "time": "2026-10-29T19:17:32+00:00",
+    "headline": "Citigroup Maintains Buy on Microsoft, Raises Price Target to $680",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-10-28T21:57:29+00:00",
-    "headline": "Microsoft CFO Says Paid M365 Commercial Seats Grew 5%, With Some Impact From Weaker Sales Execution",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "NVDA",
-    "time": "2026-10-28T23:01:30+00:00",
-    "headline": "NVIDIA Schedules Third-Quarter Fiscal 2027 Earnings Conference Call",
+    "time": "2026-10-29T19:01:58+00:00",
+    "headline": "Concurrence Health World Model and AI Agents Now Available on Microsoft Marketplace",
     "source": "fiscal.ai"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-10-28T21:55:11+00:00",
-    "headline": "Lumentum Stock Soars 17% on Marvell Takeover Talk",
+    "time": "2026-10-29T20:31:24+00:00",
+    "headline": "NVIDIA Refutes Allegations Regarding CEO and Chinese Intelligence",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-29T19:01:34+00:00",
+    "headline": "NVIDIA Participates in Cohere's Series E Funding Round",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-29T19:00:22+00:00",
+    "headline": "\"Nvidia CEO Says Ties to Company Under Spying Probe Were \u2018Normal\u2019\" - Bloomberg News",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-10-28T21:32:28+00:00",
-    "headline": "US Department of Justice Investigating NVIDIA's Acquisition of Hugging Face",
-    "source": "fiscal.ai"
+    "time": "2026-10-29T16:30:03+00:00",
+    "headline": "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
+    "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-10-28T20:31:32+00:00",
-    "headline": "NVIDIA Expands RTX Spark Laptop Ecosystem",
-    "source": "fiscal.ai"
-   },
-   {
-    "symbol": "NVDA",
-    "time": "2026-10-28T18:32:05+00:00",
-    "headline": "'U.S. DOJ Examining NVIDIA Acquisition Of AI Platform Hugging Face, Two People Say' - Reuters Exclusive",
+    "time": "2026-10-29T15:51:44+00:00",
+    "headline": "'Canada, Nvidia Back Cohere in Round at Over $20 Billion Value' - Bloomberg News",
     "source": "benzinga"
    }
   ],
   "regime": {
    "spy_above_200d": true,
-   "spy_vol_20d_pct": 10.0,
+   "spy_vol_20d_pct": 10.1,
    "calm": true
   },
   "benchmarks": [
-   {
-    "day": "2025-08-25",
-    "symbol": "SPY",
-    "close": 633.9
-   },
    {
     "day": "2025-08-26",
     "symbol": "SPY",
@@ -2417,9 +2448,9 @@
     "close": 772.28
    },
    {
-    "day": "2025-08-26",
-    "symbol": "BTC/USD",
-    "close": 111796.166
+    "day": "2026-10-29",
+    "symbol": "SPY",
+    "close": 769.49
    },
    {
     "day": "2025-08-27",
@@ -4562,9 +4593,9 @@
     "close": 81254.0525
    },
    {
-    "day": "2025-08-26",
-    "symbol": "ETH/USD",
-    "close": 4601.92
+    "day": "2026-10-29",
+    "symbol": "BTC/USD",
+    "close": 77805.6655
    },
    {
     "day": "2025-08-27",
@@ -6705,16 +6736,15 @@
     "day": "2026-10-28",
     "symbol": "ETH/USD",
     "close": 2356.9865
+   },
+   {
+    "day": "2026-10-29",
+    "symbol": "ETH/USD",
+    "close": 2248.9
    }
   ]
  },
  "events": [
-  {
-   "date": "2026-10-28",
-   "what": "MSFT earnings",
-   "symbol": "MSFT",
-   "when": "time-after-hours"
-  },
   {
    "date": "2026-11-02",
    "what": "AAPL earnings",
@@ -6723,8 +6753,25 @@
   }
  ],
  "replay": {
-  "day": "2026-10-28",
+  "day": "2026-10-29",
   "strategy": "orb",
-  "trades": []
+  "trades": [
+   {
+    "symbol": "SPY",
+    "entry_time": "2026-10-29T14:05:00+00:00",
+    "entry": 769.954,
+    "exit": 767.1565,
+    "pnl": -2.82,
+    "exit_reason": "stop"
+   },
+   {
+    "symbol": "QQQ",
+    "entry_time": "2026-10-29T14:35:00+00:00",
+    "entry": 716.2932,
+    "exit": 714.617,
+    "pnl": -1.7,
+    "exit_reason": "end of day"
+   }
+  ]
  }
 }

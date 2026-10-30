@@ -1,29 +1,29 @@
 {
-  "1": {
-    "skip": true
-  },
-  "2": {
-    "runs_on": "cloud",
-    "env_file": ".env.rotation"
-  },
-  "3": {
-    "runs_on": "cloud",
-    "env_file": ".env.crypto"
-  },
-  "4": {
-    "skip": true
-  },
-  "4b": {
-    "skip": true
-  },
-  "4c": {
-    "runs_on": "cloud",
-    "home": ".",
-    "optional": false
-  },
-  "4e": {
-    "runs_on": "cloud",
-    "home": ".",
-    "optional": false
-  }
+ "1": {
+  "runs_on": "cloud"
+ },
+ "2": {
+  "runs_on": "cloud",
+  "env_file": ".env.rotation"
+ },
+ "3": {
+  "runs_on": "cloud",
+  "env_file": ".env.crypto"
+ },
+ "4": {
+  "skip": true
+ },
+ "4b": {
+  "skip": true
+ },
+ "4c": {
+  "runs_on": "cloud",
+  "home": ".",
+  "optional": false
+ },
+ "4e": {
+  "runs_on": "cloud",
+  "home": ".",
+  "optional": false
+ }
 }

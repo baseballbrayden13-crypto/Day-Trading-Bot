@@ -1,2 +1,2 @@
 id,date,area,title,what,why,status,risk,undo
-,2026-10-28,Bot 4e,Pause Bot 4e until the losing trades are explained.,Pause Bot 4e until the losing trades are explained.,Bot 4e: 1 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.,Proposed,Medium,"Not applied yet. If approved, the change is logged here with its own undo."
+,2026-10-29,Bot 4e,Pause Bot 4e until the losing trades are explained.,Pause Bot 4e until the losing trades are explained.,Bot 4e: 2 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.,Proposed,Medium,"Not applied yet. If approved, the change is logged here with its own undo."
