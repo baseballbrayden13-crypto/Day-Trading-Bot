@@ -760,5 +760,25 @@
    "closed": "2026-10-30T12:24:58.339063+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXITFMATCH-26OCT28LIUCOL",
+   "series": "KXITFMATCH",
+   "title": "LIU vs Colby",
+   "ticker": "KXITFMATCH-26OCT28LIUCOL-LIU",
+   "order_id": "paper-248-1793366231",
+   "price": "0.08",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.9000",
+   "multiplier": "1",
+   "placed": 1793366231.0801098,
+   "hedge": [
+    {
+     "ticker": "KXITFMATCH-26OCT28LIUCOL-COL",
+     "limit": "0.8900"
+    }
+   ]
+  }
+ ]
 }
