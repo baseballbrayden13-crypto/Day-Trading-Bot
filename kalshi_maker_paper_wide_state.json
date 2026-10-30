@@ -1,5 +1,5 @@
 {
- "realized": "2.3300",
+ "realized": "0.6800",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -633,25 +633,87 @@
    "paid": "1",
    "pnl": "0.0300",
    "closed": "2026-10-30T09:13:34.283314+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT300512MICKJASO (stray)",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Dallas Mavericks (Mick) vs Denver Nuggets (Jason)",
+   "sets": 0,
+   "outlay": "1.6500",
+   "locked_profit": "0",
+   "opened": "2026-10-30T09:18:53.593363+00:00",
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT300512MICKJASO-JASO",
+     "side": "no",
+     "count": 6,
+     "limit": "0.2700"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-1.6500",
+   "closed": "2026-10-30T09:43:49.907120+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXEBASKETBALLGAME-26OCT300512MICKJASO",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: Dallas Mavericks (Mick) vs Denver Nuggets (Jason)",
-   "ticker": "KXEBASKETBALLGAME-26OCT300512MICKJASO-JASO",
-   "order_id": "paper-233-1793351630",
-   "price": "0.2700",
-   "sets": 6,
+   "event": "KXWTADOUBLES-26OCT30KUDTIMTJEWIL",
+   "series": "KXWTADOUBLES",
+   "title": "Kudermetova / Timofeeva vs Tjen / Williams",
+   "ticker": "KXWTADOUBLES-26OCT30KUDTIMTJEWIL-KUDTIM",
+   "order_id": "paper-234-1793351933",
+   "price": "0.3200",
+   "sets": 5,
    "done": 0,
-   "reserve": "4.7300",
+   "reserve": "4.1900",
    "multiplier": "1",
-   "placed": 1793351630.084319,
+   "placed": 1793351933.3919399,
    "hedge": [
     {
-     "ticker": "KXEBASKETBALLGAME-26OCT300512MICKJASO-MICK",
-     "limit": "0.6400"
+     "ticker": "KXWTADOUBLES-26OCT30KUDTIMTJEWIL-TJEWIL",
+     "limit": "0.5000"
+    }
+   ]
+  },
+  {
+   "event": "KXLOWTLAX-26OCT30",
+   "series": "KXLOWTLAX",
+   "title": "Lowest temperature in Los Angeles on Oct 30, 2026?",
+   "ticker": "KXLOWTLAX-26OCT30-T64",
+   "order_id": "paper-235-1793352237",
+   "price": "0.4500",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.8200",
+   "multiplier": "1",
+   "placed": 1793352237.098221,
+   "hedge": [
+    {
+     "ticker": "KXLOWTLAX-26OCT30-B61.5",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXLOWTLAX-26OCT30-B63.5",
+     "limit": "0.4300"
+    }
+   ]
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT300540ZACHJASO",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Dallas Mavericks (Zach) vs Denver Nuggets (Jason)",
+   "ticker": "KXEBASKETBALLGAME-26OCT300540ZACHJASO-JASO",
+   "order_id": "paper-236-1793353445",
+   "price": "0.1900",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.0500",
+   "multiplier": "1",
+   "placed": 1793353445.19952,
+   "hedge": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT300540ZACHJASO-ZACH",
+     "limit": "0.6800"
     }
    ]
   }
