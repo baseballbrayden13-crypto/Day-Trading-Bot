@@ -762,48 +762,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNEXTTEAMNHL-26DLARKIN71",
-   "series": "KXNEXTTEAMNHL",
-   "title": "Dylan Larkin's Next Team",
-   "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MTL",
-   "order_id": "paper-261-1793379535",
-   "price": "0.7500",
-   "sets": 1,
-   "done": 0,
-   "reserve": "2.8800",
-   "multiplier": "1",
-   "placed": 1793379535.4877615,
-   "hedge": [
-    {
-     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-DET",
-     "limit": "0.6600"
-    },
-    {
-     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MIN",
-     "limit": "0.6900"
-    },
-    {
-     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-NJD",
-     "limit": "0.7200"
-    }
-   ]
-  },
-  {
    "event": "KXKHLGAME-26OCT301200SPASEV",
    "series": "KXKHLGAME",
    "title": "Spartak Moscow vs Severstal Cherepovets",
    "ticker": "KXKHLGAME-26OCT301200SPASEV-SEV",
-   "order_id": "paper-262-1793379834",
-   "price": "0.5400",
-   "sets": 2,
+   "order_id": "paper-265-1793382251",
+   "price": "0.90",
+   "sets": 4,
    "done": 0,
-   "reserve": "1.8500",
+   "reserve": "3.8700",
    "multiplier": "1",
-   "placed": 1793379834.4178832,
+   "placed": 1793382251.6534753,
    "hedge": [
     {
      "ticker": "KXKHLGAME-26OCT301200SPASEV-SPA",
-     "limit": "0.3600"
+     "limit": "0.0600"
     }
    ]
   }

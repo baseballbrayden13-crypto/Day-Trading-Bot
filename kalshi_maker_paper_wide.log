@@ -1563,3 +1563,17 @@
 2026-10-30 13:08:59,647 INFO Swept 16958 events: 0 taker trades, 0 new quotes, 3 resting
 2026-10-30 13:14:04,941 INFO Swept 17024 events: 0 taker trades, 0 new quotes, 3 resting
 2026-10-30 13:14:15,955 INFO Quote KXLOWTPHX-26OCT30 cancelled (0/1 filled)
+2026-10-30 13:19:07,132 INFO PAPER rest NO bid KXHIGHTEWR-26OCT30-B73.5 at $0.1300 x4 (0 already bid at that price)
+2026-10-30 13:19:07,133 INFO Resting NO bid on KXHIGHTEWR-26OCT30-B73.5 at $0.1300 x4 (KXHIGHTEWR-26OCT30): locks in $0.35 if it fills; hedge NO B75.5@0.7700
+2026-10-30 13:19:07,135 INFO Swept 17051 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 13:24:06,514 INFO Swept 17045 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-30 13:29:11,029 INFO Swept 17045 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-30 13:34:12,255 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV02XAVPFW-XAV at $0.2100 x3 (0 already bid at that price)
+2026-10-30 13:34:12,255 INFO Resting NO bid on KXNCAAWBGAME-26NOV02XAVPFW-XAV at $0.2100 x3 (KXNCAAWBGAME-26NOV02XAVPFW): locks in $0.18 if it fills; hedge NO PFW@0.7100
+2026-10-30 13:34:12,258 INFO Swept 17041 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 13:36:03,418 INFO Quote KXNCAAWBGAME-26NOV02XAVPFW cancelled (0/3 filled)
+2026-10-30 13:39:11,009 INFO Swept 17037 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 13:39:11,218 INFO Quote KXHIGHTEWR-26OCT30 cancelled (0/4 filled)
+2026-10-30 13:44:11,653 INFO PAPER rest NO bid KXKHLGAME-26OCT301200SPASEV-SEV at $0.9000 x4 (35 already bid at that price)
+2026-10-30 13:44:11,653 INFO Resting NO bid on KXKHLGAME-26OCT301200SPASEV-SEV at $0.90 x4 (KXKHLGAME-26OCT301200SPASEV): locks in $0.13 if it fills; hedge NO SPA@0.0600
+2026-10-30 13:44:11,656 INFO Swept 17029 events: 0 taker trades, 1 new quotes, 1 resting
