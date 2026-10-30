@@ -1119,3 +1119,13 @@
 2026-10-29 21:42:25,719 INFO PAPER rest NO bid KXITFMATCH-26OCT28LIUCOL-LIU at $0.1000 x5 (17 already bid at that price)
 2026-10-29 21:42:25,720 INFO Resting NO bid on KXITFMATCH-26OCT28LIUCOL-LIU at $0.10 x5 (KXITFMATCH-26OCT28LIUCOL): locks in $0.10 if it fills; hedge NO COL@0.8700
 2026-10-29 21:42:25,722 INFO Swept 16466 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 21:47:06,383 INFO Settled KXNHL2P-26OCT29NYIMIN (stray): paid $0, profit $-0.19
+2026-10-29 21:47:29,734 INFO Swept 16472 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 21:52:33,312 INFO Swept 16492 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 21:57:36,865 INFO Swept 16500 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 21:58:12,323 INFO Quote KXITFMATCH-26OCT28LIUCOL cancelled (0/5 filled)
+2026-10-29 22:02:28,702 INFO Swept 16484 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 22:07:46,465 INFO PAPER rest NO bid KXSOFRD-26OCT30-T3.95 at $0.0400 x5 (0 already bid at that price)
+2026-10-29 22:07:46,465 INFO Resting NO bid on KXSOFRD-26OCT30-T3.95 at $0.0400 x5 (KXSOFRD-26OCT30): locks in $0.25 if it fills; hedge NO E3.93@0.9000
+2026-10-29 22:07:46,468 INFO Swept 16470 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 22:12:48,915 INFO Swept 16495 events: 0 taker trades, 0 new quotes, 1 resting

@@ -1,5 +1,5 @@
 {
- "realized": "1.6700",
+ "realized": "1.4800",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -70,23 +70,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.8400"
-    }
-   ]
-  },
-  {
-   "event": "KXNHL2P-26OCT29NYIMIN (stray)",
-   "series": "KXNHL2P",
-   "title": "New York I vs Minnesota: 2nd Period Winner",
-   "sets": 0,
-   "outlay": "0.1900",
-   "locked_profit": "0",
-   "opened": "2026-10-30T01:38:18.427654+00:00",
-   "legs": [
-    {
-     "ticker": "KXNHL2P-26OCT29NYIMIN-TIE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.0900"
     }
    ]
   }
@@ -549,25 +532,45 @@
    "paid": "6",
    "pnl": "1.0600",
    "closed": "2026-10-29T22:17:29.185626+00:00"
+  },
+  {
+   "event": "KXNHL2P-26OCT29NYIMIN (stray)",
+   "series": "KXNHL2P",
+   "title": "New York I vs Minnesota: 2nd Period Winner",
+   "sets": 0,
+   "outlay": "0.1900",
+   "locked_profit": "0",
+   "opened": "2026-10-30T01:38:18.427654+00:00",
+   "legs": [
+    {
+     "ticker": "KXNHL2P-26OCT29NYIMIN-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.0900"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-0.1900",
+   "closed": "2026-10-30T01:47:06.383447+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXITFMATCH-26OCT28LIUCOL",
-   "series": "KXITFMATCH",
-   "title": "LIU vs Colby",
-   "ticker": "KXITFMATCH-26OCT28LIUCOL-LIU",
-   "order_id": "paper-207-1793324545",
-   "price": "0.10",
+   "event": "KXSOFRD-26OCT30",
+   "series": "KXSOFRD",
+   "title": "SOFR for October 29, 2026",
+   "ticker": "KXSOFRD-26OCT30-T3.95",
+   "order_id": "paper-208-1793326066",
+   "price": "0.0400",
    "sets": 5,
    "done": 0,
-   "reserve": "4.9000",
+   "reserve": "4.7500",
    "multiplier": "1",
-   "placed": 1793324545.7200134,
+   "placed": 1793326066.4659088,
    "hedge": [
     {
-     "ticker": "KXITFMATCH-26OCT28LIUCOL-COL",
-     "limit": "0.8700"
+     "ticker": "KXSOFRD-26OCT30-E3.93",
+     "limit": "0.9000"
     }
    ]
   }
