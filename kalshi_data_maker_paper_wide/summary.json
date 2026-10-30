@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T01:09:21+00:00",
+ "updated": "2026-10-30T01:39:33+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -7,15 +7,18 @@
  "equity": "21.67",
  "realized_profit": "1.67",
  "bet_level": "20.00",
- "open_trades": 3,
+ "open_trades": 4,
  "open_locked_profit": "0.50",
- "in_play": "10.50",
- "stray_positions": 0,
+ "in_play": "10.69",
+ "stray_positions": 1,
  "closed_trades": 14,
  "trades_this_loop": 0,
- "events_swept": 16405,
+ "events_swept": 16466,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 0,
- "last_problems": []
+ "problems": 2,
+ "last_problems": [
+  "2026-10-30 01:38 Quote KXNHL2P-26OCT29NYIMIN: hedge missed on KXNHL2P-26OCT29NYIMIN-MIN. Selling back 2 contracts on 1 legs.",
+  "2026-10-30 01:38 STRAY POSITION: 2 NO contracts of KXNHL2P-26OCT29NYIMIN-TIE still held. Check it on Kalshi."
+ ]
 }

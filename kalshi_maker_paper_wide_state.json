@@ -72,6 +72,23 @@
      "limit": "0.8400"
     }
    ]
+  },
+  {
+   "event": "KXNHL2P-26OCT29NYIMIN (stray)",
+   "series": "KXNHL2P",
+   "title": "New York I vs Minnesota: 2nd Period Winner",
+   "sets": 0,
+   "outlay": "0.1900",
+   "locked_profit": "0",
+   "opened": "2026-10-30T01:38:18.427654+00:00",
+   "legs": [
+    {
+     "ticker": "KXNHL2P-26OCT29NYIMIN-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.0900"
+    }
+   ]
   }
  ],
  "closed": [
@@ -536,21 +553,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLOLFBARON-26OCT281600BLGTES-3",
-   "series": "KXLOLFBARON",
-   "title": "Bilibili Gaming vs. Top Esports: Game 3 First Baron",
-   "ticker": "KXLOLFBARON-26OCT281600BLGTES-3-BLG",
-   "order_id": "paper-202-1793321212",
-   "price": "0.0200",
+   "event": "KXITFMATCH-26OCT28LIUCOL",
+   "series": "KXITFMATCH",
+   "title": "LIU vs Colby",
+   "ticker": "KXITFMATCH-26OCT28LIUCOL-LIU",
+   "order_id": "paper-207-1793324545",
+   "price": "0.10",
    "sets": 5,
    "done": 0,
-   "reserve": "4.7400",
+   "reserve": "4.9000",
    "multiplier": "1",
-   "placed": 1793321212.4931,
+   "placed": 1793324545.7200134,
    "hedge": [
     {
-     "ticker": "KXLOLFBARON-26OCT281600BLGTES-3-TES",
-     "limit": "0.9400"
+     "ticker": "KXITFMATCH-26OCT28LIUCOL-COL",
+     "limit": "0.8700"
     }
    ]
   }

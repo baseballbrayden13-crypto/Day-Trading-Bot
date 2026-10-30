@@ -1098,3 +1098,24 @@
 2026-10-29 21:02:01,670 INFO Quote KXDOGE-26OCT2921 cancelled (0/12 filled)
 2026-10-29 21:07:04,710 INFO Swept 16369 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-29 21:12:10,214 INFO Swept 16405 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 21:17:12,140 INFO Swept 16429 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 21:22:13,668 INFO PAPER rest NO bid KXLOLFBARON-26OCT281600BLGTES-3-BLG at $0.0200 x11 (0 already bid at that price)
+2026-10-29 21:22:13,668 INFO Resting NO bid on KXLOLFBARON-26OCT281600BLGTES-3-BLG at $0.0200 x11 (KXLOLFBARON-26OCT281600BLGTES-3): locks in $6.39 if it fills; hedge NO TES@0.3900
+2026-10-29 21:22:13,671 INFO Swept 16455 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 21:22:44,065 INFO Quote KXLOLFBARON-26OCT281600BLGTES-3 cancelled (0/11 filled)
+2026-10-29 21:27:17,354 INFO PAPER rest NO bid KXLOWTSATX-26OCT29-B67.5 at $0.2600 x1 (6 already bid at that price)
+2026-10-29 21:27:17,354 INFO Resting NO bid on KXLOWTSATX-26OCT29-B67.5 at $0.26 x1 (KXLOWTSATX-26OCT29): locks in $0.10 if it fills; hedge NO T68@0.6100
+2026-10-29 21:27:17,357 INFO Swept 16459 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 21:32:22,736 INFO Swept 16473 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 21:37:22,657 INFO PAPER rest NO bid KXNHL2P-26OCT29NYIMIN-TIE at $0.0900 x2 (0 already bid at that price)
+2026-10-29 21:37:22,658 INFO Resting NO bid on KXNHL2P-26OCT29NYIMIN-TIE at $0.0900 x2 (KXNHL2P-26OCT29NYIMIN): locks in $0.17 if it fills; hedge NO MIN@0.8900, NYI@0.9700
+2026-10-29 21:37:22,660 INFO Swept 16475 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 21:37:22,745 INFO Quote KXLOWTSATX-26OCT29 cancelled (0/1 filled)
+2026-10-29 21:38:18,374 INFO PAPER KXNHL2P-26OCT29NYIMIN-TIE NO bid at $0.0900: 2/2 filled by real trades
+2026-10-29 21:38:18,402 INFO PAPER buy 2 NO KXNHL2P-26OCT29NYIMIN-MIN at up to $0.8900: not on the book
+2026-10-29 21:38:18,402 WARNING Quote KXNHL2P-26OCT29NYIMIN: hedge missed on KXNHL2P-26OCT29NYIMIN-MIN. Selling back 2 contracts on 1 legs.
+2026-10-29 21:38:18,427 INFO PAPER sell 2 YES KXNHL2P-26OCT29NYIMIN-TIE at up to $0.9600: not on the book
+2026-10-29 21:38:18,427 ERROR STRAY POSITION: 2 NO contracts of KXNHL2P-26OCT29NYIMIN-TIE still held. Check it on Kalshi.
+2026-10-29 21:42:25,719 INFO PAPER rest NO bid KXITFMATCH-26OCT28LIUCOL-LIU at $0.1000 x5 (17 already bid at that price)
+2026-10-29 21:42:25,720 INFO Resting NO bid on KXITFMATCH-26OCT28LIUCOL-LIU at $0.10 x5 (KXITFMATCH-26OCT28LIUCOL): locks in $0.10 if it fills; hedge NO COL@0.8700
+2026-10-29 21:42:25,722 INFO Swept 16466 events: 0 taker trades, 1 new quotes, 1 resting
