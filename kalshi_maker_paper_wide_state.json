@@ -793,13 +793,13 @@
    "series": "KXATP",
    "title": "ATP Vienna Winner",
    "ticker": "KXATP-26VIENNA-ZVE",
-   "order_id": "paper-270-1793388755",
+   "order_id": "paper-272-1793390898",
    "price": "0.5500",
-   "sets": 1,
+   "sets": 2,
    "done": 0,
-   "reserve": "1.8700",
+   "reserve": "3.7900",
    "multiplier": "1",
-   "placed": 1793388755.740013,
+   "placed": 1793390898.2370968,
    "hedge": [
     {
      "ticker": "KXATP-26VIENNA-ALC",
@@ -812,25 +812,21 @@
    ]
   },
   {
-   "event": "KXSTEAMTOPSELLER-26NOV03",
-   "series": "KXSTEAMTOPSELLER",
-   "title": "Steam: Weekly Top Seller ",
-   "ticker": "KXSTEAMTOPSELLER-26NOV03-FOO",
-   "order_id": "paper-271-1793389057",
-   "price": "0.5200",
+   "event": "KXCS2GAME-26OCT311400FOKBAKS",
+   "series": "KXCS2GAME",
+   "title": "FOKUS vs. BakS eSports",
+   "ticker": "KXCS2GAME-26OCT311400FOKBAKS-BAKS",
+   "order_id": "paper-273-1793390898",
+   "price": "0.1100",
    "sets": 1,
    "done": 0,
-   "reserve": "1.6200",
+   "reserve": "0.5000",
    "multiplier": "1",
-   "placed": 1793389057.4818218,
+   "placed": 1793390898.2632964,
    "hedge": [
     {
-     "ticker": "KXSTEAMTOPSELLER-26NOV03-CAL",
-     "limit": "0.4600"
-    },
-    {
-     "ticker": "KXSTEAMTOPSELLER-26NOV03-PHA",
-     "limit": "0.5900"
+     "ticker": "KXCS2GAME-26OCT311400FOKBAKS-FOK",
+     "limit": "0.3600"
     }
    ]
   }

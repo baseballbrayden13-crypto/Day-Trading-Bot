@@ -1623,3 +1623,13 @@
 2026-10-30 15:37:37,481 INFO PAPER rest NO bid KXSTEAMTOPSELLER-26NOV03-FOO at $0.5200 x1 (0 already bid at that price)
 2026-10-30 15:37:37,481 INFO Resting NO bid on KXSTEAMTOPSELLER-26NOV03-FOO at $0.5200 x1 (KXSTEAMTOPSELLER-26NOV03): locks in $0.38 if it fills; hedge NO CAL@0.4600, PHA@0.5900
 2026-10-30 15:37:37,484 INFO Swept 17018 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 15:42:41,001 INFO Swept 17017 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 15:47:44,417 INFO Swept 17007 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 15:52:48,166 INFO Swept 17004 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 15:57:49,128 INFO Swept 16991 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 16:03:06,277 INFO Swept 16980 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 16:08:18,236 INFO PAPER rest NO bid KXATP-26VIENNA-ZVE at $0.5500 x2 (0 already bid at that price)
+2026-10-30 16:08:18,237 INFO Resting NO bid on KXATP-26VIENNA-ZVE at $0.5500 x2 (KXATP-26VIENNA): locks in $0.21 if it fills; hedge NO ALC@0.4800, MED@0.8300
+2026-10-30 16:08:18,263 INFO PAPER rest NO bid KXCS2GAME-26OCT311400FOKBAKS-BAKS at $0.1100 x1 (0 already bid at that price)
+2026-10-30 16:08:18,263 INFO Resting NO bid on KXCS2GAME-26OCT311400FOKBAKS-BAKS at $0.1100 x1 (KXCS2GAME-26OCT311400FOKBAKS): locks in $0.50 if it fills; hedge NO FOK@0.3600
+2026-10-30 16:08:18,266 INFO Swept 16975 events: 0 taker trades, 2 new quotes, 3 resting
