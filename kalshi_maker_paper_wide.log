@@ -1255,3 +1255,17 @@
 2026-10-30 03:34:50,053 INFO Quote KXEBASKETBALLGAME-26OCT300320ZACHMICK filled 1: hedged, locks in $0.11
 2026-10-30 03:38:04,489 INFO Swept 16348 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-30 03:43:08,633 INFO Swept 16347 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 03:48:04,360 INFO Settled KXEBASKETBALLGAME-26OCT300320ZACHMICK: paid $1, profit $0.11
+2026-10-30 03:48:21,232 INFO Swept 16344 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 03:53:21,883 INFO Swept 16344 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 03:58:21,643 INFO Swept 16347 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 04:03:25,702 INFO PAPER rest NO bid KXOWGAME-26OCT291100SEIFAL-SEI at $0.8900 x5 (0 already bid at that price)
+2026-10-30 04:03:25,702 INFO Resting NO bid on KXOWGAME-26OCT291100SEIFAL-SEI at $0.8900 x5 (KXOWGAME-26OCT291100SEIFAL): locks in $0.22 if it fills; hedge NO FAL@0.0600
+2026-10-30 04:03:25,705 INFO Swept 16332 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 04:06:04,942 INFO PAPER KXOWGAME-26OCT291100SEIFAL-SEI NO bid at $0.8900: 1/5 filled by real trades
+2026-10-30 04:06:05,007 INFO PAPER buy 1 NO KXOWGAME-26OCT291100SEIFAL-FAL at up to $0.0600: filled 1
+2026-10-30 04:06:05,007 INFO Quote KXOWGAME-26OCT291100SEIFAL filled 1: hedged, locks in $0.03
+2026-10-30 04:06:05,130 INFO PAPER KXOWGAME-26OCT291100SEIFAL-SEI NO bid at $0.8900: 1/5 filled by real trades
+2026-10-30 04:06:05,135 INFO Quote KXOWGAME-26OCT291100SEIFAL cancelled (1/5 filled)
+2026-10-30 04:08:32,705 INFO Swept 16358 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 04:13:35,261 INFO Swept 16356 events: 0 taker trades, 0 new quotes, 0 resting

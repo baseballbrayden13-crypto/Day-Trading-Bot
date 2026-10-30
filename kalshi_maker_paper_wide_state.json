@@ -1,5 +1,5 @@
 {
- "realized": "2.1900",
+ "realized": "2.3000",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -74,26 +74,26 @@
    ]
   },
   {
-   "event": "KXEBASKETBALLGAME-26OCT300320ZACHMICK",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: Indiana Pacers (Zach) vs New Orleans Pelicans (Mick)",
+   "event": "KXOWGAME-26OCT291100SEIFAL",
+   "series": "KXOWGAME",
+   "title": "OCS Korea Stage 3 2026: SEIJI ESPORTS vs. Falcons",
    "sets": 1,
-   "outlay": "0.8900",
-   "locked_profit": "0.1100",
-   "opened": "2026-10-30T07:34:50.053840+00:00",
+   "outlay": "0.9700",
+   "locked_profit": "0.0300",
+   "opened": "2026-10-30T08:06:05.007199+00:00",
    "maker": true,
    "legs": [
     {
-     "ticker": "KXEBASKETBALLGAME-26OCT300320ZACHMICK-ZACH",
+     "ticker": "KXOWGAME-26OCT291100SEIFAL-SEI",
      "side": "no",
      "count": 1,
-     "limit": "0.5300"
+     "limit": "0.8900"
     },
     {
-     "ticker": "KXEBASKETBALLGAME-26OCT300320ZACHMICK-MICK",
+     "ticker": "KXOWGAME-26OCT291100SEIFAL-FAL",
      "side": "no",
      "count": 1,
-     "limit": "0.3300"
+     "limit": "0.0600"
     }
    ]
   }
@@ -603,6 +603,33 @@
    "paid": "4",
    "pnl": "0.7100",
    "closed": "2026-10-30T06:18:48.788748+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT300320ZACHMICK",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Indiana Pacers (Zach) vs New Orleans Pelicans (Mick)",
+   "sets": 1,
+   "outlay": "0.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-10-30T07:34:50.053840+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT300320ZACHMICK-ZACH",
+     "side": "no",
+     "count": 1,
+     "limit": "0.5300"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT300320ZACHMICK-MICK",
+     "side": "no",
+     "count": 1,
+     "limit": "0.3300"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.1100",
+   "closed": "2026-10-30T07:48:04.360817+00:00"
   }
  ],
  "quotes": []
