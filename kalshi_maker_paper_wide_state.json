@@ -1,5 +1,5 @@
 {
- "realized": "2.3000",
+ "realized": "2.3300",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -70,30 +70,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.8400"
-    }
-   ]
-  },
-  {
-   "event": "KXOWGAME-26OCT291100SEIFAL",
-   "series": "KXOWGAME",
-   "title": "OCS Korea Stage 3 2026: SEIJI ESPORTS vs. Falcons",
-   "sets": 1,
-   "outlay": "0.9700",
-   "locked_profit": "0.0300",
-   "opened": "2026-10-30T08:06:05.007199+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXOWGAME-26OCT291100SEIFAL-SEI",
-     "side": "no",
-     "count": 1,
-     "limit": "0.8900"
-    },
-    {
-     "ticker": "KXOWGAME-26OCT291100SEIFAL-FAL",
-     "side": "no",
-     "count": 1,
-     "limit": "0.0600"
     }
    ]
   }
@@ -630,25 +606,52 @@
    "paid": "1",
    "pnl": "0.1100",
    "closed": "2026-10-30T07:48:04.360817+00:00"
+  },
+  {
+   "event": "KXOWGAME-26OCT291100SEIFAL",
+   "series": "KXOWGAME",
+   "title": "OCS Korea Stage 3 2026: SEIJI ESPORTS vs. Falcons",
+   "sets": 1,
+   "outlay": "0.9700",
+   "locked_profit": "0.0300",
+   "opened": "2026-10-30T08:06:05.007199+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXOWGAME-26OCT291100SEIFAL-SEI",
+     "side": "no",
+     "count": 1,
+     "limit": "0.8900"
+    },
+    {
+     "ticker": "KXOWGAME-26OCT291100SEIFAL-FAL",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0600"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.0300",
+   "closed": "2026-10-30T09:13:34.283314+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXITFMATCH-26OCT28COVDEL",
-   "series": "KXITFMATCH",
-   "title": "Covato vs Delgado",
-   "ticker": "KXITFMATCH-26OCT28COVDEL-DEL",
-   "order_id": "paper-231-1793348617",
-   "price": "0.87",
-   "sets": 5,
+   "event": "KXEBASKETBALLGAME-26OCT300512MICKJASO",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Dallas Mavericks (Mick) vs Denver Nuggets (Jason)",
+   "ticker": "KXEBASKETBALLGAME-26OCT300512MICKJASO-JASO",
+   "order_id": "paper-233-1793351630",
+   "price": "0.2700",
+   "sets": 6,
    "done": 0,
-   "reserve": "4.9000",
+   "reserve": "4.7300",
    "multiplier": "1",
-   "placed": 1793348617.9811857,
+   "placed": 1793351630.084319,
    "hedge": [
     {
-     "ticker": "KXITFMATCH-26OCT28COVDEL-COV",
-     "limit": "0.1000"
+     "ticker": "KXEBASKETBALLGAME-26OCT300512MICKJASO-MICK",
+     "limit": "0.6400"
     }
    ]
   }

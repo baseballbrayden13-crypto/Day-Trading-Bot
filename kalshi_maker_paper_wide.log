@@ -1277,3 +1277,15 @@
 2026-10-30 04:33:37,781 INFO Swept 16350 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 04:38:42,575 INFO Swept 16356 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 04:43:43,012 INFO Swept 16347 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 04:48:43,373 INFO PAPER rest NO bid KXLOWTLAX-26OCT30-B61.5 at $0.5100 x1 (3 already bid at that price)
+2026-10-30 04:48:43,373 INFO Resting NO bid on KXLOWTLAX-26OCT30-B61.5 at $0.51 x1 (KXLOWTLAX-26OCT30): locks in $0.10 if it fills; hedge NO B63.5@0.4300, T64@0.9200
+2026-10-30 04:48:43,375 INFO Swept 16360 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 04:53:48,246 INFO Swept 16358 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 04:53:48,505 INFO Quote KXLOWTLAX-26OCT30 cancelled (0/1 filled)
+2026-10-30 04:58:46,499 INFO Swept 16362 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 05:03:42,014 INFO Swept 16365 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 05:08:46,338 INFO Swept 16383 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 05:13:34,283 INFO Settled KXOWGAME-26OCT291100SEIFAL: paid $1, profit $0.03
+2026-10-30 05:13:50,084 INFO PAPER rest NO bid KXEBASKETBALLGAME-26OCT300512MICKJASO-JASO at $0.2700 x6 (0 already bid at that price)
+2026-10-30 05:13:50,084 INFO Resting NO bid on KXEBASKETBALLGAME-26OCT300512MICKJASO-JASO at $0.2700 x6 (KXEBASKETBALLGAME-26OCT300512MICKJASO): locks in $1.27 if it fills; hedge NO MICK@0.5100
+2026-10-30 05:13:50,086 INFO Swept 16375 events: 0 taker trades, 1 new quotes, 1 resting
