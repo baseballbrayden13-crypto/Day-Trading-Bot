@@ -1534,3 +1534,15 @@
 2026-10-30 12:08:36,372 INFO Resting NO bid on KXWTA-26GUANGZ-TAG at $0.1800 x2 (KXWTA-26GUANGZ): locks in $0.23 if it fills; hedge NO DAR@0.8300, SUN@0.8500
 2026-10-30 12:08:36,375 INFO Swept 16857 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-30 12:13:36,760 INFO Swept 16914 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 12:18:37,338 INFO Swept 16913 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 12:23:37,609 INFO Swept 16906 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 12:26:15,985 INFO Quote KXNFLNEXTTEAM-26GWILSON5 cancelled (0/2 filled)
+2026-10-30 12:28:38,161 INFO PAPER rest NO bid KXNCAAFGAME-26NOV07TXAMSCAR-SCAR at $0.3600 x4 (97 already bid at that price)
+2026-10-30 12:28:38,161 INFO Resting NO bid on KXNCAAFGAME-26NOV07TXAMSCAR-SCAR at $0.36 x4 (KXNCAAFGAME-26NOV07TXAMSCAR): locks in $0.11 if it fills; hedge NO TXAM@0.5900
+2026-10-30 12:28:38,164 INFO Swept 16906 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 12:29:36,318 INFO Quote KXNCAAFGAME-26NOV07TXAMSCAR cancelled (0/4 filled)
+2026-10-30 12:33:41,140 INFO Swept 16912 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 12:38:43,927 INFO PAPER rest NO bid KXNEXTTEAMNHL-26DLARKIN71-MTL at $0.7500 x1 (0 already bid at that price)
+2026-10-30 12:38:43,927 INFO Resting NO bid on KXNEXTTEAMNHL-26DLARKIN71-MTL at $0.7500 x1 (KXNEXTTEAMNHL-26DLARKIN71): locks in $0.11 if it fills; hedge NO DET@0.6700, MIN@0.6800, NJD@0.7200
+2026-10-30 12:38:43,930 INFO Swept 16916 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 12:43:56,555 INFO Swept 16914 events: 0 taker trades, 0 new quotes, 1 resting

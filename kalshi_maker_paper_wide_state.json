@@ -762,48 +762,29 @@
  ],
  "quotes": [
   {
-   "event": "KXNFLNEXTTEAM-26GWILSON5",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Garrett Wilson Next Team",
-   "ticker": "KXNFLNEXTTEAM-26GWILSON5-KC",
-   "order_id": "paper-255-1793375914",
-   "price": "0.7100",
-   "sets": 2,
+   "event": "KXNEXTTEAMNHL-26DLARKIN71",
+   "series": "KXNEXTTEAMNHL",
+   "title": "Dylan Larkin's Next Team",
+   "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MTL",
+   "order_id": "paper-258-1793378323",
+   "price": "0.7500",
+   "sets": 1,
    "done": 0,
-   "reserve": "3.7800",
+   "reserve": "2.8900",
    "multiplier": "1",
-   "placed": 1793375914.803853,
+   "placed": 1793378323.9273918,
    "hedge": [
     {
-     "ticker": "KXNFLNEXTTEAM-26GWILSON5-NYJ",
-     "limit": "0.3600"
+     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-DET",
+     "limit": "0.6700"
     },
     {
-     "ticker": "KXNFLNEXTTEAM-26GWILSON5-SF",
-     "limit": "0.8400"
-    }
-   ]
-  },
-  {
-   "event": "KXWTA-26GUANGZ",
-   "series": "KXWTA",
-   "title": "WTA Guangzhou Winner",
-   "ticker": "KXWTA-26GUANGZ-TAG",
-   "order_id": "paper-256-1793376516",
-   "price": "0.1800",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.7700",
-   "multiplier": "1",
-   "placed": 1793376516.372876,
-   "hedge": [
-    {
-     "ticker": "KXWTA-26GUANGZ-DAR",
-     "limit": "0.8300"
+     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MIN",
+     "limit": "0.6800"
     },
     {
-     "ticker": "KXWTA-26GUANGZ-SUN",
-     "limit": "0.8500"
+     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-NJD",
+     "limit": "0.7200"
     }
    ]
   }
