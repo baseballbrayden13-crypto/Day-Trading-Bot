@@ -1,5 +1,5 @@
 {
- "realized": "1.4800",
+ "realized": "2.1900",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -70,30 +70,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.8400"
-    }
-   ]
-  },
-  {
-   "event": "KXEBASKETBALLGAME-26OCT300150DAVIJAME",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: New Orleans Pelicans (Davis) vs Indiana Pacers (James)",
-   "sets": 4,
-   "outlay": "3.2900",
-   "locked_profit": "0.7100",
-   "opened": "2026-10-30T05:59:06.430883+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXEBASKETBALLGAME-26OCT300150DAVIJAME-JAME",
-     "side": "no",
-     "count": 4,
-     "limit": "0.4300"
-    },
-    {
-     "ticker": "KXEBASKETBALLGAME-26OCT300150DAVIJAME-DAVI",
-     "side": "no",
-     "count": 4,
-     "limit": "0.3700"
     }
    ]
   }
@@ -576,27 +552,34 @@
    "paid": "0",
    "pnl": "-0.1900",
    "closed": "2026-10-30T01:47:06.383447+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT300150DAVIJAME",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: New Orleans Pelicans (Davis) vs Indiana Pacers (James)",
+   "sets": 4,
+   "outlay": "3.2900",
+   "locked_profit": "0.7100",
+   "opened": "2026-10-30T05:59:06.430883+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT300150DAVIJAME-JAME",
+     "side": "no",
+     "count": 4,
+     "limit": "0.4300"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT300150DAVIJAME-DAVI",
+     "side": "no",
+     "count": 4,
+     "limit": "0.3700"
+    }
+   ],
+   "paid": "4",
+   "pnl": "0.7100",
+   "closed": "2026-10-30T06:18:48.788748+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXITFWDOUBLES-26OCT29ELJFROLINURH",
-   "series": "KXITFWDOUBLES",
-   "title": "El Jardi / Frodin vs Lincer / Urhobo",
-   "ticker": "KXITFWDOUBLES-26OCT29ELJFROLINURH-LINURH",
-   "order_id": "paper-223-1793339638",
-   "price": "0.2100",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8800",
-   "multiplier": "1",
-   "placed": 1793339638.3045928,
-   "hedge": [
-    {
-     "ticker": "KXITFWDOUBLES-26OCT29ELJFROLINURH-ELJFRO",
-     "limit": "0.6400"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

@@ -1221,3 +1221,13 @@
 2026-10-30 02:04:03,200 INFO Swept 16280 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-30 02:09:05,342 INFO Swept 16299 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-30 02:14:05,810 INFO Swept 16290 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 02:18:48,788 INFO Settled KXEBASKETBALLGAME-26OCT300150DAVIJAME: paid $4, profit $0.71
+2026-10-30 02:19:11,397 INFO Swept 16290 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 02:24:12,008 INFO PAPER rest NO bid KXLOWTMIA-26OCT30-B75.5 at $0.1500 x1 (0 already bid at that price)
+2026-10-30 02:24:12,008 INFO Resting NO bid on KXLOWTMIA-26OCT30-B75.5 at $0.1500 x1 (KXLOWTMIA-26OCT30): locks in $0.11 if it fills; hedge NO B73.5@0.9300, T76@0.7700
+2026-10-30 02:24:12,011 INFO Swept 16286 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 02:24:22,202 INFO Quote KXLOWTMIA-26OCT30 cancelled (0/1 filled)
+2026-10-30 02:29:15,045 INFO PAPER rest NO bid KXITFWDOUBLES-26OCT29ELJFROLINURH-LINURH at $0.2300 x1 (1 already bid at that price)
+2026-10-30 02:29:15,046 INFO Resting NO bid on KXITFWDOUBLES-26OCT29ELJFROLINURH-LINURH at $0.23 x1 (KXITFWDOUBLES-26OCT29ELJFROLINURH): locks in $0.10 if it fills; hedge NO ELJFRO@0.6400
+2026-10-30 02:29:15,048 INFO Swept 16301 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 02:29:20,140 INFO Stopped; all quotes cancelled.

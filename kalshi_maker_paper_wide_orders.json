@@ -3114,12 +3114,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793339638.3012211,
-  "checked": 1793340866.0695872,
+  "checked": 1793341438,
   "expires": 1793341438,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-224-1793339941": {
   "id": "paper-224-1793339941",
@@ -3134,5 +3134,33 @@
   "at_price": 0,
   "filled": 4,
   "status": "executed"
+ },
+ "paper-225-1793341452": {
+  "id": "paper-225-1793341452",
+  "ticker": "KXLOWTMIA-26OCT30-B75.5",
+  "price": "0.1500",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793341452.00564,
+  "checked": 1793341462.175082,
+  "expires": 1793343251,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-226-1793341755": {
+  "id": "paper-226-1793341755",
+  "ticker": "KXITFWDOUBLES-26OCT29ELJFROLINURH-LINURH",
+  "price": "0.2300",
+  "count": 1,
+  "ahead": 1,
+  "placed": 1793341755.0429025,
+  "checked": 1793341760.1071327,
+  "expires": 1793343555,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
