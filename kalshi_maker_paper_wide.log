@@ -1335,3 +1335,17 @@
 2026-10-30 06:44:23,485 INFO PAPER rest NO bid KXNFLNEXTTEAM-26JDOWNS2-NONE at $0.1200 x2 (0 already bid at that price)
 2026-10-30 06:44:23,485 INFO Resting NO bid on KXNFLNEXTTEAM-26JDOWNS2-NONE at $0.1200 x2 (KXNFLNEXTTEAM-26JDOWNS2): locks in $1.03 if it fills; hedge NO KC@0.6800, NE@0.9300, PIT@0.7100
 2026-10-30 06:44:23,488 INFO Swept 16401 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 06:49:25,677 INFO Swept 16404 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 06:54:27,430 INFO PAPER rest NO bid KXVALORANTMAP-26OCT300500NOVAAT-2-AT at $0.6100 x3 (435 already bid at that price)
+2026-10-30 06:54:27,430 INFO Resting NO bid on KXVALORANTMAP-26OCT300500NOVAAT-2-AT at $0.61 x3 (KXVALORANTMAP-26OCT300500NOVAAT-2): locks in $0.11 if it fills; hedge NO NOVA@0.3300
+2026-10-30 06:54:27,432 INFO Swept 16402 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 06:59:26,191 INFO Swept 16407 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 06:59:52,769 INFO Quote KXVALORANTMAP-26OCT300500NOVAAT-2 cancelled (0/3 filled)
+2026-10-30 07:04:28,957 INFO PAPER rest NO bid KXLIGAPROMATCH-26OCT300645RYBSTE-RYB at $0.2600 x4 (0 already bid at that price)
+2026-10-30 07:04:28,957 INFO Resting NO bid on KXLIGAPROMATCH-26OCT300645RYBSTE-RYB at $0.2600 x4 (KXLIGAPROMATCH-26OCT300645RYBSTE): locks in $0.27 if it fills; hedge NO STE@0.6500
+2026-10-30 07:04:28,959 INFO Swept 16395 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 07:06:30,071 INFO Quote KXLIGAPROMATCH-26OCT300645RYBSTE cancelled (0/4 filled)
+2026-10-30 07:09:34,048 INFO Swept 16433 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 07:14:34,530 INFO PAPER rest NO bid KXOWGAME-26OCT291100T1CR-CR at $0.1000 x3 (0 already bid at that price)
+2026-10-30 07:14:34,531 INFO Resting NO bid on KXOWGAME-26OCT291100T1CR-CR at $0.1000 x3 (KXOWGAME-26OCT291100T1CR): locks in $0.16 if it fills; hedge NO T1@0.8400
+2026-10-30 07:14:34,533 INFO Swept 16435 events: 0 taker trades, 1 new quotes, 2 resting

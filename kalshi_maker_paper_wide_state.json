@@ -684,29 +684,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNFLNEXTTEAM-26JDOWNS2",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Josh Downs Next Team",
-   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NONE",
-   "order_id": "paper-240-1793357063",
-   "price": "0.1200",
-   "sets": 2,
+   "event": "KXOWGAME-26OCT291100T1CR",
+   "series": "KXOWGAME",
+   "title": "OCS Korea Stage 3 2026: T1 vs. Crazy Raccoon",
+   "ticker": "KXOWGAME-26OCT291100T1CR-CR",
+   "order_id": "paper-243-1793358874",
+   "price": "0.1000",
+   "sets": 3,
    "done": 0,
-   "reserve": "4.9700",
+   "reserve": "2.8400",
    "multiplier": "1",
-   "placed": 1793357063.4858298,
+   "placed": 1793358874.531074,
    "hedge": [
     {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
-     "limit": "0.6800"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
-     "limit": "0.9300"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PIT",
-     "limit": "0.7100"
+     "ticker": "KXOWGAME-26OCT291100T1CR-T1",
+     "limit": "0.8400"
     }
    ]
   }
