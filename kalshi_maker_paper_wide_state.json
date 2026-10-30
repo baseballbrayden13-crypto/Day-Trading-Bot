@@ -554,5 +554,29 @@
    "closed": "2026-10-30T01:47:06.383447+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXSERIEAGAME-26NOV08INTCOM",
+   "series": "KXSERIEAGAME",
+   "title": "Inter vs Como",
+   "ticker": "KXSERIEAGAME-26NOV08INTCOM-COM",
+   "order_id": "paper-214-1793332110",
+   "price": "0.2600",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.5200",
+   "multiplier": "1",
+   "placed": 1793332110.0623841,
+   "hedge": [
+    {
+     "ticker": "KXSERIEAGAME-26NOV08INTCOM-INT",
+     "limit": "0.5200"
+    },
+    {
+     "ticker": "KXSERIEAGAME-26NOV08INTCOM-TIE",
+     "limit": "0.9500"
+    }
+   ]
+  }
+ ]
 }

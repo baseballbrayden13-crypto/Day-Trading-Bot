@@ -1160,3 +1160,11 @@
 2026-10-29 23:38:29,426 INFO Quote KXNFL1HFT-26OCT29CARGB cancelled (0/5 filled)
 2026-10-29 23:38:29,508 INFO Quote KXNFL4Q-26OCT29CARGB cancelled (0/5 filled)
 2026-10-29 23:43:30,130 INFO Swept 16317 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 23:48:30,062 INFO PAPER rest NO bid KXSERIEAGAME-26NOV08INTCOM-COM at $0.2600 x2 (0 already bid at that price)
+2026-10-29 23:48:30,062 INFO Resting NO bid on KXSERIEAGAME-26NOV08INTCOM-COM at $0.2600 x2 (KXSERIEAGAME-26NOV08INTCOM): locks in $0.48 if it fills; hedge NO INT@0.5200, TIE@0.9500
+2026-10-29 23:48:30,064 INFO Swept 16307 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 23:53:32,565 INFO Swept 16301 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 23:58:35,917 INFO Swept 16288 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 00:03:36,800 INFO Swept 16226 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 00:08:31,752 INFO Swept 16226 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 00:13:28,380 INFO Swept 16263 events: 0 taker trades, 0 new quotes, 1 resting
