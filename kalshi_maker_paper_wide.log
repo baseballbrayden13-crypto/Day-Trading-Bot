@@ -1244,3 +1244,14 @@
 2026-10-30 03:07:42,378 INFO Swept 16324 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 03:08:03,076 INFO Quote KXEBASKETBALLGAME-26OCT300252DIRKMELO cancelled (0/9 filled)
 2026-10-30 03:12:46,668 INFO Swept 16335 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 03:17:49,598 INFO Swept 16340 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 03:22:54,498 INFO Swept 16338 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 03:27:58,801 INFO Swept 16349 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 03:33:02,107 INFO PAPER rest NO bid KXEBASKETBALLGAME-26OCT300320ZACHMICK-ZACH at $0.5300 x1 (0 already bid at that price)
+2026-10-30 03:33:02,107 INFO Resting NO bid on KXEBASKETBALLGAME-26OCT300320ZACHMICK-ZACH at $0.5300 x1 (KXEBASKETBALLGAME-26OCT300320ZACHMICK): locks in $0.20 if it fills; hedge NO MICK@0.2400
+2026-10-30 03:33:02,109 INFO Swept 16344 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 03:34:49,987 INFO PAPER KXEBASKETBALLGAME-26OCT300320ZACHMICK-ZACH NO bid at $0.5300: 1/1 filled by real trades
+2026-10-30 03:34:50,053 INFO PAPER buy 1 NO KXEBASKETBALLGAME-26OCT300320ZACHMICK-MICK at up to $0.3300: filled 1
+2026-10-30 03:34:50,053 INFO Quote KXEBASKETBALLGAME-26OCT300320ZACHMICK filled 1: hedged, locks in $0.11
+2026-10-30 03:38:04,489 INFO Swept 16348 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 03:43:08,633 INFO Swept 16347 events: 0 taker trades, 0 new quotes, 0 resting

@@ -72,6 +72,30 @@
      "limit": "0.8400"
     }
    ]
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT300320ZACHMICK",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Indiana Pacers (Zach) vs New Orleans Pelicans (Mick)",
+   "sets": 1,
+   "outlay": "0.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-10-30T07:34:50.053840+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT300320ZACHMICK-ZACH",
+     "side": "no",
+     "count": 1,
+     "limit": "0.5300"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT300320ZACHMICK-MICK",
+     "side": "no",
+     "count": 1,
+     "limit": "0.3300"
+    }
+   ]
   }
  ],
  "closed": [

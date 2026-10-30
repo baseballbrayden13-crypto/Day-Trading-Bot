@@ -3190,5 +3190,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-229-1793345582": {
+  "id": "paper-229-1793345582",
+  "ticker": "KXEBASKETBALLGAME-26OCT300320ZACHMICK-ZACH",
+  "price": "0.5300",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793345582.1051188,
+  "checked": 1793345689.9212067,
+  "expires": 1793347382,
+  "through": 38,
+  "at_price": 0,
+  "filled": 1,
+  "status": "executed"
  }
 }
