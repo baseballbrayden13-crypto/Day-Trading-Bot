@@ -1588,3 +1588,24 @@
 2026-10-30 14:24:40,667 INFO Swept 17082 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-30 14:29:44,059 INFO Swept 17084 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-30 14:29:49,062 INFO Stopped; all quotes cancelled.
+2026-10-30 14:40:08,639 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-10-30 14:42:18,192 INFO PAPER rest NO bid KXVALORANTMAP-26OCT301400SRGCM8GC-1-M8GC at $0.7900 x5 (0 already bid at that price)
+2026-10-30 14:42:18,192 INFO Resting NO bid on KXVALORANTMAP-26OCT301400SRGCM8GC-1-M8GC at $0.7900 x5 (KXVALORANTMAP-26OCT301400SRGCM8GC-1): locks in $0.28 if it fills; hedge NO SRGC@0.1400
+2026-10-30 14:42:18,195 INFO Swept 17065 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 14:42:38,486 INFO Quote KXVALORANTMAP-26OCT301400SRGCM8GC-1 cancelled (0/5 filled)
+2026-10-30 14:47:23,478 INFO PAPER rest NO bid KXELHGAME-26OCT301300BILHCR-BIL at $0.6700 x5 (0 already bid at that price)
+2026-10-30 14:47:23,478 INFO Resting NO bid on KXELHGAME-26OCT301300BILHCR-BIL at $0.6700 x5 (KXELHGAME-26OCT301300BILHCR): locks in $0.21 if it fills; hedge NO HCR@0.2700
+2026-10-30 14:47:23,481 INFO Swept 17066 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 14:47:33,609 INFO PAPER KXELHGAME-26OCT301300BILHCR-BIL NO bid at $0.6700: 4/5 filled by real trades
+2026-10-30 14:47:33,637 INFO PAPER buy 4 NO KXELHGAME-26OCT301300BILHCR-HCR at up to $0.2700: filled 4
+2026-10-30 14:47:33,637 INFO Quote KXELHGAME-26OCT301300BILHCR filled 4: hedged, locks in $0.16
+2026-10-30 14:47:33,684 INFO PAPER KXELHGAME-26OCT301300BILHCR-BIL NO bid at $0.6700: 4/5 filled by real trades
+2026-10-30 14:47:33,690 INFO Quote KXELHGAME-26OCT301300BILHCR cancelled (4/5 filled)
+2026-10-30 14:52:23,470 INFO Swept 17058 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 14:57:27,829 INFO PAPER rest NO bid KXOWGAME-26OCT301600KAFETL-TL at $0.0700 x3 (25 already bid at that price)
+2026-10-30 14:57:27,829 INFO Resting NO bid on KXOWGAME-26OCT301600KAFETL-TL at $0.07 x3 (KXOWGAME-26OCT301600KAFETL): locks in $0.11 if it fills; hedge NO KAFE@0.8800
+2026-10-30 14:57:27,832 INFO Swept 17047 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 15:02:25,964 INFO PAPER BET daily_safest: 1 NO KXRAIN-26OCT30-STL at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-10-30 15:02:25,966 INFO Swept 17021 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 15:02:26,048 INFO Quote KXOWGAME-26OCT301600KAFETL cancelled (0/3 filled)
+2026-10-30 15:07:27,568 INFO Swept 17006 events: 0 taker trades, 0 new quotes, 0 resting

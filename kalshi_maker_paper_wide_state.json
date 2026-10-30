@@ -96,6 +96,30 @@
      "limit": "0.0800"
     }
    ]
+  },
+  {
+   "event": "KXELHGAME-26OCT301300BILHCR",
+   "series": "KXELHGAME",
+   "title": "Bili Tygri Liberec vs HC Rytiri Kladno",
+   "sets": 4,
+   "outlay": "3.8400",
+   "locked_profit": "0.1600",
+   "opened": "2026-10-30T18:47:33.637336+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXELHGAME-26OCT301300BILHCR-BIL",
+     "side": "no",
+     "count": 4,
+     "limit": "0.6700"
+    },
+    {
+     "ticker": "KXELHGAME-26OCT301300BILHCR-HCR",
+     "side": "no",
+     "count": 4,
+     "limit": "0.2700"
+    }
+   ]
   }
  ],
  "closed": [
