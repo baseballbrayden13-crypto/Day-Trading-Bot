@@ -1139,3 +1139,11 @@
 2026-10-29 22:43:00,471 INFO PAPER rest NO bid KXMLBEOTY-26-MARN at $0.5400 x1 (0 already bid at that price)
 2026-10-29 22:43:00,471 INFO Resting NO bid on KXMLBEOTY-26-MARN at $0.5400 x1 (KXMLBEOTY-26): locks in $0.11 if it fills; hedge NO CGET@0.3300, ENEA@0.9800
 2026-10-29 22:43:00,474 INFO Swept 16420 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-29 22:48:04,567 INFO Swept 16405 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 22:53:09,023 INFO Swept 16395 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 22:58:12,333 INFO Swept 16379 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 23:03:11,931 INFO Swept 16368 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 23:08:19,966 INFO Swept 16360 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 23:13:22,748 INFO PAPER rest NO bid KXNFLRACE-26OCT29CARGB-35-GB at $0.5200 x4 (0 already bid at that price)
+2026-10-29 23:13:22,749 INFO Resting NO bid on KXNFLRACE-26OCT29CARGB-35-GB at $0.5200 x4 (KXNFLRACE-26OCT29CARGB-35): locks in $1.68 if it fills; hedge NO NONE@0.0500
+2026-10-29 23:13:22,751 INFO Swept 16358 events: 0 taker trades, 1 new quotes, 3 resting
