@@ -1,5 +1,5 @@
 {
- "realized": "0.9600",
+ "realized": "1.0900",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -22,30 +22,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.5700"
-    }
-   ]
-  },
-  {
-   "event": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB",
-   "series": "KXATPCHALLENGERDOUBLES",
-   "title": "Bagnis / Gomez vs Magadan / Zeballos",
-   "sets": 1,
-   "outlay": "0.8700",
-   "locked_profit": "0.1300",
-   "opened": "2026-10-29T21:22:19.586352+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB-MAGZEB",
-     "side": "no",
-     "count": 1,
-     "limit": "0.2100"
-    },
-    {
-     "ticker": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB-BAGGOM",
-     "side": "no",
-     "count": 1,
-     "limit": "0.6300"
     }
    ]
   },
@@ -785,48 +761,52 @@
    "paid": "4",
    "pnl": "0.1600",
    "closed": "2026-10-30T19:32:10.686256+00:00"
+  },
+  {
+   "event": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB",
+   "series": "KXATPCHALLENGERDOUBLES",
+   "title": "Bagnis / Gomez vs Magadan / Zeballos",
+   "sets": 1,
+   "outlay": "0.8700",
+   "locked_profit": "0.1300",
+   "opened": "2026-10-29T21:22:19.586352+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB-MAGZEB",
+     "side": "no",
+     "count": 1,
+     "limit": "0.2100"
+    },
+    {
+     "ticker": "KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB-BAGGOM",
+     "side": "no",
+     "count": 1,
+     "limit": "0.6300"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.1300",
+   "closed": "2026-10-30T20:18:18.520758+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXATP-26VIENNA",
-   "series": "KXATP",
-   "title": "ATP Vienna Winner",
-   "ticker": "KXATP-26VIENNA-ZVE",
-   "order_id": "paper-272-1793390898",
-   "price": "0.5500",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.7900",
-   "multiplier": "1",
-   "placed": 1793390898.2370968,
-   "hedge": [
-    {
-     "ticker": "KXATP-26VIENNA-ALC",
-     "limit": "0.4800"
-    },
-    {
-     "ticker": "KXATP-26VIENNA-MED",
-     "limit": "0.8300"
-    }
-   ]
-  },
-  {
-   "event": "KXCS2GAME-26OCT311400FOKBAKS",
-   "series": "KXCS2GAME",
-   "title": "FOKUS vs. BakS eSports",
-   "ticker": "KXCS2GAME-26OCT311400FOKBAKS-BAKS",
-   "order_id": "paper-273-1793390898",
-   "price": "0.1100",
+   "event": "KXNCAAWVMATCH-26NOV011400UCFARIZ",
+   "series": "KXNCAAWVMATCH",
+   "title": "Central Florida vs Arizona",
+   "ticker": "KXNCAAWVMATCH-26NOV011400UCFARIZ-UCF",
+   "order_id": "paper-275-1793392119",
+   "price": "0.1400",
    "sets": 1,
    "done": 0,
-   "reserve": "0.5000",
+   "reserve": "0.7500",
    "multiplier": "1",
-   "placed": 1793390898.2632964,
+   "placed": 1793392119.1017675,
    "hedge": [
     {
-     "ticker": "KXCS2GAME-26OCT311400FOKBAKS-FOK",
-     "limit": "0.3600"
+     "ticker": "KXNCAAWVMATCH-26NOV011400UCFARIZ-ARIZ",
+     "limit": "0.5800"
     }
    ]
   }

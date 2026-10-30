@@ -1633,3 +1633,15 @@
 2026-10-30 16:08:18,263 INFO PAPER rest NO bid KXCS2GAME-26OCT311400FOKBAKS-BAKS at $0.1100 x1 (0 already bid at that price)
 2026-10-30 16:08:18,263 INFO Resting NO bid on KXCS2GAME-26OCT311400FOKBAKS-BAKS at $0.1100 x1 (KXCS2GAME-26OCT311400FOKBAKS): locks in $0.50 if it fills; hedge NO FOK@0.3600
 2026-10-30 16:08:18,266 INFO Swept 16975 events: 0 taker trades, 2 new quotes, 3 resting
+2026-10-30 16:13:30,286 INFO PAPER rest NO bid KXLOWTOKC-26OCT30-B59.5 at $0.5500 x2 (0 already bid at that price)
+2026-10-30 16:13:30,286 INFO Resting NO bid on KXLOWTOKC-26OCT30-B59.5 at $0.5500 x2 (KXLOWTOKC-26OCT30): locks in $0.18 if it fills; hedge NO B57.5@0.9900, B61.5@0.3400
+2026-10-30 16:13:30,289 INFO Swept 17054 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 16:18:18,520 INFO Settled KXATPCHALLENGERDOUBLES-26OCT29BAGGOMMAGZEB: paid $1, profit $0.13
+2026-10-30 16:18:36,383 INFO Swept 17069 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-30 16:23:38,115 INFO Swept 17067 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-30 16:28:39,101 INFO PAPER rest NO bid KXNCAAWVMATCH-26NOV011400UCFARIZ-UCF at $0.1400 x1 (0 already bid at that price)
+2026-10-30 16:28:39,101 INFO Resting NO bid on KXNCAAWVMATCH-26NOV011400UCFARIZ-UCF at $0.1400 x1 (KXNCAAWVMATCH-26NOV011400UCFARIZ): locks in $0.25 if it fills; hedge NO ARIZ@0.5800
+2026-10-30 16:28:39,104 INFO Swept 17053 events: 0 taker trades, 1 new quotes, 4 resting
+2026-10-30 16:33:45,743 INFO Swept 17061 events: 0 taker trades, 0 new quotes, 4 resting
+2026-10-30 16:38:47,437 INFO Swept 17050 events: 0 taker trades, 0 new quotes, 4 resting
+2026-10-30 16:40:09,223 INFO Quote KXLOWTOKC-26OCT30 cancelled (0/2 filled)
