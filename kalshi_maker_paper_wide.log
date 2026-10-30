@@ -1194,3 +1194,16 @@
 2026-10-30 01:13:47,950 INFO Resting NO bid on KXARGLNBGAME-26OCT291700INDOBT-IND at $0.1900 x4 (KXARGLNBGAME-26OCT291700INDOBT): locks in $0.12 if it fills; hedge NO OBT@0.7600
 2026-10-30 01:13:47,952 INFO Swept 16277 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-30 01:13:58,290 INFO Quote KXARGLNBGAME-26OCT291700INDOBT cancelled (0/4 filled)
+2026-10-30 01:18:48,985 INFO PAPER rest NO bid KXARGLNBGAME-26OCT291700INDOBT-IND at $0.1800 x4 (0 already bid at that price)
+2026-10-30 01:18:48,985 INFO Resting NO bid on KXARGLNBGAME-26OCT291700INDOBT-IND at $0.1800 x4 (KXARGLNBGAME-26OCT291700INDOBT): locks in $0.16 if it fills; hedge NO OBT@0.7600
+2026-10-30 01:18:48,987 INFO Swept 16273 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 01:18:59,328 INFO Quote KXARGLNBGAME-26OCT291700INDOBT cancelled (0/4 filled)
+2026-10-30 01:23:49,404 INFO PAPER rest NO bid KXARGLNBGAME-26OCT291700INDOBT-IND at $0.1300 x3 (5 already bid at that price)
+2026-10-30 01:23:49,404 INFO Resting NO bid on KXARGLNBGAME-26OCT291700INDOBT-IND at $0.13 x3 (KXARGLNBGAME-26OCT291700INDOBT): locks in $0.10 if it fills; hedge NO OBT@0.8200
+2026-10-30 01:23:49,406 INFO Swept 16266 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 01:28:51,759 INFO Swept 16272 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 01:33:52,134 INFO Swept 16275 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 01:38:51,051 INFO Swept 16277 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 01:43:56,036 INFO PAPER rest NO bid KXLOWTDEN-26OCT29-B35.5 at $0.7900 x5 (0 already bid at that price)
+2026-10-30 01:43:56,037 INFO Resting NO bid on KXLOWTDEN-26OCT29-B35.5 at $0.7900 x5 (KXLOWTDEN-26OCT29): locks in $0.23 if it fills; hedge NO B37.5@0.1500
+2026-10-30 01:43:56,039 INFO Swept 16275 events: 0 taker trades, 1 new quotes, 2 resting

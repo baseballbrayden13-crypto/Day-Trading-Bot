@@ -556,21 +556,40 @@
  ],
  "quotes": [
   {
-   "event": "KXDOTA2GAME-26OCT300600RBNEMA",
-   "series": "KXDOTA2GAME",
-   "title": "Royal Bear vs. Team Nemesis Academy",
-   "ticker": "KXDOTA2GAME-26OCT300600RBNEMA-NEMA",
-   "order_id": "paper-215-1793336317",
-   "price": "0.88",
-   "sets": 5,
+   "event": "KXARGLNBGAME-26OCT291700INDOBT",
+   "series": "KXARGLNBGAME",
+   "title": "Independiente de Oliva vs Obera Tenis Club",
+   "ticker": "KXARGLNBGAME-26OCT291700INDOBT-IND",
+   "order_id": "paper-221-1793337829",
+   "price": "0.13",
+   "sets": 3,
    "done": 0,
-   "reserve": "4.8900",
+   "reserve": "2.9000",
    "multiplier": "1",
-   "placed": 1793336317.888269,
+   "placed": 1793337829.4042938,
    "hedge": [
     {
-     "ticker": "KXDOTA2GAME-26OCT300600RBNEMA-RB",
-     "limit": "0.0900"
+     "ticker": "KXARGLNBGAME-26OCT291700INDOBT-OBT",
+     "limit": "0.8200"
+    }
+   ]
+  },
+  {
+   "event": "KXLOWTDEN-26OCT29",
+   "series": "KXLOWTDEN",
+   "title": "Lowest temperature in Denver on Oct 29, 2026?",
+   "ticker": "KXLOWTDEN-26OCT29-B35.5",
+   "order_id": "paper-222-1793339036",
+   "price": "0.7900",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.7700",
+   "multiplier": "1",
+   "placed": 1793339036.0371323,
+   "hedge": [
+    {
+     "ticker": "KXLOWTDEN-26OCT29-B37.5",
+     "limit": "0.1500"
     }
    ]
   }
