@@ -1484,3 +1484,14 @@
 2026-10-30 09:32:11,294 INFO Swept 16623 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 09:37:14,472 INFO Swept 16620 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 09:42:16,883 INFO Swept 16609 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 09:47:17,692 INFO Swept 16608 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 09:52:19,493 INFO PAPER rest NO bid KXITFMATCH-26OCT28LIUCOL-LIU at $0.0800 x5 (142 already bid at that price)
+2026-10-30 09:52:19,494 INFO Resting NO bid on KXITFMATCH-26OCT28LIUCOL-LIU at $0.08 x5 (KXITFMATCH-26OCT28LIUCOL): locks in $0.10 if it fills; hedge NO COL@0.8900
+2026-10-30 09:52:19,496 INFO Swept 16602 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 09:57:18,956 INFO Swept 16598 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 10:02:23,253 INFO PAPER rest NO bid KXWTADOUBLES-26OCT30KUDTIMTJEWIL-TJEWIL at $0.3700 x3 (0 already bid at that price)
+2026-10-30 10:02:23,253 INFO Resting NO bid on KXWTADOUBLES-26OCT30KUDTIMTJEWIL-TJEWIL at $0.3700 x3 (KXWTADOUBLES-26OCT30KUDTIMTJEWIL): locks in $0.24 if it fills; hedge NO KUDTIM@0.5300
+2026-10-30 10:02:23,256 INFO Swept 16610 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 10:03:00,348 INFO Quote KXWTADOUBLES-26OCT30KUDTIMTJEWIL cancelled (0/3 filled)
+2026-10-30 10:07:28,468 INFO Swept 16642 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 10:12:32,972 INFO Swept 16738 events: 0 taker trades, 0 new quotes, 1 resting
