@@ -1269,3 +1269,11 @@
 2026-10-30 04:06:05,135 INFO Quote KXOWGAME-26OCT291100SEIFAL cancelled (1/5 filled)
 2026-10-30 04:08:32,705 INFO Swept 16358 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-30 04:13:35,261 INFO Swept 16356 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 04:18:36,153 INFO Swept 16355 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 04:23:37,981 INFO PAPER rest NO bid KXITFMATCH-26OCT28COVDEL-DEL at $0.8700 x5 (18 already bid at that price)
+2026-10-30 04:23:37,981 INFO Resting NO bid on KXITFMATCH-26OCT28COVDEL-DEL at $0.87 x5 (KXITFMATCH-26OCT28COVDEL): locks in $0.10 if it fills; hedge NO COV@0.1000
+2026-10-30 04:23:37,983 INFO Swept 16351 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 04:28:39,161 INFO Swept 16355 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 04:33:37,781 INFO Swept 16350 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 04:38:42,575 INFO Swept 16356 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 04:43:43,012 INFO Swept 16347 events: 0 taker trades, 0 new quotes, 1 resting

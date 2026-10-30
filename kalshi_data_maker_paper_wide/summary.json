@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T08:11:37+00:00",
+ "updated": "2026-10-30T08:41:47+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -13,7 +13,7 @@
  "stray_positions": 0,
  "closed_trades": 16,
  "trades_this_loop": 0,
- "events_swept": 16356,
+ "events_swept": 16347,
  "found_this_loop": 0,
  "top_series": [],
  "problems": 0,

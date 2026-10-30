@@ -632,5 +632,25 @@
    "closed": "2026-10-30T07:48:04.360817+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXITFMATCH-26OCT28COVDEL",
+   "series": "KXITFMATCH",
+   "title": "Covato vs Delgado",
+   "ticker": "KXITFMATCH-26OCT28COVDEL-DEL",
+   "order_id": "paper-231-1793348617",
+   "price": "0.87",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.9000",
+   "multiplier": "1",
+   "placed": 1793348617.9811857,
+   "hedge": [
+    {
+     "ticker": "KXITFMATCH-26OCT28COVDEL-COV",
+     "limit": "0.1000"
+    }
+   ]
+  }
+ ]
 }
