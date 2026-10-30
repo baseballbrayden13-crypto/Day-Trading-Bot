@@ -1086,3 +1086,15 @@
 2026-10-29 20:23:36,081 INFO Swept 16339 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-29 20:28:37,773 INFO Swept 16351 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-29 20:28:42,944 INFO Stopped; all quotes cancelled.
+2026-10-29 20:44:04,611 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-10-29 20:46:52,492 INFO PAPER rest NO bid KXLOLFBARON-26OCT281600BLGTES-3-BLG at $0.0200 x5 (0 already bid at that price)
+2026-10-29 20:46:52,493 INFO Resting NO bid on KXLOLFBARON-26OCT281600BLGTES-3-BLG at $0.0200 x5 (KXLOLFBARON-26OCT281600BLGTES-3): locks in $0.26 if it fills; hedge NO TES@0.9200
+2026-10-29 20:46:52,495 INFO Swept 16384 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-29 20:52:00,442 INFO Swept 16377 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 20:57:01,662 INFO PAPER rest NO bid KXDOGE-26OCT2921-B0.092 at $0.1900 x12 (0 already bid at that price)
+2026-10-29 20:57:01,662 INFO Resting NO bid on KXDOGE-26OCT2921-B0.092 at $0.1900 x12 (KXDOGE-26OCT2921): locks in $7.76 if it fills; hedge NO B0.072@0.3400
+2026-10-29 20:57:01,665 INFO Swept 16382 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-29 21:02:01,545 INFO Swept 16375 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 21:02:01,670 INFO Quote KXDOGE-26OCT2921 cancelled (0/12 filled)
+2026-10-29 21:07:04,710 INFO Swept 16369 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 21:12:10,214 INFO Swept 16405 events: 0 taker trades, 0 new quotes, 1 resting

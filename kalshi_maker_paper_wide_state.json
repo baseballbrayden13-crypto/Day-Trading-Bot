@@ -534,5 +534,25 @@
    "closed": "2026-10-29T22:17:29.185626+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLOLFBARON-26OCT281600BLGTES-3",
+   "series": "KXLOLFBARON",
+   "title": "Bilibili Gaming vs. Top Esports: Game 3 First Baron",
+   "ticker": "KXLOLFBARON-26OCT281600BLGTES-3-BLG",
+   "order_id": "paper-202-1793321212",
+   "price": "0.0200",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.7400",
+   "multiplier": "1",
+   "placed": 1793321212.4931,
+   "hedge": [
+    {
+     "ticker": "KXLOLFBARON-26OCT281600BLGTES-3-TES",
+     "limit": "0.9400"
+    }
+   ]
+  }
+ ]
 }
