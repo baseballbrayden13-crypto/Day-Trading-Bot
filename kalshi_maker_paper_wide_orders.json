@@ -3442,5 +3442,19 @@
   "at_price": 0,
   "filled": 1,
   "status": "canceled"
+ },
+ "paper-247-1793362812": {
+  "id": "paper-247-1793362812",
+  "ticker": "KXLOWTSDF-26OCT30-B50.5",
+  "price": "0.7400",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793362812.7474687,
+  "checked": 1793363449.251496,
+  "expires": 1793364612,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

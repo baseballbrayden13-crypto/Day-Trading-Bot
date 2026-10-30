@@ -1461,3 +1461,11 @@
 2026-10-30 08:05:32,967 INFO Quote KXLOWTATL-26OCT30 cancelled (1/4 filled)
 2026-10-30 08:10:05,318 INFO Swept 16541 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-30 08:15:08,783 INFO Swept 16548 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 08:20:12,750 INFO PAPER rest NO bid KXLOWTSDF-26OCT30-B50.5 at $0.7400 x2 (0 already bid at that price)
+2026-10-30 08:20:12,750 INFO Resting NO bid on KXLOWTSDF-26OCT30-B50.5 at $0.7400 x2 (KXLOWTSDF-26OCT30): locks in $0.30 if it fills; hedge NO B52.5@0.9700, B54.5@0.1200
+2026-10-30 08:20:12,752 INFO Swept 16562 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 08:24:58,219 INFO Settled KXOWGAME-26OCT291100T1CR: paid $1, profit $0.02
+2026-10-30 08:24:58,339 INFO Settled KXOWGAME-26OCT291100T1CR: paid $3, profit $0.10
+2026-10-30 08:25:16,244 INFO Swept 16556 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 08:30:18,450 INFO Swept 16558 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 08:30:49,328 INFO Stopped; all quotes cancelled.

@@ -1,5 +1,5 @@
 {
- "realized": "0.6800",
+ "realized": "0.8000",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -70,54 +70,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.8400"
-    }
-   ]
-  },
-  {
-   "event": "KXOWGAME-26OCT291100T1CR",
-   "series": "KXOWGAME",
-   "title": "OCS Korea Stage 3 2026: T1 vs. Crazy Raccoon",
-   "sets": 1,
-   "outlay": "0.9800",
-   "locked_profit": "0.0200",
-   "opened": "2026-10-30T11:47:17.203127+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXOWGAME-26OCT291100T1CR-T1",
-     "side": "no",
-     "count": 1,
-     "limit": "0.75"
-    },
-    {
-     "ticker": "KXOWGAME-26OCT291100T1CR-CR",
-     "side": "no",
-     "count": 1,
-     "limit": "0.2000"
-    }
-   ]
-  },
-  {
-   "event": "KXOWGAME-26OCT291100T1CR",
-   "series": "KXOWGAME",
-   "title": "OCS Korea Stage 3 2026: T1 vs. Crazy Raccoon",
-   "sets": 3,
-   "outlay": "2.9000",
-   "locked_profit": "0.1000",
-   "opened": "2026-10-30T11:57:53.924134+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXOWGAME-26OCT291100T1CR-T1",
-     "side": "no",
-     "count": 3,
-     "limit": "0.75"
-    },
-    {
-     "ticker": "KXOWGAME-26OCT291100T1CR-CR",
-     "side": "no",
-     "count": 3,
-     "limit": "0.2000"
     }
    ]
   },
@@ -752,6 +704,60 @@
    "paid": "4",
    "pnl": "0.4300",
    "closed": "2026-10-30T10:08:53.751381+00:00"
+  },
+  {
+   "event": "KXOWGAME-26OCT291100T1CR",
+   "series": "KXOWGAME",
+   "title": "OCS Korea Stage 3 2026: T1 vs. Crazy Raccoon",
+   "sets": 1,
+   "outlay": "0.9800",
+   "locked_profit": "0.0200",
+   "opened": "2026-10-30T11:47:17.203127+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXOWGAME-26OCT291100T1CR-T1",
+     "side": "no",
+     "count": 1,
+     "limit": "0.75"
+    },
+    {
+     "ticker": "KXOWGAME-26OCT291100T1CR-CR",
+     "side": "no",
+     "count": 1,
+     "limit": "0.2000"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.0200",
+   "closed": "2026-10-30T12:24:58.219812+00:00"
+  },
+  {
+   "event": "KXOWGAME-26OCT291100T1CR",
+   "series": "KXOWGAME",
+   "title": "OCS Korea Stage 3 2026: T1 vs. Crazy Raccoon",
+   "sets": 3,
+   "outlay": "2.9000",
+   "locked_profit": "0.1000",
+   "opened": "2026-10-30T11:57:53.924134+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXOWGAME-26OCT291100T1CR-T1",
+     "side": "no",
+     "count": 3,
+     "limit": "0.75"
+    },
+    {
+     "ticker": "KXOWGAME-26OCT291100T1CR-CR",
+     "side": "no",
+     "count": 3,
+     "limit": "0.2000"
+    }
+   ],
+   "paid": "3",
+   "pnl": "0.1000",
+   "closed": "2026-10-30T12:24:58.339063+00:00"
   }
  ],
  "quotes": []
