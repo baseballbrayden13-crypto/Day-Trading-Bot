@@ -1546,3 +1546,20 @@
 2026-10-30 12:38:43,927 INFO Resting NO bid on KXNEXTTEAMNHL-26DLARKIN71-MTL at $0.7500 x1 (KXNEXTTEAMNHL-26DLARKIN71): locks in $0.11 if it fills; hedge NO DET@0.6700, MIN@0.6800, NJD@0.7200
 2026-10-30 12:38:43,930 INFO Swept 16916 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-30 12:43:56,555 INFO Swept 16914 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 12:48:48,566 INFO PAPER rest NO bid KXLIGAPROMATCH-26OCT301230MINNAU-MIN at $0.7700 x6 (0 already bid at that price)
+2026-10-30 12:48:48,566 INFO Resting NO bid on KXLIGAPROMATCH-26OCT301230MINNAU-MIN at $0.7700 x6 (KXLIGAPROMATCH-26OCT301230MINNAU): locks in $1.10 if it fills; hedge NO NAU@0.0400
+2026-10-30 12:48:48,570 INFO Swept 16911 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 12:49:15,210 INFO Quote KXLIGAPROMATCH-26OCT301230MINNAU cancelled (0/6 filled)
+2026-10-30 12:53:50,894 INFO PAPER rest NO bid KXLOWTPHX-26OCT30-B64.5 at $0.3400 x1 (0 already bid at that price)
+2026-10-30 12:53:50,894 INFO Resting NO bid on KXLOWTPHX-26OCT30-B64.5 at $0.3400 x1 (KXLOWTPHX-26OCT30): locks in $0.11 if it fills; hedge NO B60.5@0.9800, B62.5@0.8300, B66.5@0.6900
+2026-10-30 12:53:50,897 INFO Swept 16905 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 12:54:43,631 INFO Quote KXNEXTTEAMNHL-26DLARKIN71 cancelled (0/1 filled)
+2026-10-30 12:58:55,487 INFO PAPER rest NO bid KXNEXTTEAMNHL-26DLARKIN71-MTL at $0.7500 x1 (0 already bid at that price)
+2026-10-30 12:58:55,487 INFO Resting NO bid on KXNEXTTEAMNHL-26DLARKIN71-MTL at $0.7500 x1 (KXNEXTTEAMNHL-26DLARKIN71): locks in $0.12 if it fills; hedge NO DET@0.6600, MIN@0.6800, NJD@0.7200
+2026-10-30 12:58:55,490 INFO Swept 16902 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 13:03:54,417 INFO PAPER rest NO bid KXKHLGAME-26OCT301200SPASEV-SEV at $0.5400 x2 (0 already bid at that price)
+2026-10-30 13:03:54,417 INFO Resting NO bid on KXKHLGAME-26OCT301200SPASEV-SEV at $0.5400 x2 (KXKHLGAME-26OCT301200SPASEV): locks in $0.15 if it fills; hedge NO SPA@0.3600
+2026-10-30 13:03:54,420 INFO Swept 16900 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 13:08:59,647 INFO Swept 16958 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-30 13:14:04,941 INFO Swept 17024 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-30 13:14:15,955 INFO Quote KXLOWTPHX-26OCT30 cancelled (0/1 filled)
