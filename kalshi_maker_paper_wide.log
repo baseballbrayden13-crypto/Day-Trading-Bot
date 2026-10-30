@@ -1147,3 +1147,16 @@
 2026-10-29 23:13:22,748 INFO PAPER rest NO bid KXNFLRACE-26OCT29CARGB-35-GB at $0.5200 x4 (0 already bid at that price)
 2026-10-29 23:13:22,749 INFO Resting NO bid on KXNFLRACE-26OCT29CARGB-35-GB at $0.5200 x4 (KXNFLRACE-26OCT29CARGB-35): locks in $1.68 if it fills; hedge NO NONE@0.0500
 2026-10-29 23:13:22,751 INFO Swept 16358 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-29 23:15:09,003 INFO Quote KXNFLRACE-26OCT29CARGB-35 cancelled (0/4 filled)
+2026-10-29 23:18:21,158 INFO Swept 16360 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-29 23:23:23,238 INFO PAPER rest NO bid KXNFL1HFT-26OCT29CARGB-GBCAR at $0.8700 x5 (0 already bid at that price)
+2026-10-29 23:23:23,238 INFO Resting NO bid on KXNFL1HFT-26OCT29CARGB-GBCAR at $0.8700 x5 (KXNFL1HFT-26OCT29CARGB): locks in $0.42 if it fills; hedge NO GBGB@0.0400
+2026-10-29 23:23:23,264 INFO PAPER rest NO bid KXNFL4Q-26OCT29CARGB-TIE at $0.9300 x5 (0 already bid at that price)
+2026-10-29 23:23:23,265 INFO Resting NO bid on KXNFL4Q-26OCT29CARGB-TIE at $0.9300 x5 (KXNFL4Q-26OCT29CARGB): locks in $0.23 if it fills; hedge NO CAR@0.0200
+2026-10-29 23:23:23,267 INFO Swept 16357 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-29 23:28:29,231 INFO Swept 16358 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 23:33:29,759 INFO Swept 16350 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 23:38:29,347 INFO Swept 16336 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-29 23:38:29,426 INFO Quote KXNFL1HFT-26OCT29CARGB cancelled (0/5 filled)
+2026-10-29 23:38:29,508 INFO Quote KXNFL4Q-26OCT29CARGB cancelled (0/5 filled)
+2026-10-29 23:43:30,130 INFO Swept 16317 events: 0 taker trades, 0 new quotes, 0 resting

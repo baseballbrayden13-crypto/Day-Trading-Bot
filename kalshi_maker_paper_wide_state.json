@@ -554,25 +554,5 @@
    "closed": "2026-10-30T01:47:06.383447+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNFLRACE-26OCT29CARGB-35",
-   "series": "KXNFLRACE",
-   "title": "Carolina vs Green Bay: Race to 35 Points",
-   "ticker": "KXNFLRACE-26OCT29CARGB-35-GB",
-   "order_id": "paper-211-1793330002",
-   "price": "0.5200",
-   "sets": 4,
-   "done": 0,
-   "reserve": "2.3200",
-   "multiplier": "1",
-   "placed": 1793330002.7490308,
-   "hedge": [
-    {
-     "ticker": "KXNFLRACE-26OCT29CARGB-35-NONE",
-     "limit": "0.4000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
