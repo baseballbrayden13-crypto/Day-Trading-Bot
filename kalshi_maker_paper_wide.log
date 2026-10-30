@@ -1659,3 +1659,15 @@
 2026-10-30 16:59:18,821 INFO Quote KXSLBGAME-26OCT301530CHELIV cancelled (0/3 filled)
 2026-10-30 17:04:07,981 INFO Swept 16985 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 17:09:12,582 INFO Swept 16990 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 17:14:17,293 INFO PAPER rest NO bid KXCS2GAME-26OCT310900STA1WIN-STA at $0.8900 x5 (418 already bid at that price)
+2026-10-30 17:14:17,293 INFO Resting NO bid on KXCS2GAME-26OCT310900STA1WIN-STA at $0.89 x5 (KXCS2GAME-26OCT310900STA1WIN): locks in $0.11 if it fills; hedge NO 1WIN@0.0800
+2026-10-30 17:14:17,296 INFO Swept 16993 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 17:19:22,936 INFO PAPER rest NO bid KXBUNDESLIGASCORE-26OCT30SVEM05-SVE3M050 at $0.5400 x2 (0 already bid at that price)
+2026-10-30 17:19:22,937 INFO Resting NO bid on KXBUNDESLIGASCORE-26OCT30SVEM05-SVE3M050 at $0.5400 x2 (KXBUNDESLIGASCORE-26OCT30SVEM05): locks in $0.57 if it fills; hedge NO SVE4M050@0.1800, SVE4M051@0.9700
+2026-10-30 17:19:22,942 INFO Swept 16988 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 17:20:14,097 INFO Quote KXBUNDESLIGASCORE-26OCT30SVEM05 cancelled (0/2 filled)
+2026-10-30 17:24:24,192 INFO Swept 16977 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 17:29:24,012 INFO Swept 16971 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 17:34:29,760 INFO Swept 16959 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 17:34:29,839 INFO Quote KXCS2GAME-26OCT310900STA1WIN cancelled (0/5 filled)
+2026-10-30 17:39:33,396 INFO Swept 16954 events: 0 taker trades, 0 new quotes, 0 resting
