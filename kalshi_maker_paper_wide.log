@@ -1504,3 +1504,14 @@
 2026-10-30 10:32:52,435 INFO Swept 16740 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 10:37:51,765 INFO Swept 16736 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 10:42:57,324 INFO Swept 16733 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 10:47:56,094 INFO PAPER rest NO bid KXCS2MAP-26OCT301100OMEWRA-1-OME at $0.0600 x4 (0 already bid at that price)
+2026-10-30 10:47:56,094 INFO Resting NO bid on KXCS2MAP-26OCT301100OMEWRA-1-OME at $0.0600 x4 (KXCS2MAP-26OCT301100OMEWRA-1): locks in $0.15 if it fills; hedge NO WRA@0.9100
+2026-10-30 10:47:56,096 INFO Swept 16728 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 10:49:46,661 INFO Quote KXCS2MAP-26OCT301100OMEWRA-1 cancelled (0/4 filled)
+2026-10-30 10:52:57,794 INFO Swept 16740 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 10:58:01,742 INFO Swept 16724 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 11:03:05,357 INFO Swept 16705 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 11:08:09,374 INFO PAPER rest NO bid KXATPCHALLENGERDOUBLES-26OCT29HIDKESBRIZOR-BRIZOR at $0.8000 x5 (84 already bid at that price)
+2026-10-30 11:08:09,374 INFO Resting NO bid on KXATPCHALLENGERDOUBLES-26OCT29HIDKESBRIZOR-BRIZOR at $0.80 x5 (KXATPCHALLENGERDOUBLES-26OCT29HIDKESBRIZOR): locks in $0.13 if it fills; hedge NO HIDKES@0.1600
+2026-10-30 11:08:09,377 INFO Swept 16774 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 11:13:12,161 INFO Swept 16865 events: 0 taker trades, 0 new quotes, 1 resting

@@ -762,21 +762,21 @@
  ],
  "quotes": [
   {
-   "event": "KXITFWDOUBLES-26OCT30DARROUARSLAC",
-   "series": "KXITFWDOUBLES",
-   "title": "Dartron / Rouvroy vs Arseneault / Lacasse",
-   "ticker": "KXITFWDOUBLES-26OCT30DARROUARSLAC-DARROU",
-   "order_id": "paper-251-1793370162",
-   "price": "0.32",
-   "sets": 4,
+   "event": "KXATPCHALLENGERDOUBLES-26OCT29HIDKESBRIZOR",
+   "series": "KXATPCHALLENGERDOUBLES",
+   "title": "Hidalgo / Kestelboim vs Britto / Zormann",
+   "ticker": "KXATPCHALLENGERDOUBLES-26OCT29HIDKESBRIZOR-BRIZOR",
+   "order_id": "paper-253-1793372889",
+   "price": "0.80",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.9000",
+   "reserve": "4.8700",
    "multiplier": "1",
-   "placed": 1793370162.5595188,
+   "placed": 1793372889.3748178,
    "hedge": [
     {
-     "ticker": "KXITFWDOUBLES-26OCT30DARROUARSLAC-ARSLAC",
-     "limit": "0.6400"
+     "ticker": "KXATPCHALLENGERDOUBLES-26OCT29HIDKESBRIZOR-HIDKES",
+     "limit": "0.1600"
     }
    ]
   }
