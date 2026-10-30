@@ -72,6 +72,78 @@
      "limit": "0.8400"
     }
    ]
+  },
+  {
+   "event": "KXOWGAME-26OCT291100T1CR",
+   "series": "KXOWGAME",
+   "title": "OCS Korea Stage 3 2026: T1 vs. Crazy Raccoon",
+   "sets": 1,
+   "outlay": "0.9800",
+   "locked_profit": "0.0200",
+   "opened": "2026-10-30T11:47:17.203127+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXOWGAME-26OCT291100T1CR-T1",
+     "side": "no",
+     "count": 1,
+     "limit": "0.75"
+    },
+    {
+     "ticker": "KXOWGAME-26OCT291100T1CR-CR",
+     "side": "no",
+     "count": 1,
+     "limit": "0.2000"
+    }
+   ]
+  },
+  {
+   "event": "KXOWGAME-26OCT291100T1CR",
+   "series": "KXOWGAME",
+   "title": "OCS Korea Stage 3 2026: T1 vs. Crazy Raccoon",
+   "sets": 3,
+   "outlay": "2.9000",
+   "locked_profit": "0.1000",
+   "opened": "2026-10-30T11:57:53.924134+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXOWGAME-26OCT291100T1CR-T1",
+     "side": "no",
+     "count": 3,
+     "limit": "0.75"
+    },
+    {
+     "ticker": "KXOWGAME-26OCT291100T1CR-CR",
+     "side": "no",
+     "count": 3,
+     "limit": "0.2000"
+    }
+   ]
+  },
+  {
+   "event": "KXLOWTATL-26OCT30",
+   "series": "KXLOWTATL",
+   "title": "Lowest temperature in Atlanta on Oct 30, 2026?",
+   "sets": 1,
+   "outlay": "0.9800",
+   "locked_profit": "0.0200",
+   "opened": "2026-10-30T12:05:32.834098+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLOWTATL-26OCT30-B53.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.88"
+    },
+    {
+     "ticker": "KXLOWTATL-26OCT30-B55.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0800"
+    }
+   ]
   }
  ],
  "closed": [
@@ -682,48 +754,5 @@
    "closed": "2026-10-30T10:08:53.751381+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXUEFANLGAME-26NOV12ARMCYP",
-   "series": "KXUEFANLGAME",
-   "title": "Armenia vs Cyprus",
-   "ticker": "KXUEFANLGAME-26NOV12ARMCYP-ARM",
-   "order_id": "paper-244-1793359479",
-   "price": "0.43",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.8900",
-   "multiplier": "1",
-   "placed": 1793359479.0841224,
-   "hedge": [
-    {
-     "ticker": "KXUEFANLGAME-26NOV12ARMCYP-CYP",
-     "limit": "0.7300"
-    },
-    {
-     "ticker": "KXUEFANLGAME-26NOV12ARMCYP-TIE",
-     "limit": "0.7500"
-    }
-   ]
-  },
-  {
-   "event": "KXOWGAME-26OCT291100T1CR",
-   "series": "KXOWGAME",
-   "title": "OCS Korea Stage 3 2026: T1 vs. Crazy Raccoon",
-   "ticker": "KXOWGAME-26OCT291100T1CR-T1",
-   "order_id": "paper-245-1793360689",
-   "price": "0.75",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.8700",
-   "multiplier": "1",
-   "placed": 1793360689.3334606,
-   "hedge": [
-    {
-     "ticker": "KXOWGAME-26OCT291100T1CR-CR",
-     "limit": "0.2000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

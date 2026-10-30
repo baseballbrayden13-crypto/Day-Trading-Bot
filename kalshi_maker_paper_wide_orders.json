@@ -3408,12 +3408,12 @@
   "count": 2,
   "ahead": 20,
   "placed": 1793359479.0812533,
-  "checked": 1793360773.6769683,
+  "checked": 1793361279,
   "expires": 1793361279,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-245-1793360689": {
   "id": "paper-245-1793360689",
@@ -3422,11 +3422,25 @@
   "count": 4,
   "ahead": 6,
   "placed": 1793360689.330565,
-  "checked": 1793360773.8118525,
+  "checked": 1793361473.7863252,
   "expires": 1793362489,
-  "through": 0,
+  "through": 55,
+  "at_price": 6,
+  "filled": 4,
+  "status": "executed"
+ },
+ "paper-246-1793361600": {
+  "id": "paper-246-1793361600",
+  "ticker": "KXLOWTATL-26OCT30-B53.5",
+  "price": "0.8800",
+  "count": 4,
+  "ahead": 50,
+  "placed": 1793361600.2813387,
+  "checked": 1793361932.8974776,
+  "expires": 1793363400,
+  "through": 1,
   "at_price": 0,
-  "filled": 0,
-  "status": "resting"
+  "filled": 1,
+  "status": "canceled"
  }
 }
