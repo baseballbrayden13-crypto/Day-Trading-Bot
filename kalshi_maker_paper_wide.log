@@ -1690,3 +1690,16 @@
 2026-10-30 18:04:55,928 INFO PAPER buy 5 NO KXEBASKETBALLGAME-26OCT301750WEMBLENN-LENN at up to $0.1400: filled 5
 2026-10-30 18:04:55,928 INFO Quote KXEBASKETBALLGAME-26OCT301750WEMBLENN filled 5: hedged, locks in $0.58
 2026-10-30 18:10:01,881 INFO Swept 16978 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 18:15:01,574 INFO PAPER rest NO bid KXESOCCERGAME-26OCT301849LEXILOTT-TIE at $0.4700 x7 (0 already bid at that price)
+2026-10-30 18:15:01,574 INFO Resting NO bid on KXESOCCERGAME-26OCT301849LEXILOTT-TIE at $0.4700 x7 (KXESOCCERGAME-26OCT301849LEXILOTT): locks in $2.85 if it fills; hedge NO LEXI@0.1100
+2026-10-30 18:15:01,577 INFO Swept 16985 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 18:19:38,085 INFO Settled KXEBASKETBALLGAME-26OCT301750WEMBLENN: paid $5, profit $0.58
+2026-10-30 18:20:01,814 INFO Swept 16991 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 18:25:04,595 INFO PAPER rest NO bid KXTRUTHSOCIALD-26OCT30-B34 at $0.7300 x6 (0 already bid at that price)
+2026-10-30 18:25:04,595 INFO Resting NO bid on KXTRUTHSOCIALD-26OCT30-B34 at $0.7300 x6 (KXTRUTHSOCIALD-26OCT30): locks in $1.52 if it fills; hedge NO T40@0.0100
+2026-10-30 18:25:04,598 INFO Swept 16985 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 18:30:06,814 INFO Swept 16983 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-30 18:35:08,607 INFO Swept 16980 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-30 18:40:08,099 INFO PAPER rest NO bid KXARGLNBGAME-26OCT291700INDOBT-OBT at $0.1200 x1 (0 already bid at that price)
+2026-10-30 18:40:08,099 INFO Resting NO bid on KXARGLNBGAME-26OCT291700INDOBT-OBT at $0.1200 x1 (KXARGLNBGAME-26OCT291700INDOBT): locks in $0.39 if it fills; hedge NO IND@0.4600
+2026-10-30 18:40:08,102 INFO Swept 16987 events: 0 taker trades, 1 new quotes, 3 resting

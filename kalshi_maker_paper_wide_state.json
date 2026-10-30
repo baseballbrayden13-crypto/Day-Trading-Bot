@@ -1,5 +1,5 @@
 {
- "realized": "1.2500",
+ "realized": "1.8300",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -70,30 +70,6 @@
      "side": "no",
      "count": 1,
      "limit": "0.0800"
-    }
-   ]
-  },
-  {
-   "event": "KXEBASKETBALLGAME-26OCT301750WEMBLENN",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: New Orleans Pelicans (Wemby) vs Indiana Pacers (Lenny)",
-   "sets": 5,
-   "outlay": "4.4200",
-   "locked_profit": "0.5800",
-   "opened": "2026-10-30T22:04:55.928848+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXEBASKETBALLGAME-26OCT301750WEMBLENN-WEMB",
-     "side": "no",
-     "count": 5,
-     "limit": "0.7300"
-    },
-    {
-     "ticker": "KXEBASKETBALLGAME-26OCT301750WEMBLENN-LENN",
-     "side": "no",
-     "count": 5,
-     "limit": "0.1400"
     }
    ]
   }
@@ -839,25 +815,90 @@
    "paid": "5",
    "pnl": "0.1600",
    "closed": "2026-10-30T22:04:30.531790+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT301750WEMBLENN",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: New Orleans Pelicans (Wemby) vs Indiana Pacers (Lenny)",
+   "sets": 5,
+   "outlay": "4.4200",
+   "locked_profit": "0.5800",
+   "opened": "2026-10-30T22:04:55.928848+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT301750WEMBLENN-WEMB",
+     "side": "no",
+     "count": 5,
+     "limit": "0.7300"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT301750WEMBLENN-LENN",
+     "side": "no",
+     "count": 5,
+     "limit": "0.1400"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.5800",
+   "closed": "2026-10-30T22:19:38.085734+00:00"
   }
  ],
  "quotes": [
+  {
+   "event": "KXESOCCERGAME-26OCT301849LEXILOTT",
+   "series": "KXESOCCERGAME",
+   "title": "eSoccer: Chelsea (Lexi) vs Manchester Utd (Lotta)",
+   "ticker": "KXESOCCERGAME-26OCT301849LEXILOTT-TIE",
+   "order_id": "paper-284-1793398501",
+   "price": "0.4700",
+   "sets": 7,
+   "done": 0,
+   "reserve": "4.1500",
+   "multiplier": "1",
+   "placed": 1793398501.5747998,
+   "hedge": [
+    {
+     "ticker": "KXESOCCERGAME-26OCT301849LEXILOTT-LEXI",
+     "limit": "0.3500"
+    }
+   ]
+  },
+  {
+   "event": "KXTRUTHSOCIALD-26OCT30",
+   "series": "KXTRUTHSOCIALD",
+   "title": "Trump Truth Social posts on Oct 30, 2026?",
+   "ticker": "KXTRUTHSOCIALD-26OCT30-B34",
+   "order_id": "paper-285-1793399104",
+   "price": "0.7300",
+   "sets": 6,
+   "done": 0,
+   "reserve": "4.4800",
+   "multiplier": "1",
+   "placed": 1793399104.5953078,
+   "hedge": [
+    {
+     "ticker": "KXTRUTHSOCIALD-26OCT30-T40",
+     "limit": "0.0300"
+    }
+   ]
+  },
   {
    "event": "KXARGLNBGAME-26OCT291700INDOBT",
    "series": "KXARGLNBGAME",
    "title": "Independiente de Oliva vs Obera Tenis Club",
    "ticker": "KXARGLNBGAME-26OCT291700INDOBT-OBT",
-   "order_id": "paper-283-1793397895",
+   "order_id": "paper-286-1793400008",
    "price": "0.1200",
    "sets": 1,
    "done": 0,
-   "reserve": "0.3500",
+   "reserve": "0.6100",
    "multiplier": "1",
-   "placed": 1793397895.87621,
+   "placed": 1793400008.0998101,
    "hedge": [
     {
      "ticker": "KXARGLNBGAME-26OCT291700INDOBT-IND",
-     "limit": "0.5200"
+     "limit": "0.4600"
     }
    ]
   }
