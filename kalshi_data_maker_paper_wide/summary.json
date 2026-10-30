@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-30T10:12:19+00:00",
+ "updated": "2026-10-30T10:42:32+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "21.11",
- "realized_profit": "1.11",
+ "equity": "20.85",
+ "realized_profit": "0.85",
  "bet_level": "20.00",
  "open_trades": 3,
  "open_locked_profit": "0.50",
@@ -13,12 +13,13 @@
  "stray_positions": 0,
  "closed_trades": 18,
  "trades_this_loop": 0,
- "events_swept": 16405,
+ "events_swept": 16401,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 2,
+ "problems": 3,
  "last_problems": [
   "2026-10-30 09:18 Quote KXEBASKETBALLGAME-26OCT300512MICKJASO: hedge missed on KXEBASKETBALLGAME-26OCT300512MICKJASO-MICK. Selling back 6 contracts on 1 legs.",
-  "2026-10-30 09:18 STRAY POSITION: 6 NO contracts of KXEBASKETBALLGAME-26OCT300512MICKJASO-JASO still held. Check it on Kalshi."
+  "2026-10-30 09:18 STRAY POSITION: 6 NO contracts of KXEBASKETBALLGAME-26OCT300512MICKJASO-JASO still held. Check it on Kalshi.",
+  "2026-10-30 10:34 Quote KXATPCHALLENGERDOUBLES-26OCT29HIDKESBRIZOR: hedge missed on KXATPCHALLENGERDOUBLES-26OCT29HIDKESBRIZOR-HIDKES. Selling back 4 contracts on 1 legs."
  ]
 }

@@ -1,5 +1,5 @@
 {
- "realized": "1.1100",
+ "realized": "0.8500",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -684,36 +684,17 @@
  ],
  "quotes": [
   {
-   "event": "KXWTADOUBLES-26OCT30KUDTIMTJEWIL",
-   "series": "KXWTADOUBLES",
-   "title": "Kudermetova / Timofeeva vs Tjen / Williams",
-   "ticker": "KXWTADOUBLES-26OCT30KUDTIMTJEWIL-KUDTIM",
-   "order_id": "paper-237-1793354046",
-   "price": "0.3600",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.5100",
-   "multiplier": "1",
-   "placed": 1793354046.812409,
-   "hedge": [
-    {
-     "ticker": "KXWTADOUBLES-26OCT30KUDTIMTJEWIL-TJEWIL",
-     "limit": "0.5000"
-    }
-   ]
-  },
-  {
    "event": "KXNFLNEXTTEAM-26JDOWNS2",
    "series": "KXNFLNEXTTEAM",
    "title": "Josh Downs Next Team",
    "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NONE",
-   "order_id": "paper-238-1793354950",
+   "order_id": "paper-240-1793357063",
    "price": "0.1200",
    "sets": 2,
    "done": 0,
    "reserve": "4.9700",
    "multiplier": "1",
-   "placed": 1793354950.7182329,
+   "placed": 1793357063.4858298,
    "hedge": [
     {
      "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
