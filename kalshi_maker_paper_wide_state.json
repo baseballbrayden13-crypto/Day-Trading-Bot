@@ -534,44 +534,5 @@
    "closed": "2026-10-29T22:17:29.185626+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXPGA3BALL-VIMO26R1GHIGBHORAORT",
-   "series": "KXPGA3BALL",
-   "title": "1st Round 3-Ball: Higgo/Horschel/Ortiz",
-   "ticker": "KXPGA3BALL-VIMO26R1GHIGBHORAORT-AORT",
-   "order_id": "paper-200-1793318613",
-   "price": "0.1100",
-   "sets": 5,
-   "done": 0,
-   "reserve": "2.5000",
-   "multiplier": "1",
-   "placed": 1793318613.2467406,
-   "hedge": [
-    {
-     "ticker": "KXPGA3BALL-VIMO26R1GHIGBHORAORT-GHIG",
-     "limit": "0.3700"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAHGAME-26OCT29LIUWMU",
-   "series": "KXNCAAHGAME",
-   "title": "LIU vs Western Michigan",
-   "ticker": "KXNCAAHGAME-26OCT29LIUWMU-LIU",
-   "order_id": "paper-201-1793318613",
-   "price": "0.90",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8900",
-   "multiplier": "1",
-   "placed": 1793318613.2725856,
-   "hedge": [
-    {
-     "ticker": "KXNCAAHGAME-26OCT29LIUWMU-WMU",
-     "limit": "0.0700"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
