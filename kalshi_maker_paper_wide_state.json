@@ -554,5 +554,25 @@
    "closed": "2026-10-30T01:47:06.383447+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXDOTA2GAME-26OCT300600RBNEMA",
+   "series": "KXDOTA2GAME",
+   "title": "Royal Bear vs. Team Nemesis Academy",
+   "ticker": "KXDOTA2GAME-26OCT300600RBNEMA-NEMA",
+   "order_id": "paper-215-1793336317",
+   "price": "0.88",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8900",
+   "multiplier": "1",
+   "placed": 1793336317.888269,
+   "hedge": [
+    {
+     "ticker": "KXDOTA2GAME-26OCT300600RBNEMA-RB",
+     "limit": "0.0900"
+    }
+   ]
+  }
+ ]
 }
