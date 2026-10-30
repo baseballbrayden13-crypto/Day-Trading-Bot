@@ -1349,3 +1349,17 @@
 2026-10-30 07:14:34,530 INFO PAPER rest NO bid KXOWGAME-26OCT291100T1CR-CR at $0.1000 x3 (0 already bid at that price)
 2026-10-30 07:14:34,531 INFO Resting NO bid on KXOWGAME-26OCT291100T1CR-CR at $0.1000 x3 (KXOWGAME-26OCT291100T1CR): locks in $0.16 if it fills; hedge NO T1@0.8400
 2026-10-30 07:14:34,533 INFO Swept 16435 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 07:19:33,626 INFO Swept 16434 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 07:24:39,083 INFO PAPER rest NO bid KXUEFANLGAME-26NOV12ARMCYP-ARM at $0.4300 x2 (20 already bid at that price)
+2026-10-30 07:24:39,084 INFO Resting NO bid on KXUEFANLGAME-26NOV12ARMCYP-ARM at $0.43 x2 (KXUEFANLGAME-26NOV12ARMCYP): locks in $0.11 if it fills; hedge NO CYP@0.7300, TIE@0.7500
+2026-10-30 07:24:39,086 INFO Swept 16432 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 07:29:44,647 INFO Swept 16436 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 07:34:40,969 INFO Swept 16419 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 07:34:41,030 INFO PAPER KXOWGAME-26OCT291100T1CR-CR NO bid at $0.1000: 3/3 filled by real trades
+2026-10-30 07:34:41,092 INFO PAPER buy 3 NO KXOWGAME-26OCT291100T1CR-T1 at up to $0.8400: not on the book
+2026-10-30 07:34:41,093 WARNING Quote KXOWGAME-26OCT291100T1CR: hedge missed on KXOWGAME-26OCT291100T1CR-T1. Selling back 3 contracts on 1 legs.
+2026-10-30 07:34:41,152 INFO PAPER sell 3 YES KXOWGAME-26OCT291100T1CR-CR at up to $0.9500: filled 3
+2026-10-30 07:39:44,927 INFO Swept 16433 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 07:44:49,333 INFO PAPER rest NO bid KXOWGAME-26OCT291100T1CR-T1 at $0.7500 x4 (6 already bid at that price)
+2026-10-30 07:44:49,333 INFO Resting NO bid on KXOWGAME-26OCT291100T1CR-T1 at $0.75 x4 (KXOWGAME-26OCT291100T1CR): locks in $0.13 if it fills; hedge NO CR@0.2000
+2026-10-30 07:44:49,335 INFO Swept 16435 events: 0 taker trades, 1 new quotes, 2 resting

@@ -1,5 +1,5 @@
 {
- "realized": "0.8500",
+ "realized": "0.6800",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -684,21 +684,44 @@
  ],
  "quotes": [
   {
+   "event": "KXUEFANLGAME-26NOV12ARMCYP",
+   "series": "KXUEFANLGAME",
+   "title": "Armenia vs Cyprus",
+   "ticker": "KXUEFANLGAME-26NOV12ARMCYP-ARM",
+   "order_id": "paper-244-1793359479",
+   "price": "0.43",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.8900",
+   "multiplier": "1",
+   "placed": 1793359479.0841224,
+   "hedge": [
+    {
+     "ticker": "KXUEFANLGAME-26NOV12ARMCYP-CYP",
+     "limit": "0.7300"
+    },
+    {
+     "ticker": "KXUEFANLGAME-26NOV12ARMCYP-TIE",
+     "limit": "0.7500"
+    }
+   ]
+  },
+  {
    "event": "KXOWGAME-26OCT291100T1CR",
    "series": "KXOWGAME",
    "title": "OCS Korea Stage 3 2026: T1 vs. Crazy Raccoon",
-   "ticker": "KXOWGAME-26OCT291100T1CR-CR",
-   "order_id": "paper-243-1793358874",
-   "price": "0.1000",
-   "sets": 3,
+   "ticker": "KXOWGAME-26OCT291100T1CR-T1",
+   "order_id": "paper-245-1793360689",
+   "price": "0.75",
+   "sets": 4,
    "done": 0,
-   "reserve": "2.8400",
+   "reserve": "3.8700",
    "multiplier": "1",
-   "placed": 1793358874.531074,
+   "placed": 1793360689.3334606,
    "hedge": [
     {
-     "ticker": "KXOWGAME-26OCT291100T1CR-T1",
-     "limit": "0.8400"
+     "ticker": "KXOWGAME-26OCT291100T1CR-CR",
+     "limit": "0.2000"
     }
    ]
   }
