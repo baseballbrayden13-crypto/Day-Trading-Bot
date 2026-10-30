@@ -1129,3 +1129,13 @@
 2026-10-29 22:07:46,465 INFO Resting NO bid on KXSOFRD-26OCT30-T3.95 at $0.0400 x5 (KXSOFRD-26OCT30): locks in $0.25 if it fills; hedge NO E3.93@0.9000
 2026-10-29 22:07:46,468 INFO Swept 16470 events: 0 taker trades, 1 new quotes, 1 resting
 2026-10-29 22:12:48,915 INFO Swept 16495 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 22:17:51,478 INFO Swept 16484 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 22:22:54,623 INFO Swept 16477 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 22:27:56,631 INFO Swept 16475 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 22:32:56,503 INFO Swept 16462 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 22:38:01,008 INFO Swept 16430 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-29 22:43:00,443 INFO PAPER rest NO bid KXSOFRD-26OCT30-T3.95 at $0.0400 x5 (0 already bid at that price)
+2026-10-29 22:43:00,443 INFO Resting NO bid on KXSOFRD-26OCT30-T3.95 at $0.0400 x5 (KXSOFRD-26OCT30): locks in $0.25 if it fills; hedge NO E3.93@0.9000
+2026-10-29 22:43:00,471 INFO PAPER rest NO bid KXMLBEOTY-26-MARN at $0.5400 x1 (0 already bid at that price)
+2026-10-29 22:43:00,471 INFO Resting NO bid on KXMLBEOTY-26-MARN at $0.5400 x1 (KXMLBEOTY-26): locks in $0.11 if it fills; hedge NO CGET@0.3300, ENEA@0.9800
+2026-10-29 22:43:00,474 INFO Swept 16420 events: 0 taker trades, 2 new quotes, 2 resting

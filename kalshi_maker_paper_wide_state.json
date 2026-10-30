@@ -560,17 +560,40 @@
    "series": "KXSOFRD",
    "title": "SOFR for October 29, 2026",
    "ticker": "KXSOFRD-26OCT30-T3.95",
-   "order_id": "paper-208-1793326066",
+   "order_id": "paper-209-1793328180",
    "price": "0.0400",
    "sets": 5,
    "done": 0,
    "reserve": "4.7500",
    "multiplier": "1",
-   "placed": 1793326066.4659088,
+   "placed": 1793328180.443133,
    "hedge": [
     {
      "ticker": "KXSOFRD-26OCT30-E3.93",
      "limit": "0.9000"
+    }
+   ]
+  },
+  {
+   "event": "KXMLBEOTY-26",
+   "series": "KXMLBEOTY",
+   "title": "Executive of the Year Winner",
+   "ticker": "KXMLBEOTY-26-MARN",
+   "order_id": "paper-210-1793328180",
+   "price": "0.5400",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.8900",
+   "multiplier": "1",
+   "placed": 1793328180.4717045,
+   "hedge": [
+    {
+     "ticker": "KXMLBEOTY-26-CGET",
+     "limit": "0.3300"
+    },
+    {
+     "ticker": "KXMLBEOTY-26-ENEA",
+     "limit": "0.9800"
     }
    ]
   }
