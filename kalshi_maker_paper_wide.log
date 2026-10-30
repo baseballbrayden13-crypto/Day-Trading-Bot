@@ -1703,3 +1703,13 @@
 2026-10-30 18:40:08,099 INFO PAPER rest NO bid KXARGLNBGAME-26OCT291700INDOBT-OBT at $0.1200 x1 (0 already bid at that price)
 2026-10-30 18:40:08,099 INFO Resting NO bid on KXARGLNBGAME-26OCT291700INDOBT-OBT at $0.1200 x1 (KXARGLNBGAME-26OCT291700INDOBT): locks in $0.39 if it fills; hedge NO IND@0.4600
 2026-10-30 18:40:08,102 INFO Swept 16987 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 18:45:09,032 INFO Swept 16984 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-30 18:50:13,852 INFO Swept 16988 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 18:55:18,068 INFO Swept 16979 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 19:00:21,158 INFO Swept 16978 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 19:05:25,108 INFO PAPER rest NO bid KXNASCARTRUCKSERIES-NTS26-LRIG at $0.5700 x5 (0 already bid at that price)
+2026-10-30 19:05:25,108 INFO Resting NO bid on KXNASCARTRUCKSERIES-NTS26-LRIG at $0.5700 x5 (KXNASCARTRUCKSERIES-NTS26): locks in $0.23 if it fills; hedge NO KHON@0.3600
+2026-10-30 19:05:25,111 INFO Swept 16970 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 19:10:24,827 INFO PAPER rest NO bid KXNFLNEXTTEAM-26GWILSON5-SF at $0.7800 x2 (0 already bid at that price)
+2026-10-30 19:10:24,827 INFO Resting NO bid on KXNFLNEXTTEAM-26GWILSON5-SF at $0.7800 x2 (KXNFLNEXTTEAM-26GWILSON5): locks in $0.13 if it fills; hedge NO KC@0.9500, NYJ@0.1800
+2026-10-30 19:10:24,830 INFO Swept 17007 events: 0 taker trades, 1 new quotes, 3 resting

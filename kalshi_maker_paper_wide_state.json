@@ -846,59 +846,44 @@
  ],
  "quotes": [
   {
-   "event": "KXESOCCERGAME-26OCT301849LEXILOTT",
-   "series": "KXESOCCERGAME",
-   "title": "eSoccer: Chelsea (Lexi) vs Manchester Utd (Lotta)",
-   "ticker": "KXESOCCERGAME-26OCT301849LEXILOTT-TIE",
-   "order_id": "paper-284-1793398501",
-   "price": "0.4700",
-   "sets": 7,
+   "event": "KXNASCARTRUCKSERIES-NTS26",
+   "series": "KXNASCARTRUCKSERIES",
+   "title": "NASCAR Truck Series Champion",
+   "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
+   "order_id": "paper-287-1793401525",
+   "price": "0.5700",
+   "sets": 5,
    "done": 0,
-   "reserve": "4.1500",
+   "reserve": "4.7700",
    "multiplier": "1",
-   "placed": 1793398501.5747998,
+   "placed": 1793401525.1084847,
    "hedge": [
     {
-     "ticker": "KXESOCCERGAME-26OCT301849LEXILOTT-LEXI",
-     "limit": "0.3500"
+     "ticker": "KXNASCARTRUCKSERIES-NTS26-KHON",
+     "limit": "0.3600"
     }
    ]
   },
   {
-   "event": "KXTRUTHSOCIALD-26OCT30",
-   "series": "KXTRUTHSOCIALD",
-   "title": "Trump Truth Social posts on Oct 30, 2026?",
-   "ticker": "KXTRUTHSOCIALD-26OCT30-B34",
-   "order_id": "paper-285-1793399104",
-   "price": "0.7300",
-   "sets": 6,
+   "event": "KXNFLNEXTTEAM-26GWILSON5",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Garrett Wilson Next Team",
+   "ticker": "KXNFLNEXTTEAM-26GWILSON5-SF",
+   "order_id": "paper-288-1793401824",
+   "price": "0.7800",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.4800",
+   "reserve": "3.8700",
    "multiplier": "1",
-   "placed": 1793399104.5953078,
+   "placed": 1793401824.827565,
    "hedge": [
     {
-     "ticker": "KXTRUTHSOCIALD-26OCT30-T40",
-     "limit": "0.0300"
-    }
-   ]
-  },
-  {
-   "event": "KXARGLNBGAME-26OCT291700INDOBT",
-   "series": "KXARGLNBGAME",
-   "title": "Independiente de Oliva vs Obera Tenis Club",
-   "ticker": "KXARGLNBGAME-26OCT291700INDOBT-OBT",
-   "order_id": "paper-286-1793400008",
-   "price": "0.1200",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.6100",
-   "multiplier": "1",
-   "placed": 1793400008.0998101,
-   "hedge": [
+     "ticker": "KXNFLNEXTTEAM-26GWILSON5-KC",
+     "limit": "0.9500"
+    },
     {
-     "ticker": "KXARGLNBGAME-26OCT291700INDOBT-IND",
-     "limit": "0.4600"
+     "ticker": "KXNFLNEXTTEAM-26GWILSON5-NYJ",
+     "limit": "0.1800"
     }
    ]
   }

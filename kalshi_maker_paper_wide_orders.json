@@ -3968,12 +3968,12 @@
   "count": 7,
   "ahead": 0,
   "placed": 1793398501.5708258,
-  "checked": 1793400023.5739307,
+  "checked": 1793400301,
   "expires": 1793400301,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-285-1793399104": {
   "id": "paper-285-1793399104",
@@ -3982,12 +3982,12 @@
   "count": 6,
   "ahead": 0,
   "placed": 1793399104.5910983,
-  "checked": 1793400023.6251156,
+  "checked": 1793400904,
   "expires": 1793400904,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-286-1793400008": {
   "id": "paper-286-1793400008",
@@ -3996,8 +3996,36 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793400008.0959375,
-  "checked": 1793400023.6759856,
+  "checked": 1793401808,
   "expires": 1793401808,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-287-1793401525": {
+  "id": "paper-287-1793401525",
+  "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
+  "price": "0.5700",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793401525.104351,
+  "checked": 1793401824.8594007,
+  "expires": 1793403325,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-288-1793401824": {
+  "id": "paper-288-1793401824",
+  "ticker": "KXNFLNEXTTEAM-26GWILSON5-SF",
+  "price": "0.7800",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793401824.8237886,
+  "checked": 1793401824.9096994,
+  "expires": 1793403624,
   "through": 0,
   "at_price": 0,
   "filled": 0,
