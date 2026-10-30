@@ -1207,3 +1207,17 @@
 2026-10-30 01:43:56,036 INFO PAPER rest NO bid KXLOWTDEN-26OCT29-B35.5 at $0.7900 x5 (0 already bid at that price)
 2026-10-30 01:43:56,037 INFO Resting NO bid on KXLOWTDEN-26OCT29-B35.5 at $0.7900 x5 (KXLOWTDEN-26OCT29): locks in $0.23 if it fills; hedge NO B37.5@0.1500
 2026-10-30 01:43:56,039 INFO Swept 16275 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 01:48:58,452 INFO Swept 16290 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 01:48:58,544 INFO Quote KXARGLNBGAME-26OCT291700INDOBT cancelled (0/3 filled)
+2026-10-30 01:53:58,304 INFO PAPER rest NO bid KXITFWDOUBLES-26OCT29ELJFROLINURH-LINURH at $0.2100 x1 (0 already bid at that price)
+2026-10-30 01:53:58,304 INFO Resting NO bid on KXITFWDOUBLES-26OCT29ELJFROLINURH-LINURH at $0.2100 x1 (KXITFWDOUBLES-26OCT29ELJFROLINURH): locks in $0.12 if it fills; hedge NO ELJFRO@0.6400
+2026-10-30 01:53:58,307 INFO Swept 16288 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 01:59:01,116 INFO PAPER rest NO bid KXEBASKETBALLGAME-26OCT300150DAVIJAME-JAME at $0.4300 x4 (0 already bid at that price)
+2026-10-30 01:59:01,116 INFO Resting NO bid on KXEBASKETBALLGAME-26OCT300150DAVIJAME-JAME at $0.4300 x4 (KXEBASKETBALLGAME-26OCT300150DAVIJAME): locks in $0.71 if it fills; hedge NO DAVI@0.3700
+2026-10-30 01:59:01,119 INFO Swept 16301 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-30 01:59:06,404 INFO PAPER KXEBASKETBALLGAME-26OCT300150DAVIJAME-JAME NO bid at $0.4300: 4/4 filled by real trades
+2026-10-30 01:59:06,430 INFO PAPER buy 4 NO KXEBASKETBALLGAME-26OCT300150DAVIJAME-DAVI at up to $0.3700: filled 4
+2026-10-30 01:59:06,430 INFO Quote KXEBASKETBALLGAME-26OCT300150DAVIJAME filled 4: hedged, locks in $0.71
+2026-10-30 02:04:03,200 INFO Swept 16280 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 02:09:05,342 INFO Swept 16299 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 02:14:05,810 INFO Swept 16290 events: 0 taker trades, 0 new quotes, 2 resting

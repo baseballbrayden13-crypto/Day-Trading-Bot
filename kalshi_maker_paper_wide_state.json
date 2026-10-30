@@ -72,6 +72,30 @@
      "limit": "0.8400"
     }
    ]
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT300150DAVIJAME",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: New Orleans Pelicans (Davis) vs Indiana Pacers (James)",
+   "sets": 4,
+   "outlay": "3.2900",
+   "locked_profit": "0.7100",
+   "opened": "2026-10-30T05:59:06.430883+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT300150DAVIJAME-JAME",
+     "side": "no",
+     "count": 4,
+     "limit": "0.4300"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT300150DAVIJAME-DAVI",
+     "side": "no",
+     "count": 4,
+     "limit": "0.3700"
+    }
+   ]
   }
  ],
  "closed": [
@@ -556,40 +580,21 @@
  ],
  "quotes": [
   {
-   "event": "KXARGLNBGAME-26OCT291700INDOBT",
-   "series": "KXARGLNBGAME",
-   "title": "Independiente de Oliva vs Obera Tenis Club",
-   "ticker": "KXARGLNBGAME-26OCT291700INDOBT-IND",
-   "order_id": "paper-221-1793337829",
-   "price": "0.13",
-   "sets": 3,
+   "event": "KXITFWDOUBLES-26OCT29ELJFROLINURH",
+   "series": "KXITFWDOUBLES",
+   "title": "El Jardi / Frodin vs Lincer / Urhobo",
+   "ticker": "KXITFWDOUBLES-26OCT29ELJFROLINURH-LINURH",
+   "order_id": "paper-223-1793339638",
+   "price": "0.2100",
+   "sets": 1,
    "done": 0,
-   "reserve": "2.9000",
+   "reserve": "0.8800",
    "multiplier": "1",
-   "placed": 1793337829.4042938,
+   "placed": 1793339638.3045928,
    "hedge": [
     {
-     "ticker": "KXARGLNBGAME-26OCT291700INDOBT-OBT",
-     "limit": "0.8200"
-    }
-   ]
-  },
-  {
-   "event": "KXLOWTDEN-26OCT29",
-   "series": "KXLOWTDEN",
-   "title": "Lowest temperature in Denver on Oct 29, 2026?",
-   "ticker": "KXLOWTDEN-26OCT29-B35.5",
-   "order_id": "paper-222-1793339036",
-   "price": "0.7900",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.7700",
-   "multiplier": "1",
-   "placed": 1793339036.0371323,
-   "hedge": [
-    {
-     "ticker": "KXLOWTDEN-26OCT29-B37.5",
-     "limit": "0.1500"
+     "ticker": "KXITFWDOUBLES-26OCT29ELJFROLINURH-ELJFRO",
+     "limit": "0.6400"
     }
    ]
   }
