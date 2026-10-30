@@ -1,5 +1,5 @@
 {
- "realized": "1.0900",
+ "realized": "1.2500",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -70,6 +70,30 @@
      "side": "no",
      "count": 1,
      "limit": "0.0800"
+    }
+   ]
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT301750WEMBLENN",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: New Orleans Pelicans (Wemby) vs Indiana Pacers (Lenny)",
+   "sets": 5,
+   "outlay": "4.4200",
+   "locked_profit": "0.5800",
+   "opened": "2026-10-30T22:04:55.928848+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT301750WEMBLENN-WEMB",
+     "side": "no",
+     "count": 5,
+     "limit": "0.7300"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT301750WEMBLENN-LENN",
+     "side": "no",
+     "count": 5,
+     "limit": "0.1400"
     }
    ]
   }
@@ -788,7 +812,54 @@
    "paid": "1",
    "pnl": "0.1300",
    "closed": "2026-10-30T20:18:18.520758+00:00"
+  },
+  {
+   "event": "KXFRAPLWGAME-26OCT30OMNAN",
+   "series": "KXFRAPLWGAME",
+   "title": "Marseille vs Nantes",
+   "sets": 5,
+   "outlay": "4.8400",
+   "locked_profit": "0.1600",
+   "opened": "2026-10-30T21:54:54.020368+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXFRAPLWGAME-26OCT30OMNAN-OM",
+     "side": "no",
+     "count": 5,
+     "limit": "0.0500"
+    },
+    {
+     "ticker": "KXFRAPLWGAME-26OCT30OMNAN-TIE",
+     "side": "no",
+     "count": 5,
+     "limit": "0.9100"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.1600",
+   "closed": "2026-10-30T22:04:30.531790+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXARGLNBGAME-26OCT291700INDOBT",
+   "series": "KXARGLNBGAME",
+   "title": "Independiente de Oliva vs Obera Tenis Club",
+   "ticker": "KXARGLNBGAME-26OCT291700INDOBT-OBT",
+   "order_id": "paper-283-1793397895",
+   "price": "0.1200",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.3500",
+   "multiplier": "1",
+   "placed": 1793397895.87621,
+   "hedge": [
+    {
+     "ticker": "KXARGLNBGAME-26OCT291700INDOBT-IND",
+     "limit": "0.5200"
+    }
+   ]
+  }
+ ]
 }
