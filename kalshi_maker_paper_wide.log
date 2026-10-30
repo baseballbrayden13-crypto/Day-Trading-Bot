@@ -1521,3 +1521,16 @@
 2026-10-30 11:33:22,037 INFO Swept 16852 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 11:38:25,344 INFO Swept 16858 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 11:43:28,124 INFO Swept 16857 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 11:48:31,944 INFO PAPER rest NO bid KXNFLNEXTTEAM-26GWILSON5-KC at $0.7100 x2 (0 already bid at that price)
+2026-10-30 11:48:31,944 INFO Resting NO bid on KXNFLNEXTTEAM-26GWILSON5-KC at $0.7100 x2 (KXNFLNEXTTEAM-26GWILSON5): locks in $0.19 if it fills; hedge NO NYJ@0.3200, SF@0.8400
+2026-10-30 11:48:31,947 INFO Swept 16855 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 11:53:33,382 INFO Swept 16852 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 11:53:33,579 INFO Quote KXNFLNEXTTEAM-26GWILSON5 cancelled (0/2 filled)
+2026-10-30 11:58:34,803 INFO PAPER rest NO bid KXNFLNEXTTEAM-26GWILSON5-KC at $0.7100 x2 (0 already bid at that price)
+2026-10-30 11:58:34,803 INFO Resting NO bid on KXNFLNEXTTEAM-26GWILSON5-KC at $0.7100 x2 (KXNFLNEXTTEAM-26GWILSON5): locks in $0.22 if it fills; hedge NO NYJ@0.3100, SF@0.8400
+2026-10-30 11:58:34,806 INFO Swept 16855 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 12:03:35,117 INFO Swept 16855 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 12:08:36,372 INFO PAPER rest NO bid KXWTA-26GUANGZ-TAG at $0.1800 x2 (0 already bid at that price)
+2026-10-30 12:08:36,372 INFO Resting NO bid on KXWTA-26GUANGZ-TAG at $0.1800 x2 (KXWTA-26GUANGZ): locks in $0.23 if it fills; hedge NO DAR@0.8300, SUN@0.8500
+2026-10-30 12:08:36,375 INFO Swept 16857 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 12:13:36,760 INFO Swept 16914 events: 0 taker trades, 0 new quotes, 2 resting
