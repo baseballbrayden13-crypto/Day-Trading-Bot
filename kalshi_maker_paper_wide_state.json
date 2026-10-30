@@ -1,5 +1,5 @@
 {
- "realized": "0.8000",
+ "realized": "0.9600",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -94,30 +94,6 @@
      "side": "no",
      "count": 1,
      "limit": "0.0800"
-    }
-   ]
-  },
-  {
-   "event": "KXELHGAME-26OCT301300BILHCR",
-   "series": "KXELHGAME",
-   "title": "Bili Tygri Liberec vs HC Rytiri Kladno",
-   "sets": 4,
-   "outlay": "3.8400",
-   "locked_profit": "0.1600",
-   "opened": "2026-10-30T18:47:33.637336+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXELHGAME-26OCT301300BILHCR-BIL",
-     "side": "no",
-     "count": 4,
-     "limit": "0.6700"
-    },
-    {
-     "ticker": "KXELHGAME-26OCT301300BILHCR-HCR",
-     "side": "no",
-     "count": 4,
-     "limit": "0.2700"
     }
    ]
   }
@@ -782,7 +758,81 @@
    "paid": "3",
    "pnl": "0.1000",
    "closed": "2026-10-30T12:24:58.339063+00:00"
+  },
+  {
+   "event": "KXELHGAME-26OCT301300BILHCR",
+   "series": "KXELHGAME",
+   "title": "Bili Tygri Liberec vs HC Rytiri Kladno",
+   "sets": 4,
+   "outlay": "3.8400",
+   "locked_profit": "0.1600",
+   "opened": "2026-10-30T18:47:33.637336+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXELHGAME-26OCT301300BILHCR-BIL",
+     "side": "no",
+     "count": 4,
+     "limit": "0.6700"
+    },
+    {
+     "ticker": "KXELHGAME-26OCT301300BILHCR-HCR",
+     "side": "no",
+     "count": 4,
+     "limit": "0.2700"
+    }
+   ],
+   "paid": "4",
+   "pnl": "0.1600",
+   "closed": "2026-10-30T19:32:10.686256+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXATP-26VIENNA",
+   "series": "KXATP",
+   "title": "ATP Vienna Winner",
+   "ticker": "KXATP-26VIENNA-ZVE",
+   "order_id": "paper-270-1793388755",
+   "price": "0.5500",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.8700",
+   "multiplier": "1",
+   "placed": 1793388755.740013,
+   "hedge": [
+    {
+     "ticker": "KXATP-26VIENNA-ALC",
+     "limit": "0.4800"
+    },
+    {
+     "ticker": "KXATP-26VIENNA-MED",
+     "limit": "0.8300"
+    }
+   ]
+  },
+  {
+   "event": "KXSTEAMTOPSELLER-26NOV03",
+   "series": "KXSTEAMTOPSELLER",
+   "title": "Steam: Weekly Top Seller ",
+   "ticker": "KXSTEAMTOPSELLER-26NOV03-FOO",
+   "order_id": "paper-271-1793389057",
+   "price": "0.5200",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.6200",
+   "multiplier": "1",
+   "placed": 1793389057.4818218,
+   "hedge": [
+    {
+     "ticker": "KXSTEAMTOPSELLER-26NOV03-CAL",
+     "limit": "0.4600"
+    },
+    {
+     "ticker": "KXSTEAMTOPSELLER-26NOV03-PHA",
+     "limit": "0.5900"
+    }
+   ]
+  }
+ ]
 }

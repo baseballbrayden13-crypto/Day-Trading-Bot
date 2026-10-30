@@ -1609,3 +1609,17 @@
 2026-10-30 15:02:25,966 INFO Swept 17021 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 15:02:26,048 INFO Quote KXOWGAME-26OCT301600KAFETL cancelled (0/3 filled)
 2026-10-30 15:07:27,568 INFO Swept 17006 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 15:12:28,960 INFO Swept 17050 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 15:17:30,478 INFO PAPER rest NO bid KXITFWMATCH-26OCT30MAXLIU-MAX at $0.4200 x4 (0 already bid at that price)
+2026-10-30 15:17:30,479 INFO Resting NO bid on KXITFWMATCH-26OCT30MAXLIU-MAX at $0.4200 x4 (KXITFWMATCH-26OCT30MAXLIU): locks in $0.19 if it fills; hedge NO LIU@0.5100
+2026-10-30 15:17:30,483 INFO Swept 17051 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 15:17:40,669 INFO Quote KXITFWMATCH-26OCT30MAXLIU cancelled (0/4 filled)
+2026-10-30 15:22:31,605 INFO Swept 17045 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 15:27:30,714 INFO Swept 17044 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-30 15:32:10,686 INFO Settled KXELHGAME-26OCT301300BILHCR: paid $4, profit $0.16
+2026-10-30 15:32:35,739 INFO PAPER rest NO bid KXATP-26VIENNA-ZVE at $0.5500 x1 (0 already bid at that price)
+2026-10-30 15:32:35,740 INFO Resting NO bid on KXATP-26VIENNA-ZVE at $0.5500 x1 (KXATP-26VIENNA): locks in $0.13 if it fills; hedge NO ALC@0.4500, MED@0.8300
+2026-10-30 15:32:35,744 INFO Swept 17023 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 15:37:37,481 INFO PAPER rest NO bid KXSTEAMTOPSELLER-26NOV03-FOO at $0.5200 x1 (0 already bid at that price)
+2026-10-30 15:37:37,481 INFO Resting NO bid on KXSTEAMTOPSELLER-26NOV03-FOO at $0.5200 x1 (KXSTEAMTOPSELLER-26NOV03): locks in $0.38 if it fills; hedge NO CAL@0.4600, PHA@0.5900
+2026-10-30 15:37:37,484 INFO Swept 17018 events: 0 taker trades, 1 new quotes, 2 resting
