@@ -1577,3 +1577,10 @@
 2026-10-30 13:44:11,653 INFO PAPER rest NO bid KXKHLGAME-26OCT301200SPASEV-SEV at $0.9000 x4 (35 already bid at that price)
 2026-10-30 13:44:11,653 INFO Resting NO bid on KXKHLGAME-26OCT301200SPASEV-SEV at $0.90 x4 (KXKHLGAME-26OCT301200SPASEV): locks in $0.13 if it fills; hedge NO SPA@0.0600
 2026-10-30 13:44:11,656 INFO Swept 17029 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 13:49:14,982 INFO Swept 17030 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 13:54:19,450 INFO Swept 17025 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 13:59:24,143 INFO Swept 17010 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 14:04:27,634 INFO Swept 17008 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 14:09:30,301 INFO Swept 17089 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 14:11:28,359 INFO Quote KXKHLGAME-26OCT301200SPASEV cancelled (0/4 filled)
+2026-10-30 14:14:32,166 INFO Swept 17087 events: 0 taker trades, 0 new quotes, 0 resting

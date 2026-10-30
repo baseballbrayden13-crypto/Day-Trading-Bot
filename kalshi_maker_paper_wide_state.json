@@ -760,25 +760,5 @@
    "closed": "2026-10-30T12:24:58.339063+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXKHLGAME-26OCT301200SPASEV",
-   "series": "KXKHLGAME",
-   "title": "Spartak Moscow vs Severstal Cherepovets",
-   "ticker": "KXKHLGAME-26OCT301200SPASEV-SEV",
-   "order_id": "paper-265-1793382251",
-   "price": "0.90",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.8700",
-   "multiplier": "1",
-   "placed": 1793382251.6534753,
-   "hedge": [
-    {
-     "ticker": "KXKHLGAME-26OCT301200SPASEV-SPA",
-     "limit": "0.0600"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
