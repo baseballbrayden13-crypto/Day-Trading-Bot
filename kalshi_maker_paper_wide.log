@@ -1734,3 +1734,12 @@
 2026-10-30 19:55:56,997 INFO Swept 16975 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-30 20:01:00,031 INFO Swept 16977 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-30 20:06:01,371 INFO Swept 16958 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 20:11:05,303 INFO Swept 16990 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 20:16:08,707 INFO PAPER rest NO bid KXNASCARTRUCKSERIES-NTS26-LRIG at $0.6300 x5 (0 already bid at that price)
+2026-10-30 20:16:08,707 INFO Resting NO bid on KXNASCARTRUCKSERIES-NTS26-LRIG at $0.6300 x5 (KXNASCARTRUCKSERIES-NTS26): locks in $0.19 if it fills; hedge NO KHON@0.3100
+2026-10-30 20:16:08,710 INFO Swept 17007 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 20:21:13,590 INFO Swept 17032 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 20:26:17,077 INFO PAPER rest NO bid KXUSL1H-26OCT30DETHAR-HAR at $0.2200 x2 (0 already bid at that price)
+2026-10-30 20:26:17,077 INFO Resting NO bid on KXUSL1H-26OCT30DETHAR-HAR at $0.2200 x2 (KXUSL1H-26OCT30DETHAR): locks in $0.38 if it fills; hedge NO DET@0.9400, TIE@0.6800
+2026-10-30 20:26:17,080 INFO Swept 17026 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 20:26:22,243 INFO Stopped; all quotes cancelled.

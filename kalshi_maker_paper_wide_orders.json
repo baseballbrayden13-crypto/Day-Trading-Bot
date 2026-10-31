@@ -4052,12 +4052,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793403649.4765022,
-  "checked": 1793405289.3753536,
+  "checked": 1793405449,
   "expires": 1793405449,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-291-1793403954": {
   "id": "paper-291-1793403954",
@@ -4080,11 +4080,39 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793404253.0632582,
-  "checked": 1793405289.4351845,
+  "checked": 1793406053,
   "expires": 1793406053,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-293-1793405768": {
+  "id": "paper-293-1793405768",
+  "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
+  "price": "0.6300",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793405768.7037907,
+  "checked": 1793406382.1817782,
+  "expires": 1793407568,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-294-1793406377": {
+  "id": "paper-294-1793406377",
+  "ticker": "KXUSL1H-26OCT30DETHAR-HAR",
+  "price": "0.2200",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793406377.0736284,
+  "checked": 1793406382.2092588,
+  "expires": 1793408177,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

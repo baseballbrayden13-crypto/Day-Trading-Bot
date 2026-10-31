@@ -844,52 +844,5 @@
    "closed": "2026-10-30T22:19:38.085734+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXUSL1H-26OCT30TAMMIA",
-   "series": "KXUSL1H",
-   "title": "Tampa Bay vs Miami: First Half Winner",
-   "ticker": "KXUSL1H-26OCT30TAMMIA-MIA",
-   "order_id": "paper-290-1793403649",
-   "price": "0.2100",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.5300",
-   "multiplier": "1",
-   "placed": 1793403649.4803858,
-   "hedge": [
-    {
-     "ticker": "KXUSL1H-26OCT30TAMMIA-TAM",
-     "limit": "0.8500"
-    },
-    {
-     "ticker": "KXUSL1H-26OCT30TAMMIA-TIE",
-     "limit": "0.9100"
-    }
-   ]
-  },
-  {
-   "event": "KXNFLNEXTTEAM-26GWILSON5",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Garrett Wilson Next Team",
-   "ticker": "KXNFLNEXTTEAM-26GWILSON5-KC",
-   "order_id": "paper-292-1793404253",
-   "price": "0.7300",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.7400",
-   "multiplier": "1",
-   "placed": 1793404253.06708,
-   "hedge": [
-    {
-     "ticker": "KXNFLNEXTTEAM-26GWILSON5-NYJ",
-     "limit": "0.1700"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26GWILSON5-SF",
-     "limit": "0.9800"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
