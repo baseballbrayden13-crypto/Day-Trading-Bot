@@ -2556,3 +2556,14 @@
 2026-10-31 16:24:35,910 INFO Swept 21328 events: 0 taker trades, 1 new quotes, 3 resting
 2026-10-31 16:29:35,950 INFO Swept 21301 events: 0 taker trades, 0 new quotes, 3 resting
 2026-10-31 16:34:36,570 INFO Swept 21290 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-31 16:39:39,961 INFO Swept 21265 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 16:44:24,895 INFO Settled KXAHLGAME-26OCT311400LAVCAL (stray): paid $0, profit $-1.22
+2026-10-31 16:44:42,513 INFO PAPER rest NO bid KXNCAAF1H-26OCT31COOKARPB-TIE at $0.5300 x5 (0 already bid at that price)
+2026-10-31 16:44:42,513 INFO Resting NO bid on KXNCAAF1H-26OCT31COOKARPB-TIE at $0.5300 x5 (KXNCAAF1H-26OCT31COOKARPB): locks in $0.23 if it fills; hedge NO ARPB@0.4000
+2026-10-31 16:44:42,517 INFO Swept 21239 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 16:49:45,327 INFO Swept 21236 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 16:54:40,007 INFO Swept 21200 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 16:59:45,918 INFO PAPER rest NO bid KXITFMATCH-26OCT31BICTUD-BIC at $0.0400 x5 (125 already bid at that price)
+2026-10-31 16:59:45,918 INFO Resting NO bid on KXITFMATCH-26OCT31BICTUD-BIC at $0.04 x5 (KXITFMATCH-26OCT31BICTUD): locks in $0.11 if it fills; hedge NO TUD@0.9300
+2026-10-31 16:59:45,934 INFO Swept 21177 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 17:04:54,794 INFO Swept 21139 events: 0 taker trades, 0 new quotes, 2 resting
