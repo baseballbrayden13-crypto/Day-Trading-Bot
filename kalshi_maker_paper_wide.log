@@ -1721,3 +1721,16 @@
 2026-10-30 19:25:37,310 INFO Swept 17000 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-30 19:30:41,634 INFO Swept 17000 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-30 19:35:45,956 INFO Swept 16991 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 19:40:49,480 INFO PAPER rest NO bid KXUSL1H-26OCT30TAMMIA-MIA at $0.2100 x2 (0 already bid at that price)
+2026-10-30 19:40:49,480 INFO Resting NO bid on KXUSL1H-26OCT30TAMMIA-MIA at $0.2100 x2 (KXUSL1H-26OCT30TAMMIA): locks in $0.47 if it fills; hedge NO TAM@0.8200, TIE@0.8800
+2026-10-30 19:40:49,484 INFO Swept 16995 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 19:45:54,436 INFO PAPER rest NO bid KXNFLNEXTTEAM-26GWILSON5-KC at $0.8700 x2 (14 already bid at that price)
+2026-10-30 19:45:54,436 INFO Resting NO bid on KXNFLNEXTTEAM-26GWILSON5-KC at $0.87 x2 (KXNFLNEXTTEAM-26GWILSON5): locks in $0.10 if it fills; hedge NO NYJ@0.1300, SF@0.9300
+2026-10-30 19:45:54,440 INFO Swept 16993 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 19:47:41,759 INFO Quote KXNFLNEXTTEAM-26GWILSON5 cancelled (0/2 filled)
+2026-10-30 19:50:53,066 INFO PAPER rest NO bid KXNFLNEXTTEAM-26GWILSON5-KC at $0.7300 x2 (0 already bid at that price)
+2026-10-30 19:50:53,067 INFO Resting NO bid on KXNFLNEXTTEAM-26GWILSON5-KC at $0.7300 x2 (KXNFLNEXTTEAM-26GWILSON5): locks in $0.26 if it fills; hedge NO NYJ@0.1400, SF@0.9800
+2026-10-30 19:50:53,070 INFO Swept 16986 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 19:55:56,997 INFO Swept 16975 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 20:01:00,031 INFO Swept 16977 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 20:06:01,371 INFO Swept 16958 events: 0 taker trades, 0 new quotes, 2 resting
