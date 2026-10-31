@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:23:43+00:00",
+ "updated": "2026-10-31T19:00:34+00:00",
  "mode": "paper-bets",
  "start_per_strategy": "20",
  "strategies": {
@@ -32,8 +32,8 @@
   },
   "daily_safest": {
    "equity": "20.00",
-   "free": "17.03",
-   "open_bets": 3,
+   "free": "16.04",
+   "open_bets": 4,
    "settled_bets": 0,
    "won": 0,
    "realized_profit": "0.00",

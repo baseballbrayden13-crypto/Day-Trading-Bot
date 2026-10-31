@@ -2496,3 +2496,22 @@
 2026-10-31 14:26:03,139 INFO PAPER buy 2 NO KXATP-26VIENNA-DE at up to $0.9000: filled 2
 2026-10-31 14:26:03,139 INFO Quote KXATP-26VIENNA filled 2: hedged, locks in $0.11
 2026-10-31 14:26:03,142 INFO Stopped; all quotes cancelled.
+2026-10-31 14:35:25,170 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-10-31 14:39:00,188 INFO PAPER rest NO bid KXCFLGAME-26OCT31WPGTOR-WPG at $0.7600 x5 (0 already bid at that price)
+2026-10-31 14:39:00,188 INFO Resting NO bid on KXCFLGAME-26OCT31WPGTOR-WPG at $0.7600 x5 (KXCFLGAME-26OCT31WPGTOR): locks in $0.17 if it fills; hedge NO TOR@0.1900
+2026-10-31 14:39:00,192 INFO Swept 21760 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 14:44:01,910 INFO Swept 21730 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 14:49:04,254 INFO Swept 21713 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 14:49:19,875 INFO Quote KXCFLGAME-26OCT31WPGTOR cancelled (0/5 filled)
+2026-10-31 14:54:04,889 INFO PAPER rest NO bid KXSAPSLGAME-26OCT31MAMDCF-DCF at $0.8700 x2 (0 already bid at that price)
+2026-10-31 14:54:04,889 INFO Resting NO bid on KXSAPSLGAME-26OCT31MAMDCF-DCF at $0.8700 x2 (KXSAPSLGAME-26OCT31MAMDCF): locks in $0.14 if it fills; hedge NO MAM@0.1100, TIE@0.9300
+2026-10-31 14:54:04,892 INFO Swept 21700 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 14:59:05,441 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV02USAAKR-USA at $0.1100 x2 (0 already bid at that price)
+2026-10-31 14:59:05,442 INFO Resting NO bid on KXNCAAWBGAME-26NOV02USAAKR-USA at $0.1100 x2 (KXNCAAWBGAME-26NOV02USAAKR): locks in $0.18 if it fills; hedge NO AKR@0.8000
+2026-10-31 14:59:05,445 INFO Swept 21678 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 15:04:07,932 INFO PAPER BET daily_safest: 1 NO KXROCKHOF-PRO-26NOV01 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-10-31 15:04:07,934 INFO Swept 21617 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 15:04:08,000 INFO PAPER KXSAPSLGAME-26OCT31MAMDCF-DCF NO bid at $0.8700: 2/2 filled by real trades
+2026-10-31 15:04:08,070 INFO PAPER buy 2 NO KXSAPSLGAME-26OCT31MAMDCF-MAM at up to $0.1100: filled 2
+2026-10-31 15:04:08,136 INFO PAPER buy 2 NO KXSAPSLGAME-26OCT31MAMDCF-TIE at up to $0.9400: filled 2
+2026-10-31 15:04:08,136 INFO Quote KXSAPSLGAME-26OCT31MAMDCF filled 2: hedged, locks in $0.12
