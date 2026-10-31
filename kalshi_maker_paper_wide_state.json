@@ -1003,59 +1003,63 @@
  ],
  "quotes": [
   {
-   "event": "KXNETFLIXRANKMOVIE-26NOV02",
-   "series": "KXNETFLIXRANKMOVIE",
-   "title": "Top US Netflix Movie this week?",
-   "ticker": "KXNETFLIXRANKMOVIE-26NOV02-ANI",
-   "order_id": "paper-351-1793454188",
-   "price": "0.88",
-   "sets": 4,
+   "event": "KXSSHIELDMATCH-26OCT291930BLUTAS",
+   "series": "KXSSHIELDMATCH",
+   "title": "Tasmania vs New South Wales Blues",
+   "ticker": "KXSSHIELDMATCH-26OCT291930BLUTAS-TAS",
+   "order_id": "paper-354-1793456309",
+   "price": "0.08",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.8800",
+   "reserve": "4.9000",
    "multiplier": "1",
-   "placed": 1793454188.0046835,
+   "placed": 1793456309.5884686,
    "hedge": [
     {
-     "ticker": "KXNETFLIXRANKMOVIE-26NOV02-SUR",
-     "limit": "0.0800"
+     "ticker": "KXSSHIELDMATCH-26OCT291930BLUTAS-BLU",
+     "limit": "0.8900"
     }
    ]
   },
   {
-   "event": "KXCS2MAP-26OCT310900PROGLS-1",
-   "series": "KXCS2MAP",
-   "title": "Procyon Gaming vs. Galorys: Map 1 Winner",
-   "ticker": "KXCS2MAP-26OCT310900PROGLS-1-GLS",
-   "order_id": "paper-352-1793454793",
-   "price": "0.1200",
-   "sets": 3,
+   "event": "KXLOWTOKC-26OCT31",
+   "series": "KXLOWTOKC",
+   "title": "Lowest temperature in Oklahoma City on Oct 31, 2026?",
+   "ticker": "KXLOWTOKC-26OCT31-B57.5",
+   "order_id": "paper-356-1793456309",
+   "price": "0.78",
+   "sets": 1,
    "done": 0,
-   "reserve": "2.2300",
+   "reserve": "1.9000",
    "multiplier": "1",
-   "placed": 1793454793.0294669,
+   "placed": 1793456309.6432822,
    "hedge": [
     {
-     "ticker": "KXCS2MAP-26OCT310900PROGLS-1-PRO",
-     "limit": "0.7900"
+     "ticker": "KXLOWTOKC-26OCT31-B55.5",
+     "limit": "0.9900"
+    },
+    {
+     "ticker": "KXLOWTOKC-26OCT31-T58",
+     "limit": "0.1100"
     }
    ]
   },
   {
-   "event": "KXNCAAFGAME-26NOV06NEBILL",
-   "series": "KXNCAAFGAME",
-   "title": "Nebraska vs Illinois",
-   "ticker": "KXNCAAFGAME-26NOV06NEBILL-NEB",
-   "order_id": "paper-353-1793455401",
-   "price": "0.34",
+   "event": "KXEBASKETBALLGAME-26OCT311025GAVIMELO",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Dallas Mavericks (Gavi) vs Denver Nuggets (Melo)",
+   "ticker": "KXEBASKETBALLGAME-26OCT311025GAVIMELO-MELO",
+   "order_id": "paper-357-1793456915",
+   "price": "0.1000",
    "sets": 4,
    "done": 0,
-   "reserve": "3.8900",
+   "reserve": "3.3900",
    "multiplier": "1",
-   "placed": 1793455401.1820881,
+   "placed": 1793456915.8812222,
    "hedge": [
     {
-     "ticker": "KXNCAAFGAME-26NOV06NEBILL-ILL",
-     "limit": "0.6100"
+     "ticker": "KXEBASKETBALLGAME-26OCT311025GAVIMELO-GAVI",
+     "limit": "0.9200"
     }
    ]
   }
