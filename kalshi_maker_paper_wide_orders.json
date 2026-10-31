@@ -4542,12 +4542,12 @@
   "count": 5,
   "ahead": 0,
   "placed": 1793430958.6907218,
-  "checked": 1793432567.285449,
+  "checked": 1793432758,
   "expires": 1793432758,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-326-1793431565": {
   "id": "paper-326-1793431565",
@@ -4562,5 +4562,19 @@
   "at_price": 0,
   "filled": 2,
   "status": "executed"
+ },
+ "paper-327-1793433390": {
+  "id": "paper-327-1793433390",
+  "ticker": "KXKLEAGUE1H-26OCT31GWAGIS-GIS",
+  "price": "0.2100",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793433390.5823805,
+  "checked": 1793434367.634442,
+  "expires": 1793435190,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

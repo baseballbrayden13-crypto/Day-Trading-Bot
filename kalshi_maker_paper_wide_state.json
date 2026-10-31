@@ -1,5 +1,5 @@
 {
- "realized": "1.5000",
+ "realized": "1.6800",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -70,36 +70,6 @@
      "side": "no",
      "count": 1,
      "limit": "0.0800"
-    }
-   ]
-  },
-  {
-   "event": "KXESOCCERGAME-26OCT310345ROSEMIA",
-   "series": "KXESOCCERGAME",
-   "title": "eSoccer: Manchester Utd (Rose) vs Arsenal (Mia)",
-   "sets": 2,
-   "outlay": "3.8200",
-   "locked_profit": "0.1800",
-   "opened": "2026-10-31T07:41:40.518648+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXESOCCERGAME-26OCT310345ROSEMIA-MIA",
-     "side": "no",
-     "count": 2,
-     "limit": "0.3000"
-    },
-    {
-     "ticker": "KXESOCCERGAME-26OCT310345ROSEMIA-ROSE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.5900"
-    },
-    {
-     "ticker": "KXESOCCERGAME-26OCT310345ROSEMIA-TIE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.9900"
     }
    ]
   }
@@ -872,25 +842,62 @@
    "paid": "5",
    "pnl": "0.5800",
    "closed": "2026-10-30T22:19:38.085734+00:00"
+  },
+  {
+   "event": "KXESOCCERGAME-26OCT310345ROSEMIA",
+   "series": "KXESOCCERGAME",
+   "title": "eSoccer: Manchester Utd (Rose) vs Arsenal (Mia)",
+   "sets": 2,
+   "outlay": "3.8200",
+   "locked_profit": "0.1800",
+   "opened": "2026-10-31T07:41:40.518648+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXESOCCERGAME-26OCT310345ROSEMIA-MIA",
+     "side": "no",
+     "count": 2,
+     "limit": "0.3000"
+    },
+    {
+     "ticker": "KXESOCCERGAME-26OCT310345ROSEMIA-ROSE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.5900"
+    },
+    {
+     "ticker": "KXESOCCERGAME-26OCT310345ROSEMIA-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.9900"
+    }
+   ],
+   "paid": "4",
+   "pnl": "0.1800",
+   "closed": "2026-10-31T08:01:07.730483+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXLOWTSAN-26OCT30",
-   "series": "KXLOWTSAN",
-   "title": "Lowest temperature in San Diego on Oct 30, 2026?",
-   "ticker": "KXLOWTSAN-26OCT30-B62.5",
-   "order_id": "paper-325-1793430958",
-   "price": "0.1700",
-   "sets": 5,
+   "event": "KXKLEAGUE1H-26OCT31GWAGIS",
+   "series": "KXKLEAGUE1H",
+   "title": "Gwangju vs Gimcheon Sangmu: First Half Winner",
+   "ticker": "KXKLEAGUE1H-26OCT31GWAGIS-GIS",
+   "order_id": "paper-327-1793433390",
+   "price": "0.2100",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.7700",
+   "reserve": "3.7500",
    "multiplier": "1",
-   "placed": 1793430958.6946838,
+   "placed": 1793433390.586438,
    "hedge": [
     {
-     "ticker": "KXLOWTSAN-26OCT30-B64.5",
-     "limit": "0.7700"
+     "ticker": "KXKLEAGUE1H-26OCT31GWAGIS-GWA",
+     "limit": "0.9500"
+    },
+    {
+     "ticker": "KXKLEAGUE1H-26OCT31GWAGIS-TIE",
+     "limit": "0.7500"
     }
    ]
   }

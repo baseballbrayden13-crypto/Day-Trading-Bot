@@ -1916,3 +1916,12 @@
 2026-10-31 03:41:40,448 INFO PAPER buy 2 NO KXESOCCERGAME-26OCT310345ROSEMIA-ROSE at up to $0.5900: filled 2
 2026-10-31 03:41:40,518 INFO PAPER buy 2 NO KXESOCCERGAME-26OCT310345ROSEMIA-TIE at up to $0.9900: filled 2
 2026-10-31 03:41:40,518 INFO Quote KXESOCCERGAME-26OCT310345ROSEMIA filled 2: hedged, locks in $0.18
+2026-10-31 03:46:21,488 INFO Swept 22287 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 03:51:24,766 INFO Swept 22292 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 03:56:30,586 INFO PAPER rest NO bid KXKLEAGUE1H-26OCT31GWAGIS-GIS at $0.2100 x2 (0 already bid at that price)
+2026-10-31 03:56:30,586 INFO Resting NO bid on KXKLEAGUE1H-26OCT31GWAGIS-GIS at $0.2100 x2 (KXKLEAGUE1H-26OCT31GWAGIS): locks in $0.25 if it fills; hedge NO GWA@0.9500, TIE@0.7200
+2026-10-31 03:56:30,589 INFO Swept 22287 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 04:01:07,730 INFO Settled KXESOCCERGAME-26OCT310345ROSEMIA: paid $4, profit $0.18
+2026-10-31 04:01:29,630 INFO Swept 22283 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 04:06:37,429 INFO Swept 22266 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 04:11:40,604 INFO Swept 22307 events: 0 taker trades, 0 new quotes, 1 resting
