@@ -1245,21 +1245,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAWBGAME-26NOV02USAAKR",
-   "series": "KXNCAAWBGAME",
-   "title": "South Alabama vs Akron",
-   "ticker": "KXNCAAWBGAME-26NOV02USAAKR-USA",
-   "order_id": "paper-400-1793473145",
-   "price": "0.1100",
-   "sets": 2,
+   "event": "KXBULLETBRAWL-26OCT31",
+   "series": "KXBULLETBRAWL",
+   "title": "Bullet Brawl Winner: Oct 31",
+   "ticker": "KXBULLETBRAWL-26OCT31-HNAK",
+   "order_id": "paper-401-1793475265",
+   "price": "0.1200",
+   "sets": 3,
    "done": 0,
-   "reserve": "1.8200",
+   "reserve": "1.6300",
    "multiplier": "1",
-   "placed": 1793473145.4420502,
+   "placed": 1793475265.5397341,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV02USAAKR-AKR",
-     "limit": "0.8000"
+     "ticker": "KXBULLETBRAWL-26OCT31-AFIR",
+     "limit": "0.4000"
     }
    ]
   }

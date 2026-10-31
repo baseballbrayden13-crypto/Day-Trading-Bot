@@ -2515,3 +2515,11 @@
 2026-10-31 15:04:08,070 INFO PAPER buy 2 NO KXSAPSLGAME-26OCT31MAMDCF-MAM at up to $0.1100: filled 2
 2026-10-31 15:04:08,136 INFO PAPER buy 2 NO KXSAPSLGAME-26OCT31MAMDCF-TIE at up to $0.9400: filled 2
 2026-10-31 15:04:08,136 INFO Quote KXSAPSLGAME-26OCT31MAMDCF filled 2: hedged, locks in $0.12
+2026-10-31 15:09:06,970 INFO Swept 21605 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 15:14:12,776 INFO Swept 21645 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 15:19:15,318 INFO Swept 21634 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 15:24:19,938 INFO Swept 21627 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 15:29:21,943 INFO Swept 21587 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 15:34:25,539 INFO PAPER rest NO bid KXBULLETBRAWL-26OCT31-HNAK at $0.1200 x3 (0 already bid at that price)
+2026-10-31 15:34:25,539 INFO Resting NO bid on KXBULLETBRAWL-26OCT31-HNAK at $0.1200 x3 (KXBULLETBRAWL-26OCT31): locks in $1.37 if it fills; hedge NO AFIR@0.4000
+2026-10-31 15:34:25,543 INFO Swept 21556 events: 0 taker trades, 1 new quotes, 1 resting
