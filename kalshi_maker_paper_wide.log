@@ -1889,3 +1889,16 @@
 2026-10-31 02:31:10,078 INFO Swept 22330 events: 0 taker trades, 1 new quotes, 1 resting
 2026-10-31 02:36:15,110 INFO Swept 22331 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-31 02:36:20,314 INFO Stopped; all quotes cancelled.
+2026-10-31 02:42:45,192 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-10-31 02:45:41,824 INFO PAPER rest NO bid KXWTA-26TOKYO-FER at $0.3900 x2 (0 already bid at that price)
+2026-10-31 02:45:41,824 INFO Resting NO bid on KXWTA-26TOKYO-FER at $0.39 x2 (KXWTA-26TOKYO): locks in $0.10 if it fills; hedge NO SHN@0.6000, POH@0.9300
+2026-10-31 02:45:41,900 INFO PAPER rest NO bid KXNBAGAME-26NOV02SACDAL-SAC at $0.7600 x5 (86 already bid at that price)
+2026-10-31 02:45:41,900 INFO Resting NO bid on KXNBAGAME-26NOV02SACDAL-SAC at $0.76 x5 (KXNBAGAME-26NOV02SACDAL): locks in $0.12 if it fills; hedge NO DAL@0.2000
+2026-10-31 02:45:41,903 INFO Swept 22333 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-31 02:47:38,691 INFO Quote KXNBAGAME-26NOV02SACDAL cancelled (0/5 filled)
+2026-10-31 02:50:47,568 INFO Swept 22341 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 02:55:47,872 INFO Swept 22329 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 03:00:46,365 INFO Swept 22316 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 03:05:52,614 INFO Swept 22292 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 03:10:55,200 INFO Swept 22282 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 03:10:55,414 INFO Quote KXWTA-26TOKYO cancelled (0/2 filled)
