@@ -1,0 +1,6816 @@
+{
+ "taken": "2026-10-31T01:25:50+00:00",
+ "bots": {
+  "1": {
+   "name": "ORB day trader",
+   "label": "1",
+   "kind": "alpaca",
+   "errors": [],
+   "account": {
+    "account": "QIE2",
+    "equity": 4984.47,
+    "last_equity": 4997.97,
+    "cash": 4984.47,
+    "status": "ACTIVE",
+    "trading_blocked": false,
+    "account_blocked": false
+   },
+   "positions": [],
+   "orders": [
+    {
+     "time": "2026-10-27T14:35:09.052644+00:00",
+     "symbol": "AAPL",
+     "side": "buy",
+     "qty": 2.0,
+     "price": 345.585,
+     "type": "market",
+     "order_id": "74274ab2-dfee-499b-b43e-59e8f37a3007"
+    },
+    {
+     "time": "2026-10-27T19:55:14.544649+00:00",
+     "symbol": "AAPL",
+     "side": "sell",
+     "qty": 2.0,
+     "price": 347.0,
+     "type": "market",
+     "order_id": "cd3bf48c-d9de-407e-9967-4f47335977ac"
+    },
+    {
+     "time": "2026-10-29T14:05:09.893542+00:00",
+     "symbol": "SPY",
+     "side": "buy",
+     "qty": 1.0,
+     "price": 769.84,
+     "type": "market",
+     "order_id": "a597dad4-f007-499b-a2e5-c93d40df1c01"
+    },
+    {
+     "time": "2026-10-29T14:35:09.309131+00:00",
+     "symbol": "QQQ",
+     "side": "buy",
+     "qty": 1.0,
+     "price": 716.8,
+     "type": "market",
+     "order_id": "796a4d20-0c34-46d3-9fce-235320cf2249"
+    },
+    {
+     "time": "2026-10-29T17:47:31.256154+00:00",
+     "symbol": "SPY",
+     "side": "sell",
+     "qty": 1.0,
+     "price": 767.26,
+     "type": "stop",
+     "order_id": "33181ee1-0b5a-4b26-984f-23486564329d"
+    },
+    {
+     "time": "2026-10-29T19:55:16.473022+00:00",
+     "symbol": "QQQ",
+     "side": "sell",
+     "qty": 1.0,
+     "price": 714.6,
+     "type": "market",
+     "order_id": "6a2e04da-e65a-41a1-9e21-bc690d9e9c32"
+    },
+    {
+     "time": "2026-10-30T14:00:00.486336+00:00",
+     "symbol": "QQQ",
+     "side": "buy",
+     "qty": 1.0,
+     "price": 698.24,
+     "type": "market",
+     "order_id": "8bc48f6b-b44a-4eaf-b4dc-012049aadc81"
+    },
+    {
+     "time": "2026-10-30T14:21:31.183871+00:00",
+     "symbol": "QQQ",
+     "side": "sell",
+     "qty": 1.0,
+     "price": 693.92,
+     "type": "stop",
+     "order_id": "714e9a7c-aa3f-4b34-a140-be57b88184e4"
+    },
+    {
+     "time": "2026-10-30T14:45:09.212356+00:00",
+     "symbol": "AAPL",
+     "side": "buy",
+     "qty": 2.0,
+     "price": 348.78,
+     "type": "market",
+     "order_id": "880a7cd4-bd34-4431-ac7d-9b415a92de79"
+    },
+    {
+     "time": "2026-10-30T18:02:40.787907+00:00",
+     "symbol": "AAPL",
+     "side": "sell",
+     "qty": 2.0,
+     "price": 344.19,
+     "type": "stop",
+     "order_id": "59cf5548-7dd6-48b3-97f7-87dd2871ee09"
+    }
+   ],
+   "equity_history": [
+    {
+     "day": "2026-09-30",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-01",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-02",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-05",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-06",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-07",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-08",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-09",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-12",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-13",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-14",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-15",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-16",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-19",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-20",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-21",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-22",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-23",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-26",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-27",
+     "equity": 5002.8
+    },
+    {
+     "day": "2026-10-28",
+     "equity": 5002.8
+    },
+    {
+     "day": "2026-10-29",
+     "equity": 4997.97
+    }
+   ],
+   "log": {
+    "exists": true,
+    "modified": "2026-10-30T16:05:05-04:00",
+    "last_line_time": "2026-10-30T16:05:05",
+    "errors": 0,
+    "errors_24h": 0,
+    "last_errors": [],
+    "tail": [
+     "2026-10-30 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.",
+     "2026-10-30 13:15:42,704 INFO Connected to Alpaca PAPER account",
+     "2026-10-30 13:15:42,886 INFO Picked up today's counters: start equity $4997.97, 2 trades",
+     "2026-10-30 13:15:42,886 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.",
+     "2026-10-30 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca."
+    ],
+    "live_warning": false
+   },
+   "fills": {
+    "entries": 4,
+    "fills": 7,
+    "avg_bps": 2.1
+   }
+  },
+  "2": {
+   "name": "ETF rotation",
+   "label": "2",
+   "kind": "alpaca",
+   "errors": [],
+   "account": {
+    "account": "8T7Y",
+    "equity": 5010.94,
+    "last_equity": 5047.18,
+    "cash": 300.57,
+    "status": "ACTIVE",
+    "trading_blocked": false,
+    "account_blocked": false
+   },
+   "positions": [
+    {
+     "symbol": "XLE",
+     "qty": 23.0,
+     "avg_entry": 69.180435,
+     "market_value": 1610.46,
+     "unrealized_pl": 19.309995
+    },
+    {
+     "symbol": "XLK",
+     "qty": 8.0,
+     "avg_entry": 187.56,
+     "market_value": 1436.08,
+     "unrealized_pl": -64.4
+    },
+    {
+     "symbol": "XLV",
+     "qty": 9.0,
+     "avg_entry": 178.643333,
+     "market_value": 1663.83,
+     "unrealized_pl": 56.040003
+    }
+   ],
+   "orders": [
+    {
+     "time": "2026-10-27T13:50:08.251343+00:00",
+     "symbol": "XLK",
+     "side": "buy",
+     "qty": 8.0,
+     "price": 187.56,
+     "type": "market",
+     "order_id": "6d8de19b-e84c-46b3-978d-d7b10526f1cd"
+    },
+    {
+     "time": "2026-10-27T13:50:08.626967+00:00",
+     "symbol": "XLE",
+     "side": "buy",
+     "qty": 23.0,
+     "price": 69.180435,
+     "type": "market",
+     "order_id": "c97912fe-7303-464b-ba1f-9ab304d3cb8f"
+    },
+    {
+     "time": "2026-10-27T13:50:09.752222+00:00",
+     "symbol": "XLV",
+     "side": "buy",
+     "qty": 9.0,
+     "price": 178.643333,
+     "type": "market",
+     "order_id": "2e46ab31-3115-4fe0-9edf-65c782d18ce2"
+    }
+   ],
+   "equity_history": [
+    {
+     "day": "2026-09-30",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-01",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-02",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-05",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-06",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-07",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-08",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-09",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-12",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-13",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-14",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-15",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-16",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-19",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-20",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-21",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-22",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-23",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-26",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-27",
+     "equity": 4997.94
+    },
+    {
+     "day": "2026-10-28",
+     "equity": 5020.4
+    },
+    {
+     "day": "2026-10-29",
+     "equity": 5047.18
+    }
+   ],
+   "log": {
+    "exists": true,
+    "modified": "2026-10-30T11:36:29-04:00",
+    "last_line_time": "2026-10-30T11:36:29",
+    "errors": 0,
+    "errors_24h": 0,
+    "last_errors": [],
+    "tail": [
+     "2026-10-29 11:37:45,205 INFO Already rebalanced in October; nothing to do.",
+     "2026-10-30 10:40:42,088 INFO Connected to Alpaca PAPER account",
+     "2026-10-30 10:40:42,424 INFO Already rebalanced in October; nothing to do.",
+     "2026-10-30 11:36:29,728 INFO Connected to Alpaca PAPER account",
+     "2026-10-30 11:36:29,838 INFO Already rebalanced in October; nothing to do."
+    ],
+    "live_warning": false
+   },
+   "rotation_state": {
+    "last_month": "2026-10",
+    "holding": {
+     "XLE": 0.3333333333333333,
+     "XLK": 0.3333333333333333,
+     "XLV": 0.3333333333333333
+    },
+    "at": "2026-10-27T09:50:05.379101-04:00"
+   }
+  },
+  "3": {
+   "name": "Crypto trend",
+   "label": "3",
+   "kind": "alpaca",
+   "errors": [],
+   "account": {
+    "account": "KTS7",
+    "equity": 5000.0,
+    "last_equity": 5000.0,
+    "cash": 5000.0,
+    "status": "ACTIVE",
+    "trading_blocked": false,
+    "account_blocked": false
+   },
+   "positions": [],
+   "orders": [],
+   "equity_history": [
+    {
+     "day": "2026-09-30",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-01",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-02",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-05",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-06",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-07",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-08",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-09",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-12",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-13",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-14",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-15",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-16",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-19",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-20",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-21",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-22",
+     "equity": 0.0
+    },
+    {
+     "day": "2026-10-23",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-26",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-27",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-28",
+     "equity": 5000.0
+    },
+    {
+     "day": "2026-10-29",
+     "equity": 5000.0
+    }
+   ],
+   "log": {
+    "exists": true,
+    "modified": "2026-10-30T21:25:50-04:00",
+    "last_line_time": "2026-10-30T21:25:50",
+    "errors": 0,
+    "errors_24h": 0,
+    "last_errors": [],
+    "tail": [
+     "2026-10-28 21:23:38,011 INFO 2026-10-28 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
+     "2026-10-29 21:26:57,696 INFO Connected to Alpaca PAPER account",
+     "2026-10-29 21:26:58,678 INFO 2026-10-29 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
+     "2026-10-30 21:25:49,847 INFO Connected to Alpaca PAPER account",
+     "2026-10-30 21:25:50,346 INFO 2026-10-30 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
+    ],
+    "live_warning": false
+   }
+  },
+  "6": {
+   "name": "Kalshi maker paper",
+   "label": "4c",
+   "kind": "kalshi",
+   "start": 20.0,
+   "errors": [],
+   "maker_paper": {
+    "summary": {
+     "updated": "2026-10-31T00:58:26+00:00",
+     "mode": "maker-paper",
+     "env": "prod-prices",
+     "start_budget": "20",
+     "min_profit": "0.10",
+     "equity": "19.01",
+     "realized_profit": "-0.99",
+     "bet_level": "19.01",
+     "open_trades": 2,
+     "open_locked_profit": "1.06",
+     "in_play": "19.94",
+     "stray_positions": 0,
+     "closed_trades": 1,
+     "trades_this_loop": 0,
+     "events_swept": 17054,
+     "found_this_loop": 0,
+     "top_series": [],
+     "problems": 0,
+     "last_problems": []
+    },
+    "realized": -0.99,
+    "open": 2,
+    "closed": 1,
+    "losing_trades": 0,
+    "stray": 0,
+    "quotes": 0,
+    "log": {
+     "exists": true,
+     "modified": "2026-10-30T21:00:53-04:00",
+     "last_line_time": "2026-10-30T21:00:53",
+     "errors": 0,
+     "errors_24h": 0,
+     "last_errors": [],
+     "tail": [
+      "2026-10-30 20:40:47,843 INFO Swept 17063 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-10-30 20:45:48,989 INFO Swept 17043 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-10-30 20:50:50,026 INFO Swept 17045 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-10-30 20:55:51,840 INFO Swept 17036 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-10-30 21:00:53,302 INFO Swept 17054 events: 0 taker trades, 0 new quotes, 0 resting"
+     ],
+     "live_warning": false
+    }
+   }
+  },
+  "7": {
+   "name": "Kalshi combined",
+   "label": "4e",
+   "kind": "kalshi",
+   "start": 20.0,
+   "errors": [],
+   "maker_paper": {
+    "summary": {
+     "updated": "2026-10-31T01:15:28+00:00",
+     "mode": "maker-paper",
+     "env": "prod-prices",
+     "start_budget": "20",
+     "min_profit": "0.10",
+     "equity": "21.50",
+     "realized_profit": "1.50",
+     "bet_level": "20.00",
+     "open_trades": 3,
+     "open_locked_profit": "0.39",
+     "in_play": "10.61",
+     "stray_positions": 0,
+     "closed_trades": 24,
+     "trades_this_loop": 0,
+     "events_swept": 17115,
+     "found_this_loop": 0,
+     "top_series": [],
+     "problems": 1,
+     "last_problems": [
+      "2026-10-31 01:13 Quote KXSSHIELDMATCH-26OCT272000WEARED: hedge missed on KXSSHIELDMATCH-26OCT272000WEARED-RED. Selling back 5 contracts on 1 legs."
+     ]
+    },
+    "realized": 1.5,
+    "open": 3,
+    "closed": 30,
+    "losing_trades": 4,
+    "stray": 0,
+    "quotes": 3,
+    "log": {
+     "exists": true,
+     "modified": "2026-10-30T21:18:21-04:00",
+     "last_line_time": "2026-10-30T21:18:21",
+     "errors": 6,
+     "errors_24h": 2,
+     "last_errors": [
+      "2026-10-29 11:22:06,314 ERROR STRAY POSITION: 2 NO contracts of KXSAUDIPL1H-26OCT29KHAHAZ-HAZ still held. Check it on Kalshi.",
+      "2026-10-29 21:38:18,427 ERROR STRAY POSITION: 2 NO contracts of KXNHL2P-26OCT29NYIMIN-TIE still held. Check it on Kalshi.",
+      "2026-10-30 05:18:53,593 ERROR STRAY POSITION: 6 NO contracts of KXEBASKETBALLGAME-26OCT300512MICKJASO-JASO still held. Check it on Kalshi."
+     ],
+     "tail": [
+      "2026-10-30 21:18:21,836 INFO PAPER rest NO bid KXNBACUPGROUP-26WESTA-DAL at $0.5400 x1 (0 already bid at that price)",
+      "2026-10-30 21:18:21,837 INFO Resting NO bid on KXNBACUPGROUP-26WESTA-DAL at $0.5400 x1 (KXNBACUPGROUP-26WESTA): locks in $0.13 if it fills; hedge NO DEN@0.7700, HOU@0.5100",
+      "2026-10-30 21:18:21,898 INFO PAPER rest NO bid KXUSL1H-26OCT30PASSAN-TIE at $0.2100 x1 (0 already bid at that price)",
+      "2026-10-30 21:18:21,899 INFO Resting NO bid on KXUSL1H-26OCT30PASSAN-TIE at $0.2100 x1 (KXUSL1H-26OCT30PASSAN): locks in $0.24 if it fills; hedge NO PAS@0.6800, SAN@0.8200",
+      "2026-10-30 21:18:21,902 INFO Swept 17115 events: 0 taker trades, 2 new quotes, 3 resting"
+     ],
+     "live_warning": false
+    }
+   }
+  }
+ },
+ "errors": [],
+ "tasks": [],
+ "err_logs": [],
+ "clock": {
+  "is_open": false,
+  "next_open": "2026-11-02T09:30:00-05:00",
+  "next_close": "2026-11-02T16:00:00-05:00",
+  "trading_day": true
+ },
+ "market": {
+  "symbols": [
+   {
+    "symbol": "AAPL",
+    "day": "2026-10-30",
+    "close": 344.77,
+    "chg_1d_pct": -1.21,
+    "chg_1m_pct": 4.34,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 14.5
+   },
+   {
+    "symbol": "EEM",
+    "day": "2026-10-30",
+    "close": 61.03,
+    "chg_1d_pct": -2.73,
+    "chg_1m_pct": -8.64,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 21.6
+   },
+   {
+    "symbol": "EFA",
+    "day": "2026-10-30",
+    "close": 103.36,
+    "chg_1d_pct": -0.94,
+    "chg_1m_pct": 0.51,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 9.7
+   },
+   {
+    "symbol": "GLD",
+    "day": "2026-10-30",
+    "close": 355.81,
+    "chg_1d_pct": -3.47,
+    "chg_1m_pct": -7.05,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 21.1
+   },
+   {
+    "symbol": "IWM",
+    "day": "2026-10-30",
+    "close": 279.37,
+    "chg_1d_pct": -1.63,
+    "chg_1m_pct": 0.11,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 16.2
+   },
+   {
+    "symbol": "MSFT",
+    "day": "2026-10-30",
+    "close": 521.97,
+    "chg_1d_pct": -1.59,
+    "chg_1m_pct": 1.81,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 20.0
+   },
+   {
+    "symbol": "NVDA",
+    "day": "2026-10-30",
+    "close": 204.76,
+    "chg_1d_pct": -4.18,
+    "chg_1m_pct": -11.37,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 31.8
+   },
+   {
+    "symbol": "QQQ",
+    "day": "2026-10-30",
+    "close": 690.54,
+    "chg_1d_pct": -3.48,
+    "chg_1m_pct": -6.94,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 22.7
+   },
+   {
+    "symbol": "SPY",
+    "day": "2026-10-30",
+    "close": 755.72,
+    "chg_1d_pct": -1.79,
+    "chg_1m_pct": -1.1,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 11.6
+   },
+   {
+    "symbol": "TLT",
+    "day": "2026-10-30",
+    "close": 81.85,
+    "chg_1d_pct": 0.45,
+    "chg_1m_pct": 5.31,
+    "above_200d": false,
+    "above_50d": true,
+    "vol_20d_pct": 10.6
+   },
+   {
+    "symbol": "XLE",
+    "day": "2026-10-30",
+    "close": 70.0,
+    "chg_1d_pct": 1.87,
+    "chg_1m_pct": 11.66,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 21.3
+   },
+   {
+    "symbol": "XLF",
+    "day": "2026-10-30",
+    "close": 56.53,
+    "chg_1d_pct": -0.71,
+    "chg_1m_pct": 5.71,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 12.7
+   },
+   {
+    "symbol": "XLI",
+    "day": "2026-10-30",
+    "close": 167.42,
+    "chg_1d_pct": -1.58,
+    "chg_1m_pct": -0.74,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 14.7
+   },
+   {
+    "symbol": "XLK",
+    "day": "2026-10-30",
+    "close": 179.5,
+    "chg_1d_pct": -4.9,
+    "chg_1m_pct": -9.29,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 29.7
+   },
+   {
+    "symbol": "XLP",
+    "day": "2026-10-30",
+    "close": 89.42,
+    "chg_1d_pct": 1.44,
+    "chg_1m_pct": 11.29,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 19.6
+   },
+   {
+    "symbol": "XLU",
+    "day": "2026-10-30",
+    "close": 43.45,
+    "chg_1d_pct": 0.71,
+    "chg_1m_pct": 9.51,
+    "above_200d": false,
+    "above_50d": true,
+    "vol_20d_pct": 17.3
+   },
+   {
+    "symbol": "XLV",
+    "day": "2026-10-30",
+    "close": 184.9,
+    "chg_1d_pct": 0.46,
+    "chg_1m_pct": 11.26,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 18.4
+   },
+   {
+    "symbol": "XLY",
+    "day": "2026-10-30",
+    "close": 115.38,
+    "chg_1d_pct": -0.69,
+    "chg_1m_pct": 6.02,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 14.6
+   },
+   {
+    "symbol": "BTC/USD",
+    "day": "2026-10-30",
+    "close": 77192.971,
+    "chg_1d_pct": -0.79,
+    "chg_1m_pct": -6.49,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 24.9
+   },
+   {
+    "symbol": "ETH/USD",
+    "day": "2026-10-30",
+    "close": 2241.2265,
+    "chg_1d_pct": -0.34,
+    "chg_1m_pct": -9.85,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 29.6
+   }
+  ],
+  "news": [
+   {
+    "symbol": "SPY",
+    "time": "2026-10-30T21:42:43+00:00",
+    "headline": "'White House to Nominate Mufarrige to FTC Commissioner Spot'- Bloomberg",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "SPY",
+    "time": "2026-10-30T20:55:28+00:00",
+    "headline": "Alphabet Posts Worst Week Since 2011, Intel Suffers Record Crash as Warsh Sees 'Cracks': This Week on Wall Street",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "SPY",
+    "time": "2026-10-30T20:09:30+00:00",
+    "headline": "Iran's IRIB Reports Iran's Revolutionary Guards Say Fourth Tanker Explodes After Hitting Mine In Strait Of Hormuz; Say Tanker Ignored Warnings Against Using 'Unauthorized Route' Through Strait Of Hormuz",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "SPY",
+    "time": "2026-10-30T19:59:46+00:00",
+    "headline": "Qatari Negotiators Have Been In Tehran With Ongoing Talks For 12 Hours; Qatari Mediators Have Also Been In Touch Regularly With The White House During The Day, Axios Correspondent Barak Ravid Says On Social Media, Citing Sources",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "SPY",
+    "time": "2026-10-30T18:59:24+00:00",
+    "headline": "U.S. Approves $2.1B Sale Of 500 Patriot Missiles To Ukraine",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "QQQ",
+    "time": "2026-10-30T17:05:05+00:00",
+    "headline": "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "QQQ",
+    "time": "2026-10-30T16:44:11+00:00",
+    "headline": "Intel\u2019s Agentic AI Overshadowed By Weak PC Sales; Soft Retail Overshadows Amazon AI; Record Crypto Heist",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "QQQ",
+    "time": "2026-10-30T15:00:25+00:00",
+    "headline": "Defensives Lead Sectors In Friday Trading As Growth Trails",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "QQQ",
+    "time": "2026-10-30T13:16:53+00:00",
+    "headline": "Trump Claims Inflation Is 'Way Down' Ahead of Midterms, But Fed Chair Kevin Warsh Warns Prices Remain 'Too High' After Holding Rates Steady",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "QQQ",
+    "time": "2026-10-30T12:43:13+00:00",
+    "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed as AMZN, INTC Slide After Q3 Earnings\u2014DELL, LLY, AZN in Focus (UPDATED)",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-10-31T00:01:24+00:00",
+    "headline": "Bank of America Lowers Fiscal 2027 iPhone Forecast for Apple",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-10-30T20:55:28+00:00",
+    "headline": "Alphabet Posts Worst Week Since 2011, Intel Suffers Record Crash as Warsh Sees 'Cracks': This Week on Wall Street",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-10-30T18:01:33+00:00",
+    "headline": "Apple Acquires Data-Management Startup Ascend.io",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-10-30T18:01:33+00:00",
+    "headline": "Trial Date Set for Apple's Trade Secret Lawsuit Against OpenAI",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-10-30T17:05:05+00:00",
+    "headline": "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-10-30T21:31:27+00:00",
+    "headline": "Microsoft Plans $25 Billion Investment-Grade Bond Sale",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-10-30T19:02:12+00:00",
+    "headline": "Microsoft and The Est\u00e9e Lauder Companies Announce Strategic AI Partnership",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-10-30T17:52:33+00:00",
+    "headline": "Why Is IREN Stock Falling on Friday?",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-10-30T17:37:32+00:00",
+    "headline": "Why Is Nebius Stock Falling on Friday?",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-10-30T17:35:10+00:00",
+    "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-30T20:31:30+00:00",
+    "headline": "NVIDIA Customer AM Intelligence Seeks $3 Billion Financing for Processor Order",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-30T17:35:10+00:00",
+    "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-30T17:05:05+00:00",
+    "headline": "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-30T16:55:09+00:00",
+    "headline": "Chip Stocks Wipe Out $1 Trillion in Friday Bloodbath: 5 Stocks Alone Account for 60% of the Damage",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-10-30T16:44:11+00:00",
+    "headline": "Intel\u2019s Agentic AI Overshadowed By Weak PC Sales; Soft Retail Overshadows Amazon AI; Record Crypto Heist",
+    "source": "benzinga"
+   }
+  ],
+  "regime": {
+   "spy_above_200d": true,
+   "spy_vol_20d_pct": 11.6,
+   "calm": true
+  },
+  "benchmarks": [
+   {
+    "day": "2025-08-27",
+    "symbol": "SPY",
+    "close": 637.91
+   },
+   {
+    "day": "2025-08-28",
+    "symbol": "SPY",
+    "close": 640.21
+   },
+   {
+    "day": "2025-08-29",
+    "symbol": "SPY",
+    "close": 636.35
+   },
+   {
+    "day": "2025-09-02",
+    "symbol": "SPY",
+    "close": 631.78
+   },
+   {
+    "day": "2025-09-03",
+    "symbol": "SPY",
+    "close": 634.95
+   },
+   {
+    "day": "2025-09-04",
+    "symbol": "SPY",
+    "close": 640.29
+   },
+   {
+    "day": "2025-09-05",
+    "symbol": "SPY",
+    "close": 638.51
+   },
+   {
+    "day": "2025-09-08",
+    "symbol": "SPY",
+    "close": 640.05
+   },
+   {
+    "day": "2025-09-09",
+    "symbol": "SPY",
+    "close": 641.51
+   },
+   {
+    "day": "2025-09-10",
+    "symbol": "SPY",
+    "close": 643.5
+   },
+   {
+    "day": "2025-09-11",
+    "symbol": "SPY",
+    "close": 648.7
+   },
+   {
+    "day": "2025-09-12",
+    "symbol": "SPY",
+    "close": 648.69
+   },
+   {
+    "day": "2025-09-15",
+    "symbol": "SPY",
+    "close": 651.96
+   },
+   {
+    "day": "2025-09-16",
+    "symbol": "SPY",
+    "close": 651.05
+   },
+   {
+    "day": "2025-09-17",
+    "symbol": "SPY",
+    "close": 650.49
+   },
+   {
+    "day": "2025-09-18",
+    "symbol": "SPY",
+    "close": 653.35
+   },
+   {
+    "day": "2025-09-19",
+    "symbol": "SPY",
+    "close": 656.43
+   },
+   {
+    "day": "2025-09-22",
+    "symbol": "SPY",
+    "close": 659.62
+   },
+   {
+    "day": "2025-09-23",
+    "symbol": "SPY",
+    "close": 656.15
+   },
+   {
+    "day": "2025-09-24",
+    "symbol": "SPY",
+    "close": 653.98
+   },
+   {
+    "day": "2025-09-25",
+    "symbol": "SPY",
+    "close": 650.74
+   },
+   {
+    "day": "2025-09-26",
+    "symbol": "SPY",
+    "close": 654.68
+   },
+   {
+    "day": "2025-09-29",
+    "symbol": "SPY",
+    "close": 656.54
+   },
+   {
+    "day": "2025-09-30",
+    "symbol": "SPY",
+    "close": 658.92
+   },
+   {
+    "day": "2025-10-01",
+    "symbol": "SPY",
+    "close": 661.37
+   },
+   {
+    "day": "2025-10-02",
+    "symbol": "SPY",
+    "close": 661.98
+   },
+   {
+    "day": "2025-10-03",
+    "symbol": "SPY",
+    "close": 662.04
+   },
+   {
+    "day": "2025-10-06",
+    "symbol": "SPY",
+    "close": 664.39
+   },
+   {
+    "day": "2025-10-07",
+    "symbol": "SPY",
+    "close": 661.97
+   },
+   {
+    "day": "2025-10-08",
+    "symbol": "SPY",
+    "close": 665.84
+   },
+   {
+    "day": "2025-10-09",
+    "symbol": "SPY",
+    "close": 663.99
+   },
+   {
+    "day": "2025-10-10",
+    "symbol": "SPY",
+    "close": 646.27
+   },
+   {
+    "day": "2025-10-13",
+    "symbol": "SPY",
+    "close": 655.96
+   },
+   {
+    "day": "2025-10-14",
+    "symbol": "SPY",
+    "close": 655.16
+   },
+   {
+    "day": "2025-10-15",
+    "symbol": "SPY",
+    "close": 657.95
+   },
+   {
+    "day": "2025-10-16",
+    "symbol": "SPY",
+    "close": 653.71
+   },
+   {
+    "day": "2025-10-17",
+    "symbol": "SPY",
+    "close": 657.18
+   },
+   {
+    "day": "2025-10-20",
+    "symbol": "SPY",
+    "close": 664.07
+   },
+   {
+    "day": "2025-10-21",
+    "symbol": "SPY",
+    "close": 664.06
+   },
+   {
+    "day": "2025-10-22",
+    "symbol": "SPY",
+    "close": 660.66
+   },
+   {
+    "day": "2025-10-23",
+    "symbol": "SPY",
+    "close": 664.33
+   },
+   {
+    "day": "2025-10-24",
+    "symbol": "SPY",
+    "close": 669.84
+   },
+   {
+    "day": "2025-10-27",
+    "symbol": "SPY",
+    "close": 677.87
+   },
+   {
+    "day": "2025-10-28",
+    "symbol": "SPY",
+    "close": 679.61
+   },
+   {
+    "day": "2025-10-29",
+    "symbol": "SPY",
+    "close": 679.95
+   },
+   {
+    "day": "2025-10-30",
+    "symbol": "SPY",
+    "close": 672.81
+   },
+   {
+    "day": "2025-10-31",
+    "symbol": "SPY",
+    "close": 674.72
+   },
+   {
+    "day": "2025-11-03",
+    "symbol": "SPY",
+    "close": 676.04
+   },
+   {
+    "day": "2025-11-04",
+    "symbol": "SPY",
+    "close": 668.07
+   },
+   {
+    "day": "2025-11-05",
+    "symbol": "SPY",
+    "close": 670.23
+   },
+   {
+    "day": "2025-11-06",
+    "symbol": "SPY",
+    "close": 663.06
+   },
+   {
+    "day": "2025-11-07",
+    "symbol": "SPY",
+    "close": 663.73
+   },
+   {
+    "day": "2025-11-10",
+    "symbol": "SPY",
+    "close": 674.01
+   },
+   {
+    "day": "2025-11-11",
+    "symbol": "SPY",
+    "close": 675.58
+   },
+   {
+    "day": "2025-11-12",
+    "symbol": "SPY",
+    "close": 675.99
+   },
+   {
+    "day": "2025-11-13",
+    "symbol": "SPY",
+    "close": 664.87
+   },
+   {
+    "day": "2025-11-14",
+    "symbol": "SPY",
+    "close": 664.73
+   },
+   {
+    "day": "2025-11-17",
+    "symbol": "SPY",
+    "close": 658.58
+   },
+   {
+    "day": "2025-11-18",
+    "symbol": "SPY",
+    "close": 653.08
+   },
+   {
+    "day": "2025-11-19",
+    "symbol": "SPY",
+    "close": 655.58
+   },
+   {
+    "day": "2025-11-20",
+    "symbol": "SPY",
+    "close": 645.43
+   },
+   {
+    "day": "2025-11-21",
+    "symbol": "SPY",
+    "close": 652.08
+   },
+   {
+    "day": "2025-11-24",
+    "symbol": "SPY",
+    "close": 661.65
+   },
+   {
+    "day": "2025-11-25",
+    "symbol": "SPY",
+    "close": 667.76
+   },
+   {
+    "day": "2025-11-26",
+    "symbol": "SPY",
+    "close": 672.35
+   },
+   {
+    "day": "2025-11-28",
+    "symbol": "SPY",
+    "close": 676.03
+   },
+   {
+    "day": "2025-12-01",
+    "symbol": "SPY",
+    "close": 672.96
+   },
+   {
+    "day": "2025-12-02",
+    "symbol": "SPY",
+    "close": 674.13
+   },
+   {
+    "day": "2025-12-03",
+    "symbol": "SPY",
+    "close": 676.48
+   },
+   {
+    "day": "2025-12-04",
+    "symbol": "SPY",
+    "close": 677.16
+   },
+   {
+    "day": "2025-12-05",
+    "symbol": "SPY",
+    "close": 678.27
+   },
+   {
+    "day": "2025-12-08",
+    "symbol": "SPY",
+    "close": 676.35
+   },
+   {
+    "day": "2025-12-09",
+    "symbol": "SPY",
+    "close": 675.71
+   },
+   {
+    "day": "2025-12-10",
+    "symbol": "SPY",
+    "close": 680.22
+   },
+   {
+    "day": "2025-12-11",
+    "symbol": "SPY",
+    "close": 681.76
+   },
+   {
+    "day": "2025-12-12",
+    "symbol": "SPY",
+    "close": 674.49
+   },
+   {
+    "day": "2025-12-15",
+    "symbol": "SPY",
+    "close": 673.42
+   },
+   {
+    "day": "2025-12-16",
+    "symbol": "SPY",
+    "close": 671.58
+   },
+   {
+    "day": "2025-12-17",
+    "symbol": "SPY",
+    "close": 664.23
+   },
+   {
+    "day": "2025-12-18",
+    "symbol": "SPY",
+    "close": 669.26
+   },
+   {
+    "day": "2025-12-19",
+    "symbol": "SPY",
+    "close": 675.21
+   },
+   {
+    "day": "2025-12-22",
+    "symbol": "SPY",
+    "close": 679.37
+   },
+   {
+    "day": "2025-12-23",
+    "symbol": "SPY",
+    "close": 682.55
+   },
+   {
+    "day": "2025-12-24",
+    "symbol": "SPY",
+    "close": 684.89
+   },
+   {
+    "day": "2025-12-26",
+    "symbol": "SPY",
+    "close": 684.88
+   },
+   {
+    "day": "2025-12-29",
+    "symbol": "SPY",
+    "close": 682.61
+   },
+   {
+    "day": "2025-12-30",
+    "symbol": "SPY",
+    "close": 681.57
+   },
+   {
+    "day": "2025-12-31",
+    "symbol": "SPY",
+    "close": 676.5
+   },
+   {
+    "day": "2026-01-02",
+    "symbol": "SPY",
+    "close": 678.0
+   },
+   {
+    "day": "2026-01-05",
+    "symbol": "SPY",
+    "close": 682.37
+   },
+   {
+    "day": "2026-01-06",
+    "symbol": "SPY",
+    "close": 686.42
+   },
+   {
+    "day": "2026-01-07",
+    "symbol": "SPY",
+    "close": 684.26
+   },
+   {
+    "day": "2026-01-08",
+    "symbol": "SPY",
+    "close": 684.06
+   },
+   {
+    "day": "2026-01-09",
+    "symbol": "SPY",
+    "close": 688.59
+   },
+   {
+    "day": "2026-01-12",
+    "symbol": "SPY",
+    "close": 689.77
+   },
+   {
+    "day": "2026-01-13",
+    "symbol": "SPY",
+    "close": 688.3
+   },
+   {
+    "day": "2026-01-14",
+    "symbol": "SPY",
+    "close": 685.24
+   },
+   {
+    "day": "2026-01-15",
+    "symbol": "SPY",
+    "close": 686.78
+   },
+   {
+    "day": "2026-01-16",
+    "symbol": "SPY",
+    "close": 686.19
+   },
+   {
+    "day": "2026-01-20",
+    "symbol": "SPY",
+    "close": 672.38
+   },
+   {
+    "day": "2026-01-21",
+    "symbol": "SPY",
+    "close": 680.0
+   },
+   {
+    "day": "2026-01-22",
+    "symbol": "SPY",
+    "close": 683.59
+   },
+   {
+    "day": "2026-01-23",
+    "symbol": "SPY",
+    "close": 683.83
+   },
+   {
+    "day": "2026-01-26",
+    "symbol": "SPY",
+    "close": 687.35
+   },
+   {
+    "day": "2026-01-27",
+    "symbol": "SPY",
+    "close": 690.11
+   },
+   {
+    "day": "2026-01-28",
+    "symbol": "SPY",
+    "close": 689.97
+   },
+   {
+    "day": "2026-01-29",
+    "symbol": "SPY",
+    "close": 688.55
+   },
+   {
+    "day": "2026-01-30",
+    "symbol": "SPY",
+    "close": 686.41
+   },
+   {
+    "day": "2026-02-02",
+    "symbol": "SPY",
+    "close": 689.97
+   },
+   {
+    "day": "2026-02-03",
+    "symbol": "SPY",
+    "close": 684.06
+   },
+   {
+    "day": "2026-02-04",
+    "symbol": "SPY",
+    "close": 680.75
+   },
+   {
+    "day": "2026-02-05",
+    "symbol": "SPY",
+    "close": 672.16
+   },
+   {
+    "day": "2026-02-06",
+    "symbol": "SPY",
+    "close": 685.34
+   },
+   {
+    "day": "2026-02-09",
+    "symbol": "SPY",
+    "close": 688.59
+   },
+   {
+    "day": "2026-02-10",
+    "symbol": "SPY",
+    "close": 686.71
+   },
+   {
+    "day": "2026-02-11",
+    "symbol": "SPY",
+    "close": 686.42
+   },
+   {
+    "day": "2026-02-12",
+    "symbol": "SPY",
+    "close": 675.88
+   },
+   {
+    "day": "2026-02-13",
+    "symbol": "SPY",
+    "close": 676.3
+   },
+   {
+    "day": "2026-02-17",
+    "symbol": "SPY",
+    "close": 677.44
+   },
+   {
+    "day": "2026-02-18",
+    "symbol": "SPY",
+    "close": 680.84
+   },
+   {
+    "day": "2026-02-19",
+    "symbol": "SPY",
+    "close": 679.17
+   },
+   {
+    "day": "2026-02-20",
+    "symbol": "SPY",
+    "close": 684.06
+   },
+   {
+    "day": "2026-02-23",
+    "symbol": "SPY",
+    "close": 677.07
+   },
+   {
+    "day": "2026-02-24",
+    "symbol": "SPY",
+    "close": 682.01
+   },
+   {
+    "day": "2026-02-25",
+    "symbol": "SPY",
+    "close": 687.7
+   },
+   {
+    "day": "2026-02-26",
+    "symbol": "SPY",
+    "close": 683.95
+   },
+   {
+    "day": "2026-02-27",
+    "symbol": "SPY",
+    "close": 680.81
+   },
+   {
+    "day": "2026-03-02",
+    "symbol": "SPY",
+    "close": 681.0
+   },
+   {
+    "day": "2026-03-03",
+    "symbol": "SPY",
+    "close": 674.99
+   },
+   {
+    "day": "2026-03-04",
+    "symbol": "SPY",
+    "close": 679.79
+   },
+   {
+    "day": "2026-03-05",
+    "symbol": "SPY",
+    "close": 676.09
+   },
+   {
+    "day": "2026-03-06",
+    "symbol": "SPY",
+    "close": 667.2
+   },
+   {
+    "day": "2026-03-09",
+    "symbol": "SPY",
+    "close": 673.01
+   },
+   {
+    "day": "2026-03-10",
+    "symbol": "SPY",
+    "close": 671.85
+   },
+   {
+    "day": "2026-03-11",
+    "symbol": "SPY",
+    "close": 671.07
+   },
+   {
+    "day": "2026-03-12",
+    "symbol": "SPY",
+    "close": 660.86
+   },
+   {
+    "day": "2026-03-13",
+    "symbol": "SPY",
+    "close": 657.14
+   },
+   {
+    "day": "2026-03-16",
+    "symbol": "SPY",
+    "close": 663.75
+   },
+   {
+    "day": "2026-03-17",
+    "symbol": "SPY",
+    "close": 665.52
+   },
+   {
+    "day": "2026-03-18",
+    "symbol": "SPY",
+    "close": 656.38
+   },
+   {
+    "day": "2026-03-19",
+    "symbol": "SPY",
+    "close": 654.73
+   },
+   {
+    "day": "2026-03-20",
+    "symbol": "SPY",
+    "close": 645.21
+   },
+   {
+    "day": "2026-03-23",
+    "symbol": "SPY",
+    "close": 652.07
+   },
+   {
+    "day": "2026-03-24",
+    "symbol": "SPY",
+    "close": 649.91
+   },
+   {
+    "day": "2026-03-25",
+    "symbol": "SPY",
+    "close": 653.43
+   },
+   {
+    "day": "2026-03-26",
+    "symbol": "SPY",
+    "close": 641.86
+   },
+   {
+    "day": "2026-03-27",
+    "symbol": "SPY",
+    "close": 630.84
+   },
+   {
+    "day": "2026-03-30",
+    "symbol": "SPY",
+    "close": 628.83
+   },
+   {
+    "day": "2026-03-31",
+    "symbol": "SPY",
+    "close": 646.84
+   },
+   {
+    "day": "2026-04-01",
+    "symbol": "SPY",
+    "close": 651.88
+   },
+   {
+    "day": "2026-04-02",
+    "symbol": "SPY",
+    "close": 652.46
+   },
+   {
+    "day": "2026-04-06",
+    "symbol": "SPY",
+    "close": 655.56
+   },
+   {
+    "day": "2026-04-07",
+    "symbol": "SPY",
+    "close": 655.91
+   },
+   {
+    "day": "2026-04-08",
+    "symbol": "SPY",
+    "close": 672.59
+   },
+   {
+    "day": "2026-04-09",
+    "symbol": "SPY",
+    "close": 676.44
+   },
+   {
+    "day": "2026-04-10",
+    "symbol": "SPY",
+    "close": 675.93
+   },
+   {
+    "day": "2026-04-13",
+    "symbol": "SPY",
+    "close": 682.54
+   },
+   {
+    "day": "2026-04-14",
+    "symbol": "SPY",
+    "close": 690.86
+   },
+   {
+    "day": "2026-04-15",
+    "symbol": "SPY",
+    "close": 696.22
+   },
+   {
+    "day": "2026-04-16",
+    "symbol": "SPY",
+    "close": 697.99
+   },
+   {
+    "day": "2026-04-17",
+    "symbol": "SPY",
+    "close": 706.48
+   },
+   {
+    "day": "2026-04-20",
+    "symbol": "SPY",
+    "close": 705.22
+   },
+   {
+    "day": "2026-04-21",
+    "symbol": "SPY",
+    "close": 700.36
+   },
+   {
+    "day": "2026-04-22",
+    "symbol": "SPY",
+    "close": 707.62
+   },
+   {
+    "day": "2026-04-23",
+    "symbol": "SPY",
+    "close": 704.84
+   },
+   {
+    "day": "2026-04-24",
+    "symbol": "SPY",
+    "close": 710.37
+   },
+   {
+    "day": "2026-04-27",
+    "symbol": "SPY",
+    "close": 711.56
+   },
+   {
+    "day": "2026-04-28",
+    "symbol": "SPY",
+    "close": 708.09
+   },
+   {
+    "day": "2026-04-29",
+    "symbol": "SPY",
+    "close": 708.0
+   },
+   {
+    "day": "2026-04-30",
+    "symbol": "SPY",
+    "close": 714.79
+   },
+   {
+    "day": "2026-05-01",
+    "symbol": "SPY",
+    "close": 716.86
+   },
+   {
+    "day": "2026-05-04",
+    "symbol": "SPY",
+    "close": 714.47
+   },
+   {
+    "day": "2026-05-05",
+    "symbol": "SPY",
+    "close": 720.06
+   },
+   {
+    "day": "2026-05-06",
+    "symbol": "SPY",
+    "close": 730.07
+   },
+   {
+    "day": "2026-05-07",
+    "symbol": "SPY",
+    "close": 727.84
+   },
+   {
+    "day": "2026-05-08",
+    "symbol": "SPY",
+    "close": 733.82
+   },
+   {
+    "day": "2026-05-11",
+    "symbol": "SPY",
+    "close": 735.47
+   },
+   {
+    "day": "2026-05-12",
+    "symbol": "SPY",
+    "close": 734.47
+   },
+   {
+    "day": "2026-05-13",
+    "symbol": "SPY",
+    "close": 738.56
+   },
+   {
+    "day": "2026-05-14",
+    "symbol": "SPY",
+    "close": 744.33
+   },
+   {
+    "day": "2026-05-15",
+    "symbol": "SPY",
+    "close": 735.38
+   },
+   {
+    "day": "2026-05-18",
+    "symbol": "SPY",
+    "close": 734.68
+   },
+   {
+    "day": "2026-05-19",
+    "symbol": "SPY",
+    "close": 730.1
+   },
+   {
+    "day": "2026-05-20",
+    "symbol": "SPY",
+    "close": 737.57
+   },
+   {
+    "day": "2026-05-21",
+    "symbol": "SPY",
+    "close": 738.97
+   },
+   {
+    "day": "2026-05-22",
+    "symbol": "SPY",
+    "close": 741.91
+   },
+   {
+    "day": "2026-05-26",
+    "symbol": "SPY",
+    "close": 746.68
+   },
+   {
+    "day": "2026-05-27",
+    "symbol": "SPY",
+    "close": 746.81
+   },
+   {
+    "day": "2026-05-28",
+    "symbol": "SPY",
+    "close": 750.88
+   },
+   {
+    "day": "2026-05-29",
+    "symbol": "SPY",
+    "close": 752.53
+   },
+   {
+    "day": "2026-06-01",
+    "symbol": "SPY",
+    "close": 754.62
+   },
+   {
+    "day": "2026-06-02",
+    "symbol": "SPY",
+    "close": 755.64
+   },
+   {
+    "day": "2026-06-03",
+    "symbol": "SPY",
+    "close": 750.38
+   },
+   {
+    "day": "2026-06-04",
+    "symbol": "SPY",
+    "close": 753.16
+   },
+   {
+    "day": "2026-06-05",
+    "symbol": "SPY",
+    "close": 733.73
+   },
+   {
+    "day": "2026-06-08",
+    "symbol": "SPY",
+    "close": 735.51
+   },
+   {
+    "day": "2026-06-09",
+    "symbol": "SPY",
+    "close": 733.36
+   },
+   {
+    "day": "2026-06-10",
+    "symbol": "SPY",
+    "close": 721.92
+   },
+   {
+    "day": "2026-06-11",
+    "symbol": "SPY",
+    "close": 733.95
+   },
+   {
+    "day": "2026-06-12",
+    "symbol": "SPY",
+    "close": 737.93
+   },
+   {
+    "day": "2026-06-15",
+    "symbol": "SPY",
+    "close": 750.95
+   },
+   {
+    "day": "2026-06-16",
+    "symbol": "SPY",
+    "close": 746.8
+   },
+   {
+    "day": "2026-06-17",
+    "symbol": "SPY",
+    "close": 737.29
+   },
+   {
+    "day": "2026-06-18",
+    "symbol": "SPY",
+    "close": 744.9
+   },
+   {
+    "day": "2026-06-22",
+    "symbol": "SPY",
+    "close": 742.43
+   },
+   {
+    "day": "2026-06-23",
+    "symbol": "SPY",
+    "close": 731.8
+   },
+   {
+    "day": "2026-06-24",
+    "symbol": "SPY",
+    "close": 731.5
+   },
+   {
+    "day": "2026-06-25",
+    "symbol": "SPY",
+    "close": 731.51
+   },
+   {
+    "day": "2026-06-26",
+    "symbol": "SPY",
+    "close": 727.54
+   },
+   {
+    "day": "2026-06-29",
+    "symbol": "SPY",
+    "close": 739.03
+   },
+   {
+    "day": "2026-06-30",
+    "symbol": "SPY",
+    "close": 744.8
+   },
+   {
+    "day": "2026-07-01",
+    "symbol": "SPY",
+    "close": 743.82
+   },
+   {
+    "day": "2026-07-02",
+    "symbol": "SPY",
+    "close": 743.02
+   },
+   {
+    "day": "2026-07-06",
+    "symbol": "SPY",
+    "close": 749.41
+   },
+   {
+    "day": "2026-07-07",
+    "symbol": "SPY",
+    "close": 745.92
+   },
+   {
+    "day": "2026-07-08",
+    "symbol": "SPY",
+    "close": 743.43
+   },
+   {
+    "day": "2026-07-09",
+    "symbol": "SPY",
+    "close": 749.69
+   },
+   {
+    "day": "2026-07-10",
+    "symbol": "SPY",
+    "close": 753.07
+   },
+   {
+    "day": "2026-07-13",
+    "symbol": "SPY",
+    "close": 747.27
+   },
+   {
+    "day": "2026-07-14",
+    "symbol": "SPY",
+    "close": 750.08
+   },
+   {
+    "day": "2026-07-15",
+    "symbol": "SPY",
+    "close": 752.9
+   },
+   {
+    "day": "2026-07-16",
+    "symbol": "SPY",
+    "close": 749.01
+   },
+   {
+    "day": "2026-07-17",
+    "symbol": "SPY",
+    "close": 741.44
+   },
+   {
+    "day": "2026-07-20",
+    "symbol": "SPY",
+    "close": 740.31
+   },
+   {
+    "day": "2026-07-21",
+    "symbol": "SPY",
+    "close": 746.3
+   },
+   {
+    "day": "2026-07-22",
+    "symbol": "SPY",
+    "close": 745.64
+   },
+   {
+    "day": "2026-07-23",
+    "symbol": "SPY",
+    "close": 736.23
+   },
+   {
+    "day": "2026-07-24",
+    "symbol": "SPY",
+    "close": 737.07
+   },
+   {
+    "day": "2026-07-27",
+    "symbol": "SPY",
+    "close": 737.02
+   },
+   {
+    "day": "2026-07-28",
+    "symbol": "SPY",
+    "close": 738.96
+   },
+   {
+    "day": "2026-07-29",
+    "symbol": "SPY",
+    "close": 727.76
+   },
+   {
+    "day": "2026-07-30",
+    "symbol": "SPY",
+    "close": 739.79
+   },
+   {
+    "day": "2026-07-31",
+    "symbol": "SPY",
+    "close": 744.94
+   },
+   {
+    "day": "2026-08-03",
+    "symbol": "SPY",
+    "close": 755.84
+   },
+   {
+    "day": "2026-08-04",
+    "symbol": "SPY",
+    "close": 769.2
+   },
+   {
+    "day": "2026-08-05",
+    "symbol": "SPY",
+    "close": 767.88
+   },
+   {
+    "day": "2026-08-06",
+    "symbol": "SPY",
+    "close": 766.74
+   },
+   {
+    "day": "2026-08-07",
+    "symbol": "SPY",
+    "close": 771.25
+   },
+   {
+    "day": "2026-08-10",
+    "symbol": "SPY",
+    "close": 771.11
+   },
+   {
+    "day": "2026-08-11",
+    "symbol": "SPY",
+    "close": 768.61
+   },
+   {
+    "day": "2026-08-12",
+    "symbol": "SPY",
+    "close": 770.63
+   },
+   {
+    "day": "2026-08-13",
+    "symbol": "SPY",
+    "close": 775.91
+   },
+   {
+    "day": "2026-08-14",
+    "symbol": "SPY",
+    "close": 774.38
+   },
+   {
+    "day": "2026-08-17",
+    "symbol": "SPY",
+    "close": 770.71
+   },
+   {
+    "day": "2026-08-18",
+    "symbol": "SPY",
+    "close": 765.46
+   },
+   {
+    "day": "2026-08-19",
+    "symbol": "SPY",
+    "close": 767.19
+   },
+   {
+    "day": "2026-08-20",
+    "symbol": "SPY",
+    "close": 760.73
+   },
+   {
+    "day": "2026-08-21",
+    "symbol": "SPY",
+    "close": 763.74
+   },
+   {
+    "day": "2026-08-24",
+    "symbol": "SPY",
+    "close": 761.57
+   },
+   {
+    "day": "2026-08-25",
+    "symbol": "SPY",
+    "close": 763.89
+   },
+   {
+    "day": "2026-08-26",
+    "symbol": "SPY",
+    "close": 764.04
+   },
+   {
+    "day": "2026-08-27",
+    "symbol": "SPY",
+    "close": 769.27
+   },
+   {
+    "day": "2026-08-28",
+    "symbol": "SPY",
+    "close": 767.37
+   },
+   {
+    "day": "2026-08-31",
+    "symbol": "SPY",
+    "close": 764.97
+   },
+   {
+    "day": "2026-09-01",
+    "symbol": "SPY",
+    "close": 759.74
+   },
+   {
+    "day": "2026-09-02",
+    "symbol": "SPY",
+    "close": 763.23
+   },
+   {
+    "day": "2026-09-03",
+    "symbol": "SPY",
+    "close": 771.2
+   },
+   {
+    "day": "2026-09-04",
+    "symbol": "SPY",
+    "close": 768.27
+   },
+   {
+    "day": "2026-09-08",
+    "symbol": "SPY",
+    "close": 764.16
+   },
+   {
+    "day": "2026-09-09",
+    "symbol": "SPY",
+    "close": 760.54
+   },
+   {
+    "day": "2026-09-10",
+    "symbol": "SPY",
+    "close": 755.99
+   },
+   {
+    "day": "2026-09-11",
+    "symbol": "SPY",
+    "close": 762.25
+   },
+   {
+    "day": "2026-09-14",
+    "symbol": "SPY",
+    "close": 758.87
+   },
+   {
+    "day": "2026-09-15",
+    "symbol": "SPY",
+    "close": 755.54
+   },
+   {
+    "day": "2026-09-16",
+    "symbol": "SPY",
+    "close": 752.18
+   },
+   {
+    "day": "2026-09-17",
+    "symbol": "SPY",
+    "close": 760.75
+   },
+   {
+    "day": "2026-09-18",
+    "symbol": "SPY",
+    "close": 761.62
+   },
+   {
+    "day": "2026-09-21",
+    "symbol": "SPY",
+    "close": 773.52
+   },
+   {
+    "day": "2026-09-22",
+    "symbol": "SPY",
+    "close": 773.44
+   },
+   {
+    "day": "2026-09-23",
+    "symbol": "SPY",
+    "close": 767.93
+   },
+   {
+    "day": "2026-09-24",
+    "symbol": "SPY",
+    "close": 767.29
+   },
+   {
+    "day": "2026-09-25",
+    "symbol": "SPY",
+    "close": 771.35
+   },
+   {
+    "day": "2026-09-28",
+    "symbol": "SPY",
+    "close": 765.49
+   },
+   {
+    "day": "2026-09-29",
+    "symbol": "SPY",
+    "close": 764.38
+   },
+   {
+    "day": "2026-09-30",
+    "symbol": "SPY",
+    "close": 762.34
+   },
+   {
+    "day": "2026-10-01",
+    "symbol": "SPY",
+    "close": 764.1
+   },
+   {
+    "day": "2026-10-02",
+    "symbol": "SPY",
+    "close": 769.65
+   },
+   {
+    "day": "2026-10-05",
+    "symbol": "SPY",
+    "close": 774.97
+   },
+   {
+    "day": "2026-10-06",
+    "symbol": "SPY",
+    "close": 779.1
+   },
+   {
+    "day": "2026-10-07",
+    "symbol": "SPY",
+    "close": 777.15
+   },
+   {
+    "day": "2026-10-08",
+    "symbol": "SPY",
+    "close": 773.88
+   },
+   {
+    "day": "2026-10-09",
+    "symbol": "SPY",
+    "close": 778.51
+   },
+   {
+    "day": "2026-10-12",
+    "symbol": "SPY",
+    "close": 778.03
+   },
+   {
+    "day": "2026-10-13",
+    "symbol": "SPY",
+    "close": 778.03
+   },
+   {
+    "day": "2026-10-14",
+    "symbol": "SPY",
+    "close": 769.65
+   },
+   {
+    "day": "2026-10-15",
+    "symbol": "SPY",
+    "close": 771.77
+   },
+   {
+    "day": "2026-10-16",
+    "symbol": "SPY",
+    "close": 763.335
+   },
+   {
+    "day": "2026-10-19",
+    "symbol": "SPY",
+    "close": 766.6
+   },
+   {
+    "day": "2026-10-20",
+    "symbol": "SPY",
+    "close": 769.09
+   },
+   {
+    "day": "2026-10-21",
+    "symbol": "SPY",
+    "close": 773.13
+   },
+   {
+    "day": "2026-10-22",
+    "symbol": "SPY",
+    "close": 764.03
+   },
+   {
+    "day": "2026-10-23",
+    "symbol": "SPY",
+    "close": 759.83
+   },
+   {
+    "day": "2026-10-26",
+    "symbol": "SPY",
+    "close": 765.225
+   },
+   {
+    "day": "2026-10-27",
+    "symbol": "SPY",
+    "close": 769.7
+   },
+   {
+    "day": "2026-10-28",
+    "symbol": "SPY",
+    "close": 772.28
+   },
+   {
+    "day": "2026-10-29",
+    "symbol": "SPY",
+    "close": 769.49
+   },
+   {
+    "day": "2026-10-30",
+    "symbol": "SPY",
+    "close": 755.72
+   },
+   {
+    "day": "2025-08-28",
+    "symbol": "BTC/USD",
+    "close": 112604.43
+   },
+   {
+    "day": "2025-08-29",
+    "symbol": "BTC/USD",
+    "close": 108366.22
+   },
+   {
+    "day": "2025-08-30",
+    "symbol": "BTC/USD",
+    "close": 108798.765
+   },
+   {
+    "day": "2025-08-31",
+    "symbol": "BTC/USD",
+    "close": 108211.56
+   },
+   {
+    "day": "2025-09-01",
+    "symbol": "BTC/USD",
+    "close": 109241.544
+   },
+   {
+    "day": "2025-09-02",
+    "symbol": "BTC/USD",
+    "close": 111238.015
+   },
+   {
+    "day": "2025-09-03",
+    "symbol": "BTC/USD",
+    "close": 111755.6435
+   },
+   {
+    "day": "2025-09-04",
+    "symbol": "BTC/USD",
+    "close": 110677.4315
+   },
+   {
+    "day": "2025-09-05",
+    "symbol": "BTC/USD",
+    "close": 110700.561
+   },
+   {
+    "day": "2025-09-06",
+    "symbol": "BTC/USD",
+    "close": 110224.175
+   },
+   {
+    "day": "2025-09-07",
+    "symbol": "BTC/USD",
+    "close": 111152.3805
+   },
+   {
+    "day": "2025-09-08",
+    "symbol": "BTC/USD",
+    "close": 112068.4915
+   },
+   {
+    "day": "2025-09-09",
+    "symbol": "BTC/USD",
+    "close": 111504.2705
+   },
+   {
+    "day": "2025-09-10",
+    "symbol": "BTC/USD",
+    "close": 113953.1
+   },
+   {
+    "day": "2025-09-11",
+    "symbol": "BTC/USD",
+    "close": 115530.25
+   },
+   {
+    "day": "2025-09-12",
+    "symbol": "BTC/USD",
+    "close": 116103.75
+   },
+   {
+    "day": "2025-09-13",
+    "symbol": "BTC/USD",
+    "close": 115991.38
+   },
+   {
+    "day": "2025-09-14",
+    "symbol": "BTC/USD",
+    "close": 115356.875
+   },
+   {
+    "day": "2025-09-15",
+    "symbol": "BTC/USD",
+    "close": 115414.76
+   },
+   {
+    "day": "2025-09-16",
+    "symbol": "BTC/USD",
+    "close": 116869.4
+   },
+   {
+    "day": "2025-09-17",
+    "symbol": "BTC/USD",
+    "close": 116497.54
+   },
+   {
+    "day": "2025-09-18",
+    "symbol": "BTC/USD",
+    "close": 117126.96
+   },
+   {
+    "day": "2025-09-19",
+    "symbol": "BTC/USD",
+    "close": 115695.92
+   },
+   {
+    "day": "2025-09-20",
+    "symbol": "BTC/USD",
+    "close": 115700.585
+   },
+   {
+    "day": "2025-09-21",
+    "symbol": "BTC/USD",
+    "close": 115287.91
+   },
+   {
+    "day": "2025-09-22",
+    "symbol": "BTC/USD",
+    "close": 112736.454
+   },
+   {
+    "day": "2025-09-23",
+    "symbol": "BTC/USD",
+    "close": 112019.76
+   },
+   {
+    "day": "2025-09-24",
+    "symbol": "BTC/USD",
+    "close": 113330.6525
+   },
+   {
+    "day": "2025-09-25",
+    "symbol": "BTC/USD",
+    "close": 109031.745
+   },
+   {
+    "day": "2025-09-26",
+    "symbol": "BTC/USD",
+    "close": 109695.45
+   },
+   {
+    "day": "2025-09-27",
+    "symbol": "BTC/USD",
+    "close": 109692.019
+   },
+   {
+    "day": "2025-09-28",
+    "symbol": "BTC/USD",
+    "close": 112188.55
+   },
+   {
+    "day": "2025-09-29",
+    "symbol": "BTC/USD",
+    "close": 114378.43
+   },
+   {
+    "day": "2025-09-30",
+    "symbol": "BTC/USD",
+    "close": 114071.25
+   },
+   {
+    "day": "2025-10-01",
+    "symbol": "BTC/USD",
+    "close": 118655.86
+   },
+   {
+    "day": "2025-10-02",
+    "symbol": "BTC/USD",
+    "close": 120619.95
+   },
+   {
+    "day": "2025-10-03",
+    "symbol": "BTC/USD",
+    "close": 122330.885
+   },
+   {
+    "day": "2025-10-04",
+    "symbol": "BTC/USD",
+    "close": 122428.3
+   },
+   {
+    "day": "2025-10-05",
+    "symbol": "BTC/USD",
+    "close": 123486.132
+   },
+   {
+    "day": "2025-10-06",
+    "symbol": "BTC/USD",
+    "close": 124720.323
+   },
+   {
+    "day": "2025-10-07",
+    "symbol": "BTC/USD",
+    "close": 121408.895
+   },
+   {
+    "day": "2025-10-08",
+    "symbol": "BTC/USD",
+    "close": 123346.3
+   },
+   {
+    "day": "2025-10-09",
+    "symbol": "BTC/USD",
+    "close": 121729.5965
+   },
+   {
+    "day": "2025-10-10",
+    "symbol": "BTC/USD",
+    "close": 112995.4165
+   },
+   {
+    "day": "2025-10-11",
+    "symbol": "BTC/USD",
+    "close": 110787.75
+   },
+   {
+    "day": "2025-10-12",
+    "symbol": "BTC/USD",
+    "close": 115080.2045
+   },
+   {
+    "day": "2025-10-13",
+    "symbol": "BTC/USD",
+    "close": 115262.0
+   },
+   {
+    "day": "2025-10-14",
+    "symbol": "BTC/USD",
+    "close": 113075.3285
+   },
+   {
+    "day": "2025-10-15",
+    "symbol": "BTC/USD",
+    "close": 110835.7
+   },
+   {
+    "day": "2025-10-16",
+    "symbol": "BTC/USD",
+    "close": 108211.0
+   },
+   {
+    "day": "2025-10-17",
+    "symbol": "BTC/USD",
+    "close": 106470.4275
+   },
+   {
+    "day": "2025-10-18",
+    "symbol": "BTC/USD",
+    "close": 107255.5225
+   },
+   {
+    "day": "2025-10-19",
+    "symbol": "BTC/USD",
+    "close": 108656.7425
+   },
+   {
+    "day": "2025-10-20",
+    "symbol": "BTC/USD",
+    "close": 110562.505
+   },
+   {
+    "day": "2025-10-21",
+    "symbol": "BTC/USD",
+    "close": 108365.71
+   },
+   {
+    "day": "2025-10-22",
+    "symbol": "BTC/USD",
+    "close": 107605.5145
+   },
+   {
+    "day": "2025-10-23",
+    "symbol": "BTC/USD",
+    "close": 110135.211
+   },
+   {
+    "day": "2025-10-24",
+    "symbol": "BTC/USD",
+    "close": 111021.4
+   },
+   {
+    "day": "2025-10-25",
+    "symbol": "BTC/USD",
+    "close": 111656.925
+   },
+   {
+    "day": "2025-10-26",
+    "symbol": "BTC/USD",
+    "close": 114585.439
+   },
+   {
+    "day": "2025-10-27",
+    "symbol": "BTC/USD",
+    "close": 114097.01
+   },
+   {
+    "day": "2025-10-28",
+    "symbol": "BTC/USD",
+    "close": 112920.565
+   },
+   {
+    "day": "2025-10-29",
+    "symbol": "BTC/USD",
+    "close": 110057.383
+   },
+   {
+    "day": "2025-10-30",
+    "symbol": "BTC/USD",
+    "close": 108316.8615
+   },
+   {
+    "day": "2025-10-31",
+    "symbol": "BTC/USD",
+    "close": 109560.1965
+   },
+   {
+    "day": "2025-11-01",
+    "symbol": "BTC/USD",
+    "close": 110073.55
+   },
+   {
+    "day": "2025-11-02",
+    "symbol": "BTC/USD",
+    "close": 110545.09
+   },
+   {
+    "day": "2025-11-03",
+    "symbol": "BTC/USD",
+    "close": 106541.825
+   },
+   {
+    "day": "2025-11-04",
+    "symbol": "BTC/USD",
+    "close": 101454.119
+   },
+   {
+    "day": "2025-11-05",
+    "symbol": "BTC/USD",
+    "close": 103883.799
+   },
+   {
+    "day": "2025-11-06",
+    "symbol": "BTC/USD",
+    "close": 101319.77
+   },
+   {
+    "day": "2025-11-07",
+    "symbol": "BTC/USD",
+    "close": 103291.339
+   },
+   {
+    "day": "2025-11-08",
+    "symbol": "BTC/USD",
+    "close": 102301.2
+   },
+   {
+    "day": "2025-11-09",
+    "symbol": "BTC/USD",
+    "close": 104693.41
+   },
+   {
+    "day": "2025-11-10",
+    "symbol": "BTC/USD",
+    "close": 105989.357
+   },
+   {
+    "day": "2025-11-11",
+    "symbol": "BTC/USD",
+    "close": 103031.1335
+   },
+   {
+    "day": "2025-11-12",
+    "symbol": "BTC/USD",
+    "close": 101628.102
+   },
+   {
+    "day": "2025-11-13",
+    "symbol": "BTC/USD",
+    "close": 99596.376
+   },
+   {
+    "day": "2025-11-14",
+    "symbol": "BTC/USD",
+    "close": 94500.87
+   },
+   {
+    "day": "2025-11-15",
+    "symbol": "BTC/USD",
+    "close": 95530.08
+   },
+   {
+    "day": "2025-11-16",
+    "symbol": "BTC/USD",
+    "close": 94176.7615
+   },
+   {
+    "day": "2025-11-17",
+    "symbol": "BTC/USD",
+    "close": 92107.35
+   },
+   {
+    "day": "2025-11-18",
+    "symbol": "BTC/USD",
+    "close": 92944.656
+   },
+   {
+    "day": "2025-11-19",
+    "symbol": "BTC/USD",
+    "close": 91469.5295
+   },
+   {
+    "day": "2025-11-20",
+    "symbol": "BTC/USD",
+    "close": 86531.3125
+   },
+   {
+    "day": "2025-11-21",
+    "symbol": "BTC/USD",
+    "close": 85102.8455
+   },
+   {
+    "day": "2025-11-22",
+    "symbol": "BTC/USD",
+    "close": 84686.9
+   },
+   {
+    "day": "2025-11-23",
+    "symbol": "BTC/USD",
+    "close": 86824.1
+   },
+   {
+    "day": "2025-11-24",
+    "symbol": "BTC/USD",
+    "close": 88290.289
+   },
+   {
+    "day": "2025-11-25",
+    "symbol": "BTC/USD",
+    "close": 87337.275
+   },
+   {
+    "day": "2025-11-26",
+    "symbol": "BTC/USD",
+    "close": 90492.175
+   },
+   {
+    "day": "2025-11-27",
+    "symbol": "BTC/USD",
+    "close": 91349.401
+   },
+   {
+    "day": "2025-11-28",
+    "symbol": "BTC/USD",
+    "close": 90887.995
+   },
+   {
+    "day": "2025-11-29",
+    "symbol": "BTC/USD",
+    "close": 90854.245
+   },
+   {
+    "day": "2025-11-30",
+    "symbol": "BTC/USD",
+    "close": 90363.02
+   },
+   {
+    "day": "2025-12-01",
+    "symbol": "BTC/USD",
+    "close": 86289.15
+   },
+   {
+    "day": "2025-12-02",
+    "symbol": "BTC/USD",
+    "close": 91298.385
+   },
+   {
+    "day": "2025-12-03",
+    "symbol": "BTC/USD",
+    "close": 93470.08
+   },
+   {
+    "day": "2025-12-04",
+    "symbol": "BTC/USD",
+    "close": 92080.4
+   },
+   {
+    "day": "2025-12-05",
+    "symbol": "BTC/USD",
+    "close": 89338.34
+   },
+   {
+    "day": "2025-12-06",
+    "symbol": "BTC/USD",
+    "close": 89261.4355
+   },
+   {
+    "day": "2025-12-07",
+    "symbol": "BTC/USD",
+    "close": 90397.4175
+   },
+   {
+    "day": "2025-12-08",
+    "symbol": "BTC/USD",
+    "close": 90638.6
+   },
+   {
+    "day": "2025-12-09",
+    "symbol": "BTC/USD",
+    "close": 92681.575
+   },
+   {
+    "day": "2025-12-10",
+    "symbol": "BTC/USD",
+    "close": 92029.619
+   },
+   {
+    "day": "2025-12-11",
+    "symbol": "BTC/USD",
+    "close": 92550.4265
+   },
+   {
+    "day": "2025-12-12",
+    "symbol": "BTC/USD",
+    "close": 90276.6635
+   },
+   {
+    "day": "2025-12-13",
+    "symbol": "BTC/USD",
+    "close": 90278.9165
+   },
+   {
+    "day": "2025-12-14",
+    "symbol": "BTC/USD",
+    "close": 88171.12
+   },
+   {
+    "day": "2025-12-15",
+    "symbol": "BTC/USD",
+    "close": 86391.0875
+   },
+   {
+    "day": "2025-12-16",
+    "symbol": "BTC/USD",
+    "close": 87857.25
+   },
+   {
+    "day": "2025-12-17",
+    "symbol": "BTC/USD",
+    "close": 86192.7275
+   },
+   {
+    "day": "2025-12-18",
+    "symbol": "BTC/USD",
+    "close": 85457.75
+   },
+   {
+    "day": "2025-12-19",
+    "symbol": "BTC/USD",
+    "close": 88083.95
+   },
+   {
+    "day": "2025-12-20",
+    "symbol": "BTC/USD",
+    "close": 88323.1825
+   },
+   {
+    "day": "2025-12-21",
+    "symbol": "BTC/USD",
+    "close": 88651.7895
+   },
+   {
+    "day": "2025-12-22",
+    "symbol": "BTC/USD",
+    "close": 88574.855
+   },
+   {
+    "day": "2025-12-23",
+    "symbol": "BTC/USD",
+    "close": 87416.55
+   },
+   {
+    "day": "2025-12-24",
+    "symbol": "BTC/USD",
+    "close": 87623.52
+   },
+   {
+    "day": "2025-12-25",
+    "symbol": "BTC/USD",
+    "close": 87170.4
+   },
+   {
+    "day": "2025-12-26",
+    "symbol": "BTC/USD",
+    "close": 87287.8
+   },
+   {
+    "day": "2025-12-27",
+    "symbol": "BTC/USD",
+    "close": 87812.9
+   },
+   {
+    "day": "2025-12-28",
+    "symbol": "BTC/USD",
+    "close": 87888.52
+   },
+   {
+    "day": "2025-12-29",
+    "symbol": "BTC/USD",
+    "close": 87122.985
+   },
+   {
+    "day": "2025-12-30",
+    "symbol": "BTC/USD",
+    "close": 88395.268
+   },
+   {
+    "day": "2025-12-31",
+    "symbol": "BTC/USD",
+    "close": 87488.274
+   },
+   {
+    "day": "2026-01-01",
+    "symbol": "BTC/USD",
+    "close": 88756.746
+   },
+   {
+    "day": "2026-01-02",
+    "symbol": "BTC/USD",
+    "close": 89962.89
+   },
+   {
+    "day": "2026-01-03",
+    "symbol": "BTC/USD",
+    "close": 90596.725
+   },
+   {
+    "day": "2026-01-04",
+    "symbol": "BTC/USD",
+    "close": 91499.4
+   },
+   {
+    "day": "2026-01-05",
+    "symbol": "BTC/USD",
+    "close": 93884.5945
+   },
+   {
+    "day": "2026-01-06",
+    "symbol": "BTC/USD",
+    "close": 93733.134
+   },
+   {
+    "day": "2026-01-07",
+    "symbol": "BTC/USD",
+    "close": 91285.8255
+   },
+   {
+    "day": "2026-01-08",
+    "symbol": "BTC/USD",
+    "close": 91026.595
+   },
+   {
+    "day": "2026-01-09",
+    "symbol": "BTC/USD",
+    "close": 90526.8055
+   },
+   {
+    "day": "2026-01-10",
+    "symbol": "BTC/USD",
+    "close": 90375.4645
+   },
+   {
+    "day": "2026-01-11",
+    "symbol": "BTC/USD",
+    "close": 90874.475
+   },
+   {
+    "day": "2026-01-12",
+    "symbol": "BTC/USD",
+    "close": 91189.36
+   },
+   {
+    "day": "2026-01-13",
+    "symbol": "BTC/USD",
+    "close": 95366.55
+   },
+   {
+    "day": "2026-01-14",
+    "symbol": "BTC/USD",
+    "close": 96971.41
+   },
+   {
+    "day": "2026-01-15",
+    "symbol": "BTC/USD",
+    "close": 95583.3705
+   },
+   {
+    "day": "2026-01-16",
+    "symbol": "BTC/USD",
+    "close": 95510.084
+   },
+   {
+    "day": "2026-01-17",
+    "symbol": "BTC/USD",
+    "close": 95102.9
+   },
+   {
+    "day": "2026-01-18",
+    "symbol": "BTC/USD",
+    "close": 93621.97
+   },
+   {
+    "day": "2026-01-19",
+    "symbol": "BTC/USD",
+    "close": 92559.605
+   },
+   {
+    "day": "2026-01-20",
+    "symbol": "BTC/USD",
+    "close": 88322.465
+   },
+   {
+    "day": "2026-01-21",
+    "symbol": "BTC/USD",
+    "close": 89380.784
+   },
+   {
+    "day": "2026-01-22",
+    "symbol": "BTC/USD",
+    "close": 89467.8185
+   },
+   {
+    "day": "2026-01-23",
+    "symbol": "BTC/USD",
+    "close": 89479.432
+   },
+   {
+    "day": "2026-01-24",
+    "symbol": "BTC/USD",
+    "close": 89085.755
+   },
+   {
+    "day": "2026-01-25",
+    "symbol": "BTC/USD",
+    "close": 86582.45
+   },
+   {
+    "day": "2026-01-26",
+    "symbol": "BTC/USD",
+    "close": 88265.7235
+   },
+   {
+    "day": "2026-01-27",
+    "symbol": "BTC/USD",
+    "close": 89129.7945
+   },
+   {
+    "day": "2026-01-28",
+    "symbol": "BTC/USD",
+    "close": 89159.443
+   },
+   {
+    "day": "2026-01-29",
+    "symbol": "BTC/USD",
+    "close": 84526.01
+   },
+   {
+    "day": "2026-01-30",
+    "symbol": "BTC/USD",
+    "close": 84141.69
+   },
+   {
+    "day": "2026-01-31",
+    "symbol": "BTC/USD",
+    "close": 78664.2465
+   },
+   {
+    "day": "2026-02-01",
+    "symbol": "BTC/USD",
+    "close": 76904.14
+   },
+   {
+    "day": "2026-02-02",
+    "symbol": "BTC/USD",
+    "close": 78660.45
+   },
+   {
+    "day": "2026-02-03",
+    "symbol": "BTC/USD",
+    "close": 75655.595
+   },
+   {
+    "day": "2026-02-04",
+    "symbol": "BTC/USD",
+    "close": 72995.1025
+   },
+   {
+    "day": "2026-02-05",
+    "symbol": "BTC/USD",
+    "close": 62786.261
+   },
+   {
+    "day": "2026-02-06",
+    "symbol": "BTC/USD",
+    "close": 70524.3035
+   },
+   {
+    "day": "2026-02-07",
+    "symbol": "BTC/USD",
+    "close": 69237.3855
+   },
+   {
+    "day": "2026-02-08",
+    "symbol": "BTC/USD",
+    "close": 70284.43
+   },
+   {
+    "day": "2026-02-09",
+    "symbol": "BTC/USD",
+    "close": 70093.7595
+   },
+   {
+    "day": "2026-02-10",
+    "symbol": "BTC/USD",
+    "close": 68801.8215
+   },
+   {
+    "day": "2026-02-11",
+    "symbol": "BTC/USD",
+    "close": 67034.425
+   },
+   {
+    "day": "2026-02-12",
+    "symbol": "BTC/USD",
+    "close": 66218.5245
+   },
+   {
+    "day": "2026-02-13",
+    "symbol": "BTC/USD",
+    "close": 68828.7
+   },
+   {
+    "day": "2026-02-14",
+    "symbol": "BTC/USD",
+    "close": 69787.945
+   },
+   {
+    "day": "2026-02-15",
+    "symbol": "BTC/USD",
+    "close": 68795.485
+   },
+   {
+    "day": "2026-02-16",
+    "symbol": "BTC/USD",
+    "close": 68876.089
+   },
+   {
+    "day": "2026-02-17",
+    "symbol": "BTC/USD",
+    "close": 67469.765
+   },
+   {
+    "day": "2026-02-18",
+    "symbol": "BTC/USD",
+    "close": 66428.03
+   },
+   {
+    "day": "2026-02-19",
+    "symbol": "BTC/USD",
+    "close": 66971.475
+   },
+   {
+    "day": "2026-02-20",
+    "symbol": "BTC/USD",
+    "close": 67998.0565
+   },
+   {
+    "day": "2026-02-21",
+    "symbol": "BTC/USD",
+    "close": 67952.7625
+   },
+   {
+    "day": "2026-02-22",
+    "symbol": "BTC/USD",
+    "close": 67605.819
+   },
+   {
+    "day": "2026-02-23",
+    "symbol": "BTC/USD",
+    "close": 64628.779
+   },
+   {
+    "day": "2026-02-24",
+    "symbol": "BTC/USD",
+    "close": 64061.71
+   },
+   {
+    "day": "2026-02-25",
+    "symbol": "BTC/USD",
+    "close": 67989.963
+   },
+   {
+    "day": "2026-02-26",
+    "symbol": "BTC/USD",
+    "close": 67482.7965
+   },
+   {
+    "day": "2026-02-27",
+    "symbol": "BTC/USD",
+    "close": 65863.21
+   },
+   {
+    "day": "2026-02-28",
+    "symbol": "BTC/USD",
+    "close": 66978.5
+   },
+   {
+    "day": "2026-03-01",
+    "symbol": "BTC/USD",
+    "close": 65769.3445
+   },
+   {
+    "day": "2026-03-02",
+    "symbol": "BTC/USD",
+    "close": 68841.1155
+   },
+   {
+    "day": "2026-03-03",
+    "symbol": "BTC/USD",
+    "close": 68353.501
+   },
+   {
+    "day": "2026-03-04",
+    "symbol": "BTC/USD",
+    "close": 72700.389
+   },
+   {
+    "day": "2026-03-05",
+    "symbol": "BTC/USD",
+    "close": 70887.205
+   },
+   {
+    "day": "2026-03-06",
+    "symbol": "BTC/USD",
+    "close": 68108.84
+   },
+   {
+    "day": "2026-03-07",
+    "symbol": "BTC/USD",
+    "close": 67269.1495
+   },
+   {
+    "day": "2026-03-08",
+    "symbol": "BTC/USD",
+    "close": 65969.3405
+   },
+   {
+    "day": "2026-03-09",
+    "symbol": "BTC/USD",
+    "close": 68438.995
+   },
+   {
+    "day": "2026-03-10",
+    "symbol": "BTC/USD",
+    "close": 69954.483
+   },
+   {
+    "day": "2026-03-11",
+    "symbol": "BTC/USD",
+    "close": 70196.607
+   },
+   {
+    "day": "2026-03-12",
+    "symbol": "BTC/USD",
+    "close": 70528.61
+   },
+   {
+    "day": "2026-03-13",
+    "symbol": "BTC/USD",
+    "close": 70928.09
+   },
+   {
+    "day": "2026-03-14",
+    "symbol": "BTC/USD",
+    "close": 71221.364
+   },
+   {
+    "day": "2026-03-15",
+    "symbol": "BTC/USD",
+    "close": 72815.7815
+   },
+   {
+    "day": "2026-03-16",
+    "symbol": "BTC/USD",
+    "close": 74891.063
+   },
+   {
+    "day": "2026-03-17",
+    "symbol": "BTC/USD",
+    "close": 73939.296
+   },
+   {
+    "day": "2026-03-18",
+    "symbol": "BTC/USD",
+    "close": 71250.805
+   },
+   {
+    "day": "2026-03-19",
+    "symbol": "BTC/USD",
+    "close": 69916.5875
+   },
+   {
+    "day": "2026-03-20",
+    "symbol": "BTC/USD",
+    "close": 70504.942
+   },
+   {
+    "day": "2026-03-21",
+    "symbol": "BTC/USD",
+    "close": 68919.985
+   },
+   {
+    "day": "2026-03-22",
+    "symbol": "BTC/USD",
+    "close": 67857.105
+   },
+   {
+    "day": "2026-03-23",
+    "symbol": "BTC/USD",
+    "close": 70873.175
+   },
+   {
+    "day": "2026-03-24",
+    "symbol": "BTC/USD",
+    "close": 70523.71
+   },
+   {
+    "day": "2026-03-25",
+    "symbol": "BTC/USD",
+    "close": 71285.6825
+   },
+   {
+    "day": "2026-03-26",
+    "symbol": "BTC/USD",
+    "close": 68766.1
+   },
+   {
+    "day": "2026-03-27",
+    "symbol": "BTC/USD",
+    "close": 66356.101
+   },
+   {
+    "day": "2026-03-28",
+    "symbol": "BTC/USD",
+    "close": 66310.475
+   },
+   {
+    "day": "2026-03-29",
+    "symbol": "BTC/USD",
+    "close": 65949.275
+   },
+   {
+    "day": "2026-03-30",
+    "symbol": "BTC/USD",
+    "close": 66742.5205
+   },
+   {
+    "day": "2026-03-31",
+    "symbol": "BTC/USD",
+    "close": 68229.221
+   },
+   {
+    "day": "2026-04-01",
+    "symbol": "BTC/USD",
+    "close": 68125.825
+   },
+   {
+    "day": "2026-04-02",
+    "symbol": "BTC/USD",
+    "close": 66908.78
+   },
+   {
+    "day": "2026-04-03",
+    "symbol": "BTC/USD",
+    "close": 66961.45
+   },
+   {
+    "day": "2026-04-04",
+    "symbol": "BTC/USD",
+    "close": 67302.65
+   },
+   {
+    "day": "2026-04-05",
+    "symbol": "BTC/USD",
+    "close": 69010.765
+   },
+   {
+    "day": "2026-04-06",
+    "symbol": "BTC/USD",
+    "close": 68854.292
+   },
+   {
+    "day": "2026-04-07",
+    "symbol": "BTC/USD",
+    "close": 71904.95
+   },
+   {
+    "day": "2026-04-08",
+    "symbol": "BTC/USD",
+    "close": 71070.7255
+   },
+   {
+    "day": "2026-04-09",
+    "symbol": "BTC/USD",
+    "close": 71795.844
+   },
+   {
+    "day": "2026-04-10",
+    "symbol": "BTC/USD",
+    "close": 72988.8145
+   },
+   {
+    "day": "2026-04-11",
+    "symbol": "BTC/USD",
+    "close": 73092.8525
+   },
+   {
+    "day": "2026-04-12",
+    "symbol": "BTC/USD",
+    "close": 70768.5585
+   },
+   {
+    "day": "2026-04-13",
+    "symbol": "BTC/USD",
+    "close": 74454.93
+   },
+   {
+    "day": "2026-04-14",
+    "symbol": "BTC/USD",
+    "close": 74184.345
+   },
+   {
+    "day": "2026-04-15",
+    "symbol": "BTC/USD",
+    "close": 74845.7925
+   },
+   {
+    "day": "2026-04-16",
+    "symbol": "BTC/USD",
+    "close": 75165.26
+   },
+   {
+    "day": "2026-04-17",
+    "symbol": "BTC/USD",
+    "close": 77095.58
+   },
+   {
+    "day": "2026-04-18",
+    "symbol": "BTC/USD",
+    "close": 75743.693
+   },
+   {
+    "day": "2026-04-19",
+    "symbol": "BTC/USD",
+    "close": 73821.16
+   },
+   {
+    "day": "2026-04-20",
+    "symbol": "BTC/USD",
+    "close": 75877.9125
+   },
+   {
+    "day": "2026-04-21",
+    "symbol": "BTC/USD",
+    "close": 76348.0
+   },
+   {
+    "day": "2026-04-22",
+    "symbol": "BTC/USD",
+    "close": 78226.295
+   },
+   {
+    "day": "2026-04-23",
+    "symbol": "BTC/USD",
+    "close": 78278.1
+   },
+   {
+    "day": "2026-04-24",
+    "symbol": "BTC/USD",
+    "close": 77463.9495
+   },
+   {
+    "day": "2026-04-25",
+    "symbol": "BTC/USD",
+    "close": 77653.895
+   },
+   {
+    "day": "2026-04-26",
+    "symbol": "BTC/USD",
+    "close": 78662.64
+   },
+   {
+    "day": "2026-04-27",
+    "symbol": "BTC/USD",
+    "close": 77363.501
+   },
+   {
+    "day": "2026-04-28",
+    "symbol": "BTC/USD",
+    "close": 76320.193
+   },
+   {
+    "day": "2026-04-29",
+    "symbol": "BTC/USD",
+    "close": 75756.385
+   },
+   {
+    "day": "2026-04-30",
+    "symbol": "BTC/USD",
+    "close": 76307.37
+   },
+   {
+    "day": "2026-05-01",
+    "symbol": "BTC/USD",
+    "close": 78235.2
+   },
+   {
+    "day": "2026-05-02",
+    "symbol": "BTC/USD",
+    "close": 78695.9795
+   },
+   {
+    "day": "2026-05-03",
+    "symbol": "BTC/USD",
+    "close": 78572.25
+   },
+   {
+    "day": "2026-05-04",
+    "symbol": "BTC/USD",
+    "close": 79858.74
+   },
+   {
+    "day": "2026-05-05",
+    "symbol": "BTC/USD",
+    "close": 80899.584
+   },
+   {
+    "day": "2026-05-06",
+    "symbol": "BTC/USD",
+    "close": 81445.9915
+   },
+   {
+    "day": "2026-05-07",
+    "symbol": "BTC/USD",
+    "close": 79994.645
+   },
+   {
+    "day": "2026-05-08",
+    "symbol": "BTC/USD",
+    "close": 80188.0055
+   },
+   {
+    "day": "2026-05-09",
+    "symbol": "BTC/USD",
+    "close": 80656.21
+   },
+   {
+    "day": "2026-05-10",
+    "symbol": "BTC/USD",
+    "close": 82198.05
+   },
+   {
+    "day": "2026-05-11",
+    "symbol": "BTC/USD",
+    "close": 81738.608
+   },
+   {
+    "day": "2026-05-12",
+    "symbol": "BTC/USD",
+    "close": 80481.45
+   },
+   {
+    "day": "2026-05-13",
+    "symbol": "BTC/USD",
+    "close": 79291.35
+   },
+   {
+    "day": "2026-05-14",
+    "symbol": "BTC/USD",
+    "close": 81079.029
+   },
+   {
+    "day": "2026-05-15",
+    "symbol": "BTC/USD",
+    "close": 79062.715
+   },
+   {
+    "day": "2026-05-16",
+    "symbol": "BTC/USD",
+    "close": 78120.1724
+   },
+   {
+    "day": "2026-05-17",
+    "symbol": "BTC/USD",
+    "close": 77404.315
+   },
+   {
+    "day": "2026-05-18",
+    "symbol": "BTC/USD",
+    "close": 76947.1
+   },
+   {
+    "day": "2026-05-19",
+    "symbol": "BTC/USD",
+    "close": 76762.9
+   },
+   {
+    "day": "2026-05-20",
+    "symbol": "BTC/USD",
+    "close": 77464.3
+   },
+   {
+    "day": "2026-05-21",
+    "symbol": "BTC/USD",
+    "close": 77556.085
+   },
+   {
+    "day": "2026-05-22",
+    "symbol": "BTC/USD",
+    "close": 75437.2
+   },
+   {
+    "day": "2026-05-23",
+    "symbol": "BTC/USD",
+    "close": 76641.593
+   },
+   {
+    "day": "2026-05-24",
+    "symbol": "BTC/USD",
+    "close": 76982.6
+   },
+   {
+    "day": "2026-05-25",
+    "symbol": "BTC/USD",
+    "close": 77255.945
+   },
+   {
+    "day": "2026-05-26",
+    "symbol": "BTC/USD",
+    "close": 75821.7315
+   },
+   {
+    "day": "2026-05-27",
+    "symbol": "BTC/USD",
+    "close": 74325.16
+   },
+   {
+    "day": "2026-05-28",
+    "symbol": "BTC/USD",
+    "close": 73510.345
+   },
+   {
+    "day": "2026-05-29",
+    "symbol": "BTC/USD",
+    "close": 73381.563
+   },
+   {
+    "day": "2026-05-30",
+    "symbol": "BTC/USD",
+    "close": 73785.85
+   },
+   {
+    "day": "2026-05-31",
+    "symbol": "BTC/USD",
+    "close": 73591.625
+   },
+   {
+    "day": "2026-06-01",
+    "symbol": "BTC/USD",
+    "close": 71308.8
+   },
+   {
+    "day": "2026-06-02",
+    "symbol": "BTC/USD",
+    "close": 66645.9495
+   },
+   {
+    "day": "2026-06-03",
+    "symbol": "BTC/USD",
+    "close": 64048.185
+   },
+   {
+    "day": "2026-06-04",
+    "symbol": "BTC/USD",
+    "close": 63809.182
+   },
+   {
+    "day": "2026-06-05",
+    "symbol": "BTC/USD",
+    "close": 61024.186
+   },
+   {
+    "day": "2026-06-06",
+    "symbol": "BTC/USD",
+    "close": 60848.615
+   },
+   {
+    "day": "2026-06-07",
+    "symbol": "BTC/USD",
+    "close": 63306.91
+   },
+   {
+    "day": "2026-06-08",
+    "symbol": "BTC/USD",
+    "close": 63057.16
+   },
+   {
+    "day": "2026-06-09",
+    "symbol": "BTC/USD",
+    "close": 61690.4
+   },
+   {
+    "day": "2026-06-10",
+    "symbol": "BTC/USD",
+    "close": 61449.77
+   },
+   {
+    "day": "2026-06-11",
+    "symbol": "BTC/USD",
+    "close": 63562.9535
+   },
+   {
+    "day": "2026-06-12",
+    "symbol": "BTC/USD",
+    "close": 63533.795
+   },
+   {
+    "day": "2026-06-13",
+    "symbol": "BTC/USD",
+    "close": 64424.445
+   },
+   {
+    "day": "2026-06-14",
+    "symbol": "BTC/USD",
+    "close": 65700.9975
+   },
+   {
+    "day": "2026-06-15",
+    "symbol": "BTC/USD",
+    "close": 66283.2705
+   },
+   {
+    "day": "2026-06-16",
+    "symbol": "BTC/USD",
+    "close": 65607.131
+   },
+   {
+    "day": "2026-06-17",
+    "symbol": "BTC/USD",
+    "close": 64439.135
+   },
+   {
+    "day": "2026-06-18",
+    "symbol": "BTC/USD",
+    "close": 62877.7515
+   },
+   {
+    "day": "2026-06-19",
+    "symbol": "BTC/USD",
+    "close": 63489.2865
+   },
+   {
+    "day": "2026-06-20",
+    "symbol": "BTC/USD",
+    "close": 64242.124
+   },
+   {
+    "day": "2026-06-21",
+    "symbol": "BTC/USD",
+    "close": 63247.14
+   },
+   {
+    "day": "2026-06-22",
+    "symbol": "BTC/USD",
+    "close": 63935.716
+   },
+   {
+    "day": "2026-06-23",
+    "symbol": "BTC/USD",
+    "close": 62649.023
+   },
+   {
+    "day": "2026-06-24",
+    "symbol": "BTC/USD",
+    "close": 60968.2355
+   },
+   {
+    "day": "2026-06-25",
+    "symbol": "BTC/USD",
+    "close": 59701.6235
+   },
+   {
+    "day": "2026-06-26",
+    "symbol": "BTC/USD",
+    "close": 60013.14
+   },
+   {
+    "day": "2026-06-27",
+    "symbol": "BTC/USD",
+    "close": 59953.0195
+   },
+   {
+    "day": "2026-06-28",
+    "symbol": "BTC/USD",
+    "close": 59476.28
+   },
+   {
+    "day": "2026-06-29",
+    "symbol": "BTC/USD",
+    "close": 60164.6785
+   },
+   {
+    "day": "2026-06-30",
+    "symbol": "BTC/USD",
+    "close": 58531.1355
+   },
+   {
+    "day": "2026-07-01",
+    "symbol": "BTC/USD",
+    "close": 59965.807
+   },
+   {
+    "day": "2026-07-02",
+    "symbol": "BTC/USD",
+    "close": 61492.33
+   },
+   {
+    "day": "2026-07-03",
+    "symbol": "BTC/USD",
+    "close": 62514.7295
+   },
+   {
+    "day": "2026-07-04",
+    "symbol": "BTC/USD",
+    "close": 63089.4675
+   },
+   {
+    "day": "2026-07-05",
+    "symbol": "BTC/USD",
+    "close": 63591.4075
+   },
+   {
+    "day": "2026-07-06",
+    "symbol": "BTC/USD",
+    "close": 64016.73
+   },
+   {
+    "day": "2026-07-07",
+    "symbol": "BTC/USD",
+    "close": 63331.463
+   },
+   {
+    "day": "2026-07-08",
+    "symbol": "BTC/USD",
+    "close": 62244.95
+   },
+   {
+    "day": "2026-07-09",
+    "symbol": "BTC/USD",
+    "close": 63162.3145
+   },
+   {
+    "day": "2026-07-10",
+    "symbol": "BTC/USD",
+    "close": 64124.2125
+   },
+   {
+    "day": "2026-07-11",
+    "symbol": "BTC/USD",
+    "close": 63769.195
+   },
+   {
+    "day": "2026-07-12",
+    "symbol": "BTC/USD",
+    "close": 63745.485
+   },
+   {
+    "day": "2026-07-13",
+    "symbol": "BTC/USD",
+    "close": 62274.3835
+   },
+   {
+    "day": "2026-07-14",
+    "symbol": "BTC/USD",
+    "close": 64993.4685
+   },
+   {
+    "day": "2026-07-15",
+    "symbol": "BTC/USD",
+    "close": 64724.265
+   },
+   {
+    "day": "2026-07-16",
+    "symbol": "BTC/USD",
+    "close": 63783.116
+   },
+   {
+    "day": "2026-07-17",
+    "symbol": "BTC/USD",
+    "close": 63893.2235
+   },
+   {
+    "day": "2026-07-18",
+    "symbol": "BTC/USD",
+    "close": 64809.186
+   },
+   {
+    "day": "2026-07-19",
+    "symbol": "BTC/USD",
+    "close": 64680.689
+   },
+   {
+    "day": "2026-07-20",
+    "symbol": "BTC/USD",
+    "close": 65206.45
+   },
+   {
+    "day": "2026-07-21",
+    "symbol": "BTC/USD",
+    "close": 66527.9915
+   },
+   {
+    "day": "2026-07-22",
+    "symbol": "BTC/USD",
+    "close": 66081.592
+   },
+   {
+    "day": "2026-07-23",
+    "symbol": "BTC/USD",
+    "close": 65068.3985
+   },
+   {
+    "day": "2026-07-24",
+    "symbol": "BTC/USD",
+    "close": 64096.493
+   },
+   {
+    "day": "2026-07-25",
+    "symbol": "BTC/USD",
+    "close": 64296.805
+   },
+   {
+    "day": "2026-07-26",
+    "symbol": "BTC/USD",
+    "close": 65334.7725
+   },
+   {
+    "day": "2026-07-27",
+    "symbol": "BTC/USD",
+    "close": 63701.95
+   },
+   {
+    "day": "2026-07-28",
+    "symbol": "BTC/USD",
+    "close": 63846.5505
+   },
+   {
+    "day": "2026-07-29",
+    "symbol": "BTC/USD",
+    "close": 63901.2355
+   },
+   {
+    "day": "2026-07-30",
+    "symbol": "BTC/USD",
+    "close": 64728.6635
+   },
+   {
+    "day": "2026-07-31",
+    "symbol": "BTC/USD",
+    "close": 62812.559
+   },
+   {
+    "day": "2026-08-01",
+    "symbol": "BTC/USD",
+    "close": 62760.205
+   },
+   {
+    "day": "2026-08-02",
+    "symbol": "BTC/USD",
+    "close": 63511.33
+   },
+   {
+    "day": "2026-08-03",
+    "symbol": "BTC/USD",
+    "close": 63454.235
+   },
+   {
+    "day": "2026-08-04",
+    "symbol": "BTC/USD",
+    "close": 64062.789
+   },
+   {
+    "day": "2026-08-05",
+    "symbol": "BTC/USD",
+    "close": 64595.1
+   },
+   {
+    "day": "2026-08-06",
+    "symbol": "BTC/USD",
+    "close": 64257.835
+   },
+   {
+    "day": "2026-08-07",
+    "symbol": "BTC/USD",
+    "close": 64895.737
+   },
+   {
+    "day": "2026-08-08",
+    "symbol": "BTC/USD",
+    "close": 64895.125
+   },
+   {
+    "day": "2026-08-09",
+    "symbol": "BTC/USD",
+    "close": 64859.6095
+   },
+   {
+    "day": "2026-08-10",
+    "symbol": "BTC/USD",
+    "close": 63916.429
+   },
+   {
+    "day": "2026-08-11",
+    "symbol": "BTC/USD",
+    "close": 63525.9
+   },
+   {
+    "day": "2026-08-12",
+    "symbol": "BTC/USD",
+    "close": 63411.795
+   },
+   {
+    "day": "2026-08-13",
+    "symbol": "BTC/USD",
+    "close": 63428.79
+   },
+   {
+    "day": "2026-08-14",
+    "symbol": "BTC/USD",
+    "close": 62978.315
+   },
+   {
+    "day": "2026-08-15",
+    "symbol": "BTC/USD",
+    "close": 63023.085
+   },
+   {
+    "day": "2026-08-16",
+    "symbol": "BTC/USD",
+    "close": 62852.7345
+   },
+   {
+    "day": "2026-08-17",
+    "symbol": "BTC/USD",
+    "close": 64485.5625
+   },
+   {
+    "day": "2026-08-18",
+    "symbol": "BTC/USD",
+    "close": 64685.7545
+   },
+   {
+    "day": "2026-08-19",
+    "symbol": "BTC/USD",
+    "close": 69310.8295
+   },
+   {
+    "day": "2026-08-20",
+    "symbol": "BTC/USD",
+    "close": 73012.245
+   },
+   {
+    "day": "2026-08-21",
+    "symbol": "BTC/USD",
+    "close": 78332.014
+   },
+   {
+    "day": "2026-08-22",
+    "symbol": "BTC/USD",
+    "close": 77057.7
+   },
+   {
+    "day": "2026-08-23",
+    "symbol": "BTC/USD",
+    "close": 77733.4255
+   },
+   {
+    "day": "2026-08-24",
+    "symbol": "BTC/USD",
+    "close": 78981.3
+   },
+   {
+    "day": "2026-08-25",
+    "symbol": "BTC/USD",
+    "close": 78530.8
+   },
+   {
+    "day": "2026-08-26",
+    "symbol": "BTC/USD",
+    "close": 79021.975
+   },
+   {
+    "day": "2026-08-27",
+    "symbol": "BTC/USD",
+    "close": 80270.715
+   },
+   {
+    "day": "2026-08-28",
+    "symbol": "BTC/USD",
+    "close": 77836.953
+   },
+   {
+    "day": "2026-08-29",
+    "symbol": "BTC/USD",
+    "close": 78234.53
+   },
+   {
+    "day": "2026-08-30",
+    "symbol": "BTC/USD",
+    "close": 77675.675
+   },
+   {
+    "day": "2026-08-31",
+    "symbol": "BTC/USD",
+    "close": 78567.102
+   },
+   {
+    "day": "2026-09-01",
+    "symbol": "BTC/USD",
+    "close": 77404.84
+   },
+   {
+    "day": "2026-09-02",
+    "symbol": "BTC/USD",
+    "close": 77313.05
+   },
+   {
+    "day": "2026-09-03",
+    "symbol": "BTC/USD",
+    "close": 81269.4915
+   },
+   {
+    "day": "2026-09-04",
+    "symbol": "BTC/USD",
+    "close": 79676.7475
+   },
+   {
+    "day": "2026-09-05",
+    "symbol": "BTC/USD",
+    "close": 79841.951
+   },
+   {
+    "day": "2026-09-06",
+    "symbol": "BTC/USD",
+    "close": 80343.4945
+   },
+   {
+    "day": "2026-09-07",
+    "symbol": "BTC/USD",
+    "close": 79096.805
+   },
+   {
+    "day": "2026-09-08",
+    "symbol": "BTC/USD",
+    "close": 78448.681
+   },
+   {
+    "day": "2026-09-09",
+    "symbol": "BTC/USD",
+    "close": 78283.41
+   },
+   {
+    "day": "2026-09-10",
+    "symbol": "BTC/USD",
+    "close": 76535.875
+   },
+   {
+    "day": "2026-09-11",
+    "symbol": "BTC/USD",
+    "close": 77212.8315
+   },
+   {
+    "day": "2026-09-12",
+    "symbol": "BTC/USD",
+    "close": 77266.385
+   },
+   {
+    "day": "2026-09-13",
+    "symbol": "BTC/USD",
+    "close": 76805.278
+   },
+   {
+    "day": "2026-09-14",
+    "symbol": "BTC/USD",
+    "close": 78177.3755
+   },
+   {
+    "day": "2026-09-15",
+    "symbol": "BTC/USD",
+    "close": 75586.34
+   },
+   {
+    "day": "2026-09-16",
+    "symbol": "BTC/USD",
+    "close": 76145.8
+   },
+   {
+    "day": "2026-09-17",
+    "symbol": "BTC/USD",
+    "close": 76356.6755
+   },
+   {
+    "day": "2026-09-18",
+    "symbol": "BTC/USD",
+    "close": 80872.5325
+   },
+   {
+    "day": "2026-09-19",
+    "symbol": "BTC/USD",
+    "close": 81239.166
+   },
+   {
+    "day": "2026-09-20",
+    "symbol": "BTC/USD",
+    "close": 81164.345
+   },
+   {
+    "day": "2026-09-21",
+    "symbol": "BTC/USD",
+    "close": 86596.5
+   },
+   {
+    "day": "2026-09-22",
+    "symbol": "BTC/USD",
+    "close": 86193.985
+   },
+   {
+    "day": "2026-09-23",
+    "symbol": "BTC/USD",
+    "close": 84382.297
+   },
+   {
+    "day": "2026-09-24",
+    "symbol": "BTC/USD",
+    "close": 84385.745
+   },
+   {
+    "day": "2026-09-25",
+    "symbol": "BTC/USD",
+    "close": 84085.5
+   },
+   {
+    "day": "2026-09-26",
+    "symbol": "BTC/USD",
+    "close": 84411.425
+   },
+   {
+    "day": "2026-09-27",
+    "symbol": "BTC/USD",
+    "close": 84457.95
+   },
+   {
+    "day": "2026-09-28",
+    "symbol": "BTC/USD",
+    "close": 83454.24
+   },
+   {
+    "day": "2026-09-29",
+    "symbol": "BTC/USD",
+    "close": 83630.32
+   },
+   {
+    "day": "2026-09-30",
+    "symbol": "BTC/USD",
+    "close": 83562.55
+   },
+   {
+    "day": "2026-10-01",
+    "symbol": "BTC/USD",
+    "close": 84844.7065
+   },
+   {
+    "day": "2026-10-02",
+    "symbol": "BTC/USD",
+    "close": 84503.075
+   },
+   {
+    "day": "2026-10-03",
+    "symbol": "BTC/USD",
+    "close": 84744.495
+   },
+   {
+    "day": "2026-10-04",
+    "symbol": "BTC/USD",
+    "close": 86515.3415
+   },
+   {
+    "day": "2026-10-05",
+    "symbol": "BTC/USD",
+    "close": 85755.205
+   },
+   {
+    "day": "2026-10-06",
+    "symbol": "BTC/USD",
+    "close": 85551.35
+   },
+   {
+    "day": "2026-10-07",
+    "symbol": "BTC/USD",
+    "close": 83280.89
+   },
+   {
+    "day": "2026-10-08",
+    "symbol": "BTC/USD",
+    "close": 81692.5065
+   },
+   {
+    "day": "2026-10-09",
+    "symbol": "BTC/USD",
+    "close": 82550.677
+   },
+   {
+    "day": "2026-10-10",
+    "symbol": "BTC/USD",
+    "close": 82909.38
+   },
+   {
+    "day": "2026-10-11",
+    "symbol": "BTC/USD",
+    "close": 83677.93
+   },
+   {
+    "day": "2026-10-12",
+    "symbol": "BTC/USD",
+    "close": 81743.745
+   },
+   {
+    "day": "2026-10-13",
+    "symbol": "BTC/USD",
+    "close": 83103.188
+   },
+   {
+    "day": "2026-10-14",
+    "symbol": "BTC/USD",
+    "close": 81571.067
+   },
+   {
+    "day": "2026-10-15",
+    "symbol": "BTC/USD",
+    "close": 82133.215
+   },
+   {
+    "day": "2026-10-16",
+    "symbol": "BTC/USD",
+    "close": 81505.0825
+   },
+   {
+    "day": "2026-10-17",
+    "symbol": "BTC/USD",
+    "close": 81382.1
+   },
+   {
+    "day": "2026-10-18",
+    "symbol": "BTC/USD",
+    "close": 82009.896
+   },
+   {
+    "day": "2026-10-19",
+    "symbol": "BTC/USD",
+    "close": 81835.4885
+   },
+   {
+    "day": "2026-10-20",
+    "symbol": "BTC/USD",
+    "close": 82940.9935
+   },
+   {
+    "day": "2026-10-21",
+    "symbol": "BTC/USD",
+    "close": 84024.295
+   },
+   {
+    "day": "2026-10-22",
+    "symbol": "BTC/USD",
+    "close": 81309.94
+   },
+   {
+    "day": "2026-10-23",
+    "symbol": "BTC/USD",
+    "close": 81082.1325
+   },
+   {
+    "day": "2026-10-24",
+    "symbol": "BTC/USD",
+    "close": 80773.05
+   },
+   {
+    "day": "2026-10-25",
+    "symbol": "BTC/USD",
+    "close": 80057.33
+   },
+   {
+    "day": "2026-10-26",
+    "symbol": "BTC/USD",
+    "close": 80007.24
+   },
+   {
+    "day": "2026-10-27",
+    "symbol": "BTC/USD",
+    "close": 80808.115
+   },
+   {
+    "day": "2026-10-28",
+    "symbol": "BTC/USD",
+    "close": 81254.0525
+   },
+   {
+    "day": "2026-10-29",
+    "symbol": "BTC/USD",
+    "close": 77805.6655
+   },
+   {
+    "day": "2026-10-30",
+    "symbol": "BTC/USD",
+    "close": 77192.971
+   },
+   {
+    "day": "2025-08-28",
+    "symbol": "ETH/USD",
+    "close": 4514.05
+   },
+   {
+    "day": "2025-08-29",
+    "symbol": "ETH/USD",
+    "close": 4360.195
+   },
+   {
+    "day": "2025-08-30",
+    "symbol": "ETH/USD",
+    "close": 4375.008
+   },
+   {
+    "day": "2025-08-31",
+    "symbol": "ETH/USD",
+    "close": 4391.0755
+   },
+   {
+    "day": "2025-09-01",
+    "symbol": "ETH/USD",
+    "close": 4314.793
+   },
+   {
+    "day": "2025-09-02",
+    "symbol": "ETH/USD",
+    "close": 4325.1955
+   },
+   {
+    "day": "2025-09-03",
+    "symbol": "ETH/USD",
+    "close": 4451.7075
+   },
+   {
+    "day": "2025-09-04",
+    "symbol": "ETH/USD",
+    "close": 4296.478
+   },
+   {
+    "day": "2025-09-05",
+    "symbol": "ETH/USD",
+    "close": 4307.2045
+   },
+   {
+    "day": "2025-09-06",
+    "symbol": "ETH/USD",
+    "close": 4274.205
+   },
+   {
+    "day": "2025-09-07",
+    "symbol": "ETH/USD",
+    "close": 4304.642
+   },
+   {
+    "day": "2025-09-08",
+    "symbol": "ETH/USD",
+    "close": 4308.535
+   },
+   {
+    "day": "2025-09-09",
+    "symbol": "ETH/USD",
+    "close": 4310.1785
+   },
+   {
+    "day": "2025-09-10",
+    "symbol": "ETH/USD",
+    "close": 4349.6015
+   },
+   {
+    "day": "2025-09-11",
+    "symbol": "ETH/USD",
+    "close": 4462.913
+   },
+   {
+    "day": "2025-09-12",
+    "symbol": "ETH/USD",
+    "close": 4713.855
+   },
+   {
+    "day": "2025-09-13",
+    "symbol": "ETH/USD",
+    "close": 4669.4255
+   },
+   {
+    "day": "2025-09-14",
+    "symbol": "ETH/USD",
+    "close": 4609.2
+   },
+   {
+    "day": "2025-09-15",
+    "symbol": "ETH/USD",
+    "close": 4525.7
+   },
+   {
+    "day": "2025-09-16",
+    "symbol": "ETH/USD",
+    "close": 4502.865
+   },
+   {
+    "day": "2025-09-17",
+    "symbol": "ETH/USD",
+    "close": 4592.16
+   },
+   {
+    "day": "2025-09-18",
+    "symbol": "ETH/USD",
+    "close": 4589.83
+   },
+   {
+    "day": "2025-09-19",
+    "symbol": "ETH/USD",
+    "close": 4471.1
+   },
+   {
+    "day": "2025-09-20",
+    "symbol": "ETH/USD",
+    "close": 4483.655
+   },
+   {
+    "day": "2025-09-21",
+    "symbol": "ETH/USD",
+    "close": 4448.6485
+   },
+   {
+    "day": "2025-09-22",
+    "symbol": "ETH/USD",
+    "close": 4203.955
+   },
+   {
+    "day": "2025-09-23",
+    "symbol": "ETH/USD",
+    "close": 4166.625
+   },
+   {
+    "day": "2025-09-24",
+    "symbol": "ETH/USD",
+    "close": 4155.109
+   },
+   {
+    "day": "2025-09-25",
+    "symbol": "ETH/USD",
+    "close": 3874.635
+   },
+   {
+    "day": "2025-09-26",
+    "symbol": "ETH/USD",
+    "close": 4035.311
+   },
+   {
+    "day": "2025-09-27",
+    "symbol": "ETH/USD",
+    "close": 4019.85
+   },
+   {
+    "day": "2025-09-28",
+    "symbol": "ETH/USD",
+    "close": 4144.86
+   },
+   {
+    "day": "2025-09-29",
+    "symbol": "ETH/USD",
+    "close": 4217.556
+   },
+   {
+    "day": "2025-09-30",
+    "symbol": "ETH/USD",
+    "close": 4146.85
+   },
+   {
+    "day": "2025-10-01",
+    "symbol": "ETH/USD",
+    "close": 4350.17
+   },
+   {
+    "day": "2025-10-02",
+    "symbol": "ETH/USD",
+    "close": 4488.005
+   },
+   {
+    "day": "2025-10-03",
+    "symbol": "ETH/USD",
+    "close": 4516.243
+   },
+   {
+    "day": "2025-10-04",
+    "symbol": "ETH/USD",
+    "close": 4489.5885
+   },
+   {
+    "day": "2025-10-05",
+    "symbol": "ETH/USD",
+    "close": 4515.068
+   },
+   {
+    "day": "2025-10-06",
+    "symbol": "ETH/USD",
+    "close": 4685.297
+   },
+   {
+    "day": "2025-10-07",
+    "symbol": "ETH/USD",
+    "close": 4449.89
+   },
+   {
+    "day": "2025-10-08",
+    "symbol": "ETH/USD",
+    "close": 4525.59
+   },
+   {
+    "day": "2025-10-09",
+    "symbol": "ETH/USD",
+    "close": 4368.1675
+   },
+   {
+    "day": "2025-10-10",
+    "symbol": "ETH/USD",
+    "close": 3834.675
+   },
+   {
+    "day": "2025-10-11",
+    "symbol": "ETH/USD",
+    "close": 3751.2355
+   },
+   {
+    "day": "2025-10-12",
+    "symbol": "ETH/USD",
+    "close": 4157.349
+   },
+   {
+    "day": "2025-10-13",
+    "symbol": "ETH/USD",
+    "close": 4244.9045
+   },
+   {
+    "day": "2025-10-14",
+    "symbol": "ETH/USD",
+    "close": 4125.8
+   },
+   {
+    "day": "2025-10-15",
+    "symbol": "ETH/USD",
+    "close": 3986.805
+   },
+   {
+    "day": "2025-10-16",
+    "symbol": "ETH/USD",
+    "close": 3895.95
+   },
+   {
+    "day": "2025-10-17",
+    "symbol": "ETH/USD",
+    "close": 3834.054
+   },
+   {
+    "day": "2025-10-18",
+    "symbol": "ETH/USD",
+    "close": 3888.895
+   },
+   {
+    "day": "2025-10-19",
+    "symbol": "ETH/USD",
+    "close": 3984.71
+   },
+   {
+    "day": "2025-10-20",
+    "symbol": "ETH/USD",
+    "close": 3981.085
+   },
+   {
+    "day": "2025-10-21",
+    "symbol": "ETH/USD",
+    "close": 3874.195
+   },
+   {
+    "day": "2025-10-22",
+    "symbol": "ETH/USD",
+    "close": 3806.45
+   },
+   {
+    "day": "2025-10-23",
+    "symbol": "ETH/USD",
+    "close": 3856.6895
+   },
+   {
+    "day": "2025-10-24",
+    "symbol": "ETH/USD",
+    "close": 3935.2395
+   },
+   {
+    "day": "2025-10-25",
+    "symbol": "ETH/USD",
+    "close": 3954.9325
+   },
+   {
+    "day": "2025-10-26",
+    "symbol": "ETH/USD",
+    "close": 4159.3981
+   },
+   {
+    "day": "2025-10-27",
+    "symbol": "ETH/USD",
+    "close": 4121.525
+   },
+   {
+    "day": "2025-10-28",
+    "symbol": "ETH/USD",
+    "close": 3980.7895
+   },
+   {
+    "day": "2025-10-29",
+    "symbol": "ETH/USD",
+    "close": 3903.595
+   },
+   {
+    "day": "2025-10-30",
+    "symbol": "ETH/USD",
+    "close": 3805.2105
+   },
+   {
+    "day": "2025-10-31",
+    "symbol": "ETH/USD",
+    "close": 3846.29
+   },
+   {
+    "day": "2025-11-01",
+    "symbol": "ETH/USD",
+    "close": 3872.315
+   },
+   {
+    "day": "2025-11-02",
+    "symbol": "ETH/USD",
+    "close": 3906.564
+   },
+   {
+    "day": "2025-11-03",
+    "symbol": "ETH/USD",
+    "close": 3603.165
+   },
+   {
+    "day": "2025-11-04",
+    "symbol": "ETH/USD",
+    "close": 3285.645
+   },
+   {
+    "day": "2025-11-05",
+    "symbol": "ETH/USD",
+    "close": 3423.616
+   },
+   {
+    "day": "2025-11-06",
+    "symbol": "ETH/USD",
+    "close": 3312.921
+   },
+   {
+    "day": "2025-11-07",
+    "symbol": "ETH/USD",
+    "close": 3434.0075
+   },
+   {
+    "day": "2025-11-08",
+    "symbol": "ETH/USD",
+    "close": 3400.75
+   },
+   {
+    "day": "2025-11-09",
+    "symbol": "ETH/USD",
+    "close": 3582.743
+   },
+   {
+    "day": "2025-11-10",
+    "symbol": "ETH/USD",
+    "close": 3565.432
+   },
+   {
+    "day": "2025-11-11",
+    "symbol": "ETH/USD",
+    "close": 3416.4
+   },
+   {
+    "day": "2025-11-12",
+    "symbol": "ETH/USD",
+    "close": 3413.62
+   },
+   {
+    "day": "2025-11-13",
+    "symbol": "ETH/USD",
+    "close": 3230.67
+   },
+   {
+    "day": "2025-11-14",
+    "symbol": "ETH/USD",
+    "close": 3110.685
+   },
+   {
+    "day": "2025-11-15",
+    "symbol": "ETH/USD",
+    "close": 3165.654
+   },
+   {
+    "day": "2025-11-16",
+    "symbol": "ETH/USD",
+    "close": 3094.5605
+   },
+   {
+    "day": "2025-11-17",
+    "symbol": "ETH/USD",
+    "close": 3026.315
+   },
+   {
+    "day": "2025-11-18",
+    "symbol": "ETH/USD",
+    "close": 3123.297
+   },
+   {
+    "day": "2025-11-19",
+    "symbol": "ETH/USD",
+    "close": 3023.5615
+   },
+   {
+    "day": "2025-11-20",
+    "symbol": "ETH/USD",
+    "close": 2830.05
+   },
+   {
+    "day": "2025-11-21",
+    "symbol": "ETH/USD",
+    "close": 2764.3
+   },
+   {
+    "day": "2025-11-22",
+    "symbol": "ETH/USD",
+    "close": 2769.795
+   },
+   {
+    "day": "2025-11-23",
+    "symbol": "ETH/USD",
+    "close": 2801.369
+   },
+   {
+    "day": "2025-11-24",
+    "symbol": "ETH/USD",
+    "close": 2953.335
+   },
+   {
+    "day": "2025-11-25",
+    "symbol": "ETH/USD",
+    "close": 2958.8335
+   },
+   {
+    "day": "2025-11-26",
+    "symbol": "ETH/USD",
+    "close": 3027.318
+   },
+   {
+    "day": "2025-11-27",
+    "symbol": "ETH/USD",
+    "close": 3015.4
+   },
+   {
+    "day": "2025-11-28",
+    "symbol": "ETH/USD",
+    "close": 3032.79
+   },
+   {
+    "day": "2025-11-29",
+    "symbol": "ETH/USD",
+    "close": 2990.36
+   },
+   {
+    "day": "2025-11-30",
+    "symbol": "ETH/USD",
+    "close": 2991.9035
+   },
+   {
+    "day": "2025-12-01",
+    "symbol": "ETH/USD",
+    "close": 2798.84
+   },
+   {
+    "day": "2025-12-02",
+    "symbol": "ETH/USD",
+    "close": 2996.815
+   },
+   {
+    "day": "2025-12-03",
+    "symbol": "ETH/USD",
+    "close": 3190.41
+   },
+   {
+    "day": "2025-12-04",
+    "symbol": "ETH/USD",
+    "close": 3133.9365
+   },
+   {
+    "day": "2025-12-05",
+    "symbol": "ETH/USD",
+    "close": 3022.53
+   },
+   {
+    "day": "2025-12-06",
+    "symbol": "ETH/USD",
+    "close": 3040.0
+   },
+   {
+    "day": "2025-12-07",
+    "symbol": "ETH/USD",
+    "close": 3060.485
+   },
+   {
+    "day": "2025-12-08",
+    "symbol": "ETH/USD",
+    "close": 3124.5625
+   },
+   {
+    "day": "2025-12-09",
+    "symbol": "ETH/USD",
+    "close": 3318.4875
+   },
+   {
+    "day": "2025-12-10",
+    "symbol": "ETH/USD",
+    "close": 3325.13
+   },
+   {
+    "day": "2025-12-11",
+    "symbol": "ETH/USD",
+    "close": 3238.4965
+   },
+   {
+    "day": "2025-12-12",
+    "symbol": "ETH/USD",
+    "close": 3085.2055
+   },
+   {
+    "day": "2025-12-13",
+    "symbol": "ETH/USD",
+    "close": 3116.215
+   },
+   {
+    "day": "2025-12-14",
+    "symbol": "ETH/USD",
+    "close": 3062.2585
+   },
+   {
+    "day": "2025-12-15",
+    "symbol": "ETH/USD",
+    "close": 2964.35
+   },
+   {
+    "day": "2025-12-16",
+    "symbol": "ETH/USD",
+    "close": 2961.685
+   },
+   {
+    "day": "2025-12-17",
+    "symbol": "ETH/USD",
+    "close": 2833.143
+   },
+   {
+    "day": "2025-12-18",
+    "symbol": "ETH/USD",
+    "close": 2825.947
+   },
+   {
+    "day": "2025-12-19",
+    "symbol": "ETH/USD",
+    "close": 2977.633
+   },
+   {
+    "day": "2025-12-20",
+    "symbol": "ETH/USD",
+    "close": 2977.6917
+   },
+   {
+    "day": "2025-12-21",
+    "symbol": "ETH/USD",
+    "close": 3000.845
+   },
+   {
+    "day": "2025-12-22",
+    "symbol": "ETH/USD",
+    "close": 3007.089
+   },
+   {
+    "day": "2025-12-23",
+    "symbol": "ETH/USD",
+    "close": 2963.595
+   },
+   {
+    "day": "2025-12-24",
+    "symbol": "ETH/USD",
+    "close": 2944.59
+   },
+   {
+    "day": "2025-12-25",
+    "symbol": "ETH/USD",
+    "close": 2902.95
+   },
+   {
+    "day": "2025-12-26",
+    "symbol": "ETH/USD",
+    "close": 2926.056
+   },
+   {
+    "day": "2025-12-27",
+    "symbol": "ETH/USD",
+    "close": 2945.842
+   },
+   {
+    "day": "2025-12-28",
+    "symbol": "ETH/USD",
+    "close": 2949.19
+   },
+   {
+    "day": "2025-12-29",
+    "symbol": "ETH/USD",
+    "close": 2934.3165
+   },
+   {
+    "day": "2025-12-30",
+    "symbol": "ETH/USD",
+    "close": 2971.02
+   },
+   {
+    "day": "2025-12-31",
+    "symbol": "ETH/USD",
+    "close": 2967.945
+   },
+   {
+    "day": "2026-01-01",
+    "symbol": "ETH/USD",
+    "close": 3000.531
+   },
+   {
+    "day": "2026-01-02",
+    "symbol": "ETH/USD",
+    "close": 3123.9905
+   },
+   {
+    "day": "2026-01-03",
+    "symbol": "ETH/USD",
+    "close": 3125.3381
+   },
+   {
+    "day": "2026-01-04",
+    "symbol": "ETH/USD",
+    "close": 3144.3575
+   },
+   {
+    "day": "2026-01-05",
+    "symbol": "ETH/USD",
+    "close": 3226.5185
+   },
+   {
+    "day": "2026-01-06",
+    "symbol": "ETH/USD",
+    "close": 3295.09
+   },
+   {
+    "day": "2026-01-07",
+    "symbol": "ETH/USD",
+    "close": 3166.15
+   },
+   {
+    "day": "2026-01-08",
+    "symbol": "ETH/USD",
+    "close": 3102.832
+   },
+   {
+    "day": "2026-01-09",
+    "symbol": "ETH/USD",
+    "close": 3083.88
+   },
+   {
+    "day": "2026-01-10",
+    "symbol": "ETH/USD",
+    "close": 3082.875
+   },
+   {
+    "day": "2026-01-11",
+    "symbol": "ETH/USD",
+    "close": 3118.258
+   },
+   {
+    "day": "2026-01-12",
+    "symbol": "ETH/USD",
+    "close": 3091.3165
+   },
+   {
+    "day": "2026-01-13",
+    "symbol": "ETH/USD",
+    "close": 3323.605
+   },
+   {
+    "day": "2026-01-14",
+    "symbol": "ETH/USD",
+    "close": 3354.522
+   },
+   {
+    "day": "2026-01-15",
+    "symbol": "ETH/USD",
+    "close": 3317.175
+   },
+   {
+    "day": "2026-01-16",
+    "symbol": "ETH/USD",
+    "close": 3295.192
+   },
+   {
+    "day": "2026-01-17",
+    "symbol": "ETH/USD",
+    "close": 3308.482
+   },
+   {
+    "day": "2026-01-18",
+    "symbol": "ETH/USD",
+    "close": 3283.2375
+   },
+   {
+    "day": "2026-01-19",
+    "symbol": "ETH/USD",
+    "close": 3187.4115
+   },
+   {
+    "day": "2026-01-20",
+    "symbol": "ETH/USD",
+    "close": 2935.92
+   },
+   {
+    "day": "2026-01-21",
+    "symbol": "ETH/USD",
+    "close": 2978.6975
+   },
+   {
+    "day": "2026-01-22",
+    "symbol": "ETH/USD",
+    "close": 2949.691
+   },
+   {
+    "day": "2026-01-23",
+    "symbol": "ETH/USD",
+    "close": 2952.8155
+   },
+   {
+    "day": "2026-01-24",
+    "symbol": "ETH/USD",
+    "close": 2948.71
+   },
+   {
+    "day": "2026-01-25",
+    "symbol": "ETH/USD",
+    "close": 2814.831
+   },
+   {
+    "day": "2026-01-26",
+    "symbol": "ETH/USD",
+    "close": 2926.089
+   },
+   {
+    "day": "2026-01-27",
+    "symbol": "ETH/USD",
+    "close": 3022.05
+   },
+   {
+    "day": "2026-01-28",
+    "symbol": "ETH/USD",
+    "close": 3005.8375
+   },
+   {
+    "day": "2026-01-29",
+    "symbol": "ETH/USD",
+    "close": 2818.875
+   },
+   {
+    "day": "2026-01-30",
+    "symbol": "ETH/USD",
+    "close": 2702.966
+   },
+   {
+    "day": "2026-01-31",
+    "symbol": "ETH/USD",
+    "close": 2449.835
+   },
+   {
+    "day": "2026-02-01",
+    "symbol": "ETH/USD",
+    "close": 2267.395
+   },
+   {
+    "day": "2026-02-02",
+    "symbol": "ETH/USD",
+    "close": 2344.69
+   },
+   {
+    "day": "2026-02-03",
+    "symbol": "ETH/USD",
+    "close": 2230.9465
+   },
+   {
+    "day": "2026-02-04",
+    "symbol": "ETH/USD",
+    "close": 2142.615
+   },
+   {
+    "day": "2026-02-05",
+    "symbol": "ETH/USD",
+    "close": 1823.588
+   },
+   {
+    "day": "2026-02-06",
+    "symbol": "ETH/USD",
+    "close": 2061.071
+   },
+   {
+    "day": "2026-02-07",
+    "symbol": "ETH/USD",
+    "close": 2086.93
+   },
+   {
+    "day": "2026-02-08",
+    "symbol": "ETH/USD",
+    "close": 2089.1065
+   },
+   {
+    "day": "2026-02-09",
+    "symbol": "ETH/USD",
+    "close": 2103.73
+   },
+   {
+    "day": "2026-02-10",
+    "symbol": "ETH/USD",
+    "close": 2021.29
+   },
+   {
+    "day": "2026-02-11",
+    "symbol": "ETH/USD",
+    "close": 1940.73
+   },
+   {
+    "day": "2026-02-12",
+    "symbol": "ETH/USD",
+    "close": 1945.826
+   },
+   {
+    "day": "2026-02-13",
+    "symbol": "ETH/USD",
+    "close": 2047.0745
+   },
+   {
+    "day": "2026-02-14",
+    "symbol": "ETH/USD",
+    "close": 2084.76
+   },
+   {
+    "day": "2026-02-15",
+    "symbol": "ETH/USD",
+    "close": 1964.85
+   },
+   {
+    "day": "2026-02-16",
+    "symbol": "ETH/USD",
+    "close": 1997.275
+   },
+   {
+    "day": "2026-02-17",
+    "symbol": "ETH/USD",
+    "close": 1990.285
+   },
+   {
+    "day": "2026-02-18",
+    "symbol": "ETH/USD",
+    "close": 1955.2545
+   },
+   {
+    "day": "2026-02-19",
+    "symbol": "ETH/USD",
+    "close": 1947.99
+   },
+   {
+    "day": "2026-02-20",
+    "symbol": "ETH/USD",
+    "close": 1968.183
+   },
+   {
+    "day": "2026-02-21",
+    "symbol": "ETH/USD",
+    "close": 1974.19
+   },
+   {
+    "day": "2026-02-22",
+    "symbol": "ETH/USD",
+    "close": 1957.0945
+   },
+   {
+    "day": "2026-02-23",
+    "symbol": "ETH/USD",
+    "close": 1855.4645
+   },
+   {
+    "day": "2026-02-24",
+    "symbol": "ETH/USD",
+    "close": 1851.892
+   },
+   {
+    "day": "2026-02-25",
+    "symbol": "ETH/USD",
+    "close": 2056.407
+   },
+   {
+    "day": "2026-02-26",
+    "symbol": "ETH/USD",
+    "close": 2027.5235
+   },
+   {
+    "day": "2026-02-27",
+    "symbol": "ETH/USD",
+    "close": 1929.3485
+   },
+   {
+    "day": "2026-02-28",
+    "symbol": "ETH/USD",
+    "close": 1964.6335
+   },
+   {
+    "day": "2026-03-01",
+    "symbol": "ETH/USD",
+    "close": 1938.9
+   },
+   {
+    "day": "2026-03-02",
+    "symbol": "ETH/USD",
+    "close": 2026.8695
+   },
+   {
+    "day": "2026-03-03",
+    "symbol": "ETH/USD",
+    "close": 1982.039
+   },
+   {
+    "day": "2026-03-04",
+    "symbol": "ETH/USD",
+    "close": 2128.21
+   },
+   {
+    "day": "2026-03-05",
+    "symbol": "ETH/USD",
+    "close": 2073.138
+   },
+   {
+    "day": "2026-03-06",
+    "symbol": "ETH/USD",
+    "close": 1978.68
+   },
+   {
+    "day": "2026-03-07",
+    "symbol": "ETH/USD",
+    "close": 1969.67
+   },
+   {
+    "day": "2026-03-08",
+    "symbol": "ETH/USD",
+    "close": 1937.2185
+   },
+   {
+    "day": "2026-03-09",
+    "symbol": "ETH/USD",
+    "close": 1994.2545
+   },
+   {
+    "day": "2026-03-10",
+    "symbol": "ETH/USD",
+    "close": 2037.115
+   },
+   {
+    "day": "2026-03-11",
+    "symbol": "ETH/USD",
+    "close": 2051.265
+   },
+   {
+    "day": "2026-03-12",
+    "symbol": "ETH/USD",
+    "close": 2073.25
+   },
+   {
+    "day": "2026-03-13",
+    "symbol": "ETH/USD",
+    "close": 2092.95
+   },
+   {
+    "day": "2026-03-14",
+    "symbol": "ETH/USD",
+    "close": 2096.85
+   },
+   {
+    "day": "2026-03-15",
+    "symbol": "ETH/USD",
+    "close": 2179.2452
+   },
+   {
+    "day": "2026-03-16",
+    "symbol": "ETH/USD",
+    "close": 2352.14
+   },
+   {
+    "day": "2026-03-17",
+    "symbol": "ETH/USD",
+    "close": 2319.185
+   },
+   {
+    "day": "2026-03-18",
+    "symbol": "ETH/USD",
+    "close": 2203.293
+   },
+   {
+    "day": "2026-03-19",
+    "symbol": "ETH/USD",
+    "close": 2138.27
+   },
+   {
+    "day": "2026-03-20",
+    "symbol": "ETH/USD",
+    "close": 2146.5095
+   },
+   {
+    "day": "2026-03-21",
+    "symbol": "ETH/USD",
+    "close": 2084.9185
+   },
+   {
+    "day": "2026-03-22",
+    "symbol": "ETH/USD",
+    "close": 2053.61
+   },
+   {
+    "day": "2026-03-23",
+    "symbol": "ETH/USD",
+    "close": 2151.82
+   },
+   {
+    "day": "2026-03-24",
+    "symbol": "ETH/USD",
+    "close": 2155.6355
+   },
+   {
+    "day": "2026-03-25",
+    "symbol": "ETH/USD",
+    "close": 2169.0475
+   },
+   {
+    "day": "2026-03-26",
+    "symbol": "ETH/USD",
+    "close": 2059.045
+   },
+   {
+    "day": "2026-03-27",
+    "symbol": "ETH/USD",
+    "close": 1990.8935
+   },
+   {
+    "day": "2026-03-28",
+    "symbol": "ETH/USD",
+    "close": 1993.4425
+   },
+   {
+    "day": "2026-03-29",
+    "symbol": "ETH/USD",
+    "close": 1982.26
+   },
+   {
+    "day": "2026-03-30",
+    "symbol": "ETH/USD",
+    "close": 2024.115
+   },
+   {
+    "day": "2026-03-31",
+    "symbol": "ETH/USD",
+    "close": 2103.379
+   },
+   {
+    "day": "2026-04-01",
+    "symbol": "ETH/USD",
+    "close": 2139.38
+   },
+   {
+    "day": "2026-04-02",
+    "symbol": "ETH/USD",
+    "close": 2056.65
+   },
+   {
+    "day": "2026-04-03",
+    "symbol": "ETH/USD",
+    "close": 2053.767
+   },
+   {
+    "day": "2026-04-04",
+    "symbol": "ETH/USD",
+    "close": 2065.213
+   },
+   {
+    "day": "2026-04-05",
+    "symbol": "ETH/USD",
+    "close": 2108.801
+   },
+   {
+    "day": "2026-04-06",
+    "symbol": "ETH/USD",
+    "close": 2107.39
+   },
+   {
+    "day": "2026-04-07",
+    "symbol": "ETH/USD",
+    "close": 2239.828
+   },
+   {
+    "day": "2026-04-08",
+    "symbol": "ETH/USD",
+    "close": 2190.121
+   },
+   {
+    "day": "2026-04-09",
+    "symbol": "ETH/USD",
+    "close": 2190.35
+   },
+   {
+    "day": "2026-04-10",
+    "symbol": "ETH/USD",
+    "close": 2246.06
+   },
+   {
+    "day": "2026-04-11",
+    "symbol": "ETH/USD",
+    "close": 2285.65
+   },
+   {
+    "day": "2026-04-12",
+    "symbol": "ETH/USD",
+    "close": 2191.535
+   },
+   {
+    "day": "2026-04-13",
+    "symbol": "ETH/USD",
+    "close": 2371.3535
+   },
+   {
+    "day": "2026-04-14",
+    "symbol": "ETH/USD",
+    "close": 2323.8
+   },
+   {
+    "day": "2026-04-15",
+    "symbol": "ETH/USD",
+    "close": 2360.6435
+   },
+   {
+    "day": "2026-04-16",
+    "symbol": "ETH/USD",
+    "close": 2348.452
+   },
+   {
+    "day": "2026-04-17",
+    "symbol": "ETH/USD",
+    "close": 2420.25
+   },
+   {
+    "day": "2026-04-18",
+    "symbol": "ETH/USD",
+    "close": 2351.555
+   },
+   {
+    "day": "2026-04-19",
+    "symbol": "ETH/USD",
+    "close": 2264.0765
+   },
+   {
+    "day": "2026-04-20",
+    "symbol": "ETH/USD",
+    "close": 2314.75
+   },
+   {
+    "day": "2026-04-21",
+    "symbol": "ETH/USD",
+    "close": 2328.308
+   },
+   {
+    "day": "2026-04-22",
+    "symbol": "ETH/USD",
+    "close": 2374.9
+   },
+   {
+    "day": "2026-04-23",
+    "symbol": "ETH/USD",
+    "close": 2331.73
+   },
+   {
+    "day": "2026-04-24",
+    "symbol": "ETH/USD",
+    "close": 2315.976
+   },
+   {
+    "day": "2026-04-25",
+    "symbol": "ETH/USD",
+    "close": 2319.52
+   },
+   {
+    "day": "2026-04-26",
+    "symbol": "ETH/USD",
+    "close": 2369.85
+   },
+   {
+    "day": "2026-04-27",
+    "symbol": "ETH/USD",
+    "close": 2303.202
+   },
+   {
+    "day": "2026-04-28",
+    "symbol": "ETH/USD",
+    "close": 2289.45
+   },
+   {
+    "day": "2026-04-29",
+    "symbol": "ETH/USD",
+    "close": 2251.96
+   },
+   {
+    "day": "2026-04-30",
+    "symbol": "ETH/USD",
+    "close": 2257.165
+   },
+   {
+    "day": "2026-05-01",
+    "symbol": "ETH/USD",
+    "close": 2295.635
+   },
+   {
+    "day": "2026-05-02",
+    "symbol": "ETH/USD",
+    "close": 2315.898
+   },
+   {
+    "day": "2026-05-03",
+    "symbol": "ETH/USD",
+    "close": 2322.55
+   },
+   {
+    "day": "2026-05-04",
+    "symbol": "ETH/USD",
+    "close": 2346.105
+   },
+   {
+    "day": "2026-05-05",
+    "symbol": "ETH/USD",
+    "close": 2361.4395
+   },
+   {
+    "day": "2026-05-06",
+    "symbol": "ETH/USD",
+    "close": 2350.919
+   },
+   {
+    "day": "2026-05-07",
+    "symbol": "ETH/USD",
+    "close": 2290.666
+   },
+   {
+    "day": "2026-05-08",
+    "symbol": "ETH/USD",
+    "close": 2307.0965
+   },
+   {
+    "day": "2026-05-09",
+    "symbol": "ETH/USD",
+    "close": 2326.7589
+   },
+   {
+    "day": "2026-05-10",
+    "symbol": "ETH/USD",
+    "close": 2371.0205
+   },
+   {
+    "day": "2026-05-11",
+    "symbol": "ETH/USD",
+    "close": 2340.2115
+   },
+   {
+    "day": "2026-05-12",
+    "symbol": "ETH/USD",
+    "close": 2274.212
+   },
+   {
+    "day": "2026-05-13",
+    "symbol": "ETH/USD",
+    "close": 2257.63
+   },
+   {
+    "day": "2026-05-14",
+    "symbol": "ETH/USD",
+    "close": 2282.4995
+   },
+   {
+    "day": "2026-05-15",
+    "symbol": "ETH/USD",
+    "close": 2223.52
+   },
+   {
+    "day": "2026-05-16",
+    "symbol": "ETH/USD",
+    "close": 2179.45
+   },
+   {
+    "day": "2026-05-17",
+    "symbol": "ETH/USD",
+    "close": 2130.44
+   },
+   {
+    "day": "2026-05-18",
+    "symbol": "ETH/USD",
+    "close": 2129.15
+   },
+   {
+    "day": "2026-05-19",
+    "symbol": "ETH/USD",
+    "close": 2110.3055
+   },
+   {
+    "day": "2026-05-20",
+    "symbol": "ETH/USD",
+    "close": 2127.6
+   },
+   {
+    "day": "2026-05-21",
+    "symbol": "ETH/USD",
+    "close": 2131.2205
+   },
+   {
+    "day": "2026-05-22",
+    "symbol": "ETH/USD",
+    "close": 2063.386
+   },
+   {
+    "day": "2026-05-23",
+    "symbol": "ETH/USD",
+    "close": 2115.035
+   },
+   {
+    "day": "2026-05-24",
+    "symbol": "ETH/USD",
+    "close": 2098.365
+   },
+   {
+    "day": "2026-05-25",
+    "symbol": "ETH/USD",
+    "close": 2112.36
+   },
+   {
+    "day": "2026-05-26",
+    "symbol": "ETH/USD",
+    "close": 2070.45
+   },
+   {
+    "day": "2026-05-27",
+    "symbol": "ETH/USD",
+    "close": 2021.625
+   },
+   {
+    "day": "2026-05-28",
+    "symbol": "ETH/USD",
+    "close": 2006.95
+   },
+   {
+    "day": "2026-05-29",
+    "symbol": "ETH/USD",
+    "close": 2011.864
+   },
+   {
+    "day": "2026-05-30",
+    "symbol": "ETH/USD",
+    "close": 2019.05
+   },
+   {
+    "day": "2026-05-31",
+    "symbol": "ETH/USD",
+    "close": 2004.0675
+   },
+   {
+    "day": "2026-06-01",
+    "symbol": "ETH/USD",
+    "close": 2003.775
+   },
+   {
+    "day": "2026-06-02",
+    "symbol": "ETH/USD",
+    "close": 1856.901
+   },
+   {
+    "day": "2026-06-03",
+    "symbol": "ETH/USD",
+    "close": 1810.4285
+   },
+   {
+    "day": "2026-06-04",
+    "symbol": "ETH/USD",
+    "close": 1768.68
+   },
+   {
+    "day": "2026-06-05",
+    "symbol": "ETH/USD",
+    "close": 1583.5755
+   },
+   {
+    "day": "2026-06-06",
+    "symbol": "ETH/USD",
+    "close": 1568.598
+   },
+   {
+    "day": "2026-06-07",
+    "symbol": "ETH/USD",
+    "close": 1690.44
+   },
+   {
+    "day": "2026-06-08",
+    "symbol": "ETH/USD",
+    "close": 1690.1055
+   },
+   {
+    "day": "2026-06-09",
+    "symbol": "ETH/USD",
+    "close": 1638.1045
+   },
+   {
+    "day": "2026-06-10",
+    "symbol": "ETH/USD",
+    "close": 1620.655
+   },
+   {
+    "day": "2026-06-11",
+    "symbol": "ETH/USD",
+    "close": 1671.4415
+   },
+   {
+    "day": "2026-06-12",
+    "symbol": "ETH/USD",
+    "close": 1664.82
+   },
+   {
+    "day": "2026-06-13",
+    "symbol": "ETH/USD",
+    "close": 1679.974
+   },
+   {
+    "day": "2026-06-14",
+    "symbol": "ETH/USD",
+    "close": 1724.82
+   },
+   {
+    "day": "2026-06-15",
+    "symbol": "ETH/USD",
+    "close": 1795.17
+   },
+   {
+    "day": "2026-06-16",
+    "symbol": "ETH/USD",
+    "close": 1790.495
+   },
+   {
+    "day": "2026-06-17",
+    "symbol": "ETH/USD",
+    "close": 1748.39
+   },
+   {
+    "day": "2026-06-18",
+    "symbol": "ETH/USD",
+    "close": 1709.5035
+   },
+   {
+    "day": "2026-06-19",
+    "symbol": "ETH/USD",
+    "close": 1709.645
+   },
+   {
+    "day": "2026-06-20",
+    "symbol": "ETH/USD",
+    "close": 1738.745
+   },
+   {
+    "day": "2026-06-21",
+    "symbol": "ETH/USD",
+    "close": 1705.7015
+   },
+   {
+    "day": "2026-06-22",
+    "symbol": "ETH/USD",
+    "close": 1726.451
+   },
+   {
+    "day": "2026-06-23",
+    "symbol": "ETH/USD",
+    "close": 1665.985
+   },
+   {
+    "day": "2026-06-24",
+    "symbol": "ETH/USD",
+    "close": 1619.8075
+   },
+   {
+    "day": "2026-06-25",
+    "symbol": "ETH/USD",
+    "close": 1565.1
+   },
+   {
+    "day": "2026-06-26",
+    "symbol": "ETH/USD",
+    "close": 1576.25
+   },
+   {
+    "day": "2026-06-27",
+    "symbol": "ETH/USD",
+    "close": 1571.45
+   },
+   {
+    "day": "2026-06-28",
+    "symbol": "ETH/USD",
+    "close": 1569.5265
+   },
+   {
+    "day": "2026-06-29",
+    "symbol": "ETH/USD",
+    "close": 1611.01
+   },
+   {
+    "day": "2026-06-30",
+    "symbol": "ETH/USD",
+    "close": 1569.652
+   },
+   {
+    "day": "2026-07-01",
+    "symbol": "ETH/USD",
+    "close": 1608.25
+   },
+   {
+    "day": "2026-07-02",
+    "symbol": "ETH/USD",
+    "close": 1698.5345
+   },
+   {
+    "day": "2026-07-03",
+    "symbol": "ETH/USD",
+    "close": 1756.285
+   },
+   {
+    "day": "2026-07-04",
+    "symbol": "ETH/USD",
+    "close": 1778.7475
+   },
+   {
+    "day": "2026-07-05",
+    "symbol": "ETH/USD",
+    "close": 1784.5315
+   },
+   {
+    "day": "2026-07-06",
+    "symbol": "ETH/USD",
+    "close": 1798.3985
+   },
+   {
+    "day": "2026-07-07",
+    "symbol": "ETH/USD",
+    "close": 1769.75
+   },
+   {
+    "day": "2026-07-08",
+    "symbol": "ETH/USD",
+    "close": 1742.0625
+   },
+   {
+    "day": "2026-07-09",
+    "symbol": "ETH/USD",
+    "close": 1744.102
+   },
+   {
+    "day": "2026-07-10",
+    "symbol": "ETH/USD",
+    "close": 1796.024
+   },
+   {
+    "day": "2026-07-11",
+    "symbol": "ETH/USD",
+    "close": 1786.69
+   },
+   {
+    "day": "2026-07-12",
+    "symbol": "ETH/USD",
+    "close": 1805.15
+   },
+   {
+    "day": "2026-07-13",
+    "symbol": "ETH/USD",
+    "close": 1774.8205
+   },
+   {
+    "day": "2026-07-14",
+    "symbol": "ETH/USD",
+    "close": 1890.818
+   },
+   {
+    "day": "2026-07-15",
+    "symbol": "ETH/USD",
+    "close": 1917.075
+   },
+   {
+    "day": "2026-07-16",
+    "symbol": "ETH/USD",
+    "close": 1863.255
+   },
+   {
+    "day": "2026-07-17",
+    "symbol": "ETH/USD",
+    "close": 1841.07
+   },
+   {
+    "day": "2026-07-18",
+    "symbol": "ETH/USD",
+    "close": 1862.05
+   },
+   {
+    "day": "2026-07-19",
+    "symbol": "ETH/USD",
+    "close": 1871.265
+   },
+   {
+    "day": "2026-07-20",
+    "symbol": "ETH/USD",
+    "close": 1902.6
+   },
+   {
+    "day": "2026-07-21",
+    "symbol": "ETH/USD",
+    "close": 1928.121
+   },
+   {
+    "day": "2026-07-22",
+    "symbol": "ETH/USD",
+    "close": 1933.595
+   },
+   {
+    "day": "2026-07-23",
+    "symbol": "ETH/USD",
+    "close": 1876.8095
+   },
+   {
+    "day": "2026-07-24",
+    "symbol": "ETH/USD",
+    "close": 1859.56
+   },
+   {
+    "day": "2026-07-25",
+    "symbol": "ETH/USD",
+    "close": 1872.8
+   },
+   {
+    "day": "2026-07-26",
+    "symbol": "ETH/USD",
+    "close": 1953.5575
+   },
+   {
+    "day": "2026-07-27",
+    "symbol": "ETH/USD",
+    "close": 1890.194
+   },
+   {
+    "day": "2026-07-28",
+    "symbol": "ETH/USD",
+    "close": 1919.3615
+   },
+   {
+    "day": "2026-07-29",
+    "symbol": "ETH/USD",
+    "close": 1908.345
+   },
+   {
+    "day": "2026-07-30",
+    "symbol": "ETH/USD",
+    "close": 1916.84
+   },
+   {
+    "day": "2026-07-31",
+    "symbol": "ETH/USD",
+    "close": 1859.71
+   },
+   {
+    "day": "2026-08-01",
+    "symbol": "ETH/USD",
+    "close": 1843.12
+   },
+   {
+    "day": "2026-08-02",
+    "symbol": "ETH/USD",
+    "close": 1883.2915
+   },
+   {
+    "day": "2026-08-03",
+    "symbol": "ETH/USD",
+    "close": 1858.385
+   },
+   {
+    "day": "2026-08-04",
+    "symbol": "ETH/USD",
+    "close": 1867.61
+   },
+   {
+    "day": "2026-08-05",
+    "symbol": "ETH/USD",
+    "close": 1906.383
+   },
+   {
+    "day": "2026-08-06",
+    "symbol": "ETH/USD",
+    "close": 1902.555
+   },
+   {
+    "day": "2026-08-07",
+    "symbol": "ETH/USD",
+    "close": 1913.5995
+   },
+   {
+    "day": "2026-08-08",
+    "symbol": "ETH/USD",
+    "close": 1916.168
+   },
+   {
+    "day": "2026-08-09",
+    "symbol": "ETH/USD",
+    "close": 1908.9255
+   },
+   {
+    "day": "2026-08-10",
+    "symbol": "ETH/USD",
+    "close": 1871.649
+   },
+   {
+    "day": "2026-08-11",
+    "symbol": "ETH/USD",
+    "close": 1881.08
+   },
+   {
+    "day": "2026-08-12",
+    "symbol": "ETH/USD",
+    "close": 1877.7
+   },
+   {
+    "day": "2026-08-13",
+    "symbol": "ETH/USD",
+    "close": 1884.145
+   },
+   {
+    "day": "2026-08-14",
+    "symbol": "ETH/USD",
+    "close": 1880.182
+   },
+   {
+    "day": "2026-08-15",
+    "symbol": "ETH/USD",
+    "close": 1881.318
+   },
+   {
+    "day": "2026-08-16",
+    "symbol": "ETH/USD",
+    "close": 1874.17
+   },
+   {
+    "day": "2026-08-17",
+    "symbol": "ETH/USD",
+    "close": 1912.4535
+   },
+   {
+    "day": "2026-08-18",
+    "symbol": "ETH/USD",
+    "close": 1916.47
+   },
+   {
+    "day": "2026-08-19",
+    "symbol": "ETH/USD",
+    "close": 2251.103
+   },
+   {
+    "day": "2026-08-20",
+    "symbol": "ETH/USD",
+    "close": 2325.4735
+   },
+   {
+    "day": "2026-08-21",
+    "symbol": "ETH/USD",
+    "close": 2515.933
+   },
+   {
+    "day": "2026-08-22",
+    "symbol": "ETH/USD",
+    "close": 2422.9675
+   },
+   {
+    "day": "2026-08-23",
+    "symbol": "ETH/USD",
+    "close": 2462.798
+   },
+   {
+    "day": "2026-08-24",
+    "symbol": "ETH/USD",
+    "close": 2482.891
+   },
+   {
+    "day": "2026-08-25",
+    "symbol": "ETH/USD",
+    "close": 2442.785
+   },
+   {
+    "day": "2026-08-26",
+    "symbol": "ETH/USD",
+    "close": 2506.742
+   },
+   {
+    "day": "2026-08-27",
+    "symbol": "ETH/USD",
+    "close": 2511.8095
+   },
+   {
+    "day": "2026-08-28",
+    "symbol": "ETH/USD",
+    "close": 2442.688
+   },
+   {
+    "day": "2026-08-29",
+    "symbol": "ETH/USD",
+    "close": 2457.765
+   },
+   {
+    "day": "2026-08-30",
+    "symbol": "ETH/USD",
+    "close": 2416.8225
+   },
+   {
+    "day": "2026-08-31",
+    "symbol": "ETH/USD",
+    "close": 2467.435
+   },
+   {
+    "day": "2026-09-01",
+    "symbol": "ETH/USD",
+    "close": 2417.942
+   },
+   {
+    "day": "2026-09-02",
+    "symbol": "ETH/USD",
+    "close": 2391.882
+   },
+   {
+    "day": "2026-09-03",
+    "symbol": "ETH/USD",
+    "close": 2508.21
+   },
+   {
+    "day": "2026-09-04",
+    "symbol": "ETH/USD",
+    "close": 2456.376
+   },
+   {
+    "day": "2026-09-05",
+    "symbol": "ETH/USD",
+    "close": 2479.918
+   },
+   {
+    "day": "2026-09-06",
+    "symbol": "ETH/USD",
+    "close": 2515.445
+   },
+   {
+    "day": "2026-09-07",
+    "symbol": "ETH/USD",
+    "close": 2490.4615
+   },
+   {
+    "day": "2026-09-08",
+    "symbol": "ETH/USD",
+    "close": 2484.527
+   },
+   {
+    "day": "2026-09-09",
+    "symbol": "ETH/USD",
+    "close": 2467.7
+   },
+   {
+    "day": "2026-09-10",
+    "symbol": "ETH/USD",
+    "close": 2436.8075
+   },
+   {
+    "day": "2026-09-11",
+    "symbol": "ETH/USD",
+    "close": 2516.066
+   },
+   {
+    "day": "2026-09-12",
+    "symbol": "ETH/USD",
+    "close": 2525.045
+   },
+   {
+    "day": "2026-09-13",
+    "symbol": "ETH/USD",
+    "close": 2476.5845
+   },
+   {
+    "day": "2026-09-14",
+    "symbol": "ETH/USD",
+    "close": 2515.02
+   },
+   {
+    "day": "2026-09-15",
+    "symbol": "ETH/USD",
+    "close": 2397.1075
+   },
+   {
+    "day": "2026-09-16",
+    "symbol": "ETH/USD",
+    "close": 2416.405
+   },
+   {
+    "day": "2026-09-17",
+    "symbol": "ETH/USD",
+    "close": 2445.7245
+   },
+   {
+    "day": "2026-09-18",
+    "symbol": "ETH/USD",
+    "close": 2612.4025
+   },
+   {
+    "day": "2026-09-19",
+    "symbol": "ETH/USD",
+    "close": 2632.425
+   },
+   {
+    "day": "2026-09-20",
+    "symbol": "ETH/USD",
+    "close": 2643.9205
+   },
+   {
+    "day": "2026-09-21",
+    "symbol": "ETH/USD",
+    "close": 2775.483
+   },
+   {
+    "day": "2026-09-22",
+    "symbol": "ETH/USD",
+    "close": 2753.2
+   },
+   {
+    "day": "2026-09-23",
+    "symbol": "ETH/USD",
+    "close": 2685.2065
+   },
+   {
+    "day": "2026-09-24",
+    "symbol": "ETH/USD",
+    "close": 2687.53
+   },
+   {
+    "day": "2026-09-25",
+    "symbol": "ETH/USD",
+    "close": 2690.75
+   },
+   {
+    "day": "2026-09-26",
+    "symbol": "ETH/USD",
+    "close": 2695.3
+   },
+   {
+    "day": "2026-09-27",
+    "symbol": "ETH/USD",
+    "close": 2687.115
+   },
+   {
+    "day": "2026-09-28",
+    "symbol": "ETH/USD",
+    "close": 2687.8015
+   },
+   {
+    "day": "2026-09-29",
+    "symbol": "ETH/USD",
+    "close": 2676.55
+   },
+   {
+    "day": "2026-09-30",
+    "symbol": "ETH/USD",
+    "close": 2684.527
+   },
+   {
+    "day": "2026-10-01",
+    "symbol": "ETH/USD",
+    "close": 2705.475
+   },
+   {
+    "day": "2026-10-02",
+    "symbol": "ETH/USD",
+    "close": 2667.926
+   },
+   {
+    "day": "2026-10-03",
+    "symbol": "ETH/USD",
+    "close": 2687.8705
+   },
+   {
+    "day": "2026-10-04",
+    "symbol": "ETH/USD",
+    "close": 2726.268
+   },
+   {
+    "day": "2026-10-05",
+    "symbol": "ETH/USD",
+    "close": 2709.515
+   },
+   {
+    "day": "2026-10-06",
+    "symbol": "ETH/USD",
+    "close": 2697.444
+   },
+   {
+    "day": "2026-10-07",
+    "symbol": "ETH/USD",
+    "close": 2573.3
+   },
+   {
+    "day": "2026-10-08",
+    "symbol": "ETH/USD",
+    "close": 2472.237
+   },
+   {
+    "day": "2026-10-09",
+    "symbol": "ETH/USD",
+    "close": 2486.15
+   },
+   {
+    "day": "2026-10-10",
+    "symbol": "ETH/USD",
+    "close": 2504.78
+   },
+   {
+    "day": "2026-10-11",
+    "symbol": "ETH/USD",
+    "close": 2533.5865
+   },
+   {
+    "day": "2026-10-12",
+    "symbol": "ETH/USD",
+    "close": 2444.02
+   },
+   {
+    "day": "2026-10-13",
+    "symbol": "ETH/USD",
+    "close": 2495.95
+   },
+   {
+    "day": "2026-10-14",
+    "symbol": "ETH/USD",
+    "close": 2418.2815
+   },
+   {
+    "day": "2026-10-15",
+    "symbol": "ETH/USD",
+    "close": 2439.4935
+   },
+   {
+    "day": "2026-10-16",
+    "symbol": "ETH/USD",
+    "close": 2420.0895
+   },
+   {
+    "day": "2026-10-17",
+    "symbol": "ETH/USD",
+    "close": 2399.731
+   },
+   {
+    "day": "2026-10-18",
+    "symbol": "ETH/USD",
+    "close": 2407.4
+   },
+   {
+    "day": "2026-10-19",
+    "symbol": "ETH/USD",
+    "close": 2405.1295
+   },
+   {
+    "day": "2026-10-20",
+    "symbol": "ETH/USD",
+    "close": 2446.809
+   },
+   {
+    "day": "2026-10-21",
+    "symbol": "ETH/USD",
+    "close": 2471.6815
+   },
+   {
+    "day": "2026-10-22",
+    "symbol": "ETH/USD",
+    "close": 2386.295
+   },
+   {
+    "day": "2026-10-23",
+    "symbol": "ETH/USD",
+    "close": 2384.62
+   },
+   {
+    "day": "2026-10-24",
+    "symbol": "ETH/USD",
+    "close": 2355.405
+   },
+   {
+    "day": "2026-10-25",
+    "symbol": "ETH/USD",
+    "close": 2326.975
+   },
+   {
+    "day": "2026-10-26",
+    "symbol": "ETH/USD",
+    "close": 2320.165
+   },
+   {
+    "day": "2026-10-27",
+    "symbol": "ETH/USD",
+    "close": 2347.335
+   },
+   {
+    "day": "2026-10-28",
+    "symbol": "ETH/USD",
+    "close": 2356.9865
+   },
+   {
+    "day": "2026-10-29",
+    "symbol": "ETH/USD",
+    "close": 2248.9
+   },
+   {
+    "day": "2026-10-30",
+    "symbol": "ETH/USD",
+    "close": 2241.2265
+   }
+  ]
+ },
+ "events": [
+  {
+   "date": "2026-11-02",
+   "what": "AAPL earnings",
+   "symbol": "AAPL",
+   "when": "time-after-hours"
+  }
+ ],
+ "replay": {
+  "day": "2026-10-30",
+  "strategy": "orb",
+  "trades": [
+   {
+    "symbol": "QQQ",
+    "entry_time": "2026-10-30T14:00:00+00:00",
+    "entry": 698.3796,
+    "exit": 693.9312,
+    "pnl": -4.47,
+    "exit_reason": "stop"
+   },
+   {
+    "symbol": "AAPL",
+    "entry_time": "2026-10-30T14:45:00+00:00",
+    "entry": 348.8798,
+    "exit": 344.1412,
+    "pnl": -9.5,
+    "exit_reason": "stop"
+   }
+  ]
+ }
+}
