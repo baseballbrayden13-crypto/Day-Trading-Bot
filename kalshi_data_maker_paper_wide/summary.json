@@ -1,23 +1,25 @@
 {
- "updated": "2026-10-31T17:08:05+00:00",
+ "updated": "2026-10-31T17:38:18+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "19.98",
- "realized_profit": "-0.02",
- "bet_level": "19.98",
- "open_trades": 2,
- "open_locked_profit": "0.28",
- "in_play": "5.72",
- "stray_positions": 0,
- "closed_trades": 33,
+ "equity": "20.07",
+ "realized_profit": "0.07",
+ "bet_level": "20.00",
+ "open_trades": 3,
+ "open_locked_profit": "0.30",
+ "in_play": "10.21",
+ "stray_positions": 1,
+ "closed_trades": 35,
  "trades_this_loop": 0,
- "events_swept": 21961,
+ "events_swept": 21876,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 1,
+ "problems": 3,
  "last_problems": [
-  "2026-10-31 16:30 Quote KXTESTMATCH-26OCT301800INANEW: hedge missed on KXTESTMATCH-26OCT301800INANEW-INA. Selling back 2 contracts on 1 legs."
+  "2026-10-31 16:30 Quote KXTESTMATCH-26OCT301800INANEW: hedge missed on KXTESTMATCH-26OCT301800INANEW-INA. Selling back 2 contracts on 1 legs.",
+  "2026-10-31 17:30 Quote KXEBASKETBALLGAME-26OCT311312GAVIMELO: hedge missed on KXEBASKETBALLGAME-26OCT311312GAVIMELO-MELO. Selling back 2 contracts on 1 legs.",
+  "2026-10-31 17:30 STRAY POSITION: 2 NO contracts of KXEBASKETBALLGAME-26OCT311312GAVIMELO-GAVI still held. Check it on Kalshi."
  ]
 }
