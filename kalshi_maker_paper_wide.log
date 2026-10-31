@@ -1833,3 +1833,19 @@
 2026-10-31 00:10:30,580 INFO Quote KXEFOOTBALLGAME-26OCT302355FREDSPEE cancelled (0/32 filled)
 2026-10-31 00:15:09,903 INFO Swept 22350 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-31 00:20:15,784 INFO Swept 22353 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 00:25:14,796 INFO PAPER rest NO bid KXSSHIELDMATCH-26OCT272000WEARED-WEA at $0.1000 x5 (60 already bid at that price)
+2026-10-31 00:25:14,796 INFO Resting NO bid on KXSSHIELDMATCH-26OCT272000WEARED-WEA at $0.10 x5 (KXSSHIELDMATCH-26OCT272000WEARED): locks in $0.10 if it fills; hedge NO RED@0.8700
+2026-10-31 00:25:14,798 INFO Swept 22349 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 00:30:18,978 INFO PAPER rest NO bid KXNBA2H-26OCT30DENPHX-TIE at $0.7400 x2 (0 already bid at that price)
+2026-10-31 00:30:18,978 INFO Resting NO bid on KXNBA2H-26OCT30DENPHX-TIE at $0.7400 x2 (KXNBA2H-26OCT30DENPHX): locks in $0.13 if it fills; hedge NO DEN@0.1800, PHX@0.9900
+2026-10-31 00:30:18,980 INFO Swept 22372 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 00:30:19,182 INFO Quote KXSSHIELDMATCH-26OCT272000WEARED cancelled (0/5 filled)
+2026-10-31 00:30:24,515 INFO Quote KXNBA2H-26OCT30DENPHX cancelled (0/2 filled)
+2026-10-31 00:35:19,379 INFO Swept 22381 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 00:40:24,836 INFO Swept 22363 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 00:45:23,579 INFO Swept 22355 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 00:50:26,070 INFO PAPER rest NO bid KXESOCCERGAME-26OCT310050LEXILOTT-LEXI at $0.1400 x2 (0 already bid at that price)
+2026-10-31 00:50:26,071 INFO Resting NO bid on KXESOCCERGAME-26OCT310050LEXILOTT-LEXI at $0.1400 x2 (KXESOCCERGAME-26OCT310050LEXILOTT): locks in $0.11 if it fills; hedge NO LOTT@0.7900, TIE@0.9900
+2026-10-31 00:50:26,139 INFO PAPER rest NO bid KXMLSGAME-26NOV07HOUSTL-STL at $0.5600 x2 (0 already bid at that price)
+2026-10-31 00:50:26,139 INFO Resting NO bid on KXMLSGAME-26NOV07HOUSTL-STL at $0.56 x2 (KXMLSGAME-26NOV07HOUSTL): locks in $0.10 if it fills; hedge NO HOU@0.5400, TIE@0.8100
+2026-10-31 00:50:26,143 INFO Swept 22362 events: 0 taker trades, 2 new quotes, 2 resting

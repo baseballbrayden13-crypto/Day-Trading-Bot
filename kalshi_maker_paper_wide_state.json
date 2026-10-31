@@ -844,5 +844,52 @@
    "closed": "2026-10-30T22:19:38.085734+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXESOCCERGAME-26OCT310050LEXILOTT",
+   "series": "KXESOCCERGAME",
+   "title": "eSoccer: Portugal (Lexi) vs Spain (Lotta)",
+   "ticker": "KXESOCCERGAME-26OCT310050LEXILOTT-LEXI",
+   "order_id": "paper-314-1793422226",
+   "price": "0.1400",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.8900",
+   "multiplier": "1",
+   "placed": 1793422226.0709827,
+   "hedge": [
+    {
+     "ticker": "KXESOCCERGAME-26OCT310050LEXILOTT-LOTT",
+     "limit": "0.7900"
+    },
+    {
+     "ticker": "KXESOCCERGAME-26OCT310050LEXILOTT-TIE",
+     "limit": "0.9900"
+    }
+   ]
+  },
+  {
+   "event": "KXMLSGAME-26NOV07HOUSTL",
+   "series": "KXMLSGAME",
+   "title": "Houston vs Saint Louis",
+   "ticker": "KXMLSGAME-26NOV07HOUSTL-STL",
+   "order_id": "paper-315-1793422226",
+   "price": "0.56",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.9000",
+   "multiplier": "1",
+   "placed": 1793422226.1396103,
+   "hedge": [
+    {
+     "ticker": "KXMLSGAME-26NOV07HOUSTL-HOU",
+     "limit": "0.5400"
+    },
+    {
+     "ticker": "KXMLSGAME-26NOV07HOUSTL-TIE",
+     "limit": "0.8100"
+    }
+   ]
+  }
+ ]
 }
