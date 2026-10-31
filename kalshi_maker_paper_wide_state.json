@@ -846,21 +846,40 @@
  ],
  "quotes": [
   {
-   "event": "KXOWGAME-26OCT310330T1ZETA",
-   "series": "KXOWGAME",
-   "title": "OCS Korea Stage 3 2026: T1 vs. ZETA DIVISION",
-   "ticker": "KXOWGAME-26OCT310330T1ZETA-T1",
-   "order_id": "paper-305-1793415858",
-   "price": "0.65",
+   "event": "KXT20MATCH-26OCT310245CRHLLI",
+   "series": "KXT20MATCH",
+   "title": "Lumbini Lions vs Chitwan Rhinos",
+   "ticker": "KXT20MATCH-26OCT310245CRHLLI-CRH",
+   "order_id": "paper-309-1793417986",
+   "price": "0.4900",
    "sets": 5,
    "done": 0,
-   "reserve": "4.9000",
+   "reserve": "4.7200",
    "multiplier": "1",
-   "placed": 1793415858.544267,
+   "placed": 1793417986.7451065,
    "hedge": [
     {
-     "ticker": "KXOWGAME-26OCT310330T1ZETA-ZETA",
-     "limit": "0.3100"
+     "ticker": "KXT20MATCH-26OCT310245CRHLLI-LLI",
+     "limit": "0.5100"
+    }
+   ]
+  },
+  {
+   "event": "KXSSHIELDMATCH-26OCT291930BLUTAS",
+   "series": "KXSSHIELDMATCH",
+   "title": "Tasmania vs New South Wales Blues",
+   "ticker": "KXSSHIELDMATCH-26OCT291930BLUTAS-TAS",
+   "order_id": "paper-310-1793418287",
+   "price": "0.13",
+   "sets": 3,
+   "done": 0,
+   "reserve": "2.9000",
+   "multiplier": "1",
+   "placed": 1793418287.4499807,
+   "hedge": [
+    {
+     "ticker": "KXSSHIELDMATCH-26OCT291930BLUTAS-BLU",
+     "limit": "0.8200"
     }
    ]
   }

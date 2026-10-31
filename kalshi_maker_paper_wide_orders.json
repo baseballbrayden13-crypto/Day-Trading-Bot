@@ -4262,12 +4262,12 @@
   "count": 5,
   "ahead": 69,
   "placed": 1793415858.540527,
-  "checked": 1793416828.0219777,
+  "checked": 1793417658,
   "expires": 1793417658,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-306-1793416771": {
   "id": "paper-306-1793416771",
@@ -4282,5 +4282,61 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-307-1793417376": {
+  "id": "paper-307-1793417376",
+  "ticker": "KXLIGAEXP1H-26OCT30CLUDRD-DRD",
+  "price": "0.5500",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793417376.9200368,
+  "checked": 1793417413.9153574,
+  "expires": 1793419176,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-308-1793417679": {
+  "id": "paper-308-1793417679",
+  "ticker": "KXLIGAEXP1H-26OCT30CLUDRD-DRD",
+  "price": "0.5500",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793417679.8372874,
+  "checked": 1793417695.402153,
+  "expires": 1793419479,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-309-1793417986": {
+  "id": "paper-309-1793417986",
+  "ticker": "KXT20MATCH-26OCT310245CRHLLI-CRH",
+  "price": "0.4900",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793417986.7411726,
+  "checked": 1793418627.4446027,
+  "expires": 1793419786,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-310-1793418287": {
+  "id": "paper-310-1793418287",
+  "ticker": "KXSSHIELDMATCH-26OCT291930BLUTAS-TAS",
+  "price": "0.1300",
+  "count": 3,
+  "ahead": 79,
+  "placed": 1793418287.4451478,
+  "checked": 1793418627.5753675,
+  "expires": 1793420087,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
