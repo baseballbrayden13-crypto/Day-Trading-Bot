@@ -850,17 +850,40 @@
    "series": "KXCBAGAME",
    "title": "Sichuan Blue Whales vs Shanxi Loongs",
    "ticker": "KXCBAGAME-26NOV010635SBWSHAX-SHAX",
-   "order_id": "paper-302-1793411614",
+   "order_id": "paper-303-1793413740",
    "price": "0.09",
    "sets": 5,
    "done": 0,
    "reserve": "4.9000",
    "multiplier": "1",
-   "placed": 1793411614.8130724,
+   "placed": 1793413740.129688,
    "hedge": [
     {
      "ticker": "KXCBAGAME-26NOV010635SBWSHAX-SBW",
      "limit": "0.8800"
+    }
+   ]
+  },
+  {
+   "event": "KXKBO-26",
+   "series": "KXKBO",
+   "title": "Korea KBO Champion",
+   "ticker": "KXKBO-26-KIA",
+   "order_id": "paper-304-1793414348",
+   "price": "0.5700",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.6000",
+   "multiplier": "1",
+   "placed": 1793414348.4098978,
+   "hedge": [
+    {
+     "ticker": "KXKBO-26-KTW",
+     "limit": "0.3900"
+    },
+    {
+     "ticker": "KXKBO-26-SAM",
+     "limit": "0.8000"
     }
    ]
   }

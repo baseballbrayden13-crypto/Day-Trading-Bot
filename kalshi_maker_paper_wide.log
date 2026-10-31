@@ -1786,3 +1786,13 @@
 2026-10-30 22:08:45,053 INFO Swept 22531 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 22:13:52,056 INFO Swept 22516 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-30 22:18:51,587 INFO Swept 22496 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 22:23:56,643 INFO Swept 22466 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 22:29:00,129 INFO PAPER rest NO bid KXCBAGAME-26NOV010635SBWSHAX-SHAX at $0.0900 x5 (199 already bid at that price)
+2026-10-30 22:29:00,129 INFO Resting NO bid on KXCBAGAME-26NOV010635SBWSHAX-SHAX at $0.09 x5 (KXCBAGAME-26NOV010635SBWSHAX): locks in $0.10 if it fills; hedge NO SBW@0.8800
+2026-10-30 22:29:00,134 INFO Swept 22451 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-30 22:33:59,869 INFO Swept 22433 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 22:39:08,409 INFO PAPER rest NO bid KXKBO-26-KIA at $0.5700 x2 (0 already bid at that price)
+2026-10-30 22:39:08,409 INFO Resting NO bid on KXKBO-26-KIA at $0.5700 x2 (KXKBO-26): locks in $0.40 if it fills; hedge NO KTW@0.3900, SAM@0.8000
+2026-10-30 22:39:08,412 INFO Swept 22428 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 22:44:08,581 INFO Swept 22413 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 22:49:05,368 INFO Swept 22412 events: 0 taker trades, 0 new quotes, 2 resting
