@@ -846,44 +846,25 @@
  ],
  "quotes": [
   {
-   "event": "KXMLSGAME-26NOV07HOUSTL",
-   "series": "KXMLSGAME",
-   "title": "Houston vs Saint Louis",
-   "ticker": "KXMLSGAME-26NOV07HOUSTL-STL",
-   "order_id": "paper-318-1793424340",
-   "price": "0.56",
+   "event": "KXWTA-26TOKYO",
+   "series": "KXWTA",
+   "title": "WTA Tokyo Winner",
+   "ticker": "KXWTA-26TOKYO-FER",
+   "order_id": "paper-321-1793426154",
+   "price": "0.3100",
    "sets": 2,
    "done": 0,
-   "reserve": "3.9000",
+   "reserve": "3.7400",
    "multiplier": "1",
-   "placed": 1793424340.581428,
+   "placed": 1793426154.2291043,
    "hedge": [
     {
-     "ticker": "KXMLSGAME-26NOV07HOUSTL-HOU",
-     "limit": "0.5400"
+     "ticker": "KXWTA-26TOKYO-SHN",
+     "limit": "0.6000"
     },
     {
-     "ticker": "KXMLSGAME-26NOV07HOUSTL-TIE",
-     "limit": "0.8100"
-    }
-   ]
-  },
-  {
-   "event": "KXJLEAGUE1H-26OCT31KYOSHI",
-   "series": "KXJLEAGUE1H",
-   "title": "Kyoto Sanga vs Shimizu: First Half Winner",
-   "ticker": "KXJLEAGUE1H-26OCT31KYOSHI-TIE",
-   "order_id": "paper-319-1793425549",
-   "price": "0.2100",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.5500",
-   "multiplier": "1",
-   "placed": 1793425549.489283,
-   "hedge": [
-    {
-     "ticker": "KXJLEAGUE1H-26OCT31KYOSHI-KYO",
-     "limit": "0.8000"
+     "ticker": "KXWTA-26TOKYO-POH",
+     "limit": "0.9300"
     }
    ]
   }

@@ -1869,3 +1869,16 @@
 2026-10-31 01:45:49,489 INFO PAPER rest NO bid KXJLEAGUE1H-26OCT31KYOSHI-TIE at $0.2100 x5 (0 already bid at that price)
 2026-10-31 01:45:49,489 INFO Resting NO bid on KXJLEAGUE1H-26OCT31KYOSHI-TIE at $0.2100 x5 (KXJLEAGUE1H-26OCT31KYOSHI): locks in $0.45 if it fills; hedge NO KYO@0.6800
 2026-10-31 01:45:49,492 INFO Swept 22356 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 01:50:47,766 INFO PAPER rest NO bid KXJLEAGUE1H-26OCT31MITSAN-TIE at $0.4500 x1 (0 already bid at that price)
+2026-10-31 01:50:47,766 INFO Resting NO bid on KXJLEAGUE1H-26OCT31MITSAN-TIE at $0.4500 x1 (KXJLEAGUE1H-26OCT31MITSAN): locks in $0.38 if it fills; hedge NO SAN@0.1500
+2026-10-31 01:50:47,769 INFO Swept 22362 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 01:51:42,294 INFO Quote KXJLEAGUE1H-26OCT31MITSAN cancelled (0/1 filled)
+2026-10-31 01:52:13,859 INFO Quote KXMLSGAME-26NOV07HOUSTL cancelled (0/2 filled)
+2026-10-31 01:55:54,228 INFO PAPER rest NO bid KXWTA-26TOKYO-FER at $0.3100 x2 (0 already bid at that price)
+2026-10-31 01:55:54,229 INFO Resting NO bid on KXWTA-26TOKYO-FER at $0.3100 x2 (KXWTA-26TOKYO): locks in $0.26 if it fills; hedge NO SHN@0.6000, POH@0.9300
+2026-10-31 01:55:54,234 INFO Swept 22355 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 02:00:57,665 INFO Swept 22346 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 02:06:01,130 INFO Swept 22317 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 02:06:38,177 INFO Quote KXJLEAGUE1H-26OCT31KYOSHI cancelled (0/5 filled)
+2026-10-31 02:11:03,614 INFO Swept 22332 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 02:16:06,711 INFO Swept 22327 events: 0 taker trades, 0 new quotes, 1 resting
