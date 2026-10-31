@@ -877,29 +877,5 @@
    "closed": "2026-10-31T08:01:07.730483+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXKLEAGUE1H-26OCT31GWAGIS",
-   "series": "KXKLEAGUE1H",
-   "title": "Gwangju vs Gimcheon Sangmu: First Half Winner",
-   "ticker": "KXKLEAGUE1H-26OCT31GWAGIS-GIS",
-   "order_id": "paper-327-1793433390",
-   "price": "0.2100",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.7500",
-   "multiplier": "1",
-   "placed": 1793433390.586438,
-   "hedge": [
-    {
-     "ticker": "KXKLEAGUE1H-26OCT31GWAGIS-GWA",
-     "limit": "0.9500"
-    },
-    {
-     "ticker": "KXKLEAGUE1H-26OCT31GWAGIS-TIE",
-     "limit": "0.7500"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
