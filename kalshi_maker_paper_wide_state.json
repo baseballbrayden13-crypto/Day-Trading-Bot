@@ -846,25 +846,21 @@
  ],
  "quotes": [
   {
-   "event": "KXUSL1H-26OCT30PASSAN",
-   "series": "KXUSL1H",
-   "title": "El Paso Locomotive FC vs San Antonio: First Half Winner",
-   "ticker": "KXUSL1H-26OCT30PASSAN-SAN",
-   "order_id": "paper-300-1793410706",
-   "price": "0.2600",
-   "sets": 1,
+   "event": "KXCBAGAME-26NOV010635SBWSHAX",
+   "series": "KXCBAGAME",
+   "title": "Sichuan Blue Whales vs Shanxi Loongs",
+   "ticker": "KXCBAGAME-26NOV010635SBWSHAX-SHAX",
+   "order_id": "paper-302-1793411614",
+   "price": "0.09",
+   "sets": 5,
    "done": 0,
-   "reserve": "1.8800",
+   "reserve": "4.9000",
    "multiplier": "1",
-   "placed": 1793410706.7133439,
+   "placed": 1793411614.8130724,
    "hedge": [
     {
-     "ticker": "KXUSL1H-26OCT30PASSAN-PAS",
-     "limit": "0.6800"
-    },
-    {
-     "ticker": "KXUSL1H-26OCT30PASSAN-TIE",
-     "limit": "0.9500"
+     "ticker": "KXCBAGAME-26NOV010635SBWSHAX-SBW",
+     "limit": "0.8800"
     }
    ]
   }

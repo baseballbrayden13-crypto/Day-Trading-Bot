@@ -1777,3 +1777,12 @@
 2026-10-30 21:43:30,664 INFO Swept 17080 events: 0 taker trades, 1 new quotes, 3 resting
 2026-10-30 21:48:29,561 INFO Swept 17066 events: 0 taker trades, 0 new quotes, 3 resting
 2026-10-30 21:48:29,963 INFO Quote KXNHL2P-26OCT30SEACGY cancelled (0/5 filled)
+2026-10-30 21:53:34,812 INFO PAPER rest NO bid KXCBAGAME-26NOV010635SBWSHAX-SHAX at $0.0900 x5 (187 already bid at that price)
+2026-10-30 21:53:34,813 INFO Resting NO bid on KXCBAGAME-26NOV010635SBWSHAX-SHAX at $0.09 x5 (KXCBAGAME-26NOV010635SBWSHAX): locks in $0.10 if it fills; hedge NO SBW@0.8800
+2026-10-30 21:53:34,815 INFO Swept 17058 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 21:58:41,033 INFO Swept 17039 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 21:58:41,233 INFO Quote KXUSL1H-26OCT30PASSAN cancelled (0/1 filled)
+2026-10-30 22:03:46,433 INFO Swept 22555 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 22:08:45,053 INFO Swept 22531 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 22:13:52,056 INFO Swept 22516 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 22:18:51,587 INFO Swept 22496 events: 0 taker trades, 0 new quotes, 1 resting
