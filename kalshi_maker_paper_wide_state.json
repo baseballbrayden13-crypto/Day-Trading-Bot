@@ -897,5 +897,25 @@
    "closed": "2026-10-31T09:37:06.467015+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXCZENBLGAME-26NOV011200GAPOPA",
+   "series": "KXCZENBLGAME",
+   "title": "BK Gapa Hradec Kralove vs BK Opava",
+   "ticker": "KXCZENBLGAME-26NOV011200GAPOPA-GAP",
+   "order_id": "paper-330-1793440662",
+   "price": "0.61",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8600",
+   "multiplier": "1",
+   "placed": 1793440662.3531134,
+   "hedge": [
+    {
+     "ticker": "KXCZENBLGAME-26NOV011200GAPOPA-OPA",
+     "limit": "0.3400"
+    }
+   ]
+  }
+ ]
 }

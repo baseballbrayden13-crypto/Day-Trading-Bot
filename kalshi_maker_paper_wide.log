@@ -1952,3 +1952,17 @@
 2026-10-31 05:37:06,467 INFO Settled KXEFOOTBALLGAME-26OCT310517CHARJUST (stray): paid $0, profit $-0.53
 2026-10-31 05:37:30,390 INFO Swept 22271 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-31 05:42:32,151 INFO Swept 22266 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 05:47:33,590 INFO PAPER rest NO bid KXLOWTNYC-26OCT31-B45.5 at $0.2700 x2 (0 already bid at that price)
+2026-10-31 05:47:33,590 INFO Resting NO bid on KXLOWTNYC-26OCT31-B45.5 at $0.2700 x2 (KXLOWTNYC-26OCT31): locks in $0.22 if it fills; hedge NO B43.5@0.9700, B47.5@0.6200
+2026-10-31 05:47:33,593 INFO Swept 22262 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 05:52:41,078 INFO Swept 22256 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 05:57:42,352 INFO PAPER rest NO bid KXCZENBLGAME-26NOV011200GAPOPA-GAP at $0.6100 x5 (105 already bid at that price)
+2026-10-31 05:57:42,353 INFO Resting NO bid on KXCZENBLGAME-26NOV011200GAPOPA-GAP at $0.61 x5 (KXCZENBLGAME-26NOV011200GAPOPA): locks in $0.14 if it fills; hedge NO OPA@0.3400
+2026-10-31 05:57:42,355 INFO Swept 22250 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 06:02:37,503 INFO Swept 22249 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 06:02:43,001 INFO Quote KXLOWTNYC-26OCT31 cancelled (0/2 filled)
+2026-10-31 06:07:50,738 INFO PAPER rest NO bid KXLOWTNYC-26OCT31-B45.5 at $0.3500 x2 (0 already bid at that price)
+2026-10-31 06:07:50,738 INFO Resting NO bid on KXLOWTNYC-26OCT31-B45.5 at $0.3500 x2 (KXLOWTNYC-26OCT31): locks in $0.14 if it fills; hedge NO B43.5@0.9700, B47.5@0.5800
+2026-10-31 06:07:50,741 INFO Swept 22249 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 06:08:01,685 INFO Quote KXLOWTNYC-26OCT31 cancelled (0/2 filled)
+2026-10-31 06:12:54,522 INFO Swept 22281 events: 0 taker trades, 0 new quotes, 1 resting
