@@ -48,6 +48,23 @@
      "limit": "0.8400"
     }
    ]
+  },
+  {
+   "event": "KXMLBBGAME-26OCT310600YNDXAUR (stray)",
+   "series": "KXMLBBGAME",
+   "title": "Team Yandex vs. Aurevia Team",
+   "sets": 0,
+   "outlay": "1.5000",
+   "locked_profit": "0",
+   "opened": "2026-10-31T11:33:34.692046+00:00",
+   "legs": [
+    {
+     "ticker": "KXMLBBGAME-26OCT310600YNDXAUR-AUR",
+     "side": "no",
+     "count": 4,
+     "limit": "0.3700"
+    }
+   ]
   }
  ],
  "closed": [
@@ -902,40 +919,21 @@
  ],
  "quotes": [
   {
-   "event": "KXMLBBGAME-26OCT310600YNDXAUR",
-   "series": "KXMLBBGAME",
-   "title": "Team Yandex vs. Aurevia Team",
-   "ticker": "KXMLBBGAME-26OCT310600YNDXAUR-AUR",
-   "order_id": "paper-335-1793443392",
-   "price": "0.3700",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.6900",
-   "multiplier": "1",
-   "placed": 1793443392.8439536,
-   "hedge": [
-    {
-     "ticker": "KXMLBBGAME-26OCT310600YNDXAUR-YNDX",
-     "limit": "0.5900"
-    }
-   ]
-  },
-  {
    "event": "KXCODGAME-26NOV061100STATEX",
    "series": "KXCODGAME",
    "title": "Stallions vs. OpTic Texas",
    "ticker": "KXCODGAME-26NOV061100STATEX-STA",
-   "order_id": "paper-336-1793444605",
-   "price": "0.55",
-   "sets": 4,
+   "order_id": "paper-338-1793446414",
+   "price": "0.6800",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.8900",
+   "reserve": "4.7900",
    "multiplier": "1",
-   "placed": 1793444605.8093965,
+   "placed": 1793446414.472391,
    "hedge": [
     {
      "ticker": "KXCODGAME-26NOV061100STATEX-TEX",
-     "limit": "0.4000"
+     "limit": "0.3300"
     }
    ]
   }

@@ -1989,3 +1989,19 @@
 2026-10-31 07:03:25,812 INFO Swept 22281 events: 0 taker trades, 1 new quotes, 3 resting
 2026-10-31 07:08:02,343 INFO Settled KXLOWTATL-26OCT30: paid $1, profit $0.02
 2026-10-31 07:08:25,756 INFO Swept 22278 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 07:13:24,857 INFO Swept 22313 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 07:18:25,310 INFO PAPER rest NO bid KXMLBBGAME-26OCT310600YNDXAUR-AUR at $0.3700 x4 (0 already bid at that price)
+2026-10-31 07:18:25,310 INFO Resting NO bid on KXMLBBGAME-26OCT310600YNDXAUR-AUR at $0.3700 x4 (KXMLBBGAME-26OCT310600YNDXAUR): locks in $0.31 if it fills; hedge NO YNDX@0.5900
+2026-10-31 07:18:25,314 INFO Swept 22337 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 07:23:30,920 INFO Swept 22334 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 07:23:31,143 INFO Quote KXCODGAME-26NOV061100STATEX cancelled (0/4 filled)
+2026-10-31 07:28:32,965 INFO Swept 22338 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 07:33:34,472 INFO PAPER rest NO bid KXCODGAME-26NOV061100STATEX-STA at $0.6800 x5 (0 already bid at that price)
+2026-10-31 07:33:34,472 INFO Resting NO bid on KXCODGAME-26NOV061100STATEX-STA at $0.6800 x5 (KXCODGAME-26NOV061100STATEX): locks in $0.21 if it fills; hedge NO TEX@0.2600
+2026-10-31 07:33:34,475 INFO Swept 22330 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 07:33:34,546 INFO PAPER KXMLBBGAME-26OCT310600YNDXAUR-AUR NO bid at $0.3700: 4/4 filled by real trades
+2026-10-31 07:33:34,620 INFO PAPER buy 4 NO KXMLBBGAME-26OCT310600YNDXAUR-YNDX at up to $0.5900: not on the book
+2026-10-31 07:33:34,620 WARNING Quote KXMLBBGAME-26OCT310600YNDXAUR: hedge missed on KXMLBBGAME-26OCT310600YNDXAUR-YNDX. Selling back 4 contracts on 1 legs.
+2026-10-31 07:33:34,691 INFO PAPER sell 4 YES KXMLBBGAME-26OCT310600YNDXAUR-AUR at up to $0.6800: not on the book
+2026-10-31 07:33:34,691 ERROR STRAY POSITION: 4 NO contracts of KXMLBBGAME-26OCT310600YNDXAUR-AUR still held. Check it on Kalshi.
+2026-10-31 07:38:33,386 INFO Swept 22323 events: 0 taker trades, 0 new quotes, 1 resting
