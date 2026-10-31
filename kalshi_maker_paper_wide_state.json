@@ -1312,52 +1312,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNFLNEXTTEAM-26JDOWNS2",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Josh Downs Next Team",
-   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PHI",
-   "order_id": "paper-410-1793481609",
-   "price": "0.2100",
+   "event": "KXBOXINGMOV-26OCT31ESPINOBLANDO",
+   "series": "KXBOXINGMOV",
+   "title": "Rafael Espinoza vs Ricardo Blandon: Method of Victory",
+   "ticker": "KXBOXINGMOV-26OCT31ESPINOBLANDO-ESPINO-DEC",
+   "order_id": "paper-413-1793483419",
+   "price": "0.6500",
    "sets": 1,
    "done": 0,
-   "reserve": "3.5600",
+   "reserve": "0.8600",
    "multiplier": "1",
-   "placed": 1793481609.4317982,
+   "placed": 1793483419.749717,
    "hedge": [
     {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
-     "limit": "0.9600"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
-     "limit": "0.6500"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
-     "limit": "0.9700"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PIT",
-     "limit": "0.7000"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAHGAME-26OCT31MICOSU",
-   "series": "KXNCAAHGAME",
-   "title": "Michigan vs Ohio State",
-   "ticker": "KXNCAAHGAME-26OCT31MICOSU-OSU",
-   "order_id": "paper-412-1793482515",
-   "price": "0.4200",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8500",
-   "multiplier": "1",
-   "placed": 1793482515.3509297,
-   "hedge": [
-    {
-     "ticker": "KXNCAAHGAME-26OCT31MICOSU-MIC",
-     "limit": "0.4000"
+     "ticker": "KXBOXINGMOV-26OCT31ESPINOBLANDO-ESPINO-KOTKODQ",
+     "limit": "0.1800"
     }
    ]
   }

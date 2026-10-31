@@ -2587,3 +2587,12 @@
 2026-10-31 17:35:15,350 INFO PAPER rest NO bid KXNCAAHGAME-26OCT31MICOSU-OSU at $0.4200 x1 (0 already bid at that price)
 2026-10-31 17:35:15,350 INFO Resting NO bid on KXNCAAHGAME-26OCT31MICOSU-OSU at $0.4200 x1 (KXNCAAHGAME-26OCT31MICOSU): locks in $0.15 if it fills; hedge NO MIC@0.4000
 2026-10-31 17:35:15,354 INFO Swept 20991 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 17:40:12,513 INFO Swept 20976 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 17:45:14,824 INFO Swept 20941 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 17:45:15,149 INFO Quote KXNCAAHGAME-26OCT31MICOSU cancelled (0/1 filled)
+2026-10-31 17:50:19,749 INFO PAPER rest NO bid KXBOXINGMOV-26OCT31ESPINOBLANDO-ESPINO-DEC at $0.6500 x1 (0 already bid at that price)
+2026-10-31 17:50:19,749 INFO Resting NO bid on KXBOXINGMOV-26OCT31ESPINOBLANDO-ESPINO-DEC at $0.6500 x1 (KXBOXINGMOV-26OCT31ESPINOBLANDO): locks in $0.14 if it fills; hedge NO KOTKODQ@0.1800
+2026-10-31 17:50:19,753 INFO Swept 20920 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 17:55:23,280 INFO Swept 20902 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 18:00:25,350 INFO Swept 20886 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 18:05:36,362 INFO Swept 20831 events: 0 taker trades, 0 new quotes, 1 resting
