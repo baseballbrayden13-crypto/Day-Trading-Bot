@@ -1823,3 +1823,13 @@
 2026-10-30 23:44:47,450 INFO Resting NO bid on KXSSHIELDMATCH-26OCT291930BLUTAS-TAS at $0.13 x3 (KXSSHIELDMATCH-26OCT291930BLUTAS): locks in $0.10 if it fills; hedge NO BLU@0.8200
 2026-10-30 23:44:47,453 INFO Swept 22357 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-30 23:49:50,597 INFO Swept 22362 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 23:54:53,287 INFO Swept 22352 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 23:59:58,098 INFO Swept 22351 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 00:04:59,886 INFO Swept 22317 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 00:05:00,189 INFO Quote KXSSHIELDMATCH-26OCT291930BLUTAS cancelled (0/3 filled)
+2026-10-31 00:10:04,657 INFO PAPER rest NO bid KXEFOOTBALLGAME-26OCT302355FREDSPEE-SPEE at $0.1300 x32 (0 already bid at that price)
+2026-10-31 00:10:04,657 INFO Resting NO bid on KXEFOOTBALLGAME-26OCT302355FREDSPEE-SPEE at $0.1300 x32 (KXEFOOTBALLGAME-26OCT302355FREDSPEE): locks in $27.42 if it fills; hedge NO FRED@0.0100
+2026-10-31 00:10:04,660 INFO Swept 22347 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 00:10:30,580 INFO Quote KXEFOOTBALLGAME-26OCT302355FREDSPEE cancelled (0/32 filled)
+2026-10-31 00:15:09,903 INFO Swept 22350 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 00:20:15,784 INFO Swept 22353 events: 0 taker trades, 0 new quotes, 0 resting
