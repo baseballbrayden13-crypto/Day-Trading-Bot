@@ -4640,12 +4640,12 @@
   "count": 4,
   "ahead": 51,
   "placed": 1793441876.7302012,
-  "checked": 1793443202.7078679,
+  "checked": 1793443676,
   "expires": 1793443676,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-333-1793442785": {
   "id": "paper-333-1793442785",
@@ -4654,12 +4654,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793442785.4735131,
-  "checked": 1793443202.851281,
+  "checked": 1793444585,
   "expires": 1793444585,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-334-1793442785": {
   "id": "paper-334-1793442785",
@@ -4674,5 +4674,33 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-335-1793443392": {
+  "id": "paper-335-1793443392",
+  "ticker": "KXMLBBGAME-26OCT310600YNDXAUR-AUR",
+  "price": "0.3700",
+  "count": 4,
+  "ahead": 0,
+  "placed": 1793443392.8399239,
+  "checked": 1793445016.9560773,
+  "expires": 1793445192,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-336-1793444605": {
+  "id": "paper-336-1793444605",
+  "ticker": "KXCODGAME-26NOV061100STATEX-STA",
+  "price": "0.5500",
+  "count": 4,
+  "ahead": 0,
+  "placed": 1793444605.8053493,
+  "checked": 1793445017.1015587,
+  "expires": 1793446405,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

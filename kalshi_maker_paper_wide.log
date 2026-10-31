@@ -1978,3 +1978,14 @@
 2026-10-31 06:33:05,553 INFO Swept 22314 events: 0 taker trades, 2 new quotes, 3 resting
 2026-10-31 06:33:38,583 INFO Quote KXCODGAME-26NOV061100STATEX cancelled (0/4 filled)
 2026-10-31 06:38:06,350 INFO Swept 22305 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 06:43:12,843 INFO PAPER rest NO bid KXMLBBGAME-26OCT310600YNDXAUR-AUR at $0.3700 x4 (0 already bid at that price)
+2026-10-31 06:43:12,843 INFO Resting NO bid on KXMLBBGAME-26OCT310600YNDXAUR-AUR at $0.3700 x4 (KXMLBBGAME-26OCT310600YNDXAUR): locks in $0.31 if it fills; hedge NO YNDX@0.5900
+2026-10-31 06:43:12,846 INFO Swept 22296 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 06:48:16,075 INFO Swept 22291 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-31 06:53:16,741 INFO Swept 22285 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 06:58:20,116 INFO Swept 22286 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 07:03:25,809 INFO PAPER rest NO bid KXCODGAME-26NOV061100STATEX-STA at $0.5500 x4 (0 already bid at that price)
+2026-10-31 07:03:25,809 INFO Resting NO bid on KXCODGAME-26NOV061100STATEX-STA at $0.55 x4 (KXCODGAME-26NOV061100STATEX): locks in $0.11 if it fills; hedge NO TEX@0.4000
+2026-10-31 07:03:25,812 INFO Swept 22281 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 07:08:02,343 INFO Settled KXLOWTATL-26OCT30: paid $1, profit $0.02
+2026-10-31 07:08:25,756 INFO Swept 22278 events: 0 taker trades, 0 new quotes, 2 resting

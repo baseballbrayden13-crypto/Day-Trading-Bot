@@ -1,5 +1,5 @@
 {
- "realized": "1.1500",
+ "realized": "1.1700",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -46,30 +46,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.8400"
-    }
-   ]
-  },
-  {
-   "event": "KXLOWTATL-26OCT30",
-   "series": "KXLOWTATL",
-   "title": "Lowest temperature in Atlanta on Oct 30, 2026?",
-   "sets": 1,
-   "outlay": "0.9800",
-   "locked_profit": "0.0200",
-   "opened": "2026-10-30T12:05:32.834098+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXLOWTATL-26OCT30-B53.5",
-     "side": "no",
-     "count": 1,
-     "limit": "0.88"
-    },
-    {
-     "ticker": "KXLOWTATL-26OCT30-B55.5",
-     "side": "no",
-     "count": 1,
-     "limit": "0.0800"
     }
    ]
   }
@@ -895,44 +871,71 @@
    "paid": "0",
    "pnl": "-0.5300",
    "closed": "2026-10-31T09:37:06.467015+00:00"
+  },
+  {
+   "event": "KXLOWTATL-26OCT30",
+   "series": "KXLOWTATL",
+   "title": "Lowest temperature in Atlanta on Oct 30, 2026?",
+   "sets": 1,
+   "outlay": "0.9800",
+   "locked_profit": "0.0200",
+   "opened": "2026-10-30T12:05:32.834098+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLOWTATL-26OCT30-B53.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.88"
+    },
+    {
+     "ticker": "KXLOWTATL-26OCT30-B55.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0800"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.0200",
+   "closed": "2026-10-31T11:08:02.343592+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26OCT31MICOSU",
-   "series": "KXNCAAHGAME",
-   "title": "Michigan vs Ohio State",
-   "ticker": "KXNCAAHGAME-26OCT31MICOSU-OSU",
-   "order_id": "paper-332-1793441876",
-   "price": "0.50",
+   "event": "KXMLBBGAME-26OCT310600YNDXAUR",
+   "series": "KXMLBBGAME",
+   "title": "Team Yandex vs. Aurevia Team",
+   "ticker": "KXMLBBGAME-26OCT310600YNDXAUR-AUR",
+   "order_id": "paper-335-1793443392",
+   "price": "0.3700",
    "sets": 4,
    "done": 0,
-   "reserve": "3.8900",
+   "reserve": "3.6900",
    "multiplier": "1",
-   "placed": 1793441876.734293,
+   "placed": 1793443392.8439536,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26OCT31MICOSU-MIC",
-     "limit": "0.4500"
+     "ticker": "KXMLBBGAME-26OCT310600YNDXAUR-YNDX",
+     "limit": "0.5900"
     }
    ]
   },
   {
-   "event": "KXITFDOUBLES-26OCT31JONJONPERWRI",
-   "series": "KXITFDOUBLES",
-   "title": "Jones / Jones vs Perez Ramos / Wright",
-   "ticker": "KXITFDOUBLES-26OCT31JONJONPERWRI-JONJON",
-   "order_id": "paper-333-1793442785",
-   "price": "0.2200",
-   "sets": 1,
+   "event": "KXCODGAME-26NOV061100STATEX",
+   "series": "KXCODGAME",
+   "title": "Stallions vs. OpTic Texas",
+   "ticker": "KXCODGAME-26NOV061100STATEX-STA",
+   "order_id": "paper-336-1793444605",
+   "price": "0.55",
+   "sets": 4,
    "done": 0,
-   "reserve": "0.8900",
+   "reserve": "3.8900",
    "multiplier": "1",
-   "placed": 1793442785.477868,
+   "placed": 1793444605.8093965,
    "hedge": [
     {
-     "ticker": "KXITFDOUBLES-26OCT31JONJONPERWRI-PERWRI",
-     "limit": "0.6400"
+     "ticker": "KXCODGAME-26NOV061100STATEX-TEX",
+     "limit": "0.4000"
     }
    ]
   }
