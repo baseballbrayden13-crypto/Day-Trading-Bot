@@ -24,6 +24,30 @@
      "limit": "0.5700"
     }
    ]
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT311244ZACHMICK",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Los Angeles Lakers (Zach) vs New York Knicks (Mick)",
+   "sets": 1,
+   "outlay": "0.9500",
+   "locked_profit": "0.0500",
+   "opened": "2026-10-31T16:52:51.098915+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT311244ZACHMICK-ZACH",
+     "side": "no",
+     "count": 1,
+     "limit": "0.1800"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT311244ZACHMICK-MICK",
+     "side": "no",
+     "count": 1,
+     "limit": "0.7400"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1087,48 +1111,29 @@
  ],
  "quotes": [
   {
-   "event": "KXBOXINGMOV-26OCT31TSUTSUROJAS",
+   "event": "KXBOXINGMOV-26OCT31PICASSMARTIN",
    "series": "KXBOXINGMOV",
-   "title": "Reito Tsutsumi vs Raymundo Rojas: Method of Victory",
-   "ticker": "KXBOXINGMOV-26OCT31TSUTSUROJAS-ROJAS-KOTKODQ",
-   "order_id": "paper-372-1793463296",
-   "price": "0.5500",
+   "title": "David Picasso vs Carl Jammes Martin: Method of Victory",
+   "ticker": "KXBOXINGMOV-26OCT31PICASSMARTIN-MARTIN-DEC",
+   "order_id": "paper-383-1793466622",
+   "price": "0.4100",
    "sets": 1,
    "done": 0,
-   "reserve": "2.8200",
+   "reserve": "2.6400",
    "multiplier": "1",
-   "placed": 1793463296.712267,
+   "placed": 1793466622.301378,
    "hedge": [
     {
-     "ticker": "KXBOXINGMOV-26OCT31TSUTSUROJAS-TSUTSU-KOTKODQ",
-     "limit": "0.4000"
+     "ticker": "KXBOXINGMOV-26OCT31PICASSMARTIN-PICASS-KOTKODQ",
+     "limit": "0.7100"
     },
     {
-     "ticker": "KXBOXINGMOV-26OCT31TSUTSUROJAS-TSUTSU-DEC",
-     "limit": "0.8500"
+     "ticker": "KXBOXINGMOV-26OCT31PICASSMARTIN-PICASS-DEC",
+     "limit": "0.6400"
     },
     {
-     "ticker": "KXBOXINGMOV-26OCT31TSUTSUROJAS-ROJAS-DEC",
-     "limit": "0.9800"
-    }
-   ]
-  },
-  {
-   "event": "KXLOWTLAX-26OCT31",
-   "series": "KXLOWTLAX",
-   "title": "Lowest temperature in Los Angeles on Oct 31, 2026?",
-   "ticker": "KXLOWTLAX-26OCT31-B58.5",
-   "order_id": "paper-377-1793464510",
-   "price": "0.90",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8900",
-   "multiplier": "1",
-   "placed": 1793464510.5629606,
-   "hedge": [
-    {
-     "ticker": "KXLOWTLAX-26OCT31-B60.5",
-     "limit": "0.0700"
+     "ticker": "KXBOXINGMOV-26OCT31PICASSMARTIN-MARTIN-KOTKODQ",
+     "limit": "0.9700"
     }
    ]
   }
