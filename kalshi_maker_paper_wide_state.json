@@ -1,5 +1,5 @@
 {
- "realized": "0.0800",
+ "realized": "-0.0200",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -22,30 +22,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.5700"
-    }
-   ]
-  },
-  {
-   "event": "KXEBASKETBALLGAME-26OCT311148GAVIMELO",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: Golden State Warriors (Gavi) vs Brooklyn Nets (Melo)",
-   "sets": 3,
-   "outlay": "2.9500",
-   "locked_profit": "0.0500",
-   "opened": "2026-10-31T15:55:20.993037+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXEBASKETBALLGAME-26OCT311148GAVIMELO-GAVI",
-     "side": "no",
-     "count": 3,
-     "limit": "0.3200"
-    },
-    {
-     "ticker": "KXEBASKETBALLGAME-26OCT311148GAVIMELO-MELO",
-     "side": "no",
-     "count": 3,
-     "limit": "0.6400"
     }
    ]
   }
@@ -1080,56 +1056,79 @@
    "paid": "1",
    "pnl": "0.1500",
    "closed": "2026-10-31T15:49:06.571187+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT311148GAVIMELO",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Golden State Warriors (Gavi) vs Brooklyn Nets (Melo)",
+   "sets": 3,
+   "outlay": "2.9500",
+   "locked_profit": "0.0500",
+   "opened": "2026-10-31T15:55:20.993037+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT311148GAVIMELO-GAVI",
+     "side": "no",
+     "count": 3,
+     "limit": "0.3200"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT311148GAVIMELO-MELO",
+     "side": "no",
+     "count": 3,
+     "limit": "0.6400"
+    }
+   ],
+   "paid": "3",
+   "pnl": "0.0500",
+   "closed": "2026-10-31T16:19:53.708916+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXNFLNEXTTEAM-26JDOWNS2",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Josh Downs Next Team",
-   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-CLE",
-   "order_id": "paper-367-1793461759",
-   "price": "0.4700",
+   "event": "KXBOXINGMOV-26OCT31TSUTSUROJAS",
+   "series": "KXBOXINGMOV",
+   "title": "Reito Tsutsumi vs Raymundo Rojas: Method of Victory",
+   "ticker": "KXBOXINGMOV-26OCT31TSUTSUROJAS-ROJAS-KOTKODQ",
+   "order_id": "paper-372-1793463296",
+   "price": "0.5500",
    "sets": 1,
    "done": 0,
-   "reserve": "3.6900",
+   "reserve": "2.8200",
    "multiplier": "1",
-   "placed": 1793461759.7097907,
+   "placed": 1793463296.712267,
    "hedge": [
     {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
-     "limit": "0.9800"
+     "ticker": "KXBOXINGMOV-26OCT31TSUTSUROJAS-TSUTSU-KOTKODQ",
+     "limit": "0.4000"
     },
     {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
-     "limit": "0.6500"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
+     "ticker": "KXBOXINGMOV-26OCT31TSUTSUROJAS-TSUTSU-DEC",
      "limit": "0.8500"
     },
     {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PIT",
-     "limit": "0.7000"
+     "ticker": "KXBOXINGMOV-26OCT31TSUTSUROJAS-ROJAS-DEC",
+     "limit": "0.9800"
     }
    ]
   },
   {
-   "event": "KXKORISLIIGAGAME-26OCT311200KARKAT",
-   "series": "KXKORISLIIGAGAME",
-   "title": "Kauhajoki Karhu Basket vs Kataja Basket Joensuu",
-   "ticker": "KXKORISLIIGAGAME-26OCT311200KARKAT-KAR",
-   "order_id": "paper-371-1793462687",
-   "price": "0.1400",
-   "sets": 1,
+   "event": "KXLOWTLAX-26OCT31",
+   "series": "KXLOWTLAX",
+   "title": "Lowest temperature in Los Angeles on Oct 31, 2026?",
+   "ticker": "KXLOWTLAX-26OCT31-B58.5",
+   "order_id": "paper-377-1793464510",
+   "price": "0.90",
+   "sets": 5,
    "done": 0,
-   "reserve": "0.8000",
+   "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793462687.808279,
+   "placed": 1793464510.5629606,
    "hedge": [
     {
-     "ticker": "KXKORISLIIGAGAME-26OCT311200KARKAT-KAT",
-     "limit": "0.6300"
+     "ticker": "KXLOWTLAX-26OCT31-B60.5",
+     "limit": "0.0700"
     }
    ]
   }

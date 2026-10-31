@@ -1,21 +1,23 @@
 {
- "updated": "2026-10-31T16:07:34+00:00",
+ "updated": "2026-10-31T16:37:54+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "20.08",
- "realized_profit": "0.08",
- "bet_level": "20.00",
- "open_trades": 2,
- "open_locked_profit": "0.28",
- "in_play": "7.72",
+ "equity": "19.98",
+ "realized_profit": "-0.02",
+ "bet_level": "19.98",
+ "open_trades": 1,
+ "open_locked_profit": "0.23",
+ "in_play": "4.77",
  "stray_positions": 0,
- "closed_trades": 32,
+ "closed_trades": 33,
  "trades_this_loop": 0,
- "events_swept": 22261,
+ "events_swept": 22176,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 0,
- "last_problems": []
+ "problems": 1,
+ "last_problems": [
+  "2026-10-31 16:30 Quote KXTESTMATCH-26OCT301800INANEW: hedge missed on KXTESTMATCH-26OCT301800INANEW-INA. Selling back 2 contracts on 1 legs."
+ ]
 }
