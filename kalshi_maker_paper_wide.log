@@ -2005,3 +2005,17 @@
 2026-10-31 07:33:34,691 INFO PAPER sell 4 YES KXMLBBGAME-26OCT310600YNDXAUR-AUR at up to $0.6800: not on the book
 2026-10-31 07:33:34,691 ERROR STRAY POSITION: 4 NO contracts of KXMLBBGAME-26OCT310600YNDXAUR-AUR still held. Check it on Kalshi.
 2026-10-31 07:38:33,386 INFO Swept 22323 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 07:43:40,131 INFO Swept 22323 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 07:44:47,170 INFO Quote KXCODGAME-26NOV061100STATEX cancelled (0/5 filled)
+2026-10-31 07:48:40,050 INFO PAPER rest NO bid KXLOWTPHIL-26OCT31-B42.5 at $0.9000 x5 (13 already bid at that price)
+2026-10-31 07:48:40,050 INFO Resting NO bid on KXLOWTPHIL-26OCT31-B42.5 at $0.90 x5 (KXLOWTPHIL-26OCT31): locks in $0.12 if it fills; hedge NO B44.5@0.0700
+2026-10-31 07:48:40,053 INFO Swept 22319 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 07:53:42,274 INFO PAPER rest NO bid KXCODGAME-26NOV061100STATEX-STA at $0.6300 x4 (0 already bid at that price)
+2026-10-31 07:53:42,275 INFO Resting NO bid on KXCODGAME-26NOV061100STATEX-STA at $0.6300 x4 (KXCODGAME-26NOV061100STATEX): locks in $0.16 if it fills; hedge NO TEX@0.3100
+2026-10-31 07:53:42,278 INFO Swept 22309 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 07:58:39,989 INFO Swept 22315 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 08:03:43,224 INFO Swept 22366 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 08:04:36,501 INFO Quote KXCODGAME-26NOV061100STATEX cancelled (0/4 filled)
+2026-10-31 08:08:47,041 INFO PAPER rest NO bid KXCODGAME-26NOV061100STATEX-STA at $0.6300 x4 (0 already bid at that price)
+2026-10-31 08:08:47,041 INFO Resting NO bid on KXCODGAME-26NOV061100STATEX-STA at $0.6300 x4 (KXCODGAME-26NOV061100STATEX): locks in $0.44 if it fills; hedge NO TEX@0.2400
+2026-10-31 08:08:47,046 INFO Swept 22373 events: 0 taker trades, 1 new quotes, 2 resting

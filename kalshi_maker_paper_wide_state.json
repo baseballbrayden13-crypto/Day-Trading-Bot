@@ -919,21 +919,40 @@
  ],
  "quotes": [
   {
+   "event": "KXLOWTPHIL-26OCT31",
+   "series": "KXLOWTPHIL",
+   "title": "Lowest temperature in Philadelphia on Oct 31, 2026?",
+   "ticker": "KXLOWTPHIL-26OCT31-B42.5",
+   "order_id": "paper-339-1793447320",
+   "price": "0.90",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8800",
+   "multiplier": "1",
+   "placed": 1793447320.0503526,
+   "hedge": [
+    {
+     "ticker": "KXLOWTPHIL-26OCT31-B44.5",
+     "limit": "0.0700"
+    }
+   ]
+  },
+  {
    "event": "KXCODGAME-26NOV061100STATEX",
    "series": "KXCODGAME",
    "title": "Stallions vs. OpTic Texas",
    "ticker": "KXCODGAME-26NOV061100STATEX-STA",
-   "order_id": "paper-338-1793446414",
-   "price": "0.6800",
-   "sets": 5,
+   "order_id": "paper-341-1793448527",
+   "price": "0.6300",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.7900",
+   "reserve": "3.5600",
    "multiplier": "1",
-   "placed": 1793446414.472391,
+   "placed": 1793448527.0414062,
    "hedge": [
     {
      "ticker": "KXCODGAME-26NOV061100STATEX-TEX",
-     "limit": "0.3300"
+     "limit": "0.2400"
     }
    ]
   }
