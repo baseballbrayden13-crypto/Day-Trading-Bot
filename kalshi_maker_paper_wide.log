@@ -1849,3 +1849,14 @@
 2026-10-31 00:50:26,139 INFO PAPER rest NO bid KXMLSGAME-26NOV07HOUSTL-STL at $0.5600 x2 (0 already bid at that price)
 2026-10-31 00:50:26,139 INFO Resting NO bid on KXMLSGAME-26NOV07HOUSTL-STL at $0.56 x2 (KXMLSGAME-26NOV07HOUSTL): locks in $0.10 if it fills; hedge NO HOU@0.5400, TIE@0.8100
 2026-10-31 00:50:26,143 INFO Swept 22362 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-31 00:55:30,699 INFO PAPER rest NO bid KXLPGAR3LEAD-MAYC26-PAUROU at $0.4000 x2 (0 already bid at that price)
+2026-10-31 00:55:30,699 INFO Resting NO bid on KXLPGAR3LEAD-MAYC26-PAUROU at $0.4000 x2 (KXLPGAR3LEAD-MAYC26): locks in $0.87 if it fills; hedge NO MIYYAM@0.1500
+2026-10-31 00:55:30,702 INFO Swept 22338 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 01:00:29,600 INFO Swept 22335 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-31 01:00:29,788 INFO Quote KXESOCCERGAME-26OCT310050LEXILOTT cancelled (0/2 filled)
+2026-10-31 01:05:33,768 INFO PAPER rest NO bid KXWTA-26TOKYO-POH at $0.5400 x2 (0 already bid at that price)
+2026-10-31 01:05:33,768 INFO Resting NO bid on KXWTA-26TOKYO-POH at $0.5400 x2 (KXWTA-26TOKYO): locks in $0.26 if it fills; hedge NO SHN@0.6000, FER@0.6900
+2026-10-31 01:05:33,771 INFO Swept 22299 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 01:10:33,884 INFO Swept 22331 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-31 01:15:33,316 INFO Swept 22335 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-31 01:20:37,586 INFO Swept 22327 events: 0 taker trades, 0 new quotes, 3 resting
