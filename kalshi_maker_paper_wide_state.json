@@ -1,5 +1,5 @@
 {
- "realized": "-0.0700",
+ "realized": "0.0800",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -26,26 +26,26 @@
    ]
   },
   {
-   "event": "KXEBASKETBALLGAME-26OCT311120ZACHMICK",
+   "event": "KXEBASKETBALLGAME-26OCT311148GAVIMELO",
    "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: Indiana Pacers (Zach) vs New Orleans Pelicans (Mick)",
-   "sets": 1,
-   "outlay": "0.8500",
-   "locked_profit": "0.1500",
-   "opened": "2026-10-31T15:24:33.291156+00:00",
+   "title": "eBasketball: Golden State Warriors (Gavi) vs Brooklyn Nets (Melo)",
+   "sets": 3,
+   "outlay": "2.9500",
+   "locked_profit": "0.0500",
+   "opened": "2026-10-31T15:55:20.993037+00:00",
    "maker": true,
    "legs": [
     {
-     "ticker": "KXEBASKETBALLGAME-26OCT311120ZACHMICK-ZACH",
+     "ticker": "KXEBASKETBALLGAME-26OCT311148GAVIMELO-GAVI",
      "side": "no",
-     "count": 1,
-     "limit": "0.3300"
+     "count": 3,
+     "limit": "0.3200"
     },
     {
-     "ticker": "KXEBASKETBALLGAME-26OCT311120ZACHMICK-MICK",
+     "ticker": "KXEBASKETBALLGAME-26OCT311148GAVIMELO-MELO",
      "side": "no",
-     "count": 1,
-     "limit": "0.4900"
+     "count": 3,
+     "limit": "0.6400"
     }
    ]
   }
@@ -1053,6 +1053,33 @@
    "paid": "5",
    "pnl": "0.1400",
    "closed": "2026-10-31T15:34:00.014605+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT311120ZACHMICK",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Indiana Pacers (Zach) vs New Orleans Pelicans (Mick)",
+   "sets": 1,
+   "outlay": "0.8500",
+   "locked_profit": "0.1500",
+   "opened": "2026-10-31T15:24:33.291156+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT311120ZACHMICK-ZACH",
+     "side": "no",
+     "count": 1,
+     "limit": "0.3300"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT311120ZACHMICK-MICK",
+     "side": "no",
+     "count": 1,
+     "limit": "0.4900"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.1500",
+   "closed": "2026-10-31T15:49:06.571187+00:00"
   }
  ],
  "quotes": [
@@ -1061,13 +1088,13 @@
    "series": "KXNFLNEXTTEAM",
    "title": "Josh Downs Next Team",
    "ticker": "KXNFLNEXTTEAM-26JDOWNS2-CLE",
-   "order_id": "paper-363-1793459640",
-   "price": "0.4400",
+   "order_id": "paper-367-1793461759",
+   "price": "0.4700",
    "sets": 1,
    "done": 0,
-   "reserve": "3.6400",
+   "reserve": "3.6900",
    "multiplier": "1",
-   "placed": 1793459640.0919788,
+   "placed": 1793461759.7097907,
    "hedge": [
     {
      "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
@@ -1075,7 +1102,7 @@
     },
     {
      "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
-     "limit": "0.6200"
+     "limit": "0.6500"
     },
     {
      "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
@@ -1084,6 +1111,25 @@
     {
      "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PIT",
      "limit": "0.7000"
+    }
+   ]
+  },
+  {
+   "event": "KXKORISLIIGAGAME-26OCT311200KARKAT",
+   "series": "KXKORISLIIGAGAME",
+   "title": "Kauhajoki Karhu Basket vs Kataja Basket Joensuu",
+   "ticker": "KXKORISLIIGAGAME-26OCT311200KARKAT-KAR",
+   "order_id": "paper-371-1793462687",
+   "price": "0.1400",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8000",
+   "multiplier": "1",
+   "placed": 1793462687.808279,
+   "hedge": [
+    {
+     "ticker": "KXKORISLIIGAGAME-26OCT311200KARKAT-KAT",
+     "limit": "0.6300"
     }
    ]
   }
