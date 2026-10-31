@@ -1,5 +1,5 @@
 {
- "realized": "-0.0900",
+ "realized": "-0.2100",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -999,67 +999,52 @@
    "paid": "0",
    "pnl": "-1.5000",
    "closed": "2026-10-31T13:32:47.019423+00:00"
-  }
- ],
- "quotes": [
-  {
-   "event": "KXSSHIELDMATCH-26OCT291930BLUTAS",
-   "series": "KXSSHIELDMATCH",
-   "title": "Tasmania vs New South Wales Blues",
-   "ticker": "KXSSHIELDMATCH-26OCT291930BLUTAS-TAS",
-   "order_id": "paper-354-1793456309",
-   "price": "0.08",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.9000",
-   "multiplier": "1",
-   "placed": 1793456309.5884686,
-   "hedge": [
-    {
-     "ticker": "KXSSHIELDMATCH-26OCT291930BLUTAS-BLU",
-     "limit": "0.8900"
-    }
-   ]
-  },
-  {
-   "event": "KXLOWTOKC-26OCT31",
-   "series": "KXLOWTOKC",
-   "title": "Lowest temperature in Oklahoma City on Oct 31, 2026?",
-   "ticker": "KXLOWTOKC-26OCT31-B57.5",
-   "order_id": "paper-356-1793456309",
-   "price": "0.78",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.9000",
-   "multiplier": "1",
-   "placed": 1793456309.6432822,
-   "hedge": [
-    {
-     "ticker": "KXLOWTOKC-26OCT31-B55.5",
-     "limit": "0.9900"
-    },
-    {
-     "ticker": "KXLOWTOKC-26OCT31-T58",
-     "limit": "0.1100"
-    }
-   ]
   },
   {
    "event": "KXEBASKETBALLGAME-26OCT311025GAVIMELO",
    "series": "KXEBASKETBALLGAME",
    "title": "eBasketball: Dallas Mavericks (Gavi) vs Denver Nuggets (Melo)",
-   "ticker": "KXEBASKETBALLGAME-26OCT311025GAVIMELO-MELO",
-   "order_id": "paper-357-1793456915",
-   "price": "0.1000",
    "sets": 4,
-   "done": 0,
-   "reserve": "3.3900",
-   "multiplier": "1",
-   "placed": 1793456915.8812222,
-   "hedge": [
+   "outlay": "4.1200",
+   "locked_profit": "-0.1200",
+   "opened": "2026-10-31T14:48:45.293094+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT311025GAVIMELO-MELO",
+     "side": "no",
+     "count": 4,
+     "limit": "0.1000"
+    },
     {
      "ticker": "KXEBASKETBALLGAME-26OCT311025GAVIMELO-GAVI",
+     "side": "no",
+     "count": 4,
      "limit": "0.9200"
+    }
+   ],
+   "paid": "4",
+   "pnl": "-0.1200",
+   "closed": "2026-10-31T14:53:36.992604+00:00"
+  }
+ ],
+ "quotes": [
+  {
+   "event": "KXLOWTHOU-26OCT31",
+   "series": "KXLOWTHOU",
+   "title": "Lowest temperature in Houston on Oct 31, 2026?",
+   "ticker": "KXLOWTHOU-26OCT31-B69.5",
+   "order_id": "paper-362-1793459332",
+   "price": "0.9000",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8300",
+   "multiplier": "1",
+   "placed": 1793459332.9634478,
+   "hedge": [
+    {
+     "ticker": "KXLOWTHOU-26OCT31-T70",
+     "limit": "0.0600"
     }
    ]
   }
