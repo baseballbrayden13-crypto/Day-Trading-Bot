@@ -1,5 +1,5 @@
 {
- "realized": "-0.3700",
+ "realized": "-0.2500",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -52,36 +52,6 @@
      "side": "no",
      "count": 2,
      "limit": "0.9000"
-    }
-   ]
-  },
-  {
-   "event": "KXSAPSLGAME-26OCT31MAMDCF",
-   "series": "KXSAPSLGAME",
-   "title": "Mamelodi Sundowns vs Durban City",
-   "sets": 2,
-   "outlay": "3.8800",
-   "locked_profit": "0.1200",
-   "opened": "2026-10-31T19:04:08.136695+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXSAPSLGAME-26OCT31MAMDCF-DCF",
-     "side": "no",
-     "count": 2,
-     "limit": "0.8700"
-    },
-    {
-     "ticker": "KXSAPSLGAME-26OCT31MAMDCF-MAM",
-     "side": "no",
-     "count": 2,
-     "limit": "0.1100"
-    },
-    {
-     "ticker": "KXSAPSLGAME-26OCT31MAMDCF-TIE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.9400"
     }
    ]
   },
@@ -1261,25 +1231,77 @@
    "paid": "5",
    "pnl": "0.0700",
    "closed": "2026-10-31T19:59:14.959040+00:00"
+  },
+  {
+   "event": "KXSAPSLGAME-26OCT31MAMDCF",
+   "series": "KXSAPSLGAME",
+   "title": "Mamelodi Sundowns vs Durban City",
+   "sets": 2,
+   "outlay": "3.8800",
+   "locked_profit": "0.1200",
+   "opened": "2026-10-31T19:04:08.136695+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXSAPSLGAME-26OCT31MAMDCF-DCF",
+     "side": "no",
+     "count": 2,
+     "limit": "0.8700"
+    },
+    {
+     "ticker": "KXSAPSLGAME-26OCT31MAMDCF-MAM",
+     "side": "no",
+     "count": 2,
+     "limit": "0.1100"
+    },
+    {
+     "ticker": "KXSAPSLGAME-26OCT31MAMDCF-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.9400"
+    }
+   ],
+   "paid": "4",
+   "pnl": "0.1200",
+   "closed": "2026-10-31T20:14:15.410510+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXESOCCERGAME-26OCT311625MEGAQUIN",
-   "series": "KXESOCCERGAME",
-   "title": "eSoccer: England (Megan) vs France (Quinnie)",
-   "ticker": "KXESOCCERGAME-26OCT311625MEGAQUIN-TIE",
-   "order_id": "paper-403-1793477068",
-   "price": "0.4700",
-   "sets": 1,
+   "event": "KXBOXINGMOV-26OCT31ESPINOBLANDO",
+   "series": "KXBOXINGMOV",
+   "title": "Rafael Espinoza vs Ricardo Blandon: Method of Victory",
+   "ticker": "KXBOXINGMOV-26OCT31ESPINOBLANDO-DRAW",
+   "order_id": "paper-404-1793477371",
+   "price": "0.87",
+   "sets": 4,
    "done": 0,
-   "reserve": "0.6800",
+   "reserve": "3.8800",
    "multiplier": "1",
-   "placed": 1793477068.1682887,
+   "placed": 1793477371.2676597,
    "hedge": [
     {
-     "ticker": "KXESOCCERGAME-26OCT311625MEGAQUIN-QUIN",
-     "limit": "0.1800"
+     "ticker": "KXBOXINGMOV-26OCT31ESPINOBLANDO-ESPINO-KOTKODQ",
+     "limit": "0.0900"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAF1H-26OCT31DSUNORF",
+   "series": "KXNCAAF1H",
+   "title": "Delaware St. vs Norfolk St.: 1st Half Winner",
+   "ticker": "KXNCAAF1H-26OCT31DSUNORF-DSU",
+   "order_id": "paper-407-1793478275",
+   "price": "0.5500",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8700",
+   "multiplier": "1",
+   "placed": 1793478275.9074345,
+   "hedge": [
+    {
+     "ticker": "KXNCAAF1H-26OCT31DSUNORF-NORF",
+     "limit": "0.4000"
     }
    ]
   }
