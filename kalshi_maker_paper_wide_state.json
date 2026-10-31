@@ -899,21 +899,40 @@
  ],
  "quotes": [
   {
-   "event": "KXCZENBLGAME-26NOV011200GAPOPA",
-   "series": "KXCZENBLGAME",
-   "title": "BK Gapa Hradec Kralove vs BK Opava",
-   "ticker": "KXCZENBLGAME-26NOV011200GAPOPA-GAP",
-   "order_id": "paper-330-1793440662",
-   "price": "0.61",
-   "sets": 5,
+   "event": "KXNCAAHGAME-26OCT31MICOSU",
+   "series": "KXNCAAHGAME",
+   "title": "Michigan vs Ohio State",
+   "ticker": "KXNCAAHGAME-26OCT31MICOSU-OSU",
+   "order_id": "paper-332-1793441876",
+   "price": "0.50",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.8600",
+   "reserve": "3.8900",
    "multiplier": "1",
-   "placed": 1793440662.3531134,
+   "placed": 1793441876.734293,
    "hedge": [
     {
-     "ticker": "KXCZENBLGAME-26NOV011200GAPOPA-OPA",
-     "limit": "0.3400"
+     "ticker": "KXNCAAHGAME-26OCT31MICOSU-MIC",
+     "limit": "0.4500"
+    }
+   ]
+  },
+  {
+   "event": "KXITFDOUBLES-26OCT31JONJONPERWRI",
+   "series": "KXITFDOUBLES",
+   "title": "Jones / Jones vs Perez Ramos / Wright",
+   "ticker": "KXITFDOUBLES-26OCT31JONJONPERWRI-JONJON",
+   "order_id": "paper-333-1793442785",
+   "price": "0.2200",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8900",
+   "multiplier": "1",
+   "placed": 1793442785.477868,
+   "hedge": [
+    {
+     "ticker": "KXITFDOUBLES-26OCT31JONJONPERWRI-PERWRI",
+     "limit": "0.6400"
     }
    ]
   }

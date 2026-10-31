@@ -1966,3 +1966,15 @@
 2026-10-31 06:07:50,741 INFO Swept 22249 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-31 06:08:01,685 INFO Quote KXLOWTNYC-26OCT31 cancelled (0/2 filled)
 2026-10-31 06:12:54,522 INFO Swept 22281 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 06:17:56,734 INFO PAPER rest NO bid KXNCAAHGAME-26OCT31MICOSU-OSU at $0.5000 x4 (51 already bid at that price)
+2026-10-31 06:17:56,734 INFO Resting NO bid on KXNCAAHGAME-26OCT31MICOSU-OSU at $0.50 x4 (KXNCAAHGAME-26OCT31MICOSU): locks in $0.11 if it fills; hedge NO MIC@0.4500
+2026-10-31 06:17:56,737 INFO Swept 22279 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 06:22:58,782 INFO Swept 22299 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 06:28:00,382 INFO Swept 22326 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 06:33:05,477 INFO PAPER rest NO bid KXITFDOUBLES-26OCT31JONJONPERWRI-JONJON at $0.2200 x1 (0 already bid at that price)
+2026-10-31 06:33:05,477 INFO Resting NO bid on KXITFDOUBLES-26OCT31JONJONPERWRI-JONJON at $0.2200 x1 (KXITFDOUBLES-26OCT31JONJONPERWRI): locks in $0.11 if it fills; hedge NO PERWRI@0.6400
+2026-10-31 06:33:05,550 INFO PAPER rest NO bid KXCODGAME-26NOV061100STATEX-STA at $0.7600 x4 (3 already bid at that price)
+2026-10-31 06:33:05,550 INFO Resting NO bid on KXCODGAME-26NOV061100STATEX-STA at $0.76 x4 (KXCODGAME-26NOV061100STATEX): locks in $0.11 if it fills; hedge NO TEX@0.2000
+2026-10-31 06:33:05,553 INFO Swept 22314 events: 0 taker trades, 2 new quotes, 3 resting
+2026-10-31 06:33:38,583 INFO Quote KXCODGAME-26NOV061100STATEX cancelled (0/4 filled)
+2026-10-31 06:38:06,350 INFO Swept 22305 events: 0 taker trades, 0 new quotes, 2 resting
