@@ -1882,3 +1882,10 @@
 2026-10-31 02:06:38,177 INFO Quote KXJLEAGUE1H-26OCT31KYOSHI cancelled (0/5 filled)
 2026-10-31 02:11:03,614 INFO Swept 22332 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-31 02:16:06,711 INFO Swept 22327 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 02:21:02,804 INFO Swept 22335 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 02:26:04,767 INFO Swept 22328 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 02:31:10,075 INFO PAPER rest NO bid KXWTA-26TOKYO-FER at $0.3900 x2 (0 already bid at that price)
+2026-10-31 02:31:10,075 INFO Resting NO bid on KXWTA-26TOKYO-FER at $0.39 x2 (KXWTA-26TOKYO): locks in $0.10 if it fills; hedge NO SHN@0.6000, POH@0.9300
+2026-10-31 02:31:10,078 INFO Swept 22330 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 02:36:15,110 INFO Swept 22331 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 02:36:20,314 INFO Stopped; all quotes cancelled.

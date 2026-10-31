@@ -4486,11 +4486,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793426154.2250571,
-  "checked": 1793427479.627934,
+  "checked": 1793427954,
   "expires": 1793427954,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-322-1793428270": {
+  "id": "paper-322-1793428270",
+  "ticker": "KXWTA-26TOKYO-FER",
+  "price": "0.3900",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793428270.0712972,
+  "checked": 1793428580.2422812,
+  "expires": 1793430070,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

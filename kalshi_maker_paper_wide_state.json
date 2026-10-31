@@ -844,29 +844,5 @@
    "closed": "2026-10-30T22:19:38.085734+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXWTA-26TOKYO",
-   "series": "KXWTA",
-   "title": "WTA Tokyo Winner",
-   "ticker": "KXWTA-26TOKYO-FER",
-   "order_id": "paper-321-1793426154",
-   "price": "0.3100",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.7400",
-   "multiplier": "1",
-   "placed": 1793426154.2291043,
-   "hedge": [
-    {
-     "ticker": "KXWTA-26TOKYO-SHN",
-     "limit": "0.6000"
-    },
-    {
-     "ticker": "KXWTA-26TOKYO-POH",
-     "limit": "0.9300"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
