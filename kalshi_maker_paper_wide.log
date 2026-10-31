@@ -2484,3 +2484,15 @@
 2026-10-31 14:05:45,720 INFO Swept 21782 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-31 14:10:50,861 INFO Swept 21821 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-31 14:10:50,967 INFO Quote KXCFLGAME-26OCT31WPGTOR cancelled (0/5 filled)
+2026-10-31 14:15:50,818 INFO PAPER rest NO bid KXATP-26VIENNA-ZVE at $0.6100 x2 (0 already bid at that price)
+2026-10-31 14:15:50,818 INFO Resting NO bid on KXATP-26VIENNA-ZVE at $0.6100 x2 (KXATP-26VIENNA): locks in $0.11 if it fills; hedge NO ALC@0.4000, DE@0.9000
+2026-10-31 14:15:50,843 INFO PAPER rest NO bid KXNFLNEXTTEAM-26JDOWNS2-PHI at $0.3100 x1 (0 already bid at that price)
+2026-10-31 14:15:50,844 INFO Resting NO bid on KXNFLNEXTTEAM-26JDOWNS2-PHI at $0.3100 x1 (KXNFLNEXTTEAM-26JDOWNS2): locks in $0.55 if it fills; hedge NO CLE@0.9100, IND@0.9600, KC@0.6400, NE@0.8500, PIT@0.7000
+2026-10-31 14:15:50,846 INFO Swept 21813 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-31 14:20:55,058 INFO Swept 21817 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 14:25:57,874 INFO Swept 21796 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 14:26:03,040 INFO PAPER KXATP-26VIENNA-ZVE NO bid at $0.6100: 2/2 filled by real trades
+2026-10-31 14:26:03,109 INFO PAPER buy 2 NO KXATP-26VIENNA-ALC at up to $0.4000: filled 2
+2026-10-31 14:26:03,139 INFO PAPER buy 2 NO KXATP-26VIENNA-DE at up to $0.9000: filled 2
+2026-10-31 14:26:03,139 INFO Quote KXATP-26VIENNA filled 2: hedged, locks in $0.11
+2026-10-31 14:26:03,142 INFO Stopped; all quotes cancelled.

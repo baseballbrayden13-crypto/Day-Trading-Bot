@@ -48,6 +48,36 @@
      "limit": "0.9500"
     }
    ]
+  },
+  {
+   "event": "KXATP-26VIENNA",
+   "series": "KXATP",
+   "title": "ATP Vienna Winner",
+   "sets": 2,
+   "outlay": "3.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-10-31T18:26:03.139115+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXATP-26VIENNA-ZVE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.6100"
+    },
+    {
+     "ticker": "KXATP-26VIENNA-ALC",
+     "side": "no",
+     "count": 2,
+     "limit": "0.4000"
+    },
+    {
+     "ticker": "KXATP-26VIENNA-DE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.9000"
+    }
+   ]
   }
  ],
  "closed": [
