@@ -2467,3 +2467,20 @@
 2026-10-31 13:40:39,125 INFO Resting NO bid on KXATPMATCH-26NOV01DJOVAC-VAC at $0.4300 x2 (KXATPMATCH-26NOV01DJOVAC): locks in $0.33 if it fills; hedge NO DJO@0.4100
 2026-10-31 13:40:39,129 INFO Swept 21876 events: 0 taker trades, 1 new quotes, 3 resting
 2026-10-31 13:40:39,265 INFO Quote KXSAPSLGAME-26OCT31STLCHU cancelled (0/3 filled)
+2026-10-31 13:45:26,046 INFO Settled KXEBASKETBALLGAME-26OCT311312GAVIMELO (stray): paid $0, profit $-0.51
+2026-10-31 13:45:38,926 INFO PAPER rest NO bid KXSAPSLGAME-26OCT31STLCHU-TIE at $0.4300 x6 (0 already bid at that price)
+2026-10-31 13:45:38,926 INFO Resting NO bid on KXSAPSLGAME-26OCT31STLCHU-TIE at $0.4300 x6 (KXSAPSLGAME-26OCT31STLCHU): locks in $1.81 if it fills; hedge NO CHU@0.2500
+2026-10-31 13:45:38,928 INFO Swept 21851 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 13:48:20,899 INFO Quote KXNCAAF2Q-26OCT31SMUSYR cancelled (0/4 filled)
+2026-10-31 13:50:43,066 INFO PAPER rest NO bid KXPGA3BALL-VIMO26R3MPENDGHIJSUB-JSUB at $0.2600 x2 (0 already bid at that price)
+2026-10-31 13:50:43,066 INFO Resting NO bid on KXPGA3BALL-VIMO26R3MPENDGHIJSUB-JSUB at $0.2600 x2 (KXPGA3BALL-VIMO26R3MPENDGHIJSUB): locks in $0.19 if it fills; hedge NO MPEN@0.9300, DGHI@0.6900
+2026-10-31 13:50:43,069 INFO Swept 21832 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 13:55:42,145 INFO Swept 21831 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-31 13:58:11,047 INFO Quote KXPGA3BALL-VIMO26R3MPENDGHIJSUB cancelled (0/2 filled)
+2026-10-31 13:58:21,247 INFO Quote KXSAPSLGAME-26OCT31STLCHU cancelled (0/6 filled)
+2026-10-31 14:00:44,936 INFO PAPER rest NO bid KXCFLGAME-26OCT31WPGTOR-TOR at $0.2600 x5 (5 already bid at that price)
+2026-10-31 14:00:44,936 INFO Resting NO bid on KXCFLGAME-26OCT31WPGTOR-TOR at $0.26 x5 (KXCFLGAME-26OCT31WPGTOR): locks in $0.10 if it fills; hedge NO WPG@0.7000
+2026-10-31 14:00:44,938 INFO Swept 21794 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 14:05:45,720 INFO Swept 21782 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 14:10:50,861 INFO Swept 21821 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 14:10:50,967 INFO Quote KXCFLGAME-26OCT31WPGTOR cancelled (0/5 filled)

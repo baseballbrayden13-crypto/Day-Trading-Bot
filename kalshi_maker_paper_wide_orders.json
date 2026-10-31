@@ -5452,12 +5452,12 @@
   "count": 4,
   "ahead": 0,
   "placed": 1793467833.7726946,
-  "checked": 1793468469.8425632,
+  "checked": 1793468900.8582034,
   "expires": 1793469633,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-391-1793468134": {
   "id": "paper-391-1793468134",
@@ -5480,11 +5480,53 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793468439.1216815,
-  "checked": 1793468469.8946974,
+  "checked": 1793470239,
   "expires": 1793470239,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-393-1793468738": {
+  "id": "paper-393-1793468738",
+  "ticker": "KXSAPSLGAME-26OCT31STLCHU-TIE",
+  "price": "0.4300",
+  "count": 6,
+  "ahead": 0,
+  "placed": 1793468738.9228604,
+  "checked": 1793469501.221734,
+  "expires": 1793470538,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-394-1793469043": {
+  "id": "paper-394-1793469043",
+  "ticker": "KXPGA3BALL-VIMO26R3MPENDGHIJSUB-JSUB",
+  "price": "0.2600",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793469043.0627637,
+  "checked": 1793469491.022543,
+  "expires": 1793470843,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-395-1793469644": {
+  "id": "paper-395-1793469644",
+  "ticker": "KXCFLGAME-26OCT31WPGTOR-TOR",
+  "price": "0.2600",
+  "count": 5,
+  "ahead": 5,
+  "placed": 1793469644.9327676,
+  "checked": 1793470250.9379604,
+  "expires": 1793471444,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

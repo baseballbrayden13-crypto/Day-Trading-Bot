@@ -1,5 +1,5 @@
 {
- "realized": "0.0700",
+ "realized": "-0.4400",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -46,23 +46,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.9500"
-    }
-   ]
-  },
-  {
-   "event": "KXEBASKETBALLGAME-26OCT311312GAVIMELO (stray)",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: Indiana Pacers (Gavi) vs New Orleans Pelicans (Melo)",
-   "sets": 0,
-   "outlay": "0.5100",
-   "locked_profit": "0",
-   "opened": "2026-10-31T17:30:33.921675+00:00",
-   "legs": [
-    {
-     "ticker": "KXEBASKETBALLGAME-26OCT311312GAVIMELO-GAVI",
-     "side": "no",
-     "count": 2,
-     "limit": "0.2500"
     }
    ]
   }
@@ -1178,46 +1161,27 @@
    "paid": "1",
    "pnl": "0.0400",
    "closed": "2026-10-31T17:35:22.268826+00:00"
-  }
- ],
- "quotes": [
-  {
-   "event": "KXNCAAF2Q-26OCT31SMUSYR",
-   "series": "KXNCAAF2Q",
-   "title": "SMU vs Syracuse: 2nd Quarter Winner",
-   "ticker": "KXNCAAF2Q-26OCT31SMUSYR-SMU",
-   "order_id": "paper-390-1793467833",
-   "price": "0.8400",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.8400",
-   "multiplier": "1",
-   "placed": 1793467833.7762542,
-   "hedge": [
-    {
-     "ticker": "KXNCAAF2Q-26OCT31SMUSYR-SYR",
-     "limit": "0.1100"
-    }
-   ]
   },
   {
-   "event": "KXATPMATCH-26NOV01DJOVAC",
-   "series": "KXATPMATCH",
-   "title": "Djokovic vs Vacherot",
-   "ticker": "KXATPMATCH-26NOV01DJOVAC-VAC",
-   "order_id": "paper-392-1793468439",
-   "price": "0.4300",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.6700",
-   "multiplier": "1",
-   "placed": 1793468439.1257496,
-   "hedge": [
+   "event": "KXEBASKETBALLGAME-26OCT311312GAVIMELO (stray)",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Indiana Pacers (Gavi) vs New Orleans Pelicans (Melo)",
+   "sets": 0,
+   "outlay": "0.5100",
+   "locked_profit": "0",
+   "opened": "2026-10-31T17:30:33.921675+00:00",
+   "legs": [
     {
-     "ticker": "KXATPMATCH-26NOV01DJOVAC-DJO",
-     "limit": "0.4100"
+     "ticker": "KXEBASKETBALLGAME-26OCT311312GAVIMELO-GAVI",
+     "side": "no",
+     "count": 2,
+     "limit": "0.2500"
     }
-   ]
+   ],
+   "paid": "0",
+   "pnl": "-0.5100",
+   "closed": "2026-10-31T17:45:26.046563+00:00"
   }
- ]
+ ],
+ "quotes": []
 }
