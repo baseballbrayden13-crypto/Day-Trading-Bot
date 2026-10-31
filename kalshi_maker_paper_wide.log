@@ -2523,3 +2523,19 @@
 2026-10-31 15:34:25,539 INFO PAPER rest NO bid KXBULLETBRAWL-26OCT31-HNAK at $0.1200 x3 (0 already bid at that price)
 2026-10-31 15:34:25,539 INFO Resting NO bid on KXBULLETBRAWL-26OCT31-HNAK at $0.1200 x3 (KXBULLETBRAWL-26OCT31): locks in $1.37 if it fills; hedge NO AFIR@0.4000
 2026-10-31 15:34:25,543 INFO Swept 21556 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 15:39:23,296 INFO Swept 21515 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 15:44:26,176 INFO Swept 21479 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 15:49:29,655 INFO Swept 21465 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 15:54:31,972 INFO Swept 21433 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 15:59:14,959 INFO Settled KXNCAAF1H-26OCT31MHUSTNH: paid $5, profit $0.07
+2026-10-31 15:59:37,428 INFO PAPER rest NO bid KXAHLGAME-26OCT311400LAVCAL-LAV at $0.2000 x6 (0 already bid at that price)
+2026-10-31 15:59:37,428 INFO Resting NO bid on KXAHLGAME-26OCT311400LAVCAL-LAV at $0.2000 x6 (KXAHLGAME-26OCT311400LAVCAL): locks in $1.31 if it fills; hedge NO CAL@0.5600
+2026-10-31 15:59:37,431 INFO Swept 21396 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 16:04:28,168 INFO PAPER rest NO bid KXESOCCERGAME-26OCT311625MEGAQUIN-TIE at $0.4700 x1 (0 already bid at that price)
+2026-10-31 16:04:28,168 INFO Resting NO bid on KXESOCCERGAME-26OCT311625MEGAQUIN-TIE at $0.4700 x1 (KXESOCCERGAME-26OCT311625MEGAQUIN): locks in $0.32 if it fills; hedge NO QUIN@0.1800
+2026-10-31 16:04:28,172 INFO Swept 21373 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 16:04:28,300 INFO PAPER KXAHLGAME-26OCT311400LAVCAL-LAV NO bid at $0.2000: 6/6 filled by real trades
+2026-10-31 16:04:28,364 INFO PAPER buy 6 NO KXAHLGAME-26OCT311400LAVCAL-CAL at up to $0.5600: not on the book
+2026-10-31 16:04:28,364 WARNING Quote KXAHLGAME-26OCT311400LAVCAL: hedge missed on KXAHLGAME-26OCT311400LAVCAL-CAL. Selling back 6 contracts on 1 legs.
+2026-10-31 16:04:28,424 INFO PAPER sell 6 YES KXAHLGAME-26OCT311400LAVCAL-LAV at up to $0.8500: not on the book
+2026-10-31 16:04:28,424 ERROR STRAY POSITION: 6 NO contracts of KXAHLGAME-26OCT311400LAVCAL-LAV still held. Check it on Kalshi.

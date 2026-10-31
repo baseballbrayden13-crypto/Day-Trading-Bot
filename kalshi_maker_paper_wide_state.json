@@ -1,5 +1,5 @@
 {
- "realized": "-0.4400",
+ "realized": "-0.3700",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -22,30 +22,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.5700"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAF1H-26OCT31MHUSTNH",
-   "series": "KXNCAAF1H",
-   "title": "Mercyhurst vs Stonehill: 1st Half Winner",
-   "sets": 5,
-   "outlay": "4.9300",
-   "locked_profit": "0.0700",
-   "opened": "2026-10-31T17:25:42.066945+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXNCAAF1H-26OCT31MHUSTNH-STNH",
-     "side": "no",
-     "count": 5,
-     "limit": "0.03"
-    },
-    {
-     "ticker": "KXNCAAF1H-26OCT31MHUSTNH-MHU",
-     "side": "no",
-     "count": 5,
-     "limit": "0.9500"
     }
    ]
   },
@@ -106,6 +82,23 @@
      "side": "no",
      "count": 2,
      "limit": "0.9400"
+    }
+   ]
+  },
+  {
+   "event": "KXAHLGAME-26OCT311400LAVCAL (stray)",
+   "series": "KXAHLGAME",
+   "title": "Laval Rocket vs Calgary Wranglers",
+   "sets": 0,
+   "outlay": "1.2200",
+   "locked_profit": "0",
+   "opened": "2026-10-31T20:04:28.424646+00:00",
+   "legs": [
+    {
+     "ticker": "KXAHLGAME-26OCT311400LAVCAL-LAV",
+     "side": "no",
+     "count": 6,
+     "limit": "0.2000"
     }
    ]
   }
@@ -1241,25 +1234,52 @@
    "paid": "0",
    "pnl": "-0.5100",
    "closed": "2026-10-31T17:45:26.046563+00:00"
+  },
+  {
+   "event": "KXNCAAF1H-26OCT31MHUSTNH",
+   "series": "KXNCAAF1H",
+   "title": "Mercyhurst vs Stonehill: 1st Half Winner",
+   "sets": 5,
+   "outlay": "4.9300",
+   "locked_profit": "0.0700",
+   "opened": "2026-10-31T17:25:42.066945+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXNCAAF1H-26OCT31MHUSTNH-STNH",
+     "side": "no",
+     "count": 5,
+     "limit": "0.03"
+    },
+    {
+     "ticker": "KXNCAAF1H-26OCT31MHUSTNH-MHU",
+     "side": "no",
+     "count": 5,
+     "limit": "0.9500"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.0700",
+   "closed": "2026-10-31T19:59:14.959040+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXBULLETBRAWL-26OCT31",
-   "series": "KXBULLETBRAWL",
-   "title": "Bullet Brawl Winner: Oct 31",
-   "ticker": "KXBULLETBRAWL-26OCT31-HNAK",
-   "order_id": "paper-401-1793475265",
-   "price": "0.1200",
-   "sets": 3,
+   "event": "KXESOCCERGAME-26OCT311625MEGAQUIN",
+   "series": "KXESOCCERGAME",
+   "title": "eSoccer: England (Megan) vs France (Quinnie)",
+   "ticker": "KXESOCCERGAME-26OCT311625MEGAQUIN-TIE",
+   "order_id": "paper-403-1793477068",
+   "price": "0.4700",
+   "sets": 1,
    "done": 0,
-   "reserve": "1.6300",
+   "reserve": "0.6800",
    "multiplier": "1",
-   "placed": 1793475265.5397341,
+   "placed": 1793477068.1682887,
    "hedge": [
     {
-     "ticker": "KXBULLETBRAWL-26OCT31-AFIR",
-     "limit": "0.4000"
+     "ticker": "KXESOCCERGAME-26OCT311625MEGAQUIN-QUIN",
+     "limit": "0.1800"
     }
    ]
   }
