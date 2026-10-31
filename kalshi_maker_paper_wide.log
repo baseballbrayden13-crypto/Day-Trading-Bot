@@ -2613,3 +2613,15 @@
 2026-10-31 18:30:45,205 INFO Resting NO bid on KXNCAAF3Q-26OCT31NEVUCLA-TIE at $0.6800 x5 (KXNCAAF3Q-26OCT31NEVUCLA): locks in $0.19 if it fills; hedge NO UCLA@0.2900
 2026-10-31 18:30:45,208 INFO Swept 20873 events: 0 taker trades, 2 new quotes, 2 resting
 2026-10-31 18:31:59,349 INFO Quote KXNCAAF3Q-26OCT31NEVUCLA cancelled (0/5 filled)
+2026-10-31 18:35:51,981 INFO PAPER rest NO bid KXTRUMPPHOTO-26NOV01-6 at $0.6500 x5 (0 already bid at that price)
+2026-10-31 18:35:51,981 INFO Resting NO bid on KXTRUMPPHOTO-26NOV01-6 at $0.6500 x5 (KXTRUMPPHOTO-26NOV01): locks in $0.67 if it fills; hedge NO 7@0.2000
+2026-10-31 18:35:51,985 INFO Swept 20880 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 18:36:02,836 INFO Quote KXTRUMPPHOTO-26NOV01 cancelled (0/5 filled)
+2026-10-31 18:40:53,598 INFO Swept 20873 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 18:45:51,297 INFO Swept 20851 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 18:50:54,111 INFO Swept 20821 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 18:55:56,696 INFO Swept 20795 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 19:01:02,924 INFO PAPER rest NO bid KXBRASILEIROB1H-26OCT31NAUAVA-AVA at $0.8300 x2 (0 already bid at that price)
+2026-10-31 19:01:02,925 INFO Resting NO bid on KXBRASILEIROB1H-26OCT31NAUAVA-AVA at $0.8300 x2 (KXBRASILEIROB1H-26OCT31NAUAVA): locks in $0.18 if it fills; hedge NO NAU@0.2000, TIE@0.8500
+2026-10-31 19:01:02,928 INFO Swept 20778 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 19:01:08,315 INFO Quote KXBRASILEIROB1H-26OCT31NAUAVA cancelled (0/2 filled)
