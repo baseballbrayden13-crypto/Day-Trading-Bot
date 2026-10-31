@@ -1938,3 +1938,17 @@
 2026-10-31 05:02:03,016 INFO Swept 22265 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-31 05:07:06,195 INFO Swept 22260 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-31 05:12:10,613 INFO Swept 22282 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 05:17:14,479 INFO Swept 22277 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 05:22:18,631 INFO Swept 22282 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 05:27:23,729 INFO PAPER rest NO bid KXEFOOTBALLGAME-26OCT310517CHARJUST-CHAR at $0.1300 x4 (0 already bid at that price)
+2026-10-31 05:27:23,729 INFO Resting NO bid on KXEFOOTBALLGAME-26OCT310517CHARJUST-CHAR at $0.1300 x4 (KXEFOOTBALLGAME-26OCT310517CHARJUST): locks in $0.35 if it fills; hedge NO JUST@0.8200
+2026-10-31 05:27:23,732 INFO Swept 22283 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 05:32:30,165 INFO Swept 22278 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 05:32:30,236 INFO PAPER KXEFOOTBALLGAME-26OCT310517CHARJUST-CHAR NO bid at $0.1300: 4/4 filled by real trades
+2026-10-31 05:32:30,309 INFO PAPER buy 4 NO KXEFOOTBALLGAME-26OCT310517CHARJUST-JUST at up to $0.8200: not on the book
+2026-10-31 05:32:30,309 WARNING Quote KXEFOOTBALLGAME-26OCT310517CHARJUST: hedge missed on KXEFOOTBALLGAME-26OCT310517CHARJUST-JUST. Selling back 4 contracts on 1 legs.
+2026-10-31 05:32:30,378 INFO PAPER sell 4 YES KXEFOOTBALLGAME-26OCT310517CHARJUST-CHAR at up to $0.9200: not on the book
+2026-10-31 05:32:30,378 ERROR STRAY POSITION: 4 NO contracts of KXEFOOTBALLGAME-26OCT310517CHARJUST-CHAR still held. Check it on Kalshi.
+2026-10-31 05:37:06,467 INFO Settled KXEFOOTBALLGAME-26OCT310517CHARJUST (stray): paid $0, profit $-0.53
+2026-10-31 05:37:30,390 INFO Swept 22271 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 05:42:32,151 INFO Swept 22266 events: 0 taker trades, 0 new quotes, 0 resting

@@ -1,5 +1,5 @@
 {
- "realized": "1.6800",
+ "realized": "1.1500",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -875,6 +875,26 @@
    "paid": "4",
    "pnl": "0.1800",
    "closed": "2026-10-31T08:01:07.730483+00:00"
+  },
+  {
+   "event": "KXEFOOTBALLGAME-26OCT310517CHARJUST (stray)",
+   "series": "KXEFOOTBALLGAME",
+   "title": "eFootball: Dallas (Charlie) vs New England (Justin)",
+   "sets": 0,
+   "outlay": "0.5300",
+   "locked_profit": "0",
+   "opened": "2026-10-31T09:32:30.378283+00:00",
+   "legs": [
+    {
+     "ticker": "KXEFOOTBALLGAME-26OCT310517CHARJUST-CHAR",
+     "side": "no",
+     "count": 4,
+     "limit": "0.1300"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-0.5300",
+   "closed": "2026-10-31T09:37:06.467015+00:00"
   }
  ],
  "quotes": []

@@ -4576,5 +4576,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-328-1793438843": {
+  "id": "paper-328-1793438843",
+  "ticker": "KXEFOOTBALLGAME-26OCT310517CHARJUST-CHAR",
+  "price": "0.1300",
+  "count": 4,
+  "ahead": 0,
+  "placed": 1793438843.7253933,
+  "checked": 1793439150.1662164,
+  "expires": 1793440643,
+  "through": 411,
+  "at_price": 0,
+  "filled": 4,
+  "status": "executed"
  }
 }
