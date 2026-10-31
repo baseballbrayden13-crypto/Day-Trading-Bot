@@ -4738,12 +4738,12 @@
   "count": 5,
   "ahead": 13,
   "placed": 1793447320.0460043,
-  "checked": 1793448638.239932,
+  "checked": 1793449119,
   "expires": 1793449119,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-340-1793447622": {
   "id": "paper-340-1793447622",
@@ -4766,11 +4766,39 @@
   "count": 4,
   "ahead": 0,
   "placed": 1793448527.0369737,
-  "checked": 1793448638.3868895,
+  "checked": 1793448849.5787704,
   "expires": 1793450326,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-342-1793449437": {
+  "id": "paper-342-1793449437",
+  "ticker": "KXCODGAME-26NOV061100STATEX-STA",
+  "price": "0.6100",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793449437.23486,
+  "checked": 1793449745.9840882,
+  "expires": 1793451237,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-343-1793449740": {
+  "id": "paper-343-1793449740",
+  "ticker": "KXLOWTDAL-26OCT31-B62.5",
+  "price": "0.7800",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793449740.6965296,
+  "checked": 1793449746.0636315,
+  "expires": 1793451540,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

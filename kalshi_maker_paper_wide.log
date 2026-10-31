@@ -2019,3 +2019,13 @@
 2026-10-31 08:08:47,041 INFO PAPER rest NO bid KXCODGAME-26NOV061100STATEX-STA at $0.6300 x4 (0 already bid at that price)
 2026-10-31 08:08:47,041 INFO Resting NO bid on KXCODGAME-26NOV061100STATEX-STA at $0.6300 x4 (KXCODGAME-26NOV061100STATEX): locks in $0.44 if it fills; hedge NO TEX@0.2400
 2026-10-31 08:08:47,046 INFO Swept 22373 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 08:13:48,122 INFO Swept 22448 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 08:14:09,656 INFO Quote KXCODGAME-26NOV061100STATEX cancelled (0/4 filled)
+2026-10-31 08:18:51,800 INFO Swept 22471 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 08:23:57,239 INFO PAPER rest NO bid KXCODGAME-26NOV061100STATEX-STA at $0.6100 x5 (0 already bid at that price)
+2026-10-31 08:23:57,239 INFO Resting NO bid on KXCODGAME-26NOV061100STATEX-STA at $0.6100 x5 (KXCODGAME-26NOV061100STATEX): locks in $0.29 if it fills; hedge NO TEX@0.3100
+2026-10-31 08:23:57,242 INFO Swept 22477 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 08:29:00,700 INFO PAPER rest NO bid KXLOWTDAL-26OCT31-B62.5 at $0.7800 x1 (0 already bid at that price)
+2026-10-31 08:29:00,700 INFO Resting NO bid on KXLOWTDAL-26OCT31-B62.5 at $0.7800 x1 (KXLOWTDAL-26OCT31): locks in $0.10 if it fills; hedge NO B60.5@0.9700, T63@0.1200
+2026-10-31 08:29:00,703 INFO Swept 22475 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 08:29:06,143 INFO Stopped; all quotes cancelled.
