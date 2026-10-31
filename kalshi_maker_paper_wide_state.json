@@ -54,6 +54,47 @@
      "limit": "0.9000"
     }
    ]
+  },
+  {
+   "event": "KXITFMATCH-26OCT31BICTUD",
+   "series": "KXITFMATCH",
+   "title": "Bicknell vs Tudorica",
+   "sets": 5,
+   "outlay": "4.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-10-31T21:15:26.411755+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXITFMATCH-26OCT31BICTUD-BIC",
+     "side": "no",
+     "count": 5,
+     "limit": "0.04"
+    },
+    {
+     "ticker": "KXITFMATCH-26OCT31BICTUD-TUD",
+     "side": "no",
+     "count": 5,
+     "limit": "0.9300"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAHGAME-26OCT31MICOSU (stray)",
+   "series": "KXNCAAHGAME",
+   "title": "Michigan vs Ohio State",
+   "sets": 0,
+   "outlay": "0.4400",
+   "locked_profit": "0",
+   "opened": "2026-10-31T21:30:10.762901+00:00",
+   "legs": [
+    {
+     "ticker": "KXNCAAHGAME-26OCT31MICOSU-OSU",
+     "side": "no",
+     "count": 1,
+     "limit": "0.4300"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1271,40 +1312,52 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAF1H-26OCT31COOKARPB",
-   "series": "KXNCAAF1H",
-   "title": "Bethune-Cookman vs Arkansas-Pine Bluff: 1st Half Winner",
-   "ticker": "KXNCAAF1H-26OCT31COOKARPB-TIE",
-   "order_id": "paper-408-1793479482",
-   "price": "0.5300",
-   "sets": 5,
+   "event": "KXNFLNEXTTEAM-26JDOWNS2",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Josh Downs Next Team",
+   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PHI",
+   "order_id": "paper-410-1793481609",
+   "price": "0.2100",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.7700",
+   "reserve": "3.5600",
    "multiplier": "1",
-   "placed": 1793479482.5138764,
+   "placed": 1793481609.4317982,
    "hedge": [
     {
-     "ticker": "KXNCAAF1H-26OCT31COOKARPB-ARPB",
-     "limit": "0.4000"
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
+     "limit": "0.9600"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
+     "limit": "0.6500"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
+     "limit": "0.9700"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PIT",
+     "limit": "0.7000"
     }
    ]
   },
   {
-   "event": "KXITFMATCH-26OCT31BICTUD",
-   "series": "KXITFMATCH",
-   "title": "Bicknell vs Tudorica",
-   "ticker": "KXITFMATCH-26OCT31BICTUD-BIC",
-   "order_id": "paper-409-1793480385",
-   "price": "0.04",
-   "sets": 5,
+   "event": "KXNCAAHGAME-26OCT31MICOSU",
+   "series": "KXNCAAHGAME",
+   "title": "Michigan vs Ohio State",
+   "ticker": "KXNCAAHGAME-26OCT31MICOSU-OSU",
+   "order_id": "paper-412-1793482515",
+   "price": "0.4200",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.8900",
+   "reserve": "0.8500",
    "multiplier": "1",
-   "placed": 1793480385.9182847,
+   "placed": 1793482515.3509297,
    "hedge": [
     {
-     "ticker": "KXITFMATCH-26OCT31BICTUD-TUD",
-     "limit": "0.9300"
+     "ticker": "KXNCAAHGAME-26OCT31MICOSU-MIC",
+     "limit": "0.4000"
     }
    ]
   }

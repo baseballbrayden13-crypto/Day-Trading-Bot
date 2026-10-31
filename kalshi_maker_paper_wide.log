@@ -2567,3 +2567,23 @@
 2026-10-31 16:59:45,918 INFO Resting NO bid on KXITFMATCH-26OCT31BICTUD-BIC at $0.04 x5 (KXITFMATCH-26OCT31BICTUD): locks in $0.11 if it fills; hedge NO TUD@0.9300
 2026-10-31 16:59:45,934 INFO Swept 21177 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-31 17:04:54,794 INFO Swept 21139 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 17:10:01,415 INFO Swept 21153 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 17:15:00,527 INFO Swept 21135 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 17:15:26,343 INFO PAPER KXITFMATCH-26OCT31BICTUD-BIC NO bid at $0.0400: 5/5 filled by real trades
+2026-10-31 17:15:26,411 INFO PAPER buy 5 NO KXITFMATCH-26OCT31BICTUD-TUD at up to $0.9300: filled 5
+2026-10-31 17:15:26,411 INFO Quote KXITFMATCH-26OCT31BICTUD filled 5: hedged, locks in $0.11
+2026-10-31 17:20:09,431 INFO PAPER rest NO bid KXNFLNEXTTEAM-26JDOWNS2-PHI at $0.2100 x1 (0 already bid at that price)
+2026-10-31 17:20:09,431 INFO Resting NO bid on KXNFLNEXTTEAM-26JDOWNS2-PHI at $0.2100 x1 (KXNFLNEXTTEAM-26JDOWNS2): locks in $0.44 if it fills; hedge NO IND@0.9600, KC@0.6500, NE@0.9700, PIT@0.7000
+2026-10-31 17:20:09,435 INFO Swept 21117 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 17:25:09,108 INFO PAPER rest NO bid KXNCAAHGAME-26OCT31MICOSU-OSU at $0.4300 x1 (0 already bid at that price)
+2026-10-31 17:25:09,108 INFO Resting NO bid on KXNCAAHGAME-26OCT31MICOSU-OSU at $0.4300 x1 (KXNCAAHGAME-26OCT31MICOSU): locks in $0.17 if it fills; hedge NO MIC@0.3700
+2026-10-31 17:25:09,112 INFO Swept 21079 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 17:30:10,424 INFO Swept 21027 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 17:30:10,628 INFO PAPER KXNCAAHGAME-26OCT31MICOSU-OSU NO bid at $0.4300: 1/1 filled by real trades
+2026-10-31 17:30:10,698 INFO PAPER buy 1 NO KXNCAAHGAME-26OCT31MICOSU-MIC at up to $0.3800: not on the book
+2026-10-31 17:30:10,698 WARNING Quote KXNCAAHGAME-26OCT31MICOSU: hedge missed on KXNCAAHGAME-26OCT31MICOSU-MIC. Selling back 1 contracts on 1 legs.
+2026-10-31 17:30:10,762 INFO PAPER sell 1 YES KXNCAAHGAME-26OCT31MICOSU-OSU at up to $0.6200: not on the book
+2026-10-31 17:30:10,762 ERROR STRAY POSITION: 1 NO contracts of KXNCAAHGAME-26OCT31MICOSU-OSU still held. Check it on Kalshi.
+2026-10-31 17:35:15,350 INFO PAPER rest NO bid KXNCAAHGAME-26OCT31MICOSU-OSU at $0.4200 x1 (0 already bid at that price)
+2026-10-31 17:35:15,350 INFO Resting NO bid on KXNCAAHGAME-26OCT31MICOSU-OSU at $0.4200 x1 (KXNCAAHGAME-26OCT31MICOSU): locks in $0.15 if it fills; hedge NO MIC@0.4000
+2026-10-31 17:35:15,354 INFO Swept 20991 events: 0 taker trades, 1 new quotes, 2 resting
