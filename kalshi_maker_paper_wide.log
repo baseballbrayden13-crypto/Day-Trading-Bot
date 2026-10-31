@@ -2625,3 +2625,15 @@
 2026-10-31 19:01:02,925 INFO Resting NO bid on KXBRASILEIROB1H-26OCT31NAUAVA-AVA at $0.8300 x2 (KXBRASILEIROB1H-26OCT31NAUAVA): locks in $0.18 if it fills; hedge NO NAU@0.2000, TIE@0.8500
 2026-10-31 19:01:02,928 INFO Swept 20778 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-31 19:01:08,315 INFO Quote KXBRASILEIROB1H-26OCT31NAUAVA cancelled (0/2 filled)
+2026-10-31 19:06:04,407 INFO PAPER rest NO bid KXBRASILEIROB1H-26OCT31NAUAVA-TIE at $0.3800 x5 (0 already bid at that price)
+2026-10-31 19:06:04,407 INFO Resting NO bid on KXBRASILEIROB1H-26OCT31NAUAVA-TIE at $0.3800 x5 (KXBRASILEIROB1H-26OCT31NAUAVA): locks in $0.48 if it fills; hedge NO NAU@0.5000
+2026-10-31 19:06:04,473 INFO PAPER rest NO bid KXITFWMATCH-26OCT31SIMOVC-SIM at $0.8700 x5 (42 already bid at that price)
+2026-10-31 19:06:04,473 INFO Resting NO bid on KXITFWMATCH-26OCT31SIMOVC-SIM at $0.87 x5 (KXITFWMATCH-26OCT31SIMOVC): locks in $0.10 if it fills; hedge NO OVC@0.1000
+2026-10-31 19:06:04,477 INFO Swept 20752 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-31 19:11:02,840 INFO Swept 20733 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 19:16:09,019 INFO Swept 20705 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 19:21:09,643 INFO Swept 20680 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 19:26:11,674 INFO Swept 20664 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 19:31:10,106 INFO Swept 20670 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 19:31:41,916 INFO Quote KXBRASILEIROB1H-26OCT31NAUAVA cancelled (0/5 filled)
+2026-10-31 19:35:53,197 INFO Settled KXNCAAHGAME-26OCT31MICOSU (stray): paid $0, profit $-0.44

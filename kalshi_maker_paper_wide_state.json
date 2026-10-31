@@ -1,5 +1,5 @@
 {
- "realized": "-1.3600",
+ "realized": "-1.8000",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -52,23 +52,6 @@
      "side": "no",
      "count": 2,
      "limit": "0.9000"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAHGAME-26OCT31MICOSU (stray)",
-   "series": "KXNCAAHGAME",
-   "title": "Michigan vs Ohio State",
-   "sets": 0,
-   "outlay": "0.4400",
-   "locked_profit": "0",
-   "opened": "2026-10-31T21:30:10.762901+00:00",
-   "legs": [
-    {
-     "ticker": "KXNCAAHGAME-26OCT31MICOSU-OSU",
-     "side": "no",
-     "count": 1,
-     "limit": "0.4300"
     }
    ]
   }
@@ -1311,7 +1294,47 @@
    "paid": "5",
    "pnl": "0.1100",
    "closed": "2026-10-31T22:15:19.484305+00:00"
+  },
+  {
+   "event": "KXNCAAHGAME-26OCT31MICOSU (stray)",
+   "series": "KXNCAAHGAME",
+   "title": "Michigan vs Ohio State",
+   "sets": 0,
+   "outlay": "0.4400",
+   "locked_profit": "0",
+   "opened": "2026-10-31T21:30:10.762901+00:00",
+   "legs": [
+    {
+     "ticker": "KXNCAAHGAME-26OCT31MICOSU-OSU",
+     "side": "no",
+     "count": 1,
+     "limit": "0.4300"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-0.4400",
+   "closed": "2026-10-31T23:35:53.197559+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXITFWMATCH-26OCT31SIMOVC",
+   "series": "KXITFWMATCH",
+   "title": "sim vs Ovcharenko",
+   "ticker": "KXITFWMATCH-26OCT31SIMOVC-SIM",
+   "order_id": "paper-421-1793487964",
+   "price": "0.87",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.9000",
+   "multiplier": "1",
+   "placed": 1793487964.473755,
+   "hedge": [
+    {
+     "ticker": "KXITFWMATCH-26OCT31SIMOVC-OVC",
+     "limit": "0.1000"
+    }
+   ]
+  }
+ ]
 }
