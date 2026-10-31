@@ -1902,3 +1902,17 @@
 2026-10-31 03:05:52,614 INFO Swept 22292 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-31 03:10:55,200 INFO Swept 22282 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-31 03:10:55,414 INFO Quote KXWTA-26TOKYO cancelled (0/2 filled)
+2026-10-31 03:15:58,694 INFO PAPER rest NO bid KXLOWTSAN-26OCT30-B62.5 at $0.1700 x5 (0 already bid at that price)
+2026-10-31 03:15:58,694 INFO Resting NO bid on KXLOWTSAN-26OCT30-B62.5 at $0.1700 x5 (KXLOWTSAN-26OCT30): locks in $0.23 if it fills; hedge NO B64.5@0.7700
+2026-10-31 03:15:58,697 INFO Swept 22278 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 03:20:58,522 INFO Swept 22273 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 03:26:05,185 INFO PAPER rest NO bid KXESOCCERGAME-26OCT310345ROSEMIA-MIA at $0.3000 x2 (0 already bid at that price)
+2026-10-31 03:26:05,185 INFO Resting NO bid on KXESOCCERGAME-26OCT310345ROSEMIA-MIA at $0.3000 x2 (KXESOCCERGAME-26OCT310345ROSEMIA): locks in $0.70 if it fills; hedge NO ROSE@0.5700, TIE@0.9900
+2026-10-31 03:26:05,188 INFO Swept 22271 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 03:31:08,720 INFO Swept 22285 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 03:36:13,572 INFO Swept 22280 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 03:41:18,988 INFO Swept 22284 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 03:41:40,375 INFO PAPER KXESOCCERGAME-26OCT310345ROSEMIA-MIA NO bid at $0.3000: 2/2 filled by real trades
+2026-10-31 03:41:40,448 INFO PAPER buy 2 NO KXESOCCERGAME-26OCT310345ROSEMIA-ROSE at up to $0.5900: filled 2
+2026-10-31 03:41:40,518 INFO PAPER buy 2 NO KXESOCCERGAME-26OCT310345ROSEMIA-TIE at up to $0.9900: filled 2
+2026-10-31 03:41:40,518 INFO Quote KXESOCCERGAME-26OCT310345ROSEMIA filled 2: hedged, locks in $0.18

@@ -72,6 +72,36 @@
      "limit": "0.0800"
     }
    ]
+  },
+  {
+   "event": "KXESOCCERGAME-26OCT310345ROSEMIA",
+   "series": "KXESOCCERGAME",
+   "title": "eSoccer: Manchester Utd (Rose) vs Arsenal (Mia)",
+   "sets": 2,
+   "outlay": "3.8200",
+   "locked_profit": "0.1800",
+   "opened": "2026-10-31T07:41:40.518648+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXESOCCERGAME-26OCT310345ROSEMIA-MIA",
+     "side": "no",
+     "count": 2,
+     "limit": "0.3000"
+    },
+    {
+     "ticker": "KXESOCCERGAME-26OCT310345ROSEMIA-ROSE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.5900"
+    },
+    {
+     "ticker": "KXESOCCERGAME-26OCT310345ROSEMIA-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.9900"
+    }
+   ]
   }
  ],
  "closed": [
@@ -844,5 +874,25 @@
    "closed": "2026-10-30T22:19:38.085734+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLOWTSAN-26OCT30",
+   "series": "KXLOWTSAN",
+   "title": "Lowest temperature in San Diego on Oct 30, 2026?",
+   "ticker": "KXLOWTSAN-26OCT30-B62.5",
+   "order_id": "paper-325-1793430958",
+   "price": "0.1700",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.7700",
+   "multiplier": "1",
+   "placed": 1793430958.6946838,
+   "hedge": [
+    {
+     "ticker": "KXLOWTSAN-26OCT30-B64.5",
+     "limit": "0.7700"
+    }
+   ]
+  }
+ ]
 }
