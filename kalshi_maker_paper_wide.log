@@ -1860,3 +1860,12 @@
 2026-10-31 01:10:33,884 INFO Swept 22331 events: 0 taker trades, 0 new quotes, 3 resting
 2026-10-31 01:15:33,316 INFO Swept 22335 events: 0 taker trades, 0 new quotes, 3 resting
 2026-10-31 01:20:37,586 INFO Swept 22327 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-31 01:25:40,581 INFO PAPER rest NO bid KXMLSGAME-26NOV07HOUSTL-STL at $0.5600 x2 (0 already bid at that price)
+2026-10-31 01:25:40,581 INFO Resting NO bid on KXMLSGAME-26NOV07HOUSTL-STL at $0.56 x2 (KXMLSGAME-26NOV07HOUSTL): locks in $0.10 if it fills; hedge NO HOU@0.5400, TIE@0.8100
+2026-10-31 01:25:40,584 INFO Swept 22320 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 01:30:47,560 INFO Swept 22344 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 01:35:46,288 INFO Swept 22336 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 01:40:46,714 INFO Swept 22354 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 01:45:49,489 INFO PAPER rest NO bid KXJLEAGUE1H-26OCT31KYOSHI-TIE at $0.2100 x5 (0 already bid at that price)
+2026-10-31 01:45:49,489 INFO Resting NO bid on KXJLEAGUE1H-26OCT31KYOSHI-TIE at $0.2100 x5 (KXJLEAGUE1H-26OCT31KYOSHI): locks in $0.45 if it fills; hedge NO KYO@0.6800
+2026-10-31 01:45:49,492 INFO Swept 22356 events: 0 taker trades, 1 new quotes, 2 resting

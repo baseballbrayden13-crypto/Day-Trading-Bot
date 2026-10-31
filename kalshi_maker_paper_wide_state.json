@@ -846,44 +846,44 @@
  ],
  "quotes": [
   {
-   "event": "KXLPGAR3LEAD-MAYC26",
-   "series": "KXLPGAR3LEAD",
-   "title": "Maybank Championship End of Round 3 Leader",
-   "ticker": "KXLPGAR3LEAD-MAYC26-PAUROU",
-   "order_id": "paper-316-1793422530",
-   "price": "0.4000",
+   "event": "KXMLSGAME-26NOV07HOUSTL",
+   "series": "KXMLSGAME",
+   "title": "Houston vs Saint Louis",
+   "ticker": "KXMLSGAME-26NOV07HOUSTL-STL",
+   "order_id": "paper-318-1793424340",
+   "price": "0.56",
    "sets": 2,
    "done": 0,
-   "reserve": "1.1300",
+   "reserve": "3.9000",
    "multiplier": "1",
-   "placed": 1793422530.6995995,
+   "placed": 1793424340.581428,
    "hedge": [
     {
-     "ticker": "KXLPGAR3LEAD-MAYC26-MIYYAM",
-     "limit": "0.1500"
+     "ticker": "KXMLSGAME-26NOV07HOUSTL-HOU",
+     "limit": "0.5400"
+    },
+    {
+     "ticker": "KXMLSGAME-26NOV07HOUSTL-TIE",
+     "limit": "0.8100"
     }
    ]
   },
   {
-   "event": "KXWTA-26TOKYO",
-   "series": "KXWTA",
-   "title": "WTA Tokyo Winner",
-   "ticker": "KXWTA-26TOKYO-POH",
-   "order_id": "paper-317-1793423133",
-   "price": "0.5400",
-   "sets": 2,
+   "event": "KXJLEAGUE1H-26OCT31KYOSHI",
+   "series": "KXJLEAGUE1H",
+   "title": "Kyoto Sanga vs Shimizu: First Half Winner",
+   "ticker": "KXJLEAGUE1H-26OCT31KYOSHI-TIE",
+   "order_id": "paper-319-1793425549",
+   "price": "0.2100",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.7400",
+   "reserve": "4.5500",
    "multiplier": "1",
-   "placed": 1793423133.768862,
+   "placed": 1793425549.489283,
    "hedge": [
     {
-     "ticker": "KXWTA-26TOKYO-SHN",
-     "limit": "0.6000"
-    },
-    {
-     "ticker": "KXWTA-26TOKYO-FER",
-     "limit": "0.6900"
+     "ticker": "KXJLEAGUE1H-26OCT31KYOSHI-KYO",
+     "limit": "0.8000"
     }
    ]
   }
