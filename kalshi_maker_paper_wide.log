@@ -1743,3 +1743,25 @@
 2026-10-30 20:26:17,077 INFO Resting NO bid on KXUSL1H-26OCT30DETHAR-HAR at $0.2200 x2 (KXUSL1H-26OCT30DETHAR): locks in $0.38 if it fills; hedge NO DET@0.9400, TIE@0.6800
 2026-10-30 20:26:17,080 INFO Swept 17026 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-30 20:26:22,243 INFO Stopped; all quotes cancelled.
+2026-10-30 20:50:18,052 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-10-30 20:53:06,733 INFO PAPER rest NO bid KXSSHIELDMATCH-26OCT272000WEARED-WEA at $0.2600 x5 (19 already bid at that price)
+2026-10-30 20:53:06,733 INFO Resting NO bid on KXSSHIELDMATCH-26OCT272000WEARED-WEA at $0.26 x5 (KXSSHIELDMATCH-26OCT272000WEARED): locks in $0.10 if it fills; hedge NO RED@0.7000
+2026-10-30 20:53:06,801 INFO PAPER rest NO bid KXNCAAHGAME-26OCT30NMUAUG-NMU at $0.8900 x4 (30 already bid at that price)
+2026-10-30 20:53:06,802 INFO Resting NO bid on KXNCAAHGAME-26OCT30NMUAUG-NMU at $0.89 x4 (KXNCAAHGAME-26OCT30NMUAUG): locks in $0.13 if it fills; hedge NO AUG@0.0700
+2026-10-30 20:53:06,805 INFO Swept 17051 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-30 20:58:07,423 INFO Swept 17046 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 21:03:04,265 INFO Swept 17065 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 21:03:36,084 INFO Quote KXNCAAHGAME-26OCT30NMUAUG cancelled (0/4 filled)
+2026-10-30 21:08:15,686 INFO PAPER rest NO bid KXNCAAHGAME-26OCT31UNDMSU-UND at $0.5000 x4 (12 already bid at that price)
+2026-10-30 21:08:15,686 INFO Resting NO bid on KXNCAAHGAME-26OCT31UNDMSU-UND at $0.50 x4 (KXNCAAHGAME-26OCT31UNDMSU): locks in $0.11 if it fills; hedge NO MSU@0.4500
+2026-10-30 21:08:15,689 INFO Swept 17079 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 21:13:19,787 INFO Swept 17115 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 21:13:19,851 INFO PAPER KXSSHIELDMATCH-26OCT272000WEARED-WEA NO bid at $0.2600: 5/5 filled by real trades
+2026-10-30 21:13:19,919 INFO PAPER buy 5 NO KXSSHIELDMATCH-26OCT272000WEARED-RED at up to $0.7000: not on the book
+2026-10-30 21:13:19,919 WARNING Quote KXSSHIELDMATCH-26OCT272000WEARED: hedge missed on KXSSHIELDMATCH-26OCT272000WEARED-RED. Selling back 5 contracts on 1 legs.
+2026-10-30 21:13:19,982 INFO PAPER sell 5 YES KXSSHIELDMATCH-26OCT272000WEARED-WEA at up to $0.79: filled 5
+2026-10-30 21:18:21,836 INFO PAPER rest NO bid KXNBACUPGROUP-26WESTA-DAL at $0.5400 x1 (0 already bid at that price)
+2026-10-30 21:18:21,837 INFO Resting NO bid on KXNBACUPGROUP-26WESTA-DAL at $0.5400 x1 (KXNBACUPGROUP-26WESTA): locks in $0.13 if it fills; hedge NO DEN@0.7700, HOU@0.5100
+2026-10-30 21:18:21,898 INFO PAPER rest NO bid KXUSL1H-26OCT30PASSAN-TIE at $0.2100 x1 (0 already bid at that price)
+2026-10-30 21:18:21,899 INFO Resting NO bid on KXUSL1H-26OCT30PASSAN-TIE at $0.2100 x1 (KXUSL1H-26OCT30PASSAN): locks in $0.24 if it fills; hedge NO PAS@0.6800, SAN@0.8200
+2026-10-30 21:18:21,902 INFO Swept 17115 events: 0 taker trades, 2 new quotes, 3 resting
