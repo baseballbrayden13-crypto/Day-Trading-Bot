@@ -1003,25 +1003,59 @@
  ],
  "quotes": [
   {
-   "event": "KXLOWTSDF-26OCT31",
-   "series": "KXLOWTSDF",
-   "title": "Lowest temperature in Louisville on Oct 31, 2026?",
-   "ticker": "KXLOWTSDF-26OCT31-B50.5",
-   "order_id": "paper-350-1793452975",
-   "price": "0.8300",
-   "sets": 2,
+   "event": "KXNETFLIXRANKMOVIE-26NOV02",
+   "series": "KXNETFLIXRANKMOVIE",
+   "title": "Top US Netflix Movie this week?",
+   "ticker": "KXNETFLIXRANKMOVIE-26NOV02-ANI",
+   "order_id": "paper-351-1793454188",
+   "price": "0.88",
+   "sets": 4,
    "done": 0,
    "reserve": "3.8800",
    "multiplier": "1",
-   "placed": 1793452975.5914977,
+   "placed": 1793454188.0046835,
    "hedge": [
     {
-     "ticker": "KXLOWTSDF-26OCT31-B52.5",
-     "limit": "0.9900"
-    },
+     "ticker": "KXNETFLIXRANKMOVIE-26NOV02-SUR",
+     "limit": "0.0800"
+    }
+   ]
+  },
+  {
+   "event": "KXCS2MAP-26OCT310900PROGLS-1",
+   "series": "KXCS2MAP",
+   "title": "Procyon Gaming vs. Galorys: Map 1 Winner",
+   "ticker": "KXCS2MAP-26OCT310900PROGLS-1-GLS",
+   "order_id": "paper-352-1793454793",
+   "price": "0.1200",
+   "sets": 3,
+   "done": 0,
+   "reserve": "2.2300",
+   "multiplier": "1",
+   "placed": 1793454793.0294669,
+   "hedge": [
     {
-     "ticker": "KXLOWTSDF-26OCT31-B54.5",
-     "limit": "0.1000"
+     "ticker": "KXCS2MAP-26OCT310900PROGLS-1-PRO",
+     "limit": "0.7900"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAFGAME-26NOV06NEBILL",
+   "series": "KXNCAAFGAME",
+   "title": "Nebraska vs Illinois",
+   "ticker": "KXNCAAFGAME-26NOV06NEBILL-NEB",
+   "order_id": "paper-353-1793455401",
+   "price": "0.34",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8900",
+   "multiplier": "1",
+   "placed": 1793455401.1820881,
+   "hedge": [
+    {
+     "ticker": "KXNCAAFGAME-26NOV06NEBILL-ILL",
+     "limit": "0.6100"
     }
    ]
   }

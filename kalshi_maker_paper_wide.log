@@ -2097,3 +2097,15 @@
 2026-10-31 09:32:47,019 INFO Settled KXMLBBGAME-26OCT310600YNDXAUR (stray): paid $0, profit $-1.50
 2026-10-31 09:32:59,572 INFO Swept 22461 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-31 09:38:03,959 INFO Swept 22449 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 09:43:08,004 INFO PAPER rest NO bid KXNETFLIXRANKMOVIE-26NOV02-ANI at $0.8800 x4 (572 already bid at that price)
+2026-10-31 09:43:08,004 INFO Resting NO bid on KXNETFLIXRANKMOVIE-26NOV02-ANI at $0.88 x4 (KXNETFLIXRANKMOVIE-26NOV02): locks in $0.12 if it fills; hedge NO SUR@0.0800
+2026-10-31 09:43:08,006 INFO Swept 22440 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 09:48:08,808 INFO Swept 22435 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 09:53:13,029 INFO PAPER rest NO bid KXCS2MAP-26OCT310900PROGLS-1-GLS at $0.1200 x3 (0 already bid at that price)
+2026-10-31 09:53:13,029 INFO Resting NO bid on KXCS2MAP-26OCT310900PROGLS-1-GLS at $0.1200 x3 (KXCS2MAP-26OCT310900PROGLS-1): locks in $0.77 if it fills; hedge NO PRO@0.6000
+2026-10-31 09:53:13,031 INFO Swept 22435 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 09:58:17,572 INFO Swept 22420 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 10:03:21,181 INFO PAPER rest NO bid KXNCAAFGAME-26NOV06NEBILL-NEB at $0.3400 x4 (25 already bid at that price)
+2026-10-31 10:03:21,182 INFO Resting NO bid on KXNCAAFGAME-26NOV06NEBILL-NEB at $0.34 x4 (KXNCAAFGAME-26NOV06NEBILL): locks in $0.11 if it fills; hedge NO ILL@0.6100
+2026-10-31 10:03:21,184 INFO Swept 22446 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 10:08:24,175 INFO Swept 22462 events: 0 taker trades, 0 new quotes, 3 resting
