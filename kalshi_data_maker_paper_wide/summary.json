@@ -1,26 +1,21 @@
 {
- "updated": "2026-10-31T12:25:55+00:00",
+ "updated": "2026-10-31T13:05:52+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "21.17",
- "realized_profit": "1.17",
+ "equity": "21.42",
+ "realized_profit": "1.42",
  "bet_level": "20.00",
- "open_trades": 3,
- "open_locked_profit": "0.37",
- "in_play": "11.13",
+ "open_trades": 5,
+ "open_locked_profit": "0.36",
+ "in_play": "16.14",
  "stray_positions": 1,
- "closed_trades": 26,
+ "closed_trades": 27,
  "trades_this_loop": 0,
- "events_swept": 22475,
+ "events_swept": 22478,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 4,
- "last_problems": [
-  "2026-10-31 09:32 Quote KXEFOOTBALLGAME-26OCT310517CHARJUST: hedge missed on KXEFOOTBALLGAME-26OCT310517CHARJUST-JUST. Selling back 4 contracts on 1 legs.",
-  "2026-10-31 09:32 STRAY POSITION: 4 NO contracts of KXEFOOTBALLGAME-26OCT310517CHARJUST-CHAR still held. Check it on Kalshi.",
-  "2026-10-31 11:33 Quote KXMLBBGAME-26OCT310600YNDXAUR: hedge missed on KXMLBBGAME-26OCT310600YNDXAUR-YNDX. Selling back 4 contracts on 1 legs.",
-  "2026-10-31 11:33 STRAY POSITION: 4 NO contracts of KXMLBBGAME-26OCT310600YNDXAUR-AUR still held. Check it on Kalshi."
- ]
+ "problems": 0,
+ "last_problems": []
 }

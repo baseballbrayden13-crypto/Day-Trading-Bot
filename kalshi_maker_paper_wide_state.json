@@ -1,5 +1,5 @@
 {
- "realized": "1.1700",
+ "realized": "1.4200",
  "open": [
   {
    "event": "KXWNBAGAME-26OCT31ATLGS",
@@ -63,6 +63,54 @@
      "side": "no",
      "count": 4,
      "limit": "0.3700"
+    }
+   ]
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT310854CLYDICEK",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: New Orleans Pelicans (Clyde) vs Indiana Pacers (IceKimi)",
+   "sets": 1,
+   "outlay": "0.8500",
+   "locked_profit": "0.1500",
+   "opened": "2026-10-31T13:03:20.099574+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT310854CLYDICEK-ICEK",
+     "side": "no",
+     "count": 1,
+     "limit": "0.1400"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT310854CLYDICEK-CLYD",
+     "side": "no",
+     "count": 1,
+     "limit": "0.6800"
+    }
+   ]
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT310854CLYDICEK",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: New Orleans Pelicans (Clyde) vs Indiana Pacers (IceKimi)",
+   "sets": 4,
+   "outlay": "4.1600",
+   "locked_profit": "-0.1600",
+   "opened": "2026-10-31T13:05:31.997026+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT310854CLYDICEK-ICEK",
+     "side": "no",
+     "count": 4,
+     "limit": "0.1400"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT310854CLYDICEK-CLYD",
+     "side": "no",
+     "count": 4,
+     "limit": "0.8900"
     }
    ]
   }
@@ -915,7 +963,54 @@
    "paid": "1",
    "pnl": "0.0200",
    "closed": "2026-10-31T11:08:02.343592+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26OCT310826SHAQICEK",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: New Orleans Pelicans (Shaq) vs Indiana Pacers (IceKimi)",
+   "sets": 5,
+   "outlay": "4.7500",
+   "locked_profit": "0.2500",
+   "opened": "2026-10-31T12:43:36.222865+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT310826SHAQICEK-ICEK",
+     "side": "no",
+     "count": 5,
+     "limit": "0.2500"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26OCT310826SHAQICEK-SHAQ",
+     "side": "no",
+     "count": 5,
+     "limit": "0.6800"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.2500",
+   "closed": "2026-10-31T12:52:32.783603+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNETFLIXRANKMOVIE-26NOV02",
+   "series": "KXNETFLIXRANKMOVIE",
+   "title": "Top US Netflix Movie this week?",
+   "ticker": "KXNETFLIXRANKMOVIE-26NOV02-ANI",
+   "order_id": "paper-349-1793452067",
+   "price": "0.8700",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8400",
+   "multiplier": "1",
+   "placed": 1793452067.8358145,
+   "hedge": [
+    {
+     "ticker": "KXNETFLIXRANKMOVIE-26NOV02-SUR",
+     "limit": "0.0800"
+    }
+   ]
+  }
+ ]
 }
