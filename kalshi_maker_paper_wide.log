@@ -1796,3 +1796,14 @@
 2026-10-30 22:39:08,412 INFO Swept 22428 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-30 22:44:08,581 INFO Swept 22413 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-30 22:49:05,368 INFO Swept 22412 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 22:54:07,771 INFO Swept 22380 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 22:59:10,281 INFO Swept 22364 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 23:04:18,544 INFO PAPER rest NO bid KXOWGAME-26OCT310330T1ZETA-T1 at $0.6500 x5 (69 already bid at that price)
+2026-10-30 23:04:18,544 INFO Resting NO bid on KXOWGAME-26OCT310330T1ZETA-T1 at $0.65 x5 (KXOWGAME-26OCT310330T1ZETA): locks in $0.10 if it fills; hedge NO ZETA@0.3100
+2026-10-30 23:04:18,547 INFO Swept 22338 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 23:09:20,447 INFO Swept 22317 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-30 23:14:24,660 INFO Swept 22318 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-30 23:19:31,299 INFO PAPER rest NO bid KXKBO-26-KIA at $0.7500 x2 (0 already bid at that price)
+2026-10-30 23:19:31,299 INFO Resting NO bid on KXKBO-26-KIA at $0.75 x2 (KXKBO-26): locks in $0.10 if it fills; hedge NO KTW@0.3600, SAM@0.8000
+2026-10-30 23:19:31,302 INFO Swept 22335 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-30 23:19:42,073 INFO Quote KXKBO-26 cancelled (0/2 filled)
