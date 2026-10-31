@@ -4150,12 +4150,12 @@
   "count": 4,
   "ahead": 12,
   "placed": 1793408895.682768,
-  "checked": 1793409614.4733067,
+  "checked": 1793410695,
   "expires": 1793410695,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-298-1793409501": {
   "id": "paper-298-1793409501",
@@ -4164,12 +4164,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793409501.833407,
-  "checked": 1793409614.5932853,
+  "checked": 1793411301,
   "expires": 1793411301,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-299-1793409501": {
   "id": "paper-299-1793409501",
@@ -4178,11 +4178,39 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793409501.8952355,
-  "checked": 1793409614.7121224,
+  "checked": 1793410408.790149,
   "expires": 1793411301,
   "through": 0,
   "at_price": 0,
   "filled": 0,
+  "status": "canceled"
+ },
+ "paper-300-1793410706": {
+  "id": "paper-300-1793410706",
+  "ticker": "KXUSL1H-26OCT30PASSAN-SAN",
+  "price": "0.2600",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793410706.7098439,
+  "checked": 1793411417.6269596,
+  "expires": 1793412506,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
   "status": "resting"
+ },
+ "paper-301-1793411010": {
+  "id": "paper-301-1793411010",
+  "ticker": "KXNHL2P-26OCT30SEACGY-TIE",
+  "price": "0.8200",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793411010.6584892,
+  "checked": 1793411309.8920019,
+  "expires": 1793412810,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

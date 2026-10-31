@@ -846,67 +846,25 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26OCT31UNDMSU",
-   "series": "KXNCAAHGAME",
-   "title": "North Dakota vs Michigan State",
-   "ticker": "KXNCAAHGAME-26OCT31UNDMSU-UND",
-   "order_id": "paper-297-1793408895",
-   "price": "0.50",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.8900",
-   "multiplier": "1",
-   "placed": 1793408895.6863475,
-   "hedge": [
-    {
-     "ticker": "KXNCAAHGAME-26OCT31UNDMSU-MSU",
-     "limit": "0.4500"
-    }
-   ]
-  },
-  {
-   "event": "KXNBACUPGROUP-26WESTA",
-   "series": "KXNBACUPGROUP",
-   "title": "Pro Basketball Cup West Group A Winner",
-   "ticker": "KXNBACUPGROUP-26WESTA-DAL",
-   "order_id": "paper-298-1793409501",
-   "price": "0.5400",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.8700",
-   "multiplier": "1",
-   "placed": 1793409501.8370862,
-   "hedge": [
-    {
-     "ticker": "KXNBACUPGROUP-26WESTA-DEN",
-     "limit": "0.7700"
-    },
-    {
-     "ticker": "KXNBACUPGROUP-26WESTA-HOU",
-     "limit": "0.5100"
-    }
-   ]
-  },
-  {
    "event": "KXUSL1H-26OCT30PASSAN",
    "series": "KXUSL1H",
    "title": "El Paso Locomotive FC vs San Antonio: First Half Winner",
-   "ticker": "KXUSL1H-26OCT30PASSAN-TIE",
-   "order_id": "paper-299-1793409501",
-   "price": "0.2100",
+   "ticker": "KXUSL1H-26OCT30PASSAN-SAN",
+   "order_id": "paper-300-1793410706",
+   "price": "0.2600",
    "sets": 1,
    "done": 0,
-   "reserve": "1.7600",
+   "reserve": "1.8800",
    "multiplier": "1",
-   "placed": 1793409501.899119,
+   "placed": 1793410706.7133439,
    "hedge": [
     {
      "ticker": "KXUSL1H-26OCT30PASSAN-PAS",
      "limit": "0.6800"
     },
     {
-     "ticker": "KXUSL1H-26OCT30PASSAN-SAN",
-     "limit": "0.9800"
+     "ticker": "KXUSL1H-26OCT30PASSAN-TIE",
+     "limit": "0.9500"
     }
    ]
   }
