@@ -2086,3 +2086,14 @@
 2026-10-31 09:07:47,835 INFO PAPER rest NO bid KXNETFLIXRANKMOVIE-26NOV02-ANI at $0.8700 x4 (0 already bid at that price)
 2026-10-31 09:07:47,835 INFO Resting NO bid on KXNETFLIXRANKMOVIE-26NOV02-ANI at $0.8700 x4 (KXNETFLIXRANKMOVIE-26NOV02): locks in $0.16 if it fills; hedge NO SUR@0.0800
 2026-10-31 09:07:47,837 INFO Swept 22478 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 09:12:51,079 INFO Swept 22524 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 09:17:54,247 INFO Swept 22518 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 09:22:42,551 INFO Settled KXEBASKETBALLGAME-26OCT310854CLYDICEK: paid $1, profit $0.15
+2026-10-31 09:22:42,596 INFO Settled KXEBASKETBALLGAME-26OCT310854CLYDICEK: paid $4, profit $-0.16
+2026-10-31 09:22:55,591 INFO PAPER rest NO bid KXLOWTSDF-26OCT31-B50.5 at $0.8300 x2 (0 already bid at that price)
+2026-10-31 09:22:55,591 INFO Resting NO bid on KXLOWTSDF-26OCT31-B50.5 at $0.8300 x2 (KXLOWTSDF-26OCT31): locks in $0.12 if it fills; hedge NO B52.5@0.9900, B54.5@0.1000
+2026-10-31 09:22:55,593 INFO Swept 22504 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 09:28:01,352 INFO Swept 22466 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 09:32:47,019 INFO Settled KXMLBBGAME-26OCT310600YNDXAUR (stray): paid $0, profit $-1.50
+2026-10-31 09:32:59,572 INFO Swept 22461 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 09:38:03,959 INFO Swept 22449 events: 0 taker trades, 0 new quotes, 2 resting
