@@ -1318,40 +1318,40 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAWBGAME-26NOV02PREUNCG",
+   "event": "KXNCAAWBGAME-26NOV02TROYKENT",
    "series": "KXNCAAWBGAME",
-   "title": "Presbyterian vs UNC Greensboro",
-   "ticker": "KXNCAAWBGAME-26NOV02PREUNCG-PRE",
-   "order_id": "paper-431-1793496526",
-   "price": "0.7200",
-   "sets": 5,
+   "title": "Troy vs Kent St.",
+   "ticker": "KXNCAAWBGAME-26NOV02TROYKENT-KENT",
+   "order_id": "paper-433-1793498646",
+   "price": "0.4500",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.6300",
+   "reserve": "3.7700",
    "multiplier": "1",
-   "placed": 1793496526.115381,
+   "placed": 1793498646.8220787,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV02PREUNCG-UNCG",
-     "limit": "0.1900"
+     "ticker": "KXNCAAWBGAME-26NOV02TROYKENT-TROY",
+     "limit": "0.4700"
     }
    ]
   },
   {
-   "event": "KXNEXTTEAMNHL-26DLARKIN71",
-   "series": "KXNEXTTEAMNHL",
-   "title": "Dylan Larkin's Next Team",
-   "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MIN",
-   "order_id": "paper-432-1793497132",
-   "price": "0.8100",
+   "event": "KXNCAAWBGAME-26NOV02TEMGMU",
+   "series": "KXNCAAWBGAME",
+   "title": "Temple vs George Mason",
+   "ticker": "KXNCAAWBGAME-26NOV02TEMGMU-TEM",
+   "order_id": "paper-434-1793499253",
+   "price": "0.6200",
    "sets": 5,
    "done": 0,
-   "reserve": "4.8700",
+   "reserve": "4.7100",
    "multiplier": "1",
-   "placed": 1793497132.9789457,
+   "placed": 1793499253.0896432,
    "hedge": [
     {
-     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-DET",
-     "limit": "0.1500"
+     "ticker": "KXNCAAWBGAME-26NOV02TEMGMU-GMU",
+     "limit": "0.3000"
     }
    ]
   }

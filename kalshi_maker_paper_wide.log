@@ -2689,3 +2689,13 @@
 2026-10-31 21:38:52,981 INFO Swept 20738 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-31 21:43:57,872 INFO Swept 20719 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-31 21:49:01,386 INFO Swept 20702 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 21:54:04,778 INFO Swept 20687 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 21:59:05,697 INFO Swept 20680 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 22:04:06,821 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV02TROYKENT-KENT at $0.4500 x4 (0 already bid at that price)
+2026-10-31 22:04:06,822 INFO Resting NO bid on KXNCAAWBGAME-26NOV02TROYKENT-KENT at $0.4500 x4 (KXNCAAWBGAME-26NOV02TROYKENT): locks in $0.23 if it fills; hedge NO TROY@0.4700
+2026-10-31 22:04:06,824 INFO Swept 20670 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 22:09:10,003 INFO Swept 20703 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 22:14:13,089 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV02TEMGMU-TEM at $0.6200 x5 (0 already bid at that price)
+2026-10-31 22:14:13,089 INFO Resting NO bid on KXNCAAWBGAME-26NOV02TEMGMU-TEM at $0.6200 x5 (KXNCAAWBGAME-26NOV02TEMGMU): locks in $0.29 if it fills; hedge NO GMU@0.3000
+2026-10-31 22:14:13,092 INFO Swept 20687 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 22:19:14,808 INFO Swept 20686 events: 0 taker trades, 0 new quotes, 2 resting
