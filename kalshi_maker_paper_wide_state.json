@@ -30,6 +30,23 @@
      "limit": "0.9000"
     }
    ]
+  },
+  {
+   "event": "KXLOWTDEN-26OCT31 (stray)",
+   "series": "KXLOWTDEN",
+   "title": "Lowest temperature in Denver on Oct 31, 2026?",
+   "sets": 0,
+   "outlay": "0.91",
+   "locked_profit": "0",
+   "opened": "2026-11-01T05:13:21.284679+00:00",
+   "legs": [
+    {
+     "ticker": "KXLOWTDEN-26OCT31-B41.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.90"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1341,21 +1358,52 @@
  ],
  "quotes": [
   {
-   "event": "KXNEXTTEAMNHL-26DLARKIN71",
-   "series": "KXNEXTTEAMNHL",
-   "title": "Dylan Larkin's Next Team",
-   "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MIN",
-   "order_id": "paper-444-1793508035",
-   "price": "0.74",
-   "sets": 4,
+   "event": "KXOWGAME-26NOV010330CRZETA",
+   "series": "KXOWGAME",
+   "title": "OCS Korea Stage 3 2026: Crazy Raccoon vs. ZETA DIVISION",
+   "ticker": "KXOWGAME-26NOV010330CRZETA-ZETA",
+   "order_id": "paper-445-1793509546",
+   "price": "0.22",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.8700",
+   "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793508035.3714027,
+   "placed": 1793509546.8338275,
    "hedge": [
     {
-     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-DET",
-     "limit": "0.2100"
+     "ticker": "KXOWGAME-26NOV010330CRZETA-CR",
+     "limit": "0.7400"
+    }
+   ]
+  },
+  {
+   "event": "KXNFLNEXTTEAM-26JDOWNS2",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Josh Downs Next Team",
+   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-SEA",
+   "order_id": "paper-448-1793510460",
+   "price": "0.1000",
+   "sets": 1,
+   "done": 0,
+   "reserve": "3.4700",
+   "multiplier": "1",
+   "placed": 1793510460.632209,
+   "hedge": [
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
+     "limit": "0.9700"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
+     "limit": "0.6500"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
+     "limit": "0.9700"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PIT",
+     "limit": "0.7100"
     }
    ]
   }

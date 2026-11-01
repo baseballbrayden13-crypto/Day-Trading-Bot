@@ -2763,3 +2763,26 @@
 2026-11-01 00:40:35,373 INFO Swept 20680 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-01 00:45:40,369 INFO Swept 20673 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 00:50:46,095 INFO Swept 20685 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 00:55:46,839 INFO Swept 20667 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 01:00:48,167 INFO Swept 20739 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 01:00:48,219 INFO Quote KXNEXTTEAMNHL-26DLARKIN71 cancelled (0/4 filled)
+2026-11-01 01:05:46,833 INFO PAPER rest NO bid KXOWGAME-26NOV010330CRZETA-ZETA at $0.2200 x5 (30 already bid at that price)
+2026-11-01 01:05:46,833 INFO Resting NO bid on KXOWGAME-26NOV010330CRZETA-ZETA at $0.22 x5 (KXOWGAME-26NOV010330CRZETA): locks in $0.11 if it fills; hedge NO CR@0.7400
+2026-11-01 01:05:46,836 INFO Swept 20662 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 01:10:53,836 INFO PAPER rest NO bid KXWTA-26TOKYO-SHN at $0.1700 x5 (0 already bid at that price)
+2026-11-01 01:10:53,836 INFO Resting NO bid on KXWTA-26TOKYO-SHN at $0.1700 x5 (KXWTA-26TOKYO): locks in $0.80 if it fills; hedge NO FER@0.6500
+2026-11-01 01:10:53,854 INFO PAPER rest NO bid KXLOWTDEN-26OCT31-B41.5 at $0.9000 x5 (10 already bid at that price)
+2026-11-01 01:10:53,854 INFO Resting NO bid on KXLOWTDEN-26OCT31-B41.5 at $0.90 x5 (KXLOWTDEN-26OCT31): locks in $0.11 if it fills; hedge NO B43.5@0.0700
+2026-11-01 01:10:53,856 INFO Swept 20677 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-01 01:11:34,769 INFO Quote KXWTA-26TOKYO cancelled (0/5 filled)
+2026-11-01 01:13:21,252 INFO PAPER KXLOWTDEN-26OCT31-B41.5 NO bid at $0.9000: 1/5 filled by real trades
+2026-11-01 01:13:21,270 INFO PAPER buy 1 NO KXLOWTDEN-26OCT31-B43.5 at up to $0.0700: not on the book
+2026-11-01 01:13:21,270 WARNING Quote KXLOWTDEN-26OCT31: hedge missed on KXLOWTDEN-26OCT31-B43.5. Selling back 1 contracts on 1 legs.
+2026-11-01 01:13:21,284 INFO PAPER sell 1 YES KXLOWTDEN-26OCT31-B41.5 at up to $0.15: not on the book
+2026-11-01 01:13:21,284 ERROR STRAY POSITION: 1 NO contracts of KXLOWTDEN-26OCT31-B41.5 still held. Check it on Kalshi.
+2026-11-01 01:13:21,316 INFO PAPER KXLOWTDEN-26OCT31-B41.5 NO bid at $0.9000: 1/5 filled by real trades
+2026-11-01 01:13:21,322 INFO Quote KXLOWTDEN-26OCT31 cancelled (1/5 filled)
+2026-11-01 01:15:59,057 INFO Swept 20676 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 01:21:00,632 INFO PAPER rest NO bid KXNFLNEXTTEAM-26JDOWNS2-SEA at $0.1000 x1 (0 already bid at that price)
+2026-11-01 01:21:00,632 INFO Resting NO bid on KXNFLNEXTTEAM-26JDOWNS2-SEA at $0.1000 x1 (KXNFLNEXTTEAM-26JDOWNS2): locks in $0.53 if it fills; hedge NO IND@0.9700, KC@0.6500, NE@0.9700, PIT@0.7100
+2026-11-01 01:21:00,634 INFO Swept 20696 events: 0 taker trades, 1 new quotes, 2 resting
