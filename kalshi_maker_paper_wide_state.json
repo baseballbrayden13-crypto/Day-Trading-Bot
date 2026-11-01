@@ -71,6 +71,30 @@
      "limit": "0.8800"
     }
    ]
+  },
+  {
+   "event": "KXLPGATOUR-MAYC26",
+   "series": "KXLPGATOUR",
+   "title": "Maybank Championship Winner",
+   "sets": 5,
+   "outlay": "4.8800",
+   "locked_profit": "0.1200",
+   "opened": "2026-11-01T06:23:33.943378+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLPGATOUR-MAYC26-YANLIU",
+     "side": "no",
+     "count": 5,
+     "limit": "0.91"
+    },
+    {
+     "ticker": "KXLPGATOUR-MAYC26-MIYYAM",
+     "side": "no",
+     "count": 5,
+     "limit": "0.0600"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1380,60 +1404,5 @@
    "closed": "2026-11-01T03:54:55.256663+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNFLNEXTTEAM-26JDOWNS2",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Josh Downs Next Team",
-   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-SEA",
-   "order_id": "paper-453-1793513181",
-   "price": "0.1000",
-   "sets": 1,
-   "done": 0,
-   "reserve": "4.4500",
-   "multiplier": "1",
-   "placed": 1793513181.1472213,
-   "hedge": [
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
-     "limit": "0.9700"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
-     "limit": "0.6500"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
-     "limit": "0.9700"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PIT",
-     "limit": "0.7000"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-SF",
-     "limit": "0.9800"
-    }
-   ]
-  },
-  {
-   "event": "KXLPGATOUR-MAYC26",
-   "series": "KXLPGATOUR",
-   "title": "Maybank Championship Winner",
-   "ticker": "KXLPGATOUR-MAYC26-YANLIU",
-   "order_id": "paper-454-1793514087",
-   "price": "0.91",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8750",
-   "multiplier": "1",
-   "placed": 1793514087.060575,
-   "hedge": [
-    {
-     "ticker": "KXLPGATOUR-MAYC26-MIYYAM",
-     "limit": "0.0590"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

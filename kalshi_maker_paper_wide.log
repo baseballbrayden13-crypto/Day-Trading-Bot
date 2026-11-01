@@ -2817,3 +2817,10 @@
 2026-11-01 01:21:27,060 INFO PAPER rest NO bid KXLPGATOUR-MAYC26-YANLIU at $0.9100 x5 (516 already bid at that price)
 2026-11-01 01:21:27,060 INFO Resting NO bid on KXLPGATOUR-MAYC26-YANLIU at $0.91 x5 (KXLPGATOUR-MAYC26): locks in $0.12 if it fills; hedge NO MIYYAM@0.0590
 2026-11-01 01:21:27,063 INFO Swept 20647 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 01:23:33,925 INFO PAPER KXLPGATOUR-MAYC26-YANLIU NO bid at $0.9100: 5/5 filled by real trades
+2026-11-01 01:23:33,943 INFO PAPER buy 5 NO KXLPGATOUR-MAYC26-MIYYAM at up to $0.0600: filled 5
+2026-11-01 01:23:33,943 INFO Quote KXLPGATOUR-MAYC26 filled 5: hedged, locks in $0.12
+2026-11-01 01:26:27,777 INFO Swept 20643 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 01:31:33,015 INFO Swept 20642 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 01:36:33,401 INFO Swept 20643 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 01:36:38,424 INFO Stopped; all quotes cancelled.
