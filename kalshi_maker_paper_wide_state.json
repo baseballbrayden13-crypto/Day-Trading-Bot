@@ -1,5 +1,5 @@
 {
- "realized": "-1.5700",
+ "realized": "-1.8000",
  "open": [
   {
    "event": "KXATP-26VIENNA",
@@ -28,23 +28,6 @@
      "side": "no",
      "count": 2,
      "limit": "0.9000"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAHGAME-26OCT31UMDCC (stray)",
-   "series": "KXNCAAHGAME",
-   "title": "Minnesota Duluth vs Colorado College",
-   "sets": 0,
-   "outlay": "0.2300",
-   "locked_profit": "0",
-   "opened": "2026-11-01T02:44:23.778863+00:00",
-   "legs": [
-    {
-     "ticker": "KXNCAAHGAME-26OCT31UMDCC-CC",
-     "side": "no",
-     "count": 1,
-     "limit": "0.2200"
     }
    ]
   }
@@ -1334,27 +1317,27 @@
    "paid": "5",
    "pnl": "0.2300",
    "closed": "2026-11-01T02:29:06.840583+00:00"
+  },
+  {
+   "event": "KXNCAAHGAME-26OCT31UMDCC (stray)",
+   "series": "KXNCAAHGAME",
+   "title": "Minnesota Duluth vs Colorado College",
+   "sets": 0,
+   "outlay": "0.2300",
+   "locked_profit": "0",
+   "opened": "2026-11-01T02:44:23.778863+00:00",
+   "legs": [
+    {
+     "ticker": "KXNCAAHGAME-26OCT31UMDCC-CC",
+     "side": "no",
+     "count": 1,
+     "limit": "0.2200"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-0.2300",
+   "closed": "2026-11-01T03:54:55.256663+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXWTA-26TOKYO",
-   "series": "KXWTA",
-   "title": "WTA Tokyo Winner",
-   "ticker": "KXWTA-26TOKYO-FER",
-   "order_id": "paper-441-1793504697",
-   "price": "0.52",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8700",
-   "multiplier": "1",
-   "placed": 1793504697.318898,
-   "hedge": [
-    {
-     "ticker": "KXWTA-26TOKYO-SHN",
-     "limit": "0.4300"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

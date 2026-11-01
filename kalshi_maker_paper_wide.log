@@ -2742,3 +2742,16 @@
 2026-10-31 23:44:57,318 INFO Resting NO bid on KXWTA-26TOKYO-FER at $0.52 x5 (KXWTA-26TOKYO): locks in $0.13 if it fills; hedge NO SHN@0.4300
 2026-10-31 23:44:57,321 INFO Swept 20520 events: 0 taker trades, 1 new quotes, 1 resting
 2026-10-31 23:50:01,736 INFO Swept 20527 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 23:54:55,256 INFO Settled KXNCAAHGAME-26OCT31UMDCC (stray): paid $0, profit $-0.23
+2026-10-31 23:55:05,612 INFO Swept 20523 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 00:00:08,115 INFO PAPER rest NO bid KXLOWTSAN-26OCT31-B60.5 at $0.6100 x2 (29 already bid at that price)
+2026-11-01 00:00:08,116 INFO Resting NO bid on KXLOWTSAN-26OCT31-B60.5 at $0.61 x2 (KXLOWTSAN-26OCT31): locks in $0.10 if it fills; hedge NO B58.5@0.9900, B62.5@0.3200
+2026-11-01 00:00:08,118 INFO Swept 20523 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 00:00:33,595 INFO Quote KXLOWTSAN-26OCT31 cancelled (0/2 filled)
+2026-11-01 00:05:12,242 INFO Swept 20475 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 00:10:17,560 INFO PAPER rest NO bid KXLOWTLAX-26OCT31-B60.5 at $0.0600 x5 (51 already bid at that price)
+2026-11-01 00:10:17,560 INFO Resting NO bid on KXLOWTLAX-26OCT31-B60.5 at $0.06 x5 (KXLOWTLAX-26OCT31): locks in $0.11 if it fills; hedge NO B58.5@0.9100
+2026-11-01 00:10:17,562 INFO Swept 20541 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 00:10:53,137 INFO Quote KXLOWTLAX-26OCT31 cancelled (0/5 filled)
+2026-11-01 00:15:18,014 INFO Swept 20587 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 00:20:21,348 INFO Swept 20607 events: 0 taker trades, 0 new quotes, 0 resting
