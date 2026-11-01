@@ -24,6 +24,23 @@
      "limit": "0.8800"
     }
    ]
+  },
+  {
+   "event": "KXNFLFIRSTTDTEAM-26NOV01NEMIA (stray)",
+   "series": "KXNFLFIRSTTDTEAM",
+   "title": "New England vs Miami: First Team to Score a TD",
+   "sets": 0,
+   "outlay": "1.54",
+   "locked_profit": "0",
+   "opened": "2026-11-01T21:45:00.994583+00:00",
+   "legs": [
+    {
+     "ticker": "KXNFLFIRSTTDTEAM-26NOV01NEMIA-MIA",
+     "side": "no",
+     "count": 4,
+     "limit": "0.38"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1515,59 +1532,59 @@
  ],
  "quotes": [
   {
-   "event": "KXF1H2H-MEX26HAMLEC",
-   "series": "KXF1H2H",
-   "title": "F1 Matchup: Hamilton vs Leclerc",
-   "ticker": "KXF1H2H-MEX26HAMLEC-HAM",
-   "order_id": "paper-512-1793567917",
-   "price": "0.18",
+   "event": "KXKBOGAME-26NOV040430SAMKTW",
+   "series": "KXKBOGAME",
+   "title": "Samsung Lions vs KT Wiz",
+   "ticker": "KXKBOGAME-26NOV040430SAMKTW-KTW",
+   "order_id": "paper-516-1793569883",
+   "price": "0.26",
    "sets": 5,
    "done": 0,
-   "reserve": "4.8900",
+   "reserve": "4.9000",
    "multiplier": "1",
-   "placed": 1793567917.6077719,
+   "placed": 1793569883.0733955,
    "hedge": [
     {
-     "ticker": "KXF1H2H-MEX26HAMLEC-LEC",
-     "limit": "0.7800"
+     "ticker": "KXKBOGAME-26NOV040430SAMKTW-SAM",
+     "limit": "0.7000"
     }
    ]
   },
   {
-   "event": "KXBILLBOARDRUNNERUPSONG-26NOV07",
-   "series": "KXBILLBOARDRUNNERUPSONG",
-   "title": "#2 on the Billboard Hot 100 chart for the Week of Nov 7, 2026?",
-   "ticker": "KXBILLBOARDRUNNERUPSONG-26NOV07-DRA",
-   "order_id": "paper-513-1793568322",
-   "price": "0.1000",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.1800",
-   "multiplier": "1",
-   "placed": 1793568322.78999,
-   "hedge": [
-    {
-     "ticker": "KXBILLBOARDRUNNERUPSONG-26NOV07-HOU",
-     "limit": "0.0600"
-    }
-   ]
-  },
-  {
-   "event": "KXNFLMOSTRSHYDS-26NOV01BALBUF",
-   "series": "KXNFLMOSTRSHYDS",
-   "title": "Baltimore vs Buffalo: Most Rushing Yards",
-   "ticker": "KXNFLMOSTRSHYDS-26NOV01BALBUF-BALDHENRY22",
-   "order_id": "paper-514-1793568720",
-   "price": "0.5200",
+   "event": "KXNFLMOSTRECYDS-26NOV01ARIDAL",
+   "series": "KXNFLMOSTRECYDS",
+   "title": "Arizona vs Dallas: Most Receiving Yards",
+   "ticker": "KXNFLMOSTRECYDS-26NOV01ARIDAL-ARITMCBRIDE85",
+   "order_id": "paper-517-1793569883",
+   "price": "0.5100",
    "sets": 5,
    "done": 0,
-   "reserve": "4.7200",
+   "reserve": "4.6700",
    "multiplier": "1",
-   "placed": 1793568720.639726,
+   "placed": 1793569883.1405754,
    "hedge": [
     {
-     "ticker": "KXNFLMOSTRSHYDS-26NOV01BALBUF-BUFJCOOK4",
+     "ticker": "KXNFLMOSTRECYDS-26NOV01ARIDAL-ARIMWILSON14",
      "limit": "0.4000"
+    }
+   ]
+  },
+  {
+   "event": "KXNFLFIRSTTDTEAM-26NOV01LACLAR",
+   "series": "KXNFLFIRSTTDTEAM",
+   "title": "Los Angeles C vs Los Angeles R: First Team to Score a TD",
+   "ticker": "KXNFLFIRSTTDTEAM-26NOV01LACLAR-LAR",
+   "order_id": "paper-518-1793570643",
+   "price": "0.1800",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.3700",
+   "multiplier": "1",
+   "placed": 1793570643.4954326,
+   "hedge": [
+    {
+     "ticker": "KXNFLFIRSTTDTEAM-26NOV01LACLAR-LAC",
+     "limit": "0.6400"
     }
    ]
   }

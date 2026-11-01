@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:25:28+00:00",
+ "updated": "2026-11-01T21:57:54+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -7,21 +7,21 @@
  "equity": "15.54",
  "realized_profit": "-4.46",
  "bet_level": "15.54",
- "open_trades": 1,
+ "open_trades": 2,
  "open_locked_profit": "0.01",
- "in_play": "0.99",
- "stray_positions": 0,
+ "in_play": "2.53",
+ "stray_positions": 1,
  "closed_trades": 43,
  "trades_this_loop": 0,
- "events_swept": 19799,
+ "events_swept": 19582,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 5,
+ "problems": 7,
  "last_problems": [
-  "2026-11-01 19:32 Quote KXCOPADOBRASIL1H-26NOV01PALVDG: hedge missed on KXCOPADOBRASIL1H-26NOV01PALVDG-VDG. Selling back 2 contracts on 1 legs.",
-  "2026-11-01 19:32 STRAY POSITION: 2 NO contracts of KXCOPADOBRASIL1H-26NOV01PALVDG-PAL still held. Check it on Kalshi.",
   "2026-11-01 20:14 Quote KXF1H2H-MEX26GASHUL: hedge missed on KXF1H2H-MEX26GASHUL-GAS. Selling back 1 contracts on 1 legs.",
   "2026-11-01 20:36 Quote KXITFMATCH-26NOV01KLIMIL: hedge missed on KXITFMATCH-26NOV01KLIMIL-MIL. Selling back 3 contracts on 1 legs.",
-  "2026-11-01 21:25 Quote KXCHAMPTOUR-SIBC26: hedge missed on KXCHAMPTOUR-SIBC26-ZJOH. Selling back 5 contracts on 1 legs."
+  "2026-11-01 21:25 Quote KXCHAMPTOUR-SIBC26: hedge missed on KXCHAMPTOUR-SIBC26-ZJOH. Selling back 5 contracts on 1 legs.",
+  "2026-11-01 21:45 Quote KXNFLFIRSTTDTEAM-26NOV01NEMIA: hedge missed on KXNFLFIRSTTDTEAM-26NOV01NEMIA-NE. Selling back 4 contracts on 1 legs.",
+  "2026-11-01 21:45 STRAY POSITION: 4 NO contracts of KXNFLFIRSTTDTEAM-26NOV01NEMIA-MIA still held. Check it on Kalshi."
  ]
 }
