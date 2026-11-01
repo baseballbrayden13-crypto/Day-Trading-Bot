@@ -2728,3 +2728,17 @@
 2026-10-31 23:11:49,416 INFO Quote KXATPMATCH-26NOV01DAVKOU cancelled (0/5 filled)
 2026-10-31 23:14:42,618 INFO Swept 20538 events: 0 taker trades, 0 new quotes, 0 resting
 2026-10-31 23:19:43,964 INFO Swept 20550 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 23:24:47,089 INFO Swept 20551 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 23:29:49,656 INFO PAPER rest NO bid KXAHLGAME-26OCT312100HENSAN-SAN at $0.4200 x2 (0 already bid at that price)
+2026-10-31 23:29:49,656 INFO Resting NO bid on KXAHLGAME-26OCT312100HENSAN-SAN at $0.4200 x2 (KXAHLGAME-26OCT312100HENSAN): locks in $0.13 if it fills; hedge NO HEN@0.4900
+2026-10-31 23:29:49,675 INFO PAPER rest NO bid KXMLSSCORE-26OCT31COLCHI-COL1CHI3 at $0.0100 x1 (0 already bid at that price)
+2026-10-31 23:29:49,675 INFO Resting NO bid on KXMLSSCORE-26OCT31COLCHI-COL1CHI3 at $0.01 x1 (KXMLSSCORE-26OCT31COLCHI): locks in $0.36 if it fills; hedge NO COL2CHI4@0.6900, COL2CHI5@0.9000
+2026-10-31 23:29:49,677 INFO Swept 20551 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-31 23:30:10,056 INFO Quote KXMLSSCORE-26OCT31COLCHI cancelled (0/1 filled)
+2026-10-31 23:30:25,193 INFO Quote KXAHLGAME-26OCT312100HENSAN cancelled (0/2 filled)
+2026-10-31 23:34:52,286 INFO Swept 20522 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 23:39:54,863 INFO Swept 20525 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 23:44:57,318 INFO PAPER rest NO bid KXWTA-26TOKYO-FER at $0.5200 x5 (10 already bid at that price)
+2026-10-31 23:44:57,318 INFO Resting NO bid on KXWTA-26TOKYO-FER at $0.52 x5 (KXWTA-26TOKYO): locks in $0.13 if it fills; hedge NO SHN@0.4300
+2026-10-31 23:44:57,321 INFO Swept 20520 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 23:50:01,736 INFO Swept 20527 events: 0 taker trades, 0 new quotes, 1 resting
