@@ -1461,5 +1461,25 @@
    "closed": "2026-11-01T09:32:53.832226+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXATPMATCH-26NOV01STRGEA",
+   "series": "KXATPMATCH",
+   "title": "Struff vs Gea",
+   "ticker": "KXATPMATCH-26NOV01STRGEA-STR",
+   "order_id": "paper-464-1793534954",
+   "price": "0.4000",
+   "sets": 3,
+   "done": 0,
+   "reserve": "2.7800",
+   "multiplier": "1",
+   "placed": 1793534954.3964338,
+   "hedge": [
+    {
+     "ticker": "KXATPMATCH-26NOV01STRGEA-GEA",
+     "limit": "0.5000"
+    }
+   ]
+  }
+ ]
 }
