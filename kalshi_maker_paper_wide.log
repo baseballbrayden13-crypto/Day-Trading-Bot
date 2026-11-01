@@ -2846,3 +2846,17 @@
 2026-11-01 02:37:01,481 INFO Swept 20592 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-01 02:42:03,854 INFO Swept 20600 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-01 02:47:05,832 INFO Swept 20598 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 02:52:09,977 INFO Swept 20594 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 02:57:14,197 INFO Swept 20609 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 03:02:17,927 INFO PAPER rest NO bid KXK2LEAGUEGAME-26NOV01GIMCHE-CHE at $0.2900 x2 (0 already bid at that price)
+2026-11-01 03:02:17,927 INFO Resting NO bid on KXK2LEAGUEGAME-26NOV01GIMCHE-CHE at $0.2900 x2 (KXK2LEAGUEGAME-26NOV01GIMCHE): locks in $0.14 if it fills; hedge NO GIM@0.8500, TIE@0.7600
+2026-11-01 03:02:17,931 INFO Swept 20608 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 03:03:18,427 INFO PAPER KXK2LEAGUEGAME-26NOV01GIMCHE-CHE NO bid at $0.2900: 2/2 filled by real trades
+2026-11-01 03:03:18,446 INFO PAPER buy 2 NO KXK2LEAGUEGAME-26NOV01GIMCHE-GIM at up to $0.8500: filled 2
+2026-11-01 03:03:18,461 INFO PAPER buy 2 NO KXK2LEAGUEGAME-26NOV01GIMCHE-TIE at up to $0.7600: filled 2
+2026-11-01 03:03:18,461 INFO Quote KXK2LEAGUEGAME-26NOV01GIMCHE filled 2: hedged, locks in $0.14
+2026-11-01 03:07:22,995 INFO Swept 20623 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 03:12:29,585 INFO PAPER rest NO bid KXKLEAGUE1H-26NOV01SEOINC-INC at $0.1400 x2 (102 already bid at that price)
+2026-11-01 03:12:29,585 INFO Resting NO bid on KXKLEAGUE1H-26NOV01SEOINC-INC at $0.1400 x2 (KXKLEAGUE1H-26NOV01SEOINC): locks in $1.21 if it fills; hedge NO SEO@0.3800, TIE@0.8400
+2026-11-01 03:12:29,589 INFO Swept 20649 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 03:17:30,834 INFO Swept 20672 events: 0 taker trades, 0 new quotes, 1 resting
