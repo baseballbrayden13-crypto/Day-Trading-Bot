@@ -1339,5 +1339,25 @@
    "closed": "2026-11-01T03:54:55.256663+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNEXTTEAMNHL-26DLARKIN71",
+   "series": "KXNEXTTEAMNHL",
+   "title": "Dylan Larkin's Next Team",
+   "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MIN",
+   "order_id": "paper-444-1793508035",
+   "price": "0.74",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8700",
+   "multiplier": "1",
+   "placed": 1793508035.3714027,
+   "hedge": [
+    {
+     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-DET",
+     "limit": "0.2100"
+    }
+   ]
+  }
+ ]
 }

@@ -2755,3 +2755,11 @@
 2026-11-01 00:10:53,137 INFO Quote KXLOWTLAX-26OCT31 cancelled (0/5 filled)
 2026-11-01 00:15:18,014 INFO Swept 20587 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 00:20:21,348 INFO Swept 20607 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 00:25:24,706 INFO Swept 20629 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 00:30:27,971 INFO Swept 20649 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 00:35:32,071 INFO Swept 20672 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 00:40:35,371 INFO PAPER rest NO bid KXNEXTTEAMNHL-26DLARKIN71-MIN at $0.7400 x4 (3 already bid at that price)
+2026-11-01 00:40:35,371 INFO Resting NO bid on KXNEXTTEAMNHL-26DLARKIN71-MIN at $0.74 x4 (KXNEXTTEAMNHL-26DLARKIN71): locks in $0.13 if it fills; hedge NO DET@0.2100
+2026-11-01 00:40:35,373 INFO Swept 20680 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 00:45:40,369 INFO Swept 20673 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 00:50:46,095 INFO Swept 20685 events: 0 taker trades, 0 new quotes, 1 resting

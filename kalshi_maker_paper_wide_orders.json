@@ -6200,5 +6200,19 @@
   "at_price": 38,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-444-1793508035": {
+  "id": "paper-444-1793508035",
+  "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MIN",
+  "price": "0.7400",
+  "count": 4,
+  "ahead": 3,
+  "placed": 1793508035.367654,
+  "checked": 1793508686.4388087,
+  "expires": 1793509835,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
