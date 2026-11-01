@@ -265,6 +265,35 @@ def test_safest_bet_is_booked_once_in_its_own_state(tmp_path, monkeypatch):
     m = {"ticker": "B", "status": "active", "yes_bid_dollars": "0.96", "yes_ask_dollars": "0.97", "volume_24h_fp": "500",
          "close_time": "2026-10-29T02:00:00Z"}
     ev = [{"event_ticker": "E", "series_ticker": "S", "markets": [m]}]
-    km.safest_bet(ev, {"budget": D(20)}, when)
-    km.safest_bet(ev, {"budget": D(20)}, when)
+    class Api:
+        def market(self, ticker):
+            return {"result": ""}
+
+    km.safest_bet(Api(), ev, {"budget": D(20)}, when)
+    km.safest_bet(Api(), ev, {"budget": D(20)}, when)
     assert len(kb.load_state()["open"]) == 1
+
+    class Settled:
+        def market(self, ticker):
+            return {"result": "yes"}
+
+    km.safest_bet(Settled(), [], {"budget": D(20)}, when)
+    s = kb.load_state()
+    assert not s["open"] and s["closed"][0]["pnl"] == "0.02"  # won $1 on 1 contract bought at 97c plus a 1c fee
+
+
+def test_quote_is_cancelled_after_a_missed_hedge(monkeypatch):
+    from bot import kalshi_maker as km
+
+    q = {"event": "E", "ticker": "A", "order_id": "o1", "done": 0, "sets": 5, "placed": 0, "price": "0.40",
+         "multiplier": "1", "hedge": [{"ticker": "B", "limit": "0.55"}]}
+    state = {"realized": "0", "open": [], "closed": [], "quotes": [q]}
+    cancelled = []
+    monkeypatch.setattr(km.kl, "load_state", lambda: state)
+    monkeypatch.setattr(km.kl, "save_state", lambda s: None)
+    monkeypatch.setattr(km, "filled", lambda api, oid, t: (2, "resting"))
+    monkeypatch.setattr(km, "hedge", lambda api, s, q, n: False)
+    monkeypatch.setattr(km, "cancel", lambda api, oid, t: cancelled.append(oid))
+    monkeypatch.setattr(km, "still_pays", lambda api, q, cfg: True)
+    km.check(object(), {"quote_min": 30, "min_profit": D("0.10")})
+    assert cancelled == ["o1"]

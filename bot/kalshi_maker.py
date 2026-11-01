@@ -277,12 +277,13 @@ def place(api, cfg: dict, events: list[dict]) -> int:
     return placed
 
 
-def safest_bet(events: list[dict], cfg: dict, when: datetime) -> None:
+def safest_bet(api, events: list[dict], cfg: dict, when: datetime) -> None:
     """Once a day (from 3pm Eastern) paper-bet $1 on the likeliest outcome closing within 24h. Kept in its own
     state file and summary, apart from the locked-in profit, because it can lose."""
     from . import kalshi_bets as kb
 
     state = kb.load_state()
+    kb.settle(api, state)
     kb.place(state, kb.daily_safest(events, when, {"_state": state}), cfg["budget"])
     kb.save_state(state)
     kb.summary(state, cfg["budget"], when)
@@ -299,10 +300,15 @@ def check(api, cfg: dict) -> None:
             log.warning("Quote %s: can't read order: %s", q["event"], err)
             keep.append(q)
             continue
+        missed = False
         if n > q["done"]:
-            hedge(api, state, q, n - q["done"])
+            missed = not hedge(api, state, q, n - q["done"])
             q["done"] = n
         live = status == "resting" and q["done"] < q["sets"]
+        if live and missed:  # the hedge book is gone: more fills would only add unhedged contracts
+            cancel(api, q["order_id"], q["ticker"])
+            log.info("Quote %s cancelled after a missed hedge (%d/%d filled)", q["event"], q["done"], q["sets"])
+            live = False
         if live and (time.time() - q["placed"] > cfg["quote_min"] * 60 or not still_pays(api, q, cfg)):
             cancel(api, q["order_id"], q["ticker"])
             n, _ = filled(api, q["order_id"], q["ticker"])  # a fill can land between the check and the cancel
@@ -479,7 +485,7 @@ def main() -> None:
                     kl.write_summary(cfg, mode, events, good, traded, ranked, when)
                     placed = place(api, cfg, events)
                     if safest_on:
-                        safest_bet(events, cfg, when)
+                        safest_bet(api, events, cfg, when)
                     log.info("Swept %d events: %d taker trades, %d new quotes, %d resting", len(events), len(traded), placed,
                              len(kl.load_state().get("quotes", [])))
                 check(api, cfg)
