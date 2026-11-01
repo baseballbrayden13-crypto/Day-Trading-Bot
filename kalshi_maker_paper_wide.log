@@ -2802,3 +2802,18 @@
 2026-11-01 01:51:13,486 INFO PAPER rest NO bid KXLOWTPHIL-26NOV01-T42 at $0.0900 x5 (0 already bid at that price)
 2026-11-01 01:51:13,486 INFO Resting NO bid on KXLOWTPHIL-26NOV01-T42 at $0.0900 x5 (KXLOWTPHIL-26NOV01): locks in $0.19 if it fills; hedge NO B41.5@0.8600
 2026-11-01 01:51:13,489 INFO Swept 20701 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-01 01:56:14,747 INFO Swept 20692 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 01:01:15,419 INFO Swept 20691 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 01:02:06,185 INFO PAPER KXLOWTPHIL-26NOV01-T42 NO bid at $0.0900: 1/5 filled by real trades
+2026-11-01 01:02:06,203 INFO PAPER buy 1 NO KXLOWTPHIL-26NOV01-B41.5 at up to $0.8800: filled 1
+2026-11-01 01:02:06,203 INFO Quote KXLOWTPHIL-26NOV01 filled 1: hedged, locks in $0.01
+2026-11-01 01:02:06,234 INFO PAPER KXLOWTPHIL-26NOV01-T42 NO bid at $0.0900: 1/5 filled by real trades
+2026-11-01 01:02:06,240 INFO Quote KXLOWTPHIL-26NOV01 cancelled (1/5 filled)
+2026-11-01 01:06:21,147 INFO PAPER rest NO bid KXNFLNEXTTEAM-26JDOWNS2-SEA at $0.1000 x1 (0 already bid at that price)
+2026-11-01 01:06:21,147 INFO Resting NO bid on KXNFLNEXTTEAM-26JDOWNS2-SEA at $0.1000 x1 (KXNFLNEXTTEAM-26JDOWNS2): locks in $0.55 if it fills; hedge NO IND@0.9700, KC@0.6500, NE@0.9700, PIT@0.7000, SF@0.9800
+2026-11-01 01:06:21,149 INFO Swept 20664 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 01:11:23,771 INFO Swept 20664 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 01:16:25,876 INFO Swept 20649 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 01:21:27,060 INFO PAPER rest NO bid KXLPGATOUR-MAYC26-YANLIU at $0.9100 x5 (516 already bid at that price)
+2026-11-01 01:21:27,060 INFO Resting NO bid on KXLPGATOUR-MAYC26-YANLIU at $0.91 x5 (KXLPGATOUR-MAYC26): locks in $0.12 if it fills; hedge NO MIYYAM@0.0590
+2026-11-01 01:21:27,063 INFO Swept 20647 events: 0 taker trades, 1 new quotes, 2 resting

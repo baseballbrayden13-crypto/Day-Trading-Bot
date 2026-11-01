@@ -47,6 +47,30 @@
      "limit": "0.90"
     }
    ]
+  },
+  {
+   "event": "KXLOWTPHIL-26NOV01",
+   "series": "KXLOWTPHIL",
+   "title": "Lowest temperature in Philadelphia on Nov 1, 2026?",
+   "sets": 1,
+   "outlay": "0.9900",
+   "locked_profit": "0.0100",
+   "opened": "2026-11-01T06:02:06.203628+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLOWTPHIL-26NOV01-T42",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0900"
+    },
+    {
+     "ticker": "KXLOWTPHIL-26NOV01-B41.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.8800"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1358,40 +1382,56 @@
  ],
  "quotes": [
   {
-   "event": "KXFIBAECUPGAME-26NOV031400LEVBAS",
-   "series": "KXFIBAECUPGAME",
-   "title": "BK Levicki Patrioti vs Basquet Girona",
-   "ticker": "KXFIBAECUPGAME-26NOV031400LEVBAS-LEV",
-   "order_id": "paper-451-1793511976",
-   "price": "0.8800",
-   "sets": 5,
+   "event": "KXNFLNEXTTEAM-26JDOWNS2",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Josh Downs Next Team",
+   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-SEA",
+   "order_id": "paper-453-1793513181",
+   "price": "0.1000",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.8400",
+   "reserve": "4.4500",
    "multiplier": "1",
-   "placed": 1793511976.3771212,
+   "placed": 1793513181.1472213,
    "hedge": [
     {
-     "ticker": "KXFIBAECUPGAME-26NOV031400LEVBAS-BAS",
-     "limit": "0.0800"
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
+     "limit": "0.9700"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
+     "limit": "0.6500"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
+     "limit": "0.9700"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PIT",
+     "limit": "0.7000"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-SF",
+     "limit": "0.9800"
     }
    ]
   },
   {
-   "event": "KXLOWTPHIL-26NOV01",
-   "series": "KXLOWTPHIL",
-   "title": "Lowest temperature in Philadelphia on Nov 1, 2026?",
-   "ticker": "KXLOWTPHIL-26NOV01-T42",
-   "order_id": "paper-452-1793512273",
-   "price": "0.0900",
+   "event": "KXLPGATOUR-MAYC26",
+   "series": "KXLPGATOUR",
+   "title": "Maybank Championship Winner",
+   "ticker": "KXLPGATOUR-MAYC26-YANLIU",
+   "order_id": "paper-454-1793514087",
+   "price": "0.91",
    "sets": 5,
    "done": 0,
-   "reserve": "4.8100",
+   "reserve": "4.8750",
    "multiplier": "1",
-   "placed": 1793512273.4869738,
+   "placed": 1793514087.060575,
    "hedge": [
     {
-     "ticker": "KXLOWTPHIL-26NOV01-B41.5",
-     "limit": "0.8600"
+     "ticker": "KXLPGATOUR-MAYC26-MIYYAM",
+     "limit": "0.0590"
     }
    ]
   }
