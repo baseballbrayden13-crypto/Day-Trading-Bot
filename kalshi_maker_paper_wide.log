@@ -3070,3 +3070,7 @@
 2026-11-01 13:10:08,862 INFO Resting NO bid on KXSERIECGAME-26NOV01CAMFOR-TIE at $0.9100 x5 (KXSERIECGAME-26NOV01CAMFOR): locks in $0.22 if it fills; hedge NO CAM@0.0400
 2026-11-01 13:10:08,865 INFO Swept 20185 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-01 13:10:09,174 INFO Quote KXSERIECGAME-26NOV01CAMFOR cancelled (0/5 filled)
+2026-11-01 13:17:05,607 INFO Swept 20229 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 13:24:01,879 INFO Swept 20211 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 13:30:57,386 INFO Swept 20195 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 13:31:02,581 INFO Stopped; all quotes cancelled.

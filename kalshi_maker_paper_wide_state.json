@@ -1493,25 +1493,5 @@
    "closed": "2026-11-01T16:14:50.228675+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXOWGAME-26NOV011300UNKTM",
-   "series": "KXOWGAME",
-   "title": "OCS EMEA Stage 3 2026: 1234 vs. Twisted Minds",
-   "ticker": "KXOWGAME-26NOV011300UNKTM-TM",
-   "order_id": "paper-489-1793556198",
-   "price": "0.08",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.9000",
-   "multiplier": "1",
-   "placed": 1793556198.16453,
-   "hedge": [
-    {
-     "ticker": "KXOWGAME-26NOV011300UNKTM-UNK",
-     "limit": "0.8900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
