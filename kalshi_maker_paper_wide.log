@@ -2679,3 +2679,13 @@
 2026-10-31 21:08:35,171 INFO Swept 20691 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-31 21:13:35,248 INFO Swept 20711 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-31 21:18:38,814 INFO Swept 20732 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 21:23:43,525 INFO Swept 20732 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 21:28:46,115 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV02PREUNCG-PRE at $0.7200 x5 (0 already bid at that price)
+2026-10-31 21:28:46,115 INFO Resting NO bid on KXNCAAWBGAME-26NOV02PREUNCG-PRE at $0.7200 x5 (KXNCAAWBGAME-26NOV02PREUNCG): locks in $0.37 if it fills; hedge NO UNCG@0.1900
+2026-10-31 21:28:46,117 INFO Swept 20758 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 21:33:50,303 INFO Swept 20748 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 21:38:52,978 INFO PAPER rest NO bid KXNEXTTEAMNHL-26DLARKIN71-MIN at $0.8100 x5 (0 already bid at that price)
+2026-10-31 21:38:52,978 INFO Resting NO bid on KXNEXTTEAMNHL-26DLARKIN71-MIN at $0.8100 x5 (KXNEXTTEAMNHL-26DLARKIN71): locks in $0.13 if it fills; hedge NO DET@0.1500
+2026-10-31 21:38:52,981 INFO Swept 20738 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 21:43:57,872 INFO Swept 20719 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 21:49:01,386 INFO Swept 20702 events: 0 taker trades, 0 new quotes, 2 resting

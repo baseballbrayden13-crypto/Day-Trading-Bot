@@ -1318,40 +1318,40 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26OCT31NDWIS",
-   "series": "KXNCAAHGAME",
-   "title": "Notre Dame vs Wisconsin",
-   "ticker": "KXNCAAHGAME-26OCT31NDWIS-ND",
-   "order_id": "paper-428-1793494403",
-   "price": "0.6700",
+   "event": "KXNCAAWBGAME-26NOV02PREUNCG",
+   "series": "KXNCAAWBGAME",
+   "title": "Presbyterian vs UNC Greensboro",
+   "ticker": "KXNCAAWBGAME-26NOV02PREUNCG-PRE",
+   "order_id": "paper-431-1793496526",
+   "price": "0.7200",
    "sets": 5,
    "done": 0,
-   "reserve": "4.6900",
+   "reserve": "4.6300",
    "multiplier": "1",
-   "placed": 1793494403.5832868,
+   "placed": 1793496526.115381,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26OCT31NDWIS-WIS",
-     "limit": "0.2500"
+     "ticker": "KXNCAAWBGAME-26NOV02PREUNCG-UNCG",
+     "limit": "0.1900"
     }
    ]
   },
   {
-   "event": "KXNBAGAME-26NOV04PHIDET",
-   "series": "KXNBAGAME",
-   "title": "Philadelphia vs Detroit",
-   "ticker": "KXNBAGAME-26NOV04PHIDET-PHI",
-   "order_id": "paper-430-1793495010",
-   "price": "0.3600",
+   "event": "KXNEXTTEAMNHL-26DLARKIN71",
+   "series": "KXNEXTTEAMNHL",
+   "title": "Dylan Larkin's Next Team",
+   "ticker": "KXNEXTTEAMNHL-26DLARKIN71-MIN",
+   "order_id": "paper-432-1793497132",
+   "price": "0.8100",
    "sets": 5,
    "done": 0,
-   "reserve": "4.7200",
+   "reserve": "4.8700",
    "multiplier": "1",
-   "placed": 1793495010.1227794,
+   "placed": 1793497132.9789457,
    "hedge": [
     {
-     "ticker": "KXNBAGAME-26NOV04PHIDET-DET",
-     "limit": "0.5600"
+     "ticker": "KXNEXTTEAMNHL-26DLARKIN71-DET",
+     "limit": "0.1500"
     }
    ]
   }
