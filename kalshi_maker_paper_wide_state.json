@@ -41,6 +41,23 @@
      "limit": "0.38"
     }
    ]
+  },
+  {
+   "event": "KXKBOGAME-26NOV040430SAMKTW (stray)",
+   "series": "KXKBOGAME",
+   "title": "Samsung Lions vs KT Wiz",
+   "sets": 0,
+   "outlay": "1.32",
+   "locked_profit": "0",
+   "opened": "2026-11-01T22:16:34.310711+00:00",
+   "legs": [
+    {
+     "ticker": "KXKBOGAME-26NOV040430SAMKTW-KTW",
+     "side": "no",
+     "count": 5,
+     "limit": "0.26"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1532,59 +1549,67 @@
  ],
  "quotes": [
   {
+   "event": "KXCOPADOBRASIL-26",
+   "series": "KXCOPADOBRASIL",
+   "title": "Copa do Brasil Champion",
+   "ticker": "KXCOPADOBRASIL-26-GRN",
+   "order_id": "paper-519-1793571394",
+   "price": "0.3400",
+   "sets": 1,
+   "done": 0,
+   "reserve": "2.7100",
+   "multiplier": "1",
+   "placed": 1793571394.1165104,
+   "hedge": [
+    {
+     "ticker": "KXCOPADOBRASIL-26-VDG",
+     "limit": "0.8700"
+    },
+    {
+     "ticker": "KXCOPADOBRASIL-26-ATL",
+     "limit": "0.8100"
+    },
+    {
+     "ticker": "KXCOPADOBRASIL-26-PAL",
+     "limit": "0.7200"
+    }
+   ]
+  },
+  {
    "event": "KXKBOGAME-26NOV040430SAMKTW",
    "series": "KXKBOGAME",
    "title": "Samsung Lions vs KT Wiz",
    "ticker": "KXKBOGAME-26NOV040430SAMKTW-KTW",
-   "order_id": "paper-516-1793569883",
-   "price": "0.26",
+   "order_id": "paper-520-1793571778",
+   "price": "0.1300",
    "sets": 5,
    "done": 0,
-   "reserve": "4.9000",
+   "reserve": "4.5900",
    "multiplier": "1",
-   "placed": 1793569883.0733955,
+   "placed": 1793571778.7497182,
    "hedge": [
     {
      "ticker": "KXKBOGAME-26NOV040430SAMKTW-SAM",
-     "limit": "0.7000"
+     "limit": "0.8200"
     }
    ]
   },
   {
-   "event": "KXNFLMOSTRECYDS-26NOV01ARIDAL",
-   "series": "KXNFLMOSTRECYDS",
-   "title": "Arizona vs Dallas: Most Receiving Yards",
-   "ticker": "KXNFLMOSTRECYDS-26NOV01ARIDAL-ARITMCBRIDE85",
-   "order_id": "paper-517-1793569883",
-   "price": "0.5100",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.6700",
-   "multiplier": "1",
-   "placed": 1793569883.1405754,
-   "hedge": [
-    {
-     "ticker": "KXNFLMOSTRECYDS-26NOV01ARIDAL-ARIMWILSON14",
-     "limit": "0.4000"
-    }
-   ]
-  },
-  {
-   "event": "KXNFLFIRSTTDTEAM-26NOV01LACLAR",
-   "series": "KXNFLFIRSTTDTEAM",
-   "title": "Los Angeles C vs Los Angeles R: First Team to Score a TD",
-   "ticker": "KXNFLFIRSTTDTEAM-26NOV01LACLAR-LAR",
-   "order_id": "paper-518-1793570643",
-   "price": "0.1800",
+   "event": "KXF1WINMARGIN-MEX26",
+   "series": "KXF1WINMARGIN",
+   "title": "Main Race Winning Margin: 2026 Mexico City Grand Prix",
+   "ticker": "KXF1WINMARGIN-MEX26-GE10000",
+   "order_id": "paper-521-1793572138",
+   "price": "0.8500",
    "sets": 4,
    "done": 0,
-   "reserve": "3.3700",
+   "reserve": "3.8400",
    "multiplier": "1",
-   "placed": 1793570643.4954326,
+   "placed": 1793572138.7091837,
    "hedge": [
     {
-     "ticker": "KXNFLFIRSTTDTEAM-26NOV01LACLAR-LAC",
-     "limit": "0.6400"
+     "ticker": "KXF1WINMARGIN-MEX26-LT2500",
+     "limit": "0.1000"
     }
    ]
   }
