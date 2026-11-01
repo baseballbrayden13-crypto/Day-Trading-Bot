@@ -24,6 +24,23 @@
      "limit": "0.8800"
     }
    ]
+  },
+  {
+   "event": "KXITFMATCH-26NOV01ALANAH (stray)",
+   "series": "KXITFMATCH",
+   "title": "Al-Amin vs Naharro",
+   "sets": 0,
+   "outlay": "1.7700",
+   "locked_profit": "0",
+   "opened": "2026-11-01T16:05:46.448957+00:00",
+   "legs": [
+    {
+     "ticker": "KXITFMATCH-26NOV01ALANAH-NAH",
+     "side": "no",
+     "count": 5,
+     "limit": "0.3500"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1473,5 +1490,44 @@
    "closed": "2026-11-01T14:49:02.607758+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAWBGAME-26NOV02TEMGMU",
+   "series": "KXNCAAWBGAME",
+   "title": "Temple vs George Mason",
+   "ticker": "KXNCAAWBGAME-26NOV02TEMGMU-TEM",
+   "order_id": "paper-476-1793547891",
+   "price": "0.6500",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8500",
+   "multiplier": "1",
+   "placed": 1793547891.609227,
+   "hedge": [
+    {
+     "ticker": "KXNCAAWBGAME-26NOV02TEMGMU-GMU",
+     "limit": "0.3000"
+    }
+   ]
+  },
+  {
+   "event": "KXATP-26BASEL",
+   "series": "KXATP",
+   "title": "ATP Basel Winner",
+   "ticker": "KXATP-26BASEL-LEH",
+   "order_id": "paper-480-1793549402",
+   "price": "0.2200",
+   "sets": 5,
+   "done": 0,
+   "reserve": "3.9100",
+   "multiplier": "1",
+   "placed": 1793549402.6424246,
+   "hedge": [
+    {
+     "ticker": "KXATP-26BASEL-VAC",
+     "limit": "0.5400"
+    }
+   ]
+  }
+ ]
 }

@@ -3001,3 +3001,26 @@
 2026-11-01 10:34:46,769 INFO Swept 20355 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-01 10:39:50,065 INFO Swept 20352 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-01 10:40:46,187 INFO Quote KXITFMATCH-26NOV01FERBEL cancelled (0/2 filled)
+2026-11-01 10:44:51,609 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV02TEMGMU-TEM at $0.6500 x5 (0 already bid at that price)
+2026-11-01 10:44:51,609 INFO Resting NO bid on KXNCAAWBGAME-26NOV02TEMGMU-TEM at $0.6500 x5 (KXNCAAWBGAME-26NOV02TEMGMU): locks in $0.15 if it fills; hedge NO GMU@0.3000
+2026-11-01 10:44:51,665 INFO PAPER rest NO bid KXITFMATCH-26NOV01ALANAH-NAH at $0.3500 x5 (0 already bid at that price)
+2026-11-01 10:44:51,665 INFO Resting NO bid on KXITFMATCH-26NOV01ALANAH-NAH at $0.3500 x5 (KXITFMATCH-26NOV01ALANAH): locks in $0.24 if it fills; hedge NO ALA@0.5800
+2026-11-01 10:44:51,721 INFO PAPER rest NO bid KXETTANGAME-26NOV01PITSTS-STS at $0.9100 x2 (3 already bid at that price)
+2026-11-01 10:44:51,721 INFO Resting NO bid on KXETTANGAME-26NOV01PITSTS-STS at $0.91 x2 (KXETTANGAME-26NOV01PITSTS): locks in $0.11 if it fills; hedge NO PIT@0.1100, TIE@0.9000
+2026-11-01 10:44:51,778 INFO PAPER rest NO bid KXMARATHON-NYCWOMENS26-JMCC at $0.3100 x2 (0 already bid at that price)
+2026-11-01 10:44:51,778 INFO Resting NO bid on KXMARATHON-NYCWOMENS26-JMCC at $0.3100 x2 (KXMARATHON-NYCWOMENS26): locks in $0.12 if it fills; hedge NO HOBI@0.7000, SCHE@0.9000
+2026-11-01 10:44:51,782 INFO Swept 20345 events: 0 taker trades, 4 new quotes, 4 resting
+2026-11-01 10:49:52,365 INFO Swept 20357 events: 0 taker trades, 0 new quotes, 4 resting
+2026-11-01 10:49:52,800 INFO Quote KXMARATHON-NYCWOMENS26 cancelled (0/2 filled)
+2026-11-01 10:50:29,867 INFO Quote KXETTANGAME-26NOV01PITSTS cancelled (0/2 filled)
+2026-11-01 10:54:53,906 INFO Swept 20363 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 10:59:58,546 INFO Swept 20335 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 11:04:59,289 INFO Swept 20315 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 11:05:46,346 INFO PAPER KXITFMATCH-26NOV01ALANAH-NAH NO bid at $0.3500: 5/5 filled by real trades
+2026-11-01 11:05:46,400 INFO PAPER buy 5 NO KXITFMATCH-26NOV01ALANAH-ALA at up to $0.5800: not on the book
+2026-11-01 11:05:46,400 WARNING Quote KXITFMATCH-26NOV01ALANAH: hedge missed on KXITFMATCH-26NOV01ALANAH-ALA. Selling back 5 contracts on 1 legs.
+2026-11-01 11:05:46,448 INFO PAPER sell 5 YES KXITFMATCH-26NOV01ALANAH-NAH at up to $0.7000: not on the book
+2026-11-01 11:05:46,448 ERROR STRAY POSITION: 5 NO contracts of KXITFMATCH-26NOV01ALANAH-NAH still held. Check it on Kalshi.
+2026-11-01 11:10:02,642 INFO PAPER rest NO bid KXATP-26BASEL-LEH at $0.2200 x5 (0 already bid at that price)
+2026-11-01 11:10:02,642 INFO Resting NO bid on KXATP-26BASEL-LEH at $0.2200 x5 (KXATP-26BASEL): locks in $1.09 if it fills; hedge NO VAC@0.5400
+2026-11-01 11:10:02,646 INFO Swept 20351 events: 0 taker trades, 1 new quotes, 2 resting
