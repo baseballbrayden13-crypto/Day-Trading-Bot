@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-31T01:25:50+00:00",
+ "checked": "2026-11-01T01:32:00+00:00",
  "status": {
   "0": "info",
   "1": "info",
@@ -20,18 +20,9 @@
   },
   {
    "bot": 1,
-   "level": "ok",
-   "check": "replay",
-   "message": "2026-10-30: bot 1 did what the backtest would have (2 entries).",
-   "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 1,
    "level": "info",
    "check": "return",
-   "message": "$4,984.47, -0.3% since the $5,000 start.",
+   "message": "$4,984.43, -0.3% since the $5,000 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -76,7 +67,7 @@
    "bot": 3,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -5.4%.",
+   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -5.0%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -94,7 +85,7 @@
    "bot": 7,
    "level": "act",
    "check": "losses",
-   "message": "Bot 4e: 4 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
+   "message": "Bot 4e: 11 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
    "fix": "Read kalshi_data/opportunities.csv for those events.",
    "proposal": "Pause Bot 4e until the losing trades are explained.",
    "risk": "Medium"
@@ -103,16 +94,7 @@
    "bot": 7,
    "level": "act",
    "check": "errors",
-   "message": "Bot 4e: 1 warnings last loop. Latest: 2026-10-31 01:13 Quote KXSSHIELDMATCH-26OCT272000WEARED: hedge missed on KXSSHIELDMATCH-26OCT272000WEARED-RED. Selling back 5 contracts on 1 legs. (Flagged 3 days in a row.)",
-   "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 7,
-   "level": "act",
-   "check": "errors",
-   "message": "Bot 4e: 2 errors in the last day. Latest: 2026-10-30 05:18:53,593 ERROR STRAY POSITION: 6 NO contracts of KXEBASKETBALLGAME-26OCT300512MICKJASO-JASO still held. Check it on Kalshi. (Flagged 3 days in a row.)",
+   "message": "Bot 4e: 5 errors in the last day. Latest: 2026-10-31 17:30:10,762 ERROR STRAY POSITION: 1 NO contracts of KXNCAAHGAME-26OCT31MICOSU-OSU still held. Check it on Kalshi.",
    "fix": "Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug.",
    "proposal": "",
    "risk": "Low"
@@ -121,7 +103,7 @@
    "bot": 7,
    "level": "info",
    "check": "return",
-   "message": "Bot 4e: 30 settled, 3 open, $+1.50 settled profit.",
+   "message": "Bot 4e: 49 settled, 2 open, $-1.80 settled profit.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
