@@ -1,5 +1,5 @@
 {
- "realized": "-4.0900",
+ "realized": "-4.4600",
  "open": [
   {
    "event": "KXLOWTPHIL-26NOV01",
@@ -1515,40 +1515,59 @@
  ],
  "quotes": [
   {
-   "event": "KXF1H2H-MEX26ANTVER",
+   "event": "KXF1H2H-MEX26HAMLEC",
    "series": "KXF1H2H",
-   "title": "F1 Matchup: Antonelli vs Verstappen",
-   "ticker": "KXF1H2H-MEX26ANTVER-VER",
-   "order_id": "paper-509-1793566666",
-   "price": "0.05",
+   "title": "F1 Matchup: Hamilton vs Leclerc",
+   "ticker": "KXF1H2H-MEX26HAMLEC-HAM",
+   "order_id": "paper-512-1793567917",
+   "price": "0.18",
    "sets": 5,
    "done": 0,
    "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793566666.595006,
+   "placed": 1793567917.6077719,
    "hedge": [
     {
-     "ticker": "KXF1H2H-MEX26ANTVER-ANT",
-     "limit": "0.9200"
+     "ticker": "KXF1H2H-MEX26HAMLEC-LEC",
+     "limit": "0.7800"
     }
    ]
   },
   {
-   "event": "KXNFLWINMARGIN-26NOV01INDJAC",
-   "series": "KXNFLWINMARGIN",
-   "title": "Indianapolis vs Jacksonville: Winning Margin",
-   "ticker": "KXNFLWINMARGIN-26NOV01INDJAC-IND7TO14",
-   "order_id": "paper-510-1793567088",
-   "price": "0.8700",
-   "sets": 5,
+   "event": "KXBILLBOARDRUNNERUPSONG-26NOV07",
+   "series": "KXBILLBOARDRUNNERUPSONG",
+   "title": "#2 on the Billboard Hot 100 chart for the Week of Nov 7, 2026?",
+   "ticker": "KXBILLBOARDRUNNERUPSONG-26NOV07-DRA",
+   "order_id": "paper-513-1793568322",
+   "price": "0.1000",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.6800",
+   "reserve": "0.1800",
    "multiplier": "1",
-   "placed": 1793567088.7638261,
+   "placed": 1793568322.78999,
    "hedge": [
     {
-     "ticker": "KXNFLWINMARGIN-26NOV01INDJAC-JAC15PLUS",
+     "ticker": "KXBILLBOARDRUNNERUPSONG-26NOV07-HOU",
      "limit": "0.0600"
+    }
+   ]
+  },
+  {
+   "event": "KXNFLMOSTRSHYDS-26NOV01BALBUF",
+   "series": "KXNFLMOSTRSHYDS",
+   "title": "Baltimore vs Buffalo: Most Rushing Yards",
+   "ticker": "KXNFLMOSTRSHYDS-26NOV01BALBUF-BALDHENRY22",
+   "order_id": "paper-514-1793568720",
+   "price": "0.5200",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.7200",
+   "multiplier": "1",
+   "placed": 1793568720.639726,
+   "hedge": [
+    {
+     "ticker": "KXNFLMOSTRSHYDS-26NOV01BALBUF-BUFJCOOK4",
+     "limit": "0.4000"
     }
    ]
   }
