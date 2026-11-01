@@ -2980,3 +2980,24 @@
 2026-11-01 10:09:30,939 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV02TEMGMU-TEM at $0.6500 x4 (0 already bid at that price)
 2026-11-01 10:09:30,939 INFO Resting NO bid on KXNCAAWBGAME-26NOV02TEMGMU-TEM at $0.65 x4 (KXNCAAWBGAME-26NOV02TEMGMU): locks in $0.12 if it fills; hedge NO GMU@0.3000
 2026-11-01 10:09:30,943 INFO Swept 20429 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 10:14:34,190 INFO Swept 20422 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 10:19:37,249 INFO PAPER rest NO bid KXSLBGAME-26NOV010900SHESUR-SHE at $0.0600 x5 (0 already bid at that price)
+2026-11-01 10:19:37,249 INFO Resting NO bid on KXSLBGAME-26NOV010900SHESUR-SHE at $0.0600 x5 (KXSLBGAME-26NOV010900SHESUR): locks in $0.15 if it fills; hedge NO SUR@0.9000
+2026-11-01 10:19:37,306 INFO PAPER rest NO bid KXITFMATCH-26NOV01FERBEL-FER at $0.6700 x5 (0 already bid at that price)
+2026-11-01 10:19:37,306 INFO Resting NO bid on KXITFMATCH-26NOV01FERBEL-FER at $0.6700 x5 (KXITFMATCH-26NOV01FERBEL): locks in $0.52 if it fills; hedge NO BEL@0.2100
+2026-11-01 10:19:37,309 INFO Swept 20421 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-01 10:21:08,032 INFO Quote KXSLBGAME-26NOV010900SHESUR cancelled (0/5 filled)
+2026-11-01 10:24:39,386 INFO PAPER rest NO bid KXSERIECGAME-26NOV01CITFBC-CIT at $0.0200 x5 (879 already bid at that price)
+2026-11-01 10:24:39,386 INFO Resting NO bid on KXSERIECGAME-26NOV01CITFBC-CIT at $0.02 x5 (KXSERIECGAME-26NOV01CITFBC): locks in $0.12 if it fills; hedge NO TIE@0.9500
+2026-11-01 10:24:39,443 INFO PAPER rest NO bid KXETTANGAME-26NOV01ATVUTS-UTS at $0.8300 x2 (0 already bid at that price)
+2026-11-01 10:24:39,443 INFO Resting NO bid on KXETTANGAME-26NOV01ATVUTS-UTS at $0.8300 x2 (KXETTANGAME-26NOV01ATVUTS): locks in $0.11 if it fills; hedge NO ATV@0.1700, TIE@0.9200
+2026-11-01 10:24:39,447 INFO Swept 20407 events: 0 taker trades, 2 new quotes, 4 resting
+2026-11-01 10:24:45,369 INFO Quote KXETTANGAME-26NOV01ATVUTS cancelled (0/2 filled)
+2026-11-01 10:25:17,264 INFO Quote KXITFMATCH-26NOV01FERBEL cancelled (0/5 filled)
+2026-11-01 10:25:17,433 INFO Quote KXSERIECGAME-26NOV01CITFBC cancelled (0/5 filled)
+2026-11-01 10:29:43,892 INFO Swept 20392 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 10:34:46,765 INFO PAPER rest NO bid KXITFMATCH-26NOV01FERBEL-FER at $0.6700 x2 (0 already bid at that price)
+2026-11-01 10:34:46,765 INFO Resting NO bid on KXITFMATCH-26NOV01FERBEL-FER at $0.6700 x2 (KXITFMATCH-26NOV01FERBEL): locks in $0.16 if it fills; hedge NO BEL@0.2300
+2026-11-01 10:34:46,769 INFO Swept 20355 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 10:39:50,065 INFO Swept 20352 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 10:40:46,187 INFO Quote KXITFMATCH-26NOV01FERBEL cancelled (0/2 filled)

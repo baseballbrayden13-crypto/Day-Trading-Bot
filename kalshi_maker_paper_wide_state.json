@@ -1473,25 +1473,5 @@
    "closed": "2026-11-01T14:49:02.607758+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAWBGAME-26NOV02TEMGMU",
-   "series": "KXNCAAWBGAME",
-   "title": "Temple vs George Mason",
-   "ticker": "KXNCAAWBGAME-26NOV02TEMGMU-TEM",
-   "order_id": "paper-470-1793545770",
-   "price": "0.65",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.8800",
-   "multiplier": "1",
-   "placed": 1793545770.9397922,
-   "hedge": [
-    {
-     "ticker": "KXNCAAWBGAME-26NOV02TEMGMU-GMU",
-     "limit": "0.3000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
