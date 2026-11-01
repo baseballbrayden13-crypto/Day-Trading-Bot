@@ -3116,3 +3116,28 @@
 2026-11-01 14:53:50,649 INFO Swept 20023 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 14:53:50,858 INFO Quote KXBRASILEIROB1H-26NOV01LONAMG cancelled (0/2 filled)
 2026-11-01 15:00:56,322 INFO Swept 19994 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 15:07:55,596 INFO PAPER rest NO bid KXF1WINMARGIN-MEX26-LT2500 at $0.3300 x1 (0 already bid at that price)
+2026-11-01 15:07:55,596 INFO Resting NO bid on KXF1WINMARGIN-MEX26-LT2500 at $0.3300 x1 (KXF1WINMARGIN-MEX26): locks in $0.11 if it fills; hedge NO 4999@0.8400, 9999@0.8400, GE10000@0.8400
+2026-11-01 15:07:55,663 INFO PAPER rest NO bid KXF1H2H-MEX26HAMLEC-LEC at $0.5400 x5 (8 already bid at that price)
+2026-11-01 15:07:55,663 INFO Resting NO bid on KXF1H2H-MEX26HAMLEC-LEC at $0.54 x5 (KXF1H2H-MEX26HAMLEC): locks in $0.13 if it fills; hedge NO HAM@0.4100
+2026-11-01 15:07:55,730 INFO PAPER rest NO bid KXF1H2H-MEX26GASHUL-HUL at $0.3900 x1 (0 already bid at that price)
+2026-11-01 15:07:55,731 INFO Resting NO bid on KXF1H2H-MEX26GASHUL-HUL at $0.3900 x1 (KXF1H2H-MEX26GASHUL): locks in $0.13 if it fills; hedge NO GAS@0.4500
+2026-11-01 15:07:55,951 INFO PAPER BET daily_safest: 1 YES KXRAIN-26NOV01-ABQ at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-01 15:07:55,953 INFO Swept 19964 events: 0 taker trades, 3 new quotes, 3 resting
+2026-11-01 15:14:56,531 INFO PAPER rest NO bid KXF1TOPCONSTRUCTOR-MEX26-MER at $0.5600 x2 (33 already bid at that price)
+2026-11-01 15:14:56,531 INFO Resting NO bid on KXF1TOPCONSTRUCTOR-MEX26-MER at $0.56 x2 (KXF1TOPCONSTRUCTOR-MEX26): locks in $0.11 if it fills; hedge NO FER@0.4600, RED@0.8900
+2026-11-01 15:14:56,536 INFO Swept 20041 events: 0 taker trades, 1 new quotes, 4 resting
+2026-11-01 15:14:56,876 INFO PAPER KXF1H2H-MEX26GASHUL-HUL NO bid at $0.3900: 1/1 filled by real trades
+2026-11-01 15:14:56,946 INFO PAPER buy 1 NO KXF1H2H-MEX26GASHUL-GAS at up to $0.4500: not on the book
+2026-11-01 15:14:56,947 WARNING Quote KXF1H2H-MEX26GASHUL: hedge missed on KXF1H2H-MEX26GASHUL-GAS. Selling back 1 contracts on 1 legs.
+2026-11-01 15:14:57,012 INFO PAPER sell 1 YES KXF1H2H-MEX26GASHUL-HUL at up to $0.6600: filled 1
+2026-11-01 15:21:59,264 INFO PAPER rest NO bid KXSERIEA1H-26NOV01JUVNAP-NAP at $0.5300 x1 (0 already bid at that price)
+2026-11-01 15:21:59,264 INFO Resting NO bid on KXSERIEA1H-26NOV01JUVNAP-NAP at $0.5300 x1 (KXSERIEA1H-26NOV01JUVNAP): locks in $0.20 if it fills; hedge NO JUV@0.9300, TIE@0.3000
+2026-11-01 15:21:59,268 INFO Swept 20055 events: 0 taker trades, 1 new quotes, 4 resting
+2026-11-01 15:21:59,615 INFO Quote KXF1H2H-MEX26HAMLEC cancelled (0/5 filled)
+2026-11-01 15:21:59,838 INFO Quote KXF1TOPCONSTRUCTOR-MEX26 cancelled (0/2 filled)
+2026-11-01 15:29:08,460 INFO PAPER rest NO bid KXLALIGA1H-26NOV01ATHRSO-RSO at $0.8200 x2 (0 already bid at that price)
+2026-11-01 15:29:08,460 INFO Resting NO bid on KXLALIGA1H-26NOV01ATHRSO-RSO at $0.8200 x2 (KXLALIGA1H-26NOV01ATHRSO): locks in $0.20 if it fills; hedge NO ATH@0.2100, TIE@0.8400
+2026-11-01 15:29:08,526 INFO PAPER rest NO bid KXITFMATCH-26NOV01KLIMIL-KLI at $0.2300 x3 (0 already bid at that price)
+2026-11-01 15:29:08,527 INFO Resting NO bid on KXITFMATCH-26NOV01KLIMIL-KLI at $0.2300 x3 (KXITFMATCH-26NOV01KLIMIL): locks in $0.14 if it fills; hedge NO MIL@0.7400
+2026-11-01 15:29:08,531 INFO Swept 20038 events: 0 taker trades, 2 new quotes, 4 resting

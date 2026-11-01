@@ -1,24 +1,25 @@
 {
- "updated": "2026-11-01T19:53:55+00:00",
+ "updated": "2026-11-01T20:29:14+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "16.19",
- "realized_profit": "-3.81",
- "bet_level": "16.19",
+ "equity": "16.11",
+ "realized_profit": "-3.89",
+ "bet_level": "16.11",
  "open_trades": 1,
  "open_locked_profit": "0.01",
  "in_play": "0.99",
  "stray_positions": 0,
  "closed_trades": 43,
  "trades_this_loop": 0,
- "events_swept": 19994,
+ "events_swept": 20035,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 2,
+ "problems": 3,
  "last_problems": [
   "2026-11-01 19:32 Quote KXCOPADOBRASIL1H-26NOV01PALVDG: hedge missed on KXCOPADOBRASIL1H-26NOV01PALVDG-VDG. Selling back 2 contracts on 1 legs.",
-  "2026-11-01 19:32 STRAY POSITION: 2 NO contracts of KXCOPADOBRASIL1H-26NOV01PALVDG-PAL still held. Check it on Kalshi."
+  "2026-11-01 19:32 STRAY POSITION: 2 NO contracts of KXCOPADOBRASIL1H-26NOV01PALVDG-PAL still held. Check it on Kalshi.",
+  "2026-11-01 20:14 Quote KXF1H2H-MEX26GASHUL: hedge missed on KXF1H2H-MEX26GASHUL-GAS. Selling back 1 contracts on 1 legs."
  ]
 }
