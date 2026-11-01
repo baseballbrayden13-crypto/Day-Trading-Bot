@@ -3231,3 +3231,14 @@
 2026-11-01 18:03:19,919 INFO PAPER rest NO bid KXF1H2H-MEX26HAMLEC-LEC at $0.4700 x5 (0 already bid at that price)
 2026-11-01 18:03:19,919 INFO Resting NO bid on KXF1H2H-MEX26HAMLEC-LEC at $0.4700 x5 (KXF1H2H-MEX26HAMLEC): locks in $0.33 if it fills; hedge NO HAM@0.4400
 2026-11-01 18:03:19,924 INFO Swept 19428 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-01 18:08:31,611 INFO PAPER rest NO bid KXKBOGAME-26NOV040430SAMKTW-KTW at $0.2600 x4 (0 already bid at that price)
+2026-11-01 18:08:31,611 INFO Resting NO bid on KXKBOGAME-26NOV040430SAMKTW-KTW at $0.2600 x4 (KXKBOGAME-26NOV040430SAMKTW): locks in $0.14 if it fills; hedge NO SAM@0.7000
+2026-11-01 18:08:31,615 INFO Swept 19424 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-01 18:13:49,023 INFO Swept 19459 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-01 18:18:55,363 INFO Swept 19503 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-01 18:23:54,952 INFO Swept 19545 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-01 18:28:57,209 INFO Swept 19591 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-01 18:33:56,985 INFO Swept 19600 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 18:33:57,123 INFO PAPER KXKBOGAME-26NOV040430SAMKTW-KTW NO bid at $0.2600: 4/4 filled by real trades
+2026-11-01 18:33:57,193 INFO PAPER buy 4 NO KXKBOGAME-26NOV040430SAMKTW-SAM at up to $0.7000: filled 4
+2026-11-01 18:33:57,193 INFO Quote KXKBOGAME-26NOV040430SAMKTW filled 4: hedged, locks in $0.08
