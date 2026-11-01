@@ -3048,3 +3048,11 @@
 2026-11-01 12:00:24,045 INFO Swept 20252 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-01 12:07:17,149 INFO Swept 20252 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 12:07:17,326 INFO Quote KXPGA3BALL-VIMO26R4GENDSYELMROZ cancelled (0/2 filled)
+2026-11-01 12:14:12,450 INFO Swept 20288 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 12:21:10,109 INFO PAPER rest NO bid KXNETFLIXRANKMOVIE-26NOV02-GLA at $0.9000 x4 (479 already bid at that price)
+2026-11-01 12:21:10,110 INFO Resting NO bid on KXNETFLIXRANKMOVIE-26NOV02-GLA at $0.90 x4 (KXNETFLIXRANKMOVIE-26NOV02): locks in $0.13 if it fills; hedge NO SUR@0.0600
+2026-11-01 12:21:10,113 INFO Swept 20328 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 12:28:11,612 INFO PAPER rest NO bid KXEREDIVISIEWGAME-26NOV01UTRGRA-UTR at $0.8500 x2 (0 already bid at that price)
+2026-11-01 12:28:11,612 INFO Resting NO bid on KXEREDIVISIEWGAME-26NOV01UTRGRA-UTR at $0.8500 x2 (KXEREDIVISIEWGAME-26NOV01UTRGRA): locks in $0.13 if it fills; hedge NO GRA@0.1600, TIE@0.9000
+2026-11-01 12:28:11,616 INFO Swept 20308 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 12:35:11,710 INFO Swept 20304 events: 0 taker trades, 0 new quotes, 2 resting

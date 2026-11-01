@@ -1493,5 +1493,48 @@
    "closed": "2026-11-01T16:14:50.228675+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNETFLIXRANKMOVIE-26NOV02",
+   "series": "KXNETFLIXRANKMOVIE",
+   "title": "Top US Netflix Movie this week?",
+   "ticker": "KXNETFLIXRANKMOVIE-26NOV02-GLA",
+   "order_id": "paper-486-1793553670",
+   "price": "0.90",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8700",
+   "multiplier": "1",
+   "placed": 1793553670.1101239,
+   "hedge": [
+    {
+     "ticker": "KXNETFLIXRANKMOVIE-26NOV02-SUR",
+     "limit": "0.0600"
+    }
+   ]
+  },
+  {
+   "event": "KXEREDIVISIEWGAME-26NOV01UTRGRA",
+   "series": "KXEREDIVISIEWGAME",
+   "title": "FC Utrecht vs de Graafschap",
+   "ticker": "KXEREDIVISIEWGAME-26NOV01UTRGRA-UTR",
+   "order_id": "paper-487-1793554091",
+   "price": "0.8500",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.8700",
+   "multiplier": "1",
+   "placed": 1793554091.612472,
+   "hedge": [
+    {
+     "ticker": "KXEREDIVISIEWGAME-26NOV01UTRGRA-GRA",
+     "limit": "0.1600"
+    },
+    {
+     "ticker": "KXEREDIVISIEWGAME-26NOV01UTRGRA-TIE",
+     "limit": "0.9900"
+    }
+   ]
+  }
+ ]
 }
