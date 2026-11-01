@@ -2882,3 +2882,13 @@
 2026-11-01 04:38:09,682 INFO Swept 20716 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 04:43:11,251 INFO Swept 20730 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 04:48:10,518 INFO Swept 20734 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 04:53:15,143 INFO PAPER rest NO bid KXITFMATCH-26NOV01MANCHR-CHR at $0.6900 x2 (0 already bid at that price)
+2026-11-01 04:53:15,143 INFO Resting NO bid on KXITFMATCH-26NOV01MANCHR-CHR at $0.6900 x2 (KXITFMATCH-26NOV01MANCHR): locks in $0.12 if it fills; hedge NO MAN@0.2300
+2026-11-01 04:53:15,148 INFO Swept 20760 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 04:58:16,459 INFO Swept 20760 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 05:03:13,488 INFO Swept 20759 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 05:08:14,367 INFO PAPER rest NO bid KXMLBBGAME-26NOV010430REYSRG-REY at $0.7400 x5 (21 already bid at that price)
+2026-11-01 05:08:14,368 INFO Resting NO bid on KXMLBBGAME-26NOV010430REYSRG-REY at $0.74 x5 (KXMLBBGAME-26NOV010430REYSRG): locks in $0.11 if it fills; hedge NO SRG@0.2200
+2026-11-01 05:08:14,372 INFO Swept 20766 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 05:13:15,581 INFO Swept 20766 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 05:18:17,921 INFO Swept 20778 events: 0 taker trades, 0 new quotes, 2 resting

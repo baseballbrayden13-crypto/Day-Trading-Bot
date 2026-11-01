@@ -1439,17 +1439,36 @@
  ],
  "quotes": [
   {
+   "event": "KXITFMATCH-26NOV01MANCHR",
+   "series": "KXITFMATCH",
+   "title": "Manzanera Pertusa vs Christoffersson",
+   "ticker": "KXITFMATCH-26NOV01MANCHR-CHR",
+   "order_id": "paper-461-1793526795",
+   "price": "0.6900",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8800",
+   "multiplier": "1",
+   "placed": 1793526795.143809,
+   "hedge": [
+    {
+     "ticker": "KXITFMATCH-26NOV01MANCHR-MAN",
+     "limit": "0.2300"
+    }
+   ]
+  },
+  {
    "event": "KXMLBBGAME-26NOV010430REYSRG",
    "series": "KXMLBBGAME",
    "title": "Team Rey vs. Selangor Red Giants",
    "ticker": "KXMLBBGAME-26NOV010430REYSRG-REY",
-   "order_id": "paper-460-1793525589",
+   "order_id": "paper-462-1793527694",
    "price": "0.74",
    "sets": 5,
    "done": 0,
    "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793525589.5182085,
+   "placed": 1793527694.3682058,
    "hedge": [
     {
      "ticker": "KXMLBBGAME-26NOV010430REYSRG-SRG",
