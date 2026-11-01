@@ -1,21 +1,24 @@
 {
- "updated": "2026-11-01T19:25:24+00:00",
+ "updated": "2026-11-01T19:53:55+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "17.00",
- "realized_profit": "-3.00",
- "bet_level": "17.00",
+ "equity": "16.19",
+ "realized_profit": "-3.81",
+ "bet_level": "16.19",
  "open_trades": 1,
  "open_locked_profit": "0.01",
  "in_play": "0.99",
  "stray_positions": 0,
  "closed_trades": 43,
  "trades_this_loop": 0,
- "events_swept": 20063,
+ "events_swept": 19994,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 0,
- "last_problems": []
+ "problems": 2,
+ "last_problems": [
+  "2026-11-01 19:32 Quote KXCOPADOBRASIL1H-26NOV01PALVDG: hedge missed on KXCOPADOBRASIL1H-26NOV01PALVDG-VDG. Selling back 2 contracts on 1 legs.",
+  "2026-11-01 19:32 STRAY POSITION: 2 NO contracts of KXCOPADOBRASIL1H-26NOV01PALVDG-PAL still held. Check it on Kalshi."
+ ]
 }

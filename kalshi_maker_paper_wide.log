@@ -3110,3 +3110,9 @@
 2026-11-01 14:32:28,043 INFO PAPER sell 2 YES KXCOPADOBRASIL1H-26NOV01PALVDG-PAL at up to $0.6500: not on the book
 2026-11-01 14:32:28,043 ERROR STRAY POSITION: 2 NO contracts of KXCOPADOBRASIL1H-26NOV01PALVDG-PAL still held. Check it on Kalshi.
 2026-11-01 14:32:28,239 INFO Quote KXNCAAWVMATCH-26NOV011300PITTNCST cancelled (0/5 filled)
+2026-11-01 14:39:34,214 INFO Swept 20031 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 14:46:42,846 INFO Swept 20035 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 14:53:33,005 INFO Settled KXCOPADOBRASIL1H-26NOV01PALVDG (stray): paid $0, profit $-0.81
+2026-11-01 14:53:50,649 INFO Swept 20023 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 14:53:50,858 INFO Quote KXBRASILEIROB1H-26NOV01LONAMG cancelled (0/2 filled)
+2026-11-01 15:00:56,322 INFO Swept 19994 events: 0 taker trades, 0 new quotes, 0 resting
