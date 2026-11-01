@@ -6054,12 +6054,12 @@
   "count": 4,
   "ahead": 0,
   "placed": 1793498646.8184192,
-  "checked": 1793499676.3455305,
+  "checked": 1793500446,
   "expires": 1793500446,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-434-1793499253": {
   "id": "paper-434-1793499253",
@@ -6068,11 +6068,39 @@
   "count": 5,
   "ahead": 0,
   "placed": 1793499253.0861504,
-  "checked": 1793499676.378325,
+  "checked": 1793501053,
   "expires": 1793501053,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-435-1793500464": {
+  "id": "paper-435-1793500464",
+  "ticker": "KXNCAAHGAME-26OCT31UNDMSU-MSU",
+  "price": "0.3500",
+  "count": 5,
+  "ahead": 203,
+  "placed": 1793500464.0711715,
+  "checked": 1793501418.3323073,
+  "expires": 1793502264,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-436-1793500761": {
+  "id": "paper-436-1793500761",
+  "ticker": "KXNCAAHGAME-26OCT31UMDCC-CC",
+  "price": "0.2200",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793500761.2134523,
+  "checked": 1793501063.723133,
+  "expires": 1793502561,
+  "through": 6,
+  "at_price": 0,
+  "filled": 1,
+  "status": "executed"
  }
 }

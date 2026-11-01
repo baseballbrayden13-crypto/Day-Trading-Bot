@@ -1,30 +1,6 @@
 {
- "realized": "-1.8000",
+ "realized": "-1.5700",
  "open": [
-  {
-   "event": "KXWNBAGAME-26OCT31ATLGS",
-   "series": "KXWNBAGAME",
-   "title": "Game 7: Atlanta vs Golden State",
-   "sets": 5,
-   "outlay": "4.7700",
-   "locked_profit": "0.2300",
-   "opened": "2026-10-29T19:36:09.205519+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXWNBAGAME-26OCT31ATLGS-GS",
-     "side": "no",
-     "count": 5,
-     "limit": "0.3600"
-    },
-    {
-     "ticker": "KXWNBAGAME-26OCT31ATLGS-ATL",
-     "side": "no",
-     "count": 5,
-     "limit": "0.5700"
-    }
-   ]
-  },
   {
    "event": "KXATP-26VIENNA",
    "series": "KXATP",
@@ -52,6 +28,23 @@
      "side": "no",
      "count": 2,
      "limit": "0.9000"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAHGAME-26OCT31UMDCC (stray)",
+   "series": "KXNCAAHGAME",
+   "title": "Minnesota Duluth vs Colorado College",
+   "sets": 0,
+   "outlay": "0.2300",
+   "locked_profit": "0",
+   "opened": "2026-11-01T02:44:23.778863+00:00",
+   "legs": [
+    {
+     "ticker": "KXNCAAHGAME-26OCT31UMDCC-CC",
+     "side": "no",
+     "count": 1,
+     "limit": "0.2200"
     }
    ]
   }
@@ -1314,46 +1307,34 @@
    "paid": "0",
    "pnl": "-0.4400",
    "closed": "2026-10-31T23:35:53.197559+00:00"
-  }
- ],
- "quotes": [
-  {
-   "event": "KXNCAAWBGAME-26NOV02TROYKENT",
-   "series": "KXNCAAWBGAME",
-   "title": "Troy vs Kent St.",
-   "ticker": "KXNCAAWBGAME-26NOV02TROYKENT-KENT",
-   "order_id": "paper-433-1793498646",
-   "price": "0.4500",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.7700",
-   "multiplier": "1",
-   "placed": 1793498646.8220787,
-   "hedge": [
-    {
-     "ticker": "KXNCAAWBGAME-26NOV02TROYKENT-TROY",
-     "limit": "0.4700"
-    }
-   ]
   },
   {
-   "event": "KXNCAAWBGAME-26NOV02TEMGMU",
-   "series": "KXNCAAWBGAME",
-   "title": "Temple vs George Mason",
-   "ticker": "KXNCAAWBGAME-26NOV02TEMGMU-TEM",
-   "order_id": "paper-434-1793499253",
-   "price": "0.6200",
+   "event": "KXWNBAGAME-26OCT31ATLGS",
+   "series": "KXWNBAGAME",
+   "title": "Game 7: Atlanta vs Golden State",
    "sets": 5,
-   "done": 0,
-   "reserve": "4.7100",
-   "multiplier": "1",
-   "placed": 1793499253.0896432,
-   "hedge": [
+   "outlay": "4.7700",
+   "locked_profit": "0.2300",
+   "opened": "2026-10-29T19:36:09.205519+00:00",
+   "maker": true,
+   "legs": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV02TEMGMU-GMU",
-     "limit": "0.3000"
+     "ticker": "KXWNBAGAME-26OCT31ATLGS-GS",
+     "side": "no",
+     "count": 5,
+     "limit": "0.3600"
+    },
+    {
+     "ticker": "KXWNBAGAME-26OCT31ATLGS-ATL",
+     "side": "no",
+     "count": 5,
+     "limit": "0.5700"
     }
-   ]
+   ],
+   "paid": "5",
+   "pnl": "0.2300",
+   "closed": "2026-11-01T02:29:06.840583+00:00"
   }
- ]
+ ],
+ "quotes": []
 }

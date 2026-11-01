@@ -2699,3 +2699,20 @@
 2026-10-31 22:14:13,089 INFO Resting NO bid on KXNCAAWBGAME-26NOV02TEMGMU-TEM at $0.6200 x5 (KXNCAAWBGAME-26NOV02TEMGMU): locks in $0.29 if it fills; hedge NO GMU@0.3000
 2026-10-31 22:14:13,092 INFO Swept 20687 events: 0 taker trades, 1 new quotes, 2 resting
 2026-10-31 22:19:14,808 INFO Swept 20686 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 22:24:15,707 INFO Swept 20692 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 22:29:06,840 INFO Settled KXWNBAGAME-26OCT31ATLGS: paid $5, profit $0.23
+2026-10-31 22:29:18,962 INFO Swept 20671 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 22:34:24,074 INFO PAPER rest NO bid KXNCAAHGAME-26OCT31UNDMSU-MSU at $0.3500 x5 (203 already bid at that price)
+2026-10-31 22:34:24,074 INFO Resting NO bid on KXNCAAHGAME-26OCT31UNDMSU-MSU at $0.35 x5 (KXNCAAHGAME-26OCT31UNDMSU): locks in $0.14 if it fills; hedge NO UND@0.6000
+2026-10-31 22:34:24,077 INFO Swept 20633 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 22:39:21,217 INFO PAPER rest NO bid KXNCAAHGAME-26OCT31UMDCC-CC at $0.2200 x1 (0 already bid at that price)
+2026-10-31 22:39:21,217 INFO Resting NO bid on KXNCAAHGAME-26OCT31UMDCC-CC at $0.2200 x1 (KXNCAAHGAME-26OCT31UMDCC): locks in $0.20 if it fills; hedge NO UMD@0.5500
+2026-10-31 22:39:21,219 INFO Swept 20615 events: 0 taker trades, 1 new quotes, 3 resting
+2026-10-31 22:44:23,667 INFO Swept 20594 events: 0 taker trades, 0 new quotes, 3 resting
+2026-10-31 22:44:23,746 INFO PAPER KXNCAAHGAME-26OCT31UMDCC-CC NO bid at $0.2200: 1/1 filled by real trades
+2026-10-31 22:44:23,763 INFO PAPER buy 1 NO KXNCAAHGAME-26OCT31UMDCC-UMD at up to $0.5500: not on the book
+2026-10-31 22:44:23,763 WARNING Quote KXNCAAHGAME-26OCT31UMDCC: hedge missed on KXNCAAHGAME-26OCT31UMDCC-UMD. Selling back 1 contracts on 1 legs.
+2026-10-31 22:44:23,778 INFO PAPER sell 1 YES KXNCAAHGAME-26OCT31UMDCC-CC at up to $0.8300: not on the book
+2026-10-31 22:44:23,778 ERROR STRAY POSITION: 1 NO contracts of KXNCAAHGAME-26OCT31UMDCC-CC still held. Check it on Kalshi.
+2026-10-31 22:49:27,883 INFO Swept 20599 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 22:50:18,356 INFO Quote KXNCAAHGAME-26OCT31UNDMSU cancelled (0/5 filled)
