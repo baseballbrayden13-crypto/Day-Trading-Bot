@@ -2951,3 +2951,13 @@
 2026-11-01 09:03:43,219 INFO Settled KXLOWTDEN-26OCT31 (stray): paid $1, profit $0.09
 2026-11-01 09:04:01,079 INFO Swept 20552 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 09:09:01,226 INFO Swept 20558 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 09:14:03,128 INFO Swept 20562 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 09:19:08,157 INFO PAPER rest NO bid KXKHLGAME-26NOV010900SALSHA-SHA at $0.3500 x3 (0 already bid at that price)
+2026-11-01 09:19:08,157 INFO Resting NO bid on KXKHLGAME-26NOV010900SALSHA-SHA at $0.35 x3 (KXKHLGAME-26NOV010900SALSHA): locks in $0.10 if it fills; hedge NO SAL@0.5900
+2026-11-01 09:19:08,160 INFO Swept 20565 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 09:19:54,248 INFO Quote KXKHLGAME-26NOV010900SALSHA cancelled (0/3 filled)
+2026-11-01 09:24:09,424 INFO Swept 20547 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 09:29:10,059 INFO Swept 20536 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 09:33:51,218 INFO Settled KXMLBBGAME-26NOV010430REYSRG: paid $5, profit $0.11
+2026-11-01 09:34:10,045 INFO Swept 20520 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 09:39:17,658 INFO Swept 20513 events: 0 taker trades, 0 new quotes, 0 resting

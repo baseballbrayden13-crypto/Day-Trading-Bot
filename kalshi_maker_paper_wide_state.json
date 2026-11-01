@@ -1,5 +1,5 @@
 {
- "realized": "-1.5700",
+ "realized": "-1.4600",
  "open": [
   {
    "event": "KXATP-26VIENNA",
@@ -76,30 +76,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.0600"
-    }
-   ]
-  },
-  {
-   "event": "KXMLBBGAME-26NOV010430REYSRG",
-   "series": "KXMLBBGAME",
-   "title": "Team Rey vs. Selangor Red Giants",
-   "sets": 5,
-   "outlay": "4.8900",
-   "locked_profit": "0.1100",
-   "opened": "2026-11-01T10:28:25.567291+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXMLBBGAME-26NOV010430REYSRG-REY",
-     "side": "no",
-     "count": 5,
-     "limit": "0.74"
-    },
-    {
-     "ticker": "KXMLBBGAME-26NOV010430REYSRG-SRG",
-     "side": "no",
-     "count": 5,
-     "limit": "0.2200"
     }
    ]
   }
@@ -1462,31 +1438,34 @@
    "paid": "1",
    "pnl": "0.09",
    "closed": "2026-11-01T14:03:43.219360+00:00"
-  }
- ],
- "quotes": [
+  },
   {
-   "event": "KXNFLNEXTTEAM-26BHALL20",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Breece Hall Next Team",
-   "ticker": "KXNFLNEXTTEAM-26BHALL20-DEN",
-   "order_id": "paper-465-1793540634",
-   "price": "0.01",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.9000",
-   "multiplier": "1",
-   "placed": 1793540634.9635289,
-   "hedge": [
+   "event": "KXMLBBGAME-26NOV010430REYSRG",
+   "series": "KXMLBBGAME",
+   "title": "Team Rey vs. Selangor Red Giants",
+   "sets": 5,
+   "outlay": "4.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-11-01T10:28:25.567291+00:00",
+   "maker": true,
+   "legs": [
     {
-     "ticker": "KXNFLNEXTTEAM-26BHALL20-MIN",
-     "limit": "0.9800"
+     "ticker": "KXMLBBGAME-26NOV010430REYSRG-REY",
+     "side": "no",
+     "count": 5,
+     "limit": "0.74"
     },
     {
-     "ticker": "KXNFLNEXTTEAM-26BHALL20-NYJ",
-     "limit": "0.8800"
+     "ticker": "KXMLBBGAME-26NOV010430REYSRG-SRG",
+     "side": "no",
+     "count": 5,
+     "limit": "0.2200"
     }
-   ]
+   ],
+   "paid": "5",
+   "pnl": "0.1100",
+   "closed": "2026-11-01T14:33:51.218076+00:00"
   }
- ]
+ ],
+ "quotes": []
 }

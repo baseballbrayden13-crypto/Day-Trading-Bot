@@ -6502,11 +6502,25 @@
   "count": 1,
   "ahead": 74,
   "placed": 1793540634.9578772,
-  "checked": 1793542258.7183728,
+  "checked": 1793542434,
   "expires": 1793542434,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-466-1793542748": {
+  "id": "paper-466-1793542748",
+  "ticker": "KXKHLGAME-26NOV010900SALSHA-SHA",
+  "price": "0.3500",
+  "count": 3,
+  "ahead": 0,
+  "placed": 1793542748.151445,
+  "checked": 1793542794.192142,
+  "expires": 1793544548,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
