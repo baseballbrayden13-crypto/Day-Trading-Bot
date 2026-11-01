@@ -2961,3 +2961,22 @@
 2026-11-01 09:33:51,218 INFO Settled KXMLBBGAME-26NOV010430REYSRG: paid $5, profit $0.11
 2026-11-01 09:34:10,045 INFO Swept 20520 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-01 09:39:17,658 INFO Swept 20513 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 09:44:17,675 INFO PAPER rest NO bid KXMARATHON-NYCWOMENS26-SCHE at $0.6900 x5 (0 already bid at that price)
+2026-11-01 09:44:17,675 INFO Resting NO bid on KXMARATHON-NYCWOMENS26-SCHE at $0.6900 x5 (KXMARATHON-NYCWOMENS26): locks in $0.21 if it fills; hedge NO HOBI@0.2500
+2026-11-01 09:44:17,679 INFO Swept 20505 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 09:49:02,415 INFO Settled KXATP-26VIENNA: paid $4, profit $0.11
+2026-11-01 09:49:02,607 INFO Settled KXLPGATOUR-MAYC26: paid $5, profit $0.12
+2026-11-01 09:49:20,935 INFO Swept 20499 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 09:54:24,237 INFO PAPER rest NO bid KXCS2MAP-26NOV010900BST100T-1-100T at $0.1800 x5 (0 already bid at that price)
+2026-11-01 09:54:24,237 INFO Resting NO bid on KXCS2MAP-26NOV010900BST100T-1-100T at $0.1800 x5 (KXCS2MAP-26NOV010900BST100T-1): locks in $0.60 if it fills; hedge NO BST@0.6800
+2026-11-01 09:54:24,289 INFO PAPER rest NO bid KXITFMATCH-26NOV01FERBEL-FER at $0.7600 x5 (11 already bid at that price)
+2026-11-01 09:54:24,289 INFO Resting NO bid on KXITFMATCH-26NOV01FERBEL-FER at $0.76 x5 (KXITFMATCH-26NOV01FERBEL): locks in $0.12 if it fills; hedge NO BEL@0.2000
+2026-11-01 09:54:24,293 INFO Swept 20475 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-01 09:54:45,827 INFO Quote KXITFMATCH-26NOV01FERBEL cancelled (0/5 filled)
+2026-11-01 09:55:37,853 INFO Quote KXCS2MAP-26NOV010900BST100T-1 cancelled (0/5 filled)
+2026-11-01 09:59:23,054 INFO Swept 20433 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 10:04:25,783 INFO Swept 20436 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 10:04:25,927 INFO Quote KXMARATHON-NYCWOMENS26 cancelled (0/5 filled)
+2026-11-01 10:09:30,939 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV02TEMGMU-TEM at $0.6500 x4 (0 already bid at that price)
+2026-11-01 10:09:30,939 INFO Resting NO bid on KXNCAAWBGAME-26NOV02TEMGMU-TEM at $0.65 x4 (KXNCAAWBGAME-26NOV02TEMGMU): locks in $0.12 if it fills; hedge NO GMU@0.3000
+2026-11-01 10:09:30,943 INFO Swept 20429 events: 0 taker trades, 1 new quotes, 1 resting

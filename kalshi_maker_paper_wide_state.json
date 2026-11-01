@@ -1,36 +1,6 @@
 {
- "realized": "-1.4600",
+ "realized": "-1.2300",
  "open": [
-  {
-   "event": "KXATP-26VIENNA",
-   "series": "KXATP",
-   "title": "ATP Vienna Winner",
-   "sets": 2,
-   "outlay": "3.8900",
-   "locked_profit": "0.1100",
-   "opened": "2026-10-31T18:26:03.139115+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXATP-26VIENNA-ZVE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.6100"
-    },
-    {
-     "ticker": "KXATP-26VIENNA-ALC",
-     "side": "no",
-     "count": 2,
-     "limit": "0.4000"
-    },
-    {
-     "ticker": "KXATP-26VIENNA-DE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.9000"
-    }
-   ]
-  },
   {
    "event": "KXLOWTPHIL-26NOV01",
    "series": "KXLOWTPHIL",
@@ -52,30 +22,6 @@
      "side": "no",
      "count": 1,
      "limit": "0.8800"
-    }
-   ]
-  },
-  {
-   "event": "KXLPGATOUR-MAYC26",
-   "series": "KXLPGATOUR",
-   "title": "Maybank Championship Winner",
-   "sets": 5,
-   "outlay": "4.8800",
-   "locked_profit": "0.1200",
-   "opened": "2026-11-01T06:23:33.943378+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXLPGATOUR-MAYC26-YANLIU",
-     "side": "no",
-     "count": 5,
-     "limit": "0.91"
-    },
-    {
-     "ticker": "KXLPGATOUR-MAYC26-MIYYAM",
-     "side": "no",
-     "count": 5,
-     "limit": "0.0600"
     }
    ]
   }
@@ -1465,7 +1411,87 @@
    "paid": "5",
    "pnl": "0.1100",
    "closed": "2026-11-01T14:33:51.218076+00:00"
+  },
+  {
+   "event": "KXATP-26VIENNA",
+   "series": "KXATP",
+   "title": "ATP Vienna Winner",
+   "sets": 2,
+   "outlay": "3.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-10-31T18:26:03.139115+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXATP-26VIENNA-ZVE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.6100"
+    },
+    {
+     "ticker": "KXATP-26VIENNA-ALC",
+     "side": "no",
+     "count": 2,
+     "limit": "0.4000"
+    },
+    {
+     "ticker": "KXATP-26VIENNA-DE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.9000"
+    }
+   ],
+   "paid": "4",
+   "pnl": "0.1100",
+   "closed": "2026-11-01T14:49:02.415240+00:00"
+  },
+  {
+   "event": "KXLPGATOUR-MAYC26",
+   "series": "KXLPGATOUR",
+   "title": "Maybank Championship Winner",
+   "sets": 5,
+   "outlay": "4.8800",
+   "locked_profit": "0.1200",
+   "opened": "2026-11-01T06:23:33.943378+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLPGATOUR-MAYC26-YANLIU",
+     "side": "no",
+     "count": 5,
+     "limit": "0.91"
+    },
+    {
+     "ticker": "KXLPGATOUR-MAYC26-MIYYAM",
+     "side": "no",
+     "count": 5,
+     "limit": "0.0600"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.1200",
+   "closed": "2026-11-01T14:49:02.607758+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAWBGAME-26NOV02TEMGMU",
+   "series": "KXNCAAWBGAME",
+   "title": "Temple vs George Mason",
+   "ticker": "KXNCAAWBGAME-26NOV02TEMGMU-TEM",
+   "order_id": "paper-470-1793545770",
+   "price": "0.65",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8800",
+   "multiplier": "1",
+   "placed": 1793545770.9397922,
+   "hedge": [
+    {
+     "ticker": "KXNCAAWBGAME-26NOV02TEMGMU-GMU",
+     "limit": "0.3000"
+    }
+   ]
+  }
+ ]
 }
