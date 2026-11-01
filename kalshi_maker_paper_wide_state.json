@@ -1495,44 +1495,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNETFLIXRANKMOVIE-26NOV02",
-   "series": "KXNETFLIXRANKMOVIE",
-   "title": "Top US Netflix Movie this week?",
-   "ticker": "KXNETFLIXRANKMOVIE-26NOV02-GLA",
-   "order_id": "paper-486-1793553670",
-   "price": "0.90",
-   "sets": 4,
+   "event": "KXOWGAME-26NOV011300UNKTM",
+   "series": "KXOWGAME",
+   "title": "OCS EMEA Stage 3 2026: 1234 vs. Twisted Minds",
+   "ticker": "KXOWGAME-26NOV011300UNKTM-TM",
+   "order_id": "paper-489-1793556198",
+   "price": "0.08",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.8700",
+   "reserve": "4.9000",
    "multiplier": "1",
-   "placed": 1793553670.1101239,
+   "placed": 1793556198.16453,
    "hedge": [
     {
-     "ticker": "KXNETFLIXRANKMOVIE-26NOV02-SUR",
-     "limit": "0.0600"
-    }
-   ]
-  },
-  {
-   "event": "KXEREDIVISIEWGAME-26NOV01UTRGRA",
-   "series": "KXEREDIVISIEWGAME",
-   "title": "FC Utrecht vs de Graafschap",
-   "ticker": "KXEREDIVISIEWGAME-26NOV01UTRGRA-UTR",
-   "order_id": "paper-487-1793554091",
-   "price": "0.8500",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.8700",
-   "multiplier": "1",
-   "placed": 1793554091.612472,
-   "hedge": [
-    {
-     "ticker": "KXEREDIVISIEWGAME-26NOV01UTRGRA-GRA",
-     "limit": "0.1600"
-    },
-    {
-     "ticker": "KXEREDIVISIEWGAME-26NOV01UTRGRA-TIE",
-     "limit": "0.9900"
+     "ticker": "KXOWGAME-26NOV011300UNKTM-UNK",
+     "limit": "0.8900"
     }
    ]
   }
