@@ -6418,11 +6418,11 @@
   "count": 2,
   "ahead": 102,
   "placed": 1793520749.5805514,
-  "checked": 1793521141.422782,
+  "checked": 1793521161.5831392,
   "expires": 1793522549,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  }
 }

@@ -2860,3 +2860,10 @@
 2026-11-01 03:12:29,585 INFO Resting NO bid on KXKLEAGUE1H-26NOV01SEOINC-INC at $0.1400 x2 (KXKLEAGUE1H-26NOV01SEOINC): locks in $1.21 if it fills; hedge NO SEO@0.3800, TIE@0.8400
 2026-11-01 03:12:29,589 INFO Swept 20649 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-01 03:17:30,834 INFO Swept 20672 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 03:19:21,606 INFO Quote KXKLEAGUE1H-26NOV01SEOINC cancelled (0/2 filled)
+2026-11-01 03:22:34,923 INFO Swept 20676 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 03:27:35,974 INFO Swept 20680 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 03:32:37,175 INFO Swept 20674 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 03:37:40,726 INFO Swept 20673 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 03:42:43,558 INFO Swept 20680 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 03:47:43,657 INFO Swept 20676 events: 0 taker trades, 0 new quotes, 0 resting
