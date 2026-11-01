@@ -2637,3 +2637,20 @@
 2026-10-31 19:31:10,106 INFO Swept 20670 events: 0 taker trades, 0 new quotes, 2 resting
 2026-10-31 19:31:41,916 INFO Quote KXBRASILEIROB1H-26OCT31NAUAVA cancelled (0/5 filled)
 2026-10-31 19:35:53,197 INFO Settled KXNCAAHGAME-26OCT31MICOSU (stray): paid $0, profit $-0.44
+2026-10-31 19:36:13,706 INFO PAPER rest NO bid KXLOWTNOLA-26OCT31-B69.5 at $0.5800 x2 (5 already bid at that price)
+2026-10-31 19:36:13,707 INFO Resting NO bid on KXLOWTNOLA-26OCT31-B69.5 at $0.58 x2 (KXLOWTNOLA-26OCT31): locks in $0.10 if it fills; hedge NO B67.5@0.9500, T70@0.3900
+2026-10-31 19:36:13,710 INFO Swept 20643 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 19:41:15,422 INFO Swept 20629 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 19:42:12,086 INFO Quote KXLOWTNOLA-26OCT31 cancelled (0/2 filled)
+2026-10-31 19:46:16,054 INFO PAPER rest NO bid KXBOXING-26OCT23ULDEDACAPARE-CAPARE at $0.6600 x5 (79 already bid at that price)
+2026-10-31 19:46:16,054 INFO Resting NO bid on KXBOXING-26OCT23ULDEDACAPARE-CAPARE at $0.66 x5 (KXBOXING-26OCT23ULDEDACAPARE): locks in $0.10 if it fills; hedge NO ULDEDA@0.3000
+2026-10-31 19:46:16,058 INFO Swept 20614 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 19:51:14,950 INFO PAPER rest NO bid KXNCAAF1Q-26OCT31CLEMFSU-FSU at $0.6100 x2 (0 already bid at that price)
+2026-10-31 19:51:14,950 INFO Resting NO bid on KXNCAAF1Q-26OCT31CLEMFSU-FSU at $0.6100 x2 (KXNCAAF1Q-26OCT31CLEMFSU): locks in $0.13 if it fills; hedge NO CLEM@0.3400
+2026-10-31 19:51:14,954 INFO Swept 20607 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 19:51:57,161 INFO Quote KXBOXING-26OCT23ULDEDACAPARE cancelled (0/5 filled)
+2026-10-31 19:56:22,902 INFO Swept 20597 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 19:56:23,093 INFO Quote KXNCAAF1Q-26OCT31CLEMFSU cancelled (0/2 filled)
+2026-10-31 20:01:22,906 INFO PAPER rest NO bid KXUFCVICROUND-26OCT31SEZBER-BER3 at $0.8800 x5 (0 already bid at that price)
+2026-10-31 20:01:22,906 INFO Resting NO bid on KXUFCVICROUND-26OCT31SEZBER-BER3 at $0.8800 x5 (KXUFCVICROUND-26OCT31SEZBER): locks in $0.53 if it fills; hedge NO SEZ2@0.0100
+2026-10-31 20:01:22,910 INFO Swept 20591 events: 0 taker trades, 1 new quotes, 1 resting

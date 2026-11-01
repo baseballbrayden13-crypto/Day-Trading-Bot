@@ -1318,21 +1318,21 @@
  ],
  "quotes": [
   {
-   "event": "KXITFWMATCH-26OCT31SIMOVC",
-   "series": "KXITFWMATCH",
-   "title": "sim vs Ovcharenko",
-   "ticker": "KXITFWMATCH-26OCT31SIMOVC-SIM",
-   "order_id": "paper-421-1793487964",
-   "price": "0.87",
+   "event": "KXUFCVICROUND-26OCT31SEZBER",
+   "series": "KXUFCVICROUND",
+   "title": "Rodrigo Sezinando vs. Theodor Berggren: Round of Victory",
+   "ticker": "KXUFCVICROUND-26OCT31SEZBER-BER3",
+   "order_id": "paper-425-1793491282",
+   "price": "0.8800",
    "sets": 5,
    "done": 0,
-   "reserve": "4.9000",
+   "reserve": "4.4700",
    "multiplier": "1",
-   "placed": 1793487964.473755,
+   "placed": 1793491282.9065573,
    "hedge": [
     {
-     "ticker": "KXITFWMATCH-26OCT31SIMOVC-OVC",
-     "limit": "0.1000"
+     "ticker": "KXUFCVICROUND-26OCT31SEZBER-SEZ2",
+     "limit": "0.0900"
     }
    ]
   }
