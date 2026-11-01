@@ -3041,3 +3041,10 @@
 2026-11-01 11:30:13,643 INFO Swept 20278 events: 0 taker trades, 1 new quotes, 3 resting
 2026-11-01 11:39:31,286 INFO Swept 20281 events: 0 taker trades, 0 new quotes, 3 resting
 2026-11-01 11:39:31,598 INFO Quote KXLIGUE11H-26NOV01OLANG cancelled (0/2 filled)
+2026-11-01 11:46:31,775 INFO Swept 20286 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 11:53:30,309 INFO Swept 20275 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 12:00:24,041 INFO PAPER rest NO bid KXPGA3BALL-VIMO26R4GENDSYELMROZ-GEND at $0.6700 x2 (0 already bid at that price)
+2026-11-01 12:00:24,041 INFO Resting NO bid on KXPGA3BALL-VIMO26R4GENDSYELMROZ-GEND at $0.6700 x2 (KXPGA3BALL-VIMO26R4GENDSYELMROZ): locks in $0.24 if it fills; hedge NO SYEL@0.3800, MROZ@0.7900
+2026-11-01 12:00:24,045 INFO Swept 20252 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 12:07:17,149 INFO Swept 20252 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 12:07:17,326 INFO Quote KXPGA3BALL-VIMO26R4GENDSYELMROZ cancelled (0/2 filled)

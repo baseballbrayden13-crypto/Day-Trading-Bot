@@ -1493,44 +1493,5 @@
    "closed": "2026-11-01T16:14:50.228675+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXATP-26BASEL",
-   "series": "KXATP",
-   "title": "ATP Basel Winner",
-   "ticker": "KXATP-26BASEL-LEH",
-   "order_id": "paper-480-1793549402",
-   "price": "0.2200",
-   "sets": 5,
-   "done": 0,
-   "reserve": "3.9100",
-   "multiplier": "1",
-   "placed": 1793549402.6424246,
-   "hedge": [
-    {
-     "ticker": "KXATP-26BASEL-VAC",
-     "limit": "0.5400"
-    }
-   ]
-  },
-  {
-   "event": "KXNBAGAME-26NOV04DALSAS",
-   "series": "KXNBAGAME",
-   "title": "Dallas vs San Antonio",
-   "ticker": "KXNBAGAME-26NOV04DALSAS-DAL",
-   "order_id": "paper-483-1793550309",
-   "price": "0.74",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8900",
-   "multiplier": "1",
-   "placed": 1793550309.549502,
-   "hedge": [
-    {
-     "ticker": "KXNBAGAME-26NOV04DALSAS-SAS",
-     "limit": "0.2200"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

@@ -6712,12 +6712,12 @@
   "count": 5,
   "ahead": 0,
   "placed": 1793549402.6363952,
-  "checked": 1793551171.286847,
+  "checked": 1793551202,
   "expires": 1793551202,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-481-1793550009": {
   "id": "paper-481-1793550009",
@@ -6754,12 +6754,12 @@
   "count": 5,
   "ahead": 10,
   "placed": 1793550309.541819,
-  "checked": 1793551171.3730712,
+  "checked": 1793552109,
   "expires": 1793552109,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-484-1793550613": {
   "id": "paper-484-1793550613",
@@ -6770,6 +6770,20 @@
   "placed": 1793550613.6330862,
   "checked": 1793551171.5469277,
   "expires": 1793552413,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-485-1793552424": {
+  "id": "paper-485-1793552424",
+  "ticker": "KXPGA3BALL-VIMO26R4GENDSYELMROZ-GEND",
+  "price": "0.6700",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793552424.035531,
+  "checked": 1793552837.2625697,
+  "expires": 1793554223,
   "through": 0,
   "at_price": 0,
   "filled": 0,
