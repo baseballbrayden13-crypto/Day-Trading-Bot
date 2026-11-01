@@ -2873,3 +2873,12 @@
 2026-11-01 04:07:52,447 INFO Swept 20686 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-01 04:12:55,766 INFO Swept 20706 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-01 04:17:59,130 INFO Swept 20725 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 04:23:03,004 INFO Swept 20725 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 04:28:07,401 INFO Swept 20718 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 04:32:53,832 INFO Settled KXK2LEAGUEGAME-26NOV01GIMCHE: paid $4, profit $0.14
+2026-11-01 04:33:09,518 INFO PAPER rest NO bid KXMLBBGAME-26NOV010430REYSRG-REY at $0.7400 x5 (44 already bid at that price)
+2026-11-01 04:33:09,518 INFO Resting NO bid on KXMLBBGAME-26NOV010430REYSRG-REY at $0.74 x5 (KXMLBBGAME-26NOV010430REYSRG): locks in $0.11 if it fills; hedge NO SRG@0.2200
+2026-11-01 04:33:09,522 INFO Swept 20709 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 04:38:09,682 INFO Swept 20716 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 04:43:11,251 INFO Swept 20730 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 04:48:10,518 INFO Swept 20734 events: 0 taker trades, 0 new quotes, 1 resting
