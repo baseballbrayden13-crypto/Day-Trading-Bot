@@ -2716,3 +2716,15 @@
 2026-10-31 22:44:23,778 ERROR STRAY POSITION: 1 NO contracts of KXNCAAHGAME-26OCT31UMDCC-CC still held. Check it on Kalshi.
 2026-10-31 22:49:27,883 INFO Swept 20599 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-31 22:50:18,356 INFO Quote KXNCAAHGAME-26OCT31UNDMSU cancelled (0/5 filled)
+2026-10-31 22:54:32,708 INFO PAPER rest NO bid KXNCAAF2H-26OCT31OKSTISU-ISU at $0.6200 x5 (831 already bid at that price)
+2026-10-31 22:54:32,708 INFO Resting NO bid on KXNCAAF2H-26OCT31OKSTISU-ISU at $0.6200 x5 (KXNCAAF2H-26OCT31OKSTISU): locks in $0.29 if it fills; hedge NO OKST@0.3000
+2026-10-31 22:54:32,728 INFO PAPER rest NO bid KXATPMATCH-26NOV01DAVKOU-DAV at $0.3100 x5 (16 already bid at that price)
+2026-10-31 22:54:32,728 INFO Resting NO bid on KXATPMATCH-26NOV01DAVKOU-DAV at $0.31 x5 (KXATPMATCH-26NOV01DAVKOU): locks in $0.10 if it fills; hedge NO KOU@0.6500
+2026-10-31 22:54:32,731 INFO Swept 20554 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-31 22:55:03,252 INFO Quote KXNCAAF2H-26OCT31OKSTISU cancelled (0/5 filled)
+2026-10-31 22:59:30,769 INFO Swept 20529 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 23:04:34,024 INFO Swept 20510 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 23:09:38,376 INFO Swept 20573 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 23:11:49,416 INFO Quote KXATPMATCH-26NOV01DAVKOU cancelled (0/5 filled)
+2026-10-31 23:14:42,618 INFO Swept 20538 events: 0 taker trades, 0 new quotes, 0 resting
+2026-10-31 23:19:43,964 INFO Swept 20550 events: 0 taker trades, 0 new quotes, 0 resting
