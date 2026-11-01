@@ -24,6 +24,23 @@
      "limit": "0.8800"
     }
    ]
+  },
+  {
+   "event": "KXCOPADOBRASIL1H-26NOV01PALVDG (stray)",
+   "series": "KXCOPADOBRASIL1H",
+   "title": "Palmeiras vs Vasco da Gama: First Half Winner",
+   "sets": 0,
+   "outlay": "0.8100",
+   "locked_profit": "0",
+   "opened": "2026-11-01T19:32:28.043562+00:00",
+   "legs": [
+    {
+     "ticker": "KXCOPADOBRASIL1H-26NOV01PALVDG-PAL",
+     "side": "no",
+     "count": 2,
+     "limit": "0.4000"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1495,25 +1512,25 @@
  ],
  "quotes": [
   {
-   "event": "KXETH-26NOV0117",
-   "series": "KXETH",
-   "title": "ETH price range on Nov 1, 2026 at 5pm EST?",
-   "ticker": "KXETH-26NOV0117-B2300",
-   "order_id": "paper-495-1793559829",
-   "price": "0.87",
+   "event": "KXBRASILEIROB1H-26NOV01LONAMG",
+   "series": "KXBRASILEIROB1H",
+   "title": "Londrina vs America FC: First Half Winner",
+   "ticker": "KXBRASILEIROB1H-26NOV01LONAMG-LON",
+   "order_id": "paper-498-1793561547",
+   "price": "0.6700",
    "sets": 2,
    "done": 0,
-   "reserve": "3.9000",
+   "reserve": "3.8900",
    "multiplier": "1",
-   "placed": 1793559829.9925528,
+   "placed": 1793561547.8547285,
    "hedge": [
     {
-     "ticker": "KXETH-26NOV0117-B2220",
-     "limit": "0.9800"
+     "ticker": "KXBRASILEIROB1H-26NOV01LONAMG-AMG",
+     "limit": "0.2700"
     },
     {
-     "ticker": "KXETH-26NOV0117-B2260",
-     "limit": "0.0800"
+     "ticker": "KXBRASILEIROB1H-26NOV01LONAMG-TIE",
+     "limit": "0.9800"
     }
    ]
   }
