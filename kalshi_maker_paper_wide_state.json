@@ -1358,52 +1358,40 @@
  ],
  "quotes": [
   {
-   "event": "KXOWGAME-26NOV010330CRZETA",
-   "series": "KXOWGAME",
-   "title": "OCS Korea Stage 3 2026: Crazy Raccoon vs. ZETA DIVISION",
-   "ticker": "KXOWGAME-26NOV010330CRZETA-ZETA",
-   "order_id": "paper-445-1793509546",
-   "price": "0.22",
+   "event": "KXFIBAECUPGAME-26NOV031400LEVBAS",
+   "series": "KXFIBAECUPGAME",
+   "title": "BK Levicki Patrioti vs Basquet Girona",
+   "ticker": "KXFIBAECUPGAME-26NOV031400LEVBAS-LEV",
+   "order_id": "paper-451-1793511976",
+   "price": "0.8800",
    "sets": 5,
    "done": 0,
-   "reserve": "4.8900",
+   "reserve": "4.8400",
    "multiplier": "1",
-   "placed": 1793509546.8338275,
+   "placed": 1793511976.3771212,
    "hedge": [
     {
-     "ticker": "KXOWGAME-26NOV010330CRZETA-CR",
-     "limit": "0.7400"
+     "ticker": "KXFIBAECUPGAME-26NOV031400LEVBAS-BAS",
+     "limit": "0.0800"
     }
    ]
   },
   {
-   "event": "KXNFLNEXTTEAM-26JDOWNS2",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Josh Downs Next Team",
-   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-SEA",
-   "order_id": "paper-448-1793510460",
-   "price": "0.1000",
-   "sets": 1,
+   "event": "KXLOWTPHIL-26NOV01",
+   "series": "KXLOWTPHIL",
+   "title": "Lowest temperature in Philadelphia on Nov 1, 2026?",
+   "ticker": "KXLOWTPHIL-26NOV01-T42",
+   "order_id": "paper-452-1793512273",
+   "price": "0.0900",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.4700",
+   "reserve": "4.8100",
    "multiplier": "1",
-   "placed": 1793510460.632209,
+   "placed": 1793512273.4869738,
    "hedge": [
     {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
-     "limit": "0.9700"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
-     "limit": "0.6500"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
-     "limit": "0.9700"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-PIT",
-     "limit": "0.7100"
+     "ticker": "KXLOWTPHIL-26NOV01-B41.5",
+     "limit": "0.8600"
     }
    ]
   }

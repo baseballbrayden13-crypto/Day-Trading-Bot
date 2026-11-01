@@ -2786,3 +2786,19 @@
 2026-11-01 01:21:00,632 INFO PAPER rest NO bid KXNFLNEXTTEAM-26JDOWNS2-SEA at $0.1000 x1 (0 already bid at that price)
 2026-11-01 01:21:00,632 INFO Resting NO bid on KXNFLNEXTTEAM-26JDOWNS2-SEA at $0.1000 x1 (KXNFLNEXTTEAM-26JDOWNS2): locks in $0.53 if it fills; hedge NO IND@0.9700, KC@0.6500, NE@0.9700, PIT@0.7100
 2026-11-01 01:21:00,634 INFO Swept 20696 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 01:26:03,136 INFO Swept 20685 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 01:31:04,459 INFO Swept 20687 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 01:36:08,527 INFO PAPER rest NO bid KXKLEAGUE1H-26NOV01POHJEJ-TIE at $0.2800 x2 (0 already bid at that price)
+2026-11-01 01:36:08,527 INFO Resting NO bid on KXKLEAGUE1H-26NOV01POHJEJ-TIE at $0.2800 x2 (KXKLEAGUE1H-26NOV01POHJEJ): locks in $0.50 if it fills; hedge NO POH@0.9500, JEJ@0.4900
+2026-11-01 01:36:08,530 INFO Swept 20697 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-01 01:36:18,806 INFO Quote KXKLEAGUE1H-26NOV01POHJEJ cancelled (0/2 filled)
+2026-11-01 01:41:11,013 INFO PAPER rest NO bid KXLOWTPHIL-26NOV01-T42 at $0.1000 x5 (27 already bid at that price)
+2026-11-01 01:41:11,013 INFO Resting NO bid on KXLOWTPHIL-26NOV01-T42 at $0.10 x5 (KXLOWTPHIL-26NOV01): locks in $0.10 if it fills; hedge NO B41.5@0.8700
+2026-11-01 01:41:11,016 INFO Swept 20704 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 01:46:16,376 INFO PAPER rest NO bid KXFIBAECUPGAME-26NOV031400LEVBAS-LEV at $0.8800 x5 (0 already bid at that price)
+2026-11-01 01:46:16,377 INFO Resting NO bid on KXFIBAECUPGAME-26NOV031400LEVBAS-LEV at $0.8800 x5 (KXFIBAECUPGAME-26NOV031400LEVBAS): locks in $0.16 if it fills; hedge NO BAS@0.0800
+2026-11-01 01:46:16,379 INFO Swept 20701 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-01 01:48:54,558 INFO Quote KXLOWTPHIL-26NOV01 cancelled (0/5 filled)
+2026-11-01 01:51:13,486 INFO PAPER rest NO bid KXLOWTPHIL-26NOV01-T42 at $0.0900 x5 (0 already bid at that price)
+2026-11-01 01:51:13,486 INFO Resting NO bid on KXLOWTPHIL-26NOV01-T42 at $0.0900 x5 (KXLOWTPHIL-26NOV01): locks in $0.19 if it fills; hedge NO B41.5@0.8600
+2026-11-01 01:51:13,489 INFO Swept 20701 events: 0 taker trades, 1 new quotes, 3 resting
