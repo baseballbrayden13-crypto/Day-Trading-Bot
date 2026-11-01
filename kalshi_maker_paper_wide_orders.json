@@ -6656,12 +6656,12 @@
   "count": 5,
   "ahead": 0,
   "placed": 1793547891.6033418,
-  "checked": 1793549475.090272,
+  "checked": 1793549691,
   "expires": 1793549691,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-477-1793547891": {
   "id": "paper-477-1793547891",
@@ -6712,11 +6712,67 @@
   "count": 5,
   "ahead": 0,
   "placed": 1793549402.6363952,
-  "checked": 1793549475.1761172,
+  "checked": 1793551171.286847,
   "expires": 1793551202,
   "through": 0,
   "at_price": 0,
   "filled": 0,
   "status": "resting"
+ },
+ "paper-481-1793550009": {
+  "id": "paper-481-1793550009",
+  "ticker": "KXPGA3BALL-VIMO26R4GHIGAORTCTAN-CTAN",
+  "price": "0.6700",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793550009.5573099,
+  "checked": 1793550442.9884174,
+  "expires": 1793551809,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-482-1793550009": {
+  "id": "paper-482-1793550009",
+  "ticker": "KXETTANGAME-26NOV01ARITRO-TRO",
+  "price": "0.8700",
+  "count": 2,
+  "ahead": 2,
+  "placed": 1793550009.6149101,
+  "checked": 1793550047.204692,
+  "expires": 1793551809,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-483-1793550309": {
+  "id": "paper-483-1793550309",
+  "ticker": "KXNBAGAME-26NOV04DALSAS-DAL",
+  "price": "0.7400",
+  "count": 5,
+  "ahead": 10,
+  "placed": 1793550309.541819,
+  "checked": 1793551171.3730712,
+  "expires": 1793552109,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-484-1793550613": {
+  "id": "paper-484-1793550613",
+  "ticker": "KXLIGUE11H-26NOV01OLANG-TIE",
+  "price": "0.2500",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793550613.6330862,
+  "checked": 1793551171.5469277,
+  "expires": 1793552413,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

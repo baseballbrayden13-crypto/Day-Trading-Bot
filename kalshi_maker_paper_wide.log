@@ -3024,3 +3024,20 @@
 2026-11-01 11:10:02,642 INFO PAPER rest NO bid KXATP-26BASEL-LEH at $0.2200 x5 (0 already bid at that price)
 2026-11-01 11:10:02,642 INFO Resting NO bid on KXATP-26BASEL-LEH at $0.2200 x5 (KXATP-26BASEL): locks in $1.09 if it fills; hedge NO VAC@0.5400
 2026-11-01 11:10:02,646 INFO Swept 20351 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 11:14:50,228 INFO Settled KXITFMATCH-26NOV01ALANAH (stray): paid $0, profit $-1.77
+2026-11-01 11:15:07,048 INFO Swept 20329 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 11:20:09,563 INFO PAPER rest NO bid KXPGA3BALL-VIMO26R4GHIGAORTCTAN-CTAN at $0.6700 x2 (0 already bid at that price)
+2026-11-01 11:20:09,563 INFO Resting NO bid on KXPGA3BALL-VIMO26R4GHIGAORTCTAN-CTAN at $0.6700 x2 (KXPGA3BALL-VIMO26R4GHIGAORTCTAN): locks in $0.11 if it fills; hedge NO GHIG@0.6500, AORT@0.5800
+2026-11-01 11:20:09,620 INFO PAPER rest NO bid KXETTANGAME-26NOV01ARITRO-TRO at $0.8700 x2 (2 already bid at that price)
+2026-11-01 11:20:09,620 INFO Resting NO bid on KXETTANGAME-26NOV01ARITRO-TRO at $0.87 x2 (KXETTANGAME-26NOV01ARITRO): locks in $0.10 if it fills; hedge NO ARI@0.1300, TIE@0.9300
+2026-11-01 11:20:09,624 INFO Swept 20305 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-01 11:20:47,266 INFO Quote KXETTANGAME-26NOV01ARITRO cancelled (0/2 filled)
+2026-11-01 11:25:09,549 INFO PAPER rest NO bid KXNBAGAME-26NOV04DALSAS-DAL at $0.7400 x5 (10 already bid at that price)
+2026-11-01 11:25:09,549 INFO Resting NO bid on KXNBAGAME-26NOV04DALSAS-DAL at $0.74 x5 (KXNBAGAME-26NOV04DALSAS): locks in $0.11 if it fills; hedge NO SAS@0.2200
+2026-11-01 11:25:09,553 INFO Swept 20287 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-01 11:27:23,050 INFO Quote KXPGA3BALL-VIMO26R4GHIGAORTCTAN cancelled (0/2 filled)
+2026-11-01 11:30:13,639 INFO PAPER rest NO bid KXLIGUE11H-26NOV01OLANG-TIE at $0.2500 x2 (0 already bid at that price)
+2026-11-01 11:30:13,639 INFO Resting NO bid on KXLIGUE11H-26NOV01OLANG-TIE at $0.2500 x2 (KXLIGUE11H-26NOV01OLANG): locks in $0.30 if it fills; hedge NO OL@0.5900, ANG@0.9800
+2026-11-01 11:30:13,643 INFO Swept 20278 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-01 11:39:31,286 INFO Swept 20281 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-01 11:39:31,598 INFO Quote KXLIGUE11H-26NOV01OLANG cancelled (0/2 filled)
