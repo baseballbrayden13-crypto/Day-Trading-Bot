@@ -1316,25 +1316,5 @@
    "closed": "2026-10-31T23:35:53.197559+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXUFCVICROUND-26OCT31SEZBER",
-   "series": "KXUFCVICROUND",
-   "title": "Rodrigo Sezinando vs. Theodor Berggren: Round of Victory",
-   "ticker": "KXUFCVICROUND-26OCT31SEZBER-BER3",
-   "order_id": "paper-425-1793491282",
-   "price": "0.8800",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.4700",
-   "multiplier": "1",
-   "placed": 1793491282.9065573,
-   "hedge": [
-    {
-     "ticker": "KXUFCVICROUND-26OCT31SEZBER-SEZ2",
-     "limit": "0.0900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

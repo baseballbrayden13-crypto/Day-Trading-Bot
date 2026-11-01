@@ -2654,3 +2654,11 @@
 2026-10-31 20:01:22,906 INFO PAPER rest NO bid KXUFCVICROUND-26OCT31SEZBER-BER3 at $0.8800 x5 (0 already bid at that price)
 2026-10-31 20:01:22,906 INFO Resting NO bid on KXUFCVICROUND-26OCT31SEZBER-BER3 at $0.8800 x5 (KXUFCVICROUND-26OCT31SEZBER): locks in $0.53 if it fills; hedge NO SEZ2@0.0100
 2026-10-31 20:01:22,910 INFO Swept 20591 events: 0 taker trades, 1 new quotes, 1 resting
+2026-10-31 20:06:28,049 INFO PAPER rest NO bid KXNCAAF2H-26OCT31SCAROKLA-SCAR at $0.5600 x5 (0 already bid at that price)
+2026-10-31 20:06:28,050 INFO Resting NO bid on KXNCAAF2H-26OCT31SCAROKLA-SCAR at $0.5600 x5 (KXNCAAF2H-26OCT31SCAROKLA): locks in $0.13 if it fills; hedge NO OKLA@0.3900
+2026-10-31 20:06:28,053 INFO Swept 20579 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 20:11:28,998 INFO Swept 20628 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 20:16:33,111 INFO Swept 20623 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 20:18:08,362 INFO Quote KXNCAAF2H-26OCT31SCAROKLA cancelled (0/5 filled)
+2026-10-31 20:21:33,426 INFO Swept 20617 events: 0 taker trades, 0 new quotes, 1 resting
+2026-10-31 20:21:38,635 INFO Stopped; all quotes cancelled.
