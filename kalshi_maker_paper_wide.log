@@ -2942,3 +2942,12 @@
 2026-11-01 08:29:15,720 INFO Swept 20664 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-01 08:34:18,557 INFO Swept 20633 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-01 08:39:22,114 INFO Swept 20619 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 08:43:54,963 INFO PAPER rest NO bid KXNFLNEXTTEAM-26BHALL20-DEN at $0.0100 x1 (74 already bid at that price)
+2026-11-01 08:43:54,963 INFO Resting NO bid on KXNFLNEXTTEAM-26BHALL20-DEN at $0.01 x1 (KXNFLNEXTTEAM-26BHALL20): locks in $0.10 if it fills; hedge NO MIN@0.9800, NYJ@0.8800
+2026-11-01 08:43:54,967 INFO Swept 20621 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 08:48:51,466 INFO Swept 20612 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 08:53:55,470 INFO Swept 20597 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 08:58:59,311 INFO Swept 20583 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 09:03:43,219 INFO Settled KXLOWTDEN-26OCT31 (stray): paid $1, profit $0.09
+2026-11-01 09:04:01,079 INFO Swept 20552 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 09:09:01,226 INFO Swept 20558 events: 0 taker trades, 0 new quotes, 1 resting

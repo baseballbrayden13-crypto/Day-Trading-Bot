@@ -1,5 +1,5 @@
 {
- "realized": "-1.6600",
+ "realized": "-1.5700",
  "open": [
   {
    "event": "KXATP-26VIENNA",
@@ -28,23 +28,6 @@
      "side": "no",
      "count": 2,
      "limit": "0.9000"
-    }
-   ]
-  },
-  {
-   "event": "KXLOWTDEN-26OCT31 (stray)",
-   "series": "KXLOWTDEN",
-   "title": "Lowest temperature in Denver on Oct 31, 2026?",
-   "sets": 0,
-   "outlay": "0.91",
-   "locked_profit": "0",
-   "opened": "2026-11-01T05:13:21.284679+00:00",
-   "legs": [
-    {
-     "ticker": "KXLOWTDEN-26OCT31-B41.5",
-     "side": "no",
-     "count": 1,
-     "limit": "0.90"
     }
    ]
   },
@@ -1459,7 +1442,51 @@
    "paid": "4",
    "pnl": "0.1400",
    "closed": "2026-11-01T09:32:53.832226+00:00"
+  },
+  {
+   "event": "KXLOWTDEN-26OCT31 (stray)",
+   "series": "KXLOWTDEN",
+   "title": "Lowest temperature in Denver on Oct 31, 2026?",
+   "sets": 0,
+   "outlay": "0.91",
+   "locked_profit": "0",
+   "opened": "2026-11-01T05:13:21.284679+00:00",
+   "legs": [
+    {
+     "ticker": "KXLOWTDEN-26OCT31-B41.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.90"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.09",
+   "closed": "2026-11-01T14:03:43.219360+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNFLNEXTTEAM-26BHALL20",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Breece Hall Next Team",
+   "ticker": "KXNFLNEXTTEAM-26BHALL20-DEN",
+   "order_id": "paper-465-1793540634",
+   "price": "0.01",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.9000",
+   "multiplier": "1",
+   "placed": 1793540634.9635289,
+   "hedge": [
+    {
+     "ticker": "KXNFLNEXTTEAM-26BHALL20-MIN",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26BHALL20-NYJ",
+     "limit": "0.8800"
+    }
+   ]
+  }
+ ]
 }
