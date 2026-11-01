@@ -1,5 +1,5 @@
 {
- "realized": "-3.8900",
+ "realized": "-4.0900",
  "open": [
   {
    "event": "KXLOWTPHIL-26NOV01",
@@ -1515,94 +1515,40 @@
  ],
  "quotes": [
   {
-   "event": "KXF1WINMARGIN-MEX26",
-   "series": "KXF1WINMARGIN",
-   "title": "Main Race Winning Margin: 2026 Mexico City Grand Prix",
-   "ticker": "KXF1WINMARGIN-MEX26-LT2500",
-   "order_id": "paper-499-1793563675",
-   "price": "0.3300",
-   "sets": 1,
+   "event": "KXF1H2H-MEX26ANTVER",
+   "series": "KXF1H2H",
+   "title": "F1 Matchup: Antonelli vs Verstappen",
+   "ticker": "KXF1H2H-MEX26ANTVER-VER",
+   "order_id": "paper-509-1793566666",
+   "price": "0.05",
+   "sets": 5,
    "done": 0,
-   "reserve": "2.8900",
+   "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793563675.5962636,
+   "placed": 1793566666.595006,
    "hedge": [
     {
-     "ticker": "KXF1WINMARGIN-MEX26-B2500-4999",
-     "limit": "0.8400"
-    },
-    {
-     "ticker": "KXF1WINMARGIN-MEX26-B5000-9999",
-     "limit": "0.8400"
-    },
-    {
-     "ticker": "KXF1WINMARGIN-MEX26-GE10000",
-     "limit": "0.8400"
+     "ticker": "KXF1H2H-MEX26ANTVER-ANT",
+     "limit": "0.9200"
     }
    ]
   },
   {
-   "event": "KXSERIEA1H-26NOV01JUVNAP",
-   "series": "KXSERIEA1H",
-   "title": "Juventus vs Napoli: First Half Winner",
-   "ticker": "KXSERIEA1H-26NOV01JUVNAP-NAP",
-   "order_id": "paper-503-1793564519",
-   "price": "0.5300",
-   "sets": 1,
+   "event": "KXNFLWINMARGIN-26NOV01INDJAC",
+   "series": "KXNFLWINMARGIN",
+   "title": "Indianapolis vs Jacksonville: Winning Margin",
+   "ticker": "KXNFLWINMARGIN-26NOV01INDJAC-IND7TO14",
+   "order_id": "paper-510-1793567088",
+   "price": "0.8700",
+   "sets": 5,
    "done": 0,
-   "reserve": "1.8000",
+   "reserve": "4.6800",
    "multiplier": "1",
-   "placed": 1793564519.2648795,
+   "placed": 1793567088.7638261,
    "hedge": [
     {
-     "ticker": "KXSERIEA1H-26NOV01JUVNAP-JUV",
-     "limit": "0.9400"
-    },
-    {
-     "ticker": "KXSERIEA1H-26NOV01JUVNAP-TIE",
-     "limit": "0.3700"
-    }
-   ]
-  },
-  {
-   "event": "KXLALIGA1H-26NOV01ATHRSO",
-   "series": "KXLALIGA1H",
-   "title": "Bilbao vs Real Sociedad: First Half Winner",
-   "ticker": "KXLALIGA1H-26NOV01ATHRSO-RSO",
-   "order_id": "paper-504-1793564948",
-   "price": "0.8200",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.8000",
-   "multiplier": "1",
-   "placed": 1793564948.4607432,
-   "hedge": [
-    {
-     "ticker": "KXLALIGA1H-26NOV01ATHRSO-ATH",
-     "limit": "0.2100"
-    },
-    {
-     "ticker": "KXLALIGA1H-26NOV01ATHRSO-TIE",
-     "limit": "0.8400"
-    }
-   ]
-  },
-  {
-   "event": "KXITFMATCH-26NOV01KLIMIL",
-   "series": "KXITFMATCH",
-   "title": "Kliebhan vs Miller",
-   "ticker": "KXITFMATCH-26NOV01KLIMIL-KLI",
-   "order_id": "paper-505-1793564948",
-   "price": "0.2300",
-   "sets": 3,
-   "done": 0,
-   "reserve": "2.8600",
-   "multiplier": "1",
-   "placed": 1793564948.527055,
-   "hedge": [
-    {
-     "ticker": "KXITFMATCH-26NOV01KLIMIL-MIL",
-     "limit": "0.7400"
+     "ticker": "KXNFLWINMARGIN-26NOV01INDJAC-JAC15PLUS",
+     "limit": "0.0600"
     }
    ]
   }
