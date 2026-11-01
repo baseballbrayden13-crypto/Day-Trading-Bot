@@ -1,7 +1,7 @@
 """Would betting Kalshi's 15-minute markets have made money? Settled events, real past prices, fees included.
 
     python -m bot.kalshi_15m_backtest --list                  # which 15-minute series Kalshi has
-    python -m bot.kalshi_15m_backtest --days 14 --minutes-before 5
+    python -m bot.kalshi_15m_backtest --days 5 --minutes-before 5
     python -m bot.kalshi_15m_backtest --series KXBTC15M,KXETH15M --days 7
 
 Two rules, each tested on its own:
@@ -137,6 +137,7 @@ def run(api: Kalshi, args) -> tuple[list[dict], list[dict], list[str]]:
                 kb.strike_range(m)), cfg)
             if b:
                 model.append({**b, "note": f"spot {spot:,.2f}"})
+        print(f"{s}: {len(events)} settled events, {len(model) - n_model} model bets, {len(fav) - n_fav} favorite bets", flush=True)
         notes.append(f"{s}: {len(events)} settled events, {len(model) - n_model} model bets, {len(fav) - n_fav} favorite bets"
                      + ("" if product else " (no price feed: favorite rule only)"))
     return model, fav, notes
@@ -146,8 +147,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Backtest Kalshi 15-minute markets, after fees")
     ap.add_argument("--list", action="store_true", help="just list the 15-minute series")
     ap.add_argument("--series", default="", help="comma list; default every 15-minute series")
-    ap.add_argument("--days", type=int, default=14)
-    ap.add_argument("--max-events", type=int, default=2000, help="per series")
+    ap.add_argument("--days", type=int, default=5)
+    ap.add_argument("--max-events", type=int, default=400, help="per series (newest first)")
     ap.add_argument("--minutes-before", type=int, default=5, help="bet this many minutes before the close")
     ap.add_argument("--stake", type=D, default=D("2"))
     ap.add_argument("--min-edge", type=float, default=0.05)
