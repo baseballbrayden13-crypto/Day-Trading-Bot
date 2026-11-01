@@ -6376,11 +6376,25 @@
   "count": 4,
   "ahead": 29,
   "placed": 1793516808.7061396,
-  "checked": 1793517534.718455,
+  "checked": 1793517733.8332512,
   "expires": 1793518608,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-457-1793517713": {
+  "id": "paper-457-1793517713",
+  "ticker": "KXKBO-26-SAM",
+  "price": "0.3400",
+  "count": 3,
+  "ahead": 10,
+  "placed": 1793517713.5423388,
+  "checked": 1793518016.9549158,
+  "expires": 1793519513,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

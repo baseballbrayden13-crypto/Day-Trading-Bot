@@ -2836,3 +2836,13 @@
 2026-11-01 02:06:48,714 INFO Swept 20600 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-01 02:11:48,499 INFO Swept 20605 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 02:16:53,832 INFO Swept 20605 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 02:21:53,546 INFO PAPER rest NO bid KXKBO-26-SAM at $0.3400 x3 (10 already bid at that price)
+2026-11-01 02:21:53,547 INFO Resting NO bid on KXKBO-26-SAM at $0.34 x3 (KXKBO-26): locks in $0.10 if it fills; hedge NO KTW@0.6000
+2026-11-01 02:21:53,551 INFO Swept 20602 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 02:22:13,855 INFO Quote KXWTA-26GUANGZ cancelled (0/4 filled)
+2026-11-01 02:26:56,918 INFO Swept 20596 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 02:26:56,978 INFO Quote KXKBO-26 cancelled (0/3 filled)
+2026-11-01 02:31:59,283 INFO Swept 20592 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 02:37:01,481 INFO Swept 20592 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 02:42:03,854 INFO Swept 20600 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 02:47:05,832 INFO Swept 20598 events: 0 taker trades, 0 new quotes, 0 resting
