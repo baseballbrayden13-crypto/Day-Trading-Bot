@@ -95,6 +95,30 @@
      "limit": "0.0600"
     }
    ]
+  },
+  {
+   "event": "KXMLBBGAME-26NOV010430REYSRG",
+   "series": "KXMLBBGAME",
+   "title": "Team Rey vs. Selangor Red Giants",
+   "sets": 5,
+   "outlay": "4.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-11-01T10:28:25.567291+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXMLBBGAME-26NOV010430REYSRG-REY",
+     "side": "no",
+     "count": 5,
+     "limit": "0.74"
+    },
+    {
+     "ticker": "KXMLBBGAME-26NOV010430REYSRG-SRG",
+     "side": "no",
+     "count": 5,
+     "limit": "0.2200"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1437,44 +1461,5 @@
    "closed": "2026-11-01T09:32:53.832226+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXITFMATCH-26NOV01MANCHR",
-   "series": "KXITFMATCH",
-   "title": "Manzanera Pertusa vs Christoffersson",
-   "ticker": "KXITFMATCH-26NOV01MANCHR-CHR",
-   "order_id": "paper-461-1793526795",
-   "price": "0.6900",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.8800",
-   "multiplier": "1",
-   "placed": 1793526795.143809,
-   "hedge": [
-    {
-     "ticker": "KXITFMATCH-26NOV01MANCHR-MAN",
-     "limit": "0.2300"
-    }
-   ]
-  },
-  {
-   "event": "KXMLBBGAME-26NOV010430REYSRG",
-   "series": "KXMLBBGAME",
-   "title": "Team Rey vs. Selangor Red Giants",
-   "ticker": "KXMLBBGAME-26NOV010430REYSRG-REY",
-   "order_id": "paper-462-1793527694",
-   "price": "0.74",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8900",
-   "multiplier": "1",
-   "placed": 1793527694.3682058,
-   "hedge": [
-    {
-     "ticker": "KXMLBBGAME-26NOV010430REYSRG-SRG",
-     "limit": "0.2200"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

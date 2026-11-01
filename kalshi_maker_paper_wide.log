@@ -2892,3 +2892,12 @@
 2026-11-01 05:08:14,372 INFO Swept 20766 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-01 05:13:15,581 INFO Swept 20766 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-01 05:18:17,921 INFO Swept 20778 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 05:23:22,131 INFO Swept 20775 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 05:28:25,533 INFO Swept 20768 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 05:28:25,548 INFO PAPER KXMLBBGAME-26NOV010430REYSRG-REY NO bid at $0.7400: 5/5 filled by real trades
+2026-11-01 05:28:25,567 INFO PAPER buy 5 NO KXMLBBGAME-26NOV010430REYSRG-SRG at up to $0.2200: filled 5
+2026-11-01 05:28:25,567 INFO Quote KXMLBBGAME-26NOV010430REYSRG filled 5: hedged, locks in $0.11
+2026-11-01 05:33:28,499 INFO Swept 20763 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 05:38:28,402 INFO Swept 20756 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 05:43:35,707 INFO Swept 20754 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 05:48:34,378 INFO Swept 20747 events: 0 taker trades, 0 new quotes, 0 resting
