@@ -2662,3 +2662,20 @@
 2026-10-31 20:18:08,362 INFO Quote KXNCAAF2H-26OCT31SCAROKLA cancelled (0/5 filled)
 2026-10-31 20:21:33,426 INFO Swept 20617 events: 0 taker trades, 0 new quotes, 1 resting
 2026-10-31 20:21:38,635 INFO Stopped; all quotes cancelled.
+2026-10-31 20:51:13,664 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-10-31 20:53:23,562 INFO PAPER rest NO bid KXUFCVICROUND-26OCT31SEZBER-BER1 at $0.8900 x4 (107 already bid at that price)
+2026-10-31 20:53:23,562 INFO Resting NO bid on KXUFCVICROUND-26OCT31SEZBER-BER1 at $0.89 x4 (KXUFCVICROUND-26OCT31SEZBER): locks in $0.13 if it fills; hedge NO SEZ2@0.0700
+2026-10-31 20:53:23,583 INFO PAPER rest NO bid KXNCAAHGAME-26OCT31NDWIS-ND at $0.6700 x5 (0 already bid at that price)
+2026-10-31 20:53:23,583 INFO Resting NO bid on KXNCAAHGAME-26OCT31NDWIS-ND at $0.6700 x5 (KXNCAAHGAME-26OCT31NDWIS): locks in $0.31 if it fills; hedge NO WIS@0.2500
+2026-10-31 20:53:23,585 INFO Swept 20668 events: 0 taker trades, 2 new quotes, 2 resting
+2026-10-31 20:56:11,258 INFO Quote KXUFCVICROUND-26OCT31SEZBER cancelled (0/4 filled)
+2026-10-31 20:58:26,764 INFO PAPER rest NO bid KXNCAAF1H-26OCT30MIAUNC-UNC at $0.5800 x2 (0 already bid at that price)
+2026-10-31 20:58:26,764 INFO Resting NO bid on KXNCAAF1H-26OCT30MIAUNC-UNC at $0.5800 x2 (KXNCAAF1H-26OCT30MIAUNC): locks in $0.21 if it fills; hedge NO MIA@0.6900, TIE@0.6200
+2026-10-31 20:58:26,766 INFO Swept 20665 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 20:58:52,210 INFO Quote KXNCAAF1H-26OCT30MIAUNC cancelled (0/2 filled)
+2026-10-31 21:03:30,122 INFO PAPER rest NO bid KXNBAGAME-26NOV04PHIDET-PHI at $0.3600 x5 (0 already bid at that price)
+2026-10-31 21:03:30,122 INFO Resting NO bid on KXNBAGAME-26NOV04PHIDET-PHI at $0.3600 x5 (KXNBAGAME-26NOV04PHIDET): locks in $0.28 if it fills; hedge NO DET@0.5600
+2026-10-31 21:03:30,125 INFO Swept 20662 events: 0 taker trades, 1 new quotes, 2 resting
+2026-10-31 21:08:35,171 INFO Swept 20691 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 21:13:35,248 INFO Swept 20711 events: 0 taker trades, 0 new quotes, 2 resting
+2026-10-31 21:18:38,814 INFO Swept 20732 events: 0 taker trades, 0 new quotes, 2 resting

@@ -1316,5 +1316,44 @@
    "closed": "2026-10-31T23:35:53.197559+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAHGAME-26OCT31NDWIS",
+   "series": "KXNCAAHGAME",
+   "title": "Notre Dame vs Wisconsin",
+   "ticker": "KXNCAAHGAME-26OCT31NDWIS-ND",
+   "order_id": "paper-428-1793494403",
+   "price": "0.6700",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.6900",
+   "multiplier": "1",
+   "placed": 1793494403.5832868,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26OCT31NDWIS-WIS",
+     "limit": "0.2500"
+    }
+   ]
+  },
+  {
+   "event": "KXNBAGAME-26NOV04PHIDET",
+   "series": "KXNBAGAME",
+   "title": "Philadelphia vs Detroit",
+   "ticker": "KXNBAGAME-26NOV04PHIDET-PHI",
+   "order_id": "paper-430-1793495010",
+   "price": "0.3600",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.7200",
+   "multiplier": "1",
+   "placed": 1793495010.1227794,
+   "hedge": [
+    {
+     "ticker": "KXNBAGAME-26NOV04PHIDET-DET",
+     "limit": "0.5600"
+    }
+   ]
+  }
+ ]
 }

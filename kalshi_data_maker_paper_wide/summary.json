@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T00:18:18+00:00",
+ "updated": "2026-11-01T01:16:27+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -13,14 +13,9 @@
  "stray_positions": 0,
  "closed_trades": 38,
  "trades_this_loop": 0,
- "events_swept": 20617,
+ "events_swept": 20732,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 4,
- "last_problems": [
-  "2026-10-31 20:04 Quote KXAHLGAME-26OCT311400LAVCAL: hedge missed on KXAHLGAME-26OCT311400LAVCAL-CAL. Selling back 6 contracts on 1 legs.",
-  "2026-10-31 20:04 STRAY POSITION: 6 NO contracts of KXAHLGAME-26OCT311400LAVCAL-LAV still held. Check it on Kalshi.",
-  "2026-10-31 21:30 Quote KXNCAAHGAME-26OCT31MICOSU: hedge missed on KXNCAAHGAME-26OCT31MICOSU-MIC. Selling back 1 contracts on 1 legs.",
-  "2026-10-31 21:30 STRAY POSITION: 1 NO contracts of KXNCAAHGAME-26OCT31MICOSU-OSU still held. Check it on Kalshi."
- ]
+ "problems": 0,
+ "last_problems": []
 }
