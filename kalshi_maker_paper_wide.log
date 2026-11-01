@@ -3221,3 +3221,13 @@
 2026-11-01 17:28:58,709 INFO Resting NO bid on KXF1WINMARGIN-MEX26-GE10000 at $0.8500 x4 (KXF1WINMARGIN-MEX26): locks in $0.16 if it fills; hedge NO LT2500@0.1000
 2026-11-01 17:28:58,713 INFO Swept 19536 events: 0 taker trades, 1 new quotes, 3 resting
 2026-11-01 17:34:51,176 INFO Swept 19509 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-01 17:40:39,297 INFO Swept 19493 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-01 17:46:25,806 INFO Swept 19470 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-01 17:51:55,405 INFO Settled KXNFLFIRSTTDTEAM-26NOV01NEMIA (stray): paid $0, profit $-1.54
+2026-11-01 17:52:13,292 INFO Swept 19455 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-01 17:57:47,097 INFO PAPER rest NO bid KXF1H2H-MEX26VERNOR-NOR at $0.8200 x3 (0 already bid at that price)
+2026-11-01 17:57:47,097 INFO Resting NO bid on KXF1H2H-MEX26VERNOR-NOR at $0.8200 x3 (KXF1H2H-MEX26VERNOR): locks in $0.14 if it fills; hedge NO VER@0.1200
+2026-11-01 17:57:47,101 INFO Swept 19429 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-01 18:03:19,919 INFO PAPER rest NO bid KXF1H2H-MEX26HAMLEC-LEC at $0.4700 x5 (0 already bid at that price)
+2026-11-01 18:03:19,919 INFO Resting NO bid on KXF1H2H-MEX26HAMLEC-LEC at $0.4700 x5 (KXF1H2H-MEX26HAMLEC): locks in $0.33 if it fills; hedge NO HAM@0.4400
+2026-11-01 18:03:19,924 INFO Swept 19428 events: 0 taker trades, 1 new quotes, 3 resting
