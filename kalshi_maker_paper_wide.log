@@ -2824,3 +2824,15 @@
 2026-11-01 01:31:33,015 INFO Swept 20642 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 01:36:33,401 INFO Swept 20643 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 01:36:38,424 INFO Stopped; all quotes cancelled.
+2026-11-01 01:48:57,159 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-01 01:51:39,450 INFO PAPER rest NO bid KXITFWMATCH-26OCT31SIMOVC-OVC at $0.1000 x5 (5 already bid at that price)
+2026-11-01 01:51:39,450 INFO Resting NO bid on KXITFWMATCH-26OCT31SIMOVC-OVC at $0.10 x5 (KXITFWMATCH-26OCT31SIMOVC): locks in $0.10 if it fills; hedge NO SIM@0.8700
+2026-11-01 01:51:39,454 INFO Swept 20626 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 01:51:54,613 INFO Quote KXITFWMATCH-26OCT31SIMOVC cancelled (0/5 filled)
+2026-11-01 01:56:42,472 INFO Swept 20618 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 02:01:44,432 INFO Swept 20610 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 02:06:48,710 INFO PAPER rest NO bid KXWTA-26GUANGZ-DAR at $0.6700 x4 (29 already bid at that price)
+2026-11-01 02:06:48,711 INFO Resting NO bid on KXWTA-26GUANGZ-DAR at $0.67 x4 (KXWTA-26GUANGZ): locks in $0.12 if it fills; hedge NO TAG@0.2800
+2026-11-01 02:06:48,714 INFO Swept 20600 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 02:11:48,499 INFO Swept 20605 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 02:16:53,832 INFO Swept 20605 events: 0 taker trades, 0 new quotes, 1 resting
