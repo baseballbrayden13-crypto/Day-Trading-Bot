@@ -1493,5 +1493,29 @@
    "closed": "2026-11-01T16:14:50.228675+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXETH-26NOV0117",
+   "series": "KXETH",
+   "title": "ETH price range on Nov 1, 2026 at 5pm EST?",
+   "ticker": "KXETH-26NOV0117-B2300",
+   "order_id": "paper-495-1793559829",
+   "price": "0.87",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.9000",
+   "multiplier": "1",
+   "placed": 1793559829.9925528,
+   "hedge": [
+    {
+     "ticker": "KXETH-26NOV0117-B2220",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXETH-26NOV0117-B2260",
+     "limit": "0.0800"
+    }
+   ]
+  }
+ ]
 }

@@ -3074,3 +3074,22 @@
 2026-11-01 13:24:01,879 INFO Swept 20211 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 13:30:57,386 INFO Swept 20195 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 13:31:02,581 INFO Stopped; all quotes cancelled.
+2026-11-01 13:35:49,656 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-01 13:42:41,052 INFO PAPER rest NO bid KXELHGAME-26NOV011130HCOTHCV-HCV at $0.3800 x7 (0 already bid at that price)
+2026-11-01 13:42:41,052 INFO Resting NO bid on KXELHGAME-26NOV011130HCOTHCV-HCV at $0.3800 x7 (KXELHGAME-26NOV011130HCOTHCV): locks in $2.46 if it fills; hedge NO HCOT@0.2500
+2026-11-01 13:42:41,056 INFO Swept 20129 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 13:49:42,265 INFO PAPER rest NO bid KXSERIEAWGAME-26NOV01FCWACM-TIE at $0.2900 x3 (0 already bid at that price)
+2026-11-01 13:49:42,265 INFO Resting NO bid on KXSERIEAWGAME-26NOV01FCWACM-TIE at $0.2900 x3 (KXSERIEAWGAME-26NOV01FCWACM): locks in $1.52 if it fills; hedge NO FCW@0.1900, ACM@0.9900
+2026-11-01 13:49:42,338 INFO PAPER rest NO bid KXNFLMOSTRECYDS-26NOV01ARIDAL-ARIMWILSON14 at $0.2300 x2 (0 already bid at that price)
+2026-11-01 13:49:42,338 INFO Resting NO bid on KXNFLMOSTRECYDS-26NOV01ARIDAL-ARIMWILSON14 at $0.2300 x2 (KXNFLMOSTRECYDS-26NOV01ARIDAL): locks in $0.18 if it fills; hedge NO DALCLAMB88@0.7300, DALGPICKENS3@0.9200
+2026-11-01 13:49:42,342 INFO Swept 20129 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-01 13:56:45,999 INFO PAPER rest NO bid KXNFLRACE-26NOV01BALBUF-14-NONE at $0.5700 x1 (0 already bid at that price)
+2026-11-01 13:56:46,000 INFO Resting NO bid on KXNFLRACE-26NOV01BALBUF-14-NONE at $0.5700 x1 (KXNFLRACE-26NOV01BALBUF-14): locks in $0.14 if it fills; hedge NO BUF@0.2700, BAL@0.9800
+2026-11-01 13:56:46,004 INFO Swept 20124 events: 0 taker trades, 1 new quotes, 4 resting
+2026-11-01 13:56:46,446 INFO Quote KXNFLMOSTRECYDS-26NOV01ARIDAL cancelled (0/2 filled)
+2026-11-01 14:03:49,992 INFO PAPER rest NO bid KXETH-26NOV0117-B2300 at $0.8700 x2 (10 already bid at that price)
+2026-11-01 14:03:49,992 INFO Resting NO bid on KXETH-26NOV0117-B2300 at $0.87 x2 (KXETH-26NOV0117): locks in $0.10 if it fills; hedge NO B2220@0.9800, B2260@0.0800
+2026-11-01 14:03:49,996 INFO Swept 20071 events: 0 taker trades, 1 new quotes, 4 resting
+2026-11-01 14:03:50,196 INFO Quote KXELHGAME-26NOV011130HCOTHCV cancelled (0/7 filled)
+2026-11-01 14:03:50,393 INFO Quote KXSERIEAWGAME-26NOV01FCWACM cancelled (0/3 filled)
+2026-11-01 14:03:50,594 INFO Quote KXNFLRACE-26NOV01BALBUF-14 cancelled (0/1 filled)
