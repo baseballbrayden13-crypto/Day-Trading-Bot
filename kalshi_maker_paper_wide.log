@@ -2924,3 +2924,8 @@
 2026-11-01 07:09:14,400 INFO Swept 20694 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-01 07:14:00,244 INFO Swept 20695 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 07:19:00,654 INFO Swept 20694 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 07:24:02,250 INFO Swept 20688 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 07:29:04,221 INFO Swept 20680 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 07:29:29,448 INFO Quote KXATPMATCH-26NOV01STRGEA cancelled (0/3 filled)
+2026-11-01 07:34:17,969 INFO Swept 20677 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 07:34:22,973 INFO Stopped; all quotes cancelled.
