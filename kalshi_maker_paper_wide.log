@@ -2907,3 +2907,12 @@
 2026-11-01 06:08:44,427 INFO Swept 20739 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-01 06:13:43,248 INFO Swept 20739 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-01 06:18:46,223 INFO Swept 20749 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 06:23:53,521 INFO Swept 20741 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 06:28:52,917 INFO PAPER rest NO bid KXITFMATCH-26NOV01RUIDON-DON at $0.8000 x2 (0 already bid at that price)
+2026-11-01 06:28:52,917 INFO Resting NO bid on KXITFMATCH-26NOV01RUIDON-DON at $0.8000 x2 (KXITFMATCH-26NOV01RUIDON): locks in $0.13 if it fills; hedge NO RUI@0.1200
+2026-11-01 06:28:52,921 INFO Swept 20736 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 06:29:48,375 INFO Quote KXITFMATCH-26NOV01RUIDON cancelled (0/2 filled)
+2026-11-01 06:34:01,455 INFO Swept 20722 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 06:39:04,230 INFO Swept 20725 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 06:44:07,412 INFO Swept 20715 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 06:49:09,466 INFO Swept 20717 events: 0 taker trades, 0 new quotes, 0 resting
