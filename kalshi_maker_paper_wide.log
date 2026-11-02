@@ -3398,3 +3398,12 @@
 2026-11-02 03:10:46,511 INFO PAPER rest NO bid KXLOWTBOS-26NOV02-T47 at $0.1800 x2 (0 already bid at that price)
 2026-11-02 03:10:46,511 INFO Resting NO bid on KXLOWTBOS-26NOV02-T47 at $0.1800 x2 (KXLOWTBOS-26NOV02): locks in $0.11 if it fills; hedge NO B44.5@0.9800, B46.5@0.7600
 2026-11-02 03:10:46,515 INFO Swept 19924 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 03:15:45,719 INFO Swept 19921 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 03:18:04,363 INFO Quote KXLOWTBOS-26NOV02 cancelled (0/2 filled)
+2026-11-02 03:20:51,844 INFO Swept 19921 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 03:25:52,238 INFO PAPER rest NO bid KXESOCCERGAME-26NOV020313KATEADRI-TIE at $0.1700 x6 (0 already bid at that price)
+2026-11-02 03:25:52,239 INFO Resting NO bid on KXESOCCERGAME-26NOV020313KATEADRI-TIE at $0.1700 x6 (KXESOCCERGAME-26NOV020313KATEADRI): locks in $1.02 if it fills; hedge NO ADRI@0.6400
+2026-11-02 03:25:52,243 INFO Swept 19923 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 03:30:56,172 INFO Swept 19930 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 03:35:59,607 INFO Swept 19928 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 03:41:04,602 INFO Swept 19929 events: 0 taker trades, 0 new quotes, 1 resting

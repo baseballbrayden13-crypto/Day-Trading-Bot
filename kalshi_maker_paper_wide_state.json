@@ -1596,25 +1596,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLOWTBOS-26NOV02",
-   "series": "KXLOWTBOS",
-   "title": "Lowest temperature in Boston on Nov 2, 2026?",
-   "ticker": "KXLOWTBOS-26NOV02-T47",
-   "order_id": "paper-546-1793607046",
-   "price": "0.1800",
-   "sets": 2,
+   "event": "KXESOCCERGAME-26NOV020313KATEADRI",
+   "series": "KXESOCCERGAME",
+   "title": "eSoccer: Paris Saint-Germain (Kate) vs RC Lens (Adri)",
+   "ticker": "KXESOCCERGAME-26NOV020313KATEADRI-TIE",
+   "order_id": "paper-547-1793607952",
+   "price": "0.1700",
+   "sets": 6,
    "done": 0,
-   "reserve": "3.8900",
+   "reserve": "4.9800",
    "multiplier": "1",
-   "placed": 1793607046.5116785,
+   "placed": 1793607952.2390087,
    "hedge": [
     {
-     "ticker": "KXLOWTBOS-26NOV02-B44.5",
-     "limit": "0.9800"
-    },
-    {
-     "ticker": "KXLOWTBOS-26NOV02-B46.5",
-     "limit": "0.7600"
+     "ticker": "KXESOCCERGAME-26NOV020313KATEADRI-ADRI",
+     "limit": "0.6500"
     }
    ]
   }
