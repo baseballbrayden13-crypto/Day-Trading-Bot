@@ -3281,3 +3281,21 @@
 2026-11-01 20:40:41,004 INFO Swept 19627 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 20:45:43,438 INFO Swept 19616 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 20:50:44,655 INFO Swept 19623 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 20:55:38,031 INFO Swept 19619 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 21:00:37,731 INFO PAPER rest NO bid KXF1H2H-MEX26PIAGAS-PIA at $0.2200 x4 (11 already bid at that price)
+2026-11-01 21:00:37,731 INFO Resting NO bid on KXF1H2H-MEX26PIAGAS-PIA at $0.22 x4 (KXF1H2H-MEX26PIAGAS): locks in $0.12 if it fills; hedge NO GAS@0.7300
+2026-11-01 21:00:37,735 INFO Swept 19620 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 21:05:36,313 INFO Swept 19617 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 21:05:36,333 INFO PAPER KXF1H2H-MEX26PIAGAS-PIA NO bid at $0.2200: 4/4 filled by real trades
+2026-11-01 21:05:36,356 INFO PAPER buy 4 NO KXF1H2H-MEX26PIAGAS-GAS at up to $0.7300: not on the book
+2026-11-01 21:05:36,356 WARNING Quote KXF1H2H-MEX26PIAGAS: hedge missed on KXF1H2H-MEX26PIAGAS-GAS. Selling back 4 contracts on 1 legs.
+2026-11-01 21:05:36,374 INFO PAPER sell 4 YES KXF1H2H-MEX26PIAGAS-PIA at up to $0.83: not on the book
+2026-11-01 21:05:36,374 ERROR STRAY POSITION: 4 NO contracts of KXF1H2H-MEX26PIAGAS-PIA still held. Check it on Kalshi.
+2026-11-01 21:10:34,006 INFO PAPER rest NO bid KXNCAAHGAME-26NOV01MICOSU-MIC at $0.1000 x5 (86 already bid at that price)
+2026-11-01 21:10:34,006 INFO Resting NO bid on KXNCAAHGAME-26NOV01MICOSU-MIC at $0.10 x5 (KXNCAAHGAME-26NOV01MICOSU): locks in $0.11 if it fills; hedge NO OSU@0.8700
+2026-11-01 21:10:34,010 INFO Swept 19636 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 21:10:39,123 INFO Quote KXNCAAHGAME-26NOV01MICOSU cancelled (0/5 filled)
+2026-11-01 21:15:34,684 INFO PAPER rest NO bid KXLOWTLV-26NOV02-T51 at $0.1900 x5 (42 already bid at that price)
+2026-11-01 21:15:34,684 INFO Resting NO bid on KXLOWTLV-26NOV02-T51 at $0.19 x5 (KXLOWTLV-26NOV02): locks in $0.11 if it fills; hedge NO B50.5@0.7700
+2026-11-01 21:15:34,688 INFO Swept 19669 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 21:20:37,754 INFO Swept 19697 events: 0 taker trades, 0 new quotes, 1 resting

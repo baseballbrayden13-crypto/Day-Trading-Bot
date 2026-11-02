@@ -65,6 +65,23 @@
      "limit": "0.7000"
     }
    ]
+  },
+  {
+   "event": "KXF1H2H-MEX26PIAGAS (stray)",
+   "series": "KXF1H2H",
+   "title": "F1 Matchup: Piastri vs Gasly",
+   "sets": 0,
+   "outlay": "0.90",
+   "locked_profit": "0",
+   "opened": "2026-11-02T02:05:36.374305+00:00",
+   "legs": [
+    {
+     "ticker": "KXF1H2H-MEX26PIAGAS-PIA",
+     "side": "no",
+     "count": 4,
+     "limit": "0.22"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1576,21 +1593,21 @@
  ],
  "quotes": [
   {
-   "event": "KXF1H2H-MEX26PIAGAS",
-   "series": "KXF1H2H",
-   "title": "F1 Matchup: Piastri vs Gasly",
-   "ticker": "KXF1H2H-MEX26PIAGAS-PIA",
-   "order_id": "paper-530-1793582742",
-   "price": "0.1300",
+   "event": "KXLOWTLV-26NOV02",
+   "series": "KXLOWTLV",
+   "title": "Lowest temperature in Las Vegas on Nov 2, 2026?",
+   "ticker": "KXLOWTLV-26NOV02-T51",
+   "order_id": "paper-533-1793585734",
+   "price": "0.19",
    "sets": 5,
    "done": 0,
-   "reserve": "4.6700",
+   "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793582742.023125,
+   "placed": 1793585734.6842332,
    "hedge": [
     {
-     "ticker": "KXF1H2H-MEX26PIAGAS-GAS",
-     "limit": "0.8400"
+     "ticker": "KXLOWTLV-26NOV02-B50.5",
+     "limit": "0.7700"
     }
    ]
   }
