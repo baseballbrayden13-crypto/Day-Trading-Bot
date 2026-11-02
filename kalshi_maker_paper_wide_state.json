@@ -1596,21 +1596,29 @@
  ],
  "quotes": [
   {
-   "event": "KXESOCCERGAME-26NOV020313KATEADRI",
-   "series": "KXESOCCERGAME",
-   "title": "eSoccer: Paris Saint-Germain (Kate) vs RC Lens (Adri)",
-   "ticker": "KXESOCCERGAME-26NOV020313KATEADRI-TIE",
-   "order_id": "paper-547-1793607952",
-   "price": "0.1700",
-   "sets": 6,
+   "event": "KXNFLNEXTTEAM-26SSANDERS2",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Shedeur Sanders Next Team",
+   "ticker": "KXNFLNEXTTEAM-26SSANDERS2-BAL",
+   "order_id": "paper-548-1793610376",
+   "price": "0.5200",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.9800",
+   "reserve": "2.8000",
    "multiplier": "1",
-   "placed": 1793607952.2390087,
+   "placed": 1793610376.078669,
    "hedge": [
     {
-     "ticker": "KXESOCCERGAME-26NOV020313KATEADRI-ADRI",
-     "limit": "0.6500"
+     "ticker": "KXNFLNEXTTEAM-26SSANDERS2-CLE",
+     "limit": "0.2800"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26SSANDERS2-IND",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26SSANDERS2-PHI",
+     "limit": "0.9700"
     }
    ]
   }
