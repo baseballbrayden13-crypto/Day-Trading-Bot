@@ -1574,5 +1574,25 @@
    "closed": "2026-11-01T22:51:55.405165+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXF1H2H-MEX26PIAGAS",
+   "series": "KXF1H2H",
+   "title": "F1 Matchup: Piastri vs Gasly",
+   "ticker": "KXF1H2H-MEX26PIAGAS-PIA",
+   "order_id": "paper-530-1793582742",
+   "price": "0.1300",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.6700",
+   "multiplier": "1",
+   "placed": 1793582742.023125,
+   "hedge": [
+    {
+     "ticker": "KXF1H2H-MEX26PIAGAS-GAS",
+     "limit": "0.8400"
+    }
+   ]
+  }
+ ]
 }

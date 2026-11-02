@@ -3273,3 +3273,11 @@
 2026-11-01 20:15:47,404 INFO Swept 19571 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-01 20:20:44,598 INFO Swept 19590 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 20:20:44,663 INFO Quote KXEXITPOLL-IND cancelled (0/2 filled)
+2026-11-01 20:25:42,023 INFO PAPER rest NO bid KXF1H2H-MEX26PIAGAS-PIA at $0.1300 x5 (0 already bid at that price)
+2026-11-01 20:25:42,023 INFO Resting NO bid on KXF1H2H-MEX26PIAGAS-PIA at $0.1300 x5 (KXF1H2H-MEX26PIAGAS): locks in $0.33 if it fills; hedge NO GAS@0.8400
+2026-11-01 20:25:42,026 INFO Swept 19600 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 20:30:42,726 INFO Swept 19623 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 20:35:37,000 INFO Swept 19623 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 20:40:41,004 INFO Swept 19627 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 20:45:43,438 INFO Swept 19616 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 20:50:44,655 INFO Swept 19623 events: 0 taker trades, 0 new quotes, 1 resting
