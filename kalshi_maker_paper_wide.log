@@ -3253,3 +3253,10 @@
 2026-11-01 18:58:38,740 INFO Swept 19555 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-01 18:58:39,062 INFO Quote KXAHLGAME-26NOV011700TEXROC cancelled (0/5 filled)
 2026-11-01 19:03:39,850 INFO Swept 19530 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 19:08:42,399 INFO Swept 19500 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 19:13:38,941 INFO Swept 19505 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 19:18:35,600 INFO PAPER rest NO bid KXITFMATCH-26NOV02KUHALA-KUH at $0.2700 x5 (76 already bid at that price)
+2026-11-01 19:18:35,600 INFO Resting NO bid on KXITFMATCH-26NOV02KUHALA-KUH at $0.27 x5 (KXITFMATCH-26NOV02KUHALA): locks in $0.10 if it fills; hedge NO ALA@0.6900
+2026-11-01 19:18:35,604 INFO Swept 19519 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 19:23:33,597 INFO Swept 19543 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 19:23:38,804 INFO Stopped; all quotes cancelled.
