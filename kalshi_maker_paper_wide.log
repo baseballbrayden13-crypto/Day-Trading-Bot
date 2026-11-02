@@ -3375,3 +3375,9 @@
 2026-11-02 01:12:07,137 INFO Swept 19839 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 01:17:13,079 INFO Swept 19851 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 01:22:10,372 INFO Swept 19862 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 01:27:15,893 INFO PAPER rest NO bid KXMLBGG-26NLRF-SSUZUKI27 at $0.8300 x5 (0 already bid at that price)
+2026-11-02 01:27:15,894 INFO Resting NO bid on KXMLBGG-26NLRF-SSUZUKI27 at $0.8300 x5 (KXMLBGG-26NLRF): locks in $0.29 if it fills; hedge NO CCARROLL7@0.1000
+2026-11-02 01:27:15,898 INFO Swept 19861 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 01:32:18,350 INFO Swept 19868 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 01:37:20,091 INFO Swept 19869 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 01:37:25,166 INFO Stopped; all quotes cancelled.
