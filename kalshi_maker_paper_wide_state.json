@@ -1653,5 +1653,25 @@
    "closed": "2026-11-02T14:47:17.407930+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGAPROMATCH-26NOV021015ALEKHA",
+   "series": "KXLIGAPROMATCH",
+   "title": "Alekseev Aleksandr vs KHarlamov Dmitrii",
+   "ticker": "KXLIGAPROMATCH-26NOV021015ALEKHA-ALE",
+   "order_id": "paper-564-1793635086",
+   "price": "0.7100",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.6300",
+   "multiplier": "1",
+   "placed": 1793635086.2766552,
+   "hedge": [
+    {
+     "ticker": "KXLIGAPROMATCH-26NOV021015ALEKHA-KHA",
+     "limit": "0.2000"
+    }
+   ]
+  }
+ ]
 }
