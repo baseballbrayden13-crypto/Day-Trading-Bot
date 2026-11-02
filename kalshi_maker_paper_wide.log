@@ -3621,3 +3621,13 @@
 2026-11-02 14:43:50,628 INFO Swept 20272 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-02 14:46:07,833 INFO Quote KXCS2MAP-26NOV021400HUSKDUCKS-1 cancelled (0/2 filled)
 2026-11-02 14:48:53,818 INFO Swept 20267 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 14:53:58,217 INFO PAPER rest NO bid KXNCAAWB1H-26NOV02STANARIZ-STAN at $0.6900 x2 (27 already bid at that price)
+2026-11-02 14:53:58,217 INFO Resting NO bid on KXNCAAWB1H-26NOV02STANARIZ-STAN at $0.69 x2 (KXNCAAWB1H-26NOV02STANARIZ): locks in $0.10 if it fills; hedge NO ARIZ@0.2400
+2026-11-02 14:53:58,221 INFO Swept 20252 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-02 14:59:00,771 INFO Swept 20228 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 15:04:03,594 INFO PAPER BET daily_safest: 1 NO KXDIESELD-26NOV03-T6.305 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-02 15:04:03,596 INFO Swept 20210 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 15:04:03,927 INFO Quote KXNCAAWB1H-26NOV02STANARIZ cancelled (0/2 filled)
+2026-11-02 15:09:07,185 INFO Swept 20331 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 15:14:11,039 INFO Swept 20342 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 15:19:15,755 INFO Swept 20331 events: 0 taker trades, 0 new quotes, 0 resting
