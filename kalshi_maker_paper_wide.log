@@ -3594,3 +3594,7 @@
 2026-11-02 13:29:28,204 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV021030PRIVOR-PRI at $0.0800 x5 (0 already bid at that price)
 2026-11-02 13:29:28,204 INFO Resting NO bid on KXLIGAPROMATCH-26NOV021030PRIVOR-PRI at $0.0800 x5 (KXLIGAPROMATCH-26NOV021030PRIVOR): locks in $0.29 if it fills; hedge NO VOR@0.8500
 2026-11-02 13:29:28,208 INFO Swept 20290 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 13:34:29,584 INFO Swept 20285 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 13:39:30,653 INFO Swept 20299 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 13:44:34,147 INFO Swept 20304 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 13:44:39,365 INFO Stopped; all quotes cancelled.

@@ -1673,25 +1673,5 @@
    "closed": "2026-11-02T18:29:06.744905+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLIGAPROMATCH-26NOV021030PRIVOR",
-   "series": "KXLIGAPROMATCH",
-   "title": "Priakhin Vadim vs Vorozheikin Aleksandr",
-   "ticker": "KXLIGAPROMATCH-26NOV021030PRIVOR-PRI",
-   "order_id": "paper-566-1793644168",
-   "price": "0.0800",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.7100",
-   "multiplier": "1",
-   "placed": 1793644168.20487,
-   "hedge": [
-    {
-     "ticker": "KXLIGAPROMATCH-26NOV021030PRIVOR-VOR",
-     "limit": "0.8500"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
