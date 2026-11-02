@@ -3631,3 +3631,14 @@
 2026-11-02 15:09:07,185 INFO Swept 20331 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 15:14:11,039 INFO Swept 20342 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 15:19:15,755 INFO Swept 20331 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 15:24:20,962 INFO Swept 20336 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 15:29:19,999 INFO PAPER rest NO bid KXMLBGG-26NLRF-SSUZUKI27 at $0.8300 x5 (0 already bid at that price)
+2026-11-02 15:29:19,999 INFO Resting NO bid on KXMLBGG-26NLRF-SSUZUKI27 at $0.8300 x5 (KXMLBGG-26NLRF): locks in $0.29 if it fills; hedge NO CCARROLL7@0.1000
+2026-11-02 15:29:20,002 INFO Swept 20332 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 15:34:27,679 INFO PAPER rest NO bid KXNCAAMB1H-26NOV02UTSASJSU-UTSA at $0.7500 x2 (0 already bid at that price)
+2026-11-02 15:34:27,680 INFO Resting NO bid on KXNCAAMB1H-26NOV02UTSASJSU-UTSA at $0.7500 x2 (KXNCAAMB1H-26NOV02UTSASJSU): locks in $0.21 if it fills; hedge NO SJSU@0.1300
+2026-11-02 15:34:27,683 INFO Swept 20334 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-02 15:35:04,975 INFO Quote KXNCAAMB1H-26NOV02UTSASJSU cancelled (0/2 filled)
+2026-11-02 15:39:30,901 INFO Swept 20349 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 15:44:36,241 INFO Swept 20336 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 15:49:32,873 INFO Swept 20337 events: 0 taker trades, 0 new quotes, 1 resting
