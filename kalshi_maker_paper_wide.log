@@ -3665,3 +3665,15 @@
 2026-11-02 16:40:31,859 INFO Swept 20338 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 16:45:30,670 INFO Swept 20330 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 16:50:34,274 INFO Swept 20318 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 16:55:24,703 INFO Settled KXEBASKETBALLGAME-26NOV021622WALTBARR: paid $5, profit $0.13
+2026-11-02 16:55:38,924 INFO PAPER rest NO bid KXITFWMATCH-26NOV03TIAMAI-TIA at $0.4900 x4 (0 already bid at that price)
+2026-11-02 16:55:38,924 INFO Resting NO bid on KXITFWMATCH-26NOV03TIAMAI-TIA at $0.4900 x4 (KXITFWMATCH-26NOV03TIAMAI): locks in $0.15 if it fills; hedge NO MAI@0.4500
+2026-11-02 16:55:38,928 INFO Swept 20294 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 17:00:43,646 INFO Swept 20249 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 17:05:50,176 INFO Swept 20217 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 17:10:50,239 INFO Swept 20219 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 17:10:50,448 INFO Quote KXITFWMATCH-26NOV03TIAMAI cancelled (0/4 filled)
+2026-11-02 17:15:54,719 INFO Swept 20222 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 17:20:58,843 INFO PAPER rest NO bid KXLOWTNOLA-26NOV02-T70 at $0.0800 x5 (16 already bid at that price)
+2026-11-02 17:20:58,843 INFO Resting NO bid on KXLOWTNOLA-26NOV02-T70 at $0.08 x5 (KXLOWTNOLA-26NOV02): locks in $0.10 if it fills; hedge NO B69.5@0.8900
+2026-11-02 17:20:58,846 INFO Swept 20219 events: 0 taker trades, 1 new quotes, 1 resting

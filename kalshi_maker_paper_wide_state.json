@@ -1,5 +1,5 @@
 {
- "realized": "-5.5100",
+ "realized": "-5.3800",
  "open": [
   {
    "event": "KXKBOGAME-26NOV040430SAMKTW (stray)",
@@ -62,30 +62,6 @@
      "side": "yes",
      "count": 5,
      "limit": "0.0200"
-    }
-   ]
-  },
-  {
-   "event": "KXEBASKETBALLGAME-26NOV021622WALTBARR",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: Denver Nuggets (Walt) vs Dallas Mavericks (Barry)",
-   "sets": 5,
-   "outlay": "4.8700",
-   "locked_profit": "0.1300",
-   "opened": "2026-11-02T21:21:16.169849+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXEBASKETBALLGAME-26NOV021622WALTBARR-WALT",
-     "side": "no",
-     "count": 5,
-     "limit": "0.40"
-    },
-    {
-     "ticker": "KXEBASKETBALLGAME-26NOV021622WALTBARR-BARR",
-     "side": "no",
-     "count": 5,
-     "limit": "0.5500"
     }
    ]
   }
@@ -1695,7 +1671,54 @@
    "paid": "5",
    "pnl": "1.4300",
    "closed": "2026-11-02T18:29:06.744905+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26NOV021622WALTBARR",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Denver Nuggets (Walt) vs Dallas Mavericks (Barry)",
+   "sets": 5,
+   "outlay": "4.8700",
+   "locked_profit": "0.1300",
+   "opened": "2026-11-02T21:21:16.169849+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26NOV021622WALTBARR-WALT",
+     "side": "no",
+     "count": 5,
+     "limit": "0.40"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26NOV021622WALTBARR-BARR",
+     "side": "no",
+     "count": 5,
+     "limit": "0.5500"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.1300",
+   "closed": "2026-11-02T21:55:24.703790+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLOWTNOLA-26NOV02",
+   "series": "KXLOWTNOLA",
+   "title": "Lowest temperature in New Orleans on Nov 2, 2026?",
+   "ticker": "KXLOWTNOLA-26NOV02-T70",
+   "order_id": "paper-578-1793658058",
+   "price": "0.08",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.9000",
+   "multiplier": "1",
+   "placed": 1793658058.8432593,
+   "hedge": [
+    {
+     "ticker": "KXLOWTNOLA-26NOV02-B69.5",
+     "limit": "0.8900"
+    }
+   ]
+  }
+ ]
 }
