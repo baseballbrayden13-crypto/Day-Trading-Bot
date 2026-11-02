@@ -3358,3 +3358,11 @@
 2026-11-02 00:11:43,441 INFO Swept 19753 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 00:16:41,754 INFO Swept 19755 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 00:21:46,430 INFO Swept 19764 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 00:26:49,521 INFO Swept 19763 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 00:31:50,840 INFO Swept 19785 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 00:36:52,196 INFO Swept 19798 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 00:41:52,560 INFO PAPER rest NO bid KXF1CHAMPCLINCH-26-LV at $0.7700 x5 (0 already bid at that price)
+2026-11-02 00:41:52,560 INFO Resting NO bid on KXF1CHAMPCLINCH-26-LV at $0.7700 x5 (KXF1CHAMPCLINCH-26): locks in $0.17 if it fills; hedge NO MEX@0.1800
+2026-11-02 00:41:52,564 INFO Swept 19796 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 00:46:53,742 INFO Swept 19811 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 00:51:54,898 INFO Swept 19821 events: 0 taker trades, 0 new quotes, 1 resting
