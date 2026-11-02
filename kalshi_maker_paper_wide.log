@@ -3390,3 +3390,11 @@
 2026-11-02 02:30:23,907 INFO Swept 19911 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 02:35:21,908 INFO Swept 19906 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 02:40:27,247 INFO Swept 19910 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 02:45:24,540 INFO Swept 19910 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 02:50:28,383 INFO Swept 19914 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 02:55:33,507 INFO Swept 19916 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 03:00:33,229 INFO Swept 19919 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 03:05:39,679 INFO Swept 19923 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 03:10:46,511 INFO PAPER rest NO bid KXLOWTBOS-26NOV02-T47 at $0.1800 x2 (0 already bid at that price)
+2026-11-02 03:10:46,511 INFO Resting NO bid on KXLOWTBOS-26NOV02-T47 at $0.1800 x2 (KXLOWTBOS-26NOV02): locks in $0.11 if it fills; hedge NO B44.5@0.9800, B46.5@0.7600
+2026-11-02 03:10:46,515 INFO Swept 19924 events: 0 taker trades, 1 new quotes, 1 resting

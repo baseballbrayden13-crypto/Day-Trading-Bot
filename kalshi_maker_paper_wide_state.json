@@ -1596,21 +1596,25 @@
  ],
  "quotes": [
   {
-   "event": "KXMLBGG-26NLRF",
-   "series": "KXMLBGG",
-   "title": "Gold Glove: NL Right Field",
-   "ticker": "KXMLBGG-26NLRF-SSUZUKI27",
-   "order_id": "paper-545-1793603714",
-   "price": "0.8300",
-   "sets": 5,
+   "event": "KXLOWTBOS-26NOV02",
+   "series": "KXLOWTBOS",
+   "title": "Lowest temperature in Boston on Nov 2, 2026?",
+   "ticker": "KXLOWTBOS-26NOV02-T47",
+   "order_id": "paper-546-1793607046",
+   "price": "0.1800",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.7100",
+   "reserve": "3.8900",
    "multiplier": "1",
-   "placed": 1793603714.2910907,
+   "placed": 1793607046.5116785,
    "hedge": [
     {
-     "ticker": "KXMLBGG-26NLRF-CCARROLL7",
-     "limit": "0.1000"
+     "ticker": "KXLOWTBOS-26NOV02-B44.5",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXLOWTBOS-26NOV02-B46.5",
+     "limit": "0.7600"
     }
    ]
   }
