@@ -3331,3 +3331,11 @@
 2026-11-01 22:51:18,333 INFO PAPER rest NO bid KXSOLE-26NOV0123-B95.625 at $0.0100 x3 (0 already bid at that price)
 2026-11-01 22:51:18,333 INFO Resting NO bid on KXSOLE-26NOV0123-B95.625 at $0.01 x3 (KXSOLE-26NOV0123): locks in $1.63 if it fills; hedge NO B95.125@0.9500, B95.375@0.4700
 2026-11-01 22:51:18,337 INFO Swept 19773 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 22:56:20,098 INFO Swept 19808 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 22:56:20,169 INFO Quote KXWT20MATCH-26NOV020030CHHWGOAWM cancelled (0/2 filled)
+2026-11-01 22:56:20,237 INFO Quote KXSOLE-26NOV0123 cancelled (0/3 filled)
+2026-11-01 23:01:22,790 INFO Swept 19812 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 23:06:28,363 INFO Swept 19791 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 23:11:28,519 INFO Swept 19799 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 23:16:27,599 INFO Swept 19824 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 23:21:34,779 INFO Swept 19827 events: 0 taker trades, 0 new quotes, 0 resting

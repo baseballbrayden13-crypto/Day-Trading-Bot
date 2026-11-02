@@ -1594,48 +1594,5 @@
    "closed": "2026-11-02T03:25:41.995466+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXWT20MATCH-26NOV020030CHHWGOAWM",
-   "series": "KXWT20MATCH",
-   "title": "Goa Women vs Chhattisgarh Women",
-   "ticker": "KXWT20MATCH-26NOV020030CHHWGOAWM-CHHW",
-   "order_id": "paper-536-1793590564",
-   "price": "0.2900",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.8700",
-   "multiplier": "1",
-   "placed": 1793590564.4985433,
-   "hedge": [
-    {
-     "ticker": "KXWT20MATCH-26NOV020030CHHWGOAWM-GOAWM",
-     "limit": "0.6200"
-    }
-   ]
-  },
-  {
-   "event": "KXSOLE-26NOV0123",
-   "series": "KXSOLE",
-   "title": "SOL price range on Nov 1, 2026 at 11pm EST?",
-   "ticker": "KXSOLE-26NOV0123-B95.625",
-   "order_id": "paper-538-1793591478",
-   "price": "0.01",
-   "sets": 3,
-   "done": 0,
-   "reserve": "4.3700",
-   "multiplier": "1",
-   "placed": 1793591478.333787,
-   "hedge": [
-    {
-     "ticker": "KXSOLE-26NOV0123-B95.125",
-     "limit": "0.9500"
-    },
-    {
-     "ticker": "KXSOLE-26NOV0123-B95.375",
-     "limit": "0.4700"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
