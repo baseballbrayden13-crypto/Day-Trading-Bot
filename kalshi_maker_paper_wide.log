@@ -3307,3 +3307,13 @@
 2026-11-01 21:50:48,613 INFO PAPER rest NO bid KXLOWTLV-26NOV02-T51 at $0.1900 x5 (40 already bid at that price)
 2026-11-01 21:50:48,613 INFO Resting NO bid on KXLOWTLV-26NOV02-T51 at $0.19 x5 (KXLOWTLV-26NOV02): locks in $0.11 if it fills; hedge NO B50.5@0.7700
 2026-11-01 21:50:48,617 INFO Swept 19818 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 21:55:50,976 INFO Swept 19810 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 22:00:49,443 INFO Swept 19806 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 22:05:55,885 INFO Swept 19792 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 22:10:57,608 INFO Swept 19800 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 22:15:57,949 INFO PAPER rest NO bid KXLIGAMXSCORE-26NOV01CRALEO-CRA1LEO0 at $0.0100 x50 (0 already bid at that price)
+2026-11-01 22:15:57,949 INFO Resting NO bid on KXLIGAMXSCORE-26NOV01CRALEO-CRA1LEO0 at $0.01 x50 (KXLIGAMXSCORE-26NOV01CRALEO): locks in $48.95 if it fills; hedge NO CRA2LEO1@0.0100
+2026-11-01 22:15:57,953 INFO Swept 19803 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 22:16:23,481 INFO Quote KXLOWTLV-26NOV02 cancelled (0/5 filled)
+2026-11-01 22:16:48,788 INFO Quote KXLIGAMXSCORE-26NOV01CRALEO cancelled (0/50 filled)
+2026-11-01 22:21:00,335 INFO Swept 19790 events: 0 taker trades, 0 new quotes, 0 resting
