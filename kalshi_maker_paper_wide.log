@@ -3642,3 +3642,20 @@
 2026-11-02 15:39:30,901 INFO Swept 20349 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 15:44:36,241 INFO Swept 20336 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 15:49:32,873 INFO Swept 20337 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 15:54:30,610 INFO Swept 20317 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 15:59:32,858 INFO Swept 20318 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 16:04:52,139 INFO PAPER rest NO bid KXLIGAPORTUGAL1H-26NOV02BENALV-TIE at $0.0100 x5 (181 already bid at that price)
+2026-11-02 16:04:52,139 INFO Resting NO bid on KXLIGAPORTUGAL1H-26NOV02BENALV-TIE at $0.01 x5 (KXLIGAPORTUGAL1H-26NOV02BENALV): locks in $0.12 if it fills; hedge NO BEN@0.9600
+2026-11-02 16:04:52,142 INFO Swept 20314 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 16:04:57,479 INFO Quote KXLIGAPORTUGAL1H-26NOV02BENALV cancelled (0/5 filled)
+2026-11-02 16:10:02,328 INFO PAPER rest NO bid KXEBASKETBALLGAME-26NOV021554WALTMILE-WALT at $0.0500 x5 (16 already bid at that price)
+2026-11-02 16:10:02,328 INFO Resting NO bid on KXEBASKETBALLGAME-26NOV021554WALTMILE-WALT at $0.05 x5 (KXEBASKETBALLGAME-26NOV021554WALTMILE): locks in $0.11 if it fills; hedge NO MILE@0.9200
+2026-11-02 16:10:02,332 INFO Swept 20308 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 16:15:12,795 INFO Swept 20320 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 16:15:38,654 INFO Quote KXEBASKETBALLGAME-26NOV021554WALTMILE cancelled (0/5 filled)
+2026-11-02 16:20:19,542 INFO PAPER rest NO bid KXEBASKETBALLGAME-26NOV021622WALTBARR-WALT at $0.4000 x5 (23 already bid at that price)
+2026-11-02 16:20:19,542 INFO Resting NO bid on KXEBASKETBALLGAME-26NOV021622WALTBARR-WALT at $0.40 x5 (KXEBASKETBALLGAME-26NOV021622WALTBARR): locks in $0.13 if it fills; hedge NO BARR@0.5500
+2026-11-02 16:20:19,545 INFO Swept 20335 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 16:21:16,101 INFO PAPER KXEBASKETBALLGAME-26NOV021622WALTBARR-WALT NO bid at $0.4000: 5/5 filled by real trades
+2026-11-02 16:21:16,169 INFO PAPER buy 5 NO KXEBASKETBALLGAME-26NOV021622WALTBARR-BARR at up to $0.5500: filled 5
+2026-11-02 16:21:16,169 INFO Quote KXEBASKETBALLGAME-26NOV021622WALTBARR filled 5: hedged, locks in $0.13

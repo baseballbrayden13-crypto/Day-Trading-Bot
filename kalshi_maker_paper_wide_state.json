@@ -64,6 +64,30 @@
      "limit": "0.0200"
     }
    ]
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26NOV021622WALTBARR",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Denver Nuggets (Walt) vs Dallas Mavericks (Barry)",
+   "sets": 5,
+   "outlay": "4.8700",
+   "locked_profit": "0.1300",
+   "opened": "2026-11-02T21:21:16.169849+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26NOV021622WALTBARR-WALT",
+     "side": "no",
+     "count": 5,
+     "limit": "0.40"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26NOV021622WALTBARR-BARR",
+     "side": "no",
+     "count": 5,
+     "limit": "0.5500"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1673,25 +1697,5 @@
    "closed": "2026-11-02T18:29:06.744905+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXMLBGG-26NLRF",
-   "series": "KXMLBGG",
-   "title": "Gold Glove: NL Right Field",
-   "ticker": "KXMLBGG-26NLRF-SSUZUKI27",
-   "order_id": "paper-572-1793651359",
-   "price": "0.8300",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.7100",
-   "multiplier": "1",
-   "placed": 1793651359.999518,
-   "hedge": [
-    {
-     "ticker": "KXMLBGG-26NLRF-CCARROLL7",
-     "limit": "0.1000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
