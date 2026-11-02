@@ -1599,21 +1599,25 @@
  ],
  "quotes": [
   {
-   "event": "KXMLBGG-26NLRF",
-   "series": "KXMLBGG",
-   "title": "Gold Glove: NL Right Field",
-   "ticker": "KXMLBGG-26NLRF-SSUZUKI27",
-   "order_id": "paper-556-1793624512",
-   "price": "0.8300",
-   "sets": 5,
+   "event": "KXTESTMATCH-26NOV012300RAJHP",
+   "series": "KXTESTMATCH",
+   "title": "Himachal Pradesh vs Rajasthan",
+   "ticker": "KXTESTMATCH-26NOV012300RAJHP-RAJ",
+   "order_id": "paper-558-1793627537",
+   "price": "0.72",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.7100",
+   "reserve": "3.9000",
    "multiplier": "1",
-   "placed": 1793624512.217416,
+   "placed": 1793627537.6245246,
    "hedge": [
     {
-     "ticker": "KXMLBGG-26NLRF-CCARROLL7",
-     "limit": "0.1000"
+     "ticker": "KXTESTMATCH-26NOV012300RAJHP-HP",
+     "limit": "0.3000"
+    },
+    {
+     "ticker": "KXTESTMATCH-26NOV012300RAJHP-TIE",
+     "limit": "0.9000"
     }
    ]
   }
