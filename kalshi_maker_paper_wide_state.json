@@ -1596,40 +1596,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAWBGAME-26NOV02USDNMSU",
-   "series": "KXNCAAWBGAME",
-   "title": "San Diego vs New Mexico St.",
-   "ticker": "KXNCAAWBGAME-26NOV02USDNMSU-NMSU",
-   "order_id": "paper-539-1793593898",
-   "price": "0.6200",
-   "sets": 3,
+   "event": "KXF1CHAMPCLINCH-26",
+   "series": "KXF1CHAMPCLINCH",
+   "title": "When will Kimi Antonelli clinch the 2026 F1 Drivers\u2019 Championship?",
+   "ticker": "KXF1CHAMPCLINCH-26-LV",
+   "order_id": "paper-541-1793596001",
+   "price": "0.7700",
+   "sets": 5,
    "done": 0,
-   "reserve": "2.8700",
+   "reserve": "4.8300",
    "multiplier": "1",
-   "placed": 1793593898.6027646,
+   "placed": 1793596001.2116284,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV02USDNMSU-USD",
-     "limit": "0.3200"
-    }
-   ]
-  },
-  {
-   "event": "KXMLS2H-26NOV01PORHOU",
-   "series": "KXMLS2H",
-   "title": "Portland vs Houston: Second Half Winner",
-   "ticker": "KXMLS2H-26NOV01PORHOU-TIE",
-   "order_id": "paper-540-1793594805",
-   "price": "0.3600",
-   "sets": 6,
-   "done": 0,
-   "reserve": "3.5900",
-   "multiplier": "1",
-   "placed": 1793594805.8889782,
-   "hedge": [
-    {
-     "ticker": "KXMLS2H-26NOV01PORHOU-POR",
-     "limit": "0.4100"
+     "ticker": "KXF1CHAMPCLINCH-26-MEX",
+     "limit": "0.1800"
     }
    ]
   }

@@ -7538,12 +7538,12 @@
   "count": 3,
   "ahead": 0,
   "placed": 1793593898.596348,
-  "checked": 1793595142.919386,
+  "checked": 1793595698,
   "expires": 1793595698,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-540-1793594805": {
   "id": "paper-540-1793594805",
@@ -7552,8 +7552,22 @@
   "count": 6,
   "ahead": 0,
   "placed": 1793594805.8826685,
-  "checked": 1793595142.962799,
+  "checked": 1793595703.1129706,
   "expires": 1793596605,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-541-1793596001": {
+  "id": "paper-541-1793596001",
+  "ticker": "KXF1CHAMPCLINCH-26-LV",
+  "price": "0.7700",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793596001.205233,
+  "checked": 1793596946.7981296,
+  "expires": 1793597801,
   "through": 0,
   "at_price": 0,
   "filled": 0,
