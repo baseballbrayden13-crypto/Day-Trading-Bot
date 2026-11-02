@@ -1673,5 +1673,41 @@
    "closed": "2026-11-02T18:29:06.744905+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNFLNEXTTEAM-26BTHOMAS7",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Brian Thomas Jr. Next Team",
+   "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-PIT",
+   "order_id": "paper-567-1793646200",
+   "price": "0.6700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "4.8700",
+   "multiplier": "1",
+   "placed": 1793646200.2173052,
+   "hedge": [
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-JAC",
+     "limit": "0.4900"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-KC",
+     "limit": "0.7300"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-LA",
+     "limit": "0.9500"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-SF",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-WAS",
+     "limit": "0.9700"
+    }
+   ]
+  }
+ ]
 }

@@ -3598,3 +3598,15 @@
 2026-11-02 13:39:30,653 INFO Swept 20299 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 13:44:34,147 INFO Swept 20304 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 13:44:39,365 INFO Stopped; all quotes cancelled.
+2026-11-02 13:51:20,793 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-02 13:53:14,425 INFO Swept 20313 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 13:58:20,288 INFO Swept 20302 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 14:03:20,217 INFO PAPER rest NO bid KXNFLNEXTTEAM-26BTHOMAS7-PIT at $0.6700 x1 (0 already bid at that price)
+2026-11-02 14:03:20,217 INFO Resting NO bid on KXNFLNEXTTEAM-26BTHOMAS7-PIT at $0.6700 x1 (KXNFLNEXTTEAM-26BTHOMAS7): locks in $0.13 if it fills; hedge NO JAC@0.4900, KC@0.7300, LA@0.9500, SF@0.9800, WAS@0.9700
+2026-11-02 14:03:20,220 INFO Swept 20281 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 14:08:25,303 INFO PAPER rest NO bid KXESOCCERGAME-26NOV021413OLIVMIA-MIA at $0.2200 x1 (0 already bid at that price)
+2026-11-02 14:08:25,304 INFO Resting NO bid on KXESOCCERGAME-26NOV021413OLIVMIA-MIA at $0.2200 x1 (KXESOCCERGAME-26NOV021413OLIVMIA): locks in $0.41 if it fills; hedge NO OLIV@0.5000, TIE@0.8200
+2026-11-02 14:08:25,307 INFO Swept 20271 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-02 14:13:31,198 INFO Swept 20259 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 14:13:31,532 INFO Quote KXESOCCERGAME-26NOV021413OLIVMIA cancelled (0/1 filled)
+2026-11-02 14:18:30,884 INFO Swept 20277 events: 0 taker trades, 0 new quotes, 1 resting
