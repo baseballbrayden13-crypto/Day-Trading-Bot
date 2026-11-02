@@ -10,3 +10,8 @@
 2026-10-30 10:40:42,424 INFO Already rebalanced in October; nothing to do.
 2026-10-30 11:36:29,728 INFO Connected to Alpaca PAPER account
 2026-10-30 11:36:29,838 INFO Already rebalanced in October; nothing to do.
+2026-11-02 09:43:01,532 INFO Connected to Alpaca PAPER account
+2026-11-02 09:43:02,520 INFO Target on 2026-10-30 close: XLE 33%, XLV 33%, XLP 33% | equity $4966.61
+2026-11-02 09:43:02,520 INFO SELL XLK x8
+2026-11-02 09:43:02,520 INFO SELL XLV x1
+2026-11-02 09:43:02,520 INFO BUY XLP x18
