@@ -1,5 +1,5 @@
 {
- "realized": "-6.0000",
+ "realized": "-6.9000",
  "open": [
   {
    "event": "KXLOWTPHIL-26NOV01",
@@ -63,23 +63,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.7000"
-    }
-   ]
-  },
-  {
-   "event": "KXF1H2H-MEX26PIAGAS (stray)",
-   "series": "KXF1H2H",
-   "title": "F1 Matchup: Piastri vs Gasly",
-   "sets": 0,
-   "outlay": "0.90",
-   "locked_profit": "0",
-   "opened": "2026-11-02T02:05:36.374305+00:00",
-   "legs": [
-    {
-     "ticker": "KXF1H2H-MEX26PIAGAS-PIA",
-     "side": "no",
-     "count": 4,
-     "limit": "0.22"
     }
    ]
   }
@@ -1589,7 +1572,70 @@
    "paid": "0",
    "pnl": "-1.54",
    "closed": "2026-11-01T22:51:55.405165+00:00"
+  },
+  {
+   "event": "KXF1H2H-MEX26PIAGAS (stray)",
+   "series": "KXF1H2H",
+   "title": "F1 Matchup: Piastri vs Gasly",
+   "sets": 0,
+   "outlay": "0.90",
+   "locked_profit": "0",
+   "opened": "2026-11-02T02:05:36.374305+00:00",
+   "legs": [
+    {
+     "ticker": "KXF1H2H-MEX26PIAGAS-PIA",
+     "side": "no",
+     "count": 4,
+     "limit": "0.22"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-0.90",
+   "closed": "2026-11-02T03:25:41.995466+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXWT20MATCH-26NOV020030CHHWGOAWM",
+   "series": "KXWT20MATCH",
+   "title": "Goa Women vs Chhattisgarh Women",
+   "ticker": "KXWT20MATCH-26NOV020030CHHWGOAWM-CHHW",
+   "order_id": "paper-536-1793590564",
+   "price": "0.2900",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8700",
+   "multiplier": "1",
+   "placed": 1793590564.4985433,
+   "hedge": [
+    {
+     "ticker": "KXWT20MATCH-26NOV020030CHHWGOAWM-GOAWM",
+     "limit": "0.6200"
+    }
+   ]
+  },
+  {
+   "event": "KXSOLE-26NOV0123",
+   "series": "KXSOLE",
+   "title": "SOL price range on Nov 1, 2026 at 11pm EST?",
+   "ticker": "KXSOLE-26NOV0123-B95.625",
+   "order_id": "paper-538-1793591478",
+   "price": "0.01",
+   "sets": 3,
+   "done": 0,
+   "reserve": "4.3700",
+   "multiplier": "1",
+   "placed": 1793591478.333787,
+   "hedge": [
+    {
+     "ticker": "KXSOLE-26NOV0123-B95.125",
+     "limit": "0.9500"
+    },
+    {
+     "ticker": "KXSOLE-26NOV0123-B95.375",
+     "limit": "0.4700"
+    }
+   ]
+  }
+ ]
 }

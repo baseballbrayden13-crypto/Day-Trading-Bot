@@ -3317,3 +3317,17 @@
 2026-11-01 22:16:23,481 INFO Quote KXLOWTLV-26NOV02 cancelled (0/5 filled)
 2026-11-01 22:16:48,788 INFO Quote KXLIGAMXSCORE-26NOV01CRALEO cancelled (0/50 filled)
 2026-11-01 22:21:00,335 INFO Swept 19790 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 22:25:41,995 INFO Settled KXF1H2H-MEX26PIAGAS (stray): paid $0, profit $-0.90
+2026-11-01 22:26:02,211 INFO Swept 19783 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 22:31:01,270 INFO Swept 19786 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 22:36:04,498 INFO PAPER rest NO bid KXWT20MATCH-26NOV020030CHHWGOAWM-CHHW at $0.2900 x2 (0 already bid at that price)
+2026-11-01 22:36:04,498 INFO Resting NO bid on KXWT20MATCH-26NOV020030CHHWGOAWM-CHHW at $0.2900 x2 (KXWT20MATCH-26NOV020030CHHWGOAWM): locks in $0.13 if it fills; hedge NO GOAWM@0.6200
+2026-11-01 22:36:04,502 INFO Swept 19775 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 22:41:12,288 INFO Swept 19774 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 22:46:14,785 INFO PAPER rest NO bid KXSOLE-26NOV0123-B95.625 at $0.0100 x2 (0 already bid at that price)
+2026-11-01 22:46:14,785 INFO Resting NO bid on KXSOLE-26NOV0123-B95.625 at $0.01 x2 (KXSOLE-26NOV0123): locks in $0.53 if it fills; hedge NO B95.125@0.9800, B95.375@0.7200
+2026-11-01 22:46:14,789 INFO Swept 19772 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 22:47:10,828 INFO Quote KXSOLE-26NOV0123 cancelled (0/2 filled)
+2026-11-01 22:51:18,333 INFO PAPER rest NO bid KXSOLE-26NOV0123-B95.625 at $0.0100 x3 (0 already bid at that price)
+2026-11-01 22:51:18,333 INFO Resting NO bid on KXSOLE-26NOV0123-B95.625 at $0.01 x3 (KXSOLE-26NOV0123): locks in $1.63 if it fills; hedge NO B95.125@0.9500, B95.375@0.4700
+2026-11-01 22:51:18,337 INFO Swept 19773 events: 0 taker trades, 1 new quotes, 2 resting
