@@ -3366,3 +3366,12 @@
 2026-11-02 00:41:52,564 INFO Swept 19796 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-02 00:46:53,742 INFO Swept 19811 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 00:51:54,898 INFO Swept 19821 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 00:56:59,161 INFO PAPER rest NO bid KXETH-26NOV0201-B2292 at $0.3300 x2 (0 already bid at that price)
+2026-11-02 00:56:59,161 INFO Resting NO bid on KXETH-26NOV0201-B2292 at $0.3300 x2 (KXETH-26NOV0201): locks in $0.31 if it fills; hedge NO B2287@0.4900
+2026-11-02 00:56:59,165 INFO Swept 19824 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-02 01:01:55,026 INFO Swept 19825 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 01:01:55,143 INFO Quote KXETH-26NOV0201 cancelled (0/2 filled)
+2026-11-02 01:07:03,051 INFO Swept 19811 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 01:12:07,137 INFO Swept 19839 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 01:17:13,079 INFO Swept 19851 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 01:22:10,372 INFO Swept 19862 events: 0 taker trades, 0 new quotes, 0 resting
