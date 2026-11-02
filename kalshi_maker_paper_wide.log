@@ -3532,3 +3532,13 @@
 2026-11-02 09:57:43,761 INFO Resting NO bid on KXLOWTPHX-26NOV02-B57.5 at $0.8000 x3 (KXLOWTPHX-26NOV02): locks in $0.22 if it fills; hedge NO B59.5@0.1200
 2026-11-02 09:57:43,765 INFO Swept 20173 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-02 09:59:18,941 INFO Quote KXLOWTPHX-26NOV02 cancelled (0/3 filled)
+2026-11-02 10:02:27,024 INFO Buying KXSTARSHIPSPACE-26 (ladder): 5 sets on 2 markets, cost $2.70, locks in $2.30
+2026-11-02 10:02:27,085 INFO PAPER buy 5 NO KXSTARSHIPSPACE-26-4.0 at up to $0.5000: filled 5
+2026-11-02 10:02:27,146 INFO PAPER buy 5 YES KXSTARSHIPSPACE-26-7.0 at up to $0.0200: filled 5
+2026-11-02 10:02:46,693 INFO Swept 20196 events: 1 taker trades, 0 new quotes, 1 resting
+2026-11-02 10:03:07,422 INFO Quote KXLOWTNYC-26NOV02 cancelled (0/5 filled)
+2026-11-02 10:07:50,619 INFO Swept 20185 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 10:12:52,759 INFO Swept 20189 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 10:17:52,332 INFO Swept 20190 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 10:22:58,112 INFO Swept 20188 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 10:27:59,372 INFO Swept 20188 events: 0 taker trades, 0 new quotes, 0 resting
