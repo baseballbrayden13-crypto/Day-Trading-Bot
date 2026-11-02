@@ -1597,25 +1597,5 @@
    "closed": "2026-11-02T12:07:50.476063+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXMLBGG-26NLRF",
-   "series": "KXMLBGG",
-   "title": "Gold Glove: NL Right Field",
-   "ticker": "KXMLBGG-26NLRF-SSUZUKI27",
-   "order_id": "paper-555-1793622497",
-   "price": "0.8300",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.7100",
-   "multiplier": "1",
-   "placed": 1793622497.4789786,
-   "hedge": [
-    {
-     "ticker": "KXMLBGG-26NLRF-CCARROLL7",
-     "limit": "0.1000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
