@@ -3520,3 +3520,15 @@
 2026-11-02 09:17:26,476 INFO Swept 20161 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 09:22:29,617 INFO Swept 20161 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 09:27:31,771 INFO Swept 20156 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 09:32:32,754 INFO Swept 20181 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 09:37:33,455 INFO Swept 20181 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 09:42:33,293 INFO Swept 20174 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 09:47:17,407 INFO Settled KXTHAIL1GAME-26NOV02CHOPAU: paid $4, profit $0.10
+2026-11-02 09:47:37,029 INFO PAPER rest NO bid KXLOWTNYC-26NOV02-B43.5 at $0.0500 x5 (155 already bid at that price)
+2026-11-02 09:47:37,029 INFO Resting NO bid on KXLOWTNYC-26NOV02-B43.5 at $0.05 x5 (KXLOWTNYC-26NOV02): locks in $0.11 if it fills; hedge NO T43@0.9200
+2026-11-02 09:47:37,033 INFO Swept 20159 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 09:52:42,000 INFO Swept 20178 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 09:57:43,761 INFO PAPER rest NO bid KXLOWTPHX-26NOV02-B57.5 at $0.8000 x3 (0 already bid at that price)
+2026-11-02 09:57:43,761 INFO Resting NO bid on KXLOWTPHX-26NOV02-B57.5 at $0.8000 x3 (KXLOWTPHX-26NOV02): locks in $0.22 if it fills; hedge NO B59.5@0.1200
+2026-11-02 09:57:43,765 INFO Swept 20173 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-02 09:59:18,941 INFO Quote KXLOWTPHX-26NOV02 cancelled (0/3 filled)

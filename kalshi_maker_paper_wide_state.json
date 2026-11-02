@@ -1,5 +1,5 @@
 {
- "realized": "-7.0400",
+ "realized": "-6.9400",
  "open": [
   {
    "event": "KXKBOGAME-26NOV040430SAMKTW (stray)",
@@ -39,36 +39,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.7000"
-    }
-   ]
-  },
-  {
-   "event": "KXTHAIL1GAME-26NOV02CHOPAU",
-   "series": "KXTHAIL1GAME",
-   "title": "Chonburi vs Pathum United",
-   "sets": 2,
-   "outlay": "3.9000",
-   "locked_profit": "0.1000",
-   "opened": "2026-11-02T14:02:16.789082+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXTHAIL1GAME-26NOV02CHOPAU-CHO",
-     "side": "no",
-     "count": 2,
-     "limit": "0.53"
-    },
-    {
-     "ticker": "KXTHAIL1GAME-26NOV02CHOPAU-PAU",
-     "side": "no",
-     "count": 2,
-     "limit": "0.7600"
-    },
-    {
-     "ticker": "KXTHAIL1GAME-26NOV02CHOPAU-TIE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.6200"
     }
    ]
   }
@@ -1625,7 +1595,60 @@
    "paid": "1",
    "pnl": "0.0100",
    "closed": "2026-11-02T12:07:50.476063+00:00"
+  },
+  {
+   "event": "KXTHAIL1GAME-26NOV02CHOPAU",
+   "series": "KXTHAIL1GAME",
+   "title": "Chonburi vs Pathum United",
+   "sets": 2,
+   "outlay": "3.9000",
+   "locked_profit": "0.1000",
+   "opened": "2026-11-02T14:02:16.789082+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXTHAIL1GAME-26NOV02CHOPAU-CHO",
+     "side": "no",
+     "count": 2,
+     "limit": "0.53"
+    },
+    {
+     "ticker": "KXTHAIL1GAME-26NOV02CHOPAU-PAU",
+     "side": "no",
+     "count": 2,
+     "limit": "0.7600"
+    },
+    {
+     "ticker": "KXTHAIL1GAME-26NOV02CHOPAU-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.6200"
+    }
+   ],
+   "paid": "4",
+   "pnl": "0.1000",
+   "closed": "2026-11-02T14:47:17.407930+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLOWTNYC-26NOV02",
+   "series": "KXLOWTNYC",
+   "title": "Lowest temperature in New York City on Nov 2, 2026?",
+   "ticker": "KXLOWTNYC-26NOV02-B43.5",
+   "order_id": "paper-561-1793630857",
+   "price": "0.05",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8900",
+   "multiplier": "1",
+   "placed": 1793630857.0291176,
+   "hedge": [
+    {
+     "ticker": "KXLOWTNYC-26NOV02-T43",
+     "limit": "0.9200"
+    }
+   ]
+  }
+ ]
 }
