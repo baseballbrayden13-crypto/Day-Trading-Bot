@@ -3683,3 +3683,11 @@
 2026-11-02 17:41:06,335 INFO Swept 20213 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 17:46:07,094 INFO Swept 20209 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 17:51:06,803 INFO Swept 20214 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 17:56:05,208 INFO PAPER rest NO bid KXCS2GAME-26NOV030800RUSMIBR-RUS at $0.2400 x5 (12 already bid at that price)
+2026-11-02 17:56:05,209 INFO Resting NO bid on KXCS2GAME-26NOV030800RUSMIBR-RUS at $0.24 x5 (KXCS2GAME-26NOV030800RUSMIBR): locks in $0.10 if it fills; hedge NO MIBR@0.7200
+2026-11-02 17:56:05,212 INFO Swept 20203 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 18:00:58,115 INFO Swept 20199 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 18:06:00,062 INFO Swept 20209 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 18:11:01,265 INFO Swept 20241 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 18:16:00,237 INFO Swept 20240 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 18:21:10,085 INFO Swept 20237 events: 0 taker trades, 0 new quotes, 1 resting
