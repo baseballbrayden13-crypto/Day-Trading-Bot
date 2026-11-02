@@ -3381,3 +3381,12 @@
 2026-11-02 01:32:18,350 INFO Swept 19868 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 01:37:20,091 INFO Swept 19869 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 01:37:25,166 INFO Stopped; all quotes cancelled.
+2026-11-02 02:12:40,503 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-02 02:15:14,290 INFO PAPER rest NO bid KXMLBGG-26NLRF-SSUZUKI27 at $0.8300 x5 (0 already bid at that price)
+2026-11-02 02:15:14,291 INFO Resting NO bid on KXMLBGG-26NLRF-SSUZUKI27 at $0.8300 x5 (KXMLBGG-26NLRF): locks in $0.29 if it fills; hedge NO CCARROLL7@0.1000
+2026-11-02 02:15:14,295 INFO Swept 19884 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 02:20:17,867 INFO Swept 19890 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 02:25:23,473 INFO Swept 19887 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 02:30:23,907 INFO Swept 19911 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 02:35:21,908 INFO Swept 19906 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 02:40:27,247 INFO Swept 19910 events: 0 taker trades, 0 new quotes, 1 resting
