@@ -3576,3 +3576,12 @@
 2026-11-02 12:18:49,892 INFO Swept 20256 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 12:23:53,767 INFO Swept 20248 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 12:28:56,598 INFO Swept 20251 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 12:34:01,124 INFO Swept 20244 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 12:39:06,523 INFO PAPER rest NO bid KXBNB-26NOV0213-B747 at $0.2500 x1 (0 already bid at that price)
+2026-11-02 12:39:06,523 INFO Resting NO bid on KXBNB-26NOV0213-B747 at $0.2500 x1 (KXBNB-26NOV0213): locks in $0.61 if it fills; hedge NO B697@0.3800, B702@0.7100
+2026-11-02 12:39:06,527 INFO Swept 20243 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 12:44:10,394 INFO Swept 20259 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 12:49:12,193 INFO Swept 20284 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 12:49:12,404 INFO Quote KXBNB-26NOV0213 cancelled (0/1 filled)
+2026-11-02 12:54:15,249 INFO Swept 20282 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 12:59:17,009 INFO Swept 20269 events: 0 taker trades, 0 new quotes, 0 resting
