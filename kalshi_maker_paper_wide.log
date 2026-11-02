@@ -3448,3 +3448,12 @@
 2026-11-02 06:12:38,116 INFO PAPER rest NO bid KXLOWTLV-26NOV02-B50.5 at $0.6400 x5 (0 already bid at that price)
 2026-11-02 06:12:38,116 INFO Resting NO bid on KXLOWTLV-26NOV02-B50.5 at $0.6400 x5 (KXLOWTLV-26NOV02): locks in $0.35 if it fills; hedge NO T51@0.2700
 2026-11-02 06:12:38,120 INFO Swept 19986 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-02 06:17:40,848 INFO Swept 19986 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 06:17:41,168 INFO Quote KXLOWTLV-26NOV02 cancelled (0/5 filled)
+2026-11-02 06:22:45,400 INFO Swept 19988 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 06:27:46,325 INFO Swept 19999 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 06:32:47,419 INFO Swept 19998 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 06:37:46,360 INFO Swept 19992 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 06:42:51,485 INFO PAPER rest NO bid KXLOWTEWR-26NOV02-B40.5 at $0.5500 x5 (0 already bid at that price)
+2026-11-02 06:42:51,485 INFO Resting NO bid on KXLOWTEWR-26NOV02-B40.5 at $0.55 x5 (KXLOWTEWR-26NOV02): locks in $0.13 if it fills; hedge NO B42.5@0.4000
+2026-11-02 06:42:51,489 INFO Swept 19992 events: 0 taker trades, 1 new quotes, 1 resting
