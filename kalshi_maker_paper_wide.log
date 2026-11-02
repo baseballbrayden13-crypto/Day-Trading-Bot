@@ -3457,3 +3457,10 @@
 2026-11-02 06:42:51,485 INFO PAPER rest NO bid KXLOWTEWR-26NOV02-B40.5 at $0.5500 x5 (0 already bid at that price)
 2026-11-02 06:42:51,485 INFO Resting NO bid on KXLOWTEWR-26NOV02-B40.5 at $0.55 x5 (KXLOWTEWR-26NOV02): locks in $0.13 if it fills; hedge NO B42.5@0.4000
 2026-11-02 06:42:51,489 INFO Swept 19992 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 06:47:56,272 INFO Swept 19991 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 06:53:01,104 INFO Swept 19995 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 06:58:04,362 INFO Swept 19998 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 07:03:04,677 INFO Swept 19994 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 07:07:50,476 INFO Settled KXLOWTPHIL-26NOV01: paid $1, profit $0.01
+2026-11-02 07:08:09,162 INFO Swept 20007 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 07:13:13,792 INFO Swept 20010 events: 0 taker trades, 0 new quotes, 1 resting

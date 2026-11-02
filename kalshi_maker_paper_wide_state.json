@@ -1,30 +1,6 @@
 {
- "realized": "-6.9000",
+ "realized": "-6.8900",
  "open": [
-  {
-   "event": "KXLOWTPHIL-26NOV01",
-   "series": "KXLOWTPHIL",
-   "title": "Lowest temperature in Philadelphia on Nov 1, 2026?",
-   "sets": 1,
-   "outlay": "0.9900",
-   "locked_profit": "0.0100",
-   "opened": "2026-11-01T06:02:06.203628+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXLOWTPHIL-26NOV01-T42",
-     "side": "no",
-     "count": 1,
-     "limit": "0.0900"
-    },
-    {
-     "ticker": "KXLOWTPHIL-26NOV01-B41.5",
-     "side": "no",
-     "count": 1,
-     "limit": "0.8800"
-    }
-   ]
-  },
   {
    "event": "KXKBOGAME-26NOV040430SAMKTW (stray)",
    "series": "KXKBOGAME",
@@ -1592,27 +1568,34 @@
    "paid": "0",
    "pnl": "-0.90",
    "closed": "2026-11-02T03:25:41.995466+00:00"
+  },
+  {
+   "event": "KXLOWTPHIL-26NOV01",
+   "series": "KXLOWTPHIL",
+   "title": "Lowest temperature in Philadelphia on Nov 1, 2026?",
+   "sets": 1,
+   "outlay": "0.9900",
+   "locked_profit": "0.0100",
+   "opened": "2026-11-01T06:02:06.203628+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLOWTPHIL-26NOV01-T42",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0900"
+    },
+    {
+     "ticker": "KXLOWTPHIL-26NOV01-B41.5",
+     "side": "no",
+     "count": 1,
+     "limit": "0.8800"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.0100",
+   "closed": "2026-11-02T12:07:50.476063+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLOWTEWR-26NOV02",
-   "series": "KXLOWTEWR",
-   "title": "Lowest temperature in Newark on Nov 2, 2026?",
-   "ticker": "KXLOWTEWR-26NOV02-B40.5",
-   "order_id": "paper-553-1793619771",
-   "price": "0.55",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8700",
-   "multiplier": "1",
-   "placed": 1793619771.4856193,
-   "hedge": [
-    {
-     "ticker": "KXLOWTEWR-26NOV02-B42.5",
-     "limit": "0.4000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
