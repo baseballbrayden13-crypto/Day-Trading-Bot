@@ -1700,25 +1700,5 @@
    "closed": "2026-11-02T21:55:24.703790+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLOWTNOLA-26NOV02",
-   "series": "KXLOWTNOLA",
-   "title": "Lowest temperature in New Orleans on Nov 2, 2026?",
-   "ticker": "KXLOWTNOLA-26NOV02-T70",
-   "order_id": "paper-578-1793658058",
-   "price": "0.08",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.9000",
-   "multiplier": "1",
-   "placed": 1793658058.8432593,
-   "hedge": [
-    {
-     "ticker": "KXLOWTNOLA-26NOV02-B69.5",
-     "limit": "0.8900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

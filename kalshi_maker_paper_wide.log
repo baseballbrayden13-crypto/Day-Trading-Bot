@@ -3677,3 +3677,9 @@
 2026-11-02 17:20:58,843 INFO PAPER rest NO bid KXLOWTNOLA-26NOV02-T70 at $0.0800 x5 (16 already bid at that price)
 2026-11-02 17:20:58,843 INFO Resting NO bid on KXLOWTNOLA-26NOV02-T70 at $0.08 x5 (KXLOWTNOLA-26NOV02): locks in $0.10 if it fills; hedge NO B69.5@0.8900
 2026-11-02 17:20:58,846 INFO Swept 20219 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 17:26:04,681 INFO Swept 20211 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 17:31:03,093 INFO Swept 20209 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 17:36:04,689 INFO Swept 20215 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 17:41:06,335 INFO Swept 20213 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 17:46:07,094 INFO Swept 20209 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 17:51:06,803 INFO Swept 20214 events: 0 taker trades, 0 new quotes, 1 resting
