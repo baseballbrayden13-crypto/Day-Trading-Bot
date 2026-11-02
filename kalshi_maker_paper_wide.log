@@ -3553,3 +3553,14 @@
 2026-11-02 10:58:06,276 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV021015ALEKHA-ALE at $0.7100 x5 (0 already bid at that price)
 2026-11-02 10:58:06,276 INFO Resting NO bid on KXLIGAPROMATCH-26NOV021015ALEKHA-ALE at $0.7100 x5 (KXLIGAPROMATCH-26NOV021015ALEKHA): locks in $0.37 if it fills; hedge NO KHA@0.2000
 2026-11-02 10:58:06,280 INFO Swept 20183 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 11:03:08,658 INFO Swept 20179 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 11:03:08,723 INFO PAPER KXLIGAPROMATCH-26NOV021015ALEKHA-ALE NO bid at $0.7100: 5/5 filled by real trades
+2026-11-02 11:03:08,793 INFO PAPER buy 5 NO KXLIGAPROMATCH-26NOV021015ALEKHA-KHA at up to $0.2000: not on the book
+2026-11-02 11:03:08,793 WARNING Quote KXLIGAPROMATCH-26NOV021015ALEKHA: hedge missed on KXLIGAPROMATCH-26NOV021015ALEKHA-KHA. Selling back 5 contracts on 1 legs.
+2026-11-02 11:03:08,856 INFO PAPER sell 5 YES KXLIGAPROMATCH-26NOV021015ALEKHA-ALE at up to $0.3400: not on the book
+2026-11-02 11:03:08,856 ERROR STRAY POSITION: 5 NO contracts of KXLIGAPROMATCH-26NOV021015ALEKHA-ALE still held. Check it on Kalshi.
+2026-11-02 11:08:14,864 INFO Swept 20180 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 11:13:13,324 INFO Swept 20191 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 11:18:17,768 INFO Swept 20203 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 11:23:19,622 INFO Swept 20208 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 11:28:21,298 INFO Swept 20210 events: 0 taker trades, 0 new quotes, 0 resting

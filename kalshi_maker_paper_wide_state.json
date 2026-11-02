@@ -64,6 +64,23 @@
      "limit": "0.0200"
     }
    ]
+  },
+  {
+   "event": "KXLIGAPROMATCH-26NOV021015ALEKHA (stray)",
+   "series": "KXLIGAPROMATCH",
+   "title": "Alekseev Aleksandr vs KHarlamov Dmitrii",
+   "sets": 0,
+   "outlay": "3.5700",
+   "locked_profit": "0",
+   "opened": "2026-11-02T16:03:08.857057+00:00",
+   "legs": [
+    {
+     "ticker": "KXLIGAPROMATCH-26NOV021015ALEKHA-ALE",
+     "side": "no",
+     "count": 5,
+     "limit": "0.7100"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1653,25 +1670,5 @@
    "closed": "2026-11-02T14:47:17.407930+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLIGAPROMATCH-26NOV021015ALEKHA",
-   "series": "KXLIGAPROMATCH",
-   "title": "Alekseev Aleksandr vs KHarlamov Dmitrii",
-   "ticker": "KXLIGAPROMATCH-26NOV021015ALEKHA-ALE",
-   "order_id": "paper-564-1793635086",
-   "price": "0.7100",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.6300",
-   "multiplier": "1",
-   "placed": 1793635086.2766552,
-   "hedge": [
-    {
-     "ticker": "KXLIGAPROMATCH-26NOV021015ALEKHA-KHA",
-     "limit": "0.2000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
