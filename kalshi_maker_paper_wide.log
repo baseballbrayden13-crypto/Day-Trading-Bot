@@ -3610,3 +3610,14 @@
 2026-11-02 14:13:31,198 INFO Swept 20259 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-02 14:13:31,532 INFO Quote KXESOCCERGAME-26NOV021413OLIVMIA cancelled (0/1 filled)
 2026-11-02 14:18:30,884 INFO Swept 20277 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 14:23:35,920 INFO Swept 20274 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 14:28:40,198 INFO Swept 20269 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 14:33:45,081 INFO Swept 20252 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 14:38:45,078 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV021330BESTAL-TAL at $0.1700 x5 (0 already bid at that price)
+2026-11-02 14:38:45,079 INFO Resting NO bid on KXLIGAPROMATCH-26NOV021330BESTAL-TAL at $0.1700 x5 (KXLIGAPROMATCH-26NOV021330BESTAL): locks in $0.50 if it fills; hedge NO BES@0.7100
+2026-11-02 14:38:45,082 INFO Swept 20268 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 14:43:50,624 INFO PAPER rest NO bid KXCS2MAP-26NOV021400HUSKDUCKS-1-HUSK at $0.9200 x2 (0 already bid at that price)
+2026-11-02 14:43:50,624 INFO Resting NO bid on KXCS2MAP-26NOV021400HUSKDUCKS-1-HUSK at $0.9200 x2 (KXCS2MAP-26NOV021400HUSKDUCKS-1): locks in $0.12 if it fills; hedge NO DUCKS@0.0100
+2026-11-02 14:43:50,628 INFO Swept 20272 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-02 14:46:07,833 INFO Quote KXCS2MAP-26NOV021400HUSKDUCKS-1 cancelled (0/2 filled)
+2026-11-02 14:48:53,818 INFO Swept 20267 events: 0 taker trades, 0 new quotes, 1 resting
