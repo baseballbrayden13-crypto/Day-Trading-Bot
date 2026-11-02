@@ -1,5 +1,5 @@
 {
- "taken": "2026-11-01T01:32:00+00:00",
+ "taken": "2026-11-02T01:32:07+00:00",
  "bots": {
   "1": {
    "name": "ORB day trader",
@@ -231,7 +231,7 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 5010.94,
+    "equity": 5018.93,
     "last_equity": 5010.94,
     "cash": 300.57,
     "status": "ACTIVE",
@@ -243,15 +243,15 @@
      "symbol": "XLE",
      "qty": 23.0,
      "avg_entry": 69.180435,
-     "market_value": 1610.46,
-     "unrealized_pl": 19.309995
+     "market_value": 1603.33,
+     "unrealized_pl": 12.179995
     },
     {
      "symbol": "XLK",
      "qty": 8.0,
      "avg_entry": 187.56,
-     "market_value": 1436.08,
-     "unrealized_pl": -64.4
+     "market_value": 1451.2,
+     "unrealized_pl": -49.28
     },
     {
      "symbol": "XLV",
@@ -522,17 +522,17 @@
    ],
    "log": {
     "exists": true,
-    "modified": "2026-10-31T21:32:00-04:00",
-    "last_line_time": "2026-10-31T21:32:00",
+    "modified": "2026-11-01T20:32:07-05:00",
+    "last_line_time": "2026-11-01T20:32:07",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-10-29 21:26:58,678 INFO 2026-10-29 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
-     "2026-10-30 21:25:49,847 INFO Connected to Alpaca PAPER account",
      "2026-10-30 21:25:50,346 INFO 2026-10-30 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
      "2026-10-31 21:31:59,093 INFO Connected to Alpaca PAPER account",
-     "2026-10-31 21:32:00,044 INFO 2026-10-31 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
+     "2026-10-31 21:32:00,044 INFO 2026-10-31 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
+     "2026-11-01 20:32:07,150 INFO Connected to Alpaca PAPER account",
+     "2026-11-01 20:32:07,825 INFO 2026-11-01 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
     ],
     "live_warning": false
    }
@@ -545,7 +545,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-01T01:02:44+00:00",
+     "updated": "2026-11-02T01:14:23+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -559,7 +559,7 @@
      "stray_positions": 0,
      "closed_trades": 1,
      "trades_this_loop": 0,
-     "events_swept": 20662,
+     "events_swept": 19584,
      "found_this_loop": 0,
      "top_series": [],
      "problems": 0,
@@ -573,17 +573,17 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-10-31T21:05:39-04:00",
-     "last_line_time": "2026-10-31T21:05:39",
+     "modified": "2026-11-01T20:17:02-05:00",
+     "last_line_time": "2026-11-01T20:17:02",
      "errors": 0,
      "errors_24h": 0,
      "last_errors": [],
      "tail": [
-      "2026-10-31 20:45:26,996 INFO Swept 20686 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-10-31 20:50:31,839 INFO Swept 20677 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-10-31 20:55:37,788 INFO Swept 20666 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-10-31 21:00:39,627 INFO Swept 20668 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-10-31 21:05:39,920 INFO Swept 20662 events: 0 taker trades, 0 new quotes, 0 resting"
+      "2026-11-01 19:56:50,722 INFO Swept 19553 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-01 20:01:56,030 INFO Swept 19517 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-01 20:06:54,981 INFO Swept 19516 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-01 20:11:58,388 INFO Swept 19535 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-01 20:17:02,300 INFO Swept 19584 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -597,49 +597,49 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-01T01:16:27+00:00",
+     "updated": "2026-11-02T01:17:13+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
      "min_profit": "0.10",
-     "equity": "18.20",
-     "realized_profit": "-1.80",
-     "bet_level": "18.20",
-     "open_trades": 2,
-     "open_locked_profit": "0.34",
-     "in_play": "8.66",
-     "stray_positions": 0,
-     "closed_trades": 38,
+     "equity": "14.00",
+     "realized_profit": "-6.00",
+     "bet_level": "14.00",
+     "open_trades": 3,
+     "open_locked_profit": "0.09",
+     "in_play": "6.23",
+     "stray_positions": 1,
+     "closed_trades": 43,
      "trades_this_loop": 0,
-     "events_swept": 20732,
+     "events_swept": 19590,
      "found_this_loop": 0,
      "top_series": [],
      "problems": 0,
      "last_problems": []
     },
-    "realized": -1.8,
-    "open": 2,
-    "closed": 49,
-    "losing_trades": 11,
-    "stray": 0,
-    "quotes": 2,
+    "realized": -6.0,
+    "open": 3,
+    "closed": 59,
+    "losing_trades": 15,
+    "stray": 1,
+    "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-10-31T21:18:38-04:00",
-     "last_line_time": "2026-10-31T21:18:38",
-     "errors": 11,
-     "errors_24h": 5,
+     "modified": "2026-11-01T20:20:44-05:00",
+     "last_line_time": "2026-11-01T20:20:44",
+     "errors": 17,
+     "errors_24h": 6,
      "last_errors": [
-      "2026-10-31 13:30:33,921 ERROR STRAY POSITION: 2 NO contracts of KXEBASKETBALLGAME-26OCT311312GAVIMELO-GAVI still held. Check it on Kalshi.",
-      "2026-10-31 16:04:28,424 ERROR STRAY POSITION: 6 NO contracts of KXAHLGAME-26OCT311400LAVCAL-LAV still held. Check it on Kalshi.",
-      "2026-10-31 17:30:10,762 ERROR STRAY POSITION: 1 NO contracts of KXNCAAHGAME-26OCT31MICOSU-OSU still held. Check it on Kalshi."
+      "2026-11-01 14:32:28,043 ERROR STRAY POSITION: 2 NO contracts of KXCOPADOBRASIL1H-26NOV01PALVDG-PAL still held. Check it on Kalshi.",
+      "2026-11-01 16:45:00,994 ERROR STRAY POSITION: 4 NO contracts of KXNFLFIRSTTDTEAM-26NOV01NEMIA-MIA still held. Check it on Kalshi.",
+      "2026-11-01 17:16:34,310 ERROR STRAY POSITION: 5 NO contracts of KXKBOGAME-26NOV040430SAMKTW-KTW still held. Check it on Kalshi."
      ],
      "tail": [
-      "2026-10-31 21:03:30,122 INFO Resting NO bid on KXNBAGAME-26NOV04PHIDET-PHI at $0.3600 x5 (KXNBAGAME-26NOV04PHIDET): locks in $0.28 if it fills; hedge NO DET@0.5600",
-      "2026-10-31 21:03:30,125 INFO Swept 20662 events: 0 taker trades, 1 new quotes, 2 resting",
-      "2026-10-31 21:08:35,171 INFO Swept 20691 events: 0 taker trades, 0 new quotes, 2 resting",
-      "2026-10-31 21:13:35,248 INFO Swept 20711 events: 0 taker trades, 0 new quotes, 2 resting",
-      "2026-10-31 21:18:38,814 INFO Swept 20732 events: 0 taker trades, 0 new quotes, 2 resting"
+      "2026-11-01 20:15:47,399 INFO PAPER rest NO bid KXEXITPOLL-IND-DEM at $0.1100 x2 (1 already bid at that price)",
+      "2026-11-01 20:15:47,400 INFO Resting NO bid on KXEXITPOLL-IND-DEM at $0.11 x2 (KXEXITPOLL-IND): locks in $0.10 if it fills; hedge NO REP@0.8200",
+      "2026-11-01 20:15:47,404 INFO Swept 19571 events: 0 taker trades, 1 new quotes, 1 resting",
+      "2026-11-01 20:20:44,598 INFO Swept 19590 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-01 20:20:44,663 INFO Quote KXEXITPOLL-IND cancelled (0/2 filled)"
      ],
      "live_warning": false
     }
@@ -839,72 +839,120 @@
    },
    {
     "symbol": "BTC/USD",
-    "day": "2026-10-31",
-    "close": 77442.505,
-    "chg_1d_pct": 0.32,
-    "chg_1m_pct": -6.59,
+    "day": "2026-11-01",
+    "close": 78233.257,
+    "chg_1d_pct": 1.02,
+    "chg_1m_pct": -6.51,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 24.5
+    "vol_20d_pct": 23.9
    },
    {
     "symbol": "ETH/USD",
-    "day": "2026-10-31",
-    "close": 2252.8925,
-    "chg_1d_pct": 0.52,
-    "chg_1m_pct": -10.06,
+    "day": "2026-11-01",
+    "close": 2272.3225,
+    "chg_1d_pct": 0.86,
+    "chg_1m_pct": -10.31,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 29.2
+    "vol_20d_pct": 27.4
    }
   ],
   "news": [
    {
     "symbol": "SPY",
-    "time": "2026-10-31T18:39:22+00:00",
-    "headline": "S&P 500 Index Rally Hits a Wall Amid AI Jitters as Key Valuation Metric Dips",
+    "time": "2026-11-01T17:45:07+00:00",
+    "headline": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-01T01:01:28+00:00",
-    "headline": "Apple Partners with Alibaba to Bring Apple Intelligence to China",
+    "time": "2026-11-01T20:30:59+00:00",
+    "headline": "Apple, Palantir On Deck Monday As AI Demand, iPhone Growth Face Test",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-11-01T17:45:07+00:00",
+    "headline": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-11-01T16:15:06+00:00",
+    "headline": "Apple Diverges From Magnificent 7 as Options Point to Jump to $355 After Earnings",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-11-01T14:04:25+00:00",
+    "headline": "This Week in TSLA: Elon Musk's Apple Mac Studio Jibe, Former Autopilot Lead's Vision-Only Criticism and More",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-11-01T14:01:32+00:00",
+    "headline": "Apple CEO John Ternus Defends AI Strategy",
     "source": "fiscal.ai"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-10-31T19:55:10+00:00",
-    "headline": "Micron, SanDisk, and Western Digital Remain in Bear Territory, But Key Catalysts Remain Intact",
+    "time": "2026-11-01T17:45:07+00:00",
+    "headline": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-10-31T12:30:06+00:00",
-    "headline": "GOOGL, AMZN, INTC and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+    "time": "2026-11-01T17:30:06+00:00",
+    "headline": "$600B Tech Wipeout Meets $1.48T Margin Debt",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-10-31T07:50:39+00:00",
-    "headline": "Chamath Palihapitiya Warns AI Boom Has a Borrowing Problem as Big Tech Debt Nears $400 Billion, Threatening to 'Crowd Out' US Treasury Demand: 'The Entire US Economy Is Levered to the AI Complex'",
+    "time": "2026-11-01T15:30:06+00:00",
+    "headline": "EXCLUSIVE: Former Goldman Sachs Analyst Turned Creator Says AI-Ready Workers Need More Than Prompting Skills \u2014 \u2018You Can\u2019t Outsource the Understanding\u2019",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-11-01T14:38:34+00:00",
+    "headline": "Bill Gates Says Alzheimer\u2019s Breakthrough Is Here \u2014 But the System Is Failing Patients",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-11-01T14:01:33+00:00",
+    "headline": "Context Labs AI Distillery Now Available on Microsoft Marketplace",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-11-01T20:55:05+00:00",
+    "headline": "SOXX: Top Semiconductor ETF Targets $400 as AI Bubble Worries Linger",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-10-31T18:45:18+00:00",
-    "headline": "Anthropic IPO Faces Real Risk as AI Bubble Fears Linger and Blackstone Sounds a Warning",
+    "time": "2026-11-01T20:35:05+00:00",
+    "headline": "AMD Stuck in Bear Market on Circular Investing Fears: Can Earnings Turn the Tide?",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-10-31T18:39:22+00:00",
-    "headline": "S&P 500 Index Rally Hits a Wall Amid AI Jitters as Key Valuation Metric Dips",
+    "time": "2026-11-01T17:30:06+00:00",
+    "headline": "$600B Tech Wipeout Meets $1.48T Margin Debt",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-10-31T06:11:51+00:00",
-    "headline": "Elizabeth Warren Slams Trump's Voluntary AI Safety Deal With Tech CEOs, Says Republicans Aren't Doing Enough to Regulate AI: \u2018Not Lifting A Finger...\u2019",
+    "time": "2026-11-01T16:15:06+00:00",
+    "headline": "Apple Diverges From Magnificent 7 as Options Point to Jump to $355 After Earnings",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-11-01T15:30:06+00:00",
+    "headline": "EXCLUSIVE: Former Goldman Sachs Analyst Turned Creator Says AI-Ready Workers Need More Than Prompting Skills \u2014 \u2018You Can\u2019t Outsource the Understanding\u2019",
     "source": "benzinga"
    }
   ],
@@ -914,11 +962,6 @@
    "calm": true
   },
   "benchmarks": [
-   {
-    "day": "2025-08-28",
-    "symbol": "SPY",
-    "close": 640.21
-   },
    {
     "day": "2025-08-29",
     "symbol": "SPY",
@@ -2393,11 +2436,6 @@
     "day": "2026-10-30",
     "symbol": "SPY",
     "close": 755.72
-   },
-   {
-    "day": "2025-08-29",
-    "symbol": "BTC/USD",
-    "close": 108366.22
    },
    {
     "day": "2025-08-30",
@@ -4540,9 +4578,9 @@
     "close": 77442.505
    },
    {
-    "day": "2025-08-29",
-    "symbol": "ETH/USD",
-    "close": 4360.195
+    "day": "2026-11-01",
+    "symbol": "BTC/USD",
+    "close": 78233.257
    },
    {
     "day": "2025-08-30",
@@ -6683,6 +6721,11 @@
     "day": "2026-10-31",
     "symbol": "ETH/USD",
     "close": 2252.8925
+   },
+   {
+    "day": "2026-11-01",
+    "symbol": "ETH/USD",
+    "close": 2272.3225
    }
   ]
  },
