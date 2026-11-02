@@ -1594,33 +1594,5 @@
    "closed": "2026-11-02T03:25:41.995466+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNFLNEXTTEAM-26SSANDERS2",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Shedeur Sanders Next Team",
-   "ticker": "KXNFLNEXTTEAM-26SSANDERS2-BAL",
-   "order_id": "paper-549-1793612498",
-   "price": "0.5200",
-   "sets": 1,
-   "done": 0,
-   "reserve": "2.8000",
-   "multiplier": "1",
-   "placed": 1793612498.3936222,
-   "hedge": [
-    {
-     "ticker": "KXNFLNEXTTEAM-26SSANDERS2-CLE",
-     "limit": "0.2800"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26SSANDERS2-IND",
-     "limit": "0.9800"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26SSANDERS2-PHI",
-     "limit": "0.9700"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

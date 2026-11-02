@@ -3423,3 +3423,9 @@
 2026-11-02 04:41:38,393 INFO PAPER rest NO bid KXNFLNEXTTEAM-26SSANDERS2-BAL at $0.5200 x1 (0 already bid at that price)
 2026-11-02 04:41:38,393 INFO Resting NO bid on KXNFLNEXTTEAM-26SSANDERS2-BAL at $0.5200 x1 (KXNFLNEXTTEAM-26SSANDERS2): locks in $0.20 if it fills; hedge NO CLE@0.2800, IND@0.9800, PHI@0.9700
 2026-11-02 04:41:38,397 INFO Swept 19971 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 04:46:43,102 INFO Swept 19970 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 04:51:47,770 INFO Swept 19975 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 04:56:51,743 INFO Swept 19971 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 05:01:52,448 INFO Swept 19967 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 05:06:57,157 INFO Swept 19973 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 05:12:00,301 INFO Swept 19985 events: 0 taker trades, 0 new quotes, 1 resting
