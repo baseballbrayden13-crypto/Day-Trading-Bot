@@ -1594,5 +1594,44 @@
    "closed": "2026-11-02T03:25:41.995466+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXATPMATCH-26NOV02MERBAE",
+   "series": "KXATPMATCH",
+   "title": "Merida vs Baez",
+   "ticker": "KXATPMATCH-26NOV02MERBAE-BAE",
+   "order_id": "paper-551-1793616743",
+   "price": "0.3700",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.5000",
+   "multiplier": "1",
+   "placed": 1793616743.8670251,
+   "hedge": [
+    {
+     "ticker": "KXATPMATCH-26NOV02MERBAE-MER",
+     "limit": "0.3700"
+    }
+   ]
+  },
+  {
+   "event": "KXLOWTLV-26NOV02",
+   "series": "KXLOWTLV",
+   "title": "Lowest temperature in Las Vegas on Nov 2, 2026?",
+   "ticker": "KXLOWTLV-26NOV02-B50.5",
+   "order_id": "paper-552-1793617958",
+   "price": "0.6400",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.6500",
+   "multiplier": "1",
+   "placed": 1793617958.116888,
+   "hedge": [
+    {
+     "ticker": "KXLOWTLV-26NOV02-T51",
+     "limit": "0.2700"
+    }
+   ]
+  }
+ ]
 }

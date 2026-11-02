@@ -3435,3 +3435,16 @@
 2026-11-02 05:32:19,765 INFO Swept 20001 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 05:37:17,340 INFO Swept 20003 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 05:42:19,487 INFO Swept 20001 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 05:47:21,626 INFO Swept 19998 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 05:52:23,795 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV020545TSYNEM-NEM at $0.2600 x5 (0 already bid at that price)
+2026-11-02 05:52:23,795 INFO Resting NO bid on KXLIGAPROMATCH-26NOV020545TSYNEM-NEM at $0.2600 x5 (KXLIGAPROMATCH-26NOV020545TSYNEM): locks in $0.20 if it fills; hedge NO TSY@0.6800
+2026-11-02 05:52:23,866 INFO PAPER rest NO bid KXATPMATCH-26NOV02MERBAE-BAE at $0.3700 x2 (0 already bid at that price)
+2026-11-02 05:52:23,867 INFO Resting NO bid on KXATPMATCH-26NOV02MERBAE-BAE at $0.3700 x2 (KXATPMATCH-26NOV02MERBAE): locks in $0.50 if it fills; hedge NO MER@0.3700
+2026-11-02 05:52:23,871 INFO Swept 19996 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-02 05:57:26,722 INFO Swept 19991 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 06:02:17,094 INFO Swept 19983 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 06:02:17,293 INFO Quote KXLIGAPROMATCH-26NOV020545TSYNEM cancelled (0/5 filled)
+2026-11-02 06:07:32,281 INFO Swept 19986 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 06:12:38,116 INFO PAPER rest NO bid KXLOWTLV-26NOV02-B50.5 at $0.6400 x5 (0 already bid at that price)
+2026-11-02 06:12:38,116 INFO Resting NO bid on KXLOWTLV-26NOV02-B50.5 at $0.6400 x5 (KXLOWTLV-26NOV02): locks in $0.35 if it fills; hedge NO T51@0.2700
+2026-11-02 06:12:38,120 INFO Swept 19986 events: 0 taker trades, 1 new quotes, 2 resting
