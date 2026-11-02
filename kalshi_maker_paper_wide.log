@@ -3260,3 +3260,16 @@
 2026-11-01 19:18:35,604 INFO Swept 19519 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-01 19:23:33,597 INFO Swept 19543 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-01 19:23:38,804 INFO Stopped; all quotes cancelled.
+2026-11-01 19:52:04,004 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-01 19:55:39,701 INFO Swept 19556 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 20:00:40,184 INFO PAPER rest NO bid KXEBASKETBALLGAME-26NOV012012LONZKYLE-KYLE at $0.4000 x5 (25 already bid at that price)
+2026-11-01 20:00:40,184 INFO Resting NO bid on KXEBASKETBALLGAME-26NOV012012LONZKYLE-KYLE at $0.40 x5 (KXEBASKETBALLGAME-26NOV012012LONZKYLE): locks in $0.13 if it fills; hedge NO LONZ@0.5500
+2026-11-01 20:00:40,188 INFO Swept 19524 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 20:05:43,412 INFO Swept 19514 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 20:05:43,486 INFO Quote KXEBASKETBALLGAME-26NOV012012LONZKYLE cancelled (0/5 filled)
+2026-11-01 20:10:44,938 INFO Swept 19530 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 20:15:47,399 INFO PAPER rest NO bid KXEXITPOLL-IND-DEM at $0.1100 x2 (1 already bid at that price)
+2026-11-01 20:15:47,400 INFO Resting NO bid on KXEXITPOLL-IND-DEM at $0.11 x2 (KXEXITPOLL-IND): locks in $0.10 if it fills; hedge NO REP@0.8200
+2026-11-01 20:15:47,404 INFO Swept 19571 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 20:20:44,598 INFO Swept 19590 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-01 20:20:44,663 INFO Quote KXEXITPOLL-IND cancelled (0/2 filled)
