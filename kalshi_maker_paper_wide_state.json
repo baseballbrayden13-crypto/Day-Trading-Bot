@@ -1574,5 +1574,33 @@
    "closed": "2026-11-01T22:51:55.405165+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXCOPADOBRASIL-26",
+   "series": "KXCOPADOBRASIL",
+   "title": "Copa do Brasil Champion",
+   "ticker": "KXCOPADOBRASIL-26-ATL",
+   "order_id": "paper-525-1793576935",
+   "price": "0.4700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "2.7500",
+   "multiplier": "1",
+   "placed": 1793576935.8536873,
+   "hedge": [
+    {
+     "ticker": "KXCOPADOBRASIL-26-VDG",
+     "limit": "0.8700"
+    },
+    {
+     "ticker": "KXCOPADOBRASIL-26-PAL",
+     "limit": "0.5000"
+    },
+    {
+     "ticker": "KXCOPADOBRASIL-26-GRN",
+     "limit": "0.8600"
+    }
+   ]
+  }
+ ]
 }

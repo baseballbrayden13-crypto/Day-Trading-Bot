@@ -3242,3 +3242,14 @@
 2026-11-01 18:33:57,123 INFO PAPER KXKBOGAME-26NOV040430SAMKTW-KTW NO bid at $0.2600: 4/4 filled by real trades
 2026-11-01 18:33:57,193 INFO PAPER buy 4 NO KXKBOGAME-26NOV040430SAMKTW-SAM at up to $0.7000: filled 4
 2026-11-01 18:33:57,193 INFO Quote KXKBOGAME-26NOV040430SAMKTW filled 4: hedged, locks in $0.08
+2026-11-01 18:38:52,635 INFO Swept 19592 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 18:43:54,551 INFO Swept 19575 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-01 18:48:55,853 INFO PAPER rest NO bid KXCOPADOBRASIL-26-ATL at $0.4700 x1 (0 already bid at that price)
+2026-11-01 18:48:55,853 INFO Resting NO bid on KXCOPADOBRASIL-26-ATL at $0.4700 x1 (KXCOPADOBRASIL-26): locks in $0.25 if it fills; hedge NO VDG@0.8700, PAL@0.5000, GRN@0.8600
+2026-11-01 18:48:55,858 INFO Swept 19581 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-01 18:53:50,535 INFO PAPER rest NO bid KXAHLGAME-26NOV011700TEXROC-TEX at $0.6500 x5 (0 already bid at that price)
+2026-11-01 18:53:50,536 INFO Resting NO bid on KXAHLGAME-26NOV011700TEXROC-TEX at $0.6500 x5 (KXAHLGAME-26NOV011700TEXROC): locks in $0.20 if it fills; hedge NO ROC@0.2900
+2026-11-01 18:53:50,540 INFO Swept 19582 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-01 18:58:38,740 INFO Swept 19555 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-01 18:58:39,062 INFO Quote KXAHLGAME-26NOV011700TEXROC cancelled (0/5 filled)
+2026-11-01 19:03:39,850 INFO Swept 19530 events: 0 taker trades, 0 new quotes, 1 resting
