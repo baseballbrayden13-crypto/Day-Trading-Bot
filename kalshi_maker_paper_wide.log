@@ -3945,3 +3945,11 @@
 2026-11-03 07:17:52,125 INFO Swept 19474 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-03 07:22:56,444 INFO Swept 19473 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-03 07:28:01,979 INFO Swept 19464 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 07:33:03,194 INFO Swept 19460 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 07:38:05,080 INFO PAPER rest NO bid KXCBAGAME-26NOV030635NINBED-NIN at $0.8700 x4 (2 already bid at that price)
+2026-11-03 07:38:05,080 INFO Resting NO bid on KXCBAGAME-26NOV030635NINBED-NIN at $0.87 x4 (KXCBAGAME-26NOV030635NINBED): locks in $0.12 if it fills; hedge NO BED@0.0900
+2026-11-03 07:38:05,145 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06CLMBURI-CLMB at $0.2700 x3 (42 already bid at that price)
+2026-11-03 07:38:05,146 INFO Resting NO bid on KXNCAAWBGAME-26NOV06CLMBURI-CLMB at $0.27 x3 (KXNCAAWBGAME-26NOV06CLMBURI): locks in $0.11 if it fills; hedge NO URI@0.6700
+2026-11-03 07:38:05,150 INFO Swept 19468 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-03 07:43:10,587 INFO Swept 19465 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 07:43:16,013 INFO Stopped; all quotes cancelled.
