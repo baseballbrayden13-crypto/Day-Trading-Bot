@@ -4162,3 +4162,20 @@
 2026-11-03 16:33:07,867 INFO Swept 19868 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 16:38:10,148 INFO Swept 19865 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 16:43:12,832 INFO Swept 19836 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 16:48:15,256 INFO Swept 19839 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 16:53:18,441 INFO PAPER rest NO bid KXLOLFBLOOD-26NOV031700IGTES-1-TES at $0.5000 x5 (0 already bid at that price)
+2026-11-03 16:53:18,442 INFO Resting NO bid on KXLOLFBLOOD-26NOV031700IGTES-1-TES at $0.5000 x5 (KXLOLFBLOOD-26NOV031700IGTES-1): locks in $0.13 if it fills; hedge NO IG@0.4500
+2026-11-03 16:53:18,445 INFO Swept 19844 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 16:54:04,785 INFO PAPER KXLOLFBLOOD-26NOV031700IGTES-1-TES NO bid at $0.5000: 5/5 filled by real trades
+2026-11-03 16:54:04,856 INFO PAPER buy 5 NO KXLOLFBLOOD-26NOV031700IGTES-1-IG at up to $0.4500: not on the book
+2026-11-03 16:54:04,856 WARNING Quote KXLOLFBLOOD-26NOV031700IGTES-1: hedge missed on KXLOLFBLOOD-26NOV031700IGTES-1-IG. Selling back 5 contracts on 1 legs.
+2026-11-03 16:54:04,921 INFO PAPER sell 5 YES KXLOLFBLOOD-26NOV031700IGTES-1-TES at up to $0.5500: filled 5
+2026-11-03 16:58:22,099 INFO PAPER rest NO bid KXMLBGG-26NLTEAM-CHC at $0.0500 x2 (0 already bid at that price)
+2026-11-03 16:58:22,099 INFO Resting NO bid on KXMLBGG-26NLTEAM-CHC at $0.0500 x2 (KXMLBGG-26NLTEAM): locks in $0.74 if it fills; hedge NO MIL@0.9500, ATL@0.6000
+2026-11-03 16:58:22,103 INFO Swept 19819 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 17:03:20,347 INFO Swept 19768 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 17:08:26,135 INFO Swept 19779 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 17:13:31,275 INFO PAPER rest NO bid KXNCAAFCFPPOLL-26NOV03R1-UGA at $0.0500 x3 (0 already bid at that price)
+2026-11-03 17:13:31,275 INFO Resting NO bid on KXNCAAFCFPPOLL-26NOV03R1-UGA at $0.0500 x3 (KXNCAAFCFPPOLL-26NOV03R1): locks in $1.92 if it fills; hedge NO MIA@0.2900
+2026-11-03 17:13:31,279 INFO Swept 19742 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 17:18:35,833 INFO Swept 19761 events: 0 taker trades, 0 new quotes, 2 resting
