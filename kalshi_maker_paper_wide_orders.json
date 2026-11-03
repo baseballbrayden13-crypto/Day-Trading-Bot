@@ -9064,12 +9064,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793736113.6392796,
-  "checked": 1793736929.3582826,
+  "checked": 1793737913,
   "expires": 1793737913,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-649-1793736417": {
   "id": "paper-649-1793736417",
@@ -9078,11 +9078,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793736417.807054,
-  "checked": 1793736929.4890718,
+  "checked": 1793738217,
   "expires": 1793738217,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-650-1793738227": {
+  "id": "paper-650-1793738227",
+  "ticker": "KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH",
+  "price": "0.1500",
+  "count": 3,
+  "ahead": 0,
+  "placed": 1793738227.386107,
+  "checked": 1793738529.2947655,
+  "expires": 1793740027,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

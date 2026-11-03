@@ -4135,3 +4135,12 @@
 2026-11-03 15:06:57,813 INFO Resting NO bid on KXSAUDIPLGAME-26NOV06ITJNEO-ITJ at $0.3800 x2 (KXSAUDIPLGAME-26NOV06ITJNEO): locks in $0.16 if it fills; hedge NO NEO@0.9300, TIE@0.5800
 2026-11-03 15:06:57,829 INFO Swept 19804 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-03 15:11:58,781 INFO Swept 19961 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 15:17:01,383 INFO Swept 19962 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 15:22:02,256 INFO Swept 19957 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 15:27:04,348 INFO Swept 19937 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 15:32:05,972 INFO Swept 19932 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 15:37:07,392 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH at $0.1500 x3 (0 already bid at that price)
+2026-11-03 15:37:07,393 INFO Resting NO bid on KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH at $0.1500 x3 (KXITFWDOUBLES-26NOV03FOUKUHEISEIS): locks in $1.94 if it fills; hedge NO EISEIS@0.1900
+2026-11-03 15:37:07,396 INFO Swept 19920 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 15:42:09,162 INFO Swept 19891 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 15:42:09,369 INFO Quote KXITFWDOUBLES-26NOV03FOUKUHEISEIS cancelled (0/3 filled)
