@@ -1754,5 +1754,25 @@
    "closed": "2026-11-03T08:20:28.092399+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXITFMATCH-26NOV03PETSHY",
+   "series": "KXITFMATCH",
+   "title": "Petre vs Shylov",
+   "ticker": "KXITFMATCH-26NOV03PETSHY-SHY",
+   "order_id": "paper-606-1793696174",
+   "price": "0.17",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8800",
+   "multiplier": "1",
+   "placed": 1793696174.471921,
+   "hedge": [
+    {
+     "ticker": "KXITFMATCH-26NOV03PETSHY-PET",
+     "limit": "0.7900"
+    }
+   ]
+  }
+ ]
 }

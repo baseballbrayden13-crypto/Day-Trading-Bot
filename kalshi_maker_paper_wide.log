@@ -3870,3 +3870,14 @@
 2026-11-03 03:20:28,092 INFO Settled KXEBASKETBALLGAME-26NOV030248DAVICONO: paid $6, profit $1.30
 2026-11-03 03:20:51,247 INFO Swept 19533 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 03:25:50,105 INFO Swept 19537 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 03:30:53,791 INFO Swept 19546 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 03:35:57,139 INFO Swept 19546 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 03:41:00,674 INFO Swept 19545 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 03:46:04,269 INFO Swept 19541 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 03:51:09,586 INFO PAPER rest NO bid KXEBASKETBALLGAME-26NOV030344DIRKBRYC-BRYC at $0.2200 x5 (0 already bid at that price)
+2026-11-03 03:51:09,586 INFO Resting NO bid on KXEBASKETBALLGAME-26NOV030344DIRKBRYC-BRYC at $0.2200 x5 (KXEBASKETBALLGAME-26NOV030344DIRKBRYC): locks in $0.25 if it fills; hedge NO DIRK@0.7100
+2026-11-03 03:51:09,590 INFO Swept 19548 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 03:53:43,836 INFO Quote KXEBASKETBALLGAME-26NOV030344DIRKBRYC cancelled (0/5 filled)
+2026-11-03 03:56:14,471 INFO PAPER rest NO bid KXITFMATCH-26NOV03PETSHY-SHY at $0.1700 x5 (8 already bid at that price)
+2026-11-03 03:56:14,471 INFO Resting NO bid on KXITFMATCH-26NOV03PETSHY-SHY at $0.17 x5 (KXITFMATCH-26NOV03PETSHY): locks in $0.12 if it fills; hedge NO PET@0.7900
+2026-11-03 03:56:14,476 INFO Swept 19546 events: 0 taker trades, 1 new quotes, 1 resting
