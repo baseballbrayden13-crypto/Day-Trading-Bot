@@ -1,6 +1,58 @@
 {
- "realized": "-0.9900",
+ "realized": "7.0700",
  "open": [
+  {
+   "event": "KXSTARSHIPSPACE-26",
+   "series": "KXSTARSHIPSPACE",
+   "title": "How many SpaceX Starship launches will reach space in 2026?",
+   "sets": 37,
+   "outlay": "19.9500",
+   "locked_profit": "17.0500",
+   "opened": "2026-11-03T15:50:37.653953+00:00",
+   "legs": [
+    {
+     "ticker": "KXSTARSHIPSPACE-26-4.0",
+     "side": "no",
+     "count": 37,
+     "limit": "0.5000"
+    },
+    {
+     "ticker": "KXSTARSHIPSPACE-26-7.0",
+     "side": "yes",
+     "count": 37,
+     "limit": "0.0200"
+    }
+   ]
+  }
+ ],
+ "closed": [
+  {
+   "event": "KXCOPADELREYADVANCE-26OCT27SRCESP",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "Sestao vs Espanyol",
+   "sets": 20,
+   "outlay": "19.8000",
+   "locked_profit": "0.2000",
+   "opened": "2026-10-27T20:05:40.857042+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCOPADELREYADVANCE-26OCT27SRCESP-SRC",
+     "side": "no",
+     "count": 20,
+     "limit": "0.6400"
+    },
+    {
+     "ticker": "KXCOPADELREYADVANCE-26OCT27SRCESP-ESP",
+     "side": "no",
+     "count": 20,
+     "limit": "0.3300"
+    }
+   ],
+   "paid": "20",
+   "pnl": "0.2000",
+   "closed": "2026-10-27T21:30:59.931081+00:00"
+  },
   {
    "event": "KXTOPALBUM-26NOV07",
    "series": "KXTOPALBUM",
@@ -35,7 +87,10 @@
      "count": 5,
      "limit": "0.6300"
     }
-   ]
+   ],
+   "paid": "20",
+   "pnl": "5.7700",
+   "closed": "2026-11-03T15:40:37.089007+00:00"
   },
   {
    "event": "KXTOPALBUM-26NOV07",
@@ -71,36 +126,10 @@
      "count": 2,
      "limit": "0.6300"
     }
-   ]
-  }
- ],
- "closed": [
-  {
-   "event": "KXCOPADELREYADVANCE-26OCT27SRCESP",
-   "series": "KXCOPADELREYADVANCE",
-   "title": "Sestao vs Espanyol",
-   "sets": 20,
-   "outlay": "19.8000",
-   "locked_profit": "0.2000",
-   "opened": "2026-10-27T20:05:40.857042+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXCOPADELREYADVANCE-26OCT27SRCESP-SRC",
-     "side": "no",
-     "count": 20,
-     "limit": "0.6400"
-    },
-    {
-     "ticker": "KXCOPADELREYADVANCE-26OCT27SRCESP-ESP",
-     "side": "no",
-     "count": 20,
-     "limit": "0.3300"
-    }
    ],
-   "paid": "20",
-   "pnl": "0.2000",
-   "closed": "2026-10-27T21:30:59.931081+00:00"
+   "paid": "8",
+   "pnl": "2.2900",
+   "closed": "2026-11-03T15:40:37.177679+00:00"
   }
  ],
  "quotes": [],

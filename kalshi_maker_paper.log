@@ -1767,3 +1767,17 @@
 2026-11-03 10:25:33,486 INFO Swept 19468 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 10:30:35,267 INFO Swept 19469 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 10:35:36,646 INFO Swept 19458 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 10:40:37,089 INFO Settled KXTOPALBUM-26NOV07: paid $20, profit $5.77
+2026-11-03 10:40:37,177 INFO Settled KXTOPALBUM-26NOV07: paid $8, profit $2.29
+2026-11-03 10:41:02,373 INFO PAPER rest NO bid KXNBAGAME-26NOV06WASATL-WAS at $0.5600 x20 (87 already bid at that price)
+2026-11-03 10:41:02,374 INFO Resting NO bid on KXNBAGAME-26NOV06WASATL-WAS at $0.56 x20 (KXNBAGAME-26NOV06WASATL): locks in $0.17 if it fills; hedge NO ATL@0.4100
+2026-11-03 10:41:02,374 INFO Swept 19449 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 10:46:04,125 INFO Swept 19466 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 10:46:09,382 INFO Quote KXNBAGAME-26NOV06WASATL cancelled (0/20 filled)
+2026-11-03 10:50:37,519 INFO Buying KXSTARSHIPSPACE-26 (ladder): 37 sets on 2 markets, cost $19.95, locks in $17.05
+2026-11-03 10:50:37,631 INFO PAPER buy 37 NO KXSTARSHIPSPACE-26-4.0 at up to $0.5000: filled 37
+2026-11-03 10:50:37,653 INFO PAPER buy 37 YES KXSTARSHIPSPACE-26-7.0 at up to $0.0200: filled 37
+2026-11-03 10:51:02,050 INFO Swept 19459 events: 1 taker trades, 0 new quotes, 0 resting
+2026-11-03 10:56:05,869 INFO Swept 19462 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 11:01:04,447 INFO Swept 19460 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 11:06:10,633 INFO Swept 19461 events: 0 taker trades, 0 new quotes, 0 resting
