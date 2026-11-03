@@ -8622,5 +8622,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-617-1793710572": {
+  "id": "paper-617-1793710572",
+  "ticker": "KXNCAAWBGAME-26NOV06CLMBURI-CLMB",
+  "price": "0.2700",
+  "count": 3,
+  "ahead": 0,
+  "placed": 1793710572.7226367,
+  "checked": 1793712238.8511403,
+  "expires": 1793712372,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

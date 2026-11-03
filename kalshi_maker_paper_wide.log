@@ -3953,3 +3953,12 @@
 2026-11-03 07:38:05,150 INFO Swept 19468 events: 0 taker trades, 2 new quotes, 2 resting
 2026-11-03 07:43:10,587 INFO Swept 19465 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-03 07:43:16,013 INFO Stopped; all quotes cancelled.
+2026-11-03 07:54:02,116 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-03 07:56:12,728 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06CLMBURI-CLMB at $0.2700 x3 (0 already bid at that price)
+2026-11-03 07:56:12,729 INFO Resting NO bid on KXNCAAWBGAME-26NOV06CLMBURI-CLMB at $0.2700 x3 (KXNCAAWBGAME-26NOV06CLMBURI): locks in $0.11 if it fills; hedge NO URI@0.6700
+2026-11-03 07:56:12,733 INFO Swept 19463 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 08:01:11,239 INFO Swept 19461 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 08:06:20,231 INFO Swept 19500 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 08:11:23,061 INFO Swept 19512 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 08:16:26,181 INFO Swept 19511 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 08:21:29,899 INFO Swept 19516 events: 0 taker trades, 0 new quotes, 1 resting
