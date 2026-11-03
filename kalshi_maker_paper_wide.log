@@ -3742,3 +3742,13 @@
 2026-11-02 21:08:18,411 INFO Swept 20483 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 21:13:22,879 INFO Swept 20505 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 21:18:26,757 INFO Swept 20541 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 21:23:25,283 INFO PAPER rest NO bid KXTOPSONG-26NOV14-SOM at $0.4400 x1 (0 already bid at that price)
+2026-11-02 21:23:25,283 INFO Resting NO bid on KXTOPSONG-26NOV14-SOM at $0.4400 x1 (KXTOPSONG-26NOV14): locks in $0.20 if it fills; hedge NO CHO@0.3400, DRA@0.9800
+2026-11-02 21:23:25,286 INFO Swept 20531 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 21:28:30,312 INFO PAPER rest NO bid KXNBACUPGROUP-26EASTB-PHI at $0.1000 x2 (0 already bid at that price)
+2026-11-02 21:28:30,312 INFO Resting NO bid on KXNBACUPGROUP-26EASTB-PHI at $0.1000 x2 (KXNBACUPGROUP-26EASTB): locks in $0.21 if it fills; hedge NO CLE@0.8600, MIA@0.9100
+2026-11-02 21:28:30,315 INFO Swept 20503 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-02 21:33:30,568 INFO Swept 20465 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 21:38:36,517 INFO Swept 20454 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 21:43:32,101 INFO Swept 20394 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 21:48:36,890 INFO Swept 20377 events: 0 taker trades, 0 new quotes, 2 resting

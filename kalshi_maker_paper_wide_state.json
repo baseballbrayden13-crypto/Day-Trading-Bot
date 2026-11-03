@@ -1700,5 +1700,52 @@
    "closed": "2026-11-02T21:55:24.703790+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXTOPSONG-26NOV14",
+   "series": "KXTOPSONG",
+   "title": "#1 on the Billboard Hot 100 chart for the Week of Nov 14, 2026?",
+   "ticker": "KXTOPSONG-26NOV14-SOM",
+   "order_id": "paper-587-1793672605",
+   "price": "0.4400",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.8000",
+   "multiplier": "1",
+   "placed": 1793672605.2836797,
+   "hedge": [
+    {
+     "ticker": "KXTOPSONG-26NOV14-CHO",
+     "limit": "0.3400"
+    },
+    {
+     "ticker": "KXTOPSONG-26NOV14-DRA",
+     "limit": "0.9800"
+    }
+   ]
+  },
+  {
+   "event": "KXNBACUPGROUP-26EASTB",
+   "series": "KXNBACUPGROUP",
+   "title": "Pro Basketball Cup East Group B Winner",
+   "ticker": "KXNBACUPGROUP-26EASTB-PHI",
+   "order_id": "paper-588-1793672910",
+   "price": "0.1000",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.7900",
+   "multiplier": "1",
+   "placed": 1793672910.3125815,
+   "hedge": [
+    {
+     "ticker": "KXNBACUPGROUP-26EASTB-CLE",
+     "limit": "0.8600"
+    },
+    {
+     "ticker": "KXNBACUPGROUP-26EASTB-MIA",
+     "limit": "0.9100"
+    }
+   ]
+  }
+ ]
 }
