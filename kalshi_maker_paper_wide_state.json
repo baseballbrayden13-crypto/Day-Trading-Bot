@@ -1756,40 +1756,48 @@
  ],
  "quotes": [
   {
-   "event": "KXTRUTHSOCIALD-26NOV03",
-   "series": "KXTRUTHSOCIALD",
-   "title": "Trump Truth Social posts on Nov 3, 2026?",
-   "ticker": "KXTRUTHSOCIALD-26NOV03-B34",
-   "order_id": "paper-634-1793727191",
-   "price": "0.8200",
-   "sets": 5,
+   "event": "KXKBO-26",
+   "series": "KXKBO",
+   "title": "Korea KBO Champion",
+   "ticker": "KXKBO-26-SAM",
+   "order_id": "paper-637-1793729312",
+   "price": "0.2000",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.5000",
+   "reserve": "0.6200",
    "multiplier": "1",
-   "placed": 1793727191.2833285,
+   "placed": 1793729312.8548653,
    "hedge": [
     {
-     "ticker": "KXTRUTHSOCIALD-26NOV03-T40",
-     "limit": "0.0700"
+     "ticker": "KXKBO-26-KTW",
+     "limit": "0.3900"
     }
    ]
   },
   {
-   "event": "KXWEUROLEAGUEGAME-26NOV031200EMLLUB",
-   "series": "KXWEUROLEAGUEGAME",
-   "title": "Emlak Konut vs AZS UMCS Lublin",
-   "ticker": "KXWEUROLEAGUEGAME-26NOV031200EMLLUB-LUB",
-   "order_id": "paper-636-1793728404",
-   "price": "0.2600",
-   "sets": 2,
+   "event": "KXNFLNEXTTEAM-26BTHOMAS7",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Brian Thomas Jr. Next Team",
+   "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-SF",
+   "order_id": "paper-638-1793730218",
+   "price": "0.5100",
+   "sets": 1,
    "done": 0,
-   "reserve": "1.8900",
+   "reserve": "2.7800",
    "multiplier": "1",
-   "placed": 1793728404.970494,
+   "placed": 1793730218.5581093,
    "hedge": [
     {
-     "ticker": "KXWEUROLEAGUEGAME-26NOV031200EMLLUB-EML",
-     "limit": "0.6600"
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-JAC",
+     "limit": "0.4700"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-KC",
+     "limit": "0.7800"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-LA",
+     "limit": "0.9600"
     }
    ]
   }

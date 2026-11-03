@@ -4069,3 +4069,14 @@
 2026-11-03 12:53:24,970 INFO PAPER rest NO bid KXWEUROLEAGUEGAME-26NOV031200EMLLUB-LUB at $0.2600 x2 (0 already bid at that price)
 2026-11-03 12:53:24,970 INFO Resting NO bid on KXWEUROLEAGUEGAME-26NOV031200EMLLUB-LUB at $0.2600 x2 (KXWEUROLEAGUEGAME-26NOV031200EMLLUB): locks in $0.11 if it fills; hedge NO EML@0.6600
 2026-11-03 12:53:24,974 INFO Swept 19523 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 12:58:25,444 INFO Swept 19522 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 13:03:31,371 INFO Swept 19532 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 13:03:31,661 INFO Quote KXWEUROLEAGUEGAME-26NOV031200EMLLUB cancelled (0/2 filled)
+2026-11-03 13:08:32,854 INFO PAPER rest NO bid KXKBO-26-SAM at $0.2000 x1 (0 already bid at that price)
+2026-11-03 13:08:32,854 INFO Resting NO bid on KXKBO-26-SAM at $0.2000 x1 (KXKBO-26): locks in $0.38 if it fills; hedge NO KTW@0.3900
+2026-11-03 13:08:32,859 INFO Swept 19606 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 13:13:34,414 INFO Swept 19604 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 13:18:35,929 INFO Swept 19637 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 13:23:38,557 INFO PAPER rest NO bid KXNFLNEXTTEAM-26BTHOMAS7-SF at $0.5100 x1 (0 already bid at that price)
+2026-11-03 13:23:38,558 INFO Resting NO bid on KXNFLNEXTTEAM-26BTHOMAS7-SF at $0.5100 x1 (KXNFLNEXTTEAM-26BTHOMAS7): locks in $0.22 if it fills; hedge NO JAC@0.4700, KC@0.7800, LA@0.9600
+2026-11-03 13:23:38,562 INFO Swept 19652 events: 0 taker trades, 1 new quotes, 2 resting
