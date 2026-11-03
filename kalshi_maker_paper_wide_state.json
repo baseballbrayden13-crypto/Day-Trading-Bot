@@ -1792,21 +1792,40 @@
  ],
  "quotes": [
   {
-   "event": "KXKBO-26",
-   "series": "KXKBO",
-   "title": "Korea KBO Champion",
-   "ticker": "KXKBO-26-SAM",
-   "order_id": "paper-643-1793731575",
-   "price": "0.2000",
+   "event": "KXITFWDOUBLES-26NOV03FOUKUHEISEIS",
+   "series": "KXITFWDOUBLES",
+   "title": "Fouad / Kuhl vs Eisch / Eisch",
+   "ticker": "KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH",
+   "order_id": "paper-644-1793733386",
+   "price": "0.1300",
    "sets": 1,
    "done": 0,
-   "reserve": "0.6200",
+   "reserve": "0.5100",
    "multiplier": "1",
-   "placed": 1793731575.6246133,
+   "placed": 1793733386.5985947,
    "hedge": [
     {
-     "ticker": "KXKBO-26-KTW",
-     "limit": "0.3900"
+     "ticker": "KXITFWDOUBLES-26NOV03FOUKUHEISEIS-EISEIS",
+     "limit": "0.3500"
+    }
+   ]
+  },
+  {
+   "event": "KXTRUTHSOCIALD-26NOV03",
+   "series": "KXTRUTHSOCIALD",
+   "title": "Trump Truth Social posts on Nov 3, 2026?",
+   "ticker": "KXTRUTHSOCIALD-26NOV03-B12",
+   "order_id": "paper-646-1793733687",
+   "price": "0.2700",
+   "sets": 7,
+   "done": 0,
+   "reserve": "3.0300",
+   "multiplier": "1",
+   "placed": 1793733687.2589781,
+   "hedge": [
+    {
+     "ticker": "KXTRUTHSOCIALD-26NOV03-T40",
+     "limit": "0.6400"
     }
    ]
   }
