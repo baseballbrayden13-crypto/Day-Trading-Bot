@@ -3962,3 +3962,12 @@
 2026-11-03 08:11:23,061 INFO Swept 19512 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 08:16:26,181 INFO Swept 19511 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 08:21:29,899 INFO Swept 19516 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 08:26:32,801 INFO Swept 19518 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 08:31:36,721 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06CLMBURI-CLMB at $0.2700 x3 (2 already bid at that price)
+2026-11-03 08:31:36,721 INFO Resting NO bid on KXNCAAWBGAME-26NOV06CLMBURI-CLMB at $0.27 x3 (KXNCAAWBGAME-26NOV06CLMBURI): locks in $0.11 if it fills; hedge NO URI@0.6700
+2026-11-03 08:31:36,725 INFO Swept 19525 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 08:36:31,183 INFO Swept 19513 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 08:41:37,468 INFO Swept 19506 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 08:42:23,900 INFO Quote KXNCAAWBGAME-26NOV06CLMBURI cancelled (0/3 filled)
+2026-11-03 08:46:39,865 INFO Swept 19504 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 08:51:40,910 INFO Swept 19502 events: 0 taker trades, 0 new quotes, 0 resting

@@ -8630,11 +8630,25 @@
   "count": 3,
   "ahead": 0,
   "placed": 1793710572.7226367,
-  "checked": 1793712238.8511403,
+  "checked": 1793712372,
   "expires": 1793712372,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-618-1793712696": {
+  "id": "paper-618-1793712696",
+  "ticker": "KXNCAAWBGAME-26NOV06CLMBURI-CLMB",
+  "price": "0.2700",
+  "count": 3,
+  "ahead": 2,
+  "placed": 1793712696.7143695,
+  "checked": 1793713343.8229532,
+  "expires": 1793714496,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
