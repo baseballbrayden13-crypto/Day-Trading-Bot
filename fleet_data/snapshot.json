@@ -1,5 +1,5 @@
 {
- "taken": "2026-11-03T01:28:52+00:00",
+ "taken": "2026-11-03T20:59:22+00:00",
  "bots": {
   "1": {
    "name": "ORB day trader",
@@ -8,9 +8,9 @@
    "errors": [],
    "account": {
     "account": "QIE2",
-    "equity": 4984.43,
+    "equity": 4979.73,
     "last_equity": 4984.43,
-    "cash": 4984.43,
+    "cash": 4979.73,
     "status": "ACTIVE",
     "trading_blocked": false,
     "account_blocked": false
@@ -106,13 +106,27 @@
      "price": 344.19,
      "type": "stop",
      "order_id": "59cf5548-7dd6-48b3-97f7-87dd2871ee09"
+    },
+    {
+     "time": "2026-11-03T14:50:09.504549+00:00",
+     "symbol": "AAPL",
+     "side": "buy",
+     "qty": 2.0,
+     "price": 334.21,
+     "type": "market",
+     "order_id": "6f2fc151-520d-4460-aaa2-3e70fb7d0cc2"
+    },
+    {
+     "time": "2026-11-03T20:55:17.070455+00:00",
+     "symbol": "AAPL",
+     "side": "sell",
+     "qty": 2.0,
+     "price": 331.86,
+     "type": "market",
+     "order_id": "82ee8b69-be46-4f47-a364-1e1ce3766655"
     }
    ],
    "equity_history": [
-    {
-     "day": "2026-10-02",
-     "equity": 0.0
-    },
     {
      "day": "2026-10-05",
      "equity": 0.0
@@ -192,28 +206,32 @@
     {
      "day": "2026-10-30",
      "equity": 4984.43
+    },
+    {
+     "day": "2026-11-02",
+     "equity": 4984.43
     }
    ],
    "log": {
     "exists": true,
-    "modified": "2026-11-02T16:05:05-05:00",
-    "last_line_time": "2026-11-02T16:05:05",
+    "modified": "2026-11-03T12:44:53-05:00",
+    "last_line_time": "2026-11-03T12:44:53",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-02 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.",
-     "2026-11-02 12:48:29,917 INFO Connected to Alpaca PAPER account",
-     "2026-11-02 12:48:30,141 INFO Picked up today's counters: start equity $4984.43, 0 trades",
-     "2026-11-02 12:48:30,141 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.",
-     "2026-11-02 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca."
+     "2026-11-03 09:50:06,903 INFO BUY AAPL x2 @~333.78 stop 325.60 target 346.06 | broke 15-min opening range high 332.67",
+     "2026-11-03 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.",
+     "2026-11-03 12:44:53,057 INFO Connected to Alpaca PAPER account",
+     "2026-11-03 12:44:53,467 INFO Picked up today's counters: start equity $4984.43, 1 trades",
+     "2026-11-03 12:44:53,467 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop."
     ],
     "live_warning": false
    },
    "fills": {
-    "entries": 4,
-    "fills": 7,
-    "avg_bps": 2.1
+    "entries": 5,
+    "fills": 8,
+    "avg_bps": 3.45
    }
   },
   "2": {
@@ -223,9 +241,9 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 4959.44,
-    "last_equity": 5010.94,
-    "cash": 300.95,
+    "equity": 4908.26,
+    "last_equity": 4959.39,
+    "cash": 300.9,
     "status": "ACTIVE",
     "trading_blocked": false,
     "account_blocked": false
@@ -235,22 +253,22 @@
      "symbol": "XLE",
      "qty": 23.0,
      "avg_entry": 69.180435,
-     "market_value": 1546.75,
-     "unrealized_pl": -44.400005
+     "market_value": 1534.445,
+     "unrealized_pl": -56.705005
     },
     {
      "symbol": "XLP",
      "qty": 18.0,
-     "avg_entry": 90.078334,
-     "market_value": 1634.94,
-     "unrealized_pl": 13.529988
+     "avg_entry": 90.078333,
+     "market_value": 1600.83,
+     "unrealized_pl": -20.579994
     },
     {
      "symbol": "XLV",
      "qty": 8.0,
-     "avg_entry": 178.643333,
-     "market_value": 1476.8,
-     "unrealized_pl": 47.653336
+     "avg_entry": 178.6425,
+     "market_value": 1472.08,
+     "unrealized_pl": 42.94
     }
    ],
    "orders": [
@@ -310,10 +328,6 @@
     }
    ],
    "equity_history": [
-    {
-     "day": "2026-10-02",
-     "equity": 0.0
-    },
     {
      "day": "2026-10-05",
      "equity": 0.0
@@ -393,21 +407,25 @@
     {
      "day": "2026-10-30",
      "equity": 5010.94
+    },
+    {
+     "day": "2026-11-02",
+     "equity": 4959.39
     }
    ],
    "log": {
     "exists": true,
-    "modified": "2026-11-02T10:42:49-05:00",
-    "last_line_time": "2026-11-02T10:42:49",
+    "modified": "2026-11-03T10:31:00-05:00",
+    "last_line_time": "2026-11-03T10:31:00",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-02 09:43:02,520 INFO SELL XLK x8",
-     "2026-11-02 09:43:02,520 INFO SELL XLV x1",
-     "2026-11-02 09:43:02,520 INFO BUY XLP x18",
-     "2026-11-02 10:42:48,662 INFO Connected to Alpaca PAPER account",
-     "2026-11-02 10:42:49,111 INFO Already rebalanced in November; nothing to do."
+     "2026-11-02 10:42:49,111 INFO Already rebalanced in November; nothing to do.",
+     "2026-11-03 09:38:23,351 INFO Connected to Alpaca PAPER account",
+     "2026-11-03 09:38:23,820 INFO Already rebalanced in November; nothing to do.",
+     "2026-11-03 10:31:00,256 INFO Connected to Alpaca PAPER account",
+     "2026-11-03 10:31:00,602 INFO Already rebalanced in November; nothing to do."
     ],
     "live_warning": false
    },
@@ -438,10 +456,6 @@
    "positions": [],
    "orders": [],
    "equity_history": [
-    {
-     "day": "2026-10-02",
-     "equity": 0.0
-    },
     {
      "day": "2026-10-05",
      "equity": 0.0
@@ -521,6 +535,10 @@
     {
      "day": "2026-10-30",
      "equity": 5000.0
+    },
+    {
+     "day": "2026-11-02",
+     "equity": 5000.0
     }
    ],
    "log": {
@@ -548,45 +566,47 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-03T01:17:47+00:00",
+     "updated": "2026-11-03T20:54:59+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
      "min_profit": "0.10",
-     "equity": "19.01",
-     "realized_profit": "-0.99",
-     "bet_level": "19.01",
-     "open_trades": 2,
-     "open_locked_profit": "1.06",
-     "in_play": "19.94",
+     "equity": "27.07",
+     "realized_profit": "7.07",
+     "bet_level": "20.00",
+     "open_trades": 1,
+     "open_locked_profit": "17.05",
+     "in_play": "19.95",
      "stray_positions": 0,
-     "closed_trades": 1,
+     "closed_trades": 3,
      "trades_this_loop": 0,
-     "events_swept": 20617,
+     "events_swept": 19823,
      "found_this_loop": 0,
-     "top_series": [],
+     "top_series": [
+      "KXSTARSHIPSPACE"
+     ],
      "problems": 0,
      "last_problems": []
     },
-    "realized": -0.99,
-    "open": 2,
-    "closed": 1,
+    "realized": 7.07,
+    "open": 1,
+    "closed": 3,
     "losing_trades": 0,
     "stray": 0,
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-02T20:20:28-05:00",
-     "last_line_time": "2026-11-02T20:20:28",
+     "modified": "2026-11-03T15:51:39-05:00",
+     "last_line_time": "2026-11-03T15:51:39",
      "errors": 0,
      "errors_24h": 0,
      "last_errors": [],
      "tail": [
-      "2026-11-02 20:00:12,628 INFO Swept 20557 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-02 20:05:13,460 INFO Swept 20551 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-02 20:10:15,284 INFO Swept 20607 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-02 20:15:17,323 INFO Swept 20630 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-02 20:20:28,368 INFO Swept 20617 events: 0 taker trades, 0 new quotes, 0 resting"
+      "2026-11-03 15:31:33,388 INFO Swept 19933 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-03 15:36:35,666 INFO Swept 19921 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-03 15:41:37,252 INFO Swept 19891 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-03 15:46:37,887 INFO Swept 19884 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-03 15:51:39,120 INFO Swept 19889 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -600,21 +620,21 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-03T01:16:01+00:00",
+     "updated": "2026-11-03T20:45:44+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
      "min_profit": "0.10",
-     "equity": "14.62",
-     "realized_profit": "-5.38",
-     "bet_level": "14.62",
-     "open_trades": 3,
-     "open_locked_profit": "2.38",
-     "in_play": "7.94",
+     "equity": "15.62",
+     "realized_profit": "-4.38",
+     "bet_level": "15.62",
+     "open_trades": 4,
+     "open_locked_profit": "2.61",
+     "in_play": "10.71",
      "stray_positions": 1,
-     "closed_trades": 46,
+     "closed_trades": 48,
      "trades_this_loop": 0,
-     "events_swept": 20627,
+     "events_swept": 19897,
      "found_this_loop": 1,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -622,29 +642,29 @@
      "problems": 0,
      "last_problems": []
     },
-    "realized": -5.38,
-    "open": 3,
-    "closed": 64,
+    "realized": -4.38,
+    "open": 4,
+    "closed": 66,
     "losing_trades": 16,
     "stray": 1,
-    "quotes": 2,
+    "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-02T20:17:53-05:00",
-     "last_line_time": "2026-11-02T20:17:53",
+     "modified": "2026-11-03T15:42:09-05:00",
+     "last_line_time": "2026-11-03T15:42:09",
      "errors": 19,
-     "errors_24h": 2,
+     "errors_24h": 0,
      "last_errors": [
       "2026-11-01 17:16:34,310 ERROR STRAY POSITION: 5 NO contracts of KXKBOGAME-26NOV040430SAMKTW-KTW still held. Check it on Kalshi.",
       "2026-11-01 21:05:36,374 ERROR STRAY POSITION: 4 NO contracts of KXF1H2H-MEX26PIAGAS-PIA still held. Check it on Kalshi.",
       "2026-11-02 11:03:08,856 ERROR STRAY POSITION: 5 NO contracts of KXLIGAPROMATCH-26NOV021015ALEKHA-ALE still held. Check it on Kalshi."
      ],
      "tail": [
-      "2026-11-02 19:57:55,904 INFO Swept 20561 events: 0 taker trades, 1 new quotes, 2 resting",
-      "2026-11-02 20:02:52,033 INFO Swept 20559 events: 0 taker trades, 0 new quotes, 2 resting",
-      "2026-11-02 20:07:53,226 INFO Swept 20560 events: 0 taker trades, 0 new quotes, 2 resting",
-      "2026-11-02 20:12:51,288 INFO Swept 20611 events: 0 taker trades, 0 new quotes, 2 resting",
-      "2026-11-02 20:17:53,032 INFO Swept 20627 events: 0 taker trades, 0 new quotes, 2 resting"
+      "2026-11-03 15:37:07,392 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH at $0.1500 x3 (0 already bid at that price)",
+      "2026-11-03 15:37:07,393 INFO Resting NO bid on KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH at $0.1500 x3 (KXITFWDOUBLES-26NOV03FOUKUHEISEIS): locks in $1.94 if it fills; hedge NO EISEIS@0.1900",
+      "2026-11-03 15:37:07,396 INFO Swept 19920 events: 0 taker trades, 1 new quotes, 2 resting",
+      "2026-11-03 15:42:09,162 INFO Swept 19891 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-03 15:42:09,369 INFO Quote KXITFWDOUBLES-26NOV03FOUKUHEISEIS cancelled (0/3 filled)"
      ],
      "live_warning": false
     }
@@ -655,8 +675,8 @@
  "tasks": [],
  "err_logs": [],
  "clock": {
-  "is_open": false,
-  "next_open": "2026-11-03T09:30:00-05:00",
+  "is_open": true,
+  "next_open": "2026-11-04T09:30:00-05:00",
   "next_close": "2026-11-03T16:00:00-05:00",
   "trading_day": true
  },
@@ -664,183 +684,183 @@
   "symbols": [
    {
     "symbol": "AAPL",
-    "day": "2026-11-02",
-    "close": 338.7,
-    "chg_1d_pct": -1.76,
-    "chg_1m_pct": 1.48,
+    "day": "2026-11-03",
+    "close": 332.065,
+    "chg_1d_pct": -1.96,
+    "chg_1m_pct": -0.31,
     "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 16.0
+    "above_50d": false,
+    "vol_20d_pct": 17.5
    },
    {
     "symbol": "EEM",
-    "day": "2026-11-02",
-    "close": 61.12,
-    "chg_1d_pct": 0.15,
-    "chg_1m_pct": -9.71,
+    "day": "2026-11-03",
+    "close": 61.07,
+    "chg_1d_pct": -0.08,
+    "chg_1m_pct": -11.16,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 20.4
+    "vol_20d_pct": 20.5
    },
    {
     "symbol": "EFA",
-    "day": "2026-11-02",
-    "close": 103.7,
-    "chg_1d_pct": 0.33,
-    "chg_1m_pct": -0.26,
+    "day": "2026-11-03",
+    "close": 103.045,
+    "chg_1d_pct": -0.63,
+    "chg_1m_pct": -0.98,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 9.8
+    "vol_20d_pct": 10.0
    },
    {
     "symbol": "GLD",
-    "day": "2026-11-02",
-    "close": 361.595,
-    "chg_1d_pct": 1.63,
-    "chg_1m_pct": -4.89,
+    "day": "2026-11-03",
+    "close": 359.3,
+    "chg_1d_pct": -0.63,
+    "chg_1m_pct": -5.33,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 22.2
+    "vol_20d_pct": 22.0
    },
    {
     "symbol": "IWM",
-    "day": "2026-11-02",
-    "close": 279.2,
-    "chg_1d_pct": -0.06,
-    "chg_1m_pct": -0.8,
+    "day": "2026-11-03",
+    "close": 279.615,
+    "chg_1d_pct": 0.15,
+    "chg_1m_pct": -1.33,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 16.0
+    "vol_20d_pct": 15.8
    },
    {
     "symbol": "MSFT",
-    "day": "2026-11-02",
-    "close": 507.0,
-    "chg_1d_pct": -2.87,
-    "chg_1m_pct": -1.99,
+    "day": "2026-11-03",
+    "close": 521.425,
+    "chg_1d_pct": 2.85,
+    "chg_1m_pct": -0.68,
     "above_200d": true,
-    "above_50d": false,
-    "vol_20d_pct": 21.7
+    "above_50d": true,
+    "vol_20d_pct": 24.0
    },
    {
     "symbol": "NVDA",
-    "day": "2026-11-02",
-    "close": 202.205,
-    "chg_1d_pct": -1.25,
-    "chg_1m_pct": -13.59,
-    "above_200d": false,
+    "day": "2026-11-03",
+    "close": 206.775,
+    "chg_1d_pct": 2.26,
+    "chg_1m_pct": -13.48,
+    "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 30.1
+    "vol_20d_pct": 31.9
    },
    {
     "symbol": "QQQ",
-    "day": "2026-11-02",
-    "close": 681.22,
-    "chg_1d_pct": -1.35,
-    "chg_1m_pct": -9.11,
+    "day": "2026-11-03",
+    "close": 685.645,
+    "chg_1d_pct": 0.65,
+    "chg_1m_pct": -9.32,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 22.4
+    "vol_20d_pct": 22.6
    },
    {
     "symbol": "SPY",
-    "day": "2026-11-02",
-    "close": 752.04,
-    "chg_1d_pct": -0.49,
-    "chg_1m_pct": -2.29,
+    "day": "2026-11-03",
+    "close": 754.445,
+    "chg_1d_pct": 0.32,
+    "chg_1m_pct": -2.65,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 11.3
+    "vol_20d_pct": 11.2
    },
    {
     "symbol": "TLT",
-    "day": "2026-11-02",
-    "close": 81.725,
-    "chg_1d_pct": 0.26,
-    "chg_1m_pct": 5.92,
+    "day": "2026-11-03",
+    "close": 81.12,
+    "chg_1d_pct": -0.74,
+    "chg_1m_pct": 5.64,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 10.2
+    "vol_20d_pct": 10.9
    },
    {
     "symbol": "XLE",
-    "day": "2026-11-02",
-    "close": 67.26,
-    "chg_1d_pct": -3.91,
-    "chg_1m_pct": 7.03,
+    "day": "2026-11-03",
+    "close": 66.715,
+    "chg_1d_pct": -0.81,
+    "chg_1m_pct": 5.16,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 26.5
+    "vol_20d_pct": 26.8
    },
    {
     "symbol": "XLF",
-    "day": "2026-11-02",
-    "close": 57.54,
-    "chg_1d_pct": 1.79,
-    "chg_1m_pct": 7.61,
+    "day": "2026-11-03",
+    "close": 57.16,
+    "chg_1d_pct": -0.66,
+    "chg_1m_pct": 6.11,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 13.7
+    "vol_20d_pct": 14.1
    },
    {
     "symbol": "XLI",
-    "day": "2026-11-02",
-    "close": 169.735,
-    "chg_1d_pct": 1.38,
-    "chg_1m_pct": -0.12,
+    "day": "2026-11-03",
+    "close": 171.29,
+    "chg_1d_pct": 0.92,
+    "chg_1m_pct": 0.71,
     "above_200d": false,
-    "above_50d": false,
-    "vol_20d_pct": 15.6
+    "above_50d": true,
+    "vol_20d_pct": 15.7
    },
    {
     "symbol": "XLK",
-    "day": "2026-11-02",
-    "close": 174.26,
-    "chg_1d_pct": -2.92,
-    "chg_1m_pct": -12.81,
+    "day": "2026-11-03",
+    "close": 176.57,
+    "chg_1d_pct": 1.33,
+    "chg_1m_pct": -12.14,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 30.6
+    "vol_20d_pct": 31.1
    },
    {
     "symbol": "XLP",
-    "day": "2026-11-02",
-    "close": 90.85,
-    "chg_1d_pct": 1.6,
-    "chg_1m_pct": 12.8,
+    "day": "2026-11-03",
+    "close": 88.915,
+    "chg_1d_pct": -2.13,
+    "chg_1m_pct": 9.74,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 19.9
+    "vol_20d_pct": 22.1
    },
    {
     "symbol": "XLU",
-    "day": "2026-11-02",
-    "close": 43.68,
-    "chg_1d_pct": 0.53,
-    "chg_1m_pct": 9.69,
+    "day": "2026-11-03",
+    "close": 43.395,
+    "chg_1d_pct": -0.65,
+    "chg_1m_pct": 8.58,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 17.3
+    "vol_20d_pct": 14.9
    },
    {
     "symbol": "XLV",
-    "day": "2026-11-02",
-    "close": 184.64,
-    "chg_1d_pct": -0.14,
-    "chg_1m_pct": 11.13,
+    "day": "2026-11-03",
+    "close": 183.965,
+    "chg_1d_pct": -0.37,
+    "chg_1m_pct": 9.89,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 18.5
+    "vol_20d_pct": 18.6
    },
    {
     "symbol": "XLY",
-    "day": "2026-11-02",
-    "close": 118.15,
-    "chg_1d_pct": 2.4,
-    "chg_1m_pct": 7.37,
+    "day": "2026-11-03",
+    "close": 117.29,
+    "chg_1d_pct": -0.73,
+    "chg_1m_pct": 6.24,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 16.5
+    "vol_20d_pct": 16.6
    },
    {
     "symbol": "BTC/USD",
@@ -866,158 +886,158 @@
   "news": [
    {
     "symbol": "SPY",
-    "time": "2026-11-02T23:07:18+00:00",
-    "headline": "'US to hold trilateral talks with Ukraine, Russia in Abu Dhabi next week-US official'- Reuters",
+    "time": "2026-11-03T20:35:44+00:00",
+    "headline": "'U.S. Senate Commerce Committee To Hold Nov. 10 Confirmation Hearing For Federal Communications Commissioner Nominee Thumann' - Reuters News",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-02T22:26:51+00:00",
-    "headline": "'US Said to Plan Fresh NATO Push for Ukraine Arms Deliveries'- Bloomberg",
+    "time": "2026-11-03T20:08:43+00:00",
+    "headline": "Growth And Cyclical Lead Sectors Tuesday",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-02T20:30:10+00:00",
-    "headline": "Bitcoin, Gold Have \u2018Blown Their Tops,\u2019 Bloomberg's McGlone Warns",
+    "time": "2026-11-03T19:14:56+00:00",
+    "headline": "S&P 500 Could Win No Matter Who Wins the Midterms: 5 ETFs to Watch Under JPMorgan's 4 Scenarios",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-02T20:27:24+00:00",
-    "headline": "U.S. VP JD Vance On Iran, Says We've Made Some Progress, Will See If Can Make Some More; Have Not Set Deadlines To Resume Strikes",
+    "time": "2026-11-03T18:56:48+00:00",
+    "headline": "Reuters Reported US Officials Have Held Up Approval For American Chipmaking Equipment Needed By SK Hynix To Expand Production In China",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-02T19:39:06+00:00",
-    "headline": "President Trump Says He Is No Rush To Decide Whether To Resume Fighting In Iran, Axios Exclusive",
+    "time": "2026-11-03T18:56:35+00:00",
+    "headline": "This Midterm Nightmare Scenario Puts S&P 500 Down 10% by Year-End, Evercore Warns",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-02T19:15:11+00:00",
-    "headline": "EXCLUSIVE: AI Bubble Risk Is Low, but SMH Faces a Bigger Threat Than QQQ, Expert Warns",
+    "time": "2026-11-03T20:08:43+00:00",
+    "headline": "Growth And Cyclical Lead Sectors Tuesday",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-02T17:32:47+00:00",
-    "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+    "time": "2026-11-03T19:14:56+00:00",
+    "headline": "S&P 500 Could Win No Matter Who Wins the Midterms: 5 ETFs to Watch Under JPMorgan's 4 Scenarios",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-02T16:33:39+00:00",
-    "headline": "Apple\u2014A Safe Haven From The AI Storm?",
+    "time": "2026-11-03T18:56:35+00:00",
+    "headline": "This Midterm Nightmare Scenario Puts S&P 500 Down 10% by Year-End, Evercore Warns",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-02T16:09:10+00:00",
-    "headline": "What If China\u2019s AI Crash Was A Feature, Not A Bug?",
+    "time": "2026-11-03T17:52:44+00:00",
+    "headline": "QUICK SPARK: Trump Celebrates Republican Victory in Guam \u2014 'Wow, Hopefully an Indication for Things to Come!'",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-02T16:00:25+00:00",
-    "headline": "Growth And Cyclical Sectors Lead Monday Trading",
+    "time": "2026-11-03T17:49:16+00:00",
+    "headline": "AMD Earnings To Test Whether PC Weakness Is Intel-Specific, Apple\u2019s AI Agent Problem",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-03T01:16:25+00:00",
-    "headline": "Apple, Palantir, Marvell Technology, Oracle and Aehr Test Systems: Why These 5 Stocks Are on Investors' Radars Today",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "AAPL",
-    "time": "2026-11-03T00:01:17+00:00",
-    "headline": "Apple Reports Record Fiscal Fourth-Quarter Results",
+    "time": "2026-11-03T19:01:21+00:00",
+    "headline": "Apple Releases First Betas of iOS 27.3 and macOS Golden Gate 27.3",
     "source": "fiscal.ai"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-02T23:06:55+00:00",
-    "headline": "Apple Q4 2026 Earnings Call Transcript",
+    "time": "2026-11-03T18:58:07+00:00",
+    "headline": "Apple Stock at \u2018Extreme Overvaluation\u2019: Analysts See Slowing Revenue Growth",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-02T22:46:19+00:00",
-    "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
+    "time": "2026-11-03T18:31:42+00:00",
+    "headline": "Apple Announces Redesigned Health App Expands Language Support",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-02T22:45:20+00:00",
-    "headline": "Apple CFO Says Co.'s Manufacturing Purchase Obligations Increased By $33B Between June And September Quarters",
+    "time": "2026-11-03T18:17:29+00:00",
+    "headline": "JP Morgan Maintains Overweight on Apple, Lowers Price Target to $355",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-11-03T17:49:16+00:00",
+    "headline": "AMD Earnings To Test Whether PC Weakness Is Intel-Specific, Apple\u2019s AI Agent Problem",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-02T23:04:01+00:00",
-    "headline": "'OpenAI hires former US Army secretary as military seeks to expand AI use'- Financial Times",
+    "time": "2026-11-03T20:56:18+00:00",
+    "headline": "'Xbox\u2019s Arkane Studios Attracts Multiple Bidders, Including Ubisoft' - Bloomberg Exclusive",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-02T22:46:19+00:00",
-    "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
+    "time": "2026-11-03T19:22:31+00:00",
+    "headline": "'Jill Hazelbaker Jumps To OpenAI As Chief Corporate Affairs Officer' - Axios",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-02T20:44:28+00:00",
-    "headline": "QUICK SPARK: CoreWeave Stock Hits New All-Time Low",
+    "time": "2026-11-03T20:11:09+00:00",
+    "headline": "Cisco Partners With OpenAI To Integrate Frontier AI Reasoning Into Networking And Security Infrastructure, Strengthening Enterprise Cybersecurity And Threat Detection",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-02T19:15:11+00:00",
-    "headline": "EXCLUSIVE: AI Bubble Risk Is Low, but SMH Faces a Bigger Threat Than QQQ, Expert Warns",
+    "time": "2026-11-03T18:00:13+00:00",
+    "headline": "SpaceX Could Be Biggest Loser From Successful Anthropic IPO, Finance Professor Warns",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-02T18:38:23+00:00",
-    "headline": "Anthropic Did in 5 Years What Took Nvidia 31\u2014And It Raises a $2 Trillion Question",
+    "time": "2026-11-03T17:58:36+00:00",
+    "headline": "'Hollywood backs NYT in AI copyright battle versus OpenAI, Microsoft' - Axios",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-03T00:01:32+00:00",
-    "headline": "NVIDIA Begins Shipping Vera Rubin Platform",
-    "source": "fiscal.ai"
-   },
-   {
-    "symbol": "NVDA",
-    "time": "2026-11-03T00:01:32+00:00",
-    "headline": "XMax Signs Five-Year AI Infrastructure Agreement Involving NVIDIA GPUs",
-    "source": "fiscal.ai"
-   },
-   {
-    "symbol": "NVDA",
-    "time": "2026-11-02T22:46:19+00:00",
-    "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
+    "time": "2026-11-03T20:08:43+00:00",
+    "headline": "Growth And Cyclical Lead Sectors Tuesday",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-02T21:31:29+00:00",
-    "headline": "NVIDIA Vera Rubin NVL72 Specification Discrepancies Highlighted",
-    "source": "fiscal.ai"
+    "time": "2026-11-03T19:43:30+00:00",
+    "headline": "Nvidia Stock Climbs Amid Oil Price Drop",
+    "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-02T20:01:24+00:00",
-    "headline": "Jensen Huang Addresses CoreWeave Financial Position",
-    "source": "fiscal.ai"
+    "time": "2026-11-03T18:00:13+00:00",
+    "headline": "SpaceX Could Be Biggest Loser From Successful Anthropic IPO, Finance Professor Warns",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-11-03T17:49:16+00:00",
+    "headline": "AMD Earnings To Test Whether PC Weakness Is Intel-Specific, Apple\u2019s AI Agent Problem",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-11-03T17:42:46+00:00",
+    "headline": "What's Going on with Microsoft Stock on Tuesday?",
+    "source": "benzinga"
    }
   ],
   "regime": {
    "spy_above_200d": true,
-   "spy_vol_20d_pct": 11.3,
+   "spy_vol_20d_pct": 11.2,
    "calm": true
   },
   "benchmarks": [
@@ -2495,6 +2515,11 @@
     "day": "2026-11-02",
     "symbol": "SPY",
     "close": 752.04
+   },
+   {
+    "day": "2026-11-03",
+    "symbol": "SPY",
+    "close": 754.445
    },
    {
     "day": "2025-08-31",
@@ -6788,17 +6813,19 @@
    }
   ]
  },
- "events": [
-  {
-   "date": "2026-11-02",
-   "what": "AAPL earnings",
-   "symbol": "AAPL",
-   "when": "time-after-hours"
-  }
- ],
+ "events": [],
  "replay": {
-  "day": "2026-11-02",
+  "day": "2026-11-03",
   "strategy": "orb",
-  "trades": []
+  "trades": [
+   {
+    "symbol": "AAPL",
+    "entry_time": "2026-11-03T14:50:00+00:00",
+    "entry": 333.8618,
+    "exit": 330.9738,
+    "pnl": -5.79,
+    "exit_reason": "end of test"
+   }
+  ]
  }
 }

@@ -1,7 +1,7 @@
 {
- "checked": "2026-11-03T01:28:52+00:00",
+ "checked": "2026-11-03T20:59:22+00:00",
  "status": {
-  "0": "info",
+  "0": "ok",
   "1": "info",
   "2": "info",
   "3": "info",
@@ -10,19 +10,10 @@
  },
  "findings": [
   {
-   "bot": 0,
-   "level": "info",
-   "check": "events",
-   "message": "Coming up: AAPL earnings Mon 11/02. Odd results around these days are normal.",
-   "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
    "bot": 1,
    "level": "ok",
    "check": "replay",
-   "message": "2026-11-02: bot 1 did what the backtest would have (0 entries).",
+   "message": "2026-11-03: bot 1 did what the backtest would have (1 entries).",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -31,7 +22,7 @@
    "bot": 1,
    "level": "info",
    "check": "return",
-   "message": "$4,984.43, -0.3% since the $5,000 start.",
+   "message": "$4,979.73, -0.4% since the $5,000 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -40,7 +31,7 @@
    "bot": 1,
    "level": "info",
    "check": "performance",
-   "message": "5 closed trades so far; 30 are needed before the results say anything about the strategy.",
+   "message": "6 closed trades so far; 30 are needed before the results say anything about the strategy.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -49,7 +40,7 @@
    "bot": 2,
    "level": "info",
    "check": "return",
-   "message": "$4,959.44, -0.8% since the $5,000 start.",
+   "message": "$4,908.26, -1.8% since the $5,000 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -58,7 +49,7 @@
    "bot": 2,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot -0.8% vs just holding SPY -1.0%.",
+   "message": "Since 2026-10-23: bot -1.8% vs just holding SPY -0.7%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -85,7 +76,7 @@
    "bot": 6,
    "level": "info",
    "check": "return",
-   "message": "Bot 4c: 1 settled, 2 open, $-0.99 settled profit.",
+   "message": "Bot 4c: 3 settled, 1 open, $+7.07 settled profit.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -112,17 +103,8 @@
    "bot": 7,
    "level": "act",
    "check": "drawdown",
-   "message": "Bot 4e is at $14.62 of its $20.00 start.",
+   "message": "Bot 4e is at $15.62 of its $20.00 start.",
    "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 7,
-   "level": "watch",
-   "check": "errors",
-   "message": "Bot 4e: 2 errors in the last day. Latest: 2026-11-02 11:03:08,856 ERROR STRAY POSITION: 5 NO contracts of KXLIGAPROMATCH-26NOV021015ALEKHA-ALE still held. Check it on Kalshi.",
-   "fix": "Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug.",
    "proposal": "",
    "risk": "Low"
   },
@@ -130,7 +112,7 @@
    "bot": 7,
    "level": "info",
    "check": "return",
-   "message": "Bot 4e: 64 settled, 3 open, $-5.38 settled profit.",
+   "message": "Bot 4e: 66 settled, 4 open, $-4.38 settled profit.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
