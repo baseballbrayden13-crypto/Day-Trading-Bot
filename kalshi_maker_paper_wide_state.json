@@ -1756,40 +1756,40 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAWBGAME-26NOV06LMUUSU",
-   "series": "KXNCAAWBGAME",
-   "title": "Loyola Marymount vs Utah St.",
-   "ticker": "KXNCAAWBGAME-26NOV06LMUUSU-USU",
-   "order_id": "paper-632-1793725674",
-   "price": "0.2100",
-   "sets": 3,
+   "event": "KXTRUTHSOCIALD-26NOV03",
+   "series": "KXTRUTHSOCIALD",
+   "title": "Trump Truth Social posts on Nov 3, 2026?",
+   "ticker": "KXTRUTHSOCIALD-26NOV03-B34",
+   "order_id": "paper-634-1793727191",
+   "price": "0.8200",
+   "sets": 5,
    "done": 0,
-   "reserve": "2.4400",
+   "reserve": "4.5000",
    "multiplier": "1",
-   "placed": 1793725674.5134606,
+   "placed": 1793727191.2833285,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV06LMUUSU-LMU",
-     "limit": "0.5800"
+     "ticker": "KXTRUTHSOCIALD-26NOV03-T40",
+     "limit": "0.0700"
     }
    ]
   },
   {
-   "event": "KXCONMEBOLSUD-26",
-   "series": "KXCONMEBOLSUD",
-   "title": "CONMEBOL Sudamericana Champion",
-   "ticker": "KXCONMEBOLSUD-26-ATL",
-   "order_id": "paper-633-1793726584",
-   "price": "0.43",
-   "sets": 5,
+   "event": "KXWEUROLEAGUEGAME-26NOV031200EMLLUB",
+   "series": "KXWEUROLEAGUEGAME",
+   "title": "Emlak Konut vs AZS UMCS Lublin",
+   "ticker": "KXWEUROLEAGUEGAME-26NOV031200EMLLUB-LUB",
+   "order_id": "paper-636-1793728404",
+   "price": "0.2600",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.8700",
+   "reserve": "1.8900",
    "multiplier": "1",
-   "placed": 1793726584.964551,
+   "placed": 1793728404.970494,
    "hedge": [
     {
-     "ticker": "KXCONMEBOLSUD-26-BOC",
-     "limit": "0.5200"
+     "ticker": "KXWEUROLEAGUEGAME-26NOV031200EMLLUB-EML",
+     "limit": "0.6600"
     }
    ]
   }
