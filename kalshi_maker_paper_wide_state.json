@@ -1792,44 +1792,21 @@
  ],
  "quotes": [
   {
-   "event": "KXMLBGG-26NLTEAM",
-   "series": "KXMLBGG",
-   "title": "Gold Glove: NL Team",
-   "ticker": "KXMLBGG-26NLTEAM-CHC",
-   "order_id": "paper-654-1793743102",
-   "price": "0.0500",
-   "sets": 2,
+   "event": "KXTRUTHSOCIALD-26NOV03",
+   "series": "KXTRUTHSOCIALD",
+   "title": "Trump Truth Social posts on Nov 3, 2026?",
+   "ticker": "KXTRUTHSOCIALD-26NOV03-B27",
+   "order_id": "paper-656-1793745227",
+   "price": "0.2300",
+   "sets": 7,
    "done": 0,
-   "reserve": "3.2600",
+   "reserve": "2.7500",
    "multiplier": "1",
-   "placed": 1793743102.0998487,
+   "placed": 1793745227.9830184,
    "hedge": [
     {
-     "ticker": "KXMLBGG-26NLTEAM-MIL",
-     "limit": "0.9500"
-    },
-    {
-     "ticker": "KXMLBGG-26NLTEAM-ATL",
-     "limit": "0.6000"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAFCFPPOLL-26NOV03R1",
-   "series": "KXNCAAFCFPPOLL",
-   "title": "Nov 3 CFP Rankings: #1 Ranked Team",
-   "ticker": "KXNCAAFCFPPOLL-26NOV03R1-UGA",
-   "order_id": "paper-655-1793744011",
-   "price": "0.0500",
-   "sets": 3,
-   "done": 0,
-   "reserve": "1.0800",
-   "multiplier": "1",
-   "placed": 1793744011.2751625,
-   "hedge": [
-    {
-     "ticker": "KXNCAAFCFPPOLL-26NOV03R1-MIA",
-     "limit": "0.2900"
+     "ticker": "KXTRUTHSOCIALD-26NOV03-T40",
+     "limit": "0.6400"
     }
    ]
   }

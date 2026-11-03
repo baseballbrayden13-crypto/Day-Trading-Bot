@@ -4179,3 +4179,10 @@
 2026-11-03 17:13:31,275 INFO Resting NO bid on KXNCAAFCFPPOLL-26NOV03R1-UGA at $0.0500 x3 (KXNCAAFCFPPOLL-26NOV03R1): locks in $1.92 if it fills; hedge NO MIA@0.2900
 2026-11-03 17:13:31,279 INFO Swept 19742 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-03 17:18:35,833 INFO Swept 19761 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 17:23:40,513 INFO Swept 19768 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 17:28:47,013 INFO Swept 19769 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 17:33:47,982 INFO PAPER rest NO bid KXTRUTHSOCIALD-26NOV03-B27 at $0.2300 x7 (0 already bid at that price)
+2026-11-03 17:33:47,983 INFO Resting NO bid on KXTRUTHSOCIALD-26NOV03-B27 at $0.2300 x7 (KXTRUTHSOCIALD-26NOV03): locks in $4.25 if it fills; hedge NO T40@0.6400
+2026-11-03 17:33:47,987 INFO Swept 19768 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 17:38:48,436 INFO Swept 19787 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 17:43:49,229 INFO Swept 19818 events: 0 taker trades, 0 new quotes, 2 resting

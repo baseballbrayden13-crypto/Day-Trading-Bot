@@ -9148,12 +9148,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793743102.0928729,
-  "checked": 1793744315.8342686,
+  "checked": 1793744902,
   "expires": 1793744902,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-655-1793744011": {
   "id": "paper-655-1793744011",
@@ -9162,8 +9162,22 @@
   "count": 3,
   "ahead": 0,
   "placed": 1793744011.2680511,
-  "checked": 1793744315.9627736,
+  "checked": 1793745811,
   "expires": 1793745811,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-656-1793745227": {
+  "id": "paper-656-1793745227",
+  "ticker": "KXTRUTHSOCIALD-26NOV03-B27",
+  "price": "0.2300",
+  "count": 7,
+  "ahead": 0,
+  "placed": 1793745227.9762619,
+  "checked": 1793746004.053902,
+  "expires": 1793747027,
   "through": 0,
   "at_price": 0,
   "filled": 0,
