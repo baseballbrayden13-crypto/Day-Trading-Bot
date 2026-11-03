@@ -40,3 +40,6 @@
 2026-11-03 09:30:05,094 INFO New day 2026-11-03, starting equity $4984.43
 2026-11-03 09:50:06,903 INFO BUY AAPL x2 @~333.78 stop 325.60 target 346.06 | broke 15-min opening range high 332.67
 2026-11-03 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.
+2026-11-03 12:44:53,057 INFO Connected to Alpaca PAPER account
+2026-11-03 12:44:53,467 INFO Picked up today's counters: start equity $4984.43, 1 trades
+2026-11-03 12:44:53,467 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.
