@@ -4186,3 +4186,14 @@
 2026-11-03 17:33:47,987 INFO Swept 19768 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-03 17:38:48,436 INFO Swept 19787 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-03 17:43:49,229 INFO Swept 19818 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 17:48:50,581 INFO PAPER rest NO bid KXDOGE-26NOV0417-B0.087 at $0.1600 x1 (0 already bid at that price)
+2026-11-03 17:48:50,581 INFO Resting NO bid on KXDOGE-26NOV0417-B0.087 at $0.1600 x1 (KXDOGE-26NOV0417): locks in $0.40 if it fills; hedge NO B0.072@0.7900, B0.077@0.6000
+2026-11-03 17:48:50,584 INFO Swept 19822 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 17:53:50,004 INFO Swept 19805 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 17:58:55,955 INFO Swept 19816 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 18:03:55,493 INFO Swept 19823 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 18:08:57,220 INFO PAPER rest NO bid KXCONMEBOLSUD-26-ATL at $0.4000 x3 (17 already bid at that price)
+2026-11-03 18:08:57,220 INFO Resting NO bid on KXCONMEBOLSUD-26-ATL at $0.40 x3 (KXCONMEBOLSUD-26): locks in $0.10 if it fills; hedge NO BOC@0.5400
+2026-11-03 18:08:57,224 INFO Swept 19856 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 18:14:13,018 INFO Swept 19874 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 18:14:55,449 INFO Quote KXCONMEBOLSUD-26 cancelled (0/3 filled)

@@ -1792,21 +1792,25 @@
  ],
  "quotes": [
   {
-   "event": "KXTRUTHSOCIALD-26NOV03",
-   "series": "KXTRUTHSOCIALD",
-   "title": "Trump Truth Social posts on Nov 3, 2026?",
-   "ticker": "KXTRUTHSOCIALD-26NOV03-B27",
-   "order_id": "paper-656-1793745227",
-   "price": "0.2300",
-   "sets": 7,
+   "event": "KXDOGE-26NOV0417",
+   "series": "KXDOGE",
+   "title": "Dogecoin price range on Nov 4, 2026 at 5pm EST?",
+   "ticker": "KXDOGE-26NOV0417-B0.087",
+   "order_id": "paper-657-1793746130",
+   "price": "0.1600",
+   "sets": 1,
    "done": 0,
-   "reserve": "2.7500",
+   "reserve": "1.6000",
    "multiplier": "1",
-   "placed": 1793745227.9830184,
+   "placed": 1793746130.5812514,
    "hedge": [
     {
-     "ticker": "KXTRUTHSOCIALD-26NOV03-T40",
-     "limit": "0.6400"
+     "ticker": "KXDOGE-26NOV0417-B0.072",
+     "limit": "0.9600"
+    },
+    {
+     "ticker": "KXDOGE-26NOV0417-B0.077",
+     "limit": "0.6000"
     }
    ]
   }

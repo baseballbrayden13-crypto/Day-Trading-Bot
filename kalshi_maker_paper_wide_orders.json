@@ -9176,11 +9176,39 @@
   "count": 7,
   "ahead": 0,
   "placed": 1793745227.9762619,
-  "checked": 1793746004.053902,
+  "checked": 1793747027,
   "expires": 1793747027,
   "through": 0,
   "at_price": 0,
   "filled": 0,
+  "status": "canceled"
+ },
+ "paper-657-1793746130": {
+  "id": "paper-657-1793746130",
+  "ticker": "KXDOGE-26NOV0417-B0.087",
+  "price": "0.1600",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793746130.5739877,
+  "checked": 1793747813.3907082,
+  "expires": 1793747930,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
   "status": "resting"
+ },
+ "paper-658-1793747337": {
+  "id": "paper-658-1793747337",
+  "ticker": "KXCONMEBOLSUD-26-ATL",
+  "price": "0.4000",
+  "count": 3,
+  "ahead": 17,
+  "placed": 1793747337.212835,
+  "checked": 1793747695.3749225,
+  "expires": 1793749137,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
