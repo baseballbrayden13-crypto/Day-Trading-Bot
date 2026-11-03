@@ -1700,5 +1700,52 @@
    "closed": "2026-11-02T21:55:24.703790+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNFLNEXTTEAM-26JDOWNS2",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Josh Downs Next Team",
+   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-WAS",
+   "order_id": "paper-583-1793667166",
+   "price": "0.1600",
+   "sets": 1,
+   "done": 0,
+   "reserve": "2.6000",
+   "multiplier": "1",
+   "placed": 1793667166.2155302,
+   "hedge": [
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
+     "limit": "0.7800"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
+     "limit": "0.6300"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
+     "limit": "0.9700"
+    }
+   ]
+  },
+  {
+   "event": "KXMLBNLRELOTY-26",
+   "series": "KXMLBNLRELOTY",
+   "title": "NL Reliever of the Year Winner",
+   "ticker": "KXMLBNLRELOTY-26-TMEG",
+   "order_id": "paper-584-1793667475",
+   "price": "0.8000",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.5200",
+   "multiplier": "1",
+   "placed": 1793667475.9021358,
+   "hedge": [
+    {
+     "ticker": "KXMLBNLRELOTY-26-MMIL",
+     "limit": "0.0800"
+    }
+   ]
+  }
+ ]
 }
