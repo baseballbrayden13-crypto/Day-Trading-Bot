@@ -1700,25 +1700,5 @@
    "closed": "2026-11-02T21:55:24.703790+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXMLBNLRELOTY-26",
-   "series": "KXMLBNLRELOTY",
-   "title": "NL Reliever of the Year Winner",
-   "ticker": "KXMLBNLRELOTY-26-TMEG",
-   "order_id": "paper-589-1793675619",
-   "price": "0.8100",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.5800",
-   "multiplier": "1",
-   "placed": 1793675619.9892166,
-   "hedge": [
-    {
-     "ticker": "KXMLBNLRELOTY-26-MMIL",
-     "limit": "0.1000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
