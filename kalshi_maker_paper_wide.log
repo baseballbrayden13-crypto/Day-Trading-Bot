@@ -3802,3 +3802,17 @@
 2026-11-03 00:19:20,554 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV03KAWOHWSAWYOD-KAWOHW at $0.4300 x4 (0 already bid at that price)
 2026-11-03 00:19:20,555 INFO Resting NO bid on KXITFWDOUBLES-26NOV03KAWOHWSAWYOD-KAWOHW at $0.4300 x4 (KXITFWDOUBLES-26NOV03KAWOHWSAWYOD): locks in $1.45 if it fills; hedge NO SAWYOD@0.1900
 2026-11-03 00:19:20,557 INFO Swept 19701 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 00:24:24,760 INFO Swept 19703 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 00:24:24,922 INFO Quote KXITFWDOUBLES-26NOV03KAWOHWSAWYOD cancelled (0/4 filled)
+2026-11-03 00:29:26,032 INFO Swept 19694 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 00:34:24,376 INFO Swept 19664 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 00:35:30,205 INFO PAPER KXTESTMATCH-26NOV012300KERGUJ-KER NO bid at $0.8800: 2/2 filled by real trades
+2026-11-03 00:35:30,236 INFO PAPER buy 2 NO KXTESTMATCH-26NOV012300KERGUJ-GUJ at up to $0.5500: not on the book
+2026-11-03 00:35:30,236 WARNING Quote KXTESTMATCH-26NOV012300KERGUJ: hedge missed on KXTESTMATCH-26NOV012300KERGUJ-GUJ. Selling back 2 contracts on 1 legs.
+2026-11-03 00:35:30,263 INFO PAPER sell 2 YES KXTESTMATCH-26NOV012300KERGUJ-KER at up to $0.17: filled 2
+2026-11-03 00:39:27,744 INFO Swept 19655 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 00:44:29,522 INFO PAPER rest NO bid KXNBA2H-26NOV02TORLAC-TIE at $0.8100 x5 (0 already bid at that price)
+2026-11-03 00:44:29,522 INFO Resting NO bid on KXNBA2H-26NOV02TORLAC-TIE at $0.8100 x5 (KXNBA2H-26NOV02TORLAC): locks in $0.18 if it fills; hedge NO TOR@0.1500
+2026-11-03 00:44:29,525 INFO Swept 19667 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 00:45:15,290 INFO Quote KXNBA2H-26NOV02TORLAC cancelled (0/5 filled)
+2026-11-03 00:49:31,355 INFO Swept 19663 events: 0 taker trades, 0 new quotes, 0 resting
