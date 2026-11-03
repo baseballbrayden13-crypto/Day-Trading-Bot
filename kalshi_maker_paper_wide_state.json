@@ -1702,48 +1702,25 @@
  ],
  "quotes": [
   {
-   "event": "KXNFLNEXTTEAM-26JDOWNS2",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Josh Downs Next Team",
-   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-WAS",
-   "order_id": "paper-583-1793667166",
-   "price": "0.1600",
+   "event": "KXTOPSONG-26NOV14",
+   "series": "KXTOPSONG",
+   "title": "#1 on the Billboard Hot 100 chart for the Week of Nov 14, 2026?",
+   "ticker": "KXTOPSONG-26NOV14-SOM",
+   "order_id": "paper-586-1793670492",
+   "price": "0.4400",
    "sets": 1,
    "done": 0,
-   "reserve": "2.6000",
+   "reserve": "1.8000",
    "multiplier": "1",
-   "placed": 1793667166.2155302,
+   "placed": 1793670492.7366672,
    "hedge": [
     {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
-     "limit": "0.7800"
+     "ticker": "KXTOPSONG-26NOV14-CHO",
+     "limit": "0.3400"
     },
     {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
-     "limit": "0.6300"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-NE",
-     "limit": "0.9700"
-    }
-   ]
-  },
-  {
-   "event": "KXMLBNLRELOTY-26",
-   "series": "KXMLBNLRELOTY",
-   "title": "NL Reliever of the Year Winner",
-   "ticker": "KXMLBNLRELOTY-26-TMEG",
-   "order_id": "paper-584-1793667475",
-   "price": "0.8000",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.5200",
-   "multiplier": "1",
-   "placed": 1793667475.9021358,
-   "hedge": [
-    {
-     "ticker": "KXMLBNLRELOTY-26-MMIL",
-     "limit": "0.0800"
+     "ticker": "KXTOPSONG-26NOV14-DRA",
+     "limit": "0.9800"
     }
    ]
   }

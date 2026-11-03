@@ -3725,3 +3725,14 @@
 2026-11-02 20:07:53,226 INFO Swept 20560 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-02 20:12:51,288 INFO Swept 20611 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-02 20:17:53,032 INFO Swept 20627 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 20:23:01,009 INFO Swept 20607 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 20:28:06,376 INFO Swept 20622 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 20:33:07,480 INFO Swept 20603 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 20:38:07,277 INFO Swept 20583 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 20:43:10,035 INFO PAPER rest NO bid KXNBARACE-26NOV02BOSHOU-10-HOU at $0.3700 x5 (0 already bid at that price)
+2026-11-02 20:43:10,035 INFO Resting NO bid on KXNBARACE-26NOV02BOSHOU-10-HOU at $0.3700 x5 (KXNBARACE-26NOV02BOSHOU-10): locks in $0.28 if it fills; hedge NO BOS@0.5500
+2026-11-02 20:43:10,038 INFO Swept 20583 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 20:48:12,736 INFO PAPER rest NO bid KXTOPSONG-26NOV14-SOM at $0.4400 x1 (0 already bid at that price)
+2026-11-02 20:48:12,736 INFO Resting NO bid on KXTOPSONG-26NOV14-SOM at $0.4400 x1 (KXTOPSONG-26NOV14): locks in $0.20 if it fills; hedge NO CHO@0.3400, DRA@0.9800
+2026-11-02 20:48:12,739 INFO Swept 20564 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-02 20:48:12,870 INFO Quote KXNBARACE-26NOV02BOSHOU-10 cancelled (0/5 filled)
