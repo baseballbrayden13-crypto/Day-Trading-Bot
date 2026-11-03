@@ -1792,25 +1792,21 @@
  ],
  "quotes": [
   {
-   "event": "KXDOGE-26NOV0417",
-   "series": "KXDOGE",
-   "title": "Dogecoin price range on Nov 4, 2026 at 5pm EST?",
-   "ticker": "KXDOGE-26NOV0417-B0.087",
-   "order_id": "paper-657-1793746130",
-   "price": "0.1600",
-   "sets": 1,
+   "event": "KXNCAAFCFPPOLL-26NOV03R1",
+   "series": "KXNCAAFCFPPOLL",
+   "title": "Nov 3 CFP Rankings: #1 Ranked Team",
+   "ticker": "KXNCAAFCFPPOLL-26NOV03R1-UGA",
+   "order_id": "paper-660-1793749146",
+   "price": "0.0800",
+   "sets": 11,
    "done": 0,
-   "reserve": "1.6000",
+   "reserve": "4.2500",
    "multiplier": "1",
-   "placed": 1793746130.5812514,
+   "placed": 1793749146.9604082,
    "hedge": [
     {
-     "ticker": "KXDOGE-26NOV0417-B0.072",
-     "limit": "0.9600"
-    },
-    {
-     "ticker": "KXDOGE-26NOV0417-B0.077",
-     "limit": "0.6000"
+     "ticker": "KXNCAAFCFPPOLL-26NOV03R1-MIA",
+     "limit": "0.2900"
     }
    ]
   }
