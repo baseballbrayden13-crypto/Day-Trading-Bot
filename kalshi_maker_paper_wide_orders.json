@@ -8294,11 +8294,11 @@
   "count": 5,
   "ahead": 0,
   "placed": 1793679545.9919257,
-  "checked": 1793679668.13718,
+  "checked": 1793681345,
   "expires": 1793681345,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  }
 }
