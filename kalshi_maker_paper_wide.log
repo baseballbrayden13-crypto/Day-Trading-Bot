@@ -3697,3 +3697,14 @@
 2026-11-02 18:41:22,189 INFO Swept 20256 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 18:46:21,958 INFO Swept 20262 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-02 18:51:27,271 INFO Swept 20259 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 18:56:27,156 INFO PAPER rest NO bid KXETH-26NOV0219-B2247 at $0.3300 x5 (0 already bid at that price)
+2026-11-02 18:56:27,156 INFO Resting NO bid on KXETH-26NOV0219-B2247 at $0.3300 x5 (KXETH-26NOV0219): locks in $0.39 if it fills; hedge NO B2252@0.5700
+2026-11-02 18:56:27,160 INFO Swept 20257 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 18:57:03,358 INFO Quote KXETH-26NOV0219 cancelled (0/5 filled)
+2026-11-02 19:01:24,138 INFO Swept 20264 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 19:06:28,186 INFO Swept 20261 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 19:11:31,974 INFO PAPER rest NO bid KXNFLNEXTTEAM-26JDOWNS2-WAS at $0.1600 x1 (0 already bid at that price)
+2026-11-02 19:11:31,974 INFO Resting NO bid on KXNFLNEXTTEAM-26JDOWNS2-WAS at $0.1600 x1 (KXNFLNEXTTEAM-26JDOWNS2): locks in $0.39 if it fills; hedge NO IND@0.7700, KC@0.6500, NE@0.9700
+2026-11-02 19:11:31,978 INFO Swept 20312 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 19:16:34,538 INFO Swept 20333 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 19:21:37,757 INFO Swept 20338 events: 0 taker trades, 0 new quotes, 1 resting
