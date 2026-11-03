@@ -3980,3 +3980,11 @@
 2026-11-03 09:11:51,177 INFO Swept 19481 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 09:16:53,759 INFO Swept 19482 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 09:21:55,811 INFO Swept 19467 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 09:27:01,931 INFO Swept 19444 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 09:32:02,900 INFO Swept 19442 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 09:36:58,754 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV05GRAMMCNS-GRAM at $0.1600 x8 (0 already bid at that price)
+2026-11-03 09:36:58,754 INFO Resting NO bid on KXNCAAWBGAME-26NOV05GRAMMCNS-GRAM at $0.1600 x8 (KXNCAAWBGAME-26NOV05GRAMMCNS): locks in $3.01 if it fills; hedge NO MCNS@0.4700
+2026-11-03 09:36:58,758 INFO Swept 19431 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 09:41:58,110 INFO Swept 19424 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 09:47:02,733 INFO Swept 19420 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 09:52:06,138 INFO Swept 19422 events: 0 taker trades, 0 new quotes, 1 resting
