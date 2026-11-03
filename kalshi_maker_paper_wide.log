@@ -3766,3 +3766,20 @@
 2026-11-02 22:38:53,432 INFO Swept 20157 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 22:43:51,212 INFO Swept 20137 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 22:48:54,303 INFO Swept 20107 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 22:53:53,426 INFO Swept 20088 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 22:58:57,231 INFO PAPER rest NO bid KXEBASKETBALLGAME-26NOV022259ZACHJASO-ZACH at $0.2800 x5 (150 already bid at that price)
+2026-11-02 22:58:57,231 INFO Resting NO bid on KXEBASKETBALLGAME-26NOV022259ZACHJASO-ZACH at $0.28 x5 (KXEBASKETBALLGAME-26NOV022259ZACHJASO): locks in $0.10 if it fills; hedge NO JASO@0.6800
+2026-11-02 22:58:57,234 INFO Swept 20062 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 22:59:02,454 INFO Quote KXEBASKETBALLGAME-26NOV022259ZACHJASO cancelled (0/5 filled)
+2026-11-02 23:04:03,662 INFO Swept 20033 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 23:09:08,939 INFO PAPER rest NO bid KXLNBPGAME-26NOV022130SOLPAN-PAN at $0.2000 x5 (10 already bid at that price)
+2026-11-02 23:09:08,939 INFO Resting NO bid on KXLNBPGAME-26NOV022130SOLPAN-PAN at $0.20 x5 (KXLNBPGAME-26NOV022130SOLPAN): locks in $0.11 if it fills; hedge NO SOL@0.7600
+2026-11-02 23:09:08,942 INFO Swept 20005 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 23:11:01,342 INFO Quote KXLNBPGAME-26NOV022130SOLPAN cancelled (0/5 filled)
+2026-11-02 23:14:05,836 INFO PAPER rest NO bid KXNFL2H-26NOV02CHISEA-SEA at $0.8500 x5 (0 already bid at that price)
+2026-11-02 23:14:05,836 INFO Resting NO bid on KXNFL2H-26NOV02CHISEA-SEA at $0.8500 x5 (KXNFL2H-26NOV02CHISEA): locks in $0.25 if it fills; hedge NO CHI@0.0900
+2026-11-02 23:14:05,839 INFO Swept 19962 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 23:14:56,858 INFO Quote KXNFL2H-26NOV02CHISEA cancelled (0/5 filled)
+2026-11-02 23:19:05,996 INFO PAPER rest NO bid KXNFLMOSTRECYDS-26NOV02CHISEA-CHIRODUNZE15 at $0.5300 x5 (0 already bid at that price)
+2026-11-02 23:19:05,996 INFO Resting NO bid on KXNFLMOSTRECYDS-26NOV02CHISEA-CHIRODUNZE15 at $0.5300 x5 (KXNFLMOSTRECYDS-26NOV02CHISEA): locks in $0.23 if it fills; hedge NO SEAJSMITHNJIGBA11@0.4000
+2026-11-02 23:19:05,999 INFO Swept 19956 events: 0 taker trades, 1 new quotes, 1 resting

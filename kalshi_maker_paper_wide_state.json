@@ -1700,5 +1700,25 @@
    "closed": "2026-11-02T21:55:24.703790+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNFLMOSTRECYDS-26NOV02CHISEA",
+   "series": "KXNFLMOSTRECYDS",
+   "title": "Chicago vs Seattle: Most Receiving Yards",
+   "ticker": "KXNFLMOSTRECYDS-26NOV02CHISEA-CHIRODUNZE15",
+   "order_id": "paper-593-1793679545",
+   "price": "0.5300",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.7700",
+   "multiplier": "1",
+   "placed": 1793679545.996516,
+   "hedge": [
+    {
+     "ticker": "KXNFLMOSTRECYDS-26NOV02CHISEA-SEAJSMITHNJIGBA11",
+     "limit": "0.4000"
+    }
+   ]
+  }
+ ]
 }
