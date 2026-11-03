@@ -1,5 +1,5 @@
 {
- "realized": "-5.5100",
+ "realized": "-5.4000",
  "open": [
   {
    "event": "KXKBOGAME-26NOV040430SAMKTW (stray)",
@@ -62,30 +62,6 @@
      "side": "yes",
      "count": 5,
      "limit": "0.0200"
-    }
-   ]
-  },
-  {
-   "event": "KXCS2MAP-26NOV0223309ZTYLOO-2",
-   "series": "KXCS2MAP",
-   "title": "9z vs. TYLOO: Map 2 Winner",
-   "sets": 4,
-   "outlay": "3.8900",
-   "locked_profit": "0.1100",
-   "opened": "2026-11-03T06:14:48.001027+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXCS2MAP-26NOV0223309ZTYLOO-2-9Z",
-     "side": "no",
-     "count": 4,
-     "limit": "0.28"
-    },
-    {
-     "ticker": "KXCS2MAP-26NOV0223309ZTYLOO-2-TYLOO",
-     "side": "no",
-     "count": 4,
-     "limit": "0.6700"
     }
    ]
   }
@@ -1722,6 +1698,33 @@
    "paid": "5",
    "pnl": "0.1300",
    "closed": "2026-11-02T21:55:24.703790+00:00"
+  },
+  {
+   "event": "KXCS2MAP-26NOV0223309ZTYLOO-2",
+   "series": "KXCS2MAP",
+   "title": "9z vs. TYLOO: Map 2 Winner",
+   "sets": 4,
+   "outlay": "3.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-11-03T06:14:48.001027+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCS2MAP-26NOV0223309ZTYLOO-2-9Z",
+     "side": "no",
+     "count": 4,
+     "limit": "0.28"
+    },
+    {
+     "ticker": "KXCS2MAP-26NOV0223309ZTYLOO-2-TYLOO",
+     "side": "no",
+     "count": 4,
+     "limit": "0.6700"
+    }
+   ],
+   "paid": "4",
+   "pnl": "0.1100",
+   "closed": "2026-11-03T06:34:37.136290+00:00"
   }
  ],
  "quotes": []
