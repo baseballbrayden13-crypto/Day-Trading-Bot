@@ -3988,3 +3988,16 @@
 2026-11-03 09:41:58,110 INFO Swept 19424 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 09:47:02,733 INFO Swept 19420 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 09:52:06,138 INFO Swept 19422 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 09:57:06,718 INFO Swept 19418 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 10:02:08,061 INFO Swept 19448 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 10:07:09,977 INFO PAPER rest NO bid KXNFLGAME-26NOV15SEALV-LV at $0.4100 x3 (0 already bid at that price)
+2026-11-03 10:07:09,977 INFO Resting NO bid on KXNFLGAME-26NOV15SEALV-LV at $0.4100 x3 (KXNFLGAME-26NOV15SEALV): locks in $0.13 if it fills; hedge NO SEA@0.5200
+2026-11-03 10:07:09,982 INFO Swept 19452 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 10:12:15,567 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV05GRAMMCNS-GRAM at $0.2000 x7 (0 already bid at that price)
+2026-11-03 10:12:15,567 INFO Resting NO bid on KXNCAAWBGAME-26NOV05GRAMMCNS-GRAM at $0.2000 x7 (KXNCAAWBGAME-26NOV05GRAMMCNS): locks in $2.38 if it fills; hedge NO MCNS@0.4700
+2026-11-03 10:12:15,572 INFO Swept 19447 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 10:17:19,031 INFO Swept 19454 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 10:19:09,714 INFO Quote KXNFLGAME-26NOV15SEALV cancelled (0/3 filled)
+2026-11-03 10:22:18,614 INFO PAPER rest NO bid KXCOPADELREYADVANCE-26NOV03PAMEIB-PAM at $0.6200 x2 (0 already bid at that price)
+2026-11-03 10:22:18,614 INFO Resting NO bid on KXCOPADELREYADVANCE-26NOV03PAMEIB-PAM at $0.6200 x2 (KXCOPADELREYADVANCE-26NOV03PAMEIB): locks in $0.14 if it fills; hedge NO EIB@0.2900
+2026-11-03 10:22:18,618 INFO Swept 19466 events: 0 taker trades, 1 new quotes, 2 resting
