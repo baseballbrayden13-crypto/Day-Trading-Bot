@@ -8560,11 +8560,39 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793707062.2984827,
-  "checked": 1793707098.4044054,
+  "checked": 1793708862,
   "expires": 1793708862,
   "through": 0,
   "at_price": 0,
   "filled": 0,
+  "status": "canceled"
+ },
+ "paper-613-1793707362": {
+  "id": "paper-613-1793707362",
+  "ticker": "KXNCAAWBGAME-26NOV06CLMBURI-CLMB",
+  "price": "0.2700",
+  "count": 3,
+  "ahead": 0,
+  "placed": 1793707362.9018366,
+  "checked": 1793708902.5341594,
+  "expires": 1793709162,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
   "status": "resting"
+ },
+ "paper-614-1793707969": {
+  "id": "paper-614-1793707969",
+  "ticker": "KXEBASKETBALLGAME-26NOV030659DIRKBRYC-DIRK",
+  "price": "0.4600",
+  "count": 3,
+  "ahead": 0,
+  "placed": 1793707969.160991,
+  "checked": 1793708104.7373247,
+  "expires": 1793709769,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

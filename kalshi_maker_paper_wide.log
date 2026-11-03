@@ -3934,3 +3934,14 @@
 2026-11-03 06:57:42,306 INFO Resting NO bid on KXLOWTCHI-26NOV03-B61.5 at $0.5300 x1 (KXLOWTCHI-26NOV03): locks in $0.17 if it fills; hedge NO B57.5@0.9800, B59.5@0.2800
 2026-11-03 06:57:42,310 INFO Swept 19476 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-03 06:57:42,510 INFO Quote KXINXVSGOLD-26DEC31 cancelled (0/5 filled)
+2026-11-03 07:02:42,909 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06CLMBURI-CLMB at $0.2700 x3 (0 already bid at that price)
+2026-11-03 07:02:42,909 INFO Resting NO bid on KXNCAAWBGAME-26NOV06CLMBURI-CLMB at $0.2700 x3 (KXNCAAWBGAME-26NOV06CLMBURI): locks in $0.11 if it fills; hedge NO URI@0.6700
+2026-11-03 07:02:42,914 INFO Swept 19462 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 07:07:44,071 INFO Swept 19465 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 07:12:49,168 INFO PAPER rest NO bid KXEBASKETBALLGAME-26NOV030659DIRKBRYC-DIRK at $0.4600 x3 (0 already bid at that price)
+2026-11-03 07:12:49,168 INFO Resting NO bid on KXEBASKETBALLGAME-26NOV030659DIRKBRYC-DIRK at $0.46 x3 (KXEBASKETBALLGAME-26NOV030659DIRKBRYC): locks in $0.10 if it fills; hedge NO BRYC@0.4800
+2026-11-03 07:12:49,172 INFO Swept 19474 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-03 07:15:04,814 INFO Quote KXEBASKETBALLGAME-26NOV030659DIRKBRYC cancelled (0/3 filled)
+2026-11-03 07:17:52,125 INFO Swept 19474 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 07:22:56,444 INFO Swept 19473 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 07:28:01,979 INFO Swept 19464 events: 0 taker trades, 0 new quotes, 2 resting
