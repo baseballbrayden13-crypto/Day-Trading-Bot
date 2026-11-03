@@ -3917,3 +3917,20 @@
 2026-11-03 06:17:38,582 INFO Swept 19509 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 06:22:39,144 INFO Swept 19510 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 06:27:34,928 INFO Swept 19507 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 06:32:35,606 INFO PAPER rest NO bid KXSAUDIPLGAME-26NOV06FATRIY-RIY at $0.7700 x2 (23 already bid at that price)
+2026-11-03 06:32:35,606 INFO Resting NO bid on KXSAUDIPLGAME-26NOV06FATRIY-RIY at $0.77 x2 (KXSAUDIPLGAME-26NOV06FATRIY): locks in $0.11 if it fills; hedge NO FAT@0.6000, TIE@0.5300
+2026-11-03 06:32:35,610 INFO Swept 19501 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 06:37:37,382 INFO Swept 19504 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 06:37:42,709 INFO Quote KXSAUDIPLGAME-26NOV06FATRIY cancelled (0/2 filled)
+2026-11-03 06:42:38,726 INFO PAPER rest NO bid KXITFWMATCH-26NOV03GRASEN-SEN at $0.4000 x5 (0 already bid at that price)
+2026-11-03 06:42:38,727 INFO Resting NO bid on KXITFWMATCH-26NOV03GRASEN-SEN at $0.4000 x5 (KXITFWMATCH-26NOV03GRASEN): locks in $0.33 if it fills; hedge NO GRA@0.5100
+2026-11-03 06:42:38,731 INFO Swept 19498 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 06:42:49,178 INFO Quote KXITFWMATCH-26NOV03GRASEN cancelled (0/5 filled)
+2026-11-03 06:47:41,701 INFO Swept 19492 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 06:52:43,103 INFO PAPER rest NO bid KXINXVSGOLD-26DEC31-INXTR at $0.0400 x5 (78 already bid at that price)
+2026-11-03 06:52:43,103 INFO Resting NO bid on KXINXVSGOLD-26DEC31-INXTR at $0.04 x5 (KXINXVSGOLD-26DEC31): locks in $0.12 if it fills; hedge NO GOLD@0.9300
+2026-11-03 06:52:43,107 INFO Swept 19486 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 06:57:42,305 INFO PAPER rest NO bid KXLOWTCHI-26NOV03-B61.5 at $0.5300 x1 (0 already bid at that price)
+2026-11-03 06:57:42,306 INFO Resting NO bid on KXLOWTCHI-26NOV03-B61.5 at $0.5300 x1 (KXLOWTCHI-26NOV03): locks in $0.17 if it fills; hedge NO B57.5@0.9800, B59.5@0.2800
+2026-11-03 06:57:42,310 INFO Swept 19476 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 06:57:42,510 INFO Quote KXINXVSGOLD-26DEC31 cancelled (0/5 filled)

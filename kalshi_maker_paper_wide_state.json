@@ -1754,5 +1754,29 @@
    "closed": "2026-11-03T08:20:28.092399+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLOWTCHI-26NOV03",
+   "series": "KXLOWTCHI",
+   "title": "Lowest temperature in Chicago on Nov 3, 2026?",
+   "ticker": "KXLOWTCHI-26NOV03-B61.5",
+   "order_id": "paper-612-1793707062",
+   "price": "0.5300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.8300",
+   "multiplier": "1",
+   "placed": 1793707062.3060737,
+   "hedge": [
+    {
+     "ticker": "KXLOWTCHI-26NOV03-B57.5",
+     "limit": "0.9900"
+    },
+    {
+     "ticker": "KXLOWTCHI-26NOV03-B59.5",
+     "limit": "0.2800"
+    }
+   ]
+  }
+ ]
 }
