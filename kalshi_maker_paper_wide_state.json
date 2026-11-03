@@ -1,5 +1,5 @@
 {
- "realized": "-5.4000",
+ "realized": "-4.1000",
  "open": [
   {
    "event": "KXKBOGAME-26NOV040430SAMKTW (stray)",
@@ -62,30 +62,6 @@
      "side": "yes",
      "count": 5,
      "limit": "0.0200"
-    }
-   ]
-  },
-  {
-   "event": "KXEBASKETBALLGAME-26NOV030248DAVICONO",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: Los Angeles Lakers (Davis) vs New York Knicks (Conor)",
-   "sets": 6,
-   "outlay": "4.7000",
-   "locked_profit": "1.3000",
-   "opened": "2026-11-03T07:56:05.757236+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXEBASKETBALLGAME-26NOV030248DAVICONO-DAVI",
-     "side": "no",
-     "count": 6,
-     "limit": "0.2700"
-    },
-    {
-     "ticker": "KXEBASKETBALLGAME-26NOV030248DAVICONO-CONO",
-     "side": "no",
-     "count": 6,
-     "limit": "0.4900"
     }
    ]
   }
@@ -1749,6 +1725,33 @@
    "paid": "4",
    "pnl": "0.1100",
    "closed": "2026-11-03T06:34:37.136290+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26NOV030248DAVICONO",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Los Angeles Lakers (Davis) vs New York Knicks (Conor)",
+   "sets": 6,
+   "outlay": "4.7000",
+   "locked_profit": "1.3000",
+   "opened": "2026-11-03T07:56:05.757236+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26NOV030248DAVICONO-DAVI",
+     "side": "no",
+     "count": 6,
+     "limit": "0.2700"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26NOV030248DAVICONO-CONO",
+     "side": "no",
+     "count": 6,
+     "limit": "0.4900"
+    }
+   ],
+   "paid": "6",
+   "pnl": "1.3000",
+   "closed": "2026-11-03T08:20:28.092399+00:00"
   }
  ],
  "quotes": []

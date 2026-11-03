@@ -3860,3 +3860,13 @@
 2026-11-03 02:56:05,685 INFO PAPER KXEBASKETBALLGAME-26NOV030248DAVICONO-DAVI NO bid at $0.2700: 6/6 filled by real trades
 2026-11-03 02:56:05,757 INFO PAPER buy 6 NO KXEBASKETBALLGAME-26NOV030248DAVICONO-CONO at up to $0.4900: filled 6
 2026-11-03 02:56:05,757 INFO Quote KXEBASKETBALLGAME-26NOV030248DAVICONO filled 6: hedged, locks in $1.30
+2026-11-03 03:00:43,136 INFO Swept 19528 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 03:05:42,559 INFO Swept 19522 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 03:10:48,432 INFO PAPER rest NO bid KXAFCCL1H-26NOV03NUJSHP-TIE at $0.7000 x1 (0 already bid at that price)
+2026-11-03 03:10:48,432 INFO Resting NO bid on KXAFCCL1H-26NOV03NUJSHP-TIE at $0.7000 x1 (KXAFCCL1H-26NOV03NUJSHP): locks in $0.10 if it fills; hedge NO NUJ@0.9600, SHP@0.2000
+2026-11-03 03:10:48,436 INFO Swept 19525 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 03:10:53,785 INFO Quote KXAFCCL1H-26NOV03NUJSHP cancelled (0/1 filled)
+2026-11-03 03:15:48,829 INFO Swept 19527 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 03:20:28,092 INFO Settled KXEBASKETBALLGAME-26NOV030248DAVICONO: paid $6, profit $1.30
+2026-11-03 03:20:51,247 INFO Swept 19533 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 03:25:50,105 INFO Swept 19537 events: 0 taker trades, 0 new quotes, 0 resting
