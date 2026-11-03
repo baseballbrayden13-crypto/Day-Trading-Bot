@@ -3837,3 +3837,15 @@
 2026-11-03 01:34:48,774 INFO Resting NO bid on KXMLBNLRELOTY-26-TMEG at $0.87 x5 (KXMLBNLRELOTY-26): locks in $0.10 if it fills; hedge NO MMIL@0.1000
 2026-11-03 01:34:48,777 INFO Swept 19599 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-03 01:35:54,873 INFO Stopped; all quotes cancelled.
+2026-11-03 01:57:40,744 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-03 01:59:52,404 INFO Swept 19580 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 02:04:56,805 INFO Swept 19538 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 02:10:00,427 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV03GASMIKVORVOR-GASMIK at $0.4400 x1 (51 already bid at that price)
+2026-11-03 02:10:00,427 INFO Resting NO bid on KXITFWDOUBLES-26NOV03GASMIKVORVOR-GASMIK at $0.4400 x1 (KXITFWDOUBLES-26NOV03GASMIKVORVOR): locks in $0.43 if it fills; hedge NO VORVOR@0.1100
+2026-11-03 02:10:00,432 INFO Swept 19547 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 02:10:36,660 INFO Quote KXITFWDOUBLES-26NOV03GASMIKVORVOR cancelled (0/1 filled)
+2026-11-03 02:15:05,686 INFO Swept 19546 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 02:20:09,978 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV03GASMIKVORVOR-VORVOR at $0.0800 x5 (5 already bid at that price)
+2026-11-03 02:20:09,978 INFO Resting NO bid on KXITFWDOUBLES-26NOV03GASMIKVORVOR-VORVOR at $0.08 x5 (KXITFWDOUBLES-26NOV03GASMIKVORVOR): locks in $0.10 if it fills; hedge NO GASMIK@0.8900
+2026-11-03 02:20:09,982 INFO Swept 19552 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 02:25:13,366 INFO Swept 19549 events: 0 taker trades, 0 new quotes, 1 resting

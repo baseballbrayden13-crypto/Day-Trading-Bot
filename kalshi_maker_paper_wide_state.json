@@ -1727,5 +1727,25 @@
    "closed": "2026-11-03T06:34:37.136290+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXITFWDOUBLES-26NOV03GASMIKVORVOR",
+   "series": "KXITFWDOUBLES",
+   "title": "Gasparini / Mikhailova vs Voronkova / Voronkova",
+   "ticker": "KXITFWDOUBLES-26NOV03GASMIKVORVOR-VORVOR",
+   "order_id": "paper-602-1793690409",
+   "price": "0.08",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.9000",
+   "multiplier": "1",
+   "placed": 1793690409.9787605,
+   "hedge": [
+    {
+     "ticker": "KXITFWDOUBLES-26NOV03GASMIKVORVOR-GASMIK",
+     "limit": "0.8900"
+    }
+   ]
+  }
+ ]
 }
