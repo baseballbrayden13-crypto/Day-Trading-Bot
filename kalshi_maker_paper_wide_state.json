@@ -1700,5 +1700,48 @@
    "closed": "2026-11-02T21:55:24.703790+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXTESTMATCH-26NOV012300KERGUJ",
+   "series": "KXTESTMATCH",
+   "title": "Gujarat vs Kerala",
+   "ticker": "KXTESTMATCH-26NOV012300KERGUJ-KER",
+   "order_id": "paper-595-1793682859",
+   "price": "0.88",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.8900",
+   "multiplier": "1",
+   "placed": 1793682859.365555,
+   "hedge": [
+    {
+     "ticker": "KXTESTMATCH-26NOV012300KERGUJ-GUJ",
+     "limit": "0.5500"
+    },
+    {
+     "ticker": "KXTESTMATCH-26NOV012300KERGUJ-TIE",
+     "limit": "0.4700"
+    }
+   ]
+  },
+  {
+   "event": "KXITFWDOUBLES-26NOV03KAWOHWSAWYOD",
+   "series": "KXITFWDOUBLES",
+   "title": "Kawagishi / Ohwaki vs Sawashiro / Yodpetch",
+   "ticker": "KXITFWDOUBLES-26NOV03KAWOHWSAWYOD-KAWOHW",
+   "order_id": "paper-596-1793683160",
+   "price": "0.4300",
+   "sets": 4,
+   "done": 0,
+   "reserve": "2.5500",
+   "multiplier": "1",
+   "placed": 1793683160.5549939,
+   "hedge": [
+    {
+     "ticker": "KXITFWDOUBLES-26NOV03KAWOHWSAWYOD-SAWYOD",
+     "limit": "0.2000"
+    }
+   ]
+  }
+ ]
 }

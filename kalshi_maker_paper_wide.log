@@ -3789,3 +3789,16 @@
 2026-11-02 23:39:16,512 INFO Swept 19879 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 23:44:21,449 INFO Swept 19848 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-02 23:49:21,784 INFO Swept 19843 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 23:54:27,123 INFO Swept 19824 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 23:59:18,155 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV03KAWOHWSAWYOD-KAWOHW at $0.5300 x5 (0 already bid at that price)
+2026-11-02 23:59:18,155 INFO Resting NO bid on KXITFWDOUBLES-26NOV03KAWOHWSAWYOD-KAWOHW at $0.5300 x5 (KXITFWDOUBLES-26NOV03KAWOHWSAWYOD): locks in $1.22 if it fills; hedge NO SAWYOD@0.2100
+2026-11-02 23:59:18,158 INFO Swept 19822 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 00:02:01,453 INFO Quote KXITFWDOUBLES-26NOV03KAWOHWSAWYOD cancelled (0/5 filled)
+2026-11-03 00:04:23,846 INFO Swept 19674 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 00:09:24,684 INFO Swept 19717 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 00:14:19,365 INFO PAPER rest NO bid KXTESTMATCH-26NOV012300KERGUJ-KER at $0.8800 x2 (3 already bid at that price)
+2026-11-03 00:14:19,365 INFO Resting NO bid on KXTESTMATCH-26NOV012300KERGUJ-KER at $0.88 x2 (KXTESTMATCH-26NOV012300KERGUJ): locks in $0.11 if it fills; hedge NO GUJ@0.5500, TIE@0.4700
+2026-11-03 00:14:19,368 INFO Swept 19721 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 00:19:20,554 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV03KAWOHWSAWYOD-KAWOHW at $0.4300 x4 (0 already bid at that price)
+2026-11-03 00:19:20,555 INFO Resting NO bid on KXITFWDOUBLES-26NOV03KAWOHWSAWYOD-KAWOHW at $0.4300 x4 (KXITFWDOUBLES-26NOV03KAWOHWSAWYOD): locks in $1.45 if it fills; hedge NO SAWYOD@0.1900
+2026-11-03 00:19:20,557 INFO Swept 19701 events: 0 taker trades, 1 new quotes, 2 resting
