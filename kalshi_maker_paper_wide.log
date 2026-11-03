@@ -3902,3 +3902,12 @@
 2026-11-03 05:17:01,675 INFO Swept 19541 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 05:22:02,090 INFO Swept 19545 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 05:27:05,257 INFO Swept 19551 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 05:32:09,422 INFO Swept 19543 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 05:37:14,768 INFO PAPER rest NO bid KXITFDOUBLES-26NOV03BURSENVANWYG-VANWYG at $0.3400 x5 (0 already bid at that price)
+2026-11-03 05:37:14,768 INFO Resting NO bid on KXITFDOUBLES-26NOV03BURSENVANWYG-VANWYG at $0.3400 x5 (KXITFDOUBLES-26NOV03BURSENVANWYG): locks in $0.29 if it fills; hedge NO BURSEN@0.5800
+2026-11-03 05:37:14,772 INFO Swept 19534 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 05:42:19,710 INFO Swept 19533 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 05:47:22,776 INFO Swept 19534 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 05:47:22,990 INFO Quote KXITFDOUBLES-26NOV03BURSENVANWYG cancelled (0/5 filled)
+2026-11-03 05:52:28,511 INFO Swept 19531 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 05:57:26,615 INFO Swept 19515 events: 0 taker trades, 0 new quotes, 0 resting
