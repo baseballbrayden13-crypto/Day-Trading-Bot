@@ -4025,3 +4025,21 @@
 2026-11-03 11:12:40,782 INFO Swept 19465 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 11:17:42,909 INFO Swept 19468 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 11:22:45,476 INFO Swept 19459 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 11:27:47,008 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06LMUUSU-USU at $0.2000 x4 (0 already bid at that price)
+2026-11-03 11:27:47,008 INFO Resting NO bid on KXNCAAWBGAME-26NOV06LMUUSU-USU at $0.2000 x4 (KXNCAAWBGAME-26NOV06LMUUSU): locks in $0.79 if it fills; hedge NO LMU@0.5800
+2026-11-03 11:27:47,012 INFO Swept 19459 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 11:32:47,581 INFO Swept 19451 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 11:37:48,386 INFO PAPER rest NO bid KXEBASKETBALLGAME-26NOV031116WALTMILE-WALT at $0.5600 x4 (19 already bid at that price)
+2026-11-03 11:37:48,386 INFO Resting NO bid on KXEBASKETBALLGAME-26NOV031116WALTMILE-WALT at $0.56 x4 (KXEBASKETBALLGAME-26NOV031116WALTMILE): locks in $0.11 if it fills; hedge NO MILE@0.3900
+2026-11-03 11:37:48,390 INFO Swept 19444 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 11:39:07,439 INFO Quote KXEBASKETBALLGAME-26NOV031116WALTMILE cancelled (0/4 filled)
+2026-11-03 11:42:51,315 INFO PAPER rest NO bid KXCS2MAP-26NOV020630ESBNOI-1-NOI at $0.6300 x1 (0 already bid at that price)
+2026-11-03 11:42:51,315 INFO Resting NO bid on KXCS2MAP-26NOV020630ESBNOI-1-NOI at $0.6300 x1 (KXCS2MAP-26NOV020630ESBNOI-1): locks in $0.34 if it fills; hedge NO ESB@0.0100
+2026-11-03 11:42:51,319 INFO Swept 19443 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 11:45:34,903 INFO Quote KXNCAAWBGAME-26NOV06LMUUSU cancelled (0/4 filled)
+2026-11-03 11:47:52,291 INFO PAPER rest NO bid KXTESTMATCH-26NOV012300KERGUJ-GUJ at $0.2800 x5 (0 already bid at that price)
+2026-11-03 11:47:52,291 INFO Resting NO bid on KXTESTMATCH-26NOV012300KERGUJ-GUJ at $0.28 x5 (KXTESTMATCH-26NOV012300KERGUJ): locks in $0.10 if it fills; hedge NO TIE@0.6800
+2026-11-03 11:47:52,296 INFO Swept 19457 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 11:52:52,746 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06LMUUSU-USU at $0.2100 x2 (0 already bid at that price)
+2026-11-03 11:52:52,746 INFO Resting NO bid on KXNCAAWBGAME-26NOV06LMUUSU-USU at $0.2100 x2 (KXNCAAWBGAME-26NOV06LMUUSU): locks in $0.37 if it fills; hedge NO LMU@0.5800
+2026-11-03 11:52:52,751 INFO Swept 19465 events: 0 taker trades, 1 new quotes, 3 resting

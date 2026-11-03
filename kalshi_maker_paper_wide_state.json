@@ -1756,29 +1756,59 @@
  ],
  "quotes": [
   {
-   "event": "KXMLBSS-26NL1B",
-   "series": "KXMLBSS",
-   "title": "Silver Slugger: NL First Baseman",
-   "ticker": "KXMLBSS-26NL1B-TIE",
-   "order_id": "paper-625-1793721755",
-   "price": "0.2700",
+   "event": "KXCS2MAP-26NOV020630ESBNOI-1",
+   "series": "KXCS2MAP",
+   "title": "eSuba vs. Noir Verse: Map 1 Winner",
+   "ticker": "KXCS2MAP-26NOV020630ESBNOI-1-NOI",
+   "order_id": "paper-629-1793724171",
+   "price": "0.6300",
    "sets": 1,
    "done": 0,
-   "reserve": "2.5900",
+   "reserve": "0.6600",
    "multiplier": "1",
-   "placed": 1793721755.9225566,
+   "placed": 1793724171.3153758,
    "hedge": [
     {
-     "ticker": "KXMLBSS-26NL1B-MOLSON28",
-     "limit": "0.5400"
-    },
+     "ticker": "KXCS2MAP-26NOV020630ESBNOI-1-ESB",
+     "limit": "0.0100"
+    }
+   ]
+  },
+  {
+   "event": "KXTESTMATCH-26NOV012300KERGUJ",
+   "series": "KXTESTMATCH",
+   "title": "Gujarat vs Kerala",
+   "ticker": "KXTESTMATCH-26NOV012300KERGUJ-GUJ",
+   "order_id": "paper-630-1793724472",
+   "price": "0.28",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.9000",
+   "multiplier": "1",
+   "placed": 1793724472.2916517,
+   "hedge": [
     {
-     "ticker": "KXMLBSS-26NL1B-LGARCA2",
-     "limit": "0.9300"
-    },
+     "ticker": "KXTESTMATCH-26NOV012300KERGUJ-TIE",
+     "limit": "0.6800"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAWBGAME-26NOV06LMUUSU",
+   "series": "KXNCAAWBGAME",
+   "title": "Loyola Marymount vs Utah St.",
+   "ticker": "KXNCAAWBGAME-26NOV06LMUUSU-USU",
+   "order_id": "paper-631-1793724772",
+   "price": "0.2100",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6300",
+   "multiplier": "1",
+   "placed": 1793724772.7465749,
+   "hedge": [
     {
-     "ticker": "KXMLBSS-26NL1B-ABURLESON41",
-     "limit": "0.9700"
+     "ticker": "KXNCAAWBGAME-26NOV06LMUUSU-LMU",
+     "limit": "0.5800"
     }
    ]
   }

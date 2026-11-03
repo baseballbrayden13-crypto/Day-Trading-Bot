@@ -8742,12 +8742,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793721755.9149404,
-  "checked": 1793723073.4159303,
+  "checked": 1793723555,
   "expires": 1793723555,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-626-1793722056": {
   "id": "paper-626-1793722056",
@@ -8762,5 +8762,75 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-627-1793723267": {
+  "id": "paper-627-1793723267",
+  "ticker": "KXNCAAWBGAME-26NOV06LMUUSU-USU",
+  "price": "0.2000",
+  "count": 4,
+  "ahead": 0,
+  "placed": 1793723267.0006914,
+  "checked": 1793724334.8242435,
+  "expires": 1793725066,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-628-1793723868": {
+  "id": "paper-628-1793723868",
+  "ticker": "KXEBASKETBALLGAME-26NOV031116WALTMILE-WALT",
+  "price": "0.5600",
+  "count": 4,
+  "ahead": 19,
+  "placed": 1793723868.379006,
+  "checked": 1793723947.3680956,
+  "expires": 1793725668,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-629-1793724171": {
+  "id": "paper-629-1793724171",
+  "ticker": "KXCS2MAP-26NOV020630ESBNOI-1-NOI",
+  "price": "0.6300",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793724171.3080792,
+  "checked": 1793724875.5455184,
+  "expires": 1793725971,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-630-1793724472": {
+  "id": "paper-630-1793724472",
+  "ticker": "KXTESTMATCH-26NOV012300KERGUJ-GUJ",
+  "price": "0.2800",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793724472.2837336,
+  "checked": 1793724875.681772,
+  "expires": 1793726272,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-631-1793724772": {
+  "id": "paper-631-1793724772",
+  "ticker": "KXNCAAWBGAME-26NOV06LMUUSU-USU",
+  "price": "0.2100",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793724772.73611,
+  "checked": 1793724875.8186474,
+  "expires": 1793726572,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
