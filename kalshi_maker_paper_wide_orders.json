@@ -8126,11 +8126,25 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793664691.9684303,
-  "checked": 1793665333.740164,
+  "checked": 1793666211.1666448,
   "expires": 1793666491,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-582-1793665600": {
+  "id": "paper-582-1793665600",
+  "ticker": "KXMLBNLRELOTY-26-TMEG",
+  "price": "0.8000",
+  "count": 4,
+  "ahead": 0,
+  "placed": 1793665600.6103668,
+  "checked": 1793666211.2368777,
+  "expires": 1793667400,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
