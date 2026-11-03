@@ -3816,3 +3816,17 @@
 2026-11-03 00:44:29,525 INFO Swept 19667 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-03 00:45:15,290 INFO Quote KXNBA2H-26NOV02TORLAC cancelled (0/5 filled)
 2026-11-03 00:49:31,355 INFO Swept 19663 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 00:54:34,261 INFO Swept 19658 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 00:59:36,493 INFO PAPER rest NO bid KXMLBNLRELOTY-26-TMEG at $0.8700 x4 (619 already bid at that price)
+2026-11-03 00:59:36,493 INFO Resting NO bid on KXMLBNLRELOTY-26-TMEG at $0.87 x4 (KXMLBNLRELOTY-26): locks in $0.12 if it fills; hedge NO MMIL@0.0900
+2026-11-03 00:59:36,496 INFO Swept 19655 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 01:04:37,205 INFO Swept 19609 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 01:09:38,164 INFO Swept 19612 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 01:12:16,041 INFO Quote KXMLBNLRELOTY-26 cancelled (0/4 filled)
+2026-11-03 01:14:37,714 INFO PAPER rest NO bid KXCS2MAP-26NOV0223309ZTYLOO-2-9Z at $0.2800 x4 (0 already bid at that price)
+2026-11-03 01:14:37,714 INFO Resting NO bid on KXCS2MAP-26NOV0223309ZTYLOO-2-9Z at $0.28 x4 (KXCS2MAP-26NOV0223309ZTYLOO-2): locks in $0.11 if it fills; hedge NO TYLOO@0.6700
+2026-11-03 01:14:37,717 INFO Swept 19607 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 01:14:47,951 INFO PAPER KXCS2MAP-26NOV0223309ZTYLOO-2-9Z NO bid at $0.2800: 4/4 filled by real trades
+2026-11-03 01:14:48,000 INFO PAPER buy 4 NO KXCS2MAP-26NOV0223309ZTYLOO-2-TYLOO at up to $0.6700: filled 4
+2026-11-03 01:14:48,001 INFO Quote KXCS2MAP-26NOV0223309ZTYLOO-2 filled 4: hedged, locks in $0.11
+2026-11-03 01:19:41,601 INFO Swept 19604 events: 0 taker trades, 0 new quotes, 0 resting
