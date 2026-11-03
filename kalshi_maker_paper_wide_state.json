@@ -1,5 +1,5 @@
 {
- "realized": "-4.1000",
+ "realized": "-4.3800",
  "open": [
   {
    "event": "KXKBOGAME-26NOV040430SAMKTW (stray)",
@@ -1754,5 +1754,33 @@
    "closed": "2026-11-03T08:20:28.092399+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXMLBSS-26NL1B",
+   "series": "KXMLBSS",
+   "title": "Silver Slugger: NL First Baseman",
+   "ticker": "KXMLBSS-26NL1B-TIE",
+   "order_id": "paper-625-1793721755",
+   "price": "0.2700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "2.5900",
+   "multiplier": "1",
+   "placed": 1793721755.9225566,
+   "hedge": [
+    {
+     "ticker": "KXMLBSS-26NL1B-MOLSON28",
+     "limit": "0.5400"
+    },
+    {
+     "ticker": "KXMLBSS-26NL1B-LGARCA2",
+     "limit": "0.9300"
+    },
+    {
+     "ticker": "KXMLBSS-26NL1B-ABURLESON41",
+     "limit": "0.9700"
+    }
+   ]
+  }
+ ]
 }

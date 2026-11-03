@@ -1,23 +1,25 @@
 {
- "updated": "2026-11-03T15:50:31+00:00",
+ "updated": "2026-11-03T16:20:48+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "15.90",
- "realized_profit": "-4.10",
- "bet_level": "15.90",
+ "equity": "15.62",
+ "realized_profit": "-4.38",
+ "bet_level": "15.62",
  "open_trades": 3,
  "open_locked_profit": "2.38",
  "in_play": "7.94",
  "stray_positions": 1,
  "closed_trades": 48,
  "trades_this_loop": 0,
- "events_swept": 19464,
+ "events_swept": 19459,
  "found_this_loop": 1,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 0,
- "last_problems": []
+ "problems": 1,
+ "last_problems": [
+  "2026-11-03 16:02 Quote KXMLBBGAME-26NOV031000CHEMTST: hedge missed on KXMLBBGAME-26NOV031000CHEMTST-TST. Selling back 5 contracts on 1 legs."
+ ]
 }

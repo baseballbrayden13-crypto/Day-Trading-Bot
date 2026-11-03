@@ -4008,3 +4008,20 @@
 2026-11-03 10:47:27,715 INFO Swept 19470 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 10:49:41,387 INFO Quote KXCOPADELREYADVANCE-26NOV03PAMEIB cancelled (0/2 filled)
 2026-11-03 10:52:29,717 INFO Swept 19464 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 10:57:33,964 INFO PAPER rest NO bid KXMLBBGAME-26NOV031000CHEMTST-CHEM at $0.0900 x5 (1 already bid at that price)
+2026-11-03 10:57:33,964 INFO Resting NO bid on KXMLBBGAME-26NOV031000CHEMTST-CHEM at $0.09 x5 (KXMLBBGAME-26NOV031000CHEMTST): locks in $0.10 if it fills; hedge NO TST@0.8800
+2026-11-03 10:57:33,968 INFO Swept 19470 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 11:02:35,922 INFO PAPER rest NO bid KXMLBSS-26NL1B-TIE at $0.2700 x1 (0 already bid at that price)
+2026-11-03 11:02:35,922 INFO Resting NO bid on KXMLBSS-26NL1B-TIE at $0.2700 x1 (KXMLBSS-26NL1B): locks in $0.41 if it fills; hedge NO MOLSON28@0.5000, LGARCA2@0.7900, ABURLESON41@0.9700
+2026-11-03 11:02:35,926 INFO Swept 19461 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 11:02:46,483 INFO PAPER KXMLBBGAME-26NOV031000CHEMTST-CHEM NO bid at $0.0900: 5/5 filled by real trades
+2026-11-03 11:02:46,547 INFO PAPER buy 5 NO KXMLBBGAME-26NOV031000CHEMTST-TST at up to $0.8800: not on the book
+2026-11-03 11:02:46,547 WARNING Quote KXMLBBGAME-26NOV031000CHEMTST: hedge missed on KXMLBBGAME-26NOV031000CHEMTST-TST. Selling back 5 contracts on 1 legs.
+2026-11-03 11:02:46,604 INFO PAPER sell 5 YES KXMLBBGAME-26NOV031000CHEMTST-CHEM at up to $0.96: filled 5
+2026-11-03 11:07:36,777 INFO PAPER rest NO bid KXEBASKETBALLGAME-26NOV031048SHAQICEK-ICEK at $0.5200 x5 (0 already bid at that price)
+2026-11-03 11:07:36,777 INFO Resting NO bid on KXEBASKETBALLGAME-26NOV031048SHAQICEK-ICEK at $0.5200 x5 (KXEBASKETBALLGAME-26NOV031048SHAQICEK): locks in $0.33 if it fills; hedge NO SHAQ@0.3900
+2026-11-03 11:07:36,781 INFO Swept 19463 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 11:09:22,107 INFO Quote KXEBASKETBALLGAME-26NOV031048SHAQICEK cancelled (0/5 filled)
+2026-11-03 11:12:40,782 INFO Swept 19465 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 11:17:42,909 INFO Swept 19468 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 11:22:45,476 INFO Swept 19459 events: 0 taker trades, 0 new quotes, 1 resting
