@@ -4121,3 +4121,17 @@
 2026-11-03 14:31:31,281 INFO Swept 19852 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-03 14:36:35,784 INFO Swept 19845 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-03 14:41:39,699 INFO Swept 19835 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 14:46:45,446 INFO Swept 19836 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 14:51:49,449 INFO Swept 19833 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 14:56:52,320 INFO PAPER rest NO bid KXSAUDIPLGAME-26NOV06ITJNEO-ITJ at $0.4200 x2 (0 already bid at that price)
+2026-11-03 14:56:52,320 INFO Resting NO bid on KXSAUDIPLGAME-26NOV06ITJNEO-ITJ at $0.4200 x2 (KXSAUDIPLGAME-26NOV06ITJNEO): locks in $0.13 if it fills; hedge NO NEO@0.9000, TIE@0.5800
+2026-11-03 14:56:52,324 INFO Swept 19819 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 15:01:53,645 INFO PAPER rest NO bid KXTRUTHSOCIALD-26NOV03-B12 at $0.2700 x2 (0 already bid at that price)
+2026-11-03 15:01:53,645 INFO Resting NO bid on KXTRUTHSOCIALD-26NOV03-B12 at $0.2700 x2 (KXTRUTHSOCIALD-26NOV03): locks in $1.30 if it fills; hedge NO T40@0.0700
+2026-11-03 15:01:53,832 INFO PAPER BET daily_safest: 1 NO KXRAIN-26NOV03-BOS at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-03 15:01:53,834 INFO Swept 19806 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 15:03:13,070 INFO Quote KXSAUDIPLGAME-26NOV06ITJNEO cancelled (0/2 filled)
+2026-11-03 15:06:57,813 INFO PAPER rest NO bid KXSAUDIPLGAME-26NOV06ITJNEO-ITJ at $0.3800 x2 (0 already bid at that price)
+2026-11-03 15:06:57,813 INFO Resting NO bid on KXSAUDIPLGAME-26NOV06ITJNEO-ITJ at $0.3800 x2 (KXSAUDIPLGAME-26NOV06ITJNEO): locks in $0.16 if it fills; hedge NO NEO@0.9300, TIE@0.5800
+2026-11-03 15:06:57,829 INFO Swept 19804 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 15:11:58,781 INFO Swept 19961 events: 0 taker trades, 0 new quotes, 2 resting

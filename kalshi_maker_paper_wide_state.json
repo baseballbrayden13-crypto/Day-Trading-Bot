@@ -1792,40 +1792,44 @@
  ],
  "quotes": [
   {
-   "event": "KXITFWDOUBLES-26NOV03FOUKUHEISEIS",
-   "series": "KXITFWDOUBLES",
-   "title": "Fouad / Kuhl vs Eisch / Eisch",
-   "ticker": "KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH",
-   "order_id": "paper-644-1793733386",
-   "price": "0.1300",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.5100",
-   "multiplier": "1",
-   "placed": 1793733386.5985947,
-   "hedge": [
-    {
-     "ticker": "KXITFWDOUBLES-26NOV03FOUKUHEISEIS-EISEIS",
-     "limit": "0.3500"
-    }
-   ]
-  },
-  {
    "event": "KXTRUTHSOCIALD-26NOV03",
    "series": "KXTRUTHSOCIALD",
    "title": "Trump Truth Social posts on Nov 3, 2026?",
    "ticker": "KXTRUTHSOCIALD-26NOV03-B12",
-   "order_id": "paper-646-1793733687",
+   "order_id": "paper-648-1793736113",
    "price": "0.2700",
-   "sets": 7,
+   "sets": 2,
    "done": 0,
-   "reserve": "3.0300",
+   "reserve": "0.7000",
    "multiplier": "1",
-   "placed": 1793733687.2589781,
+   "placed": 1793736113.645902,
    "hedge": [
     {
      "ticker": "KXTRUTHSOCIALD-26NOV03-T40",
-     "limit": "0.6400"
+     "limit": "0.0700"
+    }
+   ]
+  },
+  {
+   "event": "KXSAUDIPLGAME-26NOV06ITJNEO",
+   "series": "KXSAUDIPLGAME",
+   "title": "Al-Ittihad vs AL Suqoor",
+   "ticker": "KXSAUDIPLGAME-26NOV06ITJNEO-ITJ",
+   "order_id": "paper-649-1793736417",
+   "price": "0.3800",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.8400",
+   "multiplier": "1",
+   "placed": 1793736417.81386,
+   "hedge": [
+    {
+     "ticker": "KXSAUDIPLGAME-26NOV06ITJNEO-NEO",
+     "limit": "0.9300"
+    },
+    {
+     "ticker": "KXSAUDIPLGAME-26NOV06ITJNEO-TIE",
+     "limit": "0.5800"
     }
    ]
   }
