@@ -9098,5 +9098,33 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-651-1793738828": {
+  "id": "paper-651-1793738828",
+  "ticker": "KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH",
+  "price": "0.2100",
+  "count": 6,
+  "ahead": 0,
+  "placed": 1793738828.9225464,
+  "checked": 1793739335.4295902,
+  "expires": 1793740628,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-652-1793739432": {
+  "id": "paper-652-1793739432",
+  "ticker": "KXETH-26NOV0316-B2292",
+  "price": "0.2300",
+  "count": 6,
+  "ahead": 0,
+  "placed": 1793739432.250726,
+  "checked": 1793739463.2524135,
+  "expires": 1793741232,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

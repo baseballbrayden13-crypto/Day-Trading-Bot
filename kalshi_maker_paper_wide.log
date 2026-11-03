@@ -4144,3 +4144,15 @@
 2026-11-03 15:37:07,396 INFO Swept 19920 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-03 15:42:09,162 INFO Swept 19891 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 15:42:09,369 INFO Quote KXITFWDOUBLES-26NOV03FOUKUHEISEIS cancelled (0/3 filled)
+2026-11-03 15:47:08,929 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH at $0.2100 x6 (0 already bid at that price)
+2026-11-03 15:47:08,929 INFO Resting NO bid on KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH at $0.2100 x6 (KXITFWDOUBLES-26NOV03FOUKUHEISEIS): locks in $1.90 if it fills; hedge NO EISEIS@0.5000
+2026-11-03 15:47:08,933 INFO Swept 19897 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 15:52:09,628 INFO Swept 19889 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 15:55:35,508 INFO Quote KXITFWDOUBLES-26NOV03FOUKUHEISEIS cancelled (0/6 filled)
+2026-11-03 15:57:12,257 INFO PAPER rest NO bid KXETH-26NOV0316-B2292 at $0.2300 x6 (0 already bid at that price)
+2026-11-03 15:57:12,257 INFO Resting NO bid on KXETH-26NOV0316-B2292 at $0.2300 x6 (KXETH-26NOV0316): locks in $1.43 if it fills; hedge NO B2287@0.5100
+2026-11-03 15:57:12,261 INFO Swept 19823 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 15:57:43,331 INFO Quote KXETH-26NOV0316 cancelled (0/6 filled)
+2026-11-03 16:02:30,573 INFO Swept 19835 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 16:07:48,204 INFO Swept 19839 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 16:12:57,569 INFO Swept 19844 events: 0 taker trades, 0 new quotes, 0 resting
