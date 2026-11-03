@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:50:56+00:00",
+ "updated": "2026-11-03T17:21:09+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -13,7 +13,7 @@
  "stray_positions": 1,
  "closed_trades": 48,
  "trades_this_loop": 0,
- "events_swept": 19465,
+ "events_swept": 19482,
  "found_this_loop": 1,
  "top_series": [
   "KXSTARSHIPSPACE"

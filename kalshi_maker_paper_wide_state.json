@@ -1756,59 +1756,40 @@
  ],
  "quotes": [
   {
-   "event": "KXCS2MAP-26NOV020630ESBNOI-1",
-   "series": "KXCS2MAP",
-   "title": "eSuba vs. Noir Verse: Map 1 Winner",
-   "ticker": "KXCS2MAP-26NOV020630ESBNOI-1-NOI",
-   "order_id": "paper-629-1793724171",
-   "price": "0.6300",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.6600",
-   "multiplier": "1",
-   "placed": 1793724171.3153758,
-   "hedge": [
-    {
-     "ticker": "KXCS2MAP-26NOV020630ESBNOI-1-ESB",
-     "limit": "0.0100"
-    }
-   ]
-  },
-  {
-   "event": "KXTESTMATCH-26NOV012300KERGUJ",
-   "series": "KXTESTMATCH",
-   "title": "Gujarat vs Kerala",
-   "ticker": "KXTESTMATCH-26NOV012300KERGUJ-GUJ",
-   "order_id": "paper-630-1793724472",
-   "price": "0.28",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.9000",
-   "multiplier": "1",
-   "placed": 1793724472.2916517,
-   "hedge": [
-    {
-     "ticker": "KXTESTMATCH-26NOV012300KERGUJ-TIE",
-     "limit": "0.6800"
-    }
-   ]
-  },
-  {
    "event": "KXNCAAWBGAME-26NOV06LMUUSU",
    "series": "KXNCAAWBGAME",
    "title": "Loyola Marymount vs Utah St.",
    "ticker": "KXNCAAWBGAME-26NOV06LMUUSU-USU",
-   "order_id": "paper-631-1793724772",
+   "order_id": "paper-632-1793725674",
    "price": "0.2100",
-   "sets": 2,
+   "sets": 3,
    "done": 0,
-   "reserve": "1.6300",
+   "reserve": "2.4400",
    "multiplier": "1",
-   "placed": 1793724772.7465749,
+   "placed": 1793725674.5134606,
    "hedge": [
     {
      "ticker": "KXNCAAWBGAME-26NOV06LMUUSU-LMU",
      "limit": "0.5800"
+    }
+   ]
+  },
+  {
+   "event": "KXCONMEBOLSUD-26",
+   "series": "KXCONMEBOLSUD",
+   "title": "CONMEBOL Sudamericana Champion",
+   "ticker": "KXCONMEBOLSUD-26-ATL",
+   "order_id": "paper-633-1793726584",
+   "price": "0.43",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8700",
+   "multiplier": "1",
+   "placed": 1793726584.964551,
+   "hedge": [
+    {
+     "ticker": "KXCONMEBOLSUD-26-BOC",
+     "limit": "0.5200"
     }
    ]
   }

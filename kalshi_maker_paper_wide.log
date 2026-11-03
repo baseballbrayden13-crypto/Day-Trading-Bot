@@ -4043,3 +4043,15 @@
 2026-11-03 11:52:52,746 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06LMUUSU-USU at $0.2100 x2 (0 already bid at that price)
 2026-11-03 11:52:52,746 INFO Resting NO bid on KXNCAAWBGAME-26NOV06LMUUSU-USU at $0.2100 x2 (KXNCAAWBGAME-26NOV06LMUUSU): locks in $0.37 if it fills; hedge NO LMU@0.5800
 2026-11-03 11:52:52,751 INFO Swept 19465 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-03 11:57:50,950 INFO Swept 19462 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-03 12:02:53,780 INFO Swept 19455 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-03 12:04:31,432 INFO Quote KXNCAAWBGAME-26NOV06LMUUSU cancelled (0/2 filled)
+2026-11-03 12:05:18,772 INFO Quote KXCS2MAP-26NOV020630ESBNOI-1 cancelled (0/1 filled)
+2026-11-03 12:07:54,513 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06LMUUSU-USU at $0.2100 x3 (0 already bid at that price)
+2026-11-03 12:07:54,513 INFO Resting NO bid on KXNCAAWBGAME-26NOV06LMUUSU-USU at $0.2100 x3 (KXNCAAWBGAME-26NOV06LMUUSU): locks in $0.56 if it fills; hedge NO LMU@0.5800
+2026-11-03 12:07:54,517 INFO Swept 19458 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 12:13:00,221 INFO Swept 19465 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 12:17:59,737 INFO Swept 19489 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 12:23:04,964 INFO PAPER rest NO bid KXCONMEBOLSUD-26-ATL at $0.4300 x5 (5 already bid at that price)
+2026-11-03 12:23:04,964 INFO Resting NO bid on KXCONMEBOLSUD-26-ATL at $0.43 x5 (KXCONMEBOLSUD-26): locks in $0.13 if it fills; hedge NO BOC@0.5200
+2026-11-03 12:23:04,969 INFO Swept 19482 events: 0 taker trades, 1 new quotes, 2 resting
