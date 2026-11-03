@@ -1700,29 +1700,5 @@
    "closed": "2026-11-02T21:55:24.703790+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXTOPSONG-26NOV14",
-   "series": "KXTOPSONG",
-   "title": "#1 on the Billboard Hot 100 chart for the Week of Nov 14, 2026?",
-   "ticker": "KXTOPSONG-26NOV14-SOM",
-   "order_id": "paper-586-1793670492",
-   "price": "0.4400",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.8000",
-   "multiplier": "1",
-   "placed": 1793670492.7366672,
-   "hedge": [
-    {
-     "ticker": "KXTOPSONG-26NOV14-CHO",
-     "limit": "0.3400"
-    },
-    {
-     "ticker": "KXTOPSONG-26NOV14-DRA",
-     "limit": "0.9800"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
