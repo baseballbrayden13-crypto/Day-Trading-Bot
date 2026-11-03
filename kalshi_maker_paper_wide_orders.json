@@ -8700,12 +8700,12 @@
   "count": 7,
   "ahead": 0,
   "placed": 1793718735.5593605,
-  "checked": 1793719460.1350265,
+  "checked": 1793720535,
   "expires": 1793720535,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-623-1793719338": {
   "id": "paper-623-1793719338",
@@ -8714,11 +8714,11 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793719338.6069791,
-  "checked": 1793719460.2743459,
+  "checked": 1793720981.3116772,
   "expires": 1793721138,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  }
 }

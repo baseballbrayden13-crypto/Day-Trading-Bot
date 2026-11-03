@@ -1754,44 +1754,5 @@
    "closed": "2026-11-03T08:20:28.092399+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAWBGAME-26NOV05GRAMMCNS",
-   "series": "KXNCAAWBGAME",
-   "title": "Grambling St. vs McNeese",
-   "ticker": "KXNCAAWBGAME-26NOV05GRAMMCNS-GRAM",
-   "order_id": "paper-622-1793718735",
-   "price": "0.2000",
-   "sets": 7,
-   "done": 0,
-   "reserve": "4.6200",
-   "multiplier": "1",
-   "placed": 1793718735.5678935,
-   "hedge": [
-    {
-     "ticker": "KXNCAAWBGAME-26NOV05GRAMMCNS-MCNS",
-     "limit": "0.4700"
-    }
-   ]
-  },
-  {
-   "event": "KXCOPADELREYADVANCE-26NOV03PAMEIB",
-   "series": "KXCOPADELREYADVANCE",
-   "title": "CD Pamplona vs Eibar",
-   "ticker": "KXCOPADELREYADVANCE-26NOV03PAMEIB-PAM",
-   "order_id": "paper-623-1793719338",
-   "price": "0.6200",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.8600",
-   "multiplier": "1",
-   "placed": 1793719338.6142077,
-   "hedge": [
-    {
-     "ticker": "KXCOPADELREYADVANCE-26NOV03PAMEIB-EIB",
-     "limit": "0.2900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

@@ -4001,3 +4001,10 @@
 2026-11-03 10:22:18,614 INFO PAPER rest NO bid KXCOPADELREYADVANCE-26NOV03PAMEIB-PAM at $0.6200 x2 (0 already bid at that price)
 2026-11-03 10:22:18,614 INFO Resting NO bid on KXCOPADELREYADVANCE-26NOV03PAMEIB-PAM at $0.6200 x2 (KXCOPADELREYADVANCE-26NOV03PAMEIB): locks in $0.14 if it fills; hedge NO EIB@0.2900
 2026-11-03 10:22:18,618 INFO Swept 19466 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 10:27:19,828 INFO Swept 19470 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 10:32:20,009 INFO Swept 19468 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 10:37:19,858 INFO Swept 19455 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 10:42:23,285 INFO Swept 19450 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 10:47:27,715 INFO Swept 19470 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 10:49:41,387 INFO Quote KXCOPADELREYADVANCE-26NOV03PAMEIB cancelled (0/2 filled)
+2026-11-03 10:52:29,717 INFO Swept 19464 events: 0 taker trades, 0 new quotes, 0 resting
