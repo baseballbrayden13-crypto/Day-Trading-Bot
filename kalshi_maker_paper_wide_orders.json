@@ -8910,12 +8910,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793729312.8461235,
-  "checked": 1793730292.089884,
+  "checked": 1793731112,
   "expires": 1793731112,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-638-1793730218": {
   "id": "paper-638-1793730218",
@@ -8924,11 +8924,39 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793730218.549437,
-  "checked": 1793730292.2153733,
+  "checked": 1793731144.8140848,
   "expires": 1793732018,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-639-1793730520": {
+  "id": "paper-639-1793730520",
+  "ticker": "KXATPDOUBLES-26NOV03BONBRAKRAPUT-BONBRA",
+  "price": "0.8900",
+  "count": 4,
+  "ahead": 0,
+  "placed": 1793730520.1989164,
+  "checked": 1793730666.4809372,
+  "expires": 1793732320,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-640-1793730821": {
+  "id": "paper-640-1793730821",
+  "ticker": "KXEBASKETBALLGAME-26NOV031308WALTBARR-BARR",
+  "price": "0.1900",
+  "count": 9,
+  "ahead": 0,
+  "placed": 1793730821.8474457,
+  "checked": 1793731144.8834896,
+  "expires": 1793732621,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
