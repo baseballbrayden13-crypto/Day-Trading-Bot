@@ -3752,3 +3752,11 @@
 2026-11-02 21:38:36,517 INFO Swept 20454 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-02 21:43:32,101 INFO Swept 20394 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-02 21:48:36,890 INFO Swept 20377 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 21:53:38,550 INFO Swept 20351 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-02 21:58:36,368 INFO Swept 20327 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-02 22:03:34,605 INFO Swept 20284 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 22:08:36,646 INFO Swept 20262 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-02 22:13:39,989 INFO PAPER rest NO bid KXMLBNLRELOTY-26-TMEG at $0.8100 x5 (0 already bid at that price)
+2026-11-02 22:13:39,989 INFO Resting NO bid on KXMLBNLRELOTY-26-TMEG at $0.8100 x5 (KXMLBNLRELOTY-26): locks in $0.42 if it fills; hedge NO MMIL@0.1000
+2026-11-02 22:13:39,991 INFO Swept 20282 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-02 22:18:43,016 INFO Swept 20249 events: 0 taker trades, 0 new quotes, 1 resting
