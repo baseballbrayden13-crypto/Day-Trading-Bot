@@ -64,6 +64,42 @@
      "limit": "0.0200"
     }
    ]
+  },
+  {
+   "event": "KXNFLNEXTTEAM-26BTHOMAS7",
+   "series": "KXNFLNEXTTEAM",
+   "title": "Brian Thomas Jr. Next Team",
+   "sets": 1,
+   "outlay": "2.7700",
+   "locked_profit": "0.2300",
+   "opened": "2026-11-03T18:49:25.794202+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-SF",
+     "side": "no",
+     "count": 1,
+     "limit": "0.5100"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-JAC",
+     "side": "no",
+     "count": 1,
+     "limit": "0.4700"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-KC",
+     "side": "no",
+     "count": 1,
+     "limit": "0.7700"
+    },
+    {
+     "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-LA",
+     "side": "no",
+     "count": 1,
+     "limit": "0.9600"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1754,5 +1790,25 @@
    "closed": "2026-11-03T08:20:28.092399+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXKBO-26",
+   "series": "KXKBO",
+   "title": "Korea KBO Champion",
+   "ticker": "KXKBO-26-SAM",
+   "order_id": "paper-643-1793731575",
+   "price": "0.2000",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.6200",
+   "multiplier": "1",
+   "placed": 1793731575.6246133,
+   "hedge": [
+    {
+     "ticker": "KXKBO-26-KTW",
+     "limit": "0.3900"
+    }
+   ]
+  }
+ ]
 }

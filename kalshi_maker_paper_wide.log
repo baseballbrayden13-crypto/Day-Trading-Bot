@@ -4089,3 +4089,22 @@
 2026-11-03 13:33:41,860 INFO Swept 19662 events: 0 taker trades, 1 new quotes, 3 resting
 2026-11-03 13:38:43,709 INFO Swept 19698 events: 0 taker trades, 0 new quotes, 3 resting
 2026-11-03 13:39:04,969 INFO Stopped; all quotes cancelled.
+2026-11-03 13:44:45,683 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-03 13:46:15,482 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH at $0.2000 x5 (0 already bid at that price)
+2026-11-03 13:46:15,482 INFO Resting NO bid on KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH at $0.2000 x5 (KXITFWDOUBLES-26NOV03FOUKUHEISEIS): locks in $0.71 if it fills; hedge NO EISEIS@0.7100
+2026-11-03 13:46:15,554 INFO PAPER rest NO bid KXNFLNEXTTEAM-26BTHOMAS7-SF at $0.5100 x1 (0 already bid at that price)
+2026-11-03 13:46:15,554 INFO Resting NO bid on KXNFLNEXTTEAM-26BTHOMAS7-SF at $0.5100 x1 (KXNFLNEXTTEAM-26BTHOMAS7): locks in $0.25 if it fills; hedge NO JAC@0.4500, KC@0.7700, LA@0.9600
+2026-11-03 13:46:15,624 INFO PAPER rest NO bid KXKBO-26-SAM at $0.2000 x1 (0 already bid at that price)
+2026-11-03 13:46:15,624 INFO Resting NO bid on KXKBO-26-SAM at $0.2000 x1 (KXKBO-26): locks in $0.38 if it fills; hedge NO KTW@0.3900
+2026-11-03 13:46:15,628 INFO Swept 19786 events: 0 taker trades, 3 new quotes, 3 resting
+2026-11-03 13:49:25,595 INFO PAPER KXNFLNEXTTEAM-26BTHOMAS7-SF NO bid at $0.5100: 1/1 filled by real trades
+2026-11-03 13:49:25,664 INFO PAPER buy 1 NO KXNFLNEXTTEAM-26BTHOMAS7-JAC at up to $0.4700: filled 1
+2026-11-03 13:49:25,728 INFO PAPER buy 1 NO KXNFLNEXTTEAM-26BTHOMAS7-KC at up to $0.7700: filled 1
+2026-11-03 13:49:25,794 INFO PAPER buy 1 NO KXNFLNEXTTEAM-26BTHOMAS7-LA at up to $0.9600: filled 1
+2026-11-03 13:49:25,794 INFO Quote KXNFLNEXTTEAM-26BTHOMAS7 filled 1: hedged, locks in $0.23
+2026-11-03 13:50:57,699 INFO Swept 19782 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 13:56:01,888 INFO Swept 19817 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 14:00:57,585 INFO Swept 19798 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 14:06:04,095 INFO Swept 19813 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 14:11:05,741 INFO Swept 19819 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 14:14:15,925 INFO Quote KXITFWDOUBLES-26NOV03FOUKUHEISEIS cancelled (0/5 filled)

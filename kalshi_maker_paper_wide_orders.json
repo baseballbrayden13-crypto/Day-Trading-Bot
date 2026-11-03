@@ -8958,5 +8958,47 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-641-1793731575": {
+  "id": "paper-641-1793731575",
+  "ticker": "KXITFWDOUBLES-26NOV03FOUKUHEISEIS-FOUKUH",
+  "price": "0.2000",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1793731575.4773486,
+  "checked": 1793733255.847957,
+  "expires": 1793733375,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-642-1793731575": {
+  "id": "paper-642-1793731575",
+  "ticker": "KXNFLNEXTTEAM-26BTHOMAS7-SF",
+  "price": "0.5100",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793731575.5489585,
+  "checked": 1793731765.5269256,
+  "expires": 1793733375,
+  "through": 36,
+  "at_price": 0,
+  "filled": 1,
+  "status": "executed"
+ },
+ "paper-643-1793731575": {
+  "id": "paper-643-1793731575",
+  "ticker": "KXKBO-26-SAM",
+  "price": "0.2000",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793731575.6195455,
+  "checked": 1793733281.626205,
+  "expires": 1793733375,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
