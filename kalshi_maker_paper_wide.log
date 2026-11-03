@@ -3971,3 +3971,12 @@
 2026-11-03 08:42:23,900 INFO Quote KXNCAAWBGAME-26NOV06CLMBURI cancelled (0/3 filled)
 2026-11-03 08:46:39,865 INFO Swept 19504 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-03 08:51:40,910 INFO Swept 19502 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 08:56:40,984 INFO Swept 19493 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 09:01:43,365 INFO Swept 19479 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 09:06:47,165 INFO PAPER rest NO bid KXEBASKETBALLGAME-26NOV030850BRYCCADE-CADE at $0.2800 x5 (0 already bid at that price)
+2026-11-03 09:06:47,166 INFO Resting NO bid on KXEBASKETBALLGAME-26NOV030850BRYCCADE-CADE at $0.2800 x5 (KXEBASKETBALLGAME-26NOV030850BRYCCADE): locks in $0.34 if it fills; hedge NO BRYC@0.6300
+2026-11-03 09:06:47,170 INFO Swept 19482 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 09:07:02,787 INFO Quote KXEBASKETBALLGAME-26NOV030850BRYCCADE cancelled (0/5 filled)
+2026-11-03 09:11:51,177 INFO Swept 19481 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 09:16:53,759 INFO Swept 19482 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-03 09:21:55,811 INFO Swept 19467 events: 0 taker trades, 0 new quotes, 0 resting
