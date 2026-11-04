@@ -111,6 +111,22 @@
    "note": "daily safest: likeliest outcome closing within 24h",
    "cost": "0.99",
    "expected": "-0.01"
+  },
+  {
+   "strategy": "daily_safest",
+   "ticker": "KX30YMORTW-26NOV05-T7.19",
+   "event": "KX30YMORTW-26NOV05",
+   "series": "KX30YMORTW",
+   "side": "no",
+   "count": 1,
+   "price": "0.9800",
+   "fee": "0.01",
+   "prob": 0.98,
+   "close_time": "2026-11-05T16:59:00Z",
+   "placed": "2026-11-04T20:01:35+00:00",
+   "note": "daily safest: likeliest outcome closing within 24h",
+   "cost": "0.99",
+   "expected": "-0.01"
   }
  ],
  "closed": []

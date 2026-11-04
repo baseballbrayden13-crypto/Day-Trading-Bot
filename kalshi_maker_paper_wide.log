@@ -4536,3 +4536,16 @@
 2026-11-04 14:38:27,101 INFO Quote KXCS2MAP-26NOV041300TLRNXS-2 cancelled (0/5 filled)
 2026-11-04 14:43:17,104 INFO Swept 20397 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-04 14:48:17,584 INFO Swept 20397 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 14:53:17,893 INFO Swept 20389 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 14:53:18,095 INFO Quote KXUCLSCORE-26NOV04AEKRMA cancelled (0/5 filled)
+2026-11-04 14:58:20,316 INFO Swept 20379 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 15:03:21,169 INFO PAPER BET daily_safest: 1 NO KX30YMORTW-26NOV05-T7.19 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-04 15:03:21,170 INFO Swept 20364 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 15:08:21,666 INFO PAPER rest NO bid KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.4300 x5 (0 already bid at that price)
+2026-11-04 15:08:21,666 INFO Resting NO bid on KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.4300 x5 (KXBOXING-26NOV06KAENABEAUCH): locks in $0.20 if it fills; hedge NO KAENA@0.5100
+2026-11-04 15:08:21,670 INFO Swept 20420 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 15:10:56,494 INFO Quote KXBOXING-26NOV06KAENABEAUCH cancelled (0/5 filled)
+2026-11-04 15:13:22,604 INFO Swept 20440 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 15:18:23,768 INFO PAPER rest NO bid KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.5100 x5 (0 already bid at that price)
+2026-11-04 15:18:23,769 INFO Resting NO bid on KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.5100 x5 (KXBOXING-26NOV06KAENABEAUCH): locks in $0.22 if it fills; hedge NO KAENA@0.4300
+2026-11-04 15:18:23,836 INFO Swept 20450 events: 0 taker trades, 1 new quotes, 1 resting
