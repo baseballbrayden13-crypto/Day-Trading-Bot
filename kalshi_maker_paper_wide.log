@@ -4616,3 +4616,11 @@
 2026-11-04 18:21:08,237 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06NEBU-NE at $0.2900 x5 (0 already bid at that price)
 2026-11-04 18:21:08,238 INFO Resting NO bid on KXNCAAWBGAME-26NOV06NEBU-NE at $0.2900 x5 (KXNCAAWBGAME-26NOV06NEBU): locks in $0.15 if it fills; hedge NO BU@0.6600
 2026-11-04 18:21:08,362 INFO Swept 20444 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 18:26:10,315 INFO Swept 20448 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 18:31:12,758 INFO Swept 20470 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 18:36:12,427 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV05UCSBPEPP-UCSB at $0.4000 x4 (0 already bid at that price)
+2026-11-04 18:36:12,428 INFO Resting NO bid on KXNCAAWBGAME-26NOV05UCSBPEPP-UCSB at $0.4000 x4 (KXNCAAWBGAME-26NOV05UCSBPEPP): locks in $0.15 if it fills; hedge NO PEPP@0.5400
+2026-11-04 18:36:12,431 INFO Swept 20481 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 18:41:15,728 INFO Swept 20485 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 18:46:18,040 INFO Swept 20487 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 18:51:18,405 INFO Swept 20487 events: 0 taker trades, 0 new quotes, 2 resting
