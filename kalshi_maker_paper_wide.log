@@ -4300,3 +4300,10 @@
 2026-11-03 23:52:27,046 INFO PAPER rest NO bid KXCLOSERMETXSEN-26DEC07-MESEN at $0.0500 x1 (0 already bid at that price)
 2026-11-03 23:52:27,046 INFO Resting NO bid on KXCLOSERMETXSEN-26DEC07-MESEN at $0.0500 x1 (KXCLOSERMETXSEN-26DEC07): locks in $0.40 if it fills; hedge NO TXSEN@0.5200
 2026-11-03 23:52:27,050 INFO Swept 20203 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 23:57:24,674 INFO Swept 20193 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 23:57:24,894 INFO Quote KXCLOSERMETXSEN-26DEC07 cancelled (0/1 filled)
+2026-11-04 00:02:16,218 INFO Swept 20143 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 00:07:28,025 INFO Swept 20131 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 00:12:29,772 INFO Swept 20149 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 00:17:32,492 INFO Swept 20146 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 00:22:32,485 INFO Swept 20140 events: 0 taker trades, 0 new quotes, 0 resting

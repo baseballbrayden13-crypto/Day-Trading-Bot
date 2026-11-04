@@ -1814,25 +1814,5 @@
    "closed": "2026-11-03T08:20:28.092399+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXCLOSERMETXSEN-26DEC07",
-   "series": "KXCLOSERMETXSEN",
-   "title": "Closer Senate Race: Maine or Texas?",
-   "ticker": "KXCLOSERMETXSEN-26DEC07-MESEN",
-   "order_id": "paper-673-1793767947",
-   "price": "0.0500",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.6000",
-   "multiplier": "1",
-   "placed": 1793767947.0464337,
-   "hedge": [
-    {
-     "ticker": "KXCLOSERMETXSEN-26DEC07-TXSEN",
-     "limit": "0.5200"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
