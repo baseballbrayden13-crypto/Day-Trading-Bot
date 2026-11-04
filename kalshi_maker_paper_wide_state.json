@@ -1814,5 +1814,25 @@
    "closed": "2026-11-03T08:20:28.092399+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXITFDOUBLES-26NOV04DEGSIMMARSLO",
+   "series": "KXITFDOUBLES",
+   "title": "Degroot / Simons vs Marshall / Slocombe",
+   "ticker": "KXITFDOUBLES-26NOV04DEGSIMMARSLO-MARSLO",
+   "order_id": "paper-674-1793785139",
+   "price": "0.1300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.3100",
+   "multiplier": "1",
+   "placed": 1793785139.1735694,
+   "hedge": [
+    {
+     "ticker": "KXITFDOUBLES-26NOV04DEGSIMMARSLO-DEGSIM",
+     "limit": "0.1600"
+    }
+   ]
+  }
+ ]
 }

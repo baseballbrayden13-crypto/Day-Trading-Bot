@@ -9420,5 +9420,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-674-1793785139": {
+  "id": "paper-674-1793785139",
+  "ticker": "KXITFDOUBLES-26NOV04DEGSIMMARSLO-MARSLO",
+  "price": "0.1300",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793785139.1668053,
+  "checked": 1793786458.2693346,
+  "expires": 1793786939,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
