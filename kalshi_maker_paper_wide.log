@@ -4549,3 +4549,15 @@
 2026-11-04 15:18:23,768 INFO PAPER rest NO bid KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.5100 x5 (0 already bid at that price)
 2026-11-04 15:18:23,769 INFO Resting NO bid on KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.5100 x5 (KXBOXING-26NOV06KAENABEAUCH): locks in $0.22 if it fills; hedge NO KAENA@0.4300
 2026-11-04 15:18:23,836 INFO Swept 20450 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 15:23:25,267 INFO Swept 20443 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 15:28:26,524 INFO Swept 20446 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 15:33:26,975 INFO Swept 20436 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 15:34:18,732 INFO Quote KXBOXING-26NOV06KAENABEAUCH cancelled (0/5 filled)
+2026-11-04 15:38:28,583 INFO Swept 20435 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 15:43:32,876 INFO PAPER rest NO bid KXBNB-26NOV0417-B692 at $0.1100 x5 (147 already bid at that price)
+2026-11-04 15:43:32,876 INFO Resting NO bid on KXBNB-26NOV0417-B692 at $0.11 x5 (KXBNB-26NOV0417): locks in $0.14 if it fills; hedge NO B717@0.8500
+2026-11-04 15:43:32,880 INFO Swept 20429 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 15:48:37,117 INFO PAPER rest NO bid KXWTASETWINNER-26NOV05VALEAL-2-EAL at $0.2800 x4 (0 already bid at that price)
+2026-11-04 15:48:37,117 INFO Resting NO bid on KXWTASETWINNER-26NOV05VALEAL-2-EAL at $0.2800 x4 (KXWTASETWINNER-26NOV05VALEAL-2): locks in $0.27 if it fills; hedge NO VAL@0.6300
+2026-11-04 15:48:37,121 INFO Swept 20431 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 15:49:35,183 INFO Quote KXBNB-26NOV0417 cancelled (0/5 filled)

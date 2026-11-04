@@ -1842,21 +1842,21 @@
  ],
  "quotes": [
   {
-   "event": "KXBOXING-26NOV06KAENABEAUCH",
-   "series": "KXBOXING",
-   "title": "John Kaena vs Nort Beauchamp",
-   "ticker": "KXBOXING-26NOV06KAENABEAUCH-BEAUCH",
-   "order_id": "paper-695-1793823503",
-   "price": "0.5100",
-   "sets": 5,
+   "event": "KXWTASETWINNER-26NOV05VALEAL-2",
+   "series": "KXWTASETWINNER",
+   "title": "Tereza Valentova vs Alexandra Eala: Set 2 Winner",
+   "ticker": "KXWTASETWINNER-26NOV05VALEAL-2-EAL",
+   "order_id": "paper-697-1793825317",
+   "price": "0.2800",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.7800",
+   "reserve": "3.7300",
    "multiplier": "1",
-   "placed": 1793823503.769063,
+   "placed": 1793825317.1172829,
    "hedge": [
     {
-     "ticker": "KXBOXING-26NOV06KAENABEAUCH-KAENA",
-     "limit": "0.4300"
+     "ticker": "KXWTASETWINNER-26NOV05VALEAL-2-VAL",
+     "limit": "0.6300"
     }
    ]
   }
