@@ -1790,25 +1790,5 @@
    "closed": "2026-11-03T08:20:28.092399+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAFCFPPOLL-26NOV03R1",
-   "series": "KXNCAAFCFPPOLL",
-   "title": "Nov 3 CFP Rankings: #1 Ranked Team",
-   "ticker": "KXNCAAFCFPPOLL-26NOV03R1-UGA",
-   "order_id": "paper-661-1793751282",
-   "price": "0.1300",
-   "sets": 5,
-   "done": 0,
-   "reserve": "2.7400",
-   "multiplier": "1",
-   "placed": 1793751282.7156484,
-   "hedge": [
-    {
-     "ticker": "KXNCAAFCFPPOLL-26NOV03R1-MIA",
-     "limit": "0.4000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
