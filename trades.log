@@ -46,3 +46,6 @@
 2026-11-03 15:50:05,180 INFO Flattening all positions: end of day
 2026-11-03 15:55:05,371 INFO Flattening all positions: end of day
 2026-11-03 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca.
+2026-11-04 09:16:32,688 INFO Connected to Alpaca PAPER account
+2026-11-04 09:16:33,182 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.
+2026-11-04 09:30:05,423 INFO New day 2026-11-04, starting equity $4979.70
