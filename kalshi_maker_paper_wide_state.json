@@ -1,5 +1,5 @@
 {
- "realized": "-0.9900",
+ "realized": "-1.2500",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -1818,6 +1818,26 @@
    "paid": "4",
    "pnl": "0.0800",
    "closed": "2026-11-04T13:57:18.730827+00:00"
+  },
+  {
+   "event": "KXOWGAME-26NOV040900BENSJK (stray)",
+   "series": "KXOWGAME",
+   "title": "OCS Pacific Stage 3 2026: Team Benxxn vs. SeijiKING",
+   "sets": 0,
+   "outlay": "0.26",
+   "locked_profit": "0",
+   "opened": "2026-11-04T15:13:18.227520+00:00",
+   "legs": [
+    {
+     "ticker": "KXOWGAME-26NOV040900BENSJK-SJK",
+     "side": "no",
+     "count": 5,
+     "limit": "0.05"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-0.26",
+   "closed": "2026-11-04T15:22:55.342582+00:00"
   }
  ],
  "quotes": [
@@ -1826,17 +1846,36 @@
    "series": "KXKBO",
    "title": "Korea KBO Champion",
    "ticker": "KXKBO-26-SAM",
-   "order_id": "paper-677-1793803989",
-   "price": "0.3300",
-   "sets": 4,
+   "order_id": "paper-679-1793805198",
+   "price": "0.1900",
+   "sets": 1,
    "done": 0,
-   "reserve": "2.9700",
+   "reserve": "0.6100",
    "multiplier": "1",
-   "placed": 1793803989.2730863,
+   "placed": 1793805198.164036,
    "hedge": [
     {
      "ticker": "KXKBO-26-KTW",
-     "limit": "0.8400"
+     "limit": "0.3900"
+    }
+   ]
+  },
+  {
+   "event": "KXNBARACE-26NOV04MILBOS-10",
+   "series": "KXNBARACE",
+   "title": "Milwaukee vs Boston: Race to 10 Points",
+   "ticker": "KXNBARACE-26NOV04MILBOS-10-MIL",
+   "order_id": "paper-680-1793805801",
+   "price": "0.54",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8700",
+   "multiplier": "1",
+   "placed": 1793805801.9385972,
+   "hedge": [
+    {
+     "ticker": "KXNBARACE-26NOV04MILBOS-10-BOS",
+     "limit": "0.4100"
     }
    ]
   }

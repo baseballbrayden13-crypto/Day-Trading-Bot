@@ -4429,3 +4429,22 @@
 2026-11-04 09:53:09,272 INFO PAPER rest NO bid KXKBO-26-SAM at $0.3300 x4 (0 already bid at that price)
 2026-11-04 09:53:09,273 INFO Resting NO bid on KXKBO-26-SAM at $0.3300 x4 (KXKBO-26): locks in $1.03 if it fills; hedge NO KTW@0.3900
 2026-11-04 09:53:09,277 INFO Swept 19998 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 09:58:09,962 INFO Swept 19981 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 09:59:00,512 INFO Quote KXKBO-26 cancelled (0/4 filled)
+2026-11-04 10:03:12,641 INFO Swept 20030 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 10:08:17,257 INFO PAPER rest NO bid KXOWGAME-26NOV040900BENSJK-SJK at $0.0500 x5 (17 already bid at that price)
+2026-11-04 10:08:17,257 INFO Resting NO bid on KXOWGAME-26NOV040900BENSJK-SJK at $0.05 x5 (KXOWGAME-26NOV040900BENSJK): locks in $0.11 if it fills; hedge NO BEN@0.9200
+2026-11-04 10:08:17,261 INFO Swept 20029 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 10:13:18,163 INFO PAPER rest NO bid KXKBO-26-SAM at $0.1900 x1 (0 already bid at that price)
+2026-11-04 10:13:18,164 INFO Resting NO bid on KXKBO-26-SAM at $0.1900 x1 (KXKBO-26): locks in $0.39 if it fills; hedge NO KTW@0.3900
+2026-11-04 10:13:18,168 INFO Swept 20059 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 10:13:18,186 INFO PAPER KXOWGAME-26NOV040900BENSJK-SJK NO bid at $0.0500: 5/5 filled by real trades
+2026-11-04 10:13:18,210 INFO PAPER buy 5 NO KXOWGAME-26NOV040900BENSJK-BEN at up to $0.9200: not on the book
+2026-11-04 10:13:18,210 WARNING Quote KXOWGAME-26NOV040900BENSJK: hedge missed on KXOWGAME-26NOV040900BENSJK-BEN. Selling back 5 contracts on 1 legs.
+2026-11-04 10:13:18,227 INFO PAPER sell 5 YES KXOWGAME-26NOV040900BENSJK-SJK at up to $0.99: not on the book
+2026-11-04 10:13:18,227 ERROR STRAY POSITION: 5 NO contracts of KXOWGAME-26NOV040900BENSJK-SJK still held. Check it on Kalshi.
+2026-11-04 10:18:17,327 INFO Swept 20064 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 10:22:55,342 INFO Settled KXOWGAME-26NOV040900BENSJK (stray): paid $0, profit $-0.26
+2026-11-04 10:23:21,938 INFO PAPER rest NO bid KXNBARACE-26NOV04MILBOS-10-MIL at $0.5400 x5 (168 already bid at that price)
+2026-11-04 10:23:21,938 INFO Resting NO bid on KXNBARACE-26NOV04MILBOS-10-MIL at $0.54 x5 (KXNBARACE-26NOV04MILBOS-10): locks in $0.13 if it fills; hedge NO BOS@0.4100
+2026-11-04 10:23:21,943 INFO Swept 20059 events: 0 taker trades, 1 new quotes, 2 resting
