@@ -1842,40 +1842,44 @@
  ],
  "quotes": [
   {
-   "event": "KXITFWDOUBLES-26NOV05CHIPEDGRAYAR",
-   "series": "KXITFWDOUBLES",
-   "title": "Chiesa / Pedone vs Grammatikopoulou / Yardley",
-   "ticker": "KXITFWDOUBLES-26NOV05CHIPEDGRAYAR-GRAYAR",
-   "order_id": "paper-699-1793827472",
-   "price": "0.46",
-   "sets": 4,
+   "event": "KXCOPADELREYGAME-26NOV04REUBCF",
+   "series": "KXCOPADELREYGAME",
+   "title": "Reus vs Barakaldo: Regulation Time Moneyline",
+   "ticker": "KXCOPADELREYGAME-26NOV04REUBCF-TIE",
+   "order_id": "paper-701-1793829589",
+   "price": "0.2200",
+   "sets": 2,
    "done": 0,
-   "reserve": "3.8900",
+   "reserve": "3.7700",
    "multiplier": "1",
-   "placed": 1793827472.764981,
+   "placed": 1793829589.6797907,
    "hedge": [
     {
-     "ticker": "KXITFWDOUBLES-26NOV05CHIPEDGRAYAR-CHIPED",
-     "limit": "0.4900"
+     "ticker": "KXCOPADELREYGAME-26NOV04REUBCF-REU",
+     "limit": "0.8100"
+    },
+    {
+     "ticker": "KXCOPADELREYGAME-26NOV04REUBCF-BCF",
+     "limit": "0.8200"
     }
    ]
   },
   {
-   "event": "KXITFDOUBLES-26NOV04CARVARLIESHE",
-   "series": "KXITFDOUBLES",
-   "title": "Carlevato / Vartak vs Lieberman / Sheldon",
-   "ticker": "KXITFDOUBLES-26NOV04CARVARLIESHE-CARVAR",
-   "order_id": "paper-700-1793827777",
-   "price": "0.7800",
+   "event": "KXTESTMATCH-26NOV012300BRODAUP",
+   "series": "KXTESTMATCH",
+   "title": "Uttar Pradesh vs Baroda",
+   "ticker": "KXTESTMATCH-26NOV012300BRODAUP-TIE",
+   "order_id": "paper-702-1793830204",
+   "price": "0.1100",
    "sets": 5,
    "done": 0,
-   "reserve": "4.6100",
+   "reserve": "4.8600",
    "multiplier": "1",
-   "placed": 1793827777.278813,
+   "placed": 1793830204.8110933,
    "hedge": [
     {
-     "ticker": "KXITFDOUBLES-26NOV04CARVARLIESHE-LIESHE",
-     "limit": "0.1300"
+     "ticker": "KXTESTMATCH-26NOV012300BRODAUP-UP",
+     "limit": "0.8600"
     }
    ]
   }

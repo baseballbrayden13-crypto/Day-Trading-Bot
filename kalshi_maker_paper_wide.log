@@ -4579,3 +4579,13 @@
 2026-11-04 16:39:41,062 INFO Swept 20424 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-04 16:44:43,706 INFO Swept 20439 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-04 16:49:45,400 INFO Swept 20455 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 16:54:49,712 INFO Swept 20446 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 16:59:49,679 INFO PAPER rest NO bid KXCOPADELREYGAME-26NOV04REUBCF-TIE at $0.2200 x2 (0 already bid at that price)
+2026-11-04 16:59:49,679 INFO Resting NO bid on KXCOPADELREYGAME-26NOV04REUBCF-TIE at $0.2200 x2 (KXCOPADELREYGAME-26NOV04REUBCF): locks in $0.23 if it fills; hedge NO REU@0.8100, BCF@0.8200
+2026-11-04 16:59:49,683 INFO Swept 20423 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 17:04:59,608 INFO Swept 20375 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 17:10:04,810 INFO PAPER rest NO bid KXTESTMATCH-26NOV012300BRODAUP-TIE at $0.1100 x5 (0 already bid at that price)
+2026-11-04 17:10:04,811 INFO Resting NO bid on KXTESTMATCH-26NOV012300BRODAUP-TIE at $0.1100 x5 (KXTESTMATCH-26NOV012300BRODAUP): locks in $0.14 if it fills; hedge NO UP@0.8500
+2026-11-04 17:10:04,814 INFO Swept 20335 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 17:15:10,918 INFO Swept 20314 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 17:20:07,683 INFO Swept 20318 events: 0 taker trades, 0 new quotes, 2 resting
