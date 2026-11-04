@@ -4223,3 +4223,14 @@
 2026-11-03 19:29:47,608 INFO Resting NO bid on KXNHL1P-26NOV03COLCBJ-TIE at $0.4800 x2 (KXNHL1P-26NOV03COLCBJ): locks in $0.24 if it fills; hedge NO CBJ@0.3900, COL@0.9800
 2026-11-03 19:29:47,612 INFO Swept 20023 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-03 19:29:52,820 INFO Stopped; all quotes cancelled.
+2026-11-03 19:52:42,097 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-03 19:55:23,789 INFO PAPER rest NO bid KXLOLSCORE-26NOV031700IGTES-TES31 at $0.5300 x1 (0 already bid at that price)
+2026-11-03 19:55:23,790 INFO Resting NO bid on KXLOLSCORE-26NOV031700IGTES-TES31 at $0.5300 x1 (KXLOLSCORE-26NOV031700IGTES): locks in $0.25 if it fills; hedge NO IG31@0.5200, IG32@0.7700, TES32@0.8700
+2026-11-03 19:55:23,794 INFO Swept 20207 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 20:00:25,673 INFO Swept 20182 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 20:05:21,324 INFO PAPER rest NO bid KXCLOSERNETXSEN-26NOV10-NESEN at $0.0800 x2 (0 already bid at that price)
+2026-11-03 20:05:21,325 INFO Resting NO bid on KXCLOSERNETXSEN-26NOV10-NESEN at $0.0800 x2 (KXCLOSERNETXSEN-26NOV10): locks in $0.38 if it fills; hedge NO TXSEN@0.7100
+2026-11-03 20:05:21,329 INFO Swept 20164 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 20:10:09,653 INFO Swept 20206 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 20:15:12,175 INFO Swept 20244 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 20:20:11,241 INFO Swept 20237 events: 0 taker trades, 0 new quotes, 2 resting
