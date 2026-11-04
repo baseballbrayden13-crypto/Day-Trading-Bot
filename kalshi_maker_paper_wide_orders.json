@@ -9316,11 +9316,25 @@
   "count": 4,
   "ahead": 0,
   "placed": 1793756423.4513605,
-  "checked": 1793757162.4145792,
+  "checked": 1793758223,
   "expires": 1793758223,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-667-1793758539": {
+  "id": "paper-667-1793758539",
+  "ticker": "KXMOVGANCSEN-26NOV03-NCSEN",
+  "price": "0.0800",
+  "count": 4,
+  "ahead": 0,
+  "placed": 1793758539.7111278,
+  "checked": 1793758857.6797488,
+  "expires": 1793760339,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

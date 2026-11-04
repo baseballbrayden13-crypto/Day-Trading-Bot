@@ -4246,3 +4246,12 @@
 2026-11-03 20:40:23,463 INFO Swept 20223 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-03 20:45:23,388 INFO Swept 20234 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 20:50:28,663 INFO Swept 20258 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 20:55:28,942 INFO Swept 20230 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 21:00:30,014 INFO Swept 20226 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 21:05:35,187 INFO Swept 20218 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 21:10:40,703 INFO Swept 20281 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 21:15:39,718 INFO PAPER rest NO bid KXMOVGANCSEN-26NOV03-NCSEN at $0.0800 x4 (0 already bid at that price)
+2026-11-03 21:15:39,718 INFO Resting NO bid on KXMOVGANCSEN-26NOV03-NCSEN at $0.0800 x4 (KXMOVGANCSEN-26NOV03): locks in $0.77 if it fills; hedge NO GASEN@0.7100
+2026-11-03 21:15:39,722 INFO Swept 20340 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 21:20:57,532 INFO Swept 20392 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 21:20:57,763 INFO Quote KXMOVGANCSEN-26NOV03 cancelled (0/4 filled)
