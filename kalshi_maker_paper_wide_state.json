@@ -1,47 +1,6 @@
 {
- "realized": "-4.7500",
+ "realized": "-0.9900",
  "open": [
-  {
-   "event": "KXKBOGAME-26NOV040430SAMKTW (stray)",
-   "series": "KXKBOGAME",
-   "title": "Samsung Lions vs KT Wiz",
-   "sets": 0,
-   "outlay": "1.32",
-   "locked_profit": "0",
-   "opened": "2026-11-01T22:16:34.310711+00:00",
-   "legs": [
-    {
-     "ticker": "KXKBOGAME-26NOV040430SAMKTW-KTW",
-     "side": "no",
-     "count": 5,
-     "limit": "0.26"
-    }
-   ]
-  },
-  {
-   "event": "KXKBOGAME-26NOV040430SAMKTW",
-   "series": "KXKBOGAME",
-   "title": "Samsung Lions vs KT Wiz",
-   "sets": 4,
-   "outlay": "3.9200",
-   "locked_profit": "0.0800",
-   "opened": "2026-11-01T23:33:57.193697+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXKBOGAME-26NOV040430SAMKTW-KTW",
-     "side": "no",
-     "count": 4,
-     "limit": "0.2600"
-    },
-    {
-     "ticker": "KXKBOGAME-26NOV040430SAMKTW-SAM",
-     "side": "no",
-     "count": 4,
-     "limit": "0.7000"
-    }
-   ]
-  },
   {
    "event": "KXSTARSHIPSPACE-26",
    "series": "KXSTARSHIPSPACE",
@@ -1812,7 +1771,74 @@
    "paid": "6",
    "pnl": "1.3000",
    "closed": "2026-11-03T08:20:28.092399+00:00"
+  },
+  {
+   "event": "KXKBOGAME-26NOV040430SAMKTW (stray)",
+   "series": "KXKBOGAME",
+   "title": "Samsung Lions vs KT Wiz",
+   "sets": 0,
+   "outlay": "1.32",
+   "locked_profit": "0",
+   "opened": "2026-11-01T22:16:34.310711+00:00",
+   "legs": [
+    {
+     "ticker": "KXKBOGAME-26NOV040430SAMKTW-KTW",
+     "side": "no",
+     "count": 5,
+     "limit": "0.26"
+    }
+   ],
+   "paid": "5",
+   "pnl": "3.68",
+   "closed": "2026-11-04T13:57:18.695764+00:00"
+  },
+  {
+   "event": "KXKBOGAME-26NOV040430SAMKTW",
+   "series": "KXKBOGAME",
+   "title": "Samsung Lions vs KT Wiz",
+   "sets": 4,
+   "outlay": "3.9200",
+   "locked_profit": "0.0800",
+   "opened": "2026-11-01T23:33:57.193697+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXKBOGAME-26NOV040430SAMKTW-KTW",
+     "side": "no",
+     "count": 4,
+     "limit": "0.2600"
+    },
+    {
+     "ticker": "KXKBOGAME-26NOV040430SAMKTW-SAM",
+     "side": "no",
+     "count": 4,
+     "limit": "0.7000"
+    }
+   ],
+   "paid": "4",
+   "pnl": "0.0800",
+   "closed": "2026-11-04T13:57:18.730827+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXCODGAME-26NOV061100HUNFAZ",
+   "series": "KXCODGAME",
+   "title": "Huntsmen vs. FaZe Vegas",
+   "ticker": "KXCODGAME-26NOV061100HUNFAZ-HUN",
+   "order_id": "paper-676-1793800662",
+   "price": "0.87",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.9000",
+   "multiplier": "1",
+   "placed": 1793800662.553078,
+   "hedge": [
+    {
+     "ticker": "KXCODGAME-26NOV061100HUNFAZ-FAZ",
+     "limit": "0.1000"
+    }
+   ]
+  }
+ ]
 }
