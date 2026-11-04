@@ -1820,13 +1820,13 @@
    "series": "KXITFDOUBLES",
    "title": "Degroot / Simons vs Marshall / Slocombe",
    "ticker": "KXITFDOUBLES-26NOV04DEGSIMMARSLO-MARSLO",
-   "order_id": "paper-674-1793785139",
-   "price": "0.1300",
+   "order_id": "paper-675-1793787254",
+   "price": "0.2300",
    "sets": 1,
    "done": 0,
-   "reserve": "0.3100",
+   "reserve": "0.4100",
    "multiplier": "1",
-   "placed": 1793785139.1735694,
+   "placed": 1793787254.3649483,
    "hedge": [
     {
      "ticker": "KXITFDOUBLES-26NOV04DEGSIMMARSLO-DEGSIM",
