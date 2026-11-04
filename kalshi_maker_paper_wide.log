@@ -4255,3 +4255,11 @@
 2026-11-03 21:15:39,722 INFO Swept 20340 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-03 21:20:57,532 INFO Swept 20392 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 21:20:57,763 INFO Quote KXMOVGANCSEN-26NOV03 cancelled (0/4 filled)
+2026-11-03 21:26:02,137 INFO PAPER rest NO bid KXSTATELEG-NHHOUSE26-R at $0.1500 x4 (0 already bid at that price)
+2026-11-03 21:26:02,137 INFO Resting NO bid on KXSTATELEG-NHHOUSE26-R at $0.1500 x4 (KXSTATELEG-NHHOUSE26): locks in $0.14 if it fills; hedge NO D@0.8000
+2026-11-03 21:26:02,142 INFO Swept 20409 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 21:31:05,550 INFO Swept 20444 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 21:36:09,029 INFO Swept 20459 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 21:41:11,715 INFO Swept 20468 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 21:46:15,004 INFO Swept 20452 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 21:51:18,448 INFO Swept 20418 events: 0 taker trades, 0 new quotes, 1 resting

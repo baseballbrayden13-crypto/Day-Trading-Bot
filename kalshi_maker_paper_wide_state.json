@@ -1790,5 +1790,25 @@
    "closed": "2026-11-03T08:20:28.092399+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXSTATELEG-NHHOUSE26",
+   "series": "KXSTATELEG",
+   "title": "New Hampshire State House winner?",
+   "ticker": "KXSTATELEG-NHHOUSE26-R",
+   "order_id": "paper-668-1793759162",
+   "price": "0.1500",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8600",
+   "multiplier": "1",
+   "placed": 1793759162.1379437,
+   "hedge": [
+    {
+     "ticker": "KXSTATELEG-NHHOUSE26-D",
+     "limit": "0.8000"
+    }
+   ]
+  }
+ ]
 }
