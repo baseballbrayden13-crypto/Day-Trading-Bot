@@ -1792,48 +1792,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLOLSCORE-26NOV031700IGTES",
-   "series": "KXLOLSCORE",
-   "title": "Invictus Gaming vs. Top Esports: Correct Score",
-   "ticker": "KXLOLSCORE-26NOV031700IGTES-TES31",
-   "order_id": "paper-663-1793753723",
-   "price": "0.5300",
-   "sets": 1,
+   "event": "KXCLOSERAKTXSEN-26DEC07",
+   "series": "KXCLOSERAKTXSEN",
+   "title": "Closer Senate Race: Alaska or Texas?",
+   "ticker": "KXCLOSERAKTXSEN-26DEC07-TXSEN",
+   "order_id": "paper-666-1793756423",
+   "price": "0.6300",
+   "sets": 4,
    "done": 0,
-   "reserve": "2.7500",
+   "reserve": "3.8400",
    "multiplier": "1",
-   "placed": 1793753723.7900755,
+   "placed": 1793756423.459037,
    "hedge": [
     {
-     "ticker": "KXLOLSCORE-26NOV031700IGTES-IG31",
-     "limit": "0.5200"
-    },
-    {
-     "ticker": "KXLOLSCORE-26NOV031700IGTES-IG32",
-     "limit": "0.8200"
-    },
-    {
-     "ticker": "KXLOLSCORE-26NOV031700IGTES-TES32",
-     "limit": "0.8700"
-    }
-   ]
-  },
-  {
-   "event": "KXCLOSERNETXSEN-26NOV10",
-   "series": "KXCLOSERNETXSEN",
-   "title": "Closer Senate Race: Nebraska or Texas?",
-   "ticker": "KXCLOSERNETXSEN-26NOV10-NESEN",
-   "order_id": "paper-664-1793754321",
-   "price": "0.0800",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.6200",
-   "multiplier": "1",
-   "placed": 1793754321.3250895,
-   "hedge": [
-    {
-     "ticker": "KXCLOSERNETXSEN-26NOV10-TXSEN",
-     "limit": "0.9600"
+     "ticker": "KXCLOSERAKTXSEN-26DEC07-AKSEN",
+     "limit": "0.3200"
     }
    ]
   }

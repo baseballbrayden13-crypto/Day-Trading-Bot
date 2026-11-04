@@ -4234,3 +4234,15 @@
 2026-11-03 20:10:09,653 INFO Swept 20206 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-03 20:15:12,175 INFO Swept 20244 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-03 20:20:11,241 INFO Swept 20237 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 20:25:20,850 INFO Swept 20236 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 20:25:21,228 INFO Quote KXCLOSERNETXSEN-26NOV10 cancelled (0/2 filled)
+2026-11-03 20:30:23,060 INFO PAPER rest NO bid KXCLOSERAKTXSEN-26DEC07-AKSEN at $0.2700 x2 (0 already bid at that price)
+2026-11-03 20:30:23,060 INFO Resting NO bid on KXCLOSERAKTXSEN-26DEC07-AKSEN at $0.2700 x2 (KXCLOSERAKTXSEN-26DEC07): locks in $0.19 if it fills; hedge NO TXSEN@0.6100
+2026-11-03 20:30:23,065 INFO Swept 20240 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 20:35:21,577 INFO Swept 20229 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 20:37:30,639 INFO Quote KXCLOSERAKTXSEN-26DEC07 cancelled (0/2 filled)
+2026-11-03 20:40:23,458 INFO PAPER rest NO bid KXCLOSERAKTXSEN-26DEC07-TXSEN at $0.6300 x4 (0 already bid at that price)
+2026-11-03 20:40:23,459 INFO Resting NO bid on KXCLOSERAKTXSEN-26DEC07-TXSEN at $0.6300 x4 (KXCLOSERAKTXSEN-26DEC07): locks in $0.16 if it fills; hedge NO AKSEN@0.3100
+2026-11-03 20:40:23,463 INFO Swept 20223 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 20:45:23,388 INFO Swept 20234 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 20:50:28,663 INFO Swept 20258 events: 0 taker trades, 0 new quotes, 1 resting
