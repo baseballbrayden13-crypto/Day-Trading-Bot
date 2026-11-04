@@ -4589,3 +4589,15 @@
 2026-11-04 17:10:04,814 INFO Swept 20335 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-04 17:15:10,918 INFO Swept 20314 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-04 17:20:07,683 INFO Swept 20318 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 17:25:12,382 INFO Swept 20318 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 17:30:15,167 INFO Swept 20330 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 17:35:18,632 INFO PAPER rest NO bid KXCOPADELREYGAME-26NOV04REUBCF-TIE at $0.2200 x2 (0 already bid at that price)
+2026-11-04 17:35:18,633 INFO Resting NO bid on KXCOPADELREYGAME-26NOV04REUBCF-TIE at $0.2200 x2 (KXCOPADELREYGAME-26NOV04REUBCF): locks in $0.23 if it fills; hedge NO REU@0.8100, BCF@0.8200
+2026-11-04 17:35:18,636 INFO Swept 20325 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 17:40:21,814 INFO Swept 20344 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 17:45:24,730 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-DRUZUC at $0.1000 x1 (0 already bid at that price)
+2026-11-04 17:45:24,730 INFO Resting NO bid on KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-DRUZUC at $0.1000 x1 (KXITFWDOUBLES-26NOV04PRIVAKDRUZUC): locks in $0.67 if it fills; hedge NO PRIVAK@0.2000
+2026-11-04 17:45:24,798 INFO PAPER rest NO bid KXITFDOUBLES-26NOV04AUGRODNOAVIT-NOAVIT at $0.2900 x3 (0 already bid at that price)
+2026-11-04 17:45:24,798 INFO Resting NO bid on KXITFDOUBLES-26NOV04AUGRODNOAVIT-NOAVIT at $0.2900 x3 (KXITFDOUBLES-26NOV04AUGRODNOAVIT): locks in $0.11 if it fills; hedge NO AUGROD@0.6500
+2026-11-04 17:45:24,802 INFO Swept 20340 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-04 17:50:29,785 INFO Swept 20341 events: 0 taker trades, 0 new quotes, 3 resting

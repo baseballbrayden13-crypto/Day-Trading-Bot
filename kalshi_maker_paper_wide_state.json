@@ -1846,13 +1846,13 @@
    "series": "KXCOPADELREYGAME",
    "title": "Reus vs Barakaldo: Regulation Time Moneyline",
    "ticker": "KXCOPADELREYGAME-26NOV04REUBCF-TIE",
-   "order_id": "paper-701-1793829589",
+   "order_id": "paper-703-1793831718",
    "price": "0.2200",
    "sets": 2,
    "done": 0,
    "reserve": "3.7700",
    "multiplier": "1",
-   "placed": 1793829589.6797907,
+   "placed": 1793831718.6330638,
    "hedge": [
     {
      "ticker": "KXCOPADELREYGAME-26NOV04REUBCF-REU",
@@ -1865,21 +1865,40 @@
    ]
   },
   {
-   "event": "KXTESTMATCH-26NOV012300BRODAUP",
-   "series": "KXTESTMATCH",
-   "title": "Uttar Pradesh vs Baroda",
-   "ticker": "KXTESTMATCH-26NOV012300BRODAUP-TIE",
-   "order_id": "paper-702-1793830204",
-   "price": "0.1100",
-   "sets": 5,
+   "event": "KXITFWDOUBLES-26NOV04PRIVAKDRUZUC",
+   "series": "KXITFWDOUBLES",
+   "title": "Prince / Vakalapudi vs Drugdova / Zucchini",
+   "ticker": "KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-DRUZUC",
+   "order_id": "paper-704-1793832324",
+   "price": "0.1000",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.8600",
+   "reserve": "0.3300",
    "multiplier": "1",
-   "placed": 1793830204.8110933,
+   "placed": 1793832324.73071,
    "hedge": [
     {
-     "ticker": "KXTESTMATCH-26NOV012300BRODAUP-UP",
-     "limit": "0.8600"
+     "ticker": "KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-PRIVAK",
+     "limit": "0.2000"
+    }
+   ]
+  },
+  {
+   "event": "KXITFDOUBLES-26NOV04AUGRODNOAVIT",
+   "series": "KXITFDOUBLES",
+   "title": "Augusto Garcia Finetto / Rodrigues vs Noatto / Vitor Scramin do Lago",
+   "ticker": "KXITFDOUBLES-26NOV04AUGRODNOAVIT-NOAVIT",
+   "order_id": "paper-705-1793832324",
+   "price": "0.2900",
+   "sets": 3,
+   "done": 0,
+   "reserve": "2.8900",
+   "multiplier": "1",
+   "placed": 1793832324.7988818,
+   "hedge": [
+    {
+     "ticker": "KXITFDOUBLES-26NOV04AUGRODNOAVIT-AUGROD",
+     "limit": "0.6500"
     }
    ]
   }
