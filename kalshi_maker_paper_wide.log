@@ -4499,3 +4499,11 @@
 2026-11-04 12:44:15,877 INFO Swept 20328 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-04 12:49:16,732 INFO Swept 20350 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-04 12:54:16,717 INFO Swept 20345 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 12:59:22,254 INFO Swept 20343 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 13:04:20,138 INFO Swept 20325 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 13:09:22,955 INFO Swept 20333 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 13:14:25,838 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV04RODTRACAPCOL-RODTRA at $0.3000 x5 (0 already bid at that price)
+2026-11-04 13:14:25,839 INFO Resting NO bid on KXITFWDOUBLES-26NOV04RODTRACAPCOL-RODTRA at $0.3000 x5 (KXITFWDOUBLES-26NOV04RODTRACAPCOL): locks in $0.19 if it fills; hedge NO CAPCOL@0.6400
+2026-11-04 13:14:25,843 INFO Swept 20353 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 13:19:30,650 INFO Swept 20380 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 13:24:35,555 INFO Swept 20374 events: 0 taker trades, 0 new quotes, 1 resting
