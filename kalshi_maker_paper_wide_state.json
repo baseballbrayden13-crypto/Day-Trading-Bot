@@ -1840,44 +1840,5 @@
    "closed": "2026-11-04T15:22:55.342582+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAWBGAME-26NOV05SIEME",
-   "series": "KXNCAAWBGAME",
-   "title": "Siena vs Maine",
-   "ticker": "KXNCAAWBGAME-26NOV05SIEME-SIE",
-   "order_id": "paper-686-1793812440",
-   "price": "0.2200",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8300",
-   "multiplier": "1",
-   "placed": 1793812440.7062771,
-   "hedge": [
-    {
-     "ticker": "KXNCAAWBGAME-26NOV05SIEME-ME",
-     "limit": "0.5800"
-    }
-   ]
-  },
-  {
-   "event": "KXITFDOUBLES-26NOV04FUCPERJARMAT",
-   "series": "KXITFDOUBLES",
-   "title": "Fuchs / Perez vs Jarvis / Matta",
-   "ticker": "KXITFDOUBLES-26NOV04FUCPERJARMAT-FUCPER",
-   "order_id": "paper-688-1793813045",
-   "price": "0.10",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.9000",
-   "multiplier": "1",
-   "placed": 1793813045.9699874,
-   "hedge": [
-    {
-     "ticker": "KXITFDOUBLES-26NOV04FUCPERJARMAT-JARMAT",
-     "limit": "0.8700"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

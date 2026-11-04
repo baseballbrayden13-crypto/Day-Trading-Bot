@@ -4493,3 +4493,9 @@
 2026-11-04 12:24:05,969 INFO PAPER rest NO bid KXITFDOUBLES-26NOV04FUCPERJARMAT-FUCPER at $0.1000 x5 (7 already bid at that price)
 2026-11-04 12:24:05,970 INFO Resting NO bid on KXITFDOUBLES-26NOV04FUCPERJARMAT-FUCPER at $0.10 x5 (KXITFDOUBLES-26NOV04FUCPERJARMAT): locks in $0.10 if it fills; hedge NO JARMAT@0.8700
 2026-11-04 12:24:05,974 INFO Swept 20244 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 12:29:08,861 INFO Swept 20257 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 12:34:11,587 INFO Swept 20274 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 12:39:13,763 INFO Swept 20295 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 12:44:15,877 INFO Swept 20328 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 12:49:16,732 INFO Swept 20350 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 12:54:16,717 INFO Swept 20345 events: 0 taker trades, 0 new quotes, 1 resting
