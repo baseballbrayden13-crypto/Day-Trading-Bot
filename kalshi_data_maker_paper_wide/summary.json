@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:37:33+00:00",
+ "updated": "2026-11-04T19:16:19+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -13,14 +13,11 @@
  "stray_positions": 0,
  "closed_trades": 49,
  "trades_this_loop": 0,
- "events_swept": 20420,
+ "events_swept": 20432,
  "found_this_loop": 1,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 2,
- "last_problems": [
-  "2026-11-04 15:13 Quote KXOWGAME-26NOV040900BENSJK: hedge missed on KXOWGAME-26NOV040900BENSJK-BEN. Selling back 5 contracts on 1 legs.",
-  "2026-11-04 15:13 STRAY POSITION: 5 NO contracts of KXOWGAME-26NOV040900BENSJK-SJK still held. Check it on Kalshi."
- ]
+ "problems": 0,
+ "last_problems": []
 }

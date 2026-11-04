@@ -4512,3 +4512,13 @@
 2026-11-04 13:34:42,961 INFO Swept 20426 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-04 13:39:46,219 INFO Swept 20420 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-04 13:40:01,230 INFO Stopped; all quotes cancelled.
+2026-11-04 13:51:13,307 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-04 13:52:58,662 INFO Swept 20408 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 13:57:59,377 INFO PAPER rest NO bid KXATPDOUBLES-26NOV03CERETCHARSKU-HARSKU at $0.3400 x5 (0 already bid at that price)
+2026-11-04 13:57:59,377 INFO Resting NO bid on KXATPDOUBLES-26NOV03CERETCHARSKU-HARSKU at $0.3400 x5 (KXATPDOUBLES-26NOV03CERETCHARSKU): locks in $0.14 if it fills; hedge NO CERETC@0.6100
+2026-11-04 13:57:59,381 INFO Swept 20403 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 14:03:00,630 INFO Swept 20396 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 14:05:19,409 INFO Quote KXATPDOUBLES-26NOV03CERETCHARSKU cancelled (0/5 filled)
+2026-11-04 14:08:04,457 INFO Swept 20405 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 14:13:04,588 INFO Swept 20413 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 14:18:04,782 INFO Swept 20432 events: 0 taker trades, 0 new quotes, 0 resting
