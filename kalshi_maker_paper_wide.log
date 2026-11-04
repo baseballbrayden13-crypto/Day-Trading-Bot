@@ -4471,3 +4471,25 @@
 2026-11-04 11:43:49,692 INFO Swept 20194 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-04 11:48:52,047 INFO Swept 20204 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-04 11:53:54,793 INFO Swept 20202 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 11:58:56,469 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV05SIEME-SIE at $0.1900 x2 (0 already bid at that price)
+2026-11-04 11:58:56,469 INFO Resting NO bid on KXNCAAWBGAME-26NOV05SIEME-SIE at $0.1900 x2 (KXNCAAWBGAME-26NOV05SIEME): locks in $0.41 if it fills; hedge NO ME@0.5800
+2026-11-04 11:58:56,473 INFO Swept 20202 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 12:03:57,898 INFO PAPER rest NO bid KXITFDOUBLES-26NOV04FUCPERJARMAT-FUCPER at $0.1000 x5 (5 already bid at that price)
+2026-11-04 12:03:57,898 INFO Resting NO bid on KXITFDOUBLES-26NOV04FUCPERJARMAT-FUCPER at $0.10 x5 (KXITFDOUBLES-26NOV04FUCPERJARMAT): locks in $0.14 if it fills; hedge NO JARMAT@0.8600
+2026-11-04 12:03:57,903 INFO Swept 20205 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 12:04:13,255 INFO Quote KXITFDOUBLES-26NOV04FUCPERJARMAT cancelled (0/5 filled)
+2026-11-04 12:09:00,164 INFO PAPER rest NO bid KXACTBLUETOP-26NOV04-AELS at $0.0900 x5 (307 already bid at that price)
+2026-11-04 12:09:00,164 INFO Resting NO bid on KXACTBLUETOP-26NOV04-AELS at $0.09 x5 (KXACTBLUETOP-26NOV04): locks in $0.10 if it fills; hedge NO JTAL@0.8800
+2026-11-04 12:09:00,168 INFO Swept 20215 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 12:09:05,364 INFO Quote KXACTBLUETOP-26NOV04 cancelled (0/5 filled)
+2026-11-04 12:09:15,481 INFO Quote KXNCAAWBGAME-26NOV05SIEME cancelled (0/2 filled)
+2026-11-04 12:14:00,706 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV05SIEME-SIE at $0.2200 x1 (0 already bid at that price)
+2026-11-04 12:14:00,706 INFO Resting NO bid on KXNCAAWBGAME-26NOV05SIEME-SIE at $0.2200 x1 (KXNCAAWBGAME-26NOV05SIEME): locks in $0.17 if it fills; hedge NO ME@0.5800
+2026-11-04 12:14:00,728 INFO PAPER rest NO bid KXLOWTOKC-26NOV04-B45.5 at $0.0800 x4 (31 already bid at that price)
+2026-11-04 12:14:00,728 INFO Resting NO bid on KXLOWTOKC-26NOV04-B45.5 at $0.08 x4 (KXLOWTOKC-26NOV04): locks in $0.12 if it fills; hedge NO B43.5@0.8800
+2026-11-04 12:14:00,732 INFO Swept 20218 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-04 12:16:17,893 INFO Quote KXLOWTOKC-26NOV04 cancelled (0/4 filled)
+2026-11-04 12:19:03,190 INFO Swept 20242 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 12:24:05,969 INFO PAPER rest NO bid KXITFDOUBLES-26NOV04FUCPERJARMAT-FUCPER at $0.1000 x5 (7 already bid at that price)
+2026-11-04 12:24:05,970 INFO Resting NO bid on KXITFDOUBLES-26NOV04FUCPERJARMAT-FUCPER at $0.10 x5 (KXITFDOUBLES-26NOV04FUCPERJARMAT): locks in $0.10 if it fills; hedge NO JARMAT@0.8700
+2026-11-04 12:24:05,974 INFO Swept 20244 events: 0 taker trades, 1 new quotes, 2 resting
