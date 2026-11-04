@@ -1,5 +1,5 @@
 {
- "realized": "-1.2500",
+ "realized": "-1.3200",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -1842,63 +1842,21 @@
  ],
  "quotes": [
   {
-   "event": "KXCOPADELREYGAME-26NOV04REUBCF",
-   "series": "KXCOPADELREYGAME",
-   "title": "Reus vs Barakaldo: Regulation Time Moneyline",
-   "ticker": "KXCOPADELREYGAME-26NOV04REUBCF-TIE",
-   "order_id": "paper-703-1793831718",
-   "price": "0.2200",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.7700",
-   "multiplier": "1",
-   "placed": 1793831718.6330638,
-   "hedge": [
-    {
-     "ticker": "KXCOPADELREYGAME-26NOV04REUBCF-REU",
-     "limit": "0.8100"
-    },
-    {
-     "ticker": "KXCOPADELREYGAME-26NOV04REUBCF-BCF",
-     "limit": "0.8200"
-    }
-   ]
-  },
-  {
-   "event": "KXITFWDOUBLES-26NOV04PRIVAKDRUZUC",
-   "series": "KXITFWDOUBLES",
-   "title": "Prince / Vakalapudi vs Drugdova / Zucchini",
-   "ticker": "KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-DRUZUC",
-   "order_id": "paper-704-1793832324",
-   "price": "0.1000",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.3300",
-   "multiplier": "1",
-   "placed": 1793832324.73071,
-   "hedge": [
-    {
-     "ticker": "KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-PRIVAK",
-     "limit": "0.2000"
-    }
-   ]
-  },
-  {
-   "event": "KXITFDOUBLES-26NOV04AUGRODNOAVIT",
-   "series": "KXITFDOUBLES",
-   "title": "Augusto Garcia Finetto / Rodrigues vs Noatto / Vitor Scramin do Lago",
-   "ticker": "KXITFDOUBLES-26NOV04AUGRODNOAVIT-NOAVIT",
-   "order_id": "paper-705-1793832324",
+   "event": "KXNCAAWBGAME-26NOV06NEBU",
+   "series": "KXNCAAWBGAME",
+   "title": "Northeastern vs Boston University",
+   "ticker": "KXNCAAWBGAME-26NOV06NEBU-NE",
+   "order_id": "paper-707-1793834468",
    "price": "0.2900",
-   "sets": 3,
+   "sets": 5,
    "done": 0,
-   "reserve": "2.8900",
+   "reserve": "4.8500",
    "multiplier": "1",
-   "placed": 1793832324.7988818,
+   "placed": 1793834468.2381318,
    "hedge": [
     {
-     "ticker": "KXITFDOUBLES-26NOV04AUGRODNOAVIT-AUGROD",
-     "limit": "0.6500"
+     "ticker": "KXNCAAWBGAME-26NOV06NEBU-BU",
+     "limit": "0.6700"
     }
    ]
   }

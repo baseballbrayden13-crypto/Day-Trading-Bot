@@ -4601,3 +4601,18 @@
 2026-11-04 17:45:24,798 INFO Resting NO bid on KXITFDOUBLES-26NOV04AUGRODNOAVIT-NOAVIT at $0.2900 x3 (KXITFDOUBLES-26NOV04AUGRODNOAVIT): locks in $0.11 if it fills; hedge NO AUGROD@0.6500
 2026-11-04 17:45:24,802 INFO Swept 20340 events: 0 taker trades, 2 new quotes, 3 resting
 2026-11-04 17:50:29,785 INFO Swept 20341 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-04 17:52:23,352 INFO PAPER KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-DRUZUC NO bid at $0.1000: 1/1 filled by real trades
+2026-11-04 17:52:23,421 INFO PAPER buy 1 NO KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-PRIVAK at up to $0.2000: not on the book
+2026-11-04 17:52:23,421 WARNING Quote KXITFWDOUBLES-26NOV04PRIVAKDRUZUC: hedge missed on KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-PRIVAK. Selling back 1 contracts on 1 legs.
+2026-11-04 17:52:23,482 INFO PAPER sell 1 YES KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-DRUZUC at up to $0.9500: filled 1
+2026-11-04 17:55:32,712 INFO Swept 20331 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 18:00:43,336 INFO Swept 20332 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 18:05:53,329 INFO Swept 20338 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 18:10:56,607 INFO Swept 20392 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 18:16:06,308 INFO PAPER rest NO bid KXLOLSCORE-26NOV041700LYGEN-LY31 at $0.7900 x1 (20 already bid at that price)
+2026-11-04 18:16:06,308 INFO Resting NO bid on KXLOLSCORE-26NOV041700LYGEN-LY31 at $0.79 x1 (KXLOLSCORE-26NOV041700LYGEN): locks in $0.10 if it fills; hedge NO GEN30@0.2600, GEN31@0.8600, GEN32@0.9400
+2026-11-04 18:16:06,312 INFO Swept 20425 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 18:16:52,761 INFO Quote KXLOLSCORE-26NOV041700LYGEN cancelled (0/1 filled)
+2026-11-04 18:21:08,237 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06NEBU-NE at $0.2900 x5 (0 already bid at that price)
+2026-11-04 18:21:08,238 INFO Resting NO bid on KXNCAAWBGAME-26NOV06NEBU-NE at $0.2900 x5 (KXNCAAWBGAME-26NOV06NEBU): locks in $0.15 if it fills; hedge NO BU@0.6600
+2026-11-04 18:21:08,362 INFO Swept 20444 events: 0 taker trades, 1 new quotes, 1 resting

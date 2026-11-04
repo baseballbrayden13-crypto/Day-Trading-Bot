@@ -1,23 +1,25 @@
 {
- "updated": "2026-11-04T22:48:01+00:00",
+ "updated": "2026-11-04T23:18:22+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "18.75",
- "realized_profit": "-1.25",
- "bet_level": "18.75",
+ "equity": "18.68",
+ "realized_profit": "-1.32",
+ "bet_level": "18.68",
  "open_trades": 3,
  "open_locked_profit": "2.64",
  "in_play": "9.36",
  "stray_positions": 0,
  "closed_trades": 49,
  "trades_this_loop": 0,
- "events_swept": 20341,
+ "events_swept": 20444,
  "found_this_loop": 1,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 0,
- "last_problems": []
+ "problems": 1,
+ "last_problems": [
+  "2026-11-04 22:52 Quote KXITFWDOUBLES-26NOV04PRIVAKDRUZUC: hedge missed on KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-PRIVAK. Selling back 1 contracts on 1 legs."
+ ]
 }
