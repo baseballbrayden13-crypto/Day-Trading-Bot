@@ -1842,21 +1842,21 @@
  ],
  "quotes": [
   {
-   "event": "KXWTASETWINNER-26NOV05VALEAL-2",
-   "series": "KXWTASETWINNER",
-   "title": "Tereza Valentova vs Alexandra Eala: Set 2 Winner",
-   "ticker": "KXWTASETWINNER-26NOV05VALEAL-2-EAL",
-   "order_id": "paper-697-1793825317",
-   "price": "0.2800",
-   "sets": 4,
+   "event": "KXITFDOUBLES-26NOV04CARVARLIESHE",
+   "series": "KXITFDOUBLES",
+   "title": "Carlevato / Vartak vs Lieberman / Sheldon",
+   "ticker": "KXITFDOUBLES-26NOV04CARVARLIESHE-CARVAR",
+   "order_id": "paper-698-1793825616",
+   "price": "0.7700",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.7300",
+   "reserve": "4.5600",
    "multiplier": "1",
-   "placed": 1793825317.1172829,
+   "placed": 1793825616.6070247,
    "hedge": [
     {
-     "ticker": "KXWTASETWINNER-26NOV05VALEAL-2-VAL",
-     "limit": "0.6300"
+     "ticker": "KXITFDOUBLES-26NOV04CARVARLIESHE-LIESHE",
+     "limit": "0.1300"
     }
    ]
   }

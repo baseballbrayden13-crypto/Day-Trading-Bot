@@ -4561,3 +4561,11 @@
 2026-11-04 15:48:37,117 INFO Resting NO bid on KXWTASETWINNER-26NOV05VALEAL-2-EAL at $0.2800 x4 (KXWTASETWINNER-26NOV05VALEAL-2): locks in $0.27 if it fills; hedge NO VAL@0.6300
 2026-11-04 15:48:37,121 INFO Swept 20431 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-04 15:49:35,183 INFO Quote KXBNB-26NOV0417 cancelled (0/5 filled)
+2026-11-04 15:53:36,606 INFO PAPER rest NO bid KXITFDOUBLES-26NOV04CARVARLIESHE-CARVAR at $0.7700 x5 (0 already bid at that price)
+2026-11-04 15:53:36,607 INFO Resting NO bid on KXITFDOUBLES-26NOV04CARVARLIESHE-CARVAR at $0.7700 x5 (KXITFDOUBLES-26NOV04CARVARLIESHE): locks in $0.44 if it fills; hedge NO LIESHE@0.1300
+2026-11-04 15:53:36,610 INFO Swept 20403 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 15:58:41,255 INFO Swept 20371 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 16:03:53,170 INFO Swept 20371 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 16:09:14,581 INFO Swept 20382 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 16:14:26,486 INFO Swept 20379 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 16:19:29,695 INFO Swept 20392 events: 0 taker trades, 0 new quotes, 2 resting
