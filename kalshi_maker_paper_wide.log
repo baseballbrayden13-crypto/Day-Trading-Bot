@@ -4507,3 +4507,8 @@
 2026-11-04 13:14:25,843 INFO Swept 20353 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-04 13:19:30,650 INFO Swept 20380 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-04 13:24:35,555 INFO Swept 20374 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 13:29:39,473 INFO Swept 20401 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 13:30:04,781 INFO Quote KXITFWDOUBLES-26NOV04RODTRACAPCOL cancelled (0/5 filled)
+2026-11-04 13:34:42,961 INFO Swept 20426 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 13:39:46,219 INFO Swept 20420 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 13:40:01,230 INFO Stopped; all quotes cancelled.

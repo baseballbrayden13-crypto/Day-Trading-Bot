@@ -1840,25 +1840,5 @@
    "closed": "2026-11-04T15:22:55.342582+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXITFWDOUBLES-26NOV04RODTRACAPCOL",
-   "series": "KXITFWDOUBLES",
-   "title": "Rodriguez / Tran vs Capurro Taborda / Colmegna",
-   "ticker": "KXITFWDOUBLES-26NOV04RODTRACAPCOL-RODTRA",
-   "order_id": "paper-689-1793816065",
-   "price": "0.3000",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8100",
-   "multiplier": "1",
-   "placed": 1793816065.8390765,
-   "hedge": [
-    {
-     "ticker": "KXITFWDOUBLES-26NOV04RODTRACAPCOL-CAPCOL",
-     "limit": "0.6600"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
