@@ -4569,3 +4569,13 @@
 2026-11-04 16:09:14,581 INFO Swept 20382 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-04 16:14:26,486 INFO Swept 20379 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-04 16:19:29,695 INFO Swept 20392 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 16:24:32,764 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV05CHIPEDGRAYAR-GRAYAR at $0.4600 x4 (0 already bid at that price)
+2026-11-04 16:24:32,765 INFO Resting NO bid on KXITFWDOUBLES-26NOV05CHIPEDGRAYAR-GRAYAR at $0.46 x4 (KXITFWDOUBLES-26NOV05CHIPEDGRAYAR): locks in $0.11 if it fills; hedge NO CHIPED@0.4900
+2026-11-04 16:24:32,768 INFO Swept 20380 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 16:29:37,278 INFO PAPER rest NO bid KXITFDOUBLES-26NOV04CARVARLIESHE-CARVAR at $0.7800 x5 (0 already bid at that price)
+2026-11-04 16:29:37,278 INFO Resting NO bid on KXITFDOUBLES-26NOV04CARVARLIESHE-CARVAR at $0.7800 x5 (KXITFDOUBLES-26NOV04CARVARLIESHE): locks in $0.39 if it fills; hedge NO LIESHE@0.1300
+2026-11-04 16:29:37,282 INFO Swept 20391 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 16:34:38,741 INFO Swept 20409 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 16:39:41,062 INFO Swept 20424 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 16:44:43,706 INFO Swept 20439 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 16:49:45,400 INFO Swept 20455 events: 0 taker trades, 0 new quotes, 2 resting

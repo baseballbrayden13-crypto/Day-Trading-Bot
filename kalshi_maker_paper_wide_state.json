@@ -1842,17 +1842,36 @@
  ],
  "quotes": [
   {
+   "event": "KXITFWDOUBLES-26NOV05CHIPEDGRAYAR",
+   "series": "KXITFWDOUBLES",
+   "title": "Chiesa / Pedone vs Grammatikopoulou / Yardley",
+   "ticker": "KXITFWDOUBLES-26NOV05CHIPEDGRAYAR-GRAYAR",
+   "order_id": "paper-699-1793827472",
+   "price": "0.46",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8900",
+   "multiplier": "1",
+   "placed": 1793827472.764981,
+   "hedge": [
+    {
+     "ticker": "KXITFWDOUBLES-26NOV05CHIPEDGRAYAR-CHIPED",
+     "limit": "0.4900"
+    }
+   ]
+  },
+  {
    "event": "KXITFDOUBLES-26NOV04CARVARLIESHE",
    "series": "KXITFDOUBLES",
    "title": "Carlevato / Vartak vs Lieberman / Sheldon",
    "ticker": "KXITFDOUBLES-26NOV04CARVARLIESHE-CARVAR",
-   "order_id": "paper-698-1793825616",
-   "price": "0.7700",
+   "order_id": "paper-700-1793827777",
+   "price": "0.7800",
    "sets": 5,
    "done": 0,
-   "reserve": "4.5600",
+   "reserve": "4.6100",
    "multiplier": "1",
-   "placed": 1793825616.6070247,
+   "placed": 1793827777.278813,
    "hedge": [
     {
      "ticker": "KXITFDOUBLES-26NOV04CARVARLIESHE-LIESHE",
