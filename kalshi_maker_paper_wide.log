@@ -4448,3 +4448,11 @@
 2026-11-04 10:23:21,938 INFO PAPER rest NO bid KXNBARACE-26NOV04MILBOS-10-MIL at $0.5400 x5 (168 already bid at that price)
 2026-11-04 10:23:21,938 INFO Resting NO bid on KXNBARACE-26NOV04MILBOS-10-MIL at $0.54 x5 (KXNBARACE-26NOV04MILBOS-10): locks in $0.13 if it fills; hedge NO BOS@0.4100
 2026-11-04 10:23:21,943 INFO Swept 20059 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 10:28:23,804 INFO Swept 20059 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 10:33:24,794 INFO Swept 20052 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 10:38:24,601 INFO Swept 20110 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 10:43:29,734 INFO Swept 20105 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 10:48:34,985 INFO PAPER rest NO bid KXMLBSS-26ALDH-JPEDERSON3 at $0.1300 x1 (0 already bid at that price)
+2026-11-04 10:48:34,985 INFO Resting NO bid on KXMLBSS-26ALDH-JPEDERSON3 at $0.1300 x1 (KXMLBSS-26ALDH): locks in $0.66 if it fills; hedge NO YALVAREZ44@0.5900, DCANZONE8@0.9000, YDIAZ2@0.8500, JSOLER12@0.9000, TIE@0.9000
+2026-11-04 10:48:34,989 INFO Swept 20102 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 10:53:36,579 INFO Swept 20093 events: 0 taker trades, 0 new quotes, 2 resting
