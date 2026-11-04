@@ -4421,3 +4421,11 @@
 2026-11-04 09:12:53,761 INFO Swept 20070 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-04 09:17:59,357 INFO Swept 20072 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-04 09:23:00,363 INFO Swept 20058 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 09:28:01,658 INFO Swept 20034 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 09:32:55,874 INFO Swept 20029 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 09:37:59,952 INFO Swept 20024 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 09:43:04,531 INFO Swept 20018 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 09:48:09,978 INFO Swept 20005 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 09:53:09,272 INFO PAPER rest NO bid KXKBO-26-SAM at $0.3300 x4 (0 already bid at that price)
+2026-11-04 09:53:09,273 INFO Resting NO bid on KXKBO-26-SAM at $0.3300 x4 (KXKBO-26): locks in $1.03 if it fills; hedge NO KTW@0.3900
+2026-11-04 09:53:09,277 INFO Swept 19998 events: 0 taker trades, 1 new quotes, 1 resting

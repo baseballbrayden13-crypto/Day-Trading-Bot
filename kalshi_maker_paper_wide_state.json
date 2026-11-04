@@ -1822,21 +1822,21 @@
  ],
  "quotes": [
   {
-   "event": "KXCODGAME-26NOV061100HUNFAZ",
-   "series": "KXCODGAME",
-   "title": "Huntsmen vs. FaZe Vegas",
-   "ticker": "KXCODGAME-26NOV061100HUNFAZ-HUN",
-   "order_id": "paper-676-1793800662",
-   "price": "0.87",
-   "sets": 5,
+   "event": "KXKBO-26",
+   "series": "KXKBO",
+   "title": "Korea KBO Champion",
+   "ticker": "KXKBO-26-SAM",
+   "order_id": "paper-677-1793803989",
+   "price": "0.3300",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.9000",
+   "reserve": "2.9700",
    "multiplier": "1",
-   "placed": 1793800662.553078,
+   "placed": 1793803989.2730863,
    "hedge": [
     {
-     "ticker": "KXCODGAME-26NOV061100HUNFAZ-FAZ",
-     "limit": "0.1000"
+     "ticker": "KXKBO-26-KTW",
+     "limit": "0.8400"
     }
    ]
   }
