@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-03T20:59:22+00:00",
+ "checked": "2026-11-04T01:28:52+00:00",
  "status": {
   "0": "ok",
   "1": "info",
@@ -40,7 +40,7 @@
    "bot": 2,
    "level": "info",
    "check": "return",
-   "message": "$4,908.26, -1.8% since the $5,000 start.",
+   "message": "$4,912.20, -1.8% since the $5,000 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -67,7 +67,7 @@
    "bot": 3,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -5.5%.",
+   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -4.7%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -103,7 +103,7 @@
    "bot": 7,
    "level": "act",
    "check": "drawdown",
-   "message": "Bot 4e is at $15.62 of its $20.00 start.",
+   "message": "Bot 4e is at $15.25 of its $20.00 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -112,7 +112,7 @@
    "bot": 7,
    "level": "info",
    "check": "return",
-   "message": "Bot 4e: 66 settled, 4 open, $-4.38 settled profit.",
+   "message": "Bot 4e: 66 settled, 4 open, $-4.75 settled profit.",
    "fix": "",
    "proposal": "",
    "risk": "Low"

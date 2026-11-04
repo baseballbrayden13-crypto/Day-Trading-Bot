@@ -1,13 +1,13 @@
 checked,bot,label,level,check,message,fix
-2026-11-03T20:59:22+00:00,1,1,ok,replay,2026-11-03: bot 1 did what the backtest would have (1 entries).,
-2026-11-03T20:59:22+00:00,1,1,info,return,"$4,979.73, -0.4% since the $5,000 start.",
-2026-11-03T20:59:22+00:00,1,1,info,performance,6 closed trades so far; 30 are needed before the results say anything about the strategy.,
-2026-11-03T20:59:22+00:00,2,2,info,return,"$4,908.26, -1.8% since the $5,000 start.",
-2026-11-03T20:59:22+00:00,2,2,info,vs hold,Since 2026-10-23: bot -1.8% vs just holding SPY -0.7%.,
-2026-11-03T20:59:22+00:00,3,3,info,return,"$5,000.00, +0.0% since the $5,000 start.",
-2026-11-03T20:59:22+00:00,3,3,info,vs hold,Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -5.5%.,
-2026-11-03T20:59:22+00:00,6,4c,info,return,"Bot 4c: 3 settled, 1 open, $+7.07 settled profit.",
-2026-11-03T20:59:22+00:00,7,4e,act,stray,Bot 4e: 1 half-filled positions are still held.,Check them on Kalshi; the bot couldn't sell them back.
-2026-11-03T20:59:22+00:00,7,4e,act,losses,Bot 4e: 16 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.,Read kalshi_data/opportunities.csv for those events.
-2026-11-03T20:59:22+00:00,7,4e,act,drawdown,Bot 4e is at $15.62 of its $20.00 start.,
-2026-11-03T20:59:22+00:00,7,4e,info,return,"Bot 4e: 66 settled, 4 open, $-4.38 settled profit.",
+2026-11-04T01:28:52+00:00,1,1,ok,replay,2026-11-03: bot 1 did what the backtest would have (1 entries).,
+2026-11-04T01:28:52+00:00,1,1,info,return,"$4,979.73, -0.4% since the $5,000 start.",
+2026-11-04T01:28:52+00:00,1,1,info,performance,6 closed trades so far; 30 are needed before the results say anything about the strategy.,
+2026-11-04T01:28:52+00:00,2,2,info,return,"$4,912.20, -1.8% since the $5,000 start.",
+2026-11-04T01:28:52+00:00,2,2,info,vs hold,Since 2026-10-23: bot -1.8% vs just holding SPY -0.7%.,
+2026-11-04T01:28:52+00:00,3,3,info,return,"$5,000.00, +0.0% since the $5,000 start.",
+2026-11-04T01:28:52+00:00,3,3,info,vs hold,Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -4.7%.,
+2026-11-04T01:28:52+00:00,6,4c,info,return,"Bot 4c: 3 settled, 1 open, $+7.07 settled profit.",
+2026-11-04T01:28:52+00:00,7,4e,act,stray,Bot 4e: 1 half-filled positions are still held.,Check them on Kalshi; the bot couldn't sell them back.
+2026-11-04T01:28:52+00:00,7,4e,act,losses,Bot 4e: 16 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.,Read kalshi_data/opportunities.csv for those events.
+2026-11-04T01:28:52+00:00,7,4e,act,drawdown,Bot 4e is at $15.25 of its $20.00 start.,
+2026-11-04T01:28:52+00:00,7,4e,info,return,"Bot 4e: 66 settled, 4 open, $-4.75 settled profit.",
