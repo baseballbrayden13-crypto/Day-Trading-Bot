@@ -1842,36 +1842,20 @@
  ],
  "quotes": [
   {
-   "event": "KXMLBSS-26ALDH",
-   "series": "KXMLBSS",
-   "title": "Silver Slugger: AL Designated Hitter",
-   "ticker": "KXMLBSS-26ALDH-JPEDERSON3",
-   "order_id": "paper-681-1793807314",
-   "price": "0.1300",
-   "sets": 1,
+   "event": "KXTESTMATCH-26NOV012300BRODAUP",
+   "series": "KXTESTMATCH",
+   "title": "Uttar Pradesh vs Baroda",
+   "ticker": "KXTESTMATCH-26NOV012300BRODAUP-TIE",
+   "order_id": "paper-682-1793808518",
+   "price": "0.07",
+   "sets": 5,
    "done": 0,
-   "reserve": "4.3400",
+   "reserve": "4.9000",
    "multiplier": "1",
-   "placed": 1793807314.9851556,
+   "placed": 1793808518.2371883,
    "hedge": [
     {
-     "ticker": "KXMLBSS-26ALDH-YALVAREZ44",
-     "limit": "0.5900"
-    },
-    {
-     "ticker": "KXMLBSS-26ALDH-DCANZONE8",
-     "limit": "0.9000"
-    },
-    {
-     "ticker": "KXMLBSS-26ALDH-YDIAZ2",
-     "limit": "0.8500"
-    },
-    {
-     "ticker": "KXMLBSS-26ALDH-JSOLER12",
-     "limit": "0.9000"
-    },
-    {
-     "ticker": "KXMLBSS-26ALDH-TIE",
+     "ticker": "KXTESTMATCH-26NOV012300BRODAUP-UP",
      "limit": "0.9000"
     }
    ]
