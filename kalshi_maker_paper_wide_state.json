@@ -100,6 +100,30 @@
      "limit": "0.9600"
     }
    ]
+  },
+  {
+   "event": "KXCONMEBOLSUD-26",
+   "series": "KXCONMEBOLSUD",
+   "title": "CONMEBOL Sudamericana Champion",
+   "sets": 4,
+   "outlay": "3.8900",
+   "locked_profit": "0.1100",
+   "opened": "2026-11-04T03:16:31.767715+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCONMEBOLSUD-26-BOC",
+     "side": "no",
+     "count": 4,
+     "limit": "0.46"
+    },
+    {
+     "ticker": "KXCONMEBOLSUD-26-ATL",
+     "side": "no",
+     "count": 4,
+     "limit": "0.4900"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1792,21 +1816,21 @@
  ],
  "quotes": [
   {
-   "event": "KXSTATELEG-NHHOUSE26",
-   "series": "KXSTATELEG",
-   "title": "New Hampshire State House winner?",
-   "ticker": "KXSTATELEG-NHHOUSE26-R",
-   "order_id": "paper-668-1793759162",
-   "price": "0.1500",
-   "sets": 4,
+   "event": "KXOHACTONBROWN-26DEC07",
+   "series": "KXOHACTONBROWN",
+   "title": "Ohio: Acton's margin vs. Brown's margin?",
+   "ticker": "KXOHACTONBROWN-26DEC07-R3",
+   "order_id": "paper-670-1793761587",
+   "price": "0.2800",
+   "sets": 1,
    "done": 0,
-   "reserve": "3.8600",
+   "reserve": "0.5300",
    "multiplier": "1",
-   "placed": 1793759162.1379437,
+   "placed": 1793761587.1432114,
    "hedge": [
     {
-     "ticker": "KXSTATELEG-NHHOUSE26-D",
-     "limit": "0.8000"
+     "ticker": "KXOHACTONBROWN-26DEC07-R0",
+     "limit": "0.2200"
     }
    ]
   }

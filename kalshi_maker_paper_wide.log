@@ -4263,3 +4263,16 @@
 2026-11-03 21:41:11,715 INFO Swept 20468 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 21:46:15,004 INFO Swept 20452 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-03 21:51:18,448 INFO Swept 20418 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 21:56:20,587 INFO Swept 20377 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-03 22:01:21,272 INFO PAPER rest NO bid KXCONMEBOLSUD-26-BOC at $0.4600 x4 (0 already bid at that price)
+2026-11-03 22:01:21,272 INFO Resting NO bid on KXCONMEBOLSUD-26-BOC at $0.46 x4 (KXCONMEBOLSUD-26): locks in $0.11 if it fills; hedge NO ATL@0.4900
+2026-11-03 22:01:21,276 INFO Swept 20329 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-03 22:06:27,143 INFO PAPER rest NO bid KXOHACTONBROWN-26DEC07-R3 at $0.2800 x1 (0 already bid at that price)
+2026-11-03 22:06:27,143 INFO Resting NO bid on KXOHACTONBROWN-26DEC07-R3 at $0.2800 x1 (KXOHACTONBROWN-26DEC07): locks in $0.47 if it fills; hedge NO R0@0.2200
+2026-11-03 22:06:27,147 INFO Swept 20306 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-03 22:11:26,742 INFO Swept 20298 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 22:16:31,627 INFO Swept 20288 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-03 22:16:31,693 INFO PAPER KXCONMEBOLSUD-26-BOC NO bid at $0.4600: 4/4 filled by real trades
+2026-11-03 22:16:31,767 INFO PAPER buy 4 NO KXCONMEBOLSUD-26-ATL at up to $0.4900: filled 4
+2026-11-03 22:16:31,767 INFO Quote KXCONMEBOLSUD-26 filled 4: hedged, locks in $0.11
+2026-11-03 22:21:33,318 INFO Swept 20271 events: 0 taker trades, 0 new quotes, 1 resting
