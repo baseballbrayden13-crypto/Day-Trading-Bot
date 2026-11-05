@@ -329,3 +329,34 @@ def test_live_games_get_small_quotes():
     assert km.is_live([{"expected_expiration_time": soon}], now)
     assert not km.is_live([{"expected_expiration_time": later}], now)
     assert not km.is_live([{}], now)
+
+
+def _stray(count=5, cost="0.60"):
+    return {"event": "EV (stray)", "series": "SER", "title": "t", "sets": 0, "outlay": str(D(cost) * count), "locked_profit": "0",
+            "opened": "x", "legs": [{"ticker": "A", "side": "no", "count": count, "limit": cost}]}
+
+
+def test_stray_is_offered_again_and_booked_when_it_sells():
+    state = {"realized": "0", "open": [_stray()], "closed": []}
+    api = FakeApi()
+    km.retry_strays(api, state, now=1000.0)
+    assert api.orders == [("A", "yes", 5, km.ONE - (D("0.60") - km.STRAY_HAIRCUT), True)]
+    assert state["open"] == [] and state["closed"][0]["sold_back"] and D(state["realized"]) < 0
+
+
+def test_unsold_stray_waits_a_minute_before_the_next_try():
+    state = {"realized": "0", "open": [_stray()], "closed": []}
+    api = FakeApi(fail="A")
+    api.order = lambda *a, **k: api.orders.append(a) or 0
+    km.retry_strays(api, state, now=1000.0)
+    km.retry_strays(api, state, now=1030.0)
+    assert len(api.orders) == 1 and len(state["open"]) == 1 and state["realized"] == "0"
+    km.retry_strays(api, state, now=1061.0)
+    assert len(api.orders) == 2
+
+
+def test_locked_baskets_are_not_mixed_up_with_strays():
+    state = {"realized": "0", "open": [{**_stray(), "sets": 3, "legs": [{"ticker": "A"}, {"ticker": "B"}]}], "closed": []}
+    api = FakeApi()
+    km.retry_strays(api, state, now=1000.0)
+    assert api.orders == [] and len(state["open"]) == 1

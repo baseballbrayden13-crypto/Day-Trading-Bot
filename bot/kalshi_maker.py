@@ -39,6 +39,8 @@ MAKER_RATE = D("0.0175")
 DECIDED = D("0.95")  # skip events where some market's YES bid is already this high
 MIN_VOLUME = 100  # contracts traded in the last 24h on the market we'd quote (KALSHI_MIN_VOLUME)
 ACTIVE_MIN = 60  # ...and at least one trade in this many minutes (KALSHI_ACTIVE_MIN): a quote only fills from real trades
+STRAY_HAIRCUT = D("0.15")  # stuck one-sided contracts are offered again at up to this much under what they cost
+STRAY_RETRY_SEC = 60  # ...once a minute, until they sell or settle
 log = logging.getLogger("kalshi")
 
 
@@ -259,6 +261,39 @@ def hedge(api, state: dict, q: dict, n: int) -> bool:
     return True
 
 
+def retry_strays(api, state: dict, now: float | None = None) -> None:
+    """Offer stuck one-sided contracts (a hedge missed and the first sell-back didn't fill) again, at up to
+    STRAY_HAIRCUT under what they cost. Held to settlement they mostly lost: the quote filled because the
+    price was moving against it."""
+    now = time.time() if now is None else now
+    keep = []
+    for b in state["open"]:
+        if b.get("sets", 1) != 0 or len(b["legs"]) != 1 or now - b.get("retried", 0) < STRAY_RETRY_SEC:
+            keep.append(b)
+            continue
+        b["retried"] = now
+        leg = b["legs"][0]
+        n, outlay = int(leg["count"]), D(b["outlay"])
+        floor = max(D(leg["limit"]) - STRAY_HAIRCUT, CENT)
+        try:
+            sold = api.order(leg["ticker"], "yes", n, ONE - floor, "immediate_or_cancel", reduce_only=True)
+        except RuntimeError as err:
+            log.warning("Stray %s: sell retry failed: %s", leg["ticker"], err)
+            sold = 0
+        if sold:
+            cost = outlay * sold / n
+            pnl = floor * sold - fee(sold, floor, ONE) - cost
+            state["realized"] = str(D(state["realized"]) + pnl)
+            state.setdefault("closed", []).append({**b, "legs": [{**leg, "count": sold}], "outlay": str(cost), "paid": str(floor * sold),
+                                                    "pnl": str(pnl), "closed": _now(), "sold_back": True})
+            log.info("Stray %s: sold %d of %d at $%s or better, booked $%.2f", leg["ticker"], sold, n, floor, pnl)
+        if sold < n:
+            leg["count"] = n - sold
+            b["outlay"] = str(outlay - outlay * sold / n)
+            keep.append(b)
+    state["open"] = keep
+
+
 def still_pays(api, q: dict, cfg: dict) -> bool:
     """Would the unfilled sets still lock in the minimum profit at today's asks on the other legs?"""
     left = q["sets"] - q["done"]
@@ -353,6 +388,7 @@ def check(api, cfg: dict) -> None:
         if live:
             keep.append(q)
     state["quotes"] = keep
+    retry_strays(api, state)
     kl.save_state(state)
 
 

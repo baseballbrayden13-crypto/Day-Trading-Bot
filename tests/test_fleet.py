@@ -308,3 +308,11 @@ def test_unfunded_zero_days_are_ignored_and_a_broken_check_is_contained():
     assert [f.level for f in mt.check_risk(FLEET[2], {}, eq) if f.check == "drawdown"] == []
     f = mt.run_checks(healthy_snapshot(), FLEET, [{"day": "2026-10-01", "bot": "2", "equity": "oops"}], [], NOW)
     assert any(x.check == "medic" for x in f) and any(x.bot == 4 for x in f)  # later checks still ran
+
+
+def test_missed_hedge_leftovers_are_a_watch_not_locked_in_losses():
+    s = healthy_snapshot()
+    s["bots"]["4"]["paper"].update({"stray_closed": 14, "stray_pnl": -10.99})
+    f = mt.run_checks(s, FLEET, [], [], NOW)
+    assert (4, "losses") not in set(acts(f))
+    assert any(x.bot == 4 and x.level == "watch" and x.check == "missed hedges" for x in f)
