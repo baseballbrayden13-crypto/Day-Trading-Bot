@@ -77,8 +77,11 @@ def check_bot(bot: Bot, s: dict, now: datetime) -> list[Alarm]:
 
 
 def check_fleet(readings: dict[str, dict], limit_pct: float) -> list[Alarm]:
-    now_eq = sum(r["account"]["equity"] for r in readings.values())
-    then_eq = sum(r["account"]["last_equity"] for r in readings.values())
+    # Bots sharing one Alpaca account (bots 2 and 5) report the same account: count it once.
+    accounts = {(r["account"].get("account") or id(r), r["account"]["last_equity"]): r["account"]
+                for r in readings.values()}.values()
+    now_eq = sum(a["equity"] for a in accounts)
+    then_eq = sum(a["last_equity"] for a in accounts)
     if then_eq > 0 and (now_eq / then_eq - 1) * 100 <= -limit_pct:
         return [Alarm("fleet", "act", "fleet day loss", f"The Alpaca bots together are down {(now_eq / then_eq - 1) * 100:.1f}% "
                       f"today (${now_eq - then_eq:+,.0f}). Guard's fleet limit is {limit_pct:g}%.")]

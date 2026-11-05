@@ -13,8 +13,8 @@ ET = ZoneInfo("America/New_York")
 NOW = datetime(2026, 10, 27, 14, 0, tzinfo=ET).astimezone(timezone.utc)
 
 
-def reading(eq=5000.0, last=5000.0, pos=()):
-    return {"account": {"account": "X", "equity": eq, "last_equity": last, "cash": 0, "status": "ACTIVE",
+def reading(eq=5000.0, last=5000.0, pos=(), acct="X"):
+    return {"account": {"account": acct, "equity": eq, "last_equity": last, "cash": 0, "status": "ACTIVE",
                         "trading_blocked": False, "account_blocked": False},
             "positions": [{"symbol": s, "qty": q, "avg_entry": 1, "market_value": v, "unrealized_pl": 0} for s, q, v in pos]}
 
@@ -28,7 +28,9 @@ def test_guard_limits():
     assert [a.key for a in guard.check_bot(b2, reading(pos=[("XLE", -5, 500)]), NOW)] == ["short XLE"]
     late = datetime(2026, 10, 27, 15, 58, tzinfo=ET)
     assert [a.key for a in guard.check_bot(b1, reading(pos=[("NVDA", 5, 900)]), late)] == ["after close"]
-    assert guard.check_fleet({"1": reading(4900), "2": reading(4880)}, 2.0)[0].level == "act"
+    assert guard.check_fleet({"1": reading(4900, acct="A"), "2": reading(4880, acct="B")}, 2.0)[0].level == "act"
+    # bots 2 and 5 share one account: it counts once, so a -3% day on it isn't double-counted into a fleet alarm
+    assert guard.check_fleet({"2": reading(4850, acct="B"), "5": reading(4850, acct="B"), "1": reading(5000, acct="A")}, 2.0) == []
 
 
 def test_guard_alerts_once_a_day(tmp_path):
