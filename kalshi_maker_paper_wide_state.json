@@ -1,5 +1,5 @@
 {
- "realized": "-1.5400",
+ "realized": "-1.2100",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -1929,25 +1929,52 @@
    "paid": "4",
    "pnl": "0.5800",
    "closed": "2026-11-05T06:18:13.148745+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26NOV050220DEVIJALE",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Dallas Mavericks (Devin) vs Denver Nuggets (Jalen)",
+   "sets": 5,
+   "outlay": "4.6700",
+   "locked_profit": "0.3300",
+   "opened": "2026-11-05T07:45:39.573131+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26NOV050220DEVIJALE-DEVI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.1200"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26NOV050220DEVIJALE-JALE",
+     "side": "no",
+     "count": 5,
+     "limit": "0.8000"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.3300",
+   "closed": "2026-11-05T07:52:34.832371+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXWTADOUBLES-26NOV05GIBINGTANQIU",
-   "series": "KXWTADOUBLES",
-   "title": "Gibson / Inglis vs Tang / Ye Q",
-   "ticker": "KXWTADOUBLES-26NOV05GIBINGTANQIU-GIBING",
-   "order_id": "paper-743-1793863956",
-   "price": "0.2300",
-   "sets": 4,
+   "event": "KXCODGAME-26NOV061100HUNFAZ",
+   "series": "KXCODGAME",
+   "title": "Huntsmen vs. FaZe Vegas",
+   "ticker": "KXCODGAME-26NOV061100HUNFAZ-HUN",
+   "order_id": "paper-748-1793865771",
+   "price": "0.91",
+   "sets": 5,
    "done": 0,
-   "reserve": "3.7800",
+   "reserve": "4.8800",
    "multiplier": "1",
-   "placed": 1793863956.3526413,
+   "placed": 1793865771.7936978,
    "hedge": [
     {
-     "ticker": "KXWTADOUBLES-26NOV05GIBINGTANQIU-TANQIU",
-     "limit": "0.7500"
+     "ticker": "KXCODGAME-26NOV061100HUNFAZ-FAZ",
+     "limit": "0.0600"
     }
    ]
   }
