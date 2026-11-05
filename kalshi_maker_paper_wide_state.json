@@ -1931,5 +1931,25 @@
    "closed": "2026-11-05T06:18:13.148745+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXWTADOUBLES-26NOV05GIBINGTANQIU",
+   "series": "KXWTADOUBLES",
+   "title": "Gibson / Inglis vs Tang / Ye Q",
+   "ticker": "KXWTADOUBLES-26NOV05GIBINGTANQIU-GIBING",
+   "order_id": "paper-743-1793863956",
+   "price": "0.2300",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.7800",
+   "multiplier": "1",
+   "placed": 1793863956.3526413,
+   "hedge": [
+    {
+     "ticker": "KXWTADOUBLES-26NOV05GIBINGTANQIU-TANQIU",
+     "limit": "0.7500"
+    }
+   ]
+  }
+ ]
 }
