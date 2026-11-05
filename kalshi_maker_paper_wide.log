@@ -4624,3 +4624,18 @@
 2026-11-04 18:41:15,728 INFO Swept 20485 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-04 18:46:18,040 INFO Swept 20487 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-04 18:51:18,405 INFO Swept 20487 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 18:56:20,473 INFO PAPER rest NO bid KXITFMATCH-26NOV05WRIXIL-WRI at $0.9100 x5 (63 already bid at that price)
+2026-11-04 18:56:20,473 INFO Resting NO bid on KXITFMATCH-26NOV05WRIXIL-WRI at $0.91 x5 (KXITFMATCH-26NOV05WRIXIL): locks in $0.12 if it fills; hedge NO XIL@0.0600
+2026-11-04 18:56:20,476 INFO Swept 20479 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 19:01:18,326 INFO Swept 20484 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 19:06:22,684 INFO Swept 20476 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 19:11:14,518 INFO Swept 20539 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 19:16:20,924 INFO PAPER rest NO bid KXNBARACE-26NOV04ATLWAS-20-WAS at $0.1000 x4 (0 already bid at that price)
+2026-11-04 19:16:20,924 INFO Resting NO bid on KXNBARACE-26NOV04ATLWAS-20-WAS at $0.1000 x4 (KXNBARACE-26NOV04ATLWAS-20): locks in $0.14 if it fills; hedge NO ATL@0.8800
+2026-11-04 19:16:20,928 INFO Swept 20571 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 19:21:20,234 INFO Swept 20622 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 19:22:50,475 INFO PAPER KXNBARACE-26NOV04ATLWAS-20-WAS NO bid at $0.1000: 4/4 filled by real trades
+2026-11-04 19:22:50,551 INFO PAPER buy 4 NO KXNBARACE-26NOV04ATLWAS-20-ATL at up to $0.8800: not on the book
+2026-11-04 19:22:50,551 WARNING Quote KXNBARACE-26NOV04ATLWAS-20: hedge missed on KXNBARACE-26NOV04ATLWAS-20-ATL. Selling back 4 contracts on 1 legs.
+2026-11-04 19:22:50,619 INFO PAPER sell 4 YES KXNBARACE-26NOV04ATLWAS-20-WAS at up to $0.9500: not on the book
+2026-11-04 19:22:50,620 ERROR STRAY POSITION: 4 NO contracts of KXNBARACE-26NOV04ATLWAS-20-WAS still held. Check it on Kalshi.
