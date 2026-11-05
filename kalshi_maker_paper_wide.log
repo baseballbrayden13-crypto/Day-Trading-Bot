@@ -4795,3 +4795,14 @@
 2026-11-04 22:47:35,682 INFO Resting NO bid on KXHINSONMARSHALL-26DEC07-AL0 at $0.13 x4 (KXHINSONMARSHALL-26DEC07): locks in $0.11 if it fills; hedge NO 200@0.8300
 2026-11-04 22:47:35,687 INFO Swept 20893 events: 0 taker trades, 1 new quotes, 3 resting
 2026-11-04 22:52:33,723 INFO Swept 20888 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 22:57:35,798 INFO Swept 20879 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 22:57:35,895 INFO Quote KXNBA2H-26NOV04UTANOP cancelled (0/2 filled)
+2026-11-04 23:02:22,914 INFO Swept 20872 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 23:07:39,326 INFO Swept 20851 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 23:12:41,201 INFO Swept 20847 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 23:14:52,902 INFO Quote KXHINSONMARSHALL-26DEC07 cancelled (0/4 filled)
+2026-11-04 23:17:43,389 INFO PAPER rest NO bid KXNBA2H-26NOV04PORPHX-PHX at $0.4800 x5 (0 already bid at that price)
+2026-11-04 23:17:43,389 INFO Resting NO bid on KXNBA2H-26NOV04PORPHX-PHX at $0.4800 x5 (KXNBA2H-26NOV04PORPHX): locks in $0.13 if it fills; hedge NO POR@0.4700
+2026-11-04 23:17:43,393 INFO Swept 20848 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 23:17:48,544 INFO Quote KXNBA2H-26NOV04PORPHX cancelled (0/5 filled)
+2026-11-04 23:22:43,464 INFO Swept 20845 events: 0 taker trades, 0 new quotes, 0 resting
