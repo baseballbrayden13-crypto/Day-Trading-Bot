@@ -343,6 +343,10 @@ def check_kalshi(bot: Bot, s: dict, now: datetime) -> list[Finding]:
             out.append(Finding(n, "act", "losses", f"{name}: {m['losing_trades']} 'locked-in' trades lost money. Locked trades can't lose "
                                "unless a leg missed or the bot misread a market.", "Read kalshi_data/opportunities.csv for those events.",
                                proposal=f"Pause {name} until the losing trades are explained.", risk="Medium"))
+        if m.get("stray_closed") and (m.get("stray_pnl") or 0) < 0:
+            out.append(Finding(n, "watch", "missed hedges", f"{name}: {m['stray_closed']} one-sided leftovers from missed hedges "
+                               f"(not locked-in trades) closed for ${m['stray_pnl']:.2f}.",
+                               "If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more)."))
         start = float(summ.get("start_budget", bot.start_equity) or bot.start_equity)
         eq = float(summ.get("equity", 0) or 0) or start + float(m.get("realized", 0) or 0)
         if eq < start * (1 - bot.max_drawdown_pct / 100):

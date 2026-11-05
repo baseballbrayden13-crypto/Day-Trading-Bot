@@ -194,9 +194,12 @@ def kalshi_bot(bot: Bot, now: datetime, days: int) -> dict:
         if summary is None and st is None and not lg.get("exists"):
             continue
         st = st if isinstance(st, dict) and "error" not in st else {}
-        losses = [c for c in st.get("closed", []) if _f(c.get("pnl")) < 0]
+        closed = st.get("closed", [])
+        losses = [c for c in closed if _f(c.get("pnl")) < 0 and c.get("sets", 1) > 0]  # real locked-in baskets only
+        strays = [c for c in closed if c.get("sets", 1) == 0]  # one-sided leftovers from missed hedges
         out[mode] = {"summary": summary, "realized": _f(st.get("realized")), "open": len(st.get("open", [])),
                      "closed": len(st.get("closed", [])), "losing_trades": len(losses),
+                     "stray_closed": len(strays), "stray_pnl": round(sum(_f(c.get("pnl")) for c in strays), 2),
                      "stray": sum(1 for b in st.get("open", []) if b.get("sets", 1) == 0),
                      "quotes": len(st.get("quotes", [])), "log": lg}
     if not any(m in out for m, *_ in bot.runs):
