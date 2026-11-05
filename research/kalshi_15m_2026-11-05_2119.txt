@@ -1,0 +1,53 @@
+args: --series KXBTC15M,KXETH15M --days 14 --max-events 1400 --minutes-before 5
+KXUSDJPY15M      Financials     Fifteen-min USDJPY
+KX5YRRATE15M     Financials     5-year Treasury yield 15-minute
+KXNDQ15M         Financials     Nasdaq 100 15-minute
+KXNATGAS15M      Commodities    Natural Gas 15-minute
+KX10YRRATE15M    Financials     10-year Treasury yield 15-minute
+KXADA15M         Crypto         Cardano 15 Minute
+KXBRENT15M       Commodities    Brent 15-minute
+KXZEC15M         Crypto         Zcash 15min
+KXCRYPTOCOMP15M  Crypto         Crypto Comparison 15 minute
+KXTON15M         Crypto         TON 15m
+KXSOL15M         Crypto         SOL 15 min
+KX2YRRATE15M     Financials     2-year Treasury yield 15-minute
+KXNEAR15M        Crypto         NEAR 15m
+KXSILVER15M      Commodities    Silver 15-minute
+KXUSDMXN15M      Financials     15-minute USDMXN
+KXCRYPTOLEAD15M  Crypto         Coin Race 15 minutes
+KXBCH15M         Crypto         Bitcoin Cash 15 Minute
+KXINX15M         Financials     S&P 500 15-minute
+KXEURUSD15M      Financials     15-minute EURUSD
+KXPALLADIUM15M   Commodities    Palladium 15-minute
+KXCOPPER15M      Commodities    Copper 15-minute
+KXDJIA15M        Financials     Dow Jones 15-minute
+KXBNB15M         Crypto         BNB 15 min
+KXPLATINUM15M    Commodities    Platinum 15-minute
+KXBTC15M         Crypto         BTC 15 min
+KXGBPUSD15M      Financials     15-minute GBPUSD
+KXETH15M         Crypto         ETH 15 min
+KXAUDUSD15M      Financials     15-minute AUDUSD
+KXDOGE15M        Crypto         DOGE 15 min
+KXCOFFEE15M      Commodities    Coffee 15-minute
+KX30YRRATE15M    Financials     30-year Treasury yield 15-minute
+KXKPOWMID15M     Elections      KPOW Midterms 15-minute
+KXGOLD15M        Commodities    Gold 15-minute
+KXUSDCAD15M      Financials     15-minute USDCAD
+KXHYPE15M        Crypto         HYPE 15 min
+KXGBPUSD15MTEST  Financials     GBPUSD 15M TEST
+KXXRP15M         Crypto         XRP 15 min
+KXWTI15M         Commodities    WTI 15-minute
+KXBTC15M: 1328 settled events, 744 model bets, 688 favorite bets
+KXETH15M: 1328 settled events, 843 model bets, 743 favorite bets
+KXBTC15M: 1328 settled events, 744 model bets, 688 favorite bets
+KXETH15M: 1328 settled events, 843 model bets, 743 favorite bets
+
+model (crypto): 1587 bets, won 308, profit $168.69 on $3230.31 bet (expected $4106.45); earlier half $131.11, later half $37.58; t-stat 0.6
+  KXBTC15M: 744 bets, won 156, profit $91.98 on $1509.02 bet (expected $1694.60); earlier half $29.10, later half $62.87; t-stat 0.5
+  KXETH15M: 843 bets, won 152, profit $76.71 on $1721.29 bet (expected $2411.86); earlier half $129.02, later half $-52.31; t-stat 0.3
+favorite 0.85+: 1431 bets, won 1277, profit $-41.21 on $2717.21 bet (expected $-18.67); earlier half $-20.89, later half $-20.31; t-stat -2.3
+  KXBTC15M: 688 bets, won 629, profit $-20.22 on $1304.22 bet (expected $-9.06); earlier half $-8.37, later half $-11.85; t-stat -1.6
+  KXETH15M: 743 bets, won 648, profit $-20.98 on $1412.98 bet (expected $-9.61); earlier half $-14.37, later half $-6.61; t-stat -1.7
+Saved reports/kalshi_15m_model_2026-11-05_2132.csv
+Saved reports/kalshi_15m_favorite_2026-11-05_2132.csv
+Worth paper money only if both halves made money and t-stat is 2+.
