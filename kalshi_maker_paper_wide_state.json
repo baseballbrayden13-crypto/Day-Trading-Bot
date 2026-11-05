@@ -131,6 +131,47 @@
      "limit": "0.8500"
     }
    ]
+  },
+  {
+   "event": "KXCS2MAP-26NOV050900LKWRA-2",
+   "series": "KXCS2MAP",
+   "title": "los kogutos vs. WRAITH PCIFIC: Map 2 Winner",
+   "sets": 1,
+   "outlay": "0.9800",
+   "locked_profit": "0.0200",
+   "opened": "2026-11-05T15:17:20.528727+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCS2MAP-26NOV050900LKWRA-2-WRA",
+     "side": "no",
+     "count": 1,
+     "limit": "0.3400"
+    },
+    {
+     "ticker": "KXCS2MAP-26NOV050900LKWRA-2-LK",
+     "side": "no",
+     "count": 1,
+     "limit": "0.6100"
+    }
+   ]
+  },
+  {
+   "event": "KXCS2MAP-26NOV050900LKWRA-2 (stray)",
+   "series": "KXCS2MAP",
+   "title": "los kogutos vs. WRAITH PCIFIC: Map 2 Winner",
+   "sets": 0,
+   "outlay": "1.3800",
+   "locked_profit": "0",
+   "opened": "2026-11-05T15:21:55.026282+00:00",
+   "legs": [
+    {
+     "ticker": "KXCS2MAP-26NOV050900LKWRA-2-WRA",
+     "side": "no",
+     "count": 4,
+     "limit": "0.3400"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1984,21 +2025,21 @@
  ],
  "quotes": [
   {
-   "event": "KXMLBBGAME-26NOV050600BTRTLID",
-   "series": "KXMLBBGAME",
-   "title": "Bigetron by Vitality vs. Team Liquid ID",
-   "ticker": "KXMLBBGAME-26NOV050600BTRTLID-BTR",
-   "order_id": "paper-764-1793890605",
-   "price": "0.37",
-   "sets": 5,
+   "event": "KXCS2MAP-26NOV050900LKWRA-1",
+   "series": "KXCS2MAP",
+   "title": "los kogutos vs. WRAITH PCIFIC: Map 1 Winner",
+   "ticker": "KXCS2MAP-26NOV050900LKWRA-1-LK",
+   "order_id": "paper-766-1793892418",
+   "price": "0.6700",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.8700",
+   "reserve": "1.7800",
    "multiplier": "1",
-   "placed": 1793890605.2725067,
+   "placed": 1793892418.4272242,
    "hedge": [
     {
-     "ticker": "KXMLBBGAME-26NOV050600BTRTLID-TLID",
-     "limit": "0.5800"
+     "ticker": "KXCS2MAP-26NOV050900LKWRA-1-WRA",
+     "limit": "0.2000"
     }
    ]
   }
