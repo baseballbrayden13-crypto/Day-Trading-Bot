@@ -5035,3 +5035,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 06:24:37,139 INFO Swept 20543 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-05 06:29:40,726 INFO Swept 20543 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-05 06:34:41,657 INFO Swept 20537 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 06:39:44,118 INFO Swept 20543 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 06:44:43,256 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV050300SHKDAN-SHK at $0.0300 x4 (0 already bid at that price)
+2026-11-05 06:44:43,256 INFO Resting NO bid on KXLIGAPROMATCH-26NOV050300SHKDAN-SHK at $0.0300 x4 (KXLIGAPROMATCH-26NOV050300SHKDAN): locks in $0.43 if it fills; hedge NO DAN@0.8500
+2026-11-05 06:44:43,259 INFO Swept 20535 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 06:49:46,969 INFO Swept 20540 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 06:54:47,590 INFO Swept 20531 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 06:59:48,161 INFO Swept 20523 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 07:04:50,250 INFO Swept 20509 events: 0 taker trades, 0 new quotes, 1 resting

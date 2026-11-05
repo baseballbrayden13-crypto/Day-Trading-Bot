@@ -1960,21 +1960,21 @@
  ],
  "quotes": [
   {
-   "event": "KXCBDECISIONENGLAND-26NOV05",
-   "series": "KXCBDECISIONENGLAND",
-   "title": "Bank of England rate decision in November",
-   "ticker": "KXCBDECISIONENGLAND-26NOV05-HOLD",
-   "order_id": "paper-756-1793877575",
-   "price": "0.5800",
-   "sets": 7,
+   "event": "KXLIGAPROMATCH-26NOV050300SHKDAN",
+   "series": "KXLIGAPROMATCH",
+   "title": "SHkolnikov IUrii vs Danilov Evgenii",
+   "ticker": "KXLIGAPROMATCH-26NOV050300SHKDAN-SHK",
+   "order_id": "paper-757-1793879083",
+   "price": "0.0300",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.5400",
+   "reserve": "3.5700",
    "multiplier": "1",
-   "placed": 1793877575.4263542,
+   "placed": 1793879083.2561505,
    "hedge": [
     {
-     "ticker": "KXCBDECISIONENGLAND-26NOV05-H25",
-     "limit": "0.0800"
+     "ticker": "KXLIGAPROMATCH-26NOV050300SHKDAN-DAN",
+     "limit": "0.8500"
     }
    ]
   }
