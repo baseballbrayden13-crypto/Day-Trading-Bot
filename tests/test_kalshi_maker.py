@@ -316,3 +316,16 @@ def test_missed_hedge_is_chased_once_within_the_loss_limit(monkeypatch, tmp_path
     assert not [o for o in api.orders if o[4]]  # nothing sold back
     b = s["open"][0]
     assert b["sets"] == 2 and D(b["locked_profit"]) >= -2 * km.CHASE_LOSS - D("0.02")  # fees round up a cent a leg
+
+
+def test_live_games_get_small_quotes():
+    from datetime import datetime, timedelta, timezone
+
+    from bot import kalshi_maker as km
+
+    now = datetime(2026, 11, 5, 20, 0, tzinfo=timezone.utc)
+    soon = (now + timedelta(hours=2)).isoformat().replace("+00:00", "Z")
+    later = (now + timedelta(days=3)).isoformat().replace("+00:00", "Z")
+    assert km.is_live([{"expected_expiration_time": soon}], now)
+    assert not km.is_live([{"expected_expiration_time": later}], now)
+    assert not km.is_live([{}], now)
