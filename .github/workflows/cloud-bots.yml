@@ -76,16 +76,16 @@ jobs:
         if: contains(fromJSON('["bot2","all"]'), steps.pick.outputs.what)
         working-directory: state
         env:
-          # Bots 2 and 5 share account ...8T7Y (bot.sleeves): $5,000 each once the account holds $10,000 (C-039).
+          # Bots 2 and 5 share account ...8T7Y (bot.sleeves): half each of the ~$4,940 account, $2,450 apiece (C-039).
           # Undo: delete this line and bot 5's step; bot 2 goes back to trading the whole account.
-          SLEEVES: "2=5000,5=5000"
+          SLEEVES: "2=2450,5=2450"
         run: python -m bot.rotation_live
 
       - name: Bot 5 (big-stock dip buyer, shares bot 2's account)
         if: always() && contains(fromJSON('["bot2","all"]'), steps.pick.outputs.what)
         working-directory: state
         env:
-          SLEEVES: "2=5000,5=5000"
+          SLEEVES: "2=2450,5=2450"
         run: cp .env.rotation .env.dipbuy && python -m bot.dipbuy_live
 
       - name: Bot 3 (crypto trend)
