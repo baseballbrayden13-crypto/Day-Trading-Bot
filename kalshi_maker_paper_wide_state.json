@@ -83,6 +83,30 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXCOPADELREYADVANCE-26NOV04CALALB",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "Puertollano vs Albacete",
+   "sets": 1,
+   "outlay": "0.9900",
+   "locked_profit": "0.0100",
+   "opened": "2026-11-05T03:32:26.244104+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCOPADELREYADVANCE-26NOV04CALALB-CAL",
+     "side": "no",
+     "count": 1,
+     "limit": "0.17"
+    },
+    {
+     "ticker": "KXCOPADELREYADVANCE-26NOV04CALALB-ALB",
+     "side": "no",
+     "count": 1,
+     "limit": "0.7900"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1882,40 +1906,40 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAWBGAME-26NOV06NEBU",
-   "series": "KXNCAAWBGAME",
-   "title": "Northeastern vs Boston University",
-   "ticker": "KXNCAAWBGAME-26NOV06NEBU-NE",
-   "order_id": "paper-726-1793847431",
-   "price": "0.2700",
-   "sets": 3,
+   "event": "KXNBA2H-26NOV04UTANOP",
+   "series": "KXNBA2H",
+   "title": "Utah vs New Orleans: 2nd Half Winner",
+   "ticker": "KXNBA2H-26NOV04UTANOP-TIE",
+   "order_id": "paper-730-1793850152",
+   "price": "0.4100",
+   "sets": 2,
    "done": 0,
-   "reserve": "2.6200",
+   "reserve": "1.8400",
    "multiplier": "1",
-   "placed": 1793847431.2041907,
+   "placed": 1793850152.4767659,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV06NEBU-BU",
-     "limit": "0.6600"
+     "ticker": "KXNBA2H-26NOV04UTANOP-UTA",
+     "limit": "0.4900"
     }
    ]
   },
   {
-   "event": "KXITFMATCH-26NOV05DECVAN",
-   "series": "KXITFMATCH",
-   "title": "Deckers vs Van Schalkwyk",
-   "ticker": "KXITFMATCH-26NOV05DECVAN-VAN",
-   "order_id": "paper-727-1793848639",
-   "price": "0.6300",
-   "sets": 1,
+   "event": "KXHINSONMARSHALL-26DEC07",
+   "series": "KXHINSONMARSHALL",
+   "title": "Larger Senate margin: Hinson or Marshall?",
+   "ticker": "KXHINSONMARSHALL-26DEC07-AL0",
+   "order_id": "paper-731-1793850455",
+   "price": "0.13",
+   "sets": 4,
    "done": 0,
-   "reserve": "0.8900",
+   "reserve": "3.8900",
    "multiplier": "1",
-   "placed": 1793848639.5913448,
+   "placed": 1793850455.6829617,
    "hedge": [
     {
-     "ticker": "KXITFMATCH-26NOV05DECVAN-DEC",
-     "limit": "0.2300"
+     "ticker": "KXHINSONMARSHALL-26DEC07-R-200",
+     "limit": "0.8300"
     }
    ]
   }
