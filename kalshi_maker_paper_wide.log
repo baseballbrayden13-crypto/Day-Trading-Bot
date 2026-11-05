@@ -4828,3 +4828,16 @@
 2026-11-05 00:13:16,198 INFO Swept 20702 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-05 00:18:19,926 INFO Swept 20693 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-05 00:23:22,410 INFO Swept 20691 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 00:28:26,623 INFO Swept 20703 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 00:33:27,909 INFO Swept 20683 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 00:38:29,878 INFO Swept 20682 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 00:43:29,460 INFO Swept 20675 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 00:48:31,145 INFO PAPER rest NO bid KXNBAGAME-26NOV08PHICHI-CHI at $0.7300 x4 (1 already bid at that price)
+2026-11-05 00:48:31,146 INFO Resting NO bid on KXNBAGAME-26NOV08PHICHI-CHI at $0.73 x4 (KXNBAGAME-26NOV08PHICHI): locks in $0.13 if it fills; hedge NO PHI@0.2200
+2026-11-05 00:48:31,150 INFO Swept 20654 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 00:53:31,923 INFO PAPER rest NO bid KXNBA4Q-26NOV04MIALAC-TIE at $0.8400 x4 (0 already bid at that price)
+2026-11-05 00:53:31,923 INFO Resting NO bid on KXNBA4Q-26NOV04MIALAC-TIE at $0.8400 x4 (KXNBA4Q-26NOV04MIALAC): locks in $0.58 if it fills; hedge NO MIA@0.0100
+2026-11-05 00:53:31,927 INFO Swept 20642 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 00:53:37,118 INFO PAPER KXNBA4Q-26NOV04MIALAC-TIE NO bid at $0.8400: 4/4 filled by real trades
+2026-11-05 00:53:37,148 INFO PAPER buy 4 NO KXNBA4Q-26NOV04MIALAC-MIA at up to $0.0100: filled 4
+2026-11-05 00:53:37,148 INFO Quote KXNBA4Q-26NOV04MIALAC filled 4: hedged, locks in $0.58

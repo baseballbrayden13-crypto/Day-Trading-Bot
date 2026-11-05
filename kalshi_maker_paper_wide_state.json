@@ -107,6 +107,30 @@
      "limit": "0.7900"
     }
    ]
+  },
+  {
+   "event": "KXNBA4Q-26NOV04MIALAC",
+   "series": "KXNBA4Q",
+   "title": "Miami vs Los Angeles C: 4th Quarter Winner",
+   "sets": 4,
+   "outlay": "3.4200",
+   "locked_profit": "0.5800",
+   "opened": "2026-11-05T05:53:37.148635+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXNBA4Q-26NOV04MIALAC-TIE",
+     "side": "no",
+     "count": 4,
+     "limit": "0.8400"
+    },
+    {
+     "ticker": "KXNBA4Q-26NOV04MIALAC-MIA",
+     "side": "no",
+     "count": 4,
+     "limit": "0.0100"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1910,17 +1934,17 @@
    "series": "KXNBAGAME",
    "title": "Philadelphia vs Chicago",
    "ticker": "KXNBAGAME-26NOV08PHICHI-CHI",
-   "order_id": "paper-736-1793855596",
-   "price": "0.72",
-   "sets": 5,
+   "order_id": "paper-737-1793857711",
+   "price": "0.73",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.8900",
+   "reserve": "3.8700",
    "multiplier": "1",
-   "placed": 1793855596.1940703,
+   "placed": 1793857711.145982,
    "hedge": [
     {
      "ticker": "KXNBAGAME-26NOV08PHICHI-PHI",
-     "limit": "0.2400"
+     "limit": "0.2200"
     }
    ]
   }
