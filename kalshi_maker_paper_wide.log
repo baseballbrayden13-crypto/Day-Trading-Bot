@@ -4816,3 +4816,15 @@
 2026-11-04 23:43:02,897 INFO Swept 20804 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-04 23:48:01,616 INFO Swept 20789 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-04 23:53:06,181 INFO Swept 20774 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 23:58:08,656 INFO Swept 20779 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 23:58:08,832 INFO Quote KXTRUTHSOCIALD-26NOV04 cancelled (0/1 filled)
+2026-11-05 00:03:09,725 INFO Swept 20707 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 00:08:15,450 INFO PAPER rest NO bid KXDPWT3BALL-ABDAC26R1RGOUAROZTVAI-TVAI at $0.3000 x2 (0 already bid at that price)
+2026-11-05 00:08:15,450 INFO Resting NO bid on KXDPWT3BALL-ABDAC26R1RGOUAROZTVAI-TVAI at $0.3000 x2 (KXDPWT3BALL-ABDAC26R1RGOUAROZTVAI): locks in $0.24 if it fills; hedge NO RGOU@0.6900, AROZ@0.8600
+2026-11-05 00:08:15,454 INFO Swept 20689 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 00:10:31,645 INFO Quote KXDPWT3BALL-ABDAC26R1RGOUAROZTVAI cancelled (0/2 filled)
+2026-11-05 00:13:16,193 INFO PAPER rest NO bid KXNBAGAME-26NOV08PHICHI-CHI at $0.7200 x5 (13 already bid at that price)
+2026-11-05 00:13:16,194 INFO Resting NO bid on KXNBAGAME-26NOV08PHICHI-CHI at $0.72 x5 (KXNBAGAME-26NOV08PHICHI): locks in $0.11 if it fills; hedge NO PHI@0.2400
+2026-11-05 00:13:16,198 INFO Swept 20702 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 00:18:19,926 INFO Swept 20693 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 00:23:22,410 INFO Swept 20691 events: 0 taker trades, 0 new quotes, 1 resting

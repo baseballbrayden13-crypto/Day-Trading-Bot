@@ -1906,44 +1906,21 @@
  ],
  "quotes": [
   {
-   "event": "KXBOXING-26NOV06FADELKUMAR",
-   "series": "KXBOXING",
-   "title": "Jayden Fadel vs Rajesh Kumar",
-   "ticker": "KXBOXING-26NOV06FADELKUMAR-FADEL",
-   "order_id": "paper-733-1793853171",
-   "price": "0.09",
+   "event": "KXNBAGAME-26NOV08PHICHI",
+   "series": "KXNBAGAME",
+   "title": "Philadelphia vs Chicago",
+   "ticker": "KXNBAGAME-26NOV08PHICHI-CHI",
+   "order_id": "paper-736-1793855596",
+   "price": "0.72",
    "sets": 5,
    "done": 0,
    "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793853171.134184,
+   "placed": 1793855596.1940703,
    "hedge": [
     {
-     "ticker": "KXBOXING-26NOV06FADELKUMAR-KUMAR",
-     "limit": "0.8800"
-    }
-   ]
-  },
-  {
-   "event": "KXTRUTHSOCIALD-26NOV04",
-   "series": "KXTRUTHSOCIALD",
-   "title": "Trump Truth Social posts on Nov 4, 2026?",
-   "ticker": "KXTRUTHSOCIALD-26NOV04-T40",
-   "order_id": "paper-734-1793853782",
-   "price": "0.5200",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.7700",
-   "multiplier": "1",
-   "placed": 1793853782.8927515,
-   "hedge": [
-    {
-     "ticker": "KXTRUTHSOCIALD-26NOV04-T5",
-     "limit": "0.2800"
-    },
-    {
-     "ticker": "KXTRUTHSOCIALD-26NOV04-B7",
-     "limit": "0.9300"
+     "ticker": "KXNBAGAME-26NOV08PHICHI-PHI",
+     "limit": "0.2400"
     }
    ]
   }
