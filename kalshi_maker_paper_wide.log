@@ -4691,3 +4691,22 @@
 2026-11-04 21:21:51,095 INFO PAPER rest NO bid KXNBACUPGROUP-26EASTB-CLE at $0.3300 x1 (0 already bid at that price)
 2026-11-04 21:21:51,095 INFO Resting NO bid on KXNBACUPGROUP-26EASTB-CLE at $0.3300 x1 (KXNBACUPGROUP-26EASTB): locks in $0.11 if it fills; hedge NO PHI@0.6100, MIA@0.9100
 2026-11-04 21:21:51,099 INFO Swept 21103 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-04 21:26:54,633 INFO PAPER rest NO bid KXKBOGAME-26NOV070000KTWSAM-SAM at $0.5200 x5 (3 already bid at that price)
+2026-11-04 21:26:54,633 INFO Resting NO bid on KXKBOGAME-26NOV070000KTWSAM-SAM at $0.52 x5 (KXKBOGAME-26NOV070000KTWSAM): locks in $0.13 if it fills; hedge NO KTW@0.4300
+2026-11-04 21:26:54,637 INFO Swept 21127 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-04 21:31:56,364 INFO Swept 21116 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 21:31:56,459 INFO Quote KXKBOGAME-26NOV070000KTWSAM cancelled (0/5 filled)
+2026-11-04 21:36:57,306 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06PFWDEP-PFW at $0.2000 x3 (0 already bid at that price)
+2026-11-04 21:36:57,307 INFO Resting NO bid on KXNCAAWBGAME-26NOV06PFWDEP-PFW at $0.2000 x3 (KXNCAAWBGAME-26NOV06PFWDEP): locks in $0.35 if it fills; hedge NO DEP@0.7400
+2026-11-04 21:36:57,339 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06PRINRICH-RICH at $0.1200 x4 (0 already bid at that price)
+2026-11-04 21:36:57,339 INFO Resting NO bid on KXNCAAWBGAME-26NOV06PRINRICH-RICH at $0.1200 x4 (KXNCAAWBGAME-26NOV06PRINRICH): locks in $0.41 if it fills; hedge NO PRIN@0.8500
+2026-11-04 21:36:57,343 INFO Swept 21112 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-04 21:41:59,591 INFO Swept 21090 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-04 21:41:59,694 INFO Quote KXNCAAWBGAME-26NOV06PFWDEP cancelled (0/3 filled)
+2026-11-04 21:41:59,762 INFO Quote KXNCAAWBGAME-26NOV06PRINRICH cancelled (0/4 filled)
+2026-11-04 21:47:03,408 INFO PAPER rest NO bid KXKBOGAME-26NOV070000KTWSAM-SAM at $0.5100 x4 (1 already bid at that price)
+2026-11-04 21:47:03,409 INFO Resting NO bid on KXKBOGAME-26NOV070000KTWSAM-SAM at $0.51 x4 (KXKBOGAME-26NOV070000KTWSAM): locks in $0.11 if it fills; hedge NO KTW@0.4400
+2026-11-04 21:47:03,413 INFO Swept 21074 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 21:52:06,637 INFO PAPER rest NO bid KXNBARACE-26NOV04DALSAS-10-DAL at $0.1200 x2 (0 already bid at that price)
+2026-11-04 21:52:06,638 INFO Resting NO bid on KXNBARACE-26NOV04DALSAS-10-DAL at $0.1200 x2 (KXNBARACE-26NOV04DALSAS-10): locks in $0.14 if it fills; hedge NO SAS@0.7900
+2026-11-04 21:52:06,642 INFO Swept 21073 events: 0 taker trades, 1 new quotes, 3 resting
