@@ -1,5 +1,5 @@
 {
- "realized": "-2.9600",
+ "realized": "-2.5300",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -105,30 +105,6 @@
      "side": "no",
      "count": 1,
      "limit": "0.7900"
-    }
-   ]
-  },
-  {
-   "event": "KXLIGAPROMATCH-26NOV050300SHKDAN",
-   "series": "KXLIGAPROMATCH",
-   "title": "SHkolnikov IUrii vs Danilov Evgenii",
-   "sets": 4,
-   "outlay": "3.5700",
-   "locked_profit": "0.4300",
-   "opened": "2026-11-05T12:11:53.105606+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXLIGAPROMATCH-26NOV050300SHKDAN-SHK",
-     "side": "no",
-     "count": 4,
-     "limit": "0.0300"
-    },
-    {
-     "ticker": "KXLIGAPROMATCH-26NOV050300SHKDAN-DAN",
-     "side": "no",
-     "count": 4,
-     "limit": "0.8500"
     }
    ]
   }
@@ -2047,6 +2023,33 @@
    "paid": "0",
    "pnl": "-1.3800",
    "closed": "2026-11-05T16:06:49.764429+00:00"
+  },
+  {
+   "event": "KXLIGAPROMATCH-26NOV050300SHKDAN",
+   "series": "KXLIGAPROMATCH",
+   "title": "SHkolnikov IUrii vs Danilov Evgenii",
+   "sets": 4,
+   "outlay": "3.5700",
+   "locked_profit": "0.4300",
+   "opened": "2026-11-05T12:11:53.105606+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLIGAPROMATCH-26NOV050300SHKDAN-SHK",
+     "side": "no",
+     "count": 4,
+     "limit": "0.0300"
+    },
+    {
+     "ticker": "KXLIGAPROMATCH-26NOV050300SHKDAN-DAN",
+     "side": "no",
+     "count": 4,
+     "limit": "0.8500"
+    }
+   ],
+   "paid": "4",
+   "pnl": "0.4300",
+   "closed": "2026-11-05T21:06:33.359211+00:00"
   }
  ],
  "quotes": []

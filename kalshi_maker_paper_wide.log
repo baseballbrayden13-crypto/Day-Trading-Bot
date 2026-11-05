@@ -5234,3 +5234,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 15:39:18,481 INFO Quote KXUECL1H-26NOV05GETBRI cancelled (0/1 filled)
 2026-11-05 15:41:40,100 INFO Swept 21145 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-05 15:46:41,216 INFO Swept 21136 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 15:51:37,232 INFO Swept 21128 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 15:56:38,028 INFO Swept 21061 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 16:01:35,276 INFO Swept 21061 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 16:06:33,359 INFO Settled KXLIGAPROMATCH-26NOV050300SHKDAN: paid $4, profit $0.43
+2026-11-05 16:06:54,505 INFO Swept 21051 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 16:11:57,260 INFO Swept 21149 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 16:17:02,875 INFO Swept 21166 events: 0 taker trades, 0 new quotes, 0 resting
