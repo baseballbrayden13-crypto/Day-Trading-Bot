@@ -2052,25 +2052,5 @@
    "closed": "2026-11-05T21:06:33.359211+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXITFMATCH-26NOV06BARTAL",
-   "series": "KXITFMATCH",
-   "title": "Barroso Campos vs Talan Lopatic",
-   "ticker": "KXITFMATCH-26NOV06BARTAL-BAR",
-   "order_id": "paper-776-1793916461",
-   "price": "0.3600",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8700",
-   "multiplier": "1",
-   "placed": 1793916461.4069,
-   "hedge": [
-    {
-     "ticker": "KXITFMATCH-26NOV06BARTAL-TAL",
-     "limit": "0.5900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
