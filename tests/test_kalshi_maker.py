@@ -297,3 +297,22 @@ def test_quote_is_cancelled_after_a_missed_hedge(monkeypatch):
     monkeypatch.setattr(km, "still_pays", lambda api, q, cfg: True)
     km.check(object(), {"quote_min": 30, "min_profit": D("0.10")})
     assert cancelled == ["o1"]
+
+
+def test_missed_hedge_is_chased_once_within_the_loss_limit(monkeypatch, tmp_path):
+    q = _state(monkeypatch, tmp_path)
+    miss = q.hedge[1]
+
+    class Moved(FakeApi):  # the book moved up a few cents: the old limit misses, a higher one fills
+        def order(self, ticker, outcome, count, limit, tif="fill_or_kill", reduce_only=False):
+            self.orders.append((ticker, outcome, count, limit, reduce_only))
+            return 0 if ticker == miss.ticker and limit <= miss.limit else count
+
+    api = Moved(fills=2)
+    km.check(api, CFG)
+    s = kl.load_state()
+    chased = [o for o in api.orders if o[0] == miss.ticker]
+    assert len(chased) == 2 and chased[1][3] > miss.limit
+    assert not [o for o in api.orders if o[4]]  # nothing sold back
+    b = s["open"][0]
+    assert b["sets"] == 2 and D(b["locked_profit"]) >= -2 * km.CHASE_LOSS - D("0.02")  # fees round up a cent a leg

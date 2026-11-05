@@ -198,18 +198,35 @@ def sell_back(api, state: dict, q: dict, ticker: str, n: int, price: Decimal, pa
                               "legs": [{"ticker": ticker, "side": "no", "count": n - sold, "limit": str(price)}]})
 
 
+CHASE_LOSS = D("0.05")  # a missed hedge may be bought dearer, up to this loss a set, rather than sold back
+
+
 def hedge(api, state: dict, q: dict, n: int) -> bool:
-    """`n` more contracts of the quote filled: buy `n` of every other leg fill-or-kill at its limit. On a miss,
-    sell back the quote's `n` and whatever hedge legs filled."""
+    """`n` more contracts of the quote filled: buy `n` of every other leg fill-or-kill at its limit. On a miss, try
+    once more at the highest price that keeps the basket within CHASE_LOSS a set of break-even (live games move
+    fast; a slightly worse hedge beats an unhedged position). If that misses too, sell back the quote's `n` and
+    whatever hedge legs filled."""
     mult, price = D(q["multiplier"]), D(q["price"])
     legs = [Leg(l["ticker"], "no", n, D(l["limit"]) * n, fee(n, D(l["limit"]), mult), D(l["limit"])) for l in q["hedge"]]
     got = []
-    for leg in legs:
+    for i, leg in enumerate(legs):
         try:
             ok = api.order(leg.ticker, "no", n, leg.limit) >= n
         except RuntimeError as err:
             log.warning("Hedge leg %s failed: %s", leg.ticker, err)
             ok = False
+        if not ok:  # chase: pay up to what the basket still allows, losing at most CHASE_LOSS a set
+            spent = n * price + maker_fee(n, price, mult) + sum((l.cost + l.fee for l in legs), D(0))
+            slack = (D(n * len(legs)) - spent) / n + CHASE_LOSS
+            top = min((leg.limit + slack).quantize(CENT, rounding=ROUND_FLOOR), ONE - CENT)
+            if top > leg.limit:
+                try:
+                    ok = api.order(leg.ticker, "no", n, top) >= n
+                except RuntimeError as err:
+                    log.warning("Hedge chase on %s failed: %s", leg.ticker, err)
+                if ok:
+                    log.info("Quote %s: hedge on %s chased from %s to %s", q["event"], leg.ticker, leg.limit, top)
+                    leg = legs[i] = Leg(leg.ticker, "no", n, top * n, fee(n, top, mult), top)
         if not ok:
             log.warning("Quote %s: hedge missed on %s. Selling back %d contracts on %d legs.", q["event"], leg.ticker, n, len(got) + 1)
             sell_back(api, state, q, q["ticker"], n, price, n * price + maker_fee(n, price, mult))
