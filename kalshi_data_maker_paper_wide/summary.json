@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T01:18:30+00:00",
+ "updated": "2026-11-05T01:48:46+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -7,17 +7,20 @@
  "equity": "18.27",
  "realized_profit": "-1.73",
  "bet_level": "18.27",
- "open_trades": 3,
+ "open_trades": 4,
  "open_locked_profit": "2.64",
- "in_play": "9.36",
- "stray_positions": 0,
+ "in_play": "9.75",
+ "stray_positions": 1,
  "closed_trades": 49,
  "trades_this_loop": 0,
- "events_swept": 20832,
- "found_this_loop": 0,
+ "events_swept": 20938,
+ "found_this_loop": 1,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 0,
- "last_problems": []
+ "problems": 2,
+ "last_problems": [
+  "2026-11-05 01:46 Quote KXNBARACE-26NOV04MINHOU-10: hedge missed on KXNBARACE-26NOV04MINHOU-10-HOU. Selling back 2 contracts on 1 legs.",
+  "2026-11-05 01:46 STRAY POSITION: 2 NO contracts of KXNBARACE-26NOV04MINHOU-10-MIN still held. Check it on Kalshi."
+ ]
 }

@@ -83,6 +83,23 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXNBARACE-26NOV04MINHOU-10 (stray)",
+   "series": "KXNBARACE",
+   "title": "Minnesota vs Houston: Race to 10 Points",
+   "sets": 0,
+   "outlay": "0.39",
+   "locked_profit": "0",
+   "opened": "2026-11-05T01:46:30.048352+00:00",
+   "legs": [
+    {
+     "ticker": "KXNBARACE-26NOV04MINHOU-10-MIN",
+     "side": "no",
+     "count": 2,
+     "limit": "0.19"
+    }
+   ]
   }
  ],
  "closed": [
@@ -1862,44 +1879,40 @@
  ],
  "quotes": [
   {
-   "event": "KXNBARACE-26NOV04INDMEM-10",
-   "series": "KXNBARACE",
-   "title": "Indiana vs Memphis: Race to 10 Points",
-   "ticker": "KXNBARACE-26NOV04INDMEM-10-IND",
-   "order_id": "paper-714-1793841378",
-   "price": "0.1700",
-   "sets": 15,
+   "event": "KXNBAGAME-26NOV07HOUPHX",
+   "series": "KXNBAGAME",
+   "title": "Houston vs Phoenix",
+   "ticker": "KXNBAGAME-26NOV07HOUPHX-PHX",
+   "order_id": "paper-717-1793843189",
+   "price": "0.68",
+   "sets": 3,
    "done": 0,
-   "reserve": "4.8200",
+   "reserve": "2.8900",
    "multiplier": "1",
-   "placed": 1793841378.1722426,
+   "placed": 1793843189.974545,
    "hedge": [
     {
-     "ticker": "KXNBARACE-26NOV04INDMEM-10-MEM",
-     "limit": "0.1400"
+     "ticker": "KXNBAGAME-26NOV07HOUPHX-HOU",
+     "limit": "0.2600"
     }
    ]
   },
   {
-   "event": "KXLIGAFGAME-26NOV08BARMAD",
-   "series": "KXLIGAFGAME",
-   "title": "Barcelona vs Madrid CFF",
-   "ticker": "KXLIGAFGAME-26NOV08BARMAD-MAD",
-   "order_id": "paper-715-1793841378",
-   "price": "0.59",
-   "sets": 2,
+   "event": "KXBOXING-26NOV06KAENABEAUCH",
+   "series": "KXBOXING",
+   "title": "John Kaena vs Nort Beauchamp",
+   "ticker": "KXBOXING-26NOV06KAENABEAUCH-BEAUCH",
+   "order_id": "paper-718-1793843489",
+   "price": "0.73",
+   "sets": 4,
    "done": 0,
-   "reserve": "3.9000",
+   "reserve": "3.8700",
    "multiplier": "1",
-   "placed": 1793841378.1950097,
+   "placed": 1793843489.3753147,
    "hedge": [
     {
-     "ticker": "KXLIGAFGAME-26NOV08BARMAD-BAR",
-     "limit": "0.3900"
-    },
-    {
-     "ticker": "KXLIGAFGAME-26NOV08BARMAD-TIE",
-     "limit": "0.9400"
+     "ticker": "KXBOXING-26NOV06KAENABEAUCH-KAENA",
+     "limit": "0.2200"
     }
    ]
   }

@@ -4662,3 +4662,21 @@
 2026-11-04 20:16:18,195 INFO Resting NO bid on KXLIGAFGAME-26NOV08BARMAD-MAD at $0.59 x2 (KXLIGAFGAME-26NOV08BARMAD): locks in $0.10 if it fills; hedge NO BAR@0.3900, TIE@0.9400
 2026-11-04 20:16:18,199 INFO Swept 20804 events: 0 taker trades, 2 new quotes, 2 resting
 2026-11-04 20:21:16,976 INFO Swept 20832 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 20:26:21,270 INFO Swept 20862 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 20:26:31,496 INFO Quote KXNBARACE-26NOV04INDMEM-10 cancelled (0/15 filled)
+2026-11-04 20:31:22,890 INFO Swept 20882 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 20:36:24,507 INFO Swept 20887 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 20:41:25,704 INFO PAPER rest NO bid KXNBARACE-26NOV04MINHOU-10-MIN at $0.1900 x2 (1 already bid at that price)
+2026-11-04 20:41:25,704 INFO Resting NO bid on KXNBARACE-26NOV04MINHOU-10-MIN at $0.19 x2 (KXNBARACE-26NOV04MINHOU-10): locks in $0.11 if it fills; hedge NO HOU@0.7800
+2026-11-04 20:41:25,708 INFO Swept 20915 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 20:46:29,974 INFO PAPER rest NO bid KXNBAGAME-26NOV07HOUPHX-PHX at $0.6800 x3 (1 already bid at that price)
+2026-11-04 20:46:29,974 INFO Resting NO bid on KXNBAGAME-26NOV07HOUPHX-PHX at $0.68 x3 (KXNBAGAME-26NOV07HOUPHX): locks in $0.11 if it fills; hedge NO HOU@0.2600
+2026-11-04 20:46:29,978 INFO Swept 20942 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-04 20:46:30,016 INFO PAPER KXNBARACE-26NOV04MINHOU-10-MIN NO bid at $0.1900: 2/2 filled by real trades
+2026-11-04 20:46:30,036 INFO PAPER buy 2 NO KXNBARACE-26NOV04MINHOU-10-HOU at up to $0.7800: not on the book
+2026-11-04 20:46:30,036 WARNING Quote KXNBARACE-26NOV04MINHOU-10: hedge missed on KXNBARACE-26NOV04MINHOU-10-HOU. Selling back 2 contracts on 1 legs.
+2026-11-04 20:46:30,048 INFO PAPER sell 2 YES KXNBARACE-26NOV04MINHOU-10-MIN at up to $0.86: not on the book
+2026-11-04 20:46:30,048 ERROR STRAY POSITION: 2 NO contracts of KXNBARACE-26NOV04MINHOU-10-MIN still held. Check it on Kalshi.
+2026-11-04 20:51:29,375 INFO PAPER rest NO bid KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.7300 x4 (191 already bid at that price)
+2026-11-04 20:51:29,375 INFO Resting NO bid on KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.73 x4 (KXBOXING-26NOV06KAENABEAUCH): locks in $0.13 if it fills; hedge NO KAENA@0.2200
+2026-11-04 20:51:29,379 INFO Swept 20938 events: 0 taker trades, 1 new quotes, 2 resting
