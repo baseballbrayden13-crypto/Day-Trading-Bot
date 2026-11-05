@@ -2049,5 +2049,25 @@
    "closed": "2026-11-05T16:06:49.764429+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXESOCCERGAME-26NOV051509LEXILOTT",
+   "series": "KXESOCCERGAME",
+   "title": "eSoccer: Portugal (Lexi) vs Spain (Lotta)",
+   "ticker": "KXESOCCERGAME-26NOV051509LEXILOTT-TIE",
+   "order_id": "paper-772-1793909791",
+   "price": "0.3700",
+   "sets": 6,
+   "done": 0,
+   "reserve": "2.7700",
+   "multiplier": "1",
+   "placed": 1793909791.8408067,
+   "hedge": [
+    {
+     "ticker": "KXESOCCERGAME-26NOV051509LEXILOTT-LEXI",
+     "limit": "0.0800"
+    }
+   ]
+  }
+ ]
 }

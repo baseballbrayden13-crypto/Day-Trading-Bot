@@ -5215,3 +5215,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 14:36:09,877 INFO Swept 21182 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-05 14:41:10,867 INFO Swept 21184 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-05 14:46:08,091 INFO Swept 21168 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 14:51:07,958 INFO Swept 21173 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 14:56:14,620 INFO Swept 21112 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 15:01:14,439 INFO Swept 21080 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 15:06:23,302 INFO PAPER BET daily_safest: 1 NO KXBROADLINEADS-26NOV06-T129 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-05 15:06:23,304 INFO Swept 21065 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 15:11:27,654 INFO Swept 21154 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 15:16:31,840 INFO PAPER rest NO bid KXESOCCERGAME-26NOV051509LEXILOTT-TIE at $0.3700 x6 (0 already bid at that price)
+2026-11-05 15:16:31,840 INFO Resting NO bid on KXESOCCERGAME-26NOV051509LEXILOTT-TIE at $0.3700 x6 (KXESOCCERGAME-26NOV051509LEXILOTT): locks in $3.23 if it fills; hedge NO LEXI@0.0800
+2026-11-05 15:16:31,845 INFO Swept 21173 events: 0 taker trades, 1 new quotes, 1 resting

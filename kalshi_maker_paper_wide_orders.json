@@ -10792,5 +10792,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-772-1793909791": {
+  "id": "paper-772-1793909791",
+  "ticker": "KXESOCCERGAME-26NOV051509LEXILOTT-TIE",
+  "price": "0.3700",
+  "count": 6,
+  "ahead": 0,
+  "placed": 1793909791.831915,
+  "checked": 1793909918.2112806,
+  "expires": 1793911591,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

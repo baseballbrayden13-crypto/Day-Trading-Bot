@@ -127,6 +127,22 @@
    "note": "daily safest: likeliest outcome closing within 24h",
    "cost": "0.99",
    "expected": "-0.01"
+  },
+  {
+   "strategy": "daily_safest",
+   "ticker": "KXBROADLINEADS-26NOV06-T129",
+   "event": "KXBROADLINEADS-26NOV06",
+   "series": "KXBROADLINEADS",
+   "side": "no",
+   "count": 1,
+   "price": "0.9800",
+   "fee": "0.01",
+   "prob": 0.98,
+   "close_time": "2026-11-06T04:59:00Z",
+   "placed": "2026-11-05T20:04:04+00:00",
+   "note": "daily safest: likeliest outcome closing within 24h",
+   "cost": "0.99",
+   "expected": "-0.01"
   }
  ],
  "closed": []
