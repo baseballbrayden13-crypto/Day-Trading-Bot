@@ -17,7 +17,7 @@ Writes, in fleet_data/:
     positions.csv         what each bot holds right now
     market.csv            per symbol: last close, 1-day / 1-month change, above its 200-day average, volatility
     news.csv              last day's headlines for bot 1's stocks
-    benchmarks.csv        day,symbol,close for SPY, BTC and ETH: what just holding would have done
+    benchmarks.csv        day,symbol,close for SPY, QQQ, BTC and ETH: what just holding would have done
     events.csv            the next week's earnings for the fleet's stocks, plus dates in fleet_events.json (Fed, CPI...)
 It also replays bot 1's last trading day through the backtest (snapshot "replay") for Medic to compare.
 Medic, the maintenance bot (python -m bot.maintenance), reads these.
@@ -318,7 +318,7 @@ def headlines(symbols: list[str], key: str, secret: str, now: datetime) -> list[
     return out
 
 
-BENCHMARKS = ("SPY", "BTC/USD", "ETH/USD")
+BENCHMARKS = ("SPY", "QQQ", "BTC/USD", "ETH/USD")
 
 
 def bench_rows(closes, symbols) -> list[dict]:

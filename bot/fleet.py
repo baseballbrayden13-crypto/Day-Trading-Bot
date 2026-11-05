@@ -56,6 +56,7 @@ class Bot:
     max_position_share: float = 1.0  # Guard: one holding bigger than this share of the bot's equity is out of line
     runs_on: str = "pc"  # "pc", "cloud" (GitHub Actions) or "off" (retired); Scout/Medic only check logs and tasks where it runs
     skip: bool = False  # leave this bot out entirely on this machine (e.g. the cloud has no keys for it)
+    bt_yearly: float = 0.0  # what its backtest made a year (0.065 = 6.5%); the weekly report card checks the pace
     sleeve: str = ""  # shares its Alpaca account with other bots (bot.sleeves): its slice's name in sleeves.json
     extra: dict = field(default_factory=dict, compare=False, hash=False)
 
@@ -73,13 +74,13 @@ ROTATION_ETFS = ("SPY", "QQQ", "IWM", "EFA", "EEM", "XLK", "XLF", "XLE", "XLV", 
 
 FLEET: list[Bot] = [
     Bot(1, "ORB day trader", "alpaca", ".env", "QIE2", "trades.log", days="weekdays", runs_at="09:20",
-        task="Trading bot (paper)", always_on=True,
+        task="Trading bot (paper)", always_on=True, bt_yearly=0.038,  # ~$190 on $5,000 in the unseen year
         # Tuned ORB, 3 years: worst drop 2.6%, out-of-sample PF 1.22. Risk halt at -2% a day.
         max_drawdown_pct=2.6, max_day_loss_pct=2.0, min_profit_factor=1.0, min_trades=30, max_position_share=0.25,
         symbols=("SPY", "QQQ", "AAPL", "MSFT", "NVDA"),
         notes="Flat by 3:50pm every day; any position after the close is a problem."),
     Bot(2, "ETF rotation", "alpaca", ".env.rotation", "8T7Y", "rotation.log", days="weekdays", runs_at="09:50",
-        task="Trading bot 2",
+        task="Trading bot 2", bt_yearly=0.096,
         # 20 years top 3 / 3 months / cash: 9.6%/yr, worst drop -26%.
         max_drawdown_pct=26.0, max_day_loss_pct=6.0, min_profit_factor=0, min_trades=0, max_position_share=0.40,
         symbols=ROTATION_ETFS, sleeve="2", notes="Trades once a month; holdings should match rotation_state.json."),
@@ -110,7 +111,7 @@ FLEET: list[Bot] = [
         min_profit_factor=0, min_trades=0,
         notes="Looser maker copy (10 quotes, $5 each) plus a taker scan and one pretend 'safest' bet a day, pretend $20. Runs on GitHub."),
     Bot(8, "Dip buyer", "alpaca", ".env.rotation", "8T7Y", "dipbuy.log", label="5", days="weekdays", runs_at="09:50",
-        task="Trading bot 5 (dip buyer, paper)", runs_on="cloud", sleeve="5",
+        task="Trading bot 5 (dip buyer, paper)", runs_on="cloud", sleeve="5", bt_yearly=0.065,
         # 2018-2026 unseen: +6.5%/yr, worst drop -14%, PF 1.31, ~100 trades a year (5 bps a side).
         max_drawdown_pct=14.0, max_day_loss_pct=5.0, min_profit_factor=1.0, min_trades=40, max_position_share=0.25,
         symbols=tuple(DIP_SYMBOLS.split(",")),

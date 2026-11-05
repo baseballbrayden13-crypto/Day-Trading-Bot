@@ -35,8 +35,18 @@ def grade(change_pct: float | None, problems: int) -> str:
     return "ABCD"[min(score, 3)]
 
 
+def bench_change(bench: list[dict], symbol: str, start: str, end: str) -> float | None:
+    """% change of `symbol` from its last close before `start` (or its first in the period) to its last by `end`."""
+    rows = sorted((r for r in bench if r["symbol"] == symbol and r["day"] <= end), key=lambda r: r["day"])
+    before = [r for r in rows if r["day"] < start]
+    base = before[-1] if before else next((r for r in rows if r["day"] >= start), None)
+    if not base or not rows or rows[-1]["day"] < start:
+        return None
+    return round((float(rows[-1]["close"]) / float(base["close"]) - 1) * 100, 2)
+
+
 def card(bot: Bot, equity: list[dict], trades: list[dict], history: list[dict], alerts: list[dict], lab: list[dict],
-         start: str, end: str) -> dict:
+         start: str, end: str, bench: list[dict] | None = None) -> dict:
     eq = [r for r in sorted(equity, key=lambda r: r["day"]) if r["bot"] == str(bot.num) and float(r["equity"] or 0) > 0]
     week = [r for r in eq if start <= r["day"] <= end]
     before = [r for r in eq if r["day"] < start]
@@ -53,7 +63,22 @@ def card(bot: Bot, equity: list[dict], trades: list[dict], history: list[dict], 
             "week_pct": round(change, 2) if change is not None else "", "since_start_pct":
             round((last / bot.start_equity - 1) * 100, 2) if last else "", "fills": fills, "medic_act_days": bad_days,
             "medic_watch_days": watch_days, "guard_alerts": guard, "lab": verdict,
-            "grade": grade(change, bad_days + guard)}
+            "grade": grade(change, bad_days + guard), **versus(bot, eq, change, bench or [], start, end)}
+
+
+def versus(bot: Bot, eq: list[dict], change: float | None, bench: list[dict], start: str, end: str) -> dict:
+    """The week and the bot's whole run next to just holding SPY and QQQ, and next to its backtest's pace."""
+    first = eq[0]["day"] if eq else start
+    spy_w, qqq_w = bench_change(bench, "SPY", start, end), bench_change(bench, "QQQ", start, end)
+    spy_all = bench_change(bench, "SPY", first, end)
+    last = float(eq[-1]["equity"]) if eq else None
+    since = (last / bot.start_equity - 1) * 100 if last else None
+    days = (datetime.fromisoformat(end) - datetime.fromisoformat(first)).days if eq else 0
+    pace = round(bot.bt_yearly * 100 * days / 365, 2) if bot.bt_yearly and days else ""
+    return {"spy_week_pct": "" if spy_w is None else spy_w, "qqq_week_pct": "" if qqq_w is None else qqq_w,
+            "spy_since_start_pct": "" if spy_all is None else spy_all,
+            "vs_spy_since_start": "" if spy_all is None or since is None or bot.kind != "alpaca" else round(since - spy_all, 2),
+            "backtest_pace_pct": pace}
 
 
 def sentence(c: dict) -> str:
@@ -62,7 +87,12 @@ def sentence(c: dict) -> str:
     health = ("ran without problems" if not (c["medic_act_days"] or c["guard_alerts"]) else
               f"needed attention on {c['medic_act_days']} night{'s' if c['medic_act_days'] != 1 else ''}" + (f" and set off Guard {c['guard_alerts']} times" if c["guard_alerts"] else ""))
     lab = f" Lab: {c['lab']}." if c["lab"] else ""
-    return f"Bot {c['label']} ({c['name']}), grade {c['grade']}: {money}, {c['fills']} fills, {health}.{lab}"
+    bench = ""
+    if c.get("vs_spy_since_start", "") != "":
+        v = c["vs_spy_since_start"]
+        bench = (f" Since it started: {'ahead of' if v >= 0 else 'behind'} just holding SPY by {abs(v):.1f} points"
+                 + (f"; its backtest pace was {c['backtest_pace_pct']:+.1f}%" if c.get("backtest_pace_pct", "") != "" else "") + ".")
+    return f"Bot {c['label']} ({c['name']}), grade {c['grade']}: {money}, {c['fills']} fills, {health}.{lab}{bench}"
 
 
 def main() -> None:
@@ -74,8 +104,10 @@ def main() -> None:
     # Medic's last grade of each day (it writes medic_history.csv)
     history = [{"day": r["day"], "status": json.loads(r["status"])} for r in _csv(OUT / "medic_history.csv") if start <= r["day"] <= end]
     cards = [card(b, _csv(OUT / "equity.csv"), _csv(OUT / "trades.csv"), history, _csv(OUT / "alerts.csv"),
-                  _csv(OUT / "lab.csv"), start, end) for b in load()]
-    lines = [f"# Weekly report card, {start} to {end}", ""] + [f"- {sentence(c)}" for c in cards]
+                  _csv(OUT / "lab.csv"), start, end, _csv(OUT / "benchmarks.csv")) for b in load()]
+    spy, qqq = cards[0].get("spy_week_pct", ""), cards[0].get("qqq_week_pct", "")
+    market = (f"Just holding: SPY {spy:+.1f}%, QQQ {qqq:+.1f}% this week." if spy != "" and qqq != "" else "")
+    lines = [f"# Weekly report card, {start} to {end}", "", market, ""] + [f"- {sentence(c)}" for c in cards]
     lines += ["", "Grades: A = ran cleanly all week, B/C = needed attention once/twice, D = kept needing it (a loss over 2% costs a letter). Paper money only."]
     text = "\n".join(lines)
     OUT.mkdir(exist_ok=True)
