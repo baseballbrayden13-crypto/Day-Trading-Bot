@@ -1958,5 +1958,44 @@
    "closed": "2026-11-05T07:52:34.832371+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGAPROMATCH-26NOV050300SHKDAN",
+   "series": "KXLIGAPROMATCH",
+   "title": "SHkolnikov IUrii vs Danilov Evgenii",
+   "ticker": "KXLIGAPROMATCH-26NOV050300SHKDAN-SHK",
+   "order_id": "paper-752-1793873038",
+   "price": "0.0300",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.4600",
+   "multiplier": "1",
+   "placed": 1793873038.0237346,
+   "hedge": [
+    {
+     "ticker": "KXLIGAPROMATCH-26NOV050300SHKDAN-DAN",
+     "limit": "0.8500"
+    }
+   ]
+  },
+  {
+   "event": "KXITFWMATCH-26NOV05CHIOKT",
+   "series": "KXITFWMATCH",
+   "title": "Chiesa vs Oktiabreva",
+   "ticker": "KXITFWMATCH-26NOV05CHIOKT-OKT",
+   "order_id": "paper-753-1793873038",
+   "price": "0.08",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8800",
+   "multiplier": "1",
+   "placed": 1793873038.0624673,
+   "hedge": [
+    {
+     "ticker": "KXITFWMATCH-26NOV05CHIOKT-CHI",
+     "limit": "0.8800"
+    }
+   ]
+  }
+ ]
 }

@@ -4920,3 +4920,13 @@
 2026-11-05 04:23:28,383 INFO Swept 20532 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-05 04:28:29,911 INFO Swept 20532 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-05 04:33:31,325 INFO Swept 20532 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 04:38:33,402 INFO Swept 20532 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 04:43:36,448 INFO Swept 20532 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 04:48:35,521 INFO Swept 20532 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 04:53:40,812 INFO Swept 20532 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 04:58:39,080 INFO Swept 20532 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 05:03:58,023 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV050300SHKDAN-SHK at $0.0300 x5 (0 already bid at that price)
+2026-11-05 05:03:58,023 INFO Resting NO bid on KXLIGAPROMATCH-26NOV050300SHKDAN-SHK at $0.0300 x5 (KXLIGAPROMATCH-26NOV050300SHKDAN): locks in $0.54 if it fills; hedge NO DAN@0.8500
+2026-11-05 05:03:58,062 INFO PAPER rest NO bid KXITFWMATCH-26NOV05CHIOKT-OKT at $0.0800 x4 (5 already bid at that price)
+2026-11-05 05:03:58,062 INFO Resting NO bid on KXITFWMATCH-26NOV05CHIOKT-OKT at $0.08 x4 (KXITFWMATCH-26NOV05CHIOKT): locks in $0.12 if it fills; hedge NO CHI@0.8800
+2026-11-05 05:03:58,065 INFO Swept 20491 events: 0 taker trades, 2 new quotes, 2 resting
