@@ -10590,11 +10590,11 @@
   "count": 4,
   "ahead": 0,
   "placed": 1793879083.2489579,
-  "checked": 1793880381.6701722,
+  "checked": 1793880713.036251,
   "expires": 1793880883,
-  "through": 0,
+  "through": 25,
   "at_price": 0,
-  "filled": 0,
-  "status": "resting"
+  "filled": 4,
+  "status": "executed"
  }
 }
