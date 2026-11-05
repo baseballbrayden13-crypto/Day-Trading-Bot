@@ -5253,3 +5253,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 16:42:21,621 INFO Swept 21186 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-05 16:47:25,654 INFO Swept 21196 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-05 16:47:25,754 INFO Quote KXUECLSCORE-26NOV05LUGKAZ cancelled (0/3 filled)
+2026-11-05 16:52:28,823 INFO Swept 21202 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 16:57:34,409 INFO Swept 21219 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 17:02:34,766 INFO Swept 21235 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 17:07:41,406 INFO PAPER rest NO bid KXITFMATCH-26NOV06BARTAL-BAR at $0.3600 x5 (0 already bid at that price)
+2026-11-05 17:07:41,406 INFO Resting NO bid on KXITFMATCH-26NOV06BARTAL-BAR at $0.3600 x5 (KXITFMATCH-26NOV06BARTAL): locks in $0.13 if it fills; hedge NO TAL@0.5900
+2026-11-05 17:07:41,411 INFO Swept 21799 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 17:12:42,978 INFO Swept 21756 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 17:17:48,743 INFO Swept 21734 events: 0 taker trades, 0 new quotes, 1 resting
