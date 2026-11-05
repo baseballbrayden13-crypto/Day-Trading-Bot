@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T18:41:25+00:00",
+ "updated": "2026-11-05T19:13:34+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -13,16 +13,11 @@
  "stray_positions": 0,
  "closed_trades": 52,
  "trades_this_loop": 0,
- "events_swept": 21031,
+ "events_swept": 21215,
  "found_this_loop": 0,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 4,
- "last_problems": [
-  "2026-11-05 15:21 Quote KXCS2MAP-26NOV050900LKWRA-2: hedge missed on KXCS2MAP-26NOV050900LKWRA-2-LK. Selling back 4 contracts on 1 legs.",
-  "2026-11-05 15:21 STRAY POSITION: 4 NO contracts of KXCS2MAP-26NOV050900LKWRA-2-WRA still held. Check it on Kalshi.",
-  "2026-11-05 15:57 Quote KXMLBBGAME-26NOV051000CHEMBW: hedge missed on KXMLBBGAME-26NOV051000CHEMBW-BW. Selling back 2 contracts on 1 legs.",
-  "2026-11-05 15:57 STRAY POSITION: 2 NO contracts of KXMLBBGAME-26NOV051000CHEMBW-CHEM still held. Check it on Kalshi."
- ]
+ "problems": 0,
+ "last_problems": []
 }

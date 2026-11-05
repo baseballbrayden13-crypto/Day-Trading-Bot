@@ -5200,3 +5200,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 13:38:37,909 INFO Swept 21064 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-05 13:43:42,669 INFO Swept 21031 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-05 13:43:47,793 INFO Stopped; all quotes cancelled.
+2026-11-05 13:48:22,907 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-05 13:50:46,706 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV05CHAHINCASODO-CASODO at $0.5900 x3 (0 already bid at that price)
+2026-11-05 13:50:46,707 INFO Resting NO bid on KXITFWDOUBLES-26NOV05CHAHINCASODO-CASODO at $0.5900 x3 (KXITFWDOUBLES-26NOV05CHAHINCASODO): locks in $0.20 if it fills; hedge NO CHAHIN@0.3200
+2026-11-05 13:50:46,712 INFO Swept 21041 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 13:55:45,448 INFO Swept 21058 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 14:00:49,066 INFO Swept 21076 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 14:05:52,773 INFO Swept 21087 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 14:10:57,951 INFO Swept 21184 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 14:15:57,564 INFO Swept 21215 events: 0 taker trades, 0 new quotes, 1 resting

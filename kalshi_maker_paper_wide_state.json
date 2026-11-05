@@ -2049,5 +2049,25 @@
    "closed": "2026-11-05T16:06:49.764429+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXITFWDOUBLES-26NOV05CHAHINCASODO",
+   "series": "KXITFWDOUBLES",
+   "title": "Chan / Hinojosa Gomez vs Castillo Meza / Odorizzi",
+   "ticker": "KXITFWDOUBLES-26NOV05CHAHINCASODO-CASODO",
+   "order_id": "paper-771-1793904646",
+   "price": "0.5900",
+   "sets": 3,
+   "done": 0,
+   "reserve": "2.8000",
+   "multiplier": "1",
+   "placed": 1793904646.70715,
+   "hedge": [
+    {
+     "ticker": "KXITFWDOUBLES-26NOV05CHAHINCASODO-CHAHIN",
+     "limit": "0.3300"
+    }
+   ]
+  }
+ ]
 }
