@@ -10800,11 +10800,25 @@
   "count": 6,
   "ahead": 0,
   "placed": 1793909791.831915,
-  "checked": 1793909918.2112806,
+  "checked": 1793910093.522337,
   "expires": 1793911591,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-773-1793910696": {
+  "id": "paper-773-1793910696",
+  "ticker": "KXUECL1H-26NOV05GETBRI-GET",
+  "price": "0.4600",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793910696.4033735,
+  "checked": 1793911158.4423568,
+  "expires": 1793912496,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

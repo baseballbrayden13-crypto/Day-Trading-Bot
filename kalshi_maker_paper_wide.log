@@ -5224,3 +5224,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 15:16:31,840 INFO PAPER rest NO bid KXESOCCERGAME-26NOV051509LEXILOTT-TIE at $0.3700 x6 (0 already bid at that price)
 2026-11-05 15:16:31,840 INFO Resting NO bid on KXESOCCERGAME-26NOV051509LEXILOTT-TIE at $0.3700 x6 (KXESOCCERGAME-26NOV051509LEXILOTT): locks in $3.23 if it fills; hedge NO LEXI@0.0800
 2026-11-05 15:16:31,845 INFO Swept 21173 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 15:21:33,467 INFO Swept 21183 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 15:21:33,561 INFO Quote KXESOCCERGAME-26NOV051509LEXILOTT cancelled (0/6 filled)
+2026-11-05 15:26:32,616 INFO Swept 21171 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 15:31:36,412 INFO PAPER rest NO bid KXUECL1H-26NOV05GETBRI-GET at $0.4600 x1 (0 already bid at that price)
+2026-11-05 15:31:36,412 INFO Resting NO bid on KXUECL1H-26NOV05GETBRI-GET at $0.4600 x1 (KXUECL1H-26NOV05GETBRI): locks in $0.22 if it fills; hedge NO BRI@0.8600, TIE@0.4200
+2026-11-05 15:31:36,417 INFO Swept 21154 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 15:36:36,509 INFO Swept 21130 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 15:39:18,481 INFO Quote KXUECL1H-26NOV05GETBRI cancelled (0/1 filled)
+2026-11-05 15:41:40,100 INFO Swept 21145 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 15:46:41,216 INFO Swept 21136 events: 0 taker trades, 0 new quotes, 0 resting
