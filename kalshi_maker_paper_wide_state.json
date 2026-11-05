@@ -1931,25 +1931,5 @@
    "closed": "2026-11-05T06:18:13.148745+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXTESTMATCH-26NOV012300BRODAUP",
-   "series": "KXTESTMATCH",
-   "title": "Uttar Pradesh vs Baroda",
-   "ticker": "KXTESTMATCH-26NOV012300BRODAUP-TIE",
-   "order_id": "paper-739-1793859516",
-   "price": "0.07",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.8800",
-   "multiplier": "1",
-   "placed": 1793859516.2429216,
-   "hedge": [
-    {
-     "ticker": "KXTESTMATCH-26NOV012300BRODAUP-UP",
-     "limit": "0.8900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
