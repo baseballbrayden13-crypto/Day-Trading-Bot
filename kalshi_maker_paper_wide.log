@@ -5143,3 +5143,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 10:26:58,427 INFO PAPER rest NO bid KXCS2MAP-26NOV050900LKWRA-1-LK at $0.6700 x2 (0 already bid at that price)
 2026-11-05 10:26:58,427 INFO Resting NO bid on KXCS2MAP-26NOV050900LKWRA-1-LK at $0.6700 x2 (KXCS2MAP-26NOV050900LKWRA-1): locks in $0.22 if it fills; hedge NO WRA@0.2000
 2026-11-05 10:26:58,431 INFO Swept 20816 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 10:31:59,728 INFO Swept 20814 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 10:37:00,302 INFO Swept 20802 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 10:37:00,414 INFO Quote KXCS2MAP-26NOV050900LKWRA-1 cancelled (0/2 filled)
+2026-11-05 10:42:03,184 INFO PAPER rest NO bid KXMLBBGAME-26NOV051000CHEMBW-CHEM at $0.1900 x2 (0 already bid at that price)
+2026-11-05 10:42:03,184 INFO Resting NO bid on KXMLBBGAME-26NOV051000CHEMBW-CHEM at $0.1900 x2 (KXMLBBGAME-26NOV051000CHEMBW): locks in $0.29 if it fills; hedge NO BW@0.6900
+2026-11-05 10:42:03,188 INFO Swept 20798 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 10:47:09,768 INFO Swept 20794 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 10:52:07,307 INFO Swept 20788 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 10:57:01,422 INFO Swept 20785 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 10:57:01,455 INFO PAPER KXMLBBGAME-26NOV051000CHEMBW-CHEM NO bid at $0.1900: 2/2 filled by real trades
+2026-11-05 10:57:01,493 INFO PAPER buy 2 NO KXMLBBGAME-26NOV051000CHEMBW-BW at up to $0.6900: not on the book
+2026-11-05 10:57:01,493 WARNING Quote KXMLBBGAME-26NOV051000CHEMBW: hedge missed on KXMLBBGAME-26NOV051000CHEMBW-BW. Selling back 2 contracts on 1 legs.
+2026-11-05 10:57:01,523 INFO PAPER sell 2 YES KXMLBBGAME-26NOV051000CHEMBW-CHEM at up to $0.8600: not on the book
+2026-11-05 10:57:01,524 ERROR STRAY POSITION: 2 NO contracts of KXMLBBGAME-26NOV051000CHEMBW-CHEM still held. Check it on Kalshi.

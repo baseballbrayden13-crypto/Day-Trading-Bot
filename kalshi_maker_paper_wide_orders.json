@@ -10716,11 +10716,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793892418.4184883,
-  "checked": 1793892540.167327,
+  "checked": 1793893020.3700705,
   "expires": 1793894218,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-767-1793893323": {
+  "id": "paper-767-1793893323",
+  "ticker": "KXMLBBGAME-26NOV051000CHEMBW-CHEM",
+  "price": "0.1900",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793893323.176098,
+  "checked": 1793894221.4226046,
+  "expires": 1793895123,
+  "through": 122,
+  "at_price": 0,
+  "filled": 2,
+  "status": "executed"
  }
 }
