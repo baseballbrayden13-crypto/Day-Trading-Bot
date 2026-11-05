@@ -5241,3 +5241,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 16:06:54,505 INFO Swept 21051 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-05 16:11:57,260 INFO Swept 21149 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-05 16:17:02,875 INFO Swept 21166 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 16:22:04,703 INFO PAPER rest NO bid KXLOWTTTN-26NOV05-B57.5 at $0.9100 x4 (10 already bid at that price)
+2026-11-05 16:22:04,703 INFO Resting NO bid on KXLOWTTTN-26NOV05-B57.5 at $0.91 x4 (KXLOWTTTN-26NOV05): locks in $0.13 if it fills; hedge NO T58@0.0500
+2026-11-05 16:22:04,708 INFO Swept 21174 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 16:22:55,373 INFO Quote KXLOWTTTN-26NOV05 cancelled (0/4 filled)
+2026-11-05 16:27:07,725 INFO Swept 21180 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 16:32:12,347 INFO Swept 21182 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 16:37:14,538 INFO Swept 21189 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 16:42:21,616 INFO PAPER rest NO bid KXUECLSCORE-26NOV05LUGKAZ-LUG4KAZ0 at $0.3100 x3 (0 already bid at that price)
+2026-11-05 16:42:21,616 INFO Resting NO bid on KXUECLSCORE-26NOV05LUGKAZ-LUG4KAZ0 at $0.3100 x3 (KXUECLSCORE-26NOV05LUGKAZ): locks in $1.26 if it fills; hedge NO LUG3KAZ0@0.3000, LUG3KAZ1@0.9400
+2026-11-05 16:42:21,621 INFO Swept 21186 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 16:47:25,654 INFO Swept 21196 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 16:47:25,754 INFO Quote KXUECLSCORE-26NOV05LUGKAZ cancelled (0/3 filled)
