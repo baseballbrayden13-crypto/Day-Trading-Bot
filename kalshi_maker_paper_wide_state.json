@@ -1958,5 +1958,25 @@
    "closed": "2026-11-05T07:52:34.832371+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGAPROMATCH-26NOV050300SHKDAN",
+   "series": "KXLIGAPROMATCH",
+   "title": "SHkolnikov IUrii vs Danilov Evgenii",
+   "ticker": "KXLIGAPROMATCH-26NOV050300SHKDAN-SHK",
+   "order_id": "paper-754-1793875160",
+   "price": "0.0200",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.4100",
+   "multiplier": "1",
+   "placed": 1793875160.0421503,
+   "hedge": [
+    {
+     "ticker": "KXLIGAPROMATCH-26NOV050300SHKDAN-DAN",
+     "limit": "0.8500"
+    }
+   ]
+  }
+ ]
 }

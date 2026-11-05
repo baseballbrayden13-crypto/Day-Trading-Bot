@@ -4936,3 +4936,14 @@
 2026-11-05 05:24:12,329 INFO Swept 20568 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-05 05:29:15,033 INFO Swept 20566 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-05 05:34:16,982 INFO Swept 20560 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 05:39:20,042 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV050300SHKDAN-SHK at $0.0200 x5 (0 already bid at that price)
+2026-11-05 05:39:20,042 INFO Resting NO bid on KXLIGAPROMATCH-26NOV050300SHKDAN-SHK at $0.0200 x5 (KXLIGAPROMATCH-26NOV050300SHKDAN): locks in $0.59 if it fills; hedge NO DAN@0.8500
+2026-11-05 05:39:20,045 INFO Swept 20557 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 05:44:19,429 INFO Swept 20557 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 05:49:21,451 INFO Swept 20552 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 05:54:24,472 INFO PAPER rest NO bid KXSOLE-26NOV0506-B96.125 at $0.1100 x1 (0 already bid at that price)
+2026-11-05 05:54:24,472 INFO Resting NO bid on KXSOLE-26NOV0506-B96.125 at $0.1100 x1 (KXSOLE-26NOV0506): locks in $0.57 if it fills; hedge NO B96.375@0.7900, B96.625@0.4900, B96.875@0.9800
+2026-11-05 05:54:24,475 INFO Swept 20549 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 05:54:40,322 INFO Quote KXSOLE-26NOV0506 cancelled (0/1 filled)
+2026-11-05 05:59:28,516 INFO Swept 20548 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 06:04:30,504 INFO Swept 20534 events: 0 taker trades, 0 new quotes, 1 resting
