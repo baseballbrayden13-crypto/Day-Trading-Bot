@@ -10128,12 +10128,12 @@
   "count": 4,
   "ahead": 1,
   "placed": 1793846823.4005141,
-  "checked": 1793847207.9514713,
+  "checked": 1793848623,
   "expires": 1793848623,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-725-1793847126": {
   "id": "paper-725-1793847126",
@@ -10142,11 +10142,53 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793847126.6291194,
-  "checked": 1793847207.9902449,
+  "checked": 1793847757.2476285,
   "expires": 1793848926,
   "through": 0,
   "at_price": 0,
   "filled": 0,
+  "status": "canceled"
+ },
+ "paper-726-1793847431": {
+  "id": "paper-726-1793847431",
+  "ticker": "KXNCAAWBGAME-26NOV06NEBU-NE",
+  "price": "0.2700",
+  "count": 3,
+  "ahead": 0,
+  "placed": 1793847431.1957195,
+  "checked": 1793849013.149553,
+  "expires": 1793849231,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
   "status": "resting"
+ },
+ "paper-727-1793848639": {
+  "id": "paper-727-1793848639",
+  "ticker": "KXITFMATCH-26NOV05DECVAN-VAN",
+  "price": "0.6300",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793848639.5827367,
+  "checked": 1793849013.2069805,
+  "expires": 1793850439,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-728-1793848945": {
+  "id": "paper-728-1793848945",
+  "ticker": "KXNBA4Q-26NOV04CLEOKC-TIE",
+  "price": "0.9000",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793848945.3720303,
+  "checked": 1793849008.1070151,
+  "expires": 1793850745,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
