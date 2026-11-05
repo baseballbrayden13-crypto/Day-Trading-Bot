@@ -94,6 +94,11 @@ jobs:
       - name: Bot 1 + Guard (state and site chart data saved every 30 minutes)
         if: steps.go.outputs.run == 'yes'
         working-directory: state
+        env:
+          # Limit entries (C-038): buy at no more than 5 bps over the signal price; an unfilled entry is
+          # cancelled at the next bar. Real market-order fills averaged ~5 bps worse than the signal, where the
+          # ORB edge is about gone. Wins over the .env setting. Undo: delete this line (back to market orders).
+          ENTRY_LIMIT_BPS: "5"
         run: |
           test -s .env || { echo "No BOT1_ENV secret yet: run 'Copy keys to GitHub.bat' on the PC."; exit 1; }
           python -m bot.guard --loop 10 --until "${{ steps.part.outputs.until }}" > guard.out 2>&1 &
