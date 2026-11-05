@@ -10310,12 +10310,12 @@
   "count": 4,
   "ahead": 1,
   "placed": 1793857711.137032,
-  "checked": 1793858042.3837426,
+  "checked": 1793859511,
   "expires": 1793859511,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-738-1793858011": {
   "id": "paper-738-1793858011",
@@ -10330,5 +10330,19 @@
   "at_price": 0,
   "filled": 4,
   "status": "executed"
+ },
+ "paper-739-1793859516": {
+  "id": "paper-739-1793859516",
+  "ticker": "KXTESTMATCH-26NOV012300BRODAUP-TIE",
+  "price": "0.0700",
+  "count": 4,
+  "ahead": 18,
+  "placed": 1793859516.2336493,
+  "checked": 1793859843.8869214,
+  "expires": 1793861316,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

@@ -1,5 +1,5 @@
 {
- "realized": "-2.1200",
+ "realized": "-1.5400",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -105,30 +105,6 @@
      "side": "no",
      "count": 1,
      "limit": "0.7900"
-    }
-   ]
-  },
-  {
-   "event": "KXNBA4Q-26NOV04MIALAC",
-   "series": "KXNBA4Q",
-   "title": "Miami vs Los Angeles C: 4th Quarter Winner",
-   "sets": 4,
-   "outlay": "3.4200",
-   "locked_profit": "0.5800",
-   "opened": "2026-11-05T05:53:37.148635+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXNBA4Q-26NOV04MIALAC-TIE",
-     "side": "no",
-     "count": 4,
-     "limit": "0.8400"
-    },
-    {
-     "ticker": "KXNBA4Q-26NOV04MIALAC-MIA",
-     "side": "no",
-     "count": 4,
-     "limit": "0.0100"
     }
    ]
   }
@@ -1926,25 +1902,52 @@
    "paid": "0",
    "pnl": "-0.39",
    "closed": "2026-11-05T01:56:05.177607+00:00"
+  },
+  {
+   "event": "KXNBA4Q-26NOV04MIALAC",
+   "series": "KXNBA4Q",
+   "title": "Miami vs Los Angeles C: 4th Quarter Winner",
+   "sets": 4,
+   "outlay": "3.4200",
+   "locked_profit": "0.5800",
+   "opened": "2026-11-05T05:53:37.148635+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXNBA4Q-26NOV04MIALAC-TIE",
+     "side": "no",
+     "count": 4,
+     "limit": "0.8400"
+    },
+    {
+     "ticker": "KXNBA4Q-26NOV04MIALAC-MIA",
+     "side": "no",
+     "count": 4,
+     "limit": "0.0100"
+    }
+   ],
+   "paid": "4",
+   "pnl": "0.5800",
+   "closed": "2026-11-05T06:18:13.148745+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXNBAGAME-26NOV08PHICHI",
-   "series": "KXNBAGAME",
-   "title": "Philadelphia vs Chicago",
-   "ticker": "KXNBAGAME-26NOV08PHICHI-CHI",
-   "order_id": "paper-737-1793857711",
-   "price": "0.73",
+   "event": "KXTESTMATCH-26NOV012300BRODAUP",
+   "series": "KXTESTMATCH",
+   "title": "Uttar Pradesh vs Baroda",
+   "ticker": "KXTESTMATCH-26NOV012300BRODAUP-TIE",
+   "order_id": "paper-739-1793859516",
+   "price": "0.07",
    "sets": 4,
    "done": 0,
-   "reserve": "3.8700",
+   "reserve": "3.8800",
    "multiplier": "1",
-   "placed": 1793857711.145982,
+   "placed": 1793859516.2429216,
    "hedge": [
     {
-     "ticker": "KXNBAGAME-26NOV08PHICHI-PHI",
-     "limit": "0.2200"
+     "ticker": "KXTESTMATCH-26NOV012300BRODAUP-UP",
+     "limit": "0.8900"
     }
    ]
   }

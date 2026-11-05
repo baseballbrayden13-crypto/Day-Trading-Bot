@@ -4841,3 +4841,12 @@
 2026-11-05 00:53:37,118 INFO PAPER KXNBA4Q-26NOV04MIALAC-TIE NO bid at $0.8400: 4/4 filled by real trades
 2026-11-05 00:53:37,148 INFO PAPER buy 4 NO KXNBA4Q-26NOV04MIALAC-MIA at up to $0.0100: filled 4
 2026-11-05 00:53:37,148 INFO Quote KXNBA4Q-26NOV04MIALAC filled 4: hedged, locks in $0.58
+2026-11-05 00:58:33,546 INFO Swept 20631 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 01:03:28,572 INFO Swept 20599 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 01:08:28,123 INFO Swept 20600 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 01:13:35,154 INFO Swept 20601 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 01:18:13,148 INFO Settled KXNBA4Q-26NOV04MIALAC: paid $4, profit $0.58
+2026-11-05 01:18:36,242 INFO PAPER rest NO bid KXTESTMATCH-26NOV012300BRODAUP-TIE at $0.0700 x4 (18 already bid at that price)
+2026-11-05 01:18:36,242 INFO Resting NO bid on KXTESTMATCH-26NOV012300BRODAUP-TIE at $0.07 x4 (KXTESTMATCH-26NOV012300BRODAUP): locks in $0.12 if it fills; hedge NO UP@0.8900
+2026-11-05 01:18:36,247 INFO Swept 20603 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 01:23:38,538 INFO Swept 20612 events: 0 taker trades, 0 new quotes, 1 resting
