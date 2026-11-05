@@ -1,0 +1,155 @@
+args: --days 5 --minutes-before 5
+KXNEAR15M        Crypto         NEAR 15m
+KXHYPE15M        Crypto         HYPE 15 min
+KXDJIA15M        Financials     Dow Jones 15-minute
+KX5YRRATE15M     Financials     5-year Treasury yield 15-minute
+KXCOPPER15M      Commodities    Copper 15-minute
+KXUSDCAD15M      Financials     15-minute USDCAD
+KX2YRRATE15M     Financials     2-year Treasury yield 15-minute
+KX30YRRATE15M    Financials     30-year Treasury yield 15-minute
+KXAUDUSD15M      Financials     15-minute AUDUSD
+KXTON15M         Crypto         TON 15m
+KXGBPUSD15MTEST  Financials     GBPUSD 15M TEST
+KXUSDMXN15M      Financials     15-minute USDMXN
+KXPLATINUM15M    Commodities    Platinum 15-minute
+KXSOL15M         Crypto         SOL 15 min
+KXZEC15M         Crypto         Zcash 15min
+KXNATGAS15M      Commodities    Natural Gas 15-minute
+KXWTI15M         Commodities    WTI 15-minute
+KXGOLD15M        Commodities    Gold 15-minute
+KX10YRRATE15M    Financials     10-year Treasury yield 15-minute
+KXCOFFEE15M      Commodities    Coffee 15-minute
+KXSILVER15M      Commodities    Silver 15-minute
+KXXRP15M         Crypto         XRP 15 min
+KXBRENT15M       Commodities    Brent 15-minute
+KXCRYPTOCOMP15M  Crypto         Crypto Comparison 15 minute
+KXINX15M         Financials     S&P 500 15-minute
+KXADA15M         Crypto         Cardano 15 Minute
+KXEURUSD15M      Financials     15-minute EURUSD
+KXBTC15M         Crypto         BTC 15 min
+KXUSDJPY15M      Financials     Fifteen-min USDJPY
+KXETH15M         Crypto         ETH 15 min
+KXCRYPTOLEAD15M  Crypto         Coin Race 15 minutes
+KXGBPUSD15M      Financials     15-minute GBPUSD
+KXKPOWMID15M     Elections      KPOW Midterms 15-minute
+KXBCH15M         Crypto         Bitcoin Cash 15 Minute
+KXPALLADIUM15M   Commodities    Palladium 15-minute
+KXDOGE15M        Crypto         DOGE 15 min
+KXBNB15M         Crypto         BNB 15 min
+KXNDQ15M         Financials     Nasdaq 100 15-minute
+KXNDQ15M: 0 settled events, 0 model bets, 0 favorite bets
+KX2YRRATE15M: 210 settled events, 0 model bets, 108 favorite bets
+KXPALLADIUM15M: 347 settled events, 0 model bets, 199 favorite bets
+KXETH15M: 400 settled events, 256 model bets, 236 favorite bets
+KXBNB15M: 400 settled events, 0 model bets, 240 favorite bets
+KXGBPUSD15MTEST: 0 settled events, 0 model bets, 0 favorite bets
+KXGBPUSD15M: 366 settled events, 0 model bets, 193 favorite bets
+KXCRYPTOLEAD15M: 400 settled events, 0 model bets, 1478 favorite bets
+KXKPOWMID15M: 97 settled events, 0 model bets, 64 favorite bets
+KXBCH15M: 0 settled events, 0 model bets, 0 favorite bets
+KXHYPE15M: 400 settled events, 0 model bets, 244 favorite bets
+KXSILVER15M: 347 settled events, 0 model bets, 201 favorite bets
+KXDJIA15M: 0 settled events, 0 model bets, 0 favorite bets
+KXWTI15M: 363 settled events, 0 model bets, 185 favorite bets
+KXPLATINUM15M: 348 settled events, 0 model bets, 202 favorite bets
+KXUSDJPY15M: 367 settled events, 0 model bets, 186 favorite bets
+KXUSDCAD15M: 367 settled events, 0 model bets, 202 favorite bets
+KXZEC15M: 400 settled events, 0 model bets, 246 favorite bets
+KX30YRRATE15M: 211 settled events, 0 model bets, 102 favorite bets
+KXAUDUSD15M: 367 settled events, 0 model bets, 210 favorite bets
+KXEURUSD15M: 367 settled events, 0 model bets, 206 favorite bets
+KXCOPPER15M: 348 settled events, 0 model bets, 199 favorite bets
+KXGOLD15M: 348 settled events, 0 model bets, 187 favorite bets
+KXXRP15M: 400 settled events, 246 model bets, 236 favorite bets
+KX5YRRATE15M: 212 settled events, 0 model bets, 126 favorite bets
+KXNEAR15M: 400 settled events, 0 model bets, 233 favorite bets
+KXUSDMXN15M: 0 settled events, 0 model bets, 0 favorite bets
+KXINX15M: 10 settled events, 0 model bets, 8 favorite bets
+KXCOFFEE15M: 0 settled events, 0 model bets, 0 favorite bets
+KXADA15M: 0 settled events, 0 model bets, 0 favorite bets
+KX10YRRATE15M: 212 settled events, 0 model bets, 119 favorite bets
+KXNATGAS15M: 365 settled events, 0 model bets, 180 favorite bets
+KXDOGE15M: 400 settled events, 260 model bets, 230 favorite bets
+KXBRENT15M: 365 settled events, 0 model bets, 188 favorite bets
+KXBTC15M: 400 settled events, 199 model bets, 218 favorite bets
+KXTON15M: 0 settled events, 0 model bets, 0 favorite bets
+KXCRYPTOCOMP15M: 0 settled events, 0 model bets, 0 favorite bets
+KXSOL15M: 400 settled events, 257 model bets, 235 favorite bets
+KXNDQ15M: 0 settled events, 0 model bets, 0 favorite bets (no price feed: favorite rule only)
+KX2YRRATE15M: 210 settled events, 0 model bets, 108 favorite bets (no price feed: favorite rule only)
+KXPALLADIUM15M: 347 settled events, 0 model bets, 199 favorite bets (no price feed: favorite rule only)
+KXETH15M: 400 settled events, 256 model bets, 236 favorite bets
+KXBNB15M: 400 settled events, 0 model bets, 240 favorite bets (no price feed: favorite rule only)
+KXGBPUSD15MTEST: 0 settled events, 0 model bets, 0 favorite bets (no price feed: favorite rule only)
+KXGBPUSD15M: 366 settled events, 0 model bets, 193 favorite bets (no price feed: favorite rule only)
+KXCRYPTOLEAD15M: 400 settled events, 0 model bets, 1478 favorite bets (no price feed: favorite rule only)
+KXKPOWMID15M: 97 settled events, 0 model bets, 64 favorite bets (no price feed: favorite rule only)
+KXBCH15M: 0 settled events, 0 model bets, 0 favorite bets (no price feed: favorite rule only)
+KXHYPE15M: 400 settled events, 0 model bets, 244 favorite bets (no price feed: favorite rule only)
+KXSILVER15M: 347 settled events, 0 model bets, 201 favorite bets (no price feed: favorite rule only)
+KXDJIA15M: 0 settled events, 0 model bets, 0 favorite bets (no price feed: favorite rule only)
+KXWTI15M: 363 settled events, 0 model bets, 185 favorite bets (no price feed: favorite rule only)
+KXPLATINUM15M: 348 settled events, 0 model bets, 202 favorite bets (no price feed: favorite rule only)
+KXUSDJPY15M: 367 settled events, 0 model bets, 186 favorite bets (no price feed: favorite rule only)
+KXUSDCAD15M: 367 settled events, 0 model bets, 202 favorite bets (no price feed: favorite rule only)
+KXZEC15M: 400 settled events, 0 model bets, 246 favorite bets (no price feed: favorite rule only)
+KX30YRRATE15M: 211 settled events, 0 model bets, 102 favorite bets (no price feed: favorite rule only)
+KXAUDUSD15M: 367 settled events, 0 model bets, 210 favorite bets (no price feed: favorite rule only)
+KXEURUSD15M: 367 settled events, 0 model bets, 206 favorite bets (no price feed: favorite rule only)
+KXCOPPER15M: 348 settled events, 0 model bets, 199 favorite bets (no price feed: favorite rule only)
+KXGOLD15M: 348 settled events, 0 model bets, 187 favorite bets (no price feed: favorite rule only)
+KXXRP15M: 400 settled events, 246 model bets, 236 favorite bets
+KX5YRRATE15M: 212 settled events, 0 model bets, 126 favorite bets (no price feed: favorite rule only)
+KXNEAR15M: 400 settled events, 0 model bets, 233 favorite bets (no price feed: favorite rule only)
+KXUSDMXN15M: 0 settled events, 0 model bets, 0 favorite bets (no price feed: favorite rule only)
+KXINX15M: 10 settled events, 0 model bets, 8 favorite bets (no price feed: favorite rule only)
+KXCOFFEE15M: 0 settled events, 0 model bets, 0 favorite bets (no price feed: favorite rule only)
+KXADA15M: 0 settled events, 0 model bets, 0 favorite bets (no price feed: favorite rule only)
+KX10YRRATE15M: 212 settled events, 0 model bets, 119 favorite bets (no price feed: favorite rule only)
+KXNATGAS15M: 365 settled events, 0 model bets, 180 favorite bets (no price feed: favorite rule only)
+KXDOGE15M: 400 settled events, 260 model bets, 230 favorite bets
+KXBRENT15M: 365 settled events, 0 model bets, 188 favorite bets (no price feed: favorite rule only)
+KXBTC15M: 400 settled events, 199 model bets, 218 favorite bets
+KXTON15M: 0 settled events, 0 model bets, 0 favorite bets (no price feed: favorite rule only)
+KXCRYPTOCOMP15M: 0 settled events, 0 model bets, 0 favorite bets (no price feed: favorite rule only)
+KXSOL15M: 400 settled events, 257 model bets, 235 favorite bets
+
+model (crypto): 1218 bets, won 229, profit $437.06 on $2491.94 bet (expected $3522.68); earlier half $296.12, later half $140.94; t-stat 1.2
+  KXBTC15M: 199 bets, won 47, profit $155.69 on $406.31 bet (expected $363.83); earlier half $85.01, later half $70.68; t-stat 1.7
+  KXDOGE15M: 260 bets, won 47, profit $184.49 on $530.51 bet (expected $1003.01); earlier half $203.56, later half $-19.08; t-stat 0.1
+  KXETH15M: 256 bets, won 51, profit $136.47 on $523.53 bet (expected $729.65); earlier half $72.05, later half $64.42; t-stat 1.4
+  KXSOL15M: 257 bets, won 44, profit $-62.45 on $527.45 bet (expected $729.03); earlier half $-66.60, later half $4.16; t-stat 0.3
+  KXXRP15M: 246 bets, won 40, profit $22.86 on $504.14 bet (expected $697.16); earlier half $14.31, later half $8.54; t-stat -0.6
+favorite 0.85+: 6661 bets, won 5995, profit $-259.79 on $12711.79 bet (expected $-84.85); earlier half $-182.36, later half $-77.43; t-stat -7.2
+  KX10YRRATE15M: 119 bets, won 109, profit $-6.83 on $224.83 bet (expected $-1.57); earlier half $-3.80, later half $-3.03; t-stat -1.3
+  KX2YRRATE15M: 108 bets, won 103, profit $2.58 on $203.42 bet (expected $-1.50); earlier half $6.07, later half $-3.49; t-stat 0.5
+  KX30YRRATE15M: 102 bets, won 97, profit $0.10 on $193.90 bet (expected $-1.26); earlier half $-5.14, later half $5.24; t-stat 0.0
+  KX5YRRATE15M: 126 bets, won 115, profit $-7.41 on $237.41 bet (expected $-1.71); earlier half $-5.61, later half $-1.80; t-stat -1.3
+  KXAUDUSD15M: 210 bets, won 198, profit $-4.68 on $400.68 bet (expected $-2.62); earlier half $-0.57, later half $-4.11; t-stat -0.7
+  KXBNB15M: 240 bets, won 190, profit $-13.49 on $459.49 bet (expected $-3.01); earlier half $-13.91, later half $0.42; t-stat -2.0
+  KXBRENT15M: 188 bets, won 178, profit $-0.89 on $356.89 bet (expected $-2.49); earlier half $-0.50, later half $-0.39; t-stat -0.1
+  KXBTC15M: 218 bets, won 193, profit $-14.35 on $412.35 bet (expected $-2.95); earlier half $-11.13, later half $-3.23; t-stat -2.0
+  KXCOPPER15M: 199 bets, won 191, profit $1.21 on $380.79 bet (expected $-2.47); earlier half $2.60, later half $-1.39; t-stat 0.2
+  KXCRYPTOLEAD15M: 1478 bets, won 1396, profit $-55.83 on $2847.83 bet (expected $-17.39); earlier half $-53.12, later half $-2.71; t-stat -3.6
+  KXDOGE15M: 230 bets, won 189, profit $-9.36 on $439.36 bet (expected $-2.90); earlier half $-5.41, later half $-3.95; t-stat -1.4
+  KXETH15M: 236 bets, won 205, profit $-12.07 on $450.07 bet (expected $-2.99); earlier half $-5.48, later half $-6.59; t-stat -1.8
+  KXEURUSD15M: 206 bets, won 187, profit $-18.57 on $392.57 bet (expected $-2.73); earlier half $-11.11, later half $-7.46; t-stat -2.9
+  KXGBPUSD15M: 193 bets, won 182, profit $-2.46 on $366.46 bet (expected $-2.58); earlier half $-2.68, later half $0.22; t-stat -0.4
+  KXGOLD15M: 187 bets, won 163, profit $1.42 on $356.58 bet (expected $-2.39); earlier half $2.85, later half $-1.43; t-stat 0.2
+  KXHYPE15M: 244 bets, won 192, profit $-22.28 on $466.28 bet (expected $-3.10); earlier half $-12.24, later half $-10.04; t-stat -3.2
+  KXINX15M: 8 bets, won 6, profit $-3.44 on $15.44 bet (expected $-0.08); earlier half $-3.70, later half $0.26; t-stat -3.1
+  KXKPOWMID15M: 64 bets, won 30, profit $-43.16 on $123.16 bet (expected $-0.78); earlier half $-35.93, later half $-7.24; t-stat -13.2
+  KXNATGAS15M: 180 bets, won 173, profit $5.94 on $340.06 bet (expected $-2.50); earlier half $3.54, later half $2.40; t-stat 0.9
+  KXNEAR15M: 233 bets, won 207, profit $-4.07 on $444.07 bet (expected $-3.05); earlier half $-1.86, later half $-2.21; t-stat -0.6
+  KXPALLADIUM15M: 199 bets, won 186, profit $-5.00 on $377.00 bet (expected $-2.72); earlier half $-5.30, later half $0.30; t-stat -0.7
+  KXPLATINUM15M: 202 bets, won 186, profit $-14.23 on $386.23 bet (expected $-2.63); earlier half $-3.43, later half $-10.80; t-stat -2.3
+  KXSILVER15M: 201 bets, won 171, profit $-6.30 on $380.30 bet (expected $-2.70); earlier half $-1.76, later half $-4.54; t-stat -0.9
+  KXSOL15M: 235 bets, won 203, profit $-6.82 on $448.82 bet (expected $-2.98); earlier half $2.33, later half $-9.16; t-stat -1.0
+  KXUSDCAD15M: 202 bets, won 193, profit $-0.95 on $386.95 bet (expected $-2.59); earlier half $-1.56, later half $0.61; t-stat -0.2
+  KXUSDJPY15M: 186 bets, won 174, profit $-6.23 on $354.23 bet (expected $-2.43); earlier half $-4.81, later half $-1.42; t-stat -1.0
+  KXWTI15M: 185 bets, won 170, profit $1.80 on $348.20 bet (expected $-2.58); earlier half $-0.47, later half $2.27; t-stat 0.3
+  KXXRP15M: 236 bets, won 202, profit $-7.58 on $449.58 bet (expected $-3.07); earlier half $-4.32, later half $-3.26; t-stat -1.1
+  KXZEC15M: 246 bets, won 206, profit $-6.83 on $468.83 bet (expected $-3.08); earlier half $-8.53, later half $1.70; t-stat -1.0
+Saved reports/kalshi_15m_model_2026-11-05_2029.csv
+Saved reports/kalshi_15m_favorite_2026-11-05_2029.csv
+Worth paper money only if both halves made money and t-stat is 2+.
