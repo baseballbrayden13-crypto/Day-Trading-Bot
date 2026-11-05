@@ -1,0 +1,48 @@
+# Downloads split- and dividend-adjusted daily prices (Yahoo, no keys) for strategy research and saves them as
+# CSVs on the research-data branch, so Claude can backtest new strategy ideas off the PC. Read-only: no orders.
+name: Research data (daily prices)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/research-data-fetch]
+    paths: [.github/workflows/research-data.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install yfinance pandas
+      - name: Download
+        env:
+          SYMBOLS: >-
+            SPY QQQ IWM DIA MDY EFA EEM TLT IEF SHY LQD HYG GLD SLV DBC VNQ
+            XLK XLF XLV XLE XLI XLY XLP XLU XLB
+            AAPL MSFT NVDA AMZN GOOGL META TSLA JPM V UNH HD PG JNJ XOM COST AVGO LLY MA KO PEP WMT BAC CVX MRK ABBV ORCL CSCO ADBE CRM AMD NFLX INTC DIS MCD NKE QCOM TXN HON IBM
+            ^VIX BTC-USD ETH-USD SOL-USD
+        run: |
+          mkdir -p out
+          python - <<'PY'
+          import os, yfinance as yf
+          for s in os.environ["SYMBOLS"].split():
+              df = yf.download(s, start="2004-01-01", interval="1d", progress=False, auto_adjust=True, multi_level_index=False)
+              if df.empty:
+                  print("EMPTY", s); continue
+              df = df.rename(columns=str.lower)[["open", "high", "low", "close", "volume"]].dropna()
+              df.index.name = "date"
+              df.round(4).to_csv(f"out/{s.replace('^', '')}.csv")
+              print(s, len(df), df.index[0].date(), df.index[-1].date())
+          PY
+      - name: Save to research-data branch
+        run: |
+          cd out
+          git init -q -b research-data
+          git config user.name research-bot; git config user.email research-bot@users.noreply.github.com
+          git add -A; git commit -qm "Daily prices $(date -u +%F)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" research-data
