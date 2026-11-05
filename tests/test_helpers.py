@@ -154,3 +154,21 @@ def test_kalshi_bots_on_the_other_machine_or_retired_are_not_checked(monkeypatch
     assert [f.check for f in mt.run_checks(snap, [replace(kal, runs_on="pc")], [], [], NOW)] == ["data"]
     assert mt.run_checks(snap, [replace(kal, runs_on="cloud")], [], [], NOW) == []
     assert mt.run_checks(snap, [replace(kal, runs_on="off")], [], [], NOW) == []
+
+
+def test_reporter_compares_with_holding_spy_and_qqq_and_the_backtest_pace():
+    b = FLEET[1]  # bot 2: backtest 9.6% a year
+    eq = [{"day": "2026-10-19", "bot": "2", "equity": "5000"}, {"day": "2026-10-27", "bot": "2", "equity": "5150"}]
+    bench = [{"day": "2026-10-19", "symbol": "SPY", "close": "100"}, {"day": "2026-10-20", "symbol": "SPY", "close": "101"},
+             {"day": "2026-10-27", "symbol": "SPY", "close": "102"},
+             {"day": "2026-10-20", "symbol": "QQQ", "close": "200"}, {"day": "2026-10-27", "symbol": "QQQ", "close": "190"}]
+    c = reporter.card(b, eq, [], [], [], [], "2026-10-21", "2026-10-27", bench)
+    assert c["spy_week_pct"] == 0.99 and c["qqq_week_pct"] == -5.0
+    assert c["spy_since_start_pct"] == 2.0 and c["vs_spy_since_start"] == 1.0
+    assert c["backtest_pace_pct"] == round(9.6 * 8 / 365, 2)
+    assert "ahead of just holding SPY by 1.0 points" in reporter.sentence(c)
+
+
+def test_reporter_without_benchmarks_still_works():
+    c = reporter.card(FLEET[1], [{"day": "2026-10-27", "bot": "2", "equity": "5000"}], [], [], [], [], "2026-10-21", "2026-10-27")
+    assert c["spy_week_pct"] == "" and "SPY" not in reporter.sentence(c)
