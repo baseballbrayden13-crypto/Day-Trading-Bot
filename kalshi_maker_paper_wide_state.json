@@ -1,5 +1,5 @@
 {
- "realized": "-1.2100",
+ "realized": "-2.9600",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -129,64 +129,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.8500"
-    }
-   ]
-  },
-  {
-   "event": "KXCS2MAP-26NOV050900LKWRA-2",
-   "series": "KXCS2MAP",
-   "title": "los kogutos vs. WRAITH PCIFIC: Map 2 Winner",
-   "sets": 1,
-   "outlay": "0.9800",
-   "locked_profit": "0.0200",
-   "opened": "2026-11-05T15:17:20.528727+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXCS2MAP-26NOV050900LKWRA-2-WRA",
-     "side": "no",
-     "count": 1,
-     "limit": "0.3400"
-    },
-    {
-     "ticker": "KXCS2MAP-26NOV050900LKWRA-2-LK",
-     "side": "no",
-     "count": 1,
-     "limit": "0.6100"
-    }
-   ]
-  },
-  {
-   "event": "KXCS2MAP-26NOV050900LKWRA-2 (stray)",
-   "series": "KXCS2MAP",
-   "title": "los kogutos vs. WRAITH PCIFIC: Map 2 Winner",
-   "sets": 0,
-   "outlay": "1.3800",
-   "locked_profit": "0",
-   "opened": "2026-11-05T15:21:55.026282+00:00",
-   "legs": [
-    {
-     "ticker": "KXCS2MAP-26NOV050900LKWRA-2-WRA",
-     "side": "no",
-     "count": 4,
-     "limit": "0.3400"
-    }
-   ]
-  },
-  {
-   "event": "KXMLBBGAME-26NOV051000CHEMBW (stray)",
-   "series": "KXMLBBGAME",
-   "title": "Chempiki vs. Bushido Wildcats",
-   "sets": 0,
-   "outlay": "0.3900",
-   "locked_profit": "0",
-   "opened": "2026-11-05T15:57:01.524096+00:00",
-   "legs": [
-    {
-     "ticker": "KXMLBBGAME-26NOV051000CHEMBW-CHEM",
-     "side": "no",
-     "count": 2,
-     "limit": "0.1900"
     }
    ]
   }
@@ -2038,6 +1980,73 @@
    "paid": "5",
    "pnl": "0.3300",
    "closed": "2026-11-05T07:52:34.832371+00:00"
+  },
+  {
+   "event": "KXMLBBGAME-26NOV051000CHEMBW (stray)",
+   "series": "KXMLBBGAME",
+   "title": "Chempiki vs. Bushido Wildcats",
+   "sets": 0,
+   "outlay": "0.3900",
+   "locked_profit": "0",
+   "opened": "2026-11-05T15:57:01.524096+00:00",
+   "legs": [
+    {
+     "ticker": "KXMLBBGAME-26NOV051000CHEMBW-CHEM",
+     "side": "no",
+     "count": 2,
+     "limit": "0.1900"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-0.3900",
+   "closed": "2026-11-05T16:01:33.430726+00:00"
+  },
+  {
+   "event": "KXCS2MAP-26NOV050900LKWRA-2",
+   "series": "KXCS2MAP",
+   "title": "los kogutos vs. WRAITH PCIFIC: Map 2 Winner",
+   "sets": 1,
+   "outlay": "0.9800",
+   "locked_profit": "0.0200",
+   "opened": "2026-11-05T15:17:20.528727+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCS2MAP-26NOV050900LKWRA-2-WRA",
+     "side": "no",
+     "count": 1,
+     "limit": "0.3400"
+    },
+    {
+     "ticker": "KXCS2MAP-26NOV050900LKWRA-2-LK",
+     "side": "no",
+     "count": 1,
+     "limit": "0.6100"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.0200",
+   "closed": "2026-11-05T16:06:49.734395+00:00"
+  },
+  {
+   "event": "KXCS2MAP-26NOV050900LKWRA-2 (stray)",
+   "series": "KXCS2MAP",
+   "title": "los kogutos vs. WRAITH PCIFIC: Map 2 Winner",
+   "sets": 0,
+   "outlay": "1.3800",
+   "locked_profit": "0",
+   "opened": "2026-11-05T15:21:55.026282+00:00",
+   "legs": [
+    {
+     "ticker": "KXCS2MAP-26NOV050900LKWRA-2-WRA",
+     "side": "no",
+     "count": 4,
+     "limit": "0.3400"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-1.3800",
+   "closed": "2026-11-05T16:06:49.764429+00:00"
   }
  ],
  "quotes": []

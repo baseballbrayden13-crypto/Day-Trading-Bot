@@ -5157,3 +5157,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 10:57:01,493 WARNING Quote KXMLBBGAME-26NOV051000CHEMBW: hedge missed on KXMLBBGAME-26NOV051000CHEMBW-BW. Selling back 2 contracts on 1 legs.
 2026-11-05 10:57:01,523 INFO PAPER sell 2 YES KXMLBBGAME-26NOV051000CHEMBW-CHEM at up to $0.8600: not on the book
 2026-11-05 10:57:01,524 ERROR STRAY POSITION: 2 NO contracts of KXMLBBGAME-26NOV051000CHEMBW-CHEM still held. Check it on Kalshi.
+2026-11-05 11:01:33,430 INFO Settled KXMLBBGAME-26NOV051000CHEMBW (stray): paid $0, profit $-0.39
+2026-11-05 11:01:54,376 INFO Swept 20798 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 11:06:49,734 INFO Settled KXCS2MAP-26NOV050900LKWRA-2: paid $1, profit $0.02
+2026-11-05 11:06:49,764 INFO Settled KXCS2MAP-26NOV050900LKWRA-2 (stray): paid $0, profit $-1.38
+2026-11-05 11:07:17,584 INFO Swept 20800 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 11:12:20,094 INFO Swept 20837 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 11:17:22,264 INFO Swept 20838 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 11:22:21,860 INFO Swept 20838 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 11:27:25,717 INFO Swept 20836 events: 0 taker trades, 0 new quotes, 0 resting

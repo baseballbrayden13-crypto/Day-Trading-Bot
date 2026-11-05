@@ -1,26 +1,28 @@
 {
- "updated": "2026-11-05T15:54:44+00:00",
+ "updated": "2026-11-05T16:25:01+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "18.79",
- "realized_profit": "-1.21",
- "bet_level": "18.79",
- "open_trades": 7,
- "open_locked_profit": "3.10",
- "in_play": "16.28",
- "stray_positions": 1,
- "closed_trades": 51,
+ "equity": "17.04",
+ "realized_profit": "-2.96",
+ "bet_level": "17.04",
+ "open_trades": 5,
+ "open_locked_profit": "3.08",
+ "in_play": "13.92",
+ "stray_positions": 0,
+ "closed_trades": 52,
  "trades_this_loop": 0,
- "events_swept": 20785,
+ "events_swept": 20836,
  "found_this_loop": 1,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 2,
+ "problems": 4,
  "last_problems": [
   "2026-11-05 15:21 Quote KXCS2MAP-26NOV050900LKWRA-2: hedge missed on KXCS2MAP-26NOV050900LKWRA-2-LK. Selling back 4 contracts on 1 legs.",
-  "2026-11-05 15:21 STRAY POSITION: 4 NO contracts of KXCS2MAP-26NOV050900LKWRA-2-WRA still held. Check it on Kalshi."
+  "2026-11-05 15:21 STRAY POSITION: 4 NO contracts of KXCS2MAP-26NOV050900LKWRA-2-WRA still held. Check it on Kalshi.",
+  "2026-11-05 15:57 Quote KXMLBBGAME-26NOV051000CHEMBW: hedge missed on KXMLBBGAME-26NOV051000CHEMBW-BW. Selling back 2 contracts on 1 legs.",
+  "2026-11-05 15:57 STRAY POSITION: 2 NO contracts of KXMLBBGAME-26NOV051000CHEMBW-CHEM still held. Check it on Kalshi."
  ]
 }
