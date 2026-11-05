@@ -2049,48 +2049,5 @@
    "closed": "2026-11-05T16:06:49.764429+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXBOLPDIVGAME-26NOV08BLOORP",
-   "series": "KXBOLPDIVGAME",
-   "title": "Blooming vs Oriente",
-   "ticker": "KXBOLPDIVGAME-26NOV08BLOORP-BLO",
-   "order_id": "paper-768-1793898167",
-   "price": "0.2600",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.7700",
-   "multiplier": "1",
-   "placed": 1793898167.6245892,
-   "hedge": [
-    {
-     "ticker": "KXBOLPDIVGAME-26NOV08BLOORP-ORP",
-     "limit": "0.6700"
-    },
-    {
-     "ticker": "KXBOLPDIVGAME-26NOV08BLOORP-TIE",
-     "limit": "0.7900"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAWBGAME-26NOV07SMCAFA",
-   "series": "KXNCAAWBGAME",
-   "title": "Saint Mary's vs Air Force",
-   "ticker": "KXNCAAWBGAME-26NOV07SMCAFA-SMC",
-   "order_id": "paper-769-1793899380",
-   "price": "0.2400",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8700",
-   "multiplier": "1",
-   "placed": 1793899380.4771223,
-   "hedge": [
-    {
-     "ticker": "KXNCAAWBGAME-26NOV07SMCAFA-AFA",
-     "limit": "0.6000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
