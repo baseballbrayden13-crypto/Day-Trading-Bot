@@ -5188,3 +5188,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 12:48:09,345 INFO Swept 20873 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-05 12:53:13,415 INFO Swept 20869 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-05 12:58:13,027 INFO Swept 20873 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 13:03:20,367 INFO Swept 20884 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 13:08:24,727 INFO Swept 20914 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 13:13:30,280 INFO Swept 20994 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 13:18:32,352 INFO Swept 21068 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 13:23:32,980 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV05CHAHINCASODO-CASODO at $0.5900 x3 (0 already bid at that price)
+2026-11-05 13:23:32,980 INFO Resting NO bid on KXITFWDOUBLES-26NOV05CHAHINCASODO-CASODO at $0.5900 x3 (KXITFWDOUBLES-26NOV05CHAHINCASODO): locks in $0.17 if it fills; hedge NO CHAHIN@0.3300
+2026-11-05 13:23:32,985 INFO Swept 21073 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 13:28:33,730 INFO Swept 21094 events: 0 taker trades, 0 new quotes, 1 resting
