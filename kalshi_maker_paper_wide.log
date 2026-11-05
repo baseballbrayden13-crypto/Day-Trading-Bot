@@ -4904,3 +4904,13 @@
 2026-11-05 03:22:54,694 INFO Swept 20543 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-05 03:27:56,339 INFO Swept 20543 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-05 03:32:57,227 INFO Swept 20543 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 03:38:05,552 INFO PAPER rest NO bid KXWTAMATCH-26NOV05PRISHU-SHU at $0.2500 x4 (4432 already bid at that price)
+2026-11-05 03:38:05,552 INFO Resting NO bid on KXWTAMATCH-26NOV05PRISHU-SHU at $0.25 x4 (KXWTAMATCH-26NOV05PRISHU): locks in $0.12 if it fills; hedge NO PRI@0.7000
+2026-11-05 03:38:05,555 INFO Swept 20543 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 03:43:08,575 INFO PAPER rest NO bid KXWTAMATCH-26NOV05WANRUZ-WAN at $0.4700 x5 (0 already bid at that price)
+2026-11-05 03:43:08,575 INFO Resting NO bid on KXWTAMATCH-26NOV05WANRUZ-WAN at $0.4700 x5 (KXWTAMATCH-26NOV05WANRUZ): locks in $0.61 if it fills; hedge NO RUZ@0.3900
+2026-11-05 03:43:08,578 INFO Swept 20543 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 03:48:04,079 INFO Swept 20543 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 03:53:09,273 INFO Swept 20543 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 03:58:07,530 INFO Swept 20543 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 04:03:21,556 INFO Swept 20532 events: 0 taker trades, 0 new quotes, 2 resting

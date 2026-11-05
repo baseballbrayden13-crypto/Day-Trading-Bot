@@ -1960,17 +1960,36 @@
  ],
  "quotes": [
   {
+   "event": "KXWTAMATCH-26NOV05PRISHU",
+   "series": "KXWTAMATCH",
+   "title": "Pridankina vs Shubladze",
+   "ticker": "KXWTAMATCH-26NOV05PRISHU-SHU",
+   "order_id": "paper-750-1793867885",
+   "price": "0.25",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8800",
+   "multiplier": "1",
+   "placed": 1793867885.552441,
+   "hedge": [
+    {
+     "ticker": "KXWTAMATCH-26NOV05PRISHU-PRI",
+     "limit": "0.7000"
+    }
+   ]
+  },
+  {
    "event": "KXWTAMATCH-26NOV05WANRUZ",
    "series": "KXWTAMATCH",
    "title": "Wang vs Ruzic",
    "ticker": "KXWTAMATCH-26NOV05WANRUZ-WAN",
-   "order_id": "paper-749-1793866076",
+   "order_id": "paper-751-1793868188",
    "price": "0.4700",
-   "sets": 4,
+   "sets": 5,
    "done": 0,
-   "reserve": "3.5000",
+   "reserve": "4.3900",
    "multiplier": "1",
-   "placed": 1793866076.5529864,
+   "placed": 1793868188.5759308,
    "hedge": [
     {
      "ticker": "KXWTAMATCH-26NOV05WANRUZ-RUZ",
