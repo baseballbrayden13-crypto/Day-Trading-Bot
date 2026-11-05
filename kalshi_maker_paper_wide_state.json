@@ -1,5 +1,5 @@
 {
- "realized": "-1.7300",
+ "realized": "-2.1200",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -81,23 +81,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXNBARACE-26NOV04MINHOU-10 (stray)",
-   "series": "KXNBARACE",
-   "title": "Minnesota vs Houston: Race to 10 Points",
-   "sets": 0,
-   "outlay": "0.39",
-   "locked_profit": "0",
-   "opened": "2026-11-05T01:46:30.048352+00:00",
-   "legs": [
-    {
-     "ticker": "KXNBARACE-26NOV04MINHOU-10-MIN",
-     "side": "no",
-     "count": 2,
-     "limit": "0.19"
     }
    ]
   }
@@ -1875,44 +1858,68 @@
    "paid": "0",
    "pnl": "-0.4100",
    "closed": "2026-11-05T00:31:07.882417+00:00"
+  },
+  {
+   "event": "KXNBARACE-26NOV04MINHOU-10 (stray)",
+   "series": "KXNBARACE",
+   "title": "Minnesota vs Houston: Race to 10 Points",
+   "sets": 0,
+   "outlay": "0.39",
+   "locked_profit": "0",
+   "opened": "2026-11-05T01:46:30.048352+00:00",
+   "legs": [
+    {
+     "ticker": "KXNBARACE-26NOV04MINHOU-10-MIN",
+     "side": "no",
+     "count": 2,
+     "limit": "0.19"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-0.39",
+   "closed": "2026-11-05T01:56:05.177607+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXNBAGAME-26NOV07HOUPHX",
-   "series": "KXNBAGAME",
-   "title": "Houston vs Phoenix",
-   "ticker": "KXNBAGAME-26NOV07HOUPHX-PHX",
-   "order_id": "paper-717-1793843189",
-   "price": "0.68",
-   "sets": 3,
+   "event": "KXBOXING-26NOV06FADELKUMAR",
+   "series": "KXBOXING",
+   "title": "Jayden Fadel vs Rajesh Kumar",
+   "ticker": "KXBOXING-26NOV06FADELKUMAR-KUMAR",
+   "order_id": "paper-719-1793843789",
+   "price": "0.6900",
+   "sets": 2,
    "done": 0,
-   "reserve": "2.8900",
+   "reserve": "1.6300",
    "multiplier": "1",
-   "placed": 1793843189.974545,
+   "placed": 1793843789.3337712,
    "hedge": [
     {
-     "ticker": "KXNBAGAME-26NOV07HOUPHX-HOU",
-     "limit": "0.2600"
+     "ticker": "KXBOXING-26NOV06FADELKUMAR-FADEL",
+     "limit": "0.1400"
     }
    ]
   },
   {
-   "event": "KXBOXING-26NOV06KAENABEAUCH",
-   "series": "KXBOXING",
-   "title": "John Kaena vs Nort Beauchamp",
-   "ticker": "KXBOXING-26NOV06KAENABEAUCH-BEAUCH",
-   "order_id": "paper-718-1793843489",
-   "price": "0.73",
-   "sets": 4,
+   "event": "KXNBACUPGROUP-26EASTB",
+   "series": "KXNBACUPGROUP",
+   "title": "Pro Basketball Cup East Group B Winner",
+   "ticker": "KXNBACUPGROUP-26EASTB-CLE",
+   "order_id": "paper-720-1793845311",
+   "price": "0.3300",
+   "sets": 1,
    "done": 0,
-   "reserve": "3.8700",
+   "reserve": "1.8900",
    "multiplier": "1",
-   "placed": 1793843489.3753147,
+   "placed": 1793845311.095711,
    "hedge": [
     {
-     "ticker": "KXBOXING-26NOV06KAENABEAUCH-KAENA",
-     "limit": "0.2200"
+     "ticker": "KXNBACUPGROUP-26EASTB-PHI",
+     "limit": "0.6100"
+    },
+    {
+     "ticker": "KXNBACUPGROUP-26EASTB-MIA",
+     "limit": "0.9100"
     }
    ]
   }

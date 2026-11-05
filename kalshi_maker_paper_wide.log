@@ -4680,3 +4680,14 @@
 2026-11-04 20:51:29,375 INFO PAPER rest NO bid KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.7300 x4 (191 already bid at that price)
 2026-11-04 20:51:29,375 INFO Resting NO bid on KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.73 x4 (KXBOXING-26NOV06KAENABEAUCH): locks in $0.13 if it fills; hedge NO KAENA@0.2200
 2026-11-04 20:51:29,379 INFO Swept 20938 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 20:56:05,177 INFO Settled KXNBARACE-26NOV04MINHOU-10 (stray): paid $0, profit $-0.39
+2026-11-04 20:56:29,333 INFO PAPER rest NO bid KXBOXING-26NOV06FADELKUMAR-KUMAR at $0.6900 x2 (0 already bid at that price)
+2026-11-04 20:56:29,333 INFO Resting NO bid on KXBOXING-26NOV06FADELKUMAR-KUMAR at $0.6900 x2 (KXBOXING-26NOV06FADELKUMAR): locks in $0.37 if it fills; hedge NO FADEL@0.1100
+2026-11-04 20:56:29,338 INFO Swept 20946 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-04 21:01:34,289 INFO Swept 20948 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-04 21:06:40,760 INFO Swept 20951 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-04 21:11:44,584 INFO Swept 20999 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-04 21:16:49,278 INFO Swept 21032 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-04 21:21:51,095 INFO PAPER rest NO bid KXNBACUPGROUP-26EASTB-CLE at $0.3300 x1 (0 already bid at that price)
+2026-11-04 21:21:51,095 INFO Resting NO bid on KXNBACUPGROUP-26EASTB-CLE at $0.3300 x1 (KXNBACUPGROUP-26EASTB): locks in $0.11 if it fills; hedge NO PHI@0.6100, MIA@0.9100
+2026-11-04 21:21:51,099 INFO Swept 21103 events: 0 taker trades, 1 new quotes, 3 resting
