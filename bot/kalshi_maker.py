@@ -117,6 +117,20 @@ def traded_recently(api, ticker: str, minutes: int) -> bool:
     return bool(page.get("trades"))
 
 
+LIVE_HOURS = 4  # a market expected to finish within this many hours is (or is about to be) a live game
+LIVE_MAX_SETS = 2  # live prices jump, so a fill there often finds the hedge gone: keep those quotes small
+
+
+def is_live(markets: list[dict], now: datetime | None = None) -> bool:
+    """True when the event is expected to finish within LIVE_HOURS (Kalshi's expected_expiration_time)."""
+    now = now or datetime.now(timezone.utc)
+    for m in markets:
+        t = m.get("expected_expiration_time")
+        if t and 0 <= (datetime.fromisoformat(t.replace("Z", "+00:00")) - now).total_seconds() <= LIVE_HOURS * 3600:
+            return True
+    return False
+
+
 def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], api=None) -> list[Quote]:
     """Screen every candidate event on the listing's top of book, then re-price the best few on the full book.
     Quotes only go on markets with real trade flow (KALSHI_MIN_VOLUME contracts in 24h and a trade in the last
@@ -129,14 +143,16 @@ def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], 
         if any(D(m.get("yes_bid_dollars") or "0") >= DECIDED for m in markets):
             continue  # effectively decided (a 95c+ favourite): nobody will sell us NO on the losers, so the quote never fills
         mult = kl.multiplier(e)
+        sets = min(cfg["max_sets"], LIVE_MAX_SETS) if is_live(markets) else cfg["max_sets"]
         q = best_quote(e, {m["ticker"]: kl._top_no_asks(m) for m in markets}, {m["ticker"]: _top_no_bid(m) for m in markets},
-                       budget, cfg["min_profit"], cfg["max_sets"], mult)
+                       budget, cfg["min_profit"], sets, mult)
         volume = {m["ticker"]: D(m.get("volume_24h_fp") or "0") for m in markets}
         if q and volume[q.ticker] >= min_volume:
             rough.append((q, e, markets, mult, volume[q.ticker]))
     rough.sort(key=lambda r: (-r[4], -r[0].score()))
     out = []
     for q, e, markets, mult, _ in rough[: cfg["max_quotes"] * 3]:
+        sets = min(cfg["max_sets"], LIVE_MAX_SETS) if is_live(markets) else cfg["max_sets"]
         if api is None:
             out.append(q)
             continue
@@ -145,7 +161,7 @@ def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], 
         books = api.orderbooks([m["ticker"] for m in markets])
         full = best_quote(e, {t: asks_from_bids(b.get("yes_dollars") or []) for t, b in books.items()},
                           {t: (D(str(b["no_dollars"][-1][0])) if b.get("no_dollars") else D(0)) for t, b in books.items()},
-                          budget, cfg["min_profit"], cfg["max_sets"], mult)
+                          budget, cfg["min_profit"], sets, mult)
         if full and full.ticker == q.ticker or full and traded_recently(api, full.ticker, active):
             out.append(full)
     return out  # busiest markets first
