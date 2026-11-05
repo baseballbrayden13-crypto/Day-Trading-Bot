@@ -4806,3 +4806,13 @@
 2026-11-04 23:17:43,393 INFO Swept 20848 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-04 23:17:48,544 INFO Quote KXNBA2H-26NOV04PORPHX cancelled (0/5 filled)
 2026-11-04 23:22:43,464 INFO Swept 20845 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 23:27:48,069 INFO Swept 20810 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 23:32:51,134 INFO PAPER rest NO bid KXBOXING-26NOV06FADELKUMAR-FADEL at $0.0900 x5 (32 already bid at that price)
+2026-11-04 23:32:51,134 INFO Resting NO bid on KXBOXING-26NOV06FADELKUMAR-FADEL at $0.09 x5 (KXBOXING-26NOV06FADELKUMAR): locks in $0.11 if it fills; hedge NO KUMAR@0.8800
+2026-11-04 23:32:51,138 INFO Swept 20819 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 23:37:55,826 INFO Swept 20807 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 23:43:02,892 INFO PAPER rest NO bid KXTRUTHSOCIALD-26NOV04-T40 at $0.5200 x1 (0 already bid at that price)
+2026-11-04 23:43:02,892 INFO Resting NO bid on KXTRUTHSOCIALD-26NOV04-T40 at $0.5200 x1 (KXTRUTHSOCIALD-26NOV04): locks in $0.23 if it fills; hedge NO T5@0.2800, B7@0.9300
+2026-11-04 23:43:02,897 INFO Swept 20804 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 23:48:01,616 INFO Swept 20789 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-04 23:53:06,181 INFO Swept 20774 events: 0 taker trades, 0 new quotes, 2 resting
