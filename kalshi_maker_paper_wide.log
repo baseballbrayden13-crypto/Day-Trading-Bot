@@ -5267,3 +5267,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 17:37:54,368 INFO Swept 21771 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-05 17:43:00,548 INFO Swept 21760 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-05 17:47:56,129 INFO Swept 21757 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 17:52:32,904 INFO Settled KXCOPADELREYADVANCE-26NOV04CALALB: paid $0, profit $-0.99
+2026-11-05 17:52:56,571 INFO Swept 21733 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 17:57:55,986 INFO Swept 21714 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 18:03:02,564 INFO PAPER rest NO bid KXBRASILEIROB1H-26NOV05BOTLON-LON at $0.8800 x2 (0 already bid at that price)
+2026-11-05 18:03:02,564 INFO Resting NO bid on KXBRASILEIROB1H-26NOV05BOTLON-LON at $0.8800 x2 (KXBRASILEIROB1H-26NOV05BOTLON): locks in $0.11 if it fills; hedge NO BOT@0.1500, TIE@0.8900
+2026-11-05 18:03:02,569 INFO Swept 21721 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 18:04:13,515 INFO Quote KXBRASILEIROB1H-26NOV05BOTLON cancelled (0/2 filled)
+2026-11-05 18:08:12,923 INFO Swept 21737 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 18:13:21,657 INFO PAPER rest NO bid KXBRASILEIROB1H-26NOV05BOTLON-LON at $0.3100 x7 (0 already bid at that price)
+2026-11-05 18:13:21,657 INFO Resting NO bid on KXBRASILEIROB1H-26NOV05BOTLON-LON at $0.3100 x7 (KXBRASILEIROB1H-26NOV05BOTLON): locks in $2.33 if it fills; hedge NO BOT@0.4400
+2026-11-05 18:13:21,662 INFO Swept 21805 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 18:18:29,976 INFO Swept 21819 events: 0 taker trades, 0 new quotes, 1 resting

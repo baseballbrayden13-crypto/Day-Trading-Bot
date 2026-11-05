@@ -1,5 +1,5 @@
 {
- "realized": "-2.5300",
+ "realized": "-3.5200",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -81,30 +81,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXCOPADELREYADVANCE-26NOV04CALALB",
-   "series": "KXCOPADELREYADVANCE",
-   "title": "Puertollano vs Albacete",
-   "sets": 1,
-   "outlay": "0.9900",
-   "locked_profit": "0.0100",
-   "opened": "2026-11-05T03:32:26.244104+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXCOPADELREYADVANCE-26NOV04CALALB-CAL",
-     "side": "no",
-     "count": 1,
-     "limit": "0.17"
-    },
-    {
-     "ticker": "KXCOPADELREYADVANCE-26NOV04CALALB-ALB",
-     "side": "no",
-     "count": 1,
-     "limit": "0.7900"
     }
    ]
   }
@@ -2050,7 +2026,54 @@
    "paid": "4",
    "pnl": "0.4300",
    "closed": "2026-11-05T21:06:33.359211+00:00"
+  },
+  {
+   "event": "KXCOPADELREYADVANCE-26NOV04CALALB",
+   "series": "KXCOPADELREYADVANCE",
+   "title": "Puertollano vs Albacete",
+   "sets": 1,
+   "outlay": "0.9900",
+   "locked_profit": "0.0100",
+   "opened": "2026-11-05T03:32:26.244104+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCOPADELREYADVANCE-26NOV04CALALB-CAL",
+     "side": "no",
+     "count": 1,
+     "limit": "0.17"
+    },
+    {
+     "ticker": "KXCOPADELREYADVANCE-26NOV04CALALB-ALB",
+     "side": "no",
+     "count": 1,
+     "limit": "0.7900"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-0.9900",
+   "closed": "2026-11-05T22:52:32.904478+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXBRASILEIROB1H-26NOV05BOTLON",
+   "series": "KXBRASILEIROB1H",
+   "title": "Botafogo vs Londrina: First Half Winner",
+   "ticker": "KXBRASILEIROB1H-26NOV05BOTLON-LON",
+   "order_id": "paper-778-1793920401",
+   "price": "0.3100",
+   "sets": 7,
+   "done": 0,
+   "reserve": "4.6700",
+   "multiplier": "1",
+   "placed": 1793920401.6576328,
+   "hedge": [
+    {
+     "ticker": "KXBRASILEIROB1H-26NOV05BOTLON-BOT",
+     "limit": "0.5900"
+    }
+   ]
+  }
+ ]
 }
