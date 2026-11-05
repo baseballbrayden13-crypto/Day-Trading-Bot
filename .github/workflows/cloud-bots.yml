@@ -75,7 +75,18 @@ jobs:
       - name: Bot 2 (ETF rotation)
         if: contains(fromJSON('["bot2","all"]'), steps.pick.outputs.what)
         working-directory: state
+        env:
+          # Bots 2 and 5 share account ...8T7Y (bot.sleeves): $5,000 each once the account holds $10,000 (C-039).
+          # Undo: delete this line and bot 5's step; bot 2 goes back to trading the whole account.
+          SLEEVES: "2=5000,5=5000"
         run: python -m bot.rotation_live
+
+      - name: Bot 5 (big-stock dip buyer, shares bot 2's account)
+        if: always() && contains(fromJSON('["bot2","all"]'), steps.pick.outputs.what)
+        working-directory: state
+        env:
+          SLEEVES: "2=5000,5=5000"
+        run: cp .env.rotation .env.dipbuy && python -m bot.dipbuy_live
 
       - name: Bot 3 (crypto trend)
         if: contains(fromJSON('["bot3","night","all"]'), steps.pick.outputs.what)
@@ -96,5 +107,5 @@ jobs:
         if: always()
         working-directory: state
         run: |
-          rm -f .env .env.rotation .env.crypto
+          rm -f .env .env.rotation .env.crypto .env.dipbuy
           bash ../code/cloud/save_state.sh "${{ steps.pick.outputs.what }}"

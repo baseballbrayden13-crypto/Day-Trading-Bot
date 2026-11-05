@@ -118,7 +118,11 @@ def main() -> None:
     ensure_own_account(broker)
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
     today = datetime.now(ET).date()
-    if not (args.force or args.dry_run or due(today, state)):
+    from . import sleeves as _sl
+
+    new_sleeve = "2" in _sl.budgets() and "2" not in _sl.load() and _sl.ready({}, _sl.budgets(), broker.equity())
+    # ^ account just split: buy into the new slice now
+    if not (args.force or args.dry_run or new_sleeve or due(today, state)):
         log.info("Already rebalanced in %s; nothing to do.", f"{today:%B}")
         return
     if not args.dry_run and not broker.market_open():
@@ -128,8 +132,25 @@ def main() -> None:
     closes = daily_closes(symbols, cfg)
     want = targets(closes, top=3, lookback=3)
     prices = closes.iloc[-1].to_dict()
-    held = {p.symbol: int(float(p.qty)) for p in broker.client.get_all_positions()}
-    equity = broker.equity()
+    account_qty = {p.symbol: float(p.qty) for p in broker.client.get_all_positions()}
+    from . import sleeves
+
+    shared = sleeves.budgets()
+    ledger = sleeve = None
+    ledger = sleeves.load()
+    if "2" in shared and not sleeves.ready(ledger, shared, broker.equity()):
+        log.info("Account isn't funded for sleeves %s yet; trading the whole account as before.", shared)
+        shared = {}
+    if "2" in shared:  # this account is shared (bot.sleeves): bot 2 only sizes from and sells its own slice
+        from .fleet import DIP_SYMBOLS as BOT5_SYMBOLS
+
+        sleeve = sleeves.open_sleeve(ledger, "2", symbols, shared["2"], account_qty, prices,
+                                     others={"5": os.getenv("DIP_SYMBOLS", BOT5_SYMBOLS).split(",")})
+        held = {s: int(q) for s, q in sleeve.shares.items()}
+        equity = sleeve.value(prices)
+    else:
+        held = {s: int(q) for s, q in account_qty.items()}
+        equity = broker.equity()
     moves = orders_for(want, held, prices, equity)
     plan = ", ".join(f"{s} {w:.0%}" for s, w in want.items()) or "all cash"
     log.info("Target on %s close: %s | equity $%.2f", closes.index[-1].date(), plan, equity)
@@ -143,7 +164,13 @@ def main() -> None:
 
     for sym, qty in moves:
         side = OrderSide.BUY if qty > 0 else OrderSide.SELL
-        broker.client.submit_order(MarketOrderRequest(symbol=sym, qty=abs(qty), side=side, time_in_force=TimeInForce.DAY))
+        order = broker.client.submit_order(MarketOrderRequest(symbol=sym, qty=abs(qty), side=side, time_in_force=TimeInForce.DAY))
+        if sleeve is not None:
+            filled, px = sleeves.wait_fill(broker.client, order.id)
+            if filled:
+                sleeve.record(sym, filled if qty > 0 else -filled, px)
+    if ledger is not None:
+        sleeves.save(ledger)
     STATE.write_text(json.dumps({"last_month": f"{today:%Y-%m}", "holding": want, "at": datetime.now(ET).isoformat()}))
     send(cfg, "Bot 2 rebalanced", f"Now holding {plan}. {len(moves)} orders.")
 

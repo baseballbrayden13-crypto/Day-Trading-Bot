@@ -120,7 +120,7 @@ def healthy_snapshot():
         "market": {"symbols": [{"symbol": "BTC/USD", "above_50d": True}, {"symbol": "ETH/USD", "above_50d": False}]},
         "bots": {
             "1": {"account": acct("QIE2"), "positions": [], "log": log, "errors": [], "fills": {}},
-            "2": {"account": acct("8T7Y"), "positions": [{"symbol": "XLE"}, {"symbol": "XLK"}], "log": log, "errors": [],
+            "2": {"account": {**acct("8T7Y"), "shared": True}, "positions": [{"symbol": "XLE"}, {"symbol": "XLK"}], "log": log, "errors": [],
                   "rotation_state": {"holding": {"XLE": 0.33, "XLK": 0.33}}},
             "3": {"account": acct("KTS7"), "positions": [{"symbol": "BTCUSD"}], "log": log, "errors": []},
             "4": {"paper": {"summary": {"updated": NOW.isoformat(), "equity": "20", "start_budget": "20", "problems": 0},
@@ -128,6 +128,7 @@ def healthy_snapshot():
             "5": {"maker": {"summary": None, "realized": 0.0, "closed": 0, "open": 0, "losing_trades": 0, "quotes": 2,
                             "log": {"exists": True, "modified": (NOW - timedelta(minutes=4)).isoformat(), "errors_24h": 0}},
                   "errors": []},
+            "8": {"account": {**acct("8T7Y"), "shared": True, "last_equity": 0}, "positions": [], "log": log, "errors": []},
         },
     }
 
@@ -294,7 +295,7 @@ def test_digest_and_site_rows():
     title, text, prio = mt.digest(bad, FLEET, [bad[-1]])
     assert title == "Medic: 1 need action" and "bot 1: Bot 1 isn't running." in text and prio == "high"
     health, rows = mt.site_rows(bad, FLEET, NOW)
-    assert [h["label"] for h in health] == ["fleet", "1", "2", "3", "4", "4b", "4c", "4e"]
+    assert [h["label"] for h in health] == ["fleet", "1", "2", "3", "4", "4b", "4c", "4e", "5"]
     assert [h["status"] for h in health if h["label"] == "4c"] == ["info"]  # optional, not set up: no alarm
     assert health[1]["status"] == "act" and health[2]["headline"] == "Running normally."
 
@@ -316,3 +317,27 @@ def test_missed_hedge_leftovers_are_a_watch_not_locked_in_losses():
     f = mt.run_checks(s, FLEET, [], [], NOW)
     assert (4, "losses") not in set(acts(f))
     assert any(x.bot == 4 and x.level == "watch" and x.check == "missed hedges" for x in f)
+
+
+def test_two_unshared_bots_on_one_account_still_need_action():
+    s = healthy_snapshot()
+    s["bots"]["2"]["account"].pop("shared")
+    assert (0, "account") in acts(mt.run_checks(s, FLEET, [], [], NOW))
+
+
+def test_sleeve_turns_the_account_into_one_bots_slice(tmp_path):
+    import json
+
+    from bot import data_bot
+    from bot.fleet import FLEET as F
+
+    bot5 = next(b for b in F if b.tag == "5")
+    bot5 = type(bot5)(**{**bot5.__dict__, "home": str(tmp_path)})
+    out = {"account": {"account": "8T7Y", "equity": 10000.0, "last_equity": 9900.0, "cash": 4000.0},
+           "positions": [{"symbol": "AAPL", "qty": 3.0, "market_value": 900.0}, {"symbol": "XLP", "qty": 50.0, "market_value": 4500.0}],
+           "orders": [{"symbol": "AAPL"}, {"symbol": "XLP"}], "equity_history": [{"day": "x", "equity": 1}]}
+    (tmp_path / "sleeves.json").write_text(json.dumps({"5": {"cash": 4100.0, "shares": {"AAPL": 3.0}}}))
+    data_bot.apply_sleeve(out, bot5)
+    assert out["account"]["equity"] == 5000.0 and out["account"]["shared"]
+    assert [p["symbol"] for p in out["positions"]] == ["AAPL"] and out["orders"] == [{"symbol": "AAPL"}]
+    assert out["equity_history"] == []

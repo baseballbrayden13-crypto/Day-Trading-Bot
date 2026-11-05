@@ -155,11 +155,39 @@ def alpaca_bot(bot: Bot, client, now: datetime, days: int) -> dict:
         except Exception as e:  # keep going: a 401 on one call shouldn't hide the log check
             out["errors"].append(f"{key}: {type(e).__name__}: {e}"[:300])
     out["log"] = log_health(bot.path(bot.log_file), now, days)
+    if bot.sleeve:
+        apply_sleeve(out, bot)
     if bot.num == 2:
         out["rotation_state"] = _json(bot.path("rotation_state.json"))
     if bot.num == 1:
         out["fills"] = fills(bot, client, now, days)
     return out
+
+
+def apply_sleeve(out: dict, bot: Bot) -> None:
+    """A bot sharing its account (bot.sleeves): only its own slice counts, i.e. its cash plus its own shares at
+    today's price, its own positions and orders. Before its slice opens, bot 2 keeps the whole account and a
+    new bot shows its starting money."""
+    if "account" in out:
+        out["account"]["shared"] = True
+    ledger = _json(bot.path("sleeves.json")) or {}
+    book = ledger.get(bot.sleeve) if isinstance(ledger, dict) else None
+    if book is None:
+        if bot.num != 2:
+            out["account"] = {**out.get("account", {}), "equity": bot.start_equity, "last_equity": 0, "cash": bot.start_equity}
+            out["positions"], out["orders"], out["equity_history"] = [], [], []
+        return
+    shares = {s: q for s, q in book.get("shares", {}).items() if q > 1e-9}
+    pos = [p for p in out.get("positions", []) if p["symbol"] in shares]
+    for p in pos:
+        price = p["market_value"] / p["qty"] if p.get("qty") else 0
+        p["qty"], p["market_value"] = shares[p["symbol"]], round(shares[p["symbol"]] * price, 2)
+    a = out.get("account", {})
+    out["account"] = {**a, "equity": round(_f(book.get("cash")) + sum(p["market_value"] for p in pos), 2),
+                      "cash": round(_f(book.get("cash")), 2), "last_equity": 0, "shared": True}  # day change: n/a
+    out["positions"] = pos
+    out["orders"] = [o for o in out.get("orders", []) if o.get("symbol") in set(bot.symbols)]
+    out["equity_history"] = []  # Alpaca's history is the whole account's
 
 
 def fills(bot: Bot, client, now: datetime, days: int) -> dict:

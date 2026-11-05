@@ -464,7 +464,8 @@ def check_fleet(snap: dict, bots: list[Bot], now: datetime) -> list[Finding]:
     seen: dict[str, int] = {}
     for num, s in snap.get("bots", {}).items():
         acct = (s.get("account") or {}).get("account")
-        if acct and acct in seen:
+        shared = (s.get("account") or {}).get("shared") and (snap["bots"].get(str(seen.get(acct)), {}).get("account") or {}).get("shared")
+        if acct and acct in seen and not shared:  # bots with sleeves (bot.sleeves) may share on purpose
             out.append(Finding(0, "act", "account", f"Bots {seen[acct]} and {num} trade the same account ...{acct}.",
                                "Each bot needs its own paper account until shared-account support exists: bot 1's 3:50pm "
                                "close-all would sell the other bot's holdings.", risk="High"))
