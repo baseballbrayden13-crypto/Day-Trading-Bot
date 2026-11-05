@@ -5279,3 +5279,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 18:13:21,657 INFO Resting NO bid on KXBRASILEIROB1H-26NOV05BOTLON-LON at $0.3100 x7 (KXBRASILEIROB1H-26NOV05BOTLON): locks in $2.33 if it fills; hedge NO BOT@0.4400
 2026-11-05 18:13:21,662 INFO Swept 21805 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-05 18:18:29,976 INFO Swept 21819 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 18:23:27,190 INFO Swept 21817 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 18:23:27,301 INFO Quote KXBRASILEIROB1H-26NOV05BOTLON cancelled (0/7 filled)
+2026-11-05 18:28:26,457 INFO PAPER rest NO bid KXITFMATCH-26NOV06BARTAL-BAR at $0.4900 x5 (0 already bid at that price)
+2026-11-05 18:28:26,457 INFO Resting NO bid on KXITFMATCH-26NOV06BARTAL-BAR at $0.4900 x5 (KXITFMATCH-26NOV06BARTAL): locks in $0.13 if it fills; hedge NO TAL@0.4600
+2026-11-05 18:28:26,463 INFO Swept 21809 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 18:33:36,632 INFO Swept 21814 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 18:38:35,090 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06GASTUNCA-UNCA at $0.2600 x2 (0 already bid at that price)
+2026-11-05 18:38:35,090 INFO Resting NO bid on KXNCAAWBGAME-26NOV06GASTUNCA-UNCA at $0.2600 x2 (KXNCAAWBGAME-26NOV06GASTUNCA): locks in $0.79 if it fills; hedge NO GAST@0.3200
+2026-11-05 18:38:35,095 INFO Swept 21807 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 18:43:36,018 INFO Swept 21806 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 18:48:34,673 INFO Swept 21799 events: 0 taker trades, 0 new quotes, 2 resting

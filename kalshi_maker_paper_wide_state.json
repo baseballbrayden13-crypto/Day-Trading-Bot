@@ -2057,21 +2057,40 @@
  ],
  "quotes": [
   {
-   "event": "KXBRASILEIROB1H-26NOV05BOTLON",
-   "series": "KXBRASILEIROB1H",
-   "title": "Botafogo vs Londrina: First Half Winner",
-   "ticker": "KXBRASILEIROB1H-26NOV05BOTLON-LON",
-   "order_id": "paper-778-1793920401",
-   "price": "0.3100",
-   "sets": 7,
+   "event": "KXITFMATCH-26NOV06BARTAL",
+   "series": "KXITFMATCH",
+   "title": "Barroso Campos vs Talan Lopatic",
+   "ticker": "KXITFMATCH-26NOV06BARTAL-BAR",
+   "order_id": "paper-779-1793921306",
+   "price": "0.4900",
+   "sets": 5,
    "done": 0,
-   "reserve": "4.6700",
+   "reserve": "4.8700",
    "multiplier": "1",
-   "placed": 1793920401.6576328,
+   "placed": 1793921306.457753,
    "hedge": [
     {
-     "ticker": "KXBRASILEIROB1H-26NOV05BOTLON-BOT",
-     "limit": "0.5900"
+     "ticker": "KXITFMATCH-26NOV06BARTAL-TAL",
+     "limit": "0.4600"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAWBGAME-26NOV06GASTUNCA",
+   "series": "KXNCAAWBGAME",
+   "title": "Georgia St. vs UNC Asheville",
+   "ticker": "KXNCAAWBGAME-26NOV06GASTUNCA-UNCA",
+   "order_id": "paper-780-1793921915",
+   "price": "0.2600",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.2100",
+   "multiplier": "1",
+   "placed": 1793921915.0905824,
+   "hedge": [
+    {
+     "ticker": "KXNCAAWBGAME-26NOV06GASTUNCA-GAST",
+     "limit": "0.3200"
     }
    ]
   }
