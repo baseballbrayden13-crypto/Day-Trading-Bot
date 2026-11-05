@@ -4648,3 +4648,17 @@
 2026-11-04 19:36:29,573 INFO Resting NO bid on KXNCAAWBGAME-26NOV05UCSBPEPP-UCSB at $0.4200 x4 (KXNCAAWBGAME-26NOV05UCSBPEPP): locks in $0.19 if it fills; hedge NO PEPP@0.5100
 2026-11-04 19:36:29,577 INFO Swept 20643 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-04 19:36:35,050 INFO Stopped; all quotes cancelled.
+2026-11-04 19:53:15,564 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-04 19:56:13,094 INFO Swept 20669 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 20:01:12,065 INFO Swept 20663 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 20:06:17,693 INFO Swept 20666 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-04 20:11:19,443 INFO PAPER rest NO bid KXLIGAFGAME-26NOV08BARMAD-MAD at $0.5700 x2 (22 already bid at that price)
+2026-11-04 20:11:19,443 INFO Resting NO bid on KXLIGAFGAME-26NOV08BARMAD-MAD at $0.57 x2 (KXLIGAFGAME-26NOV08BARMAD): locks in $0.10 if it fills; hedge NO BAR@0.4100, TIE@0.9400
+2026-11-04 20:11:19,447 INFO Swept 20760 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 20:12:55,647 INFO Quote KXLIGAFGAME-26NOV08BARMAD cancelled (0/2 filled)
+2026-11-04 20:16:18,172 INFO PAPER rest NO bid KXNBARACE-26NOV04INDMEM-10-IND at $0.1700 x15 (0 already bid at that price)
+2026-11-04 20:16:18,172 INFO Resting NO bid on KXNBARACE-26NOV04INDMEM-10-IND at $0.1700 x15 (KXNBARACE-26NOV04INDMEM-10): locks in $10.18 if it fills; hedge NO MEM@0.1400
+2026-11-04 20:16:18,194 INFO PAPER rest NO bid KXLIGAFGAME-26NOV08BARMAD-MAD at $0.5900 x2 (17 already bid at that price)
+2026-11-04 20:16:18,195 INFO Resting NO bid on KXLIGAFGAME-26NOV08BARMAD-MAD at $0.59 x2 (KXLIGAFGAME-26NOV08BARMAD): locks in $0.10 if it fills; hedge NO BAR@0.3900, TIE@0.9400
+2026-11-04 20:16:18,199 INFO Swept 20804 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-04 20:21:16,976 INFO Swept 20832 events: 0 taker trades, 0 new quotes, 2 resting

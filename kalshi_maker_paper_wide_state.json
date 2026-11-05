@@ -1860,5 +1860,48 @@
    "closed": "2026-11-05T00:31:07.882417+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNBARACE-26NOV04INDMEM-10",
+   "series": "KXNBARACE",
+   "title": "Indiana vs Memphis: Race to 10 Points",
+   "ticker": "KXNBARACE-26NOV04INDMEM-10-IND",
+   "order_id": "paper-714-1793841378",
+   "price": "0.1700",
+   "sets": 15,
+   "done": 0,
+   "reserve": "4.8200",
+   "multiplier": "1",
+   "placed": 1793841378.1722426,
+   "hedge": [
+    {
+     "ticker": "KXNBARACE-26NOV04INDMEM-10-MEM",
+     "limit": "0.1400"
+    }
+   ]
+  },
+  {
+   "event": "KXLIGAFGAME-26NOV08BARMAD",
+   "series": "KXLIGAFGAME",
+   "title": "Barcelona vs Madrid CFF",
+   "ticker": "KXLIGAFGAME-26NOV08BARMAD-MAD",
+   "order_id": "paper-715-1793841378",
+   "price": "0.59",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.9000",
+   "multiplier": "1",
+   "placed": 1793841378.1950097,
+   "hedge": [
+    {
+     "ticker": "KXLIGAFGAME-26NOV08BARMAD-BAR",
+     "limit": "0.3900"
+    },
+    {
+     "ticker": "KXLIGAFGAME-26NOV08BARMAD-TIE",
+     "limit": "0.9400"
+    }
+   ]
+  }
+ ]
 }
