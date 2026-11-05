@@ -4639,3 +4639,12 @@
 2026-11-04 19:22:50,551 WARNING Quote KXNBARACE-26NOV04ATLWAS-20: hedge missed on KXNBARACE-26NOV04ATLWAS-20-ATL. Selling back 4 contracts on 1 legs.
 2026-11-04 19:22:50,619 INFO PAPER sell 4 YES KXNBARACE-26NOV04ATLWAS-20-WAS at up to $0.9500: not on the book
 2026-11-04 19:22:50,620 ERROR STRAY POSITION: 4 NO contracts of KXNBARACE-26NOV04ATLWAS-20-WAS still held. Check it on Kalshi.
+2026-11-04 19:26:25,409 INFO Swept 20652 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-04 19:31:07,882 INFO Settled KXNBARACE-26NOV04ATLWAS-20 (stray): paid $0, profit $-0.41
+2026-11-04 19:31:29,259 INFO PAPER rest NO bid KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.8800 x5 (57 already bid at that price)
+2026-11-04 19:31:29,259 INFO Resting NO bid on KXBOXING-26NOV06KAENABEAUCH-BEAUCH at $0.88 x5 (KXBOXING-26NOV06KAENABEAUCH): locks in $0.11 if it fills; hedge NO KAENA@0.0900
+2026-11-04 19:31:29,263 INFO Swept 20657 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-04 19:36:29,573 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV05UCSBPEPP-UCSB at $0.4200 x4 (0 already bid at that price)
+2026-11-04 19:36:29,573 INFO Resting NO bid on KXNCAAWBGAME-26NOV05UCSBPEPP-UCSB at $0.4200 x4 (KXNCAAWBGAME-26NOV05UCSBPEPP): locks in $0.19 if it fills; hedge NO PEPP@0.5100
+2026-11-04 19:36:29,577 INFO Swept 20643 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-04 19:36:35,050 INFO Stopped; all quotes cancelled.

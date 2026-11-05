@@ -1,5 +1,5 @@
 {
- "realized": "-1.3200",
+ "realized": "-1.7300",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -81,23 +81,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXNBARACE-26NOV04ATLWAS-20 (stray)",
-   "series": "KXNBARACE",
-   "title": "Atlanta vs Washington: Race to 20 Points",
-   "sets": 0,
-   "outlay": "0.4100",
-   "locked_profit": "0",
-   "opened": "2026-11-05T00:22:50.620126+00:00",
-   "legs": [
-    {
-     "ticker": "KXNBARACE-26NOV04ATLWAS-20-WAS",
-     "side": "no",
-     "count": 4,
-     "limit": "0.1000"
     }
    ]
   }
@@ -1855,27 +1838,27 @@
    "paid": "0",
    "pnl": "-0.26",
    "closed": "2026-11-04T15:22:55.342582+00:00"
+  },
+  {
+   "event": "KXNBARACE-26NOV04ATLWAS-20 (stray)",
+   "series": "KXNBARACE",
+   "title": "Atlanta vs Washington: Race to 20 Points",
+   "sets": 0,
+   "outlay": "0.4100",
+   "locked_profit": "0",
+   "opened": "2026-11-05T00:22:50.620126+00:00",
+   "legs": [
+    {
+     "ticker": "KXNBARACE-26NOV04ATLWAS-20-WAS",
+     "side": "no",
+     "count": 4,
+     "limit": "0.1000"
+    }
+   ],
+   "paid": "0",
+   "pnl": "-0.4100",
+   "closed": "2026-11-05T00:31:07.882417+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXITFMATCH-26NOV05WRIXIL",
-   "series": "KXITFMATCH",
-   "title": "Wright vs Xilas",
-   "ticker": "KXITFMATCH-26NOV05WRIXIL-WRI",
-   "order_id": "paper-709-1793836580",
-   "price": "0.91",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8800",
-   "multiplier": "1",
-   "placed": 1793836580.4731693,
-   "hedge": [
-    {
-     "ticker": "KXITFMATCH-26NOV05WRIXIL-XIL",
-     "limit": "0.0600"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

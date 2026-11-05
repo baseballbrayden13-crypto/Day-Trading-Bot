@@ -9918,12 +9918,12 @@
   "count": 5,
   "ahead": 63,
   "placed": 1793836580.4658225,
-  "checked": 1793838201.3693287,
+  "checked": 1793838380,
   "expires": 1793838380,
   "through": 0,
   "at_price": 15,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-710-1793837780": {
   "id": "paper-710-1793837780",
@@ -9938,5 +9938,33 @@
   "at_price": 0,
   "filled": 4,
   "status": "executed"
+ },
+ "paper-711-1793838689": {
+  "id": "paper-711-1793838689",
+  "ticker": "KXBOXING-26NOV06KAENABEAUCH-BEAUCH",
+  "price": "0.8800",
+  "count": 5,
+  "ahead": 57,
+  "placed": 1793838689.2517574,
+  "checked": 1793838994.8783119,
+  "expires": 1793840489,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-712-1793838989": {
+  "id": "paper-712-1793838989",
+  "ticker": "KXNCAAWBGAME-26NOV05UCSBPEPP-UCSB",
+  "price": "0.4200",
+  "count": 4,
+  "ahead": 0,
+  "placed": 1793838989.5665462,
+  "checked": 1793838994.9586163,
+  "expires": 1793840789,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

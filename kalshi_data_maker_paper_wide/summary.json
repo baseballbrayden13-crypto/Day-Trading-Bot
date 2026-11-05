@@ -1,25 +1,27 @@
 {
- "updated": "2026-11-05T00:18:49+00:00",
+ "updated": "2026-11-05T00:33:58+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "18.68",
- "realized_profit": "-1.32",
- "bet_level": "18.68",
+ "equity": "18.27",
+ "realized_profit": "-1.73",
+ "bet_level": "18.27",
  "open_trades": 3,
  "open_locked_profit": "2.64",
  "in_play": "9.36",
  "stray_positions": 0,
  "closed_trades": 49,
  "trades_this_loop": 0,
- "events_swept": 20622,
+ "events_swept": 20643,
  "found_this_loop": 1,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 1,
+ "problems": 3,
  "last_problems": [
-  "2026-11-04 22:52 Quote KXITFWDOUBLES-26NOV04PRIVAKDRUZUC: hedge missed on KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-PRIVAK. Selling back 1 contracts on 1 legs."
+  "2026-11-04 22:52 Quote KXITFWDOUBLES-26NOV04PRIVAKDRUZUC: hedge missed on KXITFWDOUBLES-26NOV04PRIVAKDRUZUC-PRIVAK. Selling back 1 contracts on 1 legs.",
+  "2026-11-05 00:22 Quote KXNBARACE-26NOV04ATLWAS-20: hedge missed on KXNBARACE-26NOV04ATLWAS-20-ATL. Selling back 4 contracts on 1 legs.",
+  "2026-11-05 00:22 STRAY POSITION: 4 NO contracts of KXNBARACE-26NOV04ATLWAS-20-WAS still held. Check it on Kalshi."
  ]
 }
