@@ -5086,3 +5086,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 09:16:36,858 INFO Quote KXMLBBGAME-26NOV050600BTRTLID cancelled (0/2 filled)
 2026-11-05 09:21:38,872 INFO Swept 20634 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-05 09:26:39,270 INFO Swept 20619 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 09:31:39,987 INFO Swept 20621 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 09:36:40,492 INFO Swept 20625 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 09:41:40,741 INFO Swept 20628 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 09:46:43,091 INFO PAPER rest NO bid KXXRP-26NOV0510-B1.3099500 at $0.1500 x2 (0 already bid at that price)
+2026-11-05 09:46:43,091 INFO Resting NO bid on KXXRP-26NOV0510-B1.3099500 at $0.1500 x2 (KXXRP-26NOV0510): locks in $0.26 if it fills; hedge NO B1.2899500@0.7000
+2026-11-05 09:46:43,095 INFO Swept 20650 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 09:46:53,396 INFO Quote KXXRP-26NOV0510 cancelled (0/2 filled)
+2026-11-05 09:51:42,077 INFO PAPER rest NO bid KXEBASKETBALLGAME-26NOV050925DAVICONO-CONO at $0.0500 x5 (0 already bid at that price)
+2026-11-05 09:51:42,078 INFO Resting NO bid on KXEBASKETBALLGAME-26NOV050925DAVICONO-CONO at $0.0500 x5 (KXEBASKETBALLGAME-26NOV050925DAVICONO): locks in $0.39 if it fills; hedge NO DAVI@0.8600
+2026-11-05 09:51:42,082 INFO Swept 20648 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 09:51:57,409 INFO Quote KXEBASKETBALLGAME-26NOV050925DAVICONO cancelled (0/5 filled)
+2026-11-05 09:56:45,272 INFO PAPER rest NO bid KXMLBBGAME-26NOV050600BTRTLID-BTR at $0.3700 x5 (16 already bid at that price)
+2026-11-05 09:56:45,272 INFO Resting NO bid on KXMLBBGAME-26NOV050600BTRTLID-BTR at $0.37 x5 (KXMLBBGAME-26NOV050600BTRTLID): locks in $0.13 if it fills; hedge NO TLID@0.5800
+2026-11-05 09:56:45,276 INFO Swept 20657 events: 0 taker trades, 1 new quotes, 1 resting

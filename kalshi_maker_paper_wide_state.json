@@ -1984,25 +1984,21 @@
  ],
  "quotes": [
   {
-   "event": "KXPGA3BALL-WOWTC26R1WMOUSVALKYU",
-   "series": "KXPGA3BALL",
-   "title": "1st Round 3-Ball: Mouw/Valimaki/Yu",
-   "ticker": "KXPGA3BALL-WOWTC26R1WMOUSVALKYU-KYU",
-   "order_id": "paper-761-1793888196",
-   "price": "0.0300",
-   "sets": 2,
+   "event": "KXMLBBGAME-26NOV050600BTRTLID",
+   "series": "KXMLBBGAME",
+   "title": "Bigetron by Vitality vs. Team Liquid ID",
+   "ticker": "KXMLBBGAME-26NOV050600BTRTLID-BTR",
+   "order_id": "paper-764-1793890605",
+   "price": "0.37",
+   "sets": 5,
    "done": 0,
-   "reserve": "2.8400",
+   "reserve": "4.8700",
    "multiplier": "1",
-   "placed": 1793888196.7373364,
+   "placed": 1793890605.2725067,
    "hedge": [
     {
-     "ticker": "KXPGA3BALL-WOWTC26R1WMOUSVALKYU-WMOU",
-     "limit": "0.7700"
-    },
-    {
-     "ticker": "KXPGA3BALL-WOWTC26R1WMOUSVALKYU-SVAL",
-     "limit": "0.7400"
+     "ticker": "KXMLBBGAME-26NOV050600BTRTLID-TLID",
+     "limit": "0.5800"
     }
    ]
   }
