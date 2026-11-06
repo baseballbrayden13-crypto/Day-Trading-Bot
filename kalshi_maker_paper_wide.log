@@ -5751,3 +5751,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 15:45:11,039 INFO PAPER buy 5 NO KXCODGAME-26NOV061100OMILAT-LAT at up to $0.16: filled 5
 2026-11-06 15:45:11,039 INFO Quote KXCODGAME-26NOV061100OMILAT: hedge on KXCODGAME-26NOV061100OMILAT-LAT chased from 0.0900 to 0.16
 2026-11-06 15:45:11,039 INFO Quote KXCODGAME-26NOV061100OMILAT filled 5: hedged, locks in $-0.26
+2026-11-06 15:49:44,090 INFO Swept 22804 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 15:49:44,161 INFO Quote KXLNBELITE2GAME-26NOV061400AEBCHA cancelled (0/2 filled)
+2026-11-06 15:54:45,344 INFO Swept 22783 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 15:59:47,712 INFO Swept 22776 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 16:05:17,333 INFO Swept 22789 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 16:10:36,715 INFO Swept 22791 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 16:15:50,533 INFO Swept 22762 events: 0 taker trades, 0 new quotes, 0 resting

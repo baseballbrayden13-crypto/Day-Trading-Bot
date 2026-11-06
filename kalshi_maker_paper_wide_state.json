@@ -2216,25 +2216,5 @@
    "closed": "2026-11-06T19:33:47.665956+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLNBELITE2GAME-26NOV061400AEBCHA",
-   "series": "KXLNBELITE2GAME",
-   "title": "ALM Evreux Basket vs Champagne Basketball",
-   "ticker": "KXLNBELITE2GAME-26NOV061400AEBCHA-CHA",
-   "order_id": "paper-846-1793997274",
-   "price": "0.3000",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.5600",
-   "multiplier": "1",
-   "placed": 1793997274.7466621,
-   "hedge": [
-    {
-     "ticker": "KXLNBELITE2GAME-26NOV061400AEBCHA-AEB",
-     "limit": "0.5100"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:42:27+00:00",
+ "updated": "2026-11-06T21:12:46+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -7,13 +7,13 @@
  "equity": "16.48",
  "realized_profit": "-3.52",
  "bet_level": "16.48",
- "open_trades": 3,
- "open_locked_profit": "2.64",
- "in_play": "9.36",
+ "open_trades": 4,
+ "open_locked_profit": "2.38",
+ "in_play": "14.62",
  "stray_positions": 0,
  "closed_trades": 57,
  "trades_this_loop": 0,
- "events_swept": 22806,
+ "events_swept": 22762,
  "found_this_loop": 1,
  "top_series": [
   "KXSTARSHIPSPACE"
