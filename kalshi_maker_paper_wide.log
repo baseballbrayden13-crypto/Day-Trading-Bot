@@ -5521,3 +5521,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 06:28:16,310 INFO Resting NO bid on KXCS2GAME-26NOV080700KSMPRE-KSM at $0.69 x5 (KXCS2GAME-26NOV080700KSMPRE): locks in $0.11 if it fills; hedge NO PRE@0.2700
 2026-11-06 06:28:16,439 INFO Swept 22016 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-06 06:33:22,820 INFO Swept 22007 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 06:38:23,870 INFO Swept 22008 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 06:43:25,307 INFO Swept 22004 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 06:48:25,925 INFO Swept 22009 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 06:53:18,991 INFO Swept 22004 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 06:58:21,834 INFO Swept 22008 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 07:03:25,488 INFO PAPER rest NO bid KXLOWTDEN-26NOV06-B32.5 at $0.5000 x2 (0 already bid at that price)
+2026-11-06 07:03:25,488 INFO Resting NO bid on KXLOWTDEN-26NOV06-B32.5 at $0.5000 x2 (KXLOWTDEN-26NOV06): locks in $0.34 if it fills; hedge NO T32@0.9800, B34.5@0.3200
+2026-11-06 07:03:25,609 INFO Swept 22004 events: 0 taker trades, 1 new quotes, 1 resting

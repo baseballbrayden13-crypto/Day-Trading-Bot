@@ -2057,21 +2057,25 @@
  ],
  "quotes": [
   {
-   "event": "KXCS2GAME-26NOV080700KSMPRE",
-   "series": "KXCS2GAME",
-   "title": "KUUSAMO.gg vs. Prestige",
-   "ticker": "KXCS2GAME-26NOV080700KSMPRE-KSM",
-   "order_id": "paper-814-1793964496",
-   "price": "0.69",
-   "sets": 5,
+   "event": "KXLOWTDEN-26NOV06",
+   "series": "KXLOWTDEN",
+   "title": "Lowest temperature in Denver on Nov 6, 2026?",
+   "ticker": "KXLOWTDEN-26NOV06-B32.5",
+   "order_id": "paper-815-1793966605",
+   "price": "0.5000",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.8900",
+   "reserve": "3.6600",
    "multiplier": "1",
-   "placed": 1793964496.3107123,
+   "placed": 1793966605.4883509,
    "hedge": [
     {
-     "ticker": "KXCS2GAME-26NOV080700KSMPRE-PRE",
-     "limit": "0.2700"
+     "ticker": "KXLOWTDEN-26NOV06-T32",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXLOWTDEN-26NOV06-B34.5",
+     "limit": "0.5000"
     }
    ]
   }
