@@ -68,3 +68,6 @@
 2026-11-06 09:55:07,656 INFO BUY AAPL x2 @limit 343.32 stop 338.59 target 349.99 | broke 15-min opening range high 341.69
 2026-11-06 10:15:08,457 INFO BUY MSFT x1 @limit 533.99 stop 525.00 target 546.79 | broke 15-min opening range high 532.28
 2026-11-06 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.
+2026-11-06 12:47:05,217 INFO Connected to Alpaca PAPER account
+2026-11-06 12:47:05,304 INFO Picked up today's counters: start equity $4979.70, 2 trades
+2026-11-06 12:47:05,304 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.
