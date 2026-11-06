@@ -5497,3 +5497,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 05:02:34,096 INFO PAPER rest NO bid KXVALORANTMAP-26NOV060500ANALPD-2-ANA at $0.6700 x2 (0 already bid at that price)
 2026-11-06 05:02:34,097 INFO Resting NO bid on KXVALORANTMAP-26NOV060500ANALPD-2-ANA at $0.6700 x2 (KXVALORANTMAP-26NOV060500ANALPD-2): locks in $0.39 if it fills; hedge NO LPD@0.1700
 2026-11-06 05:02:34,223 INFO Swept 21983 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 05:07:39,464 INFO Swept 21987 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 05:12:41,827 INFO Swept 21998 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 05:17:44,547 INFO Swept 22000 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 05:18:05,356 INFO Quote KXVALORANTMAP-26NOV060500ANALPD-2 cancelled (0/2 filled)
+2026-11-06 05:22:48,001 INFO Swept 21997 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 05:27:50,792 INFO Swept 21994 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 05:32:52,350 INFO Swept 22000 events: 0 taker trades, 0 new quotes, 0 resting
