@@ -83,6 +83,30 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXWTADOUBLES-26NOV05BHARAJHAVUDV",
+   "series": "KXWTADOUBLES",
+   "title": "Bhamidipaty S / Rajeshwaran Revathi vs Haverlag / Udvardy",
+   "sets": 3,
+   "outlay": "2.8700",
+   "locked_profit": "0.1300",
+   "opened": "2026-11-06T13:58:23.939704+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXWTADOUBLES-26NOV05BHARAJHAVUDV-HAVUDV",
+     "side": "no",
+     "count": 3,
+     "limit": "0.1500"
+    },
+    {
+     "ticker": "KXWTADOUBLES-26NOV05BHARAJHAVUDV-BHARAJ",
+     "side": "no",
+     "count": 3,
+     "limit": "0.7900"
+    }
+   ]
   }
  ],
  "closed": [
@@ -2079,21 +2103,21 @@
  ],
  "quotes": [
   {
-   "event": "KXWTADOUBLES-26NOV05BHARAJHAVUDV",
-   "series": "KXWTADOUBLES",
-   "title": "Bhamidipaty S / Rajeshwaran Revathi vs Haverlag / Udvardy",
-   "ticker": "KXWTADOUBLES-26NOV05BHARAJHAVUDV-HAVUDV",
-   "order_id": "paper-822-1793972215",
-   "price": "0.1500",
-   "sets": 3,
+   "event": "KXMLBBGAME-26NOV060600TLIDNAVI",
+   "series": "KXMLBBGAME",
+   "title": "Team Liquid ID vs. Natus Vincere",
+   "ticker": "KXMLBBGAME-26NOV060600TLIDNAVI-NAVI",
+   "order_id": "paper-823-1793974353",
+   "price": "0.2700",
+   "sets": 2,
    "done": 0,
-   "reserve": "2.8700",
+   "reserve": "1.8700",
    "multiplier": "1",
-   "placed": 1793972215.6234694,
+   "placed": 1793974353.3242648,
    "hedge": [
     {
-     "ticker": "KXWTADOUBLES-26NOV05BHARAJHAVUDV-BHARAJ",
-     "limit": "0.7900"
+     "ticker": "KXMLBBGAME-26NOV060600TLIDNAVI-TLID",
+     "limit": "0.6900"
     }
    ]
   }

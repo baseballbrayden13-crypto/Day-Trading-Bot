@@ -5583,3 +5583,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 08:42:03,050 INFO Swept 22151 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 08:47:04,714 INFO Swept 22150 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 08:52:06,224 INFO Swept 22146 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 08:57:08,298 INFO Swept 22141 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 08:58:23,916 INFO PAPER KXWTADOUBLES-26NOV05BHARAJHAVUDV-HAVUDV NO bid at $0.1500: 3/3 filled by real trades
+2026-11-06 08:58:23,939 INFO PAPER buy 3 NO KXWTADOUBLES-26NOV05BHARAJHAVUDV-BHARAJ at up to $0.7900: filled 3
+2026-11-06 08:58:23,939 INFO Quote KXWTADOUBLES-26NOV05BHARAJHAVUDV filled 3: hedged, locks in $0.13
+2026-11-06 09:02:16,935 INFO Swept 22136 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 09:07:26,840 INFO Swept 22138 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 09:12:33,324 INFO PAPER rest NO bid KXMLBBGAME-26NOV060600TLIDNAVI-NAVI at $0.2700 x2 (0 already bid at that price)
+2026-11-06 09:12:33,324 INFO Resting NO bid on KXMLBBGAME-26NOV060600TLIDNAVI-NAVI at $0.2700 x2 (KXMLBBGAME-26NOV060600TLIDNAVI): locks in $0.13 if it fills; hedge NO TLID@0.6900
+2026-11-06 09:12:33,357 INFO Swept 22306 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 09:17:35,304 INFO Swept 22311 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 09:22:35,419 INFO Swept 22308 events: 0 taker trades, 0 new quotes, 1 resting
