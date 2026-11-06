@@ -5776,3 +5776,30 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 17:11:23,045 INFO Swept 22634 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 17:16:25,734 INFO Swept 22620 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 17:17:01,845 INFO Quote KXBSLGAME-26NOV091100BJKKAR cancelled (0/5 filled)
+2026-11-06 17:21:27,667 INFO Swept 22620 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 17:26:28,752 INFO Swept 22617 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 17:31:29,495 INFO Swept 22620 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 17:36:30,555 INFO Swept 22619 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 17:36:30,579 INFO PAPER KXSOCKEYERUN-27-B49P00-55P00 NO bid at $0.2300: 1/1 filled by real trades
+2026-11-06 17:36:30,611 INFO PAPER buy 1 NO KXSOCKEYERUN-27-B37P00-42P99 at up to $0.8700: filled 1
+2026-11-06 17:36:30,634 INFO PAPER buy 1 NO KXSOCKEYERUN-27-B43P00-48P99 at up to $0.6800: not on the book
+2026-11-06 17:36:30,656 INFO PAPER buy 1 NO KXSOCKEYERUN-27-B43P00-48P99 at up to $0.91: not on the book
+2026-11-06 17:36:30,656 WARNING Quote KXSOCKEYERUN-27: hedge missed on KXSOCKEYERUN-27-B43P00-48P99. Selling back 1 contracts on 2 legs.
+2026-11-06 17:36:30,678 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B49P00-55P00 at up to $0.8200: not on the book
+2026-11-06 17:36:30,678 ERROR STRAY POSITION: 1 NO contracts of KXSOCKEYERUN-27-B49P00-55P00 still held. Check it on Kalshi.
+2026-11-06 17:36:30,700 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.1800: not on the book
+2026-11-06 17:36:30,700 ERROR STRAY POSITION: 1 NO contracts of KXSOCKEYERUN-27-B37P00-42P99 still held. Check it on Kalshi.
+2026-11-06 17:36:30,723 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B49P00-55P00 at up to $0.9200: filled 1
+2026-11-06 17:36:30,723 INFO Stray KXSOCKEYERUN-27-B49P00-55P00: sold 1 of 1 at $0.0800 or better, booked $-0.17
+2026-11-06 17:36:30,746 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.2800: not on the book
+2026-11-06 17:37:30,923 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.2800: not on the book
+2026-11-06 17:41:29,780 INFO PAPER rest NO bid KXSOCKEYERUN-27-B43P00-48P99 at $0.2800 x1 (0 already bid at that price)
+2026-11-06 17:41:29,780 INFO Resting NO bid on KXSOCKEYERUN-27-B43P00-48P99 at $0.2800 x1 (KXSOCKEYERUN-27): locks in $0.13 if it fills; hedge NO 55P00@0.5600
+2026-11-06 17:41:29,822 INFO Swept 22618 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 17:41:29,870 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.2800: not on the book
+2026-11-06 17:41:55,098 INFO Quote KXSOCKEYERUN-27 cancelled (0/1 filled)
+2026-11-06 17:42:30,132 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.2800: not on the book
+2026-11-06 17:46:33,928 INFO PAPER rest NO bid KXSOCKEYERUN-27-B43P00-48P99 at $0.1500 x1 (0 already bid at that price)
+2026-11-06 17:46:33,928 INFO Resting NO bid on KXSOCKEYERUN-27-B43P00-48P99 at $0.1500 x1 (KXSOCKEYERUN-27): locks in $0.15 if it fills; hedge NO 55P00@0.6700
+2026-11-06 17:46:33,973 INFO Swept 22617 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 17:46:34,022 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.2800: not on the book
