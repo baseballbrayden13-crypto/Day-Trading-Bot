@@ -5468,3 +5468,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 03:21:49,610 INFO Swept 21910 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-06 03:26:51,550 INFO Swept 21908 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 03:31:55,117 INFO Swept 21911 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 03:36:57,725 INFO PAPER rest NO bid KXESOCCERGAME-26NOV060329LUCYQUIN-TIE at $0.6500 x1 (0 already bid at that price)
+2026-11-06 03:36:57,725 INFO Resting NO bid on KXESOCCERGAME-26NOV060329LUCYQUIN-TIE at $0.6500 x1 (KXESOCCERGAME-26NOV060329LUCYQUIN): locks in $0.14 if it fills; hedge NO LUCY@0.1800
+2026-11-06 03:36:57,846 INFO Swept 21917 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 03:41:59,545 INFO Swept 21916 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 03:41:59,876 INFO Quote KXESOCCERGAME-26NOV060329LUCYQUIN cancelled (0/1 filled)
+2026-11-06 03:47:01,271 INFO Swept 21917 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 03:52:03,742 INFO Swept 21926 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 03:57:06,346 INFO Swept 21935 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 04:02:03,864 INFO Swept 21926 events: 0 taker trades, 0 new quotes, 0 resting
