@@ -5486,3 +5486,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 04:32:20,481 INFO Resting NO bid on KXKHLGAME-26NOV060430HCBADM-HCB at $0.3000 x2 (KXKHLGAME-26NOV060430HCBADM): locks in $0.11 if it fills; hedge NO ADM@0.6200
 2026-11-06 04:32:20,601 INFO Swept 21976 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-06 04:33:12,076 INFO Quote KXKHLGAME-26NOV060430HCBADM cancelled (0/2 filled)
+2026-11-06 04:37:23,349 INFO Swept 21976 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 04:42:25,025 INFO Swept 21971 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 04:47:26,445 INFO PAPER rest NO bid KXSOLE-26NOV0605-B90.375 at $0.4700 x1 (0 already bid at that price)
+2026-11-06 04:47:26,445 INFO Resting NO bid on KXSOLE-26NOV0605-B90.375 at $0.4700 x1 (KXSOLE-26NOV0605): locks in $0.17 if it fills; hedge NO B89.875@0.8000, B90.125@0.5100
+2026-11-06 04:47:26,572 INFO Swept 21971 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 04:52:26,971 INFO Swept 21985 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 04:54:09,708 INFO Quote KXSOLE-26NOV0605 cancelled (0/1 filled)
+2026-11-06 04:57:31,604 INFO Swept 21981 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 05:02:34,096 INFO PAPER rest NO bid KXVALORANTMAP-26NOV060500ANALPD-2-ANA at $0.6700 x2 (0 already bid at that price)
+2026-11-06 05:02:34,097 INFO Resting NO bid on KXVALORANTMAP-26NOV060500ANALPD-2-ANA at $0.6700 x2 (KXVALORANTMAP-26NOV060500ANALPD-2): locks in $0.39 if it fills; hedge NO LPD@0.1700
+2026-11-06 05:02:34,223 INFO Swept 21983 events: 0 taker trades, 1 new quotes, 1 resting
