@@ -11296,5 +11296,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-808-1793953309": {
+  "id": "paper-808-1793953309",
+  "ticker": "KXVALORANTMAP-26NOV060300HOCGOD-1-GOD",
+  "price": "0.1800",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793953309.4798827,
+  "checked": 1793954043.3295825,
+  "expires": 1793955109,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
