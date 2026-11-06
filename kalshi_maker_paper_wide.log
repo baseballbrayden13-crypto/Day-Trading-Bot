@@ -5629,3 +5629,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 11:13:18,892 INFO Swept 22445 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 11:18:19,759 INFO Swept 22445 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 11:23:20,360 INFO Swept 22443 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 11:28:18,966 INFO Swept 22467 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 11:33:20,720 INFO PAPER rest NO bid KXTRUMPAPPROVE-26NOV07-E38.8 at $0.4900 x1 (0 already bid at that price)
+2026-11-06 11:33:20,720 INFO Resting NO bid on KXTRUMPAPPROVE-26NOV07-E38.8 at $0.4900 x1 (KXTRUMPAPPROVE-26NOV07): locks in $0.12 if it fills; hedge NO E38.9@0.9600, E39.0@0.8800, E39.1@0.5900, E39.2@0.9300, E39.3@0.9600
+2026-11-06 11:33:20,751 INFO Swept 22465 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 11:38:23,734 INFO PAPER rest NO bid KXESOCCERGAME-26NOV061116BRADKYLI-KYLI at $0.2100 x1 (0 already bid at that price)
+2026-11-06 11:38:23,735 INFO Resting NO bid on KXESOCCERGAME-26NOV061116BRADKYLI-KYLI at $0.2100 x1 (KXESOCCERGAME-26NOV061116BRADKYLI): locks in $0.36 if it fills; hedge NO BRAD@0.4000
+2026-11-06 11:38:23,771 INFO Swept 22472 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 11:43:28,393 INFO Swept 22470 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 11:43:28,492 INFO Quote KXESOCCERGAME-26NOV061116BRADKYLI cancelled (0/1 filled)
+2026-11-06 11:48:30,780 INFO Swept 22465 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 11:53:33,220 INFO Swept 22461 events: 0 taker trades, 0 new quotes, 1 resting

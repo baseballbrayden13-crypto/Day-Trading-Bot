@@ -2110,21 +2110,37 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26NOV06WMUUND",
-   "series": "KXNCAAHGAME",
-   "title": "Western Michigan vs North Dakota",
-   "ticker": "KXNCAAHGAME-26NOV06WMUUND-UND",
-   "order_id": "paper-828-1793980692",
-   "price": "0.2500",
-   "sets": 5,
+   "event": "KXTRUMPAPPROVE-26NOV07",
+   "series": "KXTRUMPAPPROVE",
+   "title": "Trump's RCP approval average on Nov 7, 2026?",
+   "ticker": "KXTRUMPAPPROVE-26NOV07-E38.8",
+   "order_id": "paper-829-1793982800",
+   "price": "0.4900",
+   "sets": 1,
    "done": 0,
-   "reserve": "4.8500",
+   "reserve": "4.8800",
    "multiplier": "1",
-   "placed": 1793980692.7698667,
+   "placed": 1793982800.7209072,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26NOV06WMUUND-WMU",
-     "limit": "0.7000"
+     "ticker": "KXTRUMPAPPROVE-26NOV07-E38.9",
+     "limit": "0.9600"
+    },
+    {
+     "ticker": "KXTRUMPAPPROVE-26NOV07-E39.0",
+     "limit": "0.9700"
+    },
+    {
+     "ticker": "KXTRUMPAPPROVE-26NOV07-E39.1",
+     "limit": "0.5900"
+    },
+    {
+     "ticker": "KXTRUMPAPPROVE-26NOV07-E39.2",
+     "limit": "0.9700"
+    },
+    {
+     "ticker": "KXTRUMPAPPROVE-26NOV07-E39.3",
+     "limit": "0.9600"
     }
    ]
   }
