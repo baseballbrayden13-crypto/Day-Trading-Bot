@@ -2103,21 +2103,25 @@
  ],
  "quotes": [
   {
-   "event": "KXMLBBGAME-26NOV060600TLIDNAVI",
-   "series": "KXMLBBGAME",
-   "title": "Team Liquid ID vs. Natus Vincere",
-   "ticker": "KXMLBBGAME-26NOV060600TLIDNAVI-NAVI",
-   "order_id": "paper-823-1793974353",
-   "price": "0.2700",
-   "sets": 2,
+   "event": "KXUCLWGAME-26NOV10HACCFC",
+   "series": "KXUCLWGAME",
+   "title": "Hacken Gothenburg vs Chelsea",
+   "ticker": "KXUCLWGAME-26NOV10HACCFC-HAC",
+   "order_id": "paper-824-1793975553",
+   "price": "0.72",
+   "sets": 1,
    "done": 0,
-   "reserve": "1.8700",
+   "reserve": "1.9000",
    "multiplier": "1",
-   "placed": 1793974353.3242648,
+   "placed": 1793975553.4558785,
    "hedge": [
     {
-     "ticker": "KXMLBBGAME-26NOV060600TLIDNAVI-TLID",
-     "limit": "0.6900"
+     "ticker": "KXUCLWGAME-26NOV10HACCFC-CFC",
+     "limit": "0.1900"
+    },
+    {
+     "ticker": "KXUCLWGAME-26NOV10HACCFC-TIE",
+     "limit": "0.9500"
     }
    ]
   }

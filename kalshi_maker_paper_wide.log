@@ -5594,3 +5594,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 09:12:33,357 INFO Swept 22306 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-06 09:17:35,304 INFO Swept 22311 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 09:22:35,419 INFO Swept 22308 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 09:27:36,034 INFO Swept 22302 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 09:32:33,455 INFO PAPER rest NO bid KXUCLWGAME-26NOV10HACCFC-HAC at $0.7200 x1 (1 already bid at that price)
+2026-11-06 09:32:33,455 INFO Resting NO bid on KXUCLWGAME-26NOV10HACCFC-HAC at $0.72 x1 (KXUCLWGAME-26NOV10HACCFC): locks in $0.10 if it fills; hedge NO CFC@0.1900, TIE@0.9500
+2026-11-06 09:32:33,488 INFO Swept 22301 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 09:37:33,996 INFO Swept 22293 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 09:42:34,636 INFO Swept 22289 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 09:47:39,133 INFO Swept 22291 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 09:52:43,909 INFO Swept 22286 events: 0 taker trades, 0 new quotes, 1 resting
