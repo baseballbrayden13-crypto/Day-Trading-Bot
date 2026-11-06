@@ -2108,41 +2108,5 @@
    "closed": "2026-11-06T15:22:41.482542+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLIGUE11HSCORE-26NOV08ANGNIC",
-   "series": "KXLIGUE11HSCORE",
-   "title": "Angers SCO vs OGC Nice: 1st Half Correct Score",
-   "ticker": "KXLIGUE11HSCORE-26NOV08ANGNIC-ANG3NIC2",
-   "order_id": "paper-832-1793985830",
-   "price": "0.1000",
-   "sets": 1,
-   "done": 0,
-   "reserve": "4.5100",
-   "multiplier": "1",
-   "placed": 1793985830.4943817,
-   "hedge": [
-    {
-     "ticker": "KXLIGUE11HSCORE-26NOV08ANGNIC-ANG0NIC0",
-     "limit": "0.7500"
-    },
-    {
-     "ticker": "KXLIGUE11HSCORE-26NOV08ANGNIC-ANG0NIC1",
-     "limit": "0.8200"
-    },
-    {
-     "ticker": "KXLIGUE11HSCORE-26NOV08ANGNIC-ANG0NIC2",
-     "limit": "0.9600"
-    },
-    {
-     "ticker": "KXLIGUE11HSCORE-26NOV08ANGNIC-ANG1NIC0",
-     "limit": "0.8800"
-    },
-    {
-     "ticker": "KXLIGUE11HSCORE-26NOV08ANGNIC-ANG1NIC1",
-     "limit": "0.9200"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

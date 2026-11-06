@@ -5652,3 +5652,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 12:23:50,494 INFO Resting NO bid on KXLIGUE11HSCORE-26NOV08ANGNIC-ANG3NIC2 at $0.1000 x1 (KXLIGUE11HSCORE-26NOV08ANGNIC): locks in $0.49 if it fills; hedge NO ANG0NIC0@0.7500, ANG0NIC1@0.8200, ANG0NIC2@0.9600, ANG1NIC0@0.8800, ANG1NIC1@0.9200
 2026-11-06 12:23:50,527 INFO Swept 22619 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-06 12:24:10,885 INFO Quote KXLIGAPROMATCH-26NOV061145GRIPIS cancelled (0/1 filled)
+2026-11-06 12:28:49,690 INFO Swept 22610 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 12:33:54,602 INFO Swept 22603 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 12:38:58,318 INFO Swept 22609 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 12:44:02,388 INFO Swept 22605 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 12:49:06,784 INFO Swept 22612 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 12:54:11,520 INFO Swept 22603 events: 0 taker trades, 0 new quotes, 1 resting
