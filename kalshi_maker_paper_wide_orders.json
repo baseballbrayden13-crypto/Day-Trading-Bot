@@ -11682,11 +11682,39 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793989459.4380176,
-  "checked": 1793989535.0516822,
+  "checked": 1793989545.126624,
   "expires": 1793991259,
+  "through": 14,
+  "at_price": 0,
+  "filled": 2,
+  "status": "executed"
+ },
+ "paper-836-1793990367": {
+  "id": "paper-836-1793990367",
+  "ticker": "KXITFWDOUBLES-26NOV06RAPSHOFERPAW-FERPAW",
+  "price": "0.2200",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793990367.9845061,
+  "checked": 1793990373.130298,
+  "expires": 1793992167,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-837-1793990368": {
+  "id": "paper-837-1793990368",
+  "ticker": "KXCODMAP-26NOV061100HUNFAZ-2-HUN",
+  "price": "0.3800",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793990368.0089483,
+  "checked": 1793990373.1541162,
+  "expires": 1793992167,
+  "through": 2,
+  "at_price": 0,
+  "filled": 2,
+  "status": "executed"
  }
 }

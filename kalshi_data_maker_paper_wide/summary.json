@@ -1,23 +1,26 @@
 {
- "updated": "2026-11-06T18:22:14+00:00",
+ "updated": "2026-11-06T18:37:24+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "16.18",
- "realized_profit": "-3.82",
- "bet_level": "16.18",
+ "equity": "15.84",
+ "realized_profit": "-4.16",
+ "bet_level": "15.84",
  "open_trades": 3,
  "open_locked_profit": "2.64",
  "in_play": "9.36",
  "stray_positions": 0,
  "closed_trades": 55,
  "trades_this_loop": 0,
- "events_swept": 22686,
+ "events_swept": 22704,
  "found_this_loop": 1,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 0,
- "last_problems": []
+ "problems": 2,
+ "last_problems": [
+  "2026-11-06 18:25 Quote KXPOWERSLAPMATCH-26NOV06ZNAIWMEN: hedge missed on KXPOWERSLAPMATCH-26NOV06ZNAIWMEN-ZNAI. Selling back 2 contracts on 1 legs.",
+  "2026-11-06 18:25 STRAY POSITION: 2 NO contracts of KXPOWERSLAPMATCH-26NOV06ZNAIWMEN-WMEN still held. Check it on Kalshi."
+ ]
 }
