@@ -1,5 +1,5 @@
 {
- "realized": "-3.9500",
+ "realized": "-3.8200",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -81,30 +81,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXWTADOUBLES-26NOV05BHARAJHAVUDV",
-   "series": "KXWTADOUBLES",
-   "title": "Bhamidipaty S / Rajeshwaran Revathi vs Haverlag / Udvardy",
-   "sets": 3,
-   "outlay": "2.8700",
-   "locked_profit": "0.1300",
-   "opened": "2026-11-06T13:58:23.939704+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXWTADOUBLES-26NOV05BHARAJHAVUDV-HAVUDV",
-     "side": "no",
-     "count": 3,
-     "limit": "0.1500"
-    },
-    {
-     "ticker": "KXWTADOUBLES-26NOV05BHARAJHAVUDV-BHARAJ",
-     "side": "no",
-     "count": 3,
-     "limit": "0.7900"
     }
    ]
   }
@@ -2099,29 +2075,75 @@
    "pnl": "-0.3500",
    "closed": "2026-11-06T13:02:58.569524+00:00",
    "sold_back": true
+  },
+  {
+   "event": "KXWTADOUBLES-26NOV05BHARAJHAVUDV",
+   "series": "KXWTADOUBLES",
+   "title": "Bhamidipaty S / Rajeshwaran Revathi vs Haverlag / Udvardy",
+   "sets": 3,
+   "outlay": "2.8700",
+   "locked_profit": "0.1300",
+   "opened": "2026-11-06T13:58:23.939704+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXWTADOUBLES-26NOV05BHARAJHAVUDV-HAVUDV",
+     "side": "no",
+     "count": 3,
+     "limit": "0.1500"
+    },
+    {
+     "ticker": "KXWTADOUBLES-26NOV05BHARAJHAVUDV-BHARAJ",
+     "side": "no",
+     "count": 3,
+     "limit": "0.7900"
+    }
+   ],
+   "paid": "3",
+   "pnl": "0.1300",
+   "results": {
+    "KXWTADOUBLES-26NOV05BHARAJHAVUDV-HAVUDV": "yes",
+    "KXWTADOUBLES-26NOV05BHARAJHAVUDV-BHARAJ": "no"
+   },
+   "closed": "2026-11-06T15:22:41.482542+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXUCLWGAME-26NOV10HACCFC",
-   "series": "KXUCLWGAME",
-   "title": "Hacken Gothenburg vs Chelsea",
-   "ticker": "KXUCLWGAME-26NOV10HACCFC-HAC",
-   "order_id": "paper-824-1793975553",
-   "price": "0.72",
-   "sets": 1,
+   "event": "KXLOWTMIN-26NOV06",
+   "series": "KXLOWTMIN",
+   "title": "Lowest temperature in Minneapolis on Nov 6, 2026?",
+   "ticker": "KXLOWTMIN-26NOV06-B31.5",
+   "order_id": "paper-825-1793977672",
+   "price": "0.02",
+   "sets": 3,
    "done": 0,
-   "reserve": "1.9000",
+   "reserve": "2.8800",
    "multiplier": "1",
-   "placed": 1793975553.4558785,
+   "placed": 1793977672.3401382,
    "hedge": [
     {
-     "ticker": "KXUCLWGAME-26NOV10HACCFC-CFC",
-     "limit": "0.1900"
-    },
+     "ticker": "KXLOWTMIN-26NOV06-B29.5",
+     "limit": "0.9300"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAWBGAME-26NOV09OREGC",
+   "series": "KXNCAAWBGAME",
+   "title": "Oregon vs Grand Canyon",
+   "ticker": "KXNCAAWBGAME-26NOV09OREGC-GC",
+   "order_id": "paper-826-1793978277",
+   "price": "0.1300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7800",
+   "multiplier": "1",
+   "placed": 1793978277.8749278,
+   "hedge": [
     {
-     "ticker": "KXUCLWGAME-26NOV10HACCFC-TIE",
-     "limit": "0.9500"
+     "ticker": "KXNCAAWBGAME-26NOV09OREGC-ORE",
+     "limit": "0.6200"
     }
    ]
   }

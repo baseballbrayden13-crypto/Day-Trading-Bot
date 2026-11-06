@@ -5602,3 +5602,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 09:42:34,636 INFO Swept 22289 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 09:47:39,133 INFO Swept 22291 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 09:52:43,909 INFO Swept 22286 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 09:57:47,603 INFO Swept 22265 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 10:02:49,572 INFO Swept 22313 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 10:07:52,340 INFO PAPER rest NO bid KXLOWTMIN-26NOV06-B31.5 at $0.0200 x3 (10 already bid at that price)
+2026-11-06 10:07:52,340 INFO Resting NO bid on KXLOWTMIN-26NOV06-B31.5 at $0.02 x3 (KXLOWTMIN-26NOV06): locks in $0.12 if it fills; hedge NO B29.5@0.9300
+2026-11-06 10:07:52,376 INFO Swept 22312 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 10:12:55,219 INFO Swept 22385 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 10:17:57,874 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV09OREGC-GC at $0.1300 x1 (0 already bid at that price)
+2026-11-06 10:17:57,874 INFO Resting NO bid on KXNCAAWBGAME-26NOV09OREGC-GC at $0.1300 x1 (KXNCAAWBGAME-26NOV09OREGC): locks in $0.22 if it fills; hedge NO ORE@0.6200
+2026-11-06 10:17:57,909 INFO Swept 22389 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 10:22:41,482 INFO Settled KXWTADOUBLES-26NOV05BHARAJHAVUDV: paid $3, profit $0.13
+2026-11-06 10:22:59,812 INFO Swept 22384 events: 0 taker trades, 0 new quotes, 2 resting
