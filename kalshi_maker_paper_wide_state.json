@@ -1,5 +1,5 @@
 {
- "realized": "-3.5200",
+ "realized": "-3.7800",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -81,30 +81,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXCODGAME-26NOV061100OMILAT",
-   "series": "KXCODGAME",
-   "title": "OMiT Brooklyn vs. Los Angeles Thieves",
-   "sets": 5,
-   "outlay": "5.26",
-   "locked_profit": "-0.26",
-   "opened": "2026-11-06T20:45:11.039893+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXCODGAME-26NOV061100OMILAT-OMI",
-     "side": "no",
-     "count": 5,
-     "limit": "0.88"
-    },
-    {
-     "ticker": "KXCODGAME-26NOV061100OMILAT-LAT",
-     "side": "no",
-     "count": 5,
-     "limit": "0.16"
     }
    ]
   }
@@ -2214,7 +2190,62 @@
     "KXEBASKETBALLGAME-26NOV061404LARRTATU-LARR": "yes"
    },
    "closed": "2026-11-06T19:33:47.665956+00:00"
+  },
+  {
+   "event": "KXCODGAME-26NOV061100OMILAT",
+   "series": "KXCODGAME",
+   "title": "OMiT Brooklyn vs. Los Angeles Thieves",
+   "sets": 5,
+   "outlay": "5.26",
+   "locked_profit": "-0.26",
+   "opened": "2026-11-06T20:45:11.039893+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCODGAME-26NOV061100OMILAT-OMI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.88"
+    },
+    {
+     "ticker": "KXCODGAME-26NOV061100OMILAT-LAT",
+     "side": "no",
+     "count": 5,
+     "limit": "0.16"
+    }
+   ],
+   "paid": "5",
+   "pnl": "-0.26",
+   "results": {
+    "KXCODGAME-26NOV061100OMILAT-OMI": "no",
+    "KXCODGAME-26NOV061100OMILAT-LAT": "yes"
+   },
+   "closed": "2026-11-06T22:05:57.601187+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXSOCKEYERUN-27",
+   "series": "KXSOCKEYERUN",
+   "title": "Bristol Bay sockeye run forecast for 2027",
+   "ticker": "KXSOCKEYERUN-27-B49P00-55P00",
+   "order_id": "paper-848-1794002780",
+   "price": "0.2300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.8200",
+   "multiplier": "1",
+   "placed": 1794002780.0155594,
+   "hedge": [
+    {
+     "ticker": "KXSOCKEYERUN-27-B37P00-42P99",
+     "limit": "0.8700"
+    },
+    {
+     "ticker": "KXSOCKEYERUN-27-B43P00-48P99",
+     "limit": "0.6800"
+    }
+   ]
+  }
+ ]
 }
