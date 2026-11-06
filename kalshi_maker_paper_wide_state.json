@@ -2057,40 +2057,40 @@
  ],
  "quotes": [
   {
-   "event": "KXITFMATCH-26NOV06BARTAL",
-   "series": "KXITFMATCH",
-   "title": "Barroso Campos vs Talan Lopatic",
-   "ticker": "KXITFMATCH-26NOV06BARTAL-BAR",
-   "order_id": "paper-779-1793921306",
-   "price": "0.4900",
+   "event": "KXNCAAMBGAME-26NOV06STETWVU",
+   "series": "KXNCAAMBGAME",
+   "title": "Stetson vs West Virginia",
+   "ticker": "KXNCAAMBGAME-26NOV06STETWVU-STET",
+   "order_id": "paper-781-1793923424",
+   "price": "0.90",
    "sets": 5,
    "done": 0,
-   "reserve": "4.8700",
+   "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793921306.457753,
+   "placed": 1793923424.3804038,
    "hedge": [
     {
-     "ticker": "KXITFMATCH-26NOV06BARTAL-TAL",
-     "limit": "0.4600"
+     "ticker": "KXNCAAMBGAME-26NOV06STETWVU-WVU",
+     "limit": "0.0700"
     }
    ]
   },
   {
-   "event": "KXNCAAWBGAME-26NOV06GASTUNCA",
-   "series": "KXNCAAWBGAME",
-   "title": "Georgia St. vs UNC Asheville",
-   "ticker": "KXNCAAWBGAME-26NOV06GASTUNCA-UNCA",
-   "order_id": "paper-780-1793921915",
-   "price": "0.2600",
-   "sets": 2,
+   "event": "KXNCAAMBGAME-26NOV08IONASJU",
+   "series": "KXNCAAMBGAME",
+   "title": "Iona vs St. John's",
+   "ticker": "KXNCAAMBGAME-26NOV08IONASJU-IONA",
+   "order_id": "paper-782-1793923736",
+   "price": "0.6700",
+   "sets": 1,
    "done": 0,
-   "reserve": "1.2100",
+   "reserve": "0.8900",
    "multiplier": "1",
-   "placed": 1793921915.0905824,
+   "placed": 1793923736.853455,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV06GASTUNCA-GAST",
-     "limit": "0.3200"
+     "ticker": "KXNCAAMBGAME-26NOV08IONASJU-SJU",
+     "limit": "0.1900"
     }
    ]
   }

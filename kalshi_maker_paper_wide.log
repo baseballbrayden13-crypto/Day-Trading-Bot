@@ -5290,3 +5290,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 18:38:35,095 INFO Swept 21807 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-05 18:43:36,018 INFO Swept 21806 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-05 18:48:34,673 INFO Swept 21799 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 18:53:44,241 INFO Swept 21798 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 18:58:41,807 INFO Swept 21803 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 19:03:44,380 INFO PAPER rest NO bid KXNCAAMBGAME-26NOV06STETWVU-STET at $0.9000 x5 (12 already bid at that price)
+2026-11-05 19:03:44,380 INFO Resting NO bid on KXNCAAMBGAME-26NOV06STETWVU-STET at $0.90 x5 (KXNCAAMBGAME-26NOV06STETWVU): locks in $0.11 if it fills; hedge NO WVU@0.0700
+2026-11-05 19:03:44,385 INFO Swept 21829 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 19:08:56,853 INFO PAPER rest NO bid KXNCAAMBGAME-26NOV08IONASJU-IONA at $0.6700 x1 (0 already bid at that price)
+2026-11-05 19:08:56,853 INFO Resting NO bid on KXNCAAMBGAME-26NOV08IONASJU-IONA at $0.6700 x1 (KXNCAAMBGAME-26NOV08IONASJU): locks in $0.11 if it fills; hedge NO SJU@0.1900
+2026-11-05 19:08:56,858 INFO Swept 21840 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-05 19:14:02,481 INFO Swept 21949 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 19:19:04,374 INFO Swept 21962 events: 0 taker trades, 0 new quotes, 2 resting
