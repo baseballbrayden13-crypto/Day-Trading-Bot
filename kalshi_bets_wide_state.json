@@ -31,6 +31,22 @@
    "note": "daily safest: likeliest outcome closing within 24h",
    "cost": "0.99",
    "expected": "-0.01"
+  },
+  {
+   "strategy": "daily_safest",
+   "ticker": "KXDIESELD-26NOV07-T6.220",
+   "event": "KXDIESELD-26NOV07",
+   "series": "KXDIESELD",
+   "side": "no",
+   "count": 1,
+   "price": "0.9800",
+   "fee": "0.01",
+   "prob": 0.98,
+   "close_time": "2026-11-07T04:59:00Z",
+   "placed": "2026-11-06T20:02:03+00:00",
+   "note": "daily safest: likeliest outcome closing within 24h",
+   "cost": "0.99",
+   "expected": "-0.01"
   }
  ],
  "closed": [

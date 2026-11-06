@@ -5724,3 +5724,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 14:34:09,496 INFO Swept 22698 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-06 14:39:08,384 INFO Swept 22713 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 14:44:11,658 INFO Swept 22702 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 14:49:10,772 INFO Swept 22705 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 14:54:15,150 INFO Swept 22697 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 14:59:16,989 INFO Swept 22703 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 15:04:15,399 INFO PAPER BET daily_safest: 1 NO KXDIESELD-26NOV07-T6.220 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-06 15:04:15,401 INFO Swept 22688 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 15:09:17,815 INFO PAPER rest NO bid KXNCAAFGAME-26NOV14ALAVAN-ALA at $0.0700 x5 (283 already bid at that price)
+2026-11-06 15:09:17,816 INFO Resting NO bid on KXNCAAFGAME-26NOV14ALAVAN-ALA at $0.07 x5 (KXNCAAFGAME-26NOV14ALAVAN): locks in $0.10 if it fills; hedge NO VAN@0.9000
+2026-11-06 15:09:17,861 INFO Swept 22782 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 15:14:21,523 INFO Swept 22807 events: 0 taker trades, 0 new quotes, 1 resting

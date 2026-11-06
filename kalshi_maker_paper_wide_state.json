@@ -2194,40 +2194,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLNBELITE2GAME-26NOV061400AEBCHA",
-   "series": "KXLNBELITE2GAME",
-   "title": "ALM Evreux Basket vs Champagne Basketball",
-   "ticker": "KXLNBELITE2GAME-26NOV061400AEBCHA-AEB",
-   "order_id": "paper-842-1793993346",
-   "price": "0.1500",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.6600",
-   "multiplier": "1",
-   "placed": 1793993346.443343,
-   "hedge": [
-    {
-     "ticker": "KXLNBELITE2GAME-26NOV061400AEBCHA-CHA",
-     "limit": "0.7200"
-    }
-   ]
-  },
-  {
-   "event": "KXR6GAME-26NOV061930KINDK",
-   "series": "KXR6GAME",
-   "title": "Kingzone vs. Dplus",
-   "ticker": "KXR6GAME-26NOV061930KINDK-DK",
-   "order_id": "paper-843-1793993649",
-   "price": "0.05",
+   "event": "KXNCAAFGAME-26NOV14ALAVAN",
+   "series": "KXNCAAFGAME",
+   "title": "Alabama vs Vanderbilt",
+   "ticker": "KXNCAAFGAME-26NOV14ALAVAN-ALA",
+   "order_id": "paper-844-1793995757",
+   "price": "0.07",
    "sets": 5,
    "done": 0,
-   "reserve": "4.8900",
+   "reserve": "4.9000",
    "multiplier": "1",
-   "placed": 1793993649.4351745,
+   "placed": 1793995757.8161726,
    "hedge": [
     {
-     "ticker": "KXR6GAME-26NOV061930KINDK-KIN",
-     "limit": "0.9200"
+     "ticker": "KXNCAAFGAME-26NOV14ALAVAN-VAN",
+     "limit": "0.9000"
     }
    ]
   }
