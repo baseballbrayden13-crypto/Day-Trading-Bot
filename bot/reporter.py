@@ -47,7 +47,10 @@ def bench_change(bench: list[dict], symbol: str, start: str, end: str) -> float 
 
 def card(bot: Bot, equity: list[dict], trades: list[dict], history: list[dict], alerts: list[dict], lab: list[dict],
          start: str, end: str, bench: list[dict] | None = None) -> dict:
-    eq = [r for r in sorted(equity, key=lambda r: r["day"]) if r["bot"] == str(bot.num) and float(r["equity"] or 0) > 0]
+    from .fleet import rescale
+
+    eq = [{**r, "equity": rescale(bot.num, r["day"], float(r["equity"]))}
+          for r in sorted(equity, key=lambda r: r["day"]) if r["bot"] == str(bot.num) and float(r["equity"] or 0) > 0]
     week = [r for r in eq if start <= r["day"] <= end]
     before = [r for r in eq if r["day"] < start]
     base = before[-1] if before else week[0] if week else None
