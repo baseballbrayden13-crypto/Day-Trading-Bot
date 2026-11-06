@@ -5368,3 +5368,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 21:48:41,584 INFO Swept 22103 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-05 21:50:04,803 INFO Quote KXSOLE-26NOV0522 cancelled (0/1 filled)
 2026-11-05 21:53:45,904 INFO Swept 22072 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 21:58:50,109 INFO Swept 22054 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 22:03:51,165 INFO Swept 22020 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 22:08:52,794 INFO Swept 22006 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 22:13:55,581 INFO PAPER rest NO bid KXPOWERSLAPMATCH-26NOV06DATAKKAN-KKAN at $0.2900 x5 (55 already bid at that price)
+2026-11-05 22:13:55,581 INFO Resting NO bid on KXPOWERSLAPMATCH-26NOV06DATAKKAN-KKAN at $0.29 x5 (KXPOWERSLAPMATCH-26NOV06DATAKKAN): locks in $0.10 if it fills; hedge NO DATA@0.6700
+2026-11-05 22:13:55,672 INFO Swept 22008 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 22:18:57,017 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06NCATMRSH-NCAT at $0.7500 x2 (5 already bid at that price)
+2026-11-05 22:18:57,017 INFO Resting NO bid on KXNCAAWBGAME-26NOV06NCATMRSH-NCAT at $0.75 x2 (KXNCAAWBGAME-26NOV06NCATMRSH): locks in $0.10 if it fills; hedge NO MRSH@0.1800
+2026-11-05 22:18:57,110 INFO Swept 21992 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 22:24:00,057 INFO Swept 21984 events: 0 taker trades, 0 new quotes, 2 resting
