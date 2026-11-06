@@ -67,3 +67,4 @@
 2026-11-06 09:30:05,472 INFO New day 2026-11-06, starting equity $4979.70
 2026-11-06 09:55:07,656 INFO BUY AAPL x2 @limit 343.32 stop 338.59 target 349.99 | broke 15-min opening range high 341.69
 2026-11-06 10:15:08,457 INFO BUY MSFT x1 @limit 533.99 stop 525.00 target 546.79 | broke 15-min opening range high 532.28
+2026-11-06 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.
