@@ -2057,40 +2057,29 @@
  ],
  "quotes": [
   {
-   "event": "KXPGA3BALL-WOWTC26R1CBLAGSARNTSE",
-   "series": "KXPGA3BALL",
-   "title": "1st Round 3-Ball: Blanchet/Sargent/Tseng",
-   "ticker": "KXPGA3BALL-WOWTC26R1CBLAGSARNTSE-GSAR",
-   "order_id": "paper-785-1793927264",
-   "price": "0.0300",
-   "sets": 5,
-   "done": 0,
-   "reserve": "2.1000",
-   "multiplier": "1",
-   "placed": 1793927264.5474548,
-   "hedge": [
-    {
-     "ticker": "KXPGA3BALL-WOWTC26R1CBLAGSARNTSE-CBLA",
-     "limit": "0.3700"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAWVMATCH-26NOV061930TCUHOU",
-   "series": "KXNCAAWVMATCH",
-   "title": "Texas Christian vs Houston",
-   "ticker": "KXNCAAWVMATCH-26NOV061930TCUHOU-HOU",
-   "order_id": "paper-786-1793927567",
-   "price": "0.73",
+   "event": "KXSOLE-26NOV0521",
+   "series": "KXSOLE",
+   "title": "SOL price range on Nov 5, 2026 at 9pm EST?",
+   "ticker": "KXSOLE-26NOV0521-B89.375",
+   "order_id": "paper-789-1793929987",
+   "price": "0.4700",
    "sets": 1,
    "done": 0,
-   "reserve": "0.9000",
+   "reserve": "2.6500",
    "multiplier": "1",
-   "placed": 1793927567.6780896,
+   "placed": 1793929987.3040168,
    "hedge": [
     {
-     "ticker": "KXNCAAWVMATCH-26NOV061930TCUHOU-TCU",
-     "limit": "0.1500"
+     "ticker": "KXSOLE-26NOV0521-B89.875",
+     "limit": "0.9400"
+    },
+    {
+     "ticker": "KXSOLE-26NOV0521-B90.125",
+     "limit": "0.4800"
+    },
+    {
+     "ticker": "KXSOLE-26NOV0521-B90.375",
+     "limit": "0.9000"
     }
    ]
   }

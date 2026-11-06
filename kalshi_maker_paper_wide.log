@@ -5328,3 +5328,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 20:13:24,885 INFO Quote KXARGLNBGAME-26NOV051900ARJOBT cancelled (0/2 filled)
 2026-11-05 20:17:49,825 INFO Swept 22051 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-05 20:22:51,589 INFO Swept 22046 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 20:27:55,384 INFO Swept 22046 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 20:32:57,046 INFO Swept 22030 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 20:37:58,699 INFO PAPER rest NO bid KXNHL2P-26NOV05VGKDET-DET at $0.6600 x2 (0 already bid at that price)
+2026-11-05 20:37:58,699 INFO Resting NO bid on KXNHL2P-26NOV05VGKDET-DET at $0.6600 x2 (KXNHL2P-26NOV05VGKDET): locks in $0.14 if it fills; hedge NO VGK@0.9100, TIE@0.3700
+2026-11-05 20:37:58,805 INFO Swept 22027 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-05 20:38:14,804 INFO Quote KXNHL2P-26NOV05VGKDET cancelled (0/2 filled)
+2026-11-05 20:43:06,806 INFO PAPER rest NO bid KXNHL2P-26NOV05STLNJ-STL at $0.8300 x2 (0 already bid at that price)
+2026-11-05 20:43:06,806 INFO Resting NO bid on KXNHL2P-26NOV05STLNJ-STL at $0.8300 x2 (KXNHL2P-26NOV05STLNJ): locks in $0.15 if it fills; hedge NO NJ@0.0800
+2026-11-05 20:43:06,896 INFO Swept 22038 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 20:43:17,299 INFO Quote KXNHL2P-26NOV05STLNJ cancelled (0/2 filled)
+2026-11-05 20:48:04,809 INFO Swept 22036 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 20:53:07,303 INFO PAPER rest NO bid KXSOLE-26NOV0521-B89.375 at $0.4700 x1 (0 already bid at that price)
+2026-11-05 20:53:07,304 INFO Resting NO bid on KXSOLE-26NOV0521-B89.375 at $0.4700 x1 (KXSOLE-26NOV0521): locks in $0.35 if it fills; hedge NO B89.875@0.8500, B90.125@0.4600, B90.375@0.8100
+2026-11-05 20:53:07,393 INFO Swept 22026 events: 0 taker trades, 1 new quotes, 1 resting
