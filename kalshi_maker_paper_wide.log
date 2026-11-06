@@ -5432,3 +5432,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 00:44:59,618 INFO Swept 21811 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 00:50:01,150 INFO Swept 21800 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 00:55:00,578 INFO Swept 21854 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 01:00:04,576 INFO Swept 21853 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 01:05:09,922 INFO Swept 21854 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 01:10:12,909 INFO Swept 21863 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 01:15:16,322 INFO PAPER rest NO bid KXLOWTAUS-26NOV06-T56 at $0.4400 x1 (0 already bid at that price)
+2026-11-06 01:15:16,322 INFO Resting NO bid on KXLOWTAUS-26NOV06-T56 at $0.4400 x1 (KXLOWTAUS-26NOV06): locks in $0.10 if it fills; hedge NO B49.5@0.9800, B51.5@0.9800, B53.5@0.7500, B55.5@0.6800
+2026-11-06 01:15:16,423 INFO Swept 21861 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 01:16:12,801 INFO Quote KXLOWTAUS-26NOV06 cancelled (0/1 filled)
+2026-11-06 01:20:20,728 INFO Swept 21859 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 01:25:23,870 INFO Swept 21854 events: 0 taker trades, 0 new quotes, 0 resting
