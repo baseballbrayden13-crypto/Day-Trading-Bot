@@ -5803,3 +5803,32 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 17:46:33,928 INFO Resting NO bid on KXSOCKEYERUN-27-B43P00-48P99 at $0.1500 x1 (KXSOCKEYERUN-27): locks in $0.15 if it fills; hedge NO 55P00@0.6700
 2026-11-06 17:46:33,973 INFO Swept 22617 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-06 17:46:34,022 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.2800: not on the book
+2026-11-06 17:47:34,520 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.2800: not on the book
+2026-11-06 17:47:49,675 INFO Quote KXSOCKEYERUN-27 cancelled (0/1 filled)
+2026-11-06 17:51:38,755 INFO PAPER rest NO bid KXSOCKEYERUN-27-B43P00-48P99 at $0.1700 x1 (0 already bid at that price)
+2026-11-06 17:51:38,755 INFO Resting NO bid on KXSOCKEYERUN-27-B43P00-48P99 at $0.1700 x1 (KXSOCKEYERUN-27): locks in $0.44 if it fills; hedge NO 55P00@0.3600
+2026-11-06 17:51:38,789 INFO PAPER rest NO bid KXSOLE-26NOV0618-B89.625 at $0.4200 x1 (0 already bid at that price)
+2026-11-06 17:51:38,789 INFO Resting NO bid on KXSOLE-26NOV0618-B89.625 at $0.4200 x1 (KXSOLE-26NOV0618): locks in $0.44 if it fills; hedge NO B89.875@0.8800, B90.125@0.2300, B90.375@0.9800
+2026-11-06 17:51:38,866 INFO Swept 22624 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-06 17:51:39,006 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.2800: not on the book
+2026-11-06 17:52:04,597 INFO Quote KXSOCKEYERUN-27 cancelled (0/1 filled)
+2026-11-06 17:52:40,115 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.2800: not on the book
+2026-11-06 17:53:00,406 INFO Quote KXSOLE-26NOV0618 cancelled (0/1 filled)
+2026-11-06 17:56:38,986 INFO PAPER rest NO bid KXSOLE-26NOV0618-B89.625 at $0.4300 x2 (0 already bid at that price)
+2026-11-06 17:56:38,986 INFO Resting NO bid on KXSOLE-26NOV0618-B89.625 at $0.4300 x2 (KXSOLE-26NOV0618): locks in $0.93 if it fills; hedge NO B89.875@0.8700, B90.125@0.2100
+2026-11-06 17:56:39,029 INFO Swept 22615 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 17:56:39,077 INFO PAPER sell 1 YES KXSOCKEYERUN-27-B37P00-42P99 at up to $0.2800: filled 1
+2026-11-06 17:56:39,078 INFO Stray KXSOCKEYERUN-27-B37P00-42P99: sold 1 of 1 at $0.7200 or better, booked $-0.18
+2026-11-06 18:01:43,541 INFO PAPER rest NO bid KXSOCKEYERUN-27-B43P00-48P99 at $0.3200 x1 (0 already bid at that price)
+2026-11-06 18:01:43,542 INFO Resting NO bid on KXSOCKEYERUN-27-B43P00-48P99 at $0.3200 x1 (KXSOCKEYERUN-27): locks in $0.29 if it fills; hedge NO 55P00@0.3600
+2026-11-06 18:01:43,630 INFO Swept 22615 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 18:01:43,737 INFO Quote KXSOLE-26NOV0618 cancelled (0/2 filled)
+2026-11-06 18:02:54,797 INFO Quote KXSOCKEYERUN-27 cancelled (0/1 filled)
+2026-11-06 18:06:48,292 INFO PAPER rest NO bid KXLOLFBLOOD-26NOV061700T1KC-2-T1 at $0.2500 x2 (0 already bid at that price)
+2026-11-06 18:06:48,292 INFO Resting NO bid on KXLOLFBLOOD-26NOV061700T1KC-2-T1 at $0.2500 x2 (KXLOLFBLOOD-26NOV061700T1KC-2): locks in $0.21 if it fills; hedge NO KC@0.6200
+2026-11-06 18:06:48,334 INFO Swept 22611 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 18:11:52,893 INFO Swept 22652 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 18:12:23,364 INFO Quote KXLOLFBLOOD-26NOV061700T1KC-2 cancelled (0/2 filled)
+2026-11-06 18:16:56,970 INFO PAPER rest NO bid KXNASCARTRUCKSERIES-NTS26-LRIG at $0.5600 x5 (48 already bid at that price)
+2026-11-06 18:16:56,970 INFO Resting NO bid on KXNASCARTRUCKSERIES-NTS26-LRIG at $0.56 x5 (KXNASCARTRUCKSERIES-NTS26): locks in $0.13 if it fills; hedge NO KHON@0.3900
+2026-11-06 18:16:57,045 INFO Swept 22675 events: 0 taker trades, 1 new quotes, 1 resting

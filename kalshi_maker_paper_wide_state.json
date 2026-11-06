@@ -1,5 +1,5 @@
 {
- "realized": "-3.9500",
+ "realized": "-4.1300",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -83,24 +83,6 @@
      "limit": "0.4900"
     }
    ]
-  },
-  {
-   "event": "KXSOCKEYERUN-27 (stray)",
-   "series": "KXSOCKEYERUN",
-   "title": "Bristol Bay sockeye run forecast for 2027",
-   "sets": 0,
-   "outlay": "0.8800",
-   "locked_profit": "0",
-   "opened": "2026-11-06T22:36:30.700755+00:00",
-   "legs": [
-    {
-     "ticker": "KXSOCKEYERUN-27-B37P00-42P99",
-     "side": "no",
-     "count": 1,
-     "limit": "0.8700"
-    }
-   ],
-   "retried": 1794005194.0103772
   }
  ],
  "closed": [
@@ -2261,25 +2243,47 @@
    "pnl": "-0.1700",
    "closed": "2026-11-06T22:36:30.723795+00:00",
    "sold_back": true
+  },
+  {
+   "event": "KXSOCKEYERUN-27 (stray)",
+   "series": "KXSOCKEYERUN",
+   "title": "Bristol Bay sockeye run forecast for 2027",
+   "sets": 0,
+   "outlay": "0.8800",
+   "locked_profit": "0",
+   "opened": "2026-11-06T22:36:30.700755+00:00",
+   "legs": [
+    {
+     "ticker": "KXSOCKEYERUN-27-B37P00-42P99",
+     "side": "no",
+     "count": 1,
+     "limit": "0.8700"
+    }
+   ],
+   "retried": 1794005799.064538,
+   "paid": "0.7200",
+   "pnl": "-0.1800",
+   "closed": "2026-11-06T22:56:39.078027+00:00",
+   "sold_back": true
   }
  ],
  "quotes": [
   {
-   "event": "KXSOCKEYERUN-27",
-   "series": "KXSOCKEYERUN",
-   "title": "Bristol Bay sockeye run forecast for 2027",
-   "ticker": "KXSOCKEYERUN-27-B43P00-48P99",
-   "order_id": "paper-851-1794005193",
-   "price": "0.1500",
-   "sets": 1,
+   "event": "KXNASCARTRUCKSERIES-NTS26",
+   "series": "KXNASCARTRUCKSERIES",
+   "title": "NASCAR Truck Series Champion",
+   "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
+   "order_id": "paper-857-1794007016",
+   "price": "0.56",
+   "sets": 5,
    "done": 0,
-   "reserve": "0.8500",
+   "reserve": "4.8700",
    "multiplier": "1",
-   "placed": 1794005193.928435,
+   "placed": 1794007016.9701893,
    "hedge": [
     {
-     "ticker": "KXSOCKEYERUN-27-B49P00-55P00",
-     "limit": "0.6700"
+     "ticker": "KXNASCARTRUCKSERIES-NTS26-KHON",
+     "limit": "0.3900"
     }
    ]
   }
