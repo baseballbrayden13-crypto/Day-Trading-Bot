@@ -5713,3 +5713,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 14:03:53,602 INFO Swept 22675 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 14:08:58,288 INFO Swept 22696 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 14:14:01,993 INFO Swept 22687 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 14:19:01,279 INFO Swept 22699 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 14:24:04,999 INFO Swept 22696 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 14:29:06,443 INFO PAPER rest NO bid KXLNBELITE2GAME-26NOV061400AEBCHA-AEB at $0.1500 x2 (0 already bid at that price)
+2026-11-06 14:29:06,443 INFO Resting NO bid on KXLNBELITE2GAME-26NOV061400AEBCHA-AEB at $0.1500 x2 (KXLNBELITE2GAME-26NOV061400AEBCHA): locks in $0.34 if it fills; hedge NO CHA@0.7200
+2026-11-06 14:29:06,505 INFO Swept 22708 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 14:33:47,665 INFO Settled KXEBASKETBALLGAME-26NOV061404LARRTATU: paid $2, profit $0.39
+2026-11-06 14:34:09,435 INFO PAPER rest NO bid KXR6GAME-26NOV061930KINDK-DK at $0.0500 x5 (317 already bid at that price)
+2026-11-06 14:34:09,435 INFO Resting NO bid on KXR6GAME-26NOV061930KINDK-DK at $0.05 x5 (KXR6GAME-26NOV061930KINDK): locks in $0.11 if it fills; hedge NO KIN@0.9200
+2026-11-06 14:34:09,496 INFO Swept 22698 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 14:39:08,384 INFO Swept 22713 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 14:44:11,658 INFO Swept 22702 events: 0 taker trades, 0 new quotes, 2 resting

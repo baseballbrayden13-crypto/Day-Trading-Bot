@@ -1,5 +1,5 @@
 {
- "realized": "-3.9100",
+ "realized": "-3.5200",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -81,30 +81,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXEBASKETBALLGAME-26NOV061404LARRTATU",
-   "series": "KXEBASKETBALLGAME",
-   "title": "eBasketball: Golden State Warriors (Larry) vs Brooklyn Nets (Tatum)",
-   "sets": 2,
-   "outlay": "1.6100",
-   "locked_profit": "0.3900",
-   "opened": "2026-11-06T18:54:11.355610+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXEBASKETBALLGAME-26NOV061404LARRTATU-TATU",
-     "side": "no",
-     "count": 2,
-     "limit": "0.1600"
-    },
-    {
-     "ticker": "KXEBASKETBALLGAME-26NOV061404LARRTATU-LARR",
-     "side": "no",
-     "count": 2,
-     "limit": "0.6200"
     }
    ]
   }
@@ -2183,52 +2159,75 @@
     "KXCODMAP-26NOV061100HUNFAZ-2-FAZ": "no"
    },
    "closed": "2026-11-06T18:53:28.370830+00:00"
+  },
+  {
+   "event": "KXEBASKETBALLGAME-26NOV061404LARRTATU",
+   "series": "KXEBASKETBALLGAME",
+   "title": "eBasketball: Golden State Warriors (Larry) vs Brooklyn Nets (Tatum)",
+   "sets": 2,
+   "outlay": "1.6100",
+   "locked_profit": "0.3900",
+   "opened": "2026-11-06T18:54:11.355610+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEBASKETBALLGAME-26NOV061404LARRTATU-TATU",
+     "side": "no",
+     "count": 2,
+     "limit": "0.1600"
+    },
+    {
+     "ticker": "KXEBASKETBALLGAME-26NOV061404LARRTATU-LARR",
+     "side": "no",
+     "count": 2,
+     "limit": "0.6200"
+    }
+   ],
+   "paid": "2",
+   "pnl": "0.3900",
+   "results": {
+    "KXEBASKETBALLGAME-26NOV061404LARRTATU-TATU": "no",
+    "KXEBASKETBALLGAME-26NOV061404LARRTATU-LARR": "yes"
+   },
+   "closed": "2026-11-06T19:33:47.665956+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXITFWDOUBLES-26NOV06RAPSHOFERPAW",
-   "series": "KXITFWDOUBLES",
-   "title": "Rapolu / Sholokhova vs Fernanda Navarro / Pawlikowska",
-   "ticker": "KXITFWDOUBLES-26NOV06RAPSHOFERPAW-FERPAW",
-   "order_id": "paper-839-1793991230",
-   "price": "0.2200",
+   "event": "KXLNBELITE2GAME-26NOV061400AEBCHA",
+   "series": "KXLNBELITE2GAME",
+   "title": "ALM Evreux Basket vs Champagne Basketball",
+   "ticker": "KXLNBELITE2GAME-26NOV061400AEBCHA-AEB",
+   "order_id": "paper-842-1793993346",
+   "price": "0.1500",
    "sets": 2,
    "done": 0,
-   "reserve": "1.8500",
+   "reserve": "1.6600",
    "multiplier": "1",
-   "placed": 1793991230.3087962,
+   "placed": 1793993346.443343,
    "hedge": [
     {
-     "ticker": "KXITFWDOUBLES-26NOV06RAPSHOFERPAW-RAPSHO",
-     "limit": "0.6900"
+     "ticker": "KXLNBELITE2GAME-26NOV061400AEBCHA-CHA",
+     "limit": "0.7200"
     }
    ]
   },
   {
-   "event": "KXNFLNEXTTEAM-26JDOWNS2",
-   "series": "KXNFLNEXTTEAM",
-   "title": "Josh Downs Next Team",
-   "ticker": "KXNFLNEXTTEAM-26JDOWNS2-SF",
-   "order_id": "paper-841-1793991230",
-   "price": "0.3800",
-   "sets": 1,
+   "event": "KXR6GAME-26NOV061930KINDK",
+   "series": "KXR6GAME",
+   "title": "Kingzone vs. Dplus",
+   "ticker": "KXR6GAME-26NOV061930KINDK-DK",
+   "order_id": "paper-843-1793993649",
+   "price": "0.05",
+   "sets": 5,
    "done": 0,
-   "reserve": "2.8300",
+   "reserve": "4.8900",
    "multiplier": "1",
-   "placed": 1793991230.3835032,
+   "placed": 1793993649.4351745,
    "hedge": [
     {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-IND",
-     "limit": "0.9100"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-KC",
-     "limit": "0.6300"
-    },
-    {
-     "ticker": "KXNFLNEXTTEAM-26JDOWNS2-SEA",
-     "limit": "0.8800"
+     "ticker": "KXR6GAME-26NOV061930KINDK-KIN",
+     "limit": "0.9200"
     }
    ]
   }
