@@ -5529,3 +5529,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 07:03:25,488 INFO PAPER rest NO bid KXLOWTDEN-26NOV06-B32.5 at $0.5000 x2 (0 already bid at that price)
 2026-11-06 07:03:25,488 INFO Resting NO bid on KXLOWTDEN-26NOV06-B32.5 at $0.5000 x2 (KXLOWTDEN-26NOV06): locks in $0.34 if it fills; hedge NO T32@0.9800, B34.5@0.3200
 2026-11-06 07:03:25,609 INFO Swept 22004 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 07:08:38,545 INFO Swept 22052 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 07:13:39,606 INFO Swept 22045 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 07:18:39,893 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV06DALJUDJOHSEI-DALJUD at $0.3200 x3 (8 already bid at that price)
+2026-11-06 07:18:39,893 INFO Resting NO bid on KXITFWDOUBLES-26NOV06DALJUDJOHSEI-DALJUD at $0.32 x3 (KXITFWDOUBLES-26NOV06DALJUDJOHSEI): locks in $0.11 if it fills; hedge NO JOHSEI@0.6200
+2026-11-06 07:18:40,015 INFO Swept 22043 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 07:23:43,145 INFO Swept 22032 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 07:28:46,462 INFO Swept 22041 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 07:33:40,500 INFO Swept 22037 events: 0 taker trades, 0 new quotes, 2 resting

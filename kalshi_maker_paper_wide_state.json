@@ -2057,25 +2057,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLOWTDEN-26NOV06",
-   "series": "KXLOWTDEN",
-   "title": "Lowest temperature in Denver on Nov 6, 2026?",
-   "ticker": "KXLOWTDEN-26NOV06-B32.5",
-   "order_id": "paper-815-1793966605",
-   "price": "0.5000",
-   "sets": 2,
+   "event": "KXITFWDOUBLES-26NOV06DALJUDJOHSEI",
+   "series": "KXITFWDOUBLES",
+   "title": "Dal / Judith Visscher vs Johanna Brockmann / Seidel",
+   "ticker": "KXITFWDOUBLES-26NOV06DALJUDJOHSEI-DALJUD",
+   "order_id": "paper-816-1793967519",
+   "price": "0.32",
+   "sets": 3,
    "done": 0,
-   "reserve": "3.6600",
+   "reserve": "2.8900",
    "multiplier": "1",
-   "placed": 1793966605.4883509,
+   "placed": 1793967519.8934498,
    "hedge": [
     {
-     "ticker": "KXLOWTDEN-26NOV06-T32",
-     "limit": "0.9800"
-    },
-    {
-     "ticker": "KXLOWTDEN-26NOV06-B34.5",
-     "limit": "0.5000"
+     "ticker": "KXITFWDOUBLES-26NOV06DALJUDJOHSEI-JOHSEI",
+     "limit": "0.6200"
     }
    ]
   }
