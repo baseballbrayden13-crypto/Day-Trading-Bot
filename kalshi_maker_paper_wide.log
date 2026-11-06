@@ -5378,3 +5378,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 22:18:57,017 INFO Resting NO bid on KXNCAAWBGAME-26NOV06NCATMRSH-NCAT at $0.75 x2 (KXNCAAWBGAME-26NOV06NCATMRSH): locks in $0.10 if it fills; hedge NO MRSH@0.1800
 2026-11-05 22:18:57,110 INFO Swept 21992 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-05 22:24:00,057 INFO Swept 21984 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 22:29:02,815 INFO Swept 21983 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 22:34:02,899 INFO Swept 21971 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 22:39:09,028 INFO Swept 21971 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 22:44:09,770 INFO Swept 21971 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 22:49:11,417 INFO PAPER rest NO bid KXNCAAFGAME-26NOV14SCARARK-ARK at $0.7500 x4 (16 already bid at that price)
+2026-11-05 22:49:11,417 INFO Resting NO bid on KXNCAAFGAME-26NOV14SCARARK-ARK at $0.75 x4 (KXNCAAFGAME-26NOV14SCARARK): locks in $0.13 if it fills; hedge NO SCAR@0.2000
+2026-11-05 22:49:11,513 INFO Swept 21965 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 22:54:15,076 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06NIUBRAD-NIU at $0.7400 x2 (0 already bid at that price)
+2026-11-05 22:54:15,077 INFO Resting NO bid on KXNCAAWBGAME-26NOV06NIUBRAD-NIU at $0.74 x2 (KXNCAAWBGAME-26NOV06NIUBRAD): locks in $0.10 if it fills; hedge NO BRAD@0.1900
+2026-11-05 22:54:15,172 INFO Swept 21951 events: 0 taker trades, 1 new quotes, 2 resting

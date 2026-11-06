@@ -2057,40 +2057,40 @@
  ],
  "quotes": [
   {
-   "event": "KXPOWERSLAPMATCH-26NOV06DATAKKAN",
-   "series": "KXPOWERSLAPMATCH",
-   "title": "Diyorbek Atajonov vs Ke'ali'i Kanekoa",
-   "ticker": "KXPOWERSLAPMATCH-26NOV06DATAKKAN-KKAN",
-   "order_id": "paper-795-1793934835",
-   "price": "0.29",
-   "sets": 5,
+   "event": "KXNCAAFGAME-26NOV14SCARARK",
+   "series": "KXNCAAFGAME",
+   "title": "South Carolina vs Arkansas",
+   "ticker": "KXNCAAFGAME-26NOV14SCARARK-ARK",
+   "order_id": "paper-797-1793936951",
+   "price": "0.75",
+   "sets": 4,
    "done": 0,
-   "reserve": "4.9000",
+   "reserve": "3.8700",
    "multiplier": "1",
-   "placed": 1793934835.581859,
+   "placed": 1793936951.4173536,
    "hedge": [
     {
-     "ticker": "KXPOWERSLAPMATCH-26NOV06DATAKKAN-DATA",
-     "limit": "0.6700"
+     "ticker": "KXNCAAFGAME-26NOV14SCARARK-SCAR",
+     "limit": "0.2000"
     }
    ]
   },
   {
-   "event": "KXNCAAWBGAME-26NOV06NCATMRSH",
+   "event": "KXNCAAWBGAME-26NOV06NIUBRAD",
    "series": "KXNCAAWBGAME",
-   "title": "North Carolina A&T vs Marshall",
-   "ticker": "KXNCAAWBGAME-26NOV06NCATMRSH-NCAT",
-   "order_id": "paper-796-1793935137",
-   "price": "0.75",
+   "title": "Northern Illinois vs Bradley",
+   "ticker": "KXNCAAWBGAME-26NOV06NIUBRAD-NIU",
+   "order_id": "paper-798-1793937255",
+   "price": "0.74",
    "sets": 2,
    "done": 0,
    "reserve": "1.9000",
    "multiplier": "1",
-   "placed": 1793935137.0173383,
+   "placed": 1793937255.076972,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV06NCATMRSH-MRSH",
-     "limit": "0.1800"
+     "ticker": "KXNCAAWBGAME-26NOV06NIUBRAD-BRAD",
+     "limit": "0.1900"
     }
    ]
   }
