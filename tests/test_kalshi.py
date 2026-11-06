@@ -391,3 +391,15 @@ def test_prod_stop_loss_trades_nothing(monkeypatch, tmp_path):
     monkeypatch.setattr(kl, "alert", lambda *a, **k: None)
     cfg = {"env": "prod", "budget": D(20), "step": D(0), "min_settled": 5, "min_profit": D("0.10"), "max_found": 10}
     assert kl.trade(Api(), cfg, []) == set()
+
+
+def test_settle_records_results_and_refunds_voided_legs():
+    class Api:
+        def market(self, ticker):
+            return {"result": {"A": "no", "B": "void"}[ticker]}
+    state = {"realized": "0", "closed": [], "open": [{"event": "E", "outlay": "0.96", "legs": [
+        {"ticker": "A", "side": "no", "count": 1, "limit": "0.17"},
+        {"ticker": "B", "side": "no", "count": 1, "limit": "0.79"}]}]}
+    kl.settle(Api(), state)
+    c = state["closed"][0]
+    assert D(c["paid"]) == D("1.79") and c["results"] == {"A": "no", "B": "void"} and not state["open"]

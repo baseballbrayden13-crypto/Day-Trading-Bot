@@ -358,10 +358,14 @@ def settle(api: Kalshi, state: dict) -> None:
     for b in state["open"]:
         results = {l["ticker"]: api.market(l["ticker"]).get("result", "") for l in b["legs"]}
         if all(results.values()):
-            paid = sum(D(l["count"]) for l in b["legs"] if results[l["ticker"]] == l["side"])
+            # A leg settled as anything but yes/no (a voided market) is refunded at what it cost.
+            paid = sum((D(l["count"]) if results[l["ticker"]] == l["side"] else
+                        D(l["count"]) * D(l["limit"]) if results[l["ticker"]] not in ("yes", "no") else D(0)
+                        for l in b["legs"]), D(0))
             pnl = paid - D(b["outlay"])
             state["realized"] = str(D(state["realized"]) + pnl)
-            state["closed"].append({**b, "paid": str(paid), "pnl": str(pnl), "closed": datetime.now(timezone.utc).isoformat()})
+            state["closed"].append({**b, "paid": str(paid), "pnl": str(pnl), "results": results,
+                                    "closed": datetime.now(timezone.utc).isoformat()})
             log.info("Settled %s: paid $%s, profit $%.2f", b["event"], paid, pnl)
             alert("trade settled", f"{b.get('title') or b['event']}: paid ${paid}, profit ${pnl:.2f}")
         else:
