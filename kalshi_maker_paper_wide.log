@@ -5414,3 +5414,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 23:44:28,959 INFO PAPER sell 1 YES KXNBAPTSLEADER-26NOV05MIAGSW-GSWSCURRY30 at up to $0.6700: filled 1
 2026-11-05 23:49:31,927 INFO Swept 21841 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-05 23:54:34,517 INFO Swept 21831 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 23:59:34,147 INFO PAPER rest NO bid KXPOWERSLAPMATCH-26NOV06DATAKKAN-KKAN at $0.2900 x5 (68 already bid at that price)
+2026-11-05 23:59:34,148 INFO Resting NO bid on KXPOWERSLAPMATCH-26NOV06DATAKKAN-KKAN at $0.29 x5 (KXPOWERSLAPMATCH-26NOV06DATAKKAN): locks in $0.10 if it fills; hedge NO DATA@0.6700
+2026-11-05 23:59:34,238 INFO Swept 21830 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 00:04:36,226 INFO Swept 21754 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 00:09:39,728 INFO Swept 21817 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 00:14:45,201 INFO Swept 21819 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 00:19:48,406 INFO Swept 21817 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 00:24:51,475 INFO PAPER rest NO bid KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR at $0.5300 x2 (0 already bid at that price)
+2026-11-06 00:24:51,475 INFO Resting NO bid on KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR at $0.5300 x2 (KXPOWERSLAPMATCH-26NOV06JMARMWOO): locks in $0.15 if it fills; hedge NO MWOO@0.3700
+2026-11-06 00:24:51,568 INFO Swept 21819 events: 0 taker trades, 1 new quotes, 2 resting

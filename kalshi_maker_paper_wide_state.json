@@ -2057,21 +2057,40 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAWBGAME-26NOV06NIUBRAD",
-   "series": "KXNCAAWBGAME",
-   "title": "Northern Illinois vs Bradley",
-   "ticker": "KXNCAAWBGAME-26NOV06NIUBRAD-NIU",
-   "order_id": "paper-802-1793939368",
-   "price": "0.74",
-   "sets": 2,
+   "event": "KXPOWERSLAPMATCH-26NOV06DATAKKAN",
+   "series": "KXPOWERSLAPMATCH",
+   "title": "Diyorbek Atajonov vs Ke'ali'i Kanekoa",
+   "ticker": "KXPOWERSLAPMATCH-26NOV06DATAKKAN-KKAN",
+   "order_id": "paper-803-1793941174",
+   "price": "0.29",
+   "sets": 5,
    "done": 0,
-   "reserve": "1.9000",
+   "reserve": "4.9000",
    "multiplier": "1",
-   "placed": 1793939368.2278593,
+   "placed": 1793941174.1480224,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV06NIUBRAD-BRAD",
-     "limit": "0.1900"
+     "ticker": "KXPOWERSLAPMATCH-26NOV06DATAKKAN-DATA",
+     "limit": "0.6700"
+    }
+   ]
+  },
+  {
+   "event": "KXPOWERSLAPMATCH-26NOV06JMARMWOO",
+   "series": "KXPOWERSLAPMATCH",
+   "title": "Joseph Martinez vs Mason Woodward",
+   "ticker": "KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR",
+   "order_id": "paper-804-1793942691",
+   "price": "0.5300",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8500",
+   "multiplier": "1",
+   "placed": 1793942691.4755235,
+   "hedge": [
+    {
+     "ticker": "KXPOWERSLAPMATCH-26NOV06JMARMWOO-MWOO",
+     "limit": "0.3700"
     }
    ]
   }
