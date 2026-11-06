@@ -65,3 +65,5 @@
 2026-11-06 09:15:47,276 INFO Connected to Alpaca PAPER account
 2026-11-06 09:15:47,885 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.
 2026-11-06 09:30:05,472 INFO New day 2026-11-06, starting equity $4979.70
+2026-11-06 09:55:07,656 INFO BUY AAPL x2 @limit 343.32 stop 338.59 target 349.99 | broke 15-min opening range high 341.69
+2026-11-06 10:15:08,457 INFO BUY MSFT x1 @limit 533.99 stop 525.00 target 546.79 | broke 15-min opening range high 532.28
