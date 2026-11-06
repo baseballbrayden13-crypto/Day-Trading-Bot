@@ -5658,3 +5658,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 12:44:02,388 INFO Swept 22605 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 12:49:06,784 INFO Swept 22612 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 12:54:11,520 INFO Swept 22603 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 12:59:15,695 INFO Swept 22603 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 13:04:16,191 INFO PAPER rest NO bid KXDOTA2MAP-26NOV060800NEMIGAFRO-1-FRO at $0.1500 x5 (0 already bid at that price)
+2026-11-06 13:04:16,191 INFO Resting NO bid on KXDOTA2MAP-26NOV060800NEMIGAFRO-1-FRO at $0.15 x5 (KXDOTA2MAP-26NOV060800NEMIGAFRO-1): locks in $0.12 if it fills; hedge NO NEMIGA@0.8100
+2026-11-06 13:04:16,223 INFO Swept 22603 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 13:05:06,660 INFO Quote KXDOTA2MAP-26NOV060800NEMIGAFRO-1 cancelled (0/5 filled)
+2026-11-06 13:09:16,956 INFO Swept 22669 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 13:14:17,735 INFO PAPER rest NO bid KXNFLNEXTTEAM-26JDOWNS2-SF at $0.3400 x1 (0 already bid at that price)
+2026-11-06 13:14:17,735 INFO Resting NO bid on KXNFLNEXTTEAM-26JDOWNS2-SF at $0.3400 x1 (KXNFLNEXTTEAM-26JDOWNS2): locks in $0.10 if it fills; hedge NO IND@0.9400, KC@0.6900, SEA@0.8800
+2026-11-06 13:14:17,767 INFO Swept 22692 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 13:19:18,621 INFO Swept 22691 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 13:21:49,818 INFO Quote KXNFLNEXTTEAM-26JDOWNS2 cancelled (0/1 filled)
+2026-11-06 13:24:19,446 INFO PAPER rest NO bid KXPOWERSLAPMATCH-26NOV06ZNAIWMEN-WMEN at $0.4300 x2 (0 already bid at that price)
+2026-11-06 13:24:19,447 INFO Resting NO bid on KXPOWERSLAPMATCH-26NOV06ZNAIWMEN-WMEN at $0.4300 x2 (KXPOWERSLAPMATCH-26NOV06ZNAIWMEN): locks in $0.17 if it fills; hedge NO ZNAI@0.4600
+2026-11-06 13:24:19,477 INFO Swept 22686 events: 0 taker trades, 1 new quotes, 1 resting
