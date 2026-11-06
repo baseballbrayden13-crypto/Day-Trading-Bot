@@ -5388,3 +5388,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 22:54:15,076 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06NIUBRAD-NIU at $0.7400 x2 (0 already bid at that price)
 2026-11-05 22:54:15,077 INFO Resting NO bid on KXNCAAWBGAME-26NOV06NIUBRAD-NIU at $0.74 x2 (KXNCAAWBGAME-26NOV06NIUBRAD): locks in $0.10 if it fills; hedge NO BRAD@0.1900
 2026-11-05 22:54:15,172 INFO Swept 21951 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 22:59:16,345 INFO Swept 21950 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 23:04:16,555 INFO Swept 21960 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 23:09:22,905 INFO PAPER rest NO bid KXNFLMOSTRSHYDS-26NOV05JACBAL-JACBTUTEN33 at $0.5200 x2 (0 already bid at that price)
+2026-11-05 23:09:22,906 INFO Resting NO bid on KXNFLMOSTRSHYDS-26NOV05JACBAL-JACBTUTEN33 at $0.5200 x2 (KXNFLMOSTRSHYDS-26NOV05JACBAL): locks in $0.92 if it fills; hedge NO BALJHILL43@0.0100
+2026-11-05 23:09:22,996 INFO Swept 21958 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-05 23:10:32,056 INFO Quote KXNFLMOSTRSHYDS-26NOV05JACBAL cancelled (0/2 filled)
+2026-11-05 23:14:23,207 INFO Swept 21913 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 23:19:24,500 INFO PAPER rest NO bid KXNBAPTSLEADER-26NOV05MIAGSW-GSWSCURRY30 at $0.3800 x1 (0 already bid at that price)
+2026-11-05 23:19:24,500 INFO Resting NO bid on KXNBAPTSLEADER-26NOV05MIAGSW-GSWSCURRY30 at $0.3800 x1 (KXNBAPTSLEADER-26NOV05MIAGSW): locks in $0.19 if it fills; hedge NO MIAGANTETOKOUNMPO7@0.4000
+2026-11-05 23:19:24,605 INFO Swept 21904 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-05 23:24:29,682 INFO PAPER rest NO bid KXNCAAFGAME-26NOV14SCARARK-ARK at $0.7500 x4 (13 already bid at that price)
+2026-11-05 23:24:29,682 INFO Resting NO bid on KXNCAAFGAME-26NOV14SCARARK-ARK at $0.75 x4 (KXNCAAFGAME-26NOV14SCARARK): locks in $0.13 if it fills; hedge NO SCAR@0.2000
+2026-11-05 23:24:29,785 INFO Swept 21892 events: 0 taker trades, 1 new quotes, 3 resting
