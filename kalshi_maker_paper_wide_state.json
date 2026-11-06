@@ -2055,44 +2055,5 @@
    "closed": "2026-11-05T22:52:32.904478+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAMBGAME-26NOV06STETWVU",
-   "series": "KXNCAAMBGAME",
-   "title": "Stetson vs West Virginia",
-   "ticker": "KXNCAAMBGAME-26NOV06STETWVU-STET",
-   "order_id": "paper-781-1793923424",
-   "price": "0.90",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8900",
-   "multiplier": "1",
-   "placed": 1793923424.3804038,
-   "hedge": [
-    {
-     "ticker": "KXNCAAMBGAME-26NOV06STETWVU-WVU",
-     "limit": "0.0700"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAMBGAME-26NOV08IONASJU",
-   "series": "KXNCAAMBGAME",
-   "title": "Iona vs St. John's",
-   "ticker": "KXNCAAMBGAME-26NOV08IONASJU-IONA",
-   "order_id": "paper-782-1793923736",
-   "price": "0.6700",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8900",
-   "multiplier": "1",
-   "placed": 1793923736.853455,
-   "hedge": [
-    {
-     "ticker": "KXNCAAMBGAME-26NOV08IONASJU-SJU",
-     "limit": "0.1900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
