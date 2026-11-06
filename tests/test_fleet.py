@@ -341,3 +341,12 @@ def test_sleeve_turns_the_account_into_one_bots_slice(tmp_path):
     assert out["account"]["equity"] == 5000.0 and out["account"]["shared"]
     assert [p["symbol"] for p in out["positions"]] == ["AAPL"] and out["orders"] == [{"symbol": "AAPL"}]
     assert out["equity_history"] == []
+
+
+def test_bot2_split_is_not_a_drawdown():
+    rows = [{"day": "2026-11-04", "bot": "2", "equity": "4936.36"}, {"day": "2026-11-05", "bot": "2", "equity": "4846.61"},
+            {"day": "2026-11-06", "bot": "2", "equity": "2450"}]
+    s = mt.equity_series(rows, 2)
+    assert abs(s[1] - 2450) < 0.01 and abs(s[0] / s[1] - 4936.36 / 4846.61) < 1e-9
+    b2 = next(b for b in FLEET if b.num == 2)
+    assert abs(s[-1] / b2.start_equity - 4846.61 / 5000) < 1e-3  # still -3.1% since start

@@ -89,7 +89,10 @@ def drawdown(series: list[float]) -> float:
 
 def bot_rows(rows: list[dict], num: int) -> list[dict]:
     """A bot's equity rows by day, skipping $0 days from before its account was funded."""
-    return [r for r in sorted(rows, key=lambda r: r["day"]) if str(r["bot"]) == str(num) and float(r["equity"] or 0) > 0]
+    from .fleet import rescale
+
+    return [{**r, "equity": rescale(num, r["day"], float(r["equity"]))}
+            for r in sorted(rows, key=lambda r: r["day"]) if str(r["bot"]) == str(num) and float(r["equity"] or 0) > 0]
 
 
 def equity_series(rows: list[dict], num: int) -> list[float]:
