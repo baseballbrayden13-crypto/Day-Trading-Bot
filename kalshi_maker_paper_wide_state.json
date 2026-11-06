@@ -83,6 +83,30 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXCODGAME-26NOV061100OMILAT",
+   "series": "KXCODGAME",
+   "title": "OMiT Brooklyn vs. Los Angeles Thieves",
+   "sets": 5,
+   "outlay": "5.26",
+   "locked_profit": "-0.26",
+   "opened": "2026-11-06T20:45:11.039893+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCODGAME-26NOV061100OMILAT-OMI",
+     "side": "no",
+     "count": 5,
+     "limit": "0.88"
+    },
+    {
+     "ticker": "KXCODGAME-26NOV061100OMILAT-LAT",
+     "side": "no",
+     "count": 5,
+     "limit": "0.16"
+    }
+   ]
   }
  ],
  "closed": [
@@ -2194,21 +2218,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAFGAME-26NOV14ALAVAN",
-   "series": "KXNCAAFGAME",
-   "title": "Alabama vs Vanderbilt",
-   "ticker": "KXNCAAFGAME-26NOV14ALAVAN-ALA",
-   "order_id": "paper-844-1793995757",
-   "price": "0.07",
-   "sets": 5,
+   "event": "KXLNBELITE2GAME-26NOV061400AEBCHA",
+   "series": "KXLNBELITE2GAME",
+   "title": "ALM Evreux Basket vs Champagne Basketball",
+   "ticker": "KXLNBELITE2GAME-26NOV061400AEBCHA-CHA",
+   "order_id": "paper-846-1793997274",
+   "price": "0.3000",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.9000",
+   "reserve": "1.5600",
    "multiplier": "1",
-   "placed": 1793995757.8161726,
+   "placed": 1793997274.7466621,
    "hedge": [
     {
-     "ticker": "KXNCAAFGAME-26NOV14ALAVAN-VAN",
-     "limit": "0.9000"
+     "ticker": "KXLNBELITE2GAME-26NOV061400AEBCHA-AEB",
+     "limit": "0.5100"
     }
    ]
   }

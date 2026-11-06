@@ -5733,3 +5733,21 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 15:09:17,816 INFO Resting NO bid on KXNCAAFGAME-26NOV14ALAVAN-ALA at $0.07 x5 (KXNCAAFGAME-26NOV14ALAVAN): locks in $0.10 if it fills; hedge NO VAN@0.9000
 2026-11-06 15:09:17,861 INFO Swept 22782 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-06 15:14:21,523 INFO Swept 22807 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 15:19:25,189 INFO PAPER rest NO bid KXESOCCERGAME-26NOV061512VINIBRAD-BRAD at $0.3200 x2 (0 already bid at that price)
+2026-11-06 15:19:25,189 INFO Resting NO bid on KXESOCCERGAME-26NOV061512VINIBRAD-BRAD at $0.3200 x2 (KXESOCCERGAME-26NOV061512VINIBRAD): locks in $0.42 if it fills; hedge NO VINI@0.4900
+2026-11-06 15:19:25,262 INFO Swept 22823 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 15:24:25,888 INFO Swept 22814 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 15:26:12,601 INFO Quote KXESOCCERGAME-26NOV061512VINIBRAD cancelled (0/2 filled)
+2026-11-06 15:29:30,483 INFO Swept 22816 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 15:34:34,746 INFO PAPER rest NO bid KXLNBELITE2GAME-26NOV061400AEBCHA-CHA at $0.3000 x2 (0 already bid at that price)
+2026-11-06 15:34:34,746 INFO Resting NO bid on KXLNBELITE2GAME-26NOV061400AEBCHA-CHA at $0.3000 x2 (KXLNBELITE2GAME-26NOV061400AEBCHA): locks in $0.44 if it fills; hedge NO AEB@0.5100
+2026-11-06 15:34:34,791 INFO Swept 22814 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 15:39:40,638 INFO Swept 22824 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 15:44:40,484 INFO PAPER rest NO bid KXCODGAME-26NOV061100OMILAT-OMI at $0.8800 x5 (441 already bid at that price)
+2026-11-06 15:44:40,484 INFO Resting NO bid on KXCODGAME-26NOV061100OMILAT-OMI at $0.88 x5 (KXCODGAME-26NOV061100OMILAT): locks in $0.11 if it fills; hedge NO LAT@0.0900
+2026-11-06 15:44:40,527 INFO Swept 22806 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 15:45:11,006 INFO PAPER KXCODGAME-26NOV061100OMILAT-OMI NO bid at $0.8800: 5/5 filled by real trades
+2026-11-06 15:45:11,028 INFO PAPER buy 5 NO KXCODGAME-26NOV061100OMILAT-LAT at up to $0.0900: not on the book
+2026-11-06 15:45:11,039 INFO PAPER buy 5 NO KXCODGAME-26NOV061100OMILAT-LAT at up to $0.16: filled 5
+2026-11-06 15:45:11,039 INFO Quote KXCODGAME-26NOV061100OMILAT: hedge on KXCODGAME-26NOV061100OMILAT-LAT chased from 0.0900 to 0.16
+2026-11-06 15:45:11,039 INFO Quote KXCODGAME-26NOV061100OMILAT filled 5: hedged, locks in $-0.26
