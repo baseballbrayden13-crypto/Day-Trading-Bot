@@ -5621,3 +5621,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 10:43:03,629 INFO Swept 22360 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 10:48:08,297 INFO Swept 22367 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 10:53:10,730 INFO Swept 22354 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 10:58:12,769 INFO PAPER rest NO bid KXNCAAHGAME-26NOV06WMUUND-UND at $0.2500 x5 (0 already bid at that price)
+2026-11-06 10:58:12,769 INFO Resting NO bid on KXNCAAHGAME-26NOV06WMUUND-UND at $0.2500 x5 (KXNCAAHGAME-26NOV06WMUUND): locks in $0.15 if it fills; hedge NO WMU@0.7000
+2026-11-06 10:58:12,804 INFO Swept 22357 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 11:03:15,080 INFO Swept 22348 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 11:08:18,572 INFO Swept 22370 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 11:13:18,892 INFO Swept 22445 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 11:18:19,759 INFO Swept 22445 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 11:23:20,360 INFO Swept 22443 events: 0 taker trades, 0 new quotes, 1 resting

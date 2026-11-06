@@ -2110,21 +2110,21 @@
  ],
  "quotes": [
   {
-   "event": "KXCODMAP-26NOV061100M80TOR-1",
-   "series": "KXCODMAP",
-   "title": "M80 Boston vs. Toronto KOI: Map 1",
-   "ticker": "KXCODMAP-26NOV061100M80TOR-1-TOR",
-   "order_id": "paper-827-1793979483",
-   "price": "0.2900",
-   "sets": 2,
+   "event": "KXNCAAHGAME-26NOV06WMUUND",
+   "series": "KXNCAAHGAME",
+   "title": "Western Michigan vs North Dakota",
+   "ticker": "KXNCAAHGAME-26NOV06WMUUND-UND",
+   "order_id": "paper-828-1793980692",
+   "price": "0.2500",
+   "sets": 5,
    "done": 0,
-   "reserve": "1.8300",
+   "reserve": "4.8500",
    "multiplier": "1",
-   "placed": 1793979483.9585843,
+   "placed": 1793980692.7698667,
    "hedge": [
     {
-     "ticker": "KXCODMAP-26NOV061100M80TOR-1-M80",
-     "limit": "0.6000"
+     "ticker": "KXNCAAHGAME-26NOV06WMUUND-WMU",
+     "limit": "0.7000"
     }
    ]
   }
