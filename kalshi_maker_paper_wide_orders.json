@@ -11716,5 +11716,61 @@
   "at_price": 0,
   "filled": 2,
   "status": "executed"
+ },
+ "paper-838-1793990924": {
+  "id": "paper-838-1793990924",
+  "ticker": "KXITFWDOUBLES-26NOV06RAPSHOFERPAW-FERPAW",
+  "price": "0.2200",
+  "count": 3,
+  "ahead": 0,
+  "placed": 1793990924.2443082,
+  "checked": 1793990969.6595094,
+  "expires": 1793992724,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-839-1793991230": {
+  "id": "paper-839-1793991230",
+  "ticker": "KXITFWDOUBLES-26NOV06RAPSHOFERPAW-FERPAW",
+  "price": "0.2200",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793991230.300172,
+  "checked": 1793992585.2556713,
+  "expires": 1793993030,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-840-1793991230": {
+  "id": "paper-840-1793991230",
+  "ticker": "KXEBASKETBALLGAME-26NOV061404LARRTATU-TATU",
+  "price": "0.1600",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793991230.3371103,
+  "checked": 1793991251.2927217,
+  "expires": 1793993030,
+  "through": 110,
+  "at_price": 0,
+  "filled": 2,
+  "status": "executed"
+ },
+ "paper-841-1793991230": {
+  "id": "paper-841-1793991230",
+  "ticker": "KXNFLNEXTTEAM-26JDOWNS2-SF",
+  "price": "0.3800",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1793991230.374969,
+  "checked": 1793992585.3117535,
+  "expires": 1793993030,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
