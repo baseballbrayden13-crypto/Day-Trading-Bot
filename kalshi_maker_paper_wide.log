@@ -5342,3 +5342,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 20:53:07,303 INFO PAPER rest NO bid KXSOLE-26NOV0521-B89.375 at $0.4700 x1 (0 already bid at that price)
 2026-11-05 20:53:07,304 INFO Resting NO bid on KXSOLE-26NOV0521-B89.375 at $0.4700 x1 (KXSOLE-26NOV0521): locks in $0.35 if it fills; hedge NO B89.875@0.8500, B90.125@0.4600, B90.375@0.8100
 2026-11-05 20:53:07,393 INFO Swept 22026 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 20:58:12,046 INFO PAPER rest NO bid KXBUNDESLIGAGAME-26NOV20BMUKOE-KOE at $0.5100 x2 (0 already bid at that price)
+2026-11-05 20:58:12,046 INFO Resting NO bid on KXBUNDESLIGAGAME-26NOV20BMUKOE-KOE at $0.5100 x2 (KXBUNDESLIGAGAME-26NOV20BMUKOE): locks in $0.70 if it fills; hedge NO BMU@0.1700, TIE@0.9500
+2026-11-05 20:58:12,148 INFO Swept 22017 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 20:58:12,323 INFO Quote KXSOLE-26NOV0521 cancelled (0/1 filled)
+2026-11-05 21:03:14,348 INFO Swept 22003 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 21:08:16,857 INFO PAPER rest NO bid KXNFLMOSTRSHYDS-26NOV05JACBAL-JACCRODRIGUEZ24 at $0.6200 x2 (100 already bid at that price)
+2026-11-05 21:08:16,857 INFO Resting NO bid on KXNFLMOSTRSHYDS-26NOV05JACBAL-JACCRODRIGUEZ24 at $0.62 x2 (KXNFLMOSTRSHYDS-26NOV05JACBAL): locks in $0.10 if it fills; hedge NO BALDHENRY22@0.3100
+2026-11-05 21:08:16,956 INFO Swept 21985 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 21:08:22,446 INFO Quote KXNFLMOSTRSHYDS-26NOV05JACBAL cancelled (0/2 filled)
+2026-11-05 21:13:19,162 INFO Swept 22022 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 21:18:24,164 INFO Swept 22061 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-05 21:23:27,361 INFO PAPER rest NO bid KXBRASILEIROSCORE-26NOV05CRUBAH-CRU4BAH1 at $0.3900 x2 (0 already bid at that price)
+2026-11-05 21:23:27,361 INFO Resting NO bid on KXBRASILEIROSCORE-26NOV05CRUBAH-CRU4BAH1 at $0.3900 x2 (KXBRASILEIROSCORE-26NOV05CRUBAH): locks in $0.67 if it fills; hedge NO CRU3BAH1@0.3200, CRU3BAH2@0.9200
+2026-11-05 21:23:27,464 INFO Swept 22075 events: 0 taker trades, 1 new quotes, 2 resting

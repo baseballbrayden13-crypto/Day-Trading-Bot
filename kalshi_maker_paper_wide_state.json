@@ -2057,29 +2057,48 @@
  ],
  "quotes": [
   {
-   "event": "KXSOLE-26NOV0521",
-   "series": "KXSOLE",
-   "title": "SOL price range on Nov 5, 2026 at 9pm EST?",
-   "ticker": "KXSOLE-26NOV0521-B89.375",
-   "order_id": "paper-789-1793929987",
-   "price": "0.4700",
-   "sets": 1,
+   "event": "KXBUNDESLIGAGAME-26NOV20BMUKOE",
+   "series": "KXBUNDESLIGAGAME",
+   "title": "Bayern Munich vs FC K\u00f6ln",
+   "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-KOE",
+   "order_id": "paper-790-1793930292",
+   "price": "0.5100",
+   "sets": 2,
    "done": 0,
-   "reserve": "2.6500",
+   "reserve": "3.3000",
    "multiplier": "1",
-   "placed": 1793929987.3040168,
+   "placed": 1793930292.046283,
    "hedge": [
     {
-     "ticker": "KXSOLE-26NOV0521-B89.875",
-     "limit": "0.9400"
+     "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-BMU",
+     "limit": "0.1700"
     },
     {
-     "ticker": "KXSOLE-26NOV0521-B90.125",
-     "limit": "0.4800"
+     "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-TIE",
+     "limit": "0.9500"
+    }
+   ]
+  },
+  {
+   "event": "KXBRASILEIROSCORE-26NOV05CRUBAH",
+   "series": "KXBRASILEIROSCORE",
+   "title": "Cruzeiro EC MG vs EC Bahia BA: Correct Score",
+   "ticker": "KXBRASILEIROSCORE-26NOV05CRUBAH-CRU4BAH1",
+   "order_id": "paper-792-1793931807",
+   "price": "0.3900",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.3300",
+   "multiplier": "1",
+   "placed": 1793931807.3619485,
+   "hedge": [
+    {
+     "ticker": "KXBRASILEIROSCORE-26NOV05CRUBAH-CRU3BAH1",
+     "limit": "0.3500"
     },
     {
-     "ticker": "KXSOLE-26NOV0521-B90.375",
-     "limit": "0.9000"
+     "ticker": "KXBRASILEIROSCORE-26NOV05CRUBAH-CRU3BAH2",
+     "limit": "0.9300"
     }
    ]
   }
