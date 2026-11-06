@@ -2057,48 +2057,21 @@
  ],
  "quotes": [
   {
-   "event": "KXBUNDESLIGAGAME-26NOV20BMUKOE",
-   "series": "KXBUNDESLIGAGAME",
-   "title": "Bayern Munich vs FC K\u00f6ln",
-   "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-KOE",
-   "order_id": "paper-790-1793930292",
-   "price": "0.5100",
+   "event": "KXNCAAWBGAME-26NOV06NCATMRSH",
+   "series": "KXNCAAWBGAME",
+   "title": "North Carolina A&T vs Marshall",
+   "ticker": "KXNCAAWBGAME-26NOV06NCATMRSH-NCAT",
+   "order_id": "paper-793-1793933018",
+   "price": "0.75",
    "sets": 2,
    "done": 0,
-   "reserve": "3.3000",
+   "reserve": "1.9000",
    "multiplier": "1",
-   "placed": 1793930292.046283,
+   "placed": 1793933018.9719112,
    "hedge": [
     {
-     "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-BMU",
-     "limit": "0.1700"
-    },
-    {
-     "ticker": "KXBUNDESLIGAGAME-26NOV20BMUKOE-TIE",
-     "limit": "0.9500"
-    }
-   ]
-  },
-  {
-   "event": "KXBRASILEIROSCORE-26NOV05CRUBAH",
-   "series": "KXBRASILEIROSCORE",
-   "title": "Cruzeiro EC MG vs EC Bahia BA: Correct Score",
-   "ticker": "KXBRASILEIROSCORE-26NOV05CRUBAH-CRU4BAH1",
-   "order_id": "paper-792-1793931807",
-   "price": "0.3900",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.3300",
-   "multiplier": "1",
-   "placed": 1793931807.3619485,
-   "hedge": [
-    {
-     "ticker": "KXBRASILEIROSCORE-26NOV05CRUBAH-CRU3BAH1",
-     "limit": "0.3500"
-    },
-    {
-     "ticker": "KXBRASILEIROSCORE-26NOV05CRUBAH-CRU3BAH2",
-     "limit": "0.9300"
+     "ticker": "KXNCAAWBGAME-26NOV06NCATMRSH-MRSH",
+     "limit": "0.1800"
     }
    ]
   }

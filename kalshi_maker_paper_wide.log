@@ -5356,3 +5356,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 21:23:27,361 INFO PAPER rest NO bid KXBRASILEIROSCORE-26NOV05CRUBAH-CRU4BAH1 at $0.3900 x2 (0 already bid at that price)
 2026-11-05 21:23:27,361 INFO Resting NO bid on KXBRASILEIROSCORE-26NOV05CRUBAH-CRU4BAH1 at $0.3900 x2 (KXBRASILEIROSCORE-26NOV05CRUBAH): locks in $0.67 if it fills; hedge NO CRU3BAH1@0.3200, CRU3BAH2@0.9200
 2026-11-05 21:23:27,464 INFO Swept 22075 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 21:28:30,265 INFO Swept 22090 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 21:28:30,485 INFO Quote KXBRASILEIROSCORE-26NOV05CRUBAH cancelled (0/2 filled)
+2026-11-05 21:33:44,349 INFO Swept 22113 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 21:38:36,717 INFO Swept 22110 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-05 21:43:38,971 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06NCATMRSH-NCAT at $0.7500 x2 (5 already bid at that price)
+2026-11-05 21:43:38,971 INFO Resting NO bid on KXNCAAWBGAME-26NOV06NCATMRSH-NCAT at $0.75 x2 (KXNCAAWBGAME-26NOV06NCATMRSH): locks in $0.10 if it fills; hedge NO MRSH@0.1800
+2026-11-05 21:43:39,065 INFO Swept 22113 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-05 21:48:41,495 INFO PAPER rest NO bid KXSOLE-26NOV0522-B89.375 at $0.1400 x1 (0 already bid at that price)
+2026-11-05 21:48:41,495 INFO Resting NO bid on KXSOLE-26NOV0522-B89.375 at $0.1400 x1 (KXSOLE-26NOV0522): locks in $0.61 if it fills; hedge NO B89.875@0.9800, B90.125@0.7200, B90.375@0.5600, B90.625@0.9200
+2026-11-05 21:48:41,584 INFO Swept 22103 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 21:50:04,803 INFO Quote KXSOLE-26NOV0522 cancelled (0/1 filled)
+2026-11-05 21:53:45,904 INFO Swept 22072 events: 0 taker trades, 0 new quotes, 1 resting
