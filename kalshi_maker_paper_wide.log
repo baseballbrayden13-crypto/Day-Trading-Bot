@@ -5401,3 +5401,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 23:24:29,682 INFO PAPER rest NO bid KXNCAAFGAME-26NOV14SCARARK-ARK at $0.7500 x4 (13 already bid at that price)
 2026-11-05 23:24:29,682 INFO Resting NO bid on KXNCAAFGAME-26NOV14SCARARK-ARK at $0.75 x4 (KXNCAAFGAME-26NOV14SCARARK): locks in $0.13 if it fills; hedge NO SCAR@0.2000
 2026-11-05 23:24:29,785 INFO Swept 21892 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-05 23:29:28,227 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV06NIUBRAD-NIU at $0.7400 x2 (0 already bid at that price)
+2026-11-05 23:29:28,227 INFO Resting NO bid on KXNCAAWBGAME-26NOV06NIUBRAD-NIU at $0.74 x2 (KXNCAAWBGAME-26NOV06NIUBRAD): locks in $0.10 if it fills; hedge NO BRAD@0.1900
+2026-11-05 23:29:28,323 INFO Swept 21879 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-05 23:34:27,892 INFO Swept 21843 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-05 23:39:29,276 INFO Swept 21834 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-05 23:44:28,774 INFO Swept 21832 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-05 23:44:28,820 INFO PAPER KXNBAPTSLEADER-26NOV05MIAGSW-GSWSCURRY30 NO bid at $0.3800: 1/1 filled by real trades
+2026-11-05 23:44:28,873 INFO PAPER buy 1 NO KXNBAPTSLEADER-26NOV05MIAGSW-MIAGANTETOKOUNMPO7 at up to $0.4000: not on the book
+2026-11-05 23:44:28,916 INFO PAPER buy 1 NO KXNBAPTSLEADER-26NOV05MIAGSW-MIAGANTETOKOUNMPO7 at up to $0.64: not on the book
+2026-11-05 23:44:28,916 WARNING Quote KXNBAPTSLEADER-26NOV05MIAGSW: hedge missed on KXNBAPTSLEADER-26NOV05MIAGSW-MIAGANTETOKOUNMPO7. Selling back 1 contracts on 1 legs.
+2026-11-05 23:44:28,959 INFO PAPER sell 1 YES KXNBAPTSLEADER-26NOV05MIAGSW-GSWSCURRY30 at up to $0.6700: filled 1
+2026-11-05 23:49:31,927 INFO Swept 21841 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 23:54:34,517 INFO Swept 21831 events: 0 taker trades, 0 new quotes, 2 resting
