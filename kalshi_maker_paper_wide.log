@@ -5573,3 +5573,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 08:22:06,861 INFO PAPER rest NO bid KXXRP-26NOV0609-B1.1699500 at $0.0900 x1 (0 already bid at that price)
 2026-11-06 08:22:06,861 INFO Resting NO bid on KXXRP-26NOV0609-B1.1699500 at $0.0900 x1 (KXXRP-26NOV0609): locks in $0.50 if it fills; hedge NO B1.1899500@0.4000, B1.2099500@0.9700
 2026-11-06 08:22:06,892 INFO Swept 22180 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 08:27:06,954 INFO Swept 22190 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 08:27:07,016 INFO Quote KXWTADOUBLES-26NOV05BHARAJHAVUDV cancelled (0/5 filled)
+2026-11-06 08:27:07,079 INFO Quote KXXRP-26NOV0609 cancelled (0/1 filled)
+2026-11-06 08:31:53,108 INFO Swept 22176 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 08:36:55,623 INFO PAPER rest NO bid KXWTADOUBLES-26NOV05BHARAJHAVUDV-HAVUDV at $0.1500 x3 (0 already bid at that price)
+2026-11-06 08:36:55,623 INFO Resting NO bid on KXWTADOUBLES-26NOV05BHARAJHAVUDV-HAVUDV at $0.1500 x3 (KXWTADOUBLES-26NOV05BHARAJHAVUDV): locks in $0.13 if it fills; hedge NO BHARAJ@0.7900
+2026-11-06 08:36:55,654 INFO Swept 22163 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 08:42:03,050 INFO Swept 22151 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 08:47:04,714 INFO Swept 22150 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 08:52:06,224 INFO Swept 22146 events: 0 taker trades, 0 new quotes, 1 resting

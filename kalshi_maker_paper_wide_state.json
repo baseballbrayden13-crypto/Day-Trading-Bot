@@ -2083,40 +2083,17 @@
    "series": "KXWTADOUBLES",
    "title": "Bhamidipaty S / Rajeshwaran Revathi vs Haverlag / Udvardy",
    "ticker": "KXWTADOUBLES-26NOV05BHARAJHAVUDV-HAVUDV",
-   "order_id": "paper-820-1793971026",
-   "price": "0.22",
-   "sets": 5,
+   "order_id": "paper-822-1793972215",
+   "price": "0.1500",
+   "sets": 3,
    "done": 0,
-   "reserve": "4.8900",
+   "reserve": "2.8700",
    "multiplier": "1",
-   "placed": 1793971026.266897,
+   "placed": 1793972215.6234694,
    "hedge": [
     {
      "ticker": "KXWTADOUBLES-26NOV05BHARAJHAVUDV-BHARAJ",
-     "limit": "0.7400"
-    }
-   ]
-  },
-  {
-   "event": "KXXRP-26NOV0609",
-   "series": "KXXRP",
-   "title": " XRP price range at Nov 6, 2026 at 9am EST? ",
-   "ticker": "KXXRP-26NOV0609-B1.1699500",
-   "order_id": "paper-821-1793971326",
-   "price": "0.0900",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.5000",
-   "multiplier": "1",
-   "placed": 1793971326.8615031,
-   "hedge": [
-    {
-     "ticker": "KXXRP-26NOV0609-B1.1899500",
-     "limit": "0.4100"
-    },
-    {
-     "ticker": "KXXRP-26NOV0609-B1.2099500",
-     "limit": "0.9900"
+     "limit": "0.7900"
     }
    ]
   }
