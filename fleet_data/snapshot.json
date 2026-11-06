@@ -1,5 +1,5 @@
 {
- "taken": "2026-11-05T01:32:23+00:00",
+ "taken": "2026-11-06T01:35:21+00:00",
  "bots": {
   "1": {
    "name": "ORB day trader",
@@ -214,21 +214,25 @@
     {
      "day": "2026-11-03",
      "equity": 4979.7
+    },
+    {
+     "day": "2026-11-04",
+     "equity": 4979.7
     }
    ],
    "log": {
     "exists": true,
-    "modified": "2026-11-04T16:05:05-05:00",
-    "last_line_time": "2026-11-04T16:05:05",
+    "modified": "2026-11-05T16:05:05-05:00",
+    "last_line_time": "2026-11-05T16:05:05",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-04 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.",
-     "2026-11-04 12:47:49,346 INFO Connected to Alpaca PAPER account",
-     "2026-11-04 12:47:49,561 INFO Picked up today's counters: start equity $4979.70, 0 trades",
-     "2026-11-04 12:47:49,561 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.",
-     "2026-11-04 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca."
+     "2026-11-05 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.",
+     "2026-11-05 12:42:53,573 INFO Connected to Alpaca PAPER account",
+     "2026-11-05 12:42:53,782 INFO Picked up today's counters: start equity $4979.70, 0 trades",
+     "2026-11-05 12:42:53,782 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.",
+     "2026-11-05 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca."
     ],
     "live_warning": false
    },
@@ -245,34 +249,35 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 4936.36,
-    "last_equity": 4907.8,
+    "equity": 4846.61,
+    "last_equity": 4934.06,
     "cash": 300.9,
     "status": "ACTIVE",
     "trading_blocked": false,
-    "account_blocked": false
+    "account_blocked": false,
+    "shared": true
    },
    "positions": [
     {
      "symbol": "XLE",
      "qty": 23.0,
      "avg_entry": 69.180435,
-     "market_value": 1463.26,
-     "unrealized_pl": -127.890005
+     "market_value": 1423.93,
+     "unrealized_pl": -167.220005
     },
     {
      "symbol": "XLP",
      "qty": 18.0,
      "avg_entry": 90.078333,
-     "market_value": 1654.92,
-     "unrealized_pl": 33.510006
+     "market_value": 1642.5,
+     "unrealized_pl": 21.090006
     },
     {
      "symbol": "XLV",
      "qty": 8.0,
      "avg_entry": 178.6425,
-     "market_value": 1517.28,
-     "unrealized_pl": 88.14
+     "market_value": 1479.28,
+     "unrealized_pl": 50.14
     }
    ],
    "orders": [
@@ -419,21 +424,25 @@
     {
      "day": "2026-11-03",
      "equity": 4907.8
+    },
+    {
+     "day": "2026-11-04",
+     "equity": 4934.06
     }
    ],
    "log": {
     "exists": true,
-    "modified": "2026-11-04T10:40:36-05:00",
-    "last_line_time": "2026-11-04T10:40:36",
+    "modified": "2026-11-05T10:43:24-05:00",
+    "last_line_time": "2026-11-05T10:43:24",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-03 10:31:00,602 INFO Already rebalanced in November; nothing to do.",
-     "2026-11-04 09:43:05,574 INFO Connected to Alpaca PAPER account",
-     "2026-11-04 09:43:06,045 INFO Already rebalanced in November; nothing to do.",
-     "2026-11-04 10:40:36,570 INFO Connected to Alpaca PAPER account",
-     "2026-11-04 10:40:36,734 INFO Already rebalanced in November; nothing to do."
+     "2026-11-04 10:40:36,734 INFO Already rebalanced in November; nothing to do.",
+     "2026-11-05 09:41:55,395 INFO Connected to Alpaca PAPER account",
+     "2026-11-05 09:41:55,570 INFO Already rebalanced in November; nothing to do.",
+     "2026-11-05 10:43:24,260 INFO Connected to Alpaca PAPER account",
+     "2026-11-05 10:43:24,578 INFO Already rebalanced in November; nothing to do."
     ],
     "live_warning": false
    },
@@ -551,21 +560,25 @@
     {
      "day": "2026-11-03",
      "equity": 5000.0
+    },
+    {
+     "day": "2026-11-04",
+     "equity": 5000.0
     }
    ],
    "log": {
     "exists": true,
-    "modified": "2026-11-04T20:32:23-05:00",
-    "last_line_time": "2026-11-04T20:32:23",
+    "modified": "2026-11-05T20:35:20-05:00",
+    "last_line_time": "2026-11-05T20:35:20",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-02 20:28:52,341 INFO 2026-11-02 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
-     "2026-11-03 20:28:51,324 INFO Connected to Alpaca PAPER account",
      "2026-11-03 20:28:52,045 INFO 2026-11-03 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
      "2026-11-04 20:32:22,382 INFO Connected to Alpaca PAPER account",
-     "2026-11-04 20:32:23,221 INFO 2026-11-04 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
+     "2026-11-04 20:32:23,221 INFO 2026-11-04 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
+     "2026-11-05 20:35:19,868 INFO Connected to Alpaca PAPER account",
+     "2026-11-05 20:35:20,859 INFO 2026-11-05 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
     ],
     "live_warning": false
    }
@@ -578,7 +591,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-05T01:18:24+00:00",
+     "updated": "2026-11-06T01:19:52+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -592,7 +605,7 @@
      "stray_positions": 0,
      "closed_trades": 3,
      "trades_this_loop": 0,
-     "events_swept": 20832,
+     "events_swept": 22047,
      "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -604,21 +617,23 @@
     "open": 1,
     "closed": 3,
     "losing_trades": 0,
+    "stray_closed": 0,
+    "stray_pnl": 0,
     "stray": 0,
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-04T20:20:43-05:00",
-     "last_line_time": "2026-11-04T20:20:43",
+     "modified": "2026-11-05T20:22:51-05:00",
+     "last_line_time": "2026-11-05T20:22:51",
      "errors": 0,
      "errors_24h": 0,
      "last_errors": [],
      "tail": [
-      "2026-11-04 20:00:39,692 INFO Swept 20663 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-04 20:05:44,783 INFO Swept 20666 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-04 20:10:47,038 INFO Swept 20760 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-04 20:15:44,712 INFO Swept 20804 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-04 20:20:43,110 INFO Swept 20832 events: 0 taker trades, 0 new quotes, 0 resting"
+      "2026-11-05 20:02:34,178 INFO Swept 21994 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-05 20:07:49,644 INFO Swept 21989 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-05 20:12:50,437 INFO Swept 22036 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-05 20:17:52,440 INFO Swept 22051 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-05 20:22:51,702 INFO Swept 22047 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -632,54 +647,78 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-05T01:18:30+00:00",
+     "updated": "2026-11-06T01:19:54+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
      "min_profit": "0.10",
-     "equity": "18.27",
-     "realized_profit": "-1.73",
-     "bet_level": "18.27",
+     "equity": "16.48",
+     "realized_profit": "-3.52",
+     "bet_level": "16.48",
      "open_trades": 3,
      "open_locked_profit": "2.64",
      "in_play": "9.36",
      "stray_positions": 0,
-     "closed_trades": 49,
+     "closed_trades": 54,
      "trades_this_loop": 0,
-     "events_swept": 20832,
-     "found_this_loop": 0,
+     "events_swept": 22046,
+     "found_this_loop": 1,
      "top_series": [
       "KXSTARSHIPSPACE"
      ],
      "problems": 0,
      "last_problems": []
     },
-    "realized": -1.73,
+    "realized": -3.52,
     "open": 3,
-    "closed": 70,
-    "losing_trades": 18,
+    "closed": 78,
+    "losing_trades": 3,
+    "stray_closed": 24,
+    "stray_pnl": -10.14,
     "stray": 0,
     "quotes": 2,
     "log": {
      "exists": true,
-     "modified": "2026-11-04T20:21:16-05:00",
-     "last_line_time": "2026-11-04T20:21:16",
-     "errors": 21,
-     "errors_24h": 2,
+     "modified": "2026-11-05T20:22:51-05:00",
+     "last_line_time": "2026-11-05T20:22:51",
+     "errors": 25,
+     "errors_24h": 4,
      "last_errors": [
-      "2026-11-02 11:03:08,856 ERROR STRAY POSITION: 5 NO contracts of KXLIGAPROMATCH-26NOV021015ALEKHA-ALE still held. Check it on Kalshi.",
-      "2026-11-04 10:13:18,227 ERROR STRAY POSITION: 5 NO contracts of KXOWGAME-26NOV040900BENSJK-SJK still held. Check it on Kalshi.",
-      "2026-11-04 19:22:50,620 ERROR STRAY POSITION: 4 NO contracts of KXNBARACE-26NOV04ATLWAS-20-WAS still held. Check it on Kalshi."
+      "2026-11-05 06:09:19,234 ERROR Maker loop error; carrying on",
+      "2026-11-05 10:21:55,026 ERROR STRAY POSITION: 4 NO contracts of KXCS2MAP-26NOV050900LKWRA-2-WRA still held. Check it on Kalshi.",
+      "2026-11-05 10:57:01,524 ERROR STRAY POSITION: 2 NO contracts of KXMLBBGAME-26NOV051000CHEMBW-CHEM still held. Check it on Kalshi."
      ],
      "tail": [
-      "2026-11-04 20:16:18,172 INFO Resting NO bid on KXNBARACE-26NOV04INDMEM-10-IND at $0.1700 x15 (KXNBARACE-26NOV04INDMEM-10): locks in $10.18 if it fills; hedge NO MEM@0.1400",
-      "2026-11-04 20:16:18,194 INFO PAPER rest NO bid KXLIGAFGAME-26NOV08BARMAD-MAD at $0.5900 x2 (17 already bid at that price)",
-      "2026-11-04 20:16:18,195 INFO Resting NO bid on KXLIGAFGAME-26NOV08BARMAD-MAD at $0.59 x2 (KXLIGAFGAME-26NOV08BARMAD): locks in $0.10 if it fills; hedge NO BAR@0.3900, TIE@0.9400",
-      "2026-11-04 20:16:18,199 INFO Swept 20804 events: 0 taker trades, 2 new quotes, 2 resting",
-      "2026-11-04 20:21:16,976 INFO Swept 20832 events: 0 taker trades, 0 new quotes, 2 resting"
+      "2026-11-05 20:12:47,678 INFO Resting NO bid on KXNCAAWVMATCH-26NOV061930TCUHOU-HOU at $0.73 x1 (KXNCAAWVMATCH-26NOV061930TCUHOU): locks in $0.10 if it fills; hedge NO TCU@0.1500",
+      "2026-11-05 20:12:47,764 INFO Swept 22036 events: 0 taker trades, 1 new quotes, 3 resting",
+      "2026-11-05 20:13:24,885 INFO Quote KXARGLNBGAME-26NOV051900ARJOBT cancelled (0/2 filled)",
+      "2026-11-05 20:17:49,825 INFO Swept 22051 events: 0 taker trades, 0 new quotes, 2 resting",
+      "2026-11-05 20:22:51,589 INFO Swept 22046 events: 0 taker trades, 0 new quotes, 2 resting"
      ],
      "live_warning": false
     }
+   }
+  },
+  "8": {
+   "name": "Dip buyer",
+   "label": "5",
+   "kind": "alpaca",
+   "errors": [],
+   "account": {
+    "account": "8T7Y",
+    "equity": 5000.0,
+    "last_equity": 0,
+    "cash": 5000.0,
+    "status": "ACTIVE",
+    "trading_blocked": false,
+    "account_blocked": false,
+    "shared": true
+   },
+   "positions": [],
+   "orders": [],
+   "equity_history": [],
+   "log": {
+    "exists": false
    }
   }
  },
@@ -688,368 +727,728 @@
  "err_logs": [],
  "clock": {
   "is_open": false,
-  "next_open": "2026-11-05T09:30:00-05:00",
-  "next_close": "2026-11-05T16:00:00-05:00",
+  "next_open": "2026-11-06T09:30:00-05:00",
+  "next_close": "2026-11-06T16:00:00-05:00",
   "trading_day": true
  },
  "market": {
   "symbols": [
    {
     "symbol": "AAPL",
-    "day": "2026-11-04",
-    "close": 349.555,
-    "chg_1d_pct": 5.38,
-    "chg_1m_pct": 4.74,
+    "day": "2026-11-05",
+    "close": 344.6,
+    "chg_1d_pct": -1.42,
+    "chg_1m_pct": 2.38,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 26.0
+    "vol_20d_pct": 26.4
+   },
+   {
+    "symbol": "ABBV",
+    "day": "2026-11-05",
+    "close": 287.96,
+    "chg_1d_pct": -2.35,
+    "chg_1m_pct": 6.75,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 26.9
+   },
+   {
+    "symbol": "ADBE",
+    "day": "2026-11-05",
+    "close": 246.43,
+    "chg_1d_pct": -0.82,
+    "chg_1m_pct": 5.9,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 40.1
+   },
+   {
+    "symbol": "AMD",
+    "day": "2026-11-05",
+    "close": 403.42,
+    "chg_1d_pct": -17.45,
+    "chg_1m_pct": -37.54,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 91.8
+   },
+   {
+    "symbol": "AMZN",
+    "day": "2026-11-05",
+    "close": 260.64,
+    "chg_1d_pct": -2.06,
+    "chg_1m_pct": 0.28,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 43.1
+   },
+   {
+    "symbol": "AVGO",
+    "day": "2026-11-05",
+    "close": 291.475,
+    "chg_1d_pct": -10.49,
+    "chg_1m_pct": -22.58,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 54.6
+   },
+   {
+    "symbol": "BAC",
+    "day": "2026-11-05",
+    "close": 49.805,
+    "chg_1d_pct": -3.53,
+    "chg_1m_pct": -6.96,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 28.9
+   },
+   {
+    "symbol": "COST",
+    "day": "2026-11-05",
+    "close": 1066.25,
+    "chg_1d_pct": 1.89,
+    "chg_1m_pct": 13.34,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 23.5
+   },
+   {
+    "symbol": "CRM",
+    "day": "2026-11-05",
+    "close": 222.36,
+    "chg_1d_pct": -2.1,
+    "chg_1m_pct": -0.95,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 35.2
+   },
+   {
+    "symbol": "CSCO",
+    "day": "2026-11-05",
+    "close": 95.75,
+    "chg_1d_pct": -7.57,
+    "chg_1m_pct": -18.43,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 40.6
+   },
+   {
+    "symbol": "CVX",
+    "day": "2026-11-05",
+    "close": 213.01,
+    "chg_1d_pct": -1.83,
+    "chg_1m_pct": 3.82,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 28.5
+   },
+   {
+    "symbol": "DIS",
+    "day": "2026-11-05",
+    "close": 117.28,
+    "chg_1d_pct": -1.4,
+    "chg_1m_pct": 11.95,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 22.2
    },
    {
     "symbol": "EEM",
-    "day": "2026-11-04",
-    "close": 61.62,
-    "chg_1d_pct": 0.83,
-    "chg_1m_pct": -9.73,
+    "day": "2026-11-05",
+    "close": 58.06,
+    "chg_1d_pct": -5.78,
+    "chg_1m_pct": -13.79,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 20.8
+    "vol_20d_pct": 27.9
    },
    {
     "symbol": "EFA",
-    "day": "2026-11-04",
-    "close": 105.73,
-    "chg_1d_pct": 2.55,
-    "chg_1m_pct": 1.45,
+    "day": "2026-11-05",
+    "close": 102.685,
+    "chg_1d_pct": -2.88,
+    "chg_1m_pct": -0.42,
     "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 12.9
+    "above_50d": false,
+    "vol_20d_pct": 16.7
    },
    {
     "symbol": "GLD",
-    "day": "2026-11-04",
-    "close": 372.42,
-    "chg_1d_pct": 3.66,
-    "chg_1m_pct": -2.58,
+    "day": "2026-11-05",
+    "close": 375.55,
+    "chg_1d_pct": 0.84,
+    "chg_1m_pct": -0.08,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 25.4
+    "vol_20d_pct": 25.5
+   },
+   {
+    "symbol": "GOOGL",
+    "day": "2026-11-05",
+    "close": 282.645,
+    "chg_1d_pct": -2.2,
+    "chg_1m_pct": -19.37,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 50.7
+   },
+   {
+    "symbol": "HD",
+    "day": "2026-11-05",
+    "close": 350.055,
+    "chg_1d_pct": -1.51,
+    "chg_1m_pct": 22.51,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 38.4
+   },
+   {
+    "symbol": "HON",
+    "day": "2026-11-05",
+    "close": 215.82,
+    "chg_1d_pct": -5.51,
+    "chg_1m_pct": 3.72,
+    "above_200d": false,
+    "above_50d": true,
+    "vol_20d_pct": 27.6
+   },
+   {
+    "symbol": "IBM",
+    "day": "2026-11-05",
+    "close": 247.1,
+    "chg_1d_pct": -2.85,
+    "chg_1m_pct": 12.05,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 27.3
+   },
+   {
+    "symbol": "INTC",
+    "day": "2026-11-05",
+    "close": 52.21,
+    "chg_1d_pct": -10.42,
+    "chg_1m_pct": -53.82,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 115.7
    },
    {
     "symbol": "IWM",
-    "day": "2026-11-04",
-    "close": 283.94,
-    "chg_1d_pct": 1.47,
-    "chg_1m_pct": 0.93,
+    "day": "2026-11-05",
+    "close": 271.01,
+    "chg_1d_pct": -4.55,
+    "chg_1m_pct": -2.41,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 23.0
+   },
+   {
+    "symbol": "JNJ",
+    "day": "2026-11-05",
+    "close": 272.45,
+    "chg_1d_pct": -1.41,
+    "chg_1m_pct": 5.4,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 15.9
+    "vol_20d_pct": 34.7
+   },
+   {
+    "symbol": "JPM",
+    "day": "2026-11-05",
+    "close": 337.42,
+    "chg_1d_pct": -4.2,
+    "chg_1m_pct": 2.4,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 26.8
+   },
+   {
+    "symbol": "KO",
+    "day": "2026-11-05",
+    "close": 95.755,
+    "chg_1d_pct": -0.12,
+    "chg_1m_pct": 11.6,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 22.3
+   },
+   {
+    "symbol": "LLY",
+    "day": "2026-11-05",
+    "close": 1367.27,
+    "chg_1d_pct": -3.58,
+    "chg_1m_pct": 15.06,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 38.2
+   },
+   {
+    "symbol": "MA",
+    "day": "2026-11-05",
+    "close": 655.635,
+    "chg_1d_pct": -2.52,
+    "chg_1m_pct": 15.17,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 29.6
+   },
+   {
+    "symbol": "MCD",
+    "day": "2026-11-05",
+    "close": 278.045,
+    "chg_1d_pct": -0.77,
+    "chg_1m_pct": 20.45,
+    "above_200d": false,
+    "above_50d": true,
+    "vol_20d_pct": 29.4
+   },
+   {
+    "symbol": "META",
+    "day": "2026-11-05",
+    "close": 605.31,
+    "chg_1d_pct": -3.9,
+    "chg_1m_pct": -16.06,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 40.2
+   },
+   {
+    "symbol": "MRK",
+    "day": "2026-11-05",
+    "close": 146.89,
+    "chg_1d_pct": -2.31,
+    "chg_1m_pct": 2.91,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 37.2
    },
    {
     "symbol": "MSFT",
-    "day": "2026-11-04",
-    "close": 556.07,
-    "chg_1d_pct": 6.76,
-    "chg_1m_pct": 5.04,
+    "day": "2026-11-05",
+    "close": 536.29,
+    "chg_1d_pct": -3.56,
+    "chg_1m_pct": 1.24,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 34.0
+    "vol_20d_pct": 36.3
+   },
+   {
+    "symbol": "NFLX",
+    "day": "2026-11-05",
+    "close": 65.53,
+    "chg_1d_pct": -1.31,
+    "chg_1m_pct": -5.98,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 36.9
+   },
+   {
+    "symbol": "NKE",
+    "day": "2026-11-05",
+    "close": 39.56,
+    "chg_1d_pct": -2.3,
+    "chg_1m_pct": 15.12,
+    "above_200d": false,
+    "above_50d": true,
+    "vol_20d_pct": 34.5
    },
    {
     "symbol": "NVDA",
-    "day": "2026-11-04",
-    "close": 200.17,
-    "chg_1d_pct": -3.1,
-    "chg_1m_pct": -16.31,
+    "day": "2026-11-05",
+    "close": 181.59,
+    "chg_1d_pct": -9.28,
+    "chg_1m_pct": -23.51,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 32.9
+    "vol_20d_pct": 44.1
+   },
+   {
+    "symbol": "ORCL",
+    "day": "2026-11-05",
+    "close": 115.19,
+    "chg_1d_pct": -6.95,
+    "chg_1m_pct": -19.48,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 81.6
+   },
+   {
+    "symbol": "PEP",
+    "day": "2026-11-05",
+    "close": 142.78,
+    "chg_1d_pct": 0.23,
+    "chg_1m_pct": 15.49,
+    "above_200d": false,
+    "above_50d": true,
+    "vol_20d_pct": 28.2
+   },
+   {
+    "symbol": "PG",
+    "day": "2026-11-05",
+    "close": 167.065,
+    "chg_1d_pct": -0.19,
+    "chg_1m_pct": 13.79,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 28.2
+   },
+   {
+    "symbol": "QCOM",
+    "day": "2026-11-05",
+    "close": 156.885,
+    "chg_1d_pct": -9.7,
+    "chg_1m_pct": -11.4,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 64.1
    },
    {
     "symbol": "QQQ",
-    "day": "2026-11-04",
-    "close": 691.68,
-    "chg_1d_pct": 0.93,
-    "chg_1m_pct": -8.94,
-    "above_200d": true,
+    "day": "2026-11-05",
+    "close": 648.05,
+    "chg_1d_pct": -6.31,
+    "chg_1m_pct": -14.48,
+    "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 23.1
+    "vol_20d_pct": 31.0
    },
    {
     "symbol": "SPY",
-    "day": "2026-11-04",
-    "close": 766.73,
-    "chg_1d_pct": 1.64,
-    "chg_1m_pct": -1.59,
+    "day": "2026-11-05",
+    "close": 733.43,
+    "chg_1d_pct": -4.34,
+    "chg_1m_pct": -5.63,
     "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 12.8
+    "above_50d": false,
+    "vol_20d_pct": 19.9
    },
    {
     "symbol": "TLT",
-    "day": "2026-11-04",
-    "close": 81.765,
-    "chg_1d_pct": 0.84,
-    "chg_1m_pct": 6.26,
+    "day": "2026-11-05",
+    "close": 81.915,
+    "chg_1d_pct": 0.18,
+    "chg_1m_pct": 6.6,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 11.0
+    "vol_20d_pct": 10.8
+   },
+   {
+    "symbol": "TSLA",
+    "day": "2026-11-05",
+    "close": 343.55,
+    "chg_1d_pct": -10.81,
+    "chg_1m_pct": -9.04,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 55.1
+   },
+   {
+    "symbol": "TXN",
+    "day": "2026-11-05",
+    "close": 278.205,
+    "chg_1d_pct": -10.71,
+    "chg_1m_pct": -3.24,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 51.8
+   },
+   {
+    "symbol": "UNH",
+    "day": "2026-11-05",
+    "close": 395.75,
+    "chg_1d_pct": -3.31,
+    "chg_1m_pct": 5.3,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 31.6
+   },
+   {
+    "symbol": "V",
+    "day": "2026-11-05",
+    "close": 422.41,
+    "chg_1d_pct": -3.26,
+    "chg_1m_pct": 13.54,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 28.0
+   },
+   {
+    "symbol": "WMT",
+    "day": "2026-11-05",
+    "close": 127.71,
+    "chg_1d_pct": -1.18,
+    "chg_1m_pct": 18.12,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 27.4
    },
    {
     "symbol": "XLE",
-    "day": "2026-11-04",
-    "close": 63.54,
-    "chg_1d_pct": -4.74,
-    "chg_1m_pct": -0.3,
+    "day": "2026-11-05",
+    "close": 61.69,
+    "chg_1d_pct": -2.91,
+    "chg_1m_pct": -2.67,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 32.0
+    "vol_20d_pct": 31.8
    },
    {
     "symbol": "XLF",
-    "day": "2026-11-04",
-    "close": 59.17,
-    "chg_1d_pct": 3.48,
-    "chg_1m_pct": 9.57,
+    "day": "2026-11-05",
+    "close": 57.53,
+    "chg_1d_pct": -2.77,
+    "chg_1m_pct": 7.04,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 17.8
+    "vol_20d_pct": 21.1
    },
    {
     "symbol": "XLI",
-    "day": "2026-11-04",
-    "close": 169.43,
-    "chg_1d_pct": -1.12,
-    "chg_1m_pct": -1.25,
+    "day": "2026-11-05",
+    "close": 162.49,
+    "chg_1d_pct": -4.1,
+    "chg_1m_pct": -3.2,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 14.1
+    "vol_20d_pct": 20.4
    },
    {
     "symbol": "XLK",
-    "day": "2026-11-04",
-    "close": 176.47,
-    "chg_1d_pct": -0.01,
-    "chg_1m_pct": -12.63,
-    "above_200d": true,
+    "day": "2026-11-05",
+    "close": 162.45,
+    "chg_1d_pct": -7.94,
+    "chg_1m_pct": -19.33,
+    "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 31.1
+    "vol_20d_pct": 40.4
    },
    {
     "symbol": "XLP",
-    "day": "2026-11-04",
-    "close": 91.96,
-    "chg_1d_pct": 3.37,
-    "chg_1m_pct": 12.46,
+    "day": "2026-11-05",
+    "close": 91.29,
+    "chg_1d_pct": -0.73,
+    "chg_1m_pct": 11.74,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 24.2
+    "vol_20d_pct": 24.0
    },
    {
     "symbol": "XLU",
-    "day": "2026-11-04",
-    "close": 43.63,
-    "chg_1d_pct": 0.46,
-    "chg_1m_pct": 6.01,
+    "day": "2026-11-05",
+    "close": 43.32,
+    "chg_1d_pct": -0.71,
+    "chg_1m_pct": 5.24,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 14.8
+    "vol_20d_pct": 15.1
    },
    {
     "symbol": "XLV",
-    "day": "2026-11-04",
-    "close": 189.68,
-    "chg_1d_pct": 3.08,
-    "chg_1m_pct": 13.5,
+    "day": "2026-11-05",
+    "close": 184.99,
+    "chg_1d_pct": -2.47,
+    "chg_1m_pct": 9.59,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 20.7
+    "vol_20d_pct": 23.2
    },
    {
     "symbol": "XLY",
-    "day": "2026-11-04",
-    "close": 122.3,
-    "chg_1d_pct": 4.23,
-    "chg_1m_pct": 9.44,
+    "day": "2026-11-05",
+    "close": 117.65,
+    "chg_1d_pct": -3.8,
+    "chg_1m_pct": 5.62,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 21.6
+    "vol_20d_pct": 26.4
+   },
+   {
+    "symbol": "XOM",
+    "day": "2026-11-05",
+    "close": 165.32,
+    "chg_1d_pct": -2.44,
+    "chg_1m_pct": 0.77,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 32.8
    },
    {
     "symbol": "BTC/USD",
-    "day": "2026-11-04",
-    "close": 80438.0965,
-    "chg_1d_pct": 4.0,
-    "chg_1m_pct": -1.39,
+    "day": "2026-11-05",
+    "close": 75971.885,
+    "chg_1d_pct": -5.55,
+    "chg_1m_pct": -7.5,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 27.7
+    "vol_20d_pct": 33.8
    },
    {
     "symbol": "ETH/USD",
-    "day": "2026-11-04",
-    "close": 2422.52,
-    "chg_1d_pct": 6.63,
-    "chg_1m_pct": 0.18,
+    "day": "2026-11-05",
+    "close": 2234.5605,
+    "chg_1d_pct": -7.76,
+    "chg_1m_pct": -8.4,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 34.6
+    "vol_20d_pct": 44.2
    }
   ],
   "news": [
    {
     "symbol": "SPY",
-    "time": "2026-11-04T20:53:11+00:00",
-    "headline": "QUICK SPARK: Trump Celebrates Stock Rally Fueled by His Own Party\u2019s Midterm Defeat",
+    "time": "2026-11-05T22:38:21+00:00",
+    "headline": "'Rubio Rejects Reports He Will Leave His Jobs To Run For President; President Trump\u2019s Secretary Of State And National Security Adviser Said He Intended To Stick With The Administration To The End' - NY Times",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-04T20:27:55+00:00",
-    "headline": "VTI Vs. SPY: Why Wall Street's Post-Midterm Rally Isn't as Broad as It Looks",
+    "time": "2026-11-05T20:40:04+00:00",
+    "headline": "'Trump-Backed Critical Minerals Deals Face Growing Pressure After Blue Wave' - Bloomberg News",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-04T19:59:53+00:00",
-    "headline": "'Trump diesel deal with Russia falters as US fuel supplies hit 20-year low' - Financial Times",
+    "time": "2026-11-05T19:50:59+00:00",
+    "headline": "'Rubio Considers Leaving Administration After GOP\u2019s Midterm Loss' - Bloomberg Exclusive",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-04T18:24:17+00:00",
-    "headline": "President Trump Says Iran War Will End Whenever I Want It To; Not Considering Replacing Hegseth",
+    "time": "2026-11-05T17:37:12+00:00",
+    "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-04T18:13:35+00:00",
-    "headline": "President Trump On Election, Says It's Largely True Election Loss Was Result Of Iran War; It Was Worth It; You Can't Let Iran Have A Nuclear Weapon;  I'll Get Along Probably With The Democrats Unless They Want to Be Destructive; If I Were On The Ballot We Would Have Won, We Weren't Able To Transfer The Love To Candidates; Says It Would Destroy Democratic Party If They Impeached Me",
+    "time": "2026-11-05T17:28:34+00:00",
+    "headline": "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-04T20:53:11+00:00",
-    "headline": "QUICK SPARK: Trump Celebrates Stock Rally Fueled by His Own Party\u2019s Midterm Defeat",
+    "time": "2026-11-05T18:14:20+00:00",
+    "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-04T17:31:02+00:00",
-    "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+    "time": "2026-11-05T18:13:10+00:00",
+    "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-04T17:03:06+00:00",
-    "headline": "Why Investors May Be Getting The Blue Wave Trade Wrong; Iran Remains The Wild Card",
+    "time": "2026-11-05T17:37:12+00:00",
+    "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-04T16:00:34+00:00",
-    "headline": "8 Of 11 Sectors Rise Wednesday As Growth Leads",
+    "time": "2026-11-05T17:28:34+00:00",
+    "headline": "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-04T13:57:11+00:00",
-    "headline": "Dan Ives Says Democratic Sweep Will Slow AI Buildout, Estimates 10% Of Planned US Data Centers \u2018Will Not Happen Now\u2019",
+    "time": "2026-11-05T16:00:23+00:00",
+    "headline": "Defensives Lead Sectors Thursday As Growth Sectors Trail",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-05T01:01:58+00:00",
-    "headline": "Apple Reportedly Reduces Employee AI Spending Budgets",
+    "time": "2026-11-06T00:01:24+00:00",
+    "headline": "Apple Completes $7.5 Billion Bond Offering",
     "source": "fiscal.ai"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-04T20:27:55+00:00",
-    "headline": "VTI Vs. SPY: Why Wall Street's Post-Midterm Rally Isn't as Broad as It Looks",
+    "time": "2026-11-05T22:00:08+00:00",
+    "headline": "Nvidia Stock Is Down Nearly 24% Ahead of Earnings: Is It a Buy?",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-04T20:20:49+00:00",
-    "headline": "From Pharmaceuticals to PCs: HP Bets on Emma Walmsley to Navigate Chip Crisis",
+    "time": "2026-11-05T20:57:23+00:00",
+    "headline": "Republican Senator Who Won Reelection Is Selling Magnificent Seven Stocks: Here Are the Trades",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-04T19:50:43+00:00",
-    "headline": "'Apple Cuts Internal AI Usage Budgets in Move to Reduce Spending' - Bloomberg Exclusive",
+    "time": "2026-11-05T18:42:24+00:00",
+    "headline": "'Apple Draws $31 Billion of Orders for High-Grade Bond Sale' - Bloomberg",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-04T19:34:09+00:00",
-    "headline": "Apple, Tesla Supplier Is Taking on 3M: Here's What Investors Should Know",
+    "time": "2026-11-05T17:37:12+00:00",
+    "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-04T22:31:39+00:00",
-    "headline": "Microsoft Updates Clarity Analytics Tool with AI Agent Tracking Features",
+    "time": "2026-11-06T01:01:26+00:00",
+    "headline": "Microsoft Adjusts AI Infrastructure Strategy and Capital Expenditure Outlook",
     "source": "fiscal.ai"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-04T20:27:55+00:00",
-    "headline": "VTI Vs. SPY: Why Wall Street's Post-Midterm Rally Isn't as Broad as It Looks",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-04T20:20:49+00:00",
-    "headline": "From Pharmaceuticals to PCs: HP Bets on Emma Walmsley to Navigate Chip Crisis",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-04T19:01:37+00:00",
-    "headline": "Above Security Joins Microsoft for Startups Pegasus Program",
+    "time": "2026-11-05T22:31:46+00:00",
+    "headline": "Concentrix Launches New AI Application for Microsoft Dynamics 365",
     "source": "fiscal.ai"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-04T19:01:37+00:00",
-    "headline": "PowerDMARC Launches on Microsoft Marketplace",
+    "time": "2026-11-05T22:15:29+00:00",
+    "headline": "IREN Says At Microsoft\u2019s Request, We Are Implementing Network Design Change Across Horizon Deployments; Under Microsoft Agreement, Delivery Dates Are Extended, Without Delay Credits, For Delays Resulting From Microsoft-Requested Change; Expect Making Significant Investments For Foreseeable Future, Including Capital Requirements Related To Microsoft & NVIDIA Agreements; Expect Making Significant Investments For Foreseeable Future, Including GPU Acquisitions, Development Of Additional Data Center Capacity",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-11-05T21:02:04+00:00",
+    "headline": "Michael Burry Asks Whether Anthropic\u2019s Partners Are Polishing Its IPO Numbers",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-11-05T20:57:23+00:00",
+    "headline": "Republican Senator Who Won Reelection Is Selling Magnificent Seven Stocks: Here Are the Trades",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-11-06T00:01:31+00:00",
+    "headline": "NVIDIA Plans to Convert Telecom Facilities into AI Data Centers",
     "source": "fiscal.ai"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-04T21:34:55+00:00",
-    "headline": "Arm-based PCs Have Now Reached ~20% Of Global Shipments, Reflecting Growing Adoption Of Arm In Personal Computing. Google Introduced GoogleBook, A New Category Of AI-Native Laptops Built For Gemini Intelligence, With Arm Serving As A Primary Compute Platform For Many Models. NVIDIA\u2019s RTX Spark, Built On Arm, Further Expands Our Reach Into Local AI, Content Creation And Gaming",
+    "time": "2026-11-05T23:16:48+00:00",
+    "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-04T21:31:40+00:00",
-    "headline": "Fermaca Named First NVIDIA Cloud Partner in Mexico",
-    "source": "fiscal.ai"
-   },
-   {
-    "symbol": "NVDA",
-    "time": "2026-11-04T20:27:55+00:00",
-    "headline": "VTI Vs. SPY: Why Wall Street's Post-Midterm Rally Isn't as Broad as It Looks",
+    "time": "2026-11-05T22:00:08+00:00",
+    "headline": "Nvidia Stock Is Down Nearly 24% Ahead of Earnings: Is It a Buy?",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-04T17:54:11+00:00",
-    "headline": "AMD's AI Data Center Guarantees Reach $8.5 Billion as It Challenges Nvidia",
+    "time": "2026-11-05T21:02:04+00:00",
+    "headline": "Michael Burry Asks Whether Anthropic\u2019s Partners Are Polishing Its IPO Numbers",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-04T17:31:02+00:00",
-    "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+    "time": "2026-11-05T20:32:21+00:00",
+    "headline": "AMD CEO Lisa Su Calls This Market Moment \u2018Short-Sighted\u2019 on AI Spending",
     "source": "benzinga"
    }
   ],
   "regime": {
    "spy_above_200d": true,
-   "spy_vol_20d_pct": 12.8,
+   "spy_vol_20d_pct": 19.9,
    "calm": true
   },
   "benchmarks": [
@@ -2539,9 +2938,1499 @@
     "close": 766.73
    },
    {
+    "day": "2026-11-05",
+    "symbol": "SPY",
+    "close": 733.43
+   },
+   {
     "day": "2025-09-02",
-    "symbol": "BTC/USD",
-    "close": 111238.015
+    "symbol": "QQQ",
+    "close": 562.39
+   },
+   {
+    "day": "2025-09-03",
+    "symbol": "QQQ",
+    "close": 566.67
+   },
+   {
+    "day": "2025-09-04",
+    "symbol": "QQQ",
+    "close": 571.91
+   },
+   {
+    "day": "2025-09-05",
+    "symbol": "QQQ",
+    "close": 572.73
+   },
+   {
+    "day": "2025-09-08",
+    "symbol": "QQQ",
+    "close": 575.43
+   },
+   {
+    "day": "2025-09-09",
+    "symbol": "QQQ",
+    "close": 577.1
+   },
+   {
+    "day": "2025-09-10",
+    "symbol": "QQQ",
+    "close": 577.36
+   },
+   {
+    "day": "2025-09-11",
+    "symbol": "QQQ",
+    "close": 580.67
+   },
+   {
+    "day": "2025-09-12",
+    "symbol": "QQQ",
+    "close": 583.24
+   },
+   {
+    "day": "2025-09-15",
+    "symbol": "QQQ",
+    "close": 588.2
+   },
+   {
+    "day": "2025-09-16",
+    "symbol": "QQQ",
+    "close": 587.7
+   },
+   {
+    "day": "2025-09-17",
+    "symbol": "QQQ",
+    "close": 586.62
+   },
+   {
+    "day": "2025-09-18",
+    "symbol": "QQQ",
+    "close": 591.9
+   },
+   {
+    "day": "2025-09-19",
+    "symbol": "QQQ",
+    "close": 595.96
+   },
+   {
+    "day": "2025-09-22",
+    "symbol": "QQQ",
+    "close": 599.42
+   },
+   {
+    "day": "2025-09-23",
+    "symbol": "QQQ",
+    "close": 595.36
+   },
+   {
+    "day": "2025-09-24",
+    "symbol": "QQQ",
+    "close": 593.21
+   },
+   {
+    "day": "2025-09-25",
+    "symbol": "QQQ",
+    "close": 590.59
+   },
+   {
+    "day": "2025-09-26",
+    "symbol": "QQQ",
+    "close": 593.23
+   },
+   {
+    "day": "2025-09-29",
+    "symbol": "QQQ",
+    "close": 596.03
+   },
+   {
+    "day": "2025-09-30",
+    "symbol": "QQQ",
+    "close": 597.52
+   },
+   {
+    "day": "2025-10-01",
+    "symbol": "QQQ",
+    "close": 600.46
+   },
+   {
+    "day": "2025-10-02",
+    "symbol": "QQQ",
+    "close": 602.94
+   },
+   {
+    "day": "2025-10-03",
+    "symbol": "QQQ",
+    "close": 600.27
+   },
+   {
+    "day": "2025-10-06",
+    "symbol": "QQQ",
+    "close": 604.84
+   },
+   {
+    "day": "2025-10-07",
+    "symbol": "QQQ",
+    "close": 601.64
+   },
+   {
+    "day": "2025-10-08",
+    "symbol": "QQQ",
+    "close": 608.59
+   },
+   {
+    "day": "2025-10-09",
+    "symbol": "QQQ",
+    "close": 607.88
+   },
+   {
+    "day": "2025-10-10",
+    "symbol": "QQQ",
+    "close": 586.86
+   },
+   {
+    "day": "2025-10-13",
+    "symbol": "QQQ",
+    "close": 599.26
+   },
+   {
+    "day": "2025-10-14",
+    "symbol": "QQQ",
+    "close": 595.28
+   },
+   {
+    "day": "2025-10-15",
+    "symbol": "QQQ",
+    "close": 599.36
+   },
+   {
+    "day": "2025-10-16",
+    "symbol": "QQQ",
+    "close": 597.25
+   },
+   {
+    "day": "2025-10-17",
+    "symbol": "QQQ",
+    "close": 601.02
+   },
+   {
+    "day": "2025-10-20",
+    "symbol": "QQQ",
+    "close": 608.68
+   },
+   {
+    "day": "2025-10-21",
+    "symbol": "QQQ",
+    "close": 608.44
+   },
+   {
+    "day": "2025-10-22",
+    "symbol": "QQQ",
+    "close": 602.62
+   },
+   {
+    "day": "2025-10-23",
+    "symbol": "QQQ",
+    "close": 607.6
+   },
+   {
+    "day": "2025-10-24",
+    "symbol": "QQQ",
+    "close": 614.08
+   },
+   {
+    "day": "2025-10-27",
+    "symbol": "QQQ",
+    "close": 625.14
+   },
+   {
+    "day": "2025-10-28",
+    "symbol": "QQQ",
+    "close": 629.95
+   },
+   {
+    "day": "2025-10-29",
+    "symbol": "QQQ",
+    "close": 632.9
+   },
+   {
+    "day": "2025-10-30",
+    "symbol": "QQQ",
+    "close": 623.06
+   },
+   {
+    "day": "2025-10-31",
+    "symbol": "QQQ",
+    "close": 626.32
+   },
+   {
+    "day": "2025-11-03",
+    "symbol": "QQQ",
+    "close": 629.18
+   },
+   {
+    "day": "2025-11-04",
+    "symbol": "QQQ",
+    "close": 616.26
+   },
+   {
+    "day": "2025-11-05",
+    "symbol": "QQQ",
+    "close": 620.46
+   },
+   {
+    "day": "2025-11-06",
+    "symbol": "QQQ",
+    "close": 608.83
+   },
+   {
+    "day": "2025-11-07",
+    "symbol": "QQQ",
+    "close": 606.9
+   },
+   {
+    "day": "2025-11-10",
+    "symbol": "QQQ",
+    "close": 620.35
+   },
+   {
+    "day": "2025-11-11",
+    "symbol": "QQQ",
+    "close": 618.66
+   },
+   {
+    "day": "2025-11-12",
+    "symbol": "QQQ",
+    "close": 618.14
+   },
+   {
+    "day": "2025-11-13",
+    "symbol": "QQQ",
+    "close": 605.54
+   },
+   {
+    "day": "2025-11-14",
+    "symbol": "QQQ",
+    "close": 605.92
+   },
+   {
+    "day": "2025-11-17",
+    "symbol": "QQQ",
+    "close": 600.76
+   },
+   {
+    "day": "2025-11-18",
+    "symbol": "QQQ",
+    "close": 593.48
+   },
+   {
+    "day": "2025-11-19",
+    "symbol": "QQQ",
+    "close": 596.98
+   },
+   {
+    "day": "2025-11-20",
+    "symbol": "QQQ",
+    "close": 583.08
+   },
+   {
+    "day": "2025-11-21",
+    "symbol": "QQQ",
+    "close": 587.49
+   },
+   {
+    "day": "2025-11-24",
+    "symbol": "QQQ",
+    "close": 602.51
+   },
+   {
+    "day": "2025-11-25",
+    "symbol": "QQQ",
+    "close": 606.07
+   },
+   {
+    "day": "2025-11-26",
+    "symbol": "QQQ",
+    "close": 611.4
+   },
+   {
+    "day": "2025-11-28",
+    "symbol": "QQQ",
+    "close": 616.2
+   },
+   {
+    "day": "2025-12-01",
+    "symbol": "QQQ",
+    "close": 614.36
+   },
+   {
+    "day": "2025-12-02",
+    "symbol": "QQQ",
+    "close": 619.08
+   },
+   {
+    "day": "2025-12-03",
+    "symbol": "QQQ",
+    "close": 620.61
+   },
+   {
+    "day": "2025-12-04",
+    "symbol": "QQQ",
+    "close": 620.0
+   },
+   {
+    "day": "2025-12-05",
+    "symbol": "QQQ",
+    "close": 622.59
+   },
+   {
+    "day": "2025-12-08",
+    "symbol": "QQQ",
+    "close": 621.31
+   },
+   {
+    "day": "2025-12-09",
+    "symbol": "QQQ",
+    "close": 622.18
+   },
+   {
+    "day": "2025-12-10",
+    "symbol": "QQQ",
+    "close": 624.75
+   },
+   {
+    "day": "2025-12-11",
+    "symbol": "QQQ",
+    "close": 622.68
+   },
+   {
+    "day": "2025-12-12",
+    "symbol": "QQQ",
+    "close": 610.84
+   },
+   {
+    "day": "2025-12-15",
+    "symbol": "QQQ",
+    "close": 607.8
+   },
+   {
+    "day": "2025-12-16",
+    "symbol": "QQQ",
+    "close": 608.99
+   },
+   {
+    "day": "2025-12-17",
+    "symbol": "QQQ",
+    "close": 597.57
+   },
+   {
+    "day": "2025-12-18",
+    "symbol": "QQQ",
+    "close": 606.3
+   },
+   {
+    "day": "2025-12-19",
+    "symbol": "QQQ",
+    "close": 614.24
+   },
+   {
+    "day": "2025-12-22",
+    "symbol": "QQQ",
+    "close": 617.01
+   },
+   {
+    "day": "2025-12-23",
+    "symbol": "QQQ",
+    "close": 620.02
+   },
+   {
+    "day": "2025-12-24",
+    "symbol": "QQQ",
+    "close": 621.84
+   },
+   {
+    "day": "2025-12-26",
+    "symbol": "QQQ",
+    "close": 621.75
+   },
+   {
+    "day": "2025-12-29",
+    "symbol": "QQQ",
+    "close": 618.78
+   },
+   {
+    "day": "2025-12-30",
+    "symbol": "QQQ",
+    "close": 617.32
+   },
+   {
+    "day": "2025-12-31",
+    "symbol": "QQQ",
+    "close": 612.16
+   },
+   {
+    "day": "2026-01-02",
+    "symbol": "QQQ",
+    "close": 611.0
+   },
+   {
+    "day": "2026-01-05",
+    "symbol": "QQQ",
+    "close": 615.87
+   },
+   {
+    "day": "2026-01-06",
+    "symbol": "QQQ",
+    "close": 621.34
+   },
+   {
+    "day": "2026-01-07",
+    "symbol": "QQQ",
+    "close": 621.99
+   },
+   {
+    "day": "2026-01-08",
+    "symbol": "QQQ",
+    "close": 618.33
+   },
+   {
+    "day": "2026-01-09",
+    "symbol": "QQQ",
+    "close": 624.53
+   },
+   {
+    "day": "2026-01-12",
+    "symbol": "QQQ",
+    "close": 625.06
+   },
+   {
+    "day": "2026-01-13",
+    "symbol": "QQQ",
+    "close": 623.98
+   },
+   {
+    "day": "2026-01-14",
+    "symbol": "QQQ",
+    "close": 617.45
+   },
+   {
+    "day": "2026-01-15",
+    "symbol": "QQQ",
+    "close": 619.55
+   },
+   {
+    "day": "2026-01-16",
+    "symbol": "QQQ",
+    "close": 618.92
+   },
+   {
+    "day": "2026-01-20",
+    "symbol": "QQQ",
+    "close": 605.87
+   },
+   {
+    "day": "2026-01-21",
+    "symbol": "QQQ",
+    "close": 614.09
+   },
+   {
+    "day": "2026-01-22",
+    "symbol": "QQQ",
+    "close": 618.7
+   },
+   {
+    "day": "2026-01-23",
+    "symbol": "QQQ",
+    "close": 620.67
+   },
+   {
+    "day": "2026-01-26",
+    "symbol": "QQQ",
+    "close": 623.32
+   },
+   {
+    "day": "2026-01-27",
+    "symbol": "QQQ",
+    "close": 628.91
+   },
+   {
+    "day": "2026-01-28",
+    "symbol": "QQQ",
+    "close": 630.84
+   },
+   {
+    "day": "2026-01-29",
+    "symbol": "QQQ",
+    "close": 627.22
+   },
+   {
+    "day": "2026-01-30",
+    "symbol": "QQQ",
+    "close": 619.6
+   },
+   {
+    "day": "2026-02-02",
+    "symbol": "QQQ",
+    "close": 624.12
+   },
+   {
+    "day": "2026-02-03",
+    "symbol": "QQQ",
+    "close": 614.37
+   },
+   {
+    "day": "2026-02-04",
+    "symbol": "QQQ",
+    "close": 603.58
+   },
+   {
+    "day": "2026-02-05",
+    "symbol": "QQQ",
+    "close": 595.03
+   },
+   {
+    "day": "2026-02-06",
+    "symbol": "QQQ",
+    "close": 607.52
+   },
+   {
+    "day": "2026-02-09",
+    "symbol": "QQQ",
+    "close": 612.24
+   },
+   {
+    "day": "2026-02-10",
+    "symbol": "QQQ",
+    "close": 609.4
+   },
+   {
+    "day": "2026-02-11",
+    "symbol": "QQQ",
+    "close": 610.82
+   },
+   {
+    "day": "2026-02-12",
+    "symbol": "QQQ",
+    "close": 598.52
+   },
+   {
+    "day": "2026-02-13",
+    "symbol": "QQQ",
+    "close": 599.82
+   },
+   {
+    "day": "2026-02-17",
+    "symbol": "QQQ",
+    "close": 599.19
+   },
+   {
+    "day": "2026-02-18",
+    "symbol": "QQQ",
+    "close": 603.61
+   },
+   {
+    "day": "2026-02-19",
+    "symbol": "QQQ",
+    "close": 601.35
+   },
+   {
+    "day": "2026-02-20",
+    "symbol": "QQQ",
+    "close": 606.8
+   },
+   {
+    "day": "2026-02-23",
+    "symbol": "QQQ",
+    "close": 599.4
+   },
+   {
+    "day": "2026-02-24",
+    "symbol": "QQQ",
+    "close": 605.84
+   },
+   {
+    "day": "2026-02-25",
+    "symbol": "QQQ",
+    "close": 614.49
+   },
+   {
+    "day": "2026-02-26",
+    "symbol": "QQQ",
+    "close": 607.18
+   },
+   {
+    "day": "2026-02-27",
+    "symbol": "QQQ",
+    "close": 605.27
+   },
+   {
+    "day": "2026-03-02",
+    "symbol": "QQQ",
+    "close": 605.97
+   },
+   {
+    "day": "2026-03-03",
+    "symbol": "QQQ",
+    "close": 599.62
+   },
+   {
+    "day": "2026-03-04",
+    "symbol": "QQQ",
+    "close": 608.51
+   },
+   {
+    "day": "2026-03-05",
+    "symbol": "QQQ",
+    "close": 606.85
+   },
+   {
+    "day": "2026-03-06",
+    "symbol": "QQQ",
+    "close": 597.8
+   },
+   {
+    "day": "2026-03-09",
+    "symbol": "QQQ",
+    "close": 605.7
+   },
+   {
+    "day": "2026-03-10",
+    "symbol": "QQQ",
+    "close": 605.55
+   },
+   {
+    "day": "2026-03-11",
+    "symbol": "QQQ",
+    "close": 605.66
+   },
+   {
+    "day": "2026-03-12",
+    "symbol": "QQQ",
+    "close": 595.28
+   },
+   {
+    "day": "2026-03-13",
+    "symbol": "QQQ",
+    "close": 591.59
+   },
+   {
+    "day": "2026-03-16",
+    "symbol": "QQQ",
+    "close": 598.44
+   },
+   {
+    "day": "2026-03-17",
+    "symbol": "QQQ",
+    "close": 601.46
+   },
+   {
+    "day": "2026-03-18",
+    "symbol": "QQQ",
+    "close": 592.8
+   },
+   {
+    "day": "2026-03-19",
+    "symbol": "QQQ",
+    "close": 590.99
+   },
+   {
+    "day": "2026-03-20",
+    "symbol": "QQQ",
+    "close": 580.11
+   },
+   {
+    "day": "2026-03-23",
+    "symbol": "QQQ",
+    "close": 586.95
+   },
+   {
+    "day": "2026-03-24",
+    "symbol": "QQQ",
+    "close": 582.67
+   },
+   {
+    "day": "2026-03-25",
+    "symbol": "QQQ",
+    "close": 586.51
+   },
+   {
+    "day": "2026-03-26",
+    "symbol": "QQQ",
+    "close": 572.45
+   },
+   {
+    "day": "2026-03-27",
+    "symbol": "QQQ",
+    "close": 561.3
+   },
+   {
+    "day": "2026-03-30",
+    "symbol": "QQQ",
+    "close": 557.09
+   },
+   {
+    "day": "2026-03-31",
+    "symbol": "QQQ",
+    "close": 575.88
+   },
+   {
+    "day": "2026-04-01",
+    "symbol": "QQQ",
+    "close": 583.09
+   },
+   {
+    "day": "2026-04-02",
+    "symbol": "QQQ",
+    "close": 583.7
+   },
+   {
+    "day": "2026-04-06",
+    "symbol": "QQQ",
+    "close": 587.14
+   },
+   {
+    "day": "2026-04-07",
+    "symbol": "QQQ",
+    "close": 587.62
+   },
+   {
+    "day": "2026-04-08",
+    "symbol": "QQQ",
+    "close": 604.66
+   },
+   {
+    "day": "2026-04-09",
+    "symbol": "QQQ",
+    "close": 608.75
+   },
+   {
+    "day": "2026-04-10",
+    "symbol": "QQQ",
+    "close": 609.84
+   },
+   {
+    "day": "2026-04-13",
+    "symbol": "QQQ",
+    "close": 616.0
+   },
+   {
+    "day": "2026-04-14",
+    "symbol": "QQQ",
+    "close": 627.24
+   },
+   {
+    "day": "2026-04-15",
+    "symbol": "QQQ",
+    "close": 635.88
+   },
+   {
+    "day": "2026-04-16",
+    "symbol": "QQQ",
+    "close": 639.04
+   },
+   {
+    "day": "2026-04-17",
+    "symbol": "QQQ",
+    "close": 647.34
+   },
+   {
+    "day": "2026-04-20",
+    "symbol": "QQQ",
+    "close": 645.39
+   },
+   {
+    "day": "2026-04-21",
+    "symbol": "QQQ",
+    "close": 642.86
+   },
+   {
+    "day": "2026-04-22",
+    "symbol": "QQQ",
+    "close": 653.68
+   },
+   {
+    "day": "2026-04-23",
+    "symbol": "QQQ",
+    "close": 650.01
+   },
+   {
+    "day": "2026-04-24",
+    "symbol": "QQQ",
+    "close": 662.5
+   },
+   {
+    "day": "2026-04-27",
+    "symbol": "QQQ",
+    "close": 662.86
+   },
+   {
+    "day": "2026-04-28",
+    "symbol": "QQQ",
+    "close": 656.18
+   },
+   {
+    "day": "2026-04-29",
+    "symbol": "QQQ",
+    "close": 660.17
+   },
+   {
+    "day": "2026-04-30",
+    "symbol": "QQQ",
+    "close": 666.18
+   },
+   {
+    "day": "2026-05-01",
+    "symbol": "QQQ",
+    "close": 672.66
+   },
+   {
+    "day": "2026-05-04",
+    "symbol": "QQQ",
+    "close": 671.34
+   },
+   {
+    "day": "2026-05-05",
+    "symbol": "QQQ",
+    "close": 680.07
+   },
+   {
+    "day": "2026-05-06",
+    "symbol": "QQQ",
+    "close": 694.13
+   },
+   {
+    "day": "2026-05-07",
+    "symbol": "QQQ",
+    "close": 693.44
+   },
+   {
+    "day": "2026-05-08",
+    "symbol": "QQQ",
+    "close": 709.6
+   },
+   {
+    "day": "2026-05-11",
+    "symbol": "QQQ",
+    "close": 711.84
+   },
+   {
+    "day": "2026-05-12",
+    "symbol": "QQQ",
+    "close": 705.71
+   },
+   {
+    "day": "2026-05-13",
+    "symbol": "QQQ",
+    "close": 713.04
+   },
+   {
+    "day": "2026-05-14",
+    "symbol": "QQQ",
+    "close": 718.21
+   },
+   {
+    "day": "2026-05-15",
+    "symbol": "QQQ",
+    "close": 707.39
+   },
+   {
+    "day": "2026-05-18",
+    "symbol": "QQQ",
+    "close": 704.18
+   },
+   {
+    "day": "2026-05-19",
+    "symbol": "QQQ",
+    "close": 700.02
+   },
+   {
+    "day": "2026-05-20",
+    "symbol": "QQQ",
+    "close": 711.54
+   },
+   {
+    "day": "2026-05-21",
+    "symbol": "QQQ",
+    "close": 712.88
+   },
+   {
+    "day": "2026-05-22",
+    "symbol": "QQQ",
+    "close": 715.96
+   },
+   {
+    "day": "2026-05-26",
+    "symbol": "QQQ",
+    "close": 728.55
+   },
+   {
+    "day": "2026-05-27",
+    "symbol": "QQQ",
+    "close": 727.92
+   },
+   {
+    "day": "2026-05-28",
+    "symbol": "QQQ",
+    "close": 734.07
+   },
+   {
+    "day": "2026-05-29",
+    "symbol": "QQQ",
+    "close": 736.63
+   },
+   {
+    "day": "2026-06-01",
+    "symbol": "QQQ",
+    "close": 741.01
+   },
+   {
+    "day": "2026-06-02",
+    "symbol": "QQQ",
+    "close": 744.5
+   },
+   {
+    "day": "2026-06-03",
+    "symbol": "QQQ",
+    "close": 742.61
+   },
+   {
+    "day": "2026-06-04",
+    "symbol": "QQQ",
+    "close": 738.92
+   },
+   {
+    "day": "2026-06-05",
+    "symbol": "QQQ",
+    "close": 703.87
+   },
+   {
+    "day": "2026-06-08",
+    "symbol": "QQQ",
+    "close": 714.52
+   },
+   {
+    "day": "2026-06-09",
+    "symbol": "QQQ",
+    "close": 706.35
+   },
+   {
+    "day": "2026-06-10",
+    "symbol": "QQQ",
+    "close": 692.22
+   },
+   {
+    "day": "2026-06-11",
+    "symbol": "QQQ",
+    "close": 715.1
+   },
+   {
+    "day": "2026-06-12",
+    "symbol": "QQQ",
+    "close": 719.77
+   },
+   {
+    "day": "2026-06-15",
+    "symbol": "QQQ",
+    "close": 742.22
+   },
+   {
+    "day": "2026-06-16",
+    "symbol": "QQQ",
+    "close": 728.31
+   },
+   {
+    "day": "2026-06-17",
+    "symbol": "QQQ",
+    "close": 720.93
+   },
+   {
+    "day": "2026-06-18",
+    "symbol": "QQQ",
+    "close": 738.24
+   },
+   {
+    "day": "2026-06-22",
+    "symbol": "QQQ",
+    "close": 737.33
+   },
+   {
+    "day": "2026-06-23",
+    "symbol": "QQQ",
+    "close": 712.84
+   },
+   {
+    "day": "2026-06-24",
+    "symbol": "QQQ",
+    "close": 709.86
+   },
+   {
+    "day": "2026-06-25",
+    "symbol": "QQQ",
+    "close": 715.57
+   },
+   {
+    "day": "2026-06-26",
+    "symbol": "QQQ",
+    "close": 704.89
+   },
+   {
+    "day": "2026-06-29",
+    "symbol": "QQQ",
+    "close": 723.2
+   },
+   {
+    "day": "2026-06-30",
+    "symbol": "QQQ",
+    "close": 735.3
+   },
+   {
+    "day": "2026-07-01",
+    "symbol": "QQQ",
+    "close": 724.56
+   },
+   {
+    "day": "2026-07-02",
+    "symbol": "QQQ",
+    "close": 711.79
+   },
+   {
+    "day": "2026-07-06",
+    "symbol": "QQQ",
+    "close": 721.93
+   },
+   {
+    "day": "2026-07-07",
+    "symbol": "QQQ",
+    "close": 708.74
+   },
+   {
+    "day": "2026-07-08",
+    "symbol": "QQQ",
+    "close": 710.63
+   },
+   {
+    "day": "2026-07-09",
+    "symbol": "QQQ",
+    "close": 722.46
+   },
+   {
+    "day": "2026-07-10",
+    "symbol": "QQQ",
+    "close": 724.84
+   },
+   {
+    "day": "2026-07-13",
+    "symbol": "QQQ",
+    "close": 711.11
+   },
+   {
+    "day": "2026-07-14",
+    "symbol": "QQQ",
+    "close": 718.96
+   },
+   {
+    "day": "2026-07-15",
+    "symbol": "QQQ",
+    "close": 716.95
+   },
+   {
+    "day": "2026-07-16",
+    "symbol": "QQQ",
+    "close": 705.19
+   },
+   {
+    "day": "2026-07-17",
+    "symbol": "QQQ",
+    "close": 694.59
+   },
+   {
+    "day": "2026-07-20",
+    "symbol": "QQQ",
+    "close": 695.25
+   },
+   {
+    "day": "2026-07-21",
+    "symbol": "QQQ",
+    "close": 708.04
+   },
+   {
+    "day": "2026-07-22",
+    "symbol": "QQQ",
+    "close": 704.46
+   },
+   {
+    "day": "2026-07-23",
+    "symbol": "QQQ",
+    "close": 691.26
+   },
+   {
+    "day": "2026-07-24",
+    "symbol": "QQQ",
+    "close": 683.62
+   },
+   {
+    "day": "2026-07-27",
+    "symbol": "QQQ",
+    "close": 681.42
+   },
+   {
+    "day": "2026-07-28",
+    "symbol": "QQQ",
+    "close": 674.7
+   },
+   {
+    "day": "2026-07-29",
+    "symbol": "QQQ",
+    "close": 660.91
+   },
+   {
+    "day": "2026-07-30",
+    "symbol": "QQQ",
+    "close": 682.89
+   },
+   {
+    "day": "2026-07-31",
+    "symbol": "QQQ",
+    "close": 687.17
+   },
+   {
+    "day": "2026-08-03",
+    "symbol": "QQQ",
+    "close": 699.37
+   },
+   {
+    "day": "2026-08-04",
+    "symbol": "QQQ",
+    "close": 722.94
+   },
+   {
+    "day": "2026-08-05",
+    "symbol": "QQQ",
+    "close": 716.35
+   },
+   {
+    "day": "2026-08-06",
+    "symbol": "QQQ",
+    "close": 713.96
+   },
+   {
+    "day": "2026-08-07",
+    "symbol": "QQQ",
+    "close": 722.14
+   },
+   {
+    "day": "2026-08-10",
+    "symbol": "QQQ",
+    "close": 720.05
+   },
+   {
+    "day": "2026-08-11",
+    "symbol": "QQQ",
+    "close": 717.55
+   },
+   {
+    "day": "2026-08-12",
+    "symbol": "QQQ",
+    "close": 722.86
+   },
+   {
+    "day": "2026-08-13",
+    "symbol": "QQQ",
+    "close": 731.35
+   },
+   {
+    "day": "2026-08-14",
+    "symbol": "QQQ",
+    "close": 730.28
+   },
+   {
+    "day": "2026-08-17",
+    "symbol": "QQQ",
+    "close": 729.18
+   },
+   {
+    "day": "2026-08-18",
+    "symbol": "QQQ",
+    "close": 717.01
+   },
+   {
+    "day": "2026-08-19",
+    "symbol": "QQQ",
+    "close": 715.28
+   },
+   {
+    "day": "2026-08-20",
+    "symbol": "QQQ",
+    "close": 710.19
+   },
+   {
+    "day": "2026-08-21",
+    "symbol": "QQQ",
+    "close": 712.67
+   },
+   {
+    "day": "2026-08-24",
+    "symbol": "QQQ",
+    "close": 705.64
+   },
+   {
+    "day": "2026-08-25",
+    "symbol": "QQQ",
+    "close": 709.92
+   },
+   {
+    "day": "2026-08-26",
+    "symbol": "QQQ",
+    "close": 710.54
+   },
+   {
+    "day": "2026-08-27",
+    "symbol": "QQQ",
+    "close": 720.45
+   },
+   {
+    "day": "2026-08-28",
+    "symbol": "QQQ",
+    "close": 715.69
+   },
+   {
+    "day": "2026-08-31",
+    "symbol": "QQQ",
+    "close": 715.94
+   },
+   {
+    "day": "2026-09-01",
+    "symbol": "QQQ",
+    "close": 706.91
+   },
+   {
+    "day": "2026-09-02",
+    "symbol": "QQQ",
+    "close": 708.58
+   },
+   {
+    "day": "2026-09-03",
+    "symbol": "QQQ",
+    "close": 716.93
+   },
+   {
+    "day": "2026-09-04",
+    "symbol": "QQQ",
+    "close": 718.35
+   },
+   {
+    "day": "2026-09-08",
+    "symbol": "QQQ",
+    "close": 717.68
+   },
+   {
+    "day": "2026-09-09",
+    "symbol": "QQQ",
+    "close": 715.6
+   },
+   {
+    "day": "2026-09-10",
+    "symbol": "QQQ",
+    "close": 707.99
+   },
+   {
+    "day": "2026-09-11",
+    "symbol": "QQQ",
+    "close": 714.15
+   },
+   {
+    "day": "2026-09-14",
+    "symbol": "QQQ",
+    "close": 708.5
+   },
+   {
+    "day": "2026-09-15",
+    "symbol": "QQQ",
+    "close": 703.87
+   },
+   {
+    "day": "2026-09-16",
+    "symbol": "QQQ",
+    "close": 703.97
+   },
+   {
+    "day": "2026-09-17",
+    "symbol": "QQQ",
+    "close": 716.14
+   },
+   {
+    "day": "2026-09-18",
+    "symbol": "QQQ",
+    "close": 720.61
+   },
+   {
+    "day": "2026-09-21",
+    "symbol": "QQQ",
+    "close": 741.41
+   },
+   {
+    "day": "2026-09-22",
+    "symbol": "QQQ",
+    "close": 747.43
+   },
+   {
+    "day": "2026-09-23",
+    "symbol": "QQQ",
+    "close": 741.17
+   },
+   {
+    "day": "2026-09-24",
+    "symbol": "QQQ",
+    "close": 741.09
+   },
+   {
+    "day": "2026-09-25",
+    "symbol": "QQQ",
+    "close": 744.44
+   },
+   {
+    "day": "2026-09-28",
+    "symbol": "QQQ",
+    "close": 736.55
+   },
+   {
+    "day": "2026-09-29",
+    "symbol": "QQQ",
+    "close": 737.96
+   },
+   {
+    "day": "2026-09-30",
+    "symbol": "QQQ",
+    "close": 739.51
+   },
+   {
+    "day": "2026-10-01",
+    "symbol": "QQQ",
+    "close": 742.02
+   },
+   {
+    "day": "2026-10-02",
+    "symbol": "QQQ",
+    "close": 749.49
+   },
+   {
+    "day": "2026-10-05",
+    "symbol": "QQQ",
+    "close": 756.09
+   },
+   {
+    "day": "2026-10-06",
+    "symbol": "QQQ",
+    "close": 759.615
+   },
+   {
+    "day": "2026-10-07",
+    "symbol": "QQQ",
+    "close": 757.74
+   },
+   {
+    "day": "2026-10-08",
+    "symbol": "QQQ",
+    "close": 747.5
+   },
+   {
+    "day": "2026-10-09",
+    "symbol": "QQQ",
+    "close": 751.26
+   },
+   {
+    "day": "2026-10-12",
+    "symbol": "QQQ",
+    "close": 746.0
+   },
+   {
+    "day": "2026-10-13",
+    "symbol": "QQQ",
+    "close": 743.64
+   },
+   {
+    "day": "2026-10-14",
+    "symbol": "QQQ",
+    "close": 728.985
+   },
+   {
+    "day": "2026-10-15",
+    "symbol": "QQQ",
+    "close": 728.19
+   },
+   {
+    "day": "2026-10-16",
+    "symbol": "QQQ",
+    "close": 709.82
+   },
+   {
+    "day": "2026-10-19",
+    "symbol": "QQQ",
+    "close": 718.31
+   },
+   {
+    "day": "2026-10-20",
+    "symbol": "QQQ",
+    "close": 717.21
+   },
+   {
+    "day": "2026-10-21",
+    "symbol": "QQQ",
+    "close": 725.25
+   },
+   {
+    "day": "2026-10-22",
+    "symbol": "QQQ",
+    "close": 704.56
+   },
+   {
+    "day": "2026-10-23",
+    "symbol": "QQQ",
+    "close": 704.21
+   },
+   {
+    "day": "2026-10-26",
+    "symbol": "QQQ",
+    "close": 712.11
+   },
+   {
+    "day": "2026-10-27",
+    "symbol": "QQQ",
+    "close": 721.22
+   },
+   {
+    "day": "2026-10-28",
+    "symbol": "QQQ",
+    "close": 725.59
+   },
+   {
+    "day": "2026-10-29",
+    "symbol": "QQQ",
+    "close": 715.42
+   },
+   {
+    "day": "2026-10-30",
+    "symbol": "QQQ",
+    "close": 690.54
+   },
+   {
+    "day": "2026-11-02",
+    "symbol": "QQQ",
+    "close": 681.22
+   },
+   {
+    "day": "2026-11-03",
+    "symbol": "QQQ",
+    "close": 685.32
+   },
+   {
+    "day": "2026-11-04",
+    "symbol": "QQQ",
+    "close": 691.68
+   },
+   {
+    "day": "2026-11-05",
+    "symbol": "QQQ",
+    "close": 648.05
    },
    {
     "day": "2025-09-03",
@@ -4684,9 +6573,9 @@
     "close": 80438.0965
    },
    {
-    "day": "2025-09-02",
-    "symbol": "ETH/USD",
-    "close": 4325.1955
+    "day": "2026-11-05",
+    "symbol": "BTC/USD",
+    "close": 75971.885
    },
    {
     "day": "2025-09-03",
@@ -6827,12 +8716,17 @@
     "day": "2026-11-04",
     "symbol": "ETH/USD",
     "close": 2422.52
+   },
+   {
+    "day": "2026-11-05",
+    "symbol": "ETH/USD",
+    "close": 2234.5605
    }
   ]
  },
  "events": [],
  "replay": {
-  "day": "2026-11-04",
+  "day": "2026-11-05",
   "strategy": "orb",
   "trades": []
  }

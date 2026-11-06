@@ -1,7 +1,8 @@
 checked,bot,label,name,status,headline
-2026-11-05T01:32:23+00:00,0,fleet,Whole fleet,ok,Running normally.
-2026-11-05T01:32:23+00:00,1,1,ORB day trader,info,Running normally.
-2026-11-05T01:32:23+00:00,2,2,ETF rotation,info,Running normally.
-2026-11-05T01:32:23+00:00,3,3,Crypto trend,info,Running normally.
-2026-11-05T01:32:23+00:00,6,4c,Kalshi maker paper,info,Running normally.
-2026-11-05T01:32:23+00:00,7,4e,Kalshi combined,act,Bot 4e: 18 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
+2026-11-06T01:35:21+00:00,0,fleet,Whole fleet,ok,Running normally.
+2026-11-06T01:35:21+00:00,1,1,ORB day trader,info,Running normally.
+2026-11-06T01:35:21+00:00,2,2,ETF rotation,info,Running normally.
+2026-11-06T01:35:21+00:00,3,3,Crypto trend,info,Running normally.
+2026-11-06T01:35:21+00:00,6,4c,Kalshi maker paper,info,Running normally.
+2026-11-06T01:35:21+00:00,7,4e,Kalshi combined,act,Bot 4e: 3 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
+2026-11-06T01:35:21+00:00,8,5,Dip buyer,watch,"No saved dipbuy.log for bot 5 yet, so no cloud run has been saved for it."
