@@ -11542,12 +11542,12 @@
   "count": 3,
   "ahead": 10,
   "placed": 1793977672.3302622,
-  "checked": 1793978691.3975692,
+  "checked": 1793979472,
   "expires": 1793979472,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-826-1793978277": {
   "id": "paper-826-1793978277",
@@ -11556,8 +11556,22 @@
   "count": 1,
   "ahead": 0,
   "placed": 1793978277.8657153,
-  "checked": 1793978691.4306543,
+  "checked": 1793980077,
   "expires": 1793980077,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-827-1793979483": {
+  "id": "paper-827-1793979483",
+  "ticker": "KXCODMAP-26NOV061100M80TOR-1-TOR",
+  "price": "0.2900",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793979483.949828,
+  "checked": 1793980501.6256185,
+  "expires": 1793981283,
   "through": 0,
   "at_price": 0,
   "filled": 0,

@@ -2110,40 +2110,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLOWTMIN-26NOV06",
-   "series": "KXLOWTMIN",
-   "title": "Lowest temperature in Minneapolis on Nov 6, 2026?",
-   "ticker": "KXLOWTMIN-26NOV06-B31.5",
-   "order_id": "paper-825-1793977672",
-   "price": "0.02",
-   "sets": 3,
+   "event": "KXCODMAP-26NOV061100M80TOR-1",
+   "series": "KXCODMAP",
+   "title": "M80 Boston vs. Toronto KOI: Map 1",
+   "ticker": "KXCODMAP-26NOV061100M80TOR-1-TOR",
+   "order_id": "paper-827-1793979483",
+   "price": "0.2900",
+   "sets": 2,
    "done": 0,
-   "reserve": "2.8800",
+   "reserve": "1.8300",
    "multiplier": "1",
-   "placed": 1793977672.3401382,
+   "placed": 1793979483.9585843,
    "hedge": [
     {
-     "ticker": "KXLOWTMIN-26NOV06-B29.5",
-     "limit": "0.9300"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAWBGAME-26NOV09OREGC",
-   "series": "KXNCAAWBGAME",
-   "title": "Oregon vs Grand Canyon",
-   "ticker": "KXNCAAWBGAME-26NOV09OREGC-GC",
-   "order_id": "paper-826-1793978277",
-   "price": "0.1300",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.7800",
-   "multiplier": "1",
-   "placed": 1793978277.8749278,
-   "hedge": [
-    {
-     "ticker": "KXNCAAWBGAME-26NOV09OREGC-ORE",
-     "limit": "0.6200"
+     "ticker": "KXCODMAP-26NOV061100M80TOR-1-M80",
+     "limit": "0.6000"
     }
    ]
   }

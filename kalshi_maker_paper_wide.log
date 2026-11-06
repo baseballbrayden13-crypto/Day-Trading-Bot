@@ -5613,3 +5613,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 10:17:57,909 INFO Swept 22389 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-06 10:22:41,482 INFO Settled KXWTADOUBLES-26NOV05BHARAJHAVUDV: paid $3, profit $0.13
 2026-11-06 10:22:59,812 INFO Swept 22384 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 10:28:00,296 INFO Swept 22377 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 10:33:02,020 INFO Swept 22373 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 10:38:03,958 INFO PAPER rest NO bid KXCODMAP-26NOV061100M80TOR-1-TOR at $0.2900 x2 (0 already bid at that price)
+2026-11-06 10:38:03,958 INFO Resting NO bid on KXCODMAP-26NOV061100M80TOR-1-TOR at $0.2900 x2 (KXCODMAP-26NOV061100M80TOR-1): locks in $0.17 if it fills; hedge NO M80@0.6000
+2026-11-06 10:38:03,991 INFO Swept 22358 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-06 10:43:03,629 INFO Swept 22360 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 10:48:08,297 INFO Swept 22367 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 10:53:10,730 INFO Swept 22354 events: 0 taker trades, 0 new quotes, 1 resting
