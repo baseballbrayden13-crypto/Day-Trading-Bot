@@ -5304,3 +5304,27 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-05 19:29:11,482 INFO Swept 21973 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-05 19:34:14,305 INFO Swept 21975 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-05 19:34:19,434 INFO Stopped; all quotes cancelled.
+2026-11-05 19:54:45,341 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-05 19:57:40,435 INFO PAPER rest NO bid KXPGA3BALL-WOWTC26R1CBLAGSARNTSE-GSAR at $0.0300 x8 (0 already bid at that price)
+2026-11-05 19:57:40,435 INFO Resting NO bid on KXPGA3BALL-WOWTC26R1CBLAGSARNTSE-GSAR at $0.0300 x8 (KXPGA3BALL-WOWTC26R1CBLAGSARNTSE): locks in $3.46 if it fills; hedge NO CBLA@0.7700
+2026-11-05 19:57:40,486 INFO PAPER rest NO bid KXARGLNBGAME-26NOV051900ARJOBT-ARJ at $0.5200 x2 (0 already bid at that price)
+2026-11-05 19:57:40,486 INFO Resting NO bid on KXARGLNBGAME-26NOV051900ARJOBT-ARJ at $0.5200 x2 (KXARGLNBGAME-26NOV051900ARJOBT): locks in $0.54 if it fills; hedge NO OBT@0.1900
+2026-11-05 19:57:40,531 INFO Settled daily_safest KXRAIN-26OCT28-HOU: NO, profit $0.01
+2026-11-05 19:57:40,573 INFO Settled daily_safest KXACTBLUETOP-26OCT30-AELS: NO, profit $0.01
+2026-11-05 19:57:40,614 INFO Settled daily_safest KXRAIN-26OCT30-STL: NO, profit $0.01
+2026-11-05 19:57:40,698 INFO Settled daily_safest KXRAIN-26NOV01-ABQ: YES, profit $0.01
+2026-11-05 19:57:40,740 INFO Settled daily_safest KXDIESELD-26NOV03-T6.305: NO, profit $0.01
+2026-11-05 19:57:40,782 INFO Settled daily_safest KXRAIN-26NOV03-BOS: NO, profit $0.01
+2026-11-05 19:57:40,823 INFO Settled daily_safest KX30YMORTW-26NOV05-T7.19: NO, profit $0.01
+2026-11-05 19:57:40,865 INFO Swept 21999 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-05 20:02:28,694 INFO Swept 21994 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 20:02:39,256 INFO Quote KXPGA3BALL-WOWTC26R1CBLAGSARNTSE cancelled (0/8 filled)
+2026-11-05 20:07:44,547 INFO PAPER rest NO bid KXPGA3BALL-WOWTC26R1CBLAGSARNTSE-GSAR at $0.0300 x5 (0 already bid at that price)
+2026-11-05 20:07:44,547 INFO Resting NO bid on KXPGA3BALL-WOWTC26R1CBLAGSARNTSE-GSAR at $0.0300 x5 (KXPGA3BALL-WOWTC26R1CBLAGSARNTSE): locks in $2.90 if it fills; hedge NO CBLA@0.3700
+2026-11-05 20:07:44,638 INFO Swept 21991 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-05 20:12:47,677 INFO PAPER rest NO bid KXNCAAWVMATCH-26NOV061930TCUHOU-HOU at $0.7300 x1 (39 already bid at that price)
+2026-11-05 20:12:47,678 INFO Resting NO bid on KXNCAAWVMATCH-26NOV061930TCUHOU-HOU at $0.73 x1 (KXNCAAWVMATCH-26NOV061930TCUHOU): locks in $0.10 if it fills; hedge NO TCU@0.1500
+2026-11-05 20:12:47,764 INFO Swept 22036 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-05 20:13:24,885 INFO Quote KXARGLNBGAME-26NOV051900ARJOBT cancelled (0/2 filled)
+2026-11-05 20:17:49,825 INFO Swept 22051 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-05 20:22:51,589 INFO Swept 22046 events: 0 taker trades, 0 new quotes, 2 resting
