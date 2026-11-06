@@ -5537,3 +5537,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 07:23:43,145 INFO Swept 22032 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 07:28:46,462 INFO Swept 22041 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-06 07:33:40,500 INFO Swept 22037 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 07:38:41,296 INFO PAPER rest NO bid KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR at $0.5300 x2 (0 already bid at that price)
+2026-11-06 07:38:41,296 INFO Resting NO bid on KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR at $0.5300 x2 (KXPOWERSLAPMATCH-26NOV06JMARMWOO): locks in $0.13 if it fills; hedge NO MWOO@0.3800
+2026-11-06 07:38:41,421 INFO Swept 22037 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-06 07:43:41,437 INFO Swept 22031 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 07:48:43,444 INFO Swept 22036 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-06 07:48:43,590 INFO PAPER KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR NO bid at $0.5300: 2/2 filled by real trades
+2026-11-06 07:48:43,663 INFO PAPER buy 2 NO KXPOWERSLAPMATCH-26NOV06JMARMWOO-MWOO at up to $0.3800: not on the book
+2026-11-06 07:48:43,730 INFO PAPER buy 2 NO KXPOWERSLAPMATCH-26NOV06JMARMWOO-MWOO at up to $0.49: not on the book
+2026-11-06 07:48:43,730 WARNING Quote KXPOWERSLAPMATCH-26NOV06JMARMWOO: hedge missed on KXPOWERSLAPMATCH-26NOV06JMARMWOO-MWOO. Selling back 2 contracts on 1 legs.
+2026-11-06 07:48:43,797 INFO PAPER sell 2 YES KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR at up to $0.5200: not on the book
+2026-11-06 07:48:43,797 ERROR STRAY POSITION: 2 NO contracts of KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR still held. Check it on Kalshi.
+2026-11-06 07:48:43,864 INFO PAPER sell 2 YES KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR at up to $0.6200: not on the book
+2026-11-06 07:48:58,873 INFO Stopped; all quotes cancelled.

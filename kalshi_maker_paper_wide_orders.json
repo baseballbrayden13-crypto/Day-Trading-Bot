@@ -11416,11 +11416,25 @@
   "count": 3,
   "ahead": 8,
   "placed": 1793967519.8856022,
-  "checked": 1793968497.5551794,
+  "checked": 1793969319,
   "expires": 1793969319,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-817-1793968721": {
+  "id": "paper-817-1793968721",
+  "ticker": "KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR",
+  "price": "0.5300",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1793968721.289092,
+  "checked": 1793969323.5217311,
+  "expires": 1793970521,
+  "through": 4,
+  "at_price": 0,
+  "filled": 2,
+  "status": "executed"
  }
 }
