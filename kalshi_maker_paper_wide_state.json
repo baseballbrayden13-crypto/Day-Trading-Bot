@@ -2055,5 +2055,25 @@
    "closed": "2026-11-05T22:52:32.904478+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXCS2GAME-26NOV080700KSMPRE",
+   "series": "KXCS2GAME",
+   "title": "KUUSAMO.gg vs. Prestige",
+   "ticker": "KXCS2GAME-26NOV080700KSMPRE-KSM",
+   "order_id": "paper-814-1793964496",
+   "price": "0.69",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8900",
+   "multiplier": "1",
+   "placed": 1793964496.3107123,
+   "hedge": [
+    {
+     "ticker": "KXCS2GAME-26NOV080700KSMPRE-PRE",
+     "limit": "0.2700"
+    }
+   ]
+  }
+ ]
 }

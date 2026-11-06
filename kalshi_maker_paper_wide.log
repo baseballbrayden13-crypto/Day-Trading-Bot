@@ -5513,3 +5513,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 05:52:56,595 INFO Quote KXSOLE-26NOV0606 cancelled (0/1 filled)
 2026-11-06 05:58:00,158 INFO Swept 21993 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-06 06:02:54,638 INFO Swept 21988 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 06:07:58,955 INFO Swept 22002 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 06:13:03,221 INFO Swept 22016 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 06:18:08,336 INFO Swept 22017 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 06:23:07,721 INFO Swept 22011 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 06:28:16,310 INFO PAPER rest NO bid KXCS2GAME-26NOV080700KSMPRE-KSM at $0.6900 x5 (33 already bid at that price)
+2026-11-06 06:28:16,310 INFO Resting NO bid on KXCS2GAME-26NOV080700KSMPRE-KSM at $0.69 x5 (KXCS2GAME-26NOV080700KSMPRE): locks in $0.11 if it fills; hedge NO PRE@0.2700
+2026-11-06 06:28:16,439 INFO Swept 22016 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 06:33:22,820 INFO Swept 22007 events: 0 taker trades, 0 new quotes, 1 resting
