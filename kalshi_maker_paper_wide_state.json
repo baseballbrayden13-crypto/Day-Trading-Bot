@@ -2061,36 +2061,17 @@
    "series": "KXPOWERSLAPMATCH",
    "title": "Diyorbek Atajonov vs Ke'ali'i Kanekoa",
    "ticker": "KXPOWERSLAPMATCH-26NOV06DATAKKAN-KKAN",
-   "order_id": "paper-803-1793941174",
+   "order_id": "paper-805-1793943293",
    "price": "0.29",
    "sets": 5,
    "done": 0,
    "reserve": "4.9000",
    "multiplier": "1",
-   "placed": 1793941174.1480224,
+   "placed": 1793943293.1639216,
    "hedge": [
     {
      "ticker": "KXPOWERSLAPMATCH-26NOV06DATAKKAN-DATA",
      "limit": "0.6700"
-    }
-   ]
-  },
-  {
-   "event": "KXPOWERSLAPMATCH-26NOV06JMARMWOO",
-   "series": "KXPOWERSLAPMATCH",
-   "title": "Joseph Martinez vs Mason Woodward",
-   "ticker": "KXPOWERSLAPMATCH-26NOV06JMARMWOO-JMAR",
-   "order_id": "paper-804-1793942691",
-   "price": "0.5300",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.8500",
-   "multiplier": "1",
-   "placed": 1793942691.4755235,
-   "hedge": [
-    {
-     "ticker": "KXPOWERSLAPMATCH-26NOV06JMARMWOO-MWOO",
-     "limit": "0.3700"
     }
    ]
   }

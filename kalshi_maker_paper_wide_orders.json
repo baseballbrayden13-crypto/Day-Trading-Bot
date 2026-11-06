@@ -11234,12 +11234,12 @@
   "count": 5,
   "ahead": 68,
   "placed": 1793941174.1387582,
-  "checked": 1793942727.9727042,
+  "checked": 1793942974,
   "expires": 1793942974,
   "through": 0,
   "at_price": 2,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-804-1793942691": {
   "id": "paper-804-1793942691",
@@ -11248,8 +11248,22 @@
   "count": 2,
   "ahead": 0,
   "placed": 1793942691.46567,
-  "checked": 1793942728.070654,
+  "checked": 1793944491,
   "expires": 1793944491,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-805-1793943293": {
+  "id": "paper-805-1793943293",
+  "ticker": "KXPOWERSLAPMATCH-26NOV06DATAKKAN-KKAN",
+  "price": "0.2900",
+  "count": 5,
+  "ahead": 66,
+  "placed": 1793943293.1537242,
+  "checked": 1793944536.4146662,
+  "expires": 1793945093,
   "through": 0,
   "at_price": 0,
   "filled": 0,
