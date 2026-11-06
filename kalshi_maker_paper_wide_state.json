@@ -2267,25 +2267,5 @@
    "sold_back": true
   }
  ],
- "quotes": [
-  {
-   "event": "KXNASCARTRUCKSERIES-NTS26",
-   "series": "KXNASCARTRUCKSERIES",
-   "title": "NASCAR Truck Series Champion",
-   "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
-   "order_id": "paper-857-1794007016",
-   "price": "0.56",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8700",
-   "multiplier": "1",
-   "placed": 1794007016.9701893,
-   "hedge": [
-    {
-     "ticker": "KXNASCARTRUCKSERIES-NTS26-KHON",
-     "limit": "0.3900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

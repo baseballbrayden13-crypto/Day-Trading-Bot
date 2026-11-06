@@ -5832,3 +5832,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 18:16:56,970 INFO PAPER rest NO bid KXNASCARTRUCKSERIES-NTS26-LRIG at $0.5600 x5 (48 already bid at that price)
 2026-11-06 18:16:56,970 INFO Resting NO bid on KXNASCARTRUCKSERIES-NTS26-LRIG at $0.56 x5 (KXNASCARTRUCKSERIES-NTS26): locks in $0.13 if it fills; hedge NO KHON@0.3900
 2026-11-06 18:16:57,045 INFO Swept 22675 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 18:22:02,269 INFO Swept 22692 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 18:27:02,626 INFO Swept 22686 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 18:27:02,691 INFO Quote KXNASCARTRUCKSERIES-NTS26 cancelled (0/5 filled)
+2026-11-06 18:32:07,313 INFO Swept 22694 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 18:37:11,464 INFO Swept 22692 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 18:42:15,342 INFO PAPER rest NO bid KXNASCARTRUCKSERIES-NTS26-LRIG at $0.5800 x5 (0 already bid at that price)
+2026-11-06 18:42:15,342 INFO Resting NO bid on KXNASCARTRUCKSERIES-NTS26-LRIG at $0.5800 x5 (KXNASCARTRUCKSERIES-NTS26): locks in $0.12 if it fills; hedge NO KHON@0.3800
+2026-11-06 18:42:15,427 INFO Swept 22701 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 18:47:16,782 INFO Swept 22696 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 18:47:16,880 INFO Quote KXNASCARTRUCKSERIES-NTS26 cancelled (0/5 filled)
