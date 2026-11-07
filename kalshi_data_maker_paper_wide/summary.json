@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T00:29:35+00:00",
+ "updated": "2026-11-07T01:16:07+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -13,15 +13,11 @@
  "stray_positions": 0,
  "closed_trades": 58,
  "trades_this_loop": 0,
- "events_swept": 22777,
- "found_this_loop": 1,
+ "events_swept": 22899,
+ "found_this_loop": 0,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 3,
- "last_problems": [
-  "2026-11-06 22:36 Quote KXSOCKEYERUN-27: hedge missed on KXSOCKEYERUN-27-B43P00-48P99. Selling back 1 contracts on 2 legs.",
-  "2026-11-06 22:36 STRAY POSITION: 1 NO contracts of KXSOCKEYERUN-27-B49P00-55P00 still held. Check it on Kalshi.",
-  "2026-11-06 22:36 STRAY POSITION: 1 NO contracts of KXSOCKEYERUN-27-B37P00-42P99 still held. Check it on Kalshi."
- ]
+ "problems": 0,
+ "last_problems": []
 }

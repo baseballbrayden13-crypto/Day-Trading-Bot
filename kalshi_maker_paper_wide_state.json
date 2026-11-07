@@ -2291,5 +2291,25 @@
    "sold_back": true
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAHGAME-26NOV06RPISLU",
+   "series": "KXNCAAHGAME",
+   "title": "Rensselaer vs St. Lawrence",
+   "ticker": "KXNCAAHGAME-26NOV06RPISLU-RPI",
+   "order_id": "paper-861-1794013684",
+   "price": "0.1300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8800",
+   "multiplier": "1",
+   "placed": 1794013684.6823423,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV06RPISLU-SLU",
+     "limit": "0.7200"
+    }
+   ]
+  }
+ ]
 }

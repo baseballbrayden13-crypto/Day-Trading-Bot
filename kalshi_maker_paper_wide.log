@@ -5860,3 +5860,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 19:27:40,077 INFO Swept 22763 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-06 19:32:42,573 INFO Swept 22777 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-06 19:32:47,580 INFO Stopped; all quotes cancelled.
+2026-11-06 19:50:54,387 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-06 19:52:59,364 INFO Swept 22830 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 19:58:02,849 INFO Swept 22860 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 20:03:04,179 INFO Swept 22856 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 20:08:04,682 INFO PAPER rest NO bid KXNCAAHGAME-26NOV06RPISLU-RPI at $0.1300 x1 (0 already bid at that price)
+2026-11-06 20:08:04,682 INFO Resting NO bid on KXNCAAHGAME-26NOV06RPISLU-RPI at $0.1300 x1 (KXNCAAHGAME-26NOV06RPISLU): locks in $0.12 if it fills; hedge NO SLU@0.7200
+2026-11-06 20:08:04,810 INFO Swept 22857 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 20:13:08,646 INFO Swept 22901 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 20:18:13,249 INFO Swept 22899 events: 0 taker trades, 0 new quotes, 1 resting

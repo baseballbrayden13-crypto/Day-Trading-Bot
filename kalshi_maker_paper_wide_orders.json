@@ -12038,5 +12038,19 @@
   "at_price": 1,
   "filled": 5,
   "status": "executed"
+ },
+ "paper-861-1794013684": {
+  "id": "paper-861-1794013684",
+  "ticker": "KXNCAAHGAME-26NOV06RPISLU-RPI",
+  "price": "0.1300",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794013684.675576,
+  "checked": 1794014450.607255,
+  "expires": 1794015484,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
