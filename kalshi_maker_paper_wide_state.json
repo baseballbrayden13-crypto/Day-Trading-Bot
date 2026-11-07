@@ -107,6 +107,30 @@
      "limit": "0.3800"
     }
    ]
+  },
+  {
+   "event": "KXFBUGAME-26NOV070900KHMRIV",
+   "series": "KXFBUGAME",
+   "title": "BC Khmelnytskyi vs BC Rivne",
+   "sets": 1,
+   "outlay": "1.0500",
+   "locked_profit": "-0.0500",
+   "opened": "2026-11-07T15:10:55.681678+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXFBUGAME-26NOV070900KHMRIV-KHM",
+     "side": "no",
+     "count": 1,
+     "limit": "0.3800"
+    },
+    {
+     "ticker": "KXFBUGAME-26NOV070900KHMRIV-RIV",
+     "side": "no",
+     "count": 1,
+     "limit": "0.64"
+    }
+   ]
   }
  ],
  "closed": [

@@ -6063,3 +6063,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 09:30:37,876 INFO Swept 22492 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 09:35:38,477 INFO Swept 22478 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 09:40:39,741 INFO Swept 22470 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 09:45:42,234 INFO Swept 22456 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 09:50:44,441 INFO Swept 22445 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 09:55:46,663 INFO PAPER rest NO bid KXFBUGAME-26NOV070900KHMRIV-KHM at $0.3800 x1 (0 already bid at that price)
+2026-11-07 09:55:46,664 INFO Resting NO bid on KXFBUGAME-26NOV070900KHMRIV-KHM at $0.3800 x1 (KXFBUGAME-26NOV070900KHMRIV): locks in $0.31 if it fills; hedge NO RIV@0.2800
+2026-11-07 09:55:46,706 INFO Swept 22424 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 10:00:49,191 INFO Swept 22435 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 10:05:52,141 INFO Swept 22470 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 10:10:55,620 INFO Swept 22506 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 10:10:55,640 INFO PAPER KXFBUGAME-26NOV070900KHMRIV-KHM NO bid at $0.3800: 1/1 filled by real trades
+2026-11-07 10:10:55,665 INFO PAPER buy 1 NO KXFBUGAME-26NOV070900KHMRIV-RIV at up to $0.2900: not on the book
+2026-11-07 10:10:55,681 INFO PAPER buy 1 NO KXFBUGAME-26NOV070900KHMRIV-RIV at up to $0.64: filled 1
+2026-11-07 10:10:55,681 INFO Quote KXFBUGAME-26NOV070900KHMRIV: hedge on KXFBUGAME-26NOV070900KHMRIV-RIV chased from 0.2900 to 0.64
+2026-11-07 10:10:55,681 INFO Quote KXFBUGAME-26NOV070900KHMRIV filled 1: hedged, locks in $-0.05
