@@ -6038,3 +6038,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 07:29:18,285 INFO Swept 22431 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-07 07:34:21,689 INFO Swept 22417 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-07 07:34:26,769 INFO Stopped; all quotes cancelled.
+2026-11-07 07:41:57,784 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-07 07:45:01,993 INFO Swept 22409 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 07:50:07,755 INFO Swept 22405 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 07:55:07,868 INFO Swept 22395 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 08:00:08,387 INFO Swept 22407 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 08:05:09,599 INFO Swept 22449 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 08:10:10,960 INFO Swept 22508 events: 0 taker trades, 0 new quotes, 0 resting
