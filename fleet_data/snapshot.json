@@ -1,5 +1,5 @@
 {
- "taken": "2026-11-06T01:35:21+00:00",
+ "taken": "2026-11-07T01:26:02+00:00",
  "bots": {
   "1": {
    "name": "ORB day trader",
@@ -8,9 +8,9 @@
    "errors": [],
    "account": {
     "account": "QIE2",
-    "equity": 4979.7,
+    "equity": 4977.33,
     "last_equity": 4979.7,
-    "cash": 4979.7,
+    "cash": 4977.33,
     "status": "ACTIVE",
     "trading_blocked": false,
     "account_blocked": false
@@ -124,13 +124,45 @@
      "price": 331.86,
      "type": "market",
      "order_id": "82ee8b69-be46-4f47-a364-1e1ce3766655"
+    },
+    {
+     "time": "2026-11-06T14:55:11.394121+00:00",
+     "symbol": "AAPL",
+     "side": "buy",
+     "qty": 2.0,
+     "price": 342.945,
+     "type": "limit",
+     "order_id": "3f222703-cab9-43ff-9f80-64b62da28639"
+    },
+    {
+     "time": "2026-11-06T15:15:11.449954+00:00",
+     "symbol": "MSFT",
+     "side": "buy",
+     "qty": 1.0,
+     "price": 533.9,
+     "type": "limit",
+     "order_id": "9a54e785-dcd4-47a5-a0d0-ff3c1ca5151e"
+    },
+    {
+     "time": "2026-11-06T20:55:18.797384+00:00",
+     "symbol": "MSFT",
+     "side": "sell",
+     "qty": 1.0,
+     "price": 531.47,
+     "type": "market",
+     "order_id": "51bdcc38-d449-4158-8aee-da891447af4b"
+    },
+    {
+     "time": "2026-11-06T20:55:22.138958+00:00",
+     "symbol": "AAPL",
+     "side": "sell",
+     "qty": 2.0,
+     "price": 342.975,
+     "type": "market",
+     "order_id": "b111c3d7-bad9-483d-8a00-fa6f92de3f4c"
     }
    ],
    "equity_history": [
-    {
-     "day": "2026-10-05",
-     "equity": 0.0
-    },
     {
      "day": "2026-10-06",
      "equity": 0.0
@@ -218,28 +250,32 @@
     {
      "day": "2026-11-04",
      "equity": 4979.7
+    },
+    {
+     "day": "2026-11-05",
+     "equity": 4979.7
     }
    ],
    "log": {
     "exists": true,
-    "modified": "2026-11-05T16:05:05-05:00",
-    "last_line_time": "2026-11-05T16:05:05",
+    "modified": "2026-11-06T16:05:05-05:00",
+    "last_line_time": "2026-11-06T16:05:05",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-05 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.",
-     "2026-11-05 12:42:53,573 INFO Connected to Alpaca PAPER account",
-     "2026-11-05 12:42:53,782 INFO Picked up today's counters: start equity $4979.70, 0 trades",
-     "2026-11-05 12:42:53,782 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.",
-     "2026-11-05 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca."
+     "2026-11-06 12:47:05,304 INFO Picked up today's counters: start equity $4979.70, 2 trades",
+     "2026-11-06 12:47:05,304 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.",
+     "2026-11-06 15:50:05,459 INFO Flattening all positions: end of day",
+     "2026-11-06 15:55:05,102 INFO Flattening all positions: end of day",
+     "2026-11-06 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca."
     ],
     "live_warning": false
    },
    "fills": {
-    "entries": 5,
-    "fills": 8,
-    "avg_bps": 3.45
+    "entries": 7,
+    "fills": 10,
+    "avg_bps": 2.5
    }
   },
   "2": {
@@ -249,9 +285,9 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 4846.61,
-    "last_equity": 4934.06,
-    "cash": 300.9,
+    "equity": 2405.83,
+    "last_equity": 0,
+    "cash": 144.93,
     "status": "ACTIVE",
     "trading_blocked": false,
     "account_blocked": false,
@@ -260,24 +296,24 @@
    "positions": [
     {
      "symbol": "XLE",
-     "qty": 23.0,
+     "qty": 13.0,
      "avg_entry": 69.180435,
-     "market_value": 1423.93,
-     "unrealized_pl": -167.220005
+     "market_value": 801.06,
+     "unrealized_pl": -98.285655
     },
     {
      "symbol": "XLP",
-     "qty": 18.0,
+     "qty": 8.0,
      "avg_entry": 90.078333,
-     "market_value": 1642.5,
-     "unrealized_pl": 21.090006
+     "market_value": 720.64,
+     "unrealized_pl": 0.013336
     },
     {
      "symbol": "XLV",
-     "qty": 8.0,
+     "qty": 4.0,
      "avg_entry": 178.6425,
-     "market_value": 1479.28,
-     "unrealized_pl": 50.14
+     "market_value": 739.2,
+     "unrealized_pl": 24.63
     }
    ],
    "orders": [
@@ -334,126 +370,60 @@
      "price": 90.078334,
      "type": "market",
      "order_id": "b8e6a2c0-1dec-4295-a297-f25c0e6b85cf"
+    },
+    {
+     "time": "2026-11-06T14:39:04.226267+00:00",
+     "symbol": "XLE",
+     "side": "sell",
+     "qty": 10.0,
+     "price": 61.516,
+     "type": "market",
+     "order_id": "5c10729c-385e-4f1a-a84b-fcd94bad6159"
+    },
+    {
+     "time": "2026-11-06T14:39:06.337922+00:00",
+     "symbol": "XLP",
+     "side": "sell",
+     "qty": 10.0,
+     "price": 89.102,
+     "type": "market",
+     "order_id": "aa629d2c-04e5-4289-bd95-f6909037b786"
+    },
+    {
+     "time": "2026-11-06T14:39:07.660226+00:00",
+     "symbol": "XLV",
+     "side": "sell",
+     "qty": 4.0,
+     "price": 182.69,
+     "type": "market",
+     "order_id": "1628107e-6e68-4477-832b-72f8dc25debe"
     }
    ],
-   "equity_history": [
-    {
-     "day": "2026-10-05",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-06",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-07",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-08",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-09",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-12",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-13",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-14",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-15",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-16",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-19",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-20",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-21",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-22",
-     "equity": 0.0
-    },
-    {
-     "day": "2026-10-23",
-     "equity": 5000.0
-    },
-    {
-     "day": "2026-10-26",
-     "equity": 5000.0
-    },
-    {
-     "day": "2026-10-27",
-     "equity": 4997.94
-    },
-    {
-     "day": "2026-10-28",
-     "equity": 5020.4
-    },
-    {
-     "day": "2026-10-29",
-     "equity": 5047.18
-    },
-    {
-     "day": "2026-10-30",
-     "equity": 5010.94
-    },
-    {
-     "day": "2026-11-02",
-     "equity": 4959.39
-    },
-    {
-     "day": "2026-11-03",
-     "equity": 4907.8
-    },
-    {
-     "day": "2026-11-04",
-     "equity": 4934.06
-    }
-   ],
+   "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-05T10:43:24-05:00",
-    "last_line_time": "2026-11-05T10:43:24",
+    "modified": "2026-11-06T10:31:05-05:00",
+    "last_line_time": "2026-11-06T10:31:05",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-04 10:40:36,734 INFO Already rebalanced in November; nothing to do.",
-     "2026-11-05 09:41:55,395 INFO Connected to Alpaca PAPER account",
-     "2026-11-05 09:41:55,570 INFO Already rebalanced in November; nothing to do.",
-     "2026-11-05 10:43:24,260 INFO Connected to Alpaca PAPER account",
-     "2026-11-05 10:43:24,578 INFO Already rebalanced in November; nothing to do."
+     "2026-11-06 09:39:01,329 INFO SELL XLE x10",
+     "2026-11-06 09:39:01,329 INFO SELL XLP x10",
+     "2026-11-06 09:39:01,329 INFO SELL XLV x4",
+     "2026-11-06 10:31:05,373 INFO Connected to Alpaca PAPER account",
+     "2026-11-06 10:31:05,844 INFO Already rebalanced in November; nothing to do."
     ],
     "live_warning": false
    },
    "rotation_state": {
     "last_month": "2026-11",
     "holding": {
-     "XLE": 0.3333333333333333,
      "XLV": 0.3333333333333333,
-     "XLP": 0.3333333333333333
+     "XLP": 0.3333333333333333,
+     "XLE": 0.3333333333333333
     },
-    "at": "2026-11-02T09:43:02.624594-05:00"
+    "at": "2026-11-06T09:39:07.891592-05:00"
    }
   },
   "3": {
@@ -474,10 +444,6 @@
    "orders": [],
    "equity_history": [
     {
-     "day": "2026-10-05",
-     "equity": 0.0
-    },
-    {
      "day": "2026-10-06",
      "equity": 0.0
     },
@@ -564,21 +530,25 @@
     {
      "day": "2026-11-04",
      "equity": 5000.0
+    },
+    {
+     "day": "2026-11-05",
+     "equity": 5000.0
     }
    ],
    "log": {
     "exists": true,
-    "modified": "2026-11-05T20:35:20-05:00",
-    "last_line_time": "2026-11-05T20:35:20",
+    "modified": "2026-11-06T20:26:01-05:00",
+    "last_line_time": "2026-11-06T20:26:01",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-03 20:28:52,045 INFO 2026-11-03 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
-     "2026-11-04 20:32:22,382 INFO Connected to Alpaca PAPER account",
      "2026-11-04 20:32:23,221 INFO 2026-11-04 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
      "2026-11-05 20:35:19,868 INFO Connected to Alpaca PAPER account",
-     "2026-11-05 20:35:20,859 INFO 2026-11-05 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
+     "2026-11-05 20:35:20,859 INFO 2026-11-05 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
+     "2026-11-06 20:26:00,728 INFO Connected to Alpaca PAPER account",
+     "2026-11-06 20:26:01,988 INFO 2026-11-06 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
     ],
     "live_warning": false
    }
@@ -591,7 +561,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-06T01:19:52+00:00",
+     "updated": "2026-11-07T01:16:21+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -605,7 +575,7 @@
      "stray_positions": 0,
      "closed_trades": 3,
      "trades_this_loop": 0,
-     "events_swept": 22047,
+     "events_swept": 22898,
      "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -623,17 +593,17 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-05T20:22:51-05:00",
-     "last_line_time": "2026-11-05T20:22:51",
+     "modified": "2026-11-06T20:19:36-05:00",
+     "last_line_time": "2026-11-06T20:19:36",
      "errors": 0,
      "errors_24h": 0,
      "last_errors": [],
      "tail": [
-      "2026-11-05 20:02:34,178 INFO Swept 21994 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-05 20:07:49,644 INFO Swept 21989 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-05 20:12:50,437 INFO Swept 22036 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-05 20:17:52,440 INFO Swept 22051 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-05 20:22:51,702 INFO Swept 22047 events: 0 taker trades, 0 new quotes, 0 resting"
+      "2026-11-06 19:59:21,739 INFO Swept 22860 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-06 20:04:30,357 INFO Swept 22856 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-06 20:09:29,722 INFO Swept 22874 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-06 20:14:36,637 INFO Swept 22902 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-06 20:19:36,888 INFO Swept 22898 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -647,53 +617,53 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-06T01:19:54+00:00",
+     "updated": "2026-11-07T01:16:07+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
      "min_profit": "0.10",
-     "equity": "16.48",
-     "realized_profit": "-3.52",
-     "bet_level": "16.48",
-     "open_trades": 3,
-     "open_locked_profit": "2.64",
-     "in_play": "9.36",
+     "equity": "15.87",
+     "realized_profit": "-4.13",
+     "bet_level": "15.87",
+     "open_trades": 4,
+     "open_locked_profit": "2.77",
+     "in_play": "14.23",
      "stray_positions": 0,
-     "closed_trades": 54,
+     "closed_trades": 58,
      "trades_this_loop": 0,
-     "events_swept": 22046,
-     "found_this_loop": 1,
+     "events_swept": 22899,
+     "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
      ],
      "problems": 0,
      "last_problems": []
     },
-    "realized": -3.52,
-    "open": 3,
-    "closed": 78,
-    "losing_trades": 3,
-    "stray_closed": 24,
-    "stray_pnl": -10.14,
+    "realized": -4.13,
+    "open": 4,
+    "closed": 86,
+    "losing_trades": 4,
+    "stray_closed": 28,
+    "stray_pnl": -11.18,
     "stray": 0,
-    "quotes": 2,
+    "quotes": 1,
     "log": {
      "exists": true,
-     "modified": "2026-11-05T20:22:51-05:00",
-     "last_line_time": "2026-11-05T20:22:51",
-     "errors": 25,
+     "modified": "2026-11-06T20:18:13-05:00",
+     "last_line_time": "2026-11-06T20:18:13",
+     "errors": 29,
      "errors_24h": 4,
      "last_errors": [
-      "2026-11-05 06:09:19,234 ERROR Maker loop error; carrying on",
-      "2026-11-05 10:21:55,026 ERROR STRAY POSITION: 4 NO contracts of KXCS2MAP-26NOV050900LKWRA-2-WRA still held. Check it on Kalshi.",
-      "2026-11-05 10:57:01,524 ERROR STRAY POSITION: 2 NO contracts of KXMLBBGAME-26NOV051000CHEMBW-CHEM still held. Check it on Kalshi."
+      "2026-11-06 13:25:45,190 ERROR STRAY POSITION: 2 NO contracts of KXPOWERSLAPMATCH-26NOV06ZNAIWMEN-WMEN still held. Check it on Kalshi.",
+      "2026-11-06 17:36:30,678 ERROR STRAY POSITION: 1 NO contracts of KXSOCKEYERUN-27-B49P00-55P00 still held. Check it on Kalshi.",
+      "2026-11-06 17:36:30,700 ERROR STRAY POSITION: 1 NO contracts of KXSOCKEYERUN-27-B37P00-42P99 still held. Check it on Kalshi."
      ],
      "tail": [
-      "2026-11-05 20:12:47,678 INFO Resting NO bid on KXNCAAWVMATCH-26NOV061930TCUHOU-HOU at $0.73 x1 (KXNCAAWVMATCH-26NOV061930TCUHOU): locks in $0.10 if it fills; hedge NO TCU@0.1500",
-      "2026-11-05 20:12:47,764 INFO Swept 22036 events: 0 taker trades, 1 new quotes, 3 resting",
-      "2026-11-05 20:13:24,885 INFO Quote KXARGLNBGAME-26NOV051900ARJOBT cancelled (0/2 filled)",
-      "2026-11-05 20:17:49,825 INFO Swept 22051 events: 0 taker trades, 0 new quotes, 2 resting",
-      "2026-11-05 20:22:51,589 INFO Swept 22046 events: 0 taker trades, 0 new quotes, 2 resting"
+      "2026-11-06 20:08:04,682 INFO PAPER rest NO bid KXNCAAHGAME-26NOV06RPISLU-RPI at $0.1300 x1 (0 already bid at that price)",
+      "2026-11-06 20:08:04,682 INFO Resting NO bid on KXNCAAHGAME-26NOV06RPISLU-RPI at $0.1300 x1 (KXNCAAHGAME-26NOV06RPISLU): locks in $0.12 if it fills; hedge NO SLU@0.7200",
+      "2026-11-06 20:08:04,810 INFO Swept 22857 events: 0 taker trades, 1 new quotes, 1 resting",
+      "2026-11-06 20:13:08,646 INFO Swept 22901 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-06 20:18:13,249 INFO Swept 22899 events: 0 taker trades, 0 new quotes, 1 resting"
      ],
      "live_warning": false
     }
@@ -706,19 +676,66 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 5000.0,
+    "equity": 2459.04,
     "last_equity": 0,
-    "cash": 5000.0,
+    "cash": 1479.82,
     "status": "ACTIVE",
     "trading_blocked": false,
     "account_blocked": false,
     "shared": true
    },
-   "positions": [],
-   "orders": [],
+   "positions": [
+    {
+     "symbol": "CVX",
+     "qty": 2.287405102,
+     "avg_entry": 212.07,
+     "market_value": 490.29,
+     "unrealized_pl": 5.200187
+    },
+    {
+     "symbol": "XOM",
+     "qty": 2.941722255,
+     "avg_entry": 164.9,
+     "market_value": 488.93,
+     "unrealized_pl": 3.836594
+    }
+   ],
+   "orders": [
+    {
+     "time": "2026-11-06T14:39:13.174782+00:00",
+     "symbol": "XOM",
+     "side": "buy",
+     "qty": 2.941722255,
+     "price": 164.9,
+     "type": "market",
+     "order_id": "228a16b9-ec81-485f-bb1c-139ac9e6fe19"
+    },
+    {
+     "time": "2026-11-06T14:39:15.126874+00:00",
+     "symbol": "CVX",
+     "side": "buy",
+     "qty": 2.287405102,
+     "price": 212.07,
+     "type": "market",
+     "order_id": "4b5507f0-3639-4498-bdfa-4dacc7d260a3"
+    }
+   ],
    "equity_history": [],
    "log": {
-    "exists": false
+    "exists": true,
+    "modified": "2026-11-06T10:31:06-05:00",
+    "last_line_time": "2026-11-06T10:31:06",
+    "errors": 0,
+    "errors_24h": 0,
+    "last_errors": [],
+    "tail": [
+     "2026-11-06 09:39:12,615 INFO 2026-11-05 close: dips ['XOM', 'CVX'] | holding nothing | bot 5 value $2450.00 (cash $2450.00)",
+     "2026-11-06 09:39:12,615 INFO BUY XOM $490.00",
+     "2026-11-06 09:39:12,615 INFO BUY CVX $490.00",
+     "2026-11-06 10:31:06,437 INFO Connected to Alpaca PAPER account",
+     "2026-11-06 10:31:06,909 INFO Already ran today; nothing to do."
+    ],
+    "live_warning": false
    }
   }
  },
@@ -727,568 +744,568 @@
  "err_logs": [],
  "clock": {
   "is_open": false,
-  "next_open": "2026-11-06T09:30:00-05:00",
-  "next_close": "2026-11-06T16:00:00-05:00",
+  "next_open": "2026-11-09T09:30:00-05:00",
+  "next_close": "2026-11-09T16:00:00-05:00",
   "trading_day": true
  },
  "market": {
   "symbols": [
    {
     "symbol": "AAPL",
-    "day": "2026-11-05",
-    "close": 344.6,
-    "chg_1d_pct": -1.42,
-    "chg_1m_pct": 2.38,
+    "day": "2026-11-06",
+    "close": 342.41,
+    "chg_1d_pct": -0.64,
+    "chg_1m_pct": 0.58,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 26.4
+    "vol_20d_pct": 26.1
    },
    {
     "symbol": "ABBV",
-    "day": "2026-11-05",
-    "close": 287.96,
-    "chg_1d_pct": -2.35,
-    "chg_1m_pct": 6.75,
+    "day": "2026-11-06",
+    "close": 291.53,
+    "chg_1d_pct": 1.24,
+    "chg_1m_pct": 7.66,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 26.9
+    "vol_20d_pct": 26.8
    },
    {
     "symbol": "ADBE",
-    "day": "2026-11-05",
-    "close": 246.43,
-    "chg_1d_pct": -0.82,
-    "chg_1m_pct": 5.9,
+    "day": "2026-11-06",
+    "close": 239.25,
+    "chg_1d_pct": -2.91,
+    "chg_1m_pct": -0.72,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 40.1
+    "vol_20d_pct": 41.5
    },
    {
     "symbol": "AMD",
-    "day": "2026-11-05",
-    "close": 403.42,
-    "chg_1d_pct": -17.45,
-    "chg_1m_pct": -37.54,
-    "above_200d": false,
+    "day": "2026-11-06",
+    "close": 447.465,
+    "chg_1d_pct": 10.92,
+    "chg_1m_pct": -27.92,
+    "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 91.8
+    "vol_20d_pct": 102.5
    },
    {
     "symbol": "AMZN",
-    "day": "2026-11-05",
-    "close": 260.64,
-    "chg_1d_pct": -2.06,
-    "chg_1m_pct": 0.28,
+    "day": "2026-11-06",
+    "close": 259.45,
+    "chg_1d_pct": -0.46,
+    "chg_1m_pct": 2.11,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 43.1
+    "vol_20d_pct": 41.5
    },
    {
     "symbol": "AVGO",
-    "day": "2026-11-05",
-    "close": 291.475,
-    "chg_1d_pct": -10.49,
-    "chg_1m_pct": -22.58,
+    "day": "2026-11-06",
+    "close": 293.41,
+    "chg_1d_pct": 0.66,
+    "chg_1m_pct": -18.51,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 54.6
+    "vol_20d_pct": 54.7
    },
    {
     "symbol": "BAC",
-    "day": "2026-11-05",
-    "close": 49.805,
-    "chg_1d_pct": -3.53,
-    "chg_1m_pct": -6.96,
+    "day": "2026-11-06",
+    "close": 49.415,
+    "chg_1d_pct": -0.78,
+    "chg_1m_pct": -7.79,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 28.9
+    "vol_20d_pct": 28.2
    },
    {
     "symbol": "COST",
-    "day": "2026-11-05",
-    "close": 1066.25,
-    "chg_1d_pct": 1.89,
-    "chg_1m_pct": 13.34,
+    "day": "2026-11-06",
+    "close": 1053.46,
+    "chg_1d_pct": -1.2,
+    "chg_1m_pct": 11.33,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 23.5
+    "vol_20d_pct": 24.3
    },
    {
     "symbol": "CRM",
-    "day": "2026-11-05",
-    "close": 222.36,
-    "chg_1d_pct": -2.1,
-    "chg_1m_pct": -0.95,
+    "day": "2026-11-06",
+    "close": 213.64,
+    "chg_1d_pct": -3.92,
+    "chg_1m_pct": -6.19,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 35.2
+    "vol_20d_pct": 37.6
    },
    {
     "symbol": "CSCO",
-    "day": "2026-11-05",
-    "close": 95.75,
-    "chg_1d_pct": -7.57,
-    "chg_1m_pct": -18.43,
+    "day": "2026-11-06",
+    "close": 93.8,
+    "chg_1d_pct": -2.04,
+    "chg_1m_pct": -18.36,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 40.6
+    "vol_20d_pct": 38.1
    },
    {
     "symbol": "CVX",
-    "day": "2026-11-05",
-    "close": 213.01,
-    "chg_1d_pct": -1.83,
-    "chg_1m_pct": 3.82,
+    "day": "2026-11-06",
+    "close": 212.63,
+    "chg_1d_pct": -0.18,
+    "chg_1m_pct": 0.51,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 28.5
    },
    {
     "symbol": "DIS",
-    "day": "2026-11-05",
-    "close": 117.28,
-    "chg_1d_pct": -1.4,
-    "chg_1m_pct": 11.95,
+    "day": "2026-11-06",
+    "close": 116.73,
+    "chg_1d_pct": -0.47,
+    "chg_1m_pct": 9.02,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 22.2
+    "vol_20d_pct": 22.4
    },
    {
     "symbol": "EEM",
-    "day": "2026-11-05",
-    "close": 58.06,
-    "chg_1d_pct": -5.78,
-    "chg_1m_pct": -13.79,
+    "day": "2026-11-06",
+    "close": 59.32,
+    "chg_1d_pct": 2.17,
+    "chg_1m_pct": -10.27,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 27.9
+    "vol_20d_pct": 29.0
    },
    {
     "symbol": "EFA",
-    "day": "2026-11-05",
-    "close": 102.685,
-    "chg_1d_pct": -2.88,
-    "chg_1m_pct": -0.42,
-    "above_200d": true,
+    "day": "2026-11-06",
+    "close": 101.875,
+    "chg_1d_pct": -0.79,
+    "chg_1m_pct": -0.81,
+    "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 16.7
+    "vol_20d_pct": 16.8
    },
    {
     "symbol": "GLD",
-    "day": "2026-11-05",
-    "close": 375.55,
-    "chg_1d_pct": 0.84,
-    "chg_1m_pct": -0.08,
+    "day": "2026-11-06",
+    "close": 372.55,
+    "chg_1d_pct": -0.8,
+    "chg_1m_pct": -1.61,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 25.5
+    "vol_20d_pct": 24.9
    },
    {
     "symbol": "GOOGL",
-    "day": "2026-11-05",
-    "close": 282.645,
-    "chg_1d_pct": -2.2,
-    "chg_1m_pct": -19.37,
+    "day": "2026-11-06",
+    "close": 284.72,
+    "chg_1d_pct": 0.73,
+    "chg_1m_pct": -18.25,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 50.7
+    "vol_20d_pct": 50.6
    },
    {
     "symbol": "HD",
-    "day": "2026-11-05",
-    "close": 350.055,
-    "chg_1d_pct": -1.51,
-    "chg_1m_pct": 22.51,
+    "day": "2026-11-06",
+    "close": 343.43,
+    "chg_1d_pct": -1.89,
+    "chg_1m_pct": 16.23,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 38.4
+    "vol_20d_pct": 38.6
    },
    {
     "symbol": "HON",
-    "day": "2026-11-05",
-    "close": 215.82,
-    "chg_1d_pct": -5.51,
-    "chg_1m_pct": 3.72,
+    "day": "2026-11-06",
+    "close": 220.105,
+    "chg_1d_pct": 1.99,
+    "chg_1m_pct": 6.61,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 27.6
+    "vol_20d_pct": 28.2
    },
    {
     "symbol": "IBM",
-    "day": "2026-11-05",
-    "close": 247.1,
-    "chg_1d_pct": -2.85,
-    "chg_1m_pct": 12.05,
+    "day": "2026-11-06",
+    "close": 244.985,
+    "chg_1d_pct": -0.86,
+    "chg_1m_pct": 8.12,
+    "above_200d": false,
+    "above_50d": true,
+    "vol_20d_pct": 27.7
+   },
+   {
+    "symbol": "INTC",
+    "day": "2026-11-06",
+    "close": 56.31,
+    "chg_1d_pct": 7.85,
+    "chg_1m_pct": -47.45,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 122.2
+   },
+   {
+    "symbol": "IWM",
+    "day": "2026-11-06",
+    "close": 273.59,
+    "chg_1d_pct": 0.95,
+    "chg_1m_pct": -1.41,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 23.2
+   },
+   {
+    "symbol": "JNJ",
+    "day": "2026-11-06",
+    "close": 276.33,
+    "chg_1d_pct": 1.42,
+    "chg_1m_pct": 7.74,
     "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 34.4
+   },
+   {
+    "symbol": "JPM",
+    "day": "2026-11-06",
+    "close": 334.46,
+    "chg_1d_pct": -0.88,
+    "chg_1m_pct": 0.91,
+    "above_200d": true,
+    "above_50d": false,
+    "vol_20d_pct": 26.9
+   },
+   {
+    "symbol": "KO",
+    "day": "2026-11-06",
+    "close": 95.665,
+    "chg_1d_pct": -0.09,
+    "chg_1m_pct": 9.0,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 22.4
+   },
+   {
+    "symbol": "LLY",
+    "day": "2026-11-06",
+    "close": 1354.765,
+    "chg_1d_pct": -0.91,
+    "chg_1m_pct": 15.83,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 38.7
+   },
+   {
+    "symbol": "MA",
+    "day": "2026-11-06",
+    "close": 652.87,
+    "chg_1d_pct": -0.42,
+    "chg_1m_pct": 13.77,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 28.8
+   },
+   {
+    "symbol": "MCD",
+    "day": "2026-11-06",
+    "close": 276.45,
+    "chg_1d_pct": -0.57,
+    "chg_1m_pct": 16.71,
+    "above_200d": false,
+    "above_50d": true,
+    "vol_20d_pct": 29.3
+   },
+   {
+    "symbol": "META",
+    "day": "2026-11-06",
+    "close": 610.12,
+    "chg_1d_pct": 0.79,
+    "chg_1m_pct": -15.38,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 40.6
+   },
+   {
+    "symbol": "MRK",
+    "day": "2026-11-06",
+    "close": 146.755,
+    "chg_1d_pct": -0.09,
+    "chg_1m_pct": 3.04,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 36.4
+   },
+   {
+    "symbol": "MSFT",
+    "day": "2026-11-06",
+    "close": 530.58,
+    "chg_1d_pct": -1.06,
+    "chg_1m_pct": 1.51,
+    "above_200d": true,
+    "above_50d": true,
+    "vol_20d_pct": 35.5
+   },
+   {
+    "symbol": "NFLX",
+    "day": "2026-11-06",
+    "close": 63.39,
+    "chg_1d_pct": -3.27,
+    "chg_1m_pct": -11.45,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 38.0
+   },
+   {
+    "symbol": "NKE",
+    "day": "2026-11-06",
+    "close": 38.59,
+    "chg_1d_pct": -2.45,
+    "chg_1m_pct": 11.05,
+    "above_200d": false,
+    "above_50d": true,
+    "vol_20d_pct": 36.2
+   },
+   {
+    "symbol": "NVDA",
+    "day": "2026-11-06",
+    "close": 186.7,
+    "chg_1d_pct": 2.81,
+    "chg_1m_pct": -19.03,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 46.3
+   },
+   {
+    "symbol": "ORCL",
+    "day": "2026-11-06",
+    "close": 116.07,
+    "chg_1d_pct": 0.76,
+    "chg_1m_pct": -14.06,
+    "above_200d": false,
+    "above_50d": false,
+    "vol_20d_pct": 79.3
+   },
+   {
+    "symbol": "PEP",
+    "day": "2026-11-06",
+    "close": 141.31,
+    "chg_1d_pct": -1.03,
+    "chg_1m_pct": 9.98,
+    "above_200d": false,
     "above_50d": true,
     "vol_20d_pct": 27.3
    },
    {
-    "symbol": "INTC",
-    "day": "2026-11-05",
-    "close": 52.21,
-    "chg_1d_pct": -10.42,
-    "chg_1m_pct": -53.82,
-    "above_200d": false,
-    "above_50d": false,
-    "vol_20d_pct": 115.7
-   },
-   {
-    "symbol": "IWM",
-    "day": "2026-11-05",
-    "close": 271.01,
-    "chg_1d_pct": -4.55,
-    "chg_1m_pct": -2.41,
-    "above_200d": false,
-    "above_50d": false,
-    "vol_20d_pct": 23.0
-   },
-   {
-    "symbol": "JNJ",
-    "day": "2026-11-05",
-    "close": 272.45,
-    "chg_1d_pct": -1.41,
-    "chg_1m_pct": 5.4,
-    "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 34.7
-   },
-   {
-    "symbol": "JPM",
-    "day": "2026-11-05",
-    "close": 337.42,
-    "chg_1d_pct": -4.2,
-    "chg_1m_pct": 2.4,
-    "above_200d": true,
-    "above_50d": false,
-    "vol_20d_pct": 26.8
-   },
-   {
-    "symbol": "KO",
-    "day": "2026-11-05",
-    "close": 95.755,
-    "chg_1d_pct": -0.12,
-    "chg_1m_pct": 11.6,
-    "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 22.3
-   },
-   {
-    "symbol": "LLY",
-    "day": "2026-11-05",
-    "close": 1367.27,
-    "chg_1d_pct": -3.58,
-    "chg_1m_pct": 15.06,
-    "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 38.2
-   },
-   {
-    "symbol": "MA",
-    "day": "2026-11-05",
-    "close": 655.635,
-    "chg_1d_pct": -2.52,
-    "chg_1m_pct": 15.17,
-    "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 29.6
-   },
-   {
-    "symbol": "MCD",
-    "day": "2026-11-05",
-    "close": 278.045,
-    "chg_1d_pct": -0.77,
-    "chg_1m_pct": 20.45,
-    "above_200d": false,
-    "above_50d": true,
-    "vol_20d_pct": 29.4
-   },
-   {
-    "symbol": "META",
-    "day": "2026-11-05",
-    "close": 605.31,
-    "chg_1d_pct": -3.9,
-    "chg_1m_pct": -16.06,
-    "above_200d": false,
-    "above_50d": false,
-    "vol_20d_pct": 40.2
-   },
-   {
-    "symbol": "MRK",
-    "day": "2026-11-05",
-    "close": 146.89,
-    "chg_1d_pct": -2.31,
-    "chg_1m_pct": 2.91,
-    "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 37.2
-   },
-   {
-    "symbol": "MSFT",
-    "day": "2026-11-05",
-    "close": 536.29,
-    "chg_1d_pct": -3.56,
-    "chg_1m_pct": 1.24,
-    "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 36.3
-   },
-   {
-    "symbol": "NFLX",
-    "day": "2026-11-05",
-    "close": 65.53,
-    "chg_1d_pct": -1.31,
-    "chg_1m_pct": -5.98,
-    "above_200d": false,
-    "above_50d": false,
-    "vol_20d_pct": 36.9
-   },
-   {
-    "symbol": "NKE",
-    "day": "2026-11-05",
-    "close": 39.56,
-    "chg_1d_pct": -2.3,
-    "chg_1m_pct": 15.12,
-    "above_200d": false,
-    "above_50d": true,
-    "vol_20d_pct": 34.5
-   },
-   {
-    "symbol": "NVDA",
-    "day": "2026-11-05",
-    "close": 181.59,
-    "chg_1d_pct": -9.28,
-    "chg_1m_pct": -23.51,
-    "above_200d": false,
-    "above_50d": false,
-    "vol_20d_pct": 44.1
-   },
-   {
-    "symbol": "ORCL",
-    "day": "2026-11-05",
-    "close": 115.19,
-    "chg_1d_pct": -6.95,
-    "chg_1m_pct": -19.48,
-    "above_200d": false,
-    "above_50d": false,
-    "vol_20d_pct": 81.6
-   },
-   {
-    "symbol": "PEP",
-    "day": "2026-11-05",
-    "close": 142.78,
-    "chg_1d_pct": 0.23,
-    "chg_1m_pct": 15.49,
-    "above_200d": false,
-    "above_50d": true,
-    "vol_20d_pct": 28.2
-   },
-   {
     "symbol": "PG",
-    "day": "2026-11-05",
-    "close": 167.065,
-    "chg_1d_pct": -0.19,
-    "chg_1m_pct": 13.79,
+    "day": "2026-11-06",
+    "close": 165.39,
+    "chg_1d_pct": -1.0,
+    "chg_1m_pct": 10.55,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 28.2
+    "vol_20d_pct": 28.8
    },
    {
     "symbol": "QCOM",
-    "day": "2026-11-05",
-    "close": 156.885,
-    "chg_1d_pct": -9.7,
-    "chg_1m_pct": -11.4,
+    "day": "2026-11-06",
+    "close": 165.71,
+    "chg_1d_pct": 5.63,
+    "chg_1m_pct": -5.88,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 64.1
+    "vol_20d_pct": 67.7
    },
    {
     "symbol": "QQQ",
-    "day": "2026-11-05",
-    "close": 648.05,
-    "chg_1d_pct": -6.31,
-    "chg_1m_pct": -14.48,
+    "day": "2026-11-06",
+    "close": 656.31,
+    "chg_1d_pct": 1.27,
+    "chg_1m_pct": -12.2,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 31.0
+    "vol_20d_pct": 31.5
    },
    {
     "symbol": "SPY",
-    "day": "2026-11-05",
-    "close": 733.43,
-    "chg_1d_pct": -4.34,
-    "chg_1m_pct": -5.63,
+    "day": "2026-11-06",
+    "close": 735.4,
+    "chg_1d_pct": 0.27,
+    "chg_1m_pct": -4.97,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 19.9
+    "vol_20d_pct": 19.7
    },
    {
     "symbol": "TLT",
-    "day": "2026-11-05",
-    "close": 81.915,
-    "chg_1d_pct": 0.18,
-    "chg_1m_pct": 6.6,
+    "day": "2026-11-06",
+    "close": 81.92,
+    "chg_1d_pct": 0.01,
+    "chg_1m_pct": 5.65,
     "above_200d": false,
     "above_50d": true,
     "vol_20d_pct": 10.8
    },
    {
     "symbol": "TSLA",
-    "day": "2026-11-05",
-    "close": 343.55,
-    "chg_1d_pct": -10.81,
-    "chg_1m_pct": -9.04,
+    "day": "2026-11-06",
+    "close": 358.215,
+    "chg_1d_pct": 4.27,
+    "chg_1m_pct": -4.49,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 55.1
+    "vol_20d_pct": 56.9
    },
    {
     "symbol": "TXN",
-    "day": "2026-11-05",
-    "close": 278.205,
-    "chg_1d_pct": -10.71,
-    "chg_1m_pct": -3.24,
+    "day": "2026-11-06",
+    "close": 276.765,
+    "chg_1d_pct": -0.52,
+    "chg_1m_pct": -3.5,
     "above_200d": true,
-    "above_50d": true,
-    "vol_20d_pct": 51.8
+    "above_50d": false,
+    "vol_20d_pct": 51.6
    },
    {
     "symbol": "UNH",
-    "day": "2026-11-05",
-    "close": 395.75,
-    "chg_1d_pct": -3.31,
-    "chg_1m_pct": 5.3,
+    "day": "2026-11-06",
+    "close": 394.22,
+    "chg_1d_pct": -0.39,
+    "chg_1m_pct": 6.33,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 31.6
+    "vol_20d_pct": 30.8
    },
    {
     "symbol": "V",
-    "day": "2026-11-05",
-    "close": 422.41,
-    "chg_1d_pct": -3.26,
-    "chg_1m_pct": 13.54,
+    "day": "2026-11-06",
+    "close": 422.67,
+    "chg_1d_pct": 0.06,
+    "chg_1m_pct": 12.69,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 28.0
+    "vol_20d_pct": 26.9
    },
    {
     "symbol": "WMT",
-    "day": "2026-11-05",
-    "close": 127.71,
-    "chg_1d_pct": -1.18,
-    "chg_1m_pct": 18.12,
+    "day": "2026-11-06",
+    "close": 125.475,
+    "chg_1d_pct": -1.75,
+    "chg_1m_pct": 13.46,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 27.4
+    "vol_20d_pct": 28.8
    },
    {
     "symbol": "XLE",
-    "day": "2026-11-05",
-    "close": 61.69,
-    "chg_1d_pct": -2.91,
-    "chg_1m_pct": -2.67,
+    "day": "2026-11-06",
+    "close": 61.64,
+    "chg_1d_pct": -0.08,
+    "chg_1m_pct": -5.49,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 31.8
    },
    {
     "symbol": "XLF",
-    "day": "2026-11-05",
-    "close": 57.53,
-    "chg_1d_pct": -2.77,
-    "chg_1m_pct": 7.04,
+    "day": "2026-11-06",
+    "close": 57.16,
+    "chg_1d_pct": -0.64,
+    "chg_1m_pct": 5.39,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 21.1
+    "vol_20d_pct": 21.2
    },
    {
     "symbol": "XLI",
-    "day": "2026-11-05",
-    "close": 162.49,
-    "chg_1d_pct": -4.1,
-    "chg_1m_pct": -3.2,
+    "day": "2026-11-06",
+    "close": 162.68,
+    "chg_1d_pct": 0.12,
+    "chg_1m_pct": -3.39,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 20.4
+    "vol_20d_pct": 20.2
    },
    {
     "symbol": "XLK",
-    "day": "2026-11-05",
-    "close": 162.45,
-    "chg_1d_pct": -7.94,
-    "chg_1m_pct": -19.33,
+    "day": "2026-11-06",
+    "close": 164.79,
+    "chg_1d_pct": 1.44,
+    "chg_1m_pct": -16.68,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 40.4
+    "vol_20d_pct": 41.0
    },
    {
     "symbol": "XLP",
-    "day": "2026-11-05",
-    "close": 91.29,
-    "chg_1d_pct": -0.73,
-    "chg_1m_pct": 11.74,
+    "day": "2026-11-06",
+    "close": 90.09,
+    "chg_1d_pct": -1.31,
+    "chg_1m_pct": 8.03,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 24.0
+    "vol_20d_pct": 24.8
    },
    {
     "symbol": "XLU",
-    "day": "2026-11-05",
-    "close": 43.32,
-    "chg_1d_pct": -0.71,
-    "chg_1m_pct": 5.24,
+    "day": "2026-11-06",
+    "close": 43.14,
+    "chg_1d_pct": -0.42,
+    "chg_1m_pct": 5.07,
     "above_200d": false,
     "above_50d": true,
     "vol_20d_pct": 15.1
    },
    {
     "symbol": "XLV",
-    "day": "2026-11-05",
-    "close": 184.99,
-    "chg_1d_pct": -2.47,
-    "chg_1m_pct": 9.59,
+    "day": "2026-11-06",
+    "close": 184.82,
+    "chg_1d_pct": -0.09,
+    "chg_1m_pct": 9.93,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 23.2
+    "vol_20d_pct": 22.9
    },
    {
     "symbol": "XLY",
-    "day": "2026-11-05",
-    "close": 117.65,
-    "chg_1d_pct": -3.8,
-    "chg_1m_pct": 5.62,
+    "day": "2026-11-06",
+    "close": 117.565,
+    "chg_1d_pct": -0.07,
+    "chg_1m_pct": 5.26,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 26.4
+    "vol_20d_pct": 26.3
    },
    {
     "symbol": "XOM",
-    "day": "2026-11-05",
-    "close": 165.32,
-    "chg_1d_pct": -2.44,
-    "chg_1m_pct": 0.77,
+    "day": "2026-11-06",
+    "close": 165.88,
+    "chg_1d_pct": 0.34,
+    "chg_1m_pct": -1.58,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 32.8
    },
    {
     "symbol": "BTC/USD",
-    "day": "2026-11-05",
-    "close": 75971.885,
-    "chg_1d_pct": -5.55,
-    "chg_1m_pct": -7.5,
+    "day": "2026-11-06",
+    "close": 75734.475,
+    "chg_1d_pct": -0.31,
+    "chg_1m_pct": -7.08,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 33.8
    },
    {
     "symbol": "ETH/USD",
-    "day": "2026-11-05",
-    "close": 2234.5605,
-    "chg_1d_pct": -7.76,
-    "chg_1m_pct": -8.4,
+    "day": "2026-11-06",
+    "close": 2235.265,
+    "chg_1d_pct": 0.03,
+    "chg_1m_pct": -7.64,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 44.2
@@ -1297,166 +1314,161 @@
   "news": [
    {
     "symbol": "SPY",
-    "time": "2026-11-05T22:38:21+00:00",
-    "headline": "'Rubio Rejects Reports He Will Leave His Jobs To Run For President; President Trump\u2019s Secretary Of State And National Security Adviser Said He Intended To Stick With The Administration To The End' - NY Times",
+    "time": "2026-11-06T18:03:52+00:00",
+    "headline": "U.S. Baker Hughes Oil Rig Count +1 To 463; U.S. Baker Hughes NatGas Rig Count +1 To 131; U.S. Baker Hughes Total Rig Count 604 Vs 603 Prior",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-05T20:40:04+00:00",
-    "headline": "'Trump-Backed Critical Minerals Deals Face Growing Pressure After Blue Wave' - Bloomberg News",
+    "time": "2026-11-06T18:55:10+00:00",
+    "headline": "President Trump Posts On Truth Social \"I am pleased to announce that Mr. Stephen Miller, the current Deputy Chief of Staff of the Trump Administration, and one of my most trusted advisors, will become the Chief of Staff starting Monday, November 9, 2026. Susie Wiles, who has done an outstanding job, will be moving over to the Trump Political Operation. I want to thank her for her service as Chief of Staff \u2014 She has done a great job!\"",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-05T19:50:59+00:00",
-    "headline": "'Rubio Considers Leaving Administration After GOP\u2019s Midterm Loss' - Bloomberg Exclusive",
+    "time": "2026-11-06T18:22:22+00:00",
+    "headline": "\"White House Weighs Executive Order Attaching Terrorist Label To Some Nonprofits; The Order, Which Hasn\u2019t Been Finalized, Would Immediately Suspend Groups\u2019 Tax-Exempt Status\" - WSJ Exclusive",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-05T17:37:12+00:00",
-    "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
+    "time": "2026-11-06T18:14:10+00:00",
+    "headline": "Live On CNBC, Fed's Daly Says When You Step Back From 'painful' Volatility, This Is The Kind Of Rebalancing That You Would Hope For",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-05T17:28:34+00:00",
-    "headline": "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff",
+    "time": "2026-11-06T18:13:37+00:00",
+    "headline": "GOP Rep Massie Plans Articles Of Impeachment Against Secretary Of Defense Pete Hegseth",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-05T18:14:20+00:00",
-    "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+    "time": "2026-11-06T21:00:07+00:00",
+    "headline": "Nasdaq 100 Has Worst Day Since 2020, Jobs Beat Keeps Fed Hike Alive: This Week on Wall Street",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-05T18:13:10+00:00",
-    "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+    "time": "2026-11-06T19:14:09+00:00",
+    "headline": "QQQ Vs. TQQQ: 3X Nasdaq ETFs Compounding Trap Is Costing Investors Big",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-05T17:37:12+00:00",
-    "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
+    "time": "2026-11-06T17:38:16+00:00",
+    "headline": "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-05T17:28:34+00:00",
-    "headline": "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff",
+    "time": "2026-11-06T16:28:32+00:00",
+    "headline": "Jobs Report Boosts December Fed Rate Hike Bets",
     "source": "benzinga"
    },
    {
     "symbol": "QQQ",
-    "time": "2026-11-05T16:00:23+00:00",
-    "headline": "Defensives Lead Sectors Thursday As Growth Sectors Trail",
+    "time": "2026-11-06T16:02:44+00:00",
+    "headline": "What's Going On With Marvell Technology Stock Friday?",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-06T00:01:24+00:00",
-    "headline": "Apple Completes $7.5 Billion Bond Offering",
+    "time": "2026-11-06T21:31:30+00:00",
+    "headline": "UBS Reports Declining iPhone Wait Times",
     "source": "fiscal.ai"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-05T22:00:08+00:00",
-    "headline": "Nvidia Stock Is Down Nearly 24% Ahead of Earnings: Is It a Buy?",
+    "time": "2026-11-06T20:30:07+00:00",
+    "headline": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-05T20:57:23+00:00",
-    "headline": "Republican Senator Who Won Reelection Is Selling Magnificent Seven Stocks: Here Are the Trades",
+    "time": "2026-11-06T20:28:48+00:00",
+    "headline": "Jason Calacanis Is Buying These 8 Stocks After the Midterm Selloff: 'Markets Top Tick and Set New Records'",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-05T18:42:24+00:00",
-    "headline": "'Apple Draws $31 Billion of Orders for High-Grade Bond Sale' - Bloomberg",
+    "time": "2026-11-06T16:28:32+00:00",
+    "headline": "Jobs Report Boosts December Fed Rate Hike Bets",
     "source": "benzinga"
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-05T17:37:12+00:00",
-    "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-06T01:01:26+00:00",
-    "headline": "Microsoft Adjusts AI Infrastructure Strategy and Capital Expenditure Outlook",
+    "time": "2026-11-06T16:01:38+00:00",
+    "headline": "Apple Captures Record Share of Global Smartphone Revenue in Q3",
     "source": "fiscal.ai"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-05T22:31:46+00:00",
-    "headline": "Concentrix Launches New AI Application for Microsoft Dynamics 365",
+    "time": "2026-11-07T01:06:10+00:00",
+    "headline": "Google, Meta and TikTok Sue California Over Gavin Newsom's Law Restricting Addictive Social Media Features for Children (UPDATED)",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-11-07T01:01:28+00:00",
+    "headline": "Microsoft Hosts Financial Services Industry AI Roundtable",
     "source": "fiscal.ai"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-05T22:15:29+00:00",
-    "headline": "IREN Says At Microsoft\u2019s Request, We Are Implementing Network Design Change Across Horizon Deployments; Under Microsoft Agreement, Delivery Dates Are Extended, Without Delay Credits, For Delays Resulting From Microsoft-Requested Change; Expect Making Significant Investments For Foreseeable Future, Including Capital Requirements Related To Microsoft & NVIDIA Agreements; Expect Making Significant Investments For Foreseeable Future, Including GPU Acquisitions, Development Of Additional Data Center Capacity",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-05T21:02:04+00:00",
-    "headline": "Michael Burry Asks Whether Anthropic\u2019s Partners Are Polishing Its IPO Numbers",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-05T20:57:23+00:00",
-    "headline": "Republican Senator Who Won Reelection Is Selling Magnificent Seven Stocks: Here Are the Trades",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "NVDA",
-    "time": "2026-11-06T00:01:31+00:00",
-    "headline": "NVIDIA Plans to Convert Telecom Facilities into AI Data Centers",
+    "time": "2026-11-06T21:31:32+00:00",
+    "headline": "Microsoft to Wind Down AI Computing Rental Agreement with Oracle",
     "source": "fiscal.ai"
    },
    {
-    "symbol": "NVDA",
-    "time": "2026-11-05T23:16:48+00:00",
-    "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
+    "symbol": "MSFT",
+    "time": "2026-11-06T21:31:32+00:00",
+    "headline": "Microsoft Expands Copilot for Finance with New Skills and Partner Plugins",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-11-06T21:01:33+00:00",
+    "headline": "'OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value' - Bloomberg News",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-05T22:00:08+00:00",
-    "headline": "Nvidia Stock Is Down Nearly 24% Ahead of Earnings: Is It a Buy?",
+    "time": "2026-11-06T21:00:07+00:00",
+    "headline": "Nasdaq 100 Has Worst Day Since 2020, Jobs Beat Keeps Fed Hike Alive: This Week on Wall Street",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-05T21:02:04+00:00",
-    "headline": "Michael Burry Asks Whether Anthropic\u2019s Partners Are Polishing Its IPO Numbers",
+    "time": "2026-11-06T20:30:07+00:00",
+    "headline": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-05T20:32:21+00:00",
-    "headline": "AMD CEO Lisa Su Calls This Market Moment \u2018Short-Sighted\u2019 on AI Spending",
+    "time": "2026-11-06T18:11:50+00:00",
+    "headline": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-11-06T17:38:16+00:00",
+    "headline": "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-11-06T17:25:01+00:00",
+    "headline": "Chip Stocks Are Now Cheaper Than the S&P 500 \u2014 Something Unseen During the Entire AI Boom",
     "source": "benzinga"
    }
   ],
   "regime": {
    "spy_above_200d": true,
-   "spy_vol_20d_pct": 19.9,
+   "spy_vol_20d_pct": 19.7,
    "calm": true
   },
   "benchmarks": [
-   {
-    "day": "2025-09-02",
-    "symbol": "SPY",
-    "close": 631.78
-   },
    {
     "day": "2025-09-03",
     "symbol": "SPY",
@@ -2943,9 +2955,9 @@
     "close": 733.43
    },
    {
-    "day": "2025-09-02",
-    "symbol": "QQQ",
-    "close": 562.39
+    "day": "2026-11-06",
+    "symbol": "SPY",
+    "close": 735.4
    },
    {
     "day": "2025-09-03",
@@ -4433,9 +4445,9 @@
     "close": 648.05
    },
    {
-    "day": "2025-09-03",
-    "symbol": "BTC/USD",
-    "close": 111755.6435
+    "day": "2026-11-06",
+    "symbol": "QQQ",
+    "close": 656.31
    },
    {
     "day": "2025-09-04",
@@ -6578,9 +6590,9 @@
     "close": 75971.885
    },
    {
-    "day": "2025-09-03",
-    "symbol": "ETH/USD",
-    "close": 4451.7075
+    "day": "2026-11-06",
+    "symbol": "BTC/USD",
+    "close": 75734.475
    },
    {
     "day": "2025-09-04",
@@ -8721,13 +8733,42 @@
     "day": "2026-11-05",
     "symbol": "ETH/USD",
     "close": 2234.5605
+   },
+   {
+    "day": "2026-11-06",
+    "symbol": "ETH/USD",
+    "close": 2235.265
    }
   ]
  },
- "events": [],
+ "events": [
+  {
+   "date": "2026-11-12",
+   "what": "CSCO earnings",
+   "symbol": "CSCO",
+   "when": "time-after-hours"
+  }
+ ],
  "replay": {
-  "day": "2026-11-05",
+  "day": "2026-11-06",
   "strategy": "orb",
-  "trades": []
+  "trades": [
+   {
+    "symbol": "AAPL",
+    "entry_time": "2026-11-06T14:55:00+00:00",
+    "entry": 343.3637,
+    "exit": 342.4815,
+    "pnl": -1.78,
+    "exit_reason": "end of day"
+   },
+   {
+    "symbol": "MSFT",
+    "entry_time": "2026-11-06T15:15:00+00:00",
+    "entry": 533.9168,
+    "exit": 530.6239,
+    "pnl": -3.31,
+    "exit_reason": "end of day"
+   }
+  ]
  }
 }

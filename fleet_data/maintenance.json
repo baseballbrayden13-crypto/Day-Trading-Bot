@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-06T01:35:21+00:00",
+ "checked": "2026-11-07T01:26:02+00:00",
  "status": {
   "0": "ok",
   "1": "info",
@@ -7,14 +7,14 @@
   "3": "info",
   "6": "info",
   "7": "act",
-  "8": "watch"
+  "8": "act"
  },
  "findings": [
   {
    "bot": 1,
    "level": "ok",
    "check": "replay",
-   "message": "2026-11-05: bot 1 did what the backtest would have (0 entries).",
+   "message": "2026-11-06: bot 1 did what the backtest would have (2 entries).",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -23,7 +23,7 @@
    "bot": 1,
    "level": "info",
    "check": "return",
-   "message": "$4,979.70, -0.4% since the $5,000 start.",
+   "message": "$4,977.33, -0.5% since the $5,000 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -32,7 +32,16 @@
    "bot": 1,
    "level": "info",
    "check": "performance",
-   "message": "6 closed trades so far; 30 are needed before the results say anything about the strategy.",
+   "message": "8 closed trades so far; 30 are needed before the results say anything about the strategy.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 1,
+   "level": "ok",
+   "check": "slippage",
+   "message": "Real fills cost +2.5 bps over 10 fills (backtest assumes 2).",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -41,7 +50,7 @@
    "bot": 2,
    "level": "info",
    "check": "return",
-   "message": "$4,846.61, -3.1% since the $5,000 start.",
+   "message": "$2,405.83, -4.8% since the $2,528 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -50,7 +59,7 @@
    "bot": 2,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot -3.1% vs just holding SPY -3.5%.",
+   "message": "Since 2026-10-23: bot -4.8% vs just holding SPY -3.2%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -68,7 +77,7 @@
    "bot": 3,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -6.3%.",
+   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -6.4%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -86,7 +95,7 @@
    "bot": 7,
    "level": "act",
    "check": "losses",
-   "message": "Bot 4e: 3 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
+   "message": "Bot 4e: 4 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
    "fix": "Read kalshi_data/opportunities.csv for those events.",
    "proposal": "Pause Bot 4e until the losing trades are explained.",
    "risk": "Medium"
@@ -95,7 +104,7 @@
    "bot": 7,
    "level": "watch",
    "check": "missed hedges",
-   "message": "Bot 4e: 24 one-sided leftovers from missed hedges (not locked-in trades) closed for $-10.14.",
+   "message": "Bot 4e: 28 one-sided leftovers from missed hedges (not locked-in trades) closed for $-11.18.",
    "fix": "If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more).",
    "proposal": "",
    "risk": "Low"
@@ -104,16 +113,16 @@
    "bot": 7,
    "level": "act",
    "check": "drawdown",
-   "message": "Bot 4e is at $16.48 of its $20.00 start.",
+   "message": "Bot 4e is at $15.87 of its $20.00 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
   },
   {
    "bot": 7,
-   "level": "watch",
+   "level": "act",
    "check": "errors",
-   "message": "Bot 4e: 4 errors in the last day. Latest: 2026-11-05 10:57:01,524 ERROR STRAY POSITION: 2 NO contracts of KXMLBBGAME-26NOV051000CHEMBW-CHEM still held. Check it on Kalshi.",
+   "message": "Bot 4e: 4 errors in the last day. Latest: 2026-11-06 17:36:30,700 ERROR STRAY POSITION: 1 NO contracts of KXSOCKEYERUN-27-B37P00-42P99 still held. Check it on Kalshi. (Flagged 3 days in a row.)",
    "fix": "Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug.",
    "proposal": "",
    "risk": "Low"
@@ -122,17 +131,26 @@
    "bot": 7,
    "level": "info",
    "check": "return",
-   "message": "Bot 4e: 78 settled, 3 open, $-3.52 settled profit.",
+   "message": "Bot 4e: 86 settled, 4 open, $-4.13 settled profit.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
   },
   {
    "bot": 8,
-   "level": "watch",
-   "check": "schedule",
-   "message": "No saved dipbuy.log for bot 5 yet, so no cloud run has been saved for it.",
-   "fix": "If this stays for days, open the Actions tab and check its workflow runs and that its keys are in the repository secrets.",
+   "level": "act",
+   "check": "drawdown",
+   "message": "Down 50.8% from its peak, 1.5x past the worst drop in its backtest (14%).",
+   "fix": "Not normal for this strategy.",
+   "proposal": "Pause bot 8 and re-run its backtest on the latest data to see if the edge is gone.",
+   "risk": "Medium"
+  },
+  {
+   "bot": 8,
+   "level": "info",
+   "check": "return",
+   "message": "$2,459.04, +0.4% since the $2,450 start.",
+   "fix": "",
    "proposal": "",
    "risk": "Low"
   }
