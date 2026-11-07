@@ -2315,25 +2315,5 @@
    "closed": "2026-11-07T02:53:39.969312+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNBARACE-26NOV06PORLAL-30",
-   "series": "KXNBARACE",
-   "title": "Portland vs Los Angeles L: Race to 30 Points",
-   "ticker": "KXNBARACE-26NOV06PORLAL-30-LAL",
-   "order_id": "paper-866-1794022750",
-   "price": "0.2500",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8300",
-   "multiplier": "1",
-   "placed": 1794022750.9836488,
-   "hedge": [
-    {
-     "ticker": "KXNBARACE-26NOV06PORLAL-30-POR",
-     "limit": "0.5500"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

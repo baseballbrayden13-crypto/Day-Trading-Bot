@@ -5921,3 +5921,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 22:39:11,103 INFO Swept 22625 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-06 22:44:13,160 INFO Swept 22600 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 22:49:14,582 INFO Swept 22572 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 22:54:16,478 INFO Swept 22548 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 22:56:23,392 INFO Quote KXNBARACE-26NOV06PORLAL-30 cancelled (0/1 filled)
+2026-11-06 22:59:17,202 INFO Swept 22544 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 23:04:20,889 INFO Swept 22518 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 23:09:26,370 INFO Swept 22512 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 23:14:28,038 INFO Swept 22498 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 23:19:27,220 INFO Swept 22504 events: 0 taker trades, 0 new quotes, 0 resting
