@@ -6082,3 +6082,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 10:30:40,923 INFO Swept 22424 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 10:35:46,350 INFO Swept 22409 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 10:40:45,941 INFO Swept 22406 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 10:45:50,220 INFO Swept 22397 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 10:50:54,741 INFO Swept 22365 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 10:56:00,356 INFO Swept 22325 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 11:01:01,220 INFO Settled KXFBUGAME-26NOV070900KHMRIV: paid $1, profit $-0.05
+2026-11-07 11:01:22,744 INFO Swept 22294 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 11:06:22,457 INFO Swept 22257 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 11:11:27,220 INFO Swept 22335 events: 0 taker trades, 0 new quotes, 0 resting
