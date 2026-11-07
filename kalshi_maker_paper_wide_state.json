@@ -2315,5 +2315,25 @@
    "closed": "2026-11-07T02:53:39.969312+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXCS2GAME-26NOV070700ACESBAKS",
+   "series": "KXCS2GAME",
+   "title": "Team ACES vs. BakS eSports",
+   "ticker": "KXCS2GAME-26NOV070700ACESBAKS-ACES",
+   "order_id": "paper-867-1794032128",
+   "price": "0.0700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.6900",
+   "multiplier": "1",
+   "placed": 1794032128.9612494,
+   "hedge": [
+    {
+     "ticker": "KXCS2GAME-26NOV070700ACESBAKS-BAKS",
+     "limit": "0.5900"
+    }
+   ]
+  }
+ ]
 }
