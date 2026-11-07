@@ -1,5 +1,5 @@
 {
- "realized": "-4.9300",
+ "realized": "-4.6500",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -105,30 +105,6 @@
      "side": "no",
      "count": 5,
      "limit": "0.3800"
-    }
-   ]
-  },
-  {
-   "event": "KXITFWDOUBLES-26NOV06CASODORODTRA",
-   "series": "KXITFWDOUBLES",
-   "title": "Castillo Meza / Odorizzi vs Rodriguez / Tran",
-   "sets": 1,
-   "outlay": "0.7200",
-   "locked_profit": "0.2800",
-   "opened": "2026-11-07T17:44:37.062509+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXITFWDOUBLES-26NOV06CASODORODTRA-CASODO",
-     "side": "no",
-     "count": 1,
-     "limit": "0.4900"
-    },
-    {
-     "ticker": "KXITFWDOUBLES-26NOV06CASODORODTRA-RODTRA",
-     "side": "no",
-     "count": 1,
-     "limit": "0.2000"
     }
    ]
   }
@@ -2368,7 +2344,58 @@
     "KXFBUGAME-26NOV070900KHMRIV-RIV": "yes"
    },
    "closed": "2026-11-07T16:01:01.220155+00:00"
+  },
+  {
+   "event": "KXITFWDOUBLES-26NOV06CASODORODTRA",
+   "series": "KXITFWDOUBLES",
+   "title": "Castillo Meza / Odorizzi vs Rodriguez / Tran",
+   "sets": 1,
+   "outlay": "0.7200",
+   "locked_profit": "0.2800",
+   "opened": "2026-11-07T17:44:37.062509+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXITFWDOUBLES-26NOV06CASODORODTRA-CASODO",
+     "side": "no",
+     "count": 1,
+     "limit": "0.4900"
+    },
+    {
+     "ticker": "KXITFWDOUBLES-26NOV06CASODORODTRA-RODTRA",
+     "side": "no",
+     "count": 1,
+     "limit": "0.2000"
+    }
+   ],
+   "paid": "1",
+   "pnl": "0.2800",
+   "results": {
+    "KXITFWDOUBLES-26NOV06CASODORODTRA-CASODO": "no",
+    "KXITFWDOUBLES-26NOV06CASODORODTRA-RODTRA": "yes"
+   },
+   "closed": "2026-11-07T20:20:14.194731+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXCANPLADVANCE-26NOV07FOROTT",
+   "series": "KXCANPLADVANCE",
+   "title": "Hamilton vs Ottawa",
+   "ticker": "KXCANPLADVANCE-26NOV07FOROTT-FOR",
+   "order_id": "paper-873-1794082832",
+   "price": "0.1900",
+   "sets": 2,
+   "done": 0,
+   "reserve": "0.4200",
+   "multiplier": "1",
+   "placed": 1794082832.1561406,
+   "hedge": [
+    {
+     "ticker": "KXCANPLADVANCE-26NOV07FOROTT-OTT",
+     "limit": "0.0100"
+    }
+   ]
+  }
+ ]
 }

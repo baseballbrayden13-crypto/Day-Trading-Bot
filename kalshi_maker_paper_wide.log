@@ -6130,3 +6130,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 14:48:33,290 INFO Swept 21982 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 14:56:34,813 INFO Swept 21948 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 15:04:36,221 INFO Swept 21908 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 15:12:34,405 INFO PAPER BET daily_safest: 1 NO KXRAIN-26NOV07-EWR at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-07 15:12:34,407 INFO Swept 21876 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 15:20:14,194 INFO Settled KXITFWDOUBLES-26NOV06CASODORODTRA: paid $1, profit $0.28
+2026-11-07 15:20:32,155 INFO PAPER rest NO bid KXCANPLADVANCE-26NOV07FOROTT-FOR at $0.1900 x2 (0 already bid at that price)
+2026-11-07 15:20:32,156 INFO Resting NO bid on KXCANPLADVANCE-26NOV07FOROTT-FOR at $0.1900 x2 (KXCANPLADVANCE-26NOV07FOROTT): locks in $1.58 if it fills; hedge NO OTT@0.0100
+2026-11-07 15:20:32,226 INFO Swept 21911 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 15:28:29,641 INFO Swept 21916 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 15:36:27,123 INFO Swept 21912 events: 0 taker trades, 0 new quotes, 1 resting
