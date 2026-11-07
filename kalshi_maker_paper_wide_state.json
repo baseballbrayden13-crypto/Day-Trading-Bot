@@ -83,6 +83,30 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXNASCARTRUCKSERIES-NTS26",
+   "series": "KXNASCARTRUCKSERIES",
+   "title": "NASCAR Truck Series Champion",
+   "sets": 5,
+   "outlay": "4.8700",
+   "locked_profit": "0.1300",
+   "opened": "2026-11-07T00:17:34.306659+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
+     "side": "no",
+     "count": 5,
+     "limit": "0.5700"
+    },
+    {
+     "ticker": "KXNASCARTRUCKSERIES-NTS26-KHON",
+     "side": "no",
+     "count": 5,
+     "limit": "0.3800"
+    }
+   ]
   }
  ],
  "closed": [
