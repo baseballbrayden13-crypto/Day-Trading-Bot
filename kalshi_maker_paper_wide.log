@@ -5883,3 +5883,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 21:08:35,999 INFO Swept 22831 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 21:13:32,705 INFO Swept 22841 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-06 21:18:42,396 INFO Swept 22846 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 21:23:51,507 INFO Swept 22838 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 21:28:48,954 INFO PAPER rest NO bid KXAHLGAME-26NOV061900WILCHA-WIL at $0.3700 x2 (0 already bid at that price)
+2026-11-06 21:28:48,954 INFO Resting NO bid on KXAHLGAME-26NOV061900WILCHA-WIL at $0.3700 x2 (KXAHLGAME-26NOV061900WILCHA): locks in $0.74 if it fills; hedge NO CHA@0.2400
+2026-11-06 21:28:49,047 INFO Swept 22832 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 21:33:47,826 INFO Swept 22834 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 21:38:53,450 INFO Swept 22822 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 21:43:48,853 INFO Swept 22803 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 21:48:49,661 INFO Swept 22799 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 21:49:15,090 INFO PAPER KXAHLGAME-26NOV061900WILCHA-WIL NO bid at $0.3700: 2/2 filled by real trades
+2026-11-06 21:49:15,130 INFO PAPER buy 2 NO KXAHLGAME-26NOV061900WILCHA-CHA at up to $0.4500: not on the book
+2026-11-06 21:49:15,162 INFO PAPER buy 2 NO KXAHLGAME-26NOV061900WILCHA-CHA at up to $0.65: not on the book
+2026-11-06 21:49:15,163 WARNING Quote KXAHLGAME-26NOV061900WILCHA: hedge missed on KXAHLGAME-26NOV061900WILCHA-CHA. Selling back 2 contracts on 1 legs.
+2026-11-06 21:49:15,195 INFO PAPER sell 2 YES KXAHLGAME-26NOV061900WILCHA-WIL at up to $0.6800: not on the book
+2026-11-06 21:49:15,195 ERROR STRAY POSITION: 2 NO contracts of KXAHLGAME-26NOV061900WILCHA-WIL still held. Check it on Kalshi.
+2026-11-06 21:49:15,228 INFO PAPER sell 2 YES KXAHLGAME-26NOV061900WILCHA-WIL at up to $0.7800: not on the book
+2026-11-06 21:50:15,456 INFO PAPER sell 2 YES KXAHLGAME-26NOV061900WILCHA-WIL at up to $0.7800: not on the book
