@@ -5954,3 +5954,7 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 01:15:28,961 INFO Resting NO bid on KXCS2GAME-26NOV070700ACESBAKS-ACES at $0.0700 x1 (KXCS2GAME-26NOV070700ACESBAKS): locks in $0.31 if it fills; hedge NO BAKS@0.5900
 2026-11-07 01:15:29,074 INFO Swept 22427 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-07 01:20:32,984 INFO Swept 22444 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 01:25:37,992 INFO Swept 22444 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 01:30:39,883 INFO Swept 22451 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 01:35:42,902 INFO Swept 22444 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 01:35:58,138 INFO Stopped; all quotes cancelled.
