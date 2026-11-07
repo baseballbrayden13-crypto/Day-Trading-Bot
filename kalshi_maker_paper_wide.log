@@ -5912,3 +5912,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 22:13:56,221 INFO Resting NO bid on KXNCAAFWINMARGIN-26NOV06VTSMU-SMU7TO14 at $0.3700 x1 (KXNCAAFWINMARGIN-26NOV06VTSMU): locks in $0.28 if it fills; hedge NO SMU15PLUS@0.3200
 2026-11-06 22:13:56,343 INFO Swept 22757 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-06 22:19:01,584 INFO Swept 22718 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 22:24:00,275 INFO Swept 22703 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 22:29:05,613 INFO Swept 22687 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 22:34:09,790 INFO Swept 22638 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 22:35:36,087 INFO Quote KXNCAAFWINMARGIN-26NOV06VTSMU cancelled (0/1 filled)
+2026-11-06 22:39:10,983 INFO PAPER rest NO bid KXNBARACE-26NOV06PORLAL-30-LAL at $0.2500 x1 (0 already bid at that price)
+2026-11-06 22:39:10,983 INFO Resting NO bid on KXNBARACE-26NOV06PORLAL-30-LAL at $0.2500 x1 (KXNBARACE-26NOV06PORLAL-30): locks in $0.17 if it fills; hedge NO POR@0.5500
+2026-11-06 22:39:11,103 INFO Swept 22625 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 22:44:13,160 INFO Swept 22600 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 22:49:14,582 INFO Swept 22572 events: 0 taker trades, 0 new quotes, 1 resting

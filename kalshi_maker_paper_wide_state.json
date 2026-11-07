@@ -2317,21 +2317,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAFWINMARGIN-26NOV06VTSMU",
-   "series": "KXNCAAFWINMARGIN",
-   "title": "Virginia Tech vs SMU: Winning Margin",
-   "ticker": "KXNCAAFWINMARGIN-26NOV06VTSMU-SMU7TO14",
-   "order_id": "paper-865-1794021236",
-   "price": "0.3700",
+   "event": "KXNBARACE-26NOV06PORLAL-30",
+   "series": "KXNBARACE",
+   "title": "Portland vs Los Angeles L: Race to 30 Points",
+   "ticker": "KXNBARACE-26NOV06PORLAL-30-LAL",
+   "order_id": "paper-866-1794022750",
+   "price": "0.2500",
    "sets": 1,
    "done": 0,
-   "reserve": "0.7200",
+   "reserve": "0.8300",
    "multiplier": "1",
-   "placed": 1794021236.2214298,
+   "placed": 1794022750.9836488,
    "hedge": [
     {
-     "ticker": "KXNCAAFWINMARGIN-26NOV06VTSMU-SMU15PLUS",
-     "limit": "0.3200"
+     "ticker": "KXNBARACE-26NOV06PORLAL-30-POR",
+     "limit": "0.5500"
     }
    ]
   }
