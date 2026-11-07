@@ -2346,5 +2346,25 @@
    "closed": "2026-11-07T16:01:01.220155+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXITFWDOUBLES-26NOV06CASODORODTRA",
+   "series": "KXITFWDOUBLES",
+   "title": "Castillo Meza / Odorizzi vs Rodriguez / Tran",
+   "ticker": "KXITFWDOUBLES-26NOV06CASODORODTRA-CASODO",
+   "order_id": "paper-872-1794071506",
+   "price": "0.4900",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7200",
+   "multiplier": "1",
+   "placed": 1794071506.475894,
+   "hedge": [
+    {
+     "ticker": "KXITFWDOUBLES-26NOV06CASODORODTRA-RODTRA",
+     "limit": "0.2000"
+    }
+   ]
+  }
+ ]
 }

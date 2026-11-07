@@ -12192,5 +12192,19 @@
   "at_price": 0,
   "filled": 1,
   "status": "executed"
+ },
+ "paper-872-1794071506": {
+  "id": "paper-872-1794071506",
+  "ticker": "KXITFWDOUBLES-26NOV06CASODORODTRA-CASODO",
+  "price": "0.4900",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794071506.4654508,
+  "checked": 1794071577.2056882,
+  "expires": 1794073306,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
