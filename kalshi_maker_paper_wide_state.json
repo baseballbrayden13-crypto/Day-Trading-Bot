@@ -2315,25 +2315,5 @@
    "closed": "2026-11-07T02:53:39.969312+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXVALORANTGAME-26NOV070310YUNWECC",
-   "series": "KXVALORANTGAME",
-   "title": "Yu nochiQing re vs. WEC C",
-   "ticker": "KXVALORANTGAME-26NOV070310YUNWECC-WECC",
-   "order_id": "paper-870-1794053647",
-   "price": "0.6300",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8500",
-   "multiplier": "1",
-   "placed": 1794053647.124016,
-   "hedge": [
-    {
-     "ticker": "KXVALORANTGAME-26NOV070310YUNWECC-YUN",
-     "limit": "0.1900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
