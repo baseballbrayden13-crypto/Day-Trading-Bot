@@ -6147,3 +6147,7 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 16:31:51,375 INFO PAPER rest NO bid KXNCAAF1H-26NOV07COOKSOU-TIE at $0.4300 x1 (0 already bid at that price)
 2026-11-07 16:31:51,375 INFO Resting NO bid on KXNCAAF1H-26NOV07COOKSOU-TIE at $0.4300 x1 (KXNCAAF1H-26NOV07COOKSOU): locks in $0.15 if it fills; hedge NO SOU@0.3900
 2026-11-07 16:31:51,452 INFO Swept 21680 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 16:39:43,689 INFO Swept 21633 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 16:47:33,568 INFO Swept 21612 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 16:55:26,871 INFO Swept 21594 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 17:03:14,785 INFO Swept 21580 events: 0 taker trades, 0 new quotes, 1 resting
