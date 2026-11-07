@@ -5856,3 +5856,7 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 19:17:34,283 INFO PAPER KXNASCARTRUCKSERIES-NTS26-LRIG NO bid at $0.5700: 5/5 filled by real trades
 2026-11-06 19:17:34,306 INFO PAPER buy 5 NO KXNASCARTRUCKSERIES-NTS26-KHON at up to $0.3800: filled 5
 2026-11-06 19:17:34,306 INFO Quote KXNASCARTRUCKSERIES-NTS26 filled 5: hedged, locks in $0.13
+2026-11-06 19:22:37,862 INFO Swept 22758 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 19:27:40,077 INFO Swept 22763 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 19:32:42,573 INFO Swept 22777 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 19:32:47,580 INFO Stopped; all quotes cancelled.
