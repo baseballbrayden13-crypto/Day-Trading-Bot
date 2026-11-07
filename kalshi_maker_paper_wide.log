@@ -5971,3 +5971,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 02:36:25,195 INFO Swept 22351 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 02:41:26,551 INFO Swept 22350 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 02:46:28,515 INFO Swept 22344 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 02:51:29,974 INFO Swept 22352 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 02:56:32,188 INFO Swept 22349 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 03:01:33,385 INFO Swept 22349 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 03:06:35,876 INFO PAPER rest NO bid KXKLEAGUE1H-26NOV07GISANY-ANY at $0.3400 x1 (0 already bid at that price)
+2026-11-07 03:06:35,877 INFO Resting NO bid on KXKLEAGUE1H-26NOV07GISANY-ANY at $0.3400 x1 (KXKLEAGUE1H-26NOV07GISANY): locks in $0.22 if it fills; hedge NO TIE@0.4100
+2026-11-07 03:06:35,944 INFO Swept 22334 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 03:11:39,817 INFO Swept 22376 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 03:16:44,216 INFO Swept 22373 events: 0 taker trades, 0 new quotes, 1 resting
