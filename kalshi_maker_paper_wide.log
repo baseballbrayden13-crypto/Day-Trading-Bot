@@ -5877,3 +5877,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 20:43:25,530 INFO Resting NO bid on KXR6MAP-26NOV061930KINDK-2-KIN at $0.3200 x1 (KXR6MAP-26NOV061930KINDK-2): locks in $0.15 if it fills; hedge NO DK@0.5000
 2026-11-06 20:43:25,613 INFO Swept 22860 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-06 20:48:25,075 INFO Swept 22846 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 20:53:23,864 INFO Swept 22840 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 20:58:29,680 INFO Swept 22847 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 21:03:34,330 INFO Swept 22818 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 21:08:35,999 INFO Swept 22831 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 21:13:32,705 INFO Swept 22841 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 21:18:42,396 INFO Swept 22846 events: 0 taker trades, 0 new quotes, 0 resting

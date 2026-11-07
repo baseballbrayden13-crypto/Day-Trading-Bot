@@ -2291,25 +2291,5 @@
    "sold_back": true
   }
  ],
- "quotes": [
-  {
-   "event": "KXR6MAP-26NOV061930KINDK-2",
-   "series": "KXR6MAP",
-   "title": "Kingzone vs. Dplus: Map 2 Winner",
-   "ticker": "KXR6MAP-26NOV061930KINDK-2-KIN",
-   "order_id": "paper-862-1794015805",
-   "price": "0.3200",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8500",
-   "multiplier": "1",
-   "placed": 1794015805.5300825,
-   "hedge": [
-    {
-     "ticker": "KXR6MAP-26NOV061930KINDK-2-DK",
-     "limit": "0.5000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
