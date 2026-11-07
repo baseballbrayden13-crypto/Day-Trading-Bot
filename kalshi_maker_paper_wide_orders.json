@@ -12200,11 +12200,11 @@
   "count": 1,
   "ahead": 0,
   "placed": 1794071506.4654508,
-  "checked": 1794072999.3747938,
+  "checked": 1794073306,
   "expires": 1794073306,
-  "through": 0,
+  "through": 1,
   "at_price": 0,
-  "filled": 0,
-  "status": "resting"
+  "filled": 1,
+  "status": "executed"
  }
 }
