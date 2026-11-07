@@ -6076,3 +6076,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 10:10:55,681 INFO PAPER buy 1 NO KXFBUGAME-26NOV070900KHMRIV-RIV at up to $0.64: filled 1
 2026-11-07 10:10:55,681 INFO Quote KXFBUGAME-26NOV070900KHMRIV: hedge on KXFBUGAME-26NOV070900KHMRIV-RIV chased from 0.2900 to 0.64
 2026-11-07 10:10:55,681 INFO Quote KXFBUGAME-26NOV070900KHMRIV filled 1: hedged, locks in $-0.05
+2026-11-07 10:15:36,947 INFO Swept 22484 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 10:20:35,877 INFO Swept 22443 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 10:25:41,053 INFO Swept 22424 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 10:30:40,923 INFO Swept 22424 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 10:35:46,350 INFO Swept 22409 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 10:40:45,941 INFO Swept 22406 events: 0 taker trades, 0 new quotes, 0 resting
