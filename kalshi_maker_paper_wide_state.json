@@ -2377,5 +2377,25 @@
    "closed": "2026-11-07T20:20:14.194731+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAF1H-26NOV07COOKSOU",
+   "series": "KXNCAAF1H",
+   "title": "Bethune-Cookman vs Southern University: 1st Half Winner",
+   "ticker": "KXNCAAF1H-26NOV07COOKSOU-TIE",
+   "order_id": "paper-874-1794087111",
+   "price": "0.4300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8500",
+   "multiplier": "1",
+   "placed": 1794087111.3757484,
+   "hedge": [
+    {
+     "ticker": "KXNCAAF1H-26NOV07COOKSOU-SOU",
+     "limit": "0.3900"
+    }
+   ]
+  }
+ ]
 }
