@@ -1,5 +1,5 @@
 {
- "realized": "-4.1300",
+ "realized": "-4.8800",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -107,24 +107,6 @@
      "limit": "0.3800"
     }
    ]
-  },
-  {
-   "event": "KXAHLGAME-26NOV061900WILCHA (stray)",
-   "series": "KXAHLGAME",
-   "title": "Wilkes Barre-Scranton Penguins vs Charlotte Checkers",
-   "sets": 0,
-   "outlay": "0.7500",
-   "locked_profit": "0",
-   "opened": "2026-11-07T02:49:15.196004+00:00",
-   "legs": [
-    {
-     "ticker": "KXAHLGAME-26NOV061900WILCHA-WIL",
-     "side": "no",
-     "count": 2,
-     "limit": "0.3700"
-    }
-   ],
-   "retried": 1794019815.258827
   }
  ],
  "closed": [
@@ -2307,7 +2289,51 @@
    "pnl": "-0.1800",
    "closed": "2026-11-06T22:56:39.078027+00:00",
    "sold_back": true
+  },
+  {
+   "event": "KXAHLGAME-26NOV061900WILCHA (stray)",
+   "series": "KXAHLGAME",
+   "title": "Wilkes Barre-Scranton Penguins vs Charlotte Checkers",
+   "sets": 0,
+   "outlay": "0.7500",
+   "locked_profit": "0",
+   "opened": "2026-11-07T02:49:15.196004+00:00",
+   "legs": [
+    {
+     "ticker": "KXAHLGAME-26NOV061900WILCHA-WIL",
+     "side": "no",
+     "count": 2,
+     "limit": "0.3700"
+    }
+   ],
+   "retried": 1794019875.4875598,
+   "paid": "0",
+   "pnl": "-0.7500",
+   "results": {
+    "KXAHLGAME-26NOV061900WILCHA-WIL": "yes"
+   },
+   "closed": "2026-11-07T02:53:39.969312+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAFWINMARGIN-26NOV06VTSMU",
+   "series": "KXNCAAFWINMARGIN",
+   "title": "Virginia Tech vs SMU: Winning Margin",
+   "ticker": "KXNCAAFWINMARGIN-26NOV06VTSMU-SMU7TO14",
+   "order_id": "paper-865-1794021236",
+   "price": "0.3700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7200",
+   "multiplier": "1",
+   "placed": 1794021236.2214298,
+   "hedge": [
+    {
+     "ticker": "KXNCAAFWINMARGIN-26NOV06VTSMU-SMU15PLUS",
+     "limit": "0.3200"
+    }
+   ]
+  }
+ ]
 }

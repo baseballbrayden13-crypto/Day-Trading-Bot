@@ -12080,5 +12080,33 @@
   "at_price": 0,
   "filled": 2,
   "status": "executed"
+ },
+ "paper-864-1794020032": {
+  "id": "paper-864-1794020032",
+  "ticker": "KXNCAAHGAME-26NOV06MASMAI-MAI",
+  "price": "0.4300",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794020032.52678,
+  "checked": 1794020479.685049,
+  "expires": 1794021832,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-865-1794021236": {
+  "id": "paper-865-1794021236",
+  "ticker": "KXNCAAFWINMARGIN-26NOV06VTSMU-SMU7TO14",
+  "price": "0.3700",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794021236.2152581,
+  "checked": 1794021668.8095329,
+  "expires": 1794023036,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

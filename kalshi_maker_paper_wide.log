@@ -5899,3 +5899,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-06 21:49:15,195 ERROR STRAY POSITION: 2 NO contracts of KXAHLGAME-26NOV061900WILCHA-WIL still held. Check it on Kalshi.
 2026-11-06 21:49:15,228 INFO PAPER sell 2 YES KXAHLGAME-26NOV061900WILCHA-WIL at up to $0.7800: not on the book
 2026-11-06 21:50:15,456 INFO PAPER sell 2 YES KXAHLGAME-26NOV061900WILCHA-WIL at up to $0.7800: not on the book
+2026-11-06 21:51:15,670 INFO PAPER sell 2 YES KXAHLGAME-26NOV061900WILCHA-WIL at up to $0.7800: not on the book
+2026-11-06 21:53:39,969 INFO Settled KXAHLGAME-26NOV061900WILCHA (stray): paid $0, profit $-0.75
+2026-11-06 21:53:52,533 INFO PAPER rest NO bid KXNCAAHGAME-26NOV06MASMAI-MAI at $0.4300 x1 (0 already bid at that price)
+2026-11-06 21:53:52,533 INFO Resting NO bid on KXNCAAHGAME-26NOV06MASMAI-MAI at $0.4300 x1 (KXNCAAHGAME-26NOV06MASMAI): locks in $0.14 if it fills; hedge NO MAS@0.4000
+2026-11-06 21:53:52,652 INFO Swept 22783 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 21:58:52,072 INFO Swept 22768 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-06 22:01:19,736 INFO Quote KXNCAAHGAME-26NOV06MASMAI cancelled (0/1 filled)
+2026-11-06 22:03:59,966 INFO Swept 22757 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 22:08:56,118 INFO Swept 22764 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-06 22:13:56,221 INFO PAPER rest NO bid KXNCAAFWINMARGIN-26NOV06VTSMU-SMU7TO14 at $0.3700 x1 (0 already bid at that price)
+2026-11-06 22:13:56,221 INFO Resting NO bid on KXNCAAFWINMARGIN-26NOV06VTSMU-SMU7TO14 at $0.3700 x1 (KXNCAAFWINMARGIN-26NOV06VTSMU): locks in $0.28 if it fills; hedge NO SMU15PLUS@0.3200
+2026-11-06 22:13:56,343 INFO Swept 22757 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-06 22:19:01,584 INFO Swept 22718 events: 0 taker trades, 0 new quotes, 1 resting
