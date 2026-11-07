@@ -12150,5 +12150,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-869-1794047885": {
+  "id": "paper-869-1794047885",
+  "ticker": "KXVALORANTMAP-26NOV070300ARTOAS-1-OAS",
+  "price": "0.2200",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794047885.696982,
+  "checked": 1794048561.454005,
+  "expires": 1794049685,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

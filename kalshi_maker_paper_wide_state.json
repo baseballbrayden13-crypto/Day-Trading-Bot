@@ -2315,5 +2315,25 @@
    "closed": "2026-11-07T02:53:39.969312+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXVALORANTMAP-26NOV070300ARTOAS-1",
+   "series": "KXVALORANTMAP",
+   "title": "ArtiXans vs. Oasis Gaming: Map 1 Winner",
+   "ticker": "KXVALORANTMAP-26NOV070300ARTOAS-1-OAS",
+   "order_id": "paper-869-1794047885",
+   "price": "0.2200",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8400",
+   "multiplier": "1",
+   "placed": 1794047885.7052257,
+   "hedge": [
+    {
+     "ticker": "KXVALORANTMAP-26NOV070300ARTOAS-1-ART",
+     "limit": "0.5900"
+    }
+   ]
+  }
+ ]
 }

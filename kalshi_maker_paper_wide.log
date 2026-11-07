@@ -6004,3 +6004,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 05:07:47,428 INFO Swept 22390 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 05:12:50,680 INFO Swept 22413 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 05:17:53,714 INFO Swept 22417 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 05:22:56,180 INFO Swept 22416 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 05:27:59,085 INFO Swept 22414 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 05:33:02,657 INFO Swept 22412 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 05:38:05,705 INFO PAPER rest NO bid KXVALORANTMAP-26NOV070300ARTOAS-1-OAS at $0.2200 x1 (0 already bid at that price)
+2026-11-07 05:38:05,705 INFO Resting NO bid on KXVALORANTMAP-26NOV070300ARTOAS-1-OAS at $0.2200 x1 (KXVALORANTMAP-26NOV070300ARTOAS-1): locks in $0.16 if it fills; hedge NO ART@0.5900
+2026-11-07 05:38:05,772 INFO Swept 22408 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 05:43:10,423 INFO Swept 22403 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 05:48:15,766 INFO Swept 22389 events: 0 taker trades, 0 new quotes, 1 resting
