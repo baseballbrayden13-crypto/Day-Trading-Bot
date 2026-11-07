@@ -6103,3 +6103,7 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 12:11:46,475 INFO PAPER rest NO bid KXITFWDOUBLES-26NOV06CASODORODTRA-CASODO at $0.4900 x1 (0 already bid at that price)
 2026-11-07 12:11:46,475 INFO Resting NO bid on KXITFWDOUBLES-26NOV06CASODORODTRA-CASODO at $0.4900 x1 (KXITFWDOUBLES-26NOV06CASODORODTRA): locks in $0.28 if it fills; hedge NO RODTRA@0.2000
 2026-11-07 12:11:46,517 INFO Swept 22207 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 12:16:48,607 INFO Swept 22219 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 12:21:50,544 INFO Swept 22222 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 12:26:53,989 INFO Swept 22235 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 12:36:39,374 INFO Swept 22250 events: 0 taker trades, 0 new quotes, 1 resting
