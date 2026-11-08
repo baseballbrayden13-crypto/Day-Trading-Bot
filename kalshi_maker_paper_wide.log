@@ -6166,3 +6166,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 18:46:42,542 INFO Swept 21331 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 18:54:39,532 INFO Swept 21307 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 19:02:38,461 INFO Swept 21283 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 19:10:36,503 INFO PAPER rest NO bid KXNCAAHGAME-26NOV07MIAUMD-UMD at $0.0500 x1 (1 already bid at that price)
+2026-11-07 19:10:36,503 INFO Resting NO bid on KXNCAAHGAME-26NOV07MIAUMD-UMD at $0.05 x1 (KXNCAAHGAME-26NOV07MIAUMD): locks in $0.10 if it fills; hedge NO MIA@0.8300
+2026-11-07 19:10:36,579 INFO Swept 21251 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 19:18:33,992 INFO Swept 21283 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 19:26:28,230 INFO Swept 21284 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 19:26:33,344 INFO Stopped; all quotes cancelled.
