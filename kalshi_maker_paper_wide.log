@@ -6215,3 +6215,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 23:00:50,508 INFO Swept 20569 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 23:08:20,551 INFO Swept 20548 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-07 23:15:50,345 INFO Swept 20524 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 23:23:20,097 INFO Swept 20467 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 23:30:52,699 INFO Swept 20469 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 23:38:17,845 INFO PAPER rest NO bid KXAHLGAME-26NOV072100SANHEN-HEN at $0.1300 x1 (0 already bid at that price)
+2026-11-07 23:38:17,845 INFO Resting NO bid on KXAHLGAME-26NOV072100SANHEN-HEN at $0.1300 x1 (KXAHLGAME-26NOV072100SANHEN): locks in $0.27 if it fills; hedge NO SAN@0.5700
+2026-11-07 23:38:17,912 INFO Swept 20423 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 23:45:48,424 INFO Swept 20417 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 23:45:48,452 INFO PAPER KXAHLGAME-26NOV072100SANHEN-HEN NO bid at $0.1300: 1/1 filled by real trades
+2026-11-07 23:45:48,486 INFO PAPER buy 1 NO KXAHLGAME-26NOV072100SANHEN-SAN at up to $0.5700: not on the book
+2026-11-07 23:45:48,510 INFO PAPER buy 1 NO KXAHLGAME-26NOV072100SANHEN-SAN at up to $0.89: not on the book
+2026-11-07 23:45:48,511 WARNING Quote KXAHLGAME-26NOV072100SANHEN: hedge missed on KXAHLGAME-26NOV072100SANHEN-SAN. Selling back 1 contracts on 1 legs.
+2026-11-07 23:45:48,535 INFO PAPER sell 1 YES KXAHLGAME-26NOV072100SANHEN-HEN at up to $0.9200: not on the book
+2026-11-07 23:45:48,535 ERROR STRAY POSITION: 1 NO contracts of KXAHLGAME-26NOV072100SANHEN-HEN still held. Check it on Kalshi.
+2026-11-07 23:45:48,560 INFO PAPER sell 1 YES KXAHLGAME-26NOV072100SANHEN-HEN at up to $0.99: not on the book
