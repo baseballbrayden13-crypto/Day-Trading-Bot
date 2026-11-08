@@ -6296,3 +6296,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-08 13:42:29,696 INFO Swept 19383 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-08 13:49:32,194 INFO Swept 19355 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-08 13:49:37,235 INFO Stopped; all quotes cancelled.
+2026-11-08 16:52:10,657 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-08 16:55:50,963 INFO PAPER rest NO bid KXF1H2H-BRAZ26RUSANT-ANT at $0.3000 x1 (0 already bid at that price)
+2026-11-08 16:55:50,963 INFO Resting NO bid on KXF1H2H-BRAZ26RUSANT-ANT at $0.3000 x1 (KXF1H2H-BRAZ26RUSANT): locks in $0.27 if it fills; hedge NO RUS@0.4000
+2026-11-08 16:55:51,203 INFO PAPER BET daily_safest: 1 NO KXSOFRD-26NOV09-E3.95 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-08 16:55:51,204 INFO Swept 18321 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-08 17:00:47,412 INFO Swept 18285 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 17:05:52,751 INFO Swept 18256 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 17:10:54,331 INFO Swept 18248 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 17:15:52,527 INFO Swept 18224 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 17:20:55,925 INFO Swept 18218 events: 0 taker trades, 0 new quotes, 1 resting

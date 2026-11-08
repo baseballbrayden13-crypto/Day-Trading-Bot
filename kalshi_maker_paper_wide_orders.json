@@ -12318,5 +12318,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-881-1794174950": {
+  "id": "paper-881-1794174950",
+  "ticker": "KXF1H2H-BRAZ26RUSANT-ANT",
+  "price": "0.3000",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794174950.9587407,
+  "checked": 1794176526.9929006,
+  "expires": 1794176750,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

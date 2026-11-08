@@ -2425,5 +2425,25 @@
    "closed": "2026-11-08T04:52:59.075476+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXF1H2H-BRAZ26RUSANT",
+   "series": "KXF1H2H",
+   "title": "F1 Matchup: Russell vs Antonelli",
+   "ticker": "KXF1H2H-BRAZ26RUSANT-ANT",
+   "order_id": "paper-881-1794174950",
+   "price": "0.3000",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7300",
+   "multiplier": "1",
+   "placed": 1794174950.9636464,
+   "hedge": [
+    {
+     "ticker": "KXF1H2H-BRAZ26RUSANT-RUS",
+     "limit": "0.4000"
+    }
+   ]
+  }
+ ]
 }
