@@ -12354,11 +12354,11 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794179138.9125836,
-  "checked": 1794180138.0627687,
+  "checked": 1794180938,
   "expires": 1794180938,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  }
 }

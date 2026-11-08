@@ -2425,25 +2425,5 @@
    "closed": "2026-11-08T04:52:59.075476+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXITFWMATCH-26NOV09LOPDIA",
-   "series": "KXITFWMATCH",
-   "title": "Lopes Missato vs Diamante",
-   "ticker": "KXITFWMATCH-26NOV09LOPDIA-LOP",
-   "order_id": "paper-883-1794179138",
-   "price": "0.1900",
-   "sets": 2,
-   "done": 0,
-   "reserve": "0.5400",
-   "multiplier": "1",
-   "placed": 1794179138.919642,
-   "hedge": [
-    {
-     "ticker": "KXITFWMATCH-26NOV09LOPDIA-DIA",
-     "limit": "0.5700"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
