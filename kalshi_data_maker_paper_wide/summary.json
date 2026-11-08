@@ -1,23 +1,26 @@
 {
- "updated": "2026-11-08T03:08:27+00:00",
+ "updated": "2026-11-08T03:38:23+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "15.35",
- "realized_profit": "-4.65",
- "bet_level": "15.35",
+ "equity": "15.11",
+ "realized_profit": "-4.89",
+ "bet_level": "15.11",
  "open_trades": 4,
  "open_locked_profit": "2.77",
  "in_play": "14.23",
  "stray_positions": 0,
  "closed_trades": 60,
  "trades_this_loop": 0,
- "events_swept": 20799,
- "found_this_loop": 0,
+ "events_swept": 20596,
+ "found_this_loop": 1,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 0,
- "last_problems": []
+ "problems": 2,
+ "last_problems": [
+  "2026-11-08 03:30 Quote KXUSLADVANCE-26NOV07CHAHAR: hedge missed on KXUSLADVANCE-26NOV07CHAHAR-HAR. Selling back 1 contracts on 1 legs.",
+  "2026-11-08 03:30 STRAY POSITION: 1 NO contracts of KXUSLADVANCE-26NOV07CHAHAR-CHA still held. Check it on Kalshi."
+ ]
 }

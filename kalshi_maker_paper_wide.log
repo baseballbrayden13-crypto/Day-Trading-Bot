@@ -6199,3 +6199,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 22:00:39,580 INFO Swept 20835 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-07 22:08:22,352 INFO Swept 20821 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-07 22:15:57,071 INFO Swept 20799 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 22:23:27,785 INFO Swept 20730 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 22:30:53,800 INFO Swept 20664 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 22:30:53,835 INFO PAPER KXUSLADVANCE-26NOV07CHAHAR-CHA NO bid at $0.2300: 1/1 filled by real trades
+2026-11-07 22:30:53,878 INFO PAPER buy 1 NO KXUSLADVANCE-26NOV07CHAHAR-HAR at up to $0.6100: not on the book
+2026-11-07 22:30:53,910 INFO PAPER buy 1 NO KXUSLADVANCE-26NOV07CHAHAR-HAR at up to $0.79: not on the book
+2026-11-07 22:30:53,910 WARNING Quote KXUSLADVANCE-26NOV07CHAHAR: hedge missed on KXUSLADVANCE-26NOV07CHAHAR-HAR. Selling back 1 contracts on 1 legs.
+2026-11-07 22:30:53,943 INFO PAPER sell 1 YES KXUSLADVANCE-26NOV07CHAHAR-CHA at up to $0.8200: not on the book
+2026-11-07 22:30:53,943 ERROR STRAY POSITION: 1 NO contracts of KXUSLADVANCE-26NOV07CHAHAR-CHA still held. Check it on Kalshi.
+2026-11-07 22:30:53,975 INFO PAPER sell 1 YES KXUSLADVANCE-26NOV07CHAHAR-CHA at up to $0.9200: not on the book
+2026-11-07 22:38:00,934 INFO Settled KXUSLADVANCE-26NOV07CHAHAR (stray): paid $0, profit $-0.24
+2026-11-07 22:38:18,176 INFO Swept 20615 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 22:45:44,912 INFO Swept 20596 events: 0 taker trades, 0 new quotes, 0 resting

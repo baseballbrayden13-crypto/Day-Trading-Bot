@@ -12284,11 +12284,11 @@
   "count": 1,
   "ahead": 0,
   "placed": 1794106839.452209,
-  "checked": 1794107757.0723994,
+  "checked": 1794108639,
   "expires": 1794108639,
-  "through": 0,
+  "through": 2195,
   "at_price": 0,
-  "filled": 0,
-  "status": "resting"
+  "filled": 1,
+  "status": "executed"
  }
 }

@@ -1,5 +1,5 @@
 {
- "realized": "-4.6500",
+ "realized": "-4.8900",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -2375,27 +2375,31 @@
     "KXITFWDOUBLES-26NOV06CASODORODTRA-RODTRA": "yes"
    },
    "closed": "2026-11-07T20:20:14.194731+00:00"
-  }
- ],
- "quotes": [
+  },
   {
-   "event": "KXUSLADVANCE-26NOV07CHAHAR",
+   "event": "KXUSLADVANCE-26NOV07CHAHAR (stray)",
    "series": "KXUSLADVANCE",
    "title": "Charleston vs Hartford Athletic",
-   "ticker": "KXUSLADVANCE-26NOV07CHAHAR-CHA",
-   "order_id": "paper-878-1794106839",
-   "price": "0.2300",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8600",
-   "multiplier": "1",
-   "placed": 1794106839.4620607,
-   "hedge": [
+   "sets": 0,
+   "outlay": "0.2400",
+   "locked_profit": "0",
+   "opened": "2026-11-08T03:30:53.943634+00:00",
+   "legs": [
     {
-     "ticker": "KXUSLADVANCE-26NOV07CHAHAR-HAR",
-     "limit": "0.6000"
+     "ticker": "KXUSLADVANCE-26NOV07CHAHAR-CHA",
+     "side": "no",
+     "count": 1,
+     "limit": "0.2300"
     }
-   ]
+   ],
+   "retried": 1794108653.9436576,
+   "paid": "0",
+   "pnl": "-0.2400",
+   "results": {
+    "KXUSLADVANCE-26NOV07CHAHAR-CHA": "yes"
+   },
+   "closed": "2026-11-08T03:38:00.933967+00:00"
   }
- ]
+ ],
+ "quotes": []
 }
