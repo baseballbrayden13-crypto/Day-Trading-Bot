@@ -1,8 +1,8 @@
 checked,bot,label,name,status,headline
-2026-11-07T01:26:02+00:00,0,fleet,Whole fleet,ok,Running normally.
-2026-11-07T01:26:02+00:00,1,1,ORB day trader,info,Running normally.
-2026-11-07T01:26:02+00:00,2,2,ETF rotation,info,Running normally.
-2026-11-07T01:26:02+00:00,3,3,Crypto trend,info,Running normally.
-2026-11-07T01:26:02+00:00,6,4c,Kalshi maker paper,info,Running normally.
-2026-11-07T01:26:02+00:00,7,4e,Kalshi combined,act,Bot 4e: 4 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
-2026-11-07T01:26:02+00:00,8,5,Dip buyer,act,"Down 50.8% from its peak, 1.5x past the worst drop in its backtest (14%)."
+2026-11-08T01:32:06+00:00,0,fleet,Whole fleet,ok,Running normally.
+2026-11-08T01:32:06+00:00,1,1,ORB day trader,info,Running normally.
+2026-11-08T01:32:06+00:00,2,2,ETF rotation,info,Running normally.
+2026-11-08T01:32:06+00:00,3,3,Crypto trend,info,Running normally.
+2026-11-08T01:32:06+00:00,6,4c,Kalshi maker paper,info,Running normally.
+2026-11-08T01:32:06+00:00,7,4e,Kalshi combined,act,Bot 4e: 5 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
+2026-11-08T01:32:06+00:00,8,5,Dip buyer,act,"Down 50.9% from its peak, 1.5x past the worst drop in its backtest (14%)."

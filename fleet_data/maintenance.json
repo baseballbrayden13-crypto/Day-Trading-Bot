@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-07T01:26:02+00:00",
+ "checked": "2026-11-08T01:32:06+00:00",
  "status": {
   "0": "ok",
   "1": "info",
@@ -12,18 +12,9 @@
  "findings": [
   {
    "bot": 1,
-   "level": "ok",
-   "check": "replay",
-   "message": "2026-11-06: bot 1 did what the backtest would have (2 entries).",
-   "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 1,
    "level": "info",
    "check": "return",
-   "message": "$4,977.33, -0.5% since the $5,000 start.",
+   "message": "$4,977.29, -0.5% since the $5,000 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -95,16 +86,16 @@
    "bot": 7,
    "level": "act",
    "check": "losses",
-   "message": "Bot 4e: 4 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
+   "message": "Bot 4e: 5 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
    "fix": "Read kalshi_data/opportunities.csv for those events.",
    "proposal": "Pause Bot 4e until the losing trades are explained.",
    "risk": "Medium"
   },
   {
    "bot": 7,
-   "level": "watch",
+   "level": "act",
    "check": "missed hedges",
-   "message": "Bot 4e: 28 one-sided leftovers from missed hedges (not locked-in trades) closed for $-11.18.",
+   "message": "Bot 4e: 29 one-sided leftovers from missed hedges (not locked-in trades) closed for $-11.93. (Flagged 3 days in a row.)",
    "fix": "If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more).",
    "proposal": "",
    "risk": "Low"
@@ -113,7 +104,7 @@
    "bot": 7,
    "level": "act",
    "check": "drawdown",
-   "message": "Bot 4e is at $15.87 of its $20.00 start.",
+   "message": "Bot 4e is at $15.35 of its $20.00 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -122,7 +113,7 @@
    "bot": 7,
    "level": "act",
    "check": "errors",
-   "message": "Bot 4e: 4 errors in the last day. Latest: 2026-11-06 17:36:30,700 ERROR STRAY POSITION: 1 NO contracts of KXSOCKEYERUN-27-B37P00-42P99 still held. Check it on Kalshi. (Flagged 3 days in a row.)",
+   "message": "Bot 4e: 1 errors in the last day. Latest: 2026-11-06 21:49:15,195 ERROR STRAY POSITION: 2 NO contracts of KXAHLGAME-26NOV061900WILCHA-WIL still held. Check it on Kalshi. (Flagged 4 days in a row.)",
    "fix": "Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug.",
    "proposal": "",
    "risk": "Low"
@@ -131,7 +122,7 @@
    "bot": 7,
    "level": "info",
    "check": "return",
-   "message": "Bot 4e: 86 settled, 4 open, $-4.13 settled profit.",
+   "message": "Bot 4e: 89 settled, 4 open, $-4.65 settled profit.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -140,7 +131,7 @@
    "bot": 8,
    "level": "act",
    "check": "drawdown",
-   "message": "Down 50.8% from its peak, 1.5x past the worst drop in its backtest (14%).",
+   "message": "Down 50.9% from its peak, 1.5x past the worst drop in its backtest (14%).",
    "fix": "Not normal for this strategy.",
    "proposal": "Pause bot 8 and re-run its backtest on the latest data to see if the edge is gone.",
    "risk": "Medium"
@@ -149,7 +140,7 @@
    "bot": 8,
    "level": "info",
    "check": "return",
-   "message": "$2,459.04, +0.4% since the $2,450 start.",
+   "message": "$2,454.09, +0.2% since the $2,450 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
