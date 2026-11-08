@@ -6228,3 +6228,8 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 23:45:48,535 INFO PAPER sell 1 YES KXAHLGAME-26NOV072100SANHEN-HEN at up to $0.9200: not on the book
 2026-11-07 23:45:48,535 ERROR STRAY POSITION: 1 NO contracts of KXAHLGAME-26NOV072100SANHEN-HEN still held. Check it on Kalshi.
 2026-11-07 23:45:48,560 INFO PAPER sell 1 YES KXAHLGAME-26NOV072100SANHEN-HEN at up to $0.99: not on the book
+2026-11-07 23:52:59,075 INFO Settled KXAHLGAME-26NOV072100SANHEN (stray): paid $0, profit $-0.14
+2026-11-07 23:53:16,077 INFO Swept 20398 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-08 00:00:41,583 INFO Swept 20375 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-08 00:08:12,031 INFO Swept 20276 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-08 00:15:44,248 INFO Swept 20311 events: 0 taker trades, 0 new quotes, 0 resting

@@ -1,5 +1,5 @@
 {
- "realized": "-4.8900",
+ "realized": "-5.0300",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -107,24 +107,6 @@
      "limit": "0.3800"
     }
    ]
-  },
-  {
-   "event": "KXAHLGAME-26NOV072100SANHEN (stray)",
-   "series": "KXAHLGAME",
-   "title": "San Diego Gulls vs Henderson Silver Knights",
-   "sets": 0,
-   "outlay": "0.1400",
-   "locked_profit": "0",
-   "opened": "2026-11-08T04:45:48.535990+00:00",
-   "legs": [
-    {
-     "ticker": "KXAHLGAME-26NOV072100SANHEN-HEN",
-     "side": "no",
-     "count": 1,
-     "limit": "0.1300"
-    }
-   ],
-   "retried": 1794113148.5360098
   }
  ],
  "closed": [
@@ -2417,6 +2399,30 @@
     "KXUSLADVANCE-26NOV07CHAHAR-CHA": "yes"
    },
    "closed": "2026-11-08T03:38:00.933967+00:00"
+  },
+  {
+   "event": "KXAHLGAME-26NOV072100SANHEN (stray)",
+   "series": "KXAHLGAME",
+   "title": "San Diego Gulls vs Henderson Silver Knights",
+   "sets": 0,
+   "outlay": "0.1400",
+   "locked_profit": "0",
+   "opened": "2026-11-08T04:45:48.535990+00:00",
+   "legs": [
+    {
+     "ticker": "KXAHLGAME-26NOV072100SANHEN-HEN",
+     "side": "no",
+     "count": 1,
+     "limit": "0.1300"
+    }
+   ],
+   "retried": 1794113148.5360098,
+   "paid": "0",
+   "pnl": "-0.1400",
+   "results": {
+    "KXAHLGAME-26NOV072100SANHEN-HEN": "yes"
+   },
+   "closed": "2026-11-08T04:52:59.075476+00:00"
   }
  ],
  "quotes": []
