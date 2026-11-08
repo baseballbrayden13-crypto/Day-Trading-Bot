@@ -6286,3 +6286,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-08 12:43:14,049 INFO Swept 19602 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-08 12:50:51,861 INFO Swept 19539 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-08 12:58:35,014 INFO Swept 19555 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-08 13:06:21,908 INFO Swept 19538 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-08 13:13:53,920 INFO PAPER rest NO bid KXVALORANTMAP-26NOV081200BERCGN-1-BER at $0.3000 x1 (0 already bid at that price)
+2026-11-08 13:13:53,920 INFO Resting NO bid on KXVALORANTMAP-26NOV081200BERCGN-1-BER at $0.3000 x1 (KXVALORANTMAP-26NOV081200BERCGN-1): locks in $0.30 if it fills; hedge NO CGN@0.3700
+2026-11-08 13:13:53,975 INFO Swept 19506 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-08 13:21:04,926 INFO Swept 19484 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 13:28:20,616 INFO Swept 19453 events: 0 taker trades, 0 new quotes, 1 resting

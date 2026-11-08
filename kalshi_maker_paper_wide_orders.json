@@ -12304,5 +12304,19 @@
   "at_price": 0,
   "filled": 1,
   "status": "executed"
+ },
+ "paper-880-1794161633": {
+  "id": "paper-880-1794161633",
+  "ticker": "KXVALORANTMAP-26NOV081200BERCGN-1-BER",
+  "price": "0.3000",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794161633.9102178,
+  "checked": 1794162500.6171665,
+  "expires": 1794163433,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
