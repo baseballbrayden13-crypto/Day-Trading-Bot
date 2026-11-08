@@ -2377,5 +2377,25 @@
    "closed": "2026-11-07T20:20:14.194731+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXUSLADVANCE-26NOV07CHAHAR",
+   "series": "KXUSLADVANCE",
+   "title": "Charleston vs Hartford Athletic",
+   "ticker": "KXUSLADVANCE-26NOV07CHAHAR-CHA",
+   "order_id": "paper-878-1794106839",
+   "price": "0.2300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8600",
+   "multiplier": "1",
+   "placed": 1794106839.4620607,
+   "hedge": [
+    {
+     "ticker": "KXUSLADVANCE-26NOV07CHAHAR-HAR",
+     "limit": "0.6000"
+    }
+   ]
+  }
+ ]
 }

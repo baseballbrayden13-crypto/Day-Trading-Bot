@@ -6193,3 +6193,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 21:38:00,479 INFO Swept 20958 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-07 21:38:00,579 INFO Quote KXITFMATCH-26NOV08KOTSOP cancelled (0/1 filled)
 2026-11-07 21:45:32,820 INFO Swept 20915 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 21:53:06,465 INFO Swept 20879 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-07 22:00:39,461 INFO PAPER rest NO bid KXUSLADVANCE-26NOV07CHAHAR-CHA at $0.2300 x1 (0 already bid at that price)
+2026-11-07 22:00:39,462 INFO Resting NO bid on KXUSLADVANCE-26NOV07CHAHAR-CHA at $0.2300 x1 (KXUSLADVANCE-26NOV07CHAHAR): locks in $0.14 if it fills; hedge NO HAR@0.6000
+2026-11-07 22:00:39,580 INFO Swept 20835 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 22:08:22,352 INFO Swept 20821 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 22:15:57,071 INFO Swept 20799 events: 0 taker trades, 0 new quotes, 1 resting
