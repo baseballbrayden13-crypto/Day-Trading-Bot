@@ -2377,5 +2377,25 @@
    "closed": "2026-11-07T20:20:14.194731+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAHGAME-26NOV07MASMAI",
+   "series": "KXNCAAHGAME",
+   "title": "Massachusetts vs Maine",
+   "ticker": "KXNCAAHGAME-26NOV07MASMAI-MAS",
+   "order_id": "paper-876-1794102296",
+   "price": "0.0900",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8200",
+   "multiplier": "1",
+   "placed": 1794102296.4911058,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV07MASMAI-MAI",
+     "limit": "0.7000"
+    }
+   ]
+  }
+ ]
 }
