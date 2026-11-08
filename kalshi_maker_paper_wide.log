@@ -6182,3 +6182,7 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 20:44:56,490 INFO PAPER rest NO bid KXNCAAHGAME-26NOV07MASMAI-MAS at $0.0900 x1 (0 already bid at that price)
 2026-11-07 20:44:56,491 INFO Resting NO bid on KXNCAAHGAME-26NOV07MASMAI-MAS at $0.0900 x1 (KXNCAAHGAME-26NOV07MASMAI): locks in $0.18 if it fills; hedge NO MAI@0.7000
 2026-11-07 20:44:56,593 INFO Swept 21066 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 20:52:33,396 INFO Swept 21053 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 21:00:06,555 INFO Swept 21019 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 21:07:38,979 INFO Swept 21004 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 21:15:19,466 INFO Swept 21023 events: 0 taker trades, 0 new quotes, 1 resting
