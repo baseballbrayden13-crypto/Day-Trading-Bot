@@ -6306,3 +6306,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-08 17:10:54,331 INFO Swept 18248 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-08 17:15:52,527 INFO Swept 18224 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-08 17:20:55,925 INFO Swept 18218 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 17:25:55,411 INFO Swept 18189 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 17:30:57,054 INFO PAPER rest NO bid KXF1H2H-BRAZ26HAMLEC-HAM at $0.1800 x1 (0 already bid at that price)
+2026-11-08 17:30:57,055 INFO Resting NO bid on KXF1H2H-BRAZ26HAMLEC-HAM at $0.1800 x1 (KXF1H2H-BRAZ26HAMLEC): locks in $0.39 if it fills; hedge NO LEC@0.4000
+2026-11-08 17:30:57,165 INFO Swept 18183 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-08 17:35:57,804 INFO Swept 18177 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 17:40:48,730 INFO Swept 18178 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 17:45:46,379 INFO Swept 18156 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 17:50:44,580 INFO Swept 18145 events: 0 taker trades, 0 new quotes, 1 resting

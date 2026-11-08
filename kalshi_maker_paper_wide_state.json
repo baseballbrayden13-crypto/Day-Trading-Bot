@@ -2427,20 +2427,20 @@
  ],
  "quotes": [
   {
-   "event": "KXF1H2H-BRAZ26RUSANT",
+   "event": "KXF1H2H-BRAZ26HAMLEC",
    "series": "KXF1H2H",
-   "title": "F1 Matchup: Russell vs Antonelli",
-   "ticker": "KXF1H2H-BRAZ26RUSANT-ANT",
-   "order_id": "paper-881-1794174950",
-   "price": "0.3000",
+   "title": "F1 Matchup: Hamilton vs Leclerc",
+   "ticker": "KXF1H2H-BRAZ26HAMLEC-HAM",
+   "order_id": "paper-882-1794177057",
+   "price": "0.1800",
    "sets": 1,
    "done": 0,
-   "reserve": "0.7300",
+   "reserve": "0.6100",
    "multiplier": "1",
-   "placed": 1794174950.9636464,
+   "placed": 1794177057.0550447,
    "hedge": [
     {
-     "ticker": "KXF1H2H-BRAZ26RUSANT-RUS",
+     "ticker": "KXF1H2H-BRAZ26HAMLEC-LEC",
      "limit": "0.4000"
     }
    ]
