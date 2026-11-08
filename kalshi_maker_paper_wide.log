@@ -6186,3 +6186,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-07 21:00:06,555 INFO Swept 21019 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-07 21:07:38,979 INFO Swept 21004 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-07 21:15:19,466 INFO Swept 21023 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 21:22:56,734 INFO PAPER rest NO bid KXITFMATCH-26NOV08KOTSOP-SOP at $0.5200 x1 (0 already bid at that price)
+2026-11-07 21:22:56,734 INFO Resting NO bid on KXITFMATCH-26NOV08KOTSOP-SOP at $0.5200 x1 (KXITFMATCH-26NOV08KOTSOP): locks in $0.11 if it fills; hedge NO KOT@0.3400
+2026-11-07 21:22:56,807 INFO Swept 21031 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-07 21:30:29,739 INFO Swept 20978 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 21:38:00,479 INFO Swept 20958 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-07 21:38:00,579 INFO Quote KXITFMATCH-26NOV08KOTSOP cancelled (0/1 filled)
+2026-11-07 21:45:32,820 INFO Swept 20915 events: 0 taker trades, 0 new quotes, 0 resting
