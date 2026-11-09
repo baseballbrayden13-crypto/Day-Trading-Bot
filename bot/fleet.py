@@ -71,7 +71,8 @@ class Bot:
 # When a bot's account was split into sleeves (bot.sleeves), its money dropped without any loss. Equity before
 # the split day is multiplied by this factor so drawdown, return and report-card checks see one continuous record.
 # Bot 2: $2,450 slice of a $4,846.61 account (Nov 5 close), split on Nov 6 2026.
-SPLITS: dict[int, tuple[str, float]] = {2: ("2026-11-06", 2450 / 4846.61)}
+SPLITS: dict[int, tuple[str, float]] = {2: ("2026-11-06", 2450 / 4846.61),
+                                       8: ("2026-11-06", 2450 / 5000)}  # bot 5's Nov 5 row was the whole account
 
 
 def rescale(num: int, day: str, equity: float) -> float:
