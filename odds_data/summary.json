@@ -1,7 +1,18 @@
 {
- "updated": "2026-11-09T04:54:39+00:00",
+ "updated": "2026-11-09T05:02:44+00:00",
  "scan": {
-  "note": "No ODDS_API_KEY secret yet, so no odds were checked (settling still runs)."
+  "sports": [
+   "americanfootball_nfl",
+   "basketball_nba",
+   "icehockey_nhl",
+   "basketball_ncaab"
+  ],
+  "games": 46,
+  "kalshi_matched": 34,
+  "skipped": [],
+  "credits_left": 496,
+  "spent_today": 4,
+  "allowance": 16
  },
  "new_finds": [],
  "open_bets": 0,
