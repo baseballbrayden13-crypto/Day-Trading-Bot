@@ -2432,5 +2432,29 @@
    "closed": "2026-11-09T02:31:05.392862+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGAMXGAME-26NOV22CDGCRA",
+   "series": "KXLIGAMXGAME",
+   "title": "Guadalajara vs Cruz Azul",
+   "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-TIE",
+   "order_id": "paper-892-1794200435",
+   "price": "0.3900",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.0200",
+   "multiplier": "1",
+   "placed": 1794200435.595574,
+   "hedge": [
+    {
+     "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CDG",
+     "limit": "0.9400"
+    },
+    {
+     "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CRA",
+     "limit": "0.1600"
+    }
+   ]
+  }
+ ]
 }
