@@ -12522,11 +12522,25 @@
   "count": 1,
   "ahead": 0,
   "placed": 1794204048.5585804,
-  "checked": 1794204498.330196,
+  "checked": 1794204673.2438786,
   "expires": 1794205848,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-896-1794204652": {
+  "id": "paper-896-1794204652",
+  "ticker": "KXCONCACAFNLGAME-26NOV14HTIUSA-HTI",
+  "price": "0.5800",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794204652.645691,
+  "checked": 1794205858.9620779,
+  "expires": 1794206452,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
