@@ -78,3 +78,4 @@
 2026-11-09 09:21:12,639 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.
 2026-11-09 09:30:05,781 INFO New day 2026-11-09, starting equity $4977.29
 2026-11-09 09:50:08,317 INFO BUY NVDA x3 @limit 177.51 stop 170.24 target 188.19 | broke 15-min opening range high 176.43
+2026-11-09 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.
