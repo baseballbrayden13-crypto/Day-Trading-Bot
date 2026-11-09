@@ -31,22 +31,6 @@
    "note": "daily safest: likeliest outcome closing within 24h",
    "cost": "0.99",
    "expected": "-0.01"
-  },
-  {
-   "strategy": "daily_safest",
-   "ticker": "KXSOFRD-26NOV09-E3.95",
-   "event": "KXSOFRD-26NOV09",
-   "series": "KXSOFRD",
-   "side": "no",
-   "count": 1,
-   "price": "0.9800",
-   "fee": "0.01",
-   "prob": 0.98,
-   "close_time": "2026-11-09T12:59:00Z",
-   "placed": "2026-11-08T21:52:10+00:00",
-   "note": "daily safest: likeliest outcome closing within 24h",
-   "cost": "0.99",
-   "expected": "-0.01"
   }
  ],
  "closed": [
@@ -229,6 +213,26 @@
    "paid": "1.00",
    "pnl": "0.01",
    "closed": "2026-11-08T13:08:40+00:00"
+  },
+  {
+   "strategy": "daily_safest",
+   "ticker": "KXSOFRD-26NOV09-E3.95",
+   "event": "KXSOFRD-26NOV09",
+   "series": "KXSOFRD",
+   "side": "no",
+   "count": 1,
+   "price": "0.9800",
+   "fee": "0.01",
+   "prob": 0.98,
+   "close_time": "2026-11-09T12:59:00Z",
+   "placed": "2026-11-08T21:52:10+00:00",
+   "note": "daily safest: likeliest outcome closing within 24h",
+   "cost": "0.99",
+   "expected": "-0.01",
+   "result": "no",
+   "paid": "1.00",
+   "pnl": "0.01",
+   "closed": "2026-11-09T14:35:22+00:00"
   }
  ]
 }

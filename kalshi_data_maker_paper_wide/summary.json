@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-09T10:20:34+00:00",
+ "updated": "2026-11-09T14:59:14+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "14.97",
- "realized_profit": "-5.03",
- "bet_level": "14.97",
+ "equity": "14.84",
+ "realized_profit": "-5.16",
+ "bet_level": "14.84",
  "open_trades": 3,
  "open_locked_profit": "2.64",
  "in_play": "9.36",
  "stray_positions": 0,
  "closed_trades": 61,
  "trades_this_loop": 0,
- "events_swept": 18103,
- "found_this_loop": 1,
+ "events_swept": 18243,
+ "found_this_loop": 0,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
  "problems": 1,
  "last_problems": [
-  "2026-11-09 06:06 Quote KXCZEFNLGAME-26NOV07HANTRI: hedge missed on KXCZEFNLGAME-26NOV07HANTRI-TRI. Selling back 2 contracts on 1 legs."
+  "2026-11-09 14:50 Quote KXCZEFNLGAME-26NOV07HANTRI: hedge missed on KXCZEFNLGAME-26NOV07HANTRI-TRI. Selling back 2 contracts on 1 legs."
  ]
 }

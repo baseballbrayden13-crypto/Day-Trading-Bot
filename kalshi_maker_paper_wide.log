@@ -6585,3 +6585,24 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 05:22:56,068 INFO Resting NO bid on KXBOXING-26NOV07MACMILDENNIS-DENNIS at $0.67 x4 (KXBOXING-26NOV07MACMILDENNIS): locks in $0.12 if it fills; hedge NO MACMIL@0.2800
 2026-11-09 05:22:56,173 INFO Swept 18103 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-09 05:23:01,312 INFO Stopped; all quotes cancelled.
+2026-11-09 09:34:03,620 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-09 09:35:22,073 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 09:35:22,821 INFO Settled daily_safest KXSOFRD-26NOV09-E3.95: NO, profit $0.01
+2026-11-09 09:35:22,823 INFO Swept 18251 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 09:40:28,051 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 09:40:28,792 INFO Swept 18249 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 09:45:27,791 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 09:45:28,568 INFO PAPER rest NO bid KXCZEFNLGAME-26NOV07HANTRI-HAN at $0.2100 x2 (0 already bid at that price)
+2026-11-09 09:45:28,568 INFO Resting NO bid on KXCZEFNLGAME-26NOV07HANTRI-HAN at $0.2100 x2 (KXCZEFNLGAME-26NOV07HANTRI): locks in $0.11 if it fills; hedge NO TRI@0.8400, TIE@0.8700
+2026-11-09 09:45:28,606 INFO Swept 18258 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 09:50:30,144 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 09:50:30,853 INFO Swept 18258 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 09:50:30,872 INFO PAPER KXCZEFNLGAME-26NOV07HANTRI-HAN NO bid at $0.2100: 2/2 filled by real trades
+2026-11-09 09:50:30,897 INFO PAPER buy 2 NO KXCZEFNLGAME-26NOV07HANTRI-TRI at up to $0.8400: not on the book
+2026-11-09 09:50:30,915 INFO PAPER buy 2 NO KXCZEFNLGAME-26NOV07HANTRI-TRI at up to $0.94: not on the book
+2026-11-09 09:50:30,915 WARNING Quote KXCZEFNLGAME-26NOV07HANTRI: hedge missed on KXCZEFNLGAME-26NOV07HANTRI-TRI. Selling back 2 contracts on 1 legs.
+2026-11-09 09:50:30,932 INFO PAPER sell 2 YES KXCZEFNLGAME-26NOV07HANTRI-HAN at up to $0.8400: filled 2
+2026-11-09 09:55:29,071 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 09:55:29,792 INFO Swept 18248 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 10:00:33,831 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 10:00:34,545 INFO Swept 18243 events: 0 taker trades, 0 new quotes, 0 resting
