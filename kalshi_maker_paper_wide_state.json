@@ -1,5 +1,5 @@
 {
- "realized": "-4.9000",
+ "realized": "-5.0300",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -2432,5 +2432,29 @@
    "closed": "2026-11-09T02:31:05.392862+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGAMXGAME-26NOV22CDGCRA",
+   "series": "KXLIGAMXGAME",
+   "title": "Guadalajara vs Cruz Azul",
+   "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-TIE",
+   "order_id": "paper-895-1794204048",
+   "price": "0.1700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.6800",
+   "multiplier": "1",
+   "placed": 1794204048.567521,
+   "hedge": [
+    {
+     "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CDG",
+     "limit": "0.9500"
+    },
+    {
+     "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CRA",
+     "limit": "0.5200"
+    }
+   ]
+  }
+ ]
 }

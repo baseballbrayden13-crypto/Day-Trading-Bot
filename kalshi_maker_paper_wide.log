@@ -6427,3 +6427,24 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 00:35:20,206 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 00:35:34,355 INFO Swept 17843 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-09 00:36:25,444 INFO Quote KXLIGAMXGAME-26NOV22CDGCRA cancelled (0/2 filled)
+2026-11-09 00:40:23,794 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 00:40:38,141 INFO PAPER rest NO bid KXCZEFNLGAME-26NOV07HANTRI-HAN at $0.2000 x2 (0 already bid at that price)
+2026-11-09 00:40:38,141 INFO Resting NO bid on KXCZEFNLGAME-26NOV07HANTRI-HAN at $0.2000 x2 (KXCZEFNLGAME-26NOV07HANTRI): locks in $0.13 if it fills; hedge NO TRI@0.8400, TIE@0.8700
+2026-11-09 00:40:38,260 INFO Swept 17847 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 00:45:24,148 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 00:45:38,167 INFO Swept 17854 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 00:50:26,989 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 00:50:40,885 INFO Swept 17859 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 00:55:31,086 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 00:55:45,035 INFO Swept 17868 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 01:00:34,585 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 01:00:48,567 INFO PAPER rest NO bid KXLIGAMXGAME-26NOV22CDGCRA-TIE at $0.1700 x1 (0 already bid at that price)
+2026-11-09 01:00:48,567 INFO Resting NO bid on KXLIGAMXGAME-26NOV22CDGCRA-TIE at $0.1700 x1 (KXLIGAMXGAME-26NOV22CDGCRA): locks in $0.32 if it fills; hedge NO CDG@0.9500, CRA@0.5200
+2026-11-09 01:00:48,639 INFO Swept 17873 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-09 01:05:36,704 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 01:05:50,618 INFO Swept 17903 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-09 01:06:21,515 INFO PAPER KXCZEFNLGAME-26NOV07HANTRI-HAN NO bid at $0.2000: 2/2 filled by real trades
+2026-11-09 01:06:21,555 INFO PAPER buy 2 NO KXCZEFNLGAME-26NOV07HANTRI-TRI at up to $0.8400: not on the book
+2026-11-09 01:06:21,585 INFO PAPER buy 2 NO KXCZEFNLGAME-26NOV07HANTRI-TRI at up to $0.95: not on the book
+2026-11-09 01:06:21,585 WARNING Quote KXCZEFNLGAME-26NOV07HANTRI: hedge missed on KXCZEFNLGAME-26NOV07HANTRI-TRI. Selling back 2 contracts on 1 legs.
+2026-11-09 01:06:21,614 INFO PAPER sell 2 YES KXCZEFNLGAME-26NOV07HANTRI-HAN at up to $0.8500: filled 2
