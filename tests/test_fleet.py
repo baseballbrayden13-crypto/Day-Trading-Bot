@@ -350,3 +350,9 @@ def test_bot2_split_is_not_a_drawdown():
     assert abs(s[1] - 2450) < 0.01 and abs(s[0] / s[1] - 4936.36 / 4846.61) < 1e-9
     b2 = next(b for b in FLEET if b.num == 2)
     assert abs(s[-1] / b2.start_equity - 4846.61 / 5000) < 1e-3  # still -3.1% since start
+
+
+def test_bot5_pre_sleeve_row_is_rescaled():
+    from bot.fleet import rescale
+    assert round(rescale(8, "2026-11-05", 5000.0), 2) == 2450.0
+    assert rescale(8, "2026-11-06", 2459.04) == 2459.04
