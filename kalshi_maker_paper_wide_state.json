@@ -2432,5 +2432,25 @@
    "closed": "2026-11-09T02:31:05.392862+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXWT20MATCH-26NOV100600UGAWNAMW",
+   "series": "KXWT20MATCH",
+   "title": "Namibia Women vs Uganda Women",
+   "ticker": "KXWT20MATCH-26NOV100600UGAWNAMW-NAMW",
+   "order_id": "paper-910-1794254589",
+   "price": "0.57",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.8700",
+   "multiplier": "1",
+   "placed": 1794254589.809272,
+   "hedge": [
+    {
+     "ticker": "KXWT20MATCH-26NOV100600UGAWNAMW-UGAW",
+     "limit": "0.3800"
+    }
+   ]
+  }
+ ]
 }

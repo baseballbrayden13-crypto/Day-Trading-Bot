@@ -6714,3 +6714,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 14:27:43,285 INFO Swept 18594 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-09 14:32:46,565 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 14:32:47,396 INFO Swept 18589 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 14:37:50,599 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 14:37:51,445 INFO Swept 18586 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 14:42:56,170 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 14:42:57,023 INFO Swept 18580 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 14:47:56,009 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 14:47:56,881 INFO Swept 18576 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 14:53:00,687 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 14:53:01,539 INFO Swept 18573 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 14:58:05,251 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 14:58:06,085 INFO Swept 18576 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 15:03:08,832 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 15:03:09,809 INFO PAPER rest NO bid KXWT20MATCH-26NOV100600UGAWNAMW-NAMW at $0.5700 x5 (10 already bid at that price)
+2026-11-09 15:03:09,809 INFO Resting NO bid on KXWT20MATCH-26NOV100600UGAWNAMW-NAMW at $0.57 x5 (KXWT20MATCH-26NOV100600UGAWNAMW): locks in $0.13 if it fills; hedge NO UGAW@0.3800
+2026-11-09 15:03:10,042 INFO PAPER BET daily_safest: 1 YES KXDIESELD-26NOV10-T6.150 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-09 15:03:10,044 INFO Swept 18567 events: 0 taker trades, 1 new quotes, 1 resting
