@@ -3246,3 +3246,10 @@
 2026-11-09 05:17:27,063 INFO Swept 18099 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-09 05:22:27,297 INFO Swept 18103 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-09 05:22:52,302 INFO Stopped; all quotes cancelled.
+2026-11-09 09:34:02,955 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 3 quotes
+2026-11-09 09:35:10,388 INFO Swept 18251 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 09:40:13,330 INFO Swept 18249 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 09:45:15,816 INFO Swept 18259 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 09:50:20,986 INFO Swept 18258 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 09:55:18,195 INFO Swept 18248 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 10:00:22,307 INFO Swept 18243 events: 0 taker trades, 0 new quotes, 0 resting
