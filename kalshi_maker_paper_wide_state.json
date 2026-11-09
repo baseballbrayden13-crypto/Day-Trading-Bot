@@ -2434,25 +2434,25 @@
  ],
  "quotes": [
   {
-   "event": "KXLIGAMXGAME-26NOV22CDGCRA",
-   "series": "KXLIGAMXGAME",
-   "title": "Guadalajara vs Cruz Azul",
-   "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CDG",
-   "order_id": "paper-885-1794191474",
-   "price": "0.2000",
+   "event": "KXCANOREOY-26DEC31",
+   "series": "KXCANOREOY",
+   "title": "Bank of Canada rate on December 31, 2026",
+   "ticker": "KXCANOREOY-26DEC31-E2.75",
+   "order_id": "paper-887-1794193593",
+   "price": "0.68",
    "sets": 2,
    "done": 0,
-   "reserve": "3.8600",
+   "reserve": "3.8900",
    "multiplier": "1",
-   "placed": 1794191474.5795972,
+   "placed": 1794193593.399194,
    "hedge": [
     {
-     "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CRA",
-     "limit": "0.9000"
+     "ticker": "KXCANOREOY-26DEC31-E2.25",
+     "limit": "0.9900"
     },
     {
-     "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-TIE",
-     "limit": "0.8200"
+     "ticker": "KXCANOREOY-26DEC31-E2.50",
+     "limit": "0.2500"
     }
    ]
   }

@@ -6369,3 +6369,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-08 21:41:21,766 INFO Swept 18133 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-08 21:46:22,226 INFO Swept 18130 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-08 21:51:23,013 INFO Swept 18141 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 21:56:23,265 INFO PAPER rest NO bid KXSOLE-26NOV0822-B88.125 at $0.0100 x2 (0 already bid at that price)
+2026-11-08 21:56:23,265 INFO Resting NO bid on KXSOLE-26NOV0822-B88.125 at $0.01 x2 (KXSOLE-26NOV0822): locks in $0.19 if it fills; hedge NO B87.875@0.8800
+2026-11-08 21:56:23,359 INFO Swept 18121 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-08 21:56:33,767 INFO Quote KXSOLE-26NOV0822 cancelled (0/2 filled)
+2026-11-08 22:01:23,529 INFO Swept 18133 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 22:06:33,399 INFO PAPER rest NO bid KXCANOREOY-26DEC31-E2.75 at $0.6800 x2 (68 already bid at that price)
+2026-11-08 22:06:33,399 INFO Resting NO bid on KXCANOREOY-26DEC31-E2.75 at $0.68 x2 (KXCANOREOY-26DEC31): locks in $0.11 if it fills; hedge NO E2.25@0.9900, E2.50@0.2500
+2026-11-08 22:06:33,535 INFO Swept 18126 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-08 22:11:39,253 INFO Swept 18141 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 22:16:39,295 INFO Swept 18114 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 22:21:47,610 INFO Swept 18100 events: 0 taker trades, 0 new quotes, 1 resting
