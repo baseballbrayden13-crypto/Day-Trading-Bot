@@ -1,5 +1,5 @@
 {
- "realized": "-5.0300",
+ "realized": "-4.9000",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -81,30 +81,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXNASCARTRUCKSERIES-NTS26",
-   "series": "KXNASCARTRUCKSERIES",
-   "title": "NASCAR Truck Series Champion",
-   "sets": 5,
-   "outlay": "4.8700",
-   "locked_profit": "0.1300",
-   "opened": "2026-11-07T00:17:34.306659+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
-     "side": "no",
-     "count": 5,
-     "limit": "0.5700"
-    },
-    {
-     "ticker": "KXNASCARTRUCKSERIES-NTS26-KHON",
-     "side": "no",
-     "count": 5,
-     "limit": "0.3800"
     }
    ]
   }
@@ -2423,25 +2399,60 @@
     "KXAHLGAME-26NOV072100SANHEN-HEN": "yes"
    },
    "closed": "2026-11-08T04:52:59.075476+00:00"
+  },
+  {
+   "event": "KXNASCARTRUCKSERIES-NTS26",
+   "series": "KXNASCARTRUCKSERIES",
+   "title": "NASCAR Truck Series Champion",
+   "sets": 5,
+   "outlay": "4.8700",
+   "locked_profit": "0.1300",
+   "opened": "2026-11-07T00:17:34.306659+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXNASCARTRUCKSERIES-NTS26-LRIG",
+     "side": "no",
+     "count": 5,
+     "limit": "0.5700"
+    },
+    {
+     "ticker": "KXNASCARTRUCKSERIES-NTS26-KHON",
+     "side": "no",
+     "count": 5,
+     "limit": "0.3800"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.1300",
+   "results": {
+    "KXNASCARTRUCKSERIES-NTS26-LRIG": "no",
+    "KXNASCARTRUCKSERIES-NTS26-KHON": "yes"
+   },
+   "closed": "2026-11-09T02:31:05.392862+00:00"
   }
  ],
  "quotes": [
   {
-   "event": "KXITFMATCH-26NOV08FARSUR",
-   "series": "KXITFMATCH",
-   "title": "Fariz vs Suresh",
-   "ticker": "KXITFMATCH-26NOV08FARSUR-SUR",
-   "order_id": "paper-884-1794189963",
-   "price": "0.2800",
-   "sets": 1,
+   "event": "KXLIGAMXGAME-26NOV22CDGCRA",
+   "series": "KXLIGAMXGAME",
+   "title": "Guadalajara vs Cruz Azul",
+   "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CDG",
+   "order_id": "paper-885-1794191474",
+   "price": "0.2000",
+   "sets": 2,
    "done": 0,
-   "reserve": "0.7100",
+   "reserve": "3.8600",
    "multiplier": "1",
-   "placed": 1794189963.3282702,
+   "placed": 1794191474.5795972,
    "hedge": [
     {
-     "ticker": "KXITFMATCH-26NOV08FARSUR-FAR",
-     "limit": "0.4000"
+     "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CRA",
+     "limit": "0.9000"
+    },
+    {
+     "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-TIE",
+     "limit": "0.8200"
     }
    ]
   }

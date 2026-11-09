@@ -6360,3 +6360,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-08 21:11:09,852 INFO Swept 17983 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-08 21:16:07,116 INFO Swept 18034 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-08 21:21:06,688 INFO Swept 18080 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 21:26:14,002 INFO Swept 18153 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 21:31:05,392 INFO Settled KXNASCARTRUCKSERIES-NTS26: paid $5, profit $0.13
+2026-11-08 21:31:14,579 INFO PAPER rest NO bid KXLIGAMXGAME-26NOV22CDGCRA-CDG at $0.2000 x2 (0 already bid at that price)
+2026-11-08 21:31:14,579 INFO Resting NO bid on KXLIGAMXGAME-26NOV22CDGCRA-CDG at $0.2000 x2 (KXLIGAMXGAME-26NOV22CDGCRA): locks in $0.14 if it fills; hedge NO CRA@0.8800, TIE@0.8200
+2026-11-08 21:31:14,695 INFO Swept 18153 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-08 21:36:17,923 INFO Swept 18171 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-08 21:41:21,766 INFO Swept 18133 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 21:46:22,226 INFO Swept 18130 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-08 21:51:23,013 INFO Swept 18141 events: 0 taker trades, 0 new quotes, 1 resting
