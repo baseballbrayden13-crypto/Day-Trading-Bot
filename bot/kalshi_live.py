@@ -93,7 +93,7 @@ def load_settings() -> dict:
         "key_file": os.getenv("KALSHI_KEY_FILE", "kalshi_key.pem").strip(),
         "budget": D(os.getenv("KALSHI_BUDGET", "20")),
         "min_profit": D(os.getenv("KALSHI_MIN_PROFIT", "0.10")),
-        "max_days": float(os.getenv("KALSHI_MAX_DAYS", "60")),  # skip baskets that tie money up longer
+        "max_days": float(os.getenv("KALSHI_MAX_DAYS", "7")),  # only bets that cash within a week (brayden, Nov 9)
         "max_sets": int(os.getenv("KALSHI_MAX_SETS", "50")),
         "step": D(os.getenv("KALSHI_STEP", "0.25")),  # raise the budget 25% each time profits grow it 25%
         "min_settled": int(os.getenv("KALSHI_MIN_SETTLED", "5")),  # ...but only after 5 baskets have paid out
