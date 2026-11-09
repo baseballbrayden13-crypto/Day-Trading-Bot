@@ -4,15 +4,17 @@
 # favorite closing within 24h, own record). The minimum profit stays $0.10. Bot 4c is the old maker with
 # the earlier settings; it stays only until its open baskets settle (Nov 7). The standalone bot 4 job was
 # retired (4e does its scan); its records stay on bot-state.
-# A job can run at most 6 hours, so each bot runs in ~5h45m chunks started every 6 hours; its own
-# concurrency group makes sure two chunks of the same bot never overlap. State (positions, pretend
+# A job can run at most 6 hours, so each bot runs in ~5h45m chunks. A new chunk is queued every 3 hours;
+# its own concurrency group makes sure two chunks of the same bot never overlap, and keeps one waiting
+# so the next chunk starts the moment the last one ends (no gap, even if GitHub starts a cron late).
+# Undo: put the cron back to "0 */6 * * *". State (positions, pretend
 # fills) is saved on the bot-state branch every 30 minutes and at the end of each chunk, and the next
 # chunk carries on from it.
 name: Cloud Kalshi bots (paper)
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch:
     inputs:
       minutes:
