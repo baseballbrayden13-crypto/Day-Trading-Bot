@@ -360,3 +360,26 @@ def test_locked_baskets_are_not_mixed_up_with_strays():
     api = FakeApi()
     km.retry_strays(api, state, now=1000.0)
     assert api.orders == [] and len(state["open"]) == 1
+
+
+def test_only_sports_and_esports_are_allowed():
+    sport = {"event_ticker": "KXNBAGAME-1", "series_ticker": "KXNBAGAME", "category": "Sports"}
+    rain = {"event_ticker": "KXRAIN-1", "series_ticker": "KXRAIN", "category": "Climate and Weather"}
+    cs2 = {"event_ticker": "KXCS2MAP-1", "series_ticker": "KXCS2MAP", "category": "Other"}
+    cats = ("Sports", "Esports")
+    assert km.allowed(sport, cats, True) and km.allowed(cs2, cats, True) and not km.allowed(rain, cats, True)
+    assert km.allowed({**sport, "category": ""}, cats, False) and not km.allowed({**rain, "category": ""}, cats, False)
+    assert km.allowed(rain, (), True)  # no filter set: everything goes
+    assert km.is_esports(cs2) and not km.is_esports(sport)
+
+
+def test_series_with_repeated_missed_hedges_are_blocked():
+    now = datetime(2026, 11, 9, tzinfo=timezone.utc)
+    recent, old = "2026-11-07T00:00:00+00:00", "2026-10-20T00:00:00+00:00"
+    state = {"open": [{"event": "A-1 (stray)", "series": "A", "opened": recent}],
+             "closed": [{"event": "A-2 (stray)", "series": "A", "opened": recent},
+                        {"event": "B-1 (stray)", "series": "B", "opened": recent},
+                        {"event": "C-1 (stray)", "series": "C", "opened": old},
+                        {"event": "C-2 (stray)", "series": "C", "opened": old},
+                        {"event": "D-1", "series": "D", "opened": recent}]}
+    assert km.missed_series(state, now) == {"A"}

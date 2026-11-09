@@ -133,19 +133,56 @@ def is_live(markets: list[dict], now: datetime | None = None) -> bool:
     return False
 
 
+CATEGORIES = ("Sports", "Esports")  # a week of paper (Oct 28-Nov 9): sports net +$1.37, everything else lost
+ESPORTS = ("KXCS2", "KXCOD", "KXLOL", "KXVALORANT", "KXDOTA", "KXEBASKETBALL", "KXR6", "KXOVERWATCH", "KXRL", "KXEFOOTBALL")
+STRAY_LIMIT = 2  # a series whose hedges missed this many times in STRAY_DAYS gets no new quotes
+STRAY_DAYS = 7
+
+
+def is_esports(e: dict) -> bool:
+    return e.get("category") == "Esports" or (e.get("series_ticker") or e["event_ticker"]).upper().startswith(ESPORTS)
+
+
+def allowed(e: dict, categories: tuple[str, ...], any_category: bool) -> bool:
+    """Only quote the kinds of events that paid on paper. If Kalshi's listing carries no category at all,
+    fall back to the esports ticker list plus head-to-head games (GAME/MATCH/ADVANCE in the series)."""
+    if not categories:
+        return True
+    if any_category:
+        return e.get("category") in categories or is_esports(e)
+    series = (e.get("series_ticker") or e["event_ticker"]).upper()
+    return is_esports(e) or any(k in series for k in ("GAME", "MATCH", "ADVANCE"))
+
+
+def missed_series(state: dict, now: datetime | None = None) -> set[str]:
+    """Series with STRAY_LIMIT+ missed hedges (open or closed strays) opened in the last STRAY_DAYS."""
+    now = now or datetime.now(timezone.utc)
+    count: dict[str, int] = {}
+    for b in state.get("open", []) + state.get("closed", []):
+        if "(stray)" not in b.get("event", "") or not b.get("series") or not b.get("opened"):
+            continue
+        if (now - datetime.fromisoformat(b["opened"])).days < STRAY_DAYS:
+            count[b["series"]] = count.get(b["series"], 0) + 1
+    return {s for s, n in count.items() if n >= STRAY_LIMIT}
+
+
 def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], api=None) -> list[Quote]:
     """Screen every candidate event on the listing's top of book, then re-price the best few on the full book.
     Quotes only go on markets with real trade flow (KALSHI_MIN_VOLUME contracts in 24h and a trade in the last
     KALSHI_ACTIVE_MIN minutes), busiest first: a quote on a dead market just holds a slot and never fills."""
     min_volume, active = cfg.get("min_volume", MIN_VOLUME), cfg.get("active_min", ACTIVE_MIN)
     rough = []
+    categories, blocked = cfg.get("categories", ()), cfg.get("blocked_series", set())
+    any_category = any(e.get("category") for e in events)
     for e, markets in kl.candidates(events, cfg):
+        if not allowed(e, categories, any_category) or e.get("series_ticker", "") in blocked:
+            continue
         if e["event_ticker"] in skip or not e.get("mutually_exclusive"):
             continue  # a NO basket only locks in when at most one market can win ("above $104" and "above $107" can both)
         if any(D(m.get("yes_bid_dollars") or "0") >= DECIDED for m in markets):
             continue  # effectively decided (a 95c+ favourite): nobody will sell us NO on the losers, so the quote never fills
         mult = kl.multiplier(e)
-        sets = min(cfg["max_sets"], LIVE_MAX_SETS) if is_live(markets) else cfg["max_sets"]
+        sets = min(cfg["max_sets"], LIVE_MAX_SETS) if is_live(markets) or is_esports(e) else cfg["max_sets"]
         q = best_quote(e, {m["ticker"]: kl._top_no_asks(m) for m in markets}, {m["ticker"]: _top_no_bid(m) for m in markets},
                        budget, cfg["min_profit"], sets, mult)
         volume = {m["ticker"]: D(m.get("volume_24h_fp") or "0") for m in markets}
@@ -154,7 +191,7 @@ def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], 
     rough.sort(key=lambda r: (-r[4], -r[0].score()))
     out = []
     for q, e, markets, mult, _ in rough[: cfg["max_quotes"] * 3]:
-        sets = min(cfg["max_sets"], LIVE_MAX_SETS) if is_live(markets) else cfg["max_sets"]
+        sets = min(cfg["max_sets"], LIVE_MAX_SETS) if is_live(markets) or is_esports(e) else cfg["max_sets"]
         if api is None:
             out.append(q)
             continue
@@ -324,6 +361,9 @@ def place(api, cfg: dict, events: list[dict]) -> int:
     budget = min(kl.free_budget(cfg, state), api.balance())
     per_quote = min(budget, cfg["max_per_quote"]) if cfg.get("max_per_quote") else budget
     skip = {b["event"] for b in state["open"]} | {q["event"] for q in quotes}
+    cfg = {**cfg, "blocked_series": missed_series(state)}
+    if cfg["blocked_series"]:
+        log.info("Not quoting (hedges keep missing): %s", ", ".join(sorted(cfg["blocked_series"])))
     placed = 0
     for q in find_quotes(events, cfg, max(per_quote, D(0)), skip, api) if slots > 0 and budget > 0 else []:
         if placed >= slots or q.reserve > budget:
@@ -520,6 +560,7 @@ def main() -> None:
     cfg["min_volume"] = int(os.getenv("KALSHI_MIN_VOLUME", str(MIN_VOLUME)))
     cfg["active_min"] = int(os.getenv("KALSHI_ACTIVE_MIN", str(ACTIVE_MIN)))
     cfg["max_per_quote"] = D(os.getenv("KALSHI_MAX_PER_QUOTE", "0"))
+    cfg["categories"] = tuple(c.strip() for c in os.getenv("KALSHI_CATEGORIES", "").split(",") if c.strip())  # empty = all
     kl.MODE = mode
     if args.paper:
         kl.STATE, kl.DATA = Path(f"kalshi_maker_paper{sfx}_state.json"), Path(f"kalshi_data_maker_paper{sfx}")

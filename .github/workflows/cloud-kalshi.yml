@@ -81,6 +81,7 @@ jobs:
           KALSHI_MAX_QUOTES: "10"
           KALSHI_MIN_VOLUME: "25"
           KALSHI_MAX_PER_QUOTE: "5"
+          KALSHI_CATEGORIES: "Sports,Esports"
           KALSHI_SAFEST: "on"
         run: |
           end=$(( $(date +%s) + ${{ inputs.minutes || 345 }} * 60 ))
