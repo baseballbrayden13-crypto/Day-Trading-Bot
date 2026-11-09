@@ -2434,25 +2434,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLIGAMXGAME-26NOV22CDGCRA",
-   "series": "KXLIGAMXGAME",
-   "title": "Guadalajara vs Cruz Azul",
-   "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CDG",
-   "order_id": "paper-898-1794209494",
-   "price": "0.3400",
+   "event": "KXNCAAWBGAME-26NOV09IDHOWSU",
+   "series": "KXNCAAWBGAME",
+   "title": "Idaho vs Washington St.",
+   "ticker": "KXNCAAWBGAME-26NOV09IDHOWSU-WSU",
+   "order_id": "paper-899-1794210097",
+   "price": "0.31",
    "sets": 2,
    "done": 0,
-   "reserve": "3.4000",
+   "reserve": "1.8900",
    "multiplier": "1",
-   "placed": 1794209494.6092598,
+   "placed": 1794210097.2864592,
    "hedge": [
     {
-     "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CRA",
-     "limit": "0.5000"
-    },
-    {
-     "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-TIE",
-     "limit": "0.9500"
+     "ticker": "KXNCAAWBGAME-26NOV09IDHOWSU-IDHO",
+     "limit": "0.6100"
     }
    ]
   }
