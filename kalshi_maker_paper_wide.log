@@ -6478,3 +6478,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 02:01:17,473 INFO Swept 18005 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-09 02:06:04,943 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 02:06:19,078 INFO Swept 17988 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 02:11:07,603 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 02:11:21,741 INFO Swept 17997 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 02:16:10,853 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 02:16:25,089 INFO Swept 17995 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 02:21:14,829 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 02:21:28,777 INFO Swept 17997 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 02:26:15,902 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 02:26:30,077 INFO Swept 17998 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 02:31:20,362 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 02:31:34,609 INFO PAPER rest NO bid KXLIGAMXGAME-26NOV22CDGCRA-CDG at $0.3400 x2 (0 already bid at that price)
+2026-11-09 02:31:34,609 INFO Resting NO bid on KXLIGAMXGAME-26NOV22CDGCRA-CDG at $0.3400 x2 (KXLIGAMXGAME-26NOV22CDGCRA): locks in $0.60 if it fills; hedge NO CRA@0.3900, TIE@0.9400
+2026-11-09 02:31:34,748 INFO Swept 17998 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 02:36:21,969 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 02:36:36,080 INFO Swept 17996 events: 0 taker trades, 0 new quotes, 1 resting

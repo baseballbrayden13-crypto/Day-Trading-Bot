@@ -2438,17 +2438,17 @@
    "series": "KXLIGAMXGAME",
    "title": "Guadalajara vs Cruz Azul",
    "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CDG",
-   "order_id": "paper-897-1794207375",
-   "price": "0.2400",
+   "order_id": "paper-898-1794209494",
+   "price": "0.3400",
    "sets": 2,
    "done": 0,
-   "reserve": "3.7000",
+   "reserve": "3.4000",
    "multiplier": "1",
-   "placed": 1794207375.7282763,
+   "placed": 1794209494.6092598,
    "hedge": [
     {
      "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CRA",
-     "limit": "0.6300"
+     "limit": "0.5000"
     },
     {
      "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-TIE",
