@@ -1,5 +1,5 @@
 {
- "taken": "2026-11-08T01:32:06+00:00",
+ "taken": "2026-11-09T04:26:05+00:00",
  "bots": {
   "1": {
    "name": "ORB day trader",
@@ -289,7 +289,7 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 2405.83,
+    "equity": 2412.85,
     "last_equity": 0,
     "cash": 144.93,
     "status": "ACTIVE",
@@ -302,8 +302,8 @@
      "symbol": "XLE",
      "qty": 13.0,
      "avg_entry": 69.177692,
-     "market_value": 801.06,
-     "unrealized_pl": -98.249996
+     "market_value": 808.08,
+     "unrealized_pl": -91.229996
     },
     {
      "symbol": "XLP",
@@ -569,7 +569,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-08T01:07:26+00:00",
+     "updated": "2026-11-09T03:34:51+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -583,7 +583,7 @@
      "stray_positions": 0,
      "closed_trades": 3,
      "trades_this_loop": 0,
-     "events_swept": 21118,
+     "events_swept": 18065,
      "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -601,17 +601,17 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-07T20:15:14-05:00",
-     "last_line_time": "2026-11-07T20:15:14",
+     "modified": "2026-11-08T22:37:22-05:00",
+     "last_line_time": "2026-11-08T22:37:22",
      "errors": 0,
      "errors_24h": 0,
      "last_errors": [],
      "tail": [
-      "2026-11-07 19:22:00,673 INFO Stopped; all quotes cancelled.",
-      "2026-11-07 19:51:32,751 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 3 quotes",
-      "2026-11-07 19:59:22,412 INFO Swept 21172 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-07 20:07:21,893 INFO Swept 21158 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-07 20:15:14,094 INFO Swept 21118 events: 0 taker trades, 0 new quotes, 0 resting"
+      "2026-11-08 22:22:02,602 INFO Swept 18101 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-08 22:27:04,214 INFO Swept 18076 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-08 22:32:06,011 INFO Swept 18067 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-08 22:37:07,412 INFO Swept 18065 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-08 22:37:22,415 INFO Stopped; all quotes cancelled."
      ],
      "live_warning": false
     }
@@ -625,21 +625,21 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-08T01:06:48+00:00",
+     "updated": "2026-11-09T03:34:59+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
      "min_profit": "0.10",
-     "equity": "15.35",
-     "realized_profit": "-4.65",
-     "bet_level": "15.35",
-     "open_trades": 4,
-     "open_locked_profit": "2.77",
-     "in_play": "14.23",
+     "equity": "15.10",
+     "realized_profit": "-4.90",
+     "bet_level": "15.10",
+     "open_trades": 3,
+     "open_locked_profit": "2.64",
+     "in_play": "9.36",
      "stray_positions": 0,
-     "closed_trades": 60,
+     "closed_trades": 61,
      "trades_this_loop": 0,
-     "events_swept": 21121,
+     "events_swept": 18064,
      "found_this_loop": 1,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -647,31 +647,31 @@
      "problems": 0,
      "last_problems": []
     },
-    "realized": -4.65,
-    "open": 4,
-    "closed": 89,
+    "realized": -4.9,
+    "open": 3,
+    "closed": 92,
     "losing_trades": 5,
-    "stray_closed": 29,
-    "stray_pnl": -11.93,
+    "stray_closed": 31,
+    "stray_pnl": -12.31,
     "stray": 0,
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-07T20:14:22-05:00",
-     "last_line_time": "2026-11-07T20:14:22",
-     "errors": 30,
+     "modified": "2026-11-08T22:37:13-05:00",
+     "last_line_time": "2026-11-08T22:37:13",
+     "errors": 32,
      "errors_24h": 1,
      "last_errors": [
-      "2026-11-06 17:36:30,678 ERROR STRAY POSITION: 1 NO contracts of KXSOCKEYERUN-27-B49P00-55P00 still held. Check it on Kalshi.",
-      "2026-11-06 17:36:30,700 ERROR STRAY POSITION: 1 NO contracts of KXSOCKEYERUN-27-B37P00-42P99 still held. Check it on Kalshi.",
-      "2026-11-06 21:49:15,195 ERROR STRAY POSITION: 2 NO contracts of KXAHLGAME-26NOV061900WILCHA-WIL still held. Check it on Kalshi."
+      "2026-11-06 21:49:15,195 ERROR STRAY POSITION: 2 NO contracts of KXAHLGAME-26NOV061900WILCHA-WIL still held. Check it on Kalshi.",
+      "2026-11-07 22:30:53,943 ERROR STRAY POSITION: 1 NO contracts of KXUSLADVANCE-26NOV07CHAHAR-CHA still held. Check it on Kalshi.",
+      "2026-11-07 23:45:48,535 ERROR STRAY POSITION: 1 NO contracts of KXAHLGAME-26NOV072100SANHEN-HEN still held. Check it on Kalshi."
      ],
      "tail": [
-      "2026-11-07 19:26:33,344 INFO Stopped; all quotes cancelled.",
-      "2026-11-07 19:51:35,400 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes",
-      "2026-11-07 19:59:04,818 INFO Swept 21172 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-07 20:06:43,386 INFO Swept 21162 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-07 20:14:22,536 INFO Swept 21121 events: 0 taker trades, 0 new quotes, 0 resting"
+      "2026-11-08 22:21:47,610 INFO Swept 18100 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-08 22:26:50,652 INFO Swept 18076 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-08 22:31:50,766 INFO Swept 18067 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-08 22:36:48,403 INFO Swept 18064 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-08 22:37:13,464 INFO Stopped; all quotes cancelled."
      ],
      "live_warning": false
     }
@@ -684,7 +684,7 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 2454.09,
+    "equity": 2462.24,
     "last_equity": 0,
     "cash": 1479.82,
     "status": "ACTIVE",
@@ -697,15 +697,15 @@
      "symbol": "CVX",
      "qty": 2.287405102,
      "avg_entry": 212.07,
-     "market_value": 486.33,
-     "unrealized_pl": 1.235199
+     "market_value": 490.65,
+     "unrealized_pl": 5.558394
     },
     {
      "symbol": "XOM",
      "qty": 2.941722255,
      "avg_entry": 164.9,
-     "market_value": 487.94,
-     "unrealized_pl": 2.85347
+     "market_value": 491.77,
+     "unrealized_pl": 6.677709
     }
    ],
    "orders": [
@@ -1300,114 +1300,108 @@
    },
    {
     "symbol": "BTC/USD",
-    "day": "2026-11-07",
-    "close": 75757.35,
-    "chg_1d_pct": 0.03,
-    "chg_1m_pct": -6.91,
+    "day": "2026-11-08",
+    "close": 74756.4805,
+    "chg_1d_pct": -1.32,
+    "chg_1m_pct": -8.84,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 33.6
+    "vol_20d_pct": 33.7
    },
    {
     "symbol": "ETH/USD",
-    "day": "2026-11-07",
-    "close": 2236.9,
-    "chg_1d_pct": 0.07,
-    "chg_1m_pct": -6.79,
-    "above_200d": true,
+    "day": "2026-11-08",
+    "close": 2124.9505,
+    "chg_1d_pct": -5.0,
+    "chg_1m_pct": -11.73,
+    "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 44.1
+    "vol_20d_pct": 47.1
    }
   ],
   "news": [
    {
     "symbol": "SPY",
-    "time": "2026-11-07T20:24:29+00:00",
-    "headline": "President And CEO Of Ultimate Fighting Championship Dana White Posts \u201cOn to the next chapter\u201d On His Instagram Story With Him Behind The WH Lectern",
+    "time": "2026-11-09T02:54:39+00:00",
+    "headline": "Peter Schiff Says Congress Can't Lower Prices Without Cutting Government Spending, Calls Higher Prices 'the Tax Americans Pay' for Programs 'Democrats Love'",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-07T20:23:02+00:00",
-    "headline": "President Trump Posts \"I am pleased to announce that the Great Dana White, a violent Fighter and Warrior, has been offered the job of Press Secretary of the United States. I have requested that he bring with him assistants, even though some are not from our Country, of Islam Makhachev, Khabib Nurmagomedov, Justin Gaethje, Daniel Cormier, Amanda Nunes, and Kayla Harris. We need these people to defend us against the Lunatic Left. Dana will be a Press Secretary like none other. Dana, please take the job!\"",
+    "time": "2026-11-08T22:38:27+00:00",
+    "headline": "U.S. Secretary Of State Rubio, Prior To Departing For Paris, Said Talks With Iran Were Unproductive, Iranian Demands Outrageous, Unacceptable; U.S. Will Explore Diplomatic Solution If Possible, But Said Diplomacy May Not Be Possible",
     "source": "benzinga"
    },
    {
     "symbol": "SPY",
-    "time": "2026-11-07T20:20:55+00:00",
-    "headline": "Iranian State TV Reports Explosions Heard In Jask, Sirik, Bandar Abbas And Qeshm In Southern Iran, Cause Unclear",
+    "time": "2026-11-08T21:57:06+00:00",
+    "headline": "NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised",
     "source": "benzinga"
    },
    {
-    "symbol": "SPY",
-    "time": "2026-11-07T17:46:09+00:00",
-    "headline": "S&P 500 Faces Double Top Risk as Rate Hike Bets Build and AI Fears Spread",
+    "symbol": "AAPL",
+    "time": "2026-11-09T02:01:34+00:00",
+    "headline": "Apple Introduces Retention Messaging Feature for App Store Subscriptions",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-11-08T13:00:08+00:00",
+    "headline": "Analysts Question AAPL's Valuation, Apple's Margin Pressure and More:  This Week in Appleverse",
     "source": "benzinga"
    },
    {
-    "symbol": "SPY",
-    "time": "2026-11-07T11:53:14+00:00",
-    "headline": "The New York Times Reported Saturday, U.S. Commerce Department Cleared Nvidia H200 AI Chip Sales To ~Two Dozen Chinese Firms, Some Listing Vacant, Unstaffed, Or Empty Office Locations",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "QQQ",
-    "time": "2026-11-07T14:04:43+00:00",
-    "headline": "Questcorp Mining and Riverside Resources Commence Phase 2B Exploration at La Union Project",
+    "symbol": "MSFT",
+    "time": "2026-11-09T02:01:40+00:00",
+    "headline": "Microsoft Confirms Official WSL Support for CachyOS",
     "source": "fiscal.ai"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-07T20:50:06+00:00",
-    "headline": "CoreWeave and IREN Stocks Face Pressure as Microsoft Reassesses Its Computing Deals",
+    "time": "2026-11-09T00:36:06+00:00",
+    "headline": "President Trump, In CBS 60 Minutes Interview Sunday, Said AI Risks Can Be Managed, But Doesn't Mind Guardrails",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-07T18:15:35+00:00",
-    "headline": "Oracle Stock Nears Death Cross as Microsoft Deal Unwinding Points to More Risks",
+    "time": "2026-11-08T18:45:23+00:00",
+    "headline": "CoreWeave Stock Is Eyeing Record Low Amid Insider Sales: Will It Rebound After Earnings?",
     "source": "benzinga"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-07T14:01:39+00:00",
-    "headline": "Microsoft Launches AI Literacy Training for Filipino Educators",
-    "source": "fiscal.ai"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-07T06:08:27+00:00",
-    "headline": "Microsoft Reportedly Looks to Cut Reliance on Some Neocloud Partners, Plans to Prioritize Its Own Data Centers",
+    "time": "2026-11-08T17:30:07+00:00",
+    "headline": "Nebius Stock Ahead of Earnings: Options Traders Brace for a Big Move",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-07T20:50:06+00:00",
-    "headline": "CoreWeave and IREN Stocks Face Pressure as Microsoft Reassesses Its Computing Deals",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "NVDA",
-    "time": "2026-11-07T14:01:39+00:00",
-    "headline": "US House Committees Request Briefing with NVIDIA CEO Jensen Huang Over Intelligence Memo",
+    "time": "2026-11-09T02:01:35+00:00",
+    "headline": "NVIDIA Board Initiates Independent Investigation into CEO Jensen Huang",
     "source": "fiscal.ai"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-07T13:30:06+00:00",
-    "headline": "TSLA, AMD, MU and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+    "time": "2026-11-09T01:48:10+00:00",
+    "headline": "Jensen Huang\u2019s Nvidia Future Suddenly Looks Uncertain As Gary Black Warns Board Could Show Him the Door: \u2018Could Put Short-Term Pressure On the Stock\u2019",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-07T13:00:07+00:00",
-    "headline": "Benzinga Bulls and Bears: Palantir, IonQ, DraftKings",
+    "time": "2026-11-09T00:36:06+00:00",
+    "headline": "President Trump, In CBS 60 Minutes Interview Sunday, Said AI Risks Can Be Managed, But Doesn't Mind Guardrails",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-07T11:53:14+00:00",
-    "headline": "The New York Times Reported Saturday, U.S. Commerce Department Cleared Nvidia H200 AI Chip Sales To ~Two Dozen Chinese Firms, Some Listing Vacant, Unstaffed, Or Empty Office Locations",
+    "time": "2026-11-08T23:45:26+00:00",
+    "headline": "Dan Ives Calls Jensen Huang Affair a \u2018Black Eye Moment\u2019 for Nvidia, Warns of Stock Overhang",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-11-08T21:57:06+00:00",
+    "headline": "NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised",
     "source": "benzinga"
    }
   ],
@@ -1417,16 +1411,6 @@
    "calm": true
   },
   "benchmarks": [
-   {
-    "day": "2025-09-04",
-    "symbol": "SPY",
-    "close": 640.29
-   },
-   {
-    "day": "2025-09-05",
-    "symbol": "SPY",
-    "close": 638.51
-   },
    {
     "day": "2025-09-08",
     "symbol": "SPY",
@@ -2903,16 +2887,6 @@
     "close": 735.4
    },
    {
-    "day": "2025-09-04",
-    "symbol": "QQQ",
-    "close": 571.91
-   },
-   {
-    "day": "2025-09-05",
-    "symbol": "QQQ",
-    "close": 572.73
-   },
-   {
     "day": "2025-09-08",
     "symbol": "QQQ",
     "close": 575.43
@@ -4386,11 +4360,6 @@
     "day": "2026-11-06",
     "symbol": "QQQ",
     "close": 656.31
-   },
-   {
-    "day": "2025-09-05",
-    "symbol": "BTC/USD",
-    "close": 110700.561
    },
    {
     "day": "2025-09-06",
@@ -6533,9 +6502,9 @@
     "close": 75757.35
    },
    {
-    "day": "2025-09-05",
-    "symbol": "ETH/USD",
-    "close": 4307.2045
+    "day": "2026-11-08",
+    "symbol": "BTC/USD",
+    "close": 74756.4805
    },
    {
     "day": "2025-09-06",
@@ -8676,6 +8645,11 @@
     "day": "2026-11-07",
     "symbol": "ETH/USD",
     "close": 2236.9
+   },
+   {
+    "day": "2026-11-08",
+    "symbol": "ETH/USD",
+    "close": 2124.9505
    }
   ]
  },
