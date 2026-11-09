@@ -2425,5 +2425,25 @@
    "closed": "2026-11-08T04:52:59.075476+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXITFMATCH-26NOV08FARSUR",
+   "series": "KXITFMATCH",
+   "title": "Fariz vs Suresh",
+   "ticker": "KXITFMATCH-26NOV08FARSUR-SUR",
+   "order_id": "paper-884-1794189963",
+   "price": "0.2800",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7100",
+   "multiplier": "1",
+   "placed": 1794189963.3282702,
+   "hedge": [
+    {
+     "ticker": "KXITFMATCH-26NOV08FARSUR-FAR",
+     "limit": "0.4000"
+    }
+   ]
+  }
+ ]
 }
