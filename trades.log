@@ -82,3 +82,6 @@
 2026-11-09 12:42:30,857 INFO Connected to Alpaca PAPER account
 2026-11-09 12:42:30,909 INFO Picked up today's counters: start equity $4977.29, 1 trades
 2026-11-09 12:42:30,909 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA on 5-min bars. Ctrl+C to stop.
+2026-11-09 15:50:05,288 INFO Flattening all positions: end of day
+2026-11-09 15:55:05,120 INFO Flattening all positions: end of day
+2026-11-09 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca.
