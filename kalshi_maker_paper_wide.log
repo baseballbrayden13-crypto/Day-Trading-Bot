@@ -6411,3 +6411,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 00:01:11,551 INFO Quote KXNBAPTSLEADER-26NOV08MIASAC cancelled (0/2 filled)
 2026-11-09 00:05:17,774 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 00:05:31,877 INFO Swept 17785 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 00:10:15,865 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 00:10:29,771 INFO Swept 17821 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 00:15:16,407 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 00:15:30,440 INFO Swept 17825 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 00:17:11,696 INFO Quote KXLIGAMXGAME-26NOV22CDGCRA cancelled (0/2 filled)
+2026-11-09 00:20:11,129 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 00:20:25,130 INFO PAPER rest NO bid KXLIGAMXGAME-26NOV22CDGCRA-CRA at $0.1800 x2 (0 already bid at that price)
+2026-11-09 00:20:25,130 INFO Resting NO bid on KXLIGAMXGAME-26NOV22CDGCRA-CRA at $0.1800 x2 (KXLIGAMXGAME-26NOV22CDGCRA): locks in $0.29 if it fills; hedge NO CDG@0.7000, TIE@0.9500
+2026-11-09 00:20:25,238 INFO Swept 17841 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 00:25:09,949 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 00:25:24,008 INFO Swept 17832 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 00:30:14,415 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 00:30:28,464 INFO Swept 17853 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 00:35:20,206 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 00:35:34,355 INFO Swept 17843 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 00:36:25,444 INFO Quote KXLIGAMXGAME-26NOV22CDGCRA cancelled (0/2 filled)

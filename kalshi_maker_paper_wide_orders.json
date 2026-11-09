@@ -12480,11 +12480,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794200435.5869184,
-  "checked": 1794200874.1988773,
+  "checked": 1794201431.6573207,
   "expires": 1794202235,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-893-1794201625": {
+  "id": "paper-893-1794201625",
+  "ticker": "KXLIGAMXGAME-26NOV22CDGCRA-CRA",
+  "price": "0.1800",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794201625.1204495,
+  "checked": 1794202585.3873897,
+  "expires": 1794203425,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
