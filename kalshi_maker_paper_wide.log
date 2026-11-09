@@ -6520,3 +6520,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 03:32:08,945 INFO Swept 18033 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-09 03:36:57,409 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 03:37:11,757 INFO Swept 18032 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 03:42:00,566 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 03:42:14,781 INFO Swept 18039 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 03:47:02,699 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 03:47:17,031 INFO Swept 18041 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 03:51:55,004 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 03:52:09,382 INFO Swept 18047 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 03:56:57,232 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 03:57:11,631 INFO PAPER rest NO bid KXODIMATCH-26NOV091300ENGWINDA-ENG at $0.2700 x5 (12 already bid at that price)
+2026-11-09 03:57:11,631 INFO Resting NO bid on KXODIMATCH-26NOV091300ENGWINDA-ENG at $0.27 x5 (KXODIMATCH-26NOV091300ENGWINDA): locks in $0.10 if it fills; hedge NO WINDA@0.6900
+2026-11-09 03:57:11,747 INFO Swept 18063 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 04:01:50,220 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 04:02:04,387 INFO Swept 18061 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 04:07:08,413 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 04:07:22,679 INFO Swept 18060 events: 0 taker trades, 0 new quotes, 1 resting
