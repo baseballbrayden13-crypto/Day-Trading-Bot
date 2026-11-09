@@ -1,5 +1,5 @@
 {
- "taken": "2026-11-09T04:26:05+00:00",
+ "taken": "2026-11-09T06:53:30+00:00",
  "bots": {
   "1": {
    "name": "ORB day trader",
@@ -289,7 +289,7 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 2412.85,
+    "equity": 2424.66,
     "last_equity": 0,
     "cash": 144.93,
     "status": "ACTIVE",
@@ -302,22 +302,22 @@
      "symbol": "XLE",
      "qty": 13.0,
      "avg_entry": 69.177692,
-     "market_value": 808.08,
-     "unrealized_pl": -91.229996
+     "market_value": 807.69,
+     "unrealized_pl": -91.619996
     },
     {
      "symbol": "XLP",
      "qty": 8.0,
      "avg_entry": 90.0975,
-     "market_value": 720.64,
-     "unrealized_pl": -0.14
+     "market_value": 726.08,
+     "unrealized_pl": 5.3
     },
     {
      "symbol": "XLV",
      "qty": 4.0,
      "avg_entry": 178.635,
-     "market_value": 739.2,
-     "unrealized_pl": 24.66
+     "market_value": 745.96,
+     "unrealized_pl": 31.42
     }
    ],
    "orders": [
@@ -546,17 +546,17 @@
    ],
    "log": {
     "exists": true,
-    "modified": "2026-11-07T20:32:06-05:00",
-    "last_line_time": "2026-11-07T20:32:06",
+    "modified": "2026-11-09T01:53:30-05:00",
+    "last_line_time": "2026-11-09T01:53:30",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-05 20:35:20,859 INFO 2026-11-05 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
-     "2026-11-06 20:26:00,728 INFO Connected to Alpaca PAPER account",
-     "2026-11-06 20:26:01,988 INFO 2026-11-06 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
-     "2026-11-07 20:32:05,896 INFO Connected to Alpaca PAPER account",
-     "2026-11-07 20:32:06,780 INFO 2026-11-07 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
+     "2026-11-07 20:32:06,780 INFO 2026-11-07 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
+     "2026-11-08 23:28:10,740 INFO Connected to Alpaca PAPER account",
+     "2026-11-08 23:28:11,422 INFO 2026-11-08 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00",
+     "2026-11-09 01:53:29,690 INFO Connected to Alpaca PAPER account",
+     "2026-11-09 01:53:30,363 INFO 2026-11-08 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average | equity $5000.00"
     ],
     "live_warning": false
    }
@@ -569,7 +569,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-09T03:34:51+00:00",
+     "updated": "2026-11-09T06:33:55+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -583,7 +583,7 @@
      "stray_positions": 0,
      "closed_trades": 3,
      "trades_this_loop": 0,
-     "events_swept": 18065,
+     "events_swept": 17999,
      "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -601,17 +601,17 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-08T22:37:22-05:00",
-     "last_line_time": "2026-11-08T22:37:22",
+     "modified": "2026-11-09T01:35:56-05:00",
+     "last_line_time": "2026-11-09T01:35:56",
      "errors": 0,
      "errors_24h": 0,
      "last_errors": [],
      "tail": [
-      "2026-11-08 22:22:02,602 INFO Swept 18101 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-08 22:27:04,214 INFO Swept 18076 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-08 22:32:06,011 INFO Swept 18067 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-08 22:37:07,412 INFO Swept 18065 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-08 22:37:22,415 INFO Stopped; all quotes cancelled."
+      "2026-11-09 01:15:45,858 INFO Swept 17996 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-09 01:20:50,927 INFO Swept 18000 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-09 01:25:50,249 INFO Swept 18000 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-09 01:30:55,269 INFO Swept 18005 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-09 01:35:56,142 INFO Swept 17999 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -625,29 +625,31 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-09T03:34:59+00:00",
+     "updated": "2026-11-09T06:33:44+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
      "min_profit": "0.10",
-     "equity": "15.10",
-     "realized_profit": "-4.90",
-     "bet_level": "15.10",
+     "equity": "14.97",
+     "realized_profit": "-5.03",
+     "bet_level": "14.97",
      "open_trades": 3,
      "open_locked_profit": "2.64",
      "in_play": "9.36",
      "stray_positions": 0,
      "closed_trades": 61,
      "trades_this_loop": 0,
-     "events_swept": 18064,
+     "events_swept": 17999,
      "found_this_loop": 1,
      "top_series": [
       "KXSTARSHIPSPACE"
      ],
-     "problems": 0,
-     "last_problems": []
+     "problems": 1,
+     "last_problems": [
+      "2026-11-09 06:06 Quote KXCZEFNLGAME-26NOV07HANTRI: hedge missed on KXCZEFNLGAME-26NOV07HANTRI-TRI. Selling back 2 contracts on 1 legs."
+     ]
     },
-    "realized": -4.9,
+    "realized": -5.03,
     "open": 3,
     "closed": 92,
     "losing_trades": 5,
@@ -657,21 +659,21 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-08T22:37:13-05:00",
-     "last_line_time": "2026-11-08T22:37:13",
+     "modified": "2026-11-09T01:36:04-05:00",
+     "last_line_time": "2026-11-09T01:36:04",
      "errors": 32,
-     "errors_24h": 1,
+     "errors_24h": 0,
      "last_errors": [
       "2026-11-06 21:49:15,195 ERROR STRAY POSITION: 2 NO contracts of KXAHLGAME-26NOV061900WILCHA-WIL still held. Check it on Kalshi.",
       "2026-11-07 22:30:53,943 ERROR STRAY POSITION: 1 NO contracts of KXUSLADVANCE-26NOV07CHAHAR-CHA still held. Check it on Kalshi.",
       "2026-11-07 23:45:48,535 ERROR STRAY POSITION: 1 NO contracts of KXAHLGAME-26NOV072100SANHEN-HEN still held. Check it on Kalshi."
      ],
      "tail": [
-      "2026-11-08 22:21:47,610 INFO Swept 18100 events: 0 taker trades, 0 new quotes, 1 resting",
-      "2026-11-08 22:26:50,652 INFO Swept 18076 events: 0 taker trades, 0 new quotes, 1 resting",
-      "2026-11-08 22:31:50,766 INFO Swept 18067 events: 0 taker trades, 0 new quotes, 1 resting",
-      "2026-11-08 22:36:48,403 INFO Swept 18064 events: 0 taker trades, 0 new quotes, 1 resting",
-      "2026-11-08 22:37:13,464 INFO Stopped; all quotes cancelled."
+      "2026-11-09 01:30:44,935 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN",
+      "2026-11-09 01:30:58,912 INFO Swept 18005 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-09 01:30:58,998 INFO Quote KXCONCACAFNLGAME-26NOV14HTIUSA cancelled (0/2 filled)",
+      "2026-11-09 01:35:49,963 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN",
+      "2026-11-09 01:36:04,089 INFO Swept 17999 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -684,7 +686,7 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 2462.24,
+    "equity": 2463.34,
     "last_equity": 0,
     "cash": 1479.82,
     "status": "ACTIVE",
@@ -697,15 +699,15 @@
      "symbol": "CVX",
      "qty": 2.287405102,
      "avg_entry": 212.07,
-     "market_value": 490.65,
-     "unrealized_pl": 5.558394
+     "market_value": 491.22,
+     "unrealized_pl": 6.130246
     },
     {
      "symbol": "XOM",
      "qty": 2.941722255,
      "avg_entry": 164.9,
-     "market_value": 491.77,
-     "unrealized_pl": 6.677709
+     "market_value": 492.3,
+     "unrealized_pl": 7.207219
     }
    ],
    "orders": [
@@ -754,7 +756,7 @@
   "is_open": false,
   "next_open": "2026-11-09T09:30:00-05:00",
   "next_close": "2026-11-09T16:00:00-05:00",
-  "trading_day": false
+  "trading_day": true
  },
  "market": {
   "symbols": [
@@ -1322,6 +1324,12 @@
   "news": [
    {
     "symbol": "SPY",
+    "time": "2026-11-09T06:07:18+00:00",
+    "headline": "Should Investors Buy the S&P 500 Dip After Wall Street's $3 Trillion Rout Last Week? History Points to a Rebound",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "SPY",
     "time": "2026-11-09T02:54:39+00:00",
     "headline": "Peter Schiff Says Congress Can't Lower Prices Without Cutting Government Spending, Calls Higher Prices 'the Tax Americans Pay' for Programs 'Democrats Love'",
     "source": "benzinga"
@@ -1376,6 +1384,18 @@
    },
    {
     "symbol": "NVDA",
+    "time": "2026-11-09T06:12:37+00:00",
+    "headline": "NVIDIA, Rebellions And SK Telecom Collaborate On Korea\u2019s Sovereign AI Infrastructure, Planning NVIDIA GPUs For Prefill And Rebellions NPUs For Decode",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
+    "time": "2026-11-09T06:07:18+00:00",
+    "headline": "Should Investors Buy the S&P 500 Dip After Wall Street's $3 Trillion Rout Last Week? History Points to a Rebound",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "NVDA",
     "time": "2026-11-09T02:01:35+00:00",
     "headline": "NVIDIA Board Initiates Independent Investigation into CEO Jensen Huang",
     "source": "fiscal.ai"
@@ -1390,18 +1410,6 @@
     "symbol": "NVDA",
     "time": "2026-11-09T00:36:06+00:00",
     "headline": "President Trump, In CBS 60 Minutes Interview Sunday, Said AI Risks Can Be Managed, But Doesn't Mind Guardrails",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "NVDA",
-    "time": "2026-11-08T23:45:26+00:00",
-    "headline": "Dan Ives Calls Jensen Huang Affair a \u2018Black Eye Moment\u2019 for Nvidia, Warns of Stock Overhang",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "NVDA",
-    "time": "2026-11-08T21:57:06+00:00",
-    "headline": "NVIDIA Board Initiates Independent Investigation Into Reported Foreign Intelligence Effort Targeting CEO Jensen Huang; Says Board Believes Not Either National Security Or NVIDIA Secrets Were Compromised",
     "source": "benzinga"
    }
   ],
@@ -8660,5 +8668,27 @@
    "symbol": "CSCO",
    "when": "time-after-hours"
   }
- ]
+ ],
+ "replay": {
+  "day": "2026-11-06",
+  "strategy": "orb",
+  "trades": [
+   {
+    "symbol": "AAPL",
+    "entry_time": "2026-11-06T14:55:00+00:00",
+    "entry": 343.3637,
+    "exit": 342.4815,
+    "pnl": -1.78,
+    "exit_reason": "end of day"
+   },
+   {
+    "symbol": "MSFT",
+    "entry_time": "2026-11-06T15:15:00+00:00",
+    "entry": 533.9168,
+    "exit": 530.6239,
+    "pnl": -3.31,
+    "exit_reason": "end of day"
+   }
+  ]
+ }
 }
