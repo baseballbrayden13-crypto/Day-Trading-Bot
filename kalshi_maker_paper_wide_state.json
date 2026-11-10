@@ -2432,29 +2432,5 @@
    "closed": "2026-11-09T02:31:05.392862+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXCONCACAFNLGAME-26NOV14HTIUSA",
-   "series": "KXCONCACAFNLGAME",
-   "title": "Haiti vs USA",
-   "ticker": "KXCONCACAFNLGAME-26NOV14HTIUSA-TIE",
-   "order_id": "paper-911-1794268553",
-   "price": "0.6400",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.8600",
-   "multiplier": "1",
-   "placed": 1794268553.281077,
-   "hedge": [
-    {
-     "ticker": "KXCONCACAFNLGAME-26NOV14HTIUSA-HTI",
-     "limit": "0.9400"
-    },
-    {
-     "ticker": "KXCONCACAFNLGAME-26NOV14HTIUSA-USA",
-     "limit": "0.3400"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

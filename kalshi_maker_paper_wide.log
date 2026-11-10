@@ -6752,3 +6752,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 19:01:01,862 INFO Swept 18944 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-09 19:06:05,054 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 19:06:06,158 INFO Swept 18935 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 19:11:09,967 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:11:11,094 INFO Swept 18984 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 19:16:14,584 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:16:15,702 INFO Swept 19023 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 19:21:18,322 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:21:19,448 INFO Swept 19045 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 19:21:50,161 INFO Quote KXCONCACAFNLGAME-26NOV14HTIUSA cancelled (0/2 filled)
+2026-11-09 19:26:18,698 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:26:19,872 INFO Swept 19076 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 19:31:23,062 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:31:24,537 INFO Swept 19081 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 19:36:30,968 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:36:32,079 INFO Swept 19186 events: 0 taker trades, 0 new quotes, 0 resting
