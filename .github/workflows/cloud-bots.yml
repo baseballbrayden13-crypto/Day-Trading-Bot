@@ -5,7 +5,7 @@ name: Cloud bots (paper)
 
 on:
   schedule:
-    - cron: "52 13 * * 1-5"  # bot 2: 9:52am EDT (8:52am EST: market closed, it waits for the next run)
+    - cron: "52 13 * * 1-5"  # bots 2, 5 and 6: 9:52am EDT (8:52am EST: market closed, it waits for the next run)
     - cron: "52 14 * * 1-5"  # bot 2: 9:52am EST / 10:52am EDT (rebalances only once a month either way)
     - cron: "20 0 * * *"     # bot 3 at ~8:20pm EDT / 7:20pm EST (after the UTC daily bar), then Scout + Medic
   workflow_dispatch:
@@ -88,9 +88,22 @@ jobs:
           SLEEVES: "2=2450,5=2450"
         run: cp .env.rotation .env.dipbuy && python -m bot.dipbuy_live
 
+      - name: Bot 6 (QQQ trend, shares bot 3's account)
+        if: always() && contains(fromJSON('["bot2","all"]'), steps.pick.outputs.what)
+        working-directory: state
+        env:
+          # Bots 3 and 6 share account ...KTS7 (bot.sleeves): $2,500 each of the $5,000 account (C-048).
+          # Undo: delete this step and the two SLEEVES lines on bot 3; bot 3 goes back to the whole account.
+          SLEEVES: "3=2500,6=2500"
+          SLEEVES_FILE: sleeves_kts7.json
+        run: cp .env.crypto .env.trend && python -m bot.trend_live
+
       - name: Bot 3 (crypto trend)
         if: contains(fromJSON('["bot3","night","all"]'), steps.pick.outputs.what)
         working-directory: state
+        env:
+          SLEEVES: "3=2500,6=2500"
+          SLEEVES_FILE: sleeves_kts7.json
         run: python -m bot.crypto_live
 
       - name: Bot 3b (pretend copy with the fear & greed rule, no orders)
@@ -112,5 +125,5 @@ jobs:
         if: always()
         working-directory: state
         run: |
-          rm -f .env .env.rotation .env.crypto .env.dipbuy
+          rm -f .env .env.rotation .env.crypto .env.dipbuy .env.trend
           bash ../code/cloud/save_state.sh "${{ steps.pick.outputs.what }}"

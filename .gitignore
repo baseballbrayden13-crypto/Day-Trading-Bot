@@ -30,6 +30,7 @@ fills/
 rotation_state.json
 rotation.log
 .env.crypto
+.env.trend
 crypto.log
 bot1_account.txt
 .env.kalshi
