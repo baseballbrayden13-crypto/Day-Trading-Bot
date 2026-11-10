@@ -587,3 +587,17 @@ def test_sleeves_file_env(tmp_path, monkeypatch):
     assert sleeves.load()["6"]["cash"] == 2500
     monkeypatch.delenv("SLEEVES_FILE")
     assert sleeves.ledger_path().name == "sleeves.json"
+
+
+def test_army_fund_moves_toward_winners():
+    from bot.army_fund import step, weights
+
+    eq = {"1": {"2026-11-02": 100, "2026-11-09": 110}, "2": {"2026-11-02": 100, "2026-11-09": 90},
+          "3": {}, "5": {"2026-11-02": 100, "2026-11-09": 100}, "6": {}}
+    w = weights(eq, "2026-11-09")
+    assert set(w) == {"1", "2", "5"} and abs(sum(w.values()) - 1) < 1e-9
+    assert w["1"] > w["5"] == w["2"]  # only bot 1 gained: it gets the whole winners' half
+    s = step({}, eq, "2026-11-02")  # start: nobody has a 4-week gain yet, so even
+    assert s["history"][-1][1] == 10000
+    s = step(s, eq, "2026-11-09")  # new week: value first (110+90+100 -> 10,000), then re-split
+    assert abs(s["history"][-1][1] - 10000) < 0.01 and s["history"][-1][3]["1"] > 0.5

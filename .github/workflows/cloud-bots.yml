@@ -116,6 +116,11 @@ jobs:
         working-directory: state
         run: python -m bot.maintenance --collect
 
+      - name: Army fund (pretend money that follows the winning bots, no orders)
+        if: always() && contains(fromJSON('["medic","night","all"]'), steps.pick.outputs.what)
+        working-directory: state
+        run: python -m bot.army_fund || echo "Army fund skipped today"  # C-056; undo: delete this step
+
       - name: Kalshi reachability test (read-only scan, nothing saved)
         if: steps.pick.outputs.what == 'kalshi-scan'
         working-directory: ${{ runner.temp }}
