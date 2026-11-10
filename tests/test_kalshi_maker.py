@@ -414,3 +414,22 @@ def test_fair_check_skips_only_overpriced_pregame_legs(tmp_path, monkeypatch):
         raise OSError("offline")
     assert km.fair_ok(q, {"use_fair": True}, fetch=broken)  # no prices = check off, never blocks quotes
     km._fair.update(at=0.0, prices={})
+
+
+def test_lineup_news_skips_the_quote(tmp_path, monkeypatch):
+    from datetime import datetime, timedelta, timezone
+    from decimal import Decimal
+
+    from bot import kalshi_live as kl
+    from bot import kalshi_maker as km
+
+    monkeypatch.setattr(kl, "DATA", tmp_path / "data")
+    now = datetime.now(timezone.utc)
+    q = km.Quote("EV", "KXNBAGAME", "t", "T-LAL", Decimal("0.40"), 5, [], Decimal("5"))
+    entry = {"fair_yes": 0.5, "start": (now + timedelta(hours=1)).isoformat(), "updated": now.isoformat(),
+             "news": "lineup news: Los Angeles Lakers: LeBron James (Out)"}
+    km._fair.update(at=0.0, prices={})
+    assert not km.fair_ok(q, {"use_fair": True}, fetch=lambda: {"prices": {"T-LAL": entry}})
+    assert "LeBron James" in (tmp_path / "data" / "fair_skips.csv").read_text()
+    assert km.news_flag(q, {"T-LAL": {**entry, "start": (now - timedelta(minutes=1)).isoformat()}}) is None
+    km._fair.update(at=0.0, prices={})

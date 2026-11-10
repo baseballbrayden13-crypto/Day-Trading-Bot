@@ -191,8 +191,40 @@ def test_kalshi_fair_prices_written_for_matched_games(tmp_path, monkeypatch):
         {"ticker": "T-BUF", "yes_sub_title": "Buffalo", "yes_ask_dollars": "0.62"},
         {"ticker": "T-MIA", "yes_sub_title": "Miami", "yes_ask_dollars": "0.39"}]}
     _, stats = of.scan(FakeAPI([game(FAIR)]), CFG, {"open": [], "seen": {}, "credits": {}}, NOW, kalshi=lambda s: [ev])
-    of.write_kalshi_fair(stats.pop("kalshi_fair"), NOW)
+    of.write_kalshi_fair(stats.pop("kalshi_fair"), NOW, injuries=lambda s: {})
     prices = __import__("json").loads((tmp_path / "odds_data" / "kalshi_fair.json").read_text())["prices"]
     assert prices["T-BUF"]["fair_yes"] + prices["T-MIA"]["fair_yes"] == pytest.approx(1, abs=1e-3)
-    of.write_kalshi_fair({}, NOW + timedelta(hours=4))  # game started: dropped
+    of.write_kalshi_fair({}, NOW + timedelta(hours=4), injuries=lambda s: {})  # game started: dropped
     assert __import__("json").loads((tmp_path / "odds_data" / "kalshi_fair.json").read_text())["prices"] == {}
+
+
+def test_pinnacle_counts_as_half_the_fair_price():
+    g = game({**FAIR, "Pinnacle": (2.0, 1.95)})  # Pinnacle has Miami much likelier than the others
+    books = of.book_prices(g)
+    plain = of.fair_odds({k: v for k, v in books.items() if k != "Pinnacle"})
+    pin = of.no_vig(books["Pinnacle"])
+    blended = of.fair_odds(books)
+    others = of.fair_odds(books, leave_out="Pinnacle")
+    assert blended["Miami Dolphins"] > others["Miami Dolphins"]
+    mid = of.fair_odds({k: v for k, v in books.items()}, leave_out=None)
+    assert mid["Miami Dolphins"] == pytest.approx(
+        (__import__("statistics").median([of.no_vig(p)["Miami Dolphins"] for p in books.values()]) + pin["Miami Dolphins"]) / 2, abs=1e-3)
+    assert plain == others
+
+
+def injury_feed(minutes_ago, status="Out", team="Miami Dolphins"):
+    t = (NOW - timedelta(minutes=minutes_ago)).isoformat().replace("+00:00", "Z")
+    return {"injuries": [{"displayName": team, "injuries": [
+        {"status": status, "date": t, "athlete": {"displayName": "Tua Tagovailoa"}}]}]}
+
+
+def test_late_lineup_news_flags_both_markets_of_the_game():
+    entry = {"sport": "americanfootball_nfl", "teams": ["Miami Dolphins", "Buffalo Bills"],
+             "start": (NOW + timedelta(hours=2)).isoformat(), "fair_yes": 0.4, "updated": NOW.isoformat()}
+    prices = {"T-MIA": dict(entry), "T-BUF": dict(entry)}
+    assert of.flag_news(prices, NOW, injuries=lambda s: injury_feed(30)) == 1
+    assert "Tua Tagovailoa (Out)" in prices["T-MIA"]["news"] and prices["T-BUF"]["news"]
+    assert of.flag_news(prices, NOW, injuries=lambda s: injury_feed(60 * 5)) == 0  # old news: priced in
+    assert "news" not in prices["T-MIA"]
+    assert of.flag_news(prices, NOW, injuries=lambda s: injury_feed(30, status="Questionable")) == 0
+    assert of.flag_news(prices, NOW, injuries=lambda s: {}) == 0  # feed down: no flags
