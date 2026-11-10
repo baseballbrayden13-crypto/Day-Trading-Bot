@@ -383,3 +383,34 @@ def test_series_with_repeated_missed_hedges_are_blocked():
                         {"event": "C-2 (stray)", "series": "C", "opened": old},
                         {"event": "D-1", "series": "D", "opened": recent}]}
     assert km.missed_series(state, now) == {"A"}
+
+
+def test_fair_check_skips_only_overpriced_pregame_legs(tmp_path, monkeypatch):
+    from datetime import datetime, timedelta, timezone
+    from decimal import Decimal
+
+    from bot import kalshi_live as kl
+    from bot import kalshi_maker as km
+
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(kl, "DATA", tmp_path / "data")
+    now = datetime.now(timezone.utc)
+    q = km.Quote("EV", "KXNFLGAME", "Bills at Dolphins", "T-MIA", Decimal("0.70"), 5, [], Decimal("5"))
+    prices = {"T-MIA": {"fair_yes": 0.38, "start": (now + timedelta(hours=3)).isoformat(), "updated": now.isoformat()}}
+    assert km.overpriced(q, prices, now) == Decimal("0.62")  # NO bid 0.70 > fair NO 0.62 + 2c
+    cheap = km.Quote("EV", "KXNFLGAME", "t", "T-MIA", Decimal("0.63"), 5, [], Decimal("5"))
+    assert km.overpriced(cheap, prices, now) is None
+    started = {"T-MIA": {**prices["T-MIA"], "start": (now - timedelta(minutes=5)).isoformat()}}
+    stale = {"T-MIA": {**prices["T-MIA"], "updated": (now - timedelta(hours=5)).isoformat()}}
+    assert km.overpriced(q, started, now) is None and km.overpriced(q, stale, now) is None
+    assert km.overpriced(q, {}, now) is None
+    km._fair.update(at=0.0, prices={})
+    assert km.fair_ok(q, {"use_fair": False})
+    assert not km.fair_ok(q, {"use_fair": True}, fetch=lambda: {"prices": prices})
+    assert "T-MIA" in (tmp_path / "data" / "fair_skips.csv").read_text()
+    km._fair.update(at=0.0, prices={})
+
+    def broken():
+        raise OSError("offline")
+    assert km.fair_ok(q, {"use_fair": True}, fetch=broken)  # no prices = check off, never blocks quotes
+    km._fair.update(at=0.0, prices={})

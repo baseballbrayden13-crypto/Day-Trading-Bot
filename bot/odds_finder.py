@@ -510,6 +510,13 @@ def scan(api: OddsAPI, cfg: dict, state: dict, now: datetime, kalshi=kalshi_even
             books = book_prices(g)
             k = kalshi_for_game(g, k_events) if k_events else {}
             stats["kalshi_matched"] += bool(k)
+            if k and len(books) >= cfg["min_books"]:  # for the Kalshi maker's fair-price check (bot.kalshi_maker)
+                fair = fair_odds(books)
+                for team, km in k.items():
+                    if team in fair:
+                        stats.setdefault("kalshi_fair", {})[km["ticker"]] = {
+                            "fair_yes": round(fair[team], 4), "start": g["commence_time"], "team": team,
+                            "updated": now.isoformat(timespec="seconds")}
             finds += value_bets(g, books, cfg) + kalshi_value(g, books, k, cfg)
             arb = arbitrage(g, books, k)
             if arb:
@@ -582,8 +589,19 @@ def main() -> None:
                      stats["credits_left"], stats["spent_today"], stats["allowance"])
             for f in new:
                 log.info("  %s", describe(f))
+    write_kalshi_fair(stats.pop("kalshi_fair", {}), now)
     save_state(state)
     write_summary(stats, new, state, now)
+
+
+def write_kalshi_fair(fresh: dict, now: datetime) -> None:
+    """odds_data/kalshi_fair.json: the sportsbooks' fair YES chance per Kalshi game market, kept until the game starts."""
+    path = DATA / "kalshi_fair.json"
+    old = json.loads(path.read_text()).get("prices", {}) if path.exists() else {}
+    prices = {t: v for t, v in {**old, **fresh}.items()
+              if datetime.fromisoformat(v["start"].replace("Z", "+00:00")) > now}
+    DATA.mkdir(exist_ok=True)
+    path.write_text(json.dumps({"updated": now.isoformat(timespec="seconds"), "prices": prices}, indent=1))
 
 
 if __name__ == "__main__":
