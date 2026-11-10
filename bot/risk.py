@@ -69,6 +69,12 @@ class RiskManager:
             return False, "max trades per day"
         if not self.in_entry_window(now_et):
             return False, "outside entry window"
+        if self.cfg.skip_event_days:
+            from .events import skip_reason
+
+            reason = skip_reason(symbol, now_et.date())
+            if reason:
+                return False, reason
         return True, ""
 
     def record_entry(self, symbol: str) -> None:

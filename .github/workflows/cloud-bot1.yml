@@ -98,6 +98,7 @@ jobs:
           # Limit entries (C-038): buy at no more than 5 bps over the signal price; an unfilled entry is
           # cancelled at the next bar. Real market-order fills averaged ~5 bps worse than the signal, where the
           # ORB edge is about gone. Wins over the .env setting. Undo: delete this line (back to market orders).
+          SKIP_EVENT_DAYS: "true"  # sit out jobs Fridays + earnings days (C-046)
           ENTRY_LIMIT_BPS: "5"
         run: |
           test -s .env || { echo "No BOT1_ENV secret yet: run 'Copy keys to GitHub.bat' on the PC."; exit 1; }

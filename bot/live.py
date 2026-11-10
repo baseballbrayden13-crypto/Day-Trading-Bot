@@ -179,6 +179,14 @@ def main() -> None:
     if load_risk(risk, datetime.now(ET).date()):
         log.info("Picked up today's counters: start equity $%.2f, %d trades%s", risk.start_equity, risk.trades_today,
                  ", halted" if risk.halted else "")
+    if cfg.skip_event_days:
+        from . import events
+
+        added = events.refresh(cfg.symbols)
+        today = datetime.now(ET).date()
+        skips = {s: events.skip_reason(s, today) for s in cfg.symbols}
+        log.info("Event-day skips ON (%d new earnings dates). Today: %s", added,
+                 ", ".join(f"{s} ({r})" for s, r in skips.items() if r) or "none")
     reviewer = None
     if cfg.ai_review:
         from .ai_review import AIReviewer
