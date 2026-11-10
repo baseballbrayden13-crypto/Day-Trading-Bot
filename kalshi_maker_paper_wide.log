@@ -7087,3 +7087,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-10 10:20:33,124 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV12SACBUFF-BUFF at $0.2700 x3 (0 already bid at that price)
 2026-11-10 10:20:33,124 INFO Resting NO bid on KXNCAAWBGAME-26NOV12SACBUFF-BUFF at $0.2700 x3 (KXNCAAWBGAME-26NOV12SACBUFF): locks in $0.85 if it fills; hedge NO SAC@0.4200
 2026-11-10 10:20:33,166 INFO Swept 19257 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 10:25:31,794 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 10:25:32,705 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV101200POBSMY-POB at $0.0800 x3 (0 already bid at that price)
+2026-11-10 10:25:32,705 INFO Resting NO bid on KXLIGAPROMATCH-26NOV101200POBSMY-POB at $0.0800 x3 (KXLIGAPROMATCH-26NOV101200POBSMY): locks in $0.17 if it fills; hedge NO SMY@0.8500
+2026-11-10 10:25:32,744 INFO Swept 19257 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-10 10:30:35,280 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 10:30:36,120 INFO Swept 19257 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 10:35:36,301 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 10:35:37,117 INFO Swept 19255 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 10:40:38,978 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 10:40:39,822 INFO Swept 19256 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 10:45:39,030 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 10:45:39,816 INFO Swept 19280 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 10:50:41,077 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 10:50:41,930 INFO Swept 19271 events: 0 taker trades, 0 new quotes, 2 resting
