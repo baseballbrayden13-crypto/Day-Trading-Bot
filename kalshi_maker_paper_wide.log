@@ -6765,3 +6765,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 19:31:24,537 INFO Swept 19081 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-09 19:36:30,968 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 19:36:32,079 INFO Swept 19186 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 19:41:32,768 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:41:33,933 INFO Swept 19179 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 19:46:34,371 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:46:35,517 INFO Swept 19182 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 19:51:34,429 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:51:35,679 INFO PAPER rest NO bid KXNCAAMB1H-26NOV09MINNCIN-CIN at $0.8000 x2 (0 already bid at that price)
+2026-11-09 19:51:35,679 INFO Resting NO bid on KXNCAAMB1H-26NOV09MINNCIN-CIN at $0.8000 x2 (KXNCAAMB1H-26NOV09MINNCIN): locks in $0.36 if it fills; hedge NO TIE@0.0100
+2026-11-09 19:51:35,755 INFO Swept 19170 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 19:56:38,696 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:56:39,946 INFO Swept 19173 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 20:01:36,247 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 20:01:37,353 INFO Swept 19185 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 20:06:44,331 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 20:06:45,446 INFO Swept 19193 events: 0 taker trades, 0 new quotes, 1 resting
