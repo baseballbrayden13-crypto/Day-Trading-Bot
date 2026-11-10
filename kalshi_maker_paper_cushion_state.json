@@ -2,25 +2,5 @@
  "realized": "0",
  "open": [],
  "closed": [],
- "quotes": [
-  {
-   "event": "KXLIGAPROMATCH-26NOV101200POBSMY",
-   "series": "KXLIGAPROMATCH",
-   "title": "Pobegailo Platon vs Smyshnikov Maksim",
-   "ticker": "KXLIGAPROMATCH-26NOV101200POBSMY-POB",
-   "order_id": "paper-7-1794328961",
-   "price": "0.2800",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.7700",
-   "multiplier": "1",
-   "placed": 1794328961.883223,
-   "hedge": [
-    {
-     "ticker": "KXLIGAPROMATCH-26NOV101200POBSMY-SMY",
-     "limit": "0.5800"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
