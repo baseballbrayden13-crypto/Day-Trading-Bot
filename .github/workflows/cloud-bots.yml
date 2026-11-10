@@ -93,6 +93,11 @@ jobs:
         working-directory: state
         run: python -m bot.crypto_live
 
+      - name: Bot 3b (pretend copy with the fear & greed rule, no orders)
+        if: always() && contains(fromJSON('["bot3","night","all"]'), steps.pick.outputs.what)
+        working-directory: state
+        run: python -m bot.crypto_shadow || echo "Bot 3b skipped today"
+
       - name: Scout + Medic
         if: always() && contains(fromJSON('["medic","night","all"]'), steps.pick.outputs.what)
         working-directory: state

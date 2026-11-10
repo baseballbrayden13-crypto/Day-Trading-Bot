@@ -538,3 +538,17 @@ def test_event_days(tmp_path, monkeypatch):
     t = dt(2026, 10, 30, 10, 30)
     assert on.can_enter("AAPL", t) == (False, "AAPL earnings day")
     assert off.can_enter("AAPL", t)[0]
+
+
+def test_crypto_shadow_book():
+    import pandas as pd
+
+    from bot import crypto_shadow as cs
+
+    st = {"start": 5000.0, "cash": 5000.0, "coins": {}, "history": []}
+    cs.step(st, {"BTC/USD": 100.0, "ETH/USD": 10.0}, {"BTC/USD", "ETH/USD"}, "2026-11-10")
+    assert abs(st["coins"]["BTC/USD"] - 2500 * (1 - cs.FEE) / 100) < 1e-9 and st["cash"] < 1e-9
+    cs.step(st, {"BTC/USD": 110.0, "ETH/USD": 10.0}, {"ETH/USD"}, "2026-11-11")
+    assert "BTC/USD" not in st["coins"] and st["history"][-1][2] == "ETH/USD"
+    assert cs.greed_rising(pd.Series([10] * 29 + [50]))
+    assert not cs.greed_rising(pd.Series([50] * 30))
