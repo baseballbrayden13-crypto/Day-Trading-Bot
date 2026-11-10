@@ -132,6 +132,25 @@ def funding(out: Path) -> None:
                 got = True
         if got:
             continue
+        # BitMEX keeps funding back to 2016 (XBTUSD) and 2018 (ETHUSD)
+        sym = {"BTC": "XBTUSD", "ETH": "ETHUSD"}[coin]
+        start_i = 0
+        while True:
+            raw = get(f"https://www.bitmex.com/api/v1/funding?symbol={sym}&count=500&start={start_i}", tries=2)
+            try:
+                page = json.loads(raw)
+            except ValueError:
+                page = None
+            if not isinstance(page, list) or not page:
+                break
+            rows += [(coin, p["timestamp"][:16].replace("T", " "), float(p["fundingRate"]), "bitmex") for p in page]
+            got = True
+            start_i += len(page)
+            if len(page) < 500:
+                break
+            time.sleep(1.2)
+        if got:
+            continue
         end = int(time.time() * 1000)
         for _ in range(40):
             raw = get(f"https://api.bybit.com/v5/market/funding/history?category=linear&symbol={coin}USDT&limit=200&endTime={end}", tries=1)
@@ -153,17 +172,23 @@ def main() -> None:
     ap.add_argument("--out", default="out")
     ap.add_argument("--days", type=int, default=1095)
     ap.add_argument("--skip-bot1", action="store_true")
+    ap.add_argument("--only", default="", help="run just these steps, e.g. funding")
     a = ap.parse_args()
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     from .fleet import DIP_SYMBOLS
-    for step in (lambda: fomc(out), lambda: bls(out), lambda: fear_greed(out), lambda: funding(out),
-                 lambda: earnings(out, sorted(set(DIP_SYMBOLS.split(",")) | {"AAPL", "MSFT", "NVDA"}))):
+    steps = {"fomc": lambda: fomc(out), "bls": lambda: bls(out), "fear_greed": lambda: fear_greed(out),
+             "funding": lambda: funding(out),
+             "earnings": lambda: earnings(out, sorted(set(DIP_SYMBOLS.split(",")) | {"AAPL", "MSFT", "NVDA"}))}
+    only = [x for x in a.only.split(",") if x]
+    for name, step in steps.items():
+        if only and name not in only:
+            continue
         try:
             step()
         except Exception as e:  # noqa: BLE001
             print("step failed", e)
-    if not a.skip_bot1:
+    if not a.skip_bot1 and not only:
         bot1_trades(out, a.days)
 
 
