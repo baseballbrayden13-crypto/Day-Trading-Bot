@@ -7023,3 +7023,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-10 05:18:39,348 INFO Swept 19121 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-10 05:23:42,053 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-10 05:23:43,077 INFO Swept 19111 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 05:28:45,701 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 05:28:47,132 INFO Swept 19117 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 05:33:50,520 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 05:33:51,769 INFO Swept 19108 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 05:38:55,121 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 05:38:56,146 INFO Swept 19107 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 05:43:58,358 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 05:43:59,534 INFO Swept 19116 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 05:49:03,140 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 05:49:04,427 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV10UCINAU-NAU at $0.5000 x3 (0 already bid at that price)
+2026-11-10 05:49:04,427 INFO Resting NO bid on KXNCAAWBGAME-26NOV10UCINAU-NAU at $0.5000 x3 (KXNCAAWBGAME-26NOV10UCINAU): locks in $0.15 if it fills; hedge NO UCI@0.4300
+2026-11-10 05:49:04,526 INFO Swept 19110 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 05:54:07,246 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 05:54:08,281 INFO Swept 19102 events: 0 taker trades, 0 new quotes, 1 resting
