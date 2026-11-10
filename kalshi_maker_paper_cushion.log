@@ -158,3 +158,11 @@
 2026-11-10 10:22:15,836 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV12SACBUFF-BUFF at $0.3500 x3 (0 already bid at that price)
 2026-11-10 10:22:15,836 INFO Resting NO bid on KXNCAAWBGAME-26NOV12SACBUFF-BUFF at $0.3500 x3 (KXNCAAWBGAME-26NOV12SACBUFF): locks in $0.67 if it fills; hedge NO SAC@0.4000
 2026-11-10 10:22:15,837 INFO Swept 19260 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 10:27:20,428 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV101200POBSMY-POB at $0.0800 x5 (0 already bid at that price)
+2026-11-10 10:27:20,428 INFO Resting NO bid on KXLIGAPROMATCH-26NOV101200POBSMY-POB at $0.0800 x5 (KXLIGAPROMATCH-26NOV101200POBSMY): locks in $0.29 if it fills; hedge NO SMY@0.8500
+2026-11-10 10:27:20,429 INFO Swept 19257 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-10 10:32:21,923 INFO Swept 19253 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 10:37:24,023 INFO Swept 19260 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 10:42:24,547 INFO Swept 19269 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 10:47:25,267 INFO Swept 19276 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 10:52:25,772 INFO Swept 19270 events: 0 taker trades, 0 new quotes, 2 resting

@@ -4,21 +4,21 @@
  "closed": [],
  "quotes": [
   {
-   "event": "KXNCAAWBGAME-26NOV12SACBUFF",
-   "series": "KXNCAAWBGAME",
-   "title": "Sacramento St. vs Buffalo",
-   "ticker": "KXNCAAWBGAME-26NOV12SACBUFF-BUFF",
-   "order_id": "paper-5-1794324135",
-   "price": "0.3500",
-   "sets": 3,
+   "event": "KXLIGAPROMATCH-26NOV101200POBSMY",
+   "series": "KXLIGAPROMATCH",
+   "title": "Pobegailo Platon vs Smyshnikov Maksim",
+   "ticker": "KXLIGAPROMATCH-26NOV101200POBSMY-POB",
+   "order_id": "paper-6-1794324440",
+   "price": "0.0800",
+   "sets": 5,
    "done": 0,
-   "reserve": "2.3300",
+   "reserve": "4.7100",
    "multiplier": "1",
-   "placed": 1794324135.836414,
+   "placed": 1794324440.4284189,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV12SACBUFF-SAC",
-     "limit": "0.4200"
+     "ticker": "KXLIGAPROMATCH-26NOV101200POBSMY-SMY",
+     "limit": "0.8500"
     }
    ]
   }
