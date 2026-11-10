@@ -172,3 +172,11 @@
 2026-11-10 11:12:33,932 INFO Swept 19287 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 11:17:34,342 INFO Swept 19310 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 11:22:34,364 INFO Swept 19303 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 11:27:36,750 INFO Swept 19299 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 11:32:38,434 INFO Swept 19300 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 11:37:39,948 INFO Swept 19305 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 11:42:41,883 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV101200POBSMY-POB at $0.2800 x2 (0 already bid at that price)
+2026-11-10 11:42:41,883 INFO Resting NO bid on KXLIGAPROMATCH-26NOV101200POBSMY-POB at $0.2800 x2 (KXLIGAPROMATCH-26NOV101200POBSMY): locks in $0.23 if it fills; hedge NO SMY@0.5800
+2026-11-10 11:42:41,883 INFO Swept 19298 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 11:47:47,157 INFO Swept 19302 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 11:52:46,674 INFO Swept 19300 events: 0 taker trades, 0 new quotes, 1 resting
