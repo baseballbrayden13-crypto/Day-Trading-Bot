@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-09T06:53:30+00:00",
+ "checked": "2026-11-10T07:30:30+00:00",
  "status": {
   "0": "info",
   "1": "info",
@@ -7,7 +7,9 @@
   "3": "info",
   "6": "info",
   "7": "act",
-  "8": "info"
+  "9": "info",
+  "8": "info",
+  "10": "watch"
  },
  "findings": [
   {
@@ -23,7 +25,7 @@
    "bot": 1,
    "level": "ok",
    "check": "replay",
-   "message": "2026-11-06: bot 1 did what the backtest would have (2 entries).",
+   "message": "2026-11-09: bot 1 did what the backtest would have (1 entries).",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -32,7 +34,7 @@
    "bot": 1,
    "level": "info",
    "check": "return",
-   "message": "$4,977.29, -0.5% since the $5,000 start.",
+   "message": "$4,981.33, -0.4% since the $5,000 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -41,7 +43,7 @@
    "bot": 1,
    "level": "info",
    "check": "performance",
-   "message": "8 closed trades so far; 30 are needed before the results say anything about the strategy.",
+   "message": "9 closed trades so far; 30 are needed before the results say anything about the strategy.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -50,7 +52,7 @@
    "bot": 1,
    "level": "ok",
    "check": "slippage",
-   "message": "Real fills cost +2.5 bps over 10 fills (backtest assumes 2).",
+   "message": "Real fills cost +2.4 bps over 11 fills (backtest assumes 2).",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -59,7 +61,7 @@
    "bot": 2,
    "level": "info",
    "check": "return",
-   "message": "$2,424.66, -4.1% since the $2,528 start.",
+   "message": "$2,430.57, -3.8% since the $2,528 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -68,7 +70,7 @@
    "bot": 2,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot -4.1% vs just holding SPY -3.2%.",
+   "message": "Since 2026-10-23: bot -3.8% vs just holding SPY -0.9%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -77,7 +79,7 @@
    "bot": 3,
    "level": "info",
    "check": "return",
-   "message": "$5,000.00, +0.0% since the $5,000 start.",
+   "message": "$2,500.00, +0.0% since the $2,500 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -86,7 +88,7 @@
    "bot": 3,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -9.3%.",
+   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -8.9%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -113,7 +115,7 @@
    "bot": 7,
    "level": "act",
    "check": "missed hedges",
-   "message": "Bot 4e: 31 one-sided leftovers from missed hedges (not locked-in trades) closed for $-12.31. (Flagged 5 days in a row.)",
+   "message": "Bot 4e: 31 one-sided leftovers from missed hedges (not locked-in trades) closed for $-12.31. (Flagged 6 days in a row.)",
    "fix": "If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more).",
    "proposal": "",
    "risk": "Low"
@@ -122,16 +124,7 @@
    "bot": 7,
    "level": "act",
    "check": "drawdown",
-   "message": "Bot 4e is at $14.97 of its $20.00 start.",
-   "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 7,
-   "level": "act",
-   "check": "errors",
-   "message": "Bot 4e: 1 warnings last loop. Latest: 2026-11-09 06:06 Quote KXCZEFNLGAME-26NOV07HANTRI: hedge missed on KXCZEFNLGAME-26NOV07HANTRI-TRI. Selling back 2 contracts on 1 legs. (Flagged 6 days in a row.)",
+   "message": "Bot 4e is at $14.84 of its $20.00 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -140,7 +133,16 @@
    "bot": 7,
    "level": "info",
    "check": "return",
-   "message": "Bot 4e: 92 settled, 3 open, $-5.03 settled profit.",
+   "message": "Bot 4e: 92 settled, 3 open, $-5.16 settled profit.",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 9,
+   "level": "info",
+   "check": "performance",
+   "message": "No Bot 4f trades yet. Expected: the 14-day backtest found 0 taker trades worth $0.10.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -149,8 +151,17 @@
    "bot": 8,
    "level": "info",
    "check": "return",
-   "message": "$2,463.34, +0.5% since the $2,450 start.",
+   "message": "$2,444.71, -0.2% since the $2,450 start.",
    "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 10,
+   "level": "watch",
+   "check": "schedule",
+   "message": "No saved trend.log for bot 6 yet, so no cloud run has been saved for it.",
+   "fix": "If this stays for days, open the Actions tab and check its workflow runs and that its keys are in the repository secrets.",
    "proposal": "",
    "risk": "Low"
   }

@@ -1,17 +1,18 @@
 checked,bot,label,level,check,message,fix
-2026-11-09T06:53:30+00:00,0,fleet,info,events,Coming up: CSCO earnings Thu 11/12. Odd results around these days are normal.,
-2026-11-09T06:53:30+00:00,1,1,ok,replay,2026-11-06: bot 1 did what the backtest would have (2 entries).,
-2026-11-09T06:53:30+00:00,1,1,info,return,"$4,977.29, -0.5% since the $5,000 start.",
-2026-11-09T06:53:30+00:00,1,1,info,performance,8 closed trades so far; 30 are needed before the results say anything about the strategy.,
-2026-11-09T06:53:30+00:00,1,1,ok,slippage,Real fills cost +2.5 bps over 10 fills (backtest assumes 2).,
-2026-11-09T06:53:30+00:00,2,2,info,return,"$2,424.66, -4.1% since the $2,528 start.",
-2026-11-09T06:53:30+00:00,2,2,info,vs hold,Since 2026-10-23: bot -4.1% vs just holding SPY -3.2%.,
-2026-11-09T06:53:30+00:00,3,3,info,return,"$5,000.00, +0.0% since the $5,000 start.",
-2026-11-09T06:53:30+00:00,3,3,info,vs hold,Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -9.3%.,
-2026-11-09T06:53:30+00:00,6,4c,info,return,"Bot 4c: 3 settled, 1 open, $+7.07 settled profit.",
-2026-11-09T06:53:30+00:00,7,4e,act,losses,Bot 4e: 5 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.,Read kalshi_data/opportunities.csv for those events.
-2026-11-09T06:53:30+00:00,7,4e,act,missed hedges,Bot 4e: 31 one-sided leftovers from missed hedges (not locked-in trades) closed for $-12.31. (Flagged 5 days in a row.),"If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more)."
-2026-11-09T06:53:30+00:00,7,4e,act,drawdown,Bot 4e is at $14.97 of its $20.00 start.,
-2026-11-09T06:53:30+00:00,7,4e,act,errors,Bot 4e: 1 warnings last loop. Latest: 2026-11-09 06:06 Quote KXCZEFNLGAME-26NOV07HANTRI: hedge missed on KXCZEFNLGAME-26NOV07HANTRI-TRI. Selling back 2 contracts on 1 legs. (Flagged 6 days in a row.),
-2026-11-09T06:53:30+00:00,7,4e,info,return,"Bot 4e: 92 settled, 3 open, $-5.03 settled profit.",
-2026-11-09T06:53:30+00:00,8,5,info,return,"$2,463.34, +0.5% since the $2,450 start.",
+2026-11-10T07:30:30+00:00,0,fleet,info,events,Coming up: CSCO earnings Thu 11/12. Odd results around these days are normal.,
+2026-11-10T07:30:30+00:00,1,1,ok,replay,2026-11-09: bot 1 did what the backtest would have (1 entries).,
+2026-11-10T07:30:30+00:00,1,1,info,return,"$4,981.33, -0.4% since the $5,000 start.",
+2026-11-10T07:30:30+00:00,1,1,info,performance,9 closed trades so far; 30 are needed before the results say anything about the strategy.,
+2026-11-10T07:30:30+00:00,1,1,ok,slippage,Real fills cost +2.4 bps over 11 fills (backtest assumes 2).,
+2026-11-10T07:30:30+00:00,2,2,info,return,"$2,430.57, -3.8% since the $2,528 start.",
+2026-11-10T07:30:30+00:00,2,2,info,vs hold,Since 2026-10-23: bot -3.8% vs just holding SPY -0.9%.,
+2026-11-10T07:30:30+00:00,3,3,info,return,"$2,500.00, +0.0% since the $2,500 start.",
+2026-11-10T07:30:30+00:00,3,3,info,vs hold,Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -8.9%.,
+2026-11-10T07:30:30+00:00,6,4c,info,return,"Bot 4c: 3 settled, 1 open, $+7.07 settled profit.",
+2026-11-10T07:30:30+00:00,7,4e,act,losses,Bot 4e: 5 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.,Read kalshi_data/opportunities.csv for those events.
+2026-11-10T07:30:30+00:00,7,4e,act,missed hedges,Bot 4e: 31 one-sided leftovers from missed hedges (not locked-in trades) closed for $-12.31. (Flagged 6 days in a row.),"If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more)."
+2026-11-10T07:30:30+00:00,7,4e,act,drawdown,Bot 4e is at $14.84 of its $20.00 start.,
+2026-11-10T07:30:30+00:00,7,4e,info,return,"Bot 4e: 92 settled, 3 open, $-5.16 settled profit.",
+2026-11-10T07:30:30+00:00,9,4f,info,performance,No Bot 4f trades yet. Expected: the 14-day backtest found 0 taker trades worth $0.10.,
+2026-11-10T07:30:30+00:00,8,5,info,return,"$2,444.71, -0.2% since the $2,450 start.",
+2026-11-10T07:30:30+00:00,10,6,watch,schedule,"No saved trend.log for bot 6 yet, so no cloud run has been saved for it.","If this stays for days, open the Actions tab and check its workflow runs and that its keys are in the repository secrets."
