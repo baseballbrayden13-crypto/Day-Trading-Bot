@@ -195,6 +195,17 @@ def fair_prices(fetch=None) -> dict:
     return _fair["prices"]
 
 
+def news_flag(q: "Quote", prices: dict, now: datetime | None = None) -> str | None:
+    """The odds finder's late lineup-news note for this market (pre-game only), else None."""
+    f = prices.get(q.ticker)
+    if not f or not f.get("news"):
+        return None
+    now = now or datetime.now(timezone.utc)
+    if now >= datetime.fromisoformat(f["start"].replace("Z", "+00:00")):
+        return None
+    return f["news"]
+
+
 def overpriced(q: "Quote", prices: dict, now: datetime | None = None) -> Decimal | None:
     """The books' fair NO chance when our resting NO bid pays more than it plus FAIR_CUSHION, else None.
     The basket is locked either way; this is the leg left holding if the hedge misses, so an overpriced one
@@ -211,21 +222,28 @@ def overpriced(q: "Quote", prices: dict, now: datetime | None = None) -> Decimal
     return fair_no if q.price > fair_no + FAIR_CUSHION else None
 
 
-def log_fair_skip(q: "Quote", fair_no: Decimal) -> None:
+def log_fair_skip(q: "Quote", fair_no: Decimal | None, reason: str = "overpriced") -> None:
     path = kl.DATA / "fair_skips.csv"
     path.parent.mkdir(exist_ok=True)
     new = not path.exists()
     with path.open("a", encoding="utf-8") as f:
         if new:
-            f.write("time,event,ticker,title,no_bid,fair_no,sets\n")
-        title = q.title.replace(",", " ")
-        f.write(f"{datetime.now(timezone.utc).isoformat(timespec='seconds')},{q.event_ticker},{q.ticker},{title},{q.price},{fair_no:.3f},{q.sets}\n")
+            f.write("time,event,ticker,title,no_bid,fair_no,sets,reason\n")
+        title, why = q.title.replace(",", " "), reason.replace(",", " ")
+        fair = f"{fair_no:.3f}" if fair_no is not None else ""
+        f.write(f"{datetime.now(timezone.utc).isoformat(timespec='seconds')},{q.event_ticker},{q.ticker},{title},{q.price},{fair},{q.sets},{why}\n")
 
 
 def fair_ok(q: "Quote", cfg: dict, fetch=None) -> bool:
     if not cfg.get("use_fair"):
         return True
-    fair_no = overpriced(q, fair_prices(fetch))
+    prices = fair_prices(fetch)
+    news = news_flag(q, prices)
+    if news:
+        log.info("Skip %s: %s", q.ticker, news)
+        log_fair_skip(q, None, news)
+        return False
+    fair_no = overpriced(q, prices)
     if fair_no is None:
         return True
     log.info("Skip %s: NO bid %s is over the sportsbooks' fair %.3f", q.ticker, q.price, fair_no)

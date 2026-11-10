@@ -47,6 +47,9 @@ ET = ZoneInfo("America/New_York")
 API = "https://api.the-odds-api.com/v4"
 KALSHI = "https://api.elections.kalshi.com/trade-api/v2"
 ESPN = "https://site.api.espn.com/apis/site/v2/sports"
+SHARP = "Pinnacle"  # the sharpest book (big limits, low margin): its line is the best single guess at the real odds
+# The Odds API bills up to 10 named books as one region, so Pinnacle (an EU book) rides along at no extra credit.
+BOOKS = os.getenv("ODDS_BOOKS", "pinnacle,draftkings,fanduel,betmgm,williamhill_us,betrivers,espnbet,fanatics,bovada,betonlineag")
 DATA = Path("odds_data")
 STATE = Path("odds_state.json")
 
@@ -110,6 +113,9 @@ def fair_odds(books: dict[str, dict[str, float]], leave_out: str | None = None) 
         for k, p in no_vig(prices).items():
             sides.setdefault(k, []).append(p)
     mid = {k: median(v) for k, v in sides.items()}
+    sharp = no_vig(books[SHARP]) if SHARP in books and SHARP != leave_out else {}
+    if set(sharp) == set(mid):  # Pinnacle, the sharpest book, counts as half the fair price
+        mid = {k: (p + sharp[k]) / 2 for k, p in mid.items()}
     total = sum(mid.values())
     return {k: p / total for k, p in mid.items()} if total else {}
 
@@ -265,8 +271,8 @@ class OddsAPI:
     def events(self, sport: str) -> list[dict]:  # free
         return self.get(f"/sports/{sport}/events")
 
-    def odds(self, sport: str) -> list[dict]:  # 1 credit (1 region x 1 market)
-        return self.get(f"/sports/{sport}/odds", regions="us", markets="h2h", oddsFormat="decimal")
+    def odds(self, sport: str) -> list[dict]:  # 1 credit: up to 10 named books count as one region
+        return self.get(f"/sports/{sport}/odds", bookmakers=BOOKS, markets="h2h", oddsFormat="decimal")
 
 
 def kalshi_events(series: str, http=None) -> list[dict]:
@@ -508,6 +514,7 @@ def scan(api: OddsAPI, cfg: dict, state: dict, now: datetime, kalshi=kalshi_even
                 continue  # started already (live odds move too fast) or too far out
             stats["games"] += 1
             books = book_prices(g)
+            stats["pinnacle"] = stats.get("pinnacle", 0) + (SHARP in books)
             k = kalshi_for_game(g, k_events) if k_events else {}
             stats["kalshi_matched"] += bool(k)
             if k and len(books) >= cfg["min_books"]:  # for the Kalshi maker's fair-price check (bot.kalshi_maker)
@@ -515,7 +522,8 @@ def scan(api: OddsAPI, cfg: dict, state: dict, now: datetime, kalshi=kalshi_even
                 for team, km in k.items():
                     if team in fair:
                         stats.setdefault("kalshi_fair", {})[km["ticker"]] = {
-                            "fair_yes": round(fair[team], 4), "start": g["commence_time"], "team": team,
+                            "fair_yes": round(fair[team], 4), "start": g["commence_time"], "team": team, "sport": sport,
+                            "teams": [g["home_team"], g["away_team"]], "pinnacle": SHARP in books,
                             "updated": now.isoformat(timespec="seconds")}
             finds += value_bets(g, books, cfg) + kalshi_value(g, books, k, cfg)
             arb = arbitrage(g, books, k)
@@ -560,11 +568,14 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Sports odds finder (alerts + pretend bets only)")
     ap.add_argument("--settle", action="store_true", help="only settle open pretend bets")
     ap.add_argument("--report", action="store_true", help="print the record")
+    ap.add_argument("--now", action="store_true", help="price every sport now (ignore the 2.5h gap and quiet hours)")
     args = ap.parse_args()
     if args.report:
         print(json.dumps(record(), indent=1))
         return
     cfg, state, now = settings(), load_state(), datetime.now(timezone.utc)
+    if args.now:
+        cfg.update(gap=0, quiet="off")
     done = settle(state, now)
     if done:
         log.info("Settled %d pretend bets: %+.2f", len(done), sum(b["pnl"] for b in done))
@@ -584,6 +595,7 @@ def main() -> None:
                 alert(cfg, new)
             except Exception as e:  # an alert problem must never lose the scan's pretend bets
                 log.warning("alert failed: %s", e)
+            log.info("Pinnacle priced %d of %d games", stats.get("pinnacle", 0), stats["games"])
             log.info("Scanned %s: %d games, %d with Kalshi, %d new finds. Credits left %s (today %s of %s).",
                      ", ".join(stats["sports"]) or "nothing", stats["games"], stats["kalshi_matched"], len(new),
                      stats["credits_left"], stats["spent_today"], stats["allowance"])
@@ -594,12 +606,74 @@ def main() -> None:
     write_summary(stats, new, state, now)
 
 
-def write_kalshi_fair(fresh: dict, now: datetime) -> None:
+NEWS_HOURS = 3  # an Out/Doubtful update this recent, before tip-off, flags the game
+NEWS_STATUS = ("out", "doubtful")
+
+
+def espn_injuries(sport: str, http=None) -> dict:
+    http = http or requests
+    _, path, _ = SPORTS.get(sport, (None, None, {}))
+    if not path:
+        return {}
+    try:
+        r = http.get(f"{ESPN}/{path}/injuries", timeout=20)
+        r.raise_for_status()
+        return r.json()
+    except Exception as e:  # no news = no flags; never blocks anything
+        log.warning("ESPN injuries %s: %s", sport, e)
+        return {}
+
+
+def recent_news(feed: dict, now: datetime, hours: float = NEWS_HOURS) -> dict[str, list[str]]:
+    """{team name: ["Player (Out)", ...]} for Out/Doubtful updates in the last `hours`."""
+    out: dict[str, list[str]] = {}
+    for team in feed.get("injuries", []):
+        name = team.get("displayName") or team.get("team", {}).get("displayName", "")
+        for inj in team.get("injuries", []):
+            status = (inj.get("status") or inj.get("type", {}).get("description") or "").lower()
+            when = inj.get("date")
+            if not name or not when or not any(s in status for s in NEWS_STATUS):
+                continue
+            try:
+                t = datetime.fromisoformat(when.replace("Z", "+00:00"))
+            except ValueError:
+                continue
+            if t.tzinfo is None:
+                t = t.replace(tzinfo=timezone.utc)
+            if timedelta(0) <= now - t <= timedelta(hours=hours):
+                player = inj.get("athlete", {}).get("displayName", "a player")
+                out.setdefault(name, []).append(f"{player} ({inj.get('status', status)})")
+    return out
+
+
+def flag_news(prices: dict, now: datetime, injuries=espn_injuries) -> int:
+    """Marks Kalshi game markets whose teams had late Out/Doubtful news (free ESPN feed, every run).
+    The Kalshi maker skips quoting those games: the books may not have caught up yet. Returns games flagged."""
+    by_sport: dict[str, dict] = {}
+    flagged = set()
+    for v in prices.values():
+        v.pop("news", None)
+        sport, teams = v.get("sport"), v.get("teams") or []
+        if not sport or len(teams) != 2:
+            continue
+        if sport not in by_sport:
+            by_sport[sport] = recent_news(injuries(sport), now)
+        news = [f"{t}: {', '.join(n)}" for t in teams for name, n in by_sport[sport].items() if _same(name, t)]
+        if news:
+            v["news"] = "lineup news: " + "; ".join(news)[:200]
+            flagged.add(tuple(teams))
+    return len(flagged)
+
+
+def write_kalshi_fair(fresh: dict, now: datetime, injuries=espn_injuries) -> None:
     """odds_data/kalshi_fair.json: the sportsbooks' fair YES chance per Kalshi game market, kept until the game starts."""
     path = DATA / "kalshi_fair.json"
     old = json.loads(path.read_text()).get("prices", {}) if path.exists() else {}
     prices = {t: v for t, v in {**old, **fresh}.items()
               if datetime.fromisoformat(v["start"].replace("Z", "+00:00")) > now}
+    n = flag_news(prices, now, injuries)
+    if n:
+        log.info("Late lineup news on %d game(s); the Kalshi maker skips those", n)
     DATA.mkdir(exist_ok=True)
     path.write_text(json.dumps({"updated": now.isoformat(timespec="seconds"), "prices": prices}, indent=1))
 
