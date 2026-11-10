@@ -15,3 +15,12 @@
 2026-11-09 23:15:51,223 INFO Resting NO bid on KXNCAAWBGAME-26NOV10UTAWYO-WYO at $0.54 x5 (KXNCAAWBGAME-26NOV10UTAWYO): locks in $0.23 if it fills; hedge NO UTA@0.3900
 2026-11-09 23:15:51,264 INFO Swept 19175 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-09 23:20:51,806 INFO Swept 19167 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-09 23:25:52,340 INFO Swept 19155 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-09 23:25:53,016 INFO Quote KXNCAAWBGAME-26NOV10UTAWYO cancelled (0/5 filled)
+2026-11-09 23:30:54,614 INFO Swept 19139 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 23:35:53,537 INFO Swept 19104 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 23:40:58,954 INFO Swept 19087 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 23:45:59,601 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV11MSMLEH-MSM at $0.6100 x6 (0 already bid at that price)
+2026-11-09 23:45:59,602 INFO Resting NO bid on KXNCAAWBGAME-26NOV11MSMLEH-MSM at $0.6100 x6 (KXNCAAWBGAME-26NOV11MSMLEH): locks in $1.08 if it fills; hedge NO LEH@0.2000
+2026-11-09 23:45:59,625 INFO Swept 19086 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 23:50:55,094 INFO Swept 19071 events: 0 taker trades, 0 new quotes, 1 resting
