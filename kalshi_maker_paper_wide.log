@@ -7181,3 +7181,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-10 13:47:02,000 INFO Swept 19534 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 13:52:04,314 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-10 13:52:05,669 INFO Swept 19539 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 13:57:08,726 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 13:57:10,051 INFO Swept 19547 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 14:02:07,946 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 14:02:09,183 INFO Swept 19529 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 14:07:14,111 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 14:07:15,373 INFO Swept 19562 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 14:12:15,267 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 14:12:16,809 INFO Swept 19580 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 14:17:17,030 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 14:17:18,435 INFO Swept 19585 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 14:22:18,661 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 14:22:19,872 INFO Swept 19581 events: 0 taker trades, 0 new quotes, 0 resting
