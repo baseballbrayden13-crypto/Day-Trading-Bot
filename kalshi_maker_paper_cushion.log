@@ -255,3 +255,11 @@
 2026-11-10 17:53:03,691 INFO Swept 19725 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 17:58:05,487 INFO Swept 19732 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 18:03:07,856 INFO Swept 19735 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 18:08:10,520 INFO Swept 19740 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 18:13:15,977 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV11FORBUCK-FOR at $0.3500 x3 (0 already bid at that price)
+2026-11-10 18:13:15,977 INFO Resting NO bid on KXNCAAWBGAME-26NOV11FORBUCK-FOR at $0.3500 x3 (KXNCAAWBGAME-26NOV11FORBUCK): locks in $0.59 if it fills; hedge NO BUCK@0.4300
+2026-11-10 18:13:15,978 INFO Swept 19794 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 18:18:15,277 INFO Swept 19827 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 18:23:19,498 INFO Swept 19850 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 18:28:25,589 INFO Swept 19869 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 18:33:25,353 INFO Swept 19858 events: 0 taker trades, 0 new quotes, 1 resting
