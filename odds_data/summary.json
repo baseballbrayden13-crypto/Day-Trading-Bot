@@ -1,17 +1,25 @@
 {
- "updated": "2026-11-10T12:45:09+00:00",
+ "updated": "2026-11-10T20:29:58+00:00",
  "scan": {
-  "sports": [],
-  "games": 0,
-  "kalshi_matched": 0,
+  "sports": [
+   "basketball_nba",
+   "icehockey_nhl",
+   "americanfootball_ncaaf",
+   "basketball_ncaab"
+  ],
+  "games": 108,
+  "kalshi_matched": 92,
   "skipped": [],
-  "note": "quiet hours",
-  "credits_left": 474,
-  "spent_today": 0,
+  "pinnacle": 57,
+  "credits_left": 470,
+  "spent_today": 4,
   "allowance": 22
  },
- "new_finds": [],
- "open_bets": 2,
+ "new_finds": [
+  "Evansville Purple Aces @ FanDuel 5.0 (fair 4.61, +8.4% expected) Evansville Purple Aces at Middle Tennessee Blue Raiders (Tue 7:30PM)",
+  "Nicholls St Colonels @ BetRivers 4.7 (fair 4.53, +3.8% expected) Nicholls St Colonels at Tulane Green Wave (Tue 7:30PM)"
+ ],
+ "open_bets": 4,
  "record": {
   "value": {
    "bets": 0,

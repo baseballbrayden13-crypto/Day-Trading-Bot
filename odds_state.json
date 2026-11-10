@@ -37,21 +37,61 @@
     }
    ],
    "opened": "2026-11-10T03:30:49+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Evansville Purple Aces at Middle Tennessee Blue Raiders",
+   "game_id": "6e5f0afa161cb1c7b90a86be779800bf",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-11T00:30:00Z",
+   "edge": 0.0841,
+   "home": "Middle Tennessee Blue Raiders",
+   "away": "Evansville Purple Aces",
+   "legs": [
+    {
+     "team": "Evansville Purple Aces",
+     "book": "FanDuel",
+     "odds": 5.0,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-10T20:29:58+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Nicholls St Colonels at Tulane Green Wave",
+   "game_id": "1bdd1ebc0dbf42b45f00e0e042a95bbc",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-11T00:30:00Z",
+   "edge": 0.0378,
+   "home": "Tulane Green Wave",
+   "away": "Nicholls St Colonels",
+   "legs": [
+    {
+     "team": "Nicholls St Colonels",
+     "book": "BetRivers",
+     "odds": 4.7,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-10T20:29:58+00:00"
   }
  ],
  "seen": {
   "value|c01b327672b44187cac6e56917b0784a|Tenn-Martin Skyhawks|DraftKings": "2026-11-10T03:30:49.213095+00:00",
-  "value|c01b327672b44187cac6e56917b0784a|Tenn-Martin Skyhawks|Bovada": "2026-11-10T03:30:49.213095+00:00"
+  "value|c01b327672b44187cac6e56917b0784a|Tenn-Martin Skyhawks|Bovada": "2026-11-10T03:30:49.213095+00:00",
+  "value|6e5f0afa161cb1c7b90a86be779800bf|Evansville Purple Aces|FanDuel": "2026-11-10T20:29:58.362392+00:00",
+  "value|1bdd1ebc0dbf42b45f00e0e042a95bbc|Nicholls St Colonels|BetRivers": "2026-11-10T20:29:58.362392+00:00"
  },
  "credits": {
   "day": "2026-11-10",
-  "spent": 0,
-  "remaining": 474
+  "spent": 4,
+  "remaining": 470
  },
  "last_priced": {
-  "basketball_nba": "2026-11-10T03:42:17.031781+00:00",
-  "icehockey_nhl": "2026-11-10T03:42:17.031781+00:00",
-  "americanfootball_ncaaf": "2026-11-10T03:42:17.031781+00:00",
-  "basketball_ncaab": "2026-11-10T03:42:17.031781+00:00"
+  "basketball_nba": "2026-11-10T20:29:58.362392+00:00",
+  "icehockey_nhl": "2026-11-10T20:29:58.362392+00:00",
+  "americanfootball_ncaaf": "2026-11-10T20:29:58.362392+00:00",
+  "basketball_ncaab": "2026-11-10T20:29:58.362392+00:00"
  }
 }
