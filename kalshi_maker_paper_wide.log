@@ -6736,3 +6736,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 15:18:12,978 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 15:18:13,909 INFO Swept 18615 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-09 15:19:04,499 INFO Stopped; all quotes cancelled.
+2026-11-09 18:38:46,615 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-09 18:40:44,878 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 18:40:45,981 INFO Settled daily_safest KXBROADLINEADS-26NOV06-T129: NO, profit $0.01
+2026-11-09 18:40:46,016 INFO Swept 18916 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 18:45:49,941 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 18:45:51,029 INFO Swept 18917 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 18:50:50,720 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 18:50:51,849 INFO Swept 18926 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 18:55:52,107 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 18:55:53,280 INFO PAPER rest NO bid KXCONCACAFNLGAME-26NOV14HTIUSA-TIE at $0.6400 x2 (0 already bid at that price)
+2026-11-09 18:55:53,281 INFO Resting NO bid on KXCONCACAFNLGAME-26NOV14HTIUSA-TIE at $0.6400 x2 (KXCONCACAFNLGAME-26NOV14HTIUSA): locks in $0.14 if it fills; hedge NO HTI@0.9400, USA@0.3200
+2026-11-09 18:55:53,357 INFO Swept 18929 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 19:01:00,737 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:01:01,862 INFO Swept 18944 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 19:06:05,054 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 19:06:06,158 INFO Swept 18935 events: 0 taker trades, 0 new quotes, 1 resting
