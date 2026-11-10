@@ -6992,3 +6992,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-10 04:17:59,469 INFO Swept 19126 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 04:22:58,254 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-10 04:22:59,493 INFO Swept 19120 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 04:27:57,288 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 04:27:58,340 INFO Swept 19125 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 04:33:01,293 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 04:33:02,374 INFO Swept 19123 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 04:38:05,381 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 04:38:06,768 INFO Swept 19120 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 04:43:09,144 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 04:43:10,208 INFO Swept 19116 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 04:48:12,691 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 04:48:13,762 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV10UCINAU-NAU at $0.4300 x2 (1 already bid at that price)
+2026-11-10 04:48:13,763 INFO Resting NO bid on KXNCAAWBGAME-26NOV10UCINAU-NAU at $0.43 x2 (KXNCAAWBGAME-26NOV10UCINAU): locks in $0.11 if it fills; hedge NO UCI@0.4900
+2026-11-10 04:48:13,875 INFO Swept 19119 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 04:53:17,144 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 04:53:18,422 INFO PAPER rest NO bid KXFRAPLWGAME-26NOV14OLSTM-TIE at $0.2900 x2 (0 already bid at that price)
+2026-11-10 04:53:18,422 INFO Resting NO bid on KXFRAPLWGAME-26NOV14OLSTM-TIE at $0.2900 x2 (KXFRAPLWGAME-26NOV14OLSTM): locks in $1.30 if it fills; hedge NO OL@0.0900, STM@0.9500
+2026-11-10 04:53:18,530 INFO Swept 19110 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-10 04:55:34,641 INFO Quote KXNCAAWBGAME-26NOV10UCINAU cancelled (0/2 filled)
