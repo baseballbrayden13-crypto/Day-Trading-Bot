@@ -2,5 +2,44 @@
  "realized": "0",
  "open": [],
  "closed": [],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAWBGAME-26NOV11USAFAU",
+   "series": "KXNCAAWBGAME",
+   "title": "South Alabama vs Florida Atlantic",
+   "ticker": "KXNCAAWBGAME-26NOV11USAFAU-USA",
+   "order_id": "paper-1-1794283245",
+   "price": "0.6100",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.7100",
+   "multiplier": "1",
+   "placed": 1794283245.451087,
+   "hedge": [
+    {
+     "ticker": "KXNCAAWBGAME-26NOV11USAFAU-FAU",
+     "limit": "0.3100"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAWBGAME-26NOV10UTAWYO",
+   "series": "KXNCAAWBGAME",
+   "title": "UT Arlington vs Wyoming",
+   "ticker": "KXNCAAWBGAME-26NOV10UTAWYO-WYO",
+   "order_id": "paper-2-1794284151",
+   "price": "0.54",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.7700",
+   "multiplier": "1",
+   "placed": 1794284151.223789,
+   "hedge": [
+    {
+     "ticker": "KXNCAAWBGAME-26NOV10UTAWYO-UTA",
+     "limit": "0.3900"
+    }
+   ]
+  }
+ ]
 }

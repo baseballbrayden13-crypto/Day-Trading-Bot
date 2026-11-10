@@ -5,3 +5,13 @@
 2026-11-09 22:40:42,500 INFO Swept 19268 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-09 22:45:43,560 INFO Swept 19250 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-09 22:50:44,990 INFO Swept 19227 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 22:55:45,567 INFO Swept 19202 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 23:00:45,450 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV11USAFAU-USA at $0.6100 x5 (0 already bid at that price)
+2026-11-09 23:00:45,451 INFO Resting NO bid on KXNCAAWBGAME-26NOV11USAFAU-USA at $0.6100 x5 (KXNCAAWBGAME-26NOV11USAFAU): locks in $0.29 if it fills; hedge NO FAU@0.3100
+2026-11-09 23:00:45,453 INFO Swept 19180 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 23:05:47,088 INFO Swept 19163 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 23:10:47,813 INFO Swept 19169 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 23:15:51,223 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV10UTAWYO-WYO at $0.5400 x5 (7 already bid at that price)
+2026-11-09 23:15:51,223 INFO Resting NO bid on KXNCAAWBGAME-26NOV10UTAWYO-WYO at $0.54 x5 (KXNCAAWBGAME-26NOV10UTAWYO): locks in $0.23 if it fills; hedge NO UTA@0.3900
+2026-11-09 23:15:51,264 INFO Swept 19175 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-09 23:20:51,806 INFO Swept 19167 events: 0 taker trades, 0 new quotes, 2 resting
