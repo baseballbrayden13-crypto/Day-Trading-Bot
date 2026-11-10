@@ -5,7 +5,8 @@ from its sleeve's value (its cash plus its own shares at today's price) and only
 so it can never spend another bot's money or sell another bot's stocks. The bots on one account must trade
 different symbols (checked at start).
 
-Set on the account's run as SLEEVES="2=5000,5=5000" (bot=starting dollars). A sleeve that doesn't exist yet
+Set on the account's run as SLEEVES="2=5000,5=5000" (bot=starting dollars), and SLEEVES_FILE when a second
+shared account needs its own ledger (bots 3 and 6 use sleeves_kts7.json). A sleeve that doesn't exist yet
 is opened with that amount; if the account already holds some of that bot's symbols (bot 2 before sleeves
 existed), they become the sleeve's shares and its cash is what's left of the amount.
 """
@@ -17,7 +18,11 @@ import os
 import time
 from pathlib import Path
 
-LEDGER = Path("sleeves.json")
+LEDGER = Path("sleeves.json")  # the default ledger (account ...8T7Y); SLEEVES_FILE picks another
+
+
+def ledger_path() -> Path:
+    return Path(os.getenv("SLEEVES_FILE", "") or LEDGER)
 log = logging.getLogger("sleeves")
 
 
@@ -32,14 +37,16 @@ def budgets(spec: str | None = None) -> dict[str, float]:
     return out
 
 
-def load(path: Path = LEDGER) -> dict:
+def load(path: Path | None = None) -> dict:
+    path = path or ledger_path()
     try:
         return json.loads(path.read_text())
     except (OSError, ValueError):
         return {}
 
 
-def save(ledger: dict, path: Path = LEDGER) -> None:
+def save(ledger: dict, path: Path | None = None) -> None:
+    path = path or ledger_path()
     path.write_text(json.dumps(ledger, indent=1, sort_keys=True))
 
 

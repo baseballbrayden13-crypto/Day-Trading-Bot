@@ -562,3 +562,28 @@ def test_crypto_shadow_csv(tmp_path, monkeypatch):
     cs.write_csv("2026-11-10", st, 34, "hold")
     cs.write_csv("2026-11-10", st, 35, "hold")  # same day: replaced, not added
     assert (tmp_path / "s.csv").read_text().splitlines() == ["day,equity,holding,fear_greed,action", "2026-11-10,5000.00,cash,35,hold"]
+
+
+def test_trend_bot_picks_and_plans():
+    import pandas as pd
+
+    from bot.trend_live import pick, plan
+
+    up = pd.Series(range(1, 251), dtype=float)
+    assert pick(up, 200, "QQQ", "BIL") == "QQQ"
+    assert pick(up[::-1].reset_index(drop=True), 200, "QQQ", "BIL") == "BIL"
+    assert pick(up[:100], 200, "QQQ", "BIL") is None
+    assert plan("QQQ", {}) == ([], True)
+    assert plan("QQQ", {"QQQ": 3.5}) == ([], False)
+    assert plan("BIL", {"QQQ": 3.5}) == (["QQQ"], True)
+
+
+def test_sleeves_file_env(tmp_path, monkeypatch):
+    from bot import sleeves
+
+    monkeypatch.setenv("SLEEVES_FILE", str(tmp_path / "sleeves_kts7.json"))
+    sleeves.save({"6": {"cash": 2500, "shares": {}}})
+    assert (tmp_path / "sleeves_kts7.json").exists()
+    assert sleeves.load()["6"]["cash"] == 2500
+    monkeypatch.delenv("SLEEVES_FILE")
+    assert sleeves.ledger_path().name == "sleeves.json"

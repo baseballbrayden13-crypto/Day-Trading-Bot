@@ -170,10 +170,10 @@ def apply_sleeve(out: dict, bot: Bot) -> None:
     new bot shows its starting money."""
     if "account" in out:
         out["account"]["shared"] = True
-    ledger = _json(bot.path("sleeves.json")) or {}
+    ledger = _json(bot.path(bot.sleeve_file)) or {}
     book = ledger.get(bot.sleeve) if isinstance(ledger, dict) else None
     if book is None:
-        if bot.num != 2:
+        if bot.num != 2 and "account" in out:  # no account data (e.g. bad keys): don't invent a balance
             out["account"] = {**out.get("account", {}), "equity": bot.start_equity, "last_equity": 0, "cash": bot.start_equity}
             out["positions"], out["orders"], out["equity_history"] = [], [], []
         return
