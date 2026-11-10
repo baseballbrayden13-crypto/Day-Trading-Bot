@@ -6792,3 +6792,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 20:31:55,999 INFO Swept 19307 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-09 20:36:59,462 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 20:37:00,536 INFO Swept 19295 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 20:42:03,472 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 20:42:04,583 INFO Swept 19294 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 20:47:08,497 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 20:47:09,616 INFO Swept 19293 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 20:52:08,263 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 20:52:09,412 INFO PAPER rest NO bid KXCONCACAFNLGAME-26NOV13GTMCAN-TIE at $0.6400 x2 (0 already bid at that price)
+2026-11-09 20:52:09,412 INFO Resting NO bid on KXCONCACAFNLGAME-26NOV13GTMCAN-TIE at $0.64 x2 (KXCONCACAFNLGAME-26NOV13GTMCAN): locks in $0.10 if it fills; hedge NO GTM@0.7500, CAN@0.5200
+2026-11-09 20:52:09,496 INFO Swept 19290 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 20:53:36,359 INFO Quote KXCONCACAFNLGAME-26NOV13GTMCAN cancelled (0/2 filled)
+2026-11-09 20:57:09,323 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 20:57:10,425 INFO Swept 19284 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 21:02:12,783 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 21:02:13,908 INFO Swept 19282 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 21:07:16,900 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 21:07:18,071 INFO Swept 19283 events: 0 taker trades, 0 new quotes, 0 resting
