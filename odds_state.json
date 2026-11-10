@@ -1,9 +1,57 @@
 {
- "open": [],
- "seen": {},
+ "open": [
+  {
+   "kind": "value",
+   "game": "Tenn-Martin Skyhawks at Arkansas St Red Wolves",
+   "game_id": "c01b327672b44187cac6e56917b0784a",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-11T01:00:00Z",
+   "edge": 0.0516,
+   "home": "Arkansas St Red Wolves",
+   "away": "Tenn-Martin Skyhawks",
+   "legs": [
+    {
+     "team": "Tenn-Martin Skyhawks",
+     "book": "DraftKings",
+     "odds": 3.8,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-10T03:30:49+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Tenn-Martin Skyhawks at Arkansas St Red Wolves",
+   "game_id": "c01b327672b44187cac6e56917b0784a",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-11T01:00:00Z",
+   "edge": 0.0516,
+   "home": "Arkansas St Red Wolves",
+   "away": "Tenn-Martin Skyhawks",
+   "legs": [
+    {
+     "team": "Tenn-Martin Skyhawks",
+     "book": "Bovada",
+     "odds": 3.8,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-10T03:30:49+00:00"
+  }
+ ],
+ "seen": {
+  "value|c01b327672b44187cac6e56917b0784a|Tenn-Martin Skyhawks|DraftKings": "2026-11-10T03:30:49.213095+00:00",
+  "value|c01b327672b44187cac6e56917b0784a|Tenn-Martin Skyhawks|Bovada": "2026-11-10T03:30:49.213095+00:00"
+ },
  "credits": {
   "day": "2026-11-09",
-  "spent": 8,
-  "remaining": 482
+  "spent": 12,
+  "remaining": 478
+ },
+ "last_priced": {
+  "basketball_nba": "2026-11-10T03:30:49.213095+00:00",
+  "icehockey_nhl": "2026-11-10T03:30:49.213095+00:00",
+  "americanfootball_ncaaf": "2026-11-10T03:30:49.213095+00:00",
+  "basketball_ncaab": "2026-11-10T03:30:49.213095+00:00"
  }
 }

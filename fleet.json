@@ -25,5 +25,10 @@
     "runs_on": "cloud",
     "home": ".",
     "optional": false
+  },
+  "4f": {
+    "runs_on": "cloud",
+    "home": ".",
+    "optional": false
   }
 }
