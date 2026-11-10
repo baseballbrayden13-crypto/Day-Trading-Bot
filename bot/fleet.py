@@ -122,6 +122,12 @@ FLEET: list[Bot] = [
         err_log="kalshi_maker_paper_wide_err.log", start_equity=20.0, max_drawdown_pct=10.0, max_day_loss_pct=10.0,
         min_profit_factor=0, min_trades=0,
         notes="Looser maker copy (10 quotes, $5 each) plus a taker scan and one pretend 'safest' bet a day, pretend $20. Runs on GitHub."),
+    Bot(9, "Kalshi cushion test", "kalshi", ".env.kalshi", "", "kalshi_maker_paper_cushion.log", label="4f", home="../kalshi-maker-paper",
+        days="daily", runs_at="00:00", task="Trading bot 4f (Kalshi cushion test, paper)", always_on=True, stale_minutes=30, optional=True,
+        runs=(("maker_paper", "kalshi_data_maker_paper_cushion", "kalshi_maker_paper_cushion_state.json", "kalshi_maker_paper_cushion.log"),),
+        err_log="kalshi_maker_paper_cushion_err.log", start_equity=20.0, max_drawdown_pct=10.0, max_day_loss_pct=10.0,
+        min_profit_factor=0, min_trades=0,
+        notes="Side-by-side copy of 4e that only takes bets locking in $0.20+ (4e takes $0.10+), no safest bet, pretend $20. Runs on GitHub."),
     Bot(8, "Dip buyer", "alpaca", ".env.rotation", "8T7Y", "dipbuy.log", label="5", days="weekdays", runs_at="09:50",
         task="Trading bot 5 (dip buyer, paper)", runs_on="cloud", sleeve="5", bt_yearly=0.065, start_equity=2450.0,
         # 2018-2026 unseen: +6.5%/yr, worst drop -14%, PF 1.31, ~100 trades a year (5 bps a side).
