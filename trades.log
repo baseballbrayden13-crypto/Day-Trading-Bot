@@ -94,3 +94,4 @@
 2026-11-10 13:19:18,933 INFO Picked up today's counters: start equity $4981.30, 0 trades
 2026-11-10 13:19:21,465 INFO Event-day skips ON (-9 new earnings dates). Today: none
 2026-11-10 13:19:21,466 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA, TSLA on 5-min bars. Ctrl+C to stop.
+2026-11-10 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca.
