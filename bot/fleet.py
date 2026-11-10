@@ -93,7 +93,7 @@ FLEET: list[Bot] = [
         task="Trading bot (paper)", always_on=True, bt_yearly=0.038,  # ~$190 on $5,000 in the unseen year
         # Tuned ORB, 3 years: worst drop 2.6%, out-of-sample PF 1.22. Risk halt at -2% a day.
         max_drawdown_pct=3.1, max_day_loss_pct=2.0, min_profit_factor=1.0, min_trades=30, max_position_share=0.25,
-        symbols=("SPY", "QQQ", "AAPL", "MSFT", "NVDA", "TSLA"),  # TSLA added Nov 10 (C-057): 3-year worst drop -3.1%
+        symbols=("SPY", "QQQ", "AAPL", "MSFT", "NVDA", "TSLA"),  # TSLA added Nov 10 (C-058): 3-year worst drop -3.1%
         notes="Flat by 3:50pm every day; any position after the close is a problem."),
     Bot(2, "ETF rotation", "alpaca", ".env.rotation", "8T7Y", "rotation.log", days="weekdays", runs_at="09:50",
         task="Trading bot 2", bt_yearly=0.096, start_equity=round(5000 * 2450 / 4846.61, 2),  # $5,000 before the split

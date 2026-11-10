@@ -101,7 +101,7 @@ jobs:
           SKIP_EVENT_DAYS: "true"  # sit out jobs Fridays + earnings days (C-046)
           ENTRY_LIMIT_BPS: "5"
           # Nov 10 3-year test: adding TSLA made $655 vs $436 (first 2 years) and $197 vs $157 (unseen year),
-          # profit factor about the same, worst drop -3.1% vs -2.5% (C-057). Undo: delete this line.
+          # profit factor about the same, worst drop -3.1% vs -2.5% (C-058). Undo: delete this line.
           SYMBOLS: "SPY,QQQ,AAPL,MSFT,NVDA,TSLA"
         run: |
           test -s .env || { echo "No BOT1_ENV secret yet: run 'Copy keys to GitHub.bat' on the PC."; exit 1; }
