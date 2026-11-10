@@ -7118,3 +7118,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-10 11:20:53,398 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-10 11:20:54,489 INFO Swept 19309 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-10 11:21:20,195 INFO Quote KXKHLGAME-26NOV100900SHATRA cancelled (0/2 filled)
+2026-11-10 11:25:59,142 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 11:26:00,243 INFO Swept 19302 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 11:30:57,661 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 11:30:58,767 INFO Swept 19298 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 11:35:59,914 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 11:36:01,073 INFO Swept 19306 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 11:41:02,398 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 11:41:03,561 INFO Swept 19304 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 11:46:04,601 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 11:46:06,060 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV101200POBSMY-POB at $0.3000 x2 (0 already bid at that price)
+2026-11-10 11:46:06,061 INFO Resting NO bid on KXLIGAPROMATCH-26NOV101200POBSMY-POB at $0.3000 x2 (KXLIGAPROMATCH-26NOV101200POBSMY): locks in $0.19 if it fills; hedge NO SMY@0.5800
+2026-11-10 11:46:06,097 INFO Swept 19304 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 11:51:05,013 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 11:51:06,205 INFO Swept 19300 events: 0 taker trades, 0 new quotes, 1 resting
