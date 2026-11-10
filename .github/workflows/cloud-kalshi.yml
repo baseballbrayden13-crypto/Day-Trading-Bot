@@ -84,6 +84,7 @@ jobs:
           KALSHI_MIN_VOLUME: "25"
           KALSHI_MAX_PER_QUOTE: "5"
           KALSHI_CATEGORIES: "Sports,Esports"
+          KALSHI_FAIR: "on"  # skip quotes the sportsbooks say are overpriced (odds finder); same on 4e and 4f
           KALSHI_SAFEST: "on"
         run: |
           end=$(( $(date +%s) + ${{ inputs.minutes || 345 }} * 60 ))
@@ -122,6 +123,7 @@ jobs:
           KALSHI_MIN_VOLUME: "25"
           KALSHI_MAX_PER_QUOTE: "5"
           KALSHI_CATEGORIES: "Sports,Esports"
+          KALSHI_FAIR: "on"  # skip quotes the sportsbooks say are overpriced (odds finder); same on 4e and 4f
         run: |
           end=$(( $(date +%s) + ${{ inputs.minutes || 345 }} * 60 ))
           (while sleep 1800; do bash ../code/cloud/save_state.sh "kalshi 4f checkpoint" || true; done) &

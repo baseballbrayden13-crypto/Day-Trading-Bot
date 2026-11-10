@@ -183,3 +183,16 @@ def test_quiet_hours_and_gap_save_credits():
     assert api.odds_calls == 1  # priced an hour ago: wait
     of.scan(api, cfg, state, NOW + timedelta(hours=2.6), kalshi=lambda s: [])
     assert api.odds_calls == 2
+
+
+def test_kalshi_fair_prices_written_for_matched_games(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    ev = {"event_ticker": "KXNFLGAME-26NOV09BUFMIA", "markets": [
+        {"ticker": "T-BUF", "yes_sub_title": "Buffalo", "yes_ask_dollars": "0.62"},
+        {"ticker": "T-MIA", "yes_sub_title": "Miami", "yes_ask_dollars": "0.39"}]}
+    _, stats = of.scan(FakeAPI([game(FAIR)]), CFG, {"open": [], "seen": {}, "credits": {}}, NOW, kalshi=lambda s: [ev])
+    of.write_kalshi_fair(stats.pop("kalshi_fair"), NOW)
+    prices = __import__("json").loads((tmp_path / "odds_data" / "kalshi_fair.json").read_text())["prices"]
+    assert prices["T-BUF"]["fair_yes"] + prices["T-MIA"]["fair_yes"] == pytest.approx(1, abs=1e-3)
+    of.write_kalshi_fair({}, NOW + timedelta(hours=4))  # game started: dropped
+    assert __import__("json").loads((tmp_path / "odds_data" / "kalshi_fair.json").read_text())["prices"] == {}
