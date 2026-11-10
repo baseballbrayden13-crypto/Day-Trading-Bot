@@ -552,3 +552,13 @@ def test_crypto_shadow_book():
     assert "BTC/USD" not in st["coins"] and st["history"][-1][2] == "ETH/USD"
     assert cs.greed_rising(pd.Series([10] * 29 + [50]))
     assert not cs.greed_rising(pd.Series([50] * 30))
+
+
+def test_crypto_shadow_csv(tmp_path, monkeypatch):
+    from bot import crypto_shadow as cs
+
+    monkeypatch.setattr(cs, "CSV", tmp_path / "s.csv")
+    st = {"history": [["2026-11-10", 5000.0, "cash"]]}
+    cs.write_csv("2026-11-10", st, 34, "hold")
+    cs.write_csv("2026-11-10", st, 35, "hold")  # same day: replaced, not added
+    assert (tmp_path / "s.csv").read_text().splitlines() == ["day,equity,holding,fear_greed,action", "2026-11-10,5000.00,cash,35,hold"]
