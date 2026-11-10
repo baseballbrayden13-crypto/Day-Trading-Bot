@@ -92,7 +92,7 @@ jobs:
         if: always() && contains(fromJSON('["bot2","all"]'), steps.pick.outputs.what)
         working-directory: state
         env:
-          # Bots 3 and 6 share account ...KTS7 (bot.sleeves): $2,500 each of the $5,000 account (C-048).
+          # Bots 3 and 6 share account ...KTS7 (bot.sleeves): $2,500 each of the $5,000 account (C-055).
           # Undo: delete this step and the two SLEEVES lines on bot 3; bot 3 goes back to the whole account.
           SLEEVES: "3=2500,6=2500"
           SLEEVES_FILE: sleeves_kts7.json

@@ -86,7 +86,7 @@ DIP_SYMBOLS = ("AAPL,MSFT,NVDA,AMZN,GOOGL,META,TSLA,JPM,V,UNH,HD,PG,JNJ,XOM,COST
                "ABBV,ORCL,CSCO,ADBE,CRM,AMD,NFLX,INTC,DIS,MCD,NKE,QCOM,TXN,HON,IBM")  # bot 5 (bot.dipbuy_live)
 ROTATION_ETFS = ("SPY", "QQQ", "IWM", "EFA", "EEM", "XLK", "XLF", "XLE", "XLV", "XLI", "XLY", "XLP", "XLU", "GLD", "TLT")
 
-KTS7_SLEEVES = "sleeves_kts7.json"  # bots 3 and 6 share account ...KTS7 (C-048)
+KTS7_SLEEVES = "sleeves_kts7.json"  # bots 3 and 6 share account ...KTS7 (C-055)
 
 FLEET: list[Bot] = [
     Bot(1, "ORB day trader", "alpaca", ".env", "QIE2", "trades.log", days="weekdays", runs_at="09:20",
