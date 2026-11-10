@@ -8,10 +8,9 @@ name: Cloud odds finder (alerts + pretend bets)
 
 on:
   schedule:
-    - cron: "5 15 * * *"   # 10:05am EST
-    - cron: "35 17 * * *"  # 12:35pm EST (before Sunday's 1pm NFL games)
-    - cron: "5 21 * * *"   # 4:05pm EST
-    - cron: "5 0 * * *"    # 7:05pm EST
+    # Hourly: GitHub often runs crons hours late or skips them, so the bot itself decides when to spend
+    # credits (each sport re-priced at most every 2.5h, nothing 1am-8am ET, daily credit allowance).
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       args:
