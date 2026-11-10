@@ -69,6 +69,8 @@ def settings() -> dict:
         "min_books": int(os.getenv("ODDS_MIN_BOOKS", "4")),
         "max_odds": float(os.getenv("ODDS_MAX_ODDS", "5.0")),  # long shots: the fair price is too noisy to trust
         "hours": float(os.getenv("ODDS_HOURS", "36")),  # only games starting this soon
+        "gap": float(os.getenv("ODDS_GAP_HOURS", "2.5")),  # re-price a sport at most this often (GitHub's cron runs hourly)
+        "quiet": os.getenv("ODDS_QUIET", "1-8"),  # ET hours with no pricing (lines barely move overnight); "off" = none
         "stake": float(os.getenv("ODDS_STAKE", "10")),
         "monthly": int(os.getenv("ODDS_MONTHLY_CREDITS", "500")),
         "ntfy": os.getenv("NTFY_TOPIC", "").strip(),
@@ -340,7 +342,7 @@ def find_key(f: dict) -> str:
 
 
 def open_bets(finds: list[dict], state: dict, stake: float, now: datetime) -> list[dict]:
-    """New finds become pretend bets (each game/side/book only once)."""
+    """New finds become pretend bets (each game/side/book only once). Returns the new finds."""
     new = []
     for f in finds:
         k = find_key(f)
@@ -353,7 +355,7 @@ def open_bets(finds: list[dict], state: dict, stake: float, now: datetime) -> li
                "home": f["game"].split(" at ")[1], "away": f["game"].split(" at ")[0], "legs": legs,
                "opened": now.isoformat(timespec="seconds")}
         state["open"].append(bet)
-        new.append(bet)
+        new.append(f)
     return new
 
 
@@ -457,6 +459,14 @@ def describe(f: dict) -> str:
 
 # ---------- one scan ----------
 
+def quiet(now: datetime, span: str) -> bool:
+    if not span or span.lower() == "off":
+        return False
+    start, end = (int(x) for x in span.split("-"))
+    h = now.astimezone(ET).hour
+    return (h >= start or h < end) if start > end else start <= h < end
+
+
 def scan(api: OddsAPI, cfg: dict, state: dict, now: datetime, kalshi=kalshi_events) -> tuple[list[dict], dict]:
     """Price the sports with games soon, within today's credit allowance. Returns (finds, scan stats)."""
     credits = state["credits"]
@@ -466,7 +476,13 @@ def scan(api: OddsAPI, cfg: dict, state: dict, now: datetime, kalshi=kalshi_even
     allowance = daily_allowance(credits.get("remaining"), now.astimezone(ET), cfg["monthly"])
     soon = now + timedelta(hours=cfg["hours"])
     finds, stats = [], {"sports": [], "games": 0, "kalshi_matched": 0, "skipped": []}
+    if quiet(now, cfg.get("quiet", "off")):
+        stats.update(note="quiet hours", credits_left=credits.get("remaining"), spent_today=credits["spent"], allowance=allowance)
+        return finds, stats
+    last = state.setdefault("last_priced", {})
     for sport in cfg["sports"]:
+        if sport in last and now - datetime.fromisoformat(last[sport]) < timedelta(hours=cfg.get("gap", 0)):
+            continue
         try:
             upcoming = [e for e in api.events(sport)
                         if now < datetime.fromisoformat(e["commence_time"].replace("Z", "+00:00")) < soon]
@@ -482,6 +498,7 @@ def scan(api: OddsAPI, cfg: dict, state: dict, now: datetime, kalshi=kalshi_even
         games = api.odds(sport)
         credits["spent"] += max(api.spent - before, 1)
         credits["remaining"] = api.remaining
+        last[sport] = now.isoformat()
         series = SPORTS.get(sport, (None,))[0]
         k_events = kalshi(series) if series else []
         stats["sports"].append(sport)
@@ -556,7 +573,10 @@ def main() -> None:
                 {**f, "time": now.isoformat(timespec="seconds"),
                  "picks": "; ".join(f"{l['team']} @ {l['book']} {l['odds']} ${l['stake']}" for l in f.get("legs", []))}
                 for f in new])
-            alert(cfg, new)
+            try:
+                alert(cfg, new)
+            except Exception as e:  # an alert problem must never lose the scan's pretend bets
+                log.warning("alert failed: %s", e)
             log.info("Scanned %s: %d games, %d with Kalshi, %d new finds. Credits left %s (today %s of %s).",
                      ", ".join(stats["sports"]) or "nothing", stats["games"], stats["kalshi_matched"], len(new),
                      stats["credits_left"], stats["spent_today"], stats["allowance"])

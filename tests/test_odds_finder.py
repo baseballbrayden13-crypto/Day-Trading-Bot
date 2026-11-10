@@ -155,3 +155,31 @@ def test_scan_skips_sports_with_no_games_soon_and_respects_the_allowance():
     state["credits"]["spent"] = 0
     finds, stats = of.scan(api, CFG, state, NOW, kalshi=lambda s: [])
     assert api.odds_calls == 1 and [f["kind"] for f in finds] == ["value", "arb"] and state["credits"]["remaining"] == 99
+
+
+def test_new_finds_can_be_described_and_alerted(tmp_path, monkeypatch):
+    # Nov 9 crash: alert() was handed the pretend bets instead of the finds (KeyError 'team')
+    monkeypatch.chdir(tmp_path)
+    g = game({**FAIR, "Soft": (2.9, 1.40)})
+    finds, _ = of.scan(FakeAPI([g]), CFG, {"open": [], "seen": {}, "credits": {}}, NOW, kalshi=lambda s: [])
+    state = {"open": [], "seen": {}, "credits": {}}
+    new = of.open_bets(finds, state, 10, NOW)
+    assert {f["kind"] for f in new} == {"value", "arb"} and len(state["open"]) == 2
+    assert all(of.describe(f) for f in new)
+    of.alert(CFG, new)
+    assert "Odds finder" in (tmp_path / "fleet_data" / "alerts.csv").read_text()
+
+
+def test_quiet_hours_and_gap_save_credits():
+    g = game({**FAIR, "Soft": (2.9, 1.40)})
+    cfg = {**CFG, "gap": 2.5, "quiet": "1-8"}
+    api = FakeAPI([g])
+    night = datetime(2026, 11, 9, 8, 0, tzinfo=timezone.utc)  # 3am ET
+    of.scan(api, cfg, {"open": [], "seen": {}, "credits": {}}, night, kalshi=lambda s: [])
+    assert api.odds_calls == 0
+    state = {"open": [], "seen": {}, "credits": {}}
+    of.scan(api, cfg, state, NOW, kalshi=lambda s: [])
+    of.scan(api, cfg, state, NOW + timedelta(hours=1), kalshi=lambda s: [])
+    assert api.odds_calls == 1  # priced an hour ago: wait
+    of.scan(api, cfg, state, NOW + timedelta(hours=2.6), kalshi=lambda s: [])
+    assert api.odds_calls == 2
