@@ -187,3 +187,12 @@
 2026-11-10 12:12:56,452 INFO Swept 19326 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 12:18:01,086 INFO Swept 19358 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 12:23:05,335 INFO Swept 19352 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 12:28:09,715 INFO Swept 19354 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 12:33:14,495 INFO PAPER rest NO bid KXUEFANLFTTS-26NOV12TURBEL-NONE at $0.1100 x3 (0 already bid at that price)
+2026-11-10 12:33:14,495 INFO Resting NO bid on KXUEFANLFTTS-26NOV12TURBEL-NONE at $0.1100 x3 (KXUEFANLFTTS-26NOV12TURBEL): locks in $2.25 if it fills; hedge NO TUR@0.6500, BEL@0.4500
+2026-11-10 12:33:14,496 INFO Swept 19346 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 12:35:31,302 INFO Quote KXUEFANLFTTS-26NOV12TURBEL cancelled (0/3 filled)
+2026-11-10 12:38:15,497 INFO Swept 19342 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 12:43:20,305 INFO Swept 19339 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 12:48:25,117 INFO Swept 19344 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 12:53:28,721 INFO Swept 19336 events: 0 taker trades, 0 new quotes, 0 resting
