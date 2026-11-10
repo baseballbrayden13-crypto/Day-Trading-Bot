@@ -83,3 +83,11 @@
 2026-11-10 04:26:41,328 INFO Swept 19123 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 04:31:43,860 INFO Swept 19123 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 04:36:46,971 INFO Swept 19124 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 04:41:50,284 INFO Swept 19120 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 04:46:52,589 INFO Swept 19119 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 04:51:54,562 INFO Swept 19118 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 04:56:57,846 INFO PAPER rest NO bid KXFRAPLWGAME-26NOV14OLSTM-TIE at $0.3100 x3 (0 already bid at that price)
+2026-11-10 04:56:57,847 INFO Resting NO bid on KXFRAPLWGAME-26NOV14OLSTM-TIE at $0.3100 x3 (KXFRAPLWGAME-26NOV14OLSTM): locks in $1.90 if it fills; hedge NO OL@0.0900, STM@0.9500
+2026-11-10 04:56:57,847 INFO Swept 19117 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 05:01:59,762 INFO Swept 19120 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 05:07:01,010 INFO Swept 19123 events: 0 taker trades, 0 new quotes, 1 resting

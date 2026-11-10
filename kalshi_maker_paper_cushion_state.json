@@ -2,5 +2,29 @@
  "realized": "0",
  "open": [],
  "closed": [],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXFRAPLWGAME-26NOV14OLSTM",
+   "series": "KXFRAPLWGAME",
+   "title": "Lyon vs Saint Malo",
+   "ticker": "KXFRAPLWGAME-26NOV14OLSTM-TIE",
+   "order_id": "paper-4-1794304617",
+   "price": "0.3100",
+   "sets": 3,
+   "done": 0,
+   "reserve": "4.1000",
+   "multiplier": "1",
+   "placed": 1794304617.847089,
+   "hedge": [
+    {
+     "ticker": "KXFRAPLWGAME-26NOV14OLSTM-OL",
+     "limit": "0.0900"
+    },
+    {
+     "ticker": "KXFRAPLWGAME-26NOV14OLSTM-STM",
+     "limit": "0.9500"
+    }
+   ]
+  }
+ ]
 }
