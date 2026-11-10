@@ -2434,21 +2434,21 @@
  ],
  "quotes": [
   {
-   "event": "KXR6MAP-26NOV100130G2GEE-1",
-   "series": "KXR6MAP",
-   "title": "G2 Esports vs. Geekay Esports: Map 1 Winner",
-   "ticker": "KXR6MAP-26NOV100130G2GEE-1-GEE",
-   "order_id": "paper-916-1794285199",
-   "price": "0.3300",
-   "sets": 2,
+   "event": "KXNCAAWBGAME-26NOV11MSMLEH",
+   "series": "KXNCAAWBGAME",
+   "title": "Mount St. Mary's vs Lehigh",
+   "ticker": "KXNCAAWBGAME-26NOV11MSMLEH-MSM",
+   "order_id": "paper-917-1794286101",
+   "price": "0.6100",
+   "sets": 4,
    "done": 0,
-   "reserve": "1.8400",
+   "reserve": "3.1000",
    "multiplier": "1",
-   "placed": 1794285199.7229757,
+   "placed": 1794286101.9321237,
    "hedge": [
     {
-     "ticker": "KXR6MAP-26NOV100130G2GEE-1-G2",
-     "limit": "0.5900"
+     "ticker": "KXNCAAWBGAME-26NOV11MSMLEH-LEH",
+     "limit": "0.1500"
     }
    ]
   }
