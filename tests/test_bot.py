@@ -514,3 +514,27 @@ def test_bots_2_and_3_refuse_bot_1s_account(tmp_path, monkeypatch):
     with pytest.raises(SystemExit, match="bot 1's account"):
         ensure_own_account(NS(account_number=lambda: "PA3BXI0"), saved)
     assert ensure_own_account(NS(account_number=lambda: "PA9NEW1"), saved) == "PA9NEW1"
+
+
+# --- event-day skips (bot.events) ---
+def test_event_days(tmp_path, monkeypatch):
+    from datetime import date, datetime as dt
+
+    from bot import events
+    from bot.config import Settings
+    from bot.risk import RiskManager
+
+    f = tmp_path / "earnings.csv"
+    f.write_text("symbol,when\nAAPL,2026-10-29 16:00\nMSFT,2026-10-28 07:00\n")
+    monkeypatch.setattr(events, "EARNINGS_FILE", f)
+    assert events.skip_reason("AAPL", date(2026, 10, 30)) == "AAPL earnings day"  # after the close -> next day
+    assert events.skip_reason("AAPL", date(2026, 10, 29)) == ""
+    assert events.skip_reason("MSFT", date(2026, 10, 28)) == "MSFT earnings day"  # before the open -> same day
+    assert events.skip_reason("SPY", date(2026, 11, 6)) == "jobs-report Friday"
+    assert events.skip_reason("SPY", date(2026, 11, 13)) == ""
+    import dataclasses
+    on = RiskManager(dataclasses.replace(Settings(), skip_event_days=True))
+    off = RiskManager(dataclasses.replace(Settings(), skip_event_days=False))
+    t = dt(2026, 10, 30, 10, 30)
+    assert on.can_enter("AAPL", t) == (False, "AAPL earnings day")
+    assert off.can_enter("AAPL", t)[0]
