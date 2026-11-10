@@ -149,3 +149,12 @@
 2026-11-10 09:49:15,272 INFO Swept 19042 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 09:54:19,737 INFO Swept 19031 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 09:54:54,742 INFO Stopped; all quotes cancelled.
+2026-11-10 09:55:42,304 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-10 09:57:08,805 INFO Swept 19031 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 10:02:10,274 INFO Swept 19232 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 10:07:11,868 INFO Swept 19238 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 10:12:13,436 INFO Swept 19244 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 10:17:14,404 INFO Swept 19251 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 10:22:15,836 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV12SACBUFF-BUFF at $0.3500 x3 (0 already bid at that price)
+2026-11-10 10:22:15,836 INFO Resting NO bid on KXNCAAWBGAME-26NOV12SACBUFF-BUFF at $0.3500 x3 (KXNCAAWBGAME-26NOV12SACBUFF): locks in $0.67 if it fills; hedge NO SAC@0.4000
+2026-11-10 10:22:15,837 INFO Swept 19260 events: 0 taker trades, 1 new quotes, 1 resting
