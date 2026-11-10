@@ -6895,3 +6895,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-10 00:23:20,450 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-10 00:23:21,671 INFO Swept 19091 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 00:23:46,691 INFO Stopped; all quotes cancelled.
+2026-11-10 00:24:32,188 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-10 00:25:51,054 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 00:25:52,294 INFO Swept 19085 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 00:30:52,030 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 00:30:53,061 INFO Swept 19084 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 00:35:53,719 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 00:35:54,762 INFO Swept 19101 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 00:40:54,625 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 00:40:55,798 INFO Swept 19101 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 00:45:55,515 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 00:45:56,551 INFO Swept 19125 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 00:50:57,159 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 00:50:58,132 INFO Swept 19119 events: 0 taker trades, 0 new quotes, 0 resting
