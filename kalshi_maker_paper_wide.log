@@ -6860,3 +6860,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 23:03:05,091 INFO Swept 19165 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-09 23:08:10,285 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 23:08:11,503 INFO Swept 19162 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 23:13:09,207 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 23:13:10,395 INFO Swept 19165 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 23:18:12,742 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 23:18:13,913 INFO Swept 19172 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 23:23:13,842 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 23:23:15,046 INFO Swept 19166 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 23:28:17,739 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 23:28:19,337 INFO Swept 19141 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 23:33:18,445 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 23:33:19,722 INFO PAPER rest NO bid KXR6MAP-26NOV100130G2GEE-1-GEE at $0.3300 x2 (0 already bid at that price)
+2026-11-09 23:33:19,723 INFO Resting NO bid on KXR6MAP-26NOV100130G2GEE-1-GEE at $0.3300 x2 (KXR6MAP-26NOV100130G2GEE-1): locks in $0.16 if it fills; hedge NO G2@0.5900
+2026-11-09 23:33:19,826 INFO Swept 19111 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 23:38:21,282 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 23:38:22,504 INFO Swept 19089 events: 0 taker trades, 0 new quotes, 1 resting
