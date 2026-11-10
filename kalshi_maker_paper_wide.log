@@ -6807,3 +6807,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-09 21:02:13,908 INFO Swept 19282 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-09 21:07:16,900 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-09 21:07:18,071 INFO Swept 19283 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 21:12:21,456 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 21:12:22,641 INFO PAPER rest NO bid KXCONCACAFNLGAME-26NOV13GTMCAN-TIE at $0.5700 x2 (0 already bid at that price)
+2026-11-09 21:12:22,641 INFO Resting NO bid on KXCONCACAFNLGAME-26NOV13GTMCAN-TIE at $0.5700 x2 (KXCONCACAFNLGAME-26NOV13GTMCAN): locks in $0.22 if it fills; hedge NO GTM@0.7900, CAN@0.4900
+2026-11-09 21:12:22,718 INFO Swept 19318 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-09 21:17:21,971 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 21:17:23,117 INFO Swept 19376 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 21:22:24,708 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 21:22:25,822 INFO Swept 19392 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-09 21:23:32,149 INFO Quote KXCONCACAFNLGAME-26NOV13GTMCAN cancelled (0/2 filled)
+2026-11-09 21:27:24,056 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 21:27:25,201 INFO Swept 19357 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 21:32:26,478 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 21:32:27,633 INFO Swept 19364 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-09 21:37:28,957 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-09 21:37:30,150 INFO Swept 19346 events: 0 taker trades, 0 new quotes, 0 resting
