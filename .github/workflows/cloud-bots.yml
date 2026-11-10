@@ -7,7 +7,7 @@ on:
   schedule:
     - cron: "52 13 * * 1-5"  # bots 2, 5 and 6: 9:52am EDT (8:52am EST: market closed, it waits for the next run)
     - cron: "52 14 * * 1-5"  # bot 2: 9:52am EST / 10:52am EDT (rebalances only once a month either way)
-    - cron: "30 15 * * 1-5"  # backup for bots 2, 5 and 6 (GitHub dropped both morning crons on Nov 10, C-059); each runs once a day
+    - cron: "30 15 * * 1-5"  # backup for bots 2, 5 and 6 (GitHub dropped both morning crons on Nov 10, C-060); each runs once a day
     - cron: "20 0 * * *"     # bot 3 at ~8:20pm EDT / 7:20pm EST (after the UTC daily bar), then Scout + Medic
   workflow_dispatch:
     inputs:
