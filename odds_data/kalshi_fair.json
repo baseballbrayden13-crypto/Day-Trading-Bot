@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T03:42:17+00:00",
+ "updated": "2026-11-10T12:45:09+00:00",
  "prices": {
   "KXNBAGAME-26NOV10MILNYK-MIL": {
    "fair_yes": 0.1092,
@@ -107,8 +107,7 @@
     "Oklahoma City Thunder"
    ],
    "pinnacle": true,
-   "updated": "2026-11-10T03:42:17+00:00",
-   "news": "lineup news: Oklahoma City Thunder: Jaylin Williams (Out)"
+   "updated": "2026-11-10T03:42:17+00:00"
   },
   "KXNBAGAME-26NOV10OKCPOR-POR": {
    "fair_yes": 0.4718,
@@ -120,8 +119,7 @@
     "Oklahoma City Thunder"
    ],
    "pinnacle": true,
-   "updated": "2026-11-10T03:42:17+00:00",
-   "news": "lineup news: Oklahoma City Thunder: Jaylin Williams (Out)"
+   "updated": "2026-11-10T03:42:17+00:00"
   },
   "KXNHLGAME-26NOV10COLTOR-TOR": {
    "fair_yes": 0.4134,
@@ -335,30 +333,6 @@
    "teams": [
     "Miami (OH) RedHawks",
     "Ohio Bobcats"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-10T03:42:17+00:00"
-  },
-  "KXNCAAMBGAME-26NOV10PORTHAW-HAW": {
-   "fair_yes": 0.748,
-   "start": "2026-11-10T04:59:00Z",
-   "team": "Hawai'i Rainbow Warriors",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Hawai'i Rainbow Warriors",
-    "Portland Pilots"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-10T03:42:17+00:00"
-  },
-  "KXNCAAMBGAME-26NOV10PORTHAW-PORT": {
-   "fair_yes": 0.252,
-   "start": "2026-11-10T04:59:00Z",
-   "team": "Portland Pilots",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Hawai'i Rainbow Warriors",
-    "Portland Pilots"
    ],
    "pinnacle": true,
    "updated": "2026-11-10T03:42:17+00:00"
