@@ -514,3 +514,41 @@ def test_bots_2_and_3_refuse_bot_1s_account(tmp_path, monkeypatch):
     with pytest.raises(SystemExit, match="bot 1's account"):
         ensure_own_account(NS(account_number=lambda: "PA3BXI0"), saved)
     assert ensure_own_account(NS(account_number=lambda: "PA9NEW1"), saved) == "PA9NEW1"
+
+
+# --- event-day skips (bot.events) ---
+def test_event_days(tmp_path, monkeypatch):
+    from datetime import date, datetime as dt
+
+    from bot import events
+    from bot.config import Settings
+    from bot.risk import RiskManager
+
+    f = tmp_path / "earnings.csv"
+    f.write_text("symbol,when\nAAPL,2026-10-29 16:00\nMSFT,2026-10-28 07:00\n")
+    monkeypatch.setattr(events, "EARNINGS_FILE", f)
+    assert events.skip_reason("AAPL", date(2026, 10, 30)) == "AAPL earnings day"  # after the close -> next day
+    assert events.skip_reason("AAPL", date(2026, 10, 29)) == ""
+    assert events.skip_reason("MSFT", date(2026, 10, 28)) == "MSFT earnings day"  # before the open -> same day
+    assert events.skip_reason("SPY", date(2026, 11, 6)) == "jobs-report Friday"
+    assert events.skip_reason("SPY", date(2026, 11, 13)) == ""
+    import dataclasses
+    on = RiskManager(dataclasses.replace(Settings(), skip_event_days=True))
+    off = RiskManager(dataclasses.replace(Settings(), skip_event_days=False))
+    t = dt(2026, 10, 30, 10, 30)
+    assert on.can_enter("AAPL", t) == (False, "AAPL earnings day")
+    assert off.can_enter("AAPL", t)[0]
+
+
+def test_crypto_shadow_book():
+    import pandas as pd
+
+    from bot import crypto_shadow as cs
+
+    st = {"start": 5000.0, "cash": 5000.0, "coins": {}, "history": []}
+    cs.step(st, {"BTC/USD": 100.0, "ETH/USD": 10.0}, {"BTC/USD", "ETH/USD"}, "2026-11-10")
+    assert abs(st["coins"]["BTC/USD"] - 2500 * (1 - cs.FEE) / 100) < 1e-9 and st["cash"] < 1e-9
+    cs.step(st, {"BTC/USD": 110.0, "ETH/USD": 10.0}, {"ETH/USD"}, "2026-11-11")
+    assert "BTC/USD" not in st["coins"] and st["history"][-1][2] == "ETH/USD"
+    assert cs.greed_rising(pd.Series([10] * 29 + [50]))
+    assert not cs.greed_rising(pd.Series([50] * 30))

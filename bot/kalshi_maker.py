@@ -133,28 +133,150 @@ def is_live(markets: list[dict], now: datetime | None = None) -> bool:
     return False
 
 
+CATEGORIES = ("Sports", "Esports")  # a week of paper (Oct 28-Nov 9): sports net +$1.37, everything else lost
+ESPORTS = ("KXCS2", "KXCOD", "KXLOL", "KXVALORANT", "KXDOTA", "KXEBASKETBALL", "KXR6", "KXOVERWATCH", "KXRL", "KXEFOOTBALL")
+STRAY_LIMIT = 2  # a series whose hedges missed this many times in STRAY_DAYS gets no new quotes
+STRAY_DAYS = 7
+
+
+def is_esports(e: dict) -> bool:
+    return e.get("category") == "Esports" or (e.get("series_ticker") or e["event_ticker"]).upper().startswith(ESPORTS)
+
+
+def allowed(e: dict, categories: tuple[str, ...], any_category: bool) -> bool:
+    """Only quote the kinds of events that paid on paper. If Kalshi's listing carries no category at all,
+    fall back to the esports ticker list plus head-to-head games (GAME/MATCH/ADVANCE in the series)."""
+    if not categories:
+        return True
+    if any_category:
+        return e.get("category") in categories or is_esports(e)
+    series = (e.get("series_ticker") or e["event_ticker"]).upper()
+    return is_esports(e) or any(k in series for k in ("GAME", "MATCH", "ADVANCE"))
+
+
+def missed_series(state: dict, now: datetime | None = None) -> set[str]:
+    """Series with STRAY_LIMIT+ missed hedges (open or closed strays) opened in the last STRAY_DAYS."""
+    now = now or datetime.now(timezone.utc)
+    count: dict[str, int] = {}
+    for b in state.get("open", []) + state.get("closed", []):
+        if "(stray)" not in b.get("event", "") or not b.get("series") or not b.get("opened"):
+            continue
+        if (now - datetime.fromisoformat(b["opened"])).days < STRAY_DAYS:
+            count[b["series"]] = count.get(b["series"], 0) + 1
+    return {s for s, n in count.items() if n >= STRAY_LIMIT}
+
+
+FAIR_URL = "https://raw.githubusercontent.com/baseballbrayden13-crypto/Day-Trading-Bot/bot-state/odds_data/kalshi_fair.json"
+FAIR_FILE = Path("odds_data") / "kalshi_fair.json"
+FAIR_EVERY = 15 * 60  # seconds between re-reads of the odds finder's prices
+FAIR_MAX_AGE = 4 * 3600  # older prices are ignored
+FAIR_CUSHION = D("0.02")  # a resting NO bid this much above the books' fair NO chance is skipped
+_fair: dict = {"at": 0.0, "prices": {}}
+
+
+def fair_prices(fetch=None) -> dict:
+    """{kalshi ticker: {"fair_yes", "start", "updated"}} from the sports odds finder (bot.odds_finder), which
+    prices each game from the US sportsbooks hourly. Read from bot-state every 15 minutes; any trouble keeps
+    the last copy (or none, which turns the check off)."""
+    if time.time() - _fair["at"] < FAIR_EVERY:
+        return _fair["prices"]
+    _fair["at"] = time.time()
+    try:
+        if fetch:
+            data = fetch()
+        else:
+            import requests
+
+            r = requests.get(FAIR_URL, timeout=10)
+            data = r.json() if r.ok else json.loads(FAIR_FILE.read_text()) if FAIR_FILE.exists() else {}
+        _fair["prices"] = data.get("prices", {})
+    except Exception as e:
+        log.info("Sportsbook prices not loaded (%s); fair check off this round", e)
+    return _fair["prices"]
+
+
+def news_flag(q: "Quote", prices: dict, now: datetime | None = None) -> str | None:
+    """The odds finder's late lineup-news note for this market (pre-game only), else None."""
+    f = prices.get(q.ticker)
+    if not f or not f.get("news"):
+        return None
+    now = now or datetime.now(timezone.utc)
+    if now >= datetime.fromisoformat(f["start"].replace("Z", "+00:00")):
+        return None
+    return f["news"]
+
+
+def overpriced(q: "Quote", prices: dict, now: datetime | None = None) -> Decimal | None:
+    """The books' fair NO chance when our resting NO bid pays more than it plus FAIR_CUSHION, else None.
+    The basket is locked either way; this is the leg left holding if the hedge misses, so an overpriced one
+    makes a missed hedge cost more. Only pre-game prices that are fresh count."""
+    f = prices.get(q.ticker)
+    if not f:
+        return None
+    now = now or datetime.now(timezone.utc)
+    start = datetime.fromisoformat(f["start"].replace("Z", "+00:00"))
+    updated = datetime.fromisoformat(f["updated"])
+    if now >= start or (now - updated).total_seconds() > FAIR_MAX_AGE:
+        return None
+    fair_no = ONE - D(str(f["fair_yes"]))
+    return fair_no if q.price > fair_no + FAIR_CUSHION else None
+
+
+def log_fair_skip(q: "Quote", fair_no: Decimal | None, reason: str = "overpriced") -> None:
+    path = kl.DATA / "fair_skips.csv"
+    path.parent.mkdir(exist_ok=True)
+    new = not path.exists()
+    with path.open("a", encoding="utf-8") as f:
+        if new:
+            f.write("time,event,ticker,title,no_bid,fair_no,sets,reason\n")
+        title, why = q.title.replace(",", " "), reason.replace(",", " ")
+        fair = f"{fair_no:.3f}" if fair_no is not None else ""
+        f.write(f"{datetime.now(timezone.utc).isoformat(timespec='seconds')},{q.event_ticker},{q.ticker},{title},{q.price},{fair},{q.sets},{why}\n")
+
+
+def fair_ok(q: "Quote", cfg: dict, fetch=None) -> bool:
+    if not cfg.get("use_fair"):
+        return True
+    prices = fair_prices(fetch)
+    news = news_flag(q, prices)
+    if news:
+        log.info("Skip %s: %s", q.ticker, news)
+        log_fair_skip(q, None, news)
+        return False
+    fair_no = overpriced(q, prices)
+    if fair_no is None:
+        return True
+    log.info("Skip %s: NO bid %s is over the sportsbooks' fair %.3f", q.ticker, q.price, fair_no)
+    log_fair_skip(q, fair_no)
+    return False
+
+
 def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], api=None) -> list[Quote]:
     """Screen every candidate event on the listing's top of book, then re-price the best few on the full book.
     Quotes only go on markets with real trade flow (KALSHI_MIN_VOLUME contracts in 24h and a trade in the last
     KALSHI_ACTIVE_MIN minutes), busiest first: a quote on a dead market just holds a slot and never fills."""
     min_volume, active = cfg.get("min_volume", MIN_VOLUME), cfg.get("active_min", ACTIVE_MIN)
     rough = []
+    categories, blocked = cfg.get("categories", ()), cfg.get("blocked_series", set())
+    any_category = any(e.get("category") for e in events)
     for e, markets in kl.candidates(events, cfg):
+        if not allowed(e, categories, any_category) or e.get("series_ticker", "") in blocked:
+            continue
         if e["event_ticker"] in skip or not e.get("mutually_exclusive"):
             continue  # a NO basket only locks in when at most one market can win ("above $104" and "above $107" can both)
         if any(D(m.get("yes_bid_dollars") or "0") >= DECIDED for m in markets):
             continue  # effectively decided (a 95c+ favourite): nobody will sell us NO on the losers, so the quote never fills
         mult = kl.multiplier(e)
-        sets = min(cfg["max_sets"], LIVE_MAX_SETS) if is_live(markets) else cfg["max_sets"]
+        sets = min(cfg["max_sets"], LIVE_MAX_SETS) if is_live(markets) or is_esports(e) else cfg["max_sets"]
         q = best_quote(e, {m["ticker"]: kl._top_no_asks(m) for m in markets}, {m["ticker"]: _top_no_bid(m) for m in markets},
                        budget, cfg["min_profit"], sets, mult)
         volume = {m["ticker"]: D(m.get("volume_24h_fp") or "0") for m in markets}
-        if q and volume[q.ticker] >= min_volume:
+        if q and volume[q.ticker] >= min_volume and fair_ok(q, cfg):
             rough.append((q, e, markets, mult, volume[q.ticker]))
     rough.sort(key=lambda r: (-r[4], -r[0].score()))
     out = []
     for q, e, markets, mult, _ in rough[: cfg["max_quotes"] * 3]:
-        sets = min(cfg["max_sets"], LIVE_MAX_SETS) if is_live(markets) else cfg["max_sets"]
+        sets = min(cfg["max_sets"], LIVE_MAX_SETS) if is_live(markets) or is_esports(e) else cfg["max_sets"]
         if api is None:
             out.append(q)
             continue
@@ -164,6 +286,8 @@ def find_quotes(events: list[dict], cfg: dict, budget: Decimal, skip: set[str], 
         full = best_quote(e, {t: asks_from_bids(b.get("yes_dollars") or []) for t, b in books.items()},
                           {t: (D(str(b["no_dollars"][-1][0])) if b.get("no_dollars") else D(0)) for t, b in books.items()},
                           budget, cfg["min_profit"], sets, mult)
+        if full and not fair_ok(full, cfg):
+            continue
         if full and full.ticker == q.ticker or full and traded_recently(api, full.ticker, active):
             out.append(full)
     return out  # busiest markets first
@@ -324,6 +448,9 @@ def place(api, cfg: dict, events: list[dict]) -> int:
     budget = min(kl.free_budget(cfg, state), api.balance())
     per_quote = min(budget, cfg["max_per_quote"]) if cfg.get("max_per_quote") else budget
     skip = {b["event"] for b in state["open"]} | {q["event"] for q in quotes}
+    cfg = {**cfg, "blocked_series": missed_series(state)}
+    if cfg["blocked_series"]:
+        log.info("Not quoting (hedges keep missing): %s", ", ".join(sorted(cfg["blocked_series"])))
     placed = 0
     for q in find_quotes(events, cfg, max(per_quote, D(0)), skip, api) if slots > 0 and budget > 0 else []:
         if placed >= slots or q.reserve > budget:
@@ -520,6 +647,8 @@ def main() -> None:
     cfg["min_volume"] = int(os.getenv("KALSHI_MIN_VOLUME", str(MIN_VOLUME)))
     cfg["active_min"] = int(os.getenv("KALSHI_ACTIVE_MIN", str(ACTIVE_MIN)))
     cfg["max_per_quote"] = D(os.getenv("KALSHI_MAX_PER_QUOTE", "0"))
+    cfg["use_fair"] = os.getenv("KALSHI_FAIR", "") == "on"  # skip quotes the sportsbooks say are overpriced (odds finder)
+    cfg["categories"] = tuple(c.strip() for c in os.getenv("KALSHI_CATEGORIES", "").split(",") if c.strip())  # empty = all
     kl.MODE = mode
     if args.paper:
         kl.STATE, kl.DATA = Path(f"kalshi_maker_paper{sfx}_state.json"), Path(f"kalshi_data_maker_paper{sfx}")

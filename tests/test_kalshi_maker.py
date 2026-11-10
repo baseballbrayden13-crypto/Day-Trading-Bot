@@ -360,3 +360,76 @@ def test_locked_baskets_are_not_mixed_up_with_strays():
     api = FakeApi()
     km.retry_strays(api, state, now=1000.0)
     assert api.orders == [] and len(state["open"]) == 1
+
+
+def test_only_sports_and_esports_are_allowed():
+    sport = {"event_ticker": "KXNBAGAME-1", "series_ticker": "KXNBAGAME", "category": "Sports"}
+    rain = {"event_ticker": "KXRAIN-1", "series_ticker": "KXRAIN", "category": "Climate and Weather"}
+    cs2 = {"event_ticker": "KXCS2MAP-1", "series_ticker": "KXCS2MAP", "category": "Other"}
+    cats = ("Sports", "Esports")
+    assert km.allowed(sport, cats, True) and km.allowed(cs2, cats, True) and not km.allowed(rain, cats, True)
+    assert km.allowed({**sport, "category": ""}, cats, False) and not km.allowed({**rain, "category": ""}, cats, False)
+    assert km.allowed(rain, (), True)  # no filter set: everything goes
+    assert km.is_esports(cs2) and not km.is_esports(sport)
+
+
+def test_series_with_repeated_missed_hedges_are_blocked():
+    now = datetime(2026, 11, 9, tzinfo=timezone.utc)
+    recent, old = "2026-11-07T00:00:00+00:00", "2026-10-20T00:00:00+00:00"
+    state = {"open": [{"event": "A-1 (stray)", "series": "A", "opened": recent}],
+             "closed": [{"event": "A-2 (stray)", "series": "A", "opened": recent},
+                        {"event": "B-1 (stray)", "series": "B", "opened": recent},
+                        {"event": "C-1 (stray)", "series": "C", "opened": old},
+                        {"event": "C-2 (stray)", "series": "C", "opened": old},
+                        {"event": "D-1", "series": "D", "opened": recent}]}
+    assert km.missed_series(state, now) == {"A"}
+
+
+def test_fair_check_skips_only_overpriced_pregame_legs(tmp_path, monkeypatch):
+    from datetime import datetime, timedelta, timezone
+    from decimal import Decimal
+
+    from bot import kalshi_live as kl
+    from bot import kalshi_maker as km
+
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(kl, "DATA", tmp_path / "data")
+    now = datetime.now(timezone.utc)
+    q = km.Quote("EV", "KXNFLGAME", "Bills at Dolphins", "T-MIA", Decimal("0.70"), 5, [], Decimal("5"))
+    prices = {"T-MIA": {"fair_yes": 0.38, "start": (now + timedelta(hours=3)).isoformat(), "updated": now.isoformat()}}
+    assert km.overpriced(q, prices, now) == Decimal("0.62")  # NO bid 0.70 > fair NO 0.62 + 2c
+    cheap = km.Quote("EV", "KXNFLGAME", "t", "T-MIA", Decimal("0.63"), 5, [], Decimal("5"))
+    assert km.overpriced(cheap, prices, now) is None
+    started = {"T-MIA": {**prices["T-MIA"], "start": (now - timedelta(minutes=5)).isoformat()}}
+    stale = {"T-MIA": {**prices["T-MIA"], "updated": (now - timedelta(hours=5)).isoformat()}}
+    assert km.overpriced(q, started, now) is None and km.overpriced(q, stale, now) is None
+    assert km.overpriced(q, {}, now) is None
+    km._fair.update(at=0.0, prices={})
+    assert km.fair_ok(q, {"use_fair": False})
+    assert not km.fair_ok(q, {"use_fair": True}, fetch=lambda: {"prices": prices})
+    assert "T-MIA" in (tmp_path / "data" / "fair_skips.csv").read_text()
+    km._fair.update(at=0.0, prices={})
+
+    def broken():
+        raise OSError("offline")
+    assert km.fair_ok(q, {"use_fair": True}, fetch=broken)  # no prices = check off, never blocks quotes
+    km._fair.update(at=0.0, prices={})
+
+
+def test_lineup_news_skips_the_quote(tmp_path, monkeypatch):
+    from datetime import datetime, timedelta, timezone
+    from decimal import Decimal
+
+    from bot import kalshi_live as kl
+    from bot import kalshi_maker as km
+
+    monkeypatch.setattr(kl, "DATA", tmp_path / "data")
+    now = datetime.now(timezone.utc)
+    q = km.Quote("EV", "KXNBAGAME", "t", "T-LAL", Decimal("0.40"), 5, [], Decimal("5"))
+    entry = {"fair_yes": 0.5, "start": (now + timedelta(hours=1)).isoformat(), "updated": now.isoformat(),
+             "news": "lineup news: Los Angeles Lakers: LeBron James (Out)"}
+    km._fair.update(at=0.0, prices={})
+    assert not km.fair_ok(q, {"use_fair": True}, fetch=lambda: {"prices": {"T-LAL": entry}})
+    assert "LeBron James" in (tmp_path / "data" / "fair_skips.csv").read_text()
+    assert km.news_flag(q, {"T-LAL": {**entry, "start": (now - timedelta(minutes=1)).isoformat()}}) is None
+    km._fair.update(at=0.0, prices={})

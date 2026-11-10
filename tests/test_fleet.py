@@ -295,7 +295,7 @@ def test_digest_and_site_rows():
     title, text, prio = mt.digest(bad, FLEET, [bad[-1]])
     assert title == "Medic: 1 need action" and "bot 1: Bot 1 isn't running." in text and prio == "high"
     health, rows = mt.site_rows(bad, FLEET, NOW)
-    assert [h["label"] for h in health] == ["fleet", "1", "2", "3", "4", "4b", "4c", "4e", "5"]
+    assert [h["label"] for h in health] == ["fleet", "1", "2", "3", "4", "4b", "4c", "4e", "4f", "5"]
     assert [h["status"] for h in health if h["label"] == "4c"] == ["info"]  # optional, not set up: no alarm
     assert health[1]["status"] == "act" and health[2]["headline"] == "Running normally."
 
@@ -350,3 +350,11 @@ def test_bot2_split_is_not_a_drawdown():
     assert abs(s[1] - 2450) < 0.01 and abs(s[0] / s[1] - 4936.36 / 4846.61) < 1e-9
     b2 = next(b for b in FLEET if b.num == 2)
     assert abs(s[-1] / b2.start_equity - 4846.61 / 5000) < 1e-3  # still -3.1% since start
+
+
+def test_bot5_first_row_before_the_split_is_not_a_drawdown():
+    rows = [{"day": "2026-11-05", "bot": "8", "equity": "5000"}, {"day": "2026-11-06", "bot": "8", "equity": "2459.04"},
+            {"day": "2026-11-07", "bot": "8", "equity": "2454.09"}]
+    s = mt.equity_series(rows, 8)
+    assert abs(s[0] - 2450) < 0.01
+    assert mt.drawdown(s) < 1
