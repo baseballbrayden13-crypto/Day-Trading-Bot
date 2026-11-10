@@ -552,7 +552,8 @@ def alert(cfg: dict, new: list[dict]) -> None:
 
         from .notify import send
 
-        send(SimpleNamespace(ntfy_topic=cfg["ntfy"]), title, text[:900])
+        send(SimpleNamespace(ntfy_topic=cfg["ntfy"]), title, text[:900],
+             "high" if any(f["kind"] == "arb" for f in new) else "default")
 
 
 def write_summary(stats: dict, new: list[dict], state: dict, now: datetime) -> dict:
@@ -568,12 +569,21 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Sports odds finder (alerts + pretend bets only)")
     ap.add_argument("--settle", action="store_true", help="only settle open pretend bets")
     ap.add_argument("--report", action="store_true", help="print the record")
+    ap.add_argument("--test-alert", action="store_true", help="send one test push to the phone (NTFY_TOPIC) and stop")
     ap.add_argument("--now", action="store_true", help="price every sport now (ignore the 2.5h gap and quiet hours)")
     args = ap.parse_args()
     if args.report:
         print(json.dumps(record(), indent=1))
         return
     cfg, state, now = settings(), load_state(), datetime.now(timezone.utc)
+    if args.test_alert:
+        from types import SimpleNamespace
+
+        from .notify import send
+
+        ok = cfg["ntfy"] and send(SimpleNamespace(ntfy_topic=cfg["ntfy"]), "Odds finder: test",
+                                  "Phone alerts work. Real finds look like: Kentucky @ BetRivers 2.95 (+5.4% expected).")
+        raise SystemExit(0 if ok else "No push sent: the ODDS_NTFY_TOPIC secret is missing or ntfy didn't answer.")
     if args.now:
         cfg.update(gap=0, quiet="off")
     done = settle(state, now)
