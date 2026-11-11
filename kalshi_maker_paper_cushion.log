@@ -299,3 +299,11 @@
 2026-11-10 20:24:06,745 INFO Swept 20188 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 20:29:10,537 INFO Swept 20173 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 20:34:13,841 INFO Swept 20165 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 20:39:17,233 INFO Swept 20161 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 20:44:21,360 INFO PAPER rest NO bid KXLMPGAME-26NOV102030NAVCDJ-NAV at $0.2900 x2 (16 already bid at that price)
+2026-11-10 20:44:21,360 INFO Resting NO bid on KXLMPGAME-26NOV102030NAVCDJ-NAV at $0.29 x2 (KXLMPGAME-26NOV102030NAVCDJ): locks in $0.21 if it fills; hedge NO CDJ@0.5800
+2026-11-10 20:44:21,361 INFO Swept 20162 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 20:49:24,234 INFO Swept 20158 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 20:54:27,655 INFO Swept 20149 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 20:59:30,184 INFO Swept 20134 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 21:04:33,309 INFO Swept 20110 events: 0 taker trades, 0 new quotes, 1 resting
