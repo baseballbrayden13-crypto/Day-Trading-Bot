@@ -7525,3 +7525,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 03:24:13,179 INFO Swept 20007 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 03:29:15,250 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-11 03:29:16,672 INFO Swept 20029 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 03:34:19,708 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 03:34:21,124 INFO Swept 20031 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 03:39:24,139 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 03:39:25,647 INFO Swept 20030 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 03:44:28,294 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 03:44:29,733 INFO Swept 20030 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 03:49:32,227 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 03:49:33,655 INFO Swept 20041 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 03:54:36,349 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 03:54:37,987 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV110345AKULOP-LOP at $0.1400 x2 (0 already bid at that price)
+2026-11-11 03:54:37,987 INFO Resting NO bid on KXLIGAPROMATCH-26NOV110345AKULOP-LOP at $0.1400 x2 (KXLIGAPROMATCH-26NOV110345AKULOP): locks in $0.12 if it fills; hedge NO AKU@0.7800
+2026-11-11 03:54:38,022 INFO Swept 20036 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 03:54:58,226 INFO Quote KXLIGAPROMATCH-26NOV110345AKULOP cancelled (0/2 filled)
+2026-11-11 03:59:41,045 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 03:59:42,909 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV110345AKULOP-LOP at $0.0600 x2 (0 already bid at that price)
+2026-11-11 03:59:42,909 INFO Resting NO bid on KXLIGAPROMATCH-26NOV110345AKULOP-LOP at $0.0600 x2 (KXLIGAPROMATCH-26NOV110345AKULOP): locks in $0.19 if it fills; hedge NO AKU@0.8300
+2026-11-11 03:59:42,935 INFO Swept 20037 events: 0 taker trades, 1 new quotes, 1 resting
