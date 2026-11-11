@@ -2432,25 +2432,5 @@
    "closed": "2026-11-09T02:31:05.392862+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXUFCFIGHT-26NOV14HEIDIA",
-   "series": "KXUFCFIGHT",
-   "title": "334: Alateng Heili vs Juan Diaz",
-   "ticker": "KXUFCFIGHT-26NOV14HEIDIA-HEI",
-   "order_id": "paper-960-1794419399",
-   "price": "0.71",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8900",
-   "multiplier": "1",
-   "placed": 1794419399.8892963,
-   "hedge": [
-    {
-     "ticker": "KXUFCFIGHT-26NOV14HEIDIA-DIA",
-     "limit": "0.2500"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
