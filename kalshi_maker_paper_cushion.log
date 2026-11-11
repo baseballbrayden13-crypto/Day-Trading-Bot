@@ -307,3 +307,24 @@
 2026-11-10 20:54:27,655 INFO Swept 20149 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-10 20:59:30,184 INFO Swept 20134 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-10 21:04:33,309 INFO Swept 20110 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 21:09:37,837 INFO Swept 20306 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 21:14:37,868 INFO Swept 20158 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 21:19:38,625 INFO PAPER rest NO bid KXNBARACE-26NOV10LACPHX-10-LAC at $0.2500 x2 (63 already bid at that price)
+2026-11-10 21:19:38,625 INFO Resting NO bid on KXNBARACE-26NOV10LACPHX-10-LAC at $0.25 x2 (KXNBARACE-26NOV10LACPHX-10): locks in $0.21 if it fills; hedge NO PHX@0.6200
+2026-11-10 21:19:38,625 INFO Swept 20199 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 21:21:01,132 INFO PAPER KXNBARACE-26NOV10LACPHX-10-LAC NO bid at $0.2500: 2/2 filled by real trades
+2026-11-10 21:21:01,207 INFO PAPER buy 2 NO KXNBARACE-26NOV10LACPHX-10-PHX at up to $0.6200: not on the book
+2026-11-10 21:21:01,281 INFO PAPER buy 2 NO KXNBARACE-26NOV10LACPHX-10-PHX at up to $0.77: not on the book
+2026-11-10 21:21:01,281 WARNING Quote KXNBARACE-26NOV10LACPHX-10: hedge missed on KXNBARACE-26NOV10LACPHX-10-PHX. Selling back 2 contracts on 1 legs.
+2026-11-10 21:21:01,356 INFO PAPER sell 2 YES KXNBARACE-26NOV10LACPHX-10-LAC at up to $0.80: not on the book
+2026-11-10 21:21:01,356 ERROR STRAY POSITION: 2 NO contracts of KXNBARACE-26NOV10LACPHX-10-LAC still held. Check it on Kalshi.
+2026-11-10 21:21:01,431 INFO PAPER sell 2 YES KXNBARACE-26NOV10LACPHX-10-LAC at up to $0.90: not on the book
+2026-11-10 21:22:01,697 INFO PAPER sell 2 YES KXNBARACE-26NOV10LACPHX-10-LAC at up to $0.90: not on the book
+2026-11-10 21:24:43,757 INFO Swept 20232 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 21:24:43,824 INFO PAPER sell 2 YES KXNBARACE-26NOV10LACPHX-10-LAC at up to $0.90: not on the book
+2026-11-10 21:25:44,106 INFO PAPER sell 2 YES KXNBARACE-26NOV10LACPHX-10-LAC at up to $0.90: not on the book
+2026-11-10 21:26:44,392 INFO PAPER sell 2 YES KXNBARACE-26NOV10LACPHX-10-LAC at up to $0.90: not on the book
+2026-11-10 21:27:44,692 INFO PAPER sell 2 YES KXNBARACE-26NOV10LACPHX-10-LAC at up to $0.90: not on the book
+2026-11-10 21:29:43,874 INFO Settled KXNBARACE-26NOV10LACPHX-10 (stray): paid $0, profit $-0.51
+2026-11-10 21:29:46,617 INFO Swept 20278 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 21:34:47,937 INFO Swept 20274 events: 0 taker trades, 0 new quotes, 0 resting

@@ -1,26 +1,31 @@
 {
- "realized": "0",
+ "realized": "-0.51",
  "open": [],
- "closed": [],
- "quotes": [
+ "closed": [
   {
-   "event": "KXLMPGAME-26NOV102030NAVCDJ",
-   "series": "KXLMPGAME",
-   "title": "Mayos de Navojoa vs Charros de Jalisco",
-   "ticker": "KXLMPGAME-26NOV102030NAVCDJ-NAV",
-   "order_id": "paper-14-1794361461",
-   "price": "0.29",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.7900",
-   "multiplier": "1",
-   "placed": 1794361461.3605733,
-   "hedge": [
+   "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
+   "series": "KXNBARACE",
+   "title": "Los Angeles C vs Phoenix: Race to 10 Points",
+   "sets": 0,
+   "outlay": "0.51",
+   "locked_profit": "0",
+   "opened": "2026-11-11T02:21:01.357023+00:00",
+   "legs": [
     {
-     "ticker": "KXLMPGAME-26NOV102030NAVCDJ-CDJ",
-     "limit": "0.5800"
+     "ticker": "KXNBARACE-26NOV10LACPHX-10-LAC",
+     "side": "no",
+     "count": 2,
+     "limit": "0.25"
     }
-   ]
+   ],
+   "retried": 1794364064.40104,
+   "paid": "0",
+   "pnl": "-0.51",
+   "results": {
+    "KXNBARACE-26NOV10LACPHX-10-LAC": "yes"
+   },
+   "closed": "2026-11-11T02:29:43.874734+00:00"
   }
- ]
+ ],
+ "quotes": []
 }
