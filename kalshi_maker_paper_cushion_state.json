@@ -2,25 +2,5 @@
  "realized": "0",
  "open": [],
  "closed": [],
- "quotes": [
-  {
-   "event": "KXNCAAWBGAME-26NOV11FORBUCK",
-   "series": "KXNCAAWBGAME",
-   "title": "Fordham vs Bucknell",
-   "ticker": "KXNCAAWBGAME-26NOV11FORBUCK-FOR",
-   "order_id": "paper-9-1794352395",
-   "price": "0.3500",
-   "sets": 3,
-   "done": 0,
-   "reserve": "2.4100",
-   "multiplier": "1",
-   "placed": 1794352395.9777365,
-   "hedge": [
-    {
-     "ticker": "KXNCAAWBGAME-26NOV11FORBUCK-BUCK",
-     "limit": "0.4300"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
