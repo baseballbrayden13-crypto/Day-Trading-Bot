@@ -320,5 +320,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-24-1794407629": {
+  "id": "paper-24-1794407629",
+  "ticker": "KXVALORANTMAP-26NOV110700NONONE-2-ONE",
+  "price": "0.1400",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794407629.4422634,
+  "checked": 1794407785.9756238,
+  "expires": 1794409429,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

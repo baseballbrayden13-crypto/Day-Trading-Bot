@@ -27,5 +27,25 @@
    "closed": "2026-11-11T02:29:43.874734+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXVALORANTMAP-26NOV110700NONONE-2",
+   "series": "KXVALORANTMAP",
+   "title": "NongKaiTod vs. OneOPae: Map 2 Winner",
+   "ticker": "KXVALORANTMAP-26NOV110700NONONE-2-ONE",
+   "order_id": "paper-24-1794407629",
+   "price": "0.1400",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.3000",
+   "multiplier": "1",
+   "placed": 1794407629.4430313,
+   "hedge": [
+    {
+     "ticker": "KXVALORANTMAP-26NOV110700NONONE-2-NON",
+     "limit": "0.6400"
+    }
+   ]
+  }
+ ]
 }
