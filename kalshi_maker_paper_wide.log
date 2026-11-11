@@ -7486,3 +7486,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 01:53:19,245 INFO Swept 19925 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 01:58:16,289 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-11 01:58:17,737 INFO Swept 19957 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 02:03:19,251 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 02:03:20,765 INFO Swept 19930 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 02:08:23,372 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 02:08:24,821 INFO Swept 19948 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 02:13:27,464 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 02:13:29,150 INFO Swept 19957 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 02:18:30,493 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 02:18:31,972 INFO PAPER rest NO bid KXNBBGAME-26NOV121800FRABOT-FRA at $0.2000 x5 (11 already bid at that price)
+2026-11-11 02:18:31,973 INFO Resting NO bid on KXNBBGAME-26NOV121800FRABOT-FRA at $0.20 x5 (KXNBBGAME-26NOV121800FRABOT): locks in $0.11 if it fills; hedge NO BOT@0.7600
+2026-11-11 02:18:32,003 INFO Swept 19961 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 02:19:27,497 INFO Quote KXNBBGAME-26NOV121800FRABOT cancelled (0/5 filled)
+2026-11-11 02:23:33,735 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 02:23:35,183 INFO Swept 19958 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 02:28:36,882 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 02:28:38,412 INFO Swept 19967 events: 0 taker trades, 0 new quotes, 0 resting
