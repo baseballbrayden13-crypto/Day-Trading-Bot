@@ -7429,3 +7429,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-10 23:52:13,734 INFO Swept 19931 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-10 23:57:16,338 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-10 23:57:17,713 INFO Swept 19919 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 00:02:20,266 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:02:22,314 INFO PAPER rest NO bid KXNWSLGAME-26NOV15GOTKC-GOT at $0.1800 x1 (24 already bid at that price)
+2026-11-11 00:02:22,314 INFO Resting NO bid on KXNWSLGAME-26NOV15GOTKC-GOT at $0.18 x1 (KXNWSLGAME-26NOV15GOTKC): locks in $0.10 if it fills; hedge NO KC@0.7500, TIE@0.9300
+2026-11-11 00:02:22,343 INFO Swept 19844 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-11 00:02:57,886 INFO Quote KXNCAAWBGAME-26NOV11FORBUCK cancelled (0/3 filled)
+2026-11-11 00:07:25,585 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:07:27,130 INFO Swept 19864 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 00:07:27,186 INFO Quote KXNWSLGAME-26NOV15GOTKC cancelled (0/1 filled)
+2026-11-11 00:12:27,789 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:12:29,282 INFO Swept 19883 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 00:17:29,746 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:17:31,238 INFO Swept 19894 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 00:22:33,545 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:22:35,019 INFO Swept 19889 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 00:27:37,551 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:27:39,044 INFO Swept 19979 events: 0 taker trades, 0 new quotes, 0 resting
