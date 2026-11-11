@@ -7702,3 +7702,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 13:30:13,175 INFO Swept 20498 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 13:35:12,460 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-11 13:35:15,391 INFO Swept 20507 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 13:40:13,725 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 13:40:16,886 INFO PAPER rest NO bid KXFIBAECUPGAME-26NOV111230SZOZIG-SZO at $0.6200 x2 (0 already bid at that price)
+2026-11-11 13:40:16,886 INFO Resting NO bid on KXFIBAECUPGAME-26NOV111230SZOZIG-SZO at $0.6200 x2 (KXFIBAECUPGAME-26NOV111230SZOZIG): locks in $0.18 if it fills; hedge NO ZIG@0.2900
+2026-11-11 13:40:16,915 INFO Swept 20507 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 13:45:17,888 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 13:45:20,755 INFO Swept 20505 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 13:50:22,653 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 13:50:25,600 INFO PAPER rest NO bid KXLIIGAGAME-26NOV111130JOKHIF-HIF at $0.5400 x2 (0 already bid at that price)
+2026-11-11 13:50:25,600 INFO Resting NO bid on KXLIIGAGAME-26NOV111130JOKHIF-HIF at $0.5400 x2 (KXLIIGAGAME-26NOV111130JOKHIF): locks in $0.52 if it fills; hedge NO JOK@0.1800
+2026-11-11 13:50:25,633 INFO Swept 20504 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-11 13:51:11,944 INFO Stopped; all quotes cancelled.
