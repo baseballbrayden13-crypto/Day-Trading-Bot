@@ -1,20 +1,36 @@
 {
- "updated": "2026-11-10T19:21:50-05:00",
+ "updated": "2026-11-11T16:59:23-05:00",
  "live": {
-  "bets": 0,
-  "wins": 0,
-  "losses": 0,
-  "pnl": 0,
-  "roi": 0.0,
-  "by_league": {},
-  "open": 7
+  "bets": 7,
+  "wins": 1,
+  "losses": 6,
+  "pnl": -49.4,
+  "roi": -0.7057,
+  "by_league": {
+   "ncaaf": {
+    "bets": 1,
+    "wins": 0,
+    "pnl": -10.0
+   },
+   "nba": {
+    "bets": 2,
+    "wins": 1,
+    "pnl": 0.6
+   },
+   "nhl": {
+    "bets": 4,
+    "wins": 0,
+    "pnl": -40.0
+   }
+  },
+  "open": 10
  },
  "test": {
-  "bets": 721,
-  "wins": 280,
-  "losses": 441,
-  "pnl": -592.39,
-  "roi": -0.0822,
+  "bets": 728,
+  "wins": 281,
+  "losses": 447,
+  "pnl": -641.79,
+  "roi": -0.0882,
   "by_league": {
    "nfl": {
     "bets": 31,
@@ -22,14 +38,14 @@
     "pnl": -134.05
    },
    "ncaaf": {
-    "bets": 32,
+    "bets": 33,
     "wins": 12,
-    "pnl": -23.97
+    "pnl": -33.97
    },
    "nba": {
-    "bets": 47,
-    "wins": 21,
-    "pnl": -49.78
+    "bets": 49,
+    "wins": 22,
+    "pnl": -49.18
    },
    "wnba": {
     "bets": 47,
@@ -37,9 +53,9 @@
     "pnl": 35.55
    },
    "nhl": {
-    "bets": 116,
+    "bets": 120,
     "wins": 41,
-    "pnl": -192.74
+    "pnl": -232.74
    },
    "mlb": {
     "bets": 448,
@@ -56,14 +72,14 @@
    "market_brier": 0.2001
   },
   "ncaaf": {
-   "games": 65,
-   "elo_brier": 0.2231,
-   "market_brier": 0.2061
+   "games": 68,
+   "elo_brier": 0.2212,
+   "market_brier": 0.2035
   },
   "nba": {
-   "games": 91,
-   "elo_brier": 0.2153,
-   "market_brier": 0.178
+   "games": 97,
+   "elo_brier": 0.2126,
+   "market_brier": 0.1756
   },
   "wnba": {
    "games": 117,
@@ -71,9 +87,9 @@
    "market_brier": 0.1836
   },
   "nhl": {
-   "games": 217,
-   "elo_brier": 0.239,
-   "market_brier": 0.2242
+   "games": 224,
+   "elo_brier": 0.2403,
+   "market_brier": 0.2244
   },
   "mlb": {
    "games": 902,
@@ -81,7 +97,7 @@
    "market_brier": 0.2381
   }
  },
- "picks_today": 4,
+ "picks_today": 10,
  "settings": {
   "leagues": [
    "nfl",
