@@ -75,23 +75,71 @@
     }
    ],
    "opened": "2026-11-10T20:29:58+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Golden State Warriors at Houston Rockets",
+   "game_id": "f41d186dc7a7dcf01adab32579a82ca3",
+   "sport": "basketball_nba",
+   "start": "2026-11-12T02:40:00Z",
+   "edge": 0.0423,
+   "home": "Houston Rockets",
+   "away": "Golden State Warriors",
+   "legs": [
+    {
+     "team": "Golden State Warriors",
+     "book": "FanDuel",
+     "odds": 2.8,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-11T01:17:25+00:00"
+  },
+  {
+   "kind": "arb",
+   "game": "Kent State Golden Flashes at UNC Wilmington Seahawks",
+   "game_id": "015a3bad9e6d4b3ce108f6e7c663ed88",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-12T00:00:00Z",
+   "edge": 0.0271,
+   "home": "UNC Wilmington Seahawks",
+   "away": "Kent State Golden Flashes",
+   "legs": [
+    {
+     "team": "Kent State Golden Flashes",
+     "book": "Kalshi",
+     "odds": 3.521,
+     "stake": 29.17,
+     "ticker": "KXNCAAMBGAME-26NOV11KENTUNCW-KENT",
+     "ask": 0.27
+    },
+    {
+     "team": "UNC Wilmington Seahawks",
+     "book": "BetMGM",
+     "odds": 1.45,
+     "stake": 70.83
+    }
+   ],
+   "opened": "2026-11-11T01:17:25+00:00"
   }
  ],
  "seen": {
   "value|c01b327672b44187cac6e56917b0784a|Tenn-Martin Skyhawks|DraftKings": "2026-11-10T03:30:49.213095+00:00",
   "value|c01b327672b44187cac6e56917b0784a|Tenn-Martin Skyhawks|Bovada": "2026-11-10T03:30:49.213095+00:00",
   "value|6e5f0afa161cb1c7b90a86be779800bf|Evansville Purple Aces|FanDuel": "2026-11-10T20:29:58.362392+00:00",
-  "value|1bdd1ebc0dbf42b45f00e0e042a95bbc|Nicholls St Colonels|BetRivers": "2026-11-10T20:29:58.362392+00:00"
+  "value|1bdd1ebc0dbf42b45f00e0e042a95bbc|Nicholls St Colonels|BetRivers": "2026-11-10T20:29:58.362392+00:00",
+  "value|f41d186dc7a7dcf01adab32579a82ca3|Golden State Warriors|FanDuel": "2026-11-11T01:17:25.257882+00:00",
+  "arb|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes@Kalshi|UNC Wilmington Seahawks@BetMGM": "2026-11-11T01:17:25.257882+00:00"
  },
  "credits": {
   "day": "2026-11-10",
-  "spent": 4,
-  "remaining": 470
+  "spent": 8,
+  "remaining": 466
  },
  "last_priced": {
-  "basketball_nba": "2026-11-10T20:29:58.362392+00:00",
-  "icehockey_nhl": "2026-11-10T20:29:58.362392+00:00",
-  "americanfootball_ncaaf": "2026-11-10T20:29:58.362392+00:00",
-  "basketball_ncaab": "2026-11-10T20:29:58.362392+00:00"
+  "basketball_nba": "2026-11-11T01:17:25.257882+00:00",
+  "icehockey_nhl": "2026-11-11T01:17:25.257882+00:00",
+  "americanfootball_ncaaf": "2026-11-11T01:17:25.257882+00:00",
+  "basketball_ncaab": "2026-11-11T01:17:25.257882+00:00"
  }
 }
