@@ -2434,25 +2434,25 @@
  ],
  "quotes": [
   {
-   "event": "KXLIGAMXWGAME-26NOV11CFATOL",
+   "event": "KXLIGAMXWGAME-26NOV11PACMTY",
    "series": "KXLIGAMXWGAME",
-   "title": "Club America Mexico (women) vs Deportivo Toluca FC (women)",
-   "ticker": "KXLIGAMXWGAME-26NOV11CFATOL-CFA",
-   "order_id": "paper-965-1794435671",
-   "price": "0.06",
+   "title": "CF Pachuca (women) vs CF Monterrey (women)",
+   "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-PAC",
+   "order_id": "paper-966-1794437786",
+   "price": "0.2600",
    "sets": 2,
    "done": 0,
-   "reserve": "3.9000",
+   "reserve": "3.7400",
    "multiplier": "1",
-   "placed": 1794435671.6596103,
+   "placed": 1794437786.1975527,
    "hedge": [
     {
-     "ticker": "KXLIGAMXWGAME-26NOV11CFATOL-TOL",
-     "limit": "0.8900"
+     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-MTY",
+     "limit": "0.9100"
     },
     {
-     "ticker": "KXLIGAMXWGAME-26NOV11CFATOL-TIE",
-     "limit": "0.9800"
+     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-TIE",
+     "limit": "0.7400"
     }
    ]
   }

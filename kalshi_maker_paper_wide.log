@@ -7747,3 +7747,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 17:31:14,942 INFO Swept 21024 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-11 17:36:13,176 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-11 17:36:18,302 INFO Swept 21040 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 17:41:15,059 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 17:41:20,411 INFO Swept 21044 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 17:46:17,038 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 17:46:21,935 INFO Swept 21045 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 17:51:18,584 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 17:51:23,426 INFO Swept 21067 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 17:56:21,051 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 17:56:26,197 INFO PAPER rest NO bid KXLIGAMXWGAME-26NOV11PACMTY-PAC at $0.2600 x2 (0 already bid at that price)
+2026-11-11 17:56:26,197 INFO Resting NO bid on KXLIGAMXWGAME-26NOV11PACMTY-PAC at $0.2600 x2 (KXLIGAMXWGAME-26NOV11PACMTY): locks in $0.26 if it fills; hedge NO MTY@0.8400, TIE@0.7400
+2026-11-11 17:56:26,343 INFO Swept 21066 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 18:01:24,605 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 18:01:29,438 INFO Swept 21057 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 18:06:27,926 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 18:06:32,612 INFO Swept 21071 events: 0 taker trades, 0 new quotes, 1 resting
