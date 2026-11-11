@@ -463,3 +463,12 @@
 2026-11-11 10:54:42,118 INFO Swept 20223 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 10:59:45,885 INFO Swept 20227 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 11:04:49,159 INFO Swept 20254 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 11:09:52,576 INFO Swept 20291 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 11:14:58,248 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV12CONNOSU-OSU at $0.3200 x4 (0 already bid at that price)
+2026-11-11 11:14:58,248 INFO Resting NO bid on KXNCAAWBGAME-26NOV12CONNOSU-OSU at $0.3200 x4 (KXNCAAWBGAME-26NOV12CONNOSU): locks in $0.67 if it fills; hedge NO CONN@0.5100
+2026-11-11 11:14:58,249 INFO Swept 20295 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 11:19:59,380 INFO Swept 20288 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 11:25:00,278 INFO Swept 20280 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 11:25:50,963 INFO Quote KXNCAAWBGAME-26NOV12CONNOSU cancelled (0/4 filled)
+2026-11-11 11:30:05,802 INFO Swept 20280 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 11:35:09,772 INFO Swept 20273 events: 0 taker trades, 0 new quotes, 0 resting
