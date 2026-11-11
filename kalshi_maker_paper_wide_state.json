@@ -2432,5 +2432,25 @@
    "closed": "2026-11-09T02:31:05.392862+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXDOTA2MAP-26NOV121400NEMIGAXE-1",
+   "series": "KXDOTA2MAP",
+   "title": "Nemiga Gaming vs. Xipto Esports: Map 1 Winner",
+   "ticker": "KXDOTA2MAP-26NOV121400NEMIGAXE-1-NEMIGA",
+   "order_id": "paper-953-1794402454",
+   "price": "0.0800",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.5000",
+   "multiplier": "1",
+   "placed": 1794402454.4750123,
+   "hedge": [
+    {
+     "ticker": "KXDOTA2MAP-26NOV121400NEMIGAXE-1-XE",
+     "limit": "0.9400"
+    }
+   ]
+  }
+ ]
 }

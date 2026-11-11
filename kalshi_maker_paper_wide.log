@@ -7549,3 +7549,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 04:14:44,842 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-11 04:14:46,267 INFO Swept 20067 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-11 04:15:21,526 INFO Stopped; all quotes cancelled.
+2026-11-11 08:06:07,286 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-11 08:07:32,315 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 08:07:34,474 INFO PAPER rest NO bid KXDOTA2MAP-26NOV121400NEMIGAXE-1-NEMIGA at $0.0800 x2 (0 already bid at that price)
+2026-11-11 08:07:34,475 INFO Resting NO bid on KXDOTA2MAP-26NOV121400NEMIGAXE-1-NEMIGA at $0.0800 x2 (KXDOTA2MAP-26NOV121400NEMIGAXE-1): locks in $0.50 if it fills; hedge NO XE@0.6500
+2026-11-11 08:07:34,531 INFO Settled daily_safest KXRAIN-26NOV10-NOLA: NO, profit $0.01
+2026-11-11 08:07:34,532 INFO Swept 20134 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 08:12:38,925 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 08:12:40,916 INFO Swept 20156 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 08:17:39,474 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 08:17:41,501 INFO Swept 20168 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 08:22:39,040 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 08:22:41,525 INFO Swept 20164 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 08:27:40,529 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 08:27:42,556 INFO Swept 20166 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 08:32:36,792 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 08:32:38,871 INFO Swept 20152 events: 0 taker trades, 0 new quotes, 1 resting
