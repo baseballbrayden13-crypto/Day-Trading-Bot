@@ -1,0 +1,47 @@
+{
+ "updated": "2026-11-10T19:03:46-05:00",
+ "live": {
+  "bets": 0,
+  "wins": 0,
+  "losses": 0,
+  "pnl": 0,
+  "roi": 0.0,
+  "by_league": {},
+  "open": 7
+ },
+ "test": {
+  "bets": 0,
+  "wins": 0,
+  "losses": 0,
+  "pnl": 0,
+  "roi": 0.0,
+  "by_league": {},
+  "open": 0
+ },
+ "accuracy": {},
+ "picks_today": 7,
+ "settings": {
+  "leagues": [
+   "nfl",
+   "ncaaf",
+   "nba",
+   "wnba",
+   "ncaab",
+   "ncaaw",
+   "nhl",
+   "mlb",
+   "mls",
+   "epl",
+   "laliga",
+   "bundesliga",
+   "seriea",
+   "ligue1",
+   "ucl"
+  ],
+  "min_edge": 0.05,
+  "min_games": 8,
+  "max_odds": 4.0,
+  "stake": 10.0,
+  "backfill": 120
+ }
+}
