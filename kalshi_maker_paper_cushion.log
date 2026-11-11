@@ -525,3 +525,11 @@
 2026-11-11 17:26:21,164 INFO Swept 21010 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 17:31:20,921 INFO Swept 21024 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 17:36:26,609 INFO Swept 21040 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 17:41:26,177 INFO Swept 21044 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 17:46:30,811 INFO PAPER rest NO bid KXLIGAMXWGAME-26NOV11PACMTY-PAC at $0.1600 x2 (0 already bid at that price)
+2026-11-11 17:46:30,811 INFO Resting NO bid on KXLIGAMXWGAME-26NOV11PACMTY-PAC at $0.1600 x2 (KXLIGAMXWGAME-26NOV11PACMTY): locks in $0.42 if it fills; hedge NO MTY@0.8500, TIE@0.7500
+2026-11-11 17:46:30,812 INFO Swept 21045 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 17:51:32,389 INFO Swept 21067 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 17:56:32,429 INFO Swept 21066 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 18:01:39,718 INFO Swept 21057 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 18:06:40,690 INFO Swept 21071 events: 0 taker trades, 0 new quotes, 1 resting

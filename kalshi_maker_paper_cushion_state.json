@@ -27,5 +27,29 @@
    "closed": "2026-11-11T02:29:43.874734+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGAMXWGAME-26NOV11PACMTY",
+   "series": "KXLIGAMXWGAME",
+   "title": "CF Pachuca (women) vs CF Monterrey (women)",
+   "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-PAC",
+   "order_id": "paper-29-1794437190",
+   "price": "0.1600",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.5800",
+   "multiplier": "1",
+   "placed": 1794437190.8119197,
+   "hedge": [
+    {
+     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-MTY",
+     "limit": "0.9300"
+    },
+    {
+     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-TIE",
+     "limit": "0.7500"
+    }
+   ]
+  }
+ ]
 }
