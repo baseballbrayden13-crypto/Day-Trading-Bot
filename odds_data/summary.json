@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T16:17:42+00:00",
+ "updated": "2026-11-11T22:53:52+00:00",
  "scan": {
   "sports": [
    "americanfootball_nfl",
@@ -8,20 +8,20 @@
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 81,
-  "kalshi_matched": 66,
+  "games": 93,
+  "kalshi_matched": 77,
   "skipped": [],
   "pinnacle": 57,
-  "credits_left": 461,
-  "spent_today": 5,
+  "credits_left": 456,
+  "spent_today": 10,
   "allowance": 23
  },
  "new_finds": [
-  "ARB 0.9% locked: Brooklyn Nets at New Orleans Pelicans (Wed 8:10PM): $37 Brooklyn Nets @ Bovada 2.7, $63 New Orleans Pelicans @ FanDuel 1.61",
-  "Florida A&M Rattlers @ BetRivers 4.0 (fair 3.85, +3.9% expected) UMKC Kangaroos at Florida A&M Rattlers (Wed 12:00PM)",
-  "Kent State Golden Flashes @ FanDuel 4.2 (fair 4.02, +4.5% expected) Kent State Golden Flashes at UNC Wilmington Seahawks (Wed 7:00PM)"
+  "Kent State Golden Flashes @ BetOnline.ag 3.89 (fair 3.70, +5.2% expected) Kent State Golden Flashes at UNC Wilmington Seahawks (Wed 7:00PM)",
+  "Abilene Christian Wildcats @ BetRivers 3.35 (fair 3.22, +4.0% expected) Stephen F. Austin Lumberjacks at Abilene Christian Wildcats (Wed 8:00PM)",
+  "California Golden Bears @ FanDuel 4.15 (fair 4.02, +3.4% expected) USC Trojans at California Golden Bears (Wed 11:00PM)"
  ],
- "open_bets": 7,
+ "open_bets": 10,
  "record": {
   "value": {
    "bets": 2,

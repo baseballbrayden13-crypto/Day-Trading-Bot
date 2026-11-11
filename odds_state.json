@@ -146,6 +146,63 @@
     }
    ],
    "opened": "2026-11-11T16:17:42+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Kent State Golden Flashes at UNC Wilmington Seahawks",
+   "game_id": "015a3bad9e6d4b3ce108f6e7c663ed88",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-12T00:00:00Z",
+   "edge": 0.0516,
+   "home": "UNC Wilmington Seahawks",
+   "away": "Kent State Golden Flashes",
+   "legs": [
+    {
+     "team": "Kent State Golden Flashes",
+     "book": "BetOnline.ag",
+     "odds": 3.89,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-11T22:53:52+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Stephen F. Austin Lumberjacks at Abilene Christian Wildcats",
+   "game_id": "5d71d9f77f845ab0748462e4714c0215",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-12T01:00:00Z",
+   "edge": 0.0405,
+   "home": "Abilene Christian Wildcats",
+   "away": "Stephen F. Austin Lumberjacks",
+   "legs": [
+    {
+     "team": "Abilene Christian Wildcats",
+     "book": "BetRivers",
+     "odds": 3.35,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-11T22:53:52+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "USC Trojans at California Golden Bears",
+   "game_id": "92cc2f2a169d4efd4f1a0ac9d25672bc",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-12T04:00:00Z",
+   "edge": 0.0335,
+   "home": "California Golden Bears",
+   "away": "USC Trojans",
+   "legs": [
+    {
+     "team": "California Golden Bears",
+     "book": "FanDuel",
+     "odds": 4.15,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-11T22:53:52+00:00"
   }
  ],
  "seen": {
@@ -157,18 +214,21 @@
   "arb|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes@Kalshi|UNC Wilmington Seahawks@BetMGM": "2026-11-11T01:17:25.257882+00:00",
   "arb|e6a37eea1dddcbd0384c81237e81f47f|Brooklyn Nets@Bovada|New Orleans Pelicans@FanDuel": "2026-11-11T16:17:42.264504+00:00",
   "value|eb4ac6c20fe9cf690a2a2409335a3341|Florida A&M Rattlers|BetRivers": "2026-11-11T16:17:42.264504+00:00",
-  "value|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes|FanDuel": "2026-11-11T16:17:42.264504+00:00"
+  "value|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes|FanDuel": "2026-11-11T16:17:42.264504+00:00",
+  "value|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes|BetOnline.ag": "2026-11-11T22:53:52.925382+00:00",
+  "value|5d71d9f77f845ab0748462e4714c0215|Abilene Christian Wildcats|BetRivers": "2026-11-11T22:53:52.925382+00:00",
+  "value|92cc2f2a169d4efd4f1a0ac9d25672bc|California Golden Bears|FanDuel": "2026-11-11T22:53:52.925382+00:00"
  },
  "credits": {
   "day": "2026-11-11",
-  "spent": 5,
-  "remaining": 461
+  "spent": 10,
+  "remaining": 456
  },
  "last_priced": {
-  "basketball_nba": "2026-11-11T16:17:42.264504+00:00",
-  "icehockey_nhl": "2026-11-11T16:17:42.264504+00:00",
-  "americanfootball_ncaaf": "2026-11-11T16:17:42.264504+00:00",
-  "basketball_ncaab": "2026-11-11T16:17:42.264504+00:00",
-  "americanfootball_nfl": "2026-11-11T16:17:42.264504+00:00"
+  "basketball_nba": "2026-11-11T22:53:52.925382+00:00",
+  "icehockey_nhl": "2026-11-11T22:53:52.925382+00:00",
+  "americanfootball_ncaaf": "2026-11-11T22:53:52.925382+00:00",
+  "basketball_ncaab": "2026-11-11T22:53:52.925382+00:00",
+  "americanfootball_nfl": "2026-11-11T22:53:52.925382+00:00"
  }
 }
