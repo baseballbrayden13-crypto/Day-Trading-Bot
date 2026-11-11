@@ -2434,21 +2434,21 @@
  ],
  "quotes": [
   {
-   "event": "KXVALORANTMAP-26NOV110700SALXE-2",
+   "event": "KXVALORANTMAP-26NOV110700NONONE-2",
    "series": "KXVALORANTMAP",
-   "title": "Salamander vs. Xipto Esports: Map 2 Winner",
-   "ticker": "KXVALORANTMAP-26NOV110700SALXE-2-SAL",
-   "order_id": "paper-954-1794404868",
-   "price": "0.1200",
+   "title": "NongKaiTod vs. OneOPae: Map 2 Winner",
+   "ticker": "KXVALORANTMAP-26NOV110700NONONE-2-ONE",
+   "order_id": "paper-956-1794407587",
+   "price": "0.1400",
    "sets": 2,
    "done": 0,
-   "reserve": "1.7800",
+   "reserve": "1.3000",
    "multiplier": "1",
-   "placed": 1794404868.464889,
+   "placed": 1794407587.9644241,
    "hedge": [
     {
-     "ticker": "KXVALORANTMAP-26NOV110700SALXE-2-XE",
-     "limit": "0.7900"
+     "ticker": "KXVALORANTMAP-26NOV110700NONONE-2-NON",
+     "limit": "0.6400"
     }
    ]
   }
