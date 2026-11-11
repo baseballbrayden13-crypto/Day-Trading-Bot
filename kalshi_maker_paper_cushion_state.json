@@ -27,25 +27,5 @@
    "closed": "2026-11-11T02:29:43.874734+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAWBGAME-26NOV12CONNOSU",
-   "series": "KXNCAAWBGAME",
-   "title": "UConn vs Ohio St.",
-   "ticker": "KXNCAAWBGAME-26NOV12CONNOSU-OSU",
-   "order_id": "paper-26-1794417630",
-   "price": "0.3800",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.6300",
-   "multiplier": "1",
-   "placed": 1794417630.1787868,
-   "hedge": [
-    {
-     "ticker": "KXNCAAWBGAME-26NOV12CONNOSU-CONN",
-     "limit": "0.5400"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
