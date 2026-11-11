@@ -27,25 +27,5 @@
    "closed": "2026-11-11T02:29:43.874734+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXR6MAP-26NOV110130GEELOS-1",
-   "series": "KXR6MAP",
-   "title": "Geekay Esports vs. LOS: Map 1 Winner",
-   "ticker": "KXR6MAP-26NOV110130GEELOS-1-LOS",
-   "order_id": "paper-22-1794375191",
-   "price": "0.4000",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.6900",
-   "multiplier": "1",
-   "placed": 1794375191.640894,
-   "hedge": [
-    {
-     "ticker": "KXR6MAP-26NOV110130GEELOS-1-GEE",
-     "limit": "0.4200"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
