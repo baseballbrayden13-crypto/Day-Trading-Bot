@@ -2434,21 +2434,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLMPGAME-26NOV102230CULMXL",
-   "series": "KXLMPGAME",
-   "title": "Tomateros de Culiacan vs Aguilas de Mexicali",
-   "ticker": "KXLMPGAME-26NOV102230CULMXL-MXL",
-   "order_id": "paper-939-1794367888",
-   "price": "0.1900",
-   "sets": 2,
+   "event": "KXNCAAWBGAME-26NOV11FORBUCK",
+   "series": "KXNCAAWBGAME",
+   "title": "Fordham vs Bucknell",
+   "ticker": "KXNCAAWBGAME-26NOV11FORBUCK-FOR",
+   "order_id": "paper-944-1794369708",
+   "price": "0.5100",
+   "sets": 3,
    "done": 0,
-   "reserve": "1.6700",
+   "reserve": "2.8800",
    "multiplier": "1",
-   "placed": 1794367888.0514452,
+   "placed": 1794369708.7159517,
    "hedge": [
     {
-     "ticker": "KXLMPGAME-26NOV102230CULMXL-CUL",
-     "limit": "0.6200"
+     "ticker": "KXNCAAWBGAME-26NOV11FORBUCK-BUCK",
+     "limit": "0.4300"
     }
    ]
   }

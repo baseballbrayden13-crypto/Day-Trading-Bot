@@ -7398,3 +7398,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-10 22:56:44,650 INFO Resting NO bid on KXNBAWINMARGIN-26NOV10LACPHX-LAC21PLUS at $0.7200 x1 (KXNBAWINMARGIN-26NOV10LACPHX): locks in $0.13 if it fills; hedge NO PHX11TO20@0.7700, PHX21PLUS@0.3300
 2026-11-10 22:56:44,677 INFO Swept 20051 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-10 22:59:47,050 INFO Quote KXNBAWINMARGIN-26NOV10LACPHX cancelled (0/1 filled)
+2026-11-10 23:01:46,652 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 23:01:48,715 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV11FORBUCK-FOR at $0.5100 x3 (0 already bid at that price)
+2026-11-10 23:01:48,715 INFO Resting NO bid on KXNCAAWBGAME-26NOV11FORBUCK-FOR at $0.5100 x3 (KXNCAAWBGAME-26NOV11FORBUCK): locks in $0.12 if it fills; hedge NO BUCK@0.4300
+2026-11-10 23:01:48,742 INFO Swept 20029 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-10 23:06:47,717 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 23:06:49,174 INFO Swept 20012 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 23:11:48,356 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 23:11:49,813 INFO Swept 20008 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 23:16:49,542 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 23:16:51,069 INFO PAPER rest NO bid KXNBAWINMARGIN-26NOV10LACPHX-LAC21PLUS at $0.7200 x1 (0 already bid at that price)
+2026-11-10 23:16:51,069 INFO Resting NO bid on KXNBAWINMARGIN-26NOV10LACPHX-LAC21PLUS at $0.7200 x1 (KXNBAWINMARGIN-26NOV10LACPHX): locks in $0.19 if it fills; hedge NO PHX11TO20@0.9600, PHX21PLUS@0.1000
+2026-11-10 23:16:51,101 INFO Swept 20009 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-10 23:21:51,194 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 23:21:52,627 INFO Swept 20020 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 23:21:52,711 INFO Quote KXNBAWINMARGIN-26NOV10LACPHX cancelled (0/1 filled)
+2026-11-10 23:26:51,059 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 23:26:52,543 INFO Swept 20024 events: 0 taker trades, 0 new quotes, 1 resting
