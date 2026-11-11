@@ -493,3 +493,16 @@
 2026-11-11 12:55:41,683 INFO Swept 20424 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 13:00:41,696 INFO Swept 20417 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 13:05:40,386 INFO Swept 20406 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 13:10:43,506 INFO Swept 20420 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 13:15:46,944 INFO PAPER rest NO bid KXLIIGAGAME-26NOV111130JOKHIF-HIF at $0.1500 x1 (0 already bid at that price)
+2026-11-11 13:15:46,944 INFO Resting NO bid on KXLIIGAGAME-26NOV111130JOKHIF-HIF at $0.1500 x1 (KXLIIGAGAME-26NOV111130JOKHIF): locks in $0.21 if it fills; hedge NO JOK@0.6100
+2026-11-11 13:15:46,945 INFO Swept 20435 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 13:18:38,712 INFO PAPER KXLIIGAGAME-26NOV111130JOKHIF-HIF NO bid at $0.1500: 1/1 filled by real trades
+2026-11-11 13:18:38,736 INFO PAPER buy 1 NO KXLIIGAGAME-26NOV111130JOKHIF-JOK at up to $0.6100: not on the book
+2026-11-11 13:18:38,760 INFO PAPER buy 1 NO KXLIIGAGAME-26NOV111130JOKHIF-JOK at up to $0.87: not on the book
+2026-11-11 13:18:38,760 WARNING Quote KXLIIGAGAME-26NOV111130JOKHIF: hedge missed on KXLIIGAGAME-26NOV111130JOKHIF-JOK. Selling back 1 contracts on 1 legs.
+2026-11-11 13:18:38,784 INFO PAPER sell 1 YES KXLIIGAGAME-26NOV111130JOKHIF-HIF at up to $0.9000: filled 1
+2026-11-11 13:20:47,574 INFO Swept 20448 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 13:25:51,325 INFO Swept 20479 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 13:30:53,220 INFO Swept 20498 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 13:35:54,960 INFO Swept 20512 events: 0 taker trades, 0 new quotes, 0 resting

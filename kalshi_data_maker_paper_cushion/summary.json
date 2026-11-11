@@ -1,21 +1,23 @@
 {
- "updated": "2026-11-11T18:03:46+00:00",
+ "updated": "2026-11-11T18:34:03+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.20",
- "equity": "19.49",
- "realized_profit": "-0.51",
- "bet_level": "19.49",
+ "equity": "19.42",
+ "realized_profit": "-0.58",
+ "bet_level": "19.42",
  "open_trades": 0,
  "open_locked_profit": "0.00",
  "in_play": "0.00",
  "stray_positions": 0,
  "closed_trades": 0,
  "trades_this_loop": 0,
- "events_swept": 20406,
+ "events_swept": 20512,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 0,
- "last_problems": []
+ "problems": 1,
+ "last_problems": [
+  "2026-11-11 18:18 Quote KXLIIGAGAME-26NOV111130JOKHIF: hedge missed on KXLIIGAGAME-26NOV111130JOKHIF-JOK. Selling back 1 contracts on 1 legs."
+ ]
 }
