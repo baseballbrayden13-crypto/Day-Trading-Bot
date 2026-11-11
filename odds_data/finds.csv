@@ -9,3 +9,6 @@ time,kind,sport,game,start,team,book,odds,fair,edge,picks
 2026-11-10T20:29:58+00:00,value,basketball_ncaab,Nicholls St Colonels at Tulane Green Wave,2026-11-11T00:30:00Z,Nicholls St Colonels,BetRivers,4.7,0.2208,0.0378,
 2026-11-11T01:17:25+00:00,value,basketball_nba,Golden State Warriors at Houston Rockets,2026-11-12T02:40:00Z,Golden State Warriors,FanDuel,2.8,0.3723,0.0423,
 2026-11-11T01:17:25+00:00,arb,basketball_ncaab,Kent State Golden Flashes at UNC Wilmington Seahawks,2026-11-12T00:00:00Z,,,,,0.0271,Kent State Golden Flashes @ Kalshi 3.521 $29.17; UNC Wilmington Seahawks @ BetMGM 1.45 $70.83
+2026-11-11T16:17:42+00:00,arb,basketball_nba,Brooklyn Nets at New Orleans Pelicans,2026-11-12T01:10:00Z,,,,,0.0086,Brooklyn Nets @ Bovada 2.7 $37.35; New Orleans Pelicans @ FanDuel 1.61 $62.65
+2026-11-11T16:17:42+00:00,value,basketball_ncaab,UMKC Kangaroos at Florida A&M Rattlers,2026-11-11T17:00:00Z,Florida A&M Rattlers,BetRivers,4.0,0.2596,0.0385,
+2026-11-11T16:17:42+00:00,value,basketball_ncaab,Kent State Golden Flashes at UNC Wilmington Seahawks,2026-11-12T00:00:00Z,Kent State Golden Flashes,FanDuel,4.2,0.2488,0.045,

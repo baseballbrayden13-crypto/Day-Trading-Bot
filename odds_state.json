@@ -83,6 +83,69 @@
     }
    ],
    "opened": "2026-11-11T01:17:25+00:00"
+  },
+  {
+   "kind": "arb",
+   "game": "Brooklyn Nets at New Orleans Pelicans",
+   "game_id": "e6a37eea1dddcbd0384c81237e81f47f",
+   "sport": "basketball_nba",
+   "start": "2026-11-12T01:10:00Z",
+   "edge": 0.0086,
+   "home": "New Orleans Pelicans",
+   "away": "Brooklyn Nets",
+   "legs": [
+    {
+     "team": "Brooklyn Nets",
+     "book": "Bovada",
+     "odds": 2.7,
+     "stake": 37.35
+    },
+    {
+     "team": "New Orleans Pelicans",
+     "book": "FanDuel",
+     "odds": 1.61,
+     "stake": 62.65
+    }
+   ],
+   "opened": "2026-11-11T16:17:42+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "UMKC Kangaroos at Florida A&M Rattlers",
+   "game_id": "eb4ac6c20fe9cf690a2a2409335a3341",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-11T17:00:00Z",
+   "edge": 0.0385,
+   "home": "Florida A&M Rattlers",
+   "away": "UMKC Kangaroos",
+   "legs": [
+    {
+     "team": "Florida A&M Rattlers",
+     "book": "BetRivers",
+     "odds": 4.0,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-11T16:17:42+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Kent State Golden Flashes at UNC Wilmington Seahawks",
+   "game_id": "015a3bad9e6d4b3ce108f6e7c663ed88",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-12T00:00:00Z",
+   "edge": 0.045,
+   "home": "UNC Wilmington Seahawks",
+   "away": "Kent State Golden Flashes",
+   "legs": [
+    {
+     "team": "Kent State Golden Flashes",
+     "book": "FanDuel",
+     "odds": 4.2,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-11T16:17:42+00:00"
   }
  ],
  "seen": {
@@ -91,17 +154,21 @@
   "value|6e5f0afa161cb1c7b90a86be779800bf|Evansville Purple Aces|FanDuel": "2026-11-10T20:29:58.362392+00:00",
   "value|1bdd1ebc0dbf42b45f00e0e042a95bbc|Nicholls St Colonels|BetRivers": "2026-11-10T20:29:58.362392+00:00",
   "value|f41d186dc7a7dcf01adab32579a82ca3|Golden State Warriors|FanDuel": "2026-11-11T01:17:25.257882+00:00",
-  "arb|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes@Kalshi|UNC Wilmington Seahawks@BetMGM": "2026-11-11T01:17:25.257882+00:00"
+  "arb|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes@Kalshi|UNC Wilmington Seahawks@BetMGM": "2026-11-11T01:17:25.257882+00:00",
+  "arb|e6a37eea1dddcbd0384c81237e81f47f|Brooklyn Nets@Bovada|New Orleans Pelicans@FanDuel": "2026-11-11T16:17:42.264504+00:00",
+  "value|eb4ac6c20fe9cf690a2a2409335a3341|Florida A&M Rattlers|BetRivers": "2026-11-11T16:17:42.264504+00:00",
+  "value|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes|FanDuel": "2026-11-11T16:17:42.264504+00:00"
  },
  "credits": {
   "day": "2026-11-11",
-  "spent": 0,
-  "remaining": 466
+  "spent": 5,
+  "remaining": 461
  },
  "last_priced": {
-  "basketball_nba": "2026-11-11T01:17:25.257882+00:00",
-  "icehockey_nhl": "2026-11-11T01:17:25.257882+00:00",
-  "americanfootball_ncaaf": "2026-11-11T01:17:25.257882+00:00",
-  "basketball_ncaab": "2026-11-11T01:17:25.257882+00:00"
+  "basketball_nba": "2026-11-11T16:17:42.264504+00:00",
+  "icehockey_nhl": "2026-11-11T16:17:42.264504+00:00",
+  "americanfootball_ncaaf": "2026-11-11T16:17:42.264504+00:00",
+  "basketball_ncaab": "2026-11-11T16:17:42.264504+00:00",
+  "americanfootball_nfl": "2026-11-11T16:17:42.264504+00:00"
  }
 }
