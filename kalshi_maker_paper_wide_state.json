@@ -83,6 +83,36 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXLIGAMXWGAME-26NOV11PACMTY",
+   "series": "KXLIGAMXWGAME",
+   "title": "CF Pachuca (women) vs CF Monterrey (women)",
+   "sets": 2,
+   "outlay": "4.0800",
+   "locked_profit": "-0.0800",
+   "opened": "2026-11-11T23:32:03.843551+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-PAC",
+     "side": "no",
+     "count": 2,
+     "limit": "0.4400"
+    },
+    {
+     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-MTY",
+     "side": "no",
+     "count": 2,
+     "limit": "0.5900"
+    },
+    {
+     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.98"
+    }
+   ]
   }
  ],
  "closed": [
@@ -2434,25 +2464,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLIGAMXWGAME-26NOV11PACMTY",
-   "series": "KXLIGAMXWGAME",
-   "title": "CF Pachuca (women) vs CF Monterrey (women)",
-   "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-PAC",
-   "order_id": "paper-966-1794437786",
-   "price": "0.2600",
+   "event": "KXLUBGAME-26NOV111715LARDEF",
+   "series": "KXLUBGAME",
+   "title": "CS Larranaga vs Defensor Sporting",
+   "ticker": "KXLUBGAME-26NOV111715LARDEF-LAR",
+   "order_id": "paper-967-1794438999",
+   "price": "0.5200",
    "sets": 2,
    "done": 0,
-   "reserve": "3.7400",
+   "reserve": "1.6000",
    "multiplier": "1",
-   "placed": 1794437786.1975527,
+   "placed": 1794438999.126889,
    "hedge": [
     {
-     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-MTY",
-     "limit": "0.9100"
-    },
-    {
-     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-TIE",
-     "limit": "0.7400"
+     "ticker": "KXLUBGAME-26NOV111715LARDEF-DEF",
+     "limit": "0.2900"
     }
    ]
   }
