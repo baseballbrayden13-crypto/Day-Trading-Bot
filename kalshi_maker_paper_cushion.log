@@ -506,3 +506,9 @@
 2026-11-11 13:25:51,325 INFO Swept 20479 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 13:30:53,220 INFO Swept 20498 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 13:35:54,960 INFO Swept 20512 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 13:40:56,062 INFO Swept 20507 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 13:45:57,997 INFO Swept 20505 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 13:50:59,548 INFO PAPER rest NO bid KXLIIGAGAME-26NOV111130JOKHIF-HIF at $0.5400 x2 (0 already bid at that price)
+2026-11-11 13:50:59,548 INFO Resting NO bid on KXLIIGAGAME-26NOV111130JOKHIF-HIF at $0.5400 x2 (KXLIIGAGAME-26NOV111130JOKHIF): locks in $0.52 if it fills; hedge NO JOK@0.1800
+2026-11-11 13:50:59,549 INFO Swept 20504 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 13:51:14,722 INFO Stopped; all quotes cancelled.

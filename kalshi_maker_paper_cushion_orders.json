@@ -376,5 +376,19 @@
   "at_price": 0,
   "filled": 1,
   "status": "executed"
+ },
+ "paper-28-1794423059": {
+  "id": "paper-28-1794423059",
+  "ticker": "KXLIIGAGAME-26NOV111130JOKHIF-HIF",
+  "price": "0.5400",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794423059.5477662,
+  "checked": 1794423074.6964972,
+  "expires": 1794424859,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
