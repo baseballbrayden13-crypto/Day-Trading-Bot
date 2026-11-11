@@ -328,3 +328,9 @@
 2026-11-10 21:29:43,874 INFO Settled KXNBARACE-26NOV10LACPHX-10 (stray): paid $0, profit $-0.51
 2026-11-10 21:29:46,617 INFO Swept 20278 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 21:34:47,937 INFO Swept 20274 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 21:39:49,419 INFO Swept 20273 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 21:44:50,541 INFO PAPER rest NO bid KXLMPGAME-26NOV102130MOCMAZ-MAZ at $0.2400 x2 (0 already bid at that price)
+2026-11-10 21:44:50,541 INFO Resting NO bid on KXLMPGAME-26NOV102130MOCMAZ-MAZ at $0.2400 x2 (KXLMPGAME-26NOV102130MOCMAZ): locks in $0.23 if it fills; hedge NO MOC@0.6200
+2026-11-10 21:44:50,542 INFO Swept 20252 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 21:49:51,805 INFO Swept 20248 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 21:50:07,297 INFO Stopped; all quotes cancelled.
