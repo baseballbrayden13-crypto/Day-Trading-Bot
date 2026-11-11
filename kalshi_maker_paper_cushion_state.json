@@ -1,6 +1,25 @@
 {
- "realized": "-0.5800",
- "open": [],
+ "realized": "-0.9200",
+ "open": [
+  {
+   "event": "KXLIGAMXWGAME-26NOV11PACMTY (stray)",
+   "series": "KXLIGAMXWGAME",
+   "title": "CF Pachuca (women) vs CF Monterrey (women)",
+   "sets": 0,
+   "outlay": "1.68",
+   "locked_profit": "0",
+   "opened": "2026-11-11T23:32:01.348188+00:00",
+   "legs": [
+    {
+     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-MTY",
+     "side": "no",
+     "count": 2,
+     "limit": "0.83"
+    }
+   ],
+   "retried": 1794440281.6285665
+  }
+ ],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -25,29 +44,47 @@
     "KXNBARACE-26NOV10LACPHX-10-LAC": "yes"
    },
    "closed": "2026-11-11T02:29:43.874734+00:00"
+  },
+  {
+   "event": "KXLIGAMXWGAME-26NOV11PACMTY (stray)",
+   "series": "KXLIGAMXWGAME",
+   "title": "CF Pachuca (women) vs CF Monterrey (women)",
+   "sets": 0,
+   "outlay": "0.8900",
+   "locked_profit": "0",
+   "opened": "2026-11-11T23:32:01.330966+00:00",
+   "legs": [
+    {
+     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-PAC",
+     "side": "no",
+     "count": 2,
+     "limit": "0.4400"
+    }
+   ],
+   "retried": 1794439921.3482082,
+   "paid": "0.5800",
+   "pnl": "-0.3400",
+   "closed": "2026-11-11T23:32:01.365384+00:00",
+   "sold_back": true
   }
  ],
  "quotes": [
   {
-   "event": "KXLIGAMXWGAME-26NOV11PACMTY",
-   "series": "KXLIGAMXWGAME",
-   "title": "CF Pachuca (women) vs CF Monterrey (women)",
-   "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-PAC",
-   "order_id": "paper-29-1794437190",
-   "price": "0.1600",
+   "event": "KXLUBGAME-26NOV111715LARDEF",
+   "series": "KXLUBGAME",
+   "title": "CS Larranaga vs Defensor Sporting",
+   "ticker": "KXLUBGAME-26NOV111715LARDEF-LAR",
+   "order_id": "paper-30-1794439004",
+   "price": "0.5200",
    "sets": 2,
    "done": 0,
-   "reserve": "3.5800",
+   "reserve": "1.6400",
    "multiplier": "1",
-   "placed": 1794437190.8119197,
+   "placed": 1794439004.3486226,
    "hedge": [
     {
-     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-MTY",
-     "limit": "0.9300"
-    },
-    {
-     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-TIE",
-     "limit": "0.7500"
+     "ticker": "KXLUBGAME-26NOV111715LARDEF-DEF",
+     "limit": "0.2900"
     }
    ]
   }

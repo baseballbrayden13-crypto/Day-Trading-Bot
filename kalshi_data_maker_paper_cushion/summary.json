@@ -1,21 +1,25 @@
 {
- "updated": "2026-11-11T23:04:15+00:00",
+ "updated": "2026-11-11T23:34:32+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.20",
- "equity": "19.42",
- "realized_profit": "-0.58",
- "bet_level": "19.42",
- "open_trades": 0,
+ "equity": "19.08",
+ "realized_profit": "-0.92",
+ "bet_level": "19.08",
+ "open_trades": 1,
  "open_locked_profit": "0.00",
- "in_play": "0.00",
- "stray_positions": 0,
+ "in_play": "1.68",
+ "stray_positions": 1,
  "closed_trades": 0,
  "trades_this_loop": 0,
- "events_swept": 21071,
+ "events_swept": 21162,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 0,
- "last_problems": []
+ "problems": 3,
+ "last_problems": [
+  "2026-11-11 23:32 Quote KXLIGAMXWGAME-26NOV11PACMTY: hedge missed on KXLIGAMXWGAME-26NOV11PACMTY-TIE. Selling back 2 contracts on 2 legs.",
+  "2026-11-11 23:32 STRAY POSITION: 2 NO contracts of KXLIGAMXWGAME-26NOV11PACMTY-PAC still held. Check it on Kalshi.",
+  "2026-11-11 23:32 STRAY POSITION: 2 NO contracts of KXLIGAMXWGAME-26NOV11PACMTY-MTY still held. Check it on Kalshi."
+ ]
 }
