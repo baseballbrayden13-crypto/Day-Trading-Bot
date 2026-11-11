@@ -421,3 +421,12 @@
 2026-11-11 04:10:15,908 INFO Swept 20062 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 04:15:19,645 INFO Swept 20067 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 04:15:34,648 INFO Stopped; all quotes cancelled.
+2026-11-11 08:06:11,023 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-11 08:07:57,288 INFO PAPER rest NO bid KXDOTA2MAP-26NOV121400NEMIGAXE-1-NEMIGA at $0.0800 x2 (0 already bid at that price)
+2026-11-11 08:07:57,288 INFO Resting NO bid on KXDOTA2MAP-26NOV121400NEMIGAXE-1-NEMIGA at $0.0800 x2 (KXDOTA2MAP-26NOV121400NEMIGAXE-1): locks in $0.50 if it fills; hedge NO XE@0.6500
+2026-11-11 08:07:57,289 INFO Swept 20119 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 08:13:02,045 INFO Swept 20162 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 08:18:06,039 INFO Swept 20168 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 08:23:09,483 INFO Swept 20160 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 08:28:13,039 INFO Swept 20166 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 08:33:12,832 INFO Swept 20152 events: 0 taker trades, 0 new quotes, 1 resting
