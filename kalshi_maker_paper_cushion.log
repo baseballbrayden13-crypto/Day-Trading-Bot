@@ -287,3 +287,15 @@
 2026-11-10 19:53:49,626 INFO Swept 20126 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 19:58:54,518 INFO Swept 20118 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 20:03:58,847 INFO Swept 20133 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 20:09:03,628 INFO Swept 20177 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 20:14:07,475 INFO PAPER rest NO bid KXNCAAMBRACE-26NOV10ILLTTU-10-ILL at $0.2200 x2 (0 already bid at that price)
+2026-11-10 20:14:07,476 INFO Resting NO bid on KXNCAAMBRACE-26NOV10ILLTTU-10-ILL at $0.2200 x2 (KXNCAAMBRACE-26NOV10ILLTTU-10): locks in $0.71 if it fills; hedge NO TTU@0.4000
+2026-11-10 20:14:07,546 INFO PAPER rest NO bid KXNCAAMBGAME-26NOV13LIUFOR-FOR at $0.2400 x2 (0 already bid at that price)
+2026-11-10 20:14:07,546 INFO Resting NO bid on KXNCAAMBGAME-26NOV13LIUFOR-FOR at $0.2400 x2 (KXNCAAMBGAME-26NOV13LIUFOR): locks in $0.29 if it fills; hedge NO LIU@0.5900
+2026-11-10 20:14:07,546 INFO Swept 20193 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-10 20:14:50,140 INFO Quote KXNCAAMBGAME-26NOV13LIUFOR cancelled (0/2 filled)
+2026-11-10 20:19:08,692 INFO Swept 20198 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 20:19:08,914 INFO Quote KXNCAAMBRACE-26NOV10ILLTTU-10 cancelled (0/2 filled)
+2026-11-10 20:24:06,745 INFO Swept 20188 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 20:29:10,537 INFO Swept 20173 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 20:34:13,841 INFO Swept 20165 events: 0 taker trades, 0 new quotes, 0 resting
