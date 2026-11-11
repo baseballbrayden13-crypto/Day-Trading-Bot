@@ -349,3 +349,14 @@
 2026-11-10 22:48:38,281 INFO Quote KXNBAWINMARGIN-26NOV10LACPHX cancelled (0/2 filled)
 2026-11-10 22:52:28,802 INFO Swept 20059 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-10 22:57:29,431 INFO Swept 20049 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 23:02:29,019 INFO Swept 20029 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 23:07:32,296 INFO Swept 20011 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 23:12:35,490 INFO Swept 20003 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 23:17:41,561 INFO PAPER rest NO bid KXNBAWINMARGIN-26NOV10LACPHX-LAC21PLUS at $0.7200 x2 (0 already bid at that price)
+2026-11-10 23:17:41,561 INFO Resting NO bid on KXNBAWINMARGIN-26NOV10LACPHX-LAC21PLUS at $0.7200 x2 (KXNBAWINMARGIN-26NOV10LACPHX): locks in $0.42 if it fills; hedge NO PHX11TO20@0.9700, PHX21PLUS@0.0800
+2026-11-10 23:17:41,562 INFO Swept 20010 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 23:22:41,397 INFO Swept 20020 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 23:22:41,448 INFO Quote KXNBAWINMARGIN-26NOV10LACPHX cancelled (0/2 filled)
+2026-11-10 23:27:44,633 INFO PAPER rest NO bid KXNBARACE-26NOV10OKCPOR-20-OKC at $0.2300 x2 (0 already bid at that price)
+2026-11-10 23:27:44,633 INFO Resting NO bid on KXNBARACE-26NOV10OKCPOR-20-OKC at $0.2300 x2 (KXNBARACE-26NOV10OKCPOR-20): locks in $1.04 if it fills; hedge NO POR@0.2300
+2026-11-10 23:27:44,634 INFO Swept 20021 events: 0 taker trades, 1 new quotes, 1 resting

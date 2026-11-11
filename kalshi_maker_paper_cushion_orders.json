@@ -230,12 +230,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794367936.5339673,
-  "checked": 1794369630.749186,
+  "checked": 1794369736,
   "expires": 1794369736,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-18-1794368243": {
   "id": "paper-18-1794368243",
@@ -264,5 +264,33 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-20-1794370661": {
+  "id": "paper-20-1794370661",
+  "ticker": "KXNBAWINMARGIN-26NOV10LACPHX-LAC21PLUS",
+  "price": "0.7200",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794370661.56095,
+  "checked": 1794370961.4303834,
+  "expires": 1794372461,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-21-1794371264": {
+  "id": "paper-21-1794371264",
+  "ticker": "KXNBARACE-26NOV10OKCPOR-20-OKC",
+  "price": "0.2300",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794371264.6324894,
+  "checked": 1794371435.937932,
+  "expires": 1794373064,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
