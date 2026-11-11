@@ -2432,5 +2432,25 @@
    "closed": "2026-11-09T02:31:05.392862+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLMPGAME-26NOV102030NAVCDJ",
+   "series": "KXLMPGAME",
+   "title": "Mayos de Navojoa vs Charros de Jalisco",
+   "ticker": "KXLMPGAME-26NOV102030NAVCDJ-NAV",
+   "order_id": "paper-934-1794361776",
+   "price": "0.3000",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8100",
+   "multiplier": "1",
+   "placed": 1794361776.1094613,
+   "hedge": [
+    {
+     "ticker": "KXLMPGAME-26NOV102030NAVCDJ-CDJ",
+     "limit": "0.5800"
+    }
+   ]
+  }
+ ]
 }
