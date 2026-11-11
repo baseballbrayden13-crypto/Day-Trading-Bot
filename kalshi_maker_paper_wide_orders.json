@@ -13068,11 +13068,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794361776.0984612,
-  "checked": 1794362811.691048,
+  "checked": 1794363576,
   "expires": 1794363576,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-935-1794364495": {
+  "id": "paper-935-1794364495",
+  "ticker": "KXNBAWINMARGIN-26NOV10MILNYK-NYK1TO5",
+  "price": "0.7000",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794364495.2125976,
+  "checked": 1794364536.5411546,
+  "expires": 1794366295,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

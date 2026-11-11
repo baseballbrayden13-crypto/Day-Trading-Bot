@@ -7341,3 +7341,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-10 20:59:40,814 INFO Swept 20134 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-10 21:04:40,631 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-10 21:04:43,244 INFO Swept 20107 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 21:09:41,572 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 21:09:44,118 INFO Swept 20156 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 21:14:40,927 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 21:14:43,512 INFO Swept 20158 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 21:19:46,113 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 21:19:48,724 INFO Swept 20199 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 21:24:51,496 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 21:24:54,088 INFO Swept 20233 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 21:29:52,114 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 21:29:54,682 INFO Swept 20278 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 21:34:52,406 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 21:34:55,223 INFO PAPER rest NO bid KXNBAWINMARGIN-26NOV10MILNYK-NYK1TO5 at $0.7000 x1 (0 already bid at that price)
+2026-11-10 21:34:55,223 INFO Resting NO bid on KXNBAWINMARGIN-26NOV10MILNYK-NYK1TO5 at $0.7000 x1 (KXNBAWINMARGIN-26NOV10MILNYK): locks in $0.17 if it fills; hedge NO NYK6TO10@0.9800, NYK11TO15@0.9000, NYK16TO25@0.5200, NYK26PLUS@0.6600
+2026-11-10 21:34:55,346 INFO Swept 20274 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 21:35:36,623 INFO Quote KXNBAWINMARGIN-26NOV10MILNYK cancelled (0/1 filled)
