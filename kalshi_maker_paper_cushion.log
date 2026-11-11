@@ -275,3 +275,15 @@
 2026-11-10 19:23:42,607 INFO Swept 20031 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 19:28:44,222 INFO Swept 20047 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 19:33:46,274 INFO Swept 20052 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 19:38:48,074 INFO PAPER rest NO bid KXNCAAMBRACE-26NOV10MEMVAN-10-MEM at $0.3600 x1 (0 already bid at that price)
+2026-11-10 19:38:48,074 INFO Resting NO bid on KXNCAAMBRACE-26NOV10MEMVAN-10-MEM at $0.3600 x1 (KXNCAAMBRACE-26NOV10MEMVAN-10): locks in $0.21 if it fills; hedge NO VAN@0.4000
+2026-11-10 19:38:48,075 INFO Swept 20126 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 19:41:01,644 INFO Quote KXNCAAMBRACE-26NOV10MEMVAN-10 cancelled (0/1 filled)
+2026-11-10 19:43:47,450 INFO Swept 20121 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 19:48:47,575 INFO PAPER rest NO bid KXNCAAMB1H-26NOV10WSUDUQ-TIE at $0.4000 x2 (0 already bid at that price)
+2026-11-10 19:48:47,575 INFO Resting NO bid on KXNCAAMB1H-26NOV10WSUDUQ-TIE at $0.4000 x2 (KXNCAAMB1H-26NOV10WSUDUQ): locks in $0.37 if it fills; hedge NO WSU@0.5000, DUQ@0.8800
+2026-11-10 19:48:47,576 INFO Swept 20129 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 19:49:49,655 INFO Quote KXNCAAMB1H-26NOV10WSUDUQ cancelled (0/2 filled)
+2026-11-10 19:53:49,626 INFO Swept 20126 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 19:58:54,518 INFO Swept 20118 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 20:03:58,847 INFO Swept 20133 events: 0 taker trades, 0 new quotes, 0 resting
