@@ -7730,3 +7730,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 17:00:55,689 INFO Swept 20940 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 17:05:58,521 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-11 17:06:03,407 INFO Swept 20928 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 17:11:00,018 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 17:11:05,264 INFO Swept 21013 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 17:16:03,386 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 17:16:08,572 INFO PAPER rest NO bid KXLVBPGAME-26NOV111800LARLAG-LAG at $0.4300 x5 (0 already bid at that price)
+2026-11-11 17:16:08,572 INFO Resting NO bid on KXLVBPGAME-26NOV111800LARLAG-LAG at $0.4300 x5 (KXLVBPGAME-26NOV111800LARLAG): locks in $0.13 if it fills; hedge NO LAR@0.5200
+2026-11-11 17:16:08,722 INFO Swept 21009 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 17:18:28,253 INFO Quote KXLVBPGAME-26NOV111800LARLAG cancelled (0/5 filled)
+2026-11-11 17:21:06,817 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 17:21:11,659 INFO PAPER rest NO bid KXLIGAMXWGAME-26NOV11CFATOL-CFA at $0.0600 x2 (24 already bid at that price)
+2026-11-11 17:21:11,659 INFO Resting NO bid on KXLIGAMXWGAME-26NOV11CFATOL-CFA at $0.06 x2 (KXLIGAMXWGAME-26NOV11CFATOL): locks in $0.10 if it fills; hedge NO TOL@0.8900, TIE@0.9800
+2026-11-11 17:21:11,778 INFO Swept 21012 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 17:26:08,301 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 17:26:13,102 INFO Swept 21008 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 17:31:10,094 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 17:31:14,942 INFO Swept 21024 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 17:36:13,176 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 17:36:18,302 INFO Swept 21040 events: 0 taker trades, 0 new quotes, 1 resting

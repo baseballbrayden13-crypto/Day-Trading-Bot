@@ -2432,5 +2432,29 @@
    "closed": "2026-11-09T02:31:05.392862+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGAMXWGAME-26NOV11CFATOL",
+   "series": "KXLIGAMXWGAME",
+   "title": "Club America Mexico (women) vs Deportivo Toluca FC (women)",
+   "ticker": "KXLIGAMXWGAME-26NOV11CFATOL-CFA",
+   "order_id": "paper-965-1794435671",
+   "price": "0.06",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.9000",
+   "multiplier": "1",
+   "placed": 1794435671.6596103,
+   "hedge": [
+    {
+     "ticker": "KXLIGAMXWGAME-26NOV11CFATOL-TOL",
+     "limit": "0.8900"
+    },
+    {
+     "ticker": "KXLIGAMXWGAME-26NOV11CFATOL-TIE",
+     "limit": "0.9800"
+    }
+   ]
+  }
+ ]
 }
