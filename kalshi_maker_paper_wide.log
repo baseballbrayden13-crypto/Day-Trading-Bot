@@ -7288,3 +7288,24 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-10 19:28:54,785 INFO Swept 20052 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-10 19:33:51,907 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-10 19:33:54,445 INFO Swept 20052 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 19:38:56,472 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 19:38:59,398 INFO PAPER rest NO bid KXNHL1P-26NOV10WSHOTT-TIE at $0.4200 x2 (0 already bid at that price)
+2026-11-10 19:38:59,399 INFO Resting NO bid on KXNHL1P-26NOV10WSHOTT-TIE at $0.4200 x2 (KXNHL1P-26NOV10WSHOTT): locks in $0.15 if it fills; hedge NO WSH@0.4800
+2026-11-10 19:38:59,478 INFO PAPER rest NO bid KXNCAAMBRACE-26NOV10MEMVAN-10-MEM at $0.3600 x1 (0 already bid at that price)
+2026-11-10 19:38:59,478 INFO Resting NO bid on KXNCAAMBRACE-26NOV10MEMVAN-10-MEM at $0.3600 x1 (KXNCAAMBRACE-26NOV10MEMVAN-10): locks in $0.21 if it fills; hedge NO VAN@0.4000
+2026-11-10 19:38:59,620 INFO Swept 20126 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-10 19:39:05,153 INFO Quote KXNHL1P-26NOV10WSHOTT cancelled (0/2 filled)
+2026-11-10 19:41:03,862 INFO Quote KXNCAAMBRACE-26NOV10MEMVAN-10 cancelled (0/1 filled)
+2026-11-10 19:44:00,491 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 19:44:03,050 INFO Swept 20121 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 19:49:04,323 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 19:49:06,953 INFO PAPER rest NO bid KXNCAAMB1H-26NOV10WSUDUQ-TIE at $0.4000 x2 (0 already bid at that price)
+2026-11-10 19:49:06,953 INFO Resting NO bid on KXNCAAMB1H-26NOV10WSUDUQ-TIE at $0.4000 x2 (KXNCAAMB1H-26NOV10WSUDUQ): locks in $0.37 if it fills; hedge NO WSU@0.5000, DUQ@0.8800
+2026-11-10 19:49:07,084 INFO Swept 20129 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 19:50:14,139 INFO Quote KXNCAAMB1H-26NOV10WSUDUQ cancelled (0/2 filled)
+2026-11-10 19:54:05,382 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 19:54:08,633 INFO Swept 20126 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 19:59:09,844 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 19:59:12,493 INFO Swept 20118 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 20:04:13,103 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-10 20:04:15,618 INFO Swept 20145 events: 0 taker trades, 0 new quotes, 0 resting
