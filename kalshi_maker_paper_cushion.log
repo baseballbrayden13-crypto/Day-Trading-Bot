@@ -360,3 +360,10 @@
 2026-11-10 23:27:44,633 INFO PAPER rest NO bid KXNBARACE-26NOV10OKCPOR-20-OKC at $0.2300 x2 (0 already bid at that price)
 2026-11-10 23:27:44,633 INFO Resting NO bid on KXNBARACE-26NOV10OKCPOR-20-OKC at $0.2300 x2 (KXNBARACE-26NOV10OKCPOR-20): locks in $1.04 if it fills; hedge NO POR@0.2300
 2026-11-10 23:27:44,634 INFO Swept 20021 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 23:32:49,291 INFO Swept 19991 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 23:37:53,496 INFO Swept 19976 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 23:38:33,948 INFO Quote KXNBARACE-26NOV10OKCPOR-20 cancelled (0/2 filled)
+2026-11-10 23:42:55,533 INFO Swept 19965 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 23:47:56,800 INFO Swept 19968 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 23:52:57,830 INFO Swept 19928 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-10 23:57:58,112 INFO Swept 19919 events: 0 taker trades, 0 new quotes, 0 resting
