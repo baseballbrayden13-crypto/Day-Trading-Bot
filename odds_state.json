@@ -40,44 +40,6 @@
   },
   {
    "kind": "value",
-   "game": "Evansville Purple Aces at Middle Tennessee Blue Raiders",
-   "game_id": "6e5f0afa161cb1c7b90a86be779800bf",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-11T00:30:00Z",
-   "edge": 0.0841,
-   "home": "Middle Tennessee Blue Raiders",
-   "away": "Evansville Purple Aces",
-   "legs": [
-    {
-     "team": "Evansville Purple Aces",
-     "book": "FanDuel",
-     "odds": 5.0,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-10T20:29:58+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Nicholls St Colonels at Tulane Green Wave",
-   "game_id": "1bdd1ebc0dbf42b45f00e0e042a95bbc",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-11T00:30:00Z",
-   "edge": 0.0378,
-   "home": "Tulane Green Wave",
-   "away": "Nicholls St Colonels",
-   "legs": [
-    {
-     "team": "Nicholls St Colonels",
-     "book": "BetRivers",
-     "odds": 4.7,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-10T20:29:58+00:00"
-  },
-  {
-   "kind": "value",
    "game": "Golden State Warriors at Houston Rockets",
    "game_id": "f41d186dc7a7dcf01adab32579a82ca3",
    "sport": "basketball_nba",
@@ -132,8 +94,8 @@
   "arb|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes@Kalshi|UNC Wilmington Seahawks@BetMGM": "2026-11-11T01:17:25.257882+00:00"
  },
  "credits": {
-  "day": "2026-11-10",
-  "spent": 8,
+  "day": "2026-11-11",
+  "spent": 0,
   "remaining": 466
  },
  "last_priced": {

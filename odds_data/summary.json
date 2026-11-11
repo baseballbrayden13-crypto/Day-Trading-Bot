@@ -1,32 +1,24 @@
 {
- "updated": "2026-11-11T01:17:25+00:00",
+ "updated": "2026-11-11T07:50:33+00:00",
  "scan": {
-  "sports": [
-   "basketball_nba",
-   "icehockey_nhl",
-   "americanfootball_ncaaf",
-   "basketball_ncaab"
-  ],
-  "games": 68,
-  "kalshi_matched": 58,
+  "sports": [],
+  "games": 0,
+  "kalshi_matched": 0,
   "skipped": [],
-  "pinnacle": 19,
+  "note": "quiet hours",
   "credits_left": 466,
-  "spent_today": 8,
-  "allowance": 22
+  "spent_today": 0,
+  "allowance": 23
  },
- "new_finds": [
-  "Golden State Warriors @ FanDuel 2.8 (fair 2.69, +4.2% expected) Golden State Warriors at Houston Rockets (Wed 9:40PM)",
-  "ARB 2.7% locked: Kent State Golden Flashes at UNC Wilmington Seahawks (Wed 7:00PM): $29 Kent State Golden Flashes @ Kalshi 3.521, $71 UNC Wilmington Seahawks @ BetMGM 1.45"
- ],
- "open_bets": 6,
+ "new_finds": [],
+ "open_bets": 4,
  "record": {
   "value": {
-   "bets": 0,
+   "bets": 2,
    "wins": 0,
-   "staked": 0,
-   "pnl": 0,
-   "roi": 0.0
+   "staked": 20.0,
+   "pnl": -20.0,
+   "roi": -1.0
   },
   "kalshi": {
    "bets": 0,
@@ -43,11 +35,11 @@
    "roi": 0.0
   },
   "all": {
-   "bets": 0,
+   "bets": 2,
    "wins": 0,
-   "staked": 0,
-   "pnl": 0,
-   "roi": 0.0
+   "staked": 20.0,
+   "pnl": -20.0,
+   "roi": -1.0
   }
  }
 }
