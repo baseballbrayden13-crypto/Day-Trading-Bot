@@ -40,6 +40,8 @@ import requests
 log = logging.getLogger("sports")
 ET = ZoneInfo("America/New_York")
 ESPN = "https://site.api.espn.com/apis/site/v2/sports"
+CORE = "https://sports.core.api.espn.com/v2/sports"  # per-game odds, still there after the game (scoreboards drop them)
+VERSION = 2  # bump to re-rate everything from scratch on the next run
 DATA = Path("sports_data")
 STATE = DATA / "state.json"
 
@@ -152,6 +154,19 @@ def espn_scoreboard(league: str, day: str, http=None) -> dict:
     return {}
 
 
+def espn_game_odds(league: str, gid: str, http=None) -> dict:
+    """ESPN's saved odds for one game ({"odds": [...]}, same shape _line reads). Any trouble = no line."""
+    http = http or requests
+    sport, lg = LEAGUES[league][1].split("/")
+    try:
+        r = http.get(f"{CORE}/{sport}/leagues/{lg}/events/{gid}/competitions/{gid}/odds", timeout=20)
+        r.raise_for_status()
+        return {"odds": r.json().get("items", [])}
+    except Exception as e:
+        log.debug("ESPN odds %s %s: %s", league, gid, e)
+        return {}
+
+
 def _line(comp: dict) -> tuple[float, float] | None:
     """(home, away) decimal moneyline from the first ESPN odds entry that has both sides."""
     for o in comp.get("odds") or []:
@@ -218,13 +233,16 @@ def team(ratings: dict, tid: str, day: str) -> list:
 
 # ---------- one league ----------
 
-def grade_final(league: str, g: dict, ratings: dict, cfg: dict, day: str) -> tuple[dict, dict | None]:
-    """Rates a final, returns its graded row and the pick the rule would have made before it (if any)."""
+def grade_final(league: str, g: dict, ratings: dict, cfg: dict, day: str, lookup=None) -> tuple[dict, dict | None]:
+    """Rates a final, returns its graded row and the pick the rule would have made before it (if any).
+    lookup(league, id) finds the line when the scoreboard no longer shows one (only asked for seasoned two-way games)."""
     _, _, _, k, edge, margin, two_way = LEAGUES[league]
     hfa = 0 if g["neutral"] else edge
     h, a = team(ratings, g["home"], day), team(ratings, g["away"], day)
     p = win_chance(h[0], a[0], hfa)
     seasoned = min(h[1], a[1]) >= cfg["min_games"]
+    if not g["line"] and lookup and two_way and seasoned:
+        g["line"] = lookup(league, g["id"])
     hs, as_ = g["home_score"], g["away_score"]
     home_won = None if hs == as_ else hs > as_
     market = no_vig(*g["line"]) if g["line"] else None
@@ -245,11 +263,17 @@ def grade_final(league: str, g: dict, ratings: dict, cfg: dict, day: str) -> tup
     return row, pick
 
 
-def update_league(league: str, state: dict, cfg: dict, today: date, board=espn_scoreboard) -> dict:
+def update_league(league: str, state: dict, cfg: dict, today: date, board=espn_scoreboard, odds=espn_game_odds) -> dict:
     """Rates every finished day since last time, then prices today. Returns this league's news."""
     lg = state.setdefault("leagues", {}).setdefault(league, {"ratings": {}, "through": None})
     ratings = lg["ratings"]
     names = state.setdefault("names", {}).setdefault(league, {})
+    saved = state.setdefault("lines", {}).setdefault(league, {})  # pre-game lines seen on earlier runs
+
+    def lookup(lg_key, gid):
+        if gid in saved:
+            return tuple(saved[gid])
+        return _line(odds(lg_key, gid))
     first = lg["through"] is None
     start = today - timedelta(days=cfg["backfill"]) if first else date.fromisoformat(lg["through"]) + timedelta(days=1)
     news = {"finals": [], "graded": [], "test_picks": [], "today": []}
@@ -259,7 +283,8 @@ def update_league(league: str, state: dict, cfg: dict, today: date, board=espn_s
         for g in parse_games(board(league, d.strftime("%Y%m%d"))):
             names[g["home"]], names[g["away"]] = g["home_name"], g["away_name"]
             if g["final"] and g["home_score"] is not None and g["away_score"] is not None:
-                row, pick = grade_final(league, g, ratings, cfg, day)
+                row, pick = grade_final(league, g, ratings, cfg, day, lookup)
+                saved.pop(g["id"], None)
                 news["graded"].append(row)
                 if d == today - timedelta(days=1):
                     news["finals"].append(row)
@@ -272,6 +297,8 @@ def update_league(league: str, state: dict, cfg: dict, today: date, board=espn_s
     for g in parse_games(board(league, today.strftime("%Y%m%d"))):
         h, a = ratings.get(g["home"]), ratings.get(g["away"])
         p = win_chance(h[0] if h else START, a[0] if a else START, 0 if g["neutral"] else edge)
+        if g["line"] and g["state"] == "pre":
+            saved[g["id"]] = [round(x, 4) for x in g["line"]]  # last line before the game: graded tomorrow
         market = no_vig(*g["line"]) if g["line"] else None
         seasoned = bool(h and a and min(h[1], a[1]) >= cfg["min_games"])
         row = {"league": league, "id": g["id"], "start": g["start"], "game": g["name"], "home": g["home_name"],
@@ -428,6 +455,8 @@ def write_report(state: dict, news: dict, picks: list[dict], games: list[dict], 
     for k, a in acc.items():
         better = "ratings closer" if a["elo_brier"] < a["market_brier"] else "line closer"
         L.append(f"- {LEAGUES[k][0]}: {a['games']} games, ratings {a['elo_brier']:.3f} vs line {a['market_brier']:.3f} ({better})")
+    if not acc:
+        L.append("- No graded games with a line yet.")
     DATA.mkdir(exist_ok=True)
     (DATA / "report.md").write_text("\n".join(L) + "\n")
     summary = {"updated": now.isoformat(timespec="seconds"), "live": live, "test": test, "accuracy": acc,
@@ -438,15 +467,19 @@ def write_report(state: dict, news: dict, picks: list[dict], games: list[dict], 
 
 # ---------- run ----------
 
-def run(cfg: dict, now: datetime, board=espn_scoreboard) -> dict:
+def run(cfg: dict, now: datetime, board=espn_scoreboard, odds=espn_game_odds) -> dict:
     today = now.astimezone(ET).date()
     state = load_state()
     picks = read_csv(DATA / "picks.csv")
+    if state.get("version") != VERSION:  # re-rate from scratch; live picks are kept
+        state = {"version": VERSION}
+        picks = [p for p in picks if p.get("kind") == "live"]
+        (DATA / "games.csv").unlink(missing_ok=True)
     have = {(p["kind"] == "live", p["id"]) for p in picks}
     news, graded, today_rows = {}, [], []
     for k in cfg["leagues"]:
         try:
-            news[k] = update_league(k, state, cfg, today, board)
+            news[k] = update_league(k, state, cfg, today, board, odds)
         except Exception as e:  # one league's trouble never stops the rest
             log.warning("%s: %s", k, e)
             news[k] = {"finals": [], "graded": [], "test_picks": [], "today": []}
