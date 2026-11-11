@@ -7542,3 +7542,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 03:59:42,909 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV110345AKULOP-LOP at $0.0600 x2 (0 already bid at that price)
 2026-11-11 03:59:42,909 INFO Resting NO bid on KXLIGAPROMATCH-26NOV110345AKULOP-LOP at $0.0600 x2 (KXLIGAPROMATCH-26NOV110345AKULOP): locks in $0.19 if it fills; hedge NO AKU@0.8300
 2026-11-11 03:59:42,935 INFO Swept 20037 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 04:04:42,448 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 04:04:44,300 INFO Swept 20027 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 04:09:43,742 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 04:09:45,181 INFO Swept 20062 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 04:14:44,842 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 04:14:46,267 INFO Swept 20067 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 04:15:21,526 INFO Stopped; all quotes cancelled.
