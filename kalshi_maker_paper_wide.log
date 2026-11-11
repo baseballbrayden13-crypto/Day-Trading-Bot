@@ -7636,3 +7636,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 10:59:04,343 INFO Swept 20227 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 11:04:02,820 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-11 11:04:04,989 INFO Swept 20254 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 11:09:03,729 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 11:09:05,934 INFO Swept 20291 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 11:14:04,311 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 11:14:07,021 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV12CONNOSU-OSU at $0.3000 x4 (0 already bid at that price)
+2026-11-11 11:14:07,021 INFO Resting NO bid on KXNCAAWBGAME-26NOV12CONNOSU-OSU at $0.3000 x4 (KXNCAAWBGAME-26NOV12CONNOSU): locks in $0.69 if it fills; hedge NO CONN@0.5100
+2026-11-11 11:14:07,053 INFO Swept 20296 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 11:19:08,441 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 11:19:10,709 INFO Swept 20288 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 11:24:12,659 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 11:24:14,954 INFO Swept 20280 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 11:29:17,052 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 11:29:19,444 INFO Swept 20280 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 11:34:22,211 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 11:34:24,505 INFO Swept 20273 events: 0 taker trades, 0 new quotes, 1 resting
