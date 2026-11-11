@@ -1,18 +1,15 @@
-# Sports stats bot: Tue Nov 10, 07:03 PM ET
+# Sports stats bot: Tue Nov 10, 07:21 PM ET
 
 Pretend money only. Ratings = Elo from ESPN results; line = sportsbook odds ESPN shows, margin removed.
 
 ## Pretend record
 - Live picks: 0 settled, 0-0, +$0.00 (+0.0% of money bet), 7 open
-- Test on past games: 0 bets, 0-0, +$0.00 (+0.0%)
+- Test on past games: 721 bets, 280-441, -$592.39 (-8.2%)
 
 ## Today's picks
-- College football: OHIO @ M-OH: **Ohio Bobcats @ 1.87 (+6 pts)** (ratings 43% home, line 49% home)
+- College football: OHIO @ M-OH: **Ohio Bobcats @ 1.85 (+5 pts)** (ratings 43% home, line 48% home)
 - NBA: ORL @ SAC: **Sacramento Kings @ 2.80 (+11 pts)** (ratings 45% home, line 34% home)
 - NBA: OKC @ POR: **Portland Trail Blazers @ 2.06 (+9 pts)** (ratings 56% home, line 47% home)
-- NHL: COL @ TOR: **Toronto Maple Leafs @ 2.45 (+14 pts)** (ratings 53% home, line 39% home)
-- NHL: MIN @ MTL: **Montreal Canadiens @ 2.10 (+11 pts)** (ratings 57% home, line 46% home)
-- NHL: WSH @ OTT: **Ottawa Senators @ 1.98 (+5 pts)** (ratings 54% home, line 48% home)
 - NHL: FLA @ CBJ: **Columbus Blue Jackets @ 2.05 (+8 pts)** (ratings 55% home, line 47% home)
 
 ## Yesterday's scores
@@ -63,9 +60,9 @@ Pretend money only. Ratings = Elo from ESPN results; line = sportsbook odds ESPN
 ## Today's games
 **College football**: 3 games, 1 with a line
 **NBA**: 6 games, 6 with a line
-**Men's college basketball**: 69 games, 28 with a line
+**Men's college basketball**: 69 games, 25 with a line
 **Women's college basketball**: 51 games, 0 with a line
-**NHL**: 7 games, 7 with a line
+**NHL**: 7 games, 3 with a line
 
 ## Top teams by rating
 - NFL: Buffalo Bills 1654, Cincinnati Bengals 1631, San Francisco 49ers 1615, Chicago Bears 1613, Jacksonville Jaguars 1599
@@ -78,3 +75,9 @@ Pretend money only. Ratings = Elo from ESPN results; line = sportsbook odds ESPN
 - MLB: Milwaukee Brewers 1555, San Diego Padres 1534, Tampa Bay Rays 1532, New York Yankees 1520, Los Angeles Dodgers 1520
 
 ## Ratings vs the line (lower = closer guesses)
+- NFL: 56 games, ratings 0.221 vs line 0.200 (line closer)
+- College football: 65 games, ratings 0.223 vs line 0.206 (line closer)
+- NBA: 91 games, ratings 0.215 vs line 0.178 (line closer)
+- WNBA: 117 games, ratings 0.188 vs line 0.184 (line closer)
+- NHL: 217 games, ratings 0.239 vs line 0.224 (line closer)
+- MLB: 902 games, ratings 0.246 vs line 0.238 (line closer)

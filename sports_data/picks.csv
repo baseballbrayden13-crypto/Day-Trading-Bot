@@ -6,3 +6,724 @@ live,2026-11-10,nhl,COL @ TOR,Toronto Maple Leafs,home,2.45,0.526,0.391,0.136,op
 live,2026-11-10,nhl,MIN @ MTL,Montreal Canadiens,home,2.1,0.57,0.457,0.113,open,,,401892684
 live,2026-11-10,nhl,WSH @ OTT,Ottawa Senators,home,1.98,0.535,0.483,0.052,open,,,401892685
 live,2026-11-10,nhl,FLA @ CBJ,Columbus Blue Jackets,home,2.05,0.552,0.468,0.085,open,,,401892686
+test,2026-10-15,nfl,SEA @ DEN,Denver Broncos,home,2.3,0.599,0.417,0.182,settled,1,13.0,401872995
+test,2026-10-18,nfl,HOU VS JAX,Jacksonville Jaguars,home,1.704,0.692,0.563,0.128,settled,0,-10.0,401872996
+test,2026-10-18,nfl,CHI @ ATL,Atlanta Falcons,home,1.952,0.54,0.489,0.051,settled,0,-10.0,401872999
+test,2026-10-18,nfl,TEN @ IND,Tennessee Titans,away,3.4,0.375,0.282,0.093,settled,1,24.0,401873003
+test,2026-10-18,nfl,NYJ @ NE,New York Jets,away,3.75,0.38,0.256,0.124,settled,0,-10.0,401873001
+test,2026-10-18,nfl,NO @ NYG,New York Giants,home,1.893,0.742,0.504,0.238,settled,0,-10.0,401873000
+test,2026-10-18,nfl,PIT @ TB,Tampa Bay Buccaneers,home,2.14,0.521,0.449,0.072,settled,0,-10.0,401873002
+test,2026-10-18,nfl,BUF @ LV,Las Vegas Raiders,home,3.0,0.414,0.319,0.095,settled,0,-10.0,401873005
+test,2026-10-18,nfl,DAL @ GB,Green Bay Packers,home,2.02,0.59,0.474,0.116,settled,1,10.2,401873007
+test,2026-10-25,nfl,SF @ ATL,San Francisco 49ers,away,1.704,0.625,0.563,0.062,settled,0,-10.0,401873017
+test,2026-10-25,nfl,MIA @ NYJ,New York Jets,home,1.459,0.719,0.657,0.061,settled,0,-10.0,401873015
+test,2026-10-25,nfl,TB @ CAR,Carolina Panthers,home,1.588,0.721,0.604,0.117,settled,0,-10.0,401873018
+test,2026-10-25,nfl,CIN @ BAL,Baltimore Ravens,home,2.36,0.603,0.407,0.196,settled,0,-10.0,401873012
+test,2026-10-25,nfl,DEN @ ARI,Arizona Cardinals,home,2.95,0.409,0.325,0.084,settled,0,-10.0,401873019
+test,2026-10-25,nfl,GB @ DET,Green Bay Packers,away,2.6,0.429,0.369,0.06,settled,0,-10.0,401873020
+test,2026-10-25,nfl,LAR @ LV,Las Vegas Raiders,home,2.6,0.497,0.369,0.128,settled,0,-10.0,401873021
+test,2026-10-25,nfl,KC @ SEA,Kansas City Chiefs,away,2.36,0.522,0.407,0.115,settled,0,-10.0,401873022
+test,2026-10-26,nfl,DAL @ PHI,Philadelphia Eagles,home,2.85,0.453,0.336,0.117,settled,0,-10.0,401873009
+test,2026-11-01,nfl,MIN @ DET,Minnesota Vikings,away,2.45,0.458,0.391,0.067,settled,0,-10.0,401873030
+test,2026-11-01,nfl,LAC @ LAR,Los Angeles Rams,home,1.36,0.785,0.705,0.08,settled,1,3.6,401873032
+test,2026-11-01,nfl,KC @ DEN,Denver Broncos,home,1.87,0.614,0.511,0.103,settled,1,8.7,401873033
+test,2026-11-01,nfl,NE @ MIA,Miami Dolphins,home,3.75,0.362,0.256,0.106,settled,0,-10.0,401873034
+test,2026-11-01,nfl,PHI @ WSH,Philadelphia Eagles,away,3.05,0.375,0.315,0.061,settled,0,-10.0,401873035
+test,2026-11-02,nfl,CHI @ SEA,Chicago Bears,away,2.4,0.505,0.4,0.105,settled,1,14.0,401873036
+test,2026-11-08,nfl,DAL @ IND,Indianapolis Colts,home,2.8,0.407,0.343,0.064,settled,0,-10.0,401873040
+test,2026-11-08,nfl,CLE @ NO,Cleveland Browns,away,2.9,0.493,0.331,0.162,settled,0,-10.0,401873039
+test,2026-11-08,nfl,NYG @ PHI,New York Giants,away,1.645,0.686,0.583,0.103,settled,1,6.45,401873044
+test,2026-11-08,nfl,LAR @ WSH,Washington Commanders,home,2.85,0.402,0.336,0.066,settled,0,-10.0,401873043
+test,2026-11-08,nfl,HOU @ LAC,Los Angeles Chargers,home,2.85,0.468,0.336,0.132,settled,0,-10.0,401873046
+test,2026-11-08,nfl,GB @ NE,Green Bay Packers,away,2.6,0.455,0.369,0.086,settled,1,16.0,401873049
+test,2026-11-09,nfl,BUF @ MIN,Minnesota Vikings,home,2.6,0.473,0.369,0.104,settled,0,-10.0,401873051
+test,2026-10-31,ncaaf,WSU @ SDSU,San Diego State Aztecs,home,1.676,0.642,0.572,0.07,settled,1,6.76,401860909
+test,2026-11-03,ncaaf,BUFF @ M-OH,Buffalo Bulls,away,3.15,0.466,0.304,0.162,settled,1,21.5,401866454
+test,2026-11-04,ncaaf,BALL @ MASS,Massachusetts Minutemen,home,1.704,0.669,0.563,0.105,settled,1,7.04,401866455
+test,2026-11-04,ncaaf,CMU VS EMU,Eastern Michigan Eagles,home,2.2,0.552,0.437,0.116,settled,0,-10.0,401866456
+test,2026-11-05,ncaaf,UTSA @ FAU,Florida Atlantic Owls,home,3.3,0.422,0.29,0.132,settled,1,23.0,401862817
+test,2026-11-06,ncaaf,VT @ SMU,Virginia Tech Hokies,away,2.8,0.468,0.343,0.125,settled,0,-10.0,401858288
+test,2026-11-06,ncaaf,USF @ ECU,South Florida Bulls,away,1.952,0.552,0.489,0.063,settled,0,-10.0,401862818
+test,2026-11-06,ncaaf,NEB @ ILL,Illinois Fighting Illini,home,2.64,0.532,0.363,0.169,settled,1,16.4,401858510
+test,2026-11-07,ncaaf,TEX @ MIZ,Missouri Tigers,home,2.1,0.612,0.457,0.155,settled,0,-10.0,401856743
+test,2026-11-07,ncaaf,UCLA @ MINN,UCLA Bruins,away,1.588,0.663,0.604,0.059,settled,1,5.88,401858512
+test,2026-11-07,ncaaf,FSU @ BC,Boston College Eagles,home,2.8,0.616,0.343,0.274,settled,0,-10.0,401858289
+test,2026-11-07,ncaaf,UNC @ CONN,UConn Huskies,home,3.4,0.601,0.282,0.319,settled,0,-10.0,401858292
+test,2026-11-07,ncaaf,TLSA @ TULN,Tulane Green Wave,home,2.24,0.566,0.428,0.138,settled,0,-10.0,401862822
+test,2026-11-07,ncaaf,DUKE @ NCSU,NC State Wolfpack,home,2.6,0.438,0.369,0.069,settled,0,-10.0,401858286
+test,2026-11-07,ncaaf,OKST @ KSU,Kansas State Wildcats,home,3.0,0.437,0.319,0.118,settled,0,-10.0,401856854
+test,2026-11-07,ncaaf,GAST @ APP,Georgia State Panthers,away,2.9,0.397,0.331,0.066,settled,1,19.0,401869927
+test,2026-11-07,ncaaf,ORE @ OSU,Oregon Ducks,away,3.6,0.336,0.266,0.07,settled,1,26.0,401858514
+test,2026-11-07,ncaaf,CIN @ HOU,Cincinnati Bearcats,away,4.0,0.3,0.24,0.06,settled,0,-10.0,401856851
+test,2026-11-07,ncaaf,PSU @ WASH,Washington Huskies,home,1.741,0.637,0.551,0.085,settled,0,-10.0,401858516
+test,2026-11-07,ncaaf,TEM @ NAVY,Temple Owls,away,3.45,0.367,0.278,0.089,settled,0,-10.0,401862820
+test,2026-11-07,ncaaf,MRSH @ GASO,Marshall Thundering Herd,away,3.3,0.395,0.29,0.105,settled,0,-10.0,401869951
+test,2026-11-07,ncaaf,WKU @ MTSU,Middle Tennessee Blue Raiders,home,2.1,0.571,0.457,0.114,settled,1,11.0,401871076
+test,2026-11-07,ncaaf,UCF @ KU,UCF Knights,away,2.85,0.485,0.336,0.148,settled,1,18.5,401856850
+test,2026-11-07,ncaaf,LT @ TROY,Troy Trojans,home,3.1,0.41,0.309,0.101,settled,0,-10.0,401871098
+test,2026-11-07,ncaaf,VAN @ MSST,Mississippi State Bulldogs,home,1.676,0.67,0.572,0.098,settled,0,-10.0,401856742
+test,2026-11-07,ncaaf,MIA @ ND,Miami Hurricanes,away,3.35,0.491,0.286,0.205,settled,0,-10.0,401858291
+test,2026-11-07,ncaaf,UGA @ MISS,Ole Miss Rebels,home,2.45,0.512,0.391,0.121,settled,0,-10.0,401856741
+test,2026-11-07,ncaaf,IOWA @ NU,Northwestern Wildcats,home,2.36,0.562,0.407,0.155,settled,0,-10.0,401858513
+test,2026-11-07,ncaaf,COLO @ ASU,Arizona State Sun Devils,home,1.645,0.662,0.583,0.079,settled,1,6.45,401856852
+test,2026-11-07,ncaaf,AFA @ ARMY,Air Force Falcons,away,2.45,0.457,0.391,0.066,settled,1,14.5,401862823
+test,2026-11-07,ncaaf,FRES @ USU,Fresno State Bulldogs,away,1.926,0.588,0.496,0.092,settled,0,-10.0,401860913
+test,2026-11-07,ncaaf,HAW @ UTEP,UTEP Miners,home,3.2,0.444,0.3,0.144,settled,0,-10.0,401864532
+test,2026-10-28,nba,MIA @ ATL,Atlanta Hawks,home,1.704,0.767,0.563,0.203,settled,0,-10.0,401909881
+test,2026-10-28,nba,PHI @ IND,Indiana Pacers,home,3.25,0.595,0.295,0.3,settled,0,-10.0,401909884
+test,2026-10-28,nba,NY @ CHI,Chicago Bulls,home,3.25,0.685,0.295,0.39,settled,0,-10.0,401909886
+test,2026-10-28,nba,GS @ MIN,Minnesota Timberwolves,home,1.645,0.667,0.583,0.084,settled,0,-10.0,401909888
+test,2026-10-28,nba,OKC @ DAL,Dallas Mavericks,home,2.6,0.488,0.369,0.119,settled,1,16.0,401909891
+test,2026-10-29,nba,SAC @ NO,New Orleans Pelicans,home,1.42,0.747,0.675,0.072,settled,1,4.2,401909894
+test,2026-10-30,nba,CHA @ WSH,Washington Wizards,home,1.952,0.599,0.489,0.11,settled,1,9.52,401909277
+test,2026-10-30,nba,DET @ BKN,Brooklyn Nets,home,3.5,0.414,0.274,0.14,settled,0,-10.0,401909279
+test,2026-10-30,nba,NY @ PHI,Philadelphia 76ers,home,2.3,0.691,0.417,0.274,settled,1,13.0,401909280
+test,2026-10-30,nba,IND @ MIA,Indiana Pacers,away,3.6,0.388,0.266,0.121,settled,0,-10.0,401909282
+test,2026-10-30,nba,LAL @ GS,Golden State Warriors,home,2.24,0.602,0.428,0.174,settled,1,12.4,401909285
+test,2026-10-30,nba,DEN @ PHX,Phoenix Suns,home,2.5,0.49,0.384,0.107,settled,0,-10.0,401909286
+test,2026-10-31,nba,POR @ UTAH,Utah Jazz,home,3.1,0.427,0.309,0.118,settled,0,-10.0,401909896
+test,2026-10-31,nba,ATL @ NO,New Orleans Pelicans,home,2.64,0.503,0.363,0.14,settled,1,16.4,401909898
+test,2026-10-31,nba,SAC @ MEM,Memphis Grizzlies,home,1.336,0.906,0.718,0.188,settled,1,3.36,401909899
+test,2026-10-31,nba,CLE @ MIL,Milwaukee Bucks,home,3.35,0.447,0.286,0.16,settled,0,-10.0,401909900
+test,2026-10-31,nba,OKC @ HOU,Houston Rockets,home,1.704,0.725,0.563,0.161,settled,1,7.04,401909902
+test,2026-11-01,nba,BOS @ ORL,Orlando Magic,home,3.3,0.458,0.29,0.168,settled,0,-10.0,401909903
+test,2026-11-01,nba,LAC @ GS,Golden State Warriors,home,1.769,0.761,0.543,0.218,settled,1,7.69,401909905
+test,2026-11-02,nba,SAC @ DAL,Dallas Mavericks,home,1.337,0.819,0.718,0.101,settled,0,-10.0,401909913
+test,2026-11-02,nba,NO @ MEM,Memphis Grizzlies,home,1.467,0.786,0.655,0.132,settled,0,-10.0,401909914
+test,2026-11-02,nba,POR @ DEN,Portland Trail Blazers,away,2.46,0.482,0.39,0.092,settled,1,14.6,401909918
+test,2026-11-02,nba,PHX @ GS,Golden State Warriors,home,1.735,0.8,0.553,0.246,settled,1,7.35,401909919
+test,2026-11-02,nba,TOR @ LAC,LA Clippers,home,2.89,0.497,0.332,0.164,settled,0,-10.0,401909920
+test,2026-11-02,nba,MIA @ LAL,Los Angeles Lakers,home,1.769,0.66,0.543,0.118,settled,1,7.69,401909921
+test,2026-11-04,nba,PHI @ DET,Detroit Pistons,home,1.704,0.703,0.563,0.14,settled,0,-10.0,401909922
+test,2026-11-04,nba,ATL @ WSH,Washington Wizards,home,2.07,0.598,0.463,0.134,settled,0,-10.0,401909923
+test,2026-11-04,nba,MIL @ BOS,Boston Celtics,home,1.176,0.87,0.817,0.053,settled,1,1.76,401909924
+test,2026-11-04,nba,CHA @ BKN,Brooklyn Nets,home,2.43,0.649,0.395,0.254,settled,1,14.3,401909925
+test,2026-11-04,nba,IND @ MEM,Memphis Grizzlies,home,1.439,0.858,0.668,0.19,settled,0,-10.0,401909927
+test,2026-11-04,nba,UTAH @ NO,New Orleans Pelicans,home,1.498,0.734,0.642,0.093,settled,1,4.98,401909928
+test,2026-11-04,nba,TOR @ DEN,Toronto Raptors,away,2.6,0.422,0.369,0.052,settled,0,-10.0,401909931
+test,2026-11-04,nba,POR @ PHX,Portland Trail Blazers,away,1.676,0.683,0.572,0.111,settled,1,6.76,401909932
+test,2026-11-04,nba,MIA @ LAC,LA Clippers,home,2.8,0.506,0.343,0.163,settled,0,-10.0,401909935
+test,2026-11-05,nba,MIA @ GS,Golden State Warriors,home,1.599,0.734,0.6,0.134,settled,1,5.99,401909937
+test,2026-11-06,nba,OKC @ MEM,Memphis Grizzlies,home,2.46,0.707,0.39,0.316,settled,0,-10.0,401909291
+test,2026-11-06,nba,MIN @ NO,New Orleans Pelicans,home,2.4,0.496,0.4,0.096,settled,0,-10.0,401909293
+test,2026-11-06,nba,POR @ LAL,Portland Trail Blazers,away,2.3,0.471,0.418,0.054,settled,0,-10.0,401909294
+test,2026-11-07,nba,DEN VS IND,Indiana Pacers,home,3.61,0.356,0.266,0.09,settled,0,-10.0,401909938
+test,2026-11-07,nba,NY @ CLE,Cleveland Cavaliers,home,2.64,0.651,0.363,0.288,settled,0,-10.0,401909940
+test,2026-11-07,nba,ORL @ GS,Golden State Warriors,home,1.324,0.801,0.726,0.075,settled,1,3.24,401909942
+test,2026-11-07,nba,SA @ POR,Portland Trail Blazers,home,2.8,0.65,0.343,0.308,settled,0,-10.0,401909944
+test,2026-11-08,nba,LAL @ DET,Los Angeles Lakers,away,3.26,0.389,0.295,0.094,settled,1,22.6,401909946
+test,2026-11-08,nba,BKN @ DAL,Brooklyn Nets,away,3.48,0.372,0.276,0.096,settled,0,-10.0,401909948
+test,2026-11-09,nba,CLE @ CHA,Charlotte Hornets,home,3.61,0.437,0.266,0.171,settled,1,26.1,401909953
+test,2026-11-09,nba,MEM @ TOR,Toronto Raptors,home,2.01,0.548,0.478,0.07,settled,0,-10.0,401909955
+test,2026-11-09,nba,IND @ DAL,Dallas Mavericks,home,1.524,0.707,0.631,0.077,settled,1,5.24,401909956
+test,2026-08-08,wnba,IND @ CHI,Chicago Sky,home,2.95,0.543,0.325,0.218,settled,0,-10.0,401857126
+test,2026-08-08,wnba,SEA @ POR,Portland Fire,home,1.98,0.658,0.483,0.176,settled,1,9.8,401857127
+test,2026-08-09,wnba,PHX @ WSH,Washington Mystics,home,1.82,0.704,0.526,0.178,settled,1,8.2,401857129
+test,2026-08-11,wnba,WSH @ LV,Washington Mystics,away,3.15,0.479,0.304,0.174,settled,0,-10.0,401857135
+test,2026-08-11,wnba,PHX VS LA,Phoenix Mercury,away,2.05,0.544,0.468,0.077,settled,1,10.5,401857136
+test,2026-08-13,wnba,WSH @ LV,Washington Mystics,away,2.9,0.414,0.331,0.083,settled,0,-10.0,401857142
+test,2026-08-15,wnba,MIN @ LV,Las Vegas Aces,home,2.14,0.522,0.449,0.074,settled,0,-10.0,401857147
+test,2026-08-16,wnba,IND @ ATL,Atlanta Dream,home,1.926,0.55,0.496,0.055,settled,0,-10.0,401857150
+test,2026-08-17,wnba,DAL @ GS,Golden State Valkyries,home,1.408,0.751,0.681,0.07,settled,1,4.08,401857151
+test,2026-08-18,wnba,LA @ CON,Connecticut Sun,home,2.1,0.591,0.457,0.134,settled,1,11.0,401857152
+test,2026-08-18,wnba,NY @ CHI,Chicago Sky,home,2.64,0.449,0.363,0.086,settled,1,16.4,401857154
+test,2026-08-19,wnba,MIN @ GS,Golden State Valkyries,home,2.14,0.52,0.449,0.072,settled,0,-10.0,401857157
+test,2026-08-20,wnba,IND @ DAL,Indiana Fever,away,1.602,0.664,0.6,0.065,settled,0,-10.0,401857158
+test,2026-08-21,wnba,GS @ CHI,Chicago Sky,home,3.15,0.468,0.304,0.164,settled,1,21.5,401857162
+test,2026-08-21,wnba,POR @ TOR,Portland Fire,away,1.676,0.65,0.572,0.078,settled,0,-10.0,401857163
+test,2026-08-22,wnba,CON @ LA,Connecticut Sun,away,2.7,0.475,0.355,0.12,settled,0,-10.0,401857165
+test,2026-08-22,wnba,ATL @ PHX,Phoenix Mercury,home,3.85,0.376,0.249,0.126,settled,0,-10.0,401857166
+test,2026-08-23,wnba,WSH @ POR,Portland Fire,home,2.64,0.449,0.363,0.086,settled,0,-10.0,401857169
+test,2026-08-24,wnba,GS @ MIN,Minnesota Lynx,home,1.488,0.753,0.645,0.108,settled,0,-10.0,401857171
+test,2026-08-25,wnba,CHI @ CON,Connecticut Sun,home,3.5,0.448,0.274,0.173,settled,1,25.0,401857173
+test,2026-08-27,wnba,GS @ NY,Golden State Valkyries,away,2.36,0.501,0.407,0.095,settled,1,13.6,401857178
+test,2026-08-28,wnba,WSH @ LA,Washington Mystics,away,1.488,0.72,0.645,0.076,settled,0,-10.0,401857183
+test,2026-08-29,wnba,CHI @ NY,Chicago Sky,away,4.0,0.312,0.24,0.072,settled,0,-10.0,401857184
+test,2026-08-30,wnba,MIN @ ATL,Atlanta Dream,home,2.2,0.493,0.437,0.056,settled,1,12.0,401857186
+test,2026-08-30,wnba,LA @ SEA,Seattle Storm,home,2.0,0.549,0.478,0.071,settled,0,-10.0,401857187
+test,2026-09-17,wnba,WSH @ CHI,Washington Mystics,away,1.82,0.597,0.526,0.071,settled,1,8.2,401857191
+test,2026-09-17,wnba,PHX @ POR,Portland Fire,home,2.24,0.62,0.428,0.192,settled,0,-10.0,401857193
+test,2026-09-19,wnba,SEA @ GS,Golden State Valkyries,home,1.143,0.915,0.84,0.075,settled,1,1.43,401857200
+test,2026-09-21,wnba,ATL @ NY,New York Liberty,home,2.02,0.547,0.474,0.073,settled,0,-10.0,401857206
+test,2026-09-21,wnba,DAL @ PHX,Phoenix Mercury,home,2.8,0.421,0.343,0.079,settled,1,18.0,401857207
+test,2026-09-22,wnba,TOR @ CHI,Chicago Sky,home,1.488,0.772,0.645,0.127,settled,1,4.88,401857210
+test,2026-09-23,wnba,ATL @ NY,New York Liberty,home,2.64,0.468,0.363,0.105,settled,0,-10.0,401857213
+test,2026-09-24,wnba,TOR @ CON,Connecticut Sun,home,1.676,0.71,0.572,0.138,settled,1,6.76,401857215
+test,2026-09-24,wnba,IND @ MIN,Minnesota Lynx,home,2.6,0.53,0.369,0.161,settled,1,16.0,401857217
+test,2026-09-27,wnba,WSH @ ATL,Washington Mystics,away,3.4,0.36,0.282,0.078,settled,0,-10.0,401918013
+test,2026-09-29,wnba,MIN @ NY,New York Liberty,home,2.45,0.613,0.391,0.222,settled,1,14.5,401918017
+test,2026-09-30,wnba,ATL @ WSH,Washington Mystics,home,2.3,0.474,0.417,0.057,settled,0,-10.0,401918019
+test,2026-10-02,wnba,DAL @ GS,Dallas Wings,away,3.7,0.318,0.259,0.059,settled,0,-10.0,401918294
+test,2026-10-04,wnba,NY @ ATL,Atlanta Dream,home,1.521,0.741,0.631,0.11,settled,1,5.21,401918295
+test,2026-10-04,wnba,LV @ GS,Golden State Valkyries,home,1.87,0.604,0.511,0.093,settled,1,8.7,401918296
+test,2026-10-07,wnba,NY @ ATL,Atlanta Dream,home,1.769,0.765,0.543,0.223,settled,1,7.69,401918297
+test,2026-10-07,wnba,LV @ GS,Golden State Valkyries,home,1.769,0.655,0.543,0.112,settled,1,7.69,401918298
+test,2026-10-09,wnba,ATL @ NY,Atlanta Dream,away,2.36,0.637,0.407,0.23,settled,1,13.6,401918299
+test,2026-10-09,wnba,GS @ LV,Golden State Valkyries,away,2.54,0.508,0.378,0.131,settled,1,15.4,401918300
+test,2026-10-17,wnba,ATL @ GS,Atlanta Dream,away,2.2,0.491,0.437,0.055,settled,0,-10.0,401918305
+test,2026-10-21,wnba,GS @ ATL,Atlanta Dream,home,1.541,0.695,0.622,0.073,settled,1,5.41,401918307
+test,2026-10-24,wnba,GS @ ATL,Atlanta Dream,home,1.459,0.739,0.657,0.082,settled,0,-10.0,401918308
+test,2026-10-08,nhl,UTA @ BOS,Boston Bruins,home,2.2,0.535,0.437,0.099,settled,1,12.0,401892457
+test,2026-10-08,nhl,VAN @ CAR,Vancouver Canucks,away,4.0,0.427,0.24,0.187,settled,0,-10.0,401892461
+test,2026-10-10,nhl,EDM @ SJ,San Jose Sharks,home,2.3,0.529,0.417,0.112,settled,0,-10.0,401892471
+test,2026-10-10,nhl,DET @ MTL,Detroit Red Wings,away,2.6,0.432,0.369,0.063,settled,0,-10.0,401892473
+test,2026-10-10,nhl,DAL @ PIT,Pittsburgh Penguins,home,2.5,0.524,0.384,0.14,settled,1,15.0,401892475
+test,2026-10-10,nhl,CAR @ CHI,Chicago Blackhawks,home,3.1,0.518,0.309,0.209,settled,0,-10.0,401892476
+test,2026-10-10,nhl,TOR @ COL,Toronto Maple Leafs,away,2.85,0.432,0.336,0.096,settled,1,18.5,401892478
+test,2026-10-10,nhl,TB @ NYI,New York Islanders,home,2.5,0.529,0.384,0.146,settled,0,-10.0,401892479
+test,2026-10-11,nhl,SEA @ WSH,Seattle Kraken,away,2.7,0.443,0.355,0.088,settled,1,17.0,401892482
+test,2026-10-11,nhl,VAN @ NYR,Vancouver Canucks,away,3.35,0.417,0.286,0.131,settled,0,-10.0,401892483
+test,2026-10-11,nhl,CAR @ PHI,Philadelphia Flyers,home,2.9,0.484,0.331,0.153,settled,0,-10.0,401892484
+test,2026-10-13,nhl,TB @ NYR,New York Rangers,home,2.36,0.551,0.407,0.144,settled,1,13.6,401892493
+test,2026-10-13,nhl,STL @ OTT,Ottawa Senators,home,2.1,0.573,0.457,0.116,settled,0,-10.0,401892494
+test,2026-10-13,nhl,VAN @ NYI,Vancouver Canucks,away,2.7,0.441,0.355,0.085,settled,0,-10.0,401892495
+test,2026-10-13,nhl,PIT @ CHI,Chicago Blackhawks,home,2.36,0.529,0.407,0.122,settled,1,13.6,401892496
+test,2026-10-13,nhl,COL @ DAL,Dallas Stars,home,1.87,0.562,0.511,0.051,settled,0,-10.0,401892498
+test,2026-10-13,nhl,VGK @ NSH,Nashville Predators,home,2.14,0.509,0.449,0.06,settled,0,-10.0,401892499
+test,2026-10-13,nhl,BOS @ SJ,San Jose Sharks,home,2.14,0.547,0.449,0.098,settled,0,-10.0,401892503
+test,2026-10-15,nhl,BUF @ TOR,Toronto Maple Leafs,home,1.87,0.562,0.511,0.051,settled,0,-10.0,401892506
+test,2026-10-15,nhl,SEA @ TB,Seattle Kraken,away,3.25,0.467,0.295,0.172,settled,0,-10.0,401892509
+test,2026-10-15,nhl,VAN @ FLA,Vancouver Canucks,away,3.4,0.422,0.282,0.14,settled,0,-10.0,401892510
+test,2026-10-15,nhl,WPG @ CHI,Chicago Blackhawks,home,2.05,0.535,0.468,0.067,settled,1,10.5,401892512
+test,2026-10-15,nhl,UTA @ EDM,Edmonton Oilers,home,1.952,0.575,0.489,0.086,settled,0,-10.0,401892515
+test,2026-10-15,nhl,CGY @ VGK,Calgary Flames,away,3.3,0.388,0.29,0.098,settled,0,-10.0,401892516
+test,2026-10-16,nhl,PIT @ COL,Pittsburgh Penguins,away,2.7,0.441,0.355,0.085,settled,0,-10.0,401892517
+test,2026-10-17,nhl,CAR @ WPG,Winnipeg Jets,home,2.7,0.511,0.355,0.156,settled,0,-10.0,401892520
+test,2026-10-17,nhl,SEA @ FLA,Seattle Kraken,away,2.54,0.471,0.378,0.094,settled,0,-10.0,401892522
+test,2026-10-17,nhl,OTT @ PHI,Philadelphia Flyers,home,2.4,0.485,0.4,0.085,settled,1,14.0,401892526
+test,2026-10-17,nhl,DAL @ CHI,Chicago Blackhawks,home,2.8,0.524,0.343,0.181,settled,0,-10.0,401892528
+test,2026-10-17,nhl,BOS @ LA,Boston Bruins,away,2.3,0.498,0.417,0.081,settled,1,13.0,401892530
+test,2026-10-17,nhl,PIT @ VGK,Pittsburgh Penguins,away,2.8,0.405,0.343,0.062,settled,0,-10.0,401892532
+test,2026-10-18,nhl,CBJ @ MIN,Columbus Blue Jackets,away,2.6,0.456,0.369,0.087,settled,0,-10.0,401892533
+test,2026-10-18,nhl,CAR @ CGY,Calgary Flames,home,2.7,0.475,0.355,0.119,settled,1,17.0,401892534
+test,2026-10-19,nhl,COL @ PHI,Philadelphia Flyers,home,3.05,0.488,0.315,0.173,settled,1,20.5,401892536
+test,2026-10-20,nhl,SJ @ MTL,San Jose Sharks,away,2.85,0.431,0.336,0.095,settled,1,18.5,401892539
+test,2026-10-20,nhl,BOS @ DAL,Boston Bruins,away,2.42,0.455,0.396,0.059,settled,0,-10.0,401892545
+test,2026-10-20,nhl,MIN @ EDM,Edmonton Oilers,home,1.8,0.587,0.532,0.054,settled,1,8.0,401892546
+test,2026-10-20,nhl,DET @ SEA,Seattle Kraken,home,2.02,0.582,0.474,0.108,settled,1,10.2,401892547
+test,2026-10-20,nhl,CAR @ VAN,Vancouver Canucks,home,3.3,0.477,0.29,0.186,settled,0,-10.0,401892548
+test,2026-10-20,nhl,TB @ VGK,Vegas Golden Knights,home,1.909,0.569,0.5,0.069,settled,0,-10.0,401892549
+test,2026-10-21,nhl,PHI @ BUF,Philadelphia Flyers,away,2.8,0.419,0.343,0.077,settled,1,18.0,401892550
+test,2026-10-22,nhl,ANA @ NJ,Anaheim Ducks,away,2.8,0.42,0.343,0.077,settled,0,-10.0,401892555
+test,2026-10-22,nhl,LA @ NYI,New York Islanders,home,1.952,0.571,0.489,0.082,settled,0,-10.0,401892557
+test,2026-10-22,nhl,MIN @ CGY,Calgary Flames,home,2.8,0.517,0.343,0.175,settled,1,18.0,401892560
+test,2026-10-22,nhl,CAR @ EDM,Edmonton Oilers,home,2.14,0.56,0.449,0.112,settled,1,11.4,401892561
+test,2026-10-22,nhl,UTA @ SEA,Seattle Kraken,home,2.6,0.548,0.369,0.179,settled,1,16.0,401892562
+test,2026-10-22,nhl,DET @ VAN,Vancouver Canucks,home,2.42,0.523,0.396,0.127,settled,0,-10.0,401892563
+test,2026-10-23,nhl,MTL @ CHI,Chicago Blackhawks,home,2.42,0.527,0.396,0.13,settled,0,-10.0,401892564
+test,2026-10-24,nhl,SJ @ BOS,San Jose Sharks,away,2.6,0.431,0.369,0.062,settled,0,-10.0,401892568
+test,2026-10-24,nhl,BUF @ WSH,Washington Capitals,home,1.833,0.587,0.522,0.066,settled,1,8.33,401892571
+test,2026-10-24,nhl,VGK @ CBJ,Columbus Blue Jackets,home,2.14,0.519,0.449,0.07,settled,1,11.4,401892572
+test,2026-10-24,nhl,CAR @ STL,St. Louis Blues,home,2.3,0.509,0.417,0.091,settled,0,-10.0,401892573
+test,2026-10-24,nhl,DET @ CGY,Calgary Flames,home,2.1,0.538,0.457,0.081,settled,1,11.0,401892576
+test,2026-10-24,nhl,MIN @ SEA,Seattle Kraken,home,2.6,0.58,0.369,0.211,settled,0,-10.0,401892577
+test,2026-10-25,nhl,FLA @ CHI,Chicago Blackhawks,home,2.64,0.531,0.363,0.168,settled,0,-10.0,401892578
+test,2026-10-25,nhl,COL @ NSH,Nashville Predators,home,2.95,0.514,0.325,0.189,settled,1,19.5,401892580
+test,2026-10-25,nhl,MIN @ VAN,Vancouver Canucks,home,2.7,0.495,0.355,0.139,settled,0,-10.0,401892581
+test,2026-10-26,nhl,TOR @ CGY,Calgary Flames,home,2.14,0.525,0.449,0.076,settled,1,11.4,401892583
+test,2026-10-27,nhl,BOS @ CAR,Boston Bruins,away,2.6,0.442,0.369,0.073,settled,0,-10.0,401892586
+test,2026-10-27,nhl,FLA @ WPG,Winnipeg Jets,home,2.05,0.521,0.468,0.053,settled,0,-10.0,401892591
+test,2026-10-27,nhl,VAN @ ANA,Vancouver Canucks,away,2.8,0.408,0.343,0.066,settled,1,18.0,401892594
+test,2026-10-27,nhl,BUF @ SJ,San Jose Sharks,home,2.3,0.58,0.417,0.163,settled,0,-10.0,401892595
+test,2026-10-28,nhl,PHI @ WSH,Philadelphia Flyers,away,3.0,0.38,0.319,0.06,settled,0,-10.0,401892596
+test,2026-10-28,nhl,NJ @ COL,New Jersey Devils,away,2.24,0.481,0.428,0.054,settled,0,-10.0,401892598
+test,2026-10-28,nhl,TOR @ SEA,Seattle Kraken,home,2.1,0.571,0.457,0.113,settled,1,11.0,401892599
+test,2026-10-29,nhl,WPG @ TB,Winnipeg Jets,away,2.85,0.401,0.336,0.064,settled,0,-10.0,401892601
+test,2026-10-29,nhl,UTA @ PIT,Pittsburgh Penguins,home,2.1,0.523,0.457,0.065,settled,0,-10.0,401892602
+test,2026-10-29,nhl,CBJ @ CAR,Columbus Blue Jackets,away,3.1,0.414,0.309,0.104,settled,0,-10.0,401892603
+test,2026-10-29,nhl,MTL @ DAL,Montreal Canadiens,away,2.45,0.445,0.391,0.054,settled,1,14.5,401892606
+test,2026-10-29,nhl,NYI @ MIN,New York Islanders,away,2.8,0.424,0.343,0.082,settled,1,18.0,401892607
+test,2026-10-29,nhl,BUF @ ANA,Anaheim Ducks,home,2.36,0.549,0.407,0.142,settled,0,-10.0,401892608
+test,2026-10-29,nhl,OTT @ LA,Los Angeles Kings,home,2.05,0.528,0.468,0.061,settled,1,10.5,401892609
+test,2026-10-30,nhl,WPG @ FLA,Winnipeg Jets,away,2.8,0.404,0.343,0.062,settled,0,-10.0,401892612
+test,2026-10-31,nhl,CHI @ BOS,Chicago Blackhawks,away,2.95,0.401,0.325,0.076,settled,0,-10.0,401892614
+test,2026-10-31,nhl,TB @ NSH,Nashville Predators,home,2.5,0.49,0.384,0.107,settled,1,15.0,401892616
+test,2026-10-31,nhl,BUF @ LA,Los Angeles Kings,home,2.14,0.547,0.449,0.099,settled,0,-10.0,401892618
+test,2026-10-31,nhl,OTT @ SJ,San Jose Sharks,home,2.24,0.557,0.428,0.129,settled,0,-10.0,401892619
+test,2026-10-31,nhl,PIT @ MTL,Montreal Canadiens,home,1.833,0.596,0.522,0.074,settled,1,8.33,401892620
+test,2026-10-31,nhl,TOR @ VAN,Vancouver Canucks,home,2.6,0.499,0.369,0.13,settled,0,-10.0,401892621
+test,2026-10-31,nhl,CBJ @ DAL,Columbus Blue Jackets,away,2.54,0.429,0.378,0.052,settled,0,-10.0,401892622
+test,2026-10-31,nhl,CGY @ COL,Calgary Flames,away,3.95,0.433,0.243,0.19,settled,0,-10.0,401892623
+test,2026-11-01,nhl,WPG @ CAR,Winnipeg Jets,away,3.25,0.361,0.295,0.066,settled,0,-10.0,401892624
+test,2026-11-01,nhl,MIN @ WSH,Washington Capitals,home,2.02,0.571,0.474,0.097,settled,0,-10.0,401892625
+test,2026-11-01,nhl,UTA @ PHI,Philadelphia Flyers,home,2.4,0.469,0.4,0.069,settled,1,14.0,401892626
+test,2026-11-02,nhl,VGK @ BOS,Boston Bruins,home,1.98,0.555,0.483,0.072,settled,1,9.8,401892629
+test,2026-11-02,nhl,COL @ CHI,Chicago Blackhawks,home,2.9,0.508,0.331,0.178,settled,0,-10.0,401892631
+test,2026-11-03,nhl,UTA @ TOR,Toronto Maple Leafs,home,2.24,0.533,0.428,0.105,settled,0,-10.0,401892633
+test,2026-11-03,nhl,DET @ TB,Detroit Red Wings,away,3.35,0.428,0.286,0.142,settled,0,-10.0,401892635
+test,2026-11-03,nhl,MIN @ PHI,Philadelphia Flyers,home,2.54,0.484,0.378,0.106,settled,0,-10.0,401892638
+test,2026-11-03,nhl,COL @ CBJ,Columbus Blue Jackets,home,2.05,0.534,0.468,0.066,settled,1,10.5,401892641
+test,2026-11-03,nhl,EDM @ NJ,Edmonton Oilers,away,2.36,0.475,0.407,0.068,settled,0,-10.0,401892636
+test,2026-11-03,nhl,CAR @ NSH,Nashville Predators,home,2.64,0.464,0.363,0.101,settled,1,16.4,401892642
+test,2026-11-03,nhl,ANA @ VAN,Vancouver Canucks,home,2.6,0.512,0.369,0.143,settled,0,-10.0,401892643
+test,2026-11-04,nhl,CHI @ FLA,Chicago Blackhawks,away,3.1,0.405,0.309,0.096,settled,0,-10.0,401892645
+test,2026-11-04,nhl,SJ @ LA,San Jose Sharks,away,2.4,0.461,0.4,0.061,settled,0,-10.0,401892646
+test,2026-11-05,nhl,UTA @ MTL,Montreal Canadiens,home,2.05,0.554,0.468,0.087,settled,1,10.5,401892648
+test,2026-11-05,nhl,VGK @ DET,Detroit Red Wings,home,2.24,0.517,0.428,0.089,settled,0,-10.0,401892649
+test,2026-11-05,nhl,STL @ NJ,St. Louis Blues,away,2.95,0.402,0.325,0.077,settled,0,-10.0,401892651
+test,2026-11-05,nhl,CAR @ NYI,New York Islanders,home,2.7,0.494,0.355,0.138,settled,0,-10.0,401892652
+test,2026-11-05,nhl,DAL @ CBJ,Columbus Blue Jackets,home,2.05,0.519,0.468,0.051,settled,1,10.5,401892655
+test,2026-11-05,nhl,VAN @ WPG,Vancouver Canucks,away,2.8,0.422,0.343,0.08,settled,0,-10.0,401892656
+test,2026-11-05,nhl,NSH @ COL,Nashville Predators,away,2.8,0.415,0.343,0.072,settled,1,18.0,401892658
+test,2026-11-06,nhl,CBJ @ BUF,Columbus Blue Jackets,away,2.5,0.473,0.384,0.089,settled,0,-10.0,401892659
+test,2026-11-06,nhl,SJ @ MIN,San Jose Sharks,away,3.3,0.412,0.29,0.121,settled,0,-10.0,401892660
+test,2026-11-07,nhl,NYR @ SEA,Seattle Kraken,home,2.14,0.572,0.449,0.124,settled,0,-10.0,401892664
+test,2026-11-07,nhl,UTA @ OTT,Ottawa Senators,home,2.0,0.532,0.478,0.054,settled,1,10.0,401892666
+test,2026-11-07,nhl,NJ @ NYI,New York Islanders,home,2.24,0.494,0.428,0.066,settled,0,-10.0,401892667
+test,2026-11-07,nhl,SJ @ DAL,San Jose Sharks,away,3.35,0.399,0.286,0.113,settled,0,-10.0,401892669
+test,2026-11-07,nhl,TB @ MIN,Minnesota Wild,home,2.2,0.551,0.437,0.115,settled,0,-10.0,401892670
+test,2026-11-07,nhl,DET @ COL,Detroit Red Wings,away,2.85,0.431,0.336,0.094,settled,0,-10.0,401892671
+test,2026-11-07,nhl,VAN @ EDM,Vancouver Canucks,away,3.95,0.34,0.243,0.097,settled,0,-10.0,401892673
+test,2026-11-08,nhl,TB @ WPG,Winnipeg Jets,home,2.36,0.484,0.407,0.078,settled,1,13.6,401892677
+test,2026-11-08,nhl,NJ @ TOR,Toronto Maple Leafs,home,2.36,0.493,0.407,0.086,settled,0,-10.0,401892676
+test,2026-11-08,nhl,PHI @ CGY,Calgary Flames,home,2.02,0.588,0.474,0.114,settled,1,10.2,401892678
+test,2026-11-09,nhl,PHI @ VAN,Vancouver Canucks,home,2.2,0.54,0.437,0.103,settled,0,-10.0,401892681
+test,2026-11-09,nhl,NYI @ SJ,San Jose Sharks,home,2.2,0.544,0.437,0.108,settled,1,12.0,401892682
+test,2026-07-25,mlb,KC @ DET,Kansas City Royals,away,2.41,0.458,0.397,0.061,settled,1,14.1,401816254
+test,2026-07-26,mlb,KC @ DET,Kansas City Royals,away,2.57,0.464,0.372,0.093,settled,1,15.7,401816269
+test,2026-07-26,mlb,LAD @ NYM,New York Mets,home,2.24,0.517,0.427,0.09,settled,1,12.4,401816270
+test,2026-07-26,mlb,ATH @ MIN,Athletics,away,2.35,0.462,0.407,0.055,settled,0,-10.0,401816274
+test,2026-07-26,mlb,COL @ MIL,Colorado Rockies,away,3.9,0.45,0.245,0.204,settled,0,-10.0,401816276
+test,2026-07-26,mlb,LAA @ SF,San Francisco Giants,home,2.04,0.536,0.468,0.068,settled,0,-10.0,401816279
+test,2026-07-26,mlb,NYY @ PHI,New York Yankees,away,2.77,0.483,0.345,0.138,settled,0,-10.0,401816271
+test,2026-07-27,mlb,SEA @ TEX,Texas Rangers,home,2.04,0.535,0.468,0.067,settled,1,10.4,401816288
+test,2026-07-27,mlb,PHI @ MIA,Miami Marlins,home,2.67,0.52,0.358,0.162,settled,1,16.7,401816284
+test,2026-07-27,mlb,NYY @ CHW,Chicago White Sox,home,2.19,0.535,0.436,0.099,settled,0,-10.0,401816287
+test,2026-07-27,mlb,CHC @ STL,St. Louis Cardinals,home,2.03,0.521,0.471,0.051,settled,0,-10.0,401816286
+test,2026-07-27,mlb,BOS @ ATH,Athletics,home,2.67,0.512,0.358,0.154,settled,0,-10.0,401816289
+test,2026-07-27,mlb,MIL @ SF,San Francisco Giants,home,2.13,0.515,0.449,0.066,settled,1,11.3,401816291
+test,2026-07-28,mlb,TEX @ TB,Texas Rangers,away,2.44,0.461,0.392,0.069,settled,1,14.4,401816297
+test,2026-07-28,mlb,CLE @ CIN,Cincinnati Reds,home,2.19,0.55,0.436,0.114,settled,1,11.9,401816295
+test,2026-07-28,mlb,KC @ MIN,Kansas City Royals,away,2.58,0.476,0.37,0.105,settled,0,-10.0,401816300
+test,2026-07-28,mlb,NYY @ CHW,Chicago White Sox,home,2.04,0.529,0.469,0.061,settled,0,-10.0,401816301
+test,2026-07-28,mlb,BOS @ ATH,Athletics,home,2.3,0.506,0.416,0.09,settled,1,13.0,401816302
+test,2026-07-28,mlb,COL @ SD,Colorado Rockies,away,2.98,0.455,0.321,0.134,settled,0,-10.0,401816303
+test,2026-07-28,mlb,MIL @ SF,San Francisco Giants,home,2.24,0.52,0.427,0.093,settled,0,-10.0,401816305
+test,2026-07-28,mlb,SEA @ LAD,Seattle Mariners,away,2.93,0.45,0.326,0.123,settled,1,19.3,401816306
+test,2026-07-29,mlb,PHI @ MIA,Miami Marlins,home,2.48,0.531,0.385,0.145,settled,1,14.8,401816311
+test,2026-07-29,mlb,TOR @ WSH,Washington Nationals,home,1.99,0.554,0.48,0.074,settled,0,-10.0,401816313
+test,2026-07-29,mlb,BAL @ DET,Baltimore Orioles,away,2.61,0.464,0.366,0.098,settled,1,16.1,401816309
+test,2026-07-29,mlb,COL @ SD,Colorado Rockies,away,2.61,0.45,0.366,0.083,settled,0,-10.0,401816318
+test,2026-07-29,mlb,CLE @ CIN,Cincinnati Reds,home,2.15,0.555,0.444,0.111,settled,0,-10.0,401816310
+test,2026-07-29,mlb,ATL @ NYM,New York Mets,home,2.51,0.533,0.381,0.152,settled,0,-10.0,401902545
+test,2026-07-29,mlb,KC @ MIN,Kansas City Royals,away,2.69,0.47,0.356,0.114,settled,1,16.9,401816315
+test,2026-07-29,mlb,NYY @ CHW,Chicago White Sox,home,2.2,0.523,0.434,0.089,settled,1,12.0,401816316
+test,2026-07-29,mlb,BOS @ ATH,Athletics,home,2.24,0.512,0.427,0.085,settled,0,-10.0,401816317
+test,2026-07-29,mlb,SEA @ LAD,Seattle Mariners,away,2.53,0.456,0.378,0.078,settled,0,-10.0,401816321
+test,2026-07-30,mlb,TEX @ TB,Texas Rangers,away,2.52,0.462,0.379,0.082,settled,0,-10.0,401816324
+test,2026-07-30,mlb,WSH @ ATL,Washington Nationals,away,2.34,0.463,0.409,0.054,settled,0,-10.0,401816325
+test,2026-07-30,mlb,PIT @ CIN,Cincinnati Reds,home,2.04,0.546,0.468,0.079,settled,1,10.4,401816323
+test,2026-07-30,mlb,BOS @ ATH,Athletics,home,2.61,0.506,0.367,0.139,settled,0,-10.0,401816329
+test,2026-07-31,mlb,NYY @ CHC,New York Yankees,away,2.43,0.46,0.393,0.067,settled,1,14.3,401816339
+test,2026-07-31,mlb,PIT @ CIN,Cincinnati Reds,home,2.05,0.552,0.467,0.085,settled,1,10.5,401816336
+test,2026-07-31,mlb,STL @ TOR,St. Louis Cardinals,away,2.63,0.457,0.364,0.093,settled,0,-10.0,401816337
+test,2026-07-31,mlb,MIL @ LAA,Los Angeles Angels,home,2.47,0.512,0.387,0.126,settled,0,-10.0,401816344
+test,2026-07-31,mlb,DET @ ATH,Athletics,home,2.18,0.518,0.438,0.08,settled,0,-10.0,401816343
+test,2026-07-31,mlb,MIN @ SEA,Minnesota Twins,away,2.44,0.477,0.392,0.085,settled,1,14.4,401816345
+test,2026-08-01,mlb,STL @ TOR,St. Louis Cardinals,away,2.47,0.452,0.387,0.065,settled,0,-10.0,401816352
+test,2026-08-01,mlb,CHW @ TB,Chicago White Sox,away,2.42,0.468,0.395,0.073,settled,0,-10.0,401816348
+test,2026-08-01,mlb,MIN @ SEA,Minnesota Twins,away,2.42,0.483,0.395,0.088,settled,0,-10.0,401816360
+test,2026-08-01,mlb,PIT @ CIN,Cincinnati Reds,home,2.0,0.557,0.477,0.079,settled,0,-10.0,401816351
+test,2026-08-01,mlb,PHI @ BAL,Baltimore Orioles,home,2.27,0.565,0.421,0.144,settled,0,-10.0,401816350
+test,2026-08-01,mlb,TEX @ HOU,Houston Astros,home,2.04,0.554,0.468,0.086,settled,1,10.4,401816355
+test,2026-08-01,mlb,ARI @ CLE,Arizona Diamondbacks,away,2.52,0.488,0.379,0.109,settled,1,15.2,401816347
+test,2026-08-01,mlb,WSH @ ATL,Washington Nationals,away,2.41,0.452,0.397,0.056,settled,0,-10.0,401816353
+test,2026-08-01,mlb,BOS @ LAD,Boston Red Sox,away,2.57,0.48,0.372,0.108,settled,1,15.7,401816357
+test,2026-08-01,mlb,MIL @ LAA,Los Angeles Angels,home,2.34,0.507,0.409,0.098,settled,0,-10.0,401816359
+test,2026-08-01,mlb,DET @ ATH,Athletics,home,2.53,0.512,0.378,0.135,settled,0,-10.0,401816358
+test,2026-08-02,mlb,PHI @ BAL,Baltimore Orioles,home,2.24,0.558,0.427,0.132,settled,0,-10.0,401816365
+test,2026-08-02,mlb,ARI @ CLE,Arizona Diamondbacks,away,2.57,0.494,0.372,0.122,settled,0,-10.0,401816362
+test,2026-08-02,mlb,MIA @ NYM,New York Mets,home,2.01,0.544,0.475,0.069,settled,0,-10.0,401816364
+test,2026-08-02,mlb,MIL @ LAA,Los Angeles Angels,home,2.9,0.501,0.33,0.171,settled,1,19.0,401816374
+test,2026-08-02,mlb,BOS @ LAD,Boston Red Sox,away,2.53,0.486,0.378,0.108,settled,1,15.3,401816372
+test,2026-08-03,mlb,WSH @ PHI,Washington Nationals,away,2.34,0.475,0.409,0.066,settled,0,-10.0,401816378
+test,2026-08-03,mlb,STL @ NYY,St. Louis Cardinals,away,3.02,0.44,0.317,0.124,settled,1,20.2,401816377
+test,2026-08-03,mlb,LAD @ CHC,Chicago Cubs,home,2.04,0.536,0.469,0.068,settled,1,10.4,401816379
+test,2026-08-03,mlb,TB @ COL,Colorado Rockies,home,2.44,0.526,0.392,0.134,settled,0,-10.0,401816383
+test,2026-08-04,mlb,WSH @ PHI,Washington Nationals,away,3.82,0.469,0.258,0.211,settled,0,-10.0,401816390
+test,2026-08-04,mlb,STL @ NYY,St. Louis Cardinals,away,2.79,0.447,0.353,0.094,settled,0,-10.0,401816389
+test,2026-08-04,mlb,MIN @ KC,Kansas City Royals,home,2.33,0.534,0.422,0.111,settled,1,13.3,401816392
+test,2026-08-04,mlb,LAD @ CHC,Chicago Cubs,home,2.74,0.542,0.359,0.182,settled,1,17.4,401816391
+test,2026-08-04,mlb,SF @ TEX,San Francisco Giants,away,2.75,0.472,0.358,0.114,settled,0,-10.0,401816394
+test,2026-08-04,mlb,TB @ COL,Colorado Rockies,home,2.54,0.52,0.387,0.133,settled,0,-10.0,401816396
+test,2026-08-05,mlb,TOR @ HOU,Toronto Blue Jays,away,2.95,0.442,0.334,0.108,settled,1,19.5,401816410
+test,2026-08-05,mlb,SF @ TEX,San Francisco Giants,away,2.38,0.467,0.414,0.053,settled,0,-10.0,401816409
+test,2026-08-05,mlb,TB @ COL,Colorado Rockies,home,2.38,0.514,0.414,0.1,settled,0,-10.0,401816411
+test,2026-08-05,mlb,WSH @ PHI,Washington Nationals,away,2.75,0.464,0.358,0.106,settled,1,17.5,401816405
+test,2026-08-05,mlb,DET @ SEA,Detroit Tigers,away,2.36,0.488,0.418,0.07,settled,0,-10.0,401816412
+test,2026-08-05,mlb,SD @ ARI,Arizona Diamondbacks,home,2.2,0.533,0.447,0.086,settled,1,12.0,401816413
+test,2026-08-06,mlb,LAA @ BAL,Los Angeles Angels,away,2.69,0.437,0.365,0.071,settled,1,16.9,401816414
+test,2026-08-06,mlb,CHW @ BOS,Chicago White Sox,away,2.79,0.432,0.352,0.08,settled,0,-10.0,401816416
+test,2026-08-07,mlb,TOR @ PHI,Toronto Blue Jays,away,2.87,0.47,0.343,0.128,settled,1,18.7,401816429
+test,2026-08-07,mlb,LAA @ MIA,Los Angeles Angels,away,2.37,0.465,0.415,0.051,settled,1,13.7,401816424
+test,2026-08-07,mlb,ATH @ BOS,Athletics,away,3.4,0.4,0.289,0.11,settled,0,-10.0,401816425
+test,2026-08-07,mlb,CLE @ CHW,Chicago White Sox,home,2.25,0.553,0.436,0.117,settled,0,-10.0,401816432
+test,2026-08-07,mlb,MIN @ MIL,Minnesota Twins,away,2.58,0.447,0.381,0.066,settled,1,15.8,401816434
+test,2026-08-07,mlb,CHC @ KC,Kansas City Royals,home,2.53,0.521,0.388,0.133,settled,0,-10.0,401816431
+test,2026-08-07,mlb,BAL @ TEX,Baltimore Orioles,away,2.31,0.479,0.426,0.053,settled,0,-10.0,401816430
+test,2026-08-07,mlb,COL @ STL,Colorado Rockies,away,2.58,0.466,0.381,0.085,settled,0,-10.0,401816433
+test,2026-08-07,mlb,LAD @ ARI,Arizona Diamondbacks,home,2.67,0.55,0.368,0.182,settled,1,16.7,401816437
+test,2026-08-07,mlb,DET @ SF,San Francisco Giants,home,2.32,0.508,0.423,0.084,settled,1,13.2,401816435
+test,2026-08-08,mlb,ATL @ NYY,New York Yankees,home,2.31,0.517,0.425,0.091,settled,1,13.1,401816441
+test,2026-08-08,mlb,LAA @ MIA,Los Angeles Angels,away,2.37,0.471,0.415,0.057,settled,0,-10.0,401816439
+test,2026-08-08,mlb,ATH @ BOS,Athletics,away,3.55,0.395,0.277,0.118,settled,1,25.5,401816440
+test,2026-08-08,mlb,TOR @ PHI,Toronto Blue Jays,away,2.57,0.476,0.383,0.093,settled,1,15.7,401816444
+test,2026-08-08,mlb,CIN @ WSH,Washington Nationals,home,2.24,0.512,0.439,0.073,settled,1,12.4,401816442
+test,2026-08-08,mlb,CHC @ KC,Kansas City Royals,home,2.38,0.515,0.413,0.102,settled,1,13.8,401816446
+test,2026-08-08,mlb,CLE @ CHW,Chicago White Sox,home,2.14,0.547,0.459,0.088,settled,1,11.4,401816447
+test,2026-08-08,mlb,COL @ STL,Colorado Rockies,away,2.43,0.461,0.404,0.056,settled,1,14.3,401816448
+test,2026-08-08,mlb,LAD @ ARI,Arizona Diamondbacks,home,2.78,0.555,0.354,0.202,settled,0,-10.0,401816452
+test,2026-08-08,mlb,TB @ SEA,Tampa Bay Rays,away,2.25,0.492,0.437,0.055,settled,1,12.5,401816453
+test,2026-08-09,mlb,ATH @ BOS,Athletics,away,2.95,0.402,0.333,0.069,settled,1,19.5,401816455
+test,2026-08-09,mlb,ATL @ NYY,Atlanta Braves,away,2.31,0.478,0.425,0.052,settled,1,13.1,401816456
+test,2026-08-09,mlb,NYM @ PIT,New York Mets,away,2.3,0.483,0.427,0.056,settled,1,13.0,401816458
+test,2026-08-09,mlb,TOR @ PHI,Toronto Blue Jays,away,3.17,0.482,0.31,0.172,settled,0,-10.0,401816459
+test,2026-08-09,mlb,LAA @ MIA,Los Angeles Angels,away,2.37,0.466,0.415,0.051,settled,0,-10.0,401816454
+test,2026-08-09,mlb,CHC @ KC,Kansas City Royals,home,2.47,0.521,0.398,0.123,settled,0,-10.0,401816461
+test,2026-08-09,mlb,CLE @ CHW,Chicago White Sox,home,2.16,0.552,0.455,0.098,settled,1,11.6,401816462
+test,2026-08-09,mlb,MIN @ MIL,Minnesota Twins,away,3.38,0.448,0.291,0.157,settled,0,-10.0,401816464
+test,2026-08-09,mlb,COL @ STL,Colorado Rockies,away,2.47,0.467,0.398,0.069,settled,0,-10.0,401816463
+test,2026-08-09,mlb,DET @ SF,San Francisco Giants,home,2.16,0.508,0.455,0.053,settled,0,-10.0,401816465
+test,2026-08-09,mlb,LAD @ ARI,Arizona Diamondbacks,home,2.25,0.549,0.437,0.112,settled,1,12.5,401816467
+test,2026-08-10,mlb,BOS @ TOR,Toronto Blue Jays,home,2.51,0.501,0.392,0.109,settled,1,15.1,401816469
+test,2026-08-10,mlb,PHI @ STL,St. Louis Cardinals,home,2.05,0.534,0.479,0.055,settled,0,-10.0,401816472
+test,2026-08-10,mlb,COL @ ARI,Colorado Rockies,away,2.94,0.436,0.335,0.101,settled,0,-10.0,401816473
+test,2026-08-10,mlb,MIL @ SD,San Diego Padres,home,2.13,0.531,0.462,0.069,settled,1,11.3,401816476
+test,2026-08-10,mlb,TB @ ATH,Athletics,home,2.43,0.489,0.404,0.084,settled,0,-10.0,401816477
+test,2026-08-10,mlb,HOU @ SF,San Francisco Giants,home,2.3,0.506,0.427,0.079,settled,0,-10.0,401816474
+test,2026-08-10,mlb,KC @ LAD,Kansas City Royals,away,3.59,0.471,0.274,0.197,settled,0,-10.0,401816475
+test,2026-08-11,mlb,PIT @ MIA,Miami Marlins,home,2.03,0.537,0.484,0.054,settled,1,10.3,401816483
+test,2026-08-11,mlb,CHC @ WSH,Washington Nationals,home,2.55,0.514,0.385,0.129,settled,0,-10.0,401816480
+test,2026-08-11,mlb,CIN @ CHW,Cincinnati Reds,away,2.38,0.475,0.413,0.062,settled,1,13.8,401816486
+test,2026-08-11,mlb,PHI @ STL,St. Louis Cardinals,home,2.48,0.528,0.396,0.132,settled,1,14.8,401816487
+test,2026-08-11,mlb,TEX @ LAA,Los Angeles Angels,home,2.32,0.515,0.423,0.091,settled,1,13.2,401816493
+test,2026-08-11,mlb,MIL @ SD,San Diego Padres,home,2.18,0.536,0.451,0.085,settled,1,11.8,401816491
+test,2026-08-11,mlb,TB @ ATH,Athletics,home,2.69,0.483,0.365,0.118,settled,0,-10.0,401816492
+test,2026-08-11,mlb,HOU @ SF,San Francisco Giants,home,2.73,0.501,0.36,0.141,settled,1,17.3,401816489
+test,2026-08-11,mlb,KC @ LAD,Kansas City Royals,away,3.5,0.466,0.281,0.185,settled,0,-10.0,401816490
+test,2026-08-12,mlb,PHI @ STL,St. Louis Cardinals,home,2.51,0.534,0.391,0.142,settled,1,15.1,401816502
+test,2026-08-12,mlb,TB @ ATH,Athletics,home,3.05,0.477,0.322,0.155,settled,0,-10.0,401816507
+test,2026-08-12,mlb,COL @ ARI,Colorado Rockies,away,2.57,0.438,0.383,0.055,settled,1,15.7,401816503
+test,2026-08-12,mlb,HOU @ SF,San Francisco Giants,home,2.37,0.506,0.415,0.091,settled,0,-10.0,401816504
+test,2026-08-12,mlb,MIL @ SD,San Diego Padres,home,2.12,0.541,0.464,0.077,settled,1,11.2,401816506
+test,2026-08-12,mlb,CHC @ WSH,Washington Nationals,home,2.43,0.508,0.405,0.103,settled,0,-10.0,401816495
+test,2026-08-12,mlb,BOS @ TOR,Toronto Blue Jays,home,2.2,0.512,0.447,0.066,settled,1,12.0,401816494
+test,2026-08-12,mlb,NYM @ ATL,New York Mets,away,2.58,0.449,0.381,0.068,settled,0,-10.0,401816497
+test,2026-08-12,mlb,CIN @ CHW,Cincinnati Reds,away,2.32,0.481,0.423,0.057,settled,0,-10.0,401816501
+test,2026-08-12,mlb,TEX @ LAA,Los Angeles Angels,home,2.16,0.52,0.455,0.065,settled,1,11.6,401816508
+test,2026-08-12,mlb,KC @ LAD,Kansas City Royals,away,3.01,0.461,0.327,0.134,settled,0,-10.0,401816505
+test,2026-08-13,mlb,CLE @ DET,Detroit Tigers,home,2.01,0.572,0.489,0.083,settled,1,10.1,401816511
+test,2026-08-13,mlb,PIT @ MIA,Miami Marlins,home,2.09,0.548,0.47,0.078,settled,0,-10.0,401816512
+test,2026-08-13,mlb,BOS @ TOR,Toronto Blue Jays,home,2.26,0.518,0.434,0.083,settled,0,-10.0,401816509
+test,2026-08-13,mlb,CHC @ WSH,Washington Nationals,home,2.31,0.502,0.425,0.077,settled,1,13.1,401816510
+test,2026-08-13,mlb,TEX @ LAA,Los Angeles Angels,home,2.36,0.526,0.417,0.109,settled,1,13.6,401816516
+test,2026-08-14,mlb,STL @ CHC,St. Louis Cardinals,away,2.68,0.434,0.367,0.067,settled,0,-10.0,401816527
+test,2026-08-14,mlb,ARI @ ATL,Arizona Diamondbacks,away,2.77,0.449,0.355,0.094,settled,1,17.7,401816517
+test,2026-08-14,mlb,NYY @ TOR,Toronto Blue Jays,home,2.37,0.532,0.415,0.117,settled,1,13.7,401816522
+test,2026-08-14,mlb,MIL @ LAD,Milwaukee Brewers,away,2.61,0.481,0.377,0.104,settled,0,-10.0,401816530
+test,2026-08-15,mlb,STL @ CHC,St. Louis Cardinals,away,2.68,0.429,0.367,0.062,settled,1,16.8,401816542
+test,2026-08-15,mlb,NYY @ TOR,Toronto Blue Jays,home,2.73,0.537,0.36,0.177,settled,1,17.3,401816537
+test,2026-08-15,mlb,COL @ SF,Colorado Rockies,away,2.55,0.477,0.385,0.092,settled,0,-10.0,401816543
+test,2026-08-15,mlb,MIA @ CIN,Cincinnati Reds,home,1.952,0.565,0.504,0.062,settled,0,-10.0,401816536
+test,2026-08-15,mlb,PHI @ MIN,Minnesota Twins,home,2.23,0.542,0.44,0.102,settled,0,-10.0,401816540
+test,2026-08-15,mlb,MIL @ LAD,Los Angeles Dodgers,home,2.14,0.524,0.46,0.065,settled,0,-10.0,401816545
+test,2026-08-15,mlb,KC @ LAA,Kansas City Royals,away,2.42,0.477,0.406,0.071,settled,0,-10.0,401816544
+test,2026-08-15,mlb,TEX @ ATH,Athletics,home,2.43,0.517,0.404,0.113,settled,0,-10.0,401816546
+test,2026-08-16,mlb,MIA @ CIN,Cincinnati Reds,home,2.1,0.559,0.468,0.091,settled,0,-10.0,401816551
+test,2026-08-16,mlb,WSH @ NYM,Washington Nationals,away,2.48,0.447,0.396,0.051,settled,0,-10.0,401816554
+test,2026-08-16,mlb,STL @ CHC,St. Louis Cardinals,away,2.63,0.435,0.374,0.062,settled,1,16.3,401816557
+test,2026-08-16,mlb,KC @ LAA,Los Angeles Angels,home,2.09,0.528,0.47,0.058,settled,0,-10.0,401816559
+test,2026-08-16,mlb,MIL @ LAD,Milwaukee Brewers,away,2.69,0.482,0.365,0.116,settled,1,16.9,401816560
+test,2026-08-17,mlb,STL @ CIN,Cincinnati Reds,home,2.01,0.55,0.488,0.062,settled,0,-10.0,401873710
+test,2026-08-17,mlb,BAL @ TB,Baltimore Orioles,away,2.5,0.456,0.393,0.063,settled,0,-10.0,401816563
+test,2026-08-17,mlb,MIA @ PHI,Miami Marlins,away,3.32,0.462,0.296,0.166,settled,0,-10.0,401816565
+test,2026-08-17,mlb,STL @ CIN,Cincinnati Reds,home,2.04,0.544,0.481,0.062,settled,1,10.4,401816567
+test,2026-08-17,mlb,ATH @ KC,Athletics,away,2.68,0.44,0.367,0.073,settled,0,-10.0,401816568
+test,2026-08-17,mlb,ATL @ MIN,Minnesota Twins,home,2.22,0.502,0.443,0.06,settled,1,12.2,401816581
+test,2026-08-17,mlb,CHW @ CHC,Chicago White Sox,away,2.45,0.455,0.402,0.053,settled,0,-10.0,401816569
+test,2026-08-17,mlb,LAD @ COL,Colorado Rockies,home,3.6,0.53,0.273,0.257,settled,0,-10.0,401816570
+test,2026-08-18,mlb,DET @ PIT,Detroit Tigers,away,2.42,0.498,0.406,0.092,settled,0,-10.0,401816572
+test,2026-08-18,mlb,MIA @ PHI,Miami Marlins,away,2.95,0.457,0.333,0.124,settled,0,-10.0,401816573
+test,2026-08-18,mlb,SF @ CLE,San Francisco Giants,away,2.78,0.471,0.354,0.117,settled,0,-10.0,401816576
+test,2026-08-18,mlb,STL @ CIN,Cincinnati Reds,home,2.07,0.549,0.475,0.074,settled,0,-10.0,401816577
+test,2026-08-18,mlb,ARI @ BOS,Arizona Diamondbacks,away,2.48,0.449,0.396,0.053,settled,0,-10.0,401816571
+test,2026-08-18,mlb,SD @ NYM,New York Mets,home,2.08,0.526,0.472,0.053,settled,0,-10.0,401816575
+test,2026-08-18,mlb,ATL @ MIN,Minnesota Twins,home,2.37,0.508,0.415,0.093,settled,1,13.7,401816596
+test,2026-08-18,mlb,CHW @ CHC,Chicago White Sox,away,2.58,0.45,0.381,0.069,settled,0,-10.0,401816582
+test,2026-08-18,mlb,LAD @ COL,Colorado Rockies,home,2.79,0.524,0.352,0.171,settled,0,-10.0,401816585
+test,2026-08-19,mlb,DET @ PIT,Detroit Tigers,away,2.43,0.492,0.404,0.088,settled,0,-10.0,401816587
+test,2026-08-19,mlb,SD @ NYM,New York Mets,home,2.26,0.52,0.434,0.085,settled,1,12.6,401816590
+test,2026-08-19,mlb,SF @ CLE,San Francisco Giants,away,3.06,0.465,0.321,0.144,settled,1,20.6,401816591
+test,2026-08-19,mlb,TOR @ TB,Toronto Blue Jays,away,2.79,0.456,0.352,0.104,settled,0,-10.0,401816593
+test,2026-08-19,mlb,ATH @ KC,Athletics,away,2.69,0.43,0.365,0.065,settled,0,-10.0,401816595
+test,2026-08-19,mlb,LAD @ COL,Colorado Rockies,home,2.79,0.518,0.352,0.165,settled,0,-10.0,401816600
+test,2026-08-20,mlb,STL @ CIN,Cincinnati Reds,home,2.03,0.548,0.485,0.063,settled,0,-10.0,401816603
+test,2026-08-20,mlb,SF @ CLE,San Francisco Giants,away,2.91,0.471,0.338,0.133,settled,0,-10.0,401816602
+test,2026-08-20,mlb,TOR @ TB,Toronto Blue Jays,away,2.5,0.451,0.393,0.058,settled,1,15.0,401816604
+test,2026-08-20,mlb,WSH @ TEX,Washington Nationals,away,2.68,0.467,0.367,0.101,settled,0,-10.0,401816609
+test,2026-08-20,mlb,LAA @ HOU,Los Angeles Angels,away,2.69,0.438,0.365,0.072,settled,1,16.9,401816605
+test,2026-08-21,mlb,STL @ PHI,St. Louis Cardinals,away,3.27,0.461,0.301,0.16,settled,0,-10.0,401816611
+test,2026-08-21,mlb,TOR @ NYY,Toronto Blue Jays,away,2.79,0.462,0.352,0.109,settled,0,-10.0,401816613
+test,2026-08-21,mlb,CLE @ COL,Colorado Rockies,home,2.4,0.54,0.41,0.13,settled,0,-10.0,401816620
+test,2026-08-21,mlb,CIN @ ARI,Cincinnati Reds,away,2.41,0.46,0.408,0.052,settled,0,-10.0,401816622
+test,2026-08-21,mlb,PIT @ LAD,Pittsburgh Pirates,away,3.12,0.447,0.315,0.132,settled,0,-10.0,401816624
+test,2026-08-22,mlb,ATL @ MIL,Atlanta Braves,away,2.42,0.458,0.406,0.052,settled,0,-10.0,401816632
+test,2026-08-22,mlb,WSH @ MIA,Washington Nationals,away,2.72,0.462,0.362,0.1,settled,0,-10.0,401816629
+test,2026-08-22,mlb,STL @ PHI,St. Louis Cardinals,away,2.43,0.456,0.404,0.052,settled,0,-10.0,401816626
+test,2026-08-22,mlb,TB @ BAL,Baltimore Orioles,home,2.16,0.52,0.455,0.065,settled,1,11.6,401816627
+test,2026-08-22,mlb,LAA @ TEX,Los Angeles Angels,away,2.52,0.458,0.39,0.068,settled,1,15.2,401816630
+test,2026-08-22,mlb,ATH @ HOU,Athletics,away,3.17,0.413,0.31,0.102,settled,1,21.7,401816631
+test,2026-08-22,mlb,SF @ BOS,San Francisco Giants,away,2.89,0.412,0.34,0.072,settled,0,-10.0,401816625
+test,2026-08-22,mlb,PIT @ LAD,Pittsburgh Pirates,away,3.34,0.442,0.294,0.148,settled,0,-10.0,401816639
+test,2026-08-22,mlb,CLE @ COL,Colorado Rockies,home,2.2,0.534,0.447,0.088,settled,0,-10.0,401816635
+test,2026-08-22,mlb,CIN @ ARI,Cincinnati Reds,away,2.73,0.455,0.36,0.095,settled,1,17.3,401816637
+test,2026-08-23,mlb,STL @ PHI,St. Louis Cardinals,away,3.0,0.451,0.328,0.123,settled,0,-10.0,401816641
+test,2026-08-23,mlb,WSH @ MIA,Washington Nationals,away,2.47,0.457,0.398,0.059,settled,0,-10.0,401816644
+test,2026-08-23,mlb,DET @ KC,Kansas City Royals,home,2.0,0.543,0.491,0.052,settled,1,10.0,401816648
+test,2026-08-23,mlb,LAA @ TEX,Los Angeles Angels,away,2.43,0.464,0.404,0.06,settled,0,-10.0,401816645
+test,2026-08-23,mlb,CLE @ COL,Colorado Rockies,home,2.47,0.528,0.398,0.13,settled,0,-10.0,401816650
+test,2026-08-23,mlb,SF @ BOS,San Francisco Giants,away,2.87,0.407,0.343,0.064,settled,0,-10.0,401816640
+test,2026-08-23,mlb,PIT @ LAD,Pittsburgh Pirates,away,3.53,0.437,0.279,0.159,settled,0,-10.0,401816654
+test,2026-08-24,mlb,TB @ DET,Detroit Tigers,home,2.26,0.518,0.435,0.083,settled,0,-10.0,401816657
+test,2026-08-24,mlb,COL @ WSH,Colorado Rockies,away,2.8,0.461,0.351,0.109,settled,0,-10.0,401816656
+test,2026-08-24,mlb,CLE @ LAA,Los Angeles Angels,home,2.5,0.534,0.393,0.14,settled,0,-10.0,401816661
+test,2026-08-24,mlb,CHC @ ARI,Arizona Diamondbacks,home,2.3,0.53,0.427,0.103,settled,0,-10.0,401816659
+test,2026-08-24,mlb,MIN @ ATH,Athletics,home,2.31,0.507,0.426,0.081,settled,0,-10.0,401816662
+test,2026-08-24,mlb,PIT @ SD,San Diego Padres,home,1.893,0.586,0.519,0.068,settled,0,-10.0,401816664
+test,2026-08-24,mlb,CIN @ SF,San Francisco Giants,home,2.58,0.501,0.381,0.12,settled,1,15.8,401816660
+test,2026-08-25,mlb,BOS @ MIA,Miami Marlins,home,2.31,0.487,0.426,0.061,settled,0,-10.0,401816665
+test,2026-08-25,mlb,TB @ DET,Detroit Tigers,home,2.19,0.512,0.449,0.063,settled,1,11.9,401816671
+test,2026-08-25,mlb,COL @ WSH,Colorado Rockies,away,2.47,0.455,0.399,0.057,settled,1,14.7,401816666
+test,2026-08-25,mlb,MIL @ NYM,New York Mets,home,2.48,0.525,0.396,0.128,settled,1,14.8,401816670
+test,2026-08-25,mlb,LAD @ ATL,Atlanta Braves,home,2.42,0.537,0.406,0.131,settled,1,14.2,401816669
+test,2026-08-25,mlb,TEX @ CHW,Chicago White Sox,home,2.03,0.542,0.484,0.058,settled,1,10.3,401816673
+test,2026-08-25,mlb,CLE @ LAA,Los Angeles Angels,home,2.31,0.528,0.426,0.102,settled,0,-10.0,401816676
+test,2026-08-25,mlb,MIN @ ATH,Athletics,home,2.32,0.501,0.423,0.078,settled,1,13.2,401816677
+test,2026-08-26,mlb,CLE @ LAA,Los Angeles Angels,home,2.26,0.521,0.434,0.087,settled,0,-10.0,401816691
+test,2026-08-26,mlb,PHI @ SEA,Seattle Mariners,home,2.25,0.522,0.437,0.085,settled,0,-10.0,401816693
+test,2026-08-26,mlb,KC @ TOR,Kansas City Royals,away,2.46,0.476,0.4,0.077,settled,0,-10.0,401816683
+test,2026-08-26,mlb,MIL @ NYM,New York Mets,home,2.44,0.53,0.403,0.127,settled,0,-10.0,401816685
+test,2026-08-26,mlb,LAD @ ATL,Atlanta Braves,home,2.11,0.542,0.465,0.077,settled,1,11.1,401816684
+test,2026-08-26,mlb,MIN @ ATH,Athletics,home,2.16,0.507,0.455,0.052,settled,1,11.6,401816692
+test,2026-08-27,mlb,BAL @ STL,St. Louis Cardinals,home,2.19,0.512,0.449,0.063,settled,1,11.9,401816700
+test,2026-08-27,mlb,HOU @ NYY,Houston Astros,away,2.47,0.454,0.398,0.056,settled,1,14.7,401816696
+test,2026-08-27,mlb,MIL @ NYM,New York Mets,home,2.84,0.524,0.346,0.178,settled,0,-10.0,401816699
+test,2026-08-28,mlb,CIN @ CHC,Cincinnati Reds,away,2.79,0.451,0.352,0.099,settled,1,17.9,401816711
+test,2026-08-28,mlb,LAD @ DET,Detroit Tigers,home,2.68,0.526,0.367,0.159,settled,0,-10.0,401816706
+test,2026-08-28,mlb,MIA @ WSH,Washington Nationals,home,2.25,0.522,0.437,0.085,settled,1,12.5,401816707
+test,2026-08-28,mlb,BOS @ NYY,Boston Red Sox,away,2.42,0.489,0.407,0.082,settled,0,-10.0,401816702
+test,2026-08-28,mlb,COL @ ATL,Colorado Rockies,away,3.0,0.417,0.328,0.09,settled,0,-10.0,401816703
+test,2026-08-28,mlb,TEX @ MIL,Texas Rangers,away,2.95,0.43,0.334,0.096,settled,0,-10.0,401816713
+test,2026-08-28,mlb,PIT @ STL,St. Louis Cardinals,home,2.05,0.539,0.48,0.059,settled,1,10.5,401816712
+test,2026-08-29,mlb,LAD @ DET,Detroit Tigers,home,2.68,0.52,0.367,0.154,settled,1,16.8,401816721
+test,2026-08-29,mlb,CIN @ CHC,Cincinnati Reds,away,2.89,0.457,0.34,0.117,settled,0,-10.0,401816726
+test,2026-08-29,mlb,COL @ ATL,Colorado Rockies,away,3.16,0.413,0.311,0.101,settled,0,-10.0,401816718
+test,2026-08-29,mlb,HOU @ NYM,Houston Astros,away,2.43,0.471,0.404,0.066,settled,0,-10.0,401816719
+test,2026-08-29,mlb,KC @ CLE,Kansas City Royals,away,2.48,0.493,0.396,0.097,settled,1,14.8,401816720
+test,2026-08-29,mlb,BOS @ NYY,Boston Red Sox,away,2.3,0.489,0.427,0.062,settled,0,-10.0,401816717
+test,2026-08-29,mlb,BAL @ ATH,Athletics,home,2.32,0.491,0.423,0.068,settled,0,-10.0,401816730
+test,2026-08-29,mlb,PHI @ LAA,Los Angeles Angels,home,3.06,0.496,0.321,0.175,settled,0,-10.0,401816731
+test,2026-08-30,mlb,BOS @ NYY,New York Yankees,home,2.31,0.517,0.425,0.091,settled,1,13.1,401816732
+test,2026-08-30,mlb,COL @ ATL,Colorado Rockies,away,3.17,0.408,0.31,0.098,settled,0,-10.0,401816733
+test,2026-08-30,mlb,SEA @ TOR,Toronto Blue Jays,home,2.21,0.561,0.445,0.115,settled,1,12.1,401816739
+test,2026-08-30,mlb,KC @ CLE,Kansas City Royals,away,2.62,0.499,0.375,0.124,settled,0,-10.0,401816735
+test,2026-08-30,mlb,LAD @ DET,Detroit Tigers,home,2.36,0.526,0.417,0.109,settled,0,-10.0,401816736
+test,2026-08-30,mlb,SD @ TB,San Diego Padres,away,2.42,0.462,0.406,0.057,settled,0,-10.0,401816738
+test,2026-08-30,mlb,PIT @ STL,St. Louis Cardinals,home,2.11,0.538,0.466,0.072,settled,0,-10.0,401816742
+test,2026-08-30,mlb,BAL @ ATH,Athletics,home,2.37,0.485,0.415,0.071,settled,0,-10.0,401816745
+test,2026-08-30,mlb,PHI @ LAA,Los Angeles Angels,home,2.5,0.49,0.393,0.097,settled,0,-10.0,401816746
+test,2026-08-31,mlb,SF @ ATL,San Francisco Giants,away,2.79,0.409,0.352,0.057,settled,1,17.9,401878657
+test,2026-08-31,mlb,NYM @ TB,New York Mets,away,2.68,0.444,0.367,0.077,settled,1,16.8,401816748
+test,2026-08-31,mlb,SD @ CIN,Cincinnati Reds,home,2.37,0.52,0.415,0.105,settled,0,-10.0,401816749
+test,2026-08-31,mlb,ATH @ TEX,Athletics,away,3.0,0.436,0.328,0.108,settled,0,-10.0,401816751
+test,2026-09-01,mlb,SD @ CIN,Cincinnati Reds,home,2.13,0.514,0.449,0.065,settled,1,11.3,401816760
+test,2026-09-01,mlb,SF @ PIT,San Francisco Giants,away,2.44,0.455,0.392,0.063,settled,0,-10.0,401816762
+test,2026-09-01,mlb,TOR @ CLE,Toronto Blue Jays,away,2.48,0.487,0.386,0.101,settled,0,-10.0,401816763
+test,2026-09-01,mlb,ATL @ WSH,Washington Nationals,home,2.22,0.49,0.431,0.059,settled,1,12.2,401816758
+test,2026-09-01,mlb,SEA @ BOS,Boston Red Sox,home,1.833,0.588,0.521,0.067,settled,0,-10.0,401816761
+test,2026-09-01,mlb,MIA @ KC,Kansas City Royals,home,1.952,0.569,0.49,0.079,settled,0,-10.0,401816767
+test,2026-09-01,mlb,ATH @ TEX,Athletics,away,2.82,0.431,0.339,0.092,settled,0,-10.0,401816764
+test,2026-09-01,mlb,CHW @ HOU,Houston Astros,home,1.962,0.541,0.487,0.054,settled,0,-10.0,401816765
+test,2026-09-01,mlb,BAL @ COL,Colorado Rockies,home,2.29,0.483,0.417,0.065,settled,1,12.9,401816769
+test,2026-09-01,mlb,NYY @ LAA,Los Angeles Angels,home,2.57,0.489,0.372,0.117,settled,0,-10.0,401816770
+test,2026-09-01,mlb,PHI @ ARI,Arizona Diamondbacks,home,2.14,0.527,0.447,0.08,settled,0,-10.0,401816771
+test,2026-09-01,mlb,STL @ LAD,St. Louis Cardinals,away,2.63,0.442,0.364,0.078,settled,1,16.3,401816772
+test,2026-09-02,mlb,SD @ CIN,Cincinnati Reds,home,2.38,0.519,0.402,0.118,settled,1,13.8,401816775
+test,2026-09-02,mlb,ATL @ WSH,Washington Nationals,home,2.18,0.496,0.439,0.057,settled,0,-10.0,401816773
+test,2026-09-02,mlb,BAL @ COL,Colorado Rockies,home,2.53,0.489,0.378,0.111,settled,1,15.3,401816784
+test,2026-09-02,mlb,PHI @ ARI,Arizona Diamondbacks,home,2.09,0.521,0.457,0.064,settled,1,10.9,401816786
+test,2026-09-02,mlb,NYM @ TB,New York Mets,away,2.57,0.445,0.372,0.073,settled,1,15.7,401816774
+test,2026-09-02,mlb,TOR @ CLE,Cleveland Guardians,home,2.14,0.519,0.447,0.072,settled,0,-10.0,401816778
+test,2026-09-02,mlb,MIL @ CHC,Chicago Cubs,home,2.3,0.519,0.416,0.103,settled,0,-10.0,401816783
+test,2026-09-02,mlb,NYY @ LAA,Los Angeles Angels,home,2.33,0.483,0.41,0.073,settled,0,-10.0,401816785
+test,2026-09-02,mlb,STL @ LAD,St. Louis Cardinals,away,3.46,0.448,0.276,0.172,settled,1,24.6,401816787
+test,2026-09-03,mlb,SF @ PIT,San Francisco Giants,away,2.44,0.456,0.392,0.064,settled,0,-10.0,401816789
+test,2026-09-03,mlb,ATH @ SEA,Athletics,away,2.81,0.437,0.34,0.096,settled,1,18.1,401816795
+test,2026-09-03,mlb,STL @ LAD,St. Louis Cardinals,away,3.37,0.454,0.284,0.171,settled,0,-10.0,401816796
+test,2026-09-04,mlb,MIL @ CIN,Cincinnati Reds,home,2.28,0.514,0.419,0.095,settled,0,-10.0,401816802
+test,2026-09-04,mlb,LAA @ PIT,Los Angeles Angels,away,2.63,0.441,0.364,0.077,settled,0,-10.0,401816797
+test,2026-09-04,mlb,CHC @ MIA,Miami Marlins,home,2.33,0.512,0.41,0.101,settled,0,-10.0,401816800
+test,2026-09-04,mlb,SF @ NYM,San Francisco Giants,away,2.68,0.431,0.357,0.074,settled,0,-10.0,401816803
+test,2026-09-04,mlb,DET @ CLE,Detroit Tigers,away,2.33,0.462,0.41,0.052,settled,0,-10.0,401816801
+test,2026-09-04,mlb,STL @ COL,Colorado Rockies,home,2.1,0.517,0.455,0.062,settled,0,-10.0,401816808
+test,2026-09-04,mlb,ATH @ SEA,Athletics,away,3.02,0.443,0.317,0.126,settled,1,20.2,401816809
+test,2026-09-04,mlb,WSH @ LAD,Washington Nationals,away,3.24,0.444,0.295,0.149,settled,0,-10.0,401816811
+test,2026-09-05,mlb,ATL @ PHI,Atlanta Braves,away,2.37,0.478,0.403,0.074,settled,0,-10.0,401816813
+test,2026-09-05,mlb,LAA @ PIT,Los Angeles Angels,away,2.54,0.436,0.376,0.06,settled,1,15.4,401816812
+test,2026-09-05,mlb,MIL @ CIN,Cincinnati Reds,home,2.29,0.508,0.417,0.091,settled,1,12.9,401816817
+test,2026-09-05,mlb,ARI @ HOU,Houston Astros,home,1.943,0.544,0.492,0.051,settled,0,-10.0,401816819
+test,2026-09-05,mlb,STL @ COL,Colorado Rockies,home,2.08,0.511,0.46,0.051,settled,1,10.8,401816823
+test,2026-09-05,mlb,WSH @ LAD,Washington Nationals,away,2.54,0.439,0.376,0.063,settled,0,-10.0,401816826
+test,2026-09-05,mlb,ATH @ SEA,Athletics,away,3.01,0.449,0.318,0.132,settled,1,20.1,401816824
+test,2026-09-06,mlb,MIL @ CIN,Cincinnati Reds,home,2.23,0.514,0.428,0.085,settled,1,12.3,401816832
+test,2026-09-06,mlb,LAA @ PIT,Los Angeles Angels,away,2.48,0.443,0.386,0.057,settled,0,-10.0,401816827
+test,2026-09-06,mlb,CHC @ MIA,Miami Marlins,home,2.18,0.5,0.439,0.061,settled,1,11.8,401816830
+test,2026-09-06,mlb,DET @ CLE,Detroit Tigers,away,2.43,0.463,0.394,0.07,settled,0,-10.0,401816831
+test,2026-09-06,mlb,STL @ COL,Colorado Rockies,home,2.13,0.516,0.449,0.067,settled,0,-10.0,401816838
+test,2026-09-06,mlb,ATH @ SEA,Athletics,away,2.77,0.456,0.345,0.11,settled,0,-10.0,401816839
+test,2026-09-06,mlb,WSH @ LAD,Washington Nationals,away,2.59,0.434,0.369,0.065,settled,0,-10.0,401816841
+test,2026-09-07,mlb,ATL @ PHI,Atlanta Braves,away,2.53,0.478,0.378,0.101,settled,0,-10.0,401816843
+test,2026-09-07,mlb,NYM @ MIA,New York Mets,away,2.17,0.491,0.441,0.051,settled,1,11.7,401816846
+test,2026-09-07,mlb,WSH @ SD,Washington Nationals,away,2.64,0.422,0.362,0.059,settled,0,-10.0,401816852
+test,2026-09-07,mlb,CIN @ LAD,Cincinnati Reds,away,2.54,0.464,0.376,0.087,settled,0,-10.0,401816849
+test,2026-09-07,mlb,TOR @ ATH,Athletics,home,2.78,0.479,0.344,0.135,settled,1,17.8,401816851
+test,2026-09-08,mlb,COL @ NYY,Colorado Rockies,away,3.77,0.414,0.254,0.16,settled,0,-10.0,401816855
+test,2026-09-08,mlb,CHC @ MIL,Chicago Cubs,away,2.63,0.45,0.364,0.086,settled,0,-10.0,401816861
+test,2026-09-08,mlb,TOR @ ATH,Athletics,home,2.52,0.485,0.379,0.105,settled,0,-10.0,401816866
+test,2026-09-08,mlb,CIN @ LAD,Cincinnati Reds,away,3.49,0.458,0.274,0.184,settled,0,-10.0,401816863
+test,2026-09-09,mlb,TOR @ ATH,Athletics,home,2.34,0.479,0.409,0.07,settled,1,13.4,401816881
+test,2026-09-09,mlb,STL @ SF,San Francisco Giants,home,2.02,0.527,0.473,0.054,settled,1,10.2,401816879
+test,2026-09-09,mlb,TEX @ SEA,Texas Rangers,away,2.23,0.482,0.429,0.053,settled,0,-10.0,401816880
+test,2026-09-09,mlb,CLE @ BAL,Baltimore Orioles,home,1.98,0.538,0.483,0.056,settled,1,9.8,401816869
+test,2026-09-09,mlb,HOU @ PHI,Houston Astros,away,2.33,0.465,0.41,0.055,settled,0,-10.0,401816871
+test,2026-09-09,mlb,LAA @ BOS,Los Angeles Angels,away,2.83,0.394,0.338,0.056,settled,1,18.3,401816868
+test,2026-09-09,mlb,COL @ NYY,Colorado Rockies,away,3.07,0.409,0.312,0.098,settled,0,-10.0,401816870
+test,2026-09-09,mlb,CIN @ LAD,Cincinnati Reds,away,3.39,0.453,0.282,0.171,settled,0,-10.0,401816878
+test,2026-09-10,mlb,HOU @ PHI,Houston Astros,away,2.59,0.46,0.369,0.09,settled,1,15.9,401816884
+test,2026-09-10,mlb,COL @ NYY,Colorado Rockies,away,3.43,0.405,0.279,0.126,settled,0,-10.0,401816883
+test,2026-09-11,mlb,PIT @ CHC,Pittsburgh Pirates,away,2.56,0.459,0.374,0.085,settled,0,-10.0,401816899
+test,2026-09-11,mlb,COL @ DET,Colorado Rockies,away,2.5,0.437,0.383,0.055,settled,0,-10.0,401816890
+test,2026-09-11,mlb,LAA @ WSH,Los Angeles Angels,away,2.33,0.465,0.41,0.055,settled,0,-10.0,401816888
+test,2026-09-11,mlb,HOU @ TB,Houston Astros,away,2.62,0.455,0.365,0.09,settled,0,-10.0,401816891
+test,2026-09-11,mlb,KC @ BOS,Kansas City Royals,away,2.77,0.441,0.345,0.096,settled,1,17.7,401816892
+test,2026-09-11,mlb,LAD @ MIA,Miami Marlins,home,2.71,0.492,0.353,0.139,settled,0,-10.0,401816893
+test,2026-09-11,mlb,PHI @ ATL,Philadelphia Phillies,away,2.55,0.458,0.375,0.083,settled,0,-10.0,401816895
+test,2026-09-11,mlb,CIN @ MIL,Cincinnati Reds,away,2.69,0.435,0.355,0.08,settled,0,-10.0,401816897
+test,2026-09-11,mlb,SEA @ ATH,Athletics,home,2.38,0.52,0.402,0.118,settled,1,13.8,401816901
+test,2026-09-11,mlb,SD @ SF,San Francisco Giants,home,2.34,0.489,0.408,0.081,settled,0,-10.0,401816900
+test,2026-09-12,mlb,NYM @ NYY,New York Mets,away,2.41,0.454,0.397,0.057,settled,1,14.1,401816909
+test,2026-09-12,mlb,SD @ SF,San Francisco Giants,home,2.58,0.483,0.371,0.112,settled,0,-10.0,401816915
+test,2026-09-12,mlb,KC @ BOS,Kansas City Royals,away,2.83,0.447,0.338,0.109,settled,0,-10.0,401816907
+test,2026-09-12,mlb,LAD @ MIA,Miami Marlins,home,2.38,0.486,0.401,0.085,settled,1,13.8,401816908
+test,2026-09-12,mlb,CIN @ MIL,Cincinnati Reds,away,2.78,0.43,0.344,0.086,settled,0,-10.0,401816912
+test,2026-09-12,mlb,SEA @ ATH,Athletics,home,2.28,0.525,0.419,0.106,settled,0,-10.0,401816916
+test,2026-09-13,mlb,COL @ DET,Colorado Rockies,away,2.55,0.427,0.375,0.052,settled,0,-10.0,401816920
+test,2026-09-13,mlb,NYM @ NYY,New York Mets,away,2.52,0.46,0.379,0.081,settled,0,-10.0,401816924
+test,2026-09-13,mlb,CIN @ MIL,Cincinnati Reds,away,2.68,0.425,0.357,0.069,settled,1,16.8,401816927
+test,2026-09-13,mlb,PIT @ CHC,Pittsburgh Pirates,away,2.41,0.449,0.397,0.052,settled,1,14.1,401816929
+test,2026-09-13,mlb,KC @ BOS,Kansas City Royals,away,2.59,0.442,0.369,0.073,settled,0,-10.0,401816922
+test,2026-09-13,mlb,SEA @ ATH,Athletics,home,2.09,0.519,0.458,0.062,settled,1,10.9,401816931
+test,2026-09-14,mlb,CHW @ CLE,Chicago White Sox,away,2.52,0.466,0.38,0.086,settled,1,15.2,401816934
+test,2026-09-14,mlb,LAD @ CIN,Cincinnati Reds,home,2.82,0.518,0.339,0.179,settled,0,-10.0,401816936
+test,2026-09-14,mlb,SD @ COL,Colorado Rockies,home,2.69,0.452,0.355,0.097,settled,0,-10.0,401816940
+test,2026-09-15,mlb,ATH @ TB,Athletics,away,2.89,0.401,0.331,0.07,settled,0,-10.0,401816943
+test,2026-09-15,mlb,CHW @ CLE,Chicago White Sox,away,2.32,0.472,0.412,0.06,settled,0,-10.0,401816945
+test,2026-09-15,mlb,LAD @ CIN,Cincinnati Reds,home,3.02,0.512,0.316,0.196,settled,0,-10.0,401816947
+test,2026-09-15,mlb,MIL @ PIT,Pittsburgh Pirates,home,2.77,0.498,0.345,0.153,settled,0,-10.0,401816948
+test,2026-09-15,mlb,PHI @ WSH,Washington Nationals,home,2.81,0.496,0.34,0.156,settled,1,18.1,401816949
+test,2026-09-15,mlb,NYY @ MIN,Minnesota Twins,home,2.42,0.481,0.395,0.086,settled,0,-10.0,401816953
+test,2026-09-15,mlb,SF @ STL,San Francisco Giants,away,2.54,0.448,0.377,0.071,settled,1,15.4,401816954
+test,2026-09-15,mlb,BOS @ TEX,Boston Red Sox,away,2.23,0.51,0.429,0.081,settled,0,-10.0,401816951
+test,2026-09-15,mlb,KC @ HOU,Kansas City Royals,away,2.36,0.464,0.405,0.059,settled,0,-10.0,401816952
+test,2026-09-15,mlb,SD @ COL,Colorado Rockies,home,2.64,0.447,0.362,0.085,settled,1,16.4,401816955
+test,2026-09-15,mlb,SEA @ LAA,Los Angeles Angels,home,2.38,0.521,0.402,0.119,settled,1,13.8,401816957
+test,2026-09-16,mlb,CHW @ CLE,Chicago White Sox,away,2.37,0.467,0.403,0.064,settled,0,-10.0,401816960
+test,2026-09-16,mlb,SF @ STL,San Francisco Giants,away,2.41,0.454,0.397,0.057,settled,1,14.1,401816969
+test,2026-09-16,mlb,NYY @ MIN,Minnesota Twins,home,2.35,0.476,0.407,0.069,settled,1,13.5,401816968
+test,2026-09-16,mlb,LAD @ CIN,Cincinnati Reds,home,2.88,0.506,0.332,0.174,settled,1,18.8,401816962
+test,2026-09-16,mlb,PHI @ WSH,Washington Nationals,home,2.59,0.502,0.369,0.133,settled,0,-10.0,401816964
+test,2026-09-16,mlb,ATL @ CHC,Atlanta Braves,away,2.4,0.483,0.398,0.085,settled,0,-10.0,401816965
+test,2026-09-16,mlb,KC @ HOU,Kansas City Royals,away,2.41,0.459,0.397,0.062,settled,1,14.1,401816967
+test,2026-09-16,mlb,SD @ COL,Colorado Rockies,home,2.39,0.453,0.4,0.053,settled,0,-10.0,401816970
+test,2026-09-16,mlb,SEA @ LAA,Los Angeles Angels,home,2.09,0.526,0.458,0.069,settled,0,-10.0,401816972
+test,2026-09-17,mlb,LAD @ CIN,Cincinnati Reds,home,2.42,0.512,0.395,0.117,settled,0,-10.0,401816974
+test,2026-09-17,mlb,ATH @ TB,Athletics,away,3.23,0.392,0.296,0.096,settled,0,-10.0,401816973
+test,2026-09-17,mlb,SD @ COL,Colorado Rockies,home,2.62,0.448,0.365,0.083,settled,0,-10.0,401816980
+test,2026-09-18,mlb,CHC @ CIN,Cincinnati Reds,home,2.24,0.518,0.427,0.091,settled,1,12.4,401816984
+test,2026-09-18,mlb,KC @ PIT,Kansas City Royals,away,2.58,0.475,0.37,0.105,settled,0,-10.0,401816985
+test,2026-09-18,mlb,MIL @ BAL,Baltimore Orioles,home,2.24,0.505,0.427,0.078,settled,0,-10.0,401816986
+test,2026-09-18,mlb,ATH @ CLE,Athletics,away,2.99,0.431,0.32,0.112,settled,0,-10.0,401816982
+test,2026-09-18,mlb,TOR @ TEX,Texas Rangers,home,2.17,0.514,0.441,0.073,settled,1,11.7,401816990
+test,2026-09-18,mlb,SEA @ COL,Colorado Rockies,home,2.57,0.506,0.372,0.134,settled,0,-10.0,401816992
+test,2026-09-18,mlb,MIA @ SD,Miami Marlins,away,2.69,0.411,0.356,0.055,settled,0,-10.0,401816993
+test,2026-09-18,mlb,SF @ LAD,San Francisco Giants,away,3.54,0.42,0.27,0.149,settled,0,-10.0,401816996
+test,2026-09-19,mlb,ATH @ CLE,Athletics,away,2.54,0.427,0.376,0.05,settled,0,-10.0,401816997
+test,2026-09-19,mlb,CHC @ CIN,Cincinnati Reds,home,2.23,0.523,0.429,0.094,settled,0,-10.0,401816999
+test,2026-09-19,mlb,SEA @ COL,Colorado Rockies,home,2.23,0.5,0.428,0.072,settled,1,12.3,401817007
+test,2026-09-19,mlb,NYY @ ARI,Arizona Diamondbacks,home,2.34,0.509,0.409,0.1,settled,1,13.4,401817010
+test,2026-09-20,mlb,PHI @ NYM,New York Mets,home,2.32,0.533,0.412,0.122,settled,0,-10.0,401817017
+test,2026-09-20,mlb,ATH @ CLE,Athletics,away,3.13,0.422,0.306,0.116,settled,0,-10.0,401817012
+test,2026-09-20,mlb,CHC @ CIN,Cincinnati Reds,home,2.39,0.517,0.4,0.117,settled,0,-10.0,401817014
+test,2026-09-20,mlb,ATL @ HOU,Atlanta Braves,away,2.33,0.49,0.41,0.079,settled,1,13.3,401817018
+test,2026-09-20,mlb,TOR @ TEX,Toronto Blue Jays,away,2.45,0.475,0.39,0.085,settled,1,14.5,401817020
+test,2026-09-20,mlb,SEA @ COL,Colorado Rockies,home,2.35,0.506,0.407,0.099,settled,0,-10.0,401817022
+test,2026-09-20,mlb,SF @ LAD,San Francisco Giants,away,3.29,0.41,0.291,0.12,settled,0,-10.0,401817026
+test,2026-09-20,mlb,MIL @ BAL,Baltimore Orioles,home,2.77,0.494,0.345,0.148,settled,0,-10.0,401817016
+test,2026-09-21,mlb,MIN @ SF,San Francisco Giants,home,2.13,0.525,0.449,0.076,settled,1,11.3,401817029
+test,2026-09-22,mlb,MIL @ PHI,Milwaukee Brewers,away,2.34,0.496,0.409,0.088,settled,0,-10.0,401817032
+test,2026-09-22,mlb,CIN @ ATL,Cincinnati Reds,away,2.94,0.425,0.325,0.1,settled,1,19.4,401817030
+test,2026-09-22,mlb,CHW @ KC,Kansas City Royals,home,2.04,0.533,0.469,0.064,settled,0,-10.0,401817037
+test,2026-09-22,mlb,MIA @ CHC,Miami Marlins,away,2.81,0.429,0.34,0.088,settled,1,18.1,401817038
+test,2026-09-22,mlb,ARI @ COL,Colorado Rockies,home,2.49,0.466,0.384,0.081,settled,0,-10.0,401817040
+test,2026-09-22,mlb,MIN @ SF,San Francisco Giants,home,2.19,0.53,0.436,0.094,settled,0,-10.0,401817043
+test,2026-09-23,mlb,MIN @ SF,San Francisco Giants,home,2.29,0.524,0.418,0.106,settled,0,-10.0,401817058
+test,2026-09-23,mlb,CIN @ ATL,Cincinnati Reds,away,3.23,0.431,0.296,0.135,settled,0,-10.0,401817045
+test,2026-09-23,mlb,CHW @ KC,Kansas City Royals,home,2.01,0.527,0.475,0.052,settled,1,10.1,401817052
+test,2026-09-23,mlb,MIA @ CHC,Miami Marlins,away,2.59,0.435,0.369,0.066,settled,1,15.9,401817053
+test,2026-09-23,mlb,ARI @ COL,Colorado Rockies,home,2.39,0.46,0.4,0.06,settled,0,-10.0,401817055
+test,2026-09-23,mlb,LAA @ ATH,Athletics,home,2.18,0.534,0.439,0.095,settled,1,11.8,401817056
+test,2026-09-23,mlb,SD @ LAD,San Diego Padres,away,2.94,0.476,0.325,0.151,settled,1,19.4,401817059
+test,2026-09-24,mlb,CHW @ KC,Kansas City Royals,home,2.18,0.532,0.439,0.094,settled,0,-10.0,401817065
+test,2026-09-24,mlb,MIA @ CHC,Miami Marlins,away,2.84,0.441,0.337,0.105,settled,0,-10.0,401817066
+test,2026-09-24,mlb,ARI @ COL,Colorado Rockies,home,2.61,0.455,0.367,0.088,settled,0,-10.0,401817068
+test,2026-09-24,mlb,CIN @ ATL,Cincinnati Reds,away,2.94,0.427,0.325,0.101,settled,1,19.4,401817060
+test,2026-09-24,mlb,LAA @ SEA,Los Angeles Angels,away,2.63,0.443,0.364,0.079,settled,1,16.3,401817069
+test,2026-09-24,mlb,HOU @ ATH,Athletics,home,2.48,0.493,0.385,0.108,settled,0,-10.0,401817070
+test,2026-09-24,mlb,SD @ LAD,San Diego Padres,away,2.44,0.482,0.392,0.091,settled,1,14.4,401817071
+test,2026-09-25,mlb,CHC @ BOS,Boston Red Sox,home,2.02,0.551,0.473,0.078,settled,1,10.2,401817104
+test,2026-09-25,mlb,BAL @ NYY,New York Yankees,home,1.943,0.56,0.492,0.068,settled,0,-10.0,401817088
+test,2026-09-25,mlb,CHC @ BOS,Boston Red Sox,home,1.99,0.556,0.479,0.076,settled,1,9.9,401817074
+test,2026-09-25,mlb,TB @ PHI,Tampa Bay Rays,away,2.52,0.493,0.38,0.113,settled,1,15.2,401817078
+test,2026-09-25,mlb,CIN @ TOR,Cincinnati Reds,away,2.43,0.457,0.393,0.064,settled,0,-10.0,401817075
+test,2026-09-25,mlb,CLE @ KC,Kansas City Royals,home,2.22,0.52,0.43,0.089,settled,0,-10.0,401817079
+test,2026-09-25,mlb,COL @ CHW,Colorado Rockies,away,3.0,0.402,0.319,0.083,settled,0,-10.0,401817080
+test,2026-09-25,mlb,TEX @ MIN,Minnesota Twins,home,2.05,0.523,0.467,0.056,settled,1,10.5,401817082
+test,2026-09-25,mlb,ARI @ SD,San Diego Padres,home,1.952,0.562,0.489,0.073,settled,0,-10.0,401817084
+test,2026-09-25,mlb,HOU @ ATH,Athletics,home,2.66,0.487,0.359,0.128,settled,1,16.6,401817085
+test,2026-09-25,mlb,LAD @ SF,San Francisco Giants,home,3.64,0.474,0.263,0.211,settled,0,-10.0,401817086
+test,2026-09-26,mlb,CIN @ TOR,Cincinnati Reds,away,2.39,0.452,0.4,0.051,settled,1,13.9,401817090
+test,2026-09-26,mlb,LAD @ SF,San Francisco Giants,home,3.33,0.468,0.287,0.181,settled,0,-10.0,401817101
+test,2026-09-26,mlb,TEX @ MIN,Minnesota Twins,home,2.04,0.528,0.469,0.06,settled,0,-10.0,401817097
+test,2026-09-26,mlb,COL @ CHW,Colorado Rockies,away,3.11,0.398,0.308,0.09,settled,1,21.1,401817095
+test,2026-09-26,mlb,HOU @ ATH,Athletics,home,2.4,0.493,0.398,0.095,settled,0,-10.0,401817100
+test,2026-09-27,mlb,TB @ PHI,Tampa Bay Rays,away,2.69,0.504,0.355,0.149,settled,0,-10.0,401817108
+test,2026-09-27,mlb,HOU @ ATH,Athletics,home,2.63,0.488,0.364,0.124,settled,0,-10.0,401817115
+test,2026-09-27,mlb,LAD @ SF,San Francisco Giants,home,3.01,0.463,0.318,0.145,settled,0,-10.0,401817116
+test,2026-09-27,mlb,CIN @ TOR,Cincinnati Reds,away,2.41,0.458,0.397,0.061,settled,0,-10.0,401817105
+test,2026-09-27,mlb,ARI @ SD,San Diego Padres,home,2.29,0.561,0.417,0.143,settled,1,12.9,401817114
+test,2026-09-29,mlb,PHI @ ATL,Philadelphia Phillies,away,2.58,0.45,0.371,0.079,settled,0,-10.0,401907965
+test,2026-09-30,mlb,PHI @ ATL,Atlanta Braves,home,1.971,0.556,0.485,0.071,settled,0,-10.0,401907972
+test,2026-10-03,mlb,ATL @ LAD,Atlanta Braves,away,2.73,0.458,0.35,0.107,settled,0,-10.0,401908007
+test,2026-10-03,mlb,SD @ MIL,San Diego Padres,away,2.77,0.466,0.345,0.121,settled,0,-10.0,401908002
+test,2026-10-04,mlb,ATL @ LAD,Atlanta Braves,away,2.74,0.452,0.349,0.103,settled,1,17.4,401908014
+test,2026-10-05,mlb,CHW @ CLE,Chicago White Sox,away,2.3,0.469,0.416,0.053,settled,1,13.0,401907991
+test,2026-10-05,mlb,NYY @ TB,Tampa Bay Rays,home,2.04,0.543,0.468,0.075,settled,1,10.4,401907986
+test,2026-10-07,mlb,LAD @ ATL,Atlanta Braves,home,2.22,0.522,0.43,0.092,settled,0,-10.0,401908016
+test,2026-10-07,mlb,TB @ NYY,Tampa Bay Rays,away,2.44,0.48,0.392,0.088,settled,1,14.4,401907987
+test,2026-10-08,mlb,CLE @ CHW,Chicago White Sox,home,1.98,0.538,0.483,0.055,settled,0,-10.0,401907993
+test,2026-10-12,mlb,LAD @ MIL,Milwaukee Brewers,home,2.16,0.56,0.45,0.11,settled,1,11.6,401908031
+test,2026-10-14,mlb,MIL @ LAD,Milwaukee Brewers,away,2.56,0.497,0.38,0.116,settled,1,15.6,401908032
+test,2026-10-15,mlb,TB @ CLE,Tampa Bay Rays,away,2.17,0.5,0.447,0.052,settled,0,-10.0,401908025
+test,2026-10-15,mlb,MIL @ LAD,Milwaukee Brewers,away,2.35,0.502,0.414,0.088,settled,1,13.5,401908033
+test,2026-10-23,mlb,TB @ MIL,Tampa Bay Rays,away,2.65,0.448,0.367,0.081,settled,0,-10.0,401908042
+test,2026-10-28,mlb,MIL @ TB,Tampa Bay Rays,home,2.22,0.507,0.438,0.069,settled,0,-10.0,401908046
