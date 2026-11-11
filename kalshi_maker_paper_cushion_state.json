@@ -27,5 +27,25 @@
    "closed": "2026-11-11T02:29:43.874734+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLMPGAME-26NOV102230CULMXL",
+   "series": "KXLMPGAME",
+   "title": "Tomateros de Culiacan vs Aguilas de Mexicali",
+   "ticker": "KXLMPGAME-26NOV102230CULMXL-MXL",
+   "order_id": "paper-17-1794367936",
+   "price": "0.1900",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6700",
+   "multiplier": "1",
+   "placed": 1794367936.5349584,
+   "hedge": [
+    {
+     "ticker": "KXLMPGAME-26NOV102230CULMXL-CUL",
+     "limit": "0.6200"
+    }
+   ]
+  }
+ ]
 }

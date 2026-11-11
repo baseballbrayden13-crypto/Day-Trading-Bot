@@ -334,3 +334,18 @@
 2026-11-10 21:44:50,542 INFO Swept 20252 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-10 21:49:51,805 INFO Swept 20248 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-10 21:50:07,297 INFO Stopped; all quotes cancelled.
+2026-11-10 22:30:33,019 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-10 22:32:16,534 INFO PAPER rest NO bid KXLMPGAME-26NOV102230CULMXL-MXL at $0.1900 x2 (0 already bid at that price)
+2026-11-10 22:32:16,534 INFO Resting NO bid on KXLMPGAME-26NOV102230CULMXL-MXL at $0.1900 x2 (KXLMPGAME-26NOV102230CULMXL): locks in $0.33 if it fills; hedge NO CUL@0.6200
+2026-11-10 22:32:16,535 INFO Swept 20124 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-10 22:37:23,044 INFO PAPER rest NO bid KXLMPGAME-26NOV102130MOCMAZ-MOC at $0.2000 x2 (0 already bid at that price)
+2026-11-10 22:37:23,044 INFO Resting NO bid on KXLMPGAME-26NOV102130MOCMAZ-MOC at $0.2000 x2 (KXLMPGAME-26NOV102130MOCMAZ): locks in $0.25 if it fills; hedge NO MAZ@0.6500
+2026-11-10 22:37:23,045 INFO Swept 20081 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-10 22:39:55,144 INFO Quote KXLMPGAME-26NOV102130MOCMAZ cancelled (0/2 filled)
+2026-11-10 22:42:24,850 INFO PAPER rest NO bid KXNBAWINMARGIN-26NOV10LACPHX-LAC21PLUS at $0.7200 x2 (0 already bid at that price)
+2026-11-10 22:42:24,850 INFO Resting NO bid on KXNBAWINMARGIN-26NOV10LACPHX-LAC21PLUS at $0.7200 x2 (KXNBAWINMARGIN-26NOV10LACPHX): locks in $0.24 if it fills; hedge NO PHX11TO20@0.8700, PHX21PLUS@0.2700
+2026-11-10 22:42:24,851 INFO Swept 20084 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-10 22:47:27,228 INFO Swept 20069 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-10 22:48:38,281 INFO Quote KXNBAWINMARGIN-26NOV10LACPHX cancelled (0/2 filled)
+2026-11-10 22:52:28,802 INFO Swept 20059 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-10 22:57:29,431 INFO Swept 20049 events: 0 taker trades, 0 new quotes, 1 resting
