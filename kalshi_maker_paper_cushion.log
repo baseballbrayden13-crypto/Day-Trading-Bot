@@ -444,3 +444,10 @@
 2026-11-11 09:33:49,442 INFO PAPER rest NO bid KXVALORANTMAP-26NOV110700NONONE-2-ONE at $0.1400 x2 (0 already bid at that price)
 2026-11-11 09:33:49,443 INFO Resting NO bid on KXVALORANTMAP-26NOV110700NONONE-2-ONE at $0.1400 x2 (KXVALORANTMAP-26NOV110700NONONE-2): locks in $0.70 if it fills; hedge NO NON@0.6000
 2026-11-11 09:33:49,443 INFO Swept 20173 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 09:38:50,718 INFO Swept 20172 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 09:43:52,211 INFO Swept 20165 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 09:48:53,934 INFO Swept 20166 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 09:51:20,565 INFO Quote KXVALORANTMAP-26NOV110700NONONE-2 cancelled (0/2 filled)
+2026-11-11 09:53:54,207 INFO Swept 20151 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 09:58:55,397 INFO Swept 20147 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 10:03:56,834 INFO Swept 20203 events: 0 taker trades, 0 new quotes, 0 resting
