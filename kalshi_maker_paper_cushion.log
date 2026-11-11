@@ -512,3 +512,10 @@
 2026-11-11 13:50:59,548 INFO Resting NO bid on KXLIIGAGAME-26NOV111130JOKHIF-HIF at $0.5400 x2 (KXLIIGAGAME-26NOV111130JOKHIF): locks in $0.52 if it fills; hedge NO JOK@0.1800
 2026-11-11 13:50:59,549 INFO Swept 20504 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-11 13:51:14,722 INFO Stopped; all quotes cancelled.
+2026-11-11 16:38:20,174 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-11 16:40:38,474 INFO Swept 20862 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 16:45:42,418 INFO Swept 20884 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 16:50:46,666 INFO Swept 20914 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 16:55:50,691 INFO Swept 20929 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 17:00:54,520 INFO Swept 20941 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 17:06:02,752 INFO Swept 20928 events: 0 taker trades, 0 new quotes, 0 resting
