@@ -7445,3 +7445,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 00:22:35,019 INFO Swept 19889 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-11 00:27:37,551 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-11 00:27:39,044 INFO Swept 19979 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 00:32:41,161 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:32:42,815 INFO PAPER rest NO bid KXR6MAP-26NOV110130GEELOS-1-LOS at $0.4300 x2 (0 already bid at that price)
+2026-11-11 00:32:42,815 INFO Resting NO bid on KXR6MAP-26NOV110130GEELOS-1-LOS at $0.4300 x2 (KXR6MAP-26NOV110130GEELOS-1): locks in $0.25 if it fills; hedge NO GEE@0.4200
+2026-11-11 00:32:42,847 INFO Swept 19972 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 00:37:41,696 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:37:43,220 INFO Swept 19984 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 00:42:41,993 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:42:43,865 INFO Swept 19977 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 00:47:42,738 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:47:44,542 INFO Swept 19974 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 00:52:42,915 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:52:44,425 INFO Swept 19960 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 00:57:48,605 INFO Not quoting (hedges keep missing): KXAHLGAME, KXNBARACE, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 00:57:50,071 INFO Swept 19966 events: 0 taker trades, 0 new quotes, 1 resting
