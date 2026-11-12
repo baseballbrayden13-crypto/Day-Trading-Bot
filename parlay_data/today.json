@@ -1,0 +1,116 @@
+{
+ "updated": "2026-11-12T20:47:35+00:00",
+ "parlays": [
+  {
+   "kind": "game",
+   "game": "New York Giants vs Washington Commanders",
+   "start": "2026-11-13T01:15:00Z",
+   "legs": [
+    {
+     "label": "Theo Johnson 5+ receiving yards",
+     "ticker": "KXNFLRECYDS-26NOV12WASNYG-NYGTJOHNSON84-5",
+     "side": "yes",
+     "price": 0.52,
+     "fair": 0.6171,
+     "value": 0.0791,
+     "player": "Theo Johnson"
+    },
+    {
+     "label": "Rachaad White 10+ receiving yards",
+     "ticker": "KXNFLRECYDS-26NOV12WASNYG-WASRWHITE1-10",
+     "side": "yes",
+     "price": 0.58,
+     "fair": 0.6554,
+     "value": 0.0574,
+     "player": "Rachaad White"
+    },
+    {
+     "label": "Devin Singletary 20+ rushing yards",
+     "ticker": "KXNFLRSHYDS-26NOV12WASNYG-NYGDSINGLETARY26-20",
+     "side": "yes",
+     "price": 0.58,
+     "fair": 0.637,
+     "value": 0.039,
+     "player": "Devin Singletary"
+    }
+   ],
+   "price": 0.1924,
+   "fair": 0.2576,
+   "pays": "+420",
+   "per_dollar": 5.2
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "New York Giants vs Washington Commanders",
+   "start": "2026-11-13T01:15:00Z",
+   "legs": [
+    {
+     "label": "Rachaad White 10+ receiving yards",
+     "ticker": "KXNFLRECYDS-26NOV12WASNYG-WASRWHITE1-10",
+     "side": "yes",
+     "price": 0.58,
+     "fair": 0.6554,
+     "value": 0.0574,
+     "player": "Rachaad White"
+    },
+    {
+     "label": "Devin Singletary 20+ rushing yards",
+     "ticker": "KXNFLRSHYDS-26NOV12WASNYG-NYGDSINGLETARY26-20",
+     "side": "yes",
+     "price": 0.58,
+     "fair": 0.637,
+     "value": 0.039,
+     "player": "Devin Singletary"
+    }
+   ],
+   "price": 0.3576,
+   "fair": 0.4175,
+   "pays": "+180",
+   "per_dollar": 2.8
+  },
+  {
+   "kind": "favorites",
+   "game": "Favorites across games",
+   "start": "2026-11-13T01:10:00Z",
+   "legs": [
+    {
+     "label": "High Point Panthers to win",
+     "ticker": "KXNCAAMBGAME-26NOV12SUUHP-HP",
+     "side": "yes",
+     "price": 0.97,
+     "fair": 0.9612,
+     "value": -0.0118,
+     "player": ""
+    },
+    {
+     "label": "Alabama A&M Bulldogs to win",
+     "ticker": "KXNCAAMBGAME-26NOV12UWFLAAMU-AAMU",
+     "side": "yes",
+     "price": 0.69,
+     "fair": 0.693,
+     "value": -0.012,
+     "player": ""
+    },
+    {
+     "label": "Dallas Stars to win",
+     "ticker": "KXNHLGAME-26NOV12WPGDAL-DAL",
+     "side": "yes",
+     "price": 0.61,
+     "fair": 0.6125,
+     "value": -0.0145,
+     "player": ""
+    }
+   ],
+   "price": 0.4301,
+   "fair": 0.408,
+   "pays": "+133",
+   "per_dollar": 2.33
+  }
+ ],
+ "open_pretend": 2,
+ "record": {
+  "parlays": 0,
+  "won": 0,
+  "profit": 0
+ }
+}
