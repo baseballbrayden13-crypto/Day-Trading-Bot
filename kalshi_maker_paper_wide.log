@@ -7908,3 +7908,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 22:08:14,037 INFO PAPER sell 1 YES KXLVBPGAME-26NOV111800LARLAG-LAR at up to $0.93: not on the book
 2026-11-11 22:09:15,751 INFO PAPER sell 1 YES KXLVBPGAME-26NOV111800LARLAG-LAR at up to $0.93: not on the book
 2026-11-11 22:10:17,471 INFO PAPER sell 1 YES KXLVBPGAME-26NOV111800LARLAG-LAR at up to $0.93: not on the book
+2026-11-11 22:13:10,306 INFO Settled KXLVBPGAME-26NOV111800LARLAG (stray): paid $0, profit $-0.23
+2026-11-11 22:13:10,357 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 22:13:15,077 INFO Swept 21526 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 22:18:12,500 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 22:18:17,250 INFO Swept 21531 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 22:23:13,117 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 22:23:17,864 INFO Swept 21527 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 22:23:28,278 INFO Stopped; all quotes cancelled.
