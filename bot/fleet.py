@@ -76,8 +76,8 @@ SPLITS: dict[int, tuple[tuple[str, float], ...]] = {
     2: (("2026-11-06", 2450 / 4846.61),),
     8: (("2026-11-06", 2450 / 5000),),  # bot 5's Nov 5 row was the whole account
     3: (("2026-11-10", 0.5),  # bot 3: half of its $5,000 account from Nov 10 (bot 6 has the rest)
-        ("2026-11-12", 1666 / 2500)),  # then a third from Nov 12 (bot 7 joined ...KTS7, C-063)
-    10: (("2026-11-12", 1667 / 2500),),  # bot 6: a third of ...KTS7 from Nov 12
+        ("2026-11-11", 1666 / 2500)),  # then a third: bot 7 joined ...KTS7 the evening of Nov 11 ET (C-063)
+    10: (("2026-11-11", 1667 / 2500),),  # bot 6: a third of ...KTS7 from the Nov 11 row on
 }
 
 
