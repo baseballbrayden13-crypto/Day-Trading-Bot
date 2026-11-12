@@ -2518,21 +2518,21 @@
  ],
  "quotes": [
   {
-   "event": "KXKBLGAME-26NOV120500GOYDAE",
-   "series": "KXKBLGAME",
-   "title": "Goyang Skygunners vs Daegu Pegasus",
-   "ticker": "KXKBLGAME-26NOV120500GOYDAE-GOY",
-   "order_id": "paper-976-1794472744",
-   "price": "0.2600",
-   "sets": 5,
+   "event": "KXCS2GAME-26NOV120400DNKDUC",
+   "series": "KXCS2GAME",
+   "title": "DNK vs. Ducks",
+   "ticker": "KXCS2GAME-26NOV120400DNKDUC-DNK",
+   "order_id": "paper-977-1794473041",
+   "price": "0.0700",
+   "sets": 1,
    "done": 0,
-   "reserve": "3.8100",
+   "reserve": "0.3900",
    "multiplier": "1",
-   "placed": 1794472744.3677266,
+   "placed": 1794473041.9146328,
    "hedge": [
     {
-     "ticker": "KXKBLGAME-26NOV120500GOYDAE-DAE",
-     "limit": "0.4800"
+     "ticker": "KXCS2GAME-26NOV120400DNKDUC-DUC",
+     "limit": "0.7800"
     }
    ]
   }
