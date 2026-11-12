@@ -1,10 +1,11 @@
-# Gameday parlays (Thu Nov 12, 3:47 PM ET)
+# Gameday parlays (Thu Nov 12, 3:54 PM ET)
 
 Advice and pretend money only. Prices are Kalshi's, with its fee. The fair chance multiplies the legs' chances, so same-game legs (which move together) make it a rough guide.
 
 ## New York Giants vs Washington Commanders (game, Thu 8:15 PM ET)
-Pays +420 ($5.20 back per $1). Fair chance all legs hit: 26%.
+Pays +831 ($9.31 back per $1). Fair chance all legs hit: 14%.
 
+- New York Giants to win: Kalshi 54c YES, fair 54%
 - Theo Johnson 5+ receiving yards: Kalshi 52c YES, fair 62%
 - Rachaad White 10+ receiving yards: Kalshi 58c YES, fair 66%
 - Devin Singletary 20+ rushing yards: Kalshi 58c YES, fair 64%

@@ -1,11 +1,20 @@
 {
- "updated": "2026-11-12T20:47:35+00:00",
+ "updated": "2026-11-12T20:54:41+00:00",
  "parlays": [
   {
    "kind": "game",
    "game": "New York Giants vs Washington Commanders",
    "start": "2026-11-13T01:15:00Z",
    "legs": [
+    {
+     "label": "New York Giants to win",
+     "ticker": "KXNFLGAME-26NOV12WASNYG-NYG",
+     "side": "yes",
+     "price": 0.54,
+     "fair": 0.5378,
+     "value": -0.0202,
+     "player": ""
+    },
     {
      "label": "Theo Johnson 5+ receiving yards",
      "ticker": "KXNFLRECYDS-26NOV12WASNYG-NYGTJOHNSON84-5",
@@ -34,10 +43,10 @@
      "player": "Devin Singletary"
     }
    ],
-   "price": 0.1924,
-   "fair": 0.2576,
-   "pays": "+420",
-   "per_dollar": 5.2
+   "price": 0.1074,
+   "fair": 0.1386,
+   "pays": "+831",
+   "per_dollar": 9.31
   },
   {
    "kind": "game (safer 2-leg)",
