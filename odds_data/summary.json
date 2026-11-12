@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T22:53:52+00:00",
+ "updated": "2026-11-12T03:52:42+00:00",
  "scan": {
   "sports": [
    "americanfootball_nfl",
@@ -8,26 +8,26 @@
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 93,
-  "kalshi_matched": 77,
+  "games": 42,
+  "kalshi_matched": 34,
   "skipped": [],
-  "pinnacle": 57,
-  "credits_left": 456,
-  "spent_today": 10,
-  "allowance": 23
+  "pinnacle": 26,
+  "credits_left": 451,
+  "spent_today": 15,
+  "allowance": 22
  },
  "new_finds": [
-  "Kent State Golden Flashes @ BetOnline.ag 3.89 (fair 3.70, +5.2% expected) Kent State Golden Flashes at UNC Wilmington Seahawks (Wed 7:00PM)",
-  "Abilene Christian Wildcats @ BetRivers 3.35 (fair 3.22, +4.0% expected) Stephen F. Austin Lumberjacks at Abilene Christian Wildcats (Wed 8:00PM)",
-  "California Golden Bears @ FanDuel 4.15 (fair 4.02, +3.4% expected) USC Trojans at California Golden Bears (Wed 11:00PM)"
+  "Washington Wizards @ Pinnacle 4.75 (fair 4.15, +14.3% expected) Detroit Pistons at Washington Wizards (Thu 7:10PM)",
+  "Charlotte Hornets @ Pinnacle 3.22 (fair 3.10, +3.9% expected) Charlotte Hornets at Phoenix Suns (Thu 9:10PM)",
+  "Coppin St Eagles @ BetMGM 4.75 (fair 4.52, +5.0% expected) Coppin St Eagles at Bradley Braves (Thu 6:00PM)"
  ],
- "open_bets": 10,
+ "open_bets": 8,
  "record": {
   "value": {
-   "bets": 2,
+   "bets": 5,
    "wins": 0,
-   "staked": 20.0,
-   "pnl": -20.0,
+   "staked": 50.0,
+   "pnl": -50.0,
    "roi": -1.0
   },
   "kalshi": {
@@ -38,18 +38,18 @@
    "roi": 0.0
   },
   "arb": {
-   "bets": 0,
-   "wins": 0,
-   "staked": 0,
-   "pnl": 0,
-   "roi": 0.0
+   "bets": 2,
+   "wins": 2,
+   "staked": 200.0,
+   "pnl": 3.55,
+   "roi": 0.0178
   },
   "all": {
-   "bets": 2,
-   "wins": 0,
-   "staked": 20.0,
-   "pnl": -20.0,
-   "roi": -1.0
+   "bets": 7,
+   "wins": 2,
+   "staked": 250.0,
+   "pnl": -46.45,
+   "roi": -0.1858
   }
  }
 }
