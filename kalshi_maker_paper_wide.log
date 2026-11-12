@@ -8292,3 +8292,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 14:53:12,662 INFO Resting NO bid on KXAFCONSCORE-26NOV12CMRNAM-CMR4NAM0 at $0.2400 x1 (KXAFCONSCORE-26NOV12CMRNAM): locks in $0.28 if it fills; hedge NO CMR2NAM0@0.8000, CMR2NAM1@0.9400, CMR3NAM0@0.7400, CMR3NAM1@0.9300
 2026-11-12 14:53:12,698 INFO Swept 21434 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-12 14:53:53,332 INFO Stopped; all quotes cancelled.
+2026-11-12 16:38:24,512 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-12 16:41:07,027 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 16:41:11,805 INFO PAPER BET daily_safest: 1 NO KXOPENSOURCESHARE-26NOV13-T69.5 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-12 16:41:12,034 INFO PAPER COMBO: NO KXOPENSOURCESHARE-26NOV13-T69.5, NO KXDIESELD-26NOV13-T6.075, NO KXRAIN-26NOV12-LAX at 0.9412. daily combo: all 3 safest sides must win
+2026-11-12 16:41:12,035 INFO Swept 21430 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 16:46:10,478 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 16:46:15,028 INFO Swept 21411 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 16:51:13,509 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 16:51:18,198 INFO Swept 21424 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 16:56:16,874 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 16:56:21,492 INFO Swept 21446 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 17:01:20,168 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 17:01:24,839 INFO Swept 21451 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 17:06:20,487 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 17:06:25,174 INFO Swept 21424 events: 0 taker trades, 0 new quotes, 0 resting

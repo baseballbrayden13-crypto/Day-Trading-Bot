@@ -15,6 +15,55 @@
    "note": "daily safest: likeliest outcome closing within 24h",
    "cost": "0.99",
    "expected": "-0.01"
+  },
+  {
+   "strategy": "daily_safest",
+   "ticker": "KXOPENSOURCESHARE-26NOV13-T69.5",
+   "event": "KXOPENSOURCESHARE-26NOV13",
+   "series": "KXOPENSOURCESHARE",
+   "side": "no",
+   "count": 1,
+   "price": "0.9800",
+   "fee": "0.01",
+   "prob": 0.98,
+   "close_time": "2026-11-13T15:00:00Z",
+   "placed": "2026-11-12T21:38:24+00:00",
+   "note": "daily safest: likeliest outcome closing within 24h",
+   "cost": "0.99",
+   "expected": "-0.01"
+  },
+  {
+   "strategy": "daily_combo",
+   "ticker": "COMBO-2026-11-12",
+   "event": "COMBO-2026-11-12",
+   "series": "COMBO",
+   "side": "yes",
+   "count": 1,
+   "price": "0.9412",
+   "fee": "0.01",
+   "prob": 0.9412,
+   "close_time": "2026-11-13T15:00:00Z",
+   "placed": "2026-11-12T21:38:24+00:00",
+   "cost": "0.95",
+   "expected": "0.00",
+   "note": "daily combo: all 3 safest sides must win",
+   "legs": [
+    {
+     "ticker": "KXOPENSOURCESHARE-26NOV13-T69.5",
+     "side": "no",
+     "price": "0.9800"
+    },
+    {
+     "ticker": "KXDIESELD-26NOV13-T6.075",
+     "side": "no",
+     "price": "0.9800"
+    },
+    {
+     "ticker": "KXRAIN-26NOV12-LAX",
+     "side": "no",
+     "price": "0.9800"
+    }
+   ]
   }
  ],
  "closed": [
