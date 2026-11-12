@@ -1064,3 +1064,20 @@
 2026-11-12 11:06:37,277 INFO Resting NO bid on KXAFCON1H-26NOV12CODSLE-SLE at $0.53 x2 (KXAFCON1H-26NOV12CODSLE): locks in $0.21 if it fills; hedge NO COD@0.4400, TIE@0.8900
 2026-11-12 11:06:37,277 INFO Swept 21208 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-12 11:06:52,811 INFO Quote KXAFCON1H-26NOV12CODSLE cancelled (0/2 filled)
+2026-11-12 11:11:34,977 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:11:38,443 INFO Swept 21216 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 11:16:35,530 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:16:39,194 INFO PAPER rest NO bid KXCONCACAFNLGAME-26NOV13SMASLV-SMA at $0.4300 x2 (0 already bid at that price)
+2026-11-12 11:16:39,194 INFO Resting NO bid on KXCONCACAFNLGAME-26NOV13SMASLV-SMA at $0.4300 x2 (KXCONCACAFNLGAME-26NOV13SMASLV): locks in $0.28 if it fills; hedge NO SLV@0.4500, TIE@0.9500
+2026-11-12 11:16:39,195 INFO Swept 21242 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 11:21:37,322 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:21:40,775 INFO Swept 21259 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 11:26:37,663 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:26:41,106 INFO Swept 21256 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 11:26:41,284 INFO Quote KXCONCACAFNLGAME-26NOV13SMASLV cancelled (0/2 filled)
+2026-11-12 11:31:39,104 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:31:42,922 INFO Swept 21251 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 11:36:41,077 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:36:44,677 INFO PAPER rest NO bid KXCONCACAFNLGAME-26NOV13SMASLV-SMA at $0.5100 x2 (0 already bid at that price)
+2026-11-12 11:36:44,677 INFO Resting NO bid on KXCONCACAFNLGAME-26NOV13SMASLV-SMA at $0.5100 x2 (KXCONCACAFNLGAME-26NOV13SMASLV): locks in $0.51 if it fills; hedge NO SLV@0.2600, TIE@0.9500
+2026-11-12 11:36:44,678 INFO Swept 21249 events: 0 taker trades, 1 new quotes, 1 resting
