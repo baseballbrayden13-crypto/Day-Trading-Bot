@@ -98,10 +98,15 @@ def main() -> None:
     shared, ledger, sleeve = sleeves.budgets(), None, None
     if "3" in shared:  # account shared with bot 6 (bot.sleeves): bot 3 only sizes from and sells its own slice
         ledger = sleeves.load()
+        sleeves.resize(ledger, shared)
         if not sleeves.ready(ledger, shared, broker.equity()):
             log.info("Waiting for the shared account to hold $%.0f for sleeves %s; nothing to do.", sum(shared.values()), shared)
             return
         others = {"6": [os.getenv("TREND_SYMBOL", "QQQ"), os.getenv("TREND_SAFE", "BIL")]}
+        if "7" in shared:
+            from .fleet import DIP_SYMBOLS
+
+            others["7"] = os.getenv("MOM_SYMBOLS", DIP_SYMBOLS).split(",")
         sleeve = sleeves.open_sleeve(ledger, "3", symbols, shared["3"], account_qty, closes.iloc[-1].to_dict(), others)
         held = {s: q for s, q in sleeve.shares.items()}
         equity = sleeve.value(closes.iloc[-1].to_dict())
