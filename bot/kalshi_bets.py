@@ -303,15 +303,16 @@ SAFEST_STAKE = D("1")
 SAFEST_HOUR_ET = 15  # one a day, from 3pm Eastern
 
 
-def daily_safest(events: list[dict], now: datetime, cfg: dict, data=None) -> list[Bet]:
-    """One pretend bet a day on the likeliest outcome among liquid markets closing within 24h. No edge is
-    claimed (the prob recorded is just the price), so this tracks what always taking the safe side really pays."""
+def _once_a_day(state: dict, strategy: str, now: datetime) -> bool:
+    """True when it is past 3pm Eastern and this strategy has not bet yet today."""
     et = now.astimezone(ZoneInfo("America/New_York"))
-    state = cfg.get("_state") or {"open": [], "closed": []}
-    today = {b["placed"][:10] for b in state["open"] + state["closed"] if b["strategy"] == "daily_safest"}
-    if et.hour < SAFEST_HOUR_ET or now.date().isoformat() in today or et.date().isoformat() in today:
-        return []
-    best = None
+    today = {b["placed"][:10] for b in state["open"] + state["closed"] if b["strategy"] == strategy}
+    return et.hour >= SAFEST_HOUR_ET and now.date().isoformat() not in today and et.date().isoformat() not in today
+
+
+def safest_candidates(events: list[dict], now: datetime) -> list[Bet]:
+    """Near-certain sides (95-98c) of liquid markets closing within 24h, safest first."""
+    out = []
     for e in events:
         mult = kl.multiplier(e)
         for m in e.get("markets", []):
@@ -329,11 +330,61 @@ def daily_safest(events: list[dict], now: datetime, cfg: dict, data=None) -> lis
                 if count < 1:
                     continue
                 f = fee(count, price, mult)
-                if best is None or price > best[0]:
-                    best = (price, Bet("daily_safest", m["ticker"], e.get("event_ticker", ""), e.get("series_ticker", ""), side, count,
-                                       f"{price:.4f}", f"{f:.2f}", float(price), m.get("close_time", ""),
-                                       now.isoformat(timespec="seconds"), "daily safest: likeliest outcome closing within 24h"))
-    return [best[1]] if best else []
+                out.append(Bet("daily_safest", m["ticker"], e.get("event_ticker", ""), e.get("series_ticker", ""), side, count,
+                               f"{price:.4f}", f"{f:.2f}", float(price), m.get("close_time", ""),
+                               now.isoformat(timespec="seconds"), "daily safest: likeliest outcome closing within 24h"))
+    return sorted(out, key=lambda b: -D(b.price))  # stable: ties keep the first one found
+
+
+def daily_safest(events: list[dict], now: datetime, cfg: dict, data=None) -> list[Bet]:
+    """One pretend bet a day on the likeliest outcome among liquid markets closing within 24h. No edge is
+    claimed (the prob recorded is just the price), so this tracks what always taking the safe side really pays."""
+    state = cfg.get("_state") or {"open": [], "closed": []}
+    if not _once_a_day(state, "daily_safest", now):
+        return []
+    return safest_candidates(events, now)[:1]
+
+
+COMBO_LEGS = 3
+
+
+def daily_combo(events: list[dict], now: datetime, cfg: dict) -> dict | None:
+    """One pretend combo a day: the day's 3 safest sides (from 3 different events) that only pays if all three
+    win. Its price is the three prices multiplied, which is the best case: a real Kalshi combo is quoted by
+    market makers and usually costs a little more. Tracked next to the single safest bet to compare."""
+    state = cfg.get("_state") or {"open": [], "closed": []}
+    if not _once_a_day(state, "daily_combo", now):
+        return None
+    legs, seen = [], set()
+    for b in safest_candidates(events, now):
+        if b.event in seen or b.series in seen:
+            continue  # same game or same league night: not independent enough
+        seen |= {b.event, b.series}
+        legs.append(b)
+        if len(legs) == COMBO_LEGS:
+            break
+    if len(legs) < COMBO_LEGS:
+        return None
+    price = D(1)
+    for b in legs:
+        price *= D(b.price)
+    price = price.quantize(D("0.0001"))
+    count = max(1, int(SAFEST_STAKE / price))
+    cost = price * count + fee(count, price)
+    stamp = now.isoformat(timespec="seconds")
+    return {"strategy": "daily_combo", "ticker": f"COMBO-{stamp[:10]}", "event": f"COMBO-{stamp[:10]}", "series": "COMBO",
+            "side": "yes", "count": count, "price": f"{price:.4f}", "fee": f"{fee(count, price):.2f}", "prob": float(price),
+            "close_time": max(b.close_time for b in legs), "placed": stamp, "cost": f"{cost:.2f}", "expected": "0.00",
+            "note": f"daily combo: all {COMBO_LEGS} safest sides must win",
+            "legs": [{"ticker": b.ticker, "side": b.side, "price": b.price} for b in legs]}
+
+
+def combo_result(api, bet: dict) -> str:
+    """"yes" when every leg won, "no" as soon as one lost, "" while any is still open."""
+    results = [api.market(leg["ticker"]).get("result", "") for leg in bet["legs"]]
+    if any(r in ("yes", "no") and r != leg["side"] for r, leg in zip(results, bet["legs"])):
+        return "no"
+    return "yes" if all(r == leg["side"] for r, leg in zip(results, bet["legs"])) else ""
 
 
 STRATEGIES = {"weather": weather, "crypto": crypto, "favorites": favorites, "daily_safest": daily_safest}
@@ -378,7 +429,7 @@ def place(state: dict, bets: list[Bet], start: Decimal, max_per_event: int = 1) 
 def settle(api, state: dict) -> int:
     still, n = [], 0
     for b in state["open"]:
-        result = api.market(b["ticker"]).get("result", "")
+        result = combo_result(api, b) if b.get("legs") else api.market(b["ticker"]).get("result", "")
         if result in ("yes", "no"):
             paid = D(b["count"]) if result == b["side"] else D(0)
             state["closed"].append({**b, "result": result, "paid": f"{paid:.2f}", "pnl": f"{paid - D(b['cost']):.2f}",
@@ -393,7 +444,7 @@ def settle(api, state: dict) -> int:
 
 def summary(state: dict, start: Decimal, when: datetime) -> dict:
     s = {"updated": when.isoformat(timespec="seconds"), "mode": "paper-bets", "start_per_strategy": str(start), "strategies": {}}
-    for name in STRATEGIES:
+    for name in (*STRATEGIES, "daily_combo"):
         closed = [c for c in state["closed"] if c["strategy"] == name]
         equity, free = pot(state, name, start)
         s["strategies"][name] = {

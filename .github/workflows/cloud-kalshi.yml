@@ -87,6 +87,7 @@ jobs:
           KALSHI_CATEGORIES: "Sports,Esports"
           KALSHI_FAIR: "on"  # skip quotes the sportsbooks say are overpriced (odds finder); same on 4e and 4f
           KALSHI_SAFEST: "on"
+          KALSHI_COMBO: "on" # pretend 3-leg combo of the day (own record); undo: remove this line
         run: |
           end=$(( $(date +%s) + ${{ inputs.minutes || 345 }} * 60 ))
           (while sleep 1800; do bash ../code/cloud/save_state.sh "kalshi 4e checkpoint" || true; done) &
