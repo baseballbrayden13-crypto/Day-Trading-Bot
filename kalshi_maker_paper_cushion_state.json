@@ -73,25 +73,5 @@
    "closed": "2026-11-12T05:07:29.190391+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNLGAME-26NOV111345HAPEVZ",
-   "series": "KXNLGAME",
-   "title": "HC Ambri-Piotta vs EV Zug",
-   "ticker": "KXNLGAME-26NOV111345HAPEVZ-HAP",
-   "order_id": "paper-60-1794493258",
-   "price": "0.23",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.8000",
-   "multiplier": "1",
-   "placed": 1794493258.6264625,
-   "hedge": [
-    {
-     "ticker": "KXNLGAME-26NOV111345HAPEVZ-EVZ",
-     "limit": "0.7100"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
