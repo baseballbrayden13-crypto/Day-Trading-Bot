@@ -113,3 +113,4 @@
 2026-11-12 09:55:06,429 INFO BUY SPY x1 @limit 758.45 stop 753.74 target 764.57 | broke 15-min opening range high 757.81
 2026-11-12 10:00:08,661 INFO NVDA news since the last close: NVIDIA Announces CEO Resignation and Leadership Transition
 2026-11-12 10:00:08,661 INFO BUY NVDA x1 @limit 162.70 stop 148.80 target 183.35 | broke 15-min opening range high 162.32
+2026-11-12 10:55:06,737 INFO SKIP QQQ breakout: no news of its own since the last close (news filter)
