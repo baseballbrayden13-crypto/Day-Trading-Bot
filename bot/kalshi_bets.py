@@ -121,9 +121,10 @@ class Bet:
 
 
 def best_side(m: dict, p_yes: float, stake: Decimal, min_edge: float, min_profit: Decimal,
-              multiplier: Decimal = D(1)) -> tuple[str, int, Decimal, Decimal, float] | None:
+              multiplier: Decimal = D(1), min_price: Decimal = D(0)) -> tuple[str, int, Decimal, Decimal, float] | None:
     """Side to buy at the top of book, if the model's edge clears min_edge a contract and the bet
-    expects min_profit after fees. Returns (side, count, price, fee, prob) or None."""
+    expects min_profit after fees. Sides cheaper than min_price (long shots) are skipped.
+    Returns (side, count, price, fee, prob) or None."""
     yes_ask, yes_bid = m.get("yes_ask_dollars"), m.get("yes_bid_dollars")
     options = []
     if yes_ask and 0 < D(yes_ask) < 1:
@@ -132,7 +133,7 @@ def best_side(m: dict, p_yes: float, stake: Decimal, min_edge: float, min_profit
         options.append(("no", 1 - D(yes_bid), 1 - p_yes, m.get("yes_bid_size_fp")))
     best = None
     for side, price, p, size in options:
-        if p - float(price) < min_edge:
+        if price < min_price or p - float(price) < min_edge:
             continue
         shown = int(D(str(size))) if size not in (None, "") else 0
         count = min(shown, int(stake / price))
@@ -288,7 +289,7 @@ def _bets_for(e: dict, now: datetime, cfg: dict, name: str, p_yes, note: str, si
         if p is None:
             continue
         p = min(max(p, 0.0), 1.0)
-        pick = best_side(m, p, cfg["stake"], cfg["min_edge"], cfg["min_profit"], mult)
+        pick = best_side(m, p, cfg["stake"], cfg["min_edge"], cfg["min_profit"], mult, D(str(cfg.get("min_price", 0))))
         if pick and pick[0] in sides:
             side, count, price, f, prob = pick
             out.append(Bet(name, m["ticker"], e.get("event_ticker", ""), e.get("series_ticker", ""), side, count,

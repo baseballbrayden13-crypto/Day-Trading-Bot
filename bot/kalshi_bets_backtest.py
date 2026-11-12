@@ -86,7 +86,8 @@ def bet_on(e: dict, markets: list[dict], quotes: dict, prob, cfg: dict) -> dict 
         p = prob(m)
         if not q or p is None:
             continue
-        pick = kb.best_side(market_view(m, *q), min(max(p, 0.0), 1.0), cfg["stake"], cfg["min_edge"], cfg["min_profit"], multiplier(e))
+        pick = kb.best_side(market_view(m, *q), min(max(p, 0.0), 1.0), cfg["stake"], cfg["min_edge"], cfg["min_profit"], multiplier(e),
+                            D(str(cfg.get("min_price", 0))))
         if not pick:
             continue
         side, count, price, f, prob_side = pick
@@ -129,7 +130,7 @@ def run_weather(api: Kalshi, args, cfg: dict) -> tuple[list[dict], list[str]]:
             except RuntimeError:
                 continue
             quotes = {t: quote_before(cs, ts) for t, cs in hist.items()}
-            sd = kb.weather_sd(args.lead - 1 + 16 / 24 + 4 / 24)  # 8pm the evening before -> ~0.8 days to the afternoon
+            sd = kb.weather_sd(args.lead - 1 + 16 / 24 + 4 / 24) * args.sd_scale  # 8pm the evening before -> ~0.8 days to the afternoon
             b = bet_on(e, markets, quotes, lambda m: (lambda r: kb.prob_normal(r, high, sd) if r else None)(
                 kb.strike_range(m, integer=True)), cfg)
             if b:
@@ -213,8 +214,10 @@ def main() -> None:
     ap.add_argument("--stake", type=D, default=D("2"))
     ap.add_argument("--min-edge", type=float, default=0.05)
     ap.add_argument("--min-profit", type=D, default=D("0.10"))
+    ap.add_argument("--min-price", type=D, default=D("0"), help="skip sides cheaper than this (long shots)")
+    ap.add_argument("--sd-scale", type=float, default=1.0, help="weather: widen (>1) or narrow the forecast spread")
     args = ap.parse_args()
-    cfg = {"stake": args.stake, "min_edge": args.min_edge, "min_profit": args.min_profit}
+    cfg = {"stake": args.stake, "min_edge": args.min_edge, "min_profit": args.min_profit, "min_price": args.min_price}
     api = Kalshi("prod")
     bets, notes = (run_weather if args.strategy == "weather" else run_crypto)(api, args, cfg)
     print("\n".join(notes))
@@ -224,6 +227,8 @@ def main() -> None:
         report([b for b in bets if b["series"] == s], f"  {s}")
     for side in ("yes", "no"):
         report([b for b in bets if b["side"] == side], f"  {side.upper()} bets")
+    for lo, hi in ((0, 0.2), (0.2, 0.4), (0.4, 0.6), (0.6, 0.8), (0.8, 1.01)):
+        report([b for b in bets if lo <= float(b["price"]) < hi], f"  price {lo:.1f}-{min(hi, 1):.1f}")
     out = Path("reports")
     out.mkdir(exist_ok=True)
     path = out / f"kalshi_bets_{args.strategy}_{datetime.now():%Y-%m-%d_%H%M}.csv"
