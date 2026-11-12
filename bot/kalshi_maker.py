@@ -480,6 +480,12 @@ def safest_bet(api, events: list[dict], cfg: dict, when: datetime) -> None:
     state = kb.load_state()
     kb.settle(api, state)
     kb.place(state, kb.daily_safest(events, when, {"_state": state}), cfg["budget"])
+    if os.getenv("KALSHI_COMBO", "") == "on":  # pretend 3-leg combo of the day, own record next to the safest bet
+        combo = kb.daily_combo(events, when, {"_state": state})
+        if combo:
+            state["open"].append(combo)
+            log.info("PAPER COMBO: %s at %s. %s", ", ".join(f"{l['side'].upper()} {l['ticker']}" for l in combo["legs"]),
+                     combo["price"], combo["note"])
     kb.save_state(state)
     kb.summary(state, cfg["budget"], when)
 

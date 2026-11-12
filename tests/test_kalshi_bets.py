@@ -111,3 +111,33 @@ def test_min_price_skips_long_shots():
     m = {"yes_ask_dollars": "0.10", "yes_bid_dollars": "0.08", "yes_ask_size_fp": "100", "yes_bid_size_fp": "100"}
     assert kb.best_side(m, 0.30, D("2"), 0.05, D("0.10"))[0] == "yes"  # a 10c long shot the model likes
     assert kb.best_side(m, 0.30, D("2"), 0.05, D("0.10"), min_price=D("0.40")) is None
+
+
+def _safe_event(n, ask="0.9600", series=None):
+    return {"event_ticker": f"E{n}", "series_ticker": series or f"S{n}", "markets": [
+        {"ticker": f"E{n}-A", "status": "active", "close_time": "2026-10-29T02:00:00Z", "volume_24h_fp": "500",
+         "yes_ask_dollars": ask, "yes_bid_dollars": f"{float(ask) - 0.01:.4f}"}]}
+
+
+class _Results:
+    def __init__(self, results):
+        self.results = results
+
+    def market(self, ticker):
+        return {"result": self.results.get(ticker, "")}
+
+
+def test_daily_combo_needs_three_different_events_and_all_legs_to_win():
+    now = datetime(2026, 10, 28, 20, 0, tzinfo=timezone.utc)
+    two_leagues = [_safe_event(1), _safe_event(2), _safe_event(3, series="S2")]
+    assert kb.daily_combo(two_leagues, now, {}) is None  # two legs from the same league: no combo
+    combo = kb.daily_combo(two_leagues + [_safe_event(4, ask="0.9500")], now, {})
+    assert [l["ticker"] for l in combo["legs"]] == ["E1-A", "E2-A", "E4-A"]
+    assert combo["price"] == "0.8755" and combo["count"] == 1 and combo["cost"] == "0.89"
+    state = {"open": [combo], "closed": []}
+    assert kb.daily_combo(two_leagues, now, {"_state": state}) is None  # one a day
+    assert kb.settle(_Results({"E1-A": "yes", "E2-A": "yes"}), state) == 0  # still waiting on the third
+    assert kb.settle(_Results({"E1-A": "yes", "E2-A": "yes", "E4-A": "yes"}), state) == 1
+    assert state["closed"][0]["pnl"] == "0.11"
+    state = {"open": [dict(combo)], "closed": []}
+    assert kb.settle(_Results({"E2-A": "no"}), state) == 1 and state["closed"][0]["pnl"] == "-0.89"  # one miss loses it
