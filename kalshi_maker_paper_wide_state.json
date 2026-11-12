@@ -2516,5 +2516,44 @@
    "sold_back": true
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXODIMATCH-26NOV122100INDNZ",
+   "series": "KXODIMATCH",
+   "title": "New Zealand vs India",
+   "ticker": "KXODIMATCH-26NOV122100INDNZ-NZ",
+   "order_id": "paper-974-1794470639",
+   "price": "0.4000",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.5300",
+   "multiplier": "1",
+   "placed": 1794470639.027394,
+   "hedge": [
+    {
+     "ticker": "KXODIMATCH-26NOV122100INDNZ-IND",
+     "limit": "0.4600"
+    }
+   ]
+  },
+  {
+   "event": "KXSKLGAME-26NOV131300HOPZLA",
+   "series": "KXSKLGAME",
+   "title": "Polzela vs Zlatorog Lasko",
+   "ticker": "KXSKLGAME-26NOV131300HOPZLA-ZLA",
+   "order_id": "paper-975-1794470932",
+   "price": "0.0600",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.5000",
+   "multiplier": "1",
+   "placed": 1794470932.563441,
+   "hedge": [
+    {
+     "ticker": "KXSKLGAME-26NOV131300HOPZLA-HOP",
+     "limit": "0.4100"
+    }
+   ]
+  }
+ ]
 }

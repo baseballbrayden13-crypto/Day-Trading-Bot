@@ -8005,3 +8005,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 02:33:58,381 INFO Swept 21180 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-12 02:38:55,780 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 02:38:59,957 INFO Swept 21184 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 02:43:57,327 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 02:44:01,684 INFO Swept 21177 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 02:48:58,404 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 02:49:02,598 INFO Swept 21178 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 02:53:59,735 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 02:54:03,918 INFO Swept 21176 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 02:59:01,346 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 02:59:05,559 INFO Swept 21185 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 03:03:49,786 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 03:03:59,027 INFO PAPER rest NO bid KXODIMATCH-26NOV122100INDNZ-NZ at $0.4000 x4 (0 already bid at that price)
+2026-11-12 03:03:59,027 INFO Resting NO bid on KXODIMATCH-26NOV122100INDNZ-NZ at $0.4000 x4 (KXODIMATCH-26NOV122100INDNZ): locks in $0.47 if it fills; hedge NO IND@0.4600
+2026-11-12 03:03:59,070 INFO Swept 21144 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 03:08:49,014 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 03:08:52,563 INFO PAPER rest NO bid KXSKLGAME-26NOV131300HOPZLA-ZLA at $0.0600 x1 (0 already bid at that price)
+2026-11-12 03:08:52,563 INFO Resting NO bid on KXSKLGAME-26NOV131300HOPZLA-ZLA at $0.0600 x1 (KXSKLGAME-26NOV131300HOPZLA): locks in $0.50 if it fills; hedge NO HOP@0.4100
+2026-11-12 03:08:52,615 INFO Swept 21144 events: 0 taker trades, 1 new quotes, 2 resting
