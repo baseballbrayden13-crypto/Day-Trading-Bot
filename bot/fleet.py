@@ -89,6 +89,15 @@ def rescale(num: int, day: str, equity: float) -> float:
     return equity
 
 
+def scale(num: int, before: str = "9999") -> float:
+    """What $1 of a bot's whole-account history is worth in today's slice (splits dated before `before` only)."""
+    out = 1.0
+    for when, share in SPLITS.get(int(num), ()):
+        if when < before:
+            out *= share
+    return out
+
+
 DIP_SYMBOLS = ("AAPL,MSFT,NVDA,AMZN,GOOGL,META,TSLA,JPM,V,UNH,HD,PG,JNJ,XOM,COST,AVGO,LLY,MA,KO,PEP,WMT,BAC,CVX,MRK,"
                "ABBV,ORCL,CSCO,ADBE,CRM,AMD,NFLX,INTC,DIS,MCD,NKE,QCOM,TXN,HON,IBM")  # bot 5 (bot.dipbuy_live)
 ROTATION_ETFS = ("SPY", "QQQ", "IWM", "EFA", "EEM", "XLK", "XLF", "XLE", "XLV", "XLI", "XLY", "XLP", "XLU", "GLD", "TLT")
