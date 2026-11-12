@@ -2496,21 +2496,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLIGAPROMATCH-26NOV112330SHKDAN",
-   "series": "KXLIGAPROMATCH",
-   "title": "SHkolnikov IUrii vs Danilov Evgenii",
-   "ticker": "KXLIGAPROMATCH-26NOV112330SHKDAN-DAN",
-   "order_id": "paper-971-1794458856",
-   "price": "0.4100",
-   "sets": 1,
+   "event": "KXAUTBSLGAME-26NOV131400DKLVIE",
+   "series": "KXAUTBSLGAME",
+   "title": "BK Dukes Klosterneuburg vs BC Vienna",
+   "ticker": "KXAUTBSLGAME-26NOV131400DKLVIE-VIE",
+   "order_id": "paper-972-1794460972",
+   "price": "0.90",
+   "sets": 4,
    "done": 0,
-   "reserve": "0.8100",
+   "reserve": "3.8700",
    "multiplier": "1",
-   "placed": 1794458856.7237606,
+   "placed": 1794460972.0292354,
    "hedge": [
     {
-     "ticker": "KXLIGAPROMATCH-26NOV112330SHKDAN-SHK",
-     "limit": "0.3700"
+     "ticker": "KXAUTBSLGAME-26NOV131400DKLVIE-DKL",
+     "limit": "0.0600"
     }
    ]
   }

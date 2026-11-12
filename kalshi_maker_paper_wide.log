@@ -7932,3 +7932,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 00:07:43,263 INFO Settled KXLIGAMXWGAME-26NOV11PACMTY: paid $4, profit $-0.08
 2026-11-12 00:07:43,306 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 00:07:47,519 INFO Swept 21240 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 00:12:45,654 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 00:12:49,846 INFO Swept 21246 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 00:12:49,933 INFO Quote KXLIGAPROMATCH-26NOV112330SHKDAN cancelled (0/1 filled)
+2026-11-12 00:17:44,199 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 00:17:48,335 INFO Swept 21235 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 00:22:47,671 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 00:22:52,028 INFO PAPER rest NO bid KXAUTBSLGAME-26NOV131400DKLVIE-VIE at $0.9000 x4 (597 already bid at that price)
+2026-11-12 00:22:52,029 INFO Resting NO bid on KXAUTBSLGAME-26NOV131400DKLVIE-VIE at $0.90 x4 (KXAUTBSLGAME-26NOV131400DKLVIE): locks in $0.13 if it fills; hedge NO DKL@0.0600
+2026-11-12 00:22:52,076 INFO Swept 21236 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 00:27:48,678 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 00:27:52,809 INFO Swept 21228 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 00:32:49,760 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 00:32:53,939 INFO Swept 21224 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 00:37:51,606 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 00:37:55,759 INFO Swept 21203 events: 0 taker trades, 0 new quotes, 1 resting
