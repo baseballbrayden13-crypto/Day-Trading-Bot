@@ -17,7 +17,7 @@
      "limit": "0.83"
     }
    ],
-   "retried": 1794452985.7946222
+   "retried": 1794453831.465707
   }
  ],
  "closed": [
@@ -68,25 +68,5 @@
    "sold_back": true
   }
  ],
- "quotes": [
-  {
-   "event": "KXLIGAPROMATCH-26NOV112330SHKDAN",
-   "series": "KXLIGAPROMATCH",
-   "title": "SHkolnikov IUrii vs Danilov Evgenii",
-   "ticker": "KXLIGAPROMATCH-26NOV112330SHKDAN-SHK",
-   "order_id": "paper-33-1794452625",
-   "price": "0.1200",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.5900",
-   "multiplier": "1",
-   "placed": 1794452625.030124,
-   "hedge": [
-    {
-     "ticker": "KXLIGAPROMATCH-26NOV112330SHKDAN-DAN",
-     "limit": "0.8500"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
