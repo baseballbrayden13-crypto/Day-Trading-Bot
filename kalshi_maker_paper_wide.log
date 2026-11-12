@@ -8126,3 +8126,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 10:05:54,914 INFO PAPER rest NO bid KXAFCONSCORE-26NOV12GHASOM-GHA4SOM0 at $0.1800 x1 (0 already bid at that price)
 2026-11-12 10:05:54,914 INFO Resting NO bid on KXAFCONSCORE-26NOV12GHASOM-GHA4SOM0 at $0.1800 x1 (KXAFCONSCORE-26NOV12GHASOM): locks in $0.14 if it fills; hedge NO GHA1SOM0@0.9500, GHA2SOM0@0.8700, GHA3SOM0@0.8600, GHA3SOM1@0.9500
 2026-11-12 10:05:54,999 INFO Swept 21225 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 10:10:53,378 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 10:10:56,436 INFO Swept 21245 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 10:15:55,782 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 10:15:58,460 INFO Swept 21257 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 10:20:54,428 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 10:20:56,986 INFO Swept 21263 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 10:25:59,676 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 10:26:02,325 INFO Swept 21251 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 10:30:59,294 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 10:31:01,947 INFO Swept 21251 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 10:36:02,912 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 10:36:06,106 INFO Swept 21236 events: 0 taker trades, 0 new quotes, 1 resting
