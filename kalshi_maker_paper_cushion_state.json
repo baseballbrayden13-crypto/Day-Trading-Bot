@@ -75,17 +75,36 @@
  ],
  "quotes": [
   {
+   "event": "KXKBLGAME-26NOV120500GOYDAE",
+   "series": "KXKBLGAME",
+   "title": "Goyang Skygunners vs Daegu Pegasus",
+   "ticker": "KXKBLGAME-26NOV120500GOYDAE-GOY",
+   "order_id": "paper-41-1794472737",
+   "price": "0.2600",
+   "sets": 6,
+   "done": 0,
+   "reserve": "4.5800",
+   "multiplier": "1",
+   "placed": 1794472737.9347005,
+   "hedge": [
+    {
+     "ticker": "KXKBLGAME-26NOV120500GOYDAE-DAE",
+     "limit": "0.4800"
+    }
+   ]
+  },
+  {
    "event": "KXODIMATCH-26NOV122100INDNZ",
    "series": "KXODIMATCH",
    "title": "New Zealand vs India",
    "ticker": "KXODIMATCH-26NOV122100INDNZ-NZ",
-   "order_id": "paper-35-1794470619",
+   "order_id": "paper-42-1794472737",
    "price": "0.4000",
    "sets": 5,
    "done": 0,
    "reserve": "4.4200",
    "multiplier": "1",
-   "placed": 1794470619.794292,
+   "placed": 1794472737.9974408,
    "hedge": [
     {
      "ticker": "KXODIMATCH-26NOV122100INDNZ-IND",
@@ -94,36 +113,17 @@
    ]
   },
   {
-   "event": "KXCS2GAME-26NOV110400TTBS9INEA",
-   "series": "KXCS2GAME",
-   "title": "Teletubisie vs. 9INE Academy",
-   "ticker": "KXCS2GAME-26NOV110400TTBS9INEA-TTBS",
-   "order_id": "paper-36-1794470619",
-   "price": "0.2000",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.7300",
-   "multiplier": "1",
-   "placed": 1794470619.8533926,
-   "hedge": [
-    {
-     "ticker": "KXCS2GAME-26NOV110400TTBS9INEA-9INEA",
-     "limit": "0.6400"
-    }
-   ]
-  },
-  {
    "event": "KXWT20MATCH-26NOV120415BANPAK",
    "series": "KXWT20MATCH",
    "title": "Pakistan vs Bangladesh",
    "ticker": "KXWT20MATCH-26NOV120415BANPAK-PAK",
-   "order_id": "paper-37-1794470619",
+   "order_id": "paper-43-1794472738",
    "price": "0.1700",
    "sets": 5,
    "done": 0,
    "reserve": "4.6900",
    "multiplier": "1",
-   "placed": 1794470619.911972,
+   "placed": 1794472738.059743,
    "hedge": [
     {
      "ticker": "KXWT20MATCH-26NOV120415BANPAK-BAN",
@@ -132,59 +132,40 @@
    ]
   },
   {
-   "event": "KXLNBPGAME-26NOV130000ASTSOL",
-   "series": "KXLNBPGAME",
-   "title": "Astros de Jalisco vs Soles de Mexicali",
-   "ticker": "KXLNBPGAME-26NOV130000ASTSOL-SOL",
-   "order_id": "paper-38-1794470619",
-   "price": "0.1100",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.3800",
-   "multiplier": "1",
-   "placed": 1794470619.971059,
-   "hedge": [
-    {
-     "ticker": "KXLNBPGAME-26NOV130000ASTSOL-AST",
-     "limit": "0.7500"
-    }
-   ]
-  },
-  {
-   "event": "KXR6GAME-26NOV122230DZLIQUID",
-   "series": "KXR6GAME",
-   "title": "DarkZero Esports vs. Team Liquid",
-   "ticker": "KXR6GAME-26NOV122230DZLIQUID-DZ",
-   "order_id": "paper-39-1794470620",
-   "price": "0.4500",
+   "event": "KXNBLGAME-26NOV120330MELA36",
+   "series": "KXNBLGAME",
+   "title": "Melbourne United vs Adelaide 36ers",
+   "ticker": "KXNBLGAME-26NOV120330MELA36-MEL",
+   "order_id": "paper-44-1794472738",
+   "price": "0.1700",
    "sets": 2,
    "done": 0,
-   "reserve": "1.7100",
+   "reserve": "1.5700",
    "multiplier": "1",
-   "placed": 1794470620.0301843,
+   "placed": 1794472738.1216679,
    "hedge": [
     {
-     "ticker": "KXR6GAME-26NOV122230DZLIQUID-LIQUID",
-     "limit": "0.3800"
+     "ticker": "KXNBLGAME-26NOV120330MELA36-A36",
+     "limit": "0.5900"
     }
    ]
   },
   {
-   "event": "KXCS2GAME-26NOV120400DNKDUC",
+   "event": "KXCS2GAME-26NOV121000TLRBAKS",
    "series": "KXCS2GAME",
-   "title": "DNK vs. Ducks",
-   "ticker": "KXCS2GAME-26NOV120400DNKDUC-DNK",
-   "order_id": "paper-40-1794470913",
-   "price": "0.0700",
-   "sets": 1,
+   "title": "The Last Resort vs. BakS eSports",
+   "ticker": "KXCS2GAME-26NOV121000TLRBAKS-TLR",
+   "order_id": "paper-45-1794472738",
+   "price": "0.5700",
+   "sets": 2,
    "done": 0,
-   "reserve": "0.3900",
+   "reserve": "1.5800",
    "multiplier": "1",
-   "placed": 1794470913.954746,
+   "placed": 1794472738.1839771,
    "hedge": [
     {
-     "ticker": "KXCS2GAME-26NOV120400DNKDUC-DUC",
-     "limit": "0.2900"
+     "ticker": "KXCS2GAME-26NOV121000TLRBAKS-BAKS",
+     "limit": "0.2000"
     }
    ]
   }
