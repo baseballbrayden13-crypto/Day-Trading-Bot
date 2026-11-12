@@ -1,5 +1,5 @@
-module: bot.kalshi_bets_backtest args: weather --days 60 --lead 1
-KXHIGHNY (Central Park): 46 days, forecast missed by +0.3F on average, spread 2.1F (model assumes 2.8)
+module: bot.kalshi_bets_backtest args: weather --days 60 --lead 1 --sd-scale 1.5
+KXHIGHNY: no past forecasts (HTTPSConnectionPool(host='previous-runs-api.open-meteo.com', port=443): Read timed out. (read timeout=60))
 KXHIGHCHI: no past forecasts (HTTPSConnectionPool(host='previous-runs-api.open-meteo.com', port=443): Read timed out. (read timeout=60))
 KXHIGHMIA: no past forecasts (HTTPSConnectionPool(host='previous-runs-api.open-meteo.com', port=443): Read timed out. (read timeout=60))
 KXHIGHLAX: no past forecasts (HTTPSConnectionPool(host='previous-runs-api.open-meteo.com', port=443): Read timed out. (read timeout=60))
@@ -7,15 +7,12 @@ KXHIGHAUS: no past forecasts (HTTPSConnectionPool(host='previous-runs-api.open-m
 KXHIGHDEN: no past forecasts (HTTPSConnectionPool(host='previous-runs-api.open-meteo.com', port=443): Read timed out. (read timeout=60))
 KXHIGHPHIL: no past forecasts (HTTPSConnectionPool(host='previous-runs-api.open-meteo.com', port=443): Read timed out. (read timeout=60))
 
-weather (all): 60 bets, won 4, profit $-114.84 on $123.84 bet (expected $511.54); earlier half $-57.49, later half $-57.35; t-stat -1.7
-  KXHIGHNY: 60 bets, won 4, profit $-114.84 on $123.84 bet (expected $511.54); earlier half $-57.49, later half $-57.35; t-stat -1.7
-  YES bets: 55 bets, won 0, profit $-115.00 on $115.00 bet (expected $509.05); earlier half $-56.91, later half $-58.09; t-stat -2.4
-  NO bets: 5 bets, won 4, profit $0.16 on $8.84 bet (expected $2.49); earlier half $1.56, later half $-1.40; t-stat 0.5
-  price 0.0-0.2: 48 bets, won 0, profit $-102.32 on $102.32 bet (expected $498.44); earlier half $-51.19, later half $-51.13; t-stat -1.4
-  price 0.2-0.4: 5 bets, won 0, profit $-9.65 on $9.65 bet (expected $9.86); earlier half $-3.89, later half $-5.76; t-stat -1.5
-  price 0.4-0.6: 2 bets, won 1, profit $-0.86 on $3.86 bet (expected $2.07); earlier half $1.23, later half $-2.09; t-stat -0.0
-  price 0.6-0.8: 2 bets, won 1, profit $-0.95 on $2.95 bet (expected $0.70); earlier half $-1.38, later half $0.43; t-stat -0.7
-  price 0.8-1.0: 3 bets, won 2, profit $-1.06 on $5.06 bet (expected $0.47); earlier half $0.33, later half $-1.39; t-stat -0.8
-
-Saved to reports/kalshi_bets_weather_2026-11-12_0030.csv
+weather (all): no bets
+  YES bets: no bets
+  NO bets: no bets
+  price 0.0-0.2: no bets
+  price 0.2-0.4: no bets
+  price 0.4-0.6: no bets
+  price 0.6-0.8: no bets
+  price 0.8-1.0: no bets
 Worth paper money only if both halves made money and t-stat is 2+.
