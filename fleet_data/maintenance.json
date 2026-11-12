@@ -1,16 +1,16 @@
 {
- "checked": "2026-11-12T07:26:23+00:00",
+ "checked": "2026-11-12T20:49:37+00:00",
  "status": {
   "0": "info",
-  "1": "info",
-  "2": "info",
+  "1": "watch",
+  "2": "act",
   "3": "info",
-  "6": "info",
+  "6": "act",
   "7": "act",
   "9": "act",
-  "8": "info",
-  "10": "info",
-  "11": "watch"
+  "8": "act",
+  "10": "act",
+  "11": "act"
  },
  "findings": [
   {
@@ -24,10 +24,10 @@
   },
   {
    "bot": 1,
-   "level": "ok",
+   "level": "watch",
    "check": "replay",
-   "message": "2026-11-11: bot 1 did what the backtest would have (0 entries).",
-   "fix": "",
+   "message": "On 2026-11-12 the backtest would have bought QQQ at 10:55 (~$689.86) but bot 1 didn't.",
+   "fix": "Check trades.log that day: was it running, did a risk limit block it, or did the live data differ?",
    "proposal": "",
    "risk": "Low"
   },
@@ -35,7 +35,7 @@
    "bot": 1,
    "level": "info",
    "check": "return",
-   "message": "$4,981.30, -0.4% since the $5,000 start.",
+   "message": "$4,982.42, -0.4% since the $5,000 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -53,8 +53,17 @@
    "bot": 1,
    "level": "ok",
    "check": "slippage",
-   "message": "Real fills cost +2.4 bps over 11 fills (backtest assumes 2).",
+   "message": "Real fills cost +2.0 bps over 13 fills (backtest assumes 2).",
    "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 2,
+   "level": "act",
+   "check": "schedule",
+   "message": "Bot 2 should have run by Thu 09:50 ET but its log last changed Thu 11/12 09:42.",
+   "fix": "Check the Cloud bots runs on GitHub (Actions tab) for a failed or skipped run.",
    "proposal": "",
    "risk": "Low"
   },
@@ -62,7 +71,7 @@
    "bot": 2,
    "level": "info",
    "check": "return",
-   "message": "$2,466.29, -2.4% since the $2,528 start.",
+   "message": "$2,464.03, -2.5% since the $2,528 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -71,7 +80,7 @@
    "bot": 2,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot -2.4% vs just holding SPY -0.0%.",
+   "message": "Since 2026-10-23: bot -2.5% vs just holding SPY -0.4%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -96,6 +105,15 @@
   },
   {
    "bot": 6,
+   "level": "act",
+   "check": "schedule",
+   "message": "Bot 4c (maker_paper) last wrote anything Thu 11/12 14:53 ET, over 30 minutes ago.",
+   "fix": "Its loop has stopped. Check its scheduled task and its _err.log.",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 6,
    "level": "info",
    "check": "return",
    "message": "Bot 4c: 3 settled, 1 open, $+7.07 settled profit.",
@@ -106,8 +124,17 @@
   {
    "bot": 7,
    "level": "act",
+   "check": "schedule",
+   "message": "Bot 4e (maker_paper) last wrote anything Thu 11/12 14:53 ET, over 30 minutes ago.",
+   "fix": "Its loop has stopped. Check its scheduled task and its _err.log.",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 7,
+   "level": "act",
    "check": "losses",
-   "message": "Bot 4e: 6 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
+   "message": "Bot 4e: 7 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
    "fix": "Read kalshi_data/opportunities.csv for those events.",
    "proposal": "Pause Bot 4e until the losing trades are explained.",
    "risk": "Medium"
@@ -125,16 +152,7 @@
    "bot": 7,
    "level": "act",
    "check": "drawdown",
-   "message": "Bot 4e is at $13.68 of its $20.00 start.",
-   "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 7,
-   "level": "watch",
-   "check": "errors",
-   "message": "Bot 4e: 2 warnings last loop. Latest: 2026-11-12 06:55 STRAY POSITION: 5 NO contracts of KXNLGAME-26NOV111345HAPEVZ-EVZ still held. Check it on Kalshi.",
+   "message": "Bot 4e is at $13.58 of its $20.00 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -152,8 +170,17 @@
    "bot": 7,
    "level": "info",
    "check": "return",
-   "message": "Bot 4e: 95 settled, 3 open, $-6.32 settled profit.",
+   "message": "Bot 4e: 96 settled, 3 open, $-6.42 settled profit.",
    "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 9,
+   "level": "act",
+   "check": "schedule",
+   "message": "Bot 4f (maker_paper) last wrote anything Thu 11/12 14:54 ET, over 30 minutes ago.",
+   "fix": "Its loop has stopped. Check its scheduled task and its _err.log.",
    "proposal": "",
    "risk": "Low"
   },
@@ -161,7 +188,7 @@
    "bot": 9,
    "level": "watch",
    "check": "missed hedges",
-   "message": "Bot 4f: 3 one-sided leftovers from missed hedges (not locked-in trades) closed for $-2.53.",
+   "message": "Bot 4f: 4 one-sided leftovers from missed hedges (not locked-in trades) closed for $-3.29.",
    "fix": "If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more).",
    "proposal": "",
    "risk": "Low"
@@ -170,7 +197,7 @@
    "bot": 9,
    "level": "act",
    "check": "drawdown",
-   "message": "Bot 4f is at $17.40 of its $20.00 start.",
+   "message": "Bot 4f is at $16.49 of its $20.00 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -179,7 +206,16 @@
    "bot": 9,
    "level": "watch",
    "check": "errors",
-   "message": "Bot 4f: 2 errors in the last day. Latest: 2026-11-11 18:32:01,348 ERROR STRAY POSITION: 2 NO contracts of KXLIGAMXWGAME-26NOV11PACMTY-MTY still held. Check it on Kalshi.",
+   "message": "Bot 4f: 3 warnings last loop. Latest: 2026-11-12 19:50 Maker loop error; carrying on",
+   "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 9,
+   "level": "watch",
+   "check": "errors",
+   "message": "Bot 4f: 4 errors in the last day. Latest: 2026-11-12 14:50:50,110 ERROR Maker loop error; carrying on",
    "fix": "Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug.",
    "proposal": "",
    "risk": "Low"
@@ -188,8 +224,17 @@
    "bot": 9,
    "level": "info",
    "check": "return",
-   "message": "Bot 4f: 3 settled, 0 open, $-2.60 settled profit.",
+   "message": "Bot 4f: 4 settled, 0 open, $-3.51 settled profit.",
    "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 8,
+   "level": "act",
+   "check": "schedule",
+   "message": "Bot 8 should have run by Thu 09:50 ET but its log last changed Thu 11/12 09:42.",
+   "fix": "Check the Cloud bots runs on GitHub (Actions tab) for a failed or skipped run.",
    "proposal": "",
    "risk": "Low"
   },
@@ -197,8 +242,17 @@
    "bot": 8,
    "level": "info",
    "check": "return",
-   "message": "$2,463.55, +0.6% since the $2,450 start.",
+   "message": "$2,462.81, +0.5% since the $2,450 start.",
    "fix": "",
+   "proposal": "",
+   "risk": "Low"
+  },
+  {
+   "bot": 10,
+   "level": "act",
+   "check": "schedule",
+   "message": "Bot 10 should have run by Thu 09:50 ET but its log last changed Thu 11/12 09:42.",
+   "fix": "Check the Cloud bots runs on GitHub (Actions tab) for a failed or skipped run.",
    "proposal": "",
    "risk": "Low"
   },
@@ -206,17 +260,17 @@
    "bot": 10,
    "level": "info",
    "check": "return",
-   "message": "$1,667.27, +0.0% since the $1,667 start.",
+   "message": "$1,665.98, -0.1% since the $1,667 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
   },
   {
    "bot": 11,
-   "level": "watch",
+   "level": "act",
    "check": "schedule",
-   "message": "No saved momentum.log for bot 7 yet, so no cloud run has been saved for it.",
-   "fix": "If this stays for days, open the Actions tab and check its workflow runs and that its keys are in the repository secrets.",
+   "message": "Bot 11 should have run by Thu 09:50 ET but its log last changed Thu 11/12 09:42.",
+   "fix": "Check the Cloud bots runs on GitHub (Actions tab) for a failed or skipped run.",
    "proposal": "",
    "risk": "Low"
   },
@@ -224,7 +278,7 @@
    "bot": 11,
    "level": "info",
    "check": "return",
-   "message": "$1,667.00, +0.0% since the $1,667 start.",
+   "message": "$1,676.40, +0.6% since the $1,667 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"

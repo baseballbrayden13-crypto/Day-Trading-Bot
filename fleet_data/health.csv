@@ -1,11 +1,11 @@
 checked,bot,label,name,status,headline
-2026-11-12T07:26:23+00:00,0,fleet,Whole fleet,info,Running normally.
-2026-11-12T07:26:23+00:00,1,1,ORB day trader,info,Running normally.
-2026-11-12T07:26:23+00:00,2,2,ETF rotation,info,Running normally.
-2026-11-12T07:26:23+00:00,3,3,Crypto trend,info,Running normally.
-2026-11-12T07:26:23+00:00,6,4c,Kalshi maker paper,info,Running normally.
-2026-11-12T07:26:23+00:00,7,4e,Kalshi combined,act,Bot 4e: 6 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
-2026-11-12T07:26:23+00:00,9,4f,Kalshi cushion test,act,Bot 4f is at $17.40 of its $20.00 start.
-2026-11-12T07:26:23+00:00,8,5,Dip buyer,info,Running normally.
-2026-11-12T07:26:23+00:00,10,6,QQQ trend,info,Running normally.
-2026-11-12T07:26:23+00:00,11,7,Momentum,watch,"No saved momentum.log for bot 7 yet, so no cloud run has been saved for it."
+2026-11-12T20:49:37+00:00,0,fleet,Whole fleet,info,Running normally.
+2026-11-12T20:49:37+00:00,1,1,ORB day trader,watch,On 2026-11-12 the backtest would have bought QQQ at 10:55 (~$689.86) but bot 1 didn't.
+2026-11-12T20:49:37+00:00,2,2,ETF rotation,act,Bot 2 should have run by Thu 09:50 ET but its log last changed Thu 11/12 09:42.
+2026-11-12T20:49:37+00:00,3,3,Crypto trend,info,Running normally.
+2026-11-12T20:49:37+00:00,6,4c,Kalshi maker paper,act,"Bot 4c (maker_paper) last wrote anything Thu 11/12 14:53 ET, over 30 minutes ago."
+2026-11-12T20:49:37+00:00,7,4e,Kalshi combined,act,"Bot 4e (maker_paper) last wrote anything Thu 11/12 14:53 ET, over 30 minutes ago."
+2026-11-12T20:49:37+00:00,9,4f,Kalshi cushion test,act,"Bot 4f (maker_paper) last wrote anything Thu 11/12 14:54 ET, over 30 minutes ago."
+2026-11-12T20:49:37+00:00,8,5,Dip buyer,act,Bot 8 should have run by Thu 09:50 ET but its log last changed Thu 11/12 09:42.
+2026-11-12T20:49:37+00:00,10,6,QQQ trend,act,Bot 10 should have run by Thu 09:50 ET but its log last changed Thu 11/12 09:42.
+2026-11-12T20:49:37+00:00,11,7,Momentum,act,Bot 11 should have run by Thu 09:50 ET but its log last changed Thu 11/12 09:42.
