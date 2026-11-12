@@ -75,6 +75,7 @@ def refresh(symbols: list[str]) -> int:
         import yfinance as yf
 
         old = pd.read_csv(EARNINGS_FILE) if EARNINGS_FILE.exists() else pd.DataFrame(columns=["symbol", "when"])
+        old = old.drop_duplicates()  # the saved file had repeats, which made the "new" count negative (Nov 12)
         rows = []
         for s in symbols:
             if s.upper() in ETF_SYMBOLS:

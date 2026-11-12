@@ -3,7 +3,7 @@
     python -m bot.army_fund   # nightly, after Scout saves fleet_data/equity.csv (run from the state folder)
 
 Real paper accounts can't pass money between each other, so this keeps score instead: a pretend $10,000 spread
-over the stock and crypto bots (1, 2, 3, 5, 6). Each bot's slice grows or shrinks with that bot's own equity.
+over the stock and crypto bots (1, 2, 3, 5, 6, 7). Each bot's slice grows or shrinks with that bot's own equity.
 On the first run of every week it re-splits the whole fund:
   - half evenly over all the bots, so no bot is ever dropped,
   - half over the bots that made money in the last 4 weeks, in proportion to their gain (evenly if none did).
@@ -20,7 +20,7 @@ from pathlib import Path
 from .fleet import rescale
 
 START = 10_000.0
-BOTS = {"1": 1, "2": 2, "3": 3, "5": 8, "6": 10}  # site label -> fleet number
+BOTS = {"1": 1, "2": 2, "3": 3, "5": 8, "6": 10, "7": 11}  # site label -> fleet number (bot 7 joined Nov 12)
 LOOKBACK_DAYS = 28
 START_DAY = "2026-11-02"  # first Monday with bots 1-3 all running; past weeks use only data known then
 EQUITY = Path("fleet_data/equity.csv")
