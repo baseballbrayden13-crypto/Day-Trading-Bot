@@ -1,0 +1,47 @@
+name: Clip bot timer
+
+# GitHub's timer never starts runs in the clip bot's own repo, so this repo
+# (where timers work) starts them. Needs the CLIP_BOT_TOKEN secret: a token
+# that can only start Actions runs in the clip-bot repo.
+# Times are UTC (EST now; 1 hour later on the clock during daylight time).
+on:
+  schedule:
+    - cron: "0 14 * * *"    # 9:00am ET   make the day's clips
+    - cron: "30 16 * * *"   # 11:30am ET  send 3 clips to the TikTok inbox
+    - cron: "40 21 * * *"   # 4:40pm ET   top-up: clips blowing up today
+    - cron: "30 22 * * *"   # 5:30pm ET   send 3 clips
+    - cron: "40 0 * * *"    # 7:40pm ET   top-up
+    - cron: "30 1 * * *"    # 8:30pm ET   send 3 clips
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "What to start: clips, fresh or drop"
+        required: true
+        default: "drop"
+
+permissions: {}
+
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Start the clip bot run
+        env:
+          TOKEN: ${{ secrets.CLIP_BOT_TOKEN }}
+          CRON: ${{ github.event.schedule }}
+          JOB: ${{ inputs.job }}
+        run: |
+          if [ -z "$TOKEN" ]; then echo "CLIP_BOT_TOKEN is not set yet, nothing started"; exit 0; fi
+          case "${JOB:-$CRON}" in
+            clips|"0 14 * * *")                 FILE=daily-clips.yml; BODY='{"ref":"main"}' ;;
+            fresh|"40 21 * * *"|"40 0 * * *")   FILE=daily-clips.yml; BODY='{"ref":"main","inputs":{"fresh":"true"}}' ;;
+            drop|"30 16 * * *"|"30 22 * * *"|"30 1 * * *") FILE=inbox-drops.yml; BODY='{"ref":"main","inputs":{"count":"3"}}' ;;
+            *) echo "don't know what to start for '${JOB:-$CRON}'"; exit 1 ;;
+          esac
+          code=$(curl -sS -o reply.txt -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/baseballbrayden13-crypto/clip-bot/actions/workflows/$FILE/dispatches" \
+            -d "$BODY")
+          echo "started $FILE: HTTP $code"
+          if [ "$code" != "204" ]; then cat reply.txt; exit 1; fi
