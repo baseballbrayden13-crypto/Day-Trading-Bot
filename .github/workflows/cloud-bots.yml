@@ -134,6 +134,13 @@ jobs:
         working-directory: state
         run: python -m bot.maintenance --collect
 
+      - name: Hot-streak alert (a bot up or down 3% in a day; site + phone, no orders)
+        if: always() && contains(fromJSON('["medic","night","all"]'), steps.pick.outputs.what)
+        working-directory: state
+        env:
+          NTFY_TOPIC: ${{ secrets.ODDS_NTFY_TOPIC }}  # the same phone topic as the odds finder's alerts
+        run: python -m bot.streaks || echo "Hot-streak check skipped today"  # C-072; undo: delete this step
+
       - name: Rookies (pretend test strategies for draft day, no orders)
         if: always() && contains(fromJSON('["medic","night","all"]'), steps.pick.outputs.what)
         working-directory: state

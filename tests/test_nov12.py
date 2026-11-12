@@ -144,3 +144,15 @@ def test_income_rookie_holds_the_four_etfs_evenly():
     w = rookies.income(c, {}, True)
     assert w == {s: 0.25 for s in rookies.INCOME}
     assert rookies.income(c, {"SCHD": 1.0}, False) == {"SCHD": 1.0}  # only evened out on a new month
+
+
+def test_hot_streak_moves_and_text():
+    from bot import streaks
+    rows = [{"day": "2026-11-12", "bot": "11", "equity": "1667"}, {"day": "2026-11-13", "bot": "11", "equity": "1730"},
+            {"day": "2026-11-12", "bot": "1", "equity": "5000"}, {"day": "2026-11-13", "bot": "1", "equity": "5010"},
+            {"day": "2026-11-12", "bot": "7", "equity": "20"}, {"day": "2026-11-13", "bot": "7", "equity": "10"},  # Kalshi: left out
+            {"day": "2026-11-10", "bot": "3", "equity": "2500"}, {"day": "2026-11-11", "bot": "3", "equity": "1666"}]  # a split, not a loss
+    got = streaks.moves(rows, 3)
+    assert [(m["bot"], m["change_pct"]) for m in got] == [("7", 3.78)]
+    title, msg = streaks.text(got[0])
+    assert title == "Bot 7 up 3.8% today" and "$1,667.00 -> $1,730.00" in msg
