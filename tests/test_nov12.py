@@ -135,3 +135,12 @@ def test_rookie_advance_earns_then_rebalances():
     b2 = rookies.advance(b, c, rule)
     assert b2["equity"] == pytest.approx(b["equity"] * 1.10)
     assert rookies.advance(b2, c, rule) is b2  # same day twice changes nothing
+
+
+def test_income_rookie_holds_the_four_etfs_evenly():
+    from bot import rookies
+    idx = pd.bdate_range("2026-01-01", periods=2)
+    c = pd.DataFrame({s: [50.0, 51.0] for s in rookies.INCOME} | {"QQQ": [1.0, 1.0]}, index=idx)
+    w = rookies.income(c, {}, True)
+    assert w == {s: 0.25 for s in rookies.INCOME}
+    assert rookies.income(c, {"SCHD": 1.0}, False) == {"SCHD": 1.0}  # only evened out on a new month
