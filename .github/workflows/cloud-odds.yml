@@ -67,6 +67,7 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           KALSHI_PROPS: "on"
+          KALSHI_PROPS_HOURS: "12" # GitHub often runs this job only every 5-9 hours; a 6h window missed games
           KALSHI_PROPS_CREDITS: ${{ inputs.props_credits || '6' }}
           KALSHI_PROPS_REPRICE: ${{ inputs.props_reprice }}
           KALSHI_PROPS_SPORTS: ${{ inputs.props_sports || 'basketball_nba,icehockey_nhl,americanfootball_nfl' }}
