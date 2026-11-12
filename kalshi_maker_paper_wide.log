@@ -8155,3 +8155,21 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 11:01:07,677 INFO Swept 21202 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-12 11:06:13,839 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 11:06:16,505 INFO Swept 21208 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 11:11:18,062 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 11:11:20,749 INFO Swept 21217 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 11:11:20,864 INFO Quote KXAFCONSCORE-26NOV12GHASOM cancelled (0/1 filled)
+2026-11-12 11:16:17,999 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 11:16:21,020 INFO PAPER rest NO bid KXCONCACAFNLGAME-26NOV13SMASLV-SMA at $0.4300 x2 (0 already bid at that price)
+2026-11-12 11:16:21,021 INFO Resting NO bid on KXCONCACAFNLGAME-26NOV13SMASLV-SMA at $0.4300 x2 (KXCONCACAFNLGAME-26NOV13SMASLV): locks in $0.20 if it fills; hedge NO SLV@0.4900, TIE@0.9500
+2026-11-12 11:16:21,056 INFO Swept 21242 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 11:21:22,836 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 11:21:25,545 INFO Swept 21259 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 11:26:24,878 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 11:26:27,402 INFO Swept 21256 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 11:26:42,772 INFO Quote KXCONCACAFNLGAME-26NOV13SMASLV cancelled (0/2 filled)
+2026-11-12 11:31:27,668 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 11:31:30,331 INFO PAPER rest NO bid KXCONCACAFNLGAME-26NOV13SMASLV-SMA at $0.4600 x2 (0 already bid at that price)
+2026-11-12 11:31:30,331 INFO Resting NO bid on KXCONCACAFNLGAME-26NOV13SMASLV-SMA at $0.4600 x2 (KXCONCACAFNLGAME-26NOV13SMASLV): locks in $0.26 if it fills; hedge NO SLV@0.4300, TIE@0.9500
+2026-11-12 11:31:30,355 INFO Swept 21251 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 11:36:34,631 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 11:36:37,186 INFO Swept 21249 events: 0 taker trades, 0 new quotes, 1 resting
