@@ -1096,3 +1096,21 @@
 2026-11-12 12:01:51,488 INFO Swept 21235 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-12 12:06:49,802 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 12:06:53,311 INFO Swept 21234 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 12:11:52,021 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:11:55,534 INFO Swept 21256 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 12:16:53,983 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:16:57,829 INFO PAPER rest NO bid KXCONCACAFNLGAME-26NOV13SMASLV-TIE at $0.6800 x2 (0 already bid at that price)
+2026-11-12 12:16:57,829 INFO Resting NO bid on KXCONCACAFNLGAME-26NOV13SMASLV-TIE at $0.6800 x2 (KXCONCACAFNLGAME-26NOV13SMASLV): locks in $0.30 if it fills; hedge NO SMA@0.9100, SLV@0.2300
+2026-11-12 12:16:57,830 INFO Swept 21255 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 12:21:55,235 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:21:58,741 INFO Swept 21245 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 12:26:56,032 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:26:59,607 INFO Swept 21245 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 12:31:57,118 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:32:01,011 INFO Swept 21231 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 12:36:57,688 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:37:01,513 INFO PAPER rest NO bid KXAFCONSCORE-26NOV12GEQZIM-GEQ1ZIM1 at $0.2000 x1 (0 already bid at that price)
+2026-11-12 12:37:01,513 INFO Resting NO bid on KXAFCONSCORE-26NOV12GEQZIM-GEQ1ZIM1 at $0.2000 x1 (KXAFCONSCORE-26NOV12GEQZIM): locks in $0.45 if it fills; hedge NO GEQ0ZIM0@0.5400, GEQ0ZIM1@0.9700, GEQ1ZIM0@0.7900, GEQ2ZIM0@0.9800
+2026-11-12 12:37:01,514 INFO Swept 21227 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-12 12:37:01,690 INFO Quote KXCONCACAFNLGAME-26NOV13SMASLV cancelled (0/2 filled)
+2026-11-12 12:37:37,678 INFO Quote KXAFCONSCORE-26NOV12GEQZIM cancelled (0/1 filled)
