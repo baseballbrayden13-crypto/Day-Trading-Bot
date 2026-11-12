@@ -2518,21 +2518,21 @@
  ],
  "quotes": [
   {
-   "event": "KXKBLGAME-26NOV120500GOYDAE",
-   "series": "KXKBLGAME",
-   "title": "Goyang Skygunners vs Daegu Pegasus",
-   "ticker": "KXKBLGAME-26NOV120500GOYDAE-GOY",
-   "order_id": "paper-978-1794474863",
-   "price": "0.2600",
+   "event": "KXCS2GAME-26NOV120430G2TS",
+   "series": "KXCS2GAME",
+   "title": "G2 vs. Spirit",
+   "ticker": "KXCS2GAME-26NOV120430G2TS-G2",
+   "order_id": "paper-981-1794476983",
+   "price": "0.3000",
    "sets": 2,
    "done": 0,
-   "reserve": "1.5300",
+   "reserve": "1.1800",
    "multiplier": "1",
-   "placed": 1794474863.4664793,
+   "placed": 1794476983.4016664,
    "hedge": [
     {
-     "ticker": "KXKBLGAME-26NOV120500GOYDAE-DAE",
-     "limit": "0.4800"
+     "ticker": "KXCS2GAME-26NOV120430G2TS-TS",
+     "limit": "0.2800"
     }
    ]
   },
@@ -2541,36 +2541,17 @@
    "series": "KXNBLGAME",
    "title": "Melbourne United vs Adelaide 36ers",
    "ticker": "KXNBLGAME-26NOV120330MELA36-MEL",
-   "order_id": "paper-979-1794474863",
+   "order_id": "paper-983-1794477284",
    "price": "0.1700",
    "sets": 2,
    "done": 0,
    "reserve": "1.5700",
    "multiplier": "1",
-   "placed": 1794474863.5019038,
+   "placed": 1794477284.9707851,
    "hedge": [
     {
      "ticker": "KXNBLGAME-26NOV120330MELA36-A36",
      "limit": "0.5900"
-    }
-   ]
-  },
-  {
-   "event": "KXLNBPGAME-26NOV130000ASTSOL",
-   "series": "KXLNBPGAME",
-   "title": "Astros de Jalisco vs Soles de Mexicali",
-   "ticker": "KXLNBPGAME-26NOV130000ASTSOL-SOL",
-   "order_id": "paper-980-1794475168",
-   "price": "0.1100",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8900",
-   "multiplier": "1",
-   "placed": 1794475168.0417593,
-   "hedge": [
-    {
-     "ticker": "KXLNBPGAME-26NOV130000ASTSOL-AST",
-     "limit": "0.7500"
     }
    ]
   }

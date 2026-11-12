@@ -8067,3 +8067,22 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 04:34:28,100 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 3 resting
 2026-11-12 04:39:27,948 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 04:39:30,754 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-12 04:44:30,429 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 04:44:33,165 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-12 04:49:35,049 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 04:49:43,401 INFO PAPER rest NO bid KXCS2GAME-26NOV120430G2TS-G2 at $0.3000 x2 (0 already bid at that price)
+2026-11-12 04:49:43,401 INFO Resting NO bid on KXCS2GAME-26NOV120430G2TS-G2 at $0.3000 x2 (KXCS2GAME-26NOV120430G2TS): locks in $0.82 if it fills; hedge NO TS@0.2700
+2026-11-12 04:49:43,433 INFO PAPER rest NO bid KXKBLGAME-26NOV120500GOYDAE-GOY at $0.2600 x2 (0 already bid at that price)
+2026-11-12 04:49:43,433 INFO Resting NO bid on KXKBLGAME-26NOV120500GOYDAE-GOY at $0.2600 x2 (KXKBLGAME-26NOV120500GOYDAE): locks in $0.47 if it fills; hedge NO DAE@0.4800
+2026-11-12 04:49:43,478 INFO Swept 21134 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-12 04:54:36,884 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 04:54:44,970 INFO PAPER rest NO bid KXNBLGAME-26NOV120330MELA36-MEL at $0.1700 x2 (0 already bid at that price)
+2026-11-12 04:54:44,970 INFO Resting NO bid on KXNBLGAME-26NOV120330MELA36-MEL at $0.1700 x2 (KXNBLGAME-26NOV120330MELA36): locks in $0.43 if it fills; hedge NO A36@0.5900
+2026-11-12 04:54:45,016 INFO Swept 21134 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-12 04:55:01,124 INFO Quote KXKBLGAME-26NOV120500GOYDAE cancelled (0/2 filled)
+2026-11-12 04:59:39,080 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 04:59:46,567 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-12 05:05:03,411 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 05:05:07,541 INFO Swept 21091 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-12 05:10:05,625 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 05:10:09,800 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 2 resting
