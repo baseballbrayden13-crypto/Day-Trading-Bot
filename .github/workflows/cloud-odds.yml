@@ -16,6 +16,12 @@ on:
       args:
         description: "Extra arguments (--settle = no credits used)"
         default: ""
+      props_sports:
+        description: "Props check by hand: only these sports (e.g. americanfootball_nfl). Empty = all"
+        default: ""
+      props_credits:
+        description: "Props check by hand: today's credit cap (default 6)"
+        default: ""
 
 permissions:
   contents: write
@@ -58,7 +64,8 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           KALSHI_PROPS: "on"
-          KALSHI_PROPS_CREDITS: "6"
+          KALSHI_PROPS_CREDITS: ${{ inputs.props_credits || '6' }}
+          KALSHI_PROPS_SPORTS: ${{ inputs.props_sports || 'basketball_nba,icehockey_nhl,americanfootball_nfl' }}
         run: python -m bot.kalshi_props --scan
       - name: Save state
         if: always()
