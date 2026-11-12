@@ -2494,25 +2494,5 @@
    "closed": "2026-11-12T05:07:43.263886+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXAUTBSLGAME-26NOV131400DKLVIE",
-   "series": "KXAUTBSLGAME",
-   "title": "BK Dukes Klosterneuburg vs BC Vienna",
-   "ticker": "KXAUTBSLGAME-26NOV131400DKLVIE-VIE",
-   "order_id": "paper-972-1794460972",
-   "price": "0.90",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.8700",
-   "multiplier": "1",
-   "placed": 1794460972.0292354,
-   "hedge": [
-    {
-     "ticker": "KXAUTBSLGAME-26NOV131400DKLVIE-DKL",
-     "limit": "0.0600"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
