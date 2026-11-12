@@ -791,3 +791,39 @@
 2026-11-11 22:23:51,428 INFO Swept 21524 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-11 22:23:51,483 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
 2026-11-11 22:23:56,506 INFO Stopped; all quotes cancelled.
+2026-11-11 23:40:25,277 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-11 23:42:12,589 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-11 23:42:16,108 INFO Swept 21327 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 23:42:16,170 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:43:16,475 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:44:16,742 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:45:16,979 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:47:16,226 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-11 23:47:20,429 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV112330SHKDAN-DAN at $0.4100 x2 (0 already bid at that price)
+2026-11-11 23:47:20,429 INFO Resting NO bid on KXLIGAPROMATCH-26NOV112330SHKDAN-DAN at $0.4100 x2 (KXLIGAPROMATCH-26NOV112330SHKDAN): locks in $0.39 if it fills; hedge NO SHK@0.3700
+2026-11-11 23:47:20,430 INFO Swept 21329 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 23:47:20,613 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:48:22,159 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:49:23,722 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:50:25,286 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:52:20,360 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-11 23:52:23,966 INFO Swept 21322 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 23:52:24,147 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:53:25,665 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:54:27,185 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:55:28,704 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:57:23,462 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-11 23:57:27,075 INFO Swept 21299 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 23:57:27,274 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:58:28,942 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-11 23:59:30,614 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-12 00:00:32,286 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-12 00:02:26,737 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 00:02:30,385 INFO Swept 21241 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 00:02:30,571 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-12 00:03:32,160 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-12 00:04:33,736 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-12 00:05:35,314 INFO PAPER sell 2 YES KXLIGAMXWGAME-26NOV11PACMTY-MTY at up to $0.32: not on the book
+2026-11-12 00:07:29,190 INFO Settled KXLIGAMXWGAME-26NOV11PACMTY (stray): paid $0, profit $-1.68
+2026-11-12 00:07:29,223 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 00:07:32,876 INFO Swept 21240 events: 0 taker trades, 0 new quotes, 1 resting

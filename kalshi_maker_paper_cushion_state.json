@@ -1,25 +1,6 @@
 {
- "realized": "-0.9200",
- "open": [
-  {
-   "event": "KXLIGAMXWGAME-26NOV11PACMTY (stray)",
-   "series": "KXLIGAMXWGAME",
-   "title": "CF Pachuca (women) vs CF Monterrey (women)",
-   "sets": 0,
-   "outlay": "1.68",
-   "locked_profit": "0",
-   "opened": "2026-11-11T23:32:01.348188+00:00",
-   "legs": [
-    {
-     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-MTY",
-     "side": "no",
-     "count": 2,
-     "limit": "0.83"
-    }
-   ],
-   "retried": 1794453831.465707
-  }
- ],
+ "realized": "-2.6000",
+ "open": [],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -66,7 +47,51 @@
    "pnl": "-0.3400",
    "closed": "2026-11-11T23:32:01.365384+00:00",
    "sold_back": true
+  },
+  {
+   "event": "KXLIGAMXWGAME-26NOV11PACMTY (stray)",
+   "series": "KXLIGAMXWGAME",
+   "title": "CF Pachuca (women) vs CF Monterrey (women)",
+   "sets": 0,
+   "outlay": "1.68",
+   "locked_profit": "0",
+   "opened": "2026-11-11T23:32:01.348188+00:00",
+   "legs": [
+    {
+     "ticker": "KXLIGAMXWGAME-26NOV11PACMTY-MTY",
+     "side": "no",
+     "count": 2,
+     "limit": "0.83"
+    }
+   ],
+   "retried": 1794459935.252734,
+   "paid": "0",
+   "pnl": "-1.68",
+   "results": {
+    "KXLIGAMXWGAME-26NOV11PACMTY-MTY": "yes"
+   },
+   "closed": "2026-11-12T05:07:29.190391+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGAPROMATCH-26NOV112330SHKDAN",
+   "series": "KXLIGAPROMATCH",
+   "title": "SHkolnikov IUrii vs Danilov Evgenii",
+   "ticker": "KXLIGAPROMATCH-26NOV112330SHKDAN-DAN",
+   "order_id": "paper-34-1794458840",
+   "price": "0.4100",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6100",
+   "multiplier": "1",
+   "placed": 1794458840.429703,
+   "hedge": [
+    {
+     "ticker": "KXLIGAPROMATCH-26NOV112330SHKDAN-SHK",
+     "limit": "0.3700"
+    }
+   ]
+  }
+ ]
 }
