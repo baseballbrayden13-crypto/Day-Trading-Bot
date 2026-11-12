@@ -949,3 +949,30 @@
 2026-11-12 04:04:10,605 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 5 resting
 2026-11-12 04:09:05,433 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 04:09:08,429 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 5 resting
+2026-11-12 04:14:05,303 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 04:14:13,205 INFO PAPER rest NO bid KXKBLGAME-26NOV120500GOYDAE-GOY at $0.2600 x2 (0 already bid at that price)
+2026-11-12 04:14:13,205 INFO Resting NO bid on KXKBLGAME-26NOV120500GOYDAE-GOY at $0.2600 x2 (KXKBLGAME-26NOV120500GOYDAE): locks in $0.47 if it fills; hedge NO DAE@0.4800
+2026-11-12 04:14:13,266 INFO PAPER rest NO bid KXODIMATCH-26NOV122100INDNZ-NZ at $0.4000 x5 (0 already bid at that price)
+2026-11-12 04:14:13,266 INFO Resting NO bid on KXODIMATCH-26NOV122100INDNZ-NZ at $0.4000 x5 (KXODIMATCH-26NOV122100INDNZ): locks in $0.58 if it fills; hedge NO IND@0.4600
+2026-11-12 04:14:13,326 INFO PAPER rest NO bid KXWT20MATCH-26NOV120415BANPAK-PAK at $0.1700 x5 (0 already bid at that price)
+2026-11-12 04:14:13,326 INFO Resting NO bid on KXWT20MATCH-26NOV120415BANPAK-PAK at $0.1700 x5 (KXWT20MATCH-26NOV120415BANPAK): locks in $0.31 if it fills; hedge NO BAN@0.7500
+2026-11-12 04:14:13,387 INFO PAPER rest NO bid KXNBLGAME-26NOV120330MELA36-MEL at $0.1700 x2 (0 already bid at that price)
+2026-11-12 04:14:13,387 INFO Resting NO bid on KXNBLGAME-26NOV120330MELA36-MEL at $0.1700 x2 (KXNBLGAME-26NOV120330MELA36): locks in $0.43 if it fills; hedge NO A36@0.5900
+2026-11-12 04:14:13,448 INFO PAPER rest NO bid KXLNBPGAME-26NOV130000ASTSOL-SOL at $0.1100 x5 (0 already bid at that price)
+2026-11-12 04:14:13,449 INFO Resting NO bid on KXLNBPGAME-26NOV130000ASTSOL-SOL at $0.1100 x5 (KXLNBPGAME-26NOV130000ASTSOL): locks in $0.62 if it fills; hedge NO AST@0.7500
+2026-11-12 04:14:13,450 INFO Swept 21134 events: 0 taker trades, 5 new quotes, 5 resting
+2026-11-12 04:15:04,864 INFO Quote KXWT20MATCH-26NOV120415BANPAK cancelled (0/5 filled)
+2026-11-12 04:19:12,703 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 04:19:21,043 INFO PAPER rest NO bid KXNBAGAME-26NOV13UTAHOU-UTA at $0.8100 x5 (0 already bid at that price)
+2026-11-12 04:19:21,043 INFO Resting NO bid on KXNBAGAME-26NOV13UTAHOU-UTA at $0.8100 x5 (KXNBAGAME-26NOV13UTAHOU): locks in $0.34 if it fills; hedge NO HOU@0.1100
+2026-11-12 04:19:21,044 INFO Swept 21134 events: 0 taker trades, 1 new quotes, 5 resting
+2026-11-12 04:24:26,443 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 04:24:29,960 INFO PAPER rest NO bid KXNBLGAME-26NOV120530TASPER-TAS at $0.1700 x1 (0 already bid at that price)
+2026-11-12 04:24:29,960 INFO Resting NO bid on KXNBLGAME-26NOV120530TASPER-TAS at $0.1700 x1 (KXNBLGAME-26NOV120530TASPER): locks in $0.25 if it fills; hedge NO PER@0.5500
+2026-11-12 04:24:29,961 INFO Swept 21134 events: 0 taker trades, 1 new quotes, 6 resting
+2026-11-12 04:29:22,798 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 04:29:25,377 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 6 resting
+2026-11-12 04:34:26,299 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 04:34:28,873 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 6 resting
+2026-11-12 04:39:28,302 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 04:39:31,219 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 6 resting

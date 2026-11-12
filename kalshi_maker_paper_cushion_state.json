@@ -73,5 +73,120 @@
    "closed": "2026-11-12T05:07:29.190391+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXKBLGAME-26NOV120500GOYDAE",
+   "series": "KXKBLGAME",
+   "title": "Goyang Skygunners vs Daegu Pegasus",
+   "ticker": "KXKBLGAME-26NOV120500GOYDAE-GOY",
+   "order_id": "paper-47-1794474853",
+   "price": "0.2600",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.5300",
+   "multiplier": "1",
+   "placed": 1794474853.20596,
+   "hedge": [
+    {
+     "ticker": "KXKBLGAME-26NOV120500GOYDAE-DAE",
+     "limit": "0.4800"
+    }
+   ]
+  },
+  {
+   "event": "KXODIMATCH-26NOV122100INDNZ",
+   "series": "KXODIMATCH",
+   "title": "New Zealand vs India",
+   "ticker": "KXODIMATCH-26NOV122100INDNZ-NZ",
+   "order_id": "paper-48-1794474853",
+   "price": "0.4000",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.4200",
+   "multiplier": "1",
+   "placed": 1794474853.266386,
+   "hedge": [
+    {
+     "ticker": "KXODIMATCH-26NOV122100INDNZ-IND",
+     "limit": "0.4600"
+    }
+   ]
+  },
+  {
+   "event": "KXNBLGAME-26NOV120330MELA36",
+   "series": "KXNBLGAME",
+   "title": "Melbourne United vs Adelaide 36ers",
+   "ticker": "KXNBLGAME-26NOV120330MELA36-MEL",
+   "order_id": "paper-50-1794474853",
+   "price": "0.1700",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.5700",
+   "multiplier": "1",
+   "placed": 1794474853.3877695,
+   "hedge": [
+    {
+     "ticker": "KXNBLGAME-26NOV120330MELA36-A36",
+     "limit": "0.5900"
+    }
+   ]
+  },
+  {
+   "event": "KXLNBPGAME-26NOV130000ASTSOL",
+   "series": "KXLNBPGAME",
+   "title": "Astros de Jalisco vs Soles de Mexicali",
+   "ticker": "KXLNBPGAME-26NOV130000ASTSOL-SOL",
+   "order_id": "paper-51-1794474853",
+   "price": "0.1100",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.3800",
+   "multiplier": "1",
+   "placed": 1794474853.4490862,
+   "hedge": [
+    {
+     "ticker": "KXLNBPGAME-26NOV130000ASTSOL-AST",
+     "limit": "0.7500"
+    }
+   ]
+  },
+  {
+   "event": "KXNBAGAME-26NOV13UTAHOU",
+   "series": "KXNBAGAME",
+   "title": "Utah vs Houston",
+   "ticker": "KXNBAGAME-26NOV13UTAHOU-UTA",
+   "order_id": "paper-52-1794475161",
+   "price": "0.8100",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.6600",
+   "multiplier": "1",
+   "placed": 1794475161.043495,
+   "hedge": [
+    {
+     "ticker": "KXNBAGAME-26NOV13UTAHOU-HOU",
+     "limit": "0.1100"
+    }
+   ]
+  },
+  {
+   "event": "KXNBLGAME-26NOV120530TASPER",
+   "series": "KXNBLGAME",
+   "title": "Tasmania JackJumpers vs Perth Wildcats",
+   "ticker": "KXNBLGAME-26NOV120530TASPER-TAS",
+   "order_id": "paper-53-1794475469",
+   "price": "0.1700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7500",
+   "multiplier": "1",
+   "placed": 1794475469.9602485,
+   "hedge": [
+    {
+     "ticker": "KXNBLGAME-26NOV120530TASPER-PER",
+     "limit": "0.5500"
+    }
+   ]
+  }
+ ]
 }
