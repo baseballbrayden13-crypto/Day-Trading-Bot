@@ -13964,11 +13964,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794510174.5818634,
-  "checked": 1794510612.1306658,
+  "checked": 1794511974,
   "expires": 1794511974,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-999-1794512288": {
+  "id": "paper-999-1794512288",
+  "ticker": "KXCONCACAFNL1H-26NOV12BARGLP-BAR",
+  "price": "0.7400",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794512288.828123,
+  "checked": 1794512294.0167887,
+  "expires": 1794514088,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
