@@ -85,7 +85,7 @@ def draft(members: list[str], eq: dict[str, dict[str, float]], day: str) -> tupl
 def fix_splits(state: dict) -> None:
     """A bot's account was split again (bot 7 joined ...KTS7 on Nov 12): its equity history is scaled down, so its
     units are scaled up to keep the fund's value the same."""
-    seen = state.setdefault("scale", {b: scale(n, "2026-11-12") for b, n in BOTS.items()})
+    seen = state.setdefault("scale", {b: scale(n, "2026-11-11") for b, n in BOTS.items()})
     for b, n in BOTS.items():
         now, old = scale(n), seen.get(b, scale(n))
         if abs(now - old) > 1e-12:

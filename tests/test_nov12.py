@@ -50,9 +50,9 @@ def test_cover_qty():
 
 def test_rescale_applies_every_later_split():
     assert fleet.rescale(3, "2026-11-09", 5000) == pytest.approx(5000 * 0.5 * 1666 / 2500)
-    assert fleet.rescale(3, "2026-11-11", 2500) == pytest.approx(1666)
-    assert fleet.rescale(3, "2026-11-12", 1666) == 1666
-    assert fleet.rescale(10, "2026-11-11", 2500) == pytest.approx(1667)
+    assert fleet.rescale(3, "2026-11-10", 2500) == pytest.approx(1666)
+    assert fleet.rescale(3, "2026-11-11", 1666) == 1666
+    assert fleet.rescale(10, "2026-11-10", 2500) == pytest.approx(1667)
 
 
 def test_trend_pick_uses_signal_series():
@@ -120,7 +120,7 @@ def test_army_fund_survives_a_new_split(monkeypatch):
     from bot import army_fund as af
     monkeypatch.setattr(af, "BOTS", {"3": 3})
     state = {"start": "2026-11-02", "week": "2026-W46", "units": {"3": 2.0}, "even_units": {"3": 2.0}, "history": []}
-    eq = {"3": {"2026-11-11": 1666.0, "2026-11-12": 1666.0}}  # history already scaled to the new third
+    eq = {"3": {"2026-11-10": 1666.0, "2026-11-12": 1666.0}}  # history already scaled to the new third
     state = af.step(state, eq, "2026-11-12")
     assert state["history"][-1][1] == pytest.approx(2.0 * 2500)  # the slice is worth what it was before the split
 
