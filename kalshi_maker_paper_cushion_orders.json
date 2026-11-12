@@ -1014,11 +1014,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794512286.4632149,
-  "checked": 1794512440.2481382,
+  "checked": 1794512993.557844,
   "expires": 1794514086,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-74-1794512587": {
+  "id": "paper-74-1794512587",
+  "ticker": "KXCONCACAFNL1H-26NOV12CAYGUY-CAY",
+  "price": "0.1900",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794512587.2439532,
+  "checked": 1794513075.9449189,
+  "expires": 1794514387,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

@@ -1,24 +1,25 @@
 {
- "updated": "2026-11-12T19:36:15+00:00",
+ "updated": "2026-11-12T19:51:26+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.20",
- "equity": "17.25",
- "realized_profit": "-2.75",
- "bet_level": "17.25",
- "open_trades": 1,
+ "equity": "16.49",
+ "realized_profit": "-3.51",
+ "bet_level": "16.49",
+ "open_trades": 0,
  "open_locked_profit": "0.00",
- "in_play": "0.76",
- "stray_positions": 1,
+ "in_play": "0.00",
+ "stray_positions": 0,
  "closed_trades": 0,
  "trades_this_loop": 0,
- "events_swept": 21437,
+ "events_swept": 21435,
  "found_this_loop": 0,
  "top_series": [],
- "problems": 2,
+ "problems": 3,
  "last_problems": [
   "2026-11-12 19:33 Quote KXAFCONFTTS-26NOV12SENSDN: hedge missed on KXAFCONFTTS-26NOV12SENSDN-NONE. Selling back 2 contracts on 2 legs.",
-  "2026-11-12 19:33 STRAY POSITION: 2 NO contracts of KXAFCONFTTS-26NOV12SENSDN-SEN still held. Check it on Kalshi."
+  "2026-11-12 19:33 STRAY POSITION: 2 NO contracts of KXAFCONFTTS-26NOV12SENSDN-SEN still held. Check it on Kalshi.",
+  "2026-11-12 19:50 Maker loop error; carrying on"
  ]
 }

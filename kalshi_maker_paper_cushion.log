@@ -1195,3 +1195,104 @@
 2026-11-12 14:38:06,643 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
 2026-11-12 14:39:08,146 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
 2026-11-12 14:40:09,648 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:41:11,148 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:43:04,017 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:43:07,245 INFO PAPER rest NO bid KXCONCACAFNL1H-26NOV12CAYGUY-CAY at $0.1900 x2 (0 already bid at that price)
+2026-11-12 14:43:07,245 INFO Resting NO bid on KXCONCACAFNL1H-26NOV12CAYGUY-CAY at $0.1900 x2 (KXCONCACAFNL1H-26NOV12CAYGUY): locks in $0.67 if it fills; hedge NO GUY@0.5000
+2026-11-12 14:43:07,246 INFO Swept 21424 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-12 14:43:07,541 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:44:10,460 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:45:13,395 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:46:16,315 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:48:15,958 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:48:19,035 INFO Swept 21441 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-12 14:48:19,331 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:49:22,248 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:49:53,618 INFO Quote KXAFCON1H-26NOV12CIVGAM cancelled (0/2 filled)
+2026-11-12 14:50:24,515 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:50:50,110 ERROR Maker loop error; carrying on
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1478, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 312, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1478, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 312, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_maker.py", line 712, in main
+    check(api, cfg)
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_maker.py", line 522, in check
+    if live and (time.time() - q["placed"] > cfg["quote_min"] * 60 or not still_pays(api, q, cfg)):
+                                                                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_maker.py", line 426, in still_pays
+    books = api.orderbooks([l["ticker"] for l in q["hedge"]])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 167, in orderbooks
+    page = self.request("GET", "/markets/orderbooks", {"tickers": tickers[i:i + 100]})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_maker.py", line 585, in request
+    return super().request(method, path, params, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 142, in request
+    r = self.http.request(method, self.base + path, params=params, json=body,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-12 14:51:16,006 INFO Quote KXCONCACAFNL1H-26NOV12CAYGUY cancelled (0/2 filled)
+2026-11-12 14:53:14,457 INFO Settled KXAFCONFTTS-26NOV12SENSDN (stray): paid $0, profit $-0.76
+2026-11-12 14:53:14,492 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:53:17,601 INFO Swept 21435 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 14:54:02,608 INFO Stopped; all quotes cancelled.
