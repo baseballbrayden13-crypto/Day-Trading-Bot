@@ -934,3 +934,18 @@
 2026-11-12 03:38:58,183 INFO PAPER rest NO bid KXCS2GAME-26NOV121000TLRBAKS-TLR at $0.5700 x2 (0 already bid at that price)
 2026-11-12 03:38:58,183 INFO Resting NO bid on KXCS2GAME-26NOV121000TLRBAKS-TLR at $0.5700 x2 (KXCS2GAME-26NOV121000TLRBAKS): locks in $0.42 if it fills; hedge NO BAKS@0.2000
 2026-11-12 03:38:58,185 INFO Swept 21144 events: 0 taker trades, 5 new quotes, 6 resting
+2026-11-12 03:43:50,750 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 03:43:53,908 INFO PAPER rest NO bid KXCS2GAME-26NOV120400DNKDUC-DNK at $0.0700 x1 (0 already bid at that price)
+2026-11-12 03:43:53,908 INFO Resting NO bid on KXCS2GAME-26NOV120400DNKDUC-DNK at $0.0700 x1 (KXCS2GAME-26NOV120400DNKDUC): locks in $0.61 if it fills; hedge NO DUC@0.2900
+2026-11-12 03:43:53,909 INFO Swept 21144 events: 0 taker trades, 1 new quotes, 6 resting
+2026-11-12 03:48:58,549 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 03:49:01,194 INFO Swept 21144 events: 0 taker trades, 0 new quotes, 6 resting
+2026-11-12 03:53:57,328 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 03:53:59,912 INFO Swept 21144 events: 0 taker trades, 0 new quotes, 6 resting
+2026-11-12 03:59:02,180 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 03:59:04,768 INFO Swept 21144 events: 0 taker trades, 0 new quotes, 6 resting
+2026-11-12 03:59:05,693 INFO Quote KXCS2GAME-26NOV120400DNKDUC cancelled (0/1 filled)
+2026-11-12 04:04:07,344 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 04:04:10,605 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 5 resting
+2026-11-12 04:09:05,433 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 04:09:08,429 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 5 resting
