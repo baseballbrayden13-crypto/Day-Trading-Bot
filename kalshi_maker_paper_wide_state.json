@@ -2462,25 +2462,5 @@
    "closed": "2026-11-09T02:31:05.392862+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLUBGAME-26NOV111715LARDEF",
-   "series": "KXLUBGAME",
-   "title": "CS Larranaga vs Defensor Sporting",
-   "ticker": "KXLUBGAME-26NOV111715LARDEF-LAR",
-   "order_id": "paper-967-1794438999",
-   "price": "0.5200",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.6000",
-   "multiplier": "1",
-   "placed": 1794438999.126889,
-   "hedge": [
-    {
-     "ticker": "KXLUBGAME-26NOV111715LARDEF-DEF",
-     "limit": "0.2900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
