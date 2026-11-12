@@ -7971,3 +7971,25 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 01:33:22,984 INFO Swept 21142 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-12 01:38:21,687 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 01:38:25,946 INFO Swept 21141 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 01:43:26,721 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 01:43:31,029 INFO Swept 21137 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 01:48:24,702 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 01:48:28,897 INFO Swept 21147 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 01:53:27,502 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 01:53:31,725 INFO PAPER rest NO bid KXNLGAME-26NOV111345HAPEVZ-EVZ at $0.3700 x5 (5 already bid at that price)
+2026-11-12 01:53:31,725 INFO Resting NO bid on KXNLGAME-26NOV111345HAPEVZ-EVZ at $0.37 x5 (KXNLGAME-26NOV111345HAPEVZ): locks in $0.13 if it fills; hedge NO HAP@0.5800
+2026-11-12 01:53:31,776 INFO Swept 21162 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 01:55:02,803 INFO PAPER KXNLGAME-26NOV111345HAPEVZ-EVZ NO bid at $0.3700: 5/5 filled by real trades
+2026-11-12 01:55:02,833 INFO PAPER buy 5 NO KXNLGAME-26NOV111345HAPEVZ-HAP at up to $0.5800: not on the book
+2026-11-12 01:55:02,854 INFO PAPER buy 5 NO KXNLGAME-26NOV111345HAPEVZ-HAP at up to $0.65: not on the book
+2026-11-12 01:55:02,854 WARNING Quote KXNLGAME-26NOV111345HAPEVZ: hedge missed on KXNLGAME-26NOV111345HAPEVZ-HAP. Selling back 5 contracts on 1 legs.
+2026-11-12 01:55:02,874 INFO PAPER sell 5 YES KXNLGAME-26NOV111345HAPEVZ-EVZ at up to $0.68: not on the book
+2026-11-12 01:55:02,874 ERROR STRAY POSITION: 5 NO contracts of KXNLGAME-26NOV111345HAPEVZ-EVZ still held. Check it on Kalshi.
+2026-11-12 01:55:02,895 INFO PAPER sell 5 YES KXNLGAME-26NOV111345HAPEVZ-EVZ at up to $0.78: filled 5
+2026-11-12 01:55:02,895 INFO Stray KXNLGAME-26NOV111345HAPEVZ-EVZ: sold 5 of 5 at $0.22 or better, booked $-0.85
+2026-11-12 01:58:31,275 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 01:58:35,521 INFO Swept 21161 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 02:03:33,823 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 02:03:38,067 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 02:08:36,774 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 02:08:40,970 INFO Swept 21161 events: 0 taker trades, 0 new quotes, 0 resting

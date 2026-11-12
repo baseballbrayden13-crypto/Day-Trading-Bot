@@ -1,5 +1,5 @@
 {
- "realized": "-5.4700",
+ "realized": "-6.3200",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -2492,6 +2492,28 @@
     "KXLIGAMXWGAME-26NOV11PACMTY-TIE": "no"
    },
    "closed": "2026-11-12T05:07:43.263886+00:00"
+  },
+  {
+   "event": "KXNLGAME-26NOV111345HAPEVZ (stray)",
+   "series": "KXNLGAME",
+   "title": "HC Ambri-Piotta vs EV Zug",
+   "sets": 0,
+   "outlay": "1.88",
+   "locked_profit": "0",
+   "opened": "2026-11-12T06:55:02.874343+00:00",
+   "legs": [
+    {
+     "ticker": "KXNLGAME-26NOV111345HAPEVZ-EVZ",
+     "side": "no",
+     "count": 5,
+     "limit": "0.37"
+    }
+   ],
+   "retried": 1794466502.8743672,
+   "paid": "1.10",
+   "pnl": "-0.85",
+   "closed": "2026-11-12T06:55:02.895430+00:00",
+   "sold_back": true
   }
  ],
  "quotes": []
