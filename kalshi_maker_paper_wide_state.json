@@ -2518,21 +2518,33 @@
  ],
  "quotes": [
   {
-   "event": "KXNLGAME-26NOV111345HAPEVZ",
-   "series": "KXNLGAME",
-   "title": "HC Ambri-Piotta vs EV Zug",
-   "ticker": "KXNLGAME-26NOV111345HAPEVZ-HAP",
-   "order_id": "paper-985-1794493231",
-   "price": "0.23",
-   "sets": 3,
+   "event": "KXAFCONSCORE-26NOV12GHASOM",
+   "series": "KXAFCONSCORE",
+   "title": "Ghana vs Somalia: Correct Score",
+   "ticker": "KXAFCONSCORE-26NOV12GHASOM-GHA4SOM0",
+   "order_id": "paper-986-1794495954",
+   "price": "0.1800",
+   "sets": 1,
    "done": 0,
-   "reserve": "2.8800",
+   "reserve": "3.8600",
    "multiplier": "1",
-   "placed": 1794493231.2147794,
+   "placed": 1794495954.9143586,
    "hedge": [
     {
-     "ticker": "KXNLGAME-26NOV111345HAPEVZ-EVZ",
-     "limit": "0.7100"
+     "ticker": "KXAFCONSCORE-26NOV12GHASOM-GHA1SOM0",
+     "limit": "0.9500"
+    },
+    {
+     "ticker": "KXAFCONSCORE-26NOV12GHASOM-GHA2SOM0",
+     "limit": "0.8700"
+    },
+    {
+     "ticker": "KXAFCONSCORE-26NOV12GHASOM-GHA3SOM0",
+     "limit": "0.8800"
+    },
+    {
+     "ticker": "KXAFCONSCORE-26NOV12GHASOM-GHA3SOM1",
+     "limit": "0.9600"
     }
    ]
   }
