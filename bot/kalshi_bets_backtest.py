@@ -39,16 +39,27 @@ from .kalshi_live import Kalshi, multiplier
 def past_forecast_highs(lat: float, lon: float, tz: str, start: date, end: date, lead: int) -> dict[date, float]:
     """Daily high (F) of the forecast made `lead` days earlier, from Open-Meteo's previous-runs archive."""
     var = f"temperature_2m_previous_day{lead}"
-    r = kb._http.get("https://previous-runs-api.open-meteo.com/v1/forecast", timeout=60, params={
-        "latitude": lat, "longitude": lon, "hourly": var, "temperature_unit": "fahrenheit", "timezone": tz,
-        "start_date": start.isoformat(), "end_date": end.isoformat()})
-    r.raise_for_status()
-    h = r.json()["hourly"]
     highs = defaultdict(lambda: -math.inf)
-    for t, v in zip(h["time"], h[var]):
-        if v is not None:
-            d = date.fromisoformat(t[:10])
-            highs[d] = max(highs[d], v)
+    a = start
+    while a <= end:  # the archive is slow: ask 10 days at a time, and retry
+        b = min(a + timedelta(days=9), end)
+        for attempt in range(5):
+            try:
+                r = kb._http.get("https://previous-runs-api.open-meteo.com/v1/forecast", timeout=120, params={
+                    "latitude": lat, "longitude": lon, "hourly": var, "temperature_unit": "fahrenheit", "timezone": tz,
+                    "start_date": a.isoformat(), "end_date": b.isoformat()})
+                r.raise_for_status()
+                break
+            except Exception:  # noqa: BLE001 - requests raises several kinds
+                if attempt == 4:
+                    raise
+                time.sleep(5 * 2 ** attempt)
+        h = r.json()["hourly"]
+        for t, v in zip(h["time"], h[var]):
+            if v is not None:
+                d = date.fromisoformat(t[:10])
+                highs[d] = max(highs[d], v)
+        a = b + timedelta(days=1)
     return {d: v for d, v in highs.items() if v > -math.inf}
 
 
