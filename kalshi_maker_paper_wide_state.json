@@ -113,6 +113,24 @@
      "limit": "0.98"
     }
    ]
+  },
+  {
+   "event": "KXLVBPGAME-26NOV111800LARLAG (stray)",
+   "series": "KXLVBPGAME",
+   "title": "Cardenales de Lara vs Tiburones De La Guaira",
+   "sets": 0,
+   "outlay": "0.23",
+   "locked_profit": "0",
+   "opened": "2026-11-12T02:23:07.103845+00:00",
+   "legs": [
+    {
+     "ticker": "KXLVBPGAME-26NOV111800LARLAG-LAR",
+     "side": "no",
+     "count": 1,
+     "limit": "0.22"
+    }
+   ],
+   "retried": 1794451198.2267725
   }
  ],
  "closed": [
