@@ -13852,11 +13852,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794501090.324387,
-  "checked": 1794501559.1206164,
+  "checked": 1794502890,
   "expires": 1794502890,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-991-1794502000": {
+  "id": "paper-991-1794502000",
+  "ticker": "KXAFCON1H-26NOV12CODSLE-TIE",
+  "price": "0.3500",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794502000.3614447,
+  "checked": 1794502303.532071,
+  "expires": 1794503800,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
