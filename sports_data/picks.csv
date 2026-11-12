@@ -731,9 +731,9 @@ replay,2026-11-10,ncaaf,OHIO @ M-OH,Ohio Bobcats,away,1.847,0.568,0.517,0.051,se
 live,2026-11-11,ncaaf,BUFF @ BALL,Buffalo Bulls,away,1.82,0.632,0.526,0.106,open,,,401866461
 replay,2026-11-10,nba,ORL @ SAC,Sacramento Kings,home,2.8,0.45,0.343,0.107,settled,0,-10.0,401909964
 replay,2026-11-10,nba,OKC @ POR,Portland Trail Blazers,home,2.06,0.559,0.466,0.092,settled,1,10.6,401909965
-live,2026-11-11,nba,CLE @ NY,New York Knicks,home,1.541,0.694,0.623,0.07,open,,,401909967
-live,2026-11-11,nba,DEN @ MEM,Memphis Grizzlies,home,2.45,0.669,0.392,0.278,open,,,401909970
-live,2026-11-11,nba,BKN @ NO,New Orleans Pelicans,home,1.645,0.638,0.584,0.054,open,,,401909972
+live,2026-11-11,nba,CLE @ NY,New York Knicks,home,1.541,0.694,0.623,0.07,settled,0,-10.0,401909967
+live,2026-11-11,nba,DEN @ MEM,Memphis Grizzlies,home,2.45,0.669,0.392,0.278,settled,0,-10.0,401909970
+live,2026-11-11,nba,BKN @ NO,New Orleans Pelicans,home,1.645,0.638,0.584,0.054,settled,0,-10.0,401909972
 live,2026-11-11,nba,ORL @ UTAH,Utah Jazz,home,2.5,0.469,0.384,0.085,open,,,401909973
 live,2026-11-11,nba,GS @ HOU,Golden State Warriors,away,3.17,0.442,0.303,0.139,open,,,401909974
 live,2026-11-11,nba,OKC @ POR,Portland Trail Blazers,home,1.68,0.632,0.571,0.06,open,,,401909975
@@ -741,6 +741,6 @@ replay,2026-11-10,nhl,COL @ TOR,Toronto Maple Leafs,home,2.45,0.526,0.391,0.136,
 replay,2026-11-10,nhl,MIN @ MTL,Montreal Canadiens,home,2.1,0.57,0.457,0.113,settled,0,-10.0,401892684
 replay,2026-11-10,nhl,WSH @ OTT,Ottawa Senators,home,1.98,0.535,0.483,0.052,settled,0,-10.0,401892685
 replay,2026-11-10,nhl,FLA @ CBJ,Columbus Blue Jackets,home,2.05,0.552,0.468,0.085,settled,0,-10.0,401892686
-live,2026-11-11,nhl,TB @ BUF,Buffalo Sabres,home,2.1,0.51,0.457,0.053,open,,,401892690
-live,2026-11-11,nhl,NYR @ CGY,Calgary Flames,home,2.2,0.528,0.437,0.091,open,,,401892691
+live,2026-11-11,nhl,TB @ BUF,Buffalo Sabres,home,2.1,0.51,0.457,0.053,settled,0,-10.0,401892690
+live,2026-11-11,nhl,NYR @ CGY,Calgary Flames,home,2.2,0.528,0.437,0.091,settled,0,-10.0,401892691
 live,2026-11-11,nhl,PIT @ SJ,San Jose Sharks,home,2.2,0.558,0.437,0.122,open,,,401892695
