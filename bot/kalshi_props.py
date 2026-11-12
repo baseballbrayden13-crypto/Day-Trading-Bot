@@ -65,6 +65,7 @@ def settings() -> dict:
         "hours": float(os.getenv("KALSHI_PROPS_HOURS", "6")),  # price a game this close to its start (lines are set)
         "stake": float(os.getenv("KALSHI_PROPS_STAKE", "2")),
         "quiet": os.getenv("ODDS_QUIET", "1-8"),
+        "reprice": os.getenv("KALSHI_PROPS_REPRICE", "").strip().lower() == "on",  # by hand: price a game again
     }
 
 
@@ -249,7 +250,7 @@ def scan(api: OddsAPI, cfg: dict, state: dict, now: datetime, kalshi=kalshi_even
         except Exception as e:  # noqa: BLE001
             log.warning("%s games: %s", sport, e)
             continue
-        soon = sorted((g for g in games if g["id"] not in state["priced"] and timedelta(0) < datetime.fromisoformat(
+        soon = sorted((g for g in games if (cfg.get("reprice") or g["id"] not in state["priced"]) and timedelta(0) < datetime.fromisoformat(
             g["commence_time"].replace("Z", "+00:00")) - now <= timedelta(hours=cfg["hours"])), key=lambda g: g["commence_time"])
         for g in soon:
             found = {m: e for s, (m, evs) in series.items() if (e := event_for_game(g, evs))}
