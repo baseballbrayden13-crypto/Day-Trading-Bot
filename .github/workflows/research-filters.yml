@@ -20,6 +20,7 @@ jobs:
       PYTHONPATH: ${{ github.workspace }}/code
       TZ: America/New_York
       ENTRY_LIMIT_BPS: "5"
+      SYMBOLS: "SPY,QQQ,AAPL,MSFT,NVDA,TSLA"
     steps:
       - uses: actions/checkout@v4
         with: { path: code }
@@ -32,13 +33,13 @@ jobs:
         run: |
           mkdir -p work && cd work
           umask 077; printf '%s\n' "$BOT1_ENV" > .env
-          python -u -m bot.filter_data --out ../out --only funding || true
+          python -u -m bot.filter_data --out ../out --only news,bot1 || true
           rm -f .env
           ls -la ../out
       - name: Save to research-data branch
         if: always()
         run: |
           git clone -q --depth 1 --branch research-data "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" res
-          mkdir -p res/filters && cp out/funding.csv res/filters/ 2>/dev/null || true
+          mkdir -p res/filters && cp out/news.csv res/filters/ 2>/dev/null; cp out/bot1_trades.csv res/filters/bot1_trades_tsla.csv 2>/dev/null || true
           cd res && git config user.name research-bot && git config user.email research-bot@users.noreply.github.com
           git add -A && git commit -qm "Filter data $(date -u +%F)" && git push -q origin HEAD:research-data

@@ -167,6 +167,39 @@ def funding(out: Path) -> None:
     pd.DataFrame(rows, columns=["coin", "time", "rate", "source"]).drop_duplicates().sort_values(["coin", "time"]).to_csv(out / "funding.csv", index=False)
 
 
+def news(out: Path, symbols: list[str], start: str = "2023-11-01") -> None:
+    """Alpaca news headlines (Benzinga feed) for each symbol: id,time,symbol,headline. Needs the Alpaca keys."""
+    import os
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except ImportError:
+        pass
+    hdr = {**UA, "APCA-API-KEY-ID": os.getenv("ALPACA_API_KEY", ""), "APCA-API-SECRET-KEY": os.getenv("ALPACA_SECRET_KEY", "")}
+    rows = []
+    for sym in symbols:
+        token, n = "", 0
+        while True:
+            url = (f"https://data.alpaca.markets/v1beta1/news?symbols={sym}&start={start}T00:00:00Z&limit=50&sort=asc"
+                   f"&include_content=false" + (f"&page_token={token}" if token else ""))
+            try:
+                with urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=30) as r:
+                    d = json.loads(r.read())
+            except Exception as e:  # noqa: BLE001
+                print("  news fail", sym, e)
+                time.sleep(3)
+                break
+            for a in d.get("news", []):
+                rows.append([a["id"], a["created_at"], sym, len(a.get("symbols", [])), (a.get("headline") or "").replace("\n", " ")])
+                n += 1
+            token = d.get("next_page_token") or ""
+            if not token:
+                break
+            time.sleep(0.35)
+        print("news", sym, n)
+    pd.DataFrame(rows, columns=["id", "time", "symbol", "n_symbols", "headline"]).to_csv(out / "news.csv", index=False)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="out")
@@ -179,6 +212,8 @@ def main() -> None:
     from .fleet import DIP_SYMBOLS
     steps = {"fomc": lambda: fomc(out), "bls": lambda: bls(out), "fear_greed": lambda: fear_greed(out),
              "funding": lambda: funding(out),
+             "news": lambda: news(out, ["SPY", "QQQ", "AAPL", "MSFT", "NVDA", "TSLA"]),
+             "bot1": lambda: bot1_trades(out, a.days),
              "earnings": lambda: earnings(out, sorted(set(DIP_SYMBOLS.split(",")) | {"AAPL", "MSFT", "NVDA"}))}
     only = [x for x in a.only.split(",") if x]
     for name, step in steps.items():
