@@ -115,3 +115,7 @@
 2026-11-12 10:00:08,661 INFO BUY NVDA x1 @limit 162.70 stop 148.80 target 183.35 | broke 15-min opening range high 162.32
 2026-11-12 10:55:06,737 INFO SKIP QQQ breakout: no news of its own since the last close (news filter)
 2026-11-12 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.
+2026-11-12 12:44:14,695 INFO Connected to Alpaca PAPER account
+2026-11-12 12:44:14,808 INFO Picked up today's counters: start equity $4981.30, 2 trades
+2026-11-12 12:44:17,068 INFO Event-day skips ON (0 new earnings dates). Today: none
+2026-11-12 12:44:17,068 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA, TSLA on 5-min bars. Ctrl+C to stop.
