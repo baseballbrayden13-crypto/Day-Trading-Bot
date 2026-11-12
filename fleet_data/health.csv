@@ -1,10 +1,11 @@
 checked,bot,label,name,status,headline
-2026-11-11T06:47:11+00:00,0,fleet,Whole fleet,info,Running normally.
-2026-11-11T06:47:11+00:00,1,1,ORB day trader,watch,On 2026-11-10 the backtest would have bought SPY at 10:00 (~$750.79) but bot 1 didn't.
-2026-11-11T06:47:11+00:00,2,2,ETF rotation,info,Running normally.
-2026-11-11T06:47:11+00:00,3,3,Crypto trend,info,Running normally.
-2026-11-11T06:47:11+00:00,6,4c,Kalshi maker paper,info,Running normally.
-2026-11-11T06:47:11+00:00,7,4e,Kalshi combined,act,Bot 4e: 5 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
-2026-11-11T06:47:11+00:00,9,4f,Kalshi cushion test,watch,Bot 4f: 1 one-sided leftovers from missed hedges (not locked-in trades) closed for $-0.51.
-2026-11-11T06:47:11+00:00,8,5,Dip buyer,info,Running normally.
-2026-11-11T06:47:11+00:00,10,6,QQQ trend,info,Running normally.
+2026-11-12T03:05:37+00:00,0,fleet,Whole fleet,info,Running normally.
+2026-11-12T03:05:37+00:00,1,1,ORB day trader,info,Running normally.
+2026-11-12T03:05:37+00:00,2,2,ETF rotation,info,Running normally.
+2026-11-12T03:05:37+00:00,3,3,Crypto trend,info,Running normally.
+2026-11-12T03:05:37+00:00,6,4c,Kalshi maker paper,info,Running normally.
+2026-11-12T03:05:37+00:00,7,4e,Kalshi combined,act,Bot 4e: 1 half-filled positions are still held.
+2026-11-12T03:05:37+00:00,9,4f,Kalshi cushion test,act,Bot 4f: 1 half-filled positions are still held.
+2026-11-12T03:05:37+00:00,8,5,Dip buyer,info,Running normally.
+2026-11-12T03:05:37+00:00,10,6,QQQ trend,info,Running normally.
+2026-11-12T03:05:37+00:00,11,7,Momentum,watch,"No saved momentum.log for bot 7 yet, so no cloud run has been saved for it."
