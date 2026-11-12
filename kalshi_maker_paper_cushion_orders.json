@@ -922,5 +922,47 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-67-1794505323": {
+  "id": "paper-67-1794505323",
+  "ticker": "KXAFCONSCORE-26NOV12GEQZIM-GEQ0ZIM2",
+  "price": "0.4400",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794505323.6534996,
+  "checked": 1794505385.2030904,
+  "expires": 1794507123,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-68-1794505626": {
+  "id": "paper-68-1794505626",
+  "ticker": "KXAFCONSCORE-26NOV12GEQZIM-GEQ1ZIM1",
+  "price": "0.2200",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794505626.1699052,
+  "checked": 1794506230.687258,
+  "expires": 1794507426,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-69-1794506529": {
+  "id": "paper-69-1794506529",
+  "ticker": "KXAFCONSCORE-26NOV12GEQZIM-GEQ1ZIM0",
+  "price": "0.2000",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794506529.5778615,
+  "checked": 1794506869.6292493,
+  "expires": 1794508329,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

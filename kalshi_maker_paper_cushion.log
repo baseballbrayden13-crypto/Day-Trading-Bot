@@ -1114,3 +1114,24 @@
 2026-11-12 12:37:01,514 INFO Swept 21227 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-12 12:37:01,690 INFO Quote KXCONCACAFNLGAME-26NOV13SMASLV cancelled (0/2 filled)
 2026-11-12 12:37:37,678 INFO Quote KXAFCONSCORE-26NOV12GEQZIM cancelled (0/1 filled)
+2026-11-12 12:41:59,685 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:42:03,654 INFO PAPER rest NO bid KXAFCONSCORE-26NOV12GEQZIM-GEQ0ZIM2 at $0.4400 x1 (0 already bid at that price)
+2026-11-12 12:42:03,654 INFO Resting NO bid on KXAFCONSCORE-26NOV12GEQZIM-GEQ0ZIM2 at $0.4400 x1 (KXAFCONSCORE-26NOV12GEQZIM): locks in $0.44 if it fills; hedge NO GEQ0ZIM0@0.3600, GEQ0ZIM1@0.9100, GEQ1ZIM0@0.8100, GEQ1ZIM1@0.9800, GEQ2ZIM0@0.9800
+2026-11-12 12:42:03,655 INFO Swept 21225 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 12:43:05,263 INFO Quote KXAFCONSCORE-26NOV12GEQZIM cancelled (0/1 filled)
+2026-11-12 12:47:02,179 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:47:06,171 INFO PAPER rest NO bid KXAFCONSCORE-26NOV12GEQZIM-GEQ1ZIM1 at $0.2200 x1 (0 already bid at that price)
+2026-11-12 12:47:06,171 INFO Resting NO bid on KXAFCONSCORE-26NOV12GEQZIM-GEQ1ZIM1 at $0.2200 x1 (KXAFCONSCORE-26NOV12GEQZIM): locks in $0.37 if it fills; hedge NO GEQ0ZIM0@0.5500, GEQ0ZIM1@0.9700, GEQ1ZIM0@0.8400
+2026-11-12 12:47:06,172 INFO Swept 21239 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 12:52:02,148 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:52:05,766 INFO Swept 21228 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 12:57:06,968 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:57:10,562 INFO Swept 21206 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 12:57:10,749 INFO Quote KXAFCONSCORE-26NOV12GEQZIM cancelled (0/1 filled)
+2026-11-12 13:02:05,775 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 13:02:09,579 INFO PAPER rest NO bid KXAFCONSCORE-26NOV12GEQZIM-GEQ1ZIM0 at $0.2000 x2 (0 already bid at that price)
+2026-11-12 13:02:09,579 INFO Resting NO bid on KXAFCONSCORE-26NOV12GEQZIM-GEQ1ZIM0 at $0.2000 x2 (KXAFCONSCORE-26NOV12GEQZIM): locks in $0.54 if it fills; hedge NO GEQ0ZIM0@0.5100, GEQ0ZIM1@0.9900
+2026-11-12 13:02:09,579 INFO Swept 21199 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 13:07:20,449 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 13:07:23,864 INFO Swept 21205 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 13:07:49,692 INFO Quote KXAFCONSCORE-26NOV12GEQZIM cancelled (0/2 filled)
