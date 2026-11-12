@@ -14026,5 +14026,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-1003-1794522090": {
+  "id": "paper-1003-1794522090",
+  "ticker": "KXCONCACAFNLGAME-26NOV13SMASLV-TIE",
+  "price": "0.6700",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794522090.2172549,
+  "checked": 1794522125.8575184,
+  "expires": 1794523890,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

@@ -8307,3 +8307,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 17:01:24,839 INFO Swept 21451 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-12 17:06:20,487 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 17:06:25,174 INFO Swept 21424 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 17:11:20,686 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 17:11:25,493 INFO Swept 21432 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 17:16:19,710 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 17:16:24,624 INFO Swept 21430 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 17:21:25,500 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 17:21:30,228 INFO PAPER rest NO bid KXCONCACAFNLGAME-26NOV13SMASLV-TIE at $0.6700 x2 (0 already bid at that price)
+2026-11-12 17:21:30,229 INFO Resting NO bid on KXCONCACAFNLGAME-26NOV13SMASLV-TIE at $0.6700 x2 (KXCONCACAFNLGAME-26NOV13SMASLV): locks in $0.19 if it fills; hedge NO SMA@0.9200, SLV@0.2900
+2026-11-12 17:21:30,354 INFO Swept 21454 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 17:22:05,902 INFO Quote KXCONCACAFNLGAME-26NOV13SMASLV cancelled (0/2 filled)
+2026-11-12 17:26:27,162 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 17:26:32,023 INFO Swept 21458 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 17:31:30,277 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 17:31:35,189 INFO Swept 21460 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 17:36:31,764 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 17:36:36,542 INFO Swept 21466 events: 0 taker trades, 0 new quotes, 0 resting
