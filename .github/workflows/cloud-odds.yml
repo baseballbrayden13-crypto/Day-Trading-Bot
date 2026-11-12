@@ -72,6 +72,12 @@ jobs:
           KALSHI_PROPS_REPRICE: ${{ inputs.props_reprice }}
           KALSHI_PROPS_SPORTS: ${{ inputs.props_sports || 'basketball_nba,icehockey_nhl,americanfootball_nfl' }}
         run: python -m bot.kalshi_props --scan
+      # Gameday parlay helper: advice + pretend $1 record only, no credits, never a bet. Undo: delete this step.
+      - name: Gameday parlays (advice, pretend)
+        if: always()
+        continue-on-error: true
+        working-directory: state
+        run: python -m bot.parlay_helper
       - name: Save state
         if: always()
         working-directory: state
