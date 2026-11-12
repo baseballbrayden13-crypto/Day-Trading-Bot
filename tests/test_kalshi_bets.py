@@ -105,3 +105,9 @@ def test_daily_safest_picks_one_liquid_favorite_after_3pm_once():
     assert kb.daily_safest(ev, datetime(2026, 10, 28, 17, 0, tzinfo=timezone.utc), {}) == []  # 1pm Eastern: too early
     state = {"open": [{"strategy": "daily_safest", "placed": now.isoformat()}], "closed": []}
     assert kb.daily_safest(ev, now, {"_state": state}) == []  # already bet today
+
+
+def test_min_price_skips_long_shots():
+    m = {"yes_ask_dollars": "0.10", "yes_bid_dollars": "0.08", "yes_ask_size_fp": "100", "yes_bid_size_fp": "100"}
+    assert kb.best_side(m, 0.30, D("2"), 0.05, D("0.10"))[0] == "yes"  # a 10c long shot the model likes
+    assert kb.best_side(m, 0.30, D("2"), 0.05, D("0.10"), min_price=D("0.40")) is None

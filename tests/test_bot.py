@@ -552,3 +552,52 @@ def test_crypto_shadow_book():
     assert "BTC/USD" not in st["coins"] and st["history"][-1][2] == "ETH/USD"
     assert cs.greed_rising(pd.Series([10] * 29 + [50]))
     assert not cs.greed_rising(pd.Series([50] * 30))
+
+
+def test_crypto_shadow_csv(tmp_path, monkeypatch):
+    from bot import crypto_shadow as cs
+
+    monkeypatch.setattr(cs, "CSV", tmp_path / "s.csv")
+    st = {"history": [["2026-11-10", 5000.0, "cash"]]}
+    cs.write_csv("2026-11-10", st, 34, "hold")
+    cs.write_csv("2026-11-10", st, 35, "hold")  # same day: replaced, not added
+    assert (tmp_path / "s.csv").read_text().splitlines() == ["day,equity,holding,fear_greed,action", "2026-11-10,5000.00,cash,35,hold"]
+
+
+def test_trend_bot_picks_and_plans():
+    import pandas as pd
+
+    from bot.trend_live import pick, plan
+
+    up = pd.Series(range(1, 251), dtype=float)
+    assert pick(up, 200, "QQQ", "BIL") == "QQQ"
+    assert pick(up[::-1].reset_index(drop=True), 200, "QQQ", "BIL") == "BIL"
+    assert pick(up[:100], 200, "QQQ", "BIL") is None
+    assert plan("QQQ", {}) == ([], True)
+    assert plan("QQQ", {"QQQ": 3.5}) == ([], False)
+    assert plan("BIL", {"QQQ": 3.5}) == (["QQQ"], True)
+
+
+def test_sleeves_file_env(tmp_path, monkeypatch):
+    from bot import sleeves
+
+    monkeypatch.setenv("SLEEVES_FILE", str(tmp_path / "sleeves_kts7.json"))
+    sleeves.save({"6": {"cash": 2500, "shares": {}}})
+    assert (tmp_path / "sleeves_kts7.json").exists()
+    assert sleeves.load()["6"]["cash"] == 2500
+    monkeypatch.delenv("SLEEVES_FILE")
+    assert sleeves.ledger_path().name == "sleeves.json"
+
+
+def test_army_fund_moves_toward_winners():
+    from bot.army_fund import step, weights
+
+    eq = {"1": {"2026-11-02": 100, "2026-11-09": 110}, "2": {"2026-11-02": 100, "2026-11-09": 90},
+          "3": {}, "5": {"2026-11-02": 100, "2026-11-09": 100}, "6": {}}
+    w = weights(eq, "2026-11-09")
+    assert set(w) == {"1", "2", "5"} and abs(sum(w.values()) - 1) < 1e-9
+    assert w["1"] > w["5"] == w["2"]  # only bot 1 gained: it gets the whole winners' half
+    s = step({}, eq, "2026-11-02")  # start: nobody has a 4-week gain yet, so even
+    assert s["history"][-1][1] == 10000
+    s = step(s, eq, "2026-11-09")  # new week: value first (110+90+100 -> 10,000), then re-split
+    assert abs(s["history"][-1][1] - 10000) < 0.01 and s["history"][-1][3]["1"] > 0.5

@@ -22,6 +22,7 @@ from pathlib import Path
 import pandas as pd
 
 STATE = Path("crypto_shadow.json")
+CSV = Path("crypto_shadow.csv")  # day,equity,holding,fear_greed,action (one row a day, for the website)
 FEE = 0.0025
 START_CASH = 5_000.0
 log = logging.getLogger("crypto_shadow")
@@ -62,6 +63,22 @@ def step(state: dict, prices: dict[str, float], target: set[str], day: str) -> l
     return done
 
 
+def write_csv(day: str, state: dict, fg_value: int, action: str) -> None:
+    """Upsert today's row in CSV (day,equity,holding,fear_greed,action)."""
+    import csv
+
+    rows = []
+    if CSV.exists():
+        with CSV.open(newline="") as f:
+            rows = [r for r in csv.DictReader(f) if r["day"] != day]
+    h = state["history"][-1]
+    rows.append({"day": day, "equity": f"{h[1]:.2f}", "holding": h[2], "fear_greed": fg_value, "action": action})
+    with CSV.open("w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["day", "equity", "holding", "fear_greed", "action"])
+        w.writeheader()
+        w.writerows(sorted(rows, key=lambda r: r["day"]))
+
+
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     from .crypto_live import daily_closes, want
@@ -80,6 +97,7 @@ def main() -> None:
     prices = closes.iloc[-1].to_dict()
     done = step(state, prices, target, day)
     STATE.write_text(json.dumps(state, indent=1))
+    write_csv(day, state, int(fg.iloc[-1]), "; ".join(done) or "hold")
     log.info("%s close: fear & greed %d (30-day avg %.0f, %s) | holds %s | pretend $%.2f%s", day, fg.iloc[-1],
              fg.iloc[-30:].mean(), "rising" if rising else "not rising", sorted(target) or "cash",
              state["history"][-1][1], f" | {'; '.join(done)}" if done else "")

@@ -81,7 +81,8 @@ jobs:
         env:
           KALSHI_VARIANT: wide
           KALSHI_MAX_QUOTES: "10"
-          KALSHI_MIN_VOLUME: "25"
+          KALSHI_MIN_VOLUME: "10"  # smaller leagues (college, tennis, soccer) trade less; same on 4e and 4f
+          KALSHI_ACTIVE_MIN: "120"
           KALSHI_MAX_PER_QUOTE: "5"
           KALSHI_CATEGORIES: "Sports,Esports"
           KALSHI_FAIR: "on"  # skip quotes the sportsbooks say are overpriced (odds finder); same on 4e and 4f
@@ -120,7 +121,8 @@ jobs:
           KALSHI_VARIANT: cushion
           KALSHI_MIN_PROFIT: "0.20"
           KALSHI_MAX_QUOTES: "10"
-          KALSHI_MIN_VOLUME: "25"
+          KALSHI_MIN_VOLUME: "10"  # smaller leagues (college, tennis, soccer) trade less; same on 4e and 4f
+          KALSHI_ACTIVE_MIN: "120"
           KALSHI_MAX_PER_QUOTE: "5"
           KALSHI_CATEGORIES: "Sports,Esports"
           KALSHI_FAIR: "on"  # skip quotes the sportsbooks say are overpriced (odds finder); same on 4e and 4f

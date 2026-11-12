@@ -122,13 +122,14 @@ def healthy_snapshot():
             "1": {"account": acct("QIE2"), "positions": [], "log": log, "errors": [], "fills": {}},
             "2": {"account": {**acct("8T7Y"), "shared": True}, "positions": [{"symbol": "XLE"}, {"symbol": "XLK"}], "log": log, "errors": [],
                   "rotation_state": {"holding": {"XLE": 0.33, "XLK": 0.33}}},
-            "3": {"account": acct("KTS7"), "positions": [{"symbol": "BTCUSD"}], "log": log, "errors": []},
+            "3": {"account": {**acct("KTS7"), "shared": True}, "positions": [{"symbol": "BTCUSD"}], "log": log, "errors": []},
             "4": {"paper": {"summary": {"updated": NOW.isoformat(), "equity": "20", "start_budget": "20", "problems": 0},
                             "closed": 0, "open": 0, "losing_trades": 0}, "errors": []},
             "5": {"maker": {"summary": None, "realized": 0.0, "closed": 0, "open": 0, "losing_trades": 0, "quotes": 2,
                             "log": {"exists": True, "modified": (NOW - timedelta(minutes=4)).isoformat(), "errors_24h": 0}},
                   "errors": []},
             "8": {"account": {**acct("8T7Y"), "shared": True, "last_equity": 0}, "positions": [], "log": log, "errors": []},
+            "10": {"account": {**acct("KTS7"), "shared": True, "last_equity": 0}, "positions": [], "log": log, "errors": []},
         },
     }
 
@@ -295,7 +296,7 @@ def test_digest_and_site_rows():
     title, text, prio = mt.digest(bad, FLEET, [bad[-1]])
     assert title == "Medic: 1 need action" and "bot 1: Bot 1 isn't running." in text and prio == "high"
     health, rows = mt.site_rows(bad, FLEET, NOW)
-    assert [h["label"] for h in health] == ["fleet", "1", "2", "3", "4", "4b", "4c", "4e", "4f", "5"]
+    assert [h["label"] for h in health] == ["fleet", "1", "2", "3", "4", "4b", "4c", "4e", "4f", "5", "6"]
     assert [h["status"] for h in health if h["label"] == "4c"] == ["info"]  # optional, not set up: no alarm
     assert health[1]["status"] == "act" and health[2]["headline"] == "Running normally."
 
