@@ -412,12 +412,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794439004.3477476,
-  "checked": 1794440321.907132,
+  "checked": 1794440804,
   "expires": 1794440804,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-31-1794439916": {
   "id": "paper-31-1794439916",
