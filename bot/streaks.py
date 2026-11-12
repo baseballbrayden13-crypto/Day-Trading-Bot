@@ -6,7 +6,7 @@ Compares each stock/crypto bot's latest account value with the day before (accou
 fleet.rescale). A move of STREAK_PCT (3) percent or more is added to fleet_data/streaks.csv, which the website
 shows, and sent to the phone through ntfy when NTFY_TOPIC is set (the same topic as the odds finder's alerts).
 Each bot alerts at most once a day. The Kalshi bots are left out: with a pretend $20, one 60-cent bet is 3%.
-Nov 12 2026, C-072, brayden's pick. Undo: delete the "Hot-streak alert" step in cloud-bots.yml.
+Nov 12 2026, C-074, brayden's pick. Undo: delete the "Hot-streak alert" step in cloud-bots.yml.
 """
 from __future__ import annotations
 

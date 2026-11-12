@@ -11,7 +11,7 @@ built as a real paper bot (brayden decides).
   R2  QQQ 150-day trend  plain QQQ while it closes above its 150-day average, else BIL (T-bills)
   R3  Bot 3b             the pretend fear & greed copy of bot 3 (read from crypto_shadow.json)
   R4  Income bot         high-dividend ETFs SCHD, VYM, JEPI and JEPQ, a quarter each, evened out monthly. Prices are
-                         dividend-adjusted, so payouts count as if reinvested (Nov 12 2026, C-073, brayden's pick).
+                         dividend-adjusted, so payouts count as if reinvested (Nov 12 2026, C-075, brayden's pick).
                          Test: +12.5% a year since mid-2022 with a -16% worst drop (SPY: +16.3%, -20%).
 
 State: rookies.json. Output: fleet_data/rookies.csv (day, rookie, equity).
