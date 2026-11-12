@@ -1,26 +1,23 @@
 {
- "updated": "2026-11-12T03:20:51+00:00",
+ "updated": "2026-11-12T05:05:42+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
  "min_profit": "0.10",
- "equity": "14.61",
- "realized_profit": "-5.39",
- "bet_level": "14.61",
- "open_trades": 4,
- "open_locked_profit": "2.56",
- "in_play": "13.44",
+ "equity": "14.53",
+ "realized_profit": "-5.47",
+ "bet_level": "14.53",
+ "open_trades": 3,
+ "open_locked_profit": "2.64",
+ "in_play": "9.36",
  "stray_positions": 0,
- "closed_trades": 61,
+ "closed_trades": 62,
  "trades_this_loop": 0,
- "events_swept": 21527,
+ "events_swept": 21240,
  "found_this_loop": 0,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 2,
- "last_problems": [
-  "2026-11-12 02:23 Quote KXLVBPGAME-26NOV111800LARLAG: hedge missed on KXLVBPGAME-26NOV111800LARLAG-LAG. Selling back 1 contracts on 1 legs.",
-  "2026-11-12 02:23 STRAY POSITION: 1 NO contracts of KXLVBPGAME-26NOV111800LARLAG-LAR still held. Check it on Kalshi."
- ]
+ "problems": 0,
+ "last_problems": []
 }

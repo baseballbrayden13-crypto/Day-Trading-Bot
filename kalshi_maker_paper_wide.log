@@ -7916,3 +7916,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-11 22:23:13,117 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-11 22:23:17,864 INFO Swept 21527 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-11 22:23:28,278 INFO Stopped; all quotes cancelled.
+2026-11-11 23:40:27,606 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-11 23:42:25,946 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 23:42:30,500 INFO Swept 21327 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-11 23:47:32,437 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 23:47:36,723 INFO PAPER rest NO bid KXLIGAPROMATCH-26NOV112330SHKDAN-DAN at $0.4100 x1 (0 already bid at that price)
+2026-11-11 23:47:36,723 INFO Resting NO bid on KXLIGAPROMATCH-26NOV112330SHKDAN-DAN at $0.4100 x1 (KXLIGAPROMATCH-26NOV112330SHKDAN): locks in $0.19 if it fills; hedge NO SHK@0.3700
+2026-11-11 23:47:36,772 INFO Swept 21329 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-11 23:52:35,509 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 23:52:39,681 INFO Swept 21322 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-11 23:57:38,758 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-11 23:57:42,962 INFO Swept 21299 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 00:02:41,525 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 00:02:45,760 INFO Swept 21241 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 00:07:43,263 INFO Settled KXLIGAMXWGAME-26NOV11PACMTY: paid $4, profit $-0.08
+2026-11-12 00:07:43,306 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 00:07:47,519 INFO Swept 21240 events: 0 taker trades, 0 new quotes, 1 resting
