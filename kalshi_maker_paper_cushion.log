@@ -1003,3 +1003,10 @@
 2026-11-12 05:05:09,515 INFO Swept 21091 events: 0 taker trades, 0 new quotes, 3 resting
 2026-11-12 05:10:12,941 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 05:10:16,709 INFO Swept 21134 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-12 05:15:07,861 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 05:15:11,556 INFO Swept 21148 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-12 05:20:18,368 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 05:20:22,375 INFO Swept 21160 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-12 05:25:15,946 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 05:25:19,592 INFO Swept 21155 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 05:25:29,594 INFO Stopped; all quotes cancelled.
