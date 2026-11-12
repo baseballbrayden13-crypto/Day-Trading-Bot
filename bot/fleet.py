@@ -111,7 +111,7 @@ FLEET: list[Bot] = [
         max_drawdown_pct=3.1, max_day_loss_pct=2.0, min_profit_factor=1.0, min_trades=30, max_position_share=0.25,
         symbols=("SPY", "QQQ", "AAPL", "MSFT", "NVDA", "TSLA"),  # TSLA added Nov 10 (C-058): 3-year worst drop -3.1%
         notes="Flat by 3:50pm every day; any position after the close is a problem."),
-    Bot(2, "ETF rotation", "alpaca", ".env.rotation", "8T7Y", "rotation.log", days="weekdays", runs_at="09:50",
+    Bot(2, "ETF rotation", "alpaca", ".env.rotation", "8T7Y", "rotation.log", days="weekdays", runs_at="09:35",
         task="Trading bot 2", bt_yearly=0.096, start_equity=round(5000 * 2450 / 4846.61, 2),  # $5,000 before the split
         # 20 years top 3 / 3 months / cash: 9.6%/yr, worst drop -26%.
         max_drawdown_pct=26.0, max_day_loss_pct=6.0, min_profit_factor=0, min_trades=0, max_position_share=0.40,
@@ -148,20 +148,20 @@ FLEET: list[Bot] = [
         err_log="kalshi_maker_paper_cushion_err.log", start_equity=20.0, max_drawdown_pct=10.0, max_day_loss_pct=10.0,
         min_profit_factor=0, min_trades=0,
         notes="Side-by-side copy of 4e that only takes bets locking in $0.20+ (4e takes $0.10+), no safest bet, pretend $20. Runs on GitHub."),
-    Bot(8, "Dip buyer", "alpaca", ".env.rotation", "8T7Y", "dipbuy.log", label="5", days="weekdays", runs_at="09:50",
+    Bot(8, "Dip buyer", "alpaca", ".env.rotation", "8T7Y", "dipbuy.log", label="5", days="weekdays", runs_at="09:35",
         task="Trading bot 5 (dip buyer, paper)", runs_on="cloud", sleeve="5", bt_yearly=0.065, start_equity=2450.0,
         # 2018-2026 unseen: +6.5%/yr, worst drop -14%, PF 1.31, ~100 trades a year (5 bps a side).
         max_drawdown_pct=14.0, max_day_loss_pct=5.0, min_profit_factor=1.0, min_trades=40, max_position_share=0.25,
         symbols=tuple(DIP_SYMBOLS.split(",")),
         notes="Shares bot 2's account through sleeves.json; only its own slice and its own stocks count."),
-    Bot(10, "QQQ trend", "alpaca", ".env.crypto", "KTS7", "trend.log", label="6", days="weekdays", runs_at="09:50",
+    Bot(10, "QQQ trend", "alpaca", ".env.crypto", "KTS7", "trend.log", label="6", days="weekdays", runs_at="09:35",
         task="Trading bot 6 (QQQ trend, paper)", runs_on="cloud", sleeve="6", sleeve_file=KTS7_SLEEVES, bt_yearly=0.165,
         start_equity=1667.0,
         # Since Nov 12 (C-065) it holds QLD (2x QQQ) while QQQ closes above its 200-day average, else T-bills.
         # 2005-2026 test: +16.5%/yr (2018+: +24.7%), worst drop -49% (2018+: -43%).
         max_drawdown_pct=45.0, max_day_loss_pct=12.0, min_profit_factor=0, min_trades=0, max_position_share=1.01,
         symbols=("QLD", "BIL"), notes="Shares ...KTS7 with bots 3 and 7 (sleeves_kts7.json). Holds QLD or BIL, all in one."),
-    Bot(11, "Momentum", "alpaca", ".env.crypto", "KTS7", "momentum.log", label="7", days="weekdays", runs_at="09:50",
+    Bot(11, "Momentum", "alpaca", ".env.crypto", "KTS7", "momentum.log", label="7", days="weekdays", runs_at="09:35",
         task="Trading bot 7 (momentum, paper)", runs_on="cloud", sleeve="7", sleeve_file=KTS7_SLEEVES, bt_yearly=0.30,
         start_equity=1667.0,
         # 2005-2026: top 5 of 39 big stocks by 12-1 month gain, monthly: +30%/yr, worst drop -43% (survivor-inflated).
