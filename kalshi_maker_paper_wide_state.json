@@ -2516,5 +2516,37 @@
    "sold_back": true
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXAFCONSCORE-26NOV12GHASOM",
+   "series": "KXAFCONSCORE",
+   "title": "Ghana vs Somalia: Correct Score",
+   "ticker": "KXAFCONSCORE-26NOV12GHASOM-GHA4SOM0",
+   "order_id": "paper-988-1794498971",
+   "price": "0.2300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "3.6800",
+   "multiplier": "1",
+   "placed": 1794498971.6003556,
+   "hedge": [
+    {
+     "ticker": "KXAFCONSCORE-26NOV12GHASOM-GHA1SOM0",
+     "limit": "0.8400"
+    },
+    {
+     "ticker": "KXAFCONSCORE-26NOV12GHASOM-GHA2SOM0",
+     "limit": "0.7600"
+    },
+    {
+     "ticker": "KXAFCONSCORE-26NOV12GHASOM-GHA2SOM1",
+     "limit": "0.9800"
+    },
+    {
+     "ticker": "KXAFCONSCORE-26NOV12GHASOM-GHA3SOM0",
+     "limit": "0.8000"
+    }
+   ]
+  }
+ ]
 }
