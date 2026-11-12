@@ -1049,3 +1049,18 @@
 2026-11-12 10:31:18,001 INFO Swept 21251 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-12 10:36:18,211 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 10:36:22,125 INFO Swept 21236 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 10:41:22,338 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 10:41:25,913 INFO Swept 21234 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 10:46:24,464 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 10:46:28,076 INFO Swept 21237 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 10:51:27,580 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 10:51:31,224 INFO Swept 21231 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 10:56:29,019 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 10:56:32,670 INFO Swept 21221 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 11:01:23,008 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:01:26,465 INFO Swept 21202 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 11:06:33,233 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:06:37,276 INFO PAPER rest NO bid KXAFCON1H-26NOV12CODSLE-SLE at $0.5300 x2 (48 already bid at that price)
+2026-11-12 11:06:37,277 INFO Resting NO bid on KXAFCON1H-26NOV12CODSLE-SLE at $0.53 x2 (KXAFCON1H-26NOV12CODSLE): locks in $0.21 if it fills; hedge NO COD@0.4400, TIE@0.8900
+2026-11-12 11:06:37,277 INFO Swept 21208 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 11:06:52,811 INFO Quote KXAFCON1H-26NOV12CODSLE cancelled (0/2 filled)
