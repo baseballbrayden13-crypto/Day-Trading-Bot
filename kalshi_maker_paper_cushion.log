@@ -827,3 +827,16 @@
 2026-11-12 00:07:29,190 INFO Settled KXLIGAMXWGAME-26NOV11PACMTY (stray): paid $0, profit $-1.68
 2026-11-12 00:07:29,223 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 00:07:32,876 INFO Swept 21240 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 00:12:31,320 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 00:12:34,942 INFO Swept 21255 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 00:12:35,344 INFO Quote KXLIGAPROMATCH-26NOV112330SHKDAN cancelled (0/2 filled)
+2026-11-12 00:17:33,718 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 00:17:37,310 INFO Swept 21236 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 00:22:34,903 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 00:22:38,495 INFO Swept 21234 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 00:27:36,545 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 00:27:40,168 INFO Swept 21227 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 00:32:38,275 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 00:32:41,877 INFO Swept 21224 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 00:37:40,498 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 00:37:44,100 INFO Swept 21202 events: 0 taker trades, 0 new quotes, 0 resting
