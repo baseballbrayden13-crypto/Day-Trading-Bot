@@ -125,15 +125,17 @@ def run_weather(api: Kalshi, args, cfg: dict) -> tuple[list[dict], list[str]]:
             notes.append(f"{series}: no past forecasts ({err})")
             continue
         errors = []
-        for e in events:
+        for e in sorted(events, key=lambda e: kb.event_date(e["event_ticker"])):  # oldest first: bias uses past days only
             day = kb.event_date(e["event_ticker"])
-            high = fc.get(day)
+            raw = fc.get(day)
             markets = [m for m in e.get("markets", []) if m.get("result") in ("yes", "no")]
-            if high is None or not markets:
+            if raw is None or not markets:
                 continue
+            past = errors[-30:]
+            high = raw + (sum(past) / len(past) if args.bias and len(past) >= 7 else 0.0)  # walk-forward bias fix
             won = [kb.strike_range(m, integer=True) for m in markets if m["result"] == "yes"]
             if won and won[0] and all(map(math.isfinite, won[0])):
-                errors.append((won[0][0] + won[0][1]) / 2 - high)
+                errors.append((won[0][0] + won[0][1]) / 2 - raw)
             at = datetime.combine(day - timedelta(days=args.lead), datetime.min.time(), ZoneInfo(tz)) + timedelta(hours=20)
             ts = int(at.timestamp())
             try:
@@ -226,6 +228,7 @@ def main() -> None:
     ap.add_argument("--min-edge", type=float, default=0.05)
     ap.add_argument("--min-profit", type=D, default=D("0.10"))
     ap.add_argument("--min-price", type=D, default=D("0"), help="skip sides cheaper than this (long shots)")
+    ap.add_argument("--bias", action="store_true", help="weather: shift each forecast by that city's average miss over the past 30 days")
     ap.add_argument("--sd-scale", type=float, default=1.0, help="weather: widen (>1) or narrow the forecast spread")
     args = ap.parse_args()
     cfg = {"stake": args.stake, "min_edge": args.min_edge, "min_profit": args.min_profit, "min_price": args.min_price}
