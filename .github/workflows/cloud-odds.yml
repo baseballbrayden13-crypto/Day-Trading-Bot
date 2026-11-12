@@ -49,6 +49,17 @@ jobs:
           NTFY_TOPIC: ${{ secrets.ODDS_NTFY_TOPIC }}
           ARGS: ${{ inputs.args }}
         run: python -m bot.odds_finder $ARGS
+      # Player props forward test: pretend bets only, never an order, not part of bots 4e/4f.
+      # Uses up to 6 of the Odds API credits a day. Undo: set KALSHI_PROPS to "off".
+      - name: Kalshi player props (pretend)
+        if: always()
+        continue-on-error: true
+        working-directory: state
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          KALSHI_PROPS: "on"
+          KALSHI_PROPS_CREDITS: "6"
+        run: python -m bot.kalshi_props --scan
       - name: Save state
         if: always()
         working-directory: state

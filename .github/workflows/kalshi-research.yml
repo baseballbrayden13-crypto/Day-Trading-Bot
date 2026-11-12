@@ -9,7 +9,7 @@ on:
         description: "Arguments for the backtest module"
         default: "--days 5 --minutes-before 5"
       module:
-        description: "bot.kalshi_15m_backtest or bot.kalshi_bets_backtest"
+        description: "bot.kalshi_15m_backtest, bot.kalshi_bets_backtest or bot.kalshi_props"
         default: "bot.kalshi_15m_backtest"
 
 permissions:
@@ -35,7 +35,7 @@ jobs:
         env: { ARGS: "${{ inputs.args }}", MODULE: "${{ inputs.module || 'bot.kalshi_15m_backtest' }}" }
         run: |
           mkdir -p research
-          case "$MODULE" in bot.kalshi_15m_backtest|bot.kalshi_bets_backtest) ;; *) echo "unknown module $MODULE"; exit 1;; esac
+          case "$MODULE" in bot.kalshi_15m_backtest|bot.kalshi_bets_backtest|bot.kalshi_props) ;; *) echo "unknown module $MODULE"; exit 1;; esac
           name=${MODULE#bot.}
           out="research/${name}_$(date -u +%Y-%m-%d_%H%M).txt"
           echo "module: $MODULE args: $ARGS" > "$out"
