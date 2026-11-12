@@ -1,14 +1,8 @@
-# Medic report, Wed Nov 11 2026 22:05 ET
-
-## Since the last check
-- New: Bot 4e: Bot 4e: 1 half-filled positions are still held.
-- New: Bot 4e: Bot 4e: 2 warnings last loop. Latest: 2026-11-12 02:23 STRAY POSITION: 1 NO contracts of KXLVBPGAME-26NOV111800LARLAG-LAR still held. Check it on Kalshi.
-- New: Bot 4e: Bot 4e: 1 errors in the last day. Latest: 2026-11-11 21:23:07,103 ERROR STRAY POSITION: 1 NO contracts of KXLVBPGAME-26NOV111800LARLAG-LAR still held. Check it on Kalshi.
-- New: Bot 4f: Bot 4f: 1 half-filled positions are still held.
-- New: Bot 7: No saved momentum.log for bot 7 yet, so no cloud run has been saved for it.
-- Fixed: Bot 1: On 2026-11-10 the backtest would have bought SPY at 10:00 (~$750.79) but bot 1 didn't.
+# Medic report, Wed Nov 11 2026 22:08 ET
 
 ## Whole fleet: OK
+- **info** (data) Scout: crypto prices: APIError: {"message": "too many requests."}
+
 - **info** (events) Coming up: CSCO earnings Thu 11/12. Odd results around these days are normal.
 
 ## Bot 1: ORB day trader: OK
@@ -22,8 +16,8 @@
 - **info** (vs hold) Since 2026-10-23: bot -2.8% vs just holding SPY -0.0%.
 
 ## Bot 3: Crypto trend: OK
-- **info** (return) $1,110.22, -33.4% since the $1,666 start.
-- **info** (vs hold) Since 2026-10-23: bot -33.4% vs just holding BTC/USD + ETH/USD -11.3%.
+- **info** (return) $1,666.00, +0.0% since the $1,666 start.
+- **info** (vs hold) Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -11.3%.
 
 ## Bot 4c: Kalshi maker paper: OK
 - **info** (return) Bot 4c: 3 settled, 1 open, $+7.07 settled profit.
@@ -49,7 +43,7 @@
 - **info** (return) $2,460.07, +0.4% since the $2,450 start.
 
 ## Bot 6: QQQ trend: OK
-- **info** (return) $1,111.56, -33.3% since the $1,667 start.
+- **info** (return) $1,667.00, +0.0% since the $1,667 start.
 
 ## Bot 7: Momentum: WATCH
 - **watch** (schedule) No saved momentum.log for bot 7 yet, so no cloud run has been saved for it. Fix: If this stays for days, open the Actions tab and check its workflow runs and that its keys are in the repository secrets.
