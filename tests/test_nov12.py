@@ -91,3 +91,47 @@ def test_bots_on_kts7_trade_different_symbols():
     for b in kts7:
         assert not (set(b.symbols) & seen)
         seen |= set(b.symbols)
+
+
+def _series(start, days, daily):
+    from datetime import date, timedelta
+    d0 = date.fromisoformat(start)
+    return {(d0 + timedelta(days=i)).isoformat(): 1000 * (1 + daily) ** i for i in range(days)}
+
+
+def test_draft_swaps_worst_member_for_best_rookie(monkeypatch):
+    from bot import army_fund as af
+    monkeypatch.setattr(af, "BOTS", {"1": 1, "2": 2})
+    eq = {"1": _series("2026-11-01", 40, 0.001), "2": _series("2026-11-01", 40, -0.002),
+          "R1": _series("2026-11-01", 40, 0.003), "R2": _series("2026-11-25", 10, 0.01)}  # R2: too new to judge
+    assert af.draft(["1", "2"], eq, "2026-12-01")[:2] == ("2", "R1")
+    assert af.draft(["1", "R1"], eq, "2026-12-01") is None  # the bench (bot 2) did worse: no swap
+    state = {}
+    for day in sorted(eq["1"]):
+        state = af.step(state, eq, day)
+    assert state["members"] == ["1", "R1"] and state["benched"] == ["2"]
+    assert state["drafts"][0][:3] == ["2026-12-01", "2", "R1"]
+    assert set(state["units"]) == {"1", "R1"} and set(state["even_units"]) == {"1", "2"}
+    before = state["history"][-2][1]
+    assert state["history"][-1][1] == pytest.approx(before, rel=0.02)  # a draft moves money, it doesn't create it
+
+
+def test_army_fund_survives_a_new_split(monkeypatch):
+    from bot import army_fund as af
+    monkeypatch.setattr(af, "BOTS", {"3": 3})
+    state = {"start": "2026-11-02", "week": "2026-W46", "units": {"3": 2.0}, "even_units": {"3": 2.0}, "history": []}
+    eq = {"3": {"2026-11-11": 1666.0, "2026-11-12": 1666.0}}  # history already scaled to the new third
+    state = af.step(state, eq, "2026-11-12")
+    assert state["history"][-1][1] == pytest.approx(2.0 * 2500)  # the slice is worth what it was before the split
+
+
+def test_rookie_advance_earns_then_rebalances():
+    from bot import rookies
+    idx = pd.bdate_range("2026-01-01", periods=3)
+    c = pd.DataFrame({"QQQ": [100.0, 100.0, 110.0], "BIL": [90.0, 90.0, 90.0]}, index=idx)
+    rule = lambda closes, old, new_month: {"QQQ": 1.0}
+    b = rookies.advance({}, c.iloc[:2], rule)
+    assert b["equity"] == pytest.approx(1000 * (1 - 0.0005)) and b["weights"] == {"QQQ": 1.0}
+    b2 = rookies.advance(b, c, rule)
+    assert b2["equity"] == pytest.approx(b["equity"] * 1.10)
+    assert rookies.advance(b2, c, rule) is b2  # same day twice changes nothing

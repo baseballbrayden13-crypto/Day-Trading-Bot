@@ -9,6 +9,15 @@ On the first run of every week it re-splits the whole fund:
   - half over the bots that made money in the last 4 weeks, in proportion to their gain (evenly if none did).
 Compare its value with "even split, never moved" (also tracked) to see if following the winners helps.
 Writes army_fund.json (state) and fleet_data/army_fund.csv (day, value, even_value, weights).
+
+Draft day (Nov 12 2026, C-067, brayden's pick): on the first run of each month the fund's worst member over the
+last 4 weeks is benched and its pretend money goes to the best candidate on the bench, if that candidate did
+better. The bench is the rookies (bot.rookies: test strategies tracked with pretend money, labels R1, R2, ...)
+plus any bot benched earlier, so a benched bot can win its place back. Only members get a share at the weekly
+re-split. Nobody is judged on less than 2 weeks of data. Real bots keep running on their paper accounts either
+way; only the pretend money moves. Each draft is listed in fleet_data/draft.csv. The "even split, never moved"
+comparison stays the original bots only, so it shows whether the shifting and drafting together help.
+Undo: delete the "Draft day" block in step() (members then never change).
 """
 from __future__ import annotations
 
@@ -17,7 +26,7 @@ import json
 from datetime import date, timedelta
 from pathlib import Path
 
-from .fleet import rescale
+from .fleet import rescale, scale
 
 START = 10_000.0
 BOTS = {"1": 1, "2": 2, "3": 3, "5": 8, "6": 10, "7": 11}  # site label -> fleet number (bot 7 joined Nov 12)
@@ -26,6 +35,9 @@ START_DAY = "2026-11-02"  # first Monday with bots 1-3 all running; past weeks u
 EQUITY = Path("fleet_data/equity.csv")
 STATE = Path("army_fund.json")
 CSV = Path("fleet_data/army_fund.csv")
+ROOKIES = Path("fleet_data/rookies.csv")
+DRAFTS = Path("fleet_data/draft.csv")
+MIN_DAYS = 14  # draft day judges nobody on less history than this
 
 
 def read_equity(path: Path = EQUITY) -> dict[str, dict[str, float]]:
@@ -43,7 +55,44 @@ def read_equity(path: Path = EQUITY) -> dict[str, dict[str, float]]:
                 out[lab][r["day"]] = rescale(int(r["bot"]), r["day"], float(r["equity"]))
         except (KeyError, ValueError):
             continue
+    try:  # the bench (bot.rookies): pretend test strategies, labels R1, R2, ...
+        for r in csv.DictReader(ROOKIES.open()):
+            out.setdefault(r["rookie"], {})[r["day"]] = float(r["equity"])
+    except (OSError, KeyError, ValueError):
+        pass
     return out
+
+
+def gain(series: dict[str, float], day: str, min_days: int = MIN_DAYS) -> float | None:
+    """Gain over the last 4 weeks, or None with less than `min_days` of history."""
+    since = (date.fromisoformat(day) - timedelta(days=LOOKBACK_DAYS)).isoformat()
+    days = sorted(d for d in series if since <= d <= day)
+    if not days or (date.fromisoformat(day) - date.fromisoformat(min(series))).days < min_days or not series[days[0]]:
+        return None
+    return series[days[-1]] / series[days[0]] - 1
+
+
+def draft(members: list[str], eq: dict[str, dict[str, float]], day: str) -> tuple[str, str, float, float] | None:
+    """(out, in, out's gain, in's gain): the worst member swaps with the best outsider, if the outsider did better."""
+    inside = {b: g for b in members if (g := gain(eq.get(b, {}), day)) is not None}
+    outside = {b: g for b in eq if b not in members and (g := gain(eq[b], day)) is not None}
+    if not inside or not outside:
+        return None
+    worst, best = min(inside, key=inside.get), max(outside, key=outside.get)
+    return (worst, best, inside[worst], outside[best]) if outside[best] > inside[worst] else None
+
+
+def fix_splits(state: dict) -> None:
+    """A bot's account was split again (bot 7 joined ...KTS7 on Nov 12): its equity history is scaled down, so its
+    units are scaled up to keep the fund's value the same."""
+    seen = state.setdefault("scale", {b: scale(n, "2026-11-12") for b, n in BOTS.items()})
+    for b, n in BOTS.items():
+        now, old = scale(n), seen.get(b, scale(n))
+        if abs(now - old) > 1e-12:
+            for units in (state.get("units", {}), state.get("even_units", {})):
+                if b in units:
+                    units[b] *= old / now
+        seen[b] = now
 
 
 def last_on(series: dict[str, float], day: str) -> float | None:
@@ -75,25 +124,39 @@ def weights(eq: dict[str, dict[str, float]], day: str) -> dict[str, float]:
 def step(state: dict, eq: dict[str, dict[str, float]], day: str) -> dict:
     """Value the fund on `day`, re-split it if it's a new week. Returns the new state."""
     def value(units):
-        return sum(u * (last_on(eq[b], day) or 0) for b, u in units.items())
+        return sum(u * (last_on(eq.get(b, {}), day) or 0) for b, u in units.items())
 
     if not state:
-        w = weights(eq, day)
+        w = weights({b: s for b, s in eq.items() if b in BOTS}, day)
         units = {b: START * x / last_on(eq[b], day) for b, x in w.items()}
-        state = {"start": day, "week": "", "units": units, "even_units": dict(units), "history": []}
+        state = {"start": day, "week": "", "units": units, "even_units": dict(units), "history": [],
+                 "scale": {b: scale(n) for b, n in BOTS.items()}}
+    fix_splits(state)
+    members = state.setdefault("members", list(BOTS))
+    members += [b for b in BOTS if b not in members and b not in state.get("benched", [])]  # a newly built bot joins
     fund, even = value(state["units"]), value(state["even_units"])
+    # Draft day (C-067): first run of a new month. Undo: delete this block.
+    if state.setdefault("draft_month", day[:7]) != day[:7]:
+        state["draft_month"] = day[:7]
+        swap = draft(members, eq, day)
+        if swap:
+            out, new, g_out, g_new = swap
+            members[members.index(out)] = new
+            state["benched"] = [b for b in state.get("benched", []) if b != new] + ([out] if out in BOTS else [])
+            state.setdefault("drafts", []).append([day, out, new, round(g_out, 4), round(g_new, 4)])
+            state["week"] = ""  # re-split now so the money moves today
     week = "%d-W%02d" % date.fromisoformat(day).isocalendar()[:2]
     if week != state["week"]:
-        w = weights(eq, day)
+        w = weights({b: s for b, s in eq.items() if b in members}, day)
         state["units"] = {b: fund * x / last_on(eq[b], day) for b, x in w.items()}
         # bots that joined after the start get an even share of the "never moved" fund at their first week
-        missing = [b for b in w if b not in state["even_units"]]
+        missing = [b for b in w if b not in state["even_units"] and b in BOTS]  # rookies never join the comparison
         if missing:
-            share = even / len(w)
+            share = even / (len(state["even_units"]) + len(missing))
             state["even_units"] = {b: u * (even - share * len(missing)) / even for b, u in state["even_units"].items()}
             state["even_units"].update({b: share / last_on(eq[b], day) for b in missing})
         state["week"] = week
-    w_now = {b: round(u * (last_on(eq[b], day) or 0) / fund, 3) for b, u in state["units"].items()} if fund else {}
+    w_now = {b: round(u * (last_on(eq.get(b, {}), day) or 0) / fund, 3) for b, u in state["units"].items()} if fund else {}
     state["history"] = [h for h in state["history"] if h[0] != day] + [[day, round(fund, 2), round(even, 2), w_now]]
     return state
 
@@ -122,6 +185,10 @@ def main() -> None:
         state = step(state, eq, day)
     STATE.write_text(json.dumps(state, indent=1))
     write_csv(state)
+    with DRAFTS.open("w", newline="") as f:
+        out = csv.writer(f)
+        out.writerow(["day", "out", "in", "out_gain", "in_gain"])
+        out.writerows(state.get("drafts", []))
     day, v, e, w = state["history"][-1]
     print(f"Army fund {day}: ${v:,.2f} (even split ${e:,.2f}); weights {w}")
 
