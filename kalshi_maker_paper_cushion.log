@@ -1164,3 +1164,34 @@
 2026-11-12 14:07:55,029 INFO PAPER rest NO bid KXAFCONFTTS-26NOV12SENSDN-SDN at $0.5100 x2 (0 already bid at that price)
 2026-11-12 14:07:55,029 INFO Resting NO bid on KXAFCONFTTS-26NOV12SENSDN-SDN at $0.5100 x2 (KXAFCONFTTS-26NOV12SENSDN): locks in $0.22 if it fills; hedge NO SEN@0.3600, NONE@0.9900
 2026-11-12 14:07:55,030 INFO Swept 21384 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 14:12:51,869 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:12:54,891 INFO Swept 21417 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 14:17:57,507 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:18:00,790 INFO PAPER rest NO bid KXAFCON1H-26NOV12BENCAF-CAF at $0.3200 x2 (2 already bid at that price)
+2026-11-12 14:18:00,791 INFO Resting NO bid on KXAFCON1H-26NOV12BENCAF-CAF at $0.32 x2 (KXAFCON1H-26NOV12BENCAF): locks in $0.21 if it fills; hedge NO BEN@0.6600, TIE@0.8800
+2026-11-12 14:18:00,791 INFO Swept 21434 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-12 14:20:06,838 INFO Quote KXAFCON1H-26NOV12BENCAF cancelled (0/2 filled)
+2026-11-12 14:23:00,979 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:23:04,024 INFO Swept 21433 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 14:28:01,486 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:28:04,542 INFO Swept 21435 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 14:33:01,028 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:33:04,556 INFO Swept 21426 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 14:33:04,615 INFO PAPER KXAFCONFTTS-26NOV12SENSDN-SDN NO bid at $0.5100: 2/2 filled by real trades
+2026-11-12 14:33:04,674 INFO PAPER buy 2 NO KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.3600: filled 2
+2026-11-12 14:33:04,732 INFO PAPER buy 2 NO KXAFCONFTTS-26NOV12SENSDN-NONE at up to $0.9900: not on the book
+2026-11-12 14:33:04,732 WARNING Quote KXAFCONFTTS-26NOV12SENSDN: hedge missed on KXAFCONFTTS-26NOV12SENSDN-NONE. Selling back 2 contracts on 2 legs.
+2026-11-12 14:33:04,791 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SDN at up to $0.5400: filled 2
+2026-11-12 14:33:04,849 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.6900: not on the book
+2026-11-12 14:33:04,849 ERROR STRAY POSITION: 2 NO contracts of KXAFCONFTTS-26NOV12SENSDN-SEN still held. Check it on Kalshi.
+2026-11-12 14:33:04,907 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:34:04,976 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:35:05,044 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:36:05,138 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:38:03,118 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:38:06,464 INFO PAPER rest NO bid KXAFCON1H-26NOV12CIVGAM-GAM at $0.3300 x2 (0 already bid at that price)
+2026-11-12 14:38:06,464 INFO Resting NO bid on KXAFCON1H-26NOV12CIVGAM-GAM at $0.3300 x2 (KXAFCON1H-26NOV12CIVGAM): locks in $0.25 if it fills; hedge NO CIV@0.6500, TIE@0.9900
+2026-11-12 14:38:06,465 INFO Swept 21437 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 14:38:06,643 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:39:08,146 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book
+2026-11-12 14:40:09,648 INFO PAPER sell 2 YES KXAFCONFTTS-26NOV12SENSDN-SEN at up to $0.7900: not on the book

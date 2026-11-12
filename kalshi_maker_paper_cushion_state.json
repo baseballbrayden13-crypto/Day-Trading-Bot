@@ -1,6 +1,25 @@
 {
- "realized": "-2.6000",
- "open": [],
+ "realized": "-2.7500",
+ "open": [
+  {
+   "event": "KXAFCONFTTS-26NOV12SENSDN (stray)",
+   "series": "KXAFCONFTTS",
+   "title": "Senegal vs Sudan: First Team to Score",
+   "sets": 0,
+   "outlay": "0.7600",
+   "locked_profit": "0",
+   "opened": "2026-11-12T19:33:04.849949+00:00",
+   "legs": [
+    {
+     "ticker": "KXAFCONFTTS-26NOV12SENSDN-SEN",
+     "side": "no",
+     "count": 2,
+     "limit": "0.3600"
+    }
+   ],
+   "retried": 1794512409.590227
+  }
+ ],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -75,24 +94,24 @@
  ],
  "quotes": [
   {
-   "event": "KXAFCONFTTS-26NOV12SENSDN",
-   "series": "KXAFCONFTTS",
-   "title": "Senegal vs Sudan: First Team to Score",
-   "ticker": "KXAFCONFTTS-26NOV12SENSDN-SDN",
-   "order_id": "paper-71-1794510475",
-   "price": "0.5100",
+   "event": "KXAFCON1H-26NOV12CIVGAM",
+   "series": "KXAFCON1H",
+   "title": "Ivory Coast vs Gambia: First Half Winner",
+   "ticker": "KXAFCON1H-26NOV12CIVGAM-GAM",
+   "order_id": "paper-73-1794512286",
+   "price": "0.3300",
    "sets": 2,
    "done": 0,
-   "reserve": "3.7800",
+   "reserve": "3.7500",
    "multiplier": "1",
-   "placed": 1794510475.0297568,
+   "placed": 1794512286.464602,
    "hedge": [
     {
-     "ticker": "KXAFCONFTTS-26NOV12SENSDN-SEN",
-     "limit": "0.3600"
+     "ticker": "KXAFCON1H-26NOV12CIVGAM-CIV",
+     "limit": "0.6500"
     },
     {
-     "ticker": "KXAFCONFTTS-26NOV12SENSDN-NONE",
+     "ticker": "KXAFCON1H-26NOV12CIVGAM-TIE",
      "limit": "0.9900"
     }
    ]
