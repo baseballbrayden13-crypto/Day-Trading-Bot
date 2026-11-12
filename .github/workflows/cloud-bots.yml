@@ -125,6 +125,8 @@ jobs:
       - name: Bot 3b (pretend copy with the fear & greed rule, no orders)
         if: always() && contains(fromJSON('["bot3","night","all"]'), steps.pick.outputs.what)
         working-directory: state
+        env:
+          CRYPTO_SYMBOLS: "BTC/USD,ETH/USD,SOL/USD"  # same coins as bot 3 since Nov 12 (C-064)
         run: python -m bot.crypto_shadow || echo "Bot 3b skipped today"
 
       - name: Scout + Medic
