@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T03:52:42+00:00",
+ "updated": "2026-11-12T12:52:17+00:00",
  "prices": {
   "KXNFLGAME-26NOV12WASNYG-NYG": {
    "fair_yes": 0.5474,
@@ -11,8 +11,7 @@
     "Washington Commanders"
    ],
    "pinnacle": true,
-   "updated": "2026-11-12T03:52:42+00:00",
-   "news": "lineup news: Washington Commanders: Lucas Patrick (Out)"
+   "updated": "2026-11-12T03:52:42+00:00"
   },
   "KXNFLGAME-26NOV12WASNYG-WAS": {
    "fair_yes": 0.4526,
@@ -24,8 +23,7 @@
     "Washington Commanders"
    ],
    "pinnacle": true,
-   "updated": "2026-11-12T03:52:42+00:00",
-   "news": "lineup news: Washington Commanders: Lucas Patrick (Out)"
+   "updated": "2026-11-12T03:52:42+00:00"
   },
   "KXNCAAFGAME-26NOV12MEMUSF-USF": {
    "fair_yes": 0.3903,
@@ -47,30 +45,6 @@
    "teams": [
     "South Florida Bulls",
     "Memphis Tigers"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-12T03:52:42+00:00"
-  },
-  "KXNCAAMBGAME-26NOV11USCCAL-CAL": {
-   "fair_yes": 0.2532,
-   "start": "2026-11-12T04:00:00Z",
-   "team": "California Golden Bears",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "California Golden Bears",
-    "USC Trojans"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-12T03:52:42+00:00"
-  },
-  "KXNCAAMBGAME-26NOV11USCCAL-USC": {
-   "fair_yes": 0.7468,
-   "start": "2026-11-12T04:00:00Z",
-   "team": "USC Trojans",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "California Golden Bears",
-    "USC Trojans"
    ],
    "pinnacle": true,
    "updated": "2026-11-12T03:52:42+00:00"
@@ -133,8 +107,7 @@
     "Tampa Bay Lightning"
    ],
    "pinnacle": false,
-   "updated": "2026-11-12T03:52:42+00:00",
-   "news": "lineup news: Tampa Bay Lightning: Erik Cernak (Out)"
+   "updated": "2026-11-12T03:52:42+00:00"
   },
   "KXNHLGAME-26NOV12TBCBJ-TB": {
    "fair_yes": 0.517,
@@ -146,8 +119,7 @@
     "Tampa Bay Lightning"
    ],
    "pinnacle": false,
-   "updated": "2026-11-12T03:52:42+00:00",
-   "news": "lineup news: Tampa Bay Lightning: Erik Cernak (Out)"
+   "updated": "2026-11-12T03:52:42+00:00"
   },
   "KXNHLGAME-26NOV12DETFLA-FLA": {
    "fair_yes": 0.606,
@@ -279,8 +251,7 @@
     "St Louis Blues"
    ],
    "pinnacle": false,
-   "updated": "2026-11-12T03:52:42+00:00",
-   "news": "lineup news: Utah Mammoth: Logan Cooley (Out)"
+   "updated": "2026-11-12T03:52:42+00:00"
   },
   "KXNHLGAME-26NOV12STLUTA-STL": {
    "fair_yes": 0.4531,
@@ -292,8 +263,7 @@
     "St Louis Blues"
    ],
    "pinnacle": false,
-   "updated": "2026-11-12T03:52:42+00:00",
-   "news": "lineup news: Utah Mammoth: Logan Cooley (Out)"
+   "updated": "2026-11-12T03:52:42+00:00"
   },
   "KXNHLGAME-26NOV12NYILA-LA": {
    "fair_yes": 0.5329,

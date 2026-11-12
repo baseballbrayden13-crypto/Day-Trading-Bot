@@ -40,25 +40,6 @@
   },
   {
    "kind": "value",
-   "game": "Golden State Warriors at Houston Rockets",
-   "game_id": "f41d186dc7a7dcf01adab32579a82ca3",
-   "sport": "basketball_nba",
-   "start": "2026-11-12T02:40:00Z",
-   "edge": 0.0423,
-   "home": "Houston Rockets",
-   "away": "Golden State Warriors",
-   "legs": [
-    {
-     "team": "Golden State Warriors",
-     "book": "FanDuel",
-     "odds": 2.8,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-11T01:17:25+00:00"
-  },
-  {
-   "kind": "value",
    "game": "UMKC Kangaroos at Florida A&M Rattlers",
    "game_id": "eb4ac6c20fe9cf690a2a2409335a3341",
    "sport": "basketball_ncaab",
@@ -75,25 +56,6 @@
     }
    ],
    "opened": "2026-11-11T16:17:42+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "USC Trojans at California Golden Bears",
-   "game_id": "92cc2f2a169d4efd4f1a0ac9d25672bc",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-12T04:00:00Z",
-   "edge": 0.0335,
-   "home": "California Golden Bears",
-   "away": "USC Trojans",
-   "legs": [
-    {
-     "team": "California Golden Bears",
-     "book": "FanDuel",
-     "odds": 4.15,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-11T22:53:52+00:00"
   },
   {
    "kind": "value",
@@ -171,8 +133,8 @@
   "value|d5ffc3709a43565e263ddd08e42c27c0|Coppin St Eagles|BetMGM": "2026-11-12T03:52:42.997948+00:00"
  },
  "credits": {
-  "day": "2026-11-11",
-  "spent": 15,
+  "day": "2026-11-12",
+  "spent": 0,
   "remaining": 451
  },
  "last_priced": {

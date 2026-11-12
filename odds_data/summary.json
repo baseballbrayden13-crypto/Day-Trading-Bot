@@ -1,33 +1,23 @@
 {
- "updated": "2026-11-12T03:52:42+00:00",
+ "updated": "2026-11-12T12:52:17+00:00",
  "scan": {
-  "sports": [
-   "americanfootball_nfl",
-   "basketball_nba",
-   "icehockey_nhl",
-   "americanfootball_ncaaf",
-   "basketball_ncaab"
-  ],
-  "games": 42,
-  "kalshi_matched": 34,
+  "sports": [],
+  "games": 0,
+  "kalshi_matched": 0,
   "skipped": [],
-  "pinnacle": 26,
+  "note": "quiet hours",
   "credits_left": 451,
-  "spent_today": 15,
-  "allowance": 22
+  "spent_today": 0,
+  "allowance": 23
  },
- "new_finds": [
-  "Washington Wizards @ Pinnacle 4.75 (fair 4.15, +14.3% expected) Detroit Pistons at Washington Wizards (Thu 7:10PM)",
-  "Charlotte Hornets @ Pinnacle 3.22 (fair 3.10, +3.9% expected) Charlotte Hornets at Phoenix Suns (Thu 9:10PM)",
-  "Coppin St Eagles @ BetMGM 4.75 (fair 4.52, +5.0% expected) Coppin St Eagles at Bradley Braves (Thu 6:00PM)"
- ],
- "open_bets": 8,
+ "new_finds": [],
+ "open_bets": 6,
  "record": {
   "value": {
-   "bets": 5,
+   "bets": 7,
    "wins": 0,
-   "staked": 50.0,
-   "pnl": -50.0,
+   "staked": 70.0,
+   "pnl": -70.0,
    "roi": -1.0
   },
   "kalshi": {
@@ -45,11 +35,11 @@
    "roi": 0.0178
   },
   "all": {
-   "bets": 7,
+   "bets": 9,
    "wins": 2,
-   "staked": 250.0,
-   "pnl": -46.45,
-   "roi": -0.1858
+   "staked": 270.0,
+   "pnl": -66.45,
+   "roi": -0.2461
   }
  }
 }
