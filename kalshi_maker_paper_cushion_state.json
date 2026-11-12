@@ -73,5 +73,120 @@
    "closed": "2026-11-12T05:07:29.190391+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXODIMATCH-26NOV122100INDNZ",
+   "series": "KXODIMATCH",
+   "title": "New Zealand vs India",
+   "ticker": "KXODIMATCH-26NOV122100INDNZ-NZ",
+   "order_id": "paper-35-1794470619",
+   "price": "0.4000",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.4200",
+   "multiplier": "1",
+   "placed": 1794470619.794292,
+   "hedge": [
+    {
+     "ticker": "KXODIMATCH-26NOV122100INDNZ-IND",
+     "limit": "0.4600"
+    }
+   ]
+  },
+  {
+   "event": "KXCS2GAME-26NOV110400TTBS9INEA",
+   "series": "KXCS2GAME",
+   "title": "Teletubisie vs. 9INE Academy",
+   "ticker": "KXCS2GAME-26NOV110400TTBS9INEA-TTBS",
+   "order_id": "paper-36-1794470619",
+   "price": "0.2000",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.7300",
+   "multiplier": "1",
+   "placed": 1794470619.8533926,
+   "hedge": [
+    {
+     "ticker": "KXCS2GAME-26NOV110400TTBS9INEA-9INEA",
+     "limit": "0.6400"
+    }
+   ]
+  },
+  {
+   "event": "KXWT20MATCH-26NOV120415BANPAK",
+   "series": "KXWT20MATCH",
+   "title": "Pakistan vs Bangladesh",
+   "ticker": "KXWT20MATCH-26NOV120415BANPAK-PAK",
+   "order_id": "paper-37-1794470619",
+   "price": "0.1700",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.6900",
+   "multiplier": "1",
+   "placed": 1794470619.911972,
+   "hedge": [
+    {
+     "ticker": "KXWT20MATCH-26NOV120415BANPAK-BAN",
+     "limit": "0.7500"
+    }
+   ]
+  },
+  {
+   "event": "KXLNBPGAME-26NOV130000ASTSOL",
+   "series": "KXLNBPGAME",
+   "title": "Astros de Jalisco vs Soles de Mexicali",
+   "ticker": "KXLNBPGAME-26NOV130000ASTSOL-SOL",
+   "order_id": "paper-38-1794470619",
+   "price": "0.1100",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.3800",
+   "multiplier": "1",
+   "placed": 1794470619.971059,
+   "hedge": [
+    {
+     "ticker": "KXLNBPGAME-26NOV130000ASTSOL-AST",
+     "limit": "0.7500"
+    }
+   ]
+  },
+  {
+   "event": "KXR6GAME-26NOV122230DZLIQUID",
+   "series": "KXR6GAME",
+   "title": "DarkZero Esports vs. Team Liquid",
+   "ticker": "KXR6GAME-26NOV122230DZLIQUID-DZ",
+   "order_id": "paper-39-1794470620",
+   "price": "0.4500",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.7100",
+   "multiplier": "1",
+   "placed": 1794470620.0301843,
+   "hedge": [
+    {
+     "ticker": "KXR6GAME-26NOV122230DZLIQUID-LIQUID",
+     "limit": "0.3800"
+    }
+   ]
+  },
+  {
+   "event": "KXCS2GAME-26NOV120400DNKDUC",
+   "series": "KXCS2GAME",
+   "title": "DNK vs. Ducks",
+   "ticker": "KXCS2GAME-26NOV120400DNKDUC-DNK",
+   "order_id": "paper-40-1794470913",
+   "price": "0.0700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.3900",
+   "multiplier": "1",
+   "placed": 1794470913.954746,
+   "hedge": [
+    {
+     "ticker": "KXCS2GAME-26NOV120400DNKDUC-DUC",
+     "limit": "0.2900"
+    }
+   ]
+  }
+ ]
 }

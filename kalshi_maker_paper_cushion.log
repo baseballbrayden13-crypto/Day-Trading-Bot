@@ -888,3 +888,27 @@
 2026-11-12 02:33:19,119 INFO Swept 21181 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-12 02:38:19,820 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 02:38:23,480 INFO Swept 21185 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 02:43:24,597 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 02:43:28,255 INFO Swept 21178 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 02:48:28,917 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 02:48:32,598 INFO Swept 21178 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 02:53:32,793 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 02:53:36,423 INFO Swept 21176 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 02:58:37,370 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 02:58:40,993 INFO Swept 21185 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 03:03:30,885 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 03:03:39,794 INFO PAPER rest NO bid KXODIMATCH-26NOV122100INDNZ-NZ at $0.4000 x5 (0 already bid at that price)
+2026-11-12 03:03:39,794 INFO Resting NO bid on KXODIMATCH-26NOV122100INDNZ-NZ at $0.4000 x5 (KXODIMATCH-26NOV122100INDNZ): locks in $0.58 if it fills; hedge NO IND@0.4600
+2026-11-12 03:03:39,853 INFO PAPER rest NO bid KXCS2GAME-26NOV110400TTBS9INEA-TTBS at $0.2000 x2 (0 already bid at that price)
+2026-11-12 03:03:39,853 INFO Resting NO bid on KXCS2GAME-26NOV110400TTBS9INEA-TTBS at $0.2000 x2 (KXCS2GAME-26NOV110400TTBS9INEA): locks in $0.27 if it fills; hedge NO 9INEA@0.6400
+2026-11-12 03:03:39,911 INFO PAPER rest NO bid KXWT20MATCH-26NOV120415BANPAK-PAK at $0.1700 x5 (0 already bid at that price)
+2026-11-12 03:03:39,911 INFO Resting NO bid on KXWT20MATCH-26NOV120415BANPAK-PAK at $0.1700 x5 (KXWT20MATCH-26NOV120415BANPAK): locks in $0.31 if it fills; hedge NO BAN@0.7500
+2026-11-12 03:03:39,970 INFO PAPER rest NO bid KXLNBPGAME-26NOV130000ASTSOL-SOL at $0.1100 x5 (0 already bid at that price)
+2026-11-12 03:03:39,971 INFO Resting NO bid on KXLNBPGAME-26NOV130000ASTSOL-SOL at $0.1100 x5 (KXLNBPGAME-26NOV130000ASTSOL): locks in $0.62 if it fills; hedge NO AST@0.7500
+2026-11-12 03:03:40,030 INFO PAPER rest NO bid KXR6GAME-26NOV122230DZLIQUID-DZ at $0.4500 x2 (0 already bid at that price)
+2026-11-12 03:03:40,030 INFO Resting NO bid on KXR6GAME-26NOV122230DZLIQUID-DZ at $0.4500 x2 (KXR6GAME-26NOV122230DZLIQUID): locks in $0.29 if it fills; hedge NO LIQUID@0.3800
+2026-11-12 03:03:40,031 INFO Swept 21144 events: 0 taker trades, 5 new quotes, 5 resting
+2026-11-12 03:08:30,600 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 03:08:33,954 INFO PAPER rest NO bid KXCS2GAME-26NOV120400DNKDUC-DNK at $0.0700 x1 (0 already bid at that price)
+2026-11-12 03:08:33,954 INFO Resting NO bid on KXCS2GAME-26NOV120400DNKDUC-DNK at $0.0700 x1 (KXCS2GAME-26NOV120400DNKDUC): locks in $0.61 if it fills; hedge NO DUC@0.2900
+2026-11-12 03:08:33,955 INFO Swept 21144 events: 0 taker trades, 1 new quotes, 6 resting
