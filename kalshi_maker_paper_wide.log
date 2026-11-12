@@ -8247,3 +8247,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 13:32:46,746 INFO Swept 21289 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-12 13:37:45,556 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 13:37:48,119 INFO Swept 21287 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 13:42:47,520 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 13:42:50,058 INFO Swept 21287 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 13:47:48,736 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 13:47:50,984 INFO Swept 21321 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 13:52:50,484 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 13:52:52,713 INFO Swept 21329 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 13:57:51,716 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 13:57:54,555 INFO Swept 21344 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 14:02:52,081 INFO Settled KXNHL2P-26NOV12CARSEA: paid $4, profit $-0.10
+2026-11-12 14:02:52,116 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 14:02:54,590 INFO PAPER rest NO bid KXTESTMATCH-26NOV120300IREAZIMA-TIE at $0.4100 x2 (0 already bid at that price)
+2026-11-12 14:02:54,590 INFO Resting NO bid on KXTESTMATCH-26NOV120300IREAZIMA-TIE at $0.41 x2 (KXTESTMATCH-26NOV120300IREAZIMA): locks in $0.10 if it fills; hedge NO ZIMA@0.9500, IREA@0.5600
+2026-11-12 14:02:54,617 INFO Swept 21367 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 14:07:53,141 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 14:07:55,562 INFO Swept 21395 events: 0 taker trades, 0 new quotes, 1 resting
