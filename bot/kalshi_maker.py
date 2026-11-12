@@ -484,6 +484,21 @@ def safest_bet(api, events: list[dict], cfg: dict, when: datetime) -> None:
     kb.summary(state, cfg["budget"], when)
 
 
+def weather_bets(api, events: list[dict], cfg: dict, when: datetime) -> None:
+    """Pretend daily-high temperature bets against the free Open-Meteo forecast (bot.kalshi_bets.weather), in their
+    own $20 pot next to the safest bet. Long shots (sides under KALSHI_WEATHER_MIN_PRICE) are skipped: they are what
+    lost in the Oct 27 backtest."""
+    from . import kalshi_bets as kb
+
+    state = kb.load_state()
+    kb.settle(api, state)
+    bets = kb.weather(events, when, {**cfg, "_state": state})
+    placed = kb.place(state, bets, cfg["budget"])
+    kb.save_state(state)
+    kb.summary(state, cfg["budget"], when)
+    log.info("Weather: %d candidate bets, %d placed", len(bets), len(placed))
+
+
 def check(api, cfg: dict) -> None:
     """Hedge new fills; cancel quotes that are done, stale or no longer pay."""
     state = kl.load_state()
@@ -662,7 +677,12 @@ def main() -> None:
         log.info("Maker mode on Kalshi %s, budget $%s, min profit $%s, up to %d quotes", cfg["env"].upper(), cfg["budget"],
                  cfg["min_profit"], cfg["max_quotes"])
     safest_on = args.paper and os.getenv("KALSHI_SAFEST", "") == "on"  # one pretend "safest" bet a day, own record
-    if safest_on:
+    weather_on = args.paper and os.getenv("KALSHI_WEATHER", "") == "on"  # pretend daily-high bets vs the forecast, own pot
+    wcfg = {"stake": D(os.getenv("KALSHI_WEATHER_STAKE", "2")), "min_edge": float(os.getenv("KALSHI_WEATHER_MIN_EDGE", "0.05")),
+            "min_profit": D("0.10"), "min_price": D(os.getenv("KALSHI_WEATHER_MIN_PRICE", "0.40")),
+            "sd_scale": float(os.getenv("KALSHI_WEATHER_SD_SCALE", "1.0"))}
+    next_weather = 0.0
+    if safest_on or weather_on:
         from . import kalshi_bets as kb
 
         kb.STATE, kb.DATA = Path(f"kalshi_bets{sfx}_state.json"), Path(f"kalshi_data_bets{sfx}")
@@ -684,6 +704,9 @@ def main() -> None:
                     placed = place(api, cfg, events)
                     if safest_on:
                         safest_bet(api, events, cfg, when)
+                    if weather_on and time.time() >= next_weather:  # forecasts change slowly: once an hour is plenty
+                        next_weather = time.time() + 3600
+                        weather_bets(api, events, {**wcfg, "budget": cfg["budget"]}, when)
                     log.info("Swept %d events: %d taker trades, %d new quotes, %d resting", len(events), len(traded), placed,
                              len(kl.load_state().get("quotes", [])))
                 check(api, cfg)

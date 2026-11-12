@@ -236,7 +236,7 @@ def weather(events: list[dict], now: datetime, cfg: dict, data=None) -> list[Bet
         days_ahead = (datetime.combine(day, datetime.min.time(), ZoneInfo(tz)) + timedelta(hours=16) - local_now).total_seconds() / 86400
         if days_ahead < -0.1:  # past mid-afternoon of the day: the high is mostly known, the forecast isn't
             continue
-        sd = weather_sd(days_ahead)
+        sd = weather_sd(days_ahead) * cfg.get("sd_scale", 1.0)
         out += _bets_for(e, now, cfg, "weather", lambda m: (lambda r: prob_normal(r, high, sd) if r else None)(
             strike_range(m, integer=True)), f"forecast {high:.1f}F sd {sd:.1f}")
     return out
