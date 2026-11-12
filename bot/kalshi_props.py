@@ -26,7 +26,7 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from statistics import median
+from statistics import NormalDist, median
 
 import requests
 
@@ -43,8 +43,8 @@ PROPS = {
     "americanfootball_nfl": [("KXNFLRECYDS", "player_reception_yds"), ("KXNFLRSHYDS", "player_rush_yds"),
                              ("KXNFLPASSYDS", "player_pass_yds")],
 }
-COMPARE_COLS = ["time", "sport", "game", "stat", "player", "line", "books", "fair_yes", "yes_ask", "no_ask", "ticker"]
-BET_COLS = ["opened", "closed", "sport", "game", "stat", "player", "line", "side", "price", "contracts", "fair",
+COMPARE_COLS = ["time", "sport", "game", "stat", "player", "line", "match", "book_line", "books", "fair_yes", "yes_ask", "no_ask", "ticker"]
+BET_COLS = ["opened", "closed", "sport", "game", "stat", "player", "line", "match", "book_line", "side", "price", "contracts", "fair",
             "edge", "result", "pnl", "ticker"]
 PROP_WORDS = re.compile(r"\b(points?|rebounds?|assists?|yards?|touchdowns?|td|strikeouts?|hits|home runs?|"
                         r"threes?|3-pointers?|receptions?|passing|rushing|receiving|shots|saves|goal ?scorer|"
@@ -58,6 +58,7 @@ def settings() -> dict:
         "sports": [s.strip() for s in os.getenv("KALSHI_PROPS_SPORTS", ",".join(PROPS)).split(",") if s.strip()],
         "credits": int(os.getenv("KALSHI_PROPS_CREDITS", "6")),  # a day, out of the odds finder's 500 a month
         "min_edge": float(os.getenv("KALSHI_PROPS_MIN_EDGE", "0.05")),  # dollars per $1 contract, after the fee
+        "near_edge": float(os.getenv("KALSHI_PROPS_NEAR_EDGE", "0.08")),  # bigger edge when the line is estimated
         "min_books": int(os.getenv("KALSHI_PROPS_MIN_BOOKS", "3")),
         "min_price": float(os.getenv("KALSHI_PROPS_MIN_PRICE", "0.15")),  # no long shots or near-certainties:
         "max_price": float(os.getenv("KALSHI_PROPS_MAX_PRICE", "0.85")),  # the fair price is too noisy there
@@ -140,20 +141,55 @@ def event_for_game(game: dict, events: list[dict]) -> dict | None:
     return None
 
 
-def compare(event: dict, lines: dict, cfg: dict) -> list[dict]:
-    """Kalshi markets in one prop event that the books price on the same player and line."""
-    out = []
+# How spread out each stat is around the book's line (standard deviation as a share of the line). Rough on
+# purpose: it is only used to slide the books' fair chance a few yards or points to Kalshi's nearest step.
+SPREAD = {"player_reception_yds": 0.60, "player_rush_yds": 0.50, "player_pass_yds": 0.28, "player_points": 0.33,
+          "player_rebounds": 0.40, "player_assists": 0.45}
+NEAR = 0.25  # Kalshi's step must be within this share of the book's line
+
+
+def shifted(fair: float, book_line: float, strike: float, market: str) -> float | None:
+    """The books say `fair` chance of going over `book_line`; the chance of going over Kalshi's `strike` instead
+    (e.g. books 66.5, Kalshi 60+ = over 59.5), assuming a bell curve around the line. None when too far apart."""
+    spread = SPREAD.get(market)
+    if not spread or book_line <= 0 or abs(strike - book_line) > NEAR * book_line or not 0.02 < fair < 0.98:
+        return None
+    sd = spread * book_line
+    mean = book_line + sd * NormalDist().inv_cdf(fair)
+    return 1 - NormalDist(mean, sd).cdf(strike)
+
+
+def compare(event: dict, lines: dict, cfg: dict, market: str = "") -> list[dict]:
+    """Kalshi markets in one prop event that the books price on the same player: the exact same line when there
+    is one, otherwise Kalshi's nearest step below the book's line (books 66.5 -> Kalshi 60+) with the fair chance
+    slid to that step (match = "near")."""
+    out, by_player = [], {}
+    for (player, point), line in lines.items():
+        if line["books"] >= cfg["min_books"]:
+            by_player.setdefault(player, {})[point] = line
+    markets = {}
     for mk in event.get("markets", []):
         label = mk.get("yes_sub_title") or mk.get("title") or ""
         strike = mk.get("floor_strike")
+        yes_ask, no_ask = float(mk.get("yes_ask_dollars") or 0), float(mk.get("no_ask_dollars") or 0)
         if ":" not in label or strike is None or mk.get("strike_type") not in (None, "greater"):
             continue
-        line = lines.get((player_key(label.split(":")[0]), float(strike)))
-        yes_ask, no_ask = float(mk.get("yes_ask_dollars") or 0), float(mk.get("no_ask_dollars") or 0)
-        if not line or line["books"] < cfg["min_books"] or not (0 < yes_ask < 1 and 0 < no_ask < 1):
-            continue
-        out.append({"player": label.split(":")[0].strip(), "line": float(strike), "books": line["books"],
-                    "fair_yes": round(line["fair"], 4), "yes_ask": yes_ask, "no_ask": no_ask, "ticker": mk["ticker"]})
+        if 0 < yes_ask < 1 and 0 < no_ask < 1:
+            markets.setdefault(player_key(label.split(":")[0]), {})[float(strike)] = (mk, label.split(":")[0].strip(), yes_ask, no_ask)
+    for player, strikes in markets.items():
+        for point, line in by_player.get(player, {}).items():
+            if point in strikes:
+                strike, match, fair = point, "exact", line["fair"]
+            else:
+                below = [s for s in strikes if s < point]
+                strike = max(below) if below else None
+                fair = shifted(line["fair"], point, strike, market) if strike is not None else None
+                match = "near"
+                if fair is None:
+                    continue
+            mk, name, yes_ask, no_ask = strikes[strike]
+            out.append({"player": name, "line": strike, "match": match, "book_line": point, "books": line["books"],
+                        "fair_yes": round(fair, 4), "yes_ask": yes_ask, "no_ask": no_ask, "ticker": mk["ticker"]})
     return out
 
 
@@ -232,10 +268,11 @@ def scan(api: OddsAPI, cfg: dict, state: dict, now: datetime, kalshi=kalshi_even
             stats["games"] += 1
             name = f"{g['away_team']} at {g['home_team']}"
             for market, event in found.items():
-                for c in compare(event, fair_lines(odds.get("bookmakers", []), market), cfg):
+                for c in compare(event, fair_lines(odds.get("bookmakers", []), market), cfg, market):
                     base = {"time": now.isoformat(timespec="seconds"), "sport": sport, "game": name, "stat": market, **c}
                     rows.append(base)
-                    p = pick(c["fair_yes"], c["yes_ask"], c["no_ask"], cfg)
+                    edge = cfg["near_edge"] if c["match"] == "near" else cfg["min_edge"]
+                    p = pick(c["fair_yes"], c["yes_ask"], c["no_ask"], {**cfg, "min_edge": edge})
                     if p and c["ticker"] not in state["bet"]:
                         n = max(1, int(cfg["stake"] // p["price"]))
                         bets.append({**base, **p, "contracts": n, "opened": base["time"]})
@@ -244,7 +281,7 @@ def scan(api: OddsAPI, cfg: dict, state: dict, now: datetime, kalshi=kalshi_even
                 break
     state["credits"][day] = spent
     state["open"] += bets
-    append_csv(DATA / "compare.csv", COMPARE_COLS, rows)
+    append_csv(DATA / "compare_v2.csv", COMPARE_COLS, rows)
     stats.update(compared=len(rows), bets=len(bets), spent_today=spent, credits_left=api.remaining)
     return stats
 

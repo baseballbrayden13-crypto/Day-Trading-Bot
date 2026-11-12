@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 
 from bot import kalshi_props as kp
 
-CFG = {"min_edge": 0.05, "min_books": 3, "min_price": 0.15, "max_price": 0.85, "credits": 6, "hours": 6,
+CFG = {"near_edge": 0.08, "min_edge": 0.05, "min_books": 3, "min_price": 0.15, "max_price": 0.85, "credits": 6, "hours": 6,
        "stake": 2, "quiet": "off", "sports": ["basketball_nba"]}
 NOW = datetime(2026, 11, 11, 22, 0, tzinfo=timezone.utc)
 GAME = {"id": "g1", "home_team": "New Orleans Pelicans", "away_team": "Brooklyn Nets", "commence_time": "2026-11-12T01:00:00Z"}
@@ -91,3 +91,19 @@ def test_scan_bets_once_logs_and_respects_the_credit_cap(tmp_path, monkeypatch):
     done = kp.settle(state, NOW, kresult=lambda t: "yes")
     assert done[0]["pnl"] == 1.93 and state["open"] == []
     assert kp.record() == {"bets": 1, "won": 1, "profit": 1.93, "staked": 2.0}
+
+
+def test_near_line_uses_kalshis_step_below_the_books_line():
+    books = [book(t, 1.91, 1.91, player="Malik Nabers", point=66.5, key="player_reception_yds") for t in "ABC"]
+    ev = {"markets": [
+        {"ticker": "K-60", "yes_sub_title": "Malik Nabers: 60+", "floor_strike": 59.5, "strike_type": "greater",
+         "yes_ask_dollars": "0.5500", "no_ask_dollars": "0.4700"},
+        {"ticker": "K-50", "yes_sub_title": "Malik Nabers: 50+", "floor_strike": 49.5, "strike_type": "greater",
+         "yes_ask_dollars": "0.6500", "no_ask_dollars": "0.3700"},
+        {"ticker": "K-70", "yes_sub_title": "Malik Nabers: 70+", "floor_strike": 69.5, "strike_type": "greater",
+         "yes_ask_dollars": "0.4500", "no_ask_dollars": "0.5700"}]}
+    rows = kp.compare(ev, kp.fair_lines(books, "player_reception_yds"), CFG, "player_reception_yds")
+    assert len(rows) == 1 and rows[0]["ticker"] == "K-60" and rows[0]["match"] == "near" and rows[0]["book_line"] == 66.5
+    assert 0.55 < rows[0]["fair_yes"] < 0.60  # 50% to clear 66.5 -> a bit better than that to clear 59.5
+    assert kp.shifted(0.5, 66.5, 29.5, "player_reception_yds") is None  # too far from the book's line
+    assert kp.shifted(0.5, 66.5, 59.5, "unknown_stat") is None
