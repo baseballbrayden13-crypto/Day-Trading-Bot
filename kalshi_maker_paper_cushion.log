@@ -1081,3 +1081,18 @@
 2026-11-12 11:36:44,677 INFO PAPER rest NO bid KXCONCACAFNLGAME-26NOV13SMASLV-SMA at $0.5100 x2 (0 already bid at that price)
 2026-11-12 11:36:44,677 INFO Resting NO bid on KXCONCACAFNLGAME-26NOV13SMASLV-SMA at $0.5100 x2 (KXCONCACAFNLGAME-26NOV13SMASLV): locks in $0.51 if it fills; hedge NO SLV@0.2600, TIE@0.9500
 2026-11-12 11:36:44,678 INFO Swept 21249 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 11:41:41,953 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:41:45,549 INFO PAPER rest NO bid KXAFCON1H-26NOV12CODSLE-TIE at $0.3500 x2 (0 already bid at that price)
+2026-11-12 11:41:45,549 INFO Resting NO bid on KXAFCON1H-26NOV12CODSLE-TIE at $0.3500 x2 (KXAFCON1H-26NOV12CODSLE): locks in $1.09 if it fills; hedge NO COD@0.0900
+2026-11-12 11:41:45,550 INFO Swept 21247 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-12 11:46:41,113 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:46:44,851 INFO Swept 21255 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-12 11:51:46,083 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:51:49,552 INFO Swept 21249 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-12 11:51:49,848 INFO Quote KXAFCON1H-26NOV12CODSLE cancelled (0/2 filled)
+2026-11-12 11:56:45,936 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 11:56:49,420 INFO Swept 21236 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 12:01:47,992 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:01:51,488 INFO Swept 21235 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 12:06:49,802 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 12:06:53,311 INFO Swept 21234 events: 0 taker trades, 0 new quotes, 1 resting
