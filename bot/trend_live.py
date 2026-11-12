@@ -1,4 +1,4 @@
-"""Bot 6: QQQ trend on a slice of bot 3's Alpaca PAPER account.
+"""Bot 6: QQQ trend (held as QLD, 2x QQQ, since Nov 12) on a slice of bot 3's Alpaca PAPER account.
 
     python -m bot.trend_live            # once a day after the open: switch between QQQ and BIL when the trend flips
     python -m bot.trend_live --dry-run  # show what it would hold now, place nothing
@@ -7,6 +7,9 @@ Rule (Nov 5 2026 test, /mnt/project-files/reports/strategy-research-round2.md): 
 whole slice while its last daily close is above its TREND_MA-day average (200), else TREND_SAFE (BIL, T-bills).
 2008-2026: about +14.7% a year with a -23% worst drop (QQQ buy-and-hold: +18.9%, -35%). It only trades when the
 trend flips, a few times a year.
+
+Nov 12 2026 (C-065, brayden's pick): TREND_SYMBOL=QLD with TREND_SIGNAL=QQQ, so it holds 2x QQQ on QQQ's trend.
+Test: +24.7% a year in 2018-2026 vs +14.3% for plain QQQ, but a -43% worst drop vs -24%. Undo: drop both env lines.
 
 Shares account ...KTS7 with bot 3 through bot.sleeves (SLEEVES="3=2500,6=2500", SLEEVES_FILE=sleeves_kts7.json),
 so it only spends its own slice and only sells its own shares. Keys come from .env.trend (a copy of bot 3's).
@@ -57,6 +60,7 @@ def main() -> None:
     finally:
         rotation_live.ENV_FILE = old
     risky, safe = os.getenv("TREND_SYMBOL", "QQQ").upper(), os.getenv("TREND_SAFE", "BIL").upper()
+    signal = os.getenv("TREND_SIGNAL", risky).upper()  # Nov 12 (C-065): hold QLD (2x QQQ) on QQQ's own trend
     ma = int(os.getenv("TREND_MA", "200"))
     from . import sleeves
     from .broker import Broker
@@ -75,10 +79,10 @@ def main() -> None:
     if not args.dry_run and not broker.market_open():
         log.info("Market closed; will try at the next run.")
         return
-    closes = rotation_live.daily_closes([risky, safe], cfg)
-    want = pick(closes[risky], ma, risky, safe)
+    closes = rotation_live.daily_closes(list(dict.fromkeys([signal, risky, safe])), cfg)
+    want = pick(closes[signal], ma, risky, safe)
     if want is None:
-        log.error("Only %d days of %s closes; need %d.", len(closes[risky].dropna()), risky, ma)
+        log.error("Only %d days of %s closes; need %d.", len(closes[signal].dropna()), signal, ma)
         return
     prices = closes.iloc[-1].to_dict()
     coins = os.getenv("CRYPTO_SYMBOLS", "BTC/USD,ETH/USD").split(",")
@@ -86,23 +90,31 @@ def main() -> None:
     account_qty = {names.get(p.symbol, p.symbol): float(p.qty) for p in broker.client.get_all_positions()}
     shared = sleeves.budgets()
     ledger = sleeves.load()
+    sleeves.resize(ledger, shared)
     if "6" in shared and not sleeves.ready(ledger, shared, broker.equity()):
         log.info("Waiting for the shared account to hold $%.0f for sleeves %s; nothing to do.", sum(shared.values()), shared)
         return
     others = {"3": coins}
+    if "7" in shared:
+        from .fleet import DIP_SYMBOLS
+
+        others["7"] = os.getenv("MOM_SYMBOLS", DIP_SYMBOLS).split(",")
     sleeve = sleeves.open_sleeve(ledger, "6", [risky, safe], shared.get("6") or broker.equity(), account_qty, prices, others)
     for problem in sleeves.check_account(ledger, account_qty):
         log.error("Sleeve mismatch: %s", problem)
     held = sleeve.shares
     sells, buy = plan(want, held)
-    avg = closes[risky].dropna().iloc[-ma:].mean()
+    avg = closes[signal].dropna().iloc[-ma:].mean()
     value = sleeve.value(prices)
     log.info("%s close: %s $%.2f vs %d-day average $%.2f -> hold %s | holding %s | bot 6 value $%.2f (cash $%.2f)",
-             closes.index[-1].date(), risky, prices[risky], ma, avg, want, held or "nothing", value, sleeve.cash)
+             closes.index[-1].date(), signal, prices[signal], ma, avg, want, held or "nothing", value, sleeve.cash)
     for s in sells:
         log.info("SELL %s x%g", s, held[s])
     if buy:
         log.info("BUY %s with the slice's cash", want)
+    cover = 0.0 if sells else sleeves.cover_qty(sleeve.cash, prices.get(want, 0), held.get(want, 0))
+    if cover:
+        log.info("SELL %s x%g to bring the slice's cash back above $0 (after a resize)", want, cover)
     if args.dry_run:
         return
 
@@ -110,6 +122,12 @@ def main() -> None:
     from alpaca.trading.requests import MarketOrderRequest
 
     done = []
+    if cover:
+        o = broker.client.submit_order(MarketOrderRequest(symbol=want, qty=cover, side=OrderSide.SELL, time_in_force=TimeInForce.DAY))
+        qty, px = sleeves.wait_fill(broker.client, o.id)
+        if qty:
+            sleeve.record(want, -qty, px)
+            done.append(f"sold {qty:g} {want} at ${px:.2f} for the new split")
     for s in sells:
         o = broker.client.submit_order(MarketOrderRequest(symbol=s, qty=held[s], side=OrderSide.SELL, time_in_force=TimeInForce.DAY))
         qty, px = sleeves.wait_fill(broker.client, o.id)

@@ -74,6 +74,7 @@ class Settings:
     max_daily_loss_pct: float = field(default_factory=lambda: _float("MAX_DAILY_LOSS_PCT", 0.02))  # stop for the day at -2%
     max_trades_per_day: int = field(default_factory=lambda: _int("MAX_TRADES_PER_DAY", 10))
     skip_event_days: bool = field(default_factory=lambda: _bool("SKIP_EVENT_DAYS", False))  # bot.events
+    news_filter: bool = field(default_factory=lambda: _bool("NEWS_FILTER", False))  # bot.news: skip no-news stocks
     no_entry_first_minutes: int = field(default_factory=lambda: _int("NO_ENTRY_FIRST_MINUTES", 15))
     flatten_minutes_before_close: int = field(default_factory=lambda: _int("FLATTEN_MINUTES_BEFORE_CLOSE", 10))
 

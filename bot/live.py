@@ -122,6 +122,12 @@ def run_once(cfg: Settings, broker: Broker, risk: RiskManager, reviewer=None) ->
         sig = entry_signal(sym, bars, cfg)
         if sig is None:
             continue
+        if cfg.news_filter:
+            from .news import has_news
+
+            if not has_news(sym, now_et, cfg.alpaca_key, cfg.alpaca_secret):
+                log.info("SKIP %s breakout: no news of its own since the last close (news filter)", sym)
+                continue
         if reviewer is not None:
             approved, note = reviewer.review(sig, bars)
             log.info("%s %s", sym, note)

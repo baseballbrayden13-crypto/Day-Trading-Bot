@@ -92,6 +92,32 @@ def open_sleeve(ledger: dict, bot: str, symbols: list[str], start: float, accoun
     return Sleeve(ledger, bot, symbols)
 
 
+def resize(ledger: dict, shared: dict[str, float]) -> list[str]:
+    """Apply new budgets from SLEEVES to slices that already exist: a slice whose budget changed gains or loses the
+    difference in cash (its "start" becomes the new budget). Used when a new bot joins a shared account (Nov 12:
+    bot 7 took a third of ...KTS7 from bots 3 and 6). A slice can go below $0 cash; its bot then sells enough of
+    its own holdings to cover it on its next run. Idempotent: a second call changes nothing."""
+    done = []
+    for bot, amount in shared.items():
+        book = ledger.get(bot)
+        if book is None or abs(book.get("start", amount) - amount) < 0.01:
+            continue
+        delta = amount - book.get("start", amount)
+        book["cash"] += delta
+        book["start"] = amount
+        book.setdefault("resized", []).append([time.strftime("%Y-%m-%d"), round(delta, 2)])
+        done.append(f"bot {bot} {delta:+.2f}")
+        log.info("Resized bot %s's slice by $%+.2f to a $%.0f budget (cash now $%.2f)", bot, delta, amount, book["cash"])
+    return done
+
+
+def cover_qty(cash: float, price: float, held_qty: float) -> float:
+    """Shares to sell so a slice's cash is back to >= $0 (with a 1% cushion), never more than it holds."""
+    if cash >= 0 or price <= 0:
+        return 0.0
+    return min(held_qty, round(-cash * 1.01 / price + 1e-6, 6))
+
+
 def ready(ledger: dict, shares: dict[str, float], account_equity: float) -> bool:
     """Open new sleeves only once the account holds enough for all of them (e.g. after a reset to the total),
     so a half-funded account never leaves a sleeve counting money that isn't there."""

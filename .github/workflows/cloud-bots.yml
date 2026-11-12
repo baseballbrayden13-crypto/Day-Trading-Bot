@@ -89,22 +89,37 @@ jobs:
           SLEEVES: "2=2450,5=2450"
         run: cp .env.rotation .env.dipbuy && python -m bot.dipbuy_live
 
-      - name: Bot 6 (QQQ trend, shares bot 3's account)
+      - name: Bot 6 (QQQ trend held as QLD, shares bot 3's account)
         if: always() && contains(fromJSON('["bot2","all"]'), steps.pick.outputs.what)
         working-directory: state
         env:
-          # Bots 3 and 6 share account ...KTS7 (bot.sleeves): $2,500 each of the $5,000 account (C-055).
-          # Undo: delete this step and the two SLEEVES lines on bot 3; bot 3 goes back to the whole account.
-          SLEEVES: "3=2500,6=2500"
+          # Bots 3, 6 and 7 share account ...KTS7 (bot.sleeves). C-055 split it 2500/2500; C-063 (Nov 12) added bot 7
+          # with a third each. Undo C-063: delete the Bot 7 step and set SLEEVES back to "3=2500,6=2500" everywhere.
+          SLEEVES: "3=1666,6=1667,7=1667"
           SLEEVES_FILE: sleeves_kts7.json
+          CRYPTO_SYMBOLS: "BTC/USD,ETH/USD,SOL/USD"
+          TREND_SYMBOL: QLD    # C-065: 2x QQQ on QQQ's trend; undo: delete this line and TREND_SIGNAL
+          TREND_SIGNAL: QQQ
         run: cp .env.crypto .env.trend && python -m bot.trend_live
+
+      - name: Bot 7 (big-stock momentum, shares bot 3's account)
+        if: always() && contains(fromJSON('["bot2","all"]'), steps.pick.outputs.what)
+        working-directory: state
+        env:
+          SLEEVES: "3=1666,6=1667,7=1667"
+          SLEEVES_FILE: sleeves_kts7.json
+          CRYPTO_SYMBOLS: "BTC/USD,ETH/USD,SOL/USD"
+          TREND_SYMBOL: QLD
+        run: cp .env.crypto .env.momentum && python -m bot.momentum_live  # C-063
 
       - name: Bot 3 (crypto trend)
         if: contains(fromJSON('["bot3","night","all"]'), steps.pick.outputs.what)
         working-directory: state
         env:
-          SLEEVES: "3=2500,6=2500"
+          SLEEVES: "3=1666,6=1667,7=1667"
           SLEEVES_FILE: sleeves_kts7.json
+          CRYPTO_SYMBOLS: "BTC/USD,ETH/USD,SOL/USD"  # C-064: SOL added; undo: delete this line
+          TREND_SYMBOL: QLD
         run: python -m bot.crypto_live
 
       - name: Bot 3b (pretend copy with the fear & greed rule, no orders)
@@ -131,5 +146,5 @@ jobs:
         if: always()
         working-directory: state
         run: |
-          rm -f .env .env.rotation .env.crypto .env.dipbuy .env.trend
+          rm -f .env .env.rotation .env.crypto .env.dipbuy .env.trend .env.momentum
           bash ../code/cloud/save_state.sh "${{ steps.pick.outputs.what }}"

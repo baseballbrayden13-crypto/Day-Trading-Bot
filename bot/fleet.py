@@ -72,14 +72,21 @@ class Bot:
 # When a bot's account was split into sleeves (bot.sleeves), its money dropped without any loss. Equity before
 # the split day is multiplied by this factor so drawdown, return and report-card checks see one continuous record.
 # Bot 2: $2,450 slice of a $4,846.61 account (Nov 5 close), split on Nov 6 2026.
-SPLITS: dict[int, tuple[str, float]] = {2: ("2026-11-06", 2450 / 4846.61),
-                                       8: ("2026-11-06", 2450 / 5000),  # bot 5's Nov 5 row was the whole account
-                                       3: ("2026-11-10", 0.5)}  # bot 3: half of its $5,000 account from Nov 10 (bot 6 has the rest)
+SPLITS: dict[int, tuple[tuple[str, float], ...]] = {
+    2: (("2026-11-06", 2450 / 4846.61),),
+    8: (("2026-11-06", 2450 / 5000),),  # bot 5's Nov 5 row was the whole account
+    3: (("2026-11-10", 0.5),  # bot 3: half of its $5,000 account from Nov 10 (bot 6 has the rest)
+        ("2026-11-12", 1666 / 2500)),  # then a third from Nov 12 (bot 7 joined ...KTS7, C-063)
+    10: (("2026-11-12", 1667 / 2500),),  # bot 6: a third of ...KTS7 from Nov 12
+}
 
 
 def rescale(num: int, day: str, equity: float) -> float:
-    split = SPLITS.get(int(num))
-    return equity * split[1] if split and day < split[0] else equity
+    """A row from before a bot's account was split, scaled to its slice (each later split multiplies in)."""
+    for when, share in SPLITS.get(int(num), ()):
+        if day < when:
+            equity *= share
+    return equity
 
 
 DIP_SYMBOLS = ("AAPL,MSFT,NVDA,AMZN,GOOGL,META,TSLA,JPM,V,UNH,HD,PG,JNJ,XOM,COST,AVGO,LLY,MA,KO,PEP,WMT,BAC,CVX,MRK,"
@@ -101,10 +108,10 @@ FLEET: list[Bot] = [
         max_drawdown_pct=26.0, max_day_loss_pct=6.0, min_profit_factor=0, min_trades=0, max_position_share=0.40,
         symbols=ROTATION_ETFS, sleeve="2", notes="Trades once a month; holdings should match rotation_state.json."),
     Bot(3, "Crypto trend", "alpaca", ".env.crypto", "KTS7", "crypto.log", days="daily", runs_at="20:15",
-        task="Trading bot 3 (crypto, paper)", sleeve="3", sleeve_file=KTS7_SLEEVES, start_equity=2500.0,  # $5,000 before the split
-        # 12 years BTC/ETH above the 50-day: worst drops -29% to -60%.
+        task="Trading bot 3 (crypto, paper)", sleeve="3", sleeve_file=KTS7_SLEEVES, start_equity=1666.0,  # $5,000, then $2,500 before the splits
+        # 12 years BTC/ETH above the 50-day: worst drops -29% to -60%. With SOL (Nov 12, C-064), 2022+: -40%.
         max_drawdown_pct=45.0, max_day_loss_pct=15.0, min_profit_factor=0, min_trades=0, max_position_share=0.60,
-        symbols=("BTC/USD", "ETH/USD"), notes="Holds a coin only while it closes above its 50-day average."),
+        symbols=("BTC/USD", "ETH/USD", "SOL/USD"), notes="Holds a coin only while it closes above its 50-day average."),
     Bot(4, "Kalshi paper", "kalshi", ".env.kalshi", "", "kalshi_paper.log", days="daily", runs_at="00:00",
         task="Trading bot 4 (Kalshi, paper)", always_on=True, stale_minutes=180,
         runs=(("paper", "kalshi_data", "kalshi_paper_state.json", "kalshi_paper.log"),), err_log="kalshi_paper_err.log",
@@ -139,11 +146,18 @@ FLEET: list[Bot] = [
         symbols=tuple(DIP_SYMBOLS.split(",")),
         notes="Shares bot 2's account through sleeves.json; only its own slice and its own stocks count."),
     Bot(10, "QQQ trend", "alpaca", ".env.crypto", "KTS7", "trend.log", label="6", days="weekdays", runs_at="09:50",
-        task="Trading bot 6 (QQQ trend, paper)", runs_on="cloud", sleeve="6", sleeve_file=KTS7_SLEEVES, bt_yearly=0.147,
-        start_equity=2500.0,
-        # 2008-2026: QQQ while it closes above its 200-day average, else T-bills: +14.7%/yr, worst drop -23%.
-        max_drawdown_pct=23.0, max_day_loss_pct=6.0, min_profit_factor=0, min_trades=0, max_position_share=1.01,
-        symbols=("QQQ", "BIL"), notes="Shares bot 3's account through sleeves_kts7.json. Holds QQQ or BIL, all in one."),
+        task="Trading bot 6 (QQQ trend, paper)", runs_on="cloud", sleeve="6", sleeve_file=KTS7_SLEEVES, bt_yearly=0.165,
+        start_equity=1667.0,
+        # Since Nov 12 (C-065) it holds QLD (2x QQQ) while QQQ closes above its 200-day average, else T-bills.
+        # 2005-2026 test: +16.5%/yr (2018+: +24.7%), worst drop -49% (2018+: -43%).
+        max_drawdown_pct=45.0, max_day_loss_pct=12.0, min_profit_factor=0, min_trades=0, max_position_share=1.01,
+        symbols=("QLD", "BIL"), notes="Shares ...KTS7 with bots 3 and 7 (sleeves_kts7.json). Holds QLD or BIL, all in one."),
+    Bot(11, "Momentum", "alpaca", ".env.crypto", "KTS7", "momentum.log", label="7", days="weekdays", runs_at="09:50",
+        task="Trading bot 7 (momentum, paper)", runs_on="cloud", sleeve="7", sleeve_file=KTS7_SLEEVES, bt_yearly=0.30,
+        start_equity=1667.0,
+        # 2005-2026: top 5 of 39 big stocks by 12-1 month gain, monthly: +30%/yr, worst drop -43% (survivor-inflated).
+        max_drawdown_pct=43.0, max_day_loss_pct=10.0, min_profit_factor=0, min_trades=0, max_position_share=0.40,
+        symbols=tuple(DIP_SYMBOLS.split(",")), notes="Shares ...KTS7 with bots 3 and 6. Rebalances on the first run of each month."),
 ]
 
 
