@@ -2516,5 +2516,25 @@
    "sold_back": true
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNLGAME-26NOV111345HAPEVZ",
+   "series": "KXNLGAME",
+   "title": "HC Ambri-Piotta vs EV Zug",
+   "ticker": "KXNLGAME-26NOV111345HAPEVZ-HAP",
+   "order_id": "paper-985-1794493231",
+   "price": "0.23",
+   "sets": 3,
+   "done": 0,
+   "reserve": "2.8800",
+   "multiplier": "1",
+   "placed": 1794493231.2147794,
+   "hedge": [
+    {
+     "ticker": "KXNLGAME-26NOV111345HAPEVZ-EVZ",
+     "limit": "0.7100"
+    }
+   ]
+  }
+ ]
 }

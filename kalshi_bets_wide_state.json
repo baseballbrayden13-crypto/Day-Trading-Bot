@@ -15,22 +15,6 @@
    "note": "daily safest: likeliest outcome closing within 24h",
    "cost": "0.99",
    "expected": "-0.01"
-  },
-  {
-   "strategy": "daily_safest",
-   "ticker": "KXCONTCLAIMS-26NOV12-T1670",
-   "event": "KXCONTCLAIMS-26NOV12",
-   "series": "KXCONTCLAIMS",
-   "side": "yes",
-   "count": 1,
-   "price": "0.9800",
-   "fee": "0.01",
-   "prob": 0.98,
-   "close_time": "2026-11-12T13:29:00Z",
-   "placed": "2026-11-11T21:38:24+00:00",
-   "note": "daily safest: likeliest outcome closing within 24h",
-   "cost": "0.99",
-   "expected": "-0.01"
   }
  ],
  "closed": [
@@ -293,6 +277,26 @@
    "paid": "1.00",
    "pnl": "0.01",
    "closed": "2026-11-11T13:07:34+00:00"
+  },
+  {
+   "strategy": "daily_safest",
+   "ticker": "KXCONTCLAIMS-26NOV12-T1670",
+   "event": "KXCONTCLAIMS-26NOV12",
+   "series": "KXCONTCLAIMS",
+   "side": "yes",
+   "count": 1,
+   "price": "0.9800",
+   "fee": "0.01",
+   "prob": 0.98,
+   "close_time": "2026-11-12T13:29:00Z",
+   "placed": "2026-11-11T21:38:24+00:00",
+   "note": "daily safest: likeliest outcome closing within 24h",
+   "cost": "0.99",
+   "expected": "-0.01",
+   "result": "yes",
+   "paid": "1.00",
+   "pnl": "0.01",
+   "closed": "2026-11-12T14:10:26+00:00"
   }
  ]
 }
