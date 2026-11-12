@@ -1010,3 +1010,18 @@
 2026-11-12 05:25:15,946 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 05:25:19,592 INFO Swept 21155 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-12 05:25:29,594 INFO Stopped; all quotes cancelled.
+2026-11-12 09:08:58,618 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-12 09:10:48,735 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 09:10:52,295 INFO Swept 21190 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 09:15:54,309 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 09:15:57,522 INFO Swept 21192 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 09:20:54,943 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 09:20:58,626 INFO PAPER rest NO bid KXNLGAME-26NOV111345HAPEVZ-HAP at $0.2300 x5 (963 already bid at that price)
+2026-11-12 09:20:58,626 INFO Resting NO bid on KXNLGAME-26NOV111345HAPEVZ-HAP at $0.23 x5 (KXNLGAME-26NOV111345HAPEVZ): locks in $0.20 if it fills; hedge NO EVZ@0.7100
+2026-11-12 09:20:58,627 INFO Swept 21186 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 09:25:55,057 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 09:25:58,296 INFO Swept 21175 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 09:31:00,334 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 09:31:03,566 INFO Swept 21177 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 09:35:58,523 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 09:36:02,082 INFO Swept 21177 events: 0 taker trades, 0 new quotes, 1 resting
