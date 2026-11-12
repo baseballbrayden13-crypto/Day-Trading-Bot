@@ -1147,3 +1147,20 @@
 2026-11-12 13:32:34,774 INFO Swept 21293 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-12 13:37:35,697 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 13:37:39,024 INFO Swept 21289 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 13:42:39,897 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 13:42:43,212 INFO Swept 21287 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 13:47:42,956 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 13:47:45,966 INFO Swept 21323 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 13:52:46,921 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 13:52:50,461 INFO PAPER rest NO bid KXNHL2P-26NOV12CARSEA-TIE at $0.8600 x2 (0 already bid at that price)
+2026-11-12 13:52:50,461 INFO Resting NO bid on KXNHL2P-26NOV12CARSEA-TIE at $0.8600 x2 (KXNHL2P-26NOV12CARSEA): locks in $0.24 if it fills; hedge NO CAR@0.0100
+2026-11-12 13:52:50,462 INFO Swept 21330 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 13:57:50,323 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 13:57:53,307 INFO Swept 21347 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 14:02:50,614 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:02:53,386 INFO Swept 21370 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 14:02:53,566 INFO Quote KXNHL2P-26NOV12CARSEA cancelled (0/2 filled)
+2026-11-12 14:07:51,527 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 14:07:55,029 INFO PAPER rest NO bid KXAFCONFTTS-26NOV12SENSDN-SDN at $0.5100 x2 (0 already bid at that price)
+2026-11-12 14:07:55,029 INFO Resting NO bid on KXAFCONFTTS-26NOV12SENSDN-SDN at $0.5100 x2 (KXAFCONFTTS-26NOV12SENSDN): locks in $0.22 if it fills; hedge NO SEN@0.3600, NONE@0.9900
+2026-11-12 14:07:55,030 INFO Swept 21384 events: 0 taker trades, 1 new quotes, 1 resting

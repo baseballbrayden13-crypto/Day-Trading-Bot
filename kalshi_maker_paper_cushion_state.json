@@ -73,5 +73,29 @@
    "closed": "2026-11-12T05:07:29.190391+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXAFCONFTTS-26NOV12SENSDN",
+   "series": "KXAFCONFTTS",
+   "title": "Senegal vs Sudan: First Team to Score",
+   "ticker": "KXAFCONFTTS-26NOV12SENSDN-SDN",
+   "order_id": "paper-71-1794510475",
+   "price": "0.5100",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.7800",
+   "multiplier": "1",
+   "placed": 1794510475.0297568,
+   "hedge": [
+    {
+     "ticker": "KXAFCONFTTS-26NOV12SENSDN-SEN",
+     "limit": "0.3600"
+    },
+    {
+     "ticker": "KXAFCONFTTS-26NOV12SENSDN-NONE",
+     "limit": "0.9900"
+    }
+   ]
+  }
+ ]
 }
