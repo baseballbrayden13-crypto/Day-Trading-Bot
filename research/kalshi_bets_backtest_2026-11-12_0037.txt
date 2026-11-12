@@ -1,0 +1,27 @@
+module: bot.kalshi_bets_backtest args: weather --days 60 --lead 1 --bias
+KXHIGHNY (Central Park): 46 days, forecast missed by +0.3F on average, spread 2.1F (model assumes 2.8)
+KXHIGHCHI (Chicago Midway): 53 days, forecast missed by +1.9F on average, spread 2.5F (model assumes 2.8)
+KXHIGHMIA (Miami Intl): 60 days, forecast missed by +2.9F on average, spread 2.6F (model assumes 2.8)
+KXHIGHLAX (Los Angeles Intl): 44 days, forecast missed by +1.8F on average, spread 2.7F (model assumes 2.8)
+KXHIGHAUS (Austin Bergstrom): 49 days, forecast missed by +1.9F on average, spread 1.9F (model assumes 2.8)
+KXHIGHDEN (Denver Intl): 52 days, forecast missed by +0.8F on average, spread 2.5F (model assumes 2.8)
+KXHIGHPHIL (Philadelphia Intl): 57 days, forecast missed by +3.2F on average, spread 1.9F (model assumes 2.8)
+
+weather (all): 412 bets, won 35, profit $-481.52 on $863.52 bet (expected $4946.06); earlier half $-238.49, later half $-243.03; t-stat -0.8
+  KXHIGHAUS: 57 bets, won 7, profit $8.35 on $120.65 bet (expected $655.23); earlier half $-5.24, later half $13.59; t-stat 1.5
+  KXHIGHCHI: 60 bets, won 3, profit $-114.35 on $126.35 bet (expected $765.20); earlier half $-63.55, later half $-50.80; t-stat -0.8
+  KXHIGHDEN: 59 bets, won 5, profit $-67.12 on $124.12 bet (expected $723.24); earlier half $-21.99, later half $-45.13; t-stat -0.1
+  KXHIGHLAX: 57 bets, won 13, profit $-41.63 on $116.63 bet (expected $479.37); earlier half $8.47, later half $-50.10; t-stat 0.8
+  KXHIGHMIA: 59 bets, won 1, profit $-74.94 on $124.94 bet (expected $1008.82); earlier half $-10.99, later half $-63.95; t-stat -1.3
+  KXHIGHNY: 60 bets, won 4, profit $-114.32 on $123.32 bet (expected $511.96); earlier half $-57.36, later half $-56.96; t-stat -1.8
+  KXHIGHPHIL: 60 bets, won 2, profit $-77.51 on $127.51 bet (expected $802.23); earlier half $-63.56, later half $-13.95; t-stat -0.5
+  YES bets: 400 bets, won 26, profit $-485.28 on $841.28 bet (expected $4940.01); earlier half $-243.24, later half $-242.04; t-stat -1.1
+  NO bets: 12 bets, won 9, profit $3.76 on $22.24 bet (expected $6.05); earlier half $4.75, later half $-0.99; t-stat 0.9
+  price 0.0-0.2: 365 bets, won 10, profit $-473.84 on $776.84 bet (expected $4895.31); earlier half $-219.96, later half $-253.88; t-stat -1.4
+  price 0.2-0.4: 20 bets, won 4, profit $-18.09 on $39.09 bet (expected $38.21); earlier half $-9.48, later half $-8.61; t-stat -1.2
+  price 0.4-0.6: 11 bets, won 8, profit $7.31 on $19.69 bet (expected $7.67); earlier half $4.19, later half $3.12; t-stat 1.3
+  price 0.6-0.8: 10 bets, won 8, profit $3.20 on $17.80 bet (expected $3.49); earlier half $0.97, later half $2.23; t-stat 0.7
+  price 0.8-1.0: 6 bets, won 5, profit $-0.10 on $10.10 bet (expected $1.40); earlier half $0.91, later half $-1.01; t-stat -0.1
+
+Saved to reports/kalshi_bets_weather_2026-11-12_0039.csv
+Worth paper money only if both halves made money and t-stat is 2+.
