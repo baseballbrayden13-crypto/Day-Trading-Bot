@@ -10,6 +10,9 @@ built as a real paper bot (brayden decides).
   R1  Top 3 momentum     the 3 of bot 7's 39 big stocks with the best 12-1 month gain, re-picked monthly
   R2  QQQ 150-day trend  plain QQQ while it closes above its 150-day average, else BIL (T-bills)
   R3  Bot 3b             the pretend fear & greed copy of bot 3 (read from crypto_shadow.json)
+  R4  Income bot         high-dividend ETFs SCHD, VYM, JEPI and JEPQ, a quarter each, evened out monthly. Prices are
+                         dividend-adjusted, so payouts count as if reinvested (Nov 12 2026, C-068, brayden's pick).
+                         Test: +12.5% a year since mid-2022 with a -16% worst drop (SPY: +16.3%, -20%).
 
 State: rookies.json. Output: fleet_data/rookies.csv (day, rookie, equity).
 """
@@ -29,7 +32,8 @@ COST = 0.0005  # per dollar traded
 STATE = Path("rookies.json")
 CSV = Path("fleet_data/rookies.csv")
 SHADOW = Path("crypto_shadow.json")
-NAMES = {"R1": "Top 3 momentum", "R2": "QQQ 150-day trend", "R3": "Bot 3b (fear & greed crypto)"}
+NAMES = {"R1": "Top 3 momentum", "R2": "QQQ 150-day trend", "R3": "Bot 3b (fear & greed crypto)", "R4": "Income bot"}
+INCOME = ("SCHD", "VYM", "JEPI", "JEPQ")
 
 
 def top3(closes: pd.DataFrame, old: dict, new_month: bool) -> dict[str, float]:
@@ -49,7 +53,14 @@ def qqq150(closes: pd.DataFrame, old: dict, new_month: bool) -> dict[str, float]
     return {"QQQ": 1.0} if q.iloc[-1] > q.iloc[-150:].mean() else {"BIL": 1.0}
 
 
-RULES = {"R1": top3, "R2": qqq150}
+def income(closes: pd.DataFrame, old: dict, new_month: bool) -> dict[str, float]:
+    if old and not new_month:
+        return old
+    have = [s for s in INCOME if s in closes.columns and pd.notna(closes[s].iloc[-1])]
+    return {s: 1 / len(have) for s in have} if have else old
+
+
+RULES = {"R1": top3, "R2": qqq150, "R4": income}
 
 
 def advance(book: dict, closes: pd.DataFrame, rule) -> dict:
@@ -99,7 +110,7 @@ def main() -> None:
         state = json.loads(STATE.read_text())
     except (OSError, ValueError):
         state = {}
-    closes = daily_closes(DIP_SYMBOLS.split(",") + ["QQQ", "BIL"], cfg)
+    closes = daily_closes(DIP_SYMBOLS.split(",") + ["QQQ", "BIL", *INCOME], cfg)
     books, hist = state.setdefault("books", {}), state.setdefault("history", {})
     for r, rule in RULES.items():
         books[r] = advance(books.get(r, {}), closes, rule)
