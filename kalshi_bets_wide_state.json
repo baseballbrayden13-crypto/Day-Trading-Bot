@@ -15,6 +15,55 @@
    "note": "daily safest: likeliest outcome closing within 24h",
    "cost": "0.99",
    "expected": "-0.01"
+  },
+  {
+   "strategy": "daily_safest",
+   "ticker": "KXRAIN-26NOV13-CHI",
+   "event": "KXRAIN-26NOV13",
+   "series": "KXRAIN",
+   "side": "no",
+   "count": 1,
+   "price": "0.9800",
+   "fee": "0.01",
+   "prob": 0.98,
+   "close_time": "2026-11-14T06:00:00Z",
+   "placed": "2026-11-13T21:04:17+00:00",
+   "note": "daily safest: likeliest outcome closing within 24h",
+   "cost": "0.99",
+   "expected": "-0.01"
+  },
+  {
+   "strategy": "daily_combo",
+   "ticker": "COMBO-2026-11-13",
+   "event": "COMBO-2026-11-13",
+   "series": "COMBO",
+   "side": "yes",
+   "count": 1,
+   "price": "0.9412",
+   "fee": "0.01",
+   "prob": 0.9412,
+   "close_time": "2026-11-14T09:00:00Z",
+   "placed": "2026-11-13T21:04:17+00:00",
+   "cost": "0.95",
+   "expected": "0.00",
+   "note": "daily combo: all 3 safest sides must win",
+   "legs": [
+    {
+     "ticker": "KXRAIN-26NOV13-CHI",
+     "side": "no",
+     "price": "0.9800"
+    },
+    {
+     "ticker": "KXLOWTLAX-26NOV13-B61.5",
+     "side": "yes",
+     "price": "0.9800"
+    },
+    {
+     "ticker": "KXHIGHTSEA-26NOV13-B60.5",
+     "side": "yes",
+     "price": "0.9800"
+    }
+   ]
   }
  ],
  "closed": [

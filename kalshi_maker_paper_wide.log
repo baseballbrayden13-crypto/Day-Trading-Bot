@@ -8717,3 +8717,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 14:23:21,107 INFO Resting NO bid on KXCONCACAFNL1H-26NOV13BMULCA-BMU at $0.7400 x1 (KXCONCACAFNL1H-26NOV13BMULCA): locks in $0.17 if it fills; hedge NO LCA@0.1000, TIE@0.9600
 2026-11-13 14:23:21,175 INFO Swept 21733 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-13 14:23:26,617 INFO Stopped; all quotes cancelled.
+2026-11-13 16:04:17,858 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-13 16:09:26,887 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 16:09:30,988 INFO PAPER BET daily_safest: 1 NO KXRAIN-26NOV13-CHI at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-13 16:09:31,214 INFO PAPER COMBO: NO KXRAIN-26NOV13-CHI, YES KXLOWTLAX-26NOV13-B61.5, YES KXHIGHTSEA-26NOV13-B60.5 at 0.9412. daily combo: all 3 safest sides must win
+2026-11-13 16:09:31,217 INFO Swept 21709 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 16:14:58,991 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 16:15:02,693 INFO PAPER rest NO bid KXNCAAWVMATCH-26NOV142000PSUILL-PSU at $0.2300 x4 (4 already bid at that price)
+2026-11-13 16:15:02,694 INFO Resting NO bid on KXNCAAWVMATCH-26NOV142000PSUILL-PSU at $0.23 x4 (KXNCAAWVMATCH-26NOV142000PSUILL): locks in $0.10 if it fills; hedge NO ILL@0.7300
+2026-11-13 16:15:02,851 INFO Swept 21744 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 16:20:36,358 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 16:20:40,041 INFO Swept 21753 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 16:26:13,605 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 16:26:17,278 INFO Swept 21747 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 16:31:47,713 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 16:31:51,374 INFO Swept 21747 events: 0 taker trades, 0 new quotes, 1 resting
