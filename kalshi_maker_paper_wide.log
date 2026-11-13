@@ -8535,3 +8535,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 03:19:56,839 INFO PAPER rest NO bid KXVALORANTMAP-26NOV130100TECALG-1-ALG at $0.6200 x2 (0 already bid at that price)
 2026-11-13 03:19:56,839 INFO Resting NO bid on KXVALORANTMAP-26NOV130100TECALG-1-ALG at $0.6200 x2 (KXVALORANTMAP-26NOV130100TECALG-1): locks in $0.16 if it fills; hedge NO TEC@0.3000
 2026-11-13 03:19:56,951 INFO Swept 21502 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 03:26:14,242 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-13 03:26:19,617 INFO Swept 21499 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 03:32:29,835 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-13 03:32:35,263 INFO Swept 21498 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 03:38:48,147 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-13 03:38:53,526 INFO Swept 21489 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 03:38:53,613 INFO Quote KXVALORANTMAP-26NOV130100TECALG-1 cancelled (0/2 filled)
+2026-11-13 03:45:06,529 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-13 03:45:11,927 INFO Swept 21485 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 03:51:24,179 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-13 03:51:29,578 INFO Swept 21484 events: 0 taker trades, 0 new quotes, 0 resting
