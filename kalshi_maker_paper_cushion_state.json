@@ -1,37 +1,6 @@
 {
- "realized": "-3.5100",
- "open": [
-  {
-   "event": "KXAFCON1H-26NOV13MLIRWA",
-   "series": "KXAFCON1H",
-   "title": "Mali vs Rwanda: First Half Winner",
-   "sets": 2,
-   "outlay": "4.0900",
-   "locked_profit": "-0.0900",
-   "opened": "2026-11-13T19:14:45.863891+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXAFCON1H-26NOV13MLIRWA-MLI",
-     "side": "no",
-     "count": 2,
-     "limit": "0.0700"
-    },
-    {
-     "ticker": "KXAFCON1H-26NOV13MLIRWA-RWA",
-     "side": "no",
-     "count": 2,
-     "limit": "0.99"
-    },
-    {
-     "ticker": "KXAFCON1H-26NOV13MLIRWA-TIE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.97"
-    }
-   ]
-  }
- ],
+ "realized": "-3.6000",
+ "open": [],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -126,6 +95,44 @@
     "KXAFCONFTTS-26NOV12SENSDN-SEN": "yes"
    },
    "closed": "2026-11-12T19:53:14.457044+00:00"
+  },
+  {
+   "event": "KXAFCON1H-26NOV13MLIRWA",
+   "series": "KXAFCON1H",
+   "title": "Mali vs Rwanda: First Half Winner",
+   "sets": 2,
+   "outlay": "4.0900",
+   "locked_profit": "-0.0900",
+   "opened": "2026-11-13T19:14:45.863891+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXAFCON1H-26NOV13MLIRWA-MLI",
+     "side": "no",
+     "count": 2,
+     "limit": "0.0700"
+    },
+    {
+     "ticker": "KXAFCON1H-26NOV13MLIRWA-RWA",
+     "side": "no",
+     "count": 2,
+     "limit": "0.99"
+    },
+    {
+     "ticker": "KXAFCON1H-26NOV13MLIRWA-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.97"
+    }
+   ],
+   "paid": "4",
+   "pnl": "-0.0900",
+   "results": {
+    "KXAFCON1H-26NOV13MLIRWA-MLI": "no",
+    "KXAFCON1H-26NOV13MLIRWA-RWA": "no",
+    "KXAFCON1H-26NOV13MLIRWA-TIE": "yes"
+   },
+   "closed": "2026-11-13T21:09:10.588469+00:00"
   }
  ],
  "quotes": []

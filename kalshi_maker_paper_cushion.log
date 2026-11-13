@@ -1737,3 +1737,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 14:19:42,606 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 14:19:45,062 INFO Swept 21732 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 14:19:50,064 INFO Stopped; all quotes cancelled.
+2026-11-13 16:04:19,187 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-13 16:09:10,588 INFO Settled KXAFCON1H-26NOV13MLIRWA: paid $4, profit $-0.09
+2026-11-13 16:09:10,618 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 16:09:14,284 INFO Swept 21709 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 16:14:19,452 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 16:14:22,997 INFO Swept 21744 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 16:19:27,886 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 16:19:31,739 INFO PAPER rest NO bid KXUEFANLFTTS-26NOV13SLOSUI-SUI at $0.1300 x2 (0 already bid at that price)
+2026-11-13 16:19:31,739 INFO Resting NO bid on KXUEFANLFTTS-26NOV13SLOSUI-SUI at $0.1300 x2 (KXUEFANLFTTS-26NOV13SLOSUI): locks in $0.27 if it fills; hedge NO SLO@0.7800, NONE@0.9300
+2026-11-13 16:19:31,740 INFO Swept 21739 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 16:24:41,605 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 16:24:44,935 INFO Swept 21752 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 16:24:45,309 INFO Quote KXUEFANLFTTS-26NOV13SLOSUI cancelled (0/2 filled)
+2026-11-13 16:29:53,305 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 16:29:57,056 INFO Swept 21751 events: 0 taker trades, 0 new quotes, 0 resting
