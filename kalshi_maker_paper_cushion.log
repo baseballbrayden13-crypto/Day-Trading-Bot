@@ -1671,3 +1671,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 12:23:56,532 INFO Swept 21637 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-13 12:28:56,272 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 12:28:59,217 INFO Swept 21658 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 12:33:56,080 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 12:33:59,281 INFO PAPER rest NO bid KXAFCONSCORE-26NOV13RSAKEN-RSA2KEN2 at $0.4400 x1 (0 already bid at that price)
+2026-11-13 12:33:59,281 INFO Resting NO bid on KXAFCONSCORE-26NOV13RSAKEN-RSA2KEN2 at $0.4400 x1 (KXAFCONSCORE-26NOV13RSAKEN): locks in $0.39 if it fills; hedge NO RSA1KEN1@0.5500, RSA1KEN2@0.9500, RSA2KEN1@0.6800, RSA3KEN1@0.9200
+2026-11-13 12:33:59,282 INFO Swept 21655 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-13 12:34:04,561 INFO Quote KXAFCONSCORE-26NOV13RSAKEN cancelled (0/1 filled)
+2026-11-13 12:38:54,984 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 12:38:58,079 INFO Swept 21654 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 12:44:14,518 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 12:44:17,665 INFO Swept 21658 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 12:49:17,737 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 12:49:21,365 INFO Swept 21661 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 12:54:10,527 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 12:54:14,041 INFO Swept 21656 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 12:59:17,388 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 12:59:20,605 INFO Swept 21651 events: 0 taker trades, 0 new quotes, 0 resting

@@ -1210,12 +1210,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794590026.6585312,
-  "checked": 1794590995.2165985,
+  "checked": 1794591826,
   "expires": 1794591826,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-88-1794590331": {
   "id": "paper-88-1794590331",
@@ -1224,11 +1224,25 @@
   "count": 2,
   "ahead": 1,
   "placed": 1794590331.0698485,
-  "checked": 1794590995.26095,
+  "checked": 1794592131,
   "expires": 1794592131,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-89-1794591239": {
+  "id": "paper-89-1794591239",
+  "ticker": "KXAFCONSCORE-26NOV13RSAKEN-RSA2KEN2",
+  "price": "0.4400",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794591239.2796652,
+  "checked": 1794591244.5386112,
+  "expires": 1794593039,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
