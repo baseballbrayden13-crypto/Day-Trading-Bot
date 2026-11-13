@@ -8563,3 +8563,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 04:42:00,886 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-13 04:42:06,280 INFO Swept 21503 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 04:42:11,287 INFO Stopped; all quotes cancelled.
+2026-11-13 08:33:01,409 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-13 08:39:00,021 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 08:39:05,735 INFO PAPER rest NO bid KXAFCON1H-26NOV13COMCOG-TIE at $0.1000 x2 (0 already bid at that price)
+2026-11-13 08:39:05,735 INFO Resting NO bid on KXAFCON1H-26NOV13COMCOG-TIE at $0.1000 x2 (KXAFCON1H-26NOV13COMCOG): locks in $0.15 if it fills; hedge NO COM@0.8600, COG@0.9600
+2026-11-13 08:39:06,040 INFO Swept 21556 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 08:39:06,253 INFO Quote KXAFCON1H-26NOV13COMCOG cancelled (0/2 filled)
+2026-11-13 08:45:18,042 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 08:45:23,576 INFO PAPER rest NO bid KXAFCON1H-26NOV13COMCOG-COG at $0.2100 x2 (0 already bid at that price)
+2026-11-13 08:45:23,576 INFO Resting NO bid on KXAFCON1H-26NOV13COMCOG-COG at $0.2100 x2 (KXAFCON1H-26NOV13COMCOG): locks in $0.48 if it fills; hedge NO COM@0.9900, TIE@0.5300
+2026-11-13 08:45:23,892 INFO Swept 21561 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 08:51:42,911 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 08:51:48,323 INFO Swept 21564 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 08:58:02,783 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 08:58:08,127 INFO Swept 21555 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 08:58:08,343 INFO Quote KXAFCON1H-26NOV13COMCOG cancelled (0/2 filled)
