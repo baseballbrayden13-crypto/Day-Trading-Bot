@@ -103,17 +103,36 @@
    "series": "KXVALORANTGAME",
    "title": "LNG Esports vs. KeepBest Gaming",
    "ticker": "KXVALORANTGAME-26NOV140100LNGKBG-LNG",
-   "order_id": "paper-85-1794587916",
-   "price": "0.6300",
+   "order_id": "paper-87-1794590026",
+   "price": "0.6100",
    "sets": 2,
    "done": 0,
-   "reserve": "1.5200",
+   "reserve": "1.4800",
    "multiplier": "1",
-   "placed": 1794587916.1065037,
+   "placed": 1794590026.6638882,
    "hedge": [
     {
      "ticker": "KXVALORANTGAME-26NOV140100LNGKBG-KBG",
      "limit": "0.1400"
+    }
+   ]
+  },
+  {
+   "event": "KXFBUGAME-26NOV131100NIKCHE",
+   "series": "KXFBUGAME",
+   "title": "Niko-Basket Mykolaiv vs BC Cherkaski Mavpy",
+   "ticker": "KXFBUGAME-26NOV131100NIKCHE-CHE",
+   "order_id": "paper-88-1794590331",
+   "price": "0.63",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8000",
+   "multiplier": "1",
+   "placed": 1794590331.0714464,
+   "hedge": [
+    {
+     "ticker": "KXFBUGAME-26NOV131100NIKCHE-NIK",
+     "limit": "0.2500"
     }
    ]
   }

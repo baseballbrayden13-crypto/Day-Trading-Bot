@@ -1182,12 +1182,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794587916.1052155,
-  "checked": 1794589413.7683225,
+  "checked": 1794589716,
   "expires": 1794589716,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-86-1794588516": {
   "id": "paper-86-1794588516",
@@ -1202,5 +1202,33 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-87-1794590026": {
+  "id": "paper-87-1794590026",
+  "ticker": "KXVALORANTGAME-26NOV140100LNGKBG-LNG",
+  "price": "0.6100",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794590026.6585312,
+  "checked": 1794590995.2165985,
+  "expires": 1794591826,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-88-1794590331": {
+  "id": "paper-88-1794590331",
+  "ticker": "KXFBUGAME-26NOV131100NIKCHE-CHE",
+  "price": "0.6300",
+  "count": 2,
+  "ahead": 1,
+  "placed": 1794590331.0698485,
+  "checked": 1794590995.26095,
+  "expires": 1794592131,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
