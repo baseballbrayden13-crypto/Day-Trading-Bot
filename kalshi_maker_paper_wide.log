@@ -8590,3 +8590,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 09:23:36,154 INFO Swept 21583 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-13 09:29:51,344 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
 2026-11-13 09:29:56,707 INFO Swept 21573 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 09:36:09,383 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 09:36:14,894 INFO Swept 21596 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 09:42:28,026 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 09:42:33,815 INFO PAPER rest NO bid KXAFCONSCORE-26NOV13MOZETH-MOZ2ETH1 at $0.4200 x1 (0 already bid at that price)
+2026-11-13 09:42:33,815 INFO Resting NO bid on KXAFCONSCORE-26NOV13MOZETH-MOZ2ETH1 at $0.4200 x1 (KXAFCONSCORE-26NOV13MOZETH): locks in $0.47 if it fills; hedge NO MOZ0ETH0@0.2700, MOZ0ETH1@0.9600, MOZ1ETH0@0.8300
+2026-11-13 09:42:34,122 INFO Swept 21540 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 09:48:39,667 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 09:48:45,160 INFO Swept 21535 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 09:48:45,374 INFO Quote KXAFCONSCORE-26NOV13MOZETH cancelled (0/1 filled)
+2026-11-13 09:54:54,119 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 09:54:59,582 INFO PAPER rest NO bid KXVALORANTMAP-26NOV130330KBGQIA-2-QIA at $0.6700 x2 (0 already bid at that price)
+2026-11-13 09:54:59,582 INFO Resting NO bid on KXVALORANTMAP-26NOV130330KBGQIA-2-QIA at $0.6700 x2 (KXVALORANTMAP-26NOV130330KBGQIA-2): locks in $0.12 if it fills; hedge NO KBG@0.2500
+2026-11-13 09:54:59,890 INFO Swept 21540 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 10:01:11,705 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 10:01:16,821 INFO Swept 21528 events: 0 taker trades, 0 new quotes, 1 resting
