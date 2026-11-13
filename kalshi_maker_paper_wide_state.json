@@ -2591,17 +2591,17 @@
    "series": "KXLVBPGAME",
    "title": "Cardenales de Lara vs Leones de Caracas",
    "ticker": "KXLVBPGAME-26NOV131800LARCAR-LAR",
-   "order_id": "paper-1033-1794609182",
-   "price": "0.64",
-   "sets": 4,
+   "order_id": "paper-1035-1794612518",
+   "price": "0.2600",
+   "sets": 1,
    "done": 0,
-   "reserve": "3.8800",
+   "reserve": "0.8700",
    "multiplier": "1",
-   "placed": 1794609182.0164845,
+   "placed": 1794612518.1981587,
    "hedge": [
     {
      "ticker": "KXLVBPGAME-26NOV131800LARCAR-CAR",
-     "limit": "0.3100"
+     "limit": "0.5800"
     }
    ]
   }

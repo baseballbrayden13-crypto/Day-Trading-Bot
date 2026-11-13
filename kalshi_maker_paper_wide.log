@@ -8766,3 +8766,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 17:55:11,704 INFO Swept 21678 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-13 18:00:38,665 INFO Not quoting (hedges keep missing): KXAHLGAME
 2026-11-13 18:00:42,307 INFO Swept 21674 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 18:06:16,709 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 18:06:20,363 INFO Swept 21672 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 18:11:51,128 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 18:11:54,949 INFO PAPER rest NO bid KXCONCACAFNL1H-26NOV13SMASLV-SLV at $0.2900 x2 (0 already bid at that price)
+2026-11-13 18:11:54,950 INFO Resting NO bid on KXCONCACAFNL1H-26NOV13SMASLV-SLV at $0.2900 x2 (KXCONCACAFNL1H-26NOV13SMASLV): locks in $0.12 if it fills; hedge NO SMA@0.8800, TIE@0.7400
+2026-11-13 18:11:55,105 INFO Swept 21689 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 18:17:25,123 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 18:17:28,791 INFO Swept 21728 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 18:22:58,741 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 18:23:02,451 INFO Swept 21757 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 18:23:02,574 INFO Quote KXCONCACAFNL1H-26NOV13SMASLV cancelled (0/2 filled)
+2026-11-13 18:28:34,430 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 18:28:38,197 INFO PAPER rest NO bid KXLVBPGAME-26NOV131800LARCAR-LAR at $0.2600 x1 (0 already bid at that price)
+2026-11-13 18:28:38,198 INFO Resting NO bid on KXLVBPGAME-26NOV131800LARCAR-LAR at $0.2600 x1 (KXLVBPGAME-26NOV131800LARCAR): locks in $0.13 if it fills; hedge NO CAR@0.5800
+2026-11-13 18:28:38,356 INFO Swept 21786 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 18:34:08,877 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 18:34:12,572 INFO Swept 21799 events: 0 taker trades, 0 new quotes, 1 resting
