@@ -59,44 +59,6 @@
   },
   {
    "kind": "value",
-   "game": "Detroit Pistons at Washington Wizards",
-   "game_id": "d5c5ae8d56762b45d1ec4b85337878f3",
-   "sport": "basketball_nba",
-   "start": "2026-11-13T00:10:00Z",
-   "edge": 0.1433,
-   "home": "Washington Wizards",
-   "away": "Detroit Pistons",
-   "legs": [
-    {
-     "team": "Washington Wizards",
-     "book": "Pinnacle",
-     "odds": 4.75,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-12T03:52:42+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Charlotte Hornets at Phoenix Suns",
-   "game_id": "f3f429e773bfb2340ba2bb90f2b9dd1e",
-   "sport": "basketball_nba",
-   "start": "2026-11-13T02:10:00Z",
-   "edge": 0.039,
-   "home": "Phoenix Suns",
-   "away": "Charlotte Hornets",
-   "legs": [
-    {
-     "team": "Charlotte Hornets",
-     "book": "Pinnacle",
-     "odds": 3.22,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-12T03:52:42+00:00"
-  },
-  {
-   "kind": "value",
    "game": "Coppin St Eagles at Bradley Braves",
    "game_id": "d5ffc3709a43565e263ddd08e42c27c0",
    "sport": "basketball_ncaab",
@@ -153,8 +115,8 @@
   "value|6669b911691463c669a5c10574742e8e|Indiana Pacers|Pinnacle": "2026-11-13T01:54:49.889724+00:00"
  },
  "credits": {
-  "day": "2026-11-12",
-  "spent": 9,
+  "day": "2026-11-13",
+  "spent": 0,
   "remaining": 430
  },
  "last_priced": {

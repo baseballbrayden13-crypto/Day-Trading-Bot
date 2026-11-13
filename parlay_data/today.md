@@ -1,12 +1,12 @@
-# Gameday parlays (Thu Nov 12, 8:54 PM ET)
+# Gameday parlays (Fri Nov 13, 4:40 AM ET)
 
 Advice and pretend money only. Prices are Kalshi's, with its fee. The fair chance multiplies the legs' chances, so same-game legs (which move together) make it a rough guide.
 
-## Favorites across games (favorites, Thu 9:10 PM ET)
-Pays +125 ($2.25 back per $1). Fair chance all legs hit: 41%.
+## Favorites across games (favorites, Fri 10:10 PM ET)
+Pays +156 ($2.56 back per $1). Fair chance all legs hit: 37%.
 
-- Phoenix Suns to win: Kalshi 66c YES, fair 66%
-- BYU Cougars to win: Kalshi 97c YES, fair 95%
-- UTEP Miners to win: Kalshi 66c YES, fair 65%
+- San Antonio Spurs to win: Kalshi 86c YES, fair 86%
+- Vegas Golden Knights to win: Kalshi 62c YES, fair 63%
+- Virginia Cavaliers to win: Kalshi 69c YES, fair 69%
 
-Pretend record so far: 0 settled, 0 won, profit $0.00 on $1 each.
+Pretend record so far: 2 settled, 0 won, profit $-2.00 on $1 each.

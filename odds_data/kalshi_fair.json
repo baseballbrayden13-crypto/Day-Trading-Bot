@@ -1,104 +1,6 @@
 {
- "updated": "2026-11-13T01:54:49+00:00",
+ "updated": "2026-11-13T09:40:24+00:00",
  "prices": {
-  "KXNHLGAME-26NOV12STLUTA-UTA": {
-   "fair_yes": 0.4501,
-   "start": "2026-11-13T02:10:00Z",
-   "team": "Utah Mammoth",
-   "sport": "icehockey_nhl",
-   "teams": [
-    "Utah Mammoth",
-    "St Louis Blues"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00",
-   "news": "lineup news: Utah Mammoth: Nick Schmaltz (Out)"
-  },
-  "KXNHLGAME-26NOV12STLUTA-STL": {
-   "fair_yes": 0.5499,
-   "start": "2026-11-13T02:10:00Z",
-   "team": "St Louis Blues",
-   "sport": "icehockey_nhl",
-   "teams": [
-    "Utah Mammoth",
-    "St Louis Blues"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00",
-   "news": "lineup news: Utah Mammoth: Nick Schmaltz (Out)"
-  },
-  "KXNHLGAME-26NOV12NYILA-LA": {
-   "fair_yes": 0.5275,
-   "start": "2026-11-13T03:10:00Z",
-   "team": "Los Angeles Kings",
-   "sport": "icehockey_nhl",
-   "teams": [
-    "Los Angeles Kings",
-    "New York Islanders"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00"
-  },
-  "KXNHLGAME-26NOV12NYILA-NYI": {
-   "fair_yes": 0.4725,
-   "start": "2026-11-13T03:10:00Z",
-   "team": "New York Islanders",
-   "sport": "icehockey_nhl",
-   "teams": [
-    "Los Angeles Kings",
-    "New York Islanders"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00"
-  },
-  "KXNBAGAME-26NOV12CHAPHX-CHA": {
-   "fair_yes": 0.3415,
-   "start": "2026-11-13T02:10:00Z",
-   "team": "Charlotte Hornets",
-   "sport": "basketball_nba",
-   "teams": [
-    "Phoenix Suns",
-    "Charlotte Hornets"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00"
-  },
-  "KXNBAGAME-26NOV12CHAPHX-PHX": {
-   "fair_yes": 0.6585,
-   "start": "2026-11-13T02:10:00Z",
-   "team": "Phoenix Suns",
-   "sport": "basketball_nba",
-   "teams": [
-    "Phoenix Suns",
-    "Charlotte Hornets"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00"
-  },
-  "KXNCAAMBGAME-26NOV12NMSUUTEP-UTEP": {
-   "fair_yes": 0.6525,
-   "start": "2026-11-13T02:00:00Z",
-   "team": "UTEP Miners",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "UTEP Miners",
-    "New Mexico St Aggies"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00"
-  },
-  "KXNCAAMBGAME-26NOV12NMSUUTEP-NMSU": {
-   "fair_yes": 0.3475,
-   "start": "2026-11-13T02:00:00Z",
-   "team": "New Mexico St Aggies",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "UTEP Miners",
-    "New Mexico St Aggies"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00"
-  },
   "KXNHLGAME-26NOV13NYRVAN-VAN": {
    "fair_yes": 0.3356,
    "start": "2026-11-14T02:10:00Z",
@@ -219,30 +121,6 @@
    "pinnacle": true,
    "updated": "2026-11-13T01:54:49+00:00"
   },
-  "KXNCAAMBGAME-26NOV12MTSTBYU-BYU": {
-   "fair_yes": 0.9516,
-   "start": "2026-11-13T02:00:00Z",
-   "team": "BYU Cougars",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "BYU Cougars",
-    "Montana St Bobcats"
-   ],
-   "pinnacle": false,
-   "updated": "2026-11-13T01:54:49+00:00"
-  },
-  "KXNCAAMBGAME-26NOV12MTSTBYU-MTST": {
-   "fair_yes": 0.0484,
-   "start": "2026-11-13T02:00:00Z",
-   "team": "Montana St Bobcats",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "BYU Cougars",
-    "Montana St Bobcats"
-   ],
-   "pinnacle": false,
-   "updated": "2026-11-13T01:54:49+00:00"
-  },
   "KXNBAGAME-26NOV13NYKIND-NYK": {
    "fair_yes": 0.7079,
    "start": "2026-11-14T00:10:00Z",
@@ -301,8 +179,7 @@
     "Atlanta Hawks"
    ],
    "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00",
-   "news": "lineup news: Atlanta Hawks: Mouhamed Gueye (Out), Keshon Gilbert (Out), Asa Newell (Out)"
+   "updated": "2026-11-13T01:54:49+00:00"
   },
   "KXNBAGAME-26NOV13ATLCHI-CHI": {
    "fair_yes": 0.3015,
@@ -314,8 +191,7 @@
     "Atlanta Hawks"
    ],
    "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00",
-   "news": "lineup news: Atlanta Hawks: Mouhamed Gueye (Out), Keshon Gilbert (Out), Asa Newell (Out)"
+   "updated": "2026-11-13T01:54:49+00:00"
   },
   "KXNBAGAME-26NOV13CLEMIA-CLE": {
    "fair_yes": 0.4453,
@@ -351,8 +227,7 @@
     "Memphis Grizzlies"
    ],
    "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00",
-   "news": "lineup news: Memphis Grizzlies: Quinten Post (Out), Zach Edey (Out)"
+   "updated": "2026-11-13T01:54:49+00:00"
   },
   "KXNBAGAME-26NOV13MEMNOP-NOP": {
    "fair_yes": 0.4108,
@@ -364,8 +239,7 @@
     "Memphis Grizzlies"
    ],
    "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00",
-   "news": "lineup news: Memphis Grizzlies: Quinten Post (Out), Zach Edey (Out)"
+   "updated": "2026-11-13T01:54:49+00:00"
   },
   "KXNBAGAME-26NOV13UTAHOU-UTA": {
    "fair_yes": 0.0938,
@@ -425,8 +299,7 @@
     "Portland Trail Blazers"
    ],
    "pinnacle": false,
-   "updated": "2026-11-13T01:54:49+00:00",
-   "news": "lineup news: Portland Trail Blazers: Chris Youngblood (Out)"
+   "updated": "2026-11-13T01:54:49+00:00"
   },
   "KXNBAGAME-26NOV13PORSAC-SAC": {
    "fair_yes": 0.1841,
@@ -438,8 +311,7 @@
     "Portland Trail Blazers"
    ],
    "pinnacle": false,
-   "updated": "2026-11-13T01:54:49+00:00",
-   "news": "lineup news: Portland Trail Blazers: Chris Youngblood (Out)"
+   "updated": "2026-11-13T01:54:49+00:00"
   },
   "KXNBAGAME-26NOV13OKCLAC-OKC": {
    "fair_yes": 0.7237,
@@ -451,8 +323,7 @@
     "Oklahoma City Thunder"
    ],
    "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00",
-   "news": "lineup news: Oklahoma City Thunder: Thomas Sorber (Out)"
+   "updated": "2026-11-13T01:54:49+00:00"
   },
   "KXNBAGAME-26NOV13OKCLAC-LAC": {
    "fair_yes": 0.2763,
@@ -464,8 +335,7 @@
     "Oklahoma City Thunder"
    ],
    "pinnacle": true,
-   "updated": "2026-11-13T01:54:49+00:00",
-   "news": "lineup news: Oklahoma City Thunder: Thomas Sorber (Out)"
+   "updated": "2026-11-13T01:54:49+00:00"
   },
   "KXNCAAMBGAME-26NOV13GTWNCLEM-CLEM": {
    "fair_yes": 0.6102,

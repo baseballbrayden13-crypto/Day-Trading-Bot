@@ -1,49 +1,49 @@
 {
- "updated": "2026-11-13T01:54:56+00:00",
+ "updated": "2026-11-13T09:40:25+00:00",
  "parlays": [
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-13T02:10:00Z",
+   "start": "2026-11-14T03:10:00Z",
    "legs": [
     {
-     "label": "Phoenix Suns to win",
-     "ticker": "KXNBAGAME-26NOV12CHAPHX-PHX",
+     "label": "San Antonio Spurs to win",
+     "ticker": "KXNBAGAME-26NOV13GSWSAS-SAS",
      "side": "yes",
-     "price": 0.66,
-     "fair": 0.6585,
-     "value": -0.0175,
+     "price": 0.86,
+     "fair": 0.8596,
+     "value": -0.0094,
      "player": ""
     },
     {
-     "label": "BYU Cougars to win",
-     "ticker": "KXNCAAMBGAME-26NOV12MTSTBYU-BYU",
+     "label": "Vegas Golden Knights to win",
+     "ticker": "KXNHLGAME-26NOV13NSHVGK-VGK",
      "side": "yes",
-     "price": 0.97,
-     "fair": 0.9516,
-     "value": -0.0214,
+     "price": 0.62,
+     "fair": 0.6266,
+     "value": -0.0104,
      "player": ""
     },
     {
-     "label": "UTEP Miners to win",
-     "ticker": "KXNCAAMBGAME-26NOV12NMSUUTEP-UTEP",
+     "label": "Virginia Cavaliers to win",
+     "ticker": "KXNCAAMBGAME-26NOV13UVAMD-UVA",
      "side": "yes",
-     "price": 0.66,
-     "fair": 0.6525,
-     "value": -0.0235,
+     "price": 0.69,
+     "fair": 0.6937,
+     "value": -0.0113,
      "player": ""
     }
    ],
-   "price": 0.4446,
-   "fair": 0.4089,
-   "pays": "+125",
-   "per_dollar": 2.25
+   "price": 0.3903,
+   "fair": 0.3736,
+   "pays": "+156",
+   "per_dollar": 2.56
   }
  ],
- "open_pretend": 2,
+ "open_pretend": 1,
  "record": {
-  "parlays": 0,
+  "parlays": 2,
   "won": 0,
-  "profit": 0
+  "profit": -2.0
  }
 }
