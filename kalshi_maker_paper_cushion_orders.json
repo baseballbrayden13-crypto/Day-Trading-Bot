@@ -1146,5 +1146,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-83-1794579734": {
+  "id": "paper-83-1794579734",
+  "ticker": "KXAFCONSCORE-26NOV13MOZETH-MOZ1ETH1",
+  "price": "0.2600",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794579734.107145,
+  "checked": 1794579789.8346865,
+  "expires": 1794581534,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
