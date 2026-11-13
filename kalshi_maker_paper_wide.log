@@ -8756,3 +8756,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 17:33:02,016 INFO PAPER rest NO bid KXLVBPGAME-26NOV131800LARCAR-LAR at $0.6400 x4 (10 already bid at that price)
 2026-11-13 17:33:02,016 INFO Resting NO bid on KXLVBPGAME-26NOV131800LARCAR-LAR at $0.64 x4 (KXLVBPGAME-26NOV131800LARCAR): locks in $0.12 if it fills; hedge NO CAR@0.3100
 2026-11-13 17:33:02,171 INFO Swept 21670 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 17:38:35,756 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 17:38:39,422 INFO Swept 21669 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 17:44:06,631 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 17:44:10,336 INFO Swept 21667 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 17:49:37,101 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 17:49:40,800 INFO Swept 21664 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 17:55:08,017 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 17:55:11,704 INFO Swept 21678 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 18:00:38,665 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 18:00:42,307 INFO Swept 21674 events: 0 taker trades, 0 new quotes, 1 resting
