@@ -2554,5 +2554,25 @@
    "closed": "2026-11-12T19:02:52.081832+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLVBPGAME-26NOV121800LARCAR",
+   "series": "KXLVBPGAME",
+   "title": "Cardenales de Lara vs Leones de Caracas",
+   "ticker": "KXLVBPGAME-26NOV121800LARCAR-CAR",
+   "order_id": "paper-1006-1794527028",
+   "price": "0.1400",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7900",
+   "multiplier": "1",
+   "placed": 1794527028.3827388,
+   "hedge": [
+    {
+     "ticker": "KXLVBPGAME-26NOV121800LARCAR-LAR",
+     "limit": "0.6200"
+    }
+   ]
+  }
+ ]
 }
