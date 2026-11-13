@@ -1698,3 +1698,23 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 13:24:28,125 INFO Swept 21681 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 13:29:22,608 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 13:29:26,060 INFO Swept 21696 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 13:34:30,894 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 13:34:34,366 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV17PFWWIU-WIU at $0.2000 x5 (0 already bid at that price)
+2026-11-13 13:34:34,366 INFO Resting NO bid on KXNCAAWBGAME-26NOV17PFWWIU-WIU at $0.2000 x5 (KXNCAAWBGAME-26NOV17PFWWIU): locks in $0.65 if it fills; hedge NO PFW@0.6500
+2026-11-13 13:34:34,368 INFO Swept 21691 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 13:39:27,910 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 13:39:30,985 INFO PAPER rest NO bid KXELHGAME-26NOV131130HCVBKM-HCV at $0.7100 x2 (0 already bid at that price)
+2026-11-13 13:39:30,985 INFO Resting NO bid on KXELHGAME-26NOV131130HCVBKM-HCV at $0.7100 x2 (KXELHGAME-26NOV131130HCVBKM): locks in $0.23 if it fills; hedge NO BKM@0.1600
+2026-11-13 13:39:30,986 INFO Swept 21682 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 13:44:27,582 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 13:44:30,755 INFO PAPER rest NO bid KXLIIGAGAME-26NOV131130KIEKAL-KAL at $0.2800 x2 (0 already bid at that price)
+2026-11-13 13:44:30,755 INFO Resting NO bid on KXLIIGAGAME-26NOV131130KIEKAL-KAL at $0.2800 x2 (KXLIIGAGAME-26NOV131130KIEKAL): locks in $1.18 if it fills; hedge NO KIE@0.1400
+2026-11-13 13:44:30,756 INFO Swept 21678 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-13 13:49:34,709 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 13:49:37,310 INFO Swept 21687 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-13 13:54:35,146 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 13:54:37,755 INFO Swept 21680 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-13 13:54:37,865 INFO Quote KXELHGAME-26NOV131130HCVBKM cancelled (0/2 filled)
+2026-11-13 13:54:37,933 INFO Quote KXLIIGAGAME-26NOV131130KIEKAL cancelled (0/2 filled)
+2026-11-13 13:59:32,212 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 13:59:34,916 INFO Swept 21667 events: 0 taker trades, 0 new quotes, 1 resting

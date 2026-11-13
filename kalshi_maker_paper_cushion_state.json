@@ -97,5 +97,25 @@
    "closed": "2026-11-12T19:53:14.457044+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAWBGAME-26NOV17PFWWIU",
+   "series": "KXNCAAWBGAME",
+   "title": "Purdue Fort Wayne vs Western Illinois",
+   "ticker": "KXNCAAWBGAME-26NOV17PFWWIU-WIU",
+   "order_id": "paper-90-1794594874",
+   "price": "0.2000",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.3500",
+   "multiplier": "1",
+   "placed": 1794594874.3664794,
+   "hedge": [
+    {
+     "ticker": "KXNCAAWBGAME-26NOV17PFWWIU-PFW",
+     "limit": "0.6500"
+    }
+   ]
+  }
+ ]
 }
