@@ -2556,21 +2556,21 @@
  ],
  "quotes": [
   {
-   "event": "KXR6MAP-26NOV121930M80VP-2",
-   "series": "KXR6MAP",
-   "title": "M80 vs. Virtus.pro: Map 2 Winner",
-   "ticker": "KXR6MAP-26NOV121930M80VP-2-M80",
-   "order_id": "paper-1008-1794535067",
-   "price": "0.4700",
-   "sets": 2,
+   "event": "KXLVBPGAME-26NOV121800ARAANZ",
+   "series": "KXLVBPGAME",
+   "title": "Tigres de Aragua vs Caribes de Anzoategui",
+   "ticker": "KXLVBPGAME-26NOV121800ARAANZ-ANZ",
+   "order_id": "paper-1010-1794536304",
+   "price": "0.3200",
+   "sets": 1,
    "done": 0,
-   "reserve": "1.5800",
+   "reserve": "0.7500",
    "multiplier": "1",
-   "placed": 1794535067.3884432,
+   "placed": 1794536304.3456008,
    "hedge": [
     {
-     "ticker": "KXR6MAP-26NOV121930M80VP-2-VP",
-     "limit": "0.3000"
+     "ticker": "KXLVBPGAME-26NOV121800ARAANZ-ARA",
+     "limit": "0.4000"
     }
    ]
   }
