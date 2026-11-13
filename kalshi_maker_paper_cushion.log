@@ -1441,3 +1441,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 22:03:48,339 INFO Quote KXNBAWINMARGIN-26NOV12DALMIN cancelled (0/1 filled)
 2026-11-12 22:08:57,996 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 22:09:02,132 INFO Swept 21679 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 22:14:16,172 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 22:14:20,298 INFO Swept 21670 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 22:19:31,989 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 22:19:35,674 INFO Swept 21667 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 22:24:46,044 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 22:24:49,759 INFO Swept 21633 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 22:24:54,761 INFO Stopped; all quotes cancelled.
