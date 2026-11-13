@@ -2585,25 +2585,5 @@
    "closed": "2026-11-13T19:17:11.190682+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAWVMATCH-26NOV142000PSUILL",
-   "series": "KXNCAAWVMATCH",
-   "title": "Penn State vs Illinois",
-   "ticker": "KXNCAAWVMATCH-26NOV142000PSUILL-PSU",
-   "order_id": "paper-1032-1794604502",
-   "price": "0.23",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.9000",
-   "multiplier": "1",
-   "placed": 1794604502.6940117,
-   "hedge": [
-    {
-     "ticker": "KXNCAAWVMATCH-26NOV142000PSUILL-ILL",
-     "limit": "0.7300"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
