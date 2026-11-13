@@ -1788,3 +1788,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 17:56:46,969 INFO Swept 21670 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 18:01:47,613 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 18:01:50,850 INFO Swept 21674 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 18:06:54,545 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:06:57,803 INFO Swept 21669 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 18:12:00,568 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:12:04,497 INFO PAPER rest NO bid KXCONCACAFNL1H-26NOV13SMASLV-SLV at $0.2900 x2 (0 already bid at that price)
+2026-11-13 18:12:04,497 INFO Resting NO bid on KXCONCACAFNL1H-26NOV13SMASLV-SLV at $0.2900 x2 (KXCONCACAFNL1H-26NOV13SMASLV): locks in $0.66 if it fills; hedge NO SMA@0.6000, TIE@0.7400
+2026-11-13 18:12:04,498 INFO Swept 21712 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 18:17:05,374 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:17:08,661 INFO Swept 21728 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 18:22:10,574 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:22:13,860 INFO Swept 21757 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 18:22:14,193 INFO Quote KXCONCACAFNL1H-26NOV13SMASLV cancelled (0/2 filled)
+2026-11-13 18:27:16,550 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:27:19,815 INFO Swept 21786 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 18:32:23,551 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:32:27,444 INFO Swept 21799 events: 0 taker trades, 0 new quotes, 0 resting
