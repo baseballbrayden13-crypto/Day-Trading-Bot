@@ -2554,5 +2554,25 @@
    "closed": "2026-11-12T19:02:52.081832+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXVALORANTMAP-26NOV130330KBGQIA-2",
+   "series": "KXVALORANTMAP",
+   "title": "KeepBest Gaming vs. Qian Xing Gaming: Map 2 Winner",
+   "ticker": "KXVALORANTMAP-26NOV130330KBGQIA-2-QIA",
+   "order_id": "paper-1020-1794578675",
+   "price": "0.68",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.9000",
+   "multiplier": "1",
+   "placed": 1794578675.5221148,
+   "hedge": [
+    {
+     "ticker": "KXVALORANTMAP-26NOV130330KBGQIA-2-KBG",
+     "limit": "0.2500"
+    }
+   ]
+  }
+ ]
 }
