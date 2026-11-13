@@ -1,46 +1,113 @@
 {
- "updated": "2026-11-13T09:40:25+00:00",
+ "updated": "2026-11-13T17:50:37+00:00",
  "parlays": [
+  {
+   "kind": "game",
+   "game": "Indiana Pacers vs New York Knicks",
+   "start": "2026-11-14T00:10:00Z",
+   "legs": [
+    {
+     "label": "Obi Toppin 4+ rebounds",
+     "ticker": "KXNBAREB-26NOV13NYKIND-INDOTOPPIN1-4",
+     "side": "yes",
+     "price": 0.58,
+     "fair": 0.6421,
+     "value": 0.0441,
+     "player": "Obi Toppin"
+    },
+    {
+     "label": "Ivica Zubac 10+ points",
+     "ticker": "KXNBAPTS-26NOV13NYKIND-INDIZUBAC40-10",
+     "side": "yes",
+     "price": 0.72,
+     "fair": 0.7776,
+     "value": 0.0426,
+     "player": "Ivica Zubac"
+    },
+    {
+     "label": "Kelly Oubre Jr. 10+ points",
+     "ticker": "KXNBAPTS-26NOV13NYKIND-INDKOUBRE10-10",
+     "side": "yes",
+     "price": 0.63,
+     "fair": 0.688,
+     "value": 0.041,
+     "player": "Kelly Oubre Jr."
+    }
+   ],
+   "price": 0.2844,
+   "fair": 0.3435,
+   "pays": "+252",
+   "per_dollar": 3.52
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "Indiana Pacers vs New York Knicks",
+   "start": "2026-11-14T00:10:00Z",
+   "legs": [
+    {
+     "label": "Ivica Zubac 10+ points",
+     "ticker": "KXNBAPTS-26NOV13NYKIND-INDIZUBAC40-10",
+     "side": "yes",
+     "price": 0.72,
+     "fair": 0.7776,
+     "value": 0.0426,
+     "player": "Ivica Zubac"
+    },
+    {
+     "label": "Kelly Oubre Jr. 10+ points",
+     "ticker": "KXNBAPTS-26NOV13NYKIND-INDKOUBRE10-10",
+     "side": "yes",
+     "price": 0.63,
+     "fair": 0.688,
+     "value": 0.041,
+     "player": "Kelly Oubre Jr."
+    }
+   ],
+   "price": 0.4755,
+   "fair": 0.535,
+   "pays": "+110",
+   "per_dollar": 2.1
+  },
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-14T03:10:00Z",
+   "start": "2026-11-14T02:10:00Z",
    "legs": [
     {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV13GSWSAS-SAS",
+     "label": "New York Rangers to win",
+     "ticker": "KXNHLGAME-26NOV13NYRVAN-NYR",
+     "side": "yes",
+     "price": 0.66,
+     "fair": 0.6626,
+     "value": -0.0134,
+     "player": ""
+    },
+    {
+     "label": "Hofstra Pride to win",
+     "ticker": "KXNCAAMBGAME-26NOV13IONAHOF-HOF",
+     "side": "yes",
+     "price": 0.73,
+     "fair": 0.7282,
+     "value": -0.0158,
+     "player": ""
+    },
+    {
+     "label": "UConn Huskies to win",
+     "ticker": "KXNCAAMBGAME-26NOV13OSUCONN-CONN",
      "side": "yes",
      "price": 0.86,
-     "fair": 0.8596,
-     "value": -0.0094,
-     "player": ""
-    },
-    {
-     "label": "Vegas Golden Knights to win",
-     "ticker": "KXNHLGAME-26NOV13NSHVGK-VGK",
-     "side": "yes",
-     "price": 0.62,
-     "fair": 0.6266,
-     "value": -0.0104,
-     "player": ""
-    },
-    {
-     "label": "Virginia Cavaliers to win",
-     "ticker": "KXNCAAMBGAME-26NOV13UVAMD-UVA",
-     "side": "yes",
-     "price": 0.69,
-     "fair": 0.6937,
-     "value": -0.0113,
+     "fair": 0.8528,
+     "value": -0.0162,
      "player": ""
     }
    ],
-   "price": 0.3903,
-   "fair": 0.3736,
-   "pays": "+156",
-   "per_dollar": 2.56
+   "price": 0.4371,
+   "fair": 0.4115,
+   "pays": "+129",
+   "per_dollar": 2.29
   }
  ],
- "open_pretend": 1,
+ "open_pretend": 2,
  "record": {
   "parlays": 2,
   "won": 0,

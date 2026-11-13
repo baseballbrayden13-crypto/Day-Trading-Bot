@@ -18,3 +18,67 @@ time,sport,game,stat,player,line,match,book_line,books,fair_yes,yes_ask,no_ask,t
 2026-11-12T20:39:49+00:00,americanfootball_nfl,Washington Commanders at New York Giants,player_rush_yds,Devin Singletary,19.5,near,23.5,5,0.637,0.58,0.43,KXNFLRSHYDS-26NOV12WASNYG-NYGDSINGLETARY26-20
 2026-11-12T20:39:49+00:00,americanfootball_nfl,Washington Commanders at New York Giants,player_rush_yds,J.J. McCarthy,14.5,near,15.5,6,0.5513,0.53,0.48,KXNFLRSHYDS-26NOV12WASNYG-NYGJMCCARTHY9-15
 2026-11-12T20:39:49+00:00,americanfootball_nfl,Washington Commanders at New York Giants,player_pass_yds,Jayden Daniels,199.5,near,202.5,5,0.5211,0.52,0.49,KXNFLPASSYDS-26NOV12WASNYG-WASJDANIELS5-200
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Obi Toppin,9.5,exact,9.5,6,0.5259,0.54,0.49,KXNBAPTS-26NOV13NYKIND-INDOTOPPIN1-10
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Pascal Siakam,19.5,near,20.5,4,0.5784,0.59,0.42,KXNBAPTS-26NOV13NYKIND-INDPSIAKAM43-20
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Pascal Siakam,19.5,near,21.5,5,0.5941,0.59,0.42,KXNBAPTS-26NOV13NYKIND-INDPSIAKAM43-20
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Kelly Oubre Jr.,9.5,near,10.5,4,0.6369,0.63,0.44,KXNBAPTS-26NOV13NYKIND-INDKOUBRE10-10
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Kelly Oubre Jr.,9.5,near,11.5,5,0.688,0.63,0.44,KXNBAPTS-26NOV13NYKIND-INDKOUBRE10-10
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Ivica Zubac,9.5,near,12.5,7,0.7776,0.72,0.33,KXNBAPTS-26NOV13NYKIND-INDIZUBAC40-10
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Andrew Nembhard,14.5,near,15.5,7,0.5618,0.55,0.49,KXNBAPTS-26NOV13NYKIND-INDANEMBHARD2-15
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Karl-Anthony Towns,19.5,near,20.5,7,0.5785,0.56,0.45,KXNBAPTS-26NOV13NYKIND-NYKKTOWNS32-20
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Jalen Brunson,24.5,near,25.5,6,0.5347,0.54,0.47,KXNBAPTS-26NOV13NYKIND-NYKJBRUNSON11-25
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Jalen Brunson,24.5,exact,24.5,3,0.5266,0.54,0.47,KXNBAPTS-26NOV13NYKIND-NYKJBRUNSON11-25
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Landry Shamet,9.5,exact,9.5,5,0.4574,0.47,0.54,KXNBAPTS-26NOV13NYKIND-NYKLSHAMET44-10
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,OG Anunoby,14.5,near,17.5,8,0.6983,0.67,0.37,KXNBAPTS-26NOV13NYKIND-NYKOANUNOBY8-15
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_points,Josh Hart,9.5,exact,9.5,8,0.4774,0.48,0.53,KXNBAPTS-26NOV13NYKIND-NYKJHART3-10
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_rebounds,Karl-Anthony Towns,11.5,near,12.5,8,0.5975,0.62,0.4,KXNBAREB-26NOV13NYKIND-NYKKTOWNS32-12
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_rebounds,Jalen Brunson,3.5,exact,3.5,8,0.4184,0.42,0.59,KXNBAREB-26NOV13NYKIND-NYKJBRUNSON11-4
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_rebounds,OG Anunoby,5.5,exact,5.5,7,0.4372,0.45,0.57,KXNBAREB-26NOV13NYKIND-NYKOANUNOBY8-6
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_rebounds,Andre Drummond,5.5,near,6.5,7,0.6398,0.61,0.45,KXNBAREB-26NOV13NYKIND-NYKADRUMMOND0-6
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_rebounds,Josh Hart,7.5,exact,7.5,8,0.4602,0.45,0.56,KXNBAREB-26NOV13NYKIND-NYKJHART3-8
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_rebounds,Obi Toppin,3.5,near,4.5,5,0.6421,0.58,0.43,KXNBAREB-26NOV13NYKIND-INDOTOPPIN1-4
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_rebounds,Pascal Siakam,5.5,near,6.5,8,0.6044,0.59,0.45,KXNBAREB-26NOV13NYKIND-INDPSIAKAM43-6
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_rebounds,Kelly Oubre Jr.,3.5,exact,3.5,6,0.5325,0.54,0.48,KXNBAREB-26NOV13NYKIND-INDKOUBRE10-4
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_rebounds,Ivica Zubac,9.5,exact,9.5,4,0.5522,0.55,0.48,KXNBAREB-26NOV13NYKIND-INDIZUBAC40-10
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_rebounds,Ivica Zubac,9.5,near,10.5,5,0.5407,0.55,0.48,KXNBAREB-26NOV13NYKIND-INDIZUBAC40-10
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_assists,Karl-Anthony Towns,3.5,exact,3.5,8,0.466,0.46,0.56,KXNBAAST-26NOV13NYKIND-NYKKTOWNS32-4
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_assists,Mikal Bridges,1.5,exact,1.5,6,0.6056,0.61,0.42,KXNBAAST-26NOV13NYKIND-NYKMBRIDGES25-2
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_assists,Jalen Brunson,5.5,near,6.5,8,0.5827,0.62,0.39,KXNBAAST-26NOV13NYKIND-NYKJBRUNSON11-6
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_assists,Landry Shamet,1.5,exact,1.5,5,0.5027,0.5,0.51,KXNBAAST-26NOV13NYKIND-NYKLSHAMET44-2
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_assists,OG Anunoby,1.5,exact,1.5,6,0.5878,0.61,0.41,KXNBAAST-26NOV13NYKIND-NYKOANUNOBY8-2
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_assists,Josh Hart,3.5,exact,3.5,8,0.5411,0.55,0.47,KXNBAAST-26NOV13NYKIND-NYKJHART3-4
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_assists,Pascal Siakam,3.5,exact,3.5,8,0.5173,0.54,0.47,KXNBAAST-26NOV13NYKIND-INDPSIAKAM43-4
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_assists,Ivica Zubac,1.5,exact,1.5,6,0.6064,0.61,0.4,KXNBAAST-26NOV13NYKIND-INDIZUBAC40-2
+2026-11-13T17:50:36+00:00,basketball_nba,New York Knicks at Indiana Pacers,player_assists,Andrew Nembhard,7.5,exact,7.5,8,0.4927,0.5,0.53,KXNBAAST-26NOV13NYKIND-INDANEMBHARD2-8
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Kyle Kuzma,9.5,near,10.5,8,0.6187,0.59,0.44,KXNBAPTS-26NOV13MILORL-MILKKUZMA18-10
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Tyler Herro,19.5,near,21.5,7,0.6174,0.62,0.4,KXNBAPTS-26NOV13MILORL-MILTHERRO11-20
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Brayden Burries,9.5,near,11.5,8,0.7003,0.65,0.39,KXNBAPTS-26NOV13MILORL-MILBBURRIES0-10
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Myles Turner,9.5,exact,9.5,8,0.5047,0.5,0.51,KXNBAPTS-26NOV13MILORL-MILMTURNER3-10
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Franz Wagner,24.5,exact,24.5,7,0.496,0.52,0.49,KXNBAPTS-26NOV13MILORL-ORLFWAGNER22-25
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Wendell Carter Jr.,9.5,near,12.5,8,0.7654,0.71,0.33,KXNBAPTS-26NOV13MILORL-ORLWCARTER34-10
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Jalen Suggs,9.5,near,10.5,8,0.5924,0.55,0.49,KXNBAPTS-26NOV13MILORL-ORLJSUGGS4-10
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Desmond Bane,19.5,near,20.5,6,0.5336,0.53,0.49,KXNBAPTS-26NOV13MILORL-ORLDBANE3-20
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Desmond Bane,19.5,exact,19.5,3,0.52,0.53,0.49,KXNBAPTS-26NOV13MILORL-ORLDBANE3-20
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Anthony Black,14.5,near,15.5,7,0.5762,0.58,0.47,KXNBAPTS-26NOV13MILORL-ORLABLACK0-15
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_points,Tristan da Silva,9.5,near,12.5,5,0.7467,0.7,0.36,KXNBAPTS-26NOV13MILORL-ORLTDASILVA23-10
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Franz Wagner,5.5,near,6.5,8,0.631,0.63,0.41,KXNBAREB-26NOV13MILORL-ORLFWAGNER22-6
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Kyle Kuzma,3.5,near,4.5,8,0.7215,0.69,0.35,KXNBAREB-26NOV13MILORL-MILKKUZMA18-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Tyler Herro,3.5,near,4.5,8,0.6992,0.68,0.38,KXNBAREB-26NOV13MILORL-MILTHERRO11-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Brayden Burries,5.5,exact,5.5,8,0.4563,0.45,0.56,KXNBAREB-26NOV13MILORL-MILBBURRIES0-6
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Wendell Carter Jr.,7.5,near,8.5,6,0.6545,0.69,0.32,KXNBAREB-26NOV13MILORL-ORLWCARTER34-8
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Wendell Carter Jr.,9.5,exact,9.5,3,0.4642,0.44,0.57,KXNBAREB-26NOV13MILORL-ORLWCARTER34-10
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Myles Turner,5.5,exact,5.5,8,0.4325,0.45,0.56,KXNBAREB-26NOV13MILORL-MILMTURNER3-6
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Nate Ament,3.5,exact,3.5,7,0.4656,0.46,0.55,KXNBAREB-26NOV13MILORL-MILNAMENT15-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Jaime Jaquez Jr.,3.5,near,4.5,3,0.684,0.65,0.45,KXNBAREB-26NOV13MILORL-MILJJAQUEZ24-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Jalen Suggs,3.5,exact,3.5,8,0.4402,0.44,0.58,KXNBAREB-26NOV13MILORL-ORLJSUGGS4-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Desmond Bane,3.5,near,4.5,8,0.6672,0.63,0.42,KXNBAREB-26NOV13MILORL-ORLDBANE3-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Anthony Black,3.5,near,4.5,7,0.7554,0.72,0.31,KXNBAREB-26NOV13MILORL-ORLABLACK0-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_rebounds,Tristan da Silva,3.5,exact,3.5,6,0.5522,0.6,0.44,KXNBAREB-26NOV13MILORL-ORLTDASILVA23-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Tyler Herro,3.5,near,4.5,8,0.672,0.67,0.36,KXNBAAST-26NOV13MILORL-MILTHERRO11-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Myles Turner,1.5,exact,1.5,7,0.5529,0.56,0.45,KXNBAAST-26NOV13MILORL-MILMTURNER3-2
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Jaime Jaquez Jr.,3.5,exact,3.5,4,0.4446,0.44,0.59,KXNBAAST-26NOV13MILORL-MILJJAQUEZ24-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Franz Wagner,5.5,near,6.5,7,0.6236,0.65,0.38,KXNBAAST-26NOV13MILORL-ORLFWAGNER22-6
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Wendell Carter Jr.,1.5,exact,1.5,6,0.4987,0.51,0.52,KXNBAAST-26NOV13MILORL-ORLWCARTER34-2
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Jalen Suggs,3.5,exact,3.5,3,0.5833,0.58,0.43,KXNBAAST-26NOV13MILORL-ORLJSUGGS4-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Jalen Suggs,3.5,near,4.5,6,0.6136,0.58,0.43,KXNBAAST-26NOV13MILORL-ORLJSUGGS4-4
+2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Anthony Black,3.5,near,4.5,8,0.6881,0.69,0.34,KXNBAAST-26NOV13MILORL-ORLABLACK0-4

@@ -38,11 +38,51 @@
    "pays": "+156",
    "per_dollar": 2.56,
    "opened": "2026-11-13T09:40:25+00:00"
+  },
+  {
+   "kind": "game",
+   "game": "Indiana Pacers vs New York Knicks",
+   "start": "2026-11-14T00:10:00Z",
+   "legs": [
+    {
+     "label": "Obi Toppin 4+ rebounds",
+     "ticker": "KXNBAREB-26NOV13NYKIND-INDOTOPPIN1-4",
+     "side": "yes",
+     "price": 0.58,
+     "fair": 0.6421,
+     "value": 0.0441,
+     "player": "Obi Toppin"
+    },
+    {
+     "label": "Ivica Zubac 10+ points",
+     "ticker": "KXNBAPTS-26NOV13NYKIND-INDIZUBAC40-10",
+     "side": "yes",
+     "price": 0.72,
+     "fair": 0.7776,
+     "value": 0.0426,
+     "player": "Ivica Zubac"
+    },
+    {
+     "label": "Kelly Oubre Jr. 10+ points",
+     "ticker": "KXNBAPTS-26NOV13NYKIND-INDKOUBRE10-10",
+     "side": "yes",
+     "price": 0.63,
+     "fair": 0.688,
+     "value": 0.041,
+     "player": "Kelly Oubre Jr."
+    }
+   ],
+   "price": 0.2844,
+   "fair": 0.3435,
+   "pays": "+252",
+   "per_dollar": 3.52,
+   "opened": "2026-11-13T17:50:37+00:00"
   }
  ],
  "seen": {
   "game|New York Giants vs Washington Commanders|2026-11-13": "2026-11-12T20:47:35.070786+00:00",
   "favorites|Favorites across games|2026-11-12": "2026-11-12T20:47:35.070786+00:00",
-  "favorites|Favorites across games|2026-11-13": "2026-11-13T09:40:25.472602+00:00"
+  "favorites|Favorites across games|2026-11-13": "2026-11-13T09:40:25.472602+00:00",
+  "game|Indiana Pacers vs New York Knicks|2026-11-14": "2026-11-13T17:50:37.661763+00:00"
  }
 }
