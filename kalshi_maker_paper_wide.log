@@ -8379,3 +8379,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 20:02:44,541 INFO Swept 21656 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-12 20:09:24,732 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 20:09:30,051 INFO Swept 21643 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 20:16:19,688 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 20:16:24,536 INFO Swept 21702 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 20:23:13,765 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 20:23:18,598 INFO Swept 21729 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 20:30:06,860 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 20:30:11,976 INFO PAPER rest NO bid KXNHL2P-26NOV12COLOTT-OTT at $0.3800 x2 (0 already bid at that price)
+2026-11-12 20:30:11,976 INFO Resting NO bid on KXNHL2P-26NOV12COLOTT-OTT at $0.3800 x2 (KXNHL2P-26NOV12COLOTT): locks in $0.15 if it fills; hedge NO COL@0.7400, TIE@0.7700
+2026-11-12 20:30:12,113 INFO Swept 21734 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 20:37:01,351 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 20:37:06,438 INFO Swept 21721 events: 0 taker trades, 0 new quotes, 1 resting
