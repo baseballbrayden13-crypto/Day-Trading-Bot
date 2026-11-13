@@ -1485,3 +1485,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 00:45:13,951 INFO Swept 21482 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 00:51:26,903 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 00:51:32,164 INFO Swept 21480 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 00:57:56,703 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 00:58:02,037 INFO Swept 21488 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 01:04:16,390 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 01:04:21,687 INFO Swept 21499 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 01:10:41,733 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 01:10:46,992 INFO Swept 21479 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 01:17:10,928 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 01:17:16,146 INFO Swept 21480 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 01:23:40,828 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 01:23:46,002 INFO Swept 21494 events: 0 taker trades, 0 new quotes, 0 resting
