@@ -2554,5 +2554,25 @@
    "closed": "2026-11-12T19:02:52.081832+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXVALORANTMAP-26NOV130100TECALG-1",
+   "series": "KXVALORANTMAP",
+   "title": "TEC Esports vs. Ambitious Legend Gaming: Map 1 Winner",
+   "ticker": "KXVALORANTMAP-26NOV130100TECALG-1-ALG",
+   "order_id": "paper-1016-1794554975",
+   "price": "0.6300",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8600",
+   "multiplier": "1",
+   "placed": 1794554975.8756733,
+   "hedge": [
+    {
+     "ticker": "KXVALORANTMAP-26NOV130100TECALG-1-TEC",
+     "limit": "0.3000"
+    }
+   ]
+  }
+ ]
 }
