@@ -1,11 +1,11 @@
 checked,bot,label,name,status,headline
-2026-11-13T00:43:40+00:00,0,fleet,Whole fleet,info,Running normally.
-2026-11-13T00:43:40+00:00,1,1,ORB day trader,watch,On 2026-11-12 the backtest would have bought QQQ at 10:55 (~$689.86) but bot 1 didn't.
-2026-11-13T00:43:40+00:00,2,2,ETF rotation,info,Running normally.
-2026-11-13T00:43:40+00:00,3,3,Crypto trend,info,Running normally.
-2026-11-13T00:43:40+00:00,6,4c,Kalshi maker paper,info,Running normally.
-2026-11-13T00:43:40+00:00,7,4e,Kalshi combined,act,Bot 4e: 7 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
-2026-11-13T00:43:40+00:00,9,4f,Kalshi cushion test,act,Bot 4f is at $16.49 of its $20.00 start.
-2026-11-13T00:43:40+00:00,8,5,Dip buyer,info,Running normally.
-2026-11-13T00:43:40+00:00,10,6,QQQ trend,info,Running normally.
-2026-11-13T00:43:40+00:00,11,7,Momentum,info,Running normally.
+2026-11-13T06:57:54+00:00,0,fleet,Whole fleet,ok,Running normally.
+2026-11-13T06:57:54+00:00,1,1,ORB day trader,watch,On 2026-11-12 the backtest would have bought QQQ at 10:55 (~$689.86) but bot 1 didn't.
+2026-11-13T06:57:54+00:00,2,2,ETF rotation,info,Running normally.
+2026-11-13T06:57:54+00:00,3,3,Crypto trend,info,Running normally.
+2026-11-13T06:57:54+00:00,6,4c,Kalshi maker paper,info,Running normally.
+2026-11-13T06:57:54+00:00,7,4e,Kalshi combined,act,Bot 4e: 7 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
+2026-11-13T06:57:54+00:00,9,4f,Kalshi cushion test,act,Bot 4f: 4 one-sided leftovers from missed hedges (not locked-in trades) closed for $-3.29. (Flagged 3 days in a row.)
+2026-11-13T06:57:54+00:00,8,5,Dip buyer,info,Running normally.
+2026-11-13T06:57:54+00:00,10,6,QQQ trend,info,Running normally.
+2026-11-13T06:57:54+00:00,11,7,Momentum,info,Running normally.

@@ -1,5 +1,5 @@
 {
- "taken": "2026-11-13T00:43:40+00:00",
+ "taken": "2026-11-13T06:57:54+00:00",
  "bots": {
   "1": {
    "name": "ORB day trader",
@@ -339,7 +339,7 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 2461.84,
+    "equity": 2468.96,
     "last_equity": 0,
     "cash": 144.93,
     "status": "ACTIVE",
@@ -352,22 +352,22 @@
      "symbol": "XLE",
      "qty": 13.0,
      "avg_entry": 69.177692,
-     "market_value": 837.07,
-     "unrealized_pl": -62.239996
+     "market_value": 839.67,
+     "unrealized_pl": -59.639996
     },
     {
      "symbol": "XLP",
      "qty": 8.0,
      "avg_entry": 90.0975,
-     "market_value": 728.88,
-     "unrealized_pl": 8.1
+     "market_value": 731.04,
+     "unrealized_pl": 10.26
     },
     {
      "symbol": "XLV",
      "qty": 4.0,
      "avg_entry": 178.635,
-     "market_value": 750.96,
-     "unrealized_pl": 36.42
+     "market_value": 753.32,
+     "unrealized_pl": 38.78
     }
    ],
    "orders": [
@@ -500,17 +500,17 @@
    "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-12T02:26:22-05:00",
-    "last_line_time": "2026-11-12T02:26:22",
+    "modified": "2026-11-13T01:57:53-05:00",
+    "last_line_time": "2026-11-13T01:57:53",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-11 21:49:54,522 INFO Resized bot 3's slice by $-834.00 to a $1666 budget (cash now $1666.00)",
-     "2026-11-11 21:49:54,522 INFO Resized bot 6's slice by $-833.00 to a $1667 budget (cash now $-807.99)",
      "2026-11-11 21:49:54,599 INFO 2026-11-11 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average, SOL/USD below its 50-day average | bot 3 value $1666.00",
      "2026-11-12 02:26:18,379 INFO Connected to Alpaca PAPER account",
-     "2026-11-12 02:26:22,113 INFO 2026-11-11 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average, SOL/USD below its 50-day average | bot 3 value $1666.00"
+     "2026-11-12 02:26:22,113 INFO 2026-11-11 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average, SOL/USD below its 50-day average | bot 3 value $1666.00",
+     "2026-11-13 01:57:50,407 INFO Connected to Alpaca PAPER account",
+     "2026-11-13 01:57:53,764 INFO 2026-11-12 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average, SOL/USD below its 50-day average | bot 3 value $1666.00"
     ],
     "live_warning": false
    }
@@ -523,7 +523,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-13T00:34:24+00:00",
+     "updated": "2026-11-13T06:49:43+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -537,7 +537,7 @@
      "stray_positions": 0,
      "closed_trades": 3,
      "trades_this_loop": 0,
-     "events_swept": 21672,
+     "events_swept": 21500,
      "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -555,17 +555,17 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-12T19:38:31-05:00",
-     "last_line_time": "2026-11-12T19:38:31",
+     "modified": "2026-11-13T01:48:43-05:00",
+     "last_line_time": "2026-11-13T01:48:43",
      "errors": 0,
      "errors_24h": 0,
      "last_errors": [],
      "tail": [
-      "2026-11-12 19:18:17,860 INFO Swept 21646 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 19:23:16,046 INFO Swept 21682 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 19:28:22,149 INFO Swept 21674 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 19:33:29,204 INFO Swept 21671 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 19:38:31,458 INFO Swept 21672 events: 0 taker trades, 0 new quotes, 0 resting"
+      "2026-11-13 01:28:30,248 INFO Swept 21489 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-13 01:33:31,645 INFO Swept 21490 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-13 01:38:39,052 INFO Swept 21493 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-13 01:43:43,478 INFO Swept 21489 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-13 01:48:43,976 INFO Swept 21501 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -579,7 +579,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-13T00:29:29+00:00",
+     "updated": "2026-11-13T06:46:02+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -593,7 +593,7 @@
      "stray_positions": 0,
      "closed_trades": 63,
      "trades_this_loop": 0,
-     "events_swept": 21671,
+     "events_swept": 21502,
      "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -611,21 +611,21 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-12T19:35:56-05:00",
-     "last_line_time": "2026-11-12T19:35:56",
+     "modified": "2026-11-13T01:52:11-05:00",
+     "last_line_time": "2026-11-13T01:52:11",
      "errors": 34,
-     "errors_24h": 2,
+     "errors_24h": 0,
      "last_errors": [
       "2026-11-07 23:45:48,535 ERROR STRAY POSITION: 1 NO contracts of KXAHLGAME-26NOV072100SANHEN-HEN still held. Check it on Kalshi.",
       "2026-11-11 21:23:07,103 ERROR STRAY POSITION: 1 NO contracts of KXLVBPGAME-26NOV111800LARLAG-LAR still held. Check it on Kalshi.",
       "2026-11-12 01:55:02,874 ERROR STRAY POSITION: 5 NO contracts of KXNLGAME-26NOV111345HAPEVZ-EVZ still held. Check it on Kalshi."
      ],
      "tail": [
-      "2026-11-12 19:22:54,463 INFO Swept 21668 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 19:29:20,036 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN",
-      "2026-11-12 19:29:24,991 INFO Swept 21676 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 19:35:51,751 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN",
-      "2026-11-12 19:35:56,759 INFO Swept 21671 events: 0 taker trades, 0 new quotes, 0 resting"
+      "2026-11-13 01:39:44,476 INFO Swept 21489 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-13 01:45:52,098 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN",
+      "2026-11-13 01:45:57,419 INFO Swept 21489 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-13 01:52:05,963 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN",
+      "2026-11-13 01:52:11,298 INFO Swept 21502 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -639,7 +639,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-13T00:30:20+00:00",
+     "updated": "2026-11-13T06:43:36+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -653,7 +653,7 @@
      "stray_positions": 0,
      "closed_trades": 0,
      "trades_this_loop": 0,
-     "events_swept": 21672,
+     "events_swept": 21491,
      "found_this_loop": 0,
      "top_series": [],
      "problems": 0,
@@ -669,8 +669,8 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-12T19:35:24-05:00",
-     "last_line_time": "2026-11-12T19:35:24",
+     "modified": "2026-11-13T01:50:11-05:00",
+     "last_line_time": "2026-11-13T01:50:11",
      "errors": 5,
      "errors_24h": 2,
      "last_errors": [
@@ -679,11 +679,11 @@
       "2026-11-12 14:50:50,110 ERROR Maker loop error; carrying on"
      ],
      "tail": [
-      "2026-11-12 19:25:06,235 INFO Swept 21684 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 19:30:12,184 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
-      "2026-11-12 19:30:15,823 INFO Swept 21676 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 19:35:20,438 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
-      "2026-11-12 19:35:24,367 INFO Swept 21672 events: 0 taker trades, 0 new quotes, 0 resting"
+      "2026-11-13 01:36:55,381 INFO Swept 21492 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-13 01:43:26,568 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
+      "2026-11-13 01:43:31,888 INFO Swept 21489 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-13 01:50:06,065 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
+      "2026-11-13 01:50:11,296 INFO Swept 21491 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -768,7 +768,7 @@
    "errors": [],
    "account": {
     "account": "KTS7",
-    "equity": 1678.17,
+    "equity": 1660.7,
     "last_equity": 0,
     "cash": 16.68,
     "status": "ACTIVE",
@@ -781,8 +781,8 @@
      "symbol": "QLD",
      "qty": 20.314130969,
      "avg_entry": 81.24,
-     "market_value": 1661.49,
-     "unrealized_pl": 11.172772
+     "market_value": 1644.02,
+     "unrealized_pl": -6.297381
     }
    ],
    "orders": [
@@ -839,7 +839,7 @@
    "errors": [],
    "account": {
     "account": "KTS7",
-    "equity": 1676.72,
+    "equity": 1668.14,
     "last_equity": 0,
     "cash": 3.41,
     "status": "ACTIVE",
@@ -852,36 +852,36 @@
      "symbol": "AMD",
      "qty": 0.572652915,
      "avg_entry": 577.802,
-     "market_value": 332.5,
-     "unrealized_pl": 1.617973
+     "market_value": 329.39,
+     "unrealized_pl": -1.490043
     },
     {
      "symbol": "CSCO",
      "qty": 3.354000796,
      "avg_entry": 100.48,
-     "market_value": 341.1,
-     "unrealized_pl": 4.091881
+     "market_value": 338.42,
+     "unrealized_pl": 1.40868
     },
     {
      "symbol": "INTC",
      "qty": 5.399214659,
      "avg_entry": 61.131113,
-     "market_value": 332.81,
-     "unrealized_pl": 2.747591
+     "market_value": 328.43,
+     "unrealized_pl": -1.625773
     },
     {
      "symbol": "MRK",
      "qty": 2.260501355,
      "avg_entry": 147.6,
-     "market_value": 332.18,
-     "unrealized_pl": -1.469326
+     "market_value": 333.76,
+     "unrealized_pl": 0.113025
     },
     {
      "symbol": "TXN",
      "qty": 1.067423316,
      "avg_entry": 311.02,
-     "market_value": 334.72,
-     "unrealized_pl": 2.732603
+     "market_value": 334.73,
+     "unrealized_pl": 2.743278
     }
    ],
    "orders": [
@@ -1144,7 +1144,7 @@
    {
     "symbol": "HON",
     "day": "2026-11-12",
-    "close": 223.47,
+    "close": 222.77,
     "chg_1d_pct": -1.81,
     "chg_1m_pct": 7.61,
     "above_200d": false,
@@ -1214,7 +1214,7 @@
    {
     "symbol": "LLY",
     "day": "2026-11-12",
-    "close": 1430.085,
+    "close": 1428.35,
     "chg_1d_pct": -0.54,
     "chg_1m_pct": 18.1,
     "above_200d": true,
@@ -1555,6 +1555,12 @@
   "news": [
    {
     "symbol": "SPY",
+    "time": "2026-11-13T06:26:11+00:00",
+    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "SPY",
     "time": "2026-11-13T00:27:59+00:00",
     "headline": "Fed's Williams Said Inflation Remains Stubbornly Persistent , High; Fed Continues Steady Data Collection; Will Need To Take Action Over Time To Bring Inflation Back To 2%",
     "source": "benzinga"
@@ -1578,9 +1584,9 @@
     "source": "benzinga"
    },
    {
-    "symbol": "SPY",
-    "time": "2026-11-12T18:52:08+00:00",
-    "headline": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
+    "symbol": "QQQ",
+    "time": "2026-11-13T06:26:11+00:00",
+    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
     "source": "benzinga"
    },
    {
@@ -1608,10 +1614,22 @@
     "source": "benzinga"
    },
    {
-    "symbol": "QQQ",
-    "time": "2026-11-12T18:06:45+00:00",
-    "headline": "Nvidia ETFs Have a New Problem: Life After Jensen Huang",
+    "symbol": "AAPL",
+    "time": "2026-11-13T06:34:51+00:00",
+    "headline": "Trump Urged Jensen Huang To \u2018Keep Fighting\u2019 for His Nvidia CEO Job Two Days Before Resignation: Report",
     "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-11-13T05:46:54+00:00",
+    "headline": "Elon Musk Warns Against Pushing Founders Out \u2014 Steve Jobs and Travis Kalanick Lessons Resurface as Jensen Huang Exits Nvidia",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "AAPL",
+    "time": "2026-11-13T03:01:29+00:00",
+    "headline": "Apple Releases HomeView Software 27.2",
+    "source": "fiscal.ai"
    },
    {
     "symbol": "AAPL",
@@ -1626,21 +1644,15 @@
     "source": "benzinga"
    },
    {
-    "symbol": "AAPL",
-    "time": "2026-11-12T19:58:54+00:00",
-    "headline": "Wall Street Takes the Chainsaw to Nvidia Targets: One Bank Slashes $465 to $186",
+    "symbol": "MSFT",
+    "time": "2026-11-13T04:41:35+00:00",
+    "headline": "Microsoft Outage Triggers Chaos Across Outlook, Teams and Copilot \u2014 Spills Over to OpenAI and Anthropic (UPDATED)",
     "source": "benzinga"
    },
    {
-    "symbol": "AAPL",
-    "time": "2026-11-12T18:52:08+00:00",
-    "headline": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "AAPL",
-    "time": "2026-11-12T18:27:39+00:00",
-    "headline": "What Is Going on With Apple Stock on Thursday?",
+    "symbol": "MSFT",
+    "time": "2026-11-13T05:46:54+00:00",
+    "headline": "Elon Musk Warns Against Pushing Founders Out \u2014 Steve Jobs and Travis Kalanick Lessons Resurface as Jensen Huang Exits Nvidia",
     "source": "benzinga"
    },
    {
@@ -1662,75 +1674,63 @@
     "source": "benzinga"
    },
    {
-    "symbol": "MSFT",
-    "time": "2026-11-12T19:30:10+00:00",
-    "headline": "Workday CEO Admits He\u2019s \u2018Absolutely\u2019 Worried About AI Job Displacement \u2014 Says \u2018Yes,\u2019 Companies Will Want to Replace Humans for Less",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-12T19:24:59+00:00",
-    "headline": "EXCLUSIVE: Google, Microsoft \u2018Fail to Sway\u2019 Democrats With AI Power Pledge",
+    "symbol": "NVDA",
+    "time": "2026-11-13T06:45:10+00:00",
+    "headline": "Anthony Scaramucci Rips Howard Lutnick Over Nvidia Chip Crackdown: \u2018Incompetence Is Random. This Broke The Same Way Every Time\u2019",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-12T22:32:07+00:00",
-    "headline": "From AI Chips to Rocket Ships: Will Jensen Huang Join Elon Musk?",
+    "time": "2026-11-13T06:35:51+00:00",
+    "headline": "Nasdaq Down 100 Points As Nvidia Shares Fall: Investor Sentiment Improves, But Greed Index Remains In \u2018Fear\u2019 Zone",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-12T22:30:18+00:00",
-    "headline": "AOC Says Five Guys in Tuxedos Shouldn\u2019t Control the Economy: \u2018We Need to Check These Guys Power\u2019",
+    "time": "2026-11-13T06:34:51+00:00",
+    "headline": "Trump Urged Jensen Huang To \u2018Keep Fighting\u2019 for His Nvidia CEO Job Two Days Before Resignation: Report",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-12T22:00:12+00:00",
-    "headline": "Jensen Huang Drops Out of Top 10 Richest, Elon Musk Now 6.3x Richer Than Former Nvidia CEO",
+    "time": "2026-11-13T06:26:11+00:00",
+    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-12T21:10:07+00:00",
-    "headline": "Nvidia at 11X Earnings? One Wall Street Bull Says Investors Are Getting a Rare Bargain",
+    "time": "2026-11-13T05:48:39+00:00",
+    "headline": "Nvidia Funded AI Boom Under Jensen Huang, but Gary Marcus Questions if New CEO Will Keep Writing the Checks: \u2018Whole Thing Might Collapse\u2019",
     "source": "benzinga"
    },
    {
-    "symbol": "NVDA",
-    "time": "2026-11-12T21:00:06+00:00",
-    "headline": "Would a Tesla\u2013SpaceX Merger Be Bullish for Bitcoin? Careful What You Wish For",
+    "symbol": "TSLA",
+    "time": "2026-11-13T06:45:10+00:00",
+    "headline": "Anthony Scaramucci Rips Howard Lutnick Over Nvidia Chip Crackdown: \u2018Incompetence Is Random. This Broke The Same Way Every Time\u2019",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "TSLA",
+    "time": "2026-11-13T05:46:54+00:00",
+    "headline": "Elon Musk Warns Against Pushing Founders Out \u2014 Steve Jobs and Travis Kalanick Lessons Resurface as Jensen Huang Exits Nvidia",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "TSLA",
+    "time": "2026-11-13T04:38:06+00:00",
+    "headline": "Tesla (TSLA) Stock Trends After Hours As SpaceX Merger Talks Heat Up, Elon Musk Extends Cybertruck Production",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "TSLA",
+    "time": "2026-11-13T04:26:38+00:00",
+    "headline": "Michael Burry Hints At Bigger Nvidia Asia \u2018Reveal\u2019 As Jensen Huang\u2019s \u2018Deer In The Headlights\u2019 Dig At Colette Kress Resurfaces",
     "source": "benzinga"
    },
    {
     "symbol": "TSLA",
     "time": "2026-11-12T23:30:17+00:00",
     "headline": "Tesla Launches Over 20 New Merchandise Products for Holidays and Some are Already Sold Out: Here\u2019s the List",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "TSLA",
-    "time": "2026-11-12T22:32:07+00:00",
-    "headline": "From AI Chips to Rocket Ships: Will Jensen Huang Join Elon Musk?",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "TSLA",
-    "time": "2026-11-12T22:30:18+00:00",
-    "headline": "AOC Says Five Guys in Tuxedos Shouldn\u2019t Control the Economy: \u2018We Need to Check These Guys Power\u2019",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "TSLA",
-    "time": "2026-11-12T21:31:29+00:00",
-    "headline": "Tesla and SpaceX Merger Negotiations Reportedly Progressing",
-    "source": "fiscal.ai"
-   },
-   {
-    "symbol": "TSLA",
-    "time": "2026-11-12T21:02:07+00:00",
-    "headline": "QUICK SPARK: Tesla Stock Has Best 5-Day Rally in Over a Year as Elon Musk Pushes for SpaceX Merger by December",
     "source": "benzinga"
    }
   ],
@@ -1740,11 +1740,6 @@
    "calm": false
   },
   "benchmarks": [
-   {
-    "day": "2025-09-09",
-    "symbol": "SPY",
-    "close": 641.51
-   },
    {
     "day": "2025-09-10",
     "symbol": "SPY",
@@ -3229,11 +3224,6 @@
     "day": "2026-11-12",
     "symbol": "SPY",
     "close": 757.16
-   },
-   {
-    "day": "2025-09-09",
-    "symbol": "QQQ",
-    "close": 577.1
    },
    {
     "day": "2025-09-10",
@@ -9014,12 +9004,6 @@
  },
  "events": [
   {
-   "date": "2026-11-12",
-   "what": "CSCO earnings",
-   "symbol": "CSCO",
-   "when": "time-after-hours"
-  },
-  {
    "date": "2026-11-17",
    "what": "NVDA earnings",
    "symbol": "NVDA",
@@ -9035,6 +9019,12 @@
    "date": "2026-11-17",
    "what": "DIS earnings",
    "symbol": "DIS",
+   "when": "time-pre-market"
+  },
+  {
+   "date": "2026-11-19",
+   "what": "WMT earnings",
+   "symbol": "WMT",
    "when": "time-pre-market"
   }
  ],
