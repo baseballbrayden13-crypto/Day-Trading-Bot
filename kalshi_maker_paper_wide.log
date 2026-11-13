@@ -8433,3 +8433,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 22:05:47,203 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 22:05:52,216 INFO Swept 21701 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-12 22:05:52,332 INFO Quote KXNBAWINMARGIN-26NOV12DALMIN cancelled (0/2 filled)
+2026-11-12 22:12:43,618 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 22:12:48,691 INFO Swept 21677 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 22:19:29,445 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 22:19:34,599 INFO PAPER rest NO bid KXNBAWINMARGIN-26NOV12DETWAS-DET6TO10 at $0.7800 x5 (0 already bid at that price)
+2026-11-12 22:19:34,599 INFO Resting NO bid on KXNBAWINMARGIN-26NOV12DETWAS-DET6TO10 at $0.7800 x5 (KXNBAWINMARGIN-26NOV12DETWAS): locks in $1.02 if it fills; hedge NO DET1TO5@0.0100
+2026-11-12 22:19:34,743 INFO Swept 21662 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 22:26:15,997 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 22:26:21,064 INFO Swept 21633 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 22:26:21,182 INFO Quote KXNBAWINMARGIN-26NOV12DETWAS cancelled (0/5 filled)
+2026-11-12 22:26:26,188 INFO Stopped; all quotes cancelled.
