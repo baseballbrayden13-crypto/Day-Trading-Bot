@@ -97,5 +97,25 @@
    "closed": "2026-11-12T19:53:14.457044+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXR6MAP-26NOV121930M80VP-2",
+   "series": "KXR6MAP",
+   "title": "M80 vs. Virtus.pro: Map 2 Winner",
+   "ticker": "KXR6MAP-26NOV121930M80VP-2-M80",
+   "order_id": "paper-77-1794533933",
+   "price": "0.3400",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.3200",
+   "multiplier": "1",
+   "placed": 1794533933.520585,
+   "hedge": [
+    {
+     "ticker": "KXR6MAP-26NOV121930M80VP-2-VP",
+     "limit": "0.3000"
+    }
+   ]
+  }
+ ]
 }
