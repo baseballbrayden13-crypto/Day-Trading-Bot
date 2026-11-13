@@ -14342,12 +14342,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794590348.616543,
-  "checked": 1794591099.034944,
+  "checked": 1794592148,
   "expires": 1794592148,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-1026-1794591098": {
   "id": "paper-1026-1794591098",
@@ -14356,8 +14356,22 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794591098.9500384,
-  "checked": 1794591099.1720586,
+  "checked": 1794592898,
   "expires": 1794592898,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-1027-1794592983": {
+  "id": "paper-1027-1794592983",
+  "ticker": "KXELHGAME-26NOV131130CESHCVL-CES",
+  "price": "0.6500",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794592983.647997,
+  "checked": 1794592983.8047724,
+  "expires": 1794594783,
   "through": 0,
   "at_price": 0,
   "filled": 0,

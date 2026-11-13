@@ -2556,40 +2556,21 @@
  ],
  "quotes": [
   {
-   "event": "KXFBUGAME-26NOV131100NIKCHE",
-   "series": "KXFBUGAME",
-   "title": "Niko-Basket Mykolaiv vs BC Cherkaski Mavpy",
-   "ticker": "KXFBUGAME-26NOV131100NIKCHE-CHE",
-   "order_id": "paper-1025-1794590348",
-   "price": "0.6400",
+   "event": "KXELHGAME-26NOV131130CESHCVL",
+   "series": "KXELHGAME",
+   "title": "Ceske Budejovice vs HC Verva Litvinov",
+   "ticker": "KXELHGAME-26NOV131130CESHCVL-CES",
+   "order_id": "paper-1027-1794592983",
+   "price": "0.6500",
    "sets": 2,
    "done": 0,
-   "reserve": "1.8200",
+   "reserve": "1.8400",
    "multiplier": "1",
-   "placed": 1794590348.6297855,
+   "placed": 1794592983.6619942,
    "hedge": [
     {
-     "ticker": "KXFBUGAME-26NOV131100NIKCHE-NIK",
+     "ticker": "KXELHGAME-26NOV131130CESHCVL-HCVL",
      "limit": "0.2500"
-    }
-   ]
-  },
-  {
-   "event": "KXVALORANTGAME-26NOV140100LNGKBG",
-   "series": "KXVALORANTGAME",
-   "title": "LNG Esports vs. KeepBest Gaming",
-   "ticker": "KXVALORANTGAME-26NOV140100LNGKBG-LNG",
-   "order_id": "paper-1026-1794591098",
-   "price": "0.6100",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.4800",
-   "multiplier": "1",
-   "placed": 1794591098.9637425,
-   "hedge": [
-    {
-     "ticker": "KXVALORANTGAME-26NOV140100LNGKBG-KBG",
-     "limit": "0.1400"
     }
    ]
   }
