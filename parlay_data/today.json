@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T17:50:37+00:00",
+ "updated": "2026-11-13T23:39:23+00:00",
  "parlays": [
   {
    "kind": "game",
@@ -69,45 +69,121 @@
    "per_dollar": 2.1
   },
   {
-   "kind": "favorites",
-   "game": "Favorites across games",
-   "start": "2026-11-14T02:10:00Z",
+   "kind": "game",
+   "game": "Milwaukee Bucks vs Orlando Magic",
+   "start": "2026-11-14T00:10:00Z",
    "legs": [
     {
-     "label": "New York Rangers to win",
-     "ticker": "KXNHLGAME-26NOV13NYRVAN-NYR",
+     "label": "Orlando Magic to win",
+     "ticker": "KXNBAGAME-26NOV13MILORL-ORL",
      "side": "yes",
-     "price": 0.66,
-     "fair": 0.6626,
-     "value": -0.0134,
+     "price": 0.79,
+     "fair": 0.7764,
+     "value": -0.0256,
      "player": ""
     },
     {
-     "label": "Hofstra Pride to win",
-     "ticker": "KXNCAAMBGAME-26NOV13IONAHOF-HOF",
+     "label": "Wendell Carter Jr. 10+ points",
+     "ticker": "KXNBAPTS-26NOV13MILORL-ORLWCARTER34-10",
      "side": "yes",
-     "price": 0.73,
-     "fair": 0.7282,
-     "value": -0.0158,
+     "price": 0.71,
+     "fair": 0.7654,
+     "value": 0.0404,
+     "player": "Wendell Carter Jr."
+    },
+    {
+     "label": "Brayden Burries 10+ points",
+     "ticker": "KXNBAPTS-26NOV13MILORL-MILBBURRIES0-10",
+     "side": "yes",
+     "price": 0.65,
+     "fair": 0.7003,
+     "value": 0.0343,
+     "player": "Brayden Burries"
+    },
+    {
+     "label": "Tristan da Silva 10+ points",
+     "ticker": "KXNBAPTS-26NOV13MILORL-ORLTDASILVA23-10",
+     "side": "yes",
+     "price": 0.7,
+     "fair": 0.7467,
+     "value": 0.0317,
+     "player": "Tristan da Silva"
+    }
+   ],
+   "price": 0.2769,
+   "fair": 0.3107,
+   "pays": "+261",
+   "per_dollar": 3.61
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "Milwaukee Bucks vs Orlando Magic",
+   "start": "2026-11-14T00:10:00Z",
+   "legs": [
+    {
+     "label": "Orlando Magic to win",
+     "ticker": "KXNBAGAME-26NOV13MILORL-ORL",
+     "side": "yes",
+     "price": 0.79,
+     "fair": 0.7764,
+     "value": -0.0256,
      "player": ""
     },
     {
-     "label": "UConn Huskies to win",
-     "ticker": "KXNCAAMBGAME-26NOV13OSUCONN-CONN",
+     "label": "Wendell Carter Jr. 10+ points",
+     "ticker": "KXNBAPTS-26NOV13MILORL-ORLWCARTER34-10",
      "side": "yes",
-     "price": 0.86,
-     "fair": 0.8528,
-     "value": -0.0162,
+     "price": 0.71,
+     "fair": 0.7654,
+     "value": 0.0404,
+     "player": "Wendell Carter Jr."
+    }
+   ],
+   "price": 0.5815,
+   "fair": 0.5943,
+   "pays": "-139",
+   "per_dollar": 1.72
+  },
+  {
+   "kind": "favorites",
+   "game": "Favorites across games",
+   "start": "2026-11-14T03:40:00Z",
+   "legs": [
+    {
+     "label": "Xavier Musketeers to win",
+     "ticker": "KXNCAAMBGAME-26NOV13MSSTXAV-XAV",
+     "side": "yes",
+     "price": 0.61,
+     "fair": 0.6195,
+     "value": -0.0075,
+     "player": ""
+    },
+    {
+     "label": "Oklahoma City Thunder to win",
+     "ticker": "KXNBAGAME-26NOV13OKCLAC-OKC",
+     "side": "yes",
+     "price": 0.71,
+     "fair": 0.7115,
+     "value": -0.0135,
+     "player": ""
+    },
+    {
+     "label": "Charlotte 49ers to win",
+     "ticker": "KXNCAAMBGAME-26NOV13APPCHAR-CHAR",
+     "side": "yes",
+     "price": 0.76,
+     "fair": 0.757,
+     "value": -0.016,
      "player": ""
     }
    ],
-   "price": 0.4371,
-   "fair": 0.4115,
-   "pays": "+129",
-   "per_dollar": 2.29
+   "price": 0.3514,
+   "fair": 0.3337,
+   "pays": "+185",
+   "per_dollar": 2.85
   }
  ],
- "open_pretend": 2,
+ "open_pretend": 3,
  "record": {
   "parlays": 2,
   "won": 0,

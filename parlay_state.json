@@ -77,12 +77,61 @@
    "pays": "+252",
    "per_dollar": 3.52,
    "opened": "2026-11-13T17:50:37+00:00"
+  },
+  {
+   "kind": "game",
+   "game": "Milwaukee Bucks vs Orlando Magic",
+   "start": "2026-11-14T00:10:00Z",
+   "legs": [
+    {
+     "label": "Orlando Magic to win",
+     "ticker": "KXNBAGAME-26NOV13MILORL-ORL",
+     "side": "yes",
+     "price": 0.79,
+     "fair": 0.7764,
+     "value": -0.0256,
+     "player": ""
+    },
+    {
+     "label": "Wendell Carter Jr. 10+ points",
+     "ticker": "KXNBAPTS-26NOV13MILORL-ORLWCARTER34-10",
+     "side": "yes",
+     "price": 0.71,
+     "fair": 0.7654,
+     "value": 0.0404,
+     "player": "Wendell Carter Jr."
+    },
+    {
+     "label": "Brayden Burries 10+ points",
+     "ticker": "KXNBAPTS-26NOV13MILORL-MILBBURRIES0-10",
+     "side": "yes",
+     "price": 0.65,
+     "fair": 0.7003,
+     "value": 0.0343,
+     "player": "Brayden Burries"
+    },
+    {
+     "label": "Tristan da Silva 10+ points",
+     "ticker": "KXNBAPTS-26NOV13MILORL-ORLTDASILVA23-10",
+     "side": "yes",
+     "price": 0.7,
+     "fair": 0.7467,
+     "value": 0.0317,
+     "player": "Tristan da Silva"
+    }
+   ],
+   "price": 0.2769,
+   "fair": 0.3107,
+   "pays": "+261",
+   "per_dollar": 3.61,
+   "opened": "2026-11-13T23:39:23+00:00"
   }
  ],
  "seen": {
   "game|New York Giants vs Washington Commanders|2026-11-13": "2026-11-12T20:47:35.070786+00:00",
   "favorites|Favorites across games|2026-11-12": "2026-11-12T20:47:35.070786+00:00",
   "favorites|Favorites across games|2026-11-13": "2026-11-13T09:40:25.472602+00:00",
-  "game|Indiana Pacers vs New York Knicks|2026-11-14": "2026-11-13T17:50:37.661763+00:00"
+  "game|Indiana Pacers vs New York Knicks|2026-11-14": "2026-11-13T17:50:37.661763+00:00",
+  "game|Milwaukee Bucks vs Orlando Magic|2026-11-14": "2026-11-13T23:39:23.084188+00:00"
  }
 }
