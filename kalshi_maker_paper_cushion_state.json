@@ -1,6 +1,37 @@
 {
  "realized": "-3.5100",
- "open": [],
+ "open": [
+  {
+   "event": "KXAFCON1H-26NOV13MLIRWA",
+   "series": "KXAFCON1H",
+   "title": "Mali vs Rwanda: First Half Winner",
+   "sets": 2,
+   "outlay": "4.0900",
+   "locked_profit": "-0.0900",
+   "opened": "2026-11-13T19:14:45.863891+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXAFCON1H-26NOV13MLIRWA-MLI",
+     "side": "no",
+     "count": 2,
+     "limit": "0.0700"
+    },
+    {
+     "ticker": "KXAFCON1H-26NOV13MLIRWA-RWA",
+     "side": "no",
+     "count": 2,
+     "limit": "0.99"
+    },
+    {
+     "ticker": "KXAFCON1H-26NOV13MLIRWA-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.97"
+    }
+   ]
+  }
+ ],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -97,25 +128,5 @@
    "closed": "2026-11-12T19:53:14.457044+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAWBGAME-26NOV17PFWWIU",
-   "series": "KXNCAAWBGAME",
-   "title": "Purdue Fort Wayne vs Western Illinois",
-   "ticker": "KXNCAAWBGAME-26NOV17PFWWIU-WIU",
-   "order_id": "paper-90-1794594874",
-   "price": "0.2000",
-   "sets": 5,
-   "done": 0,
-   "reserve": "4.3500",
-   "multiplier": "1",
-   "placed": 1794594874.3664794,
-   "hedge": [
-    {
-     "ticker": "KXNCAAWBGAME-26NOV17PFWWIU-PFW",
-     "limit": "0.6500"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

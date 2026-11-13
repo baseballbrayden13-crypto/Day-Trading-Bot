@@ -1718,3 +1718,22 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 13:54:37,933 INFO Quote KXLIIGAGAME-26NOV131130KIEKAL cancelled (0/2 filled)
 2026-11-13 13:59:32,212 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 13:59:34,916 INFO Swept 21667 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 14:04:40,439 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 14:04:42,875 INFO Swept 21677 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 14:09:41,498 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 14:09:44,487 INFO PAPER rest NO bid KXAFCON1H-26NOV13MLIRWA-MLI at $0.0700 x2 (0 already bid at that price)
+2026-11-13 14:09:44,487 INFO Resting NO bid on KXAFCON1H-26NOV13MLIRWA-MLI at $0.0700 x2 (KXAFCON1H-26NOV13MLIRWA): locks in $0.27 if it fills; hedge NO RWA@0.9600, TIE@0.8100
+2026-11-13 14:09:44,488 INFO Swept 21667 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 14:14:43,037 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 14:14:45,760 INFO Swept 21717 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 14:14:45,782 INFO PAPER KXAFCON1H-26NOV13MLIRWA-MLI NO bid at $0.0700: 2/2 filled by real trades
+2026-11-13 14:14:45,803 INFO PAPER buy 2 NO KXAFCON1H-26NOV13MLIRWA-RWA at up to $0.9600: not on the book
+2026-11-13 14:14:45,823 INFO PAPER buy 2 NO KXAFCON1H-26NOV13MLIRWA-RWA at up to $0.99: filled 2
+2026-11-13 14:14:45,824 INFO Quote KXAFCON1H-26NOV13MLIRWA: hedge on KXAFCON1H-26NOV13MLIRWA-RWA chased from 0.9600 to 0.99
+2026-11-13 14:14:45,843 INFO PAPER buy 2 NO KXAFCON1H-26NOV13MLIRWA-TIE at up to $0.8700: not on the book
+2026-11-13 14:14:45,863 INFO PAPER buy 2 NO KXAFCON1H-26NOV13MLIRWA-TIE at up to $0.97: filled 2
+2026-11-13 14:14:45,863 INFO Quote KXAFCON1H-26NOV13MLIRWA: hedge on KXAFCON1H-26NOV13MLIRWA-TIE chased from 0.8700 to 0.97
+2026-11-13 14:14:45,863 INFO Quote KXAFCON1H-26NOV13MLIRWA filled 2: hedged, locks in $-0.09
+2026-11-13 14:19:42,606 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 14:19:45,062 INFO Swept 21732 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 14:19:50,064 INFO Stopped; all quotes cancelled.
