@@ -1345,3 +1345,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 18:29:05,278 INFO Swept 21604 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-12 18:34:11,082 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 18:34:14,569 INFO Swept 21603 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 18:39:21,539 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 18:39:25,408 INFO Swept 21595 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 18:44:25,838 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 18:44:29,636 INFO PAPER rest NO bid KXLVBPGAME-26NOV121800LARCAR-CAR at $0.1400 x1 (0 already bid at that price)
+2026-11-12 18:44:29,636 INFO Resting NO bid on KXLVBPGAME-26NOV121800LARCAR-CAR at $0.1400 x1 (KXLVBPGAME-26NOV121800LARCAR): locks in $0.21 if it fills; hedge NO LAR@0.6200
+2026-11-12 18:44:29,637 INFO Swept 21597 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 18:49:29,738 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 18:49:33,279 INFO Swept 21604 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 18:54:35,644 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 18:54:39,185 INFO Swept 21611 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 18:59:38,121 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 18:59:41,710 INFO Swept 21591 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 19:04:37,418 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 19:04:40,962 INFO Swept 21590 events: 0 taker trades, 0 new quotes, 1 resting
