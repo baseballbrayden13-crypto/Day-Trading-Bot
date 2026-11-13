@@ -1589,3 +1589,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 09:27:18,498 INFO Swept 21573 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 09:32:17,853 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 09:32:21,890 INFO Swept 21571 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 09:37:18,903 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 09:37:22,479 INFO PAPER rest NO bid KXAFCONSCORE-26NOV13MOZETH-MOZ1ETH2 at $0.1800 x1 (0 already bid at that price)
+2026-11-13 09:37:22,479 INFO Resting NO bid on KXAFCONSCORE-26NOV13MOZETH-MOZ1ETH2 at $0.1800 x1 (KXAFCONSCORE-26NOV13MOZETH): locks in $0.66 if it fills; hedge NO MOZ0ETH0@0.3900, MOZ0ETH1@0.9300, MOZ1ETH0@0.8000, MOZ1ETH1@0.9800, MOZ2ETH0@0.9800
+2026-11-13 09:37:22,481 INFO Swept 21545 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 09:42:24,421 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 09:42:27,729 INFO Swept 21542 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 09:42:43,082 INFO Quote KXAFCONSCORE-26NOV13MOZETH cancelled (0/1 filled)
+2026-11-13 09:47:42,963 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 09:47:46,334 INFO Swept 21537 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 09:52:22,727 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 09:52:25,785 INFO Swept 21540 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 09:57:31,937 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 09:57:35,084 INFO Swept 21527 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 10:02:38,729 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 10:02:41,907 INFO Swept 21521 events: 0 taker trades, 0 new quotes, 0 resting
