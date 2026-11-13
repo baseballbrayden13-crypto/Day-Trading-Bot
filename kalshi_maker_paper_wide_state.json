@@ -2578,25 +2578,5 @@
    "closed": "2026-11-12T19:02:52.081832+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXVALORANTGAME-26NOV140100LNGKBG",
-   "series": "KXVALORANTGAME",
-   "title": "LNG Esports vs. KeepBest Gaming",
-   "ticker": "KXVALORANTGAME-26NOV140100LNGKBG-LNG",
-   "order_id": "paper-1029-1794594476",
-   "price": "0.7500",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.7600",
-   "multiplier": "1",
-   "placed": 1794594476.3642116,
-   "hedge": [
-    {
-     "ticker": "KXVALORANTGAME-26NOV140100LNGKBG-KBG",
-     "limit": "0.1400"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
