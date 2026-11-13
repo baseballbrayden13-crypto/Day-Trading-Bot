@@ -1638,3 +1638,22 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 11:23:26,099 INFO Swept 21624 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 11:28:27,523 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 11:28:30,843 INFO Swept 21620 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 11:33:30,353 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 11:33:34,846 INFO Swept 21615 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 11:38:32,274 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 11:38:36,106 INFO PAPER rest NO bid KXVALORANTGAME-26NOV140100LNGKBG-LNG at $0.6300 x2 (0 already bid at that price)
+2026-11-13 11:38:36,106 INFO Resting NO bid on KXVALORANTGAME-26NOV140100LNGKBG-LNG at $0.6300 x2 (KXVALORANTGAME-26NOV140100LNGKBG): locks in $0.48 if it fills; hedge NO KBG@0.1400
+2026-11-13 11:38:36,107 INFO Swept 21619 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 11:43:33,178 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 11:43:36,325 INFO Swept 21614 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 11:48:33,546 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 11:48:36,771 INFO PAPER rest NO bid KXAFCON1H-26NOV13CPVLBR-TIE at $0.2900 x2 (0 already bid at that price)
+2026-11-13 11:48:36,771 INFO Resting NO bid on KXAFCON1H-26NOV13CPVLBR-TIE at $0.2900 x2 (KXAFCON1H-26NOV13CPVLBR): locks in $1.15 if it fills; hedge NO CPV@0.1200
+2026-11-13 11:48:36,772 INFO Swept 21605 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 11:53:31,966 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 11:53:34,813 INFO Swept 21610 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 11:53:35,073 INFO Quote KXAFCON1H-26NOV13CPVLBR cancelled (0/2 filled)
+2026-11-13 11:58:39,074 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 11:58:41,919 INFO Swept 21582 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 12:03:30,722 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 12:03:33,768 INFO Swept 21580 events: 0 taker trades, 0 new quotes, 1 resting
