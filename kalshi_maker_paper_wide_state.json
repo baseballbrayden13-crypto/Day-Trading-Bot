@@ -2554,25 +2554,5 @@
    "closed": "2026-11-12T19:02:52.081832+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLVBPGAME-26NOV121800ARAANZ",
-   "series": "KXLVBPGAME",
-   "title": "Tigres de Aragua vs Caribes de Anzoategui",
-   "ticker": "KXLVBPGAME-26NOV121800ARAANZ-ANZ",
-   "order_id": "paper-1010-1794536304",
-   "price": "0.3200",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.7500",
-   "multiplier": "1",
-   "placed": 1794536304.3456008,
-   "hedge": [
-    {
-     "ticker": "KXLVBPGAME-26NOV121800ARAANZ-ARA",
-     "limit": "0.4000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

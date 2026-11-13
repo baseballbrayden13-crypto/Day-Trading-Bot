@@ -8419,3 +8419,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 21:38:41,556 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 21:38:47,092 INFO Swept 21793 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-12 21:38:47,267 INFO Quote KXNBAWINMARGIN-26NOV12DALMIN cancelled (0/1 filled)
+2026-11-12 21:45:31,760 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 21:45:36,947 INFO PAPER rest NO bid KXLIGAEXP1H-26NOV12ATMLEN-ATM at $0.6300 x2 (0 already bid at that price)
+2026-11-12 21:45:36,948 INFO Resting NO bid on KXLIGAEXP1H-26NOV12ATMLEN-ATM at $0.6300 x2 (KXLIGAEXP1H-26NOV12ATMLEN): locks in $0.54 if it fills; hedge NO LEN@0.9800, TIE@0.1000
+2026-11-12 21:45:37,117 INFO Swept 21786 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-12 21:52:17,856 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 21:52:22,988 INFO Swept 21774 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-12 21:52:23,145 INFO Quote KXLIGAEXP1H-26NOV12ATMLEN cancelled (0/2 filled)
+2026-11-12 21:59:01,510 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 21:59:06,585 INFO PAPER rest NO bid KXNBAWINMARGIN-26NOV12DALMIN-DAL21PLUS at $0.5700 x2 (0 already bid at that price)
+2026-11-12 21:59:06,586 INFO Resting NO bid on KXNBAWINMARGIN-26NOV12DALMIN-DAL21PLUS at $0.5700 x2 (KXNBAWINMARGIN-26NOV12DALMIN): locks in $0.75 if it fills; hedge NO MIN11TO20@0.9800, MIN21PLUS@0.0600
+2026-11-12 21:59:06,723 INFO Swept 21738 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 22:05:47,203 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 22:05:52,216 INFO Swept 21701 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 22:05:52,332 INFO Quote KXNBAWINMARGIN-26NOV12DALMIN cancelled (0/2 filled)
