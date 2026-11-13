@@ -8705,3 +8705,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 13:58:45,685 INFO Swept 21668 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-13 14:04:49,460 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
 2026-11-13 14:04:53,706 INFO Swept 21662 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 14:11:03,862 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 14:11:08,784 INFO PAPER rest NO bid KXAFCON1H-26NOV13MLIRWA-TIE at $0.1400 x1 (0 already bid at that price)
+2026-11-13 14:11:08,784 INFO Resting NO bid on KXAFCON1H-26NOV13MLIRWA-TIE at $0.1400 x1 (KXAFCON1H-26NOV13MLIRWA): locks in $0.22 if it fills; hedge NO MLI@0.6500, RWA@0.9500
+2026-11-13 14:11:08,851 INFO Swept 21664 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 14:17:11,190 INFO Settled KXELHGAME-26NOV131130CESHCVL: paid $2, profit $0.16
+2026-11-13 14:17:11,238 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 14:17:15,526 INFO Swept 21716 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 14:23:16,801 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 14:23:21,106 INFO PAPER rest NO bid KXCONCACAFNL1H-26NOV13BMULCA-BMU at $0.7400 x1 (0 already bid at that price)
+2026-11-13 14:23:21,107 INFO Resting NO bid on KXCONCACAFNL1H-26NOV13BMULCA-BMU at $0.7400 x1 (KXCONCACAFNL1H-26NOV13BMULCA): locks in $0.17 if it fills; hedge NO LCA@0.1000, TIE@0.9600
+2026-11-13 14:23:21,175 INFO Swept 21733 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 14:23:26,617 INFO Stopped; all quotes cancelled.

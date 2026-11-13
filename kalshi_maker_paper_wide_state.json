@@ -1,5 +1,5 @@
 {
- "realized": "-6.4200",
+ "realized": "-6.2600",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -81,30 +81,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXELHGAME-26NOV131130CESHCVL",
-   "series": "KXELHGAME",
-   "title": "Ceske Budejovice vs HC Verva Litvinov",
-   "sets": 2,
-   "outlay": "1.8400",
-   "locked_profit": "0.1600",
-   "opened": "2026-11-13T18:21:39.934113+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXELHGAME-26NOV131130CESHCVL-CES",
-     "side": "no",
-     "count": 2,
-     "limit": "0.6500"
-    },
-    {
-     "ticker": "KXELHGAME-26NOV131130CESHCVL-HCVL",
-     "side": "no",
-     "count": 2,
-     "limit": "0.2500"
     }
    ]
   }
@@ -2576,6 +2552,37 @@
     "KXNHL2P-26NOV12CARSEA-TIE": "no"
    },
    "closed": "2026-11-12T19:02:52.081832+00:00"
+  },
+  {
+   "event": "KXELHGAME-26NOV131130CESHCVL",
+   "series": "KXELHGAME",
+   "title": "Ceske Budejovice vs HC Verva Litvinov",
+   "sets": 2,
+   "outlay": "1.8400",
+   "locked_profit": "0.1600",
+   "opened": "2026-11-13T18:21:39.934113+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXELHGAME-26NOV131130CESHCVL-CES",
+     "side": "no",
+     "count": 2,
+     "limit": "0.6500"
+    },
+    {
+     "ticker": "KXELHGAME-26NOV131130CESHCVL-HCVL",
+     "side": "no",
+     "count": 2,
+     "limit": "0.2500"
+    }
+   ],
+   "paid": "2",
+   "pnl": "0.1600",
+   "results": {
+    "KXELHGAME-26NOV131130CESHCVL-CES": "yes",
+    "KXELHGAME-26NOV131130CESHCVL-HCVL": "no"
+   },
+   "closed": "2026-11-13T19:17:11.190682+00:00"
   }
  ],
  "quotes": []
