@@ -8605,3 +8605,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 09:54:59,890 INFO Swept 21540 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-13 10:01:11,705 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
 2026-11-13 10:01:16,821 INFO Swept 21528 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 10:07:30,349 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 10:07:35,819 INFO Swept 21551 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 10:13:45,200 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 10:13:50,376 INFO Swept 21638 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 10:13:50,593 INFO Quote KXVALORANTMAP-26NOV130330KBGQIA-2 cancelled (0/2 filled)
+2026-11-13 10:20:00,686 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 10:20:05,818 INFO Settled daily_safest KXOPENSOURCESHARE-26NOV13-T69.5: NO, profit $0.01
+2026-11-13 10:20:06,001 INFO Settled daily_combo COMBO-2026-11-12: YES, profit $0.05
+2026-11-13 10:20:06,002 INFO Swept 21633 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 10:26:13,864 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 10:26:19,553 INFO Swept 21630 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 10:32:29,671 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 10:32:34,612 INFO Swept 21619 events: 0 taker trades, 0 new quotes, 0 resting
