@@ -8677,3 +8677,21 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 13:03:03,661 INFO PAPER rest NO bid KXELHGAME-26NOV131130CESHCVL-CES at $0.6500 x2 (0 already bid at that price)
 2026-11-13 13:03:03,662 INFO Resting NO bid on KXELHGAME-26NOV131130CESHCVL-CES at $0.6500 x2 (KXELHGAME-26NOV131130CESHCVL): locks in $0.16 if it fills; hedge NO HCVL@0.2500
 2026-11-13 13:03:03,729 INFO Swept 21644 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 13:09:13,515 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 13:09:19,248 INFO PAPER rest NO bid KXELHGAME-26NOV131130HCVBKM-BKM at $0.2200 x1 (0 already bid at that price)
+2026-11-13 13:09:19,248 INFO Resting NO bid on KXELHGAME-26NOV131130HCVBKM-BKM at $0.2200 x1 (KXELHGAME-26NOV131130HCVBKM): locks in $0.18 if it fills; hedge NO HCV@0.5700
+2026-11-13 13:09:19,315 INFO Swept 21628 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 13:15:26,043 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 13:15:31,048 INFO Swept 21671 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 13:15:31,399 INFO Quote KXELHGAME-26NOV131130HCVBKM cancelled (0/1 filled)
+2026-11-13 13:21:34,964 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 13:21:39,796 INFO Swept 21682 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 13:21:39,858 INFO PAPER KXELHGAME-26NOV131130CESHCVL-CES NO bid at $0.6500: 2/2 filled by real trades
+2026-11-13 13:21:39,933 INFO PAPER buy 2 NO KXELHGAME-26NOV131130CESHCVL-HCVL at up to $0.2500: filled 2
+2026-11-13 13:21:39,934 INFO Quote KXELHGAME-26NOV131130CESHCVL filled 2: hedged, locks in $0.16
+2026-11-13 13:27:50,569 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 13:27:56,364 INFO PAPER rest NO bid KXVALORANTGAME-26NOV140100LNGKBG-LNG at $0.7500 x2 (0 already bid at that price)
+2026-11-13 13:27:56,364 INFO Resting NO bid on KXVALORANTGAME-26NOV140100LNGKBG-LNG at $0.7500 x2 (KXVALORANTGAME-26NOV140100LNGKBG): locks in $0.24 if it fills; hedge NO KBG@0.1400
+2026-11-13 13:27:56,430 INFO Swept 21692 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 13:33:58,479 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 13:34:03,429 INFO Swept 21694 events: 0 taker trades, 0 new quotes, 1 resting

@@ -83,6 +83,30 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXELHGAME-26NOV131130CESHCVL",
+   "series": "KXELHGAME",
+   "title": "Ceske Budejovice vs HC Verva Litvinov",
+   "sets": 2,
+   "outlay": "1.8400",
+   "locked_profit": "0.1600",
+   "opened": "2026-11-13T18:21:39.934113+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXELHGAME-26NOV131130CESHCVL-CES",
+     "side": "no",
+     "count": 2,
+     "limit": "0.6500"
+    },
+    {
+     "ticker": "KXELHGAME-26NOV131130CESHCVL-HCVL",
+     "side": "no",
+     "count": 2,
+     "limit": "0.2500"
+    }
+   ]
   }
  ],
  "closed": [
@@ -2556,21 +2580,21 @@
  ],
  "quotes": [
   {
-   "event": "KXELHGAME-26NOV131130CESHCVL",
-   "series": "KXELHGAME",
-   "title": "Ceske Budejovice vs HC Verva Litvinov",
-   "ticker": "KXELHGAME-26NOV131130CESHCVL-CES",
-   "order_id": "paper-1027-1794592983",
-   "price": "0.6500",
+   "event": "KXVALORANTGAME-26NOV140100LNGKBG",
+   "series": "KXVALORANTGAME",
+   "title": "LNG Esports vs. KeepBest Gaming",
+   "ticker": "KXVALORANTGAME-26NOV140100LNGKBG-LNG",
+   "order_id": "paper-1029-1794594476",
+   "price": "0.7500",
    "sets": 2,
    "done": 0,
-   "reserve": "1.8400",
+   "reserve": "1.7600",
    "multiplier": "1",
-   "placed": 1794592983.6619942,
+   "placed": 1794594476.3642116,
    "hedge": [
     {
-     "ticker": "KXELHGAME-26NOV131130CESHCVL-HCVL",
-     "limit": "0.2500"
+     "ticker": "KXVALORANTGAME-26NOV140100LNGKBG-KBG",
+     "limit": "0.1400"
     }
    ]
   }
