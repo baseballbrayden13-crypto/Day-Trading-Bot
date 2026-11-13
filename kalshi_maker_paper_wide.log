@@ -8443,3 +8443,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 22:26:21,064 INFO Swept 21633 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-12 22:26:21,182 INFO Quote KXNBAWINMARGIN-26NOV12DETWAS cancelled (0/5 filled)
 2026-11-12 22:26:26,188 INFO Stopped; all quotes cancelled.
+2026-11-12 22:53:21,149 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-12 22:59:48,423 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 22:59:53,523 INFO Swept 21534 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 23:06:17,635 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 23:06:22,846 INFO Swept 21482 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 23:12:57,447 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 23:13:02,571 INFO Swept 21493 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 23:19:37,688 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 23:19:42,850 INFO Swept 21491 events: 0 taker trades, 0 new quotes, 0 resting
