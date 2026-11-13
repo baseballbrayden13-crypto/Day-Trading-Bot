@@ -1,5 +1,5 @@
 {
- "taken": "2026-11-12T20:49:37+00:00",
+ "taken": "2026-11-13T00:43:40+00:00",
  "bots": {
   "1": {
    "name": "ORB day trader",
@@ -8,29 +8,14 @@
    "errors": [],
    "account": {
     "account": "QIE2",
-    "equity": 4982.42,
+    "equity": 4982.24,
     "last_equity": 4981.3,
-    "cash": 4060.65,
+    "cash": 4982.24,
     "status": "ACTIVE",
     "trading_blocked": false,
     "account_blocked": false
    },
-   "positions": [
-    {
-     "symbol": "NVDA",
-     "qty": 1.0,
-     "avg_entry": 162.63,
-     "market_value": 164.78,
-     "unrealized_pl": 2.15
-    },
-    {
-     "symbol": "SPY",
-     "qty": 1.0,
-     "avg_entry": 758.02,
-     "market_value": 757.03,
-     "unrealized_pl": -0.99
-    }
-   ],
+   "positions": [],
    "orders": [
     {
      "time": "2026-10-27T14:35:09.052644+00:00",
@@ -211,6 +196,24 @@
      "price": 162.63,
      "type": "limit",
      "order_id": "7a0d7ef1-01fc-42de-b621-fb3f2e646c15"
+    },
+    {
+     "time": "2026-11-12T20:55:16.033665+00:00",
+     "symbol": "NVDA",
+     "side": "sell",
+     "qty": 1.0,
+     "price": 165.22,
+     "type": "market",
+     "order_id": "51372a3b-338a-451f-b01e-2daa1b2420a1"
+    },
+    {
+     "time": "2026-11-12T20:55:16.990276+00:00",
+     "symbol": "SPY",
+     "side": "sell",
+     "qty": 1.0,
+     "price": 756.37,
+     "type": "market",
+     "order_id": "121869eb-6d0f-4866-bdc2-96f670c61428"
     }
    ],
    "equity_history": [
@@ -309,17 +312,17 @@
    ],
    "log": {
     "exists": true,
-    "modified": "2026-11-12T12:44:17-05:00",
-    "last_line_time": "2026-11-12T12:44:17",
+    "modified": "2026-11-12T16:05:05-05:00",
+    "last_line_time": "2026-11-12T16:05:05",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-12 12:40:05,000 INFO Run over at 12:38 ET; positions keep their stop-loss and take-profit orders at Alpaca.",
-     "2026-11-12 12:44:14,695 INFO Connected to Alpaca PAPER account",
-     "2026-11-12 12:44:14,808 INFO Picked up today's counters: start equity $4981.30, 2 trades",
      "2026-11-12 12:44:17,068 INFO Event-day skips ON (0 new earnings dates). Today: none",
-     "2026-11-12 12:44:17,068 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA, TSLA on 5-min bars. Ctrl+C to stop."
+     "2026-11-12 12:44:17,068 INFO Watching SPY, QQQ, AAPL, MSFT, NVDA, TSLA on 5-min bars. Ctrl+C to stop.",
+     "2026-11-12 15:50:05,175 INFO Flattening all positions: end of day",
+     "2026-11-12 15:55:05,359 INFO Flattening all positions: end of day",
+     "2026-11-12 16:05:05,000 INFO Run over at 16:05 ET; positions keep their stop-loss and take-profit orders at Alpaca."
     ],
     "live_warning": false
    },
@@ -336,7 +339,7 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 2464.03,
+    "equity": 2461.84,
     "last_equity": 0,
     "cash": 144.93,
     "status": "ACTIVE",
@@ -349,22 +352,22 @@
      "symbol": "XLE",
      "qty": 13.0,
      "avg_entry": 69.177692,
-     "market_value": 836.94,
-     "unrealized_pl": -62.369996
+     "market_value": 837.07,
+     "unrealized_pl": -62.239996
     },
     {
      "symbol": "XLP",
      "qty": 8.0,
      "avg_entry": 90.0975,
-     "market_value": 729.64,
-     "unrealized_pl": 8.86
+     "market_value": 728.88,
+     "unrealized_pl": 8.1
     },
     {
      "symbol": "XLV",
      "qty": 4.0,
      "avg_entry": 178.635,
-     "market_value": 752.52,
-     "unrealized_pl": 37.98
+     "market_value": 750.96,
+     "unrealized_pl": 36.42
     }
    ],
    "orders": [
@@ -453,17 +456,17 @@
    "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-12T09:42:39-05:00",
-    "last_line_time": "2026-11-12T09:42:39",
+    "modified": "2026-11-12T16:53:09-05:00",
+    "last_line_time": "2026-11-12T16:53:09",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-11 16:37:12,110 INFO Already rebalanced in November; nothing to do.",
-     "2026-11-11 17:05:08,863 INFO Connected to Alpaca PAPER account",
-     "2026-11-11 17:05:09,210 INFO Already rebalanced in November; nothing to do.",
-     "2026-11-12 09:42:38,761 INFO Connected to Alpaca PAPER account",
-     "2026-11-12 09:42:39,274 INFO Already rebalanced in November; nothing to do."
+     "2026-11-12 16:09:24,659 INFO Already rebalanced in November; nothing to do.",
+     "2026-11-12 16:37:25,571 INFO Connected to Alpaca PAPER account",
+     "2026-11-12 16:37:25,834 INFO Already rebalanced in November; nothing to do.",
+     "2026-11-12 16:53:08,894 INFO Connected to Alpaca PAPER account",
+     "2026-11-12 16:53:09,224 INFO Already rebalanced in November; nothing to do."
     ],
     "live_warning": false
    },
@@ -520,7 +523,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-12T19:51:34+00:00",
+     "updated": "2026-11-13T00:34:24+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -534,7 +537,7 @@
      "stray_positions": 0,
      "closed_trades": 3,
      "trades_this_loop": 0,
-     "events_swept": 21436,
+     "events_swept": 21672,
      "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -552,17 +555,17 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-12T14:53:50-05:00",
-     "last_line_time": "2026-11-12T14:53:50",
+     "modified": "2026-11-12T19:38:31-05:00",
+     "last_line_time": "2026-11-12T19:38:31",
      "errors": 0,
      "errors_24h": 0,
      "last_errors": [],
      "tail": [
-      "2026-11-12 14:38:06,227 INFO Swept 21437 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 14:43:08,178 INFO Swept 21424 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 14:48:09,791 INFO Swept 21441 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 14:53:10,227 INFO Swept 21436 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 14:53:50,236 INFO Stopped; all quotes cancelled."
+      "2026-11-12 19:18:17,860 INFO Swept 21646 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-12 19:23:16,046 INFO Swept 21682 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-12 19:28:22,149 INFO Swept 21674 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-12 19:33:29,204 INFO Swept 21671 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-12 19:38:31,458 INFO Swept 21672 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -576,7 +579,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-12T19:51:39+00:00",
+     "updated": "2026-11-13T00:29:29+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -590,7 +593,7 @@
      "stray_positions": 0,
      "closed_trades": 63,
      "trades_this_loop": 0,
-     "events_swept": 21434,
+     "events_swept": 21671,
      "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -608,8 +611,8 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-12T14:53:53-05:00",
-     "last_line_time": "2026-11-12T14:53:53",
+     "modified": "2026-11-12T19:35:56-05:00",
+     "last_line_time": "2026-11-12T19:35:56",
      "errors": 34,
      "errors_24h": 2,
      "last_errors": [
@@ -618,11 +621,11 @@
       "2026-11-12 01:55:02,874 ERROR STRAY POSITION: 5 NO contracts of KXNLGAME-26NOV111345HAPEVZ-EVZ still held. Check it on Kalshi."
      ],
      "tail": [
-      "2026-11-12 14:53:09,888 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN",
-      "2026-11-12 14:53:12,662 INFO PAPER rest NO bid KXAFCONSCORE-26NOV12CMRNAM-CMR4NAM0 at $0.2400 x1 (0 already bid at that price)",
-      "2026-11-12 14:53:12,662 INFO Resting NO bid on KXAFCONSCORE-26NOV12CMRNAM-CMR4NAM0 at $0.2400 x1 (KXAFCONSCORE-26NOV12CMRNAM): locks in $0.28 if it fills; hedge NO CMR2NAM0@0.8000, CMR2NAM1@0.9400, CMR3NAM0@0.7400, CMR3NAM1@0.9300",
-      "2026-11-12 14:53:12,698 INFO Swept 21434 events: 0 taker trades, 1 new quotes, 1 resting",
-      "2026-11-12 14:53:53,332 INFO Stopped; all quotes cancelled."
+      "2026-11-12 19:22:54,463 INFO Swept 21668 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-12 19:29:20,036 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN",
+      "2026-11-12 19:29:24,991 INFO Swept 21676 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-12 19:35:51,751 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN",
+      "2026-11-12 19:35:56,759 INFO Swept 21671 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -636,7 +639,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-12T19:51:26+00:00",
+     "updated": "2026-11-13T00:30:20+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -650,15 +653,11 @@
      "stray_positions": 0,
      "closed_trades": 0,
      "trades_this_loop": 0,
-     "events_swept": 21435,
+     "events_swept": 21672,
      "found_this_loop": 0,
      "top_series": [],
-     "problems": 3,
-     "last_problems": [
-      "2026-11-12 19:33 Quote KXAFCONFTTS-26NOV12SENSDN: hedge missed on KXAFCONFTTS-26NOV12SENSDN-NONE. Selling back 2 contracts on 2 legs.",
-      "2026-11-12 19:33 STRAY POSITION: 2 NO contracts of KXAFCONFTTS-26NOV12SENSDN-SEN still held. Check it on Kalshi.",
-      "2026-11-12 19:50 Maker loop error; carrying on"
-     ]
+     "problems": 0,
+     "last_problems": []
     },
     "realized": -3.51,
     "open": 0,
@@ -670,21 +669,21 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-12T14:54:02-05:00",
-     "last_line_time": "2026-11-12T14:54:02",
+     "modified": "2026-11-12T19:35:24-05:00",
+     "last_line_time": "2026-11-12T19:35:24",
      "errors": 5,
-     "errors_24h": 4,
+     "errors_24h": 2,
      "last_errors": [
       "2026-11-11 18:32:01,348 ERROR STRAY POSITION: 2 NO contracts of KXLIGAMXWGAME-26NOV11PACMTY-MTY still held. Check it on Kalshi.",
       "2026-11-12 14:33:04,849 ERROR STRAY POSITION: 2 NO contracts of KXAFCONFTTS-26NOV12SENSDN-SEN still held. Check it on Kalshi.",
       "2026-11-12 14:50:50,110 ERROR Maker loop error; carrying on"
      ],
      "tail": [
-      "2026-11-12 14:51:16,006 INFO Quote KXCONCACAFNL1H-26NOV12CAYGUY cancelled (0/2 filled)",
-      "2026-11-12 14:53:14,457 INFO Settled KXAFCONFTTS-26NOV12SENSDN (stray): paid $0, profit $-0.76",
-      "2026-11-12 14:53:14,492 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
-      "2026-11-12 14:53:17,601 INFO Swept 21435 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-12 14:54:02,608 INFO Stopped; all quotes cancelled."
+      "2026-11-12 19:25:06,235 INFO Swept 21684 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-12 19:30:12,184 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
+      "2026-11-12 19:30:15,823 INFO Swept 21676 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-12 19:35:20,438 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
+      "2026-11-12 19:35:24,367 INFO Swept 21672 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -747,17 +746,17 @@
    "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-12T09:42:43-05:00",
-    "last_line_time": "2026-11-12T09:42:43",
+    "modified": "2026-11-12T16:53:10-05:00",
+    "last_line_time": "2026-11-12T16:53:10",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-11 17:05:10,131 INFO Already ran today; nothing to do.",
-     "2026-11-12 09:42:39,814 INFO Connected to Alpaca PAPER account",
-     "2026-11-12 09:42:43,963 INFO 2026-11-11 close: dips none | holding {'CVX': 4, 'XOM': 4} | bot 5 value $2457.99 (cash $1479.82)",
-     "2026-11-12 09:42:43,963 INFO SELL CVX x2.28741 (bounced)",
-     "2026-11-12 09:42:43,963 INFO SELL XOM x2.94172 (bounced)"
+     "2026-11-12 16:09:25,450 INFO Already ran today; nothing to do.",
+     "2026-11-12 16:37:26,321 INFO Connected to Alpaca PAPER account",
+     "2026-11-12 16:37:26,402 INFO Already ran today; nothing to do.",
+     "2026-11-12 16:53:09,828 INFO Connected to Alpaca PAPER account",
+     "2026-11-12 16:53:10,112 INFO Already ran today; nothing to do."
     ],
     "live_warning": false
    }
@@ -769,7 +768,7 @@
    "errors": [],
    "account": {
     "account": "KTS7",
-    "equity": 1665.98,
+    "equity": 1678.17,
     "last_equity": 0,
     "cash": 16.68,
     "status": "ACTIVE",
@@ -782,8 +781,8 @@
      "symbol": "QLD",
      "qty": 20.314130969,
      "avg_entry": 81.24,
-     "market_value": 1649.3,
-     "unrealized_pl": -1.015707
+     "market_value": 1661.49,
+     "unrealized_pl": 11.172772
     }
    ],
    "orders": [
@@ -818,17 +817,17 @@
    "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-12T09:42:50-05:00",
-    "last_line_time": "2026-11-12T09:42:50",
+    "modified": "2026-11-12T16:53:10-05:00",
+    "last_line_time": "2026-11-12T16:53:10",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-11 17:05:11,050 INFO Already ran today; nothing to do.",
-     "2026-11-12 09:42:49,062 INFO Connected to Alpaca PAPER account",
-     "2026-11-12 09:42:50,198 INFO 2026-11-11 close: QQQ $690.40 vs 200-day average $680.62 -> hold QLD | holding {'BIL': 27.049071038} | bot 6 value $1666.86 (cash $-807.99)",
-     "2026-11-12 09:42:50,198 INFO SELL BIL x27.0491",
-     "2026-11-12 09:42:50,198 INFO BUY QLD with the slice's cash"
+     "2026-11-12 16:09:26,222 INFO Already ran today; nothing to do.",
+     "2026-11-12 16:37:26,885 INFO Connected to Alpaca PAPER account",
+     "2026-11-12 16:37:26,978 INFO Already ran today; nothing to do.",
+     "2026-11-12 16:53:10,713 INFO Connected to Alpaca PAPER account",
+     "2026-11-12 16:53:10,966 INFO Already ran today; nothing to do."
     ],
     "live_warning": false
    }
@@ -840,7 +839,7 @@
    "errors": [],
    "account": {
     "account": "KTS7",
-    "equity": 1676.4,
+    "equity": 1676.72,
     "last_equity": 0,
     "cash": 3.41,
     "status": "ACTIVE",
@@ -853,36 +852,36 @@
      "symbol": "AMD",
      "qty": 0.572652915,
      "avg_entry": 577.802,
-     "market_value": 333.33,
-     "unrealized_pl": 2.449809
+     "market_value": 332.5,
+     "unrealized_pl": 1.617973
     },
     {
      "symbol": "CSCO",
      "qty": 3.354000796,
      "avg_entry": 100.48,
-     "market_value": 342.11,
-     "unrealized_pl": 5.098081
+     "market_value": 341.1,
+     "unrealized_pl": 4.091881
     },
     {
      "symbol": "INTC",
      "qty": 5.399214659,
      "avg_entry": 61.131113,
-     "market_value": 331.97,
-     "unrealized_pl": 1.910712
+     "market_value": 332.81,
+     "unrealized_pl": 2.747591
     },
     {
      "symbol": "MRK",
      "qty": 2.260501355,
      "avg_entry": 147.6,
-     "market_value": 332.99,
-     "unrealized_pl": -0.655545
+     "market_value": 332.18,
+     "unrealized_pl": -1.469326
     },
     {
      "symbol": "TXN",
      "qty": 1.067423316,
      "avg_entry": 311.02,
-     "market_value": 332.59,
-     "unrealized_pl": 0.597757
+     "market_value": 334.72,
+     "unrealized_pl": 2.732603
     }
    ],
    "orders": [
@@ -935,17 +934,17 @@
    "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-12T09:42:58-05:00",
-    "last_line_time": "2026-11-12T09:42:58",
+    "modified": "2026-11-12T16:53:11-05:00",
+    "last_line_time": "2026-11-12T16:53:11",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-12 09:42:58,273 INFO BUY INTC about $333.40",
-     "2026-11-12 09:42:58,273 INFO BUY AMD about $333.40",
-     "2026-11-12 09:42:58,273 INFO BUY TXN about $333.40",
-     "2026-11-12 09:42:58,273 INFO BUY MRK about $333.40",
-     "2026-11-12 09:42:58,273 INFO BUY CSCO about $333.40"
+     "2026-11-12 16:09:26,970 INFO Already ran today; nothing to do.",
+     "2026-11-12 16:37:27,463 INFO Connected to Alpaca PAPER account",
+     "2026-11-12 16:37:27,542 INFO Already ran today; nothing to do.",
+     "2026-11-12 16:53:11,578 INFO Connected to Alpaca PAPER account",
+     "2026-11-12 16:53:11,830 INFO Already ran today; nothing to do."
     ],
     "live_warning": false
    }
@@ -955,9 +954,9 @@
  "tasks": [],
  "err_logs": [],
  "clock": {
-  "is_open": true,
+  "is_open": false,
   "next_open": "2026-11-13T09:30:00-05:00",
-  "next_close": "2026-11-12T16:00:00-05:00",
+  "next_close": "2026-11-13T16:00:00-05:00",
   "trading_day": true
  },
  "market": {
@@ -965,19 +964,19 @@
    {
     "symbol": "AAPL",
     "day": "2026-11-12",
-    "close": 355.395,
-    "chg_1d_pct": -0.03,
-    "chg_1m_pct": 3.69,
+    "close": 354.85,
+    "chg_1d_pct": -0.19,
+    "chg_1m_pct": 3.53,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 27.9
+    "vol_20d_pct": 28.0
    },
    {
     "symbol": "ABBV",
     "day": "2026-11-12",
-    "close": 295.26,
-    "chg_1d_pct": 0.13,
-    "chg_1m_pct": 4.77,
+    "close": 294.485,
+    "chg_1d_pct": -0.13,
+    "chg_1m_pct": 4.49,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 21.6
@@ -985,27 +984,27 @@
    {
     "symbol": "ADBE",
     "day": "2026-11-12",
-    "close": 238.71,
-    "chg_1d_pct": 0.48,
-    "chg_1m_pct": -0.86,
+    "close": 238.545,
+    "chg_1d_pct": 0.41,
+    "chg_1m_pct": -0.93,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 36.8
+    "vol_20d_pct": 36.7
    },
    {
     "symbol": "AMD",
     "day": "2026-11-12",
-    "close": 582.33,
-    "chg_1d_pct": 5.34,
-    "chg_1m_pct": 1.99,
+    "close": 585.69,
+    "chg_1d_pct": 5.95,
+    "chg_1m_pct": 2.58,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 118.0
+    "vol_20d_pct": 118.4
    },
    {
     "symbol": "AMZN",
     "day": "2026-11-12",
-    "close": 267.45,
+    "close": 267.445,
     "chg_1d_pct": 0.46,
     "chg_1m_pct": 5.22,
     "above_200d": true,
@@ -1015,19 +1014,19 @@
    {
     "symbol": "AVGO",
     "day": "2026-11-12",
-    "close": 361.77,
-    "chg_1d_pct": 4.7,
-    "chg_1m_pct": 4.46,
+    "close": 364.24,
+    "chg_1d_pct": 5.42,
+    "chg_1m_pct": 5.17,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 69.3
+    "vol_20d_pct": 69.9
    },
    {
     "symbol": "BAC",
     "day": "2026-11-12",
-    "close": 50.575,
-    "chg_1d_pct": -0.17,
-    "chg_1m_pct": -1.62,
+    "close": 50.54,
+    "chg_1d_pct": -0.24,
+    "chg_1m_pct": -1.69,
     "above_200d": false,
     "above_50d": false,
     "vol_20d_pct": 24.7
@@ -1045,9 +1044,9 @@
    {
     "symbol": "COST",
     "day": "2026-11-12",
-    "close": 1093.21,
-    "chg_1d_pct": 0.56,
-    "chg_1m_pct": 11.45,
+    "close": 1092.66,
+    "chg_1d_pct": 0.51,
+    "chg_1m_pct": 11.39,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 22.7
@@ -1055,49 +1054,49 @@
    {
     "symbol": "CRM",
     "day": "2026-11-12",
-    "close": 217.06,
-    "chg_1d_pct": -0.38,
-    "chg_1m_pct": -8.04,
+    "close": 217.575,
+    "chg_1d_pct": -0.14,
+    "chg_1m_pct": -7.82,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 32.0
+    "vol_20d_pct": 32.1
    },
    {
     "symbol": "CSCO",
     "day": "2026-11-12",
-    "close": 101.9,
-    "chg_1d_pct": 1.07,
-    "chg_1m_pct": -10.36,
+    "close": 101.97,
+    "chg_1d_pct": 1.14,
+    "chg_1m_pct": -10.3,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 44.3
+    "vol_20d_pct": 44.4
    },
    {
     "symbol": "CVX",
     "day": "2026-11-12",
-    "close": 217.03,
-    "chg_1d_pct": 1.76,
-    "chg_1m_pct": -2.28,
+    "close": 216.49,
+    "chg_1d_pct": 1.51,
+    "chg_1m_pct": -2.52,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 27.5
+    "vol_20d_pct": 27.3
    },
    {
     "symbol": "DIS",
     "day": "2026-11-12",
-    "close": 118.28,
-    "chg_1d_pct": -1.15,
-    "chg_1m_pct": 8.5,
+    "close": 118.23,
+    "chg_1d_pct": -1.19,
+    "chg_1m_pct": 8.46,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 23.5
+    "vol_20d_pct": 23.6
    },
    {
     "symbol": "EEM",
     "day": "2026-11-12",
-    "close": 61.09,
-    "chg_1d_pct": -1.53,
-    "chg_1m_pct": -5.14,
+    "close": 61.13,
+    "chg_1d_pct": -1.47,
+    "chg_1m_pct": -5.08,
     "above_200d": false,
     "above_50d": false,
     "vol_20d_pct": 32.6
@@ -1105,9 +1104,9 @@
    {
     "symbol": "EFA",
     "day": "2026-11-12",
-    "close": 104.02,
-    "chg_1d_pct": -0.58,
-    "chg_1m_pct": 1.21,
+    "close": 104.01,
+    "chg_1d_pct": -0.59,
+    "chg_1m_pct": 1.2,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 19.9
@@ -1115,19 +1114,19 @@
    {
     "symbol": "GLD",
     "day": "2026-11-12",
-    "close": 355.46,
-    "chg_1d_pct": -2.67,
-    "chg_1m_pct": -5.46,
+    "close": 354.87,
+    "chg_1d_pct": -2.83,
+    "chg_1m_pct": -5.61,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 27.7
+    "vol_20d_pct": 27.9
    },
    {
     "symbol": "GOOGL",
     "day": "2026-11-12",
-    "close": 298.65,
-    "chg_1d_pct": 1.74,
-    "chg_1m_pct": -14.13,
+    "close": 298.695,
+    "chg_1d_pct": 1.75,
+    "chg_1m_pct": -14.11,
     "above_200d": false,
     "above_50d": false,
     "vol_20d_pct": 52.6
@@ -1135,39 +1134,39 @@
    {
     "symbol": "HD",
     "day": "2026-11-12",
-    "close": 348.56,
-    "chg_1d_pct": -0.75,
-    "chg_1m_pct": 17.97,
+    "close": 348.275,
+    "chg_1d_pct": -0.83,
+    "chg_1m_pct": 17.87,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 37.9
+    "vol_20d_pct": 38.0
    },
    {
     "symbol": "HON",
     "day": "2026-11-12",
-    "close": 224.065,
-    "chg_1d_pct": -1.54,
-    "chg_1m_pct": 7.9,
+    "close": 223.47,
+    "chg_1d_pct": -1.81,
+    "chg_1m_pct": 7.61,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 31.6
+    "vol_20d_pct": 31.8
    },
    {
     "symbol": "IBM",
     "day": "2026-11-12",
-    "close": 245.065,
-    "chg_1d_pct": -1.24,
-    "chg_1m_pct": 8.23,
+    "close": 244.695,
+    "chg_1d_pct": -1.38,
+    "chg_1m_pct": 8.07,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 26.3
+    "vol_20d_pct": 26.4
    },
    {
     "symbol": "INTC",
     "day": "2026-11-12",
-    "close": 61.505,
-    "chg_1d_pct": -1.61,
-    "chg_1m_pct": -37.31,
+    "close": 61.21,
+    "chg_1d_pct": -2.08,
+    "chg_1m_pct": -37.61,
     "above_200d": false,
     "above_50d": false,
     "vol_20d_pct": 129.4
@@ -1175,19 +1174,19 @@
    {
     "symbol": "IWM",
     "day": "2026-11-12",
-    "close": 278.595,
-    "chg_1d_pct": -1.59,
-    "chg_1m_pct": 2.65,
+    "close": 278.42,
+    "chg_1d_pct": -1.65,
+    "chg_1m_pct": 2.59,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 25.5
+    "vol_20d_pct": 25.6
    },
    {
     "symbol": "JNJ",
     "day": "2026-11-12",
-    "close": 283.77,
-    "chg_1d_pct": 1.23,
-    "chg_1m_pct": 11.76,
+    "close": 283.56,
+    "chg_1d_pct": 1.15,
+    "chg_1m_pct": 11.68,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 25.8
@@ -1195,19 +1194,19 @@
    {
     "symbol": "JPM",
     "day": "2026-11-12",
-    "close": 343.085,
-    "chg_1d_pct": -0.07,
-    "chg_1m_pct": 2.32,
+    "close": 342.755,
+    "chg_1d_pct": -0.17,
+    "chg_1m_pct": 2.23,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 27.5
+    "vol_20d_pct": 27.6
    },
    {
     "symbol": "KO",
     "day": "2026-11-12",
-    "close": 97.555,
-    "chg_1d_pct": 0.01,
-    "chg_1m_pct": 6.26,
+    "close": 97.42,
+    "chg_1d_pct": -0.13,
+    "chg_1m_pct": 6.11,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 21.1
@@ -1215,29 +1214,29 @@
    {
     "symbol": "LLY",
     "day": "2026-11-12",
-    "close": 1435.2,
-    "chg_1d_pct": -0.18,
-    "chg_1m_pct": 18.52,
+    "close": 1430.085,
+    "chg_1d_pct": -0.54,
+    "chg_1m_pct": 18.1,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 37.6
+    "vol_20d_pct": 37.7
    },
    {
     "symbol": "MA",
     "day": "2026-11-12",
-    "close": 653.825,
-    "chg_1d_pct": -0.97,
-    "chg_1m_pct": 8.38,
+    "close": 652.6,
+    "chg_1d_pct": -1.15,
+    "chg_1m_pct": 8.17,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 28.1
+    "vol_20d_pct": 28.2
    },
    {
     "symbol": "MCD",
     "day": "2026-11-12",
-    "close": 273.35,
-    "chg_1d_pct": -0.53,
-    "chg_1m_pct": 14.73,
+    "close": 273.68,
+    "chg_1d_pct": -0.41,
+    "chg_1m_pct": 14.87,
     "above_200d": false,
     "above_50d": true,
     "vol_20d_pct": 31.9
@@ -1245,9 +1244,9 @@
    {
     "symbol": "META",
     "day": "2026-11-12",
-    "close": 621.13,
-    "chg_1d_pct": -1.28,
-    "chg_1m_pct": -15.86,
+    "close": 623.51,
+    "chg_1d_pct": -0.9,
+    "chg_1m_pct": -15.54,
     "above_200d": false,
     "above_50d": false,
     "vol_20d_pct": 40.8
@@ -1255,9 +1254,9 @@
    {
     "symbol": "MRK",
     "day": "2026-11-12",
-    "close": 147.34,
-    "chg_1d_pct": 0.1,
-    "chg_1m_pct": -0.11,
+    "close": 146.95,
+    "chg_1d_pct": -0.17,
+    "chg_1m_pct": -0.37,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 32.4
@@ -1265,19 +1264,19 @@
    {
     "symbol": "MSFT",
     "day": "2026-11-12",
-    "close": 522.26,
-    "chg_1d_pct": 0.31,
-    "chg_1m_pct": -2.21,
+    "close": 523.0,
+    "chg_1d_pct": 0.46,
+    "chg_1m_pct": -2.07,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 37.7
+    "vol_20d_pct": 37.8
    },
    {
     "symbol": "NFLX",
     "day": "2026-11-12",
-    "close": 62.67,
-    "chg_1d_pct": -2.91,
-    "chg_1m_pct": -11.21,
+    "close": 62.68,
+    "chg_1d_pct": -2.9,
+    "chg_1m_pct": -11.19,
     "above_200d": false,
     "above_50d": false,
     "vol_20d_pct": 38.1
@@ -1285,9 +1284,9 @@
    {
     "symbol": "NKE",
     "day": "2026-11-12",
-    "close": 37.8,
-    "chg_1d_pct": -1.38,
-    "chg_1m_pct": 7.02,
+    "close": 37.77,
+    "chg_1d_pct": -1.46,
+    "chg_1m_pct": 6.94,
     "above_200d": false,
     "above_50d": true,
     "vol_20d_pct": 35.9
@@ -1295,39 +1294,39 @@
    {
     "symbol": "NVDA",
     "day": "2026-11-12",
-    "close": 164.77,
-    "chg_1d_pct": -5.22,
-    "chg_1m_pct": -25.61,
+    "close": 166.07,
+    "chg_1d_pct": -4.48,
+    "chg_1m_pct": -25.02,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 53.5
+    "vol_20d_pct": 52.9
    },
    {
     "symbol": "ORCL",
     "day": "2026-11-12",
-    "close": 126.61,
-    "chg_1d_pct": -1.32,
-    "chg_1m_pct": -3.03,
+    "close": 127.11,
+    "chg_1d_pct": -0.94,
+    "chg_1m_pct": -2.64,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 78.6
+    "vol_20d_pct": 78.5
    },
    {
     "symbol": "PEP",
     "day": "2026-11-12",
-    "close": 142.83,
-    "chg_1d_pct": -0.8,
-    "chg_1m_pct": 10.43,
+    "close": 142.28,
+    "chg_1d_pct": -1.18,
+    "chg_1m_pct": 10.0,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 27.3
+    "vol_20d_pct": 27.5
    },
    {
     "symbol": "PG",
     "day": "2026-11-12",
-    "close": 168.27,
-    "chg_1d_pct": 0.38,
-    "chg_1m_pct": 8.19,
+    "close": 168.08,
+    "chg_1d_pct": 0.26,
+    "chg_1m_pct": 8.07,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 28.4
@@ -1335,9 +1334,9 @@
    {
     "symbol": "QCOM",
     "day": "2026-11-12",
-    "close": 177.06,
-    "chg_1d_pct": 0.31,
-    "chg_1m_pct": 2.52,
+    "close": 177.2,
+    "chg_1d_pct": 0.39,
+    "chg_1m_pct": 2.6,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 67.6
@@ -1345,9 +1344,9 @@
    {
     "symbol": "QLD",
     "day": "2026-11-12",
-    "close": 81.17,
-    "chg_1d_pct": -0.74,
-    "chg_1m_pct": -12.37,
+    "close": 81.275,
+    "chg_1d_pct": -0.61,
+    "chg_1m_pct": -12.26,
     "above_200d": false,
     "above_50d": false,
     "vol_20d_pct": 71.2
@@ -1355,9 +1354,9 @@
    {
     "symbol": "QQQ",
     "day": "2026-11-12",
-    "close": 687.57,
-    "chg_1d_pct": -0.41,
-    "chg_1m_pct": -5.68,
+    "close": 688.195,
+    "chg_1d_pct": -0.32,
+    "chg_1m_pct": -5.6,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 35.5
@@ -1365,9 +1364,9 @@
    {
     "symbol": "SPY",
     "day": "2026-11-12",
-    "close": 757.0,
-    "chg_1d_pct": -0.37,
-    "chg_1m_pct": -1.64,
+    "close": 757.16,
+    "chg_1d_pct": -0.35,
+    "chg_1m_pct": -1.62,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 22.2
@@ -1375,29 +1374,29 @@
    {
     "symbol": "TLT",
     "day": "2026-11-12",
-    "close": 79.815,
-    "chg_1d_pct": -1.38,
-    "chg_1m_pct": 1.61,
+    "close": 79.73,
+    "chg_1d_pct": -1.49,
+    "chg_1m_pct": 1.5,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 12.2
+    "vol_20d_pct": 12.4
    },
    {
     "symbol": "TSLA",
     "day": "2026-11-12",
-    "close": 397.92,
-    "chg_1d_pct": 1.83,
-    "chg_1m_pct": 8.3,
+    "close": 397.425,
+    "chg_1d_pct": 1.71,
+    "chg_1m_pct": 8.17,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 60.3
+    "vol_20d_pct": 60.2
    },
    {
     "symbol": "TXN",
     "day": "2026-11-12",
-    "close": 311.69,
-    "chg_1d_pct": 0.64,
-    "chg_1m_pct": 11.58,
+    "close": 312.45,
+    "chg_1d_pct": 0.88,
+    "chg_1m_pct": 11.85,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 56.4
@@ -1405,9 +1404,9 @@
    {
     "symbol": "UNH",
     "day": "2026-11-12",
-    "close": 404.87,
-    "chg_1d_pct": 0.46,
-    "chg_1m_pct": 2.32,
+    "close": 405.13,
+    "chg_1d_pct": 0.53,
+    "chg_1m_pct": 2.38,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 24.8
@@ -1415,19 +1414,19 @@
    {
     "symbol": "V",
     "day": "2026-11-12",
-    "close": 421.275,
-    "chg_1d_pct": -1.03,
-    "chg_1m_pct": 7.83,
+    "close": 420.315,
+    "chg_1d_pct": -1.26,
+    "chg_1m_pct": 7.58,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 25.5
+    "vol_20d_pct": 25.7
    },
    {
     "symbol": "WMT",
     "day": "2026-11-12",
-    "close": 126.25,
-    "chg_1d_pct": 0.43,
-    "chg_1m_pct": 8.65,
+    "close": 126.17,
+    "chg_1d_pct": 0.37,
+    "chg_1m_pct": 8.58,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 25.9
@@ -1435,39 +1434,39 @@
    {
     "symbol": "XLE",
     "day": "2026-11-12",
-    "close": 64.405,
-    "chg_1d_pct": 1.65,
-    "chg_1m_pct": -4.75,
+    "close": 64.31,
+    "chg_1d_pct": 1.5,
+    "chg_1m_pct": -4.9,
     "above_200d": true,
     "above_50d": false,
-    "vol_20d_pct": 31.6
+    "vol_20d_pct": 31.5
    },
    {
     "symbol": "XLF",
     "day": "2026-11-12",
-    "close": 58.28,
-    "chg_1d_pct": -0.56,
-    "chg_1m_pct": 6.94,
+    "close": 58.19,
+    "chg_1d_pct": -0.72,
+    "chg_1m_pct": 6.77,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 21.1
+    "vol_20d_pct": 21.2
    },
    {
     "symbol": "XLI",
     "day": "2026-11-12",
-    "close": 169.715,
-    "chg_1d_pct": -0.72,
-    "chg_1m_pct": 1.58,
+    "close": 169.42,
+    "chg_1d_pct": -0.89,
+    "chg_1m_pct": 1.41,
     "above_200d": false,
     "above_50d": true,
-    "vol_20d_pct": 24.9
+    "vol_20d_pct": 25.0
    },
    {
     "symbol": "XLK",
     "day": "2026-11-12",
-    "close": 173.33,
-    "chg_1d_pct": -0.59,
-    "chg_1m_pct": -8.98,
+    "close": 173.73,
+    "chg_1d_pct": -0.36,
+    "chg_1m_pct": -8.77,
     "above_200d": true,
     "above_50d": false,
     "vol_20d_pct": 45.2
@@ -1475,9 +1474,9 @@
    {
     "symbol": "XLP",
     "day": "2026-11-12",
-    "close": 91.215,
-    "chg_1d_pct": -0.25,
-    "chg_1m_pct": 5.99,
+    "close": 91.07,
+    "chg_1d_pct": -0.4,
+    "chg_1m_pct": 5.82,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 23.7
@@ -1485,9 +1484,9 @@
    {
     "symbol": "XLU",
     "day": "2026-11-12",
-    "close": 43.835,
-    "chg_1d_pct": 0.01,
-    "chg_1m_pct": 5.02,
+    "close": 43.82,
+    "chg_1d_pct": -0.02,
+    "chg_1m_pct": 4.98,
     "above_200d": false,
     "above_50d": true,
     "vol_20d_pct": 15.7
@@ -1495,19 +1494,19 @@
    {
     "symbol": "XLV",
     "day": "2026-11-12",
-    "close": 188.135,
-    "chg_1d_pct": -0.45,
-    "chg_1m_pct": 8.15,
+    "close": 187.83,
+    "chg_1d_pct": -0.61,
+    "chg_1m_pct": 7.98,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 21.0
+    "vol_20d_pct": 21.1
    },
    {
     "symbol": "XLY",
     "day": "2026-11-12",
-    "close": 120.5,
-    "chg_1d_pct": -0.4,
-    "chg_1m_pct": 8.05,
+    "close": 120.44,
+    "chg_1d_pct": -0.45,
+    "chg_1m_pct": 8.0,
     "above_200d": true,
     "above_50d": true,
     "vol_20d_pct": 27.2
@@ -1515,45 +1514,69 @@
    {
     "symbol": "XOM",
     "day": "2026-11-12",
-    "close": 170.065,
-    "chg_1d_pct": 2.03,
-    "chg_1m_pct": -3.9,
+    "close": 169.75,
+    "chg_1d_pct": 1.84,
+    "chg_1m_pct": -4.08,
     "above_200d": true,
     "above_50d": true,
-    "vol_20d_pct": 32.3
+    "vol_20d_pct": 32.1
    },
    {
     "symbol": "BTC/USD",
-    "day": "2026-11-11",
-    "close": 73929.379,
-    "chg_1d_pct": 0.31,
-    "chg_1m_pct": -12.01,
-    "above_200d": true,
+    "day": "2026-11-12",
+    "close": 71372.674,
+    "chg_1d_pct": -3.46,
+    "chg_1m_pct": -12.22,
+    "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 31.8
+    "vol_20d_pct": 33.5
    },
    {
     "symbol": "ETH/USD",
-    "day": "2026-11-11",
-    "close": 2053.98,
-    "chg_1d_pct": 0.17,
-    "chg_1m_pct": -16.9,
+    "day": "2026-11-12",
+    "close": 2017.405,
+    "chg_1d_pct": -1.78,
+    "chg_1m_pct": -15.46,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 46.5
+    "vol_20d_pct": 46.6
    },
    {
     "symbol": "SOL/USD",
-    "day": "2026-11-11",
-    "close": 83.1758,
-    "chg_1d_pct": -0.12,
-    "chg_1m_pct": -22.16,
+    "day": "2026-11-12",
+    "close": 81.6159,
+    "chg_1d_pct": -1.88,
+    "chg_1m_pct": -21.17,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 39.7
+    "vol_20d_pct": 39.8
    }
   ],
   "news": [
+   {
+    "symbol": "SPY",
+    "time": "2026-11-13T00:27:59+00:00",
+    "headline": "Fed's Williams Said Inflation Remains Stubbornly Persistent , High; Fed Continues Steady Data Collection; Will Need To Take Action Over Time To Bring Inflation Back To 2%",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "SPY",
+    "time": "2026-11-13T00:26:23+00:00",
+    "headline": "NY Fed President Williams, Speaking At UC Berkley, Said Says US Economy Has Been Resilient, Growth Strong But Not Overheating",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "SPY",
+    "time": "2026-11-12T23:30:14+00:00",
+    "headline": "DeSantis Asks How Congress Members With 'No Investment Acumen' Outperform Warren Buffett \u2014 'Oh You Just Happened to Buy Something\u2026Then It Goes Up 150%'",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "SPY",
+    "time": "2026-11-12T22:30:18+00:00",
+    "headline": "AOC Says Five Guys in Tuxedos Shouldn\u2019t Control the Economy: \u2018We Need to Check These Guys Power\u2019",
+    "source": "benzinga"
+   },
    {
     "symbol": "SPY",
     "time": "2026-11-12T18:52:08+00:00",
@@ -1561,27 +1584,15 @@
     "source": "benzinga"
    },
    {
-    "symbol": "SPY",
-    "time": "2026-11-12T18:52:35+00:00",
-    "headline": "Fed's Daly Says We Are In A Perfect Storm For Hiring",
+    "symbol": "QQQ",
+    "time": "2026-11-12T22:56:23+00:00",
+    "headline": "TQQQ ETF Barely Outpaces QQQ Despite Its 3X Leverage",
     "source": "benzinga"
    },
    {
-    "symbol": "SPY",
-    "time": "2026-11-12T18:42:37+00:00",
-    "headline": "Fed's Daly Says We Have Many Many Quarters To Make Policy Decisions",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "SPY",
-    "time": "2026-11-12T18:32:30+00:00",
-    "headline": "Kansas City Fed\u2019s Schmid Does Not Comment On Monetary Policy Or Economic Outlook In Remarks On Housing Costs; Says Materials And Labor Costs May Worsen Housing Affordability",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "SPY",
-    "time": "2026-11-12T18:21:39+00:00",
-    "headline": "Fed\u2019s Daly Says AI Pipeline Is Deep, So Continues Even If It Slows; Says Economy Being Driven By Technology Boom; Says No Doubt Of AI-Fueled Price Pressures",
+    "symbol": "QQQ",
+    "time": "2026-11-12T22:30:18+00:00",
+    "headline": "AOC Says Five Guys in Tuxedos Shouldn\u2019t Control the Economy: \u2018We Need to Check These Guys Power\u2019",
     "source": "benzinga"
    },
    {
@@ -1603,15 +1614,15 @@
     "source": "benzinga"
    },
    {
-    "symbol": "QQQ",
-    "time": "2026-11-12T16:20:54+00:00",
-    "headline": "Why Is IREN Stock Falling on Thursday?",
+    "symbol": "AAPL",
+    "time": "2026-11-12T22:30:18+00:00",
+    "headline": "AOC Says Five Guys in Tuxedos Shouldn\u2019t Control the Economy: \u2018We Need to Check These Guys Power\u2019",
     "source": "benzinga"
    },
    {
-    "symbol": "QQQ",
-    "time": "2026-11-12T16:00:25+00:00",
-    "headline": "Energy Leads Sectors In Thursday Trading As Materials Trail",
+    "symbol": "AAPL",
+    "time": "2026-11-12T21:10:07+00:00",
+    "headline": "Nvidia at 11X Earnings? One Wall Street Bull Says Investors Are Getting a Rare Bargain",
     "source": "benzinga"
    },
    {
@@ -1633,15 +1644,21 @@
     "source": "benzinga"
    },
    {
-    "symbol": "AAPL",
-    "time": "2026-11-12T18:22:01+00:00",
-    "headline": "Can Nvidia Pull A Tim Cook? Apple's Post-Jobs Performance Offers Clues",
+    "symbol": "MSFT",
+    "time": "2026-11-12T22:31:35+00:00",
+    "headline": "Microsoft 365 Experiences Service Outage",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "MSFT",
+    "time": "2026-11-12T22:30:18+00:00",
+    "headline": "AOC Says Five Guys in Tuxedos Shouldn\u2019t Control the Economy: \u2018We Need to Check These Guys Power\u2019",
     "source": "benzinga"
    },
    {
-    "symbol": "AAPL",
-    "time": "2026-11-12T18:17:43+00:00",
-    "headline": "What's Going On With Alphabet Stock Thursday?",
+    "symbol": "MSFT",
+    "time": "2026-11-12T21:10:07+00:00",
+    "headline": "Nvidia at 11X Earnings? One Wall Street Bull Says Investors Are Getting a Rare Bargain",
     "source": "benzinga"
    },
    {
@@ -1657,81 +1674,63 @@
     "source": "benzinga"
    },
    {
-    "symbol": "MSFT",
-    "time": "2026-11-12T19:01:35+00:00",
-    "headline": "BetterUp Announces Collaboration with Microsoft to Support Managers",
-    "source": "fiscal.ai"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-12T19:01:02+00:00",
-    "headline": "QUICK SPARK: OpenAI, Anthropic, SpaceX Join Magnificent Seven In New Roundhill ETF",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-12T18:52:08+00:00",
-    "headline": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
+    "symbol": "NVDA",
+    "time": "2026-11-12T22:32:07+00:00",
+    "headline": "From AI Chips to Rocket Ships: Will Jensen Huang Join Elon Musk?",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-12T20:40:06+00:00",
-    "headline": "Short Seller Flagged Nvidia China Worries Months Ago: Here\u2019s How Much Stock Has Fallen Since",
+    "time": "2026-11-12T22:30:18+00:00",
+    "headline": "AOC Says Five Guys in Tuxedos Shouldn\u2019t Control the Economy: \u2018We Need to Check These Guys Power\u2019",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-12T20:22:09+00:00",
-    "headline": "Jensen Huang Scandal Widens: Former Nvidia CEO Linked to Second Employee",
+    "time": "2026-11-12T22:00:12+00:00",
+    "headline": "Jensen Huang Drops Out of Top 10 Richest, Elon Musk Now 6.3x Richer Than Former Nvidia CEO",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-12T19:58:54+00:00",
-    "headline": "Wall Street Takes the Chainsaw to Nvidia Targets: One Bank Slashes $465 to $186",
+    "time": "2026-11-12T21:10:07+00:00",
+    "headline": "Nvidia at 11X Earnings? One Wall Street Bull Says Investors Are Getting a Rare Bargain",
     "source": "benzinga"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-12T19:29:03+00:00",
-    "headline": "Former Nvidia CEO Jensen Huang Had An Intimate Relationship With A Second Employee, Sources Say",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "NVDA",
-    "time": "2026-11-12T19:00:07+00:00",
-    "headline": "Warren Buffett Said \u2018We Can Afford to Lose Money\u2019 But Not \u2018Even a Shred of Reputation\u2019 \u2014 Nvidia\u2019s Board Just Showed What That Means With Jensen Huang\u2019s Exit",
+    "time": "2026-11-12T21:00:06+00:00",
+    "headline": "Would a Tesla\u2013SpaceX Merger Be Bullish for Bitcoin? Careful What You Wish For",
     "source": "benzinga"
    },
    {
     "symbol": "TSLA",
-    "time": "2026-11-12T20:30:07+00:00",
-    "headline": "Stephen King Tells Elon Musk \u2018You Sound Like Trump\u2019 After Billionaire Warns Democrats Will \u2018Execute Their Plan to End Democracy in America\u2019",
+    "time": "2026-11-12T23:30:17+00:00",
+    "headline": "Tesla Launches Over 20 New Merchandise Products for Holidays and Some are Already Sold Out: Here\u2019s the List",
     "source": "benzinga"
    },
    {
     "symbol": "TSLA",
-    "time": "2026-11-12T20:01:33+00:00",
-    "headline": "Lawsuit Filed Against Tesla Over San Mateo Street-Racing Incident",
+    "time": "2026-11-12T22:32:07+00:00",
+    "headline": "From AI Chips to Rocket Ships: Will Jensen Huang Join Elon Musk?",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "TSLA",
+    "time": "2026-11-12T22:30:18+00:00",
+    "headline": "AOC Says Five Guys in Tuxedos Shouldn\u2019t Control the Economy: \u2018We Need to Check These Guys Power\u2019",
+    "source": "benzinga"
+   },
+   {
+    "symbol": "TSLA",
+    "time": "2026-11-12T21:31:29+00:00",
+    "headline": "Tesla and SpaceX Merger Negotiations Reportedly Progressing",
     "source": "fiscal.ai"
    },
    {
     "symbol": "TSLA",
-    "time": "2026-11-12T19:30:10+00:00",
-    "headline": "Workday CEO Admits He\u2019s \u2018Absolutely\u2019 Worried About AI Job Displacement \u2014 Says \u2018Yes,\u2019 Companies Will Want to Replace Humans for Less",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "TSLA",
-    "time": "2026-11-12T19:01:02+00:00",
-    "headline": "QUICK SPARK: OpenAI, Anthropic, SpaceX Join Magnificent Seven In New Roundhill ETF",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "TSLA",
-    "time": "2026-11-12T18:52:08+00:00",
-    "headline": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
+    "time": "2026-11-12T21:02:07+00:00",
+    "headline": "QUICK SPARK: Tesla Stock Has Best 5-Day Rally in Over a Year as Elon Musk Pushes for SpaceX Merger by December",
     "source": "benzinga"
    }
   ],
@@ -3229,7 +3228,7 @@
    {
     "day": "2026-11-12",
     "symbol": "SPY",
-    "close": 757.0
+    "close": 757.16
    },
    {
     "day": "2025-09-09",
@@ -4719,12 +4718,7 @@
    {
     "day": "2026-11-12",
     "symbol": "QQQ",
-    "close": 687.57
-   },
-   {
-    "day": "2025-09-09",
-    "symbol": "BTC/USD",
-    "close": 111504.2705
+    "close": 688.195
    },
    {
     "day": "2025-09-10",
@@ -6867,9 +6861,9 @@
     "close": 73929.379
    },
    {
-    "day": "2025-09-09",
-    "symbol": "ETH/USD",
-    "close": 4310.1785
+    "day": "2026-11-12",
+    "symbol": "BTC/USD",
+    "close": 71372.674
    },
    {
     "day": "2025-09-10",
@@ -9010,6 +9004,11 @@
     "day": "2026-11-11",
     "symbol": "ETH/USD",
     "close": 2053.98
+   },
+   {
+    "day": "2026-11-12",
+    "symbol": "ETH/USD",
+    "close": 2017.405
    }
   ]
  },
@@ -9047,25 +9046,25 @@
     "symbol": "SPY",
     "entry_time": "2026-11-12T14:55:00+00:00",
     "entry": 758.0916,
-    "exit": 756.6186,
-    "pnl": -1.49,
-    "exit_reason": "end of test"
-   },
-   {
-    "symbol": "NVDA",
-    "entry_time": "2026-11-12T15:00:00+00:00",
-    "entry": 162.7025,
-    "exit": 163.1674,
-    "pnl": 0.46,
-    "exit_reason": "end of test"
+    "exit": 756.6036,
+    "pnl": -1.51,
+    "exit_reason": "end of day"
    },
    {
     "symbol": "QQQ",
     "entry_time": "2026-11-12T15:55:00+00:00",
     "entry": 689.8579,
-    "exit": 686.4027,
-    "pnl": -3.47,
-    "exit_reason": "end of test"
+    "exit": 687.6124,
+    "pnl": -2.26,
+    "exit_reason": "end of day"
+   },
+   {
+    "symbol": "NVDA",
+    "entry_time": "2026-11-12T15:00:00+00:00",
+    "entry": 162.7025,
+    "exit": 165.4219,
+    "pnl": 2.71,
+    "exit_reason": "end of day"
    }
   ]
  }
