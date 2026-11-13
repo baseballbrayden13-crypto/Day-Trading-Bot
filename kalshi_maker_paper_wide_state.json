@@ -2556,25 +2556,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNHL2P-26NOV12COLOTT",
-   "series": "KXNHL2P",
-   "title": "Colorado vs Ottawa: 2nd Period Winner",
-   "ticker": "KXNHL2P-26NOV12COLOTT-OTT",
-   "order_id": "paper-1007-1794533411",
-   "price": "0.3800",
+   "event": "KXR6MAP-26NOV121930M80VP-2",
+   "series": "KXR6MAP",
+   "title": "M80 vs. Virtus.pro: Map 2 Winner",
+   "ticker": "KXR6MAP-26NOV121930M80VP-2-M80",
+   "order_id": "paper-1008-1794535067",
+   "price": "0.4700",
    "sets": 2,
    "done": 0,
-   "reserve": "3.8500",
+   "reserve": "1.5800",
    "multiplier": "1",
-   "placed": 1794533411.9762988,
+   "placed": 1794535067.3884432,
    "hedge": [
     {
-     "ticker": "KXNHL2P-26NOV12COLOTT-COL",
-     "limit": "0.8400"
-    },
-    {
-     "ticker": "KXNHL2P-26NOV12COLOTT-TIE",
-     "limit": "0.7700"
+     "ticker": "KXR6MAP-26NOV121930M80VP-2-VP",
+     "limit": "0.3000"
     }
    ]
   }

@@ -8389,3 +8389,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 20:30:12,113 INFO Swept 21734 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-12 20:37:01,351 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
 2026-11-12 20:37:06,438 INFO Swept 21721 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 20:43:53,726 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 20:43:58,741 INFO Swept 21710 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 20:43:58,855 INFO Quote KXNHL2P-26NOV12COLOTT cancelled (0/2 filled)
+2026-11-12 20:50:44,623 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 20:50:49,896 INFO Swept 21704 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-12 20:57:42,403 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 20:57:47,388 INFO PAPER rest NO bid KXR6MAP-26NOV121930M80VP-2-M80 at $0.4700 x2 (0 already bid at that price)
+2026-11-12 20:57:47,388 INFO Resting NO bid on KXR6MAP-26NOV121930M80VP-2-M80 at $0.4700 x2 (KXR6MAP-26NOV121930M80VP-2): locks in $0.42 if it fills; hedge NO VP@0.3000
+2026-11-12 20:57:47,533 INFO Swept 21703 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 21:04:33,926 INFO Not quoting (hedges keep missing): KXAHLGAME, KXPOWERSLAPMATCH, KXSOCKEYERUN
+2026-11-12 21:04:38,935 INFO Swept 21668 events: 0 taker trades, 0 new quotes, 1 resting
