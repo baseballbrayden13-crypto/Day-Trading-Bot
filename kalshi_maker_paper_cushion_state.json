@@ -99,21 +99,67 @@
  ],
  "quotes": [
   {
-   "event": "KXR6MAP-26NOV121930M80VP-2",
-   "series": "KXR6MAP",
-   "title": "M80 vs. Virtus.pro: Map 2 Winner",
-   "ticker": "KXR6MAP-26NOV121930M80VP-2-M80",
-   "order_id": "paper-77-1794533933",
-   "price": "0.3400",
+   "event": "KXLIGAEXP1H-26NOV12ATMLEN",
+   "series": "KXLIGAEXP1H",
+   "title": "Atletico Morelia vs Leones Negros: First Half Winner",
+   "ticker": "KXLIGAEXP1H-26NOV12ATMLEN-ATM",
+   "order_id": "paper-78-1794536178",
+   "price": "0.1100",
    "sets": 2,
    "done": 0,
-   "reserve": "1.3200",
+   "reserve": "3.4100",
    "multiplier": "1",
-   "placed": 1794533933.520585,
+   "placed": 1794536178.3484528,
    "hedge": [
     {
-     "ticker": "KXR6MAP-26NOV121930M80VP-2-VP",
-     "limit": "0.3000"
+     "ticker": "KXLIGAEXP1H-26NOV12ATMLEN-LEN",
+     "limit": "0.9200"
+    },
+    {
+     "ticker": "KXLIGAEXP1H-26NOV12ATMLEN-TIE",
+     "limit": "0.7100"
+    }
+   ]
+  },
+  {
+   "event": "KXLVBPGAME-26NOV121800ARAANZ",
+   "series": "KXLVBPGAME",
+   "title": "Tigres de Aragua vs Caribes de Anzoategui",
+   "ticker": "KXLVBPGAME-26NOV121800ARAANZ-ANZ",
+   "order_id": "paper-79-1794536178",
+   "price": "0.3200",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7500",
+   "multiplier": "1",
+   "placed": 1794536178.3825426,
+   "hedge": [
+    {
+     "ticker": "KXLVBPGAME-26NOV121800ARAANZ-ARA",
+     "limit": "0.4000"
+    }
+   ]
+  },
+  {
+   "event": "KXNBAWINMARGIN-26NOV12DALMIN",
+   "series": "KXNBAWINMARGIN",
+   "title": "Dallas vs Minnesota: Winning Margin",
+   "ticker": "KXNBAWINMARGIN-26NOV12DALMIN-DAL21PLUS",
+   "order_id": "paper-81-1794537449",
+   "price": "0.5700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.7100",
+   "multiplier": "1",
+   "placed": 1794537449.4744394,
+   "hedge": [
+    {
+     "ticker": "KXNBAWINMARGIN-26NOV12DALMIN-MIN11TO20",
+     "limit": "0.8900"
+    },
+    {
+     "ticker": "KXNBAWINMARGIN-26NOV12DALMIN-MIN21PLUS",
+     "limit": "0.2100"
     }
    ]
   }

@@ -1407,3 +1407,24 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 21:00:16,903 INFO Swept 21678 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-12 21:05:31,366 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-12 21:05:35,055 INFO Swept 21663 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 21:10:54,449 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 21:10:58,199 INFO Swept 21666 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 21:16:14,042 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 21:16:18,348 INFO PAPER rest NO bid KXLIGAEXP1H-26NOV12ATMLEN-ATM at $0.1100 x2 (0 already bid at that price)
+2026-11-12 21:16:18,348 INFO Resting NO bid on KXLIGAEXP1H-26NOV12ATMLEN-ATM at $0.1100 x2 (KXLIGAEXP1H-26NOV12ATMLEN): locks in $0.59 if it fills; hedge NO LEN@0.8600, TIE@0.7100
+2026-11-12 21:16:18,382 INFO PAPER rest NO bid KXLVBPGAME-26NOV121800ARAANZ-ANZ at $0.3200 x1 (0 already bid at that price)
+2026-11-12 21:16:18,382 INFO Resting NO bid on KXLVBPGAME-26NOV121800ARAANZ-ANZ at $0.3200 x1 (KXLVBPGAME-26NOV121800ARAANZ): locks in $0.25 if it fills; hedge NO ARA@0.4000
+2026-11-12 21:16:18,416 INFO PAPER rest NO bid KXR6MAP-26NOV121930M80VP-2-M80 at $0.4800 x2 (0 already bid at that price)
+2026-11-12 21:16:18,416 INFO Resting NO bid on KXR6MAP-26NOV121930M80VP-2-M80 at $0.4800 x2 (KXR6MAP-26NOV121930M80VP-2): locks in $0.40 if it fills; hedge NO VP@0.3000
+2026-11-12 21:16:18,417 INFO Swept 21696 events: 0 taker trades, 3 new quotes, 3 resting
+2026-11-12 21:21:35,708 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 21:21:39,435 INFO Swept 21749 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-12 21:21:39,698 INFO Quote KXR6MAP-26NOV121930M80VP-2 cancelled (0/2 filled)
+2026-11-12 21:26:53,789 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 21:26:57,519 INFO Swept 21773 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-12 21:32:09,359 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 21:32:13,094 INFO Swept 21801 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-12 21:37:25,316 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 21:37:29,474 INFO PAPER rest NO bid KXNBAWINMARGIN-26NOV12DALMIN-DAL21PLUS at $0.5700 x1 (0 already bid at that price)
+2026-11-12 21:37:29,474 INFO Resting NO bid on KXNBAWINMARGIN-26NOV12DALMIN-DAL21PLUS at $0.5700 x1 (KXNBAWINMARGIN-26NOV12DALMIN): locks in $0.29 if it fills; hedge NO MIN11TO20@0.8900, MIN21PLUS@0.2100
+2026-11-12 21:37:29,475 INFO Swept 21792 events: 0 taker trades, 1 new quotes, 3 resting
