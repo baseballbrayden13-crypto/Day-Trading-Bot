@@ -8628,3 +8628,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 10:57:44,115 INFO Swept 21615 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 11:03:55,191 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
 2026-11-13 11:04:00,069 INFO Swept 21614 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 11:10:20,735 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 11:10:25,623 INFO Swept 21609 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 11:16:36,697 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 11:16:42,136 INFO Swept 21612 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 11:22:53,329 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 11:22:58,254 INFO Swept 21624 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 11:29:06,315 INFO Not quoting (hedges keep missing): KXAHLGAME, KXSOCKEYERUN
+2026-11-13 11:29:11,570 INFO PAPER rest NO bid KXAFCON1H-26NOV13GABLES-GAB at $0.0700 x2 (0 already bid at that price)
+2026-11-13 11:29:11,570 INFO Resting NO bid on KXAFCON1H-26NOV13GABLES-GAB at $0.0700 x2 (KXAFCON1H-26NOV13GABLES): locks in $0.16 if it fills; hedge NO LES@0.9900, TIE@0.8500
+2026-11-13 11:29:11,636 INFO Swept 21619 events: 0 taker trades, 1 new quotes, 1 resting
