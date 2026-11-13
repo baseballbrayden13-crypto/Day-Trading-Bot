@@ -1397,3 +1397,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-12 20:38:53,520 INFO PAPER rest NO bid KXR6MAP-26NOV121930M80VP-2-M80 at $0.3400 x2 (0 already bid at that price)
 2026-11-12 20:38:53,520 INFO Resting NO bid on KXR6MAP-26NOV121930M80VP-2-M80 at $0.3400 x2 (KXR6MAP-26NOV121930M80VP-2): locks in $0.68 if it fills; hedge NO VP@0.3000
 2026-11-12 20:38:53,521 INFO Swept 21722 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-12 20:44:17,751 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 20:44:22,071 INFO Swept 21710 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 20:49:36,633 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 20:49:40,313 INFO Swept 21704 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 20:54:55,398 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 20:54:59,081 INFO Swept 21707 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 21:00:13,207 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 21:00:16,903 INFO Swept 21678 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-12 21:05:31,366 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-12 21:05:35,055 INFO Swept 21663 events: 0 taker trades, 0 new quotes, 1 resting
