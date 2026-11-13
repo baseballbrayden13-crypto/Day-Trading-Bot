@@ -1,16 +1,24 @@
 {
- "updated": "2026-11-12T20:54:39+00:00",
+ "updated": "2026-11-13T01:54:49+00:00",
  "scan": {
-  "sports": [],
-  "games": 0,
-  "kalshi_matched": 0,
+  "sports": [
+   "basketball_nba",
+   "icehockey_nhl",
+   "americanfootball_ncaaf",
+   "basketball_ncaab"
+  ],
+  "games": 60,
+  "kalshi_matched": 48,
   "skipped": [],
-  "credits_left": 446,
-  "spent_today": 5,
+  "pinnacle": 18,
+  "credits_left": 430,
+  "spent_today": 9,
   "allowance": 23
  },
- "new_finds": [],
- "open_bets": 6,
+ "new_finds": [
+  "Indiana Pacers @ Pinnacle 3.39 (fair 3.21, +5.6% expected) New York Knicks at Indiana Pacers (Fri 7:10PM)"
+ ],
+ "open_bets": 7,
  "record": {
   "value": {
    "bets": 7,

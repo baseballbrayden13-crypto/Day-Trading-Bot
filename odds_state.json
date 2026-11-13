@@ -113,6 +113,25 @@
     }
    ],
    "opened": "2026-11-12T03:52:42+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "New York Knicks at Indiana Pacers",
+   "game_id": "6669b911691463c669a5c10574742e8e",
+   "sport": "basketball_nba",
+   "start": "2026-11-14T00:10:00Z",
+   "edge": 0.056,
+   "home": "Indiana Pacers",
+   "away": "New York Knicks",
+   "legs": [
+    {
+     "team": "Indiana Pacers",
+     "book": "Pinnacle",
+     "odds": 3.39,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-13T01:54:49+00:00"
   }
  ],
  "seen": {
@@ -130,18 +149,19 @@
   "value|92cc2f2a169d4efd4f1a0ac9d25672bc|California Golden Bears|FanDuel": "2026-11-11T22:53:52.925382+00:00",
   "value|d5c5ae8d56762b45d1ec4b85337878f3|Washington Wizards|Pinnacle": "2026-11-12T03:52:42.997948+00:00",
   "value|f3f429e773bfb2340ba2bb90f2b9dd1e|Charlotte Hornets|Pinnacle": "2026-11-12T03:52:42.997948+00:00",
-  "value|d5ffc3709a43565e263ddd08e42c27c0|Coppin St Eagles|BetMGM": "2026-11-12T03:52:42.997948+00:00"
+  "value|d5ffc3709a43565e263ddd08e42c27c0|Coppin St Eagles|BetMGM": "2026-11-12T03:52:42.997948+00:00",
+  "value|6669b911691463c669a5c10574742e8e|Indiana Pacers|Pinnacle": "2026-11-13T01:54:49.889724+00:00"
  },
  "credits": {
   "day": "2026-11-12",
-  "spent": 5,
-  "remaining": 446
+  "spent": 9,
+  "remaining": 430
  },
  "last_priced": {
-  "basketball_nba": "2026-11-12T20:32:49.640552+00:00",
-  "icehockey_nhl": "2026-11-12T20:32:49.640552+00:00",
-  "americanfootball_ncaaf": "2026-11-12T20:32:49.640552+00:00",
-  "basketball_ncaab": "2026-11-12T20:32:49.640552+00:00",
+  "basketball_nba": "2026-11-13T01:54:49.889724+00:00",
+  "icehockey_nhl": "2026-11-13T01:54:49.889724+00:00",
+  "americanfootball_ncaaf": "2026-11-13T01:54:49.889724+00:00",
+  "basketball_ncaab": "2026-11-13T01:54:49.889724+00:00",
   "americanfootball_nfl": "2026-11-12T20:32:49.640552+00:00"
  }
 }

@@ -1,119 +1,43 @@
 {
- "updated": "2026-11-12T20:54:41+00:00",
+ "updated": "2026-11-13T01:54:56+00:00",
  "parlays": [
-  {
-   "kind": "game",
-   "game": "New York Giants vs Washington Commanders",
-   "start": "2026-11-13T01:15:00Z",
-   "legs": [
-    {
-     "label": "New York Giants to win",
-     "ticker": "KXNFLGAME-26NOV12WASNYG-NYG",
-     "side": "yes",
-     "price": 0.54,
-     "fair": 0.5378,
-     "value": -0.0202,
-     "player": ""
-    },
-    {
-     "label": "Theo Johnson 5+ receiving yards",
-     "ticker": "KXNFLRECYDS-26NOV12WASNYG-NYGTJOHNSON84-5",
-     "side": "yes",
-     "price": 0.52,
-     "fair": 0.6171,
-     "value": 0.0791,
-     "player": "Theo Johnson"
-    },
-    {
-     "label": "Rachaad White 10+ receiving yards",
-     "ticker": "KXNFLRECYDS-26NOV12WASNYG-WASRWHITE1-10",
-     "side": "yes",
-     "price": 0.58,
-     "fair": 0.6554,
-     "value": 0.0574,
-     "player": "Rachaad White"
-    },
-    {
-     "label": "Devin Singletary 20+ rushing yards",
-     "ticker": "KXNFLRSHYDS-26NOV12WASNYG-NYGDSINGLETARY26-20",
-     "side": "yes",
-     "price": 0.58,
-     "fair": 0.637,
-     "value": 0.039,
-     "player": "Devin Singletary"
-    }
-   ],
-   "price": 0.1074,
-   "fair": 0.1386,
-   "pays": "+831",
-   "per_dollar": 9.31
-  },
-  {
-   "kind": "game (safer 2-leg)",
-   "game": "New York Giants vs Washington Commanders",
-   "start": "2026-11-13T01:15:00Z",
-   "legs": [
-    {
-     "label": "Rachaad White 10+ receiving yards",
-     "ticker": "KXNFLRECYDS-26NOV12WASNYG-WASRWHITE1-10",
-     "side": "yes",
-     "price": 0.58,
-     "fair": 0.6554,
-     "value": 0.0574,
-     "player": "Rachaad White"
-    },
-    {
-     "label": "Devin Singletary 20+ rushing yards",
-     "ticker": "KXNFLRSHYDS-26NOV12WASNYG-NYGDSINGLETARY26-20",
-     "side": "yes",
-     "price": 0.58,
-     "fair": 0.637,
-     "value": 0.039,
-     "player": "Devin Singletary"
-    }
-   ],
-   "price": 0.3576,
-   "fair": 0.4175,
-   "pays": "+180",
-   "per_dollar": 2.8
-  },
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-13T01:10:00Z",
+   "start": "2026-11-13T02:10:00Z",
    "legs": [
     {
-     "label": "High Point Panthers to win",
-     "ticker": "KXNCAAMBGAME-26NOV12SUUHP-HP",
+     "label": "Phoenix Suns to win",
+     "ticker": "KXNBAGAME-26NOV12CHAPHX-PHX",
+     "side": "yes",
+     "price": 0.66,
+     "fair": 0.6585,
+     "value": -0.0175,
+     "player": ""
+    },
+    {
+     "label": "BYU Cougars to win",
+     "ticker": "KXNCAAMBGAME-26NOV12MTSTBYU-BYU",
      "side": "yes",
      "price": 0.97,
-     "fair": 0.9612,
-     "value": -0.0118,
+     "fair": 0.9516,
+     "value": -0.0214,
      "player": ""
     },
     {
-     "label": "Alabama A&M Bulldogs to win",
-     "ticker": "KXNCAAMBGAME-26NOV12UWFLAAMU-AAMU",
+     "label": "UTEP Miners to win",
+     "ticker": "KXNCAAMBGAME-26NOV12NMSUUTEP-UTEP",
      "side": "yes",
-     "price": 0.69,
-     "fair": 0.693,
-     "value": -0.012,
-     "player": ""
-    },
-    {
-     "label": "Dallas Stars to win",
-     "ticker": "KXNHLGAME-26NOV12WPGDAL-DAL",
-     "side": "yes",
-     "price": 0.61,
-     "fair": 0.6125,
-     "value": -0.0145,
+     "price": 0.66,
+     "fair": 0.6525,
+     "value": -0.0235,
      "player": ""
     }
    ],
-   "price": 0.4301,
-   "fair": 0.408,
-   "pays": "+133",
-   "per_dollar": 2.33
+   "price": 0.4446,
+   "fair": 0.4089,
+   "pays": "+125",
+   "per_dollar": 2.25
   }
  ],
  "open_pretend": 2,
