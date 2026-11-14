@@ -83,6 +83,24 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA (stray)",
+   "series": "KXCONCACAFNLADVANCE",
+   "title": "El Salvador vs Saint Martin",
+   "sets": 0,
+   "outlay": "3.2200",
+   "locked_profit": "0",
+   "opened": "2026-11-14T05:52:27.073568+00:00",
+   "legs": [
+    {
+     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
+     "side": "no",
+     "count": 4,
+     "limit": "0.8000"
+    }
+   ],
+   "retried": 1794637055.8238802
   }
  ],
  "closed": [
@@ -2680,21 +2698,21 @@
  ],
  "quotes": [
   {
-   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA",
-   "series": "KXCONCACAFNLADVANCE",
-   "title": "El Salvador vs Saint Martin",
-   "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
-   "order_id": "paper-1053-1794635236",
-   "price": "0.8000",
-   "sets": 4,
+   "event": "KXR6MAP-26NOV132330FAZEFLCS-2",
+   "series": "KXR6MAP",
+   "title": "FaZe Clan vs. Falcons Esport: Map 2 Winner",
+   "ticker": "KXR6MAP-26NOV132330FAZEFLCS-2-FAZE",
+   "order_id": "paper-1054-1794636453",
+   "price": "0.1700",
+   "sets": 1,
    "done": 0,
-   "reserve": "3.8600",
+   "reserve": "0.8400",
    "multiplier": "1",
-   "placed": 1794635236.670531,
+   "placed": 1794636453.7298298,
    "hedge": [
     {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV",
-     "limit": "0.1500"
+     "ticker": "KXR6MAP-26NOV132330FAZEFLCS-2-FLCS",
+     "limit": "0.6400"
     }
    ]
   }
