@@ -1853,3 +1853,26 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 19:55:29,712 INFO Swept 21949 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-13 20:00:44,805 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 20:00:48,038 INFO Swept 21944 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 20:06:02,838 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:06:06,919 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13UMDSCS-UMD at $0.1700 x2 (0 already bid at that price)
+2026-11-13 20:06:06,919 INFO Resting NO bid on KXNCAAHGAME-26NOV13UMDSCS-UMD at $0.1700 x2 (KXNCAAHGAME-26NOV13UMDSCS): locks in $0.24 if it fills; hedge NO SCS@0.6900
+2026-11-13 20:06:06,920 INFO Swept 21935 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 20:11:16,505 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:11:19,668 INFO Swept 21942 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 20:16:28,316 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:16:31,699 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13UNIUML-UML at $0.0900 x1 (0 already bid at that price)
+2026-11-13 20:16:31,699 INFO Resting NO bid on KXNCAAHGAME-26NOV13UNIUML-UML at $0.0900 x1 (KXNCAAHGAME-26NOV13UNIUML): locks in $0.20 if it fills; hedge NO UNI@0.6800
+2026-11-13 20:16:31,713 INFO Swept 22005 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 20:21:39,682 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:21:43,481 INFO Swept 22006 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 20:26:51,495 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:26:55,373 INFO Swept 22010 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 20:26:55,432 INFO PAPER KXNCAAHGAME-26NOV13UMDSCS-UMD NO bid at $0.1700: 2/2 filled by real trades
+2026-11-13 20:26:55,490 INFO PAPER buy 2 NO KXNCAAHGAME-26NOV13UMDSCS-SCS at up to $0.6900: not on the book
+2026-11-13 20:26:55,546 INFO PAPER buy 2 NO KXNCAAHGAME-26NOV13UMDSCS-SCS at up to $0.86: not on the book
+2026-11-13 20:26:55,546 WARNING Quote KXNCAAHGAME-26NOV13UMDSCS: hedge missed on KXNCAAHGAME-26NOV13UMDSCS-SCS. Selling back 2 contracts on 1 legs.
+2026-11-13 20:26:55,603 INFO PAPER sell 2 YES KXNCAAHGAME-26NOV13UMDSCS-UMD at up to $0.8800: filled 2
+2026-11-13 20:32:02,992 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:32:06,375 INFO PAPER rest NO bid KXNCAAMBRACE-26NOV13UVAMD-10-UVA at $0.2700 x2 (0 already bid at that price)
+2026-11-13 20:32:06,375 INFO Resting NO bid on KXNCAAMBRACE-26NOV13UVAMD-10-UVA at $0.2700 x2 (KXNCAAMBRACE-26NOV13UVAMD-10): locks in $0.61 if it fills; hedge NO MD@0.4000
+2026-11-13 20:32:06,376 INFO Swept 22010 events: 0 taker trades, 1 new quotes, 2 resting
