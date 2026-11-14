@@ -8965,3 +8965,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 01:12:36,369 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
 2026-11-14 01:17:35,695 INFO Swept 21492 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-14 01:17:35,881 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 01:22:43,746 INFO Swept 21491 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 01:22:43,944 INFO Quote KXR6MAP-26NOV132330FAZEFLCS-2 cancelled (0/1 filled)
+2026-11-14 01:22:43,999 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 01:27:44,943 INFO Swept 21482 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 01:27:45,002 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 01:32:45,846 INFO Swept 21494 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 01:32:45,902 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 01:37:46,156 INFO Swept 21495 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 01:37:46,213 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 01:42:48,128 INFO Swept 21493 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 01:42:48,186 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 01:47:48,823 INFO Swept 21488 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 01:47:48,880 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
