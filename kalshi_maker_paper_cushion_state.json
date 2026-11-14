@@ -1,6 +1,31 @@
 {
  "realized": "-3.6000",
- "open": [],
+ "open": [
+  {
+   "event": "KXLIDOMGAME-26NOV131830TOREST",
+   "series": "KXLIDOMGAME",
+   "title": "Toros del Este vs Estrellas Orientales",
+   "sets": 1,
+   "outlay": "1.0400",
+   "locked_profit": "-0.0400",
+   "opened": "2026-11-14T00:50:13.858239+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLIDOMGAME-26NOV131830TOREST-EST",
+     "side": "no",
+     "count": 1,
+     "limit": "0.1000"
+    },
+    {
+     "ticker": "KXLIDOMGAME-26NOV131830TOREST-TOR",
+     "side": "no",
+     "count": 1,
+     "limit": "0.92"
+    }
+   ]
+  }
+ ],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -135,5 +160,25 @@
    "closed": "2026-11-13T21:09:10.588469+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAHGAME-26NOV13UNIUML",
+   "series": "KXNCAAHGAME",
+   "title": "Union vs Massachusetts Lowell",
+   "ticker": "KXNCAAHGAME-26NOV13UNIUML-UNI",
+   "order_id": "paper-99-1794616791",
+   "price": "0.28",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.7900",
+   "multiplier": "1",
+   "placed": 1794616791.8020437,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UML",
+     "limit": "0.5900"
+    }
+   ]
+  }
+ ]
 }

@@ -1832,3 +1832,24 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 19:29:23,324 INFO Swept 21821 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-13 19:34:33,749 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 19:34:37,262 INFO Swept 21837 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 19:39:47,853 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:39:51,741 INFO PAPER rest NO bid KXLIDOMGAME-26NOV131830TOREST-EST at $0.1000 x2 (0 already bid at that price)
+2026-11-13 19:39:51,742 INFO Resting NO bid on KXLIDOMGAME-26NOV131830TOREST-EST at $0.1000 x2 (KXLIDOMGAME-26NOV131830TOREST): locks in $0.32 if it fills; hedge NO TOR@0.7500
+2026-11-13 19:39:51,801 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13UNIUML-UNI at $0.2800 x2 (5 already bid at that price)
+2026-11-13 19:39:51,802 INFO Resting NO bid on KXNCAAHGAME-26NOV13UNIUML-UNI at $0.28 x2 (KXNCAAHGAME-26NOV13UNIUML): locks in $0.21 if it fills; hedge NO UML@0.5900
+2026-11-13 19:39:51,803 INFO Swept 21860 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-13 19:44:59,263 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:45:02,517 INFO Swept 21963 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 19:50:10,293 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:50:13,527 INFO Swept 21953 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 19:50:13,742 INFO PAPER KXLIDOMGAME-26NOV131830TOREST-EST NO bid at $0.1000: 1/2 filled by real trades
+2026-11-13 19:50:13,800 INFO PAPER buy 1 NO KXLIDOMGAME-26NOV131830TOREST-TOR at up to $0.7500: not on the book
+2026-11-13 19:50:13,858 INFO PAPER buy 1 NO KXLIDOMGAME-26NOV131830TOREST-TOR at up to $0.92: filled 1
+2026-11-13 19:50:13,858 INFO Quote KXLIDOMGAME-26NOV131830TOREST: hedge on KXLIDOMGAME-26NOV131830TOREST-TOR chased from 0.7500 to 0.92
+2026-11-13 19:50:13,858 INFO Quote KXLIDOMGAME-26NOV131830TOREST filled 1: hedged, locks in $-0.04
+2026-11-13 19:50:13,973 INFO PAPER KXLIDOMGAME-26NOV131830TOREST-EST NO bid at $0.1000: 1/2 filled by real trades
+2026-11-13 19:50:14,282 INFO Quote KXLIDOMGAME-26NOV131830TOREST cancelled (1/2 filled)
+2026-11-13 19:55:26,446 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:55:29,712 INFO Swept 21949 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 20:00:44,805 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:00:48,038 INFO Swept 21944 events: 0 taker trades, 0 new quotes, 1 resting
