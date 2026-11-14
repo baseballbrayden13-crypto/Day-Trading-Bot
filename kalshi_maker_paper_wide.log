@@ -8923,3 +8923,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 23:06:32,867 INFO Swept 21763 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-13 23:11:34,809 INFO Swept 21771 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-13 23:16:37,237 INFO Swept 21761 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 23:21:37,716 INFO Swept 21745 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 23:26:39,009 INFO Swept 21738 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 23:31:41,480 INFO Swept 21703 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 23:31:41,689 INFO Quote KXNBBGAME-26NOV131730UNIFCRU cancelled (0/2 filled)
+2026-11-13 23:36:48,866 INFO Swept 21691 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 23:41:50,564 INFO Swept 21679 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 23:46:48,433 INFO Swept 21660 events: 0 taker trades, 0 new quotes, 0 resting
