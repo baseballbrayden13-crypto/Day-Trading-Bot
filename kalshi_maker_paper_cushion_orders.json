@@ -1538,5 +1538,33 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-111-1794662581": {
+  "id": "paper-111-1794662581",
+  "ticker": "KXVALORANTGAME-26NOV150600LNGAT-LNG",
+  "price": "0.4900",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794662581.6613367,
+  "checked": 1794663515.775996,
+  "expires": 1794664381,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-112-1794663490": {
+  "id": "paper-112-1794663490",
+  "ticker": "KXSWPLGAME-26NOV15GLAMON-MON",
+  "price": "0.6300",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794663490.4308455,
+  "checked": 1794663515.8093793,
+  "expires": 1794665290,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
