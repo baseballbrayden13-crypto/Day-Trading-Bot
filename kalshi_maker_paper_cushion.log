@@ -2252,3 +2252,22 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 15:29:14,857 INFO PAPER rest NO bid KXLOLFBARON-26NOV141400GENBLG-1-NEITHER at $0.1700 x2 (0 already bid at that price)
 2026-11-14 15:29:14,857 INFO Resting NO bid on KXLOLFBARON-26NOV141400GENBLG-1-NEITHER at $0.1700 x2 (KXLOLFBARON-26NOV141400GENBLG-1): locks in $1.62 if it fills; hedge NO GEN@0.0100
 2026-11-14 15:29:14,858 INFO Swept 21541 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 15:35:24,553 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 15:35:29,303 INFO Swept 21513 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 15:35:29,553 INFO Quote KXLOLFBARON-26NOV141400GENBLG-1 cancelled (0/2 filled)
+2026-11-14 15:41:32,135 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 15:41:36,917 INFO PAPER rest NO bid KXEFLL1GAME-26NOV14WYWHUD-TIE at $0.5300 x2 (0 already bid at that price)
+2026-11-14 15:41:36,917 INFO Resting NO bid on KXEFLL1GAME-26NOV14WYWHUD-TIE at $0.5300 x2 (KXEFLL1GAME-26NOV14WYWHUD): locks in $0.24 if it fills; hedge NO WYW@0.7400, HUD@0.5700
+2026-11-14 15:41:36,918 INFO Swept 21462 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 15:47:39,467 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 15:47:43,756 INFO Swept 21401 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 15:53:46,286 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 15:53:50,907 INFO Swept 21379 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 15:53:50,971 INFO PAPER KXEFLL1GAME-26NOV14WYWHUD-TIE NO bid at $0.5300: 2/2 filled by real trades
+2026-11-14 15:53:51,033 INFO PAPER buy 2 NO KXEFLL1GAME-26NOV14WYWHUD-WYW at up to $0.7400: filled 2
+2026-11-14 15:53:51,092 INFO PAPER buy 2 NO KXEFLL1GAME-26NOV14WYWHUD-HUD at up to $0.5700: filled 2
+2026-11-14 15:53:51,092 INFO Quote KXEFLL1GAME-26NOV14WYWHUD filled 2: hedged, locks in $0.24
+2026-11-14 15:59:53,521 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 15:59:57,844 INFO PAPER rest NO bid KXNCAAF1H-26NOV14MERTNTC-TNTC at $0.5000 x2 (0 already bid at that price)
+2026-11-14 15:59:57,844 INFO Resting NO bid on KXNCAAF1H-26NOV14MERTNTC-TNTC at $0.5000 x2 (KXNCAAF1H-26NOV14MERTNTC): locks in $0.25 if it fills; hedge NO MER@0.4000
+2026-11-14 15:59:57,846 INFO Swept 21317 events: 0 taker trades, 1 new quotes, 1 resting

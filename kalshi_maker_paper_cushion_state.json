@@ -1,6 +1,37 @@
 {
  "realized": "-4.1200",
- "open": [],
+ "open": [
+  {
+   "event": "KXEFLL1GAME-26NOV14WYWHUD",
+   "series": "KXEFLL1GAME",
+   "title": "Wycombe vs Huddersfield",
+   "sets": 2,
+   "outlay": "3.7600",
+   "locked_profit": "0.2400",
+   "opened": "2026-11-14T20:53:51.092807+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.5300"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
+     "side": "no",
+     "count": 2,
+     "limit": "0.7400"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
+     "side": "no",
+     "count": 2,
+     "limit": "0.5700"
+    }
+   ]
+  }
+ ],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -214,44 +245,21 @@
  ],
  "quotes": [
   {
-   "event": "KXEFLL1GAME-26NOV14WYWHUD",
-   "series": "KXEFLL1GAME",
-   "title": "Wycombe vs Huddersfield",
-   "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
-   "order_id": "paper-124-1794686675",
-   "price": "0.4700",
+   "event": "KXNCAAF1H-26NOV14MERTNTC",
+   "series": "KXNCAAF1H",
+   "title": "Mercer vs Tennessee Tech: 1st Half Winner",
+   "ticker": "KXNCAAF1H-26NOV14MERTNTC-TNTC",
+   "order_id": "paper-128-1794689997",
+   "price": "0.5000",
    "sets": 2,
    "done": 0,
-   "reserve": "3.6400",
+   "reserve": "1.7500",
    "multiplier": "1",
-   "placed": 1794686675.6355622,
+   "placed": 1794689997.8448498,
    "hedge": [
     {
-     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
-     "limit": "0.7400"
-    },
-    {
-     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
-     "limit": "0.5700"
-    }
-   ]
-  },
-  {
-   "event": "KXLOLFBARON-26NOV141400GENBLG-1",
-   "series": "KXLOLFBARON",
-   "title": "Gen.G vs. Bilibili Gaming: Game 1 First Baron",
-   "ticker": "KXLOLFBARON-26NOV141400GENBLG-1-NEITHER",
-   "order_id": "paper-126-1794688154",
-   "price": "0.1700",
-   "sets": 2,
-   "done": 0,
-   "reserve": "0.3800",
-   "multiplier": "1",
-   "placed": 1794688154.8571203,
-   "hedge": [
-    {
-     "ticker": "KXLOLFBARON-26NOV141400GENBLG-1-GEN",
-     "limit": "0.0100"
+     "ticker": "KXNCAAF1H-26NOV14MERTNTC-MER",
+     "limit": "0.4000"
     }
    ]
   }
