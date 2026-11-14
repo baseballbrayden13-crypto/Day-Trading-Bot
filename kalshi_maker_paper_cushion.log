@@ -1912,3 +1912,29 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 21:29:46,307 INFO Swept 22151 events: 0 taker trades, 0 new quotes, 3 resting
 2026-11-13 21:34:55,046 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 21:34:58,327 INFO Swept 22163 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-13 21:40:10,852 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 21:40:14,721 INFO PAPER rest NO bid KXLMPGAME-26NOV132130CDJHMO-CDJ at $0.1800 x2 (0 already bid at that price)
+2026-11-13 21:40:14,721 INFO Resting NO bid on KXLMPGAME-26NOV132130CDJHMO-CDJ at $0.1800 x2 (KXLMPGAME-26NOV132130CDJHMO): locks in $0.39 if it fills; hedge NO HMO@0.6500
+2026-11-13 21:40:14,722 INFO Swept 22127 events: 0 taker trades, 1 new quotes, 4 resting
+2026-11-13 21:40:14,842 INFO PAPER KXLMPGAME-26NOV132105MAZCUL-CUL NO bid at $0.1000: 2/2 filled by real trades
+2026-11-13 21:40:14,901 INFO PAPER buy 2 NO KXLMPGAME-26NOV132105MAZCUL-MAZ at up to $0.6900: not on the book
+2026-11-13 21:40:14,959 INFO PAPER buy 2 NO KXLMPGAME-26NOV132105MAZCUL-MAZ at up to $0.93: not on the book
+2026-11-13 21:40:14,959 WARNING Quote KXLMPGAME-26NOV132105MAZCUL: hedge missed on KXLMPGAME-26NOV132105MAZCUL-MAZ. Selling back 2 contracts on 1 legs.
+2026-11-13 21:40:15,018 INFO PAPER sell 2 YES KXLMPGAME-26NOV132105MAZCUL-CUL at up to $0.9500: not on the book
+2026-11-13 21:40:15,018 ERROR STRAY POSITION: 2 NO contracts of KXLMPGAME-26NOV132105MAZCUL-CUL still held. Check it on Kalshi.
+2026-11-13 21:40:15,077 INFO PAPER KXNCAAHGAME-26NOV13UNIUML-UML NO bid at $0.0700: 2/2 filled by real trades
+2026-11-13 21:40:15,135 INFO PAPER buy 2 NO KXNCAAHGAME-26NOV13UNIUML-UNI at up to $0.9100: not on the book
+2026-11-13 21:40:15,193 INFO PAPER buy 2 NO KXNCAAHGAME-26NOV13UNIUML-UNI at up to $0.96: not on the book
+2026-11-13 21:40:15,193 WARNING Quote KXNCAAHGAME-26NOV13UNIUML: hedge missed on KXNCAAHGAME-26NOV13UNIUML-UNI. Selling back 2 contracts on 1 legs.
+2026-11-13 21:40:15,250 INFO PAPER sell 2 YES KXNCAAHGAME-26NOV13UNIUML-UML at up to $0.9800: not on the book
+2026-11-13 21:40:15,250 ERROR STRAY POSITION: 2 NO contracts of KXNCAAHGAME-26NOV13UNIUML-UML still held. Check it on Kalshi.
+2026-11-13 21:40:15,427 INFO PAPER sell 2 YES KXLMPGAME-26NOV132105MAZCUL-CUL at up to $0.99: filled 2
+2026-11-13 21:40:15,427 INFO Stray KXLMPGAME-26NOV132105MAZCUL-CUL: sold 2 of 2 at $0.01 or better, booked $-0.20
+2026-11-13 21:40:15,484 INFO PAPER sell 2 YES KXNCAAHGAME-26NOV13UNIUML-UML at up to $0.99: not on the book
+2026-11-13 21:45:22,394 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 21:45:25,577 INFO Swept 22100 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 21:45:25,761 INFO PAPER sell 2 YES KXNCAAHGAME-26NOV13UNIUML-UML at up to $0.99: not on the book
+2026-11-13 21:50:31,790 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 21:50:34,979 INFO Swept 22067 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 21:50:35,155 INFO PAPER sell 2 YES KXNCAAHGAME-26NOV13UNIUML-UML at up to $0.99: not on the book
+2026-11-13 21:50:40,220 INFO Stopped; all quotes cancelled.
