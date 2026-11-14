@@ -2706,40 +2706,17 @@
    "series": "KXVALORANTGAME",
    "title": "LNG Esports vs. A Team",
    "ticker": "KXVALORANTGAME-26NOV150600LNGAT-LNG",
-   "order_id": "paper-1057-1794662594",
-   "price": "0.4900",
-   "sets": 2,
+   "order_id": "paper-1059-1794664711",
+   "price": "0.6200",
+   "sets": 1,
    "done": 0,
-   "reserve": "1.5600",
+   "reserve": "0.7300",
    "multiplier": "1",
-   "placed": 1794662594.1686838,
+   "placed": 1794664711.8186836,
    "hedge": [
     {
      "ticker": "KXVALORANTGAME-26NOV150600LNGAT-AT",
-     "limit": "0.4500"
-    }
-   ]
-  },
-  {
-   "event": "KXSWPLGAME-26NOV15GLAMON",
-   "series": "KXSWPLGAME",
-   "title": "Glasgow City vs Montrose Ladies FC (women)",
-   "ticker": "KXSWPLGAME-26NOV15GLAMON-MON",
-   "order_id": "paper-1058-1794663500",
-   "price": "0.6300",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.7300",
-   "multiplier": "1",
-   "placed": 1794663500.1591187,
-   "hedge": [
-    {
-     "ticker": "KXSWPLGAME-26NOV15GLAMON-GLA",
-     "limit": "0.1200"
-    },
-    {
-     "ticker": "KXSWPLGAME-26NOV15GLAMON-TIE",
-     "limit": "0.9500"
+     "limit": "0.0900"
     }
    ]
   }
