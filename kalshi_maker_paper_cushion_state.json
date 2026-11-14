@@ -243,25 +243,5 @@
    "closed": "2026-11-14T03:57:50.222799+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAF1H-26NOV14MERTNTC",
-   "series": "KXNCAAF1H",
-   "title": "Mercer vs Tennessee Tech: 1st Half Winner",
-   "ticker": "KXNCAAF1H-26NOV14MERTNTC-TNTC",
-   "order_id": "paper-128-1794689997",
-   "price": "0.5000",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.7500",
-   "multiplier": "1",
-   "placed": 1794689997.8448498,
-   "hedge": [
-    {
-     "ticker": "KXNCAAF1H-26NOV14MERTNTC-MER",
-     "limit": "0.4000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

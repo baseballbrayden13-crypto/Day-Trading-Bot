@@ -2271,3 +2271,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 15:59:57,844 INFO PAPER rest NO bid KXNCAAF1H-26NOV14MERTNTC-TNTC at $0.5000 x2 (0 already bid at that price)
 2026-11-14 15:59:57,844 INFO Resting NO bid on KXNCAAF1H-26NOV14MERTNTC-TNTC at $0.5000 x2 (KXNCAAF1H-26NOV14MERTNTC): locks in $0.25 if it fills; hedge NO MER@0.4000
 2026-11-14 15:59:57,846 INFO Swept 21317 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 16:05:57,638 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 16:06:01,860 INFO Swept 21268 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 16:12:01,818 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 16:12:06,049 INFO Swept 21231 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 16:18:00,800 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 16:18:04,792 INFO Swept 21201 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 16:23:58,279 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 16:24:02,425 INFO Swept 21187 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 16:30:16,572 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 16:30:20,752 INFO Swept 21150 events: 0 taker trades, 0 new quotes, 1 resting
