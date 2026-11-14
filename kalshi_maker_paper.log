@@ -4376,3 +4376,10 @@ Traceback (most recent call last):
 RuntimeError: Kalshi GET /events kept failing
 2026-11-14 15:23:56,165 INFO Swept 21539 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 15:29:00,556 INFO Swept 21544 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:34:07,533 INFO Swept 21513 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:39:08,068 INFO Swept 21472 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:44:02,689 INFO Swept 21417 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:49:16,555 INFO Swept 21388 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:53:57,245 INFO Swept 21363 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:59:08,096 INFO Swept 21306 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 16:04:01,130 INFO Swept 21247 events: 0 taker trades, 0 new quotes, 0 resting
