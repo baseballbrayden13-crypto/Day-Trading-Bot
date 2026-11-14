@@ -2587,21 +2587,40 @@
  ],
  "quotes": [
   {
-   "event": "KXLIDOMGAME-26NOV131830TOREST",
-   "series": "KXLIDOMGAME",
-   "title": "Toros del Este vs Estrellas Orientales",
-   "ticker": "KXLIDOMGAME-26NOV131830TOREST-EST",
-   "order_id": "paper-1037-1794614527",
-   "price": "0.0700",
+   "event": "KXNCAAHGAME-26NOV13UNIUML",
+   "series": "KXNCAAHGAME",
+   "title": "Union vs Massachusetts Lowell",
+   "ticker": "KXNCAAHGAME-26NOV13UNIUML-UNI",
+   "order_id": "paper-1038-1794615870",
+   "price": "0.2600",
    "sets": 2,
    "done": 0,
-   "reserve": "1.6200",
+   "reserve": "1.7500",
    "multiplier": "1",
-   "placed": 1794614527.789004,
+   "placed": 1794615870.2528741,
    "hedge": [
     {
-     "ticker": "KXLIDOMGAME-26NOV131830TOREST-TOR",
-     "limit": "0.7500"
+     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UML",
+     "limit": "0.5900"
+    }
+   ]
+  },
+  {
+   "event": "KXLIDOMGAME-26NOV131830ESCLIC",
+   "series": "KXLIDOMGAME",
+   "title": "Leones del Escogido vs Tigres del Licey",
+   "ticker": "KXLIDOMGAME-26NOV131830ESCLIC-LIC",
+   "order_id": "paper-1039-1794616203",
+   "price": "0.2200",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8700",
+   "multiplier": "1",
+   "placed": 1794616203.9267225,
+   "hedge": [
+    {
+     "ticker": "KXLIDOMGAME-26NOV131830ESCLIC-ESC",
+     "limit": "0.6200"
     }
    ]
   }

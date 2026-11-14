@@ -8798,3 +8798,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 19:02:07,788 INFO PAPER rest NO bid KXLIDOMGAME-26NOV131830TOREST-EST at $0.0700 x2 (0 already bid at that price)
 2026-11-13 19:02:07,789 INFO Resting NO bid on KXLIDOMGAME-26NOV131830TOREST-EST at $0.0700 x2 (KXLIDOMGAME-26NOV131830TOREST): locks in $0.38 if it fills; hedge NO TOR@0.7500
 2026-11-13 19:02:07,945 INFO Swept 21782 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 19:07:42,797 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 19:07:46,504 INFO Swept 21775 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 19:13:15,979 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 19:13:20,135 INFO Swept 21798 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 19:18:51,324 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 19:18:55,113 INFO Swept 21807 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 19:24:26,713 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 19:24:30,252 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13UNIUML-UNI at $0.2600 x2 (0 already bid at that price)
+2026-11-13 19:24:30,252 INFO Resting NO bid on KXNCAAHGAME-26NOV13UNIUML-UNI at $0.2600 x2 (KXNCAAHGAME-26NOV13UNIUML): locks in $0.25 if it fills; hedge NO UML@0.5900
+2026-11-13 19:24:30,408 INFO Swept 21822 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 19:29:59,659 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 19:30:03,926 INFO PAPER rest NO bid KXLIDOMGAME-26NOV131830ESCLIC-LIC at $0.2200 x1 (0 already bid at that price)
+2026-11-13 19:30:03,926 INFO Resting NO bid on KXLIDOMGAME-26NOV131830ESCLIC-LIC at $0.2200 x1 (KXLIDOMGAME-26NOV131830ESCLIC): locks in $0.13 if it fills; hedge NO ESC@0.6200
+2026-11-13 19:30:04,084 INFO Swept 21830 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-13 19:35:35,902 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 19:35:39,572 INFO Swept 21839 events: 0 taker trades, 0 new quotes, 3 resting
