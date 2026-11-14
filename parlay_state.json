@@ -3,128 +3,41 @@
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-14T03:10:00Z",
+   "start": "2026-11-15T02:10:00Z",
    "legs": [
     {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV13GSWSAS-SAS",
-     "side": "yes",
-     "price": 0.86,
-     "fair": 0.8596,
-     "value": -0.0094,
-     "player": ""
-    },
-    {
-     "label": "Vegas Golden Knights to win",
-     "ticker": "KXNHLGAME-26NOV13NSHVGK-VGK",
-     "side": "yes",
-     "price": 0.62,
-     "fair": 0.6266,
-     "value": -0.0104,
-     "player": ""
-    },
-    {
-     "label": "Virginia Cavaliers to win",
-     "ticker": "KXNCAAMBGAME-26NOV13UVAMD-UVA",
-     "side": "yes",
-     "price": 0.69,
-     "fair": 0.6937,
-     "value": -0.0113,
-     "player": ""
-    }
-   ],
-   "price": 0.3903,
-   "fair": 0.3736,
-   "pays": "+156",
-   "per_dollar": 2.56,
-   "opened": "2026-11-13T09:40:25+00:00"
-  },
-  {
-   "kind": "game",
-   "game": "Indiana Pacers vs New York Knicks",
-   "start": "2026-11-14T00:10:00Z",
-   "legs": [
-    {
-     "label": "Obi Toppin 4+ rebounds",
-     "ticker": "KXNBAREB-26NOV13NYKIND-INDOTOPPIN1-4",
-     "side": "yes",
-     "price": 0.58,
-     "fair": 0.6421,
-     "value": 0.0441,
-     "player": "Obi Toppin"
-    },
-    {
-     "label": "Ivica Zubac 10+ points",
-     "ticker": "KXNBAPTS-26NOV13NYKIND-INDIZUBAC40-10",
-     "side": "yes",
-     "price": 0.72,
-     "fair": 0.7776,
-     "value": 0.0426,
-     "player": "Ivica Zubac"
-    },
-    {
-     "label": "Kelly Oubre Jr. 10+ points",
-     "ticker": "KXNBAPTS-26NOV13NYKIND-INDKOUBRE10-10",
-     "side": "yes",
-     "price": 0.63,
-     "fair": 0.688,
-     "value": 0.041,
-     "player": "Kelly Oubre Jr."
-    }
-   ],
-   "price": 0.2844,
-   "fair": 0.3435,
-   "pays": "+252",
-   "per_dollar": 3.52,
-   "opened": "2026-11-13T17:50:37+00:00"
-  },
-  {
-   "kind": "game",
-   "game": "Milwaukee Bucks vs Orlando Magic",
-   "start": "2026-11-14T00:10:00Z",
-   "legs": [
-    {
-     "label": "Orlando Magic to win",
-     "ticker": "KXNBAGAME-26NOV13MILORL-ORL",
-     "side": "yes",
-     "price": 0.79,
-     "fair": 0.7764,
-     "value": -0.0256,
-     "player": ""
-    },
-    {
-     "label": "Wendell Carter Jr. 10+ points",
-     "ticker": "KXNBAPTS-26NOV13MILORL-ORLWCARTER34-10",
-     "side": "yes",
-     "price": 0.71,
-     "fair": 0.7654,
-     "value": 0.0404,
-     "player": "Wendell Carter Jr."
-    },
-    {
-     "label": "Brayden Burries 10+ points",
-     "ticker": "KXNBAPTS-26NOV13MILORL-MILBBURRIES0-10",
+     "label": "James Madison Dukes to win",
+     "ticker": "KXNCAAFGAME-26NOV14JMUCONN-JMU",
      "side": "yes",
      "price": 0.65,
-     "fair": 0.7003,
-     "value": 0.0343,
-     "player": "Brayden Burries"
+     "fair": 0.6478,
+     "value": -0.0182,
+     "player": ""
     },
     {
-     "label": "Tristan da Silva 10+ points",
-     "ticker": "KXNBAPTS-26NOV13MILORL-ORLTDASILVA23-10",
+     "label": "Utah Mammoth to win",
+     "ticker": "KXNHLGAME-26NOV14SJUTA-UTA",
      "side": "yes",
-     "price": 0.7,
-     "fair": 0.7467,
-     "value": 0.0317,
-     "player": "Tristan da Silva"
+     "price": 0.65,
+     "fair": 0.6477,
+     "value": -0.0183,
+     "player": ""
+    },
+    {
+     "label": "East Carolina Pirates to win",
+     "ticker": "KXNCAAFGAME-26NOV14ECUCHAR-ECU",
+     "side": "yes",
+     "price": 0.79,
+     "fair": 0.7832,
+     "value": -0.0188,
+     "player": ""
     }
    ],
-   "price": 0.2769,
-   "fair": 0.3107,
-   "pays": "+261",
-   "per_dollar": 3.61,
-   "opened": "2026-11-13T23:39:23+00:00"
+   "price": 0.3557,
+   "fair": 0.3286,
+   "pays": "+181",
+   "per_dollar": 2.81,
+   "opened": "2026-11-14T06:38:10+00:00"
   }
  ],
  "seen": {
@@ -132,6 +45,7 @@
   "favorites|Favorites across games|2026-11-12": "2026-11-12T20:47:35.070786+00:00",
   "favorites|Favorites across games|2026-11-13": "2026-11-13T09:40:25.472602+00:00",
   "game|Indiana Pacers vs New York Knicks|2026-11-14": "2026-11-13T17:50:37.661763+00:00",
-  "game|Milwaukee Bucks vs Orlando Magic|2026-11-14": "2026-11-13T23:39:23.084188+00:00"
+  "game|Milwaukee Bucks vs Orlando Magic|2026-11-14": "2026-11-13T23:39:23.084188+00:00",
+  "favorites|Favorites across games|2026-11-14": "2026-11-14T06:38:10.703824+00:00"
  }
 }

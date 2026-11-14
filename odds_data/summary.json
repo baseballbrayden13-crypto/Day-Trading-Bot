@@ -1,54 +1,45 @@
 {
- "updated": "2026-11-13T23:39:17+00:00",
+ "updated": "2026-11-14T06:38:09+00:00",
  "scan": {
-  "sports": [
-   "basketball_nba",
-   "icehockey_nhl",
-   "americanfootball_ncaaf",
-   "basketball_ncaab"
-  ],
-  "games": 167,
-  "kalshi_matched": 145,
+  "sports": [],
+  "games": 0,
+  "kalshi_matched": 0,
   "skipped": [],
-  "pinnacle": 112,
+  "note": "quiet hours",
   "credits_left": 416,
-  "spent_today": 8,
-  "allowance": 23
+  "spent_today": 0,
+  "allowance": 24
  },
- "new_finds": [
-  "Illinois Fighting Illini @ Pinnacle 4.45 (fair 4.32, +3.0% expected) Illinois Fighting Illini at UCLA Bruins (Fri 9:00PM)",
-  "Charlotte 49ers @ BetRivers 4.8 (fair 4.59, +4.5% expected) East Carolina Pirates at Charlotte 49ers (Sat 1:00PM)",
-  "SE Missouri St Redhawks @ BetRivers 3.15 (fair 3.02, +4.2% expected) SE Missouri St Redhawks at Middle Tennessee Blue Raiders (Fri 7:30PM)"
- ],
- "open_bets": 13,
+ "new_finds": [],
+ "open_bets": 8,
  "record": {
   "value": {
-   "bets": 9,
-   "wins": 0,
-   "staked": 90.0,
-   "pnl": -90.0,
-   "roi": -1.0
+   "bets": 12,
+   "wins": 2,
+   "staked": 120.0,
+   "pnl": -48.1,
+   "roi": -0.4008
   },
   "kalshi": {
-   "bets": 0,
+   "bets": 1,
    "wins": 0,
-   "staked": 0,
-   "pnl": 0,
-   "roi": 0.0
+   "staked": 10.0,
+   "pnl": -10.0,
+   "roi": -1.0
   },
   "arb": {
-   "bets": 2,
-   "wins": 2,
-   "staked": 200.0,
-   "pnl": 3.55,
-   "roi": 0.0178
+   "bets": 3,
+   "wins": 3,
+   "staked": 300.0,
+   "pnl": 4.27,
+   "roi": 0.0142
   },
   "all": {
-   "bets": 11,
-   "wins": 2,
-   "staked": 290.0,
-   "pnl": -86.45,
-   "roi": -0.2981
+   "bets": 16,
+   "wins": 5,
+   "staked": 430.0,
+   "pnl": -53.83,
+   "roi": -0.1252
   }
  }
 }
