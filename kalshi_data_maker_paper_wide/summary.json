@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T09:34:28+00:00",
+ "updated": "2026-11-14T13:03:53+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -13,14 +13,11 @@
  "stray_positions": 0,
  "closed_trades": 67,
  "trades_this_loop": 0,
- "events_swept": 21603,
+ "events_swept": 21649,
  "found_this_loop": 0,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 2,
- "last_problems": [
-  "2026-11-14 05:52 Quote KXCONCACAFNLADVANCE-26NOV17SLVSMA: hedge missed on KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV. Selling back 4 contracts on 1 legs.",
-  "2026-11-14 05:52 STRAY POSITION: 4 NO contracts of KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA still held. Check it on Kalshi."
- ]
+ "problems": 0,
+ "last_problems": []
 }
