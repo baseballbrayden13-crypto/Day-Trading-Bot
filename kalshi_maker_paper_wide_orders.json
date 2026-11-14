@@ -14972,11 +14972,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794679529.8156629,
-  "checked": 1794679570.2304258,
+  "checked": 1794680739.745739,
   "expires": 1794681329,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-1071-1794680131": {
+  "id": "paper-1071-1794680131",
+  "ticker": "KXNCAAF1H-26NOV14MEALBY-ME",
+  "price": "0.5200",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794680131.6672766,
+  "checked": 1794680739.770536,
+  "expires": 1794681931,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
