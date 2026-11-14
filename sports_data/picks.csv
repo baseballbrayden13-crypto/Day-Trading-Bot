@@ -762,14 +762,51 @@ live,2026-11-12,nhl,BUF @ CHI,Chicago Blackhawks,home,2.3,0.519,0.417,0.102,sett
 live,2026-11-12,nhl,STL @ UTA,Utah Mammoth,home,2.1,0.576,0.457,0.119,settled,0,-10.0,401892704
 replay,2026-11-12,nfl,WSH @ NYG,New York Giants,home,1.8,0.737,0.532,0.204,settled,0,-10.0,401873052
 replay,2026-11-12,ncaaf,MEM @ USF,South Florida Bulls,home,2.54,0.518,0.378,0.14,settled,0,-10.0,401862824
-live,2026-11-13,ncaaf,FSU @ PITT,Pittsburgh Panthers,home,1.617,0.652,0.593,0.059,open,,,401858293
+live,2026-11-13,ncaaf,FSU @ PITT,Pittsburgh Panthers,home,1.617,0.652,0.593,0.059,settled,0,-10.0,401858293
 replay,2026-11-12,nba,DAL @ MIN,Minnesota Timberwolves,home,1.448,0.742,0.663,0.079,settled,1,4.48,401909978
 live,2026-11-13,nba,NY @ IND,Indiana Pacers,home,3.71,0.511,0.259,0.252,settled,1,27.1,401909296
-live,2026-11-13,nba,CLE @ MIA,Miami Heat,home,1.741,0.621,0.551,0.07,open,,,401909298
-live,2026-11-13,nba,ATL @ CHI,Chicago Bulls,home,3.27,0.363,0.294,0.069,open,,,401909299
-live,2026-11-13,nba,OKC @ LAC,LA Clippers,home,3.31,0.394,0.29,0.103,open,,,401909304
+live,2026-11-13,nba,CLE @ MIA,Miami Heat,home,1.741,0.621,0.551,0.07,settled,1,7.41,401909298
+live,2026-11-13,nba,ATL @ CHI,Chicago Bulls,home,3.27,0.363,0.294,0.069,settled,1,22.7,401909299
+live,2026-11-13,nba,OKC @ LAC,LA Clippers,home,3.31,0.394,0.29,0.103,settled,1,23.1,401909304
 replay,2026-11-12,nhl,CAR @ SEA,Seattle Kraken,home,3.45,0.461,0.278,0.183,settled,0,-10.0,401891808
 replay,2026-11-12,nhl,MIN @ TOR,Toronto Maple Leafs,home,2.42,0.501,0.396,0.105,settled,0,-10.0,401892697
 replay,2026-11-12,nhl,BUF @ CHI,Chicago Blackhawks,home,2.3,0.519,0.417,0.102,settled,1,13.0,401892702
 replay,2026-11-12,nhl,STL @ UTA,Utah Mammoth,home,2.1,0.576,0.457,0.119,settled,0,-10.0,401892704
-live,2026-11-13,nhl,NYR @ VAN,Vancouver Canucks,home,2.85,0.458,0.336,0.121,open,,,401892706
+live,2026-11-13,nhl,NYR @ VAN,Vancouver Canucks,home,2.85,0.458,0.336,0.121,settled,0,-10.0,401892706
+replay,2026-11-13,ncaaf,FSU @ PITT,Pittsburgh Panthers,home,1.617,0.652,0.593,0.059,settled,0,-10.0,401858293
+live,2026-11-14,ncaaf,TENN @ TA&M,Tennessee Volunteers,away,1.87,0.639,0.511,0.128,open,,,401856888
+live,2026-11-14,ncaaf,NMSU @ MOST,Missouri State Bears,home,1.909,0.579,0.5,0.079,open,,,401870796
+live,2026-11-14,ncaaf,USC @ IU,USC Trojans,away,3.7,0.332,0.259,0.073,open,,,401858518
+live,2026-11-14,ncaaf,KU @ WVU,West Virginia Mountaineers,home,1.8,0.661,0.532,0.128,open,,,401856861
+live,2026-11-14,ncaaf,GASO @ GAST,Georgia State Panthers,home,2.85,0.525,0.336,0.188,open,,,401869952
+live,2026-11-14,ncaaf,FRES @ TXST,Fresno State Bulldogs,away,3.95,0.377,0.243,0.134,open,,,401860916
+live,2026-11-14,ncaaf,AUB @ MSST,Mississippi State Bulldogs,home,2.2,0.523,0.437,0.087,open,,,401856886
+live,2026-11-14,ncaaf,TULN @ RICE,Tulane Green Wave,away,2.5,0.544,0.384,0.161,open,,,401862828
+live,2026-11-14,ncaaf,APP @ MRSH,Marshall Thundering Herd,home,2.0,0.607,0.478,0.129,open,,,401869928
+live,2026-11-14,ncaaf,FLA @ UK,Kentucky Wildcats,home,1.645,0.716,0.583,0.133,open,,,401856884
+live,2026-11-14,ncaaf,BAY @ BYU,Baylor Bears,away,3.5,0.425,0.274,0.151,open,,,401856858
+live,2026-11-14,ncaaf,LOU @ UNC,North Carolina Tar Heels,home,2.45,0.513,0.391,0.122,open,,,401858298
+live,2026-11-14,ncaaf,FAU @ TLSA,Florida Atlantic Owls,away,2.95,0.428,0.325,0.103,open,,,401862826
+live,2026-11-14,ncaaf,TEX @ LSU,Texas Longhorns,away,2.7,0.464,0.355,0.108,open,,,401856885
+live,2026-11-14,ncaaf,SC @ ARK,Arkansas Razorbacks,home,3.6,0.317,0.266,0.051,open,,,401856882
+live,2026-11-14,ncaaf,UNT @ UTSA,UTSA Roadrunners,home,2.1,0.545,0.457,0.088,open,,,401862827
+live,2026-11-14,ncaaf,USU @ SDSU,San Diego State Aztecs,home,2.24,0.5,0.428,0.072,open,,,401860915
+live,2026-11-14,ncaaf,WYO @ UTEP,Wyoming Cowboys,away,1.351,0.769,0.71,0.059,open,,,401864540
+live,2026-11-14,ncaaf,UTAH @ ARIZ,Utah Utes,away,1.893,0.557,0.504,0.053,open,,,401856864
+live,2026-11-14,ncaaf,CSU @ WSU,Colorado State Rams,away,3.6,0.455,0.266,0.188,open,,,401860917
+replay,2026-11-13,nba,NY @ IND,Indiana Pacers,home,3.71,0.511,0.259,0.252,settled,1,27.1,401909296
+replay,2026-11-13,nba,CLE @ MIA,Miami Heat,home,1.741,0.621,0.551,0.07,settled,1,7.41,401909298
+replay,2026-11-13,nba,ATL @ CHI,Chicago Bulls,home,3.27,0.363,0.294,0.069,settled,1,22.7,401909299
+replay,2026-11-13,nba,OKC @ LAC,LA Clippers,home,2.96,0.394,0.324,0.069,settled,1,19.6,401909304
+live,2026-11-14,nba,DAL @ CLE,Cleveland Cavaliers,home,2.7,0.57,0.356,0.215,open,,,401909981
+live,2026-11-14,nba,DET @ MIA,Miami Heat,home,2.46,0.479,0.391,0.088,open,,,401909982
+live,2026-11-14,nba,BKN @ MEM,Memphis Grizzlies,home,1.82,0.745,0.527,0.217,open,,,401909983
+replay,2026-11-13,nhl,NYR @ VAN,Vancouver Canucks,home,2.85,0.458,0.336,0.121,settled,0,-10.0,401892706
+live,2026-11-14,nhl,WPG @ CHI,Chicago Blackhawks,home,2.36,0.519,0.407,0.113,open,,,401892708
+live,2026-11-14,nhl,MIN @ BOS,Boston Bruins,home,2.1,0.553,0.457,0.096,open,,,401892709
+live,2026-11-14,nhl,OTT @ PIT,Pittsburgh Penguins,home,2.14,0.521,0.449,0.073,open,,,401892713
+live,2026-11-14,nhl,NJ @ WSH,Washington Capitals,home,2.14,0.523,0.449,0.074,open,,,401892714
+live,2026-11-14,nhl,PHI @ CBJ,Columbus Blue Jackets,home,1.741,0.603,0.551,0.052,open,,,401892715
+live,2026-11-14,nhl,BUF @ DAL,Dallas Stars,home,1.741,0.602,0.551,0.051,open,,,401892717
+live,2026-11-14,nhl,NYI @ ANA,Anaheim Ducks,home,1.926,0.564,0.496,0.069,open,,,401892719
+live,2026-11-14,nhl,CGY @ LA,Calgary Flames,away,2.45,0.463,0.391,0.072,open,,,401892720
