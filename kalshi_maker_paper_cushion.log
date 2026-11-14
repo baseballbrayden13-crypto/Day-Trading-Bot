@@ -2099,3 +2099,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 09:03:28,144 INFO Swept 21658 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-14 09:08:29,827 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 09:08:32,964 INFO Swept 21648 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 09:13:34,461 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 09:13:37,198 INFO Swept 21687 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 09:18:37,292 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 09:18:40,436 INFO PAPER rest NO bid KXCS2MAP-26NOV140900MAYNOI-1-MAY at $0.0300 x2 (0 already bid at that price)
+2026-11-14 09:18:40,436 INFO Resting NO bid on KXCS2MAP-26NOV140900MAYNOI-1-MAY at $0.0300 x2 (KXCS2MAP-26NOV140900MAYNOI-1): locks in $0.89 if it fills; hedge NO NOI@0.5000
+2026-11-14 09:18:40,440 INFO Swept 21707 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 09:23:43,886 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 09:23:46,594 INFO Swept 21708 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 09:23:46,663 INFO Quote KXCS2MAP-26NOV140900MAYNOI-1 cancelled (0/2 filled)
+2026-11-14 09:28:44,354 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 09:28:47,114 INFO Swept 21697 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 09:33:41,657 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 09:33:44,784 INFO PAPER rest NO bid KXVALORANTGAME-26NOV150600LNGAT-LNG at $0.6200 x1 (0 already bid at that price)
+2026-11-14 09:33:44,784 INFO Resting NO bid on KXVALORANTGAME-26NOV150600LNGAT-LNG at $0.6200 x1 (KXVALORANTGAME-26NOV150600LNGAT): locks in $0.27 if it fills; hedge NO AT@0.0900
+2026-11-14 09:33:44,785 INFO Swept 21693 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 09:38:48,435 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 09:38:51,151 INFO Swept 21690 events: 0 taker trades, 0 new quotes, 1 resting
