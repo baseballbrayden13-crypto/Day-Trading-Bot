@@ -212,25 +212,5 @@
    "closed": "2026-11-14T03:57:50.222799+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNBBGAME-26NOV131730UNIFCRU",
-   "series": "KXNBBGAME",
-   "title": "Unifacisa vs Cruzeiro Basquete",
-   "ticker": "KXNBBGAME-26NOV131730UNIFCRU-CRU",
-   "order_id": "paper-109-1794629061",
-   "price": "0.2200",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.6900",
-   "multiplier": "1",
-   "placed": 1794629061.9289103,
-   "hedge": [
-    {
-     "ticker": "KXNBBGAME-26NOV131730UNIFCRU-UNIF",
-     "limit": "0.6000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
