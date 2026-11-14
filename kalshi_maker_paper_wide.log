@@ -8860,3 +8860,26 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 20:31:57,816 INFO PAPER buy 1 NO KXNCAAHGAME-26NOV13UMDSCS-SCS at up to $0.85: not on the book
 2026-11-13 20:31:57,816 WARNING Quote KXNCAAHGAME-26NOV13UMDSCS: hedge missed on KXNCAAHGAME-26NOV13UMDSCS-SCS. Selling back 1 contracts on 1 legs.
 2026-11-13 20:31:57,847 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV13UMDSCS-UMD at up to $0.8800: filled 1
+2026-11-13 20:37:37,341 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 20:37:41,082 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13DARQUI-DAR at $0.1000 x1 (0 already bid at that price)
+2026-11-13 20:37:41,082 INFO Resting NO bid on KXNCAAHGAME-26NOV13DARQUI-DAR at $0.1000 x1 (KXNCAAHGAME-26NOV13DARQUI): locks in $0.37 if it fills; hedge NO QUI@0.5000
+2026-11-13 20:37:41,242 INFO Swept 22060 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 20:37:41,369 INFO Quote KXNCAAHGAME-26NOV13BCMAS cancelled (0/2 filled)
+2026-11-13 20:43:17,862 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 20:43:22,001 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13BCMAS-MAS at $0.2900 x2 (0 already bid at that price)
+2026-11-13 20:43:22,002 INFO Resting NO bid on KXNCAAHGAME-26NOV13BCMAS-MAS at $0.2900 x2 (KXNCAAHGAME-26NOV13BCMAS): locks in $0.59 if it fills; hedge NO BC@0.3900
+2026-11-13 20:43:22,155 INFO Swept 22045 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 20:48:54,345 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 20:48:57,926 INFO Swept 22033 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 20:48:58,123 INFO Quote KXNCAAHGAME-26NOV13BCMAS cancelled (0/2 filled)
+2026-11-13 20:54:32,045 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 20:54:35,792 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13BCMAS-MAS at $0.2900 x2 (0 already bid at that price)
+2026-11-13 20:54:35,792 INFO Resting NO bid on KXNCAAHGAME-26NOV13BCMAS-MAS at $0.2900 x2 (KXNCAAHGAME-26NOV13BCMAS): locks in $0.69 if it fills; hedge NO BC@0.3400
+2026-11-13 20:54:35,948 INFO Swept 22029 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 21:00:11,594 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 21:00:15,175 INFO Swept 22015 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 21:00:15,376 INFO Quote KXNCAAHGAME-26NOV13BCMAS cancelled (0/2 filled)
+2026-11-13 21:05:48,713 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 21:05:52,211 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13MMKPRO-MMK at $0.1600 x1 (0 already bid at that price)
+2026-11-13 21:05:52,211 INFO Resting NO bid on KXNCAAHGAME-26NOV13MMKPRO-MMK at $0.1600 x1 (KXNCAAHGAME-26NOV13MMKPRO): locks in $0.12 if it fills; hedge NO PRO@0.6900
+2026-11-13 21:05:52,369 INFO Swept 22025 events: 0 taker trades, 1 new quotes, 2 resting
