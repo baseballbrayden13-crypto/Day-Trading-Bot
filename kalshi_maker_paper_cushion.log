@@ -2184,3 +2184,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 11:59:57,113 INFO Swept 21687 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-14 12:04:59,195 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 12:05:01,856 INFO Swept 21671 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:10:06,287 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:10:08,925 INFO Swept 21662 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:15:06,206 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:15:08,964 INFO Swept 21704 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:20:07,471 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:20:10,095 INFO Swept 21712 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:25:08,241 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:25:10,910 INFO Swept 21708 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:30:07,618 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:30:10,814 INFO PAPER rest NO bid KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.2200 x1 (0 already bid at that price)
+2026-11-14 12:30:10,814 INFO Resting NO bid on KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.2200 x1 (KXRAFMATCH-26NOV14LAZ70804FAB01C4F): locks in $0.35 if it fills; hedge NO LAZ70804@0.4000
+2026-11-14 12:30:10,815 INFO Swept 21709 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 12:35:10,512 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:35:13,300 INFO PAPER rest NO bid KXWEUROBASKETGAME-26NOV141100SUIISL-SUI at $0.1000 x1 (0 already bid at that price)
+2026-11-14 12:35:13,300 INFO Resting NO bid on KXWEUROBASKETGAME-26NOV141100SUIISL-SUI at $0.1000 x1 (KXWEUROBASKETGAME-26NOV141100SUIISL): locks in $0.47 if it fills; hedge NO ISL@0.4000
+2026-11-14 12:35:13,301 INFO Swept 21700 events: 0 taker trades, 1 new quotes, 2 resting
