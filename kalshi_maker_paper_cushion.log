@@ -2056,3 +2056,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 04:36:58,469 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 04:37:03,054 INFO Swept 21593 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 04:37:08,056 INFO Stopped; all quotes cancelled.
+2026-11-14 07:38:36,147 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-14 07:42:35,328 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 07:42:38,181 INFO Swept 21620 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 07:47:42,271 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 07:47:45,058 INFO Swept 21614 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 07:52:44,671 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 07:52:47,446 INFO Swept 21612 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 07:57:46,936 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 07:57:49,625 INFO Swept 21601 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 08:02:48,692 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 08:02:51,344 INFO Swept 21604 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 08:07:50,579 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 08:07:53,247 INFO Swept 21649 events: 0 taker trades, 0 new quotes, 0 resting
