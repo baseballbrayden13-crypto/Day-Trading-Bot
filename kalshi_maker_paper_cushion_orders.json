@@ -1350,11 +1350,11 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794614605.993006,
-  "checked": 1794614606.0372946,
+  "checked": 1794616405,
   "expires": 1794616405,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  }
 }

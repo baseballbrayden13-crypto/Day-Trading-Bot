@@ -1820,3 +1820,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 19:03:25,994 INFO PAPER rest NO bid KXLIDOMGAME-26NOV131830TOREST-EST at $0.0700 x2 (0 already bid at that price)
 2026-11-13 19:03:25,994 INFO Resting NO bid on KXLIDOMGAME-26NOV131830TOREST-EST at $0.0700 x2 (KXLIDOMGAME-26NOV131830TOREST): locks in $0.38 if it fills; hedge NO TOR@0.7500
 2026-11-13 19:03:26,037 INFO Swept 21782 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 19:08:31,333 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:08:34,639 INFO Swept 21774 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 19:13:39,070 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:13:42,329 INFO Swept 21807 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 19:18:48,979 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:18:52,680 INFO Swept 21807 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 19:24:00,809 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:24:04,469 INFO Swept 21822 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 19:29:19,609 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:29:23,324 INFO Swept 21821 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 19:34:33,749 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:34:37,262 INFO Swept 21837 events: 0 taker trades, 0 new quotes, 1 resting
