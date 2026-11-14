@@ -2200,3 +2200,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 12:35:13,300 INFO PAPER rest NO bid KXWEUROBASKETGAME-26NOV141100SUIISL-SUI at $0.1000 x1 (0 already bid at that price)
 2026-11-14 12:35:13,300 INFO Resting NO bid on KXWEUROBASKETGAME-26NOV141100SUIISL-SUI at $0.1000 x1 (KXWEUROBASKETGAME-26NOV141100SUIISL): locks in $0.47 if it fills; hedge NO ISL@0.4000
 2026-11-14 12:35:13,301 INFO Swept 21700 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 12:40:12,415 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:40:15,687 INFO Swept 21708 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 12:45:13,405 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:45:16,334 INFO PAPER rest NO bid KXWEUROBASKETGAME-26NOV141100UKRGBR-UKR at $0.0500 x2 (0 already bid at that price)
+2026-11-14 12:45:16,335 INFO Resting NO bid on KXWEUROBASKETGAME-26NOV141100UKRGBR-UKR at $0.0500 x2 (KXWEUROBASKETGAME-26NOV141100UKRGBR): locks in $0.26 if it fills; hedge NO GBR@0.8000
+2026-11-14 12:45:16,336 INFO Swept 21707 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-14 12:50:17,270 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:50:20,076 INFO Swept 21716 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-14 12:50:20,196 INFO Quote KXWEUROBASKETGAME-26NOV141100UKRGBR cancelled (0/2 filled)
+2026-11-14 12:55:19,808 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:55:22,577 INFO Swept 21703 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 13:00:20,653 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 13:00:23,416 INFO Swept 21692 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 13:05:20,201 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 13:05:22,902 INFO PAPER rest NO bid KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.1200 x2 (0 already bid at that price)
+2026-11-14 13:05:22,902 INFO Resting NO bid on KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.1200 x2 (KXRAFMATCH-26NOV14LAZ70804FAB01C4F): locks in $0.51 if it fills; hedge NO LAZ70804@0.8000
+2026-11-14 13:05:22,903 INFO Swept 21679 events: 0 taker trades, 1 new quotes, 2 resting
