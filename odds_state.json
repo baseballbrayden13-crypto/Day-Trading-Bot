@@ -316,6 +316,25 @@
     }
    ],
    "opened": "2026-11-14T14:15:12+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "South Carolina Upstate Spartans at Campbell Fighting Camels",
+   "game_id": "4f85131b4b86a5241b2228638fb6fffb",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-14T21:30:00Z",
+   "edge": 0.063,
+   "home": "Campbell Fighting Camels",
+   "away": "South Carolina Upstate Spartans",
+   "legs": [
+    {
+     "team": "South Carolina Upstate Spartans",
+     "book": "FanDuel",
+     "odds": 5.0,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-14T19:16:08+00:00"
   }
  ],
  "seen": {
@@ -350,18 +369,19 @@
   "value|7428b124d458bea8a330d6a74c913ae6|Wofford Terriers|Bovada": "2026-11-14T14:15:12.384574+00:00",
   "value|0d1a14ace2c3c175c03a9ab173daabd0|Manhattan Jaspers|Bovada": "2026-11-14T14:15:12.384574+00:00",
   "arb|0d1a14ace2c3c175c03a9ab173daabd0|Le Moyne Dolphins@theScore Bet|Manhattan Jaspers@Bovada": "2026-11-14T14:15:12.384574+00:00",
-  "value|4e0ceb792e0b56a12aa0feda82cd6a3b|Howard Bison|Pinnacle": "2026-11-14T14:15:12.384574+00:00"
+  "value|4e0ceb792e0b56a12aa0feda82cd6a3b|Howard Bison|Pinnacle": "2026-11-14T14:15:12.384574+00:00",
+  "value|4f85131b4b86a5241b2228638fb6fffb|South Carolina Upstate Spartans|FanDuel": "2026-11-14T19:16:08.328295+00:00"
  },
  "credits": {
   "day": "2026-11-14",
-  "spent": 5,
-  "remaining": 411
+  "spent": 10,
+  "remaining": 400
  },
  "last_priced": {
-  "basketball_nba": "2026-11-14T14:15:12.384574+00:00",
-  "icehockey_nhl": "2026-11-14T14:15:12.384574+00:00",
-  "americanfootball_ncaaf": "2026-11-14T14:15:12.384574+00:00",
-  "basketball_ncaab": "2026-11-14T14:15:12.384574+00:00",
-  "americanfootball_nfl": "2026-11-14T14:15:12.384574+00:00"
+  "basketball_nba": "2026-11-14T19:16:08.328295+00:00",
+  "icehockey_nhl": "2026-11-14T19:16:08.328295+00:00",
+  "americanfootball_ncaaf": "2026-11-14T19:16:08.328295+00:00",
+  "basketball_ncaab": "2026-11-14T19:16:08.328295+00:00",
+  "americanfootball_nfl": "2026-11-14T19:16:08.328295+00:00"
  }
 }

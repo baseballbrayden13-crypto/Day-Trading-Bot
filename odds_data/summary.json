@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T14:15:12+00:00",
+ "updated": "2026-11-14T19:16:08+00:00",
  "scan": {
   "sports": [
    "americanfootball_nfl",
@@ -8,25 +8,18 @@
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 146,
-  "kalshi_matched": 135,
+  "games": 129,
+  "kalshi_matched": 120,
   "skipped": [],
-  "pinnacle": 131,
-  "credits_left": 411,
-  "spent_today": 5,
+  "pinnacle": 108,
+  "credits_left": 400,
+  "spent_today": 10,
   "allowance": 24
  },
  "new_finds": [
-  "Arizona Cardinals @ FanDuel 5.0 (fair 4.71, +6.1% expected) Los Angeles Rams at Arizona Cardinals (Sun 4:05PM)",
-  "Florida Atlantic Owls @ Pinnacle 3.16 (fair 3.04, +3.9% expected) Florida Atlantic Owls at Tulsa Golden Hurricane (Sat 7:15PM)",
-  "Northern Illinois Huskies @ Bovada 2.05 (fair 1.93, +6.1% expected) Northern Illinois Huskies at Bellarmine Knights (Sat 2:00PM)",
-  "ARB 1.7% locked: Northern Illinois Huskies at Bellarmine Knights (Sat 2:00PM): $50 Bellarmine Knights @ Pinnacle 2.02, $50 Northern Illinois Huskies @ Bovada 2.05",
-  "Wofford Terriers @ Bovada 3.5 (fair 3.33, +5.0% expected) Wofford Terriers at Queens University Royals (Sat 2:00PM)",
-  "Manhattan Jaspers @ Bovada 2.3 (fair 2.16, +6.5% expected) Manhattan Jaspers at Le Moyne Dolphins (Sat 6:00PM)",
-  "ARB 1.0% locked: Manhattan Jaspers at Le Moyne Dolphins (Sat 6:00PM): $56 Le Moyne Dolphins @ theScore Bet 1.8, $44 Manhattan Jaspers @ Bovada 2.3",
-  "Howard Bison @ Pinnacle 4.87 (fair 4.61, +5.7% expected) Howard Bison at Davidson Wildcats (Sat 7:00PM)"
+  "South Carolina Upstate Spartans @ FanDuel 5.0 (fair 4.70, +6.3% expected) South Carolina Upstate Spartans at Campbell Fighting Camels (Sat 4:30PM)"
  ],
- "open_bets": 16,
+ "open_bets": 17,
  "record": {
   "value": {
    "bets": 12,
