@@ -9158,3 +9158,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 14:53:38,749 INFO Swept 21528 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-14 14:58:37,709 INFO Swept 21494 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-14 15:03:41,446 INFO Swept 21479 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 15:08:45,767 INFO PAPER BET daily_safest: 1 NO KXRAIN-26NOV14-PVD at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-14 15:08:45,985 INFO PAPER COMBO: NO KXRAIN-26NOV14-PVD, YES KXLOWTNYC-26NOV14-B38.5, NO KXLOWTMIA-26NOV14-B57.5 at 0.9412. daily combo: all 3 safest sides must win
+2026-11-14 15:08:45,987 INFO Swept 21462 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 15:08:46,193 INFO Quote KXNCAAF4Q-26NOV14SYRNCST cancelled (0/2 filled)
+2026-11-14 15:13:52,368 INFO PAPER rest NO bid KXEFLL1GAME-26NOV14WYWHUD-TIE at $0.5000 x2 (0 already bid at that price)
+2026-11-14 15:13:52,368 INFO Resting NO bid on KXEFLL1GAME-26NOV14WYWHUD-TIE at $0.5000 x2 (KXEFLL1GAME-26NOV14WYWHUD): locks in $0.30 if it fills; hedge NO WYW@0.7400, HUD@0.5700
+2026-11-14 15:13:52,673 INFO Swept 21529 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 15:18:52,640 INFO Swept 21543 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 15:23:53,348 INFO Swept 21543 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 15:28:54,577 INFO Swept 21548 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 15:33:55,227 INFO Swept 21513 events: 0 taker trades, 0 new quotes, 1 resting
