@@ -1,5 +1,5 @@
 {
- "realized": "-6.2500",
+ "realized": "-6.9400",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -83,24 +83,6 @@
      "limit": "0.4900"
     }
    ]
-  },
-  {
-   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA (stray)",
-   "series": "KXCONCACAFNLADVANCE",
-   "title": "El Salvador vs Saint Martin",
-   "sets": 0,
-   "outlay": "3.2200",
-   "locked_profit": "0",
-   "opened": "2026-11-14T05:52:27.073568+00:00",
-   "legs": [
-    {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
-     "side": "no",
-     "count": 4,
-     "limit": "0.8000"
-    }
-   ],
-   "retried": 1794644319.3561943
   }
  ],
  "closed": [
@@ -2694,6 +2676,28 @@
     "KXNCAAHGAME-26NOV13MSUND-MSU": "scalar"
    },
    "closed": "2026-11-14T04:56:46.554257+00:00"
+  },
+  {
+   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA (stray)",
+   "series": "KXCONCACAFNLADVANCE",
+   "title": "El Salvador vs Saint Martin",
+   "sets": 0,
+   "outlay": "3.2200",
+   "locked_profit": "0",
+   "opened": "2026-11-14T05:52:27.073568+00:00",
+   "legs": [
+    {
+     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
+     "side": "no",
+     "count": 4,
+     "limit": "0.8000"
+    }
+   ],
+   "retried": 1794646135.9976783,
+   "paid": "2.6000",
+   "pnl": "-0.6900",
+   "closed": "2026-11-14T08:48:56.056312+00:00",
+   "sold_back": true
   }
  ],
  "quotes": []
