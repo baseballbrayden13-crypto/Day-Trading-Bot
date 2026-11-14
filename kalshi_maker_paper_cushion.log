@@ -2217,3 +2217,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 13:05:22,902 INFO PAPER rest NO bid KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.1200 x2 (0 already bid at that price)
 2026-11-14 13:05:22,902 INFO Resting NO bid on KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.1200 x2 (KXRAFMATCH-26NOV14LAZ70804FAB01C4F): locks in $0.51 if it fills; hedge NO LAZ70804@0.8000
 2026-11-14 13:05:22,903 INFO Swept 21679 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 13:10:27,105 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 13:10:29,777 INFO Swept 21679 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 13:15:27,078 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 13:15:29,818 INFO Swept 21714 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 13:20:23,498 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 13:20:26,182 INFO Swept 21727 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 13:25:25,176 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 13:25:27,908 INFO Swept 21727 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 13:25:32,961 INFO Stopped; all quotes cancelled.
