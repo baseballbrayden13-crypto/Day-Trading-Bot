@@ -9100,3 +9100,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 10:54:30,914 INFO Swept 21820 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 10:59:34,423 INFO Swept 21810 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 11:04:35,833 INFO Swept 21791 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 11:09:39,965 INFO Swept 21793 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 11:14:39,879 INFO PAPER rest NO bid KXEFLL2GAME-26NOV14SWIGRI-TIE at $0.6500 x2 (0 already bid at that price)
+2026-11-14 11:14:39,879 INFO Resting NO bid on KXEFLL2GAME-26NOV14SWIGRI-TIE at $0.6500 x2 (KXEFLL2GAME-26NOV14SWIGRI): locks in $0.60 if it fills; hedge NO GRI@0.0400
+2026-11-14 11:14:39,898 INFO Swept 21802 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 11:19:40,477 INFO Swept 21802 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 11:24:40,812 INFO Swept 21802 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 11:29:42,590 INFO PAPER rest NO bid KXLATESTGAME-26NOV140900VEFVEN-VEN at $0.4300 x1 (0 already bid at that price)
+2026-11-14 11:29:42,591 INFO Resting NO bid on KXLATESTGAME-26NOV140900VEFVEN-VEN at $0.4300 x1 (KXLATESTGAME-26NOV140900VEFVEN): locks in $0.15 if it fills; hedge NO VEF@0.3900
+2026-11-14 11:29:42,608 INFO Swept 21795 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 11:34:46,945 INFO Swept 21787 events: 0 taker trades, 0 new quotes, 2 resting
