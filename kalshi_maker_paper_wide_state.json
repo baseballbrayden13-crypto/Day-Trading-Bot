@@ -2635,40 +2635,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26NOV13DARQUI",
-   "series": "KXNCAAHGAME",
-   "title": "Dartmouth vs Quinnipiac",
-   "ticker": "KXNCAAHGAME-26NOV13DARQUI-DAR",
-   "order_id": "paper-1044-1794620261",
-   "price": "0.1000",
+   "event": "KXLIDOMGAME-26NOV131800AGUGIG",
+   "series": "KXLIDOMGAME",
+   "title": "Aguilas Cibaenas vs Gigantes del Cibao",
+   "ticker": "KXLIDOMGAME-26NOV131800AGUGIG-AGU",
+   "order_id": "paper-1048-1794622295",
+   "price": "0.7500",
    "sets": 1,
    "done": 0,
-   "reserve": "0.6300",
+   "reserve": "0.8400",
    "multiplier": "1",
-   "placed": 1794620261.0824292,
+   "placed": 1794622295.1578336,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26NOV13DARQUI-QUI",
-     "limit": "0.5000"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAHGAME-26NOV13MMKPRO",
-   "series": "KXNCAAHGAME",
-   "title": "Merrimack vs Providence",
-   "ticker": "KXNCAAHGAME-26NOV13MMKPRO-MMK",
-   "order_id": "paper-1047-1794621952",
-   "price": "0.1600",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8800",
-   "multiplier": "1",
-   "placed": 1794621952.2118633,
-   "hedge": [
-    {
-     "ticker": "KXNCAAHGAME-26NOV13MMKPRO-PRO",
-     "limit": "0.6900"
+     "ticker": "KXLIDOMGAME-26NOV131800AGUGIG-GIG",
+     "limit": "0.1200"
     }
    ]
   }

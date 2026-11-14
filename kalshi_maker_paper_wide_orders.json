@@ -14608,12 +14608,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1794620261.0711079,
-  "checked": 1794621952.3702629,
+  "checked": 1794622061,
   "expires": 1794622061,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-1045-1794620601": {
   "id": "paper-1045-1794620601",
@@ -14650,8 +14650,22 @@
   "count": 1,
   "ahead": 0,
   "placed": 1794621952.2005713,
-  "checked": 1794621952.4429543,
+  "checked": 1794623642.405843,
   "expires": 1794623752,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-1048-1794622295": {
+  "id": "paper-1048-1794622295",
+  "ticker": "KXLIDOMGAME-26NOV131800AGUGIG-AGU",
+  "price": "0.7500",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794622295.1466153,
+  "checked": 1794623642.4575217,
+  "expires": 1794624095,
   "through": 0,
   "at_price": 0,
   "filled": 0,
