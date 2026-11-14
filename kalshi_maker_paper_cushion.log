@@ -2127,3 +2127,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 10:03:51,983 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 10:03:54,689 INFO Swept 21670 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-14 10:09:00,128 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 10:09:02,866 INFO PAPER rest NO bid KXVALORANTGAME-26NOV150600LNGAT-LNG at $0.6400 x1 (0 already bid at that price)
+2026-11-14 10:09:02,866 INFO Resting NO bid on KXVALORANTGAME-26NOV150600LNGAT-LNG at $0.6400 x1 (KXVALORANTGAME-26NOV150600LNGAT): locks in $0.25 if it fills; hedge NO AT@0.0900
+2026-11-14 10:09:02,867 INFO Swept 21823 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 10:14:01,928 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 10:14:05,230 INFO Swept 21878 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 10:19:02,472 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 10:19:05,231 INFO Swept 21889 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 10:24:08,438 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 10:24:11,165 INFO Swept 21895 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 10:29:10,306 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 10:29:13,166 INFO Swept 21888 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 10:34:10,173 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 10:34:12,832 INFO Swept 21867 events: 0 taker trades, 0 new quotes, 1 resting

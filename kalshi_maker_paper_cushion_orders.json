@@ -1608,5 +1608,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-116-1794668942": {
+  "id": "paper-116-1794668942",
+  "ticker": "KXVALORANTGAME-26NOV150600LNGAT-LNG",
+  "price": "0.6400",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794668942.8652158,
+  "checked": 1794670503.2237163,
+  "expires": 1794670742,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
