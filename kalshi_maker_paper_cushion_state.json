@@ -162,40 +162,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26NOV13UNIUML",
+   "event": "KXNCAAHGAME-26NOV13DARQUI",
    "series": "KXNCAAHGAME",
-   "title": "Union vs Massachusetts Lowell",
-   "ticker": "KXNCAAHGAME-26NOV13UNIUML-UML",
-   "order_id": "paper-101-1794618991",
-   "price": "0.0900",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8000",
-   "multiplier": "1",
-   "placed": 1794618991.6998699,
-   "hedge": [
-    {
-     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UNI",
-     "limit": "0.6800"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAMBRACE-26NOV13UVAMD-10",
-   "series": "KXNCAAMBRACE",
-   "title": "Virginia vs Maryland: Race to 10 Points",
-   "ticker": "KXNCAAMBRACE-26NOV13UVAMD-10-UVA",
-   "order_id": "paper-102-1794619926",
-   "price": "0.2700",
+   "title": "Dartmouth vs Quinnipiac",
+   "ticker": "KXNCAAHGAME-26NOV13DARQUI-DAR",
+   "order_id": "paper-103-1794620238",
+   "price": "0.1000",
    "sets": 2,
    "done": 0,
-   "reserve": "1.3900",
+   "reserve": "1.2500",
    "multiplier": "1",
-   "placed": 1794619926.3752446,
+   "placed": 1794620238.9112134,
    "hedge": [
     {
-     "ticker": "KXNCAAMBRACE-26NOV13UVAMD-10-MD",
-     "limit": "0.4000"
+     "ticker": "KXNCAAHGAME-26NOV13DARQUI-QUI",
+     "limit": "0.5000"
     }
    ]
   }

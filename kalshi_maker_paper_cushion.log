@@ -1876,3 +1876,21 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 20:32:06,375 INFO PAPER rest NO bid KXNCAAMBRACE-26NOV13UVAMD-10-UVA at $0.2700 x2 (0 already bid at that price)
 2026-11-13 20:32:06,375 INFO Resting NO bid on KXNCAAMBRACE-26NOV13UVAMD-10-UVA at $0.2700 x2 (KXNCAAMBRACE-26NOV13UVAMD-10): locks in $0.61 if it fills; hedge NO MD@0.4000
 2026-11-13 20:32:06,376 INFO Swept 22010 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 20:37:15,277 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:37:18,911 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13DARQUI-DAR at $0.1000 x2 (0 already bid at that price)
+2026-11-13 20:37:18,911 INFO Resting NO bid on KXNCAAHGAME-26NOV13DARQUI-DAR at $0.1000 x2 (KXNCAAHGAME-26NOV13DARQUI): locks in $0.75 if it fills; hedge NO QUI@0.5000
+2026-11-13 20:37:18,912 INFO Swept 22060 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-13 20:37:19,204 INFO Quote KXNCAAMBRACE-26NOV13UVAMD-10 cancelled (0/2 filled)
+2026-11-13 20:42:33,565 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:42:36,753 INFO Swept 22045 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 20:47:48,432 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:47:51,953 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13BCMAS-MAS at $0.2900 x2 (0 already bid at that price)
+2026-11-13 20:47:51,953 INFO Resting NO bid on KXNCAAHGAME-26NOV13BCMAS-MAS at $0.2900 x2 (KXNCAAHGAME-26NOV13BCMAS): locks in $0.59 if it fills; hedge NO BC@0.3900
+2026-11-13 20:47:51,954 INFO Swept 22033 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-13 20:52:59,997 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:53:03,593 INFO Swept 22036 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 20:58:13,191 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 20:58:16,948 INFO Swept 22018 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 21:03:25,563 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 21:03:28,889 INFO Swept 22024 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 21:03:29,203 INFO Quote KXNCAAHGAME-26NOV13BCMAS cancelled (0/2 filled)
