@@ -82,3 +82,54 @@ time,sport,game,stat,player,line,match,book_line,books,fair_yes,yes_ask,no_ask,t
 2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Jalen Suggs,3.5,exact,3.5,3,0.5833,0.58,0.43,KXNBAAST-26NOV13MILORL-ORLJSUGGS4-4
 2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Jalen Suggs,3.5,near,4.5,6,0.6136,0.58,0.43,KXNBAAST-26NOV13MILORL-ORLJSUGGS4-4
 2026-11-13T17:50:36+00:00,basketball_nba,Milwaukee Bucks at Orlando Magic,player_assists,Anthony Black,3.5,near,4.5,8,0.6881,0.69,0.34,KXNBAAST-26NOV13MILORL-ORLABLACK0-4
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_points,Zion Williamson,19.5,near,21.5,6,0.6148,0.63,0.43,KXNBAPTS-26NOV14DENNOP-NOPZWILLIAMSON1-20
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_points,Cameron Johnson,9.5,near,12.5,6,0.7567,0.71,0.34,KXNBAPTS-26NOV14DENNOP-DENCJOHNSON23-10
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_points,Christian Braun,9.5,near,11.5,5,0.7181,0.67,0.36,KXNBAPTS-26NOV14DENNOP-DENCBRAUN0-10
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_points,Jamal Murray,24.5,exact,24.5,6,0.4801,0.5,0.52,KXNBAPTS-26NOV14DENNOP-DENJMURRAY27-25
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_points,Jeremiah Fears,14.5,near,18.5,5,0.7351,0.73,0.34,KXNBAPTS-26NOV14DENNOP-NOPJFEARS0-15
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_points,DeMar DeRozan,9.5,near,10.5,5,0.6033,0.56,0.49,KXNBAPTS-26NOV14DENNOP-DENDDEROZAN10-10
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_points,Saddiq Bey,14.5,near,17.5,6,0.6983,0.69,0.36,KXNBAPTS-26NOV14DENNOP-NOPSBEY41-15
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_rebounds,Zion Williamson,5.5,exact,5.5,6,0.5107,0.5,0.55,KXNBAREB-26NOV14DENNOP-NOPZWILLIAMSON1-6
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_rebounds,Jeremiah Fears,3.5,near,4.5,6,0.7369,0.71,0.33,KXNBAREB-26NOV14DENNOP-NOPJFEARS0-4
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_rebounds,DeMar DeRozan,1.5,exact,1.5,3,0.5722,0.59,0.42,KXNBAREB-26NOV14DENNOP-DENDDEROZAN10-2
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_rebounds,Cameron Johnson,3.5,exact,3.5,6,0.5166,0.54,0.49,KXNBAREB-26NOV14DENNOP-DENCJOHNSON23-4
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_rebounds,Christian Braun,3.5,exact,3.5,5,0.5818,0.6,0.42,KXNBAREB-26NOV14DENNOP-DENCBRAUN0-4
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_rebounds,Jamal Murray,3.5,near,4.5,6,0.655,0.63,0.39,KXNBAREB-26NOV14DENNOP-DENJMURRAY27-4
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_rebounds,Aaron Gordon,3.5,near,4.5,6,0.7514,0.76,0.3,KXNBAREB-26NOV14DENNOP-DENAGORDON32-4
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_rebounds,Saddiq Bey,3.5,near,4.5,6,0.7451,0.72,0.32,KXNBAREB-26NOV14DENNOP-NOPSBEY41-4
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_assists,Zion Williamson,3.5,exact,3.5,6,0.434,0.43,0.58,KXNBAAST-26NOV14DENNOP-NOPZWILLIAMSON1-4
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_assists,Cameron Johnson,1.5,exact,1.5,5,0.6111,0.63,0.4,KXNBAAST-26NOV14DENNOP-DENCJOHNSON23-2
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_assists,Jamal Murray,5.5,near,6.5,6,0.6413,0.67,0.37,KXNBAAST-26NOV14DENNOP-DENJMURRAY27-6
+2026-11-14T14:15:15+00:00,basketball_nba,Denver Nuggets at New Orleans Pelicans,player_assists,Jeremiah Fears,5.5,exact,5.5,5,0.5579,0.58,0.44,KXNBAAST-26NOV14DENNOP-NOPJFEARS0-6
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Meleek Thomas,9.5,near,10.5,6,0.62,0.59,0.44,KXNBAPTS-26NOV14DALCLE-CLEMTHOMAS15-10
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Donovan Mitchell,24.5,exact,24.5,5,0.5159,0.54,0.49,KXNBAPTS-26NOV14DALCLE-CLEDMITCHELL45-25
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Jaylon Tyson,9.5,near,11.5,4,0.6898,0.63,0.41,KXNBAPTS-26NOV14DALCLE-CLEJTYSON20-10
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Peyton Watson,9.5,near,12.5,5,0.7806,0.74,0.31,KXNBAPTS-26NOV14DALCLE-CLEPWATSON8-10
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,James Harden,14.5,near,17.5,6,0.6871,0.67,0.37,KXNBAPTS-26NOV14DALCLE-CLEJHARDEN1-15
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Cooper Flagg,19.5,near,23.5,4,0.7199,0.74,0.28,KXNBAPTS-26NOV14DALCLE-DALCFLAGG32-20
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Cooper Flagg,24.5,exact,24.5,3,0.5093,0.49,0.52,KXNBAPTS-26NOV14DALCLE-DALCFLAGG32-25
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Caleb Martin,4.5,exact,4.5,5,0.5,0.5,0.52,KXNBAPTS-26NOV14DALCLE-DALCMARTIN16-5
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Zaccharie Risacher,4.5,near,5.5,4,0.7183,0.64,0.41,KXNBAPTS-26NOV14DALCLE-DALZRISACHER10-5
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,P.J. Washington,9.5,near,12.5,6,0.7706,0.71,0.32,KXNBAPTS-26NOV14DALCLE-DALPWASHINGTON25-10
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Kyrie Irving,19.5,near,22.5,3,0.6307,0.65,0.4,KXNBAPTS-26NOV14DALCLE-DALKIRVING11-20
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Kyrie Irving,19.5,near,21.5,4,0.6256,0.65,0.4,KXNBAPTS-26NOV14DALCLE-DALKIRVING11-20
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_points,Naji Marshall,9.5,exact,9.5,5,0.516,0.51,0.5,KXNBAPTS-26NOV14DALCLE-DALNMARSHALL3-10
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,Cooper Flagg,5.5,near,6.5,6,0.6987,0.73,0.33,KXNBAREB-26NOV14DALCLE-DALCFLAGG32-6
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,Donovan Mitchell,3.5,near,4.5,6,0.6922,0.67,0.36,KXNBAREB-26NOV14DALCLE-CLEDMITCHELL45-4
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,Jaylon Tyson,3.5,near,4.5,4,0.6466,0.6,0.43,KXNBAREB-26NOV14DALCLE-CLEJTYSON20-4
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,Peyton Watson,3.5,near,4.5,5,0.7142,0.7,0.34,KXNBAREB-26NOV14DALCLE-CLEPWATSON8-4
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,P.J. Washington,5.5,near,6.5,6,0.6741,0.66,0.38,KXNBAREB-26NOV14DALCLE-DALPWASHINGTON25-6
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,Kyrie Irving,3.5,exact,3.5,6,0.5194,0.54,0.49,KXNBAREB-26NOV14DALCLE-DALKIRVING11-4
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,James Harden,3.5,near,4.5,6,0.6887,0.67,0.36,KXNBAREB-26NOV14DALCLE-CLEJHARDEN1-4
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,Naji Marshall,3.5,exact,3.5,3,0.4087,0.42,0.61,KXNBAREB-26NOV14DALCLE-DALNMARSHALL3-4
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,Daniel Gafford,5.5,exact,5.5,6,0.5541,0.55,0.46,KXNBAREB-26NOV14DALCLE-DALDGAFFORD21-6
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,Meleek Thomas,3.5,exact,3.5,3,0.416,0.4,0.63,KXNBAREB-26NOV14DALCLE-CLEMTHOMAS15-4
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_rebounds,Jarrett Allen,9.5,exact,9.5,5,0.4695,0.45,0.57,KXNBAREB-26NOV14DALCLE-CLEJALLEN31-10
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,Jarrett Allen,1.5,exact,1.5,4,0.5273,0.51,0.51,KXNBAAST-26NOV14DALCLE-CLEJALLEN31-2
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,Donovan Mitchell,5.5,exact,5.5,6,0.4787,0.49,0.53,KXNBAAST-26NOV14DALCLE-CLEDMITCHELL45-6
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,Jaylon Tyson,1.5,exact,1.5,3,0.6156,0.66,0.4,KXNBAAST-26NOV14DALCLE-CLEJTYSON20-2
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,Peyton Watson,1.5,exact,1.5,3,0.6203,0.66,0.38,KXNBAAST-26NOV14DALCLE-CLEPWATSON8-2
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,James Harden,5.5,near,6.5,5,0.5957,0.64,0.41,KXNBAAST-26NOV14DALCLE-CLEJHARDEN1-6
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,Cooper Flagg,5.5,near,6.5,6,0.5891,0.61,0.43,KXNBAAST-26NOV14DALCLE-DALCFLAGG32-6
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,P.J. Washington,1.5,exact,1.5,5,0.4372,0.45,0.59,KXNBAAST-26NOV14DALCLE-DALPWASHINGTON25-2
+2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,Kyrie Irving,3.5,near,4.5,6,0.6387,0.63,0.41,KXNBAAST-26NOV14DALCLE-DALKIRVING11-4

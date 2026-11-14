@@ -27,3 +27,11 @@ time,kind,sport,game,start,team,book,odds,fair,edge,picks
 2026-11-13T23:39:17+00:00,value,americanfootball_ncaaf,Illinois Fighting Illini at UCLA Bruins,2026-11-14T02:00:00Z,Illinois Fighting Illini,Pinnacle,4.45,0.2315,0.0301,
 2026-11-13T23:39:17+00:00,value,americanfootball_ncaaf,East Carolina Pirates at Charlotte 49ers,2026-11-14T18:00:00Z,Charlotte 49ers,BetRivers,4.8,0.2178,0.0453,
 2026-11-13T23:39:17+00:00,value,basketball_ncaab,SE Missouri St Redhawks at Middle Tennessee Blue Raiders,2026-11-14T00:30:00Z,SE Missouri St Redhawks,BetRivers,3.15,0.3306,0.0415,
+2026-11-14T14:15:12+00:00,value,americanfootball_nfl,Los Angeles Rams at Arizona Cardinals,2026-11-15T21:05:00Z,Arizona Cardinals,FanDuel,5.0,0.2122,0.0609,
+2026-11-14T14:15:12+00:00,value,americanfootball_ncaaf,Florida Atlantic Owls at Tulsa Golden Hurricane,2026-11-15T00:15:00Z,Florida Atlantic Owls,Pinnacle,3.16,0.3287,0.0388,
+2026-11-14T14:15:12+00:00,value,basketball_ncaab,Northern Illinois Huskies at Bellarmine Knights,2026-11-14T19:00:00Z,Northern Illinois Huskies,Bovada,2.05,0.5176,0.0611,
+2026-11-14T14:15:12+00:00,arb,basketball_ncaab,Northern Illinois Huskies at Bellarmine Knights,2026-11-14T19:00:00Z,,,,,0.0174,Bellarmine Knights @ Pinnacle 2.02 $50.37; Northern Illinois Huskies @ Bovada 2.05 $49.63
+2026-11-14T14:15:12+00:00,value,basketball_ncaab,Wofford Terriers at Queens University Royals,2026-11-14T19:00:00Z,Wofford Terriers,Bovada,3.5,0.3,0.05,
+2026-11-14T14:15:12+00:00,value,basketball_ncaab,Manhattan Jaspers at Le Moyne Dolphins,2026-11-14T23:00:00Z,Manhattan Jaspers,Bovada,2.3,0.4628,0.0645,
+2026-11-14T14:15:12+00:00,arb,basketball_ncaab,Manhattan Jaspers at Le Moyne Dolphins,2026-11-14T23:00:00Z,,,,,0.0098,Le Moyne Dolphins @ theScore Bet 1.8 $56.1; Manhattan Jaspers @ Bovada 2.3 $43.9
+2026-11-14T14:15:12+00:00,value,basketball_ncaab,Howard Bison at Davidson Wildcats,2026-11-15T00:00:00Z,Howard Bison,Pinnacle,4.87,0.2171,0.0572,
