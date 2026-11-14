@@ -8896,3 +8896,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 21:33:58,802 INFO Not quoting (hedges keep missing): KXAHLGAME
 2026-11-13 21:34:02,331 INFO Swept 22165 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-13 21:34:02,457 INFO Quote KXNCAAHGAME-26NOV13MMKPRO cancelled (0/1 filled)
+2026-11-13 21:39:38,669 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 21:39:42,542 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13OSUWIS-OSU at $0.5700 x1 (4 already bid at that price)
+2026-11-13 21:39:42,542 INFO Resting NO bid on KXNCAAHGAME-26NOV13OSUWIS-OSU at $0.57 x1 (KXNCAAHGAME-26NOV13OSUWIS): locks in $0.10 if it fills; hedge NO WIS@0.3000
+2026-11-13 21:39:42,699 INFO Swept 22135 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 21:45:12,984 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 21:45:16,550 INFO Swept 22105 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 21:50:50,949 INFO PAPER rest NO bid KXLBPRCGAME-26NOV131821GIGSAT-GIG at $0.0600 x1 (0 already bid at that price)
+2026-11-13 21:50:50,949 INFO Resting NO bid on KXLBPRCGAME-26NOV131821GIGSAT-GIG at $0.0600 x1 (KXLBPRCGAME-26NOV131821GIGSAT): locks in $0.10 if it fills; hedge NO SAT@0.8100
+2026-11-13 21:50:51,109 INFO Swept 22067 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 21:50:56,369 INFO Stopped; all quotes cancelled.
