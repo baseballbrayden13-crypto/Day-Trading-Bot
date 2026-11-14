@@ -2317,3 +2317,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 17:55:10,874 INFO Swept 20795 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 18:01:07,818 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 18:01:11,458 INFO Swept 20781 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 18:07:16,502 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 18:07:20,486 INFO Swept 20748 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 18:13:17,590 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 18:13:21,350 INFO Swept 20783 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 18:19:18,237 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 18:19:21,940 INFO Swept 20791 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 18:25:31,520 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 18:25:35,677 INFO Swept 20757 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 18:31:35,915 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 18:31:40,057 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.1700 x2 (0 already bid at that price)
+2026-11-14 18:31:40,057 INFO Resting NO bid on KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.1700 x2 (KXNCAAHGAME-26NOV14UNOMIA): locks in $0.27 if it fills; hedge NO MIA@0.6700
+2026-11-14 18:31:40,059 INFO Swept 20755 events: 0 taker trades, 1 new quotes, 1 resting

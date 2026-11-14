@@ -243,5 +243,25 @@
    "closed": "2026-11-14T03:57:50.222799+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAHGAME-26NOV14UNOMIA",
+   "series": "KXNCAAHGAME",
+   "title": "Omaha vs Miami",
+   "ticker": "KXNCAAHGAME-26NOV14UNOMIA-UNO",
+   "order_id": "paper-131-1794699100",
+   "price": "0.1700",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.7300",
+   "multiplier": "1",
+   "placed": 1794699100.0577796,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV14UNOMIA-MIA",
+     "limit": "0.6700"
+    }
+   ]
+  }
+ ]
 }
