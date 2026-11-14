@@ -14754,5 +14754,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-1055-1794641289": {
+  "id": "paper-1055-1794641289",
+  "ticker": "KXSVKCUPADVANCE-26NOV14CADTRN-TRN",
+  "price": "0.3800",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794641289.4773037,
+  "checked": 1794641905.125959,
+  "expires": 1794643089,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

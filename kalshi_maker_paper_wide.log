@@ -8990,3 +8990,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 02:13:05,646 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
 2026-11-14 02:18:08,068 INFO Swept 21501 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 02:18:08,127 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 02:23:13,247 INFO Swept 21504 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 02:23:13,305 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 02:28:09,487 INFO PAPER rest NO bid KXSVKCUPADVANCE-26NOV14CADTRN-TRN at $0.3800 x1 (0 already bid at that price)
+2026-11-14 02:28:09,487 INFO Resting NO bid on KXSVKCUPADVANCE-26NOV14CADTRN-TRN at $0.3800 x1 (KXSVKCUPADVANCE-26NOV14CADTRN): locks in $0.10 if it fills; hedge NO CAD@0.4900
+2026-11-14 02:28:09,785 INFO Swept 21496 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 02:28:09,971 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 02:33:14,361 INFO Swept 21509 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 02:33:14,547 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 02:38:24,998 INFO Swept 21504 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 02:38:25,202 INFO Quote KXSVKCUPADVANCE-26NOV14CADTRN cancelled (0/1 filled)
+2026-11-14 02:38:25,259 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 02:43:27,424 INFO Swept 21509 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 02:43:27,484 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
+2026-11-14 02:48:24,498 INFO Swept 21511 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 02:48:24,556 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: not on the book
