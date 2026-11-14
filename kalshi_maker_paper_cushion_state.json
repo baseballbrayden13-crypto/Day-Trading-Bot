@@ -243,5 +243,25 @@
    "closed": "2026-11-14T03:57:50.222799+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXCONCACAFNLADVANCE-26NOV16CANGTM",
+   "series": "KXCONCACAFNLADVANCE",
+   "title": "Canada vs Guatemala",
+   "ticker": "KXCONCACAFNLADVANCE-26NOV16CANGTM-CAN",
+   "order_id": "paper-129-1794693629",
+   "price": "0.02",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.7900",
+   "multiplier": "1",
+   "placed": 1794693629.408073,
+   "hedge": [
+    {
+     "ticker": "KXCONCACAFNLADVANCE-26NOV16CANGTM-GTM",
+     "limit": "0.9300"
+    }
+   ]
+  }
+ ]
 }
