@@ -1,5 +1,5 @@
 {
- "realized": "-6.2600",
+ "realized": "-6.3300",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -105,6 +105,30 @@
      "side": "no",
      "count": 1,
      "limit": "0.92"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAHGAME-26NOV13UNIUML",
+   "series": "KXNCAAHGAME",
+   "title": "Union vs Massachusetts Lowell",
+   "sets": 1,
+   "outlay": "0.8300",
+   "locked_profit": "0.1700",
+   "opened": "2026-11-14T01:09:22.996656+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UML",
+     "side": "no",
+     "count": 1,
+     "limit": "0.1200"
+    },
+    {
+     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UNI",
+     "side": "no",
+     "count": 1,
+     "limit": "0.6800"
     }
    ]
   }
@@ -2611,40 +2635,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLIDOMGAME-26NOV131830TOREST",
-   "series": "KXLIDOMGAME",
-   "title": "Toros del Este vs Estrellas Orientales",
-   "ticker": "KXLIDOMGAME-26NOV131830TOREST-EST",
-   "order_id": "paper-1040-1794616880",
-   "price": "0.1000",
-   "sets": 2,
-   "done": 1,
-   "reserve": "1.6800",
-   "multiplier": "1",
-   "placed": 1794616880.2723963,
-   "hedge": [
-    {
-     "ticker": "KXLIDOMGAME-26NOV131830TOREST-TOR",
-     "limit": "0.7600"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAHGAME-26NOV13UNIUML",
+   "event": "KXNCAAHGAME-26NOV13BCMAS",
    "series": "KXNCAAHGAME",
-   "title": "Union vs Massachusetts Lowell",
-   "ticker": "KXNCAAHGAME-26NOV13UNIUML-UML",
-   "order_id": "paper-1041-1794618221",
-   "price": "0.1200",
-   "sets": 1,
+   "title": "Boston College vs Massachusetts",
+   "ticker": "KXNCAAHGAME-26NOV13BCMAS-MAS",
+   "order_id": "paper-1043-1794619917",
+   "price": "0.2900",
+   "sets": 2,
    "done": 0,
-   "reserve": "0.8300",
+   "reserve": "1.4300",
    "multiplier": "1",
-   "placed": 1794618221.5215936,
+   "placed": 1794619917.5615368,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UNI",
-     "limit": "0.6800"
+     "ticker": "KXNCAAHGAME-26NOV13BCMAS-BC",
+     "limit": "0.4000"
     }
    ]
   }
