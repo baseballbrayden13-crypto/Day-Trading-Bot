@@ -1803,3 +1803,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 18:27:19,815 INFO Swept 21786 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 18:32:23,551 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 18:32:27,444 INFO Swept 21799 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 18:37:34,966 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:37:38,630 INFO PAPER rest NO bid KXCONCACAFNL1H-26NOV13SMASLV-SMA at $0.6600 x2 (0 already bid at that price)
+2026-11-13 18:37:38,630 INFO Resting NO bid on KXCONCACAFNL1H-26NOV13SMASLV-SMA at $0.6600 x2 (KXCONCACAFNL1H-26NOV13SMASLV): locks in $0.27 if it fills; hedge NO SLV@0.2400, TIE@0.9400
+2026-11-13 18:37:38,631 INFO Swept 21792 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 18:42:44,048 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:42:47,338 INFO Swept 21796 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 18:47:51,483 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:47:54,791 INFO Swept 21795 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 18:47:55,204 INFO Quote KXCONCACAFNL1H-26NOV13SMASLV cancelled (0/2 filled)
+2026-11-13 18:52:59,831 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:53:03,144 INFO Swept 21788 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 18:58:08,055 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 18:58:11,438 INFO Swept 21781 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 19:03:22,036 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 19:03:25,994 INFO PAPER rest NO bid KXLIDOMGAME-26NOV131830TOREST-EST at $0.0700 x2 (0 already bid at that price)
+2026-11-13 19:03:25,994 INFO Resting NO bid on KXLIDOMGAME-26NOV131830TOREST-EST at $0.0700 x2 (KXLIDOMGAME-26NOV131830TOREST): locks in $0.38 if it fills; hedge NO TOR@0.7500
+2026-11-13 19:03:26,037 INFO Swept 21782 events: 0 taker trades, 1 new quotes, 1 resting
