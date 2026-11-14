@@ -83,6 +83,30 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXLIDOMGAME-26NOV131830TOREST",
+   "series": "KXLIDOMGAME",
+   "title": "Toros del Este vs Estrellas Orientales",
+   "sets": 1,
+   "outlay": "1.0400",
+   "locked_profit": "-0.0400",
+   "opened": "2026-11-14T00:52:29.178000+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLIDOMGAME-26NOV131830TOREST-EST",
+     "side": "no",
+     "count": 1,
+     "limit": "0.1000"
+    },
+    {
+     "ticker": "KXLIDOMGAME-26NOV131830TOREST-TOR",
+     "side": "no",
+     "count": 1,
+     "limit": "0.92"
+    }
+   ]
   }
  ],
  "closed": [
@@ -2587,40 +2611,40 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26NOV13UNIUML",
-   "series": "KXNCAAHGAME",
-   "title": "Union vs Massachusetts Lowell",
-   "ticker": "KXNCAAHGAME-26NOV13UNIUML-UNI",
-   "order_id": "paper-1038-1794615870",
-   "price": "0.2600",
+   "event": "KXLIDOMGAME-26NOV131830TOREST",
+   "series": "KXLIDOMGAME",
+   "title": "Toros del Este vs Estrellas Orientales",
+   "ticker": "KXLIDOMGAME-26NOV131830TOREST-EST",
+   "order_id": "paper-1040-1794616880",
+   "price": "0.1000",
    "sets": 2,
-   "done": 0,
-   "reserve": "1.7500",
+   "done": 1,
+   "reserve": "1.6800",
    "multiplier": "1",
-   "placed": 1794615870.2528741,
+   "placed": 1794616880.2723963,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UML",
-     "limit": "0.5900"
+     "ticker": "KXLIDOMGAME-26NOV131830TOREST-TOR",
+     "limit": "0.7600"
     }
    ]
   },
   {
-   "event": "KXLIDOMGAME-26NOV131830ESCLIC",
-   "series": "KXLIDOMGAME",
-   "title": "Leones del Escogido vs Tigres del Licey",
-   "ticker": "KXLIDOMGAME-26NOV131830ESCLIC-LIC",
-   "order_id": "paper-1039-1794616203",
-   "price": "0.2200",
+   "event": "KXNCAAHGAME-26NOV13UNIUML",
+   "series": "KXNCAAHGAME",
+   "title": "Union vs Massachusetts Lowell",
+   "ticker": "KXNCAAHGAME-26NOV13UNIUML-UML",
+   "order_id": "paper-1041-1794618221",
+   "price": "0.1200",
    "sets": 1,
    "done": 0,
-   "reserve": "0.8700",
+   "reserve": "0.8300",
    "multiplier": "1",
-   "placed": 1794616203.9267225,
+   "placed": 1794618221.5215936,
    "hedge": [
     {
-     "ticker": "KXLIDOMGAME-26NOV131830ESCLIC-ESC",
-     "limit": "0.6200"
+     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UNI",
+     "limit": "0.6800"
     }
    ]
   }

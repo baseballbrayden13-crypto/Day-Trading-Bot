@@ -8814,3 +8814,24 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 19:30:04,084 INFO Swept 21830 events: 0 taker trades, 1 new quotes, 3 resting
 2026-11-13 19:35:35,902 INFO Not quoting (hedges keep missing): KXAHLGAME
 2026-11-13 19:35:39,572 INFO Swept 21839 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-13 19:41:16,497 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 19:41:20,272 INFO PAPER rest NO bid KXLIDOMGAME-26NOV131830TOREST-EST at $0.1000 x2 (0 already bid at that price)
+2026-11-13 19:41:20,272 INFO Resting NO bid on KXLIDOMGAME-26NOV131830TOREST-EST at $0.1000 x2 (KXLIDOMGAME-26NOV131830TOREST): locks in $0.32 if it fills; hedge NO TOR@0.7500
+2026-11-13 19:41:20,428 INFO Swept 21904 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-13 19:46:51,268 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 19:46:54,845 INFO Swept 21958 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-13 19:52:25,257 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 19:52:28,932 INFO Swept 21951 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-13 19:52:29,107 INFO PAPER KXLIDOMGAME-26NOV131830TOREST-EST NO bid at $0.1000: 1/2 filled by real trades
+2026-11-13 19:52:29,147 INFO PAPER buy 1 NO KXLIDOMGAME-26NOV131830TOREST-TOR at up to $0.7500: not on the book
+2026-11-13 19:52:29,177 INFO PAPER buy 1 NO KXLIDOMGAME-26NOV131830TOREST-TOR at up to $0.92: filled 1
+2026-11-13 19:52:29,177 INFO Quote KXLIDOMGAME-26NOV131830TOREST: hedge on KXLIDOMGAME-26NOV131830TOREST-TOR chased from 0.7500 to 0.92
+2026-11-13 19:52:29,178 INFO Quote KXLIDOMGAME-26NOV131830TOREST filled 1: hedged, locks in $-0.04
+2026-11-13 19:58:03,287 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 19:58:03,440 INFO Swept 21941 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-13 19:58:03,585 INFO PAPER KXLIDOMGAME-26NOV131830TOREST-EST NO bid at $0.1000: 1/2 filled by real trades
+2026-11-13 20:03:37,901 INFO Not quoting (hedges keep missing): KXAHLGAME
+2026-11-13 20:03:41,521 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13UNIUML-UML at $0.1200 x1 (0 already bid at that price)
+2026-11-13 20:03:41,521 INFO Resting NO bid on KXNCAAHGAME-26NOV13UNIUML-UML at $0.1200 x1 (KXNCAAHGAME-26NOV13UNIUML): locks in $0.17 if it fills; hedge NO UNI@0.6800
+2026-11-13 20:03:41,681 INFO Swept 21935 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-13 20:03:41,759 INFO PAPER KXLIDOMGAME-26NOV131830TOREST-EST NO bid at $0.1000: 1/2 filled by real trades
