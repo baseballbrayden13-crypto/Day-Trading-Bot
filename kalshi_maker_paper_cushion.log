@@ -1938,3 +1938,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 21:50:34,979 INFO Swept 22067 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-13 21:50:35,155 INFO PAPER sell 2 YES KXNCAAHGAME-26NOV13UNIUML-UML at up to $0.99: not on the book
 2026-11-13 21:50:40,220 INFO Stopped; all quotes cancelled.
+2026-11-13 22:51:42,488 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-13 22:57:50,190 INFO Settled KXLIDOMGAME-26NOV131830TOREST: paid $1, profit $-0.04
+2026-11-13 22:57:50,222 INFO Settled KXNCAAHGAME-26NOV13UNIUML (stray): paid $0, profit $-0.15
+2026-11-13 22:57:50,256 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 22:57:54,410 INFO Swept 21823 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 23:04:17,308 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 23:04:21,928 INFO PAPER rest NO bid KXNBBGAME-26NOV131730UNIFCRU-CRU at $0.2200 x2 (0 already bid at that price)
+2026-11-13 23:04:21,928 INFO Resting NO bid on KXNBBGAME-26NOV131730UNIFCRU-CRU at $0.2200 x2 (KXNBBGAME-26NOV131730UNIFCRU): locks in $0.31 if it fills; hedge NO UNIF@0.6000
+2026-11-13 23:04:21,962 INFO PAPER rest NO bid KXAHLGAME-26NOV132210SANBAK-BAK at $0.4900 x2 (0 already bid at that price)
+2026-11-13 23:04:21,962 INFO Resting NO bid on KXAHLGAME-26NOV132210SANBAK-BAK at $0.4900 x2 (KXAHLGAME-26NOV132210SANBAK): locks in $0.27 if it fills; hedge NO SAN@0.3500
+2026-11-13 23:04:21,963 INFO Swept 21787 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-13 23:10:44,467 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 23:10:48,646 INFO Swept 21761 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 23:10:48,982 INFO Quote KXAHLGAME-26NOV132210SANBAK cancelled (0/2 filled)
+2026-11-13 23:17:07,624 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 23:17:11,802 INFO Swept 21761 events: 0 taker trades, 0 new quotes, 1 resting

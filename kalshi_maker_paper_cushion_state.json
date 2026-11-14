@@ -1,49 +1,6 @@
 {
- "realized": "-3.9300",
- "open": [
-  {
-   "event": "KXLIDOMGAME-26NOV131830TOREST",
-   "series": "KXLIDOMGAME",
-   "title": "Toros del Este vs Estrellas Orientales",
-   "sets": 1,
-   "outlay": "1.0400",
-   "locked_profit": "-0.0400",
-   "opened": "2026-11-14T00:50:13.858239+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXLIDOMGAME-26NOV131830TOREST-EST",
-     "side": "no",
-     "count": 1,
-     "limit": "0.1000"
-    },
-    {
-     "ticker": "KXLIDOMGAME-26NOV131830TOREST-TOR",
-     "side": "no",
-     "count": 1,
-     "limit": "0.92"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAHGAME-26NOV13UNIUML (stray)",
-   "series": "KXNCAAHGAME",
-   "title": "Union vs Massachusetts Lowell",
-   "sets": 0,
-   "outlay": "0.1500",
-   "locked_profit": "0",
-   "opened": "2026-11-14T02:40:15.250757+00:00",
-   "legs": [
-    {
-     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UML",
-     "side": "no",
-     "count": 2,
-     "limit": "0.0700"
-    }
-   ],
-   "retried": 1794624635.0986218
-  }
- ],
+ "realized": "-4.1200",
+ "open": [],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -198,7 +155,82 @@
    "pnl": "-0.2000",
    "closed": "2026-11-14T02:40:15.427441+00:00",
    "sold_back": true
+  },
+  {
+   "event": "KXLIDOMGAME-26NOV131830TOREST",
+   "series": "KXLIDOMGAME",
+   "title": "Toros del Este vs Estrellas Orientales",
+   "sets": 1,
+   "outlay": "1.0400",
+   "locked_profit": "-0.0400",
+   "opened": "2026-11-14T00:50:13.858239+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLIDOMGAME-26NOV131830TOREST-EST",
+     "side": "no",
+     "count": 1,
+     "limit": "0.1000"
+    },
+    {
+     "ticker": "KXLIDOMGAME-26NOV131830TOREST-TOR",
+     "side": "no",
+     "count": 1,
+     "limit": "0.92"
+    }
+   ],
+   "paid": "1",
+   "pnl": "-0.0400",
+   "results": {
+    "KXLIDOMGAME-26NOV131830TOREST-EST": "no",
+    "KXLIDOMGAME-26NOV131830TOREST-TOR": "yes"
+   },
+   "closed": "2026-11-14T03:57:50.190367+00:00"
+  },
+  {
+   "event": "KXNCAAHGAME-26NOV13UNIUML (stray)",
+   "series": "KXNCAAHGAME",
+   "title": "Union vs Massachusetts Lowell",
+   "sets": 0,
+   "outlay": "0.1500",
+   "locked_profit": "0",
+   "opened": "2026-11-14T02:40:15.250757+00:00",
+   "legs": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UML",
+     "side": "no",
+     "count": 2,
+     "limit": "0.0700"
+    }
+   ],
+   "retried": 1794624635.0986218,
+   "paid": "0",
+   "pnl": "-0.1500",
+   "results": {
+    "KXNCAAHGAME-26NOV13UNIUML-UML": "yes"
+   },
+   "closed": "2026-11-14T03:57:50.222799+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNBBGAME-26NOV131730UNIFCRU",
+   "series": "KXNBBGAME",
+   "title": "Unifacisa vs Cruzeiro Basquete",
+   "ticker": "KXNBBGAME-26NOV131730UNIFCRU-CRU",
+   "order_id": "paper-109-1794629061",
+   "price": "0.2200",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6900",
+   "multiplier": "1",
+   "placed": 1794629061.9289103,
+   "hedge": [
+    {
+     "ticker": "KXNBBGAME-26NOV131730UNIFCRU-UNIF",
+     "limit": "0.6000"
+    }
+   ]
+  }
+ ]
 }
