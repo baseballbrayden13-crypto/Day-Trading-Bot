@@ -9080,3 +9080,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 09:33:46,301 INFO Resting NO bid on KXVALORANTGAME-26NOV150600LNGAT-LNG at $0.6200 x1 (KXVALORANTGAME-26NOV150600LNGAT): locks in $0.27 if it fills; hedge NO AT@0.0900
 2026-11-14 09:33:46,369 INFO Swept 21691 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-14 09:38:48,895 INFO Swept 21690 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 09:43:50,510 INFO Swept 21694 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 09:48:55,424 INFO Swept 21689 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 09:54:02,422 INFO Swept 21695 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 09:59:01,189 INFO Swept 21680 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 10:04:00,378 INFO Swept 21670 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 10:09:07,365 INFO PAPER rest NO bid KXVALORANTGAME-26NOV150600LNGAT-LNG at $0.6400 x1 (0 already bid at that price)
+2026-11-14 10:09:07,365 INFO Resting NO bid on KXVALORANTGAME-26NOV150600LNGAT-LNG at $0.6400 x1 (KXVALORANTGAME-26NOV150600LNGAT): locks in $0.25 if it fills; hedge NO AT@0.0900
+2026-11-14 10:09:07,436 INFO Settled daily_combo COMBO-2026-11-13: YES, profit $0.05
+2026-11-14 10:09:07,437 INFO Swept 21823 events: 0 taker trades, 1 new quotes, 1 resting
