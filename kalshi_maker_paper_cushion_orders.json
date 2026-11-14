@@ -1616,11 +1616,11 @@
   "count": 1,
   "ahead": 0,
   "placed": 1794668942.8652158,
-  "checked": 1794670503.2237163,
+  "checked": 1794670742,
   "expires": 1794670742,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  }
 }
