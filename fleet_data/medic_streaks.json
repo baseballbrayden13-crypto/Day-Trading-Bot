@@ -1,18 +1,18 @@
 {
- "1|replay": {
-  "days": 2,
-  "last": "2026-11-13"
- },
  "7|missed hedges": {
-  "days": 9,
-  "last": "2026-11-13"
+  "days": 10,
+  "last": "2026-11-14"
+ },
+ "7|errors": {
+  "days": 1,
+  "last": "2026-11-14"
  },
  "9|missed hedges": {
-  "days": 3,
-  "last": "2026-11-13"
+  "days": 4,
+  "last": "2026-11-14"
  },
  "9|errors": {
-  "days": 3,
-  "last": "2026-11-13"
+  "days": 4,
+  "last": "2026-11-14"
  }
 }
