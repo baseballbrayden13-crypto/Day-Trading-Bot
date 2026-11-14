@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:58:54+00:00",
+ "updated": "2026-11-14T20:24:11+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -13,11 +13,13 @@
  "stray_positions": 0,
  "closed_trades": 3,
  "trades_this_loop": 0,
- "events_swept": 21476,
+ "events_swept": 21544,
  "found_this_loop": 0,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 0,
- "last_problems": []
+ "problems": 1,
+ "last_problems": [
+  "2026-11-14 20:15 Maker loop error; carrying on"
+ ]
 }

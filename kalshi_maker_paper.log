@@ -4355,3 +4355,24 @@
 2026-11-14 14:53:38,056 INFO Swept 21528 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 14:58:29,362 INFO Swept 21495 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 15:03:33,195 INFO Swept 21476 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:08:28,303 INFO Swept 21462 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:13:37,954 INFO Swept 21545 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:15:11,765 ERROR Maker loop error; carrying on
+Traceback (most recent call last):
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_maker.py", line 703, in main
+    events, baskets = kl.sweep(api, cfg, max(kl.free_budget(cfg, kl.load_state()), D(0)))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 253, in sweep
+    events = api.open_events()
+             ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 155, in open_events
+    page = self.request("GET", "/events", {"status": "open", "with_nested_markets": "true",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_maker.py", line 591, in request
+    return super().request(method, path, params, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 150, in request
+    raise RuntimeError(f"Kalshi {method} {path} kept failing")
+RuntimeError: Kalshi GET /events kept failing
+2026-11-14 15:23:56,165 INFO Swept 21539 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:29:00,556 INFO Swept 21544 events: 0 taker trades, 0 new quotes, 0 resting
