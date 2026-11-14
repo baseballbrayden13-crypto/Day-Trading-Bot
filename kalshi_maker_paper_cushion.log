@@ -2293,3 +2293,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 17:00:29,407 INFO PAPER rest NO bid KXCONCACAFNLADVANCE-26NOV16CANGTM-CAN at $0.0200 x5 (150 already bid at that price)
 2026-11-14 17:00:29,408 INFO Resting NO bid on KXCONCACAFNLADVANCE-26NOV16CANGTM-CAN at $0.02 x5 (KXCONCACAFNLADVANCE-26NOV16CANGTM): locks in $0.21 if it fills; hedge NO GTM@0.9300
 2026-11-14 17:00:29,409 INFO Swept 20985 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 17:06:34,585 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 17:06:38,937 INFO PAPER rest NO bid KXCONCACAFNL1H-26NOV14HTIUSA-HTI at $0.7800 x2 (0 already bid at that price)
+2026-11-14 17:06:38,937 INFO Resting NO bid on KXCONCACAFNL1H-26NOV14HTIUSA-HTI at $0.78 x2 (KXCONCACAFNL1H-26NOV14HTIUSA): locks in $0.20 if it fills; hedge NO USA@0.2200, TIE@0.8700
+2026-11-14 17:06:38,939 INFO Swept 20956 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 17:12:39,899 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 17:12:43,880 INFO Swept 20947 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 17:12:44,060 INFO Quote KXCONCACAFNLADVANCE-26NOV16CANGTM cancelled (0/5 filled)
+2026-11-14 17:12:44,240 INFO Quote KXCONCACAFNL1H-26NOV14HTIUSA cancelled (0/2 filled)
+2026-11-14 17:18:41,486 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 17:18:45,346 INFO Swept 20933 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 17:24:45,403 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 17:24:49,304 INFO Swept 20909 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 17:30:52,528 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 17:30:56,388 INFO Swept 20860 events: 0 taker trades, 0 new quotes, 0 resting
