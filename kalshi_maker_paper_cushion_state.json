@@ -212,5 +212,25 @@
    "closed": "2026-11-14T03:57:50.222799+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXRAFMATCH-26NOV14LAZ70804FAB01C4F",
+   "series": "KXRAFMATCH",
+   "title": "RAF ABU DHABI: Saba Lazishvili vs Urijah Faber",
+   "ticker": "KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F",
+   "order_id": "paper-119-1794675292",
+   "price": "0.2300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.6600",
+   "multiplier": "1",
+   "placed": 1794675292.372246,
+   "hedge": [
+    {
+     "ticker": "KXRAFMATCH-26NOV14LAZ70804FAB01C4F-LAZ70804",
+     "limit": "0.4000"
+    }
+   ]
+  }
+ ]
 }

@@ -2167,3 +2167,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 11:29:48,304 INFO Quote KXEFLL2GAME-26NOV14COLGIL cancelled (0/2 filled)
 2026-11-14 11:34:39,304 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 11:34:41,962 INFO Swept 21787 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 11:39:46,722 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 11:39:49,319 INFO Swept 21780 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 11:44:44,163 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 11:44:46,865 INFO Swept 21781 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 11:49:46,168 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 11:49:48,835 INFO PAPER rest NO bid KXAFCON1H-26NOV14UGABOT-BOT at $0.6600 x2 (0 already bid at that price)
+2026-11-14 11:49:48,835 INFO Resting NO bid on KXAFCON1H-26NOV14UGABOT-BOT at $0.6600 x2 (KXAFCON1H-26NOV14UGABOT): locks in $0.29 if it fills; hedge NO UGA@0.9700, TIE@0.2000
+2026-11-14 11:49:48,836 INFO Swept 21772 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 11:54:49,692 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 11:54:52,372 INFO PAPER rest NO bid KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.2300 x1 (0 already bid at that price)
+2026-11-14 11:54:52,372 INFO Resting NO bid on KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.2300 x1 (KXRAFMATCH-26NOV14LAZ70804FAB01C4F): locks in $0.34 if it fills; hedge NO LAZ70804@0.4000
+2026-11-14 11:54:52,373 INFO Swept 21769 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 11:54:52,427 INFO Quote KXAFCON1H-26NOV14UGABOT cancelled (0/2 filled)
+2026-11-14 11:59:54,416 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 11:59:57,113 INFO Swept 21687 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:04:59,195 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 12:05:01,856 INFO Swept 21671 events: 0 taker trades, 0 new quotes, 1 resting
