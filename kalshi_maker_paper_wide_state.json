@@ -2700,25 +2700,5 @@
    "sold_back": true
   }
  ],
- "quotes": [
-  {
-   "event": "KXVALORANTGAME-26NOV150600LNGAT",
-   "series": "KXVALORANTGAME",
-   "title": "LNG Esports vs. A Team",
-   "ticker": "KXVALORANTGAME-26NOV150600LNGAT-LNG",
-   "order_id": "paper-1062-1794668947",
-   "price": "0.6400",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.7500",
-   "multiplier": "1",
-   "placed": 1794668947.3656297,
-   "hedge": [
-    {
-     "ticker": "KXVALORANTGAME-26NOV150600LNGAT-AT",
-     "limit": "0.0900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
