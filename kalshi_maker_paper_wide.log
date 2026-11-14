@@ -8906,3 +8906,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 21:50:50,949 INFO Resting NO bid on KXLBPRCGAME-26NOV131821GIGSAT-GIG at $0.0600 x1 (KXLBPRCGAME-26NOV131821GIGSAT): locks in $0.10 if it fills; hedge NO SAT@0.8100
 2026-11-13 21:50:51,109 INFO Swept 22067 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-13 21:50:56,369 INFO Stopped; all quotes cancelled.
+2026-11-13 22:51:34,013 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-13 22:56:18,396 INFO Settled KXLIDOMGAME-26NOV131830TOREST: paid $1, profit $-0.04
+2026-11-13 22:56:18,516 INFO Settled KXNCAAHGAME-26NOV13UNIUML: paid $1, profit $0.17
+2026-11-13 22:56:22,282 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13MSUND-ND at $0.3900 x4 (0 already bid at that price)
+2026-11-13 22:56:22,282 INFO Resting NO bid on KXNCAAHGAME-26NOV13MSUND-ND at $0.39 x4 (KXNCAAHGAME-26NOV13MSUND): locks in $0.11 if it fills; hedge NO MSU@0.5600
+2026-11-13 22:56:22,585 INFO Swept 21822 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 23:01:31,435 INFO Swept 21800 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 23:01:36,628 INFO PAPER KXNCAAHGAME-26NOV13MSUND-ND NO bid at $0.3900: 2/4 filled by real trades
+2026-11-13 23:01:36,695 INFO PAPER buy 2 NO KXNCAAHGAME-26NOV13MSUND-MSU at up to $0.5600: filled 2
+2026-11-13 23:01:36,695 INFO Quote KXNCAAHGAME-26NOV13MSUND filled 2: hedged, locks in $0.05
+2026-11-13 23:01:36,812 INFO PAPER KXNCAAHGAME-26NOV13MSUND-ND NO bid at $0.3900: 2/4 filled by real trades
+2026-11-13 23:01:36,828 INFO Quote KXNCAAHGAME-26NOV13MSUND cancelled (2/4 filled)
+2026-11-13 23:06:32,582 INFO PAPER rest NO bid KXNBBGAME-26NOV131730UNIFCRU-CRU at $0.2500 x2 (0 already bid at that price)
+2026-11-13 23:06:32,582 INFO Resting NO bid on KXNBBGAME-26NOV131730UNIFCRU-CRU at $0.2500 x2 (KXNBBGAME-26NOV131730UNIFCRU): locks in $0.25 if it fills; hedge NO UNIF@0.6000
+2026-11-13 23:06:32,867 INFO Swept 21763 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-13 23:11:34,809 INFO Swept 21771 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-13 23:16:37,237 INFO Swept 21761 events: 0 taker trades, 0 new quotes, 1 resting
