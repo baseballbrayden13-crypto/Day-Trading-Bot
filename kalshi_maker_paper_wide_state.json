@@ -2587,21 +2587,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLVBPGAME-26NOV131800LARCAR",
-   "series": "KXLVBPGAME",
-   "title": "Cardenales de Lara vs Leones de Caracas",
-   "ticker": "KXLVBPGAME-26NOV131800LARCAR-LAR",
-   "order_id": "paper-1035-1794612518",
-   "price": "0.2600",
-   "sets": 1,
+   "event": "KXLIDOMGAME-26NOV131830TOREST",
+   "series": "KXLIDOMGAME",
+   "title": "Toros del Este vs Estrellas Orientales",
+   "ticker": "KXLIDOMGAME-26NOV131830TOREST-EST",
+   "order_id": "paper-1037-1794614527",
+   "price": "0.0700",
+   "sets": 2,
    "done": 0,
-   "reserve": "0.8700",
+   "reserve": "1.6200",
    "multiplier": "1",
-   "placed": 1794612518.1981587,
+   "placed": 1794614527.789004,
    "hedge": [
     {
-     "ticker": "KXLVBPGAME-26NOV131800LARCAR-CAR",
-     "limit": "0.5800"
+     "ticker": "KXLIDOMGAME-26NOV131830TOREST-TOR",
+     "limit": "0.7500"
     }
    ]
   }
