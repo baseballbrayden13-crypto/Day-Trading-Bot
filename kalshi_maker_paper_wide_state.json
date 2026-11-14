@@ -2678,5 +2678,25 @@
    "closed": "2026-11-14T04:56:46.554257+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA",
+   "series": "KXCONCACAFNLADVANCE",
+   "title": "El Salvador vs Saint Martin",
+   "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
+   "order_id": "paper-1053-1794635236",
+   "price": "0.8000",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8600",
+   "multiplier": "1",
+   "placed": 1794635236.670531,
+   "hedge": [
+    {
+     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV",
+     "limit": "0.1500"
+    }
+   ]
+  }
+ ]
 }
