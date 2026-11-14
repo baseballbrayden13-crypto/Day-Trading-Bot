@@ -4383,3 +4383,25 @@ RuntimeError: Kalshi GET /events kept failing
 2026-11-14 15:53:57,245 INFO Swept 21363 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 15:59:08,096 INFO Swept 21306 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 16:04:01,130 INFO Swept 21247 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 16:09:06,187 INFO Swept 21233 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 16:13:49,144 INFO Swept 21227 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 16:15:15,842 ERROR Maker loop error; carrying on
+Traceback (most recent call last):
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_maker.py", line 703, in main
+    events, baskets = kl.sweep(api, cfg, max(kl.free_budget(cfg, kl.load_state()), D(0)))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 253, in sweep
+    events = api.open_events()
+             ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 155, in open_events
+    page = self.request("GET", "/events", {"status": "open", "with_nested_markets": "true",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_maker.py", line 591, in request
+    return super().request(method, path, params, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 150, in request
+    raise RuntimeError(f"Kalshi {method} {path} kept failing")
+RuntimeError: Kalshi GET /events kept failing
+2026-11-14 16:24:02,692 INFO Swept 21181 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 16:29:01,256 INFO Swept 21144 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 16:34:12,726 INFO Swept 21112 events: 0 taker trades, 0 new quotes, 0 resting
