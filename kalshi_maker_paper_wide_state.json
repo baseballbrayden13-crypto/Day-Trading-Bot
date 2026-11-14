@@ -2700,5 +2700,29 @@
    "sold_back": true
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAF4Q-26NOV14SYRNCST",
+   "series": "KXNCAAF4Q",
+   "title": "Syracuse vs NC St.: 4th Quarter Winner",
+   "ticker": "KXNCAAF4Q-26NOV14SYRNCST-NCST",
+   "order_id": "paper-1072-1794685717",
+   "price": "0.5600",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.5100",
+   "multiplier": "1",
+   "placed": 1794685717.2121544,
+   "hedge": [
+    {
+     "ticker": "KXNCAAF4Q-26NOV14SYRNCST-SYR",
+     "limit": "0.1800"
+    },
+    {
+     "ticker": "KXNCAAF4Q-26NOV14SYRNCST-TIE",
+     "limit": "0.9900"
+    }
+   ]
+  }
+ ]
 }
