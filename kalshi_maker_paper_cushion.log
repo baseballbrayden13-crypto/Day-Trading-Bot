@@ -2235,3 +2235,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 14:52:06,650 INFO Swept 21535 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 14:58:09,741 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 14:58:13,897 INFO Swept 21512 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 15:04:30,238 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 15:04:35,635 INFO PAPER rest NO bid KXEFLL1GAME-26NOV14WYWHUD-TIE at $0.4700 x2 (0 already bid at that price)
+2026-11-14 15:04:35,635 INFO Resting NO bid on KXEFLL1GAME-26NOV14WYWHUD-TIE at $0.4700 x2 (KXEFLL1GAME-26NOV14WYWHUD): locks in $0.36 if it fills; hedge NO WYW@0.7400, HUD@0.5700
+2026-11-14 15:04:35,636 INFO Swept 21479 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 15:10:42,323 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 15:10:46,196 INFO Swept 21454 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 15:16:51,086 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 15:16:55,700 INFO PAPER rest NO bid KXUEFANLFTTS-26NOV14ROUPOL-ROU at $0.2600 x1 (0 already bid at that price)
+2026-11-14 15:16:55,700 INFO Resting NO bid on KXUEFANLFTTS-26NOV14ROUPOL-ROU at $0.2600 x1 (KXUEFANLFTTS-26NOV14ROUPOL): locks in $0.38 if it fills; hedge NO POL@0.4000, NONE@0.9200
+2026-11-14 15:16:55,701 INFO Swept 21539 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 15:22:59,370 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 15:23:03,650 INFO Swept 21545 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 15:23:03,962 INFO Quote KXUEFANLFTTS-26NOV14ROUPOL cancelled (0/1 filled)
+2026-11-14 15:29:10,078 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 15:29:14,857 INFO PAPER rest NO bid KXLOLFBARON-26NOV141400GENBLG-1-NEITHER at $0.1700 x2 (0 already bid at that price)
+2026-11-14 15:29:14,857 INFO Resting NO bid on KXLOLFBARON-26NOV141400GENBLG-1-NEITHER at $0.1700 x2 (KXLOLFBARON-26NOV141400GENBLG-1): locks in $1.62 if it fills; hedge NO GEN@0.0100
+2026-11-14 15:29:14,858 INFO Swept 21541 events: 0 taker trades, 1 new quotes, 2 resting

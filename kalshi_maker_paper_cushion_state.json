@@ -212,5 +212,48 @@
    "closed": "2026-11-14T03:57:50.222799+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXEFLL1GAME-26NOV14WYWHUD",
+   "series": "KXEFLL1GAME",
+   "title": "Wycombe vs Huddersfield",
+   "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
+   "order_id": "paper-124-1794686675",
+   "price": "0.4700",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.6400",
+   "multiplier": "1",
+   "placed": 1794686675.6355622,
+   "hedge": [
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
+     "limit": "0.7400"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
+     "limit": "0.5700"
+    }
+   ]
+  },
+  {
+   "event": "KXLOLFBARON-26NOV141400GENBLG-1",
+   "series": "KXLOLFBARON",
+   "title": "Gen.G vs. Bilibili Gaming: Game 1 First Baron",
+   "ticker": "KXLOLFBARON-26NOV141400GENBLG-1-NEITHER",
+   "order_id": "paper-126-1794688154",
+   "price": "0.1700",
+   "sets": 2,
+   "done": 0,
+   "reserve": "0.3800",
+   "multiplier": "1",
+   "placed": 1794688154.8571203,
+   "hedge": [
+    {
+     "ticker": "KXLOLFBARON-26NOV141400GENBLG-1-GEN",
+     "limit": "0.0100"
+    }
+   ]
+  }
+ ]
 }
