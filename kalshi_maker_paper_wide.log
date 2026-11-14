@@ -8930,3 +8930,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 23:36:48,866 INFO Swept 21691 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 23:41:50,564 INFO Swept 21679 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-13 23:46:48,433 INFO Swept 21660 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 23:51:50,730 INFO Swept 21661 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-13 23:56:46,554 INFO Settled KXNCAAHGAME-26NOV13MSUND: paid $1.9000, profit $-0.05
+2026-11-13 23:56:50,223 INFO Swept 21644 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 00:01:54,234 INFO Swept 21643 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 00:06:59,866 INFO Swept 21598 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 00:12:01,265 INFO Swept 21606 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 00:16:59,079 INFO Swept 21586 events: 0 taker trades, 0 new quotes, 0 resting
