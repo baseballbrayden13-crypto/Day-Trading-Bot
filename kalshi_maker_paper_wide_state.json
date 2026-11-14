@@ -2700,5 +2700,25 @@
    "sold_back": true
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXSVKCUPADVANCE-26NOV14CADTRN",
+   "series": "KXSVKCUPADVANCE",
+   "title": "Cadca vs Trnava",
+   "ticker": "KXSVKCUPADVANCE-26NOV14CADTRN-TRN",
+   "order_id": "paper-1056-1794647648",
+   "price": "0.3400",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.4500",
+   "multiplier": "1",
+   "placed": 1794647648.5744042,
+   "hedge": [
+    {
+     "ticker": "KXSVKCUPADVANCE-26NOV14CADTRN-CAD",
+     "limit": "0.5000"
+    }
+   ]
+  }
+ ]
 }

@@ -9030,3 +9030,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 03:48:55,997 INFO Swept 21538 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 03:48:56,056 INFO PAPER sell 4 YES KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at up to $0.3500: filled 4
 2026-11-14 03:48:56,056 INFO Stray KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA: sold 4 of 4 at $0.6500 or better, booked $-0.69
+2026-11-14 03:54:00,802 INFO Swept 21553 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 03:59:00,532 INFO Swept 21559 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 04:04:06,161 INFO Swept 21557 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 04:09:08,309 INFO Swept 21543 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 04:14:08,574 INFO PAPER rest NO bid KXSVKCUPADVANCE-26NOV14CADTRN-TRN at $0.3400 x4 (0 already bid at that price)
+2026-11-14 04:14:08,574 INFO Resting NO bid on KXSVKCUPADVANCE-26NOV14CADTRN-TRN at $0.3400 x4 (KXSVKCUPADVANCE-26NOV14CADTRN): locks in $0.55 if it fills; hedge NO CAD@0.5000
+2026-11-14 04:14:08,881 INFO Swept 21561 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 04:19:15,160 INFO Swept 21565 events: 0 taker trades, 0 new quotes, 1 resting
