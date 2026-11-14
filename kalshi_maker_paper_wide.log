@@ -9121,3 +9121,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 11:59:53,949 INFO Swept 21687 events: 0 taker trades, 0 new quotes, 3 resting
 2026-11-14 11:59:54,046 INFO Quote KXAFCON1H-26NOV14UGABOT cancelled (0/2 filled)
 2026-11-14 12:05:02,397 INFO Swept 21671 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:10:06,396 INFO Swept 21668 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:15:08,241 INFO Swept 21710 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:20:09,555 INFO Swept 21712 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:25:16,390 INFO Swept 21707 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 12:30:17,111 INFO PAPER rest NO bid KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.2200 x1 (0 already bid at that price)
+2026-11-14 12:30:17,112 INFO Resting NO bid on KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.2200 x1 (KXRAFMATCH-26NOV14LAZ70804FAB01C4F): locks in $0.35 if it fills; hedge NO LAZ70804@0.4000
+2026-11-14 12:30:17,131 INFO Swept 21710 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 12:35:17,167 INFO PAPER rest NO bid KXWEUROBASKETGAME-26NOV141100SUIISL-SUI at $0.1000 x1 (0 already bid at that price)
+2026-11-14 12:35:17,167 INFO Resting NO bid on KXWEUROBASKETGAME-26NOV141100SUIISL-SUI at $0.1000 x1 (KXWEUROBASKETGAME-26NOV141100SUIISL): locks in $0.47 if it fills; hedge NO ISL@0.4000
+2026-11-14 12:35:17,186 INFO Swept 21699 events: 0 taker trades, 1 new quotes, 2 resting

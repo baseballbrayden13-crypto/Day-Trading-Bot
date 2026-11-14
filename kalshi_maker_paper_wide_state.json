@@ -2706,16 +2706,35 @@
    "series": "KXRAFMATCH",
    "title": "RAF ABU DHABI: Saba Lazishvili vs Urijah Faber",
    "ticker": "KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F",
-   "order_id": "paper-1066-1794675295",
-   "price": "0.2300",
+   "order_id": "paper-1067-1794677417",
+   "price": "0.2200",
    "sets": 1,
    "done": 0,
-   "reserve": "0.6600",
+   "reserve": "0.6500",
    "multiplier": "1",
-   "placed": 1794675295.4991553,
+   "placed": 1794677417.1120872,
    "hedge": [
     {
      "ticker": "KXRAFMATCH-26NOV14LAZ70804FAB01C4F-LAZ70804",
+     "limit": "0.4000"
+    }
+   ]
+  },
+  {
+   "event": "KXWEUROBASKETGAME-26NOV141100SUIISL",
+   "series": "KXWEUROBASKETGAME",
+   "title": "Switzerland vs Iceland",
+   "ticker": "KXWEUROBASKETGAME-26NOV141100SUIISL-SUI",
+   "order_id": "paper-1068-1794677717",
+   "price": "0.1000",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.5300",
+   "multiplier": "1",
+   "placed": 1794677717.1673405,
+   "hedge": [
+    {
+     "ticker": "KXWEUROBASKETGAME-26NOV141100SUIISL-ISL",
      "limit": "0.4000"
     }
    ]
