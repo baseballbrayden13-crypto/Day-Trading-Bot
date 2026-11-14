@@ -2702,40 +2702,21 @@
  ],
  "quotes": [
   {
-   "event": "KXEFLL2GAME-26NOV14SWIGRI",
-   "series": "KXEFLL2GAME",
-   "title": "Swindon vs Grimsby",
-   "ticker": "KXEFLL2GAME-26NOV14SWIGRI-TIE",
-   "order_id": "paper-1063-1794672879",
-   "price": "0.6500",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.4000",
-   "multiplier": "1",
-   "placed": 1794672879.879612,
-   "hedge": [
-    {
-     "ticker": "KXEFLL2GAME-26NOV14SWIGRI-GRI",
-     "limit": "0.2500"
-    }
-   ]
-  },
-  {
-   "event": "KXLATESTGAME-26NOV140900VEFVEN",
-   "series": "KXLATESTGAME",
-   "title": "Vef Riga vs BK Ventspils",
-   "ticker": "KXLATESTGAME-26NOV140900VEFVEN-VEN",
-   "order_id": "paper-1064-1794673782",
-   "price": "0.4300",
+   "event": "KXRAFMATCH-26NOV14LAZ70804FAB01C4F",
+   "series": "KXRAFMATCH",
+   "title": "RAF ABU DHABI: Saba Lazishvili vs Urijah Faber",
+   "ticker": "KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F",
+   "order_id": "paper-1066-1794675295",
+   "price": "0.2300",
    "sets": 1,
    "done": 0,
-   "reserve": "0.8500",
+   "reserve": "0.6600",
    "multiplier": "1",
-   "placed": 1794673782.5910413,
+   "placed": 1794675295.4991553,
    "hedge": [
     {
-     "ticker": "KXLATESTGAME-26NOV140900VEFVEN-VEF",
-     "limit": "0.3900"
+     "ticker": "KXRAFMATCH-26NOV14LAZ70804FAB01C4F-LAZ70804",
+     "limit": "0.4000"
     }
    ]
   }

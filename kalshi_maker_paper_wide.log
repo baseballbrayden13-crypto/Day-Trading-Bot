@@ -9110,3 +9110,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 11:29:42,591 INFO Resting NO bid on KXLATESTGAME-26NOV140900VEFVEN-VEN at $0.4300 x1 (KXLATESTGAME-26NOV140900VEFVEN): locks in $0.15 if it fills; hedge NO VEF@0.3900
 2026-11-14 11:29:42,608 INFO Swept 21795 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-14 11:34:46,945 INFO Swept 21787 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 11:39:51,837 INFO Swept 21780 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 11:44:53,311 INFO Swept 21782 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 11:49:54,837 INFO PAPER rest NO bid KXAFCON1H-26NOV14UGABOT-UGA at $0.6500 x2 (20 already bid at that price)
+2026-11-14 11:49:54,837 INFO Resting NO bid on KXAFCON1H-26NOV14UGABOT-UGA at $0.6500 x2 (KXAFCON1H-26NOV14UGABOT): locks in $0.26 if it fills; hedge NO TIE@0.2000
+2026-11-14 11:49:54,857 INFO Swept 21774 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 11:54:55,499 INFO PAPER rest NO bid KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.2300 x1 (0 already bid at that price)
+2026-11-14 11:54:55,499 INFO Resting NO bid on KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.2300 x1 (KXRAFMATCH-26NOV14LAZ70804FAB01C4F): locks in $0.34 if it fills; hedge NO LAZ70804@0.4000
+2026-11-14 11:54:55,522 INFO Swept 21770 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-14 11:59:53,949 INFO Swept 21687 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-14 11:59:54,046 INFO Quote KXAFCON1H-26NOV14UGABOT cancelled (0/2 filled)
+2026-11-14 12:05:02,397 INFO Swept 21671 events: 0 taker trades, 0 new quotes, 1 resting
