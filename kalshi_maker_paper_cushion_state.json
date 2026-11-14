@@ -162,21 +162,59 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26NOV13DARQUI",
-   "series": "KXNCAAHGAME",
-   "title": "Dartmouth vs Quinnipiac",
-   "ticker": "KXNCAAHGAME-26NOV13DARQUI-DAR",
-   "order_id": "paper-103-1794620238",
+   "event": "KXLIDOMGAME-26NOV131800AGUGIG",
+   "series": "KXLIDOMGAME",
+   "title": "Aguilas Cibaenas vs Gigantes del Cibao",
+   "ticker": "KXLIDOMGAME-26NOV131800AGUGIG-AGU",
+   "order_id": "paper-105-1794622127",
+   "price": "0.7500",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6600",
+   "multiplier": "1",
+   "placed": 1794622127.339016,
+   "hedge": [
+    {
+     "ticker": "KXLIDOMGAME-26NOV131800AGUGIG-GIG",
+     "limit": "0.1200"
+    }
+   ]
+  },
+  {
+   "event": "KXLMPGAME-26NOV132105MAZCUL",
+   "series": "KXLMPGAME",
+   "title": "Venados de Mazatlan vs Tomateros de Culiacan",
+   "ticker": "KXLMPGAME-26NOV132105MAZCUL-CUL",
+   "order_id": "paper-106-1794622444",
    "price": "0.1000",
    "sets": 2,
    "done": 0,
-   "reserve": "1.2500",
+   "reserve": "1.6200",
    "multiplier": "1",
-   "placed": 1794620238.9112134,
+   "placed": 1794622444.7851417,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26NOV13DARQUI-QUI",
-     "limit": "0.5000"
+     "ticker": "KXLMPGAME-26NOV132105MAZCUL-MAZ",
+     "limit": "0.6900"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAHGAME-26NOV13UNIUML",
+   "series": "KXNCAAHGAME",
+   "title": "Union vs Massachusetts Lowell",
+   "ticker": "KXNCAAHGAME-26NOV13UNIUML-UML",
+   "order_id": "paper-107-1794623074",
+   "price": "0.0700",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.7700",
+   "multiplier": "1",
+   "placed": 1794623074.5862224,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV13UNIUML-UNI",
+     "limit": "0.9100"
     }
    ]
   }

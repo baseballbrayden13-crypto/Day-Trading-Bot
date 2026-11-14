@@ -1894,3 +1894,21 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-13 21:03:25,563 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-13 21:03:28,889 INFO Swept 22024 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-13 21:03:29,203 INFO Quote KXNCAAHGAME-26NOV13BCMAS cancelled (0/2 filled)
+2026-11-13 21:08:43,243 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 21:08:47,338 INFO PAPER rest NO bid KXLIDOMGAME-26NOV131800AGUGIG-AGU at $0.7500 x2 (0 already bid at that price)
+2026-11-13 21:08:47,339 INFO Resting NO bid on KXLIDOMGAME-26NOV131800AGUGIG-AGU at $0.7500 x2 (KXLIDOMGAME-26NOV131800AGUGIG): locks in $0.34 if it fills; hedge NO GIG@0.0700
+2026-11-13 21:08:47,340 INFO Swept 22010 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 21:14:01,384 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 21:14:04,784 INFO PAPER rest NO bid KXLMPGAME-26NOV132105MAZCUL-CUL at $0.1000 x2 (0 already bid at that price)
+2026-11-13 21:14:04,785 INFO Resting NO bid on KXLMPGAME-26NOV132105MAZCUL-CUL at $0.1000 x2 (KXLMPGAME-26NOV132105MAZCUL): locks in $0.38 if it fills; hedge NO MAZ@0.6900
+2026-11-13 21:14:04,786 INFO Swept 22033 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-13 21:19:19,951 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 21:19:23,166 INFO Swept 22077 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-13 21:24:31,014 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 21:24:34,586 INFO PAPER rest NO bid KXNCAAHGAME-26NOV13UNIUML-UML at $0.0700 x2 (0 already bid at that price)
+2026-11-13 21:24:34,586 INFO Resting NO bid on KXNCAAHGAME-26NOV13UNIUML-UML at $0.0700 x2 (KXNCAAHGAME-26NOV13UNIUML): locks in $0.23 if it fills; hedge NO UNI@0.9100
+2026-11-13 21:24:34,587 INFO Swept 22141 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-13 21:29:43,009 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 21:29:46,307 INFO Swept 22151 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-13 21:34:55,046 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-13 21:34:58,327 INFO Swept 22163 events: 0 taker trades, 0 new quotes, 3 resting
