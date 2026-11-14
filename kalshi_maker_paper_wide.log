@@ -9131,3 +9131,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 12:35:17,167 INFO PAPER rest NO bid KXWEUROBASKETGAME-26NOV141100SUIISL-SUI at $0.1000 x1 (0 already bid at that price)
 2026-11-14 12:35:17,167 INFO Resting NO bid on KXWEUROBASKETGAME-26NOV141100SUIISL-SUI at $0.1000 x1 (KXWEUROBASKETGAME-26NOV141100SUIISL): locks in $0.47 if it fills; hedge NO ISL@0.4000
 2026-11-14 12:35:17,186 INFO Swept 21699 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 12:40:16,587 INFO Swept 21707 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 12:45:18,902 INFO PAPER rest NO bid KXWEUROBASKETGAME-26NOV141100UKRGBR-UKR at $0.0500 x2 (0 already bid at that price)
+2026-11-14 12:45:18,902 INFO Resting NO bid on KXWEUROBASKETGAME-26NOV141100UKRGBR-UKR at $0.0500 x2 (KXWEUROBASKETGAME-26NOV141100UKRGBR): locks in $0.26 if it fills; hedge NO GBR@0.8000
+2026-11-14 12:45:18,920 INFO Swept 21706 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-14 12:50:22,151 INFO Swept 21714 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-14 12:50:22,295 INFO Quote KXWEUROBASKETGAME-26NOV141100UKRGBR cancelled (0/2 filled)
+2026-11-14 12:55:24,319 INFO Swept 21702 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 13:00:24,826 INFO Swept 21692 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 13:05:29,824 INFO PAPER rest NO bid KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.1200 x2 (0 already bid at that price)
+2026-11-14 13:05:29,824 INFO Resting NO bid on KXRAFMATCH-26NOV14LAZ70804FAB01C4F-FAB01C4F at $0.1200 x2 (KXRAFMATCH-26NOV14LAZ70804FAB01C4F): locks in $0.51 if it fills; hedge NO LAZ70804@0.8000
+2026-11-14 13:05:29,847 INFO Swept 21679 events: 0 taker trades, 1 new quotes, 2 resting
