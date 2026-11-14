@@ -1,49 +1,125 @@
 {
- "updated": "2026-11-14T19:16:11+00:00",
+ "updated": "2026-11-14T23:07:49+00:00",
  "parlays": [
+  {
+   "kind": "game",
+   "game": "Denver Nuggets vs New Orleans Pelicans",
+   "start": "2026-11-15T00:10:00Z",
+   "legs": [
+    {
+     "label": "Denver Nuggets to win",
+     "ticker": "KXNBAGAME-26NOV14DENNOP-DEN",
+     "side": "yes",
+     "price": 0.84,
+     "fair": 0.8275,
+     "value": -0.0225,
+     "player": ""
+    },
+    {
+     "label": "Christian Braun 10+ points",
+     "ticker": "KXNBAPTS-26NOV14DENNOP-DENCBRAUN0-10",
+     "side": "yes",
+     "price": 0.67,
+     "fair": 0.7181,
+     "value": 0.0321,
+     "player": "Christian Braun"
+    },
+    {
+     "label": "Cameron Johnson 10+ points",
+     "ticker": "KXNBAPTS-26NOV14DENNOP-DENCJOHNSON23-10",
+     "side": "yes",
+     "price": 0.71,
+     "fair": 0.7567,
+     "value": 0.0317,
+     "player": "Cameron Johnson"
+    },
+    {
+     "label": "DeMar DeRozan 10+ points",
+     "ticker": "KXNBAPTS-26NOV14DENNOP-DENDDEROZAN10-10",
+     "side": "yes",
+     "price": 0.56,
+     "fair": 0.6033,
+     "value": 0.0253,
+     "player": "DeMar DeRozan"
+    }
+   ],
+   "price": 0.2443,
+   "fair": 0.2713,
+   "pays": "+309",
+   "per_dollar": 4.09
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "Denver Nuggets vs New Orleans Pelicans",
+   "start": "2026-11-15T00:10:00Z",
+   "legs": [
+    {
+     "label": "Denver Nuggets to win",
+     "ticker": "KXNBAGAME-26NOV14DENNOP-DEN",
+     "side": "yes",
+     "price": 0.84,
+     "fair": 0.8275,
+     "value": -0.0225,
+     "player": ""
+    },
+    {
+     "label": "Cameron Johnson 10+ points",
+     "ticker": "KXNBAPTS-26NOV14DENNOP-DENCJOHNSON23-10",
+     "side": "yes",
+     "price": 0.71,
+     "fair": 0.7567,
+     "value": 0.0317,
+     "player": "Cameron Johnson"
+    }
+   ],
+   "price": 0.6162,
+   "fair": 0.6262,
+   "pays": "-161",
+   "per_dollar": 1.62
+  },
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-15T00:00:00Z",
+   "start": "2026-11-15T20:00:00Z",
    "legs": [
     {
-     "label": "Western Carolina Catamounts to win",
-     "ticker": "KXNCAAMBGAME-26NOV14LIPWCU-WCU",
+     "label": "Minnesota Timberwolves to win",
+     "ticker": "KXNBAGAME-26NOV14CHIMIN-MIN",
      "side": "yes",
-     "price": 0.61,
-     "fair": 0.6143,
-     "value": -0.0127,
+     "price": 0.89,
+     "fair": 0.8828,
+     "value": -0.0142,
      "player": ""
     },
     {
-     "label": "Nevada Wolf Pack to win",
-     "ticker": "KXNCAAFGAME-26NOV14NEVNIU-NEV",
+     "label": "LSU Tigers to win",
+     "ticker": "KXNCAAFGAME-26NOV14TEXLSU-LSU",
      "side": "yes",
-     "price": 0.68,
-     "fair": 0.683,
-     "value": -0.013,
+     "price": 0.64,
+     "fair": 0.6408,
+     "value": -0.0162,
      "player": ""
     },
     {
-     "label": "Wyoming Cowboys to win",
-     "ticker": "KXNCAAMBGAME-26NOV14WYODEN-WYO",
+     "label": "Texas Longhorns to win",
+     "ticker": "KXNCAAMBGAME-26NOV15BAYTEX-TEX",
      "side": "yes",
-     "price": 0.73,
-     "fair": 0.7299,
-     "value": -0.0141,
+     "price": 0.67,
+     "fair": 0.6682,
+     "value": -0.0178,
      "player": ""
     }
    ],
-   "price": 0.3247,
-   "fair": 0.3062,
-   "pays": "+208",
-   "per_dollar": 3.08
+   "price": 0.4043,
+   "fair": 0.378,
+   "pays": "+147",
+   "per_dollar": 2.47
   }
  ],
- "open_pretend": 3,
+ "open_pretend": 2,
  "record": {
-  "parlays": 5,
+  "parlays": 6,
   "won": 0,
-  "profit": -5.0
+  "profit": -6.0
  }
 }

@@ -1,45 +1,6 @@
 {
  "open": [
   {
-   "kind": "favorites",
-   "game": "Favorites across games",
-   "start": "2026-11-15T02:10:00Z",
-   "legs": [
-    {
-     "label": "James Madison Dukes to win",
-     "ticker": "KXNCAAFGAME-26NOV14JMUCONN-JMU",
-     "side": "yes",
-     "price": 0.65,
-     "fair": 0.6478,
-     "value": -0.0182,
-     "player": ""
-    },
-    {
-     "label": "Utah Mammoth to win",
-     "ticker": "KXNHLGAME-26NOV14SJUTA-UTA",
-     "side": "yes",
-     "price": 0.65,
-     "fair": 0.6477,
-     "value": -0.0183,
-     "player": ""
-    },
-    {
-     "label": "East Carolina Pirates to win",
-     "ticker": "KXNCAAFGAME-26NOV14ECUCHAR-ECU",
-     "side": "yes",
-     "price": 0.79,
-     "fair": 0.7832,
-     "value": -0.0188,
-     "player": ""
-    }
-   ],
-   "price": 0.3557,
-   "fair": 0.3286,
-   "pays": "+181",
-   "per_dollar": 2.81,
-   "opened": "2026-11-14T06:38:10+00:00"
-  },
-  {
    "kind": "game",
    "game": "Denver Nuggets vs New Orleans Pelicans",
    "start": "2026-11-15T00:10:00Z",

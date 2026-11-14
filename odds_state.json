@@ -78,64 +78,6 @@
   },
   {
    "kind": "value",
-   "game": "Wisconsin Badgers at Maryland Terrapins",
-   "game_id": "862cc541ca98da17b20a964513c18435",
-   "sport": "americanfootball_ncaaf",
-   "start": "2026-11-14T17:00:00Z",
-   "edge": 0.0463,
-   "home": "Maryland Terrapins",
-   "away": "Wisconsin Badgers",
-   "legs": [
-    {
-     "team": "Maryland Terrapins",
-     "book": "BetRivers",
-     "odds": 4.0,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-13T17:50:32+00:00"
-  },
-  {
-   "kind": "kalshi",
-   "game": "Kennesaw State Owls at Sam Houston State Bearkats",
-   "game_id": "54769e255d6ea468fa2d12ed744eb6f2",
-   "sport": "americanfootball_ncaaf",
-   "start": "2026-11-14T19:00:00Z",
-   "edge": 0.0364,
-   "home": "Sam Houston State Bearkats",
-   "away": "Kennesaw State Owls",
-   "legs": [
-    {
-     "team": "Sam Houston State Bearkats",
-     "book": "Kalshi",
-     "odds": 3.521,
-     "stake": 10.0,
-     "ticker": "KXNCAAFGAME-26NOV14KENNSHSU-SHSU"
-    }
-   ],
-   "opened": "2026-11-13T17:50:32+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "East Carolina Pirates at Charlotte 49ers",
-   "game_id": "01787a755109adbf19adf48ca4d60ddb",
-   "sport": "americanfootball_ncaaf",
-   "start": "2026-11-14T18:00:00Z",
-   "edge": 0.0453,
-   "home": "Charlotte 49ers",
-   "away": "East Carolina Pirates",
-   "legs": [
-    {
-     "team": "Charlotte 49ers",
-     "book": "BetRivers",
-     "odds": 4.8,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-13T23:39:17+00:00"
-  },
-  {
-   "kind": "value",
    "game": "SE Missouri St Redhawks at Middle Tennessee Blue Raiders",
    "game_id": "a75b53f6f3069aebd0d6889fd109a53d",
    "sport": "basketball_ncaab",
@@ -186,69 +128,6 @@
      "team": "Florida Atlantic Owls",
      "book": "Pinnacle",
      "odds": 3.16,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-14T14:15:12+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Northern Illinois Huskies at Bellarmine Knights",
-   "game_id": "a1cc87eeeffb39fecaa58bf0df4d6ce8",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-14T19:00:00Z",
-   "edge": 0.0611,
-   "home": "Bellarmine Knights",
-   "away": "Northern Illinois Huskies",
-   "legs": [
-    {
-     "team": "Northern Illinois Huskies",
-     "book": "Bovada",
-     "odds": 2.05,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-14T14:15:12+00:00"
-  },
-  {
-   "kind": "arb",
-   "game": "Northern Illinois Huskies at Bellarmine Knights",
-   "game_id": "a1cc87eeeffb39fecaa58bf0df4d6ce8",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-14T19:00:00Z",
-   "edge": 0.0174,
-   "home": "Bellarmine Knights",
-   "away": "Northern Illinois Huskies",
-   "legs": [
-    {
-     "team": "Bellarmine Knights",
-     "book": "Pinnacle",
-     "odds": 2.02,
-     "stake": 50.37
-    },
-    {
-     "team": "Northern Illinois Huskies",
-     "book": "Bovada",
-     "odds": 2.05,
-     "stake": 49.63
-    }
-   ],
-   "opened": "2026-11-14T14:15:12+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Wofford Terriers at Queens University Royals",
-   "game_id": "7428b124d458bea8a330d6a74c913ae6",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-14T19:00:00Z",
-   "edge": 0.05,
-   "home": "Queens University Royals",
-   "away": "Wofford Terriers",
-   "legs": [
-    {
-     "team": "Wofford Terriers",
-     "book": "Bovada",
-     "odds": 3.5,
      "stake": 10.0
     }
    ],
@@ -335,6 +214,63 @@
     }
    ],
    "opened": "2026-11-14T19:16:08+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Los Angeles Rams at Arizona Cardinals",
+   "game_id": "6c932a965110f3f89ec4a5f1a6ac256e",
+   "sport": "americanfootball_nfl",
+   "start": "2026-11-15T21:05:00Z",
+   "edge": 0.0609,
+   "home": "Arizona Cardinals",
+   "away": "Los Angeles Rams",
+   "legs": [
+    {
+     "team": "Arizona Cardinals",
+     "book": "DraftKings",
+     "odds": 5.0,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-14T23:07:45+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Vancouver Canucks at Vegas Golden Knights",
+   "game_id": "c4ac537963707b247ad9e4eab06c15de",
+   "sport": "icehockey_nhl",
+   "start": "2026-11-16T02:10:00Z",
+   "edge": 0.055,
+   "home": "Vegas Golden Knights",
+   "away": "Vancouver Canucks",
+   "legs": [
+    {
+     "team": "Vancouver Canucks",
+     "book": "BetRivers",
+     "odds": 4.6,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-14T23:07:45+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "North Dakota State Bison at Hawaii Rainbow Warriors",
+   "game_id": "ce88da9d6fd67bac81c1e4a70545de29",
+   "sport": "americanfootball_ncaaf",
+   "start": "2026-11-15T04:00:00Z",
+   "edge": 0.0369,
+   "home": "Hawaii Rainbow Warriors",
+   "away": "North Dakota State Bison",
+   "legs": [
+    {
+     "team": "Hawaii Rainbow Warriors",
+     "book": "theScore Bet",
+     "odds": 3.5,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-14T23:07:45+00:00"
   }
  ],
  "seen": {
@@ -370,18 +306,21 @@
   "value|0d1a14ace2c3c175c03a9ab173daabd0|Manhattan Jaspers|Bovada": "2026-11-14T14:15:12.384574+00:00",
   "arb|0d1a14ace2c3c175c03a9ab173daabd0|Le Moyne Dolphins@theScore Bet|Manhattan Jaspers@Bovada": "2026-11-14T14:15:12.384574+00:00",
   "value|4e0ceb792e0b56a12aa0feda82cd6a3b|Howard Bison|Pinnacle": "2026-11-14T14:15:12.384574+00:00",
-  "value|4f85131b4b86a5241b2228638fb6fffb|South Carolina Upstate Spartans|FanDuel": "2026-11-14T19:16:08.328295+00:00"
+  "value|4f85131b4b86a5241b2228638fb6fffb|South Carolina Upstate Spartans|FanDuel": "2026-11-14T19:16:08.328295+00:00",
+  "value|6c932a965110f3f89ec4a5f1a6ac256e|Arizona Cardinals|DraftKings": "2026-11-14T23:07:45.784919+00:00",
+  "value|c4ac537963707b247ad9e4eab06c15de|Vancouver Canucks|BetRivers": "2026-11-14T23:07:45.784919+00:00",
+  "value|ce88da9d6fd67bac81c1e4a70545de29|Hawaii Rainbow Warriors|theScore Bet": "2026-11-14T23:07:45.784919+00:00"
  },
  "credits": {
   "day": "2026-11-14",
-  "spent": 10,
-  "remaining": 400
+  "spent": 15,
+  "remaining": 395
  },
  "last_priced": {
-  "basketball_nba": "2026-11-14T19:16:08.328295+00:00",
-  "icehockey_nhl": "2026-11-14T19:16:08.328295+00:00",
-  "americanfootball_ncaaf": "2026-11-14T19:16:08.328295+00:00",
-  "basketball_ncaab": "2026-11-14T19:16:08.328295+00:00",
-  "americanfootball_nfl": "2026-11-14T19:16:08.328295+00:00"
+  "basketball_nba": "2026-11-14T23:07:45.784919+00:00",
+  "icehockey_nhl": "2026-11-14T23:07:45.784919+00:00",
+  "americanfootball_ncaaf": "2026-11-14T23:07:45.784919+00:00",
+  "basketball_ncaab": "2026-11-14T23:07:45.784919+00:00",
+  "americanfootball_nfl": "2026-11-14T23:07:45.784919+00:00"
  }
 }

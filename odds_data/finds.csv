@@ -36,3 +36,6 @@ time,kind,sport,game,start,team,book,odds,fair,edge,picks
 2026-11-14T14:15:12+00:00,arb,basketball_ncaab,Manhattan Jaspers at Le Moyne Dolphins,2026-11-14T23:00:00Z,,,,,0.0098,Le Moyne Dolphins @ theScore Bet 1.8 $56.1; Manhattan Jaspers @ Bovada 2.3 $43.9
 2026-11-14T14:15:12+00:00,value,basketball_ncaab,Howard Bison at Davidson Wildcats,2026-11-15T00:00:00Z,Howard Bison,Pinnacle,4.87,0.2171,0.0572,
 2026-11-14T19:16:08+00:00,value,basketball_ncaab,South Carolina Upstate Spartans at Campbell Fighting Camels,2026-11-14T21:30:00Z,South Carolina Upstate Spartans,FanDuel,5.0,0.2126,0.063,
+2026-11-14T23:07:45+00:00,value,americanfootball_nfl,Los Angeles Rams at Arizona Cardinals,2026-11-15T21:05:00Z,Arizona Cardinals,DraftKings,5.0,0.2122,0.0609,
+2026-11-14T23:07:45+00:00,value,icehockey_nhl,Vancouver Canucks at Vegas Golden Knights,2026-11-16T02:10:00Z,Vancouver Canucks,BetRivers,4.6,0.2294,0.055,
+2026-11-14T23:07:45+00:00,value,americanfootball_ncaaf,North Dakota State Bison at Hawaii Rainbow Warriors,2026-11-15T04:00:00Z,Hawaii Rainbow Warriors,theScore Bet,3.5,0.2962,0.0369,

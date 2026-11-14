@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:16:08+00:00",
+ "updated": "2026-11-14T23:07:45+00:00",
  "scan": {
   "sports": [
    "americanfootball_nfl",
@@ -8,46 +8,48 @@
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 129,
-  "kalshi_matched": 120,
+  "games": 116,
+  "kalshi_matched": 104,
   "skipped": [],
-  "pinnacle": 108,
-  "credits_left": 400,
-  "spent_today": 10,
-  "allowance": 24
+  "pinnacle": 72,
+  "credits_left": 395,
+  "spent_today": 15,
+  "allowance": 23
  },
  "new_finds": [
-  "South Carolina Upstate Spartans @ FanDuel 5.0 (fair 4.70, +6.3% expected) South Carolina Upstate Spartans at Campbell Fighting Camels (Sat 4:30PM)"
+  "Arizona Cardinals @ DraftKings 5.0 (fair 4.71, +6.1% expected) Los Angeles Rams at Arizona Cardinals (Sun 4:05PM)",
+  "Vancouver Canucks @ BetRivers 4.6 (fair 4.36, +5.5% expected) Vancouver Canucks at Vegas Golden Knights (Sun 9:10PM)",
+  "Hawaii Rainbow Warriors @ theScore Bet 3.5 (fair 3.38, +3.7% expected) North Dakota State Bison at Hawaii Rainbow Warriors (Sat 11:00PM)"
  ],
- "open_bets": 17,
+ "open_bets": 14,
  "record": {
   "value": {
-   "bets": 12,
-   "wins": 2,
-   "staked": 120.0,
-   "pnl": -48.1,
-   "roi": -0.4008
+   "bets": 16,
+   "wins": 4,
+   "staked": 160.0,
+   "pnl": -27.6,
+   "roi": -0.1725
   },
   "kalshi": {
-   "bets": 1,
+   "bets": 2,
    "wins": 0,
-   "staked": 10.0,
-   "pnl": -10.0,
+   "staked": 20.0,
+   "pnl": -20.0,
    "roi": -1.0
   },
   "arb": {
-   "bets": 3,
-   "wins": 3,
-   "staked": 300.0,
-   "pnl": 4.27,
-   "roi": 0.0142
+   "bets": 4,
+   "wins": 4,
+   "staked": 400.0,
+   "pnl": 6.01,
+   "roi": 0.015
   },
   "all": {
-   "bets": 16,
-   "wins": 5,
-   "staked": 430.0,
-   "pnl": -53.83,
-   "roi": -0.1252
+   "bets": 22,
+   "wins": 8,
+   "staked": 580.0,
+   "pnl": -41.59,
+   "roi": -0.0717
   }
  }
 }
