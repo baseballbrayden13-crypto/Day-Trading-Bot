@@ -245,44 +245,25 @@
  ],
  "quotes": [
   {
-   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA",
-   "series": "KXCONCACAFNLADVANCE",
-   "title": "El Salvador vs Saint Martin",
-   "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
-   "order_id": "paper-151-1794710306",
-   "price": "0.7100",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.6700",
-   "multiplier": "1",
-   "placed": 1794710306.74106,
-   "hedge": [
-    {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV",
-     "limit": "0.1900"
-    }
-   ]
-  },
-  {
    "event": "KXNCAAF1H-26NOV14EWUUTU",
    "series": "KXNCAAF1H",
    "title": "Eastern Washington vs Utah Tech: 1st Half Winner",
-   "ticker": "KXNCAAF1H-26NOV14EWUUTU-TIE",
-   "order_id": "paper-152-1794710607",
-   "price": "0.6100",
-   "sets": 1,
+   "ticker": "KXNCAAF1H-26NOV14EWUUTU-UTU",
+   "order_id": "paper-154-1794712721",
+   "price": "0.4200",
+   "sets": 2,
    "done": 0,
-   "reserve": "1.6900",
+   "reserve": "3.6300",
    "multiplier": "1",
-   "placed": 1794710607.5508943,
+   "placed": 1794712721.0880375,
    "hedge": [
     {
-     "ticker": "KXNCAAF1H-26NOV14EWUUTU-UTU",
-     "limit": "0.7800"
+     "ticker": "KXNCAAF1H-26NOV14EWUUTU-EWU",
+     "limit": "0.5000"
     },
     {
-     "ticker": "KXNCAAF1H-26NOV14EWUUTU-EWU",
-     "limit": "0.2500"
+     "ticker": "KXNCAAF1H-26NOV14EWUUTU-TIE",
+     "limit": "0.9900"
     }
    ]
   }
