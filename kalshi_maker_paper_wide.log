@@ -9567,3 +9567,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 16:56:24,016 INFO Swept 19006 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 17:01:24,156 INFO Swept 18997 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 17:06:33,172 INFO Swept 18963 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:11:28,659 INFO Swept 18950 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:16:25,507 INFO Swept 18938 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:21:27,311 INFO Swept 18948 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:26:29,492 INFO PAPER rest NO bid KXCONCACAFNLADVANCE-26NOV17MEXJAM-JAM at $0.7200 x3 (7 already bid at that price)
+2026-11-15 17:26:29,492 INFO Resting NO bid on KXCONCACAFNLADVANCE-26NOV17MEXJAM-JAM at $0.72 x3 (KXCONCACAFNLADVANCE-26NOV17MEXJAM): locks in $0.12 if it fills; hedge NO MEX@0.2200
+2026-11-15 17:26:29,710 INFO Swept 18933 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 17:31:31,936 INFO Swept 18925 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:36:31,064 INFO Swept 18920 events: 0 taker trades, 0 new quotes, 1 resting

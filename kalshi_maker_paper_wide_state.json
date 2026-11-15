@@ -2750,21 +2750,21 @@
  ],
  "quotes": [
   {
-   "event": "KXARGNACBADVANCE-26NOV14DMAMAI",
-   "series": "KXARGNACBADVANCE",
-   "title": "Madryn vs Maipu",
-   "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-MAI",
-   "order_id": "paper-1124-1794779482",
-   "price": "0.7300",
+   "event": "KXCONCACAFNLADVANCE-26NOV17MEXJAM",
+   "series": "KXCONCACAFNLADVANCE",
+   "title": "Mexico vs Jamaica",
+   "ticker": "KXCONCACAFNLADVANCE-26NOV17MEXJAM-JAM",
+   "order_id": "paper-1125-1794781589",
+   "price": "0.72",
    "sets": 3,
    "done": 0,
-   "reserve": "2.8200",
+   "reserve": "2.8800",
    "multiplier": "1",
-   "placed": 1794779482.9963624,
+   "placed": 1794781589.4922144,
    "hedge": [
     {
-     "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-DMA",
-     "limit": "0.1900"
+     "ticker": "KXCONCACAFNLADVANCE-26NOV17MEXJAM-MEX",
+     "limit": "0.2200"
     }
    ]
   }
