@@ -2700,5 +2700,48 @@
    "sold_back": true
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXUCLWGAME-26NOV19BARSER",
+   "series": "KXUCLWGAME",
+   "title": "Barcelona vs Servette Chenois",
+   "ticker": "KXUCLWGAME-26NOV19BARSER-TIE",
+   "order_id": "paper-1088-1794706084",
+   "price": "0.7300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8800",
+   "multiplier": "1",
+   "placed": 1794706084.3901,
+   "hedge": [
+    {
+     "ticker": "KXUCLWGAME-26NOV19BARSER-BAR",
+     "limit": "0.1300"
+    }
+   ]
+  },
+  {
+   "event": "KXEFLL1GAME-26NOV14WYWHUD",
+   "series": "KXEFLL1GAME",
+   "title": "Wycombe vs Huddersfield",
+   "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
+   "order_id": "paper-1090-1794707514",
+   "price": "0.4600",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.7900",
+   "multiplier": "1",
+   "placed": 1794707514.4003959,
+   "hedge": [
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
+     "limit": "0.5600"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
+     "limit": "0.7200"
+    }
+   ]
+  }
+ ]
 }

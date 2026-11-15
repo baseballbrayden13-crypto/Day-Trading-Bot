@@ -9259,3 +9259,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 20:16:13,359 INFO Quote KXARGNACBADVANCE-26NOV14GEJALB cancelled (0/2 filled)
 2026-11-14 20:21:16,439 INFO Swept 20776 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-14 20:21:21,889 INFO Stopped; all quotes cancelled.
+2026-11-14 20:22:19,563 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-14 20:28:04,389 INFO PAPER rest NO bid KXUCLWGAME-26NOV19BARSER-TIE at $0.7300 x1 (0 already bid at that price)
+2026-11-14 20:28:04,390 INFO Resting NO bid on KXUCLWGAME-26NOV19BARSER-TIE at $0.7300 x1 (KXUCLWGAME-26NOV19BARSER): locks in $0.12 if it fills; hedge NO BAR@0.1300
+2026-11-14 20:28:04,441 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.2000 x2 (0 already bid at that price)
+2026-11-14 20:28:04,441 INFO Resting NO bid on KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.2000 x2 (KXNCAAHGAME-26NOV14UNOMIA): locks in $0.85 if it fills; hedge NO MIA@0.4000
+2026-11-14 20:28:04,640 INFO Swept 20763 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-14 20:34:03,079 INFO Swept 20751 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 20:40:02,702 INFO Swept 20741 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 20:46:00,329 INFO Swept 20714 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 20:46:00,570 INFO Quote KXNCAAHGAME-26NOV14UNOMIA cancelled (0/2 filled)
+2026-11-14 20:51:54,400 INFO PAPER rest NO bid KXEFLL1GAME-26NOV14WYWHUD-WYW at $0.4600 x1 (0 already bid at that price)
+2026-11-14 20:51:54,400 INFO Resting NO bid on KXEFLL1GAME-26NOV14WYWHUD-WYW at $0.4600 x1 (KXEFLL1GAME-26NOV14WYWHUD): locks in $0.21 if it fills; hedge NO HUD@0.5600, TIE@0.7200
+2026-11-14 20:51:54,616 INFO Swept 20702 events: 0 taker trades, 1 new quotes, 2 resting
