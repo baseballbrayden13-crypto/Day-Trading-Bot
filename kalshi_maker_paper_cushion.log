@@ -2427,3 +2427,30 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 21:23:19,379 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14MASBC-MAS at $0.3200 x2 (0 already bid at that price)
 2026-11-14 21:23:19,379 INFO Resting NO bid on KXNCAAHGAME-26NOV14MASBC-MAS at $0.3200 x2 (KXNCAAHGAME-26NOV14MASBC): locks in $0.61 if it fills; hedge NO BC@0.4000
 2026-11-14 21:23:19,381 INFO Swept 20681 events: 0 taker trades, 1 new quotes, 5 resting
+2026-11-14 21:28:19,102 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:28:22,537 INFO PAPER rest NO bid KXNCAAF2H-26NOV14ORSTBSU-TIE at $0.5700 x2 (0 already bid at that price)
+2026-11-14 21:28:22,538 INFO Resting NO bid on KXNCAAF2H-26NOV14ORSTBSU-TIE at $0.5700 x2 (KXNCAAF2H-26NOV14ORSTBSU): locks in $0.45 if it fills; hedge NO BSU@0.9800, ORST@0.2000
+2026-11-14 21:28:22,539 INFO Swept 20689 events: 0 taker trades, 1 new quotes, 6 resting
+2026-11-14 21:28:22,849 INFO Quote KXNCAAHGAME-26NOV14MNSBEM cancelled (0/2 filled)
+2026-11-14 21:28:34,693 INFO Quote KXNCAAF2H-26NOV14ORSTBSU cancelled (0/2 filled)
+2026-11-14 21:33:21,123 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:33:24,694 INFO PAPER rest NO bid KXTESTMATCH-26NOV120300IREAZIMA-TIE at $0.1200 x4 (0 already bid at that price)
+2026-11-14 21:33:24,694 INFO Resting NO bid on KXTESTMATCH-26NOV120300IREAZIMA-TIE at $0.1200 x4 (KXTESTMATCH-26NOV120300IREAZIMA): locks in $0.26 if it fills; hedge NO IREA@0.8000
+2026-11-14 21:33:24,756 INFO PAPER rest NO bid KXLUBGAME-26NOV141930GOELAR-LAR at $0.1200 x2 (0 already bid at that price)
+2026-11-14 21:33:24,756 INFO Resting NO bid on KXLUBGAME-26NOV141930GOELAR-LAR at $0.1200 x2 (KXLUBGAME-26NOV141930GOELAR): locks in $1.22 if it fills; hedge NO GOE@0.2500
+2026-11-14 21:33:24,757 INFO Swept 20702 events: 0 taker trades, 2 new quotes, 6 resting
+2026-11-14 21:38:23,657 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:38:26,740 INFO PAPER rest NO bid KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at $0.7100 x4 (0 already bid at that price)
+2026-11-14 21:38:26,741 INFO Resting NO bid on KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at $0.7100 x4 (KXCONCACAFNLADVANCE-26NOV17SLVSMA): locks in $0.33 if it fills; hedge NO SLV@0.1900
+2026-11-14 21:38:26,742 INFO Swept 20690 events: 0 taker trades, 1 new quotes, 6 resting
+2026-11-14 21:38:27,365 INFO Quote KXLUBGAME-26NOV141930GOELAR cancelled (0/2 filled)
+2026-11-14 21:43:24,830 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:43:27,550 INFO PAPER rest NO bid KXNCAAF1H-26NOV14EWUUTU-TIE at $0.6100 x1 (0 already bid at that price)
+2026-11-14 21:43:27,550 INFO Resting NO bid on KXNCAAF1H-26NOV14EWUUTU-TIE at $0.6100 x1 (KXNCAAF1H-26NOV14EWUUTU): locks in $0.31 if it fills; hedge NO UTU@0.7800, EWU@0.2500
+2026-11-14 21:43:27,552 INFO Swept 20651 events: 0 taker trades, 1 new quotes, 5 resting
+2026-11-14 21:43:27,804 INFO Quote KXNCAAHGAME-26NOV14MASBC cancelled (0/2 filled)
+2026-11-14 21:43:27,993 INFO Quote KXTESTMATCH-26NOV120300IREAZIMA cancelled (0/4 filled)
+2026-11-14 21:48:24,823 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:48:27,822 INFO Swept 20595 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 21:53:27,069 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:53:29,767 INFO Swept 20573 events: 0 taker trades, 0 new quotes, 2 resting
