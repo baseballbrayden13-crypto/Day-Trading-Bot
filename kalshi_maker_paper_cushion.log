@@ -2706,3 +2706,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 08:59:48,599 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-15 08:59:50,942 INFO Swept 20180 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 09:04:52,383 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 09:04:54,509 INFO Swept 20179 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 09:09:55,045 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 09:09:57,350 INFO Swept 20188 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 09:14:57,855 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 09:14:59,979 INFO Swept 20186 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 09:20:02,554 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 09:20:04,619 INFO Swept 20196 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 09:25:06,896 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 09:25:09,283 INFO PAPER rest NO bid KXNBBGAME-26NOV131730UNIFCRU-UNIF at $0.4600 x4 (20 already bid at that price)
+2026-11-15 09:25:09,283 INFO Resting NO bid on KXNBBGAME-26NOV131730UNIFCRU-UNIF at $0.46 x4 (KXNBBGAME-26NOV131730UNIFCRU): locks in $0.23 if it fills; hedge NO CRU@0.4600
+2026-11-15 09:25:09,285 INFO Swept 20189 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 09:30:07,525 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 09:30:09,603 INFO Swept 20180 events: 0 taker trades, 0 new quotes, 1 resting
