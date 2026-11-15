@@ -1,18 +1,22 @@
 {
+ "6|errors": {
+  "days": 1,
+  "last": "2026-11-15"
+ },
  "7|missed hedges": {
-  "days": 10,
-  "last": "2026-11-14"
+  "days": 11,
+  "last": "2026-11-15"
  },
  "7|errors": {
-  "days": 1,
-  "last": "2026-11-14"
+  "days": 2,
+  "last": "2026-11-15"
  },
  "9|missed hedges": {
-  "days": 4,
-  "last": "2026-11-14"
+  "days": 5,
+  "last": "2026-11-15"
  },
  "9|errors": {
-  "days": 4,
-  "last": "2026-11-14"
+  "days": 5,
+  "last": "2026-11-15"
  }
 }
