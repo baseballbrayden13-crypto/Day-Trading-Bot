@@ -2908,3 +2908,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 17:06:52,556 INFO PAPER rest NO bid KXARGNACBADVANCE-26NOV14DMAMAI-MAI at $0.7400 x5 (0 already bid at that price)
 2026-11-15 17:06:52,556 INFO Resting NO bid on KXARGNACBADVANCE-26NOV14DMAMAI-MAI at $0.7400 x5 (KXARGNACBADVANCE-26NOV14DMAMAI): locks in $0.27 if it fills; hedge NO DMA@0.1900
 2026-11-15 17:06:52,557 INFO Swept 18963 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 17:11:43,174 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:11:44,502 INFO Swept 18951 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 17:11:44,558 INFO Quote KXLVBPGAME-26NOV151200ARAMAR cancelled (0/4 filled)
+2026-11-15 17:16:42,559 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:16:43,893 INFO Swept 18938 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:21:43,626 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:21:44,980 INFO Swept 18948 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:26:43,134 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:26:44,568 INFO Swept 18933 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:31:41,921 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:31:43,290 INFO Swept 18925 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:36:42,292 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:36:43,661 INFO Swept 18920 events: 0 taker trades, 0 new quotes, 1 resting
