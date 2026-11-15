@@ -9534,3 +9534,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 15:26:09,154 INFO Swept 19627 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-15 15:31:18,886 INFO Swept 19625 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-15 15:36:17,669 INFO Swept 19601 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 15:41:28,318 INFO PAPER rest NO bid KXNFL1HFT-26NOV15MINGB-MINGB at $0.8100 x1 (0 already bid at that price)
+2026-11-15 15:41:28,319 INFO Resting NO bid on KXNFL1HFT-26NOV15MINGB-MINGB at $0.8100 x1 (KXNFL1HFT-26NOV15MINGB): locks in $0.14 if it fills; hedge NO MINMIN@0.0300
+2026-11-15 15:41:28,491 INFO Swept 19556 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 15:46:25,206 INFO Swept 19543 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 15:51:25,105 INFO Swept 19534 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 15:56:31,708 INFO PAPER rest NO bid KXNFL2H-26NOV15MINGB-TIE at $0.7800 x2 (0 already bid at that price)
+2026-11-15 15:56:31,708 INFO Resting NO bid on KXNFL2H-26NOV15MINGB-TIE at $0.7800 x2 (KXNFL2H-26NOV15MINGB): locks in $0.34 if it fills; hedge NO MIN@0.0400
+2026-11-15 15:56:31,879 INFO Swept 19512 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 16:01:32,758 INFO PAPER rest NO bid KXNFL2H-26NOV15KCATL-TIE at $0.3600 x2 (0 already bid at that price)
+2026-11-15 16:01:32,758 INFO Resting NO bid on KXNFL2H-26NOV15KCATL-TIE at $0.3600 x2 (KXNFL2H-26NOV15KCATL): locks in $1.09 if it fills; hedge NO KC@0.0800
+2026-11-15 16:01:32,962 INFO Swept 19510 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-15 16:06:30,307 INFO Swept 19491 events: 0 taker trades, 0 new quotes, 3 resting
