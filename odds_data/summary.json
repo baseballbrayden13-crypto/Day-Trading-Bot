@@ -1,19 +1,18 @@
 {
- "updated": "2026-11-15T17:48:20+00:00",
+ "updated": "2026-11-15T22:56:04+00:00",
  "scan": {
   "sports": [
    "americanfootball_nfl",
    "basketball_nba",
    "icehockey_nhl",
-   "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 66,
-  "kalshi_matched": 58,
+  "games": 43,
+  "kalshi_matched": 35,
   "skipped": [],
-  "pinnacle": 54,
-  "credits_left": 385,
-  "spent_today": 5,
+  "pinnacle": 17,
+  "credits_left": 375,
+  "spent_today": 9,
   "allowance": 24
  },
  "new_finds": [],
