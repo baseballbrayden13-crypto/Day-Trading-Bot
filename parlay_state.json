@@ -38,6 +38,54 @@
    "pays": "-135",
    "per_dollar": 1.74,
    "opened": "2026-11-15T11:08:07+00:00"
+  },
+  {
+   "kind": "game",
+   "game": "Los Angeles Lakers vs Phoenix Suns",
+   "start": "2026-11-15T21:10:00Z",
+   "legs": [
+    {
+     "label": "Los Angeles Lakers to win",
+     "ticker": "KXNBAGAME-26NOV15LALPHX-LAL",
+     "side": "yes",
+     "price": 0.6,
+     "fair": 0.5914,
+     "value": -0.0256,
+     "player": ""
+    },
+    {
+     "label": "Jake LaRavia 4+ rebounds",
+     "ticker": "KXNBAREB-26NOV15LALPHX-LALJLARAVIA12-4",
+     "side": "yes",
+     "price": 0.59,
+     "fair": 0.6545,
+     "value": 0.0475,
+     "player": "Jake LaRavia"
+    },
+    {
+     "label": "Jalen Green 10+ points",
+     "ticker": "KXNBAPTS-26NOV15LALPHX-PHXJGREEN4-10",
+     "side": "yes",
+     "price": 0.71,
+     "fair": 0.7629,
+     "value": 0.0379,
+     "player": "Jalen Green"
+    },
+    {
+     "label": "Dillon Brooks 15+ points",
+     "ticker": "KXNBAPTS-26NOV15LALPHX-PHXDBROOKS3-15",
+     "side": "yes",
+     "price": 0.55,
+     "fair": 0.5827,
+     "value": 0.0147,
+     "player": "Dillon Brooks"
+    }
+   ],
+   "price": 0.1542,
+   "fair": 0.1721,
+   "pays": "+548",
+   "per_dollar": 6.48,
+   "opened": "2026-11-15T17:48:26+00:00"
   }
  ],
  "seen": {
@@ -49,6 +97,7 @@
   "favorites|Favorites across games|2026-11-14": "2026-11-14T06:38:10.703824+00:00",
   "game|Denver Nuggets vs New Orleans Pelicans|2026-11-15": "2026-11-14T14:15:16.369494+00:00",
   "game|Cleveland Cavaliers vs Dallas Mavericks|2026-11-15": "2026-11-14T14:15:16.369494+00:00",
-  "favorites|Favorites across games|2026-11-15": "2026-11-15T11:08:07.342823+00:00"
+  "favorites|Favorites across games|2026-11-15": "2026-11-15T11:08:07.342823+00:00",
+  "game|Los Angeles Lakers vs Phoenix Suns|2026-11-15": "2026-11-15T17:48:26.279841+00:00"
  }
 }

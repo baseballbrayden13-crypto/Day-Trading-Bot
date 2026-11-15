@@ -133,3 +133,58 @@ time,sport,game,stat,player,line,match,book_line,books,fair_yes,yes_ask,no_ask,t
 2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,Cooper Flagg,5.5,near,6.5,6,0.5891,0.61,0.43,KXNBAAST-26NOV14DALCLE-DALCFLAGG32-6
 2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,P.J. Washington,1.5,exact,1.5,5,0.4372,0.45,0.59,KXNBAAST-26NOV14DALCLE-DALPWASHINGTON25-2
 2026-11-14T14:15:15+00:00,basketball_nba,Dallas Mavericks at Cleveland Cavaliers,player_assists,Kyrie Irving,3.5,near,4.5,6,0.6387,0.63,0.41,KXNBAAST-26NOV14DALCLE-DALKIRVING11-4
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_points,Jaylen Brown,19.5,near,23.5,7,0.6935,0.7,0.32,KXNBAPTS-26NOV15INDPHI-PHIJBROWN7-20
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_points,LeBron James,14.5,near,18.5,6,0.728,0.71,0.33,KXNBAPTS-26NOV15INDPHI-PHILJAMES23-15
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_points,LeBron James,14.5,near,17.5,3,0.7076,0.71,0.33,KXNBAPTS-26NOV15INDPHI-PHILJAMES23-15
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_points,Kentavious Caldwell-Pope,4.5,near,5.5,7,0.7092,0.6,0.43,KXNBAPTS-26NOV15INDPHI-PHIKCALDWELLPOPE1-5
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_points,Tyrese Maxey,24.5,near,26.5,8,0.5807,0.59,0.42,KXNBAPTS-26NOV15INDPHI-PHITMAXEY0-25
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_points,Anfernee Simons,9.5,near,10.5,6,0.6319,0.58,0.44,KXNBAPTS-26NOV15INDPHI-PHIASIMONS5-10
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_points,Anfernee Simons,9.5,near,11.5,3,0.6799,0.58,0.44,KXNBAPTS-26NOV15INDPHI-PHIASIMONS5-10
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_points,Pascal Siakam,19.5,near,21.5,8,0.62,0.61,0.4,KXNBAPTS-26NOV15INDPHI-INDPSIAKAM43-20
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_points,Aaron Nesmith,9.5,near,12.5,3,0.7815,0.73,0.31,KXNBAPTS-26NOV15INDPHI-INDANESMITH23-10
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_points,Obi Toppin,9.5,near,10.5,6,0.5956,0.55,0.46,KXNBAPTS-26NOV15INDPHI-INDOTOPPIN1-10
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_rebounds,VJ Edgecombe,5.5,near,6.5,7,0.6145,0.59,0.43,KXNBAREB-26NOV15INDPHI-PHIVEDGECOMBE77-6
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_rebounds,Jaylen Brown,5.5,near,6.5,8,0.6735,0.65,0.38,KXNBAREB-26NOV15INDPHI-PHIJBROWN7-6
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_rebounds,LeBron James,5.5,near,6.5,8,0.6908,0.68,0.33,KXNBAREB-26NOV15INDPHI-PHILJAMES23-6
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_rebounds,Tyrese Maxey,3.5,exact,3.5,8,0.5087,0.53,0.48,KXNBAREB-26NOV15INDPHI-PHITMAXEY0-4
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_rebounds,Pascal Siakam,5.5,exact,5.5,5,0.5648,0.57,0.44,KXNBAREB-26NOV15INDPHI-INDPSIAKAM43-6
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_rebounds,Pascal Siakam,5.5,near,6.5,4,0.5953,0.57,0.44,KXNBAREB-26NOV15INDPHI-INDPSIAKAM43-6
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_rebounds,Aaron Nesmith,3.5,exact,3.5,7,0.4734,0.48,0.53,KXNBAREB-26NOV15INDPHI-INDANESMITH23-4
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_rebounds,Ivica Zubac,9.5,near,10.5,8,0.5701,0.56,0.45,KXNBAREB-26NOV15INDPHI-INDIZUBAC40-10
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_rebounds,Obi Toppin,3.5,exact,3.5,7,0.5426,0.53,0.48,KXNBAREB-26NOV15INDPHI-INDOTOPPIN1-4
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_rebounds,Jabari Walker,5.5,near,6.5,5,0.611,0.59,0.42,KXNBAREB-26NOV15INDPHI-PHIJWALKER33-6
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_assists,VJ Edgecombe,3.5,exact,3.5,4,0.3998,0.4,0.61,KXNBAAST-26NOV15INDPHI-PHIVEDGECOMBE77-4
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_assists,Jaylen Brown,3.5,exact,3.5,8,0.5615,0.56,0.45,KXNBAAST-26NOV15INDPHI-PHIJBROWN7-4
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_assists,LeBron James,5.5,near,6.5,8,0.673,0.68,0.34,KXNBAAST-26NOV15INDPHI-PHILJAMES23-6
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_assists,Tyrese Maxey,5.5,exact,5.5,8,0.4346,0.42,0.59,KXNBAAST-26NOV15INDPHI-PHITMAXEY0-6
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_assists,Anfernee Simons,1.5,exact,1.5,6,0.4906,0.5,0.52,KXNBAAST-26NOV15INDPHI-PHIASIMONS5-2
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_assists,Pascal Siakam,3.5,exact,3.5,3,0.5714,0.56,0.45,KXNBAAST-26NOV15INDPHI-INDPSIAKAM43-4
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_assists,Pascal Siakam,3.5,near,4.5,6,0.6172,0.56,0.45,KXNBAAST-26NOV15INDPHI-INDPSIAKAM43-4
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_assists,Aaron Nesmith,1.5,exact,1.5,7,0.4893,0.52,0.49,KXNBAAST-26NOV15INDPHI-INDANESMITH23-2
+2026-11-15T17:48:25+00:00,basketball_nba,Indiana Pacers at Philadelphia 76ers,player_assists,Ivica Zubac,1.5,exact,1.5,6,0.5979,0.61,0.41,KXNBAAST-26NOV15INDPHI-INDIZUBAC40-2
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Devin Booker,24.5,exact,24.5,7,0.5,0.52,0.49,KXNBAPTS-26NOV15LALPHX-PHXDBOOKER15-25
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Collin Gillespie,9.5,exact,9.5,5,0.4681,0.47,0.54,KXNBAPTS-26NOV15LALPHX-PHXCGILLESPIE12-10
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Dillon Brooks,14.5,near,15.5,7,0.5827,0.55,0.46,KXNBAPTS-26NOV15LALPHX-PHXDBROOKS3-15
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Jalen Green,9.5,near,12.5,8,0.7629,0.71,0.33,KXNBAPTS-26NOV15LALPHX-PHXJGREEN4-10
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Miles Bridges,14.5,exact,14.5,3,0.467,0.46,0.55,KXNBAPTS-26NOV15LALPHX-PHXMBRIDGES22-15
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Sandro Mamukelashvili,9.5,near,11.5,4,0.688,0.62,0.4,KXNBAPTS-26NOV15LALPHX-LALSMAMUKELASHVILI54-10
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Sandro Mamukelashvili,9.5,near,10.5,5,0.6403,0.62,0.4,KXNBAPTS-26NOV15LALPHX-LALSMAMUKELASHVILI54-10
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Quentin Grimes,9.5,near,12.5,6,0.7567,0.69,0.32,KXNBAPTS-26NOV15LALPHX-LALQGRIMES5-10
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Quentin Grimes,9.5,near,11.5,3,0.7181,0.69,0.32,KXNBAPTS-26NOV15LALPHX-LALQGRIMES5-10
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Collin Sexton,14.5,exact,14.5,5,0.4681,0.46,0.55,KXNBAPTS-26NOV15LALPHX-LALCSEXTON10-15
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_points,Walker Kessler,14.5,exact,14.5,5,0.4474,0.46,0.55,KXNBAPTS-26NOV15LALPHX-LALWKESSLER14-15
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Sandro Mamukelashvili,3.5,near,4.5,8,0.7271,0.7,0.33,KXNBAREB-26NOV15LALPHX-LALSMAMUKELASHVILI54-4
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Quentin Grimes,3.5,exact,3.5,6,0.4087,0.41,0.6,KXNBAREB-26NOV15LALPHX-LALQGRIMES5-4
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Jake LaRavia,3.5,exact,3.5,3,0.5861,0.59,0.42,KXNBAREB-26NOV15LALPHX-LALJLARAVIA12-4
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Jake LaRavia,3.5,near,4.5,5,0.6545,0.59,0.42,KXNBAREB-26NOV15LALPHX-LALJLARAVIA12-4
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Walker Kessler,11.5,exact,11.5,8,0.4614,0.47,0.55,KXNBAREB-26NOV15LALPHX-LALWKESSLER14-12
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Oso Ighodaro,5.5,exact,5.5,7,0.4485,0.47,0.54,KXNBAREB-26NOV15LALPHX-PHXOIGHODARO11-6
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Devin Booker,3.5,exact,3.5,4,0.4087,0.41,0.6,KXNBAREB-26NOV15LALPHX-PHXDBOOKER15-4
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Dillon Brooks,3.5,exact,3.5,8,0.4529,0.46,0.55,KXNBAREB-26NOV15LALPHX-PHXDBROOKS3-4
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Jalen Green,3.5,exact,3.5,5,0.4087,0.42,0.59,KXNBAREB-26NOV15LALPHX-PHXJGREEN4-4
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Miles Bridges,5.5,exact,5.5,7,0.5291,0.54,0.47,KXNBAREB-26NOV15LALPHX-PHXMBRIDGES22-6
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_rebounds,Khaman Maluach,5.5,exact,5.5,6,0.5047,0.51,0.5,KXNBAREB-26NOV15LALPHX-PHXKMALUACH10-6
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_assists,Walker Kessler,1.5,exact,1.5,7,0.5013,0.52,0.49,KXNBAAST-26NOV15LALPHX-LALWKESSLER14-2
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_assists,Devin Booker,5.5,exact,5.5,7,0.4263,0.43,0.58,KXNBAAST-26NOV15LALPHX-PHXDBOOKER15-6
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_assists,Collin Gillespie,3.5,exact,3.5,8,0.466,0.47,0.54,KXNBAAST-26NOV15LALPHX-PHXCGILLESPIE12-4
+2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_assists,Dillon Brooks,1.5,exact,1.5,6,0.6059,0.6,0.41,KXNBAAST-26NOV15LALPHX-PHXDBROOKS3-2

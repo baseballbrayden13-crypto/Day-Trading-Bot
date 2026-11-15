@@ -1,5 +1,48 @@
 {
- "open": [],
+ "open": [
+  {
+   "time": "2026-11-15T17:48:25+00:00",
+   "sport": "basketball_nba",
+   "game": "Indiana Pacers at Philadelphia 76ers",
+   "stat": "player_points",
+   "player": "Kentavious Caldwell-Pope",
+   "line": 4.5,
+   "match": "near",
+   "book_line": 5.5,
+   "books": 7,
+   "fair_yes": 0.7092,
+   "yes_ask": 0.6,
+   "no_ask": 0.43,
+   "ticker": "KXNBAPTS-26NOV15INDPHI-PHIKCALDWELLPOPE1-5",
+   "side": "yes",
+   "price": 0.6,
+   "fair": 0.7092,
+   "edge": 0.0922,
+   "contracts": 3,
+   "opened": "2026-11-15T17:48:25+00:00"
+  },
+  {
+   "time": "2026-11-15T17:48:25+00:00",
+   "sport": "basketball_nba",
+   "game": "Indiana Pacers at Philadelphia 76ers",
+   "stat": "player_points",
+   "player": "Anfernee Simons",
+   "line": 9.5,
+   "match": "near",
+   "book_line": 11.5,
+   "books": 3,
+   "fair_yes": 0.6799,
+   "yes_ask": 0.58,
+   "no_ask": 0.44,
+   "ticker": "KXNBAPTS-26NOV15INDPHI-PHIASIMONS5-10",
+   "side": "yes",
+   "price": 0.58,
+   "fair": 0.6799,
+   "edge": 0.0819,
+   "contracts": 3,
+   "opened": "2026-11-15T17:48:25+00:00"
+  }
+ ],
  "priced": {
   "d5c5ae8d56762b45d1ec4b85337878f3": "2026-11-12T20:32:53.084470+00:00",
   "a98ff1ab79feb59277d989c656f16144": "2026-11-12T20:32:53.084470+00:00",
@@ -7,13 +50,19 @@
   "6669b911691463c669a5c10574742e8e": "2026-11-13T17:50:36.551540+00:00",
   "76416359b5453c01968e94702a375f16": "2026-11-13T17:50:36.551540+00:00",
   "6cb4c8feeadd57aa6ab46ebdee60818a": "2026-11-14T14:15:15.596705+00:00",
-  "2cc2c254049b0bd0a6219f70cbb0b69a": "2026-11-14T14:15:15.596705+00:00"
+  "2cc2c254049b0bd0a6219f70cbb0b69a": "2026-11-14T14:15:15.596705+00:00",
+  "de475830b5df0d1aae4fcd8f9bbaead9": "2026-11-15T17:48:25.013123+00:00",
+  "29b8bbf05645162d89780189eed390c2": "2026-11-15T17:48:25.013123+00:00"
  },
- "bet": {},
+ "bet": {
+  "KXNBAPTS-26NOV15INDPHI-PHIKCALDWELLPOPE1-5": "2026-11-15T17:48:25.013123+00:00",
+  "KXNBAPTS-26NOV15INDPHI-PHIASIMONS5-10": "2026-11-15T17:48:25.013123+00:00"
+ },
  "credits": {
   "2026-11-11": 0,
   "2026-11-12": 12,
   "2026-11-13": 6,
-  "2026-11-14": 6
+  "2026-11-14": 6,
+  "2026-11-15": 6
  }
 }

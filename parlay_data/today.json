@@ -1,46 +1,122 @@
 {
- "updated": "2026-11-15T11:08:07+00:00",
+ "updated": "2026-11-15T17:48:26+00:00",
  "parlays": [
+  {
+   "kind": "game",
+   "game": "Los Angeles Lakers vs Phoenix Suns",
+   "start": "2026-11-15T21:10:00Z",
+   "legs": [
+    {
+     "label": "Los Angeles Lakers to win",
+     "ticker": "KXNBAGAME-26NOV15LALPHX-LAL",
+     "side": "yes",
+     "price": 0.6,
+     "fair": 0.5914,
+     "value": -0.0256,
+     "player": ""
+    },
+    {
+     "label": "Jake LaRavia 4+ rebounds",
+     "ticker": "KXNBAREB-26NOV15LALPHX-LALJLARAVIA12-4",
+     "side": "yes",
+     "price": 0.59,
+     "fair": 0.6545,
+     "value": 0.0475,
+     "player": "Jake LaRavia"
+    },
+    {
+     "label": "Jalen Green 10+ points",
+     "ticker": "KXNBAPTS-26NOV15LALPHX-PHXJGREEN4-10",
+     "side": "yes",
+     "price": 0.71,
+     "fair": 0.7629,
+     "value": 0.0379,
+     "player": "Jalen Green"
+    },
+    {
+     "label": "Dillon Brooks 15+ points",
+     "ticker": "KXNBAPTS-26NOV15LALPHX-PHXDBROOKS3-15",
+     "side": "yes",
+     "price": 0.55,
+     "fair": 0.5827,
+     "value": 0.0147,
+     "player": "Dillon Brooks"
+    }
+   ],
+   "price": 0.1542,
+   "fair": 0.1721,
+   "pays": "+548",
+   "per_dollar": 6.48
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "Los Angeles Lakers vs Phoenix Suns",
+   "start": "2026-11-15T21:10:00Z",
+   "legs": [
+    {
+     "label": "Jalen Green 10+ points",
+     "ticker": "KXNBAPTS-26NOV15LALPHX-PHXJGREEN4-10",
+     "side": "yes",
+     "price": 0.71,
+     "fair": 0.7629,
+     "value": 0.0379,
+     "player": "Jalen Green"
+    },
+    {
+     "label": "Jake LaRavia 4+ rebounds",
+     "ticker": "KXNBAREB-26NOV15LALPHX-LALJLARAVIA12-4",
+     "side": "yes",
+     "price": 0.59,
+     "fair": 0.6545,
+     "value": 0.0475,
+     "player": "Jake LaRavia"
+    }
+   ],
+   "price": 0.4401,
+   "fair": 0.4993,
+   "pays": "+127",
+   "per_dollar": 2.27
+  },
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-16T00:10:00Z",
+   "start": "2026-11-16T01:10:00Z",
    "legs": [
     {
-     "label": "Rhode Island Rams to win",
-     "ticker": "KXNCAAMBGAME-26NOV15PRINURI-URI",
+     "label": "Saint Louis Billikens to win",
+     "ticker": "KXNCAAMBGAME-26NOV15HPSLU-SLU",
      "side": "yes",
-     "price": 0.77,
-     "fair": 0.771,
-     "value": -0.012,
+     "price": 0.73,
+     "fair": 0.7332,
+     "value": -0.0108,
      "player": ""
     },
     {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV15SASUTA-SAS",
+     "label": "Atlanta Hawks to win",
+     "ticker": "KXNBAGAME-26NOV15ATLMIL-ATL",
      "side": "yes",
-     "price": 0.92,
-     "fair": 0.9121,
-     "value": -0.0139,
+     "price": 0.73,
+     "fair": 0.7322,
+     "value": -0.0118,
      "player": ""
     },
     {
-     "label": "Houston Rockets to win",
-     "ticker": "KXNBAGAME-26NOV15HOUWAS-HOU",
+     "label": "Louisville Cardinals to win",
+     "ticker": "KXNCAAMBGAME-26NOV15LOUMEM-LOU",
      "side": "yes",
-     "price": 0.78,
-     "fair": 0.7779,
-     "value": -0.0151,
+     "price": 0.8,
+     "fair": 0.7965,
+     "value": -0.0155,
      "player": ""
     }
    ],
-   "price": 0.575,
-   "fair": 0.547,
-   "pays": "-135",
-   "per_dollar": 1.74
+   "price": 0.4495,
+   "fair": 0.4276,
+   "pays": "+122",
+   "per_dollar": 2.22
   }
  ],
- "open_pretend": 1,
+ "open_pretend": 2,
  "record": {
   "parlays": 8,
   "won": 1,
