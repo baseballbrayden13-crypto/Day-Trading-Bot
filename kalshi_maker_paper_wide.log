@@ -9428,3 +9428,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 08:24:05,937 INFO Quote KXCONCACAFNLADVANCE-26NOV16CANGTM cancelled (0/3 filled)
 2026-11-15 08:29:10,730 INFO Swept 20191 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-15 08:34:14,253 INFO Swept 20193 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 08:39:20,435 INFO Swept 20189 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 08:44:18,560 INFO PAPER rest NO bid KXNBBGAME-26NOV131730UNIFCRU-UNIF at $0.4800 x3 (3 already bid at that price)
+2026-11-15 08:44:18,560 INFO Resting NO bid on KXNBBGAME-26NOV131730UNIFCRU-UNIF at $0.48 x3 (KXNBBGAME-26NOV131730UNIFCRU): locks in $0.10 if it fills; hedge NO CRU@0.4600
+2026-11-15 08:44:18,601 INFO Swept 20185 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 08:49:26,338 INFO Swept 20185 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 08:54:22,230 INFO Swept 20184 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 08:59:24,467 INFO Swept 20180 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 09:04:26,955 INFO Swept 20179 events: 0 taker trades, 0 new quotes, 1 resting
