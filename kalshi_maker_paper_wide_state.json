@@ -2754,36 +2754,17 @@
    "series": "KXARGNACBADVANCE",
    "title": "Madryn vs Maipu",
    "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-MAI",
-   "order_id": "paper-1122-1794777388",
-   "price": "0.74",
-   "sets": 2,
+   "order_id": "paper-1124-1794779482",
+   "price": "0.7300",
+   "sets": 3,
    "done": 0,
-   "reserve": "1.9000",
+   "reserve": "2.8200",
    "multiplier": "1",
-   "placed": 1794777388.940261,
+   "placed": 1794779482.9963624,
    "hedge": [
     {
      "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-DMA",
      "limit": "0.1900"
-    }
-   ]
-  },
-  {
-   "event": "KXLVBPGAME-26NOV151200ARAMAR",
-   "series": "KXLVBPGAME",
-   "title": "Tigres de Aragua vs Bravos de Margarita",
-   "ticker": "KXLVBPGAME-26NOV151200ARAMAR-MAR",
-   "order_id": "paper-1123-1794778299",
-   "price": "0.5000",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.6000",
-   "multiplier": "1",
-   "placed": 1794778299.5434759,
-   "hedge": [
-    {
-     "ticker": "KXLVBPGAME-26NOV151200ARAMAR-ARA",
-     "limit": "0.3000"
     }
    ]
   }
