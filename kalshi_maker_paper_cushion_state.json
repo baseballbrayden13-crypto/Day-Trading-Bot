@@ -54,6 +54,24 @@
      "limit": "0.28"
     }
    ]
+  },
+  {
+   "event": "KXBBSERIEA2GAME-26NOV151200BASCRE (stray)",
+   "series": "KXBBSERIEA2GAME",
+   "title": "Basket Mestre 1958 vs Juvi Cremona 1952",
+   "sets": 0,
+   "outlay": "0.0800",
+   "locked_profit": "0",
+   "opened": "2026-11-15T18:36:00.777931+00:00",
+   "legs": [
+    {
+     "ticker": "KXBBSERIEA2GAME-26NOV151200BASCRE-BAS",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0700"
+    }
+   ],
+   "retried": 1794767760.8076398
   }
  ],
  "closed": [
@@ -320,5 +338,25 @@
    "closed": "2026-11-15T05:39:49.600040+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLVBPGAME-26NOV151200ARAMAR",
+   "series": "KXLVBPGAME",
+   "title": "Tigres de Aragua vs Bravos de Margarita",
+   "ticker": "KXLVBPGAME-26NOV151200ARAMAR-ARA",
+   "order_id": "paper-173-1794767745",
+   "price": "0.1000",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.4900",
+   "multiplier": "1",
+   "placed": 1794767745.5363393,
+   "hedge": [
+    {
+     "ticker": "KXLVBPGAME-26NOV151200ARAMAR-MAR",
+     "limit": "0.6200"
+    }
+   ]
+  }
+ ]
 }

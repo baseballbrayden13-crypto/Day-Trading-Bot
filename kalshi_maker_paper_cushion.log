@@ -2762,3 +2762,33 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 10:50:45,807 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-15 10:50:48,111 INFO Swept 20138 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 10:50:53,227 INFO Stopped; all quotes cancelled.
+2026-11-15 13:06:21,248 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-15 13:10:35,076 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 13:10:36,523 INFO Swept 20000 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 13:15:47,058 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 13:15:48,437 INFO Swept 19992 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 13:20:38,116 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 13:20:39,543 INFO PAPER rest NO bid KXSERIECGAME-26NOV15BRTALT-TIE at $0.7200 x2 (0 already bid at that price)
+2026-11-15 13:20:39,543 INFO Resting NO bid on KXSERIECGAME-26NOV15BRTALT-TIE at $0.7200 x2 (KXSERIECGAME-26NOV15BRTALT): locks in $0.40 if it fills; hedge NO BRT@0.0700
+2026-11-15 13:20:39,559 INFO PAPER rest NO bid KXNCAAMBRACE-26NOV15LOUMEM-10-MEM at $0.4400 x2 (0 already bid at that price)
+2026-11-15 13:20:39,559 INFO Resting NO bid on KXNCAAMBRACE-26NOV15LOUMEM-10-MEM at $0.4400 x2 (KXNCAAMBRACE-26NOV15LOUMEM-10): locks in $0.27 if it fills; hedge NO LOU@0.4000
+2026-11-15 13:20:39,560 INFO Swept 19999 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-15 13:20:44,671 INFO Quote KXSERIECGAME-26NOV15BRTALT cancelled (0/2 filled)
+2026-11-15 13:25:47,475 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 13:25:48,929 INFO Swept 19982 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 13:30:42,938 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 13:30:44,348 INFO PAPER rest NO bid KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at $0.0700 x1 (0 already bid at that price)
+2026-11-15 13:30:44,348 INFO Resting NO bid on KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at $0.0700 x1 (KXBBSERIEA2GAME-26NOV151200BASCRE): locks in $0.22 if it fills; hedge NO CRE@0.6800
+2026-11-15 13:30:44,349 INFO Swept 19966 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 13:30:44,405 INFO Quote KXNCAAMBRACE-26NOV15LOUMEM-10 cancelled (0/2 filled)
+2026-11-15 13:35:44,112 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 13:35:45,536 INFO PAPER rest NO bid KXLVBPGAME-26NOV151200ARAMAR-ARA at $0.1000 x2 (0 already bid at that price)
+2026-11-15 13:35:45,536 INFO Resting NO bid on KXLVBPGAME-26NOV151200ARAMAR-ARA at $0.1000 x2 (KXLVBPGAME-26NOV151200ARAMAR): locks in $0.51 if it fills; hedge NO MAR@0.6200
+2026-11-15 13:35:45,537 INFO Swept 19927 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 13:36:00,735 INFO PAPER KXBBSERIEA2GAME-26NOV151200BASCRE-BAS NO bid at $0.0700: 1/1 filled by real trades
+2026-11-15 13:36:00,751 INFO PAPER buy 1 NO KXBBSERIEA2GAME-26NOV151200BASCRE-CRE at up to $0.6800: not on the book
+2026-11-15 13:36:00,764 INFO PAPER buy 1 NO KXBBSERIEA2GAME-26NOV151200BASCRE-CRE at up to $0.95: not on the book
+2026-11-15 13:36:00,764 WARNING Quote KXBBSERIEA2GAME-26NOV151200BASCRE: hedge missed on KXBBSERIEA2GAME-26NOV151200BASCRE-CRE. Selling back 1 contracts on 1 legs.
+2026-11-15 13:36:00,777 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.9800: not on the book
+2026-11-15 13:36:00,777 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi.
+2026-11-15 13:36:00,821 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
