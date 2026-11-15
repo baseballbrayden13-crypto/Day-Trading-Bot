@@ -1,5 +1,5 @@
 {
- "realized": "-6.9400",
+ "realized": "-6.9900",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -83,24 +83,6 @@
      "limit": "0.4900"
     }
    ]
-  },
-  {
-   "event": "KXNCAAHGAME-26NOV14UMDSCS (stray)",
-   "series": "KXNCAAHGAME",
-   "title": "Minnesota Duluth vs St. Cloud State",
-   "sets": 0,
-   "outlay": "0.0500",
-   "locked_profit": "0",
-   "opened": "2026-11-15T02:10:01.248152+00:00",
-   "legs": [
-    {
-     "ticker": "KXNCAAHGAME-26NOV14UMDSCS-UMD",
-     "side": "no",
-     "count": 1,
-     "limit": "0.0400"
-    }
-   ],
-   "retried": 1794712915.09217
   }
  ],
  "closed": [
@@ -2716,6 +2698,30 @@
    "pnl": "-0.6900",
    "closed": "2026-11-14T08:48:56.056312+00:00",
    "sold_back": true
+  },
+  {
+   "event": "KXNCAAHGAME-26NOV14UMDSCS (stray)",
+   "series": "KXNCAAHGAME",
+   "title": "Minnesota Duluth vs St. Cloud State",
+   "sets": 0,
+   "outlay": "0.0500",
+   "locked_profit": "0",
+   "opened": "2026-11-15T02:10:01.248152+00:00",
+   "legs": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV14UMDSCS-UMD",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0400"
+    }
+   ],
+   "retried": 1794714316.1479743,
+   "paid": "0",
+   "pnl": "-0.0500",
+   "results": {
+    "KXNCAAHGAME-26NOV14UMDSCS-UMD": "yes"
+   },
+   "closed": "2026-11-15T03:50:56.765635+00:00"
   }
  ],
  "quotes": [
@@ -2724,40 +2730,17 @@
    "series": "KXNCAAF1H",
    "title": "Eastern Washington vs Utah Tech: 1st Half Winner",
    "ticker": "KXNCAAF1H-26NOV14EWUUTU-TIE",
-   "order_id": "paper-1095-1794711146",
-   "price": "0.4200",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.5000",
-   "multiplier": "1",
-   "placed": 1794711146.3190548,
-   "hedge": [
-    {
-     "ticker": "KXNCAAF1H-26NOV14EWUUTU-UTU",
-     "limit": "0.9900"
-    },
-    {
-     "ticker": "KXNCAAF1H-26NOV14EWUUTU-EWU",
-     "limit": "0.2500"
-    }
-   ]
-  },
-  {
-   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA",
-   "series": "KXCONCACAFNLADVANCE",
-   "title": "El Salvador vs Saint Martin",
-   "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
-   "order_id": "paper-1096-1794712214",
-   "price": "0.7100",
+   "order_id": "paper-1097-1794713619",
+   "price": "0.6300",
    "sets": 2,
    "done": 0,
-   "reserve": "1.8400",
+   "reserve": "1.3000",
    "multiplier": "1",
-   "placed": 1794712214.6322567,
+   "placed": 1794713619.6642013,
    "hedge": [
     {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV",
-     "limit": "0.1900"
+     "ticker": "KXNCAAF1H-26NOV14EWUUTU-EWU",
+     "limit": "0.0100"
     }
    ]
   }

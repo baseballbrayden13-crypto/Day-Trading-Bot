@@ -9318,3 +9318,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 22:16:03,814 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
 2026-11-14 22:21:54,910 INFO Swept 20424 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-14 22:21:55,130 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
+2026-11-14 22:27:49,700 INFO Swept 20410 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 22:27:49,887 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
+2026-11-14 22:33:39,664 INFO PAPER rest NO bid KXNCAAF1H-26NOV14EWUUTU-TIE at $0.6300 x2 (0 already bid at that price)
+2026-11-14 22:33:39,664 INFO Resting NO bid on KXNCAAF1H-26NOV14EWUUTU-TIE at $0.6300 x2 (KXNCAAF1H-26NOV14EWUUTU): locks in $0.70 if it fills; hedge NO EWU@0.0100
+2026-11-14 22:33:39,861 INFO Swept 20401 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 22:33:40,080 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
+2026-11-14 22:39:26,069 INFO Swept 20344 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 22:39:26,293 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
+2026-11-14 22:45:15,998 INFO Swept 20323 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 22:45:16,185 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
+2026-11-14 22:50:56,765 INFO Settled KXNCAAHGAME-26NOV14UMDSCS (stray): paid $0, profit $-0.05
+2026-11-14 22:51:00,708 INFO Swept 20314 events: 0 taker trades, 0 new quotes, 1 resting

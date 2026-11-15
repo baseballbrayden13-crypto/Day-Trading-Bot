@@ -15322,12 +15322,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1794711146.3055532,
-  "checked": 1794712914.9108858,
+  "checked": 1794712946,
   "expires": 1794712946,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-1096-1794712214": {
   "id": "paper-1096-1794712214",
@@ -15336,8 +15336,22 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794712214.6200294,
-  "checked": 1794712915.001336,
+  "checked": 1794714014,
   "expires": 1794714014,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-1097-1794713619": {
+  "id": "paper-1097-1794713619",
+  "ticker": "KXNCAAF1H-26NOV14EWUUTU-TIE",
+  "price": "0.6300",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794713619.6520352,
+  "checked": 1794714660.709172,
+  "expires": 1794715419,
   "through": 0,
   "at_price": 0,
   "filled": 0,
