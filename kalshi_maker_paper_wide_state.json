@@ -2700,25 +2700,5 @@
    "sold_back": true
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAHGAME-26NOV14UNOMIA",
-   "series": "KXNCAAHGAME",
-   "title": "Omaha vs Miami",
-   "ticker": "KXNCAAHGAME-26NOV14UNOMIA-UNO",
-   "order_id": "paper-1085-1794704168",
-   "price": "0.0800",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.5500",
-   "multiplier": "1",
-   "placed": 1794704168.3547142,
-   "hedge": [
-    {
-     "ticker": "KXNCAAHGAME-26NOV14UNOMIA-MIA",
-     "limit": "0.6700"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
