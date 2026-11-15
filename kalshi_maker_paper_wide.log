@@ -9330,3 +9330,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 22:45:16,185 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
 2026-11-14 22:50:56,765 INFO Settled KXNCAAHGAME-26NOV14UMDSCS (stray): paid $0, profit $-0.05
 2026-11-14 22:51:00,708 INFO Swept 20314 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 22:56:50,560 INFO PAPER rest NO bid KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at $0.8800 x2 (0 already bid at that price)
+2026-11-14 22:56:50,560 INFO Resting NO bid on KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA at $0.88 x2 (KXCONCACAFNLADVANCE-26NOV17SLVSMA): locks in $0.10 if it fills; hedge NO SLV@0.0600
+2026-11-14 22:56:50,760 INFO Swept 20283 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 23:02:37,559 INFO Swept 20251 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 23:08:28,099 INFO Swept 20219 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 23:14:11,352 INFO Swept 20210 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 23:19:55,887 INFO Swept 20202 events: 0 taker trades, 0 new quotes, 1 resting
