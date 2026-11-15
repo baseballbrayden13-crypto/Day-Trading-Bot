@@ -9357,3 +9357,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 00:41:06,180 INFO Swept 20222 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 00:47:02,986 INFO Swept 20222 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 00:52:49,391 INFO Swept 20239 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 00:58:45,947 INFO PAPER rest NO bid KXCONCACAFNLADVANCE-26NOV17USAHTI-HTI at $0.7100 x3 (22 already bid at that price)
+2026-11-15 00:58:45,947 INFO Resting NO bid on KXCONCACAFNLADVANCE-26NOV17USAHTI-HTI at $0.71 x3 (KXCONCACAFNLADVANCE-26NOV17USAHTI): locks in $0.12 if it fills; hedge NO USA@0.2300
+2026-11-15 00:58:46,687 INFO Swept 20266 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 01:04:42,846 INFO Swept 20247 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 01:10:36,814 INFO Swept 20216 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 01:16:25,867 INFO Swept 20214 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 01:22:15,631 INFO Swept 20206 events: 0 taker trades, 0 new quotes, 1 resting
