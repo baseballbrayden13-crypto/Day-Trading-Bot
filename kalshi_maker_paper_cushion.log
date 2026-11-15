@@ -2507,3 +2507,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 22:48:52,039 INFO Swept 20314 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-14 22:49:17,843 INFO Quote KXNBAPTSLEADER-26NOV14CHIMIN cancelled (0/1 filled)
 2026-11-14 22:53:54,116 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 22:53:56,940 INFO Swept 20289 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 22:58:56,197 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 22:58:59,028 INFO Swept 20272 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 23:03:55,862 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 23:03:58,875 INFO Swept 20243 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 23:09:00,209 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 23:09:03,194 INFO Swept 20217 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 23:14:07,093 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 23:14:09,941 INFO Swept 20203 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 23:19:05,030 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 23:19:08,127 INFO Swept 20196 events: 0 taker trades, 0 new quotes, 0 resting
