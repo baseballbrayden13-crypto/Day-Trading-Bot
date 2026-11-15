@@ -9507,3 +9507,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 13:55:26,938 INFO Quote KXUEFANLSCORE-26NOV15BLRALB cancelled (0/2 filled)
 2026-11-15 14:00:26,834 INFO Swept 19838 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-15 14:05:32,730 INFO Swept 19807 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 14:10:37,738 INFO Swept 19799 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 14:15:37,358 INFO Swept 19785 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 14:20:38,895 INFO Swept 19786 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 14:25:39,634 INFO Swept 19774 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 14:30:39,227 INFO Swept 19759 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 14:35:42,911 INFO PAPER rest NO bid KXNFL1HFT-26NOV15HOUCLE-HOUCLE at $0.6700 x2 (0 already bid at that price)
+2026-11-15 14:35:42,911 INFO Resting NO bid on KXNFL1HFT-26NOV15HOUCLE-HOUCLE at $0.6700 x2 (KXNFL1HFT-26NOV15HOUCLE): locks in $0.16 if it fills; hedge NO HOUHOU@0.2300
+2026-11-15 14:35:42,957 INFO Swept 19732 events: 0 taker trades, 1 new quotes, 1 resting
