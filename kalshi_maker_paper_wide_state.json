@@ -2726,21 +2726,21 @@
  ],
  "quotes": [
   {
-   "event": "KXCONCACAFNLADVANCE-26NOV17USAHTI",
+   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA",
    "series": "KXCONCACAFNLADVANCE",
-   "title": "USA vs Haiti",
-   "ticker": "KXCONCACAFNLADVANCE-26NOV17USAHTI-HTI",
-   "order_id": "paper-1099-1794717430",
-   "price": "0.7100",
+   "title": "El Salvador vs Saint Martin",
+   "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
+   "order_id": "paper-1100-1794719861",
+   "price": "0.82",
    "sets": 3,
    "done": 0,
-   "reserve": "2.8800",
+   "reserve": "2.8900",
    "multiplier": "1",
-   "placed": 1794717430.53787,
+   "placed": 1794719861.2456622,
    "hedge": [
     {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV17USAHTI-USA",
-     "limit": "0.2300"
+     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV",
+     "limit": "0.1300"
     }
    ]
   }
