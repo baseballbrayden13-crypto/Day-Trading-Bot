@@ -2354,3 +2354,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 19:27:36,645 INFO Swept 20772 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-14 19:33:36,153 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 19:33:39,915 INFO Swept 20789 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 19:39:41,099 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 19:39:44,931 INFO Swept 20766 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 19:45:47,560 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 19:45:51,650 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.0800 x2 (0 already bid at that price)
+2026-11-14 19:45:51,650 INFO Resting NO bid on KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.0800 x2 (KXNCAAHGAME-26NOV14UNOMIA): locks in $0.45 if it fills; hedge NO MIA@0.6700
+2026-11-14 19:45:51,652 INFO Swept 20824 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 19:51:50,864 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 19:51:54,215 INFO Swept 20826 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 19:57:53,524 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 19:57:57,474 INFO Swept 20786 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 20:03:57,560 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:04:01,544 INFO PAPER rest NO bid KXARGNACBADVANCE-26NOV14GEJALB-ALB at $0.2300 x2 (0 already bid at that price)
+2026-11-14 20:04:01,544 INFO Resting NO bid on KXARGNACBADVANCE-26NOV14GEJALB-ALB at $0.2300 x2 (KXARGNACBADVANCE-26NOV14GEJALB): locks in $1.50 if it fills; hedge NO GEJ@0.0100
+2026-11-14 20:04:01,605 INFO PAPER rest NO bid KXINTLFRIENDLYGAME-26NOV17ECUBOL-TIE at $0.7400 x2 (0 already bid at that price)
+2026-11-14 20:04:01,605 INFO Resting NO bid on KXINTLFRIENDLYGAME-26NOV17ECUBOL-TIE at $0.7400 x2 (KXINTLFRIENDLYGAME-26NOV17ECUBOL): locks in $0.24 if it fills; hedge NO ECU@0.1500, BOL@0.9700
+2026-11-14 20:04:01,606 INFO Swept 20757 events: 0 taker trades, 2 new quotes, 3 resting

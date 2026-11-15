@@ -249,17 +249,59 @@
    "series": "KXNCAAHGAME",
    "title": "Omaha vs Miami",
    "ticker": "KXNCAAHGAME-26NOV14UNOMIA-UNO",
-   "order_id": "paper-133-1794701362",
+   "order_id": "paper-134-1794703551",
    "price": "0.0800",
    "sets": 2,
    "done": 0,
    "reserve": "1.5500",
    "multiplier": "1",
-   "placed": 1794701362.0308976,
+   "placed": 1794703551.6508708,
    "hedge": [
     {
      "ticker": "KXNCAAHGAME-26NOV14UNOMIA-MIA",
      "limit": "0.6700"
+    }
+   ]
+  },
+  {
+   "event": "KXARGNACBADVANCE-26NOV14GEJALB",
+   "series": "KXARGNACBADVANCE",
+   "title": "Jujuy vs Almirante Brown",
+   "ticker": "KXARGNACBADVANCE-26NOV14GEJALB-ALB",
+   "order_id": "paper-135-1794704641",
+   "price": "0.2300",
+   "sets": 2,
+   "done": 0,
+   "reserve": "0.5000",
+   "multiplier": "1",
+   "placed": 1794704641.5448325,
+   "hedge": [
+    {
+     "ticker": "KXARGNACBADVANCE-26NOV14GEJALB-GEJ",
+     "limit": "0.0100"
+    }
+   ]
+  },
+  {
+   "event": "KXINTLFRIENDLYGAME-26NOV17ECUBOL",
+   "series": "KXINTLFRIENDLYGAME",
+   "title": "Ecuador vs Bolivia",
+   "ticker": "KXINTLFRIENDLYGAME-26NOV17ECUBOL-TIE",
+   "order_id": "paper-136-1794704641",
+   "price": "0.7400",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.7600",
+   "multiplier": "1",
+   "placed": 1794704641.6051922,
+   "hedge": [
+    {
+     "ticker": "KXINTLFRIENDLYGAME-26NOV17ECUBOL-ECU",
+     "limit": "0.1500"
+    },
+    {
+     "ticker": "KXINTLFRIENDLYGAME-26NOV17ECUBOL-BOL",
+     "limit": "0.9700"
     }
    ]
   }
