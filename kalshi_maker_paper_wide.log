@@ -9238,3 +9238,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 19:20:38,917 INFO Swept 20783 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-14 19:25:43,731 INFO Swept 20783 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-14 19:30:48,928 INFO Swept 20795 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 19:35:54,826 INFO Swept 20778 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 19:40:54,281 INFO PAPER rest NO bid KXNHL1P-26NOV14MINBOS-TIE at $0.6000 x1 (0 already bid at that price)
+2026-11-14 19:40:54,282 INFO Resting NO bid on KXNHL1P-26NOV14MINBOS-TIE at $0.6000 x1 (KXNHL1P-26NOV14MINBOS): locks in $0.26 if it fills; hedge NO MIN@0.1200
+2026-11-14 19:40:54,590 INFO Swept 20806 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 19:45:58,534 INFO Swept 20820 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 19:51:02,899 INFO Swept 20823 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 19:56:08,354 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.0800 x2 (0 already bid at that price)
+2026-11-14 19:56:08,354 INFO Resting NO bid on KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.0800 x2 (KXNCAAHGAME-26NOV14UNOMIA): locks in $0.45 if it fills; hedge NO MIA@0.6700
+2026-11-14 19:56:08,666 INFO Swept 20802 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 20:01:06,678 INFO Swept 20774 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 20:01:06,896 INFO Quote KXNHL1P-26NOV14MINBOS cancelled (0/1 filled)
