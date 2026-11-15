@@ -2405,3 +2405,25 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 20:47:57,906 INFO Swept 20705 events: 0 taker trades, 1 new quotes, 4 resting
 2026-11-14 20:52:57,926 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 20:53:00,573 INFO Swept 20691 events: 0 taker trades, 0 new quotes, 4 resting
+2026-11-14 20:58:00,813 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:58:03,345 INFO Swept 20668 events: 0 taker trades, 0 new quotes, 4 resting
+2026-11-14 21:03:05,474 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:03:09,188 INFO PAPER rest NO bid KXEFLL2GAME-26NOV14WALBAR-TIE at $0.2300 x2 (1 already bid at that price)
+2026-11-14 21:03:09,188 INFO Resting NO bid on KXEFLL2GAME-26NOV14WALBAR-TIE at $0.23 x2 (KXEFLL2GAME-26NOV14WALBAR): locks in $0.20 if it fills; hedge NO WAL@0.9100, BAR@0.7300
+2026-11-14 21:03:09,189 INFO Swept 20675 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-14 21:08:03,386 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:08:06,655 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14MNSBEM-BEM at $0.1100 x2 (0 already bid at that price)
+2026-11-14 21:08:06,655 INFO Resting NO bid on KXNCAAHGAME-26NOV14MNSBEM-BEM at $0.1100 x2 (KXNCAAHGAME-26NOV14MNSBEM): locks in $1.03 if it fills; hedge NO MNS@0.4000
+2026-11-14 21:08:06,716 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14FERAUG-FER at $0.1000 x2 (0 already bid at that price)
+2026-11-14 21:08:06,717 INFO Resting NO bid on KXNCAAHGAME-26NOV14FERAUG-FER at $0.1000 x2 (KXNCAAHGAME-26NOV14FERAUG): locks in $0.95 if it fills; hedge NO AUG@0.4000
+2026-11-14 21:08:06,726 INFO Swept 20640 events: 0 taker trades, 2 new quotes, 4 resting
+2026-11-14 21:13:10,466 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:13:13,512 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14UMDSCS-SCS at $0.2100 x2 (0 already bid at that price)
+2026-11-14 21:13:13,512 INFO Resting NO bid on KXNCAAHGAME-26NOV14UMDSCS-SCS at $0.2100 x2 (KXNCAAHGAME-26NOV14UMDSCS): locks in $0.74 if it fills; hedge NO UMD@0.4000
+2026-11-14 21:13:13,513 INFO Swept 20672 events: 0 taker trades, 1 new quotes, 5 resting
+2026-11-14 21:18:14,055 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:18:16,970 INFO Swept 20680 events: 0 taker trades, 0 new quotes, 5 resting
+2026-11-14 21:23:16,235 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 21:23:19,379 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14MASBC-MAS at $0.3200 x2 (0 already bid at that price)
+2026-11-14 21:23:19,379 INFO Resting NO bid on KXNCAAHGAME-26NOV14MASBC-MAS at $0.3200 x2 (KXNCAAHGAME-26NOV14MASBC): locks in $0.61 if it fills; hedge NO BC@0.4000
+2026-11-14 21:23:19,381 INFO Swept 20681 events: 0 taker trades, 1 new quotes, 5 resting

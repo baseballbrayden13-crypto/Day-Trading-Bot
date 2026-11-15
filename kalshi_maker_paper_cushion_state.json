@@ -245,82 +245,101 @@
  ],
  "quotes": [
   {
-   "event": "KXUCLWGAME-26NOV19BARSER",
-   "series": "KXUCLWGAME",
-   "title": "Barcelona vs Servette Chenois",
-   "ticker": "KXUCLWGAME-26NOV19BARSER-TIE",
-   "order_id": "paper-138-1794706066",
-   "price": "0.7400",
+   "event": "KXEFLL2GAME-26NOV14WALBAR",
+   "series": "KXEFLL2GAME",
+   "title": "Walsall vs Barnet",
+   "ticker": "KXEFLL2GAME-26NOV14WALBAR-TIE",
+   "order_id": "paper-143-1794708189",
+   "price": "0.23",
    "sets": 2,
    "done": 0,
-   "reserve": "3.7600",
+   "reserve": "3.8000",
    "multiplier": "1",
-   "placed": 1794706066.1251807,
+   "placed": 1794708189.1883698,
    "hedge": [
     {
-     "ticker": "KXUCLWGAME-26NOV19BARSER-BAR",
-     "limit": "0.1300"
+     "ticker": "KXEFLL2GAME-26NOV14WALBAR-WAL",
+     "limit": "0.9100"
     },
     {
-     "ticker": "KXUCLWGAME-26NOV19BARSER-SER",
-     "limit": "0.9900"
+     "ticker": "KXEFLL2GAME-26NOV14WALBAR-BAR",
+     "limit": "0.7300"
     }
    ]
   },
   {
-   "event": "KXCONCACAFNLADVANCE-26NOV16CANGTM",
-   "series": "KXCONCACAFNLADVANCE",
-   "title": "Canada vs Guatemala",
-   "ticker": "KXCONCACAFNLADVANCE-26NOV16CANGTM-CAN",
-   "order_id": "paper-139-1794706066",
-   "price": "0.01",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.7900",
-   "multiplier": "1",
-   "placed": 1794706066.1869698,
-   "hedge": [
-    {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV16CANGTM-GTM",
-     "limit": "0.9300"
-    }
-   ]
-  },
-  {
-   "event": "KXAHLGAME-26NOV141905CHALEH",
-   "series": "KXAHLGAME",
-   "title": "Charlotte Checkers vs Lehigh Valley Phantoms",
-   "ticker": "KXAHLGAME-26NOV141905CHALEH-LEH",
-   "order_id": "paper-141-1794706374",
-   "price": "0.3600",
+   "event": "KXNCAAHGAME-26NOV14MNSBEM",
+   "series": "KXNCAAHGAME",
+   "title": "Minnesota State vs Bemidji State",
+   "ticker": "KXNCAAHGAME-26NOV14MNSBEM-BEM",
+   "order_id": "paper-144-1794708486",
+   "price": "0.1100",
    "sets": 2,
    "done": 0,
-   "reserve": "1.6700",
+   "reserve": "0.9700",
    "multiplier": "1",
-   "placed": 1794706374.9243202,
+   "placed": 1794708486.6552715,
    "hedge": [
     {
-     "ticker": "KXAHLGAME-26NOV141905CHALEH-CHA",
-     "limit": "0.4800"
+     "ticker": "KXNCAAHGAME-26NOV14MNSBEM-MNS",
+     "limit": "0.4000"
     }
    ]
   },
   {
-   "event": "KXNCAAHGAME-26NOV14PSUMIC",
+   "event": "KXNCAAHGAME-26NOV14FERAUG",
    "series": "KXNCAAHGAME",
-   "title": "Penn State vs Michigan",
-   "ticker": "KXNCAAHGAME-26NOV14PSUMIC-PSU",
-   "order_id": "paper-142-1794707277",
-   "price": "0.2200",
-   "sets": 1,
+   "title": "Ferris State vs Augustana",
+   "ticker": "KXNCAAHGAME-26NOV14FERAUG-FER",
+   "order_id": "paper-145-1794708486",
+   "price": "0.1000",
+   "sets": 2,
    "done": 0,
-   "reserve": "0.5500",
+   "reserve": "1.0500",
    "multiplier": "1",
-   "placed": 1794707277.9049006,
+   "placed": 1794708486.7169921,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26NOV14PSUMIC-MIC",
-     "limit": "0.3000"
+     "ticker": "KXNCAAHGAME-26NOV14FERAUG-AUG",
+     "limit": "0.4000"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAHGAME-26NOV14UMDSCS",
+   "series": "KXNCAAHGAME",
+   "title": "Minnesota Duluth vs St. Cloud State",
+   "ticker": "KXNCAAHGAME-26NOV14UMDSCS-SCS",
+   "order_id": "paper-146-1794708793",
+   "price": "0.2100",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.2600",
+   "multiplier": "1",
+   "placed": 1794708793.512731,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV14UMDSCS-UMD",
+     "limit": "0.4000"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAHGAME-26NOV14MASBC",
+   "series": "KXNCAAHGAME",
+   "title": "Massachusetts vs Boston College",
+   "ticker": "KXNCAAHGAME-26NOV14MASBC-MAS",
+   "order_id": "paper-147-1794709399",
+   "price": "0.3200",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.3900",
+   "multiplier": "1",
+   "placed": 1794709399.3798976,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV14MASBC-BC",
+     "limit": "0.4000"
     }
    ]
   }
