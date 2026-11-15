@@ -15308,12 +15308,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1794709713.6015053,
-  "checked": 1794711146.5221813,
+  "checked": 1794711513,
   "expires": 1794711513,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-1095-1794711146": {
   "id": "paper-1095-1794711146",
@@ -15322,8 +15322,22 @@
   "count": 1,
   "ahead": 0,
   "placed": 1794711146.3055532,
-  "checked": 1794711146.6144667,
+  "checked": 1794712914.9108858,
   "expires": 1794712946,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
+ },
+ "paper-1096-1794712214": {
+  "id": "paper-1096-1794712214",
+  "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
+  "price": "0.7100",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794712214.6200294,
+  "checked": 1794712915.001336,
+  "expires": 1794714014,
   "through": 0,
   "at_price": 0,
   "filled": 0,
