@@ -2730,13 +2730,13 @@
    "series": "KXNBBGAME",
    "title": "Unifacisa vs Cruzeiro Basquete",
    "ticker": "KXNBBGAME-26NOV131730UNIFCRU-UNIF",
-   "order_id": "paper-1106-1794750258",
-   "price": "0.48",
+   "order_id": "paper-1107-1794752382",
+   "price": "0.4700",
    "sets": 3,
    "done": 0,
-   "reserve": "2.9000",
+   "reserve": "2.8700",
    "multiplier": "1",
-   "placed": 1794750258.5604775,
+   "placed": 1794752382.8669217,
    "hedge": [
     {
      "ticker": "KXNBBGAME-26NOV131730UNIFCRU-CRU",
