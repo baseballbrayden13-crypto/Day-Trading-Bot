@@ -2702,17 +2702,40 @@
  ],
  "quotes": [
   {
+   "event": "KXEFLL1GAME-26NOV14WYWHUD",
+   "series": "KXEFLL1GAME",
+   "title": "Wycombe vs Huddersfield",
+   "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
+   "order_id": "paper-1082-1794701128",
+   "price": "0.4400",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.7700",
+   "multiplier": "1",
+   "placed": 1794701128.7030106,
+   "hedge": [
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
+     "limit": "0.5600"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
+     "limit": "0.7200"
+    }
+   ]
+  },
+  {
    "event": "KXNCAAHGAME-26NOV14UNOMIA",
    "series": "KXNCAAHGAME",
    "title": "Omaha vs Miami",
    "ticker": "KXNCAAHGAME-26NOV14UNOMIA-UNO",
-   "order_id": "paper-1079-1794699919",
-   "price": "0.1800",
+   "order_id": "paper-1083-1794702038",
+   "price": "0.0900",
    "sets": 2,
    "done": 0,
-   "reserve": "1.7500",
+   "reserve": "1.5700",
    "multiplier": "1",
-   "placed": 1794699919.8684006,
+   "placed": 1794702038.6097548,
    "hedge": [
     {
      "ticker": "KXNCAAHGAME-26NOV14UNOMIA-MIA",
