@@ -2750,59 +2750,40 @@
  ],
  "quotes": [
   {
-   "event": "KXNFL1HFT-26NOV15MINGB",
-   "series": "KXNFL1HFT",
-   "title": "Minnesota vs Green Bay: 1st Half / Fulltime Result",
-   "ticker": "KXNFL1HFT-26NOV15MINGB-MINGB",
-   "order_id": "paper-1119-1794775288",
-   "price": "0.8100",
-   "sets": 1,
+   "event": "KXARGNACBADVANCE-26NOV14DMAMAI",
+   "series": "KXARGNACBADVANCE",
+   "title": "Madryn vs Maipu",
+   "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-MAI",
+   "order_id": "paper-1122-1794777388",
+   "price": "0.74",
+   "sets": 2,
    "done": 0,
-   "reserve": "0.8600",
+   "reserve": "1.9000",
    "multiplier": "1",
-   "placed": 1794775288.3191345,
+   "placed": 1794777388.940261,
    "hedge": [
     {
-     "ticker": "KXNFL1HFT-26NOV15MINGB-MINMIN",
-     "limit": "0.0400"
+     "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-DMA",
+     "limit": "0.1900"
     }
    ]
   },
   {
-   "event": "KXNFL2H-26NOV15MINGB",
-   "series": "KXNFL2H",
-   "title": "Minnesota vs Green Bay: 2nd Half Winner",
-   "ticker": "KXNFL2H-26NOV15MINGB-TIE",
-   "order_id": "paper-1120-1794776191",
-   "price": "0.7800",
+   "event": "KXLVBPGAME-26NOV151200ARAMAR",
+   "series": "KXLVBPGAME",
+   "title": "Tigres de Aragua vs Bravos de Margarita",
+   "ticker": "KXLVBPGAME-26NOV151200ARAMAR-MAR",
+   "order_id": "paper-1123-1794778299",
+   "price": "0.5000",
    "sets": 2,
    "done": 0,
-   "reserve": "1.6600",
+   "reserve": "1.6000",
    "multiplier": "1",
-   "placed": 1794776191.708429,
+   "placed": 1794778299.5434759,
    "hedge": [
     {
-     "ticker": "KXNFL2H-26NOV15MINGB-MIN",
-     "limit": "0.0400"
-    }
-   ]
-  },
-  {
-   "event": "KXNFL2H-26NOV15KCATL",
-   "series": "KXNFL2H",
-   "title": "Kansas City vs Atlanta: 2nd Half Winner",
-   "ticker": "KXNFL2H-26NOV15KCATL-TIE",
-   "order_id": "paper-1121-1794776492",
-   "price": "0.3600",
-   "sets": 2,
-   "done": 0,
-   "reserve": "0.9100",
-   "multiplier": "1",
-   "placed": 1794776492.7588015,
-   "hedge": [
-    {
-     "ticker": "KXNFL2H-26NOV15KCATL-KC",
-     "limit": "0.0800"
+     "ticker": "KXLVBPGAME-26NOV151200ARAMAR-ARA",
+     "limit": "0.3000"
     }
    ]
   }

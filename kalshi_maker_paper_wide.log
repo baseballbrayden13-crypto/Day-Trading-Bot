@@ -9546,3 +9546,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 16:01:32,758 INFO Resting NO bid on KXNFL2H-26NOV15KCATL-TIE at $0.3600 x2 (KXNFL2H-26NOV15KCATL): locks in $1.09 if it fills; hedge NO KC@0.0800
 2026-11-15 16:01:32,962 INFO Swept 19510 events: 0 taker trades, 1 new quotes, 3 resting
 2026-11-15 16:06:30,307 INFO Swept 19491 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-15 16:11:28,132 INFO Swept 19457 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-15 16:11:28,323 INFO Quote KXNFL2H-26NOV15MINGB cancelled (0/2 filled)
+2026-11-15 16:16:28,940 INFO PAPER rest NO bid KXARGNACBADVANCE-26NOV14DMAMAI-MAI at $0.7400 x2 (0 already bid at that price)
+2026-11-15 16:16:28,940 INFO Resting NO bid on KXARGNACBADVANCE-26NOV14DMAMAI-MAI at $0.74 x2 (KXARGNACBADVANCE-26NOV14DMAMAI): locks in $0.10 if it fills; hedge NO DMA@0.1900
+2026-11-15 16:16:29,155 INFO Swept 19390 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 16:16:55,274 INFO Quote KXNFL2H-26NOV15KCATL cancelled (0/2 filled)
+2026-11-15 16:21:31,777 INFO Swept 19342 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 16:26:32,941 INFO Swept 19201 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 16:31:39,543 INFO PAPER rest NO bid KXLVBPGAME-26NOV151200ARAMAR-MAR at $0.5000 x2 (0 already bid at that price)
+2026-11-15 16:31:39,543 INFO Resting NO bid on KXLVBPGAME-26NOV151200ARAMAR-MAR at $0.5000 x2 (KXLVBPGAME-26NOV151200ARAMAR): locks in $0.40 if it fills; hedge NO ARA@0.3000
+2026-11-15 16:31:39,705 INFO Swept 19165 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 16:36:27,328 INFO Swept 19124 events: 0 taker trades, 0 new quotes, 2 resting
