@@ -9515,3 +9515,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 14:35:42,911 INFO PAPER rest NO bid KXNFL1HFT-26NOV15HOUCLE-HOUCLE at $0.6700 x2 (0 already bid at that price)
 2026-11-15 14:35:42,911 INFO Resting NO bid on KXNFL1HFT-26NOV15HOUCLE-HOUCLE at $0.6700 x2 (KXNFL1HFT-26NOV15HOUCLE): locks in $0.16 if it fills; hedge NO HOUHOU@0.2300
 2026-11-15 14:35:42,957 INFO Swept 19732 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 14:40:42,966 INFO Swept 19732 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 14:45:46,494 INFO Swept 19722 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 14:50:50,122 INFO Swept 19716 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 14:55:57,764 INFO Swept 19688 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 14:55:57,912 INFO Quote KXNFL1HFT-26NOV15HOUCLE cancelled (0/2 filled)
+2026-11-15 15:00:54,638 INFO PAPER rest NO bid KXARGNACBADVANCE-26NOV15MORCAC-CAC at $0.2600 x2 (0 already bid at that price)
+2026-11-15 15:00:54,638 INFO Resting NO bid on KXARGNACBADVANCE-26NOV15MORCAC-CAC at $0.2600 x2 (KXARGNACBADVANCE-26NOV15MORCAC): locks in $1.00 if it fills; hedge NO MOR@0.2200
+2026-11-15 15:00:54,688 INFO Swept 19648 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 15:05:57,706 INFO PAPER BET daily_safest: 1 YES KXRAIN-26NOV15-SFO at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-15 15:05:57,875 INFO PAPER COMBO: YES KXRAIN-26NOV15-SFO, NO KXLOWTSATX-26NOV15-T50, NO KXLOWTPHIL-26NOV15-B37.5 at 0.9412. daily combo: all 3 safest sides must win
+2026-11-15 15:05:57,877 INFO Swept 19626 events: 0 taker trades, 0 new quotes, 1 resting

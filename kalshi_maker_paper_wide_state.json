@@ -2750,21 +2750,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNFL1HFT-26NOV15HOUCLE",
-   "series": "KXNFL1HFT",
-   "title": "Houston vs Cleveland: 1st Half / Fulltime Result",
-   "ticker": "KXNFL1HFT-26NOV15HOUCLE-HOUCLE",
-   "order_id": "paper-1116-1794771342",
-   "price": "0.6700",
+   "event": "KXARGNACBADVANCE-26NOV15MORCAC",
+   "series": "KXARGNACBADVANCE",
+   "title": "Moron vs Colegiales",
+   "ticker": "KXARGNACBADVANCE-26NOV15MORCAC-CAC",
+   "order_id": "paper-1117-1794772854",
+   "price": "0.2600",
    "sets": 2,
    "done": 0,
-   "reserve": "1.8400",
+   "reserve": "1.0000",
    "multiplier": "1",
-   "placed": 1794771342.9113803,
+   "placed": 1794772854.6382906,
    "hedge": [
     {
-     "ticker": "KXNFL1HFT-26NOV15HOUCLE-HOUHOU",
-     "limit": "0.2300"
+     "ticker": "KXARGNACBADVANCE-26NOV15MORCAC-MOR",
+     "limit": "0.2200"
     }
    ]
   }
