@@ -83,6 +83,24 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXNCAAHGAME-26NOV14UMDSCS (stray)",
+   "series": "KXNCAAHGAME",
+   "title": "Minnesota Duluth vs St. Cloud State",
+   "sets": 0,
+   "outlay": "0.0500",
+   "locked_profit": "0",
+   "opened": "2026-11-15T02:10:01.248152+00:00",
+   "legs": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV14UMDSCS-UMD",
+     "side": "no",
+     "count": 1,
+     "limit": "0.0400"
+    }
+   ],
+   "retried": 1794709346.3045201
   }
  ],
  "closed": [
@@ -2702,44 +2720,40 @@
  ],
  "quotes": [
   {
-   "event": "KXUCLWGAME-26NOV19BARSER",
-   "series": "KXUCLWGAME",
-   "title": "Barcelona vs Servette Chenois",
-   "ticker": "KXUCLWGAME-26NOV19BARSER-TIE",
-   "order_id": "paper-1088-1794706084",
-   "price": "0.7300",
-   "sets": 1,
+   "event": "KXNCAAHGAME-26NOV14MNSBEM",
+   "series": "KXNCAAHGAME",
+   "title": "Minnesota State vs Bemidji State",
+   "ticker": "KXNCAAHGAME-26NOV14MNSBEM-BEM",
+   "order_id": "paper-1092-1794708600",
+   "price": "0.1100",
+   "sets": 2,
    "done": 0,
-   "reserve": "0.8800",
+   "reserve": "0.9700",
    "multiplier": "1",
-   "placed": 1794706084.3901,
+   "placed": 1794708600.7785962,
    "hedge": [
     {
-     "ticker": "KXUCLWGAME-26NOV19BARSER-BAR",
-     "limit": "0.1300"
+     "ticker": "KXNCAAHGAME-26NOV14MNSBEM-MNS",
+     "limit": "0.4000"
     }
    ]
   },
   {
-   "event": "KXEFLL1GAME-26NOV14WYWHUD",
-   "series": "KXEFLL1GAME",
-   "title": "Wycombe vs Huddersfield",
-   "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
-   "order_id": "paper-1090-1794707514",
-   "price": "0.4600",
+   "event": "KXNCAAHGAME-26NOV14UMDSCS",
+   "series": "KXNCAAHGAME",
+   "title": "Minnesota Duluth vs St. Cloud State",
+   "ticker": "KXNCAAHGAME-26NOV14UMDSCS-SCS",
+   "order_id": "paper-1093-1794708973",
+   "price": "0.2100",
    "sets": 1,
    "done": 0,
-   "reserve": "1.7900",
+   "reserve": "0.6300",
    "multiplier": "1",
-   "placed": 1794707514.4003959,
+   "placed": 1794708973.695831,
    "hedge": [
     {
-     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
-     "limit": "0.5600"
-    },
-    {
-     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
-     "limit": "0.7200"
+     "ticker": "KXNCAAHGAME-26NOV14UMDSCS-UMD",
+     "limit": "0.3900"
     }
    ]
   }

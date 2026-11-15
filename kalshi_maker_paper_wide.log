@@ -9272,3 +9272,23 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 20:51:54,400 INFO PAPER rest NO bid KXEFLL1GAME-26NOV14WYWHUD-WYW at $0.4600 x1 (0 already bid at that price)
 2026-11-14 20:51:54,400 INFO Resting NO bid on KXEFLL1GAME-26NOV14WYWHUD-WYW at $0.4600 x1 (KXEFLL1GAME-26NOV14WYWHUD): locks in $0.21 if it fills; hedge NO HUD@0.5600, TIE@0.7200
 2026-11-14 20:51:54,616 INFO Swept 20702 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 20:57:53,827 INFO Swept 20677 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 21:03:57,124 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14UMDSCS-UMD at $0.0400 x1 (0 already bid at that price)
+2026-11-14 21:03:57,124 INFO Resting NO bid on KXNCAAHGAME-26NOV14UMDSCS-UMD at $0.0400 x1 (KXNCAAHGAME-26NOV14UMDSCS): locks in $0.11 if it fills; hedge NO SCS@0.8300
+2026-11-14 21:03:57,324 INFO Swept 20675 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-14 21:10:00,778 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14MNSBEM-BEM at $0.1100 x2 (0 already bid at that price)
+2026-11-14 21:10:00,778 INFO Resting NO bid on KXNCAAHGAME-26NOV14MNSBEM-BEM at $0.1100 x2 (KXNCAAHGAME-26NOV14MNSBEM): locks in $1.03 if it fills; hedge NO MNS@0.4000
+2026-11-14 21:10:00,982 INFO Swept 20640 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-14 21:10:01,117 INFO PAPER KXNCAAHGAME-26NOV14UMDSCS-UMD NO bid at $0.0400: 1/1 filled by real trades
+2026-11-14 21:10:01,169 INFO PAPER buy 1 NO KXNCAAHGAME-26NOV14UMDSCS-SCS at up to $0.8300: not on the book
+2026-11-14 21:10:01,208 INFO PAPER buy 1 NO KXNCAAHGAME-26NOV14UMDSCS-SCS at up to $0.99: not on the book
+2026-11-14 21:10:01,208 WARNING Quote KXNCAAHGAME-26NOV14UMDSCS: hedge missed on KXNCAAHGAME-26NOV14UMDSCS-SCS. Selling back 1 contracts on 1 legs.
+2026-11-14 21:10:01,247 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
+2026-11-14 21:10:01,248 ERROR STRAY POSITION: 1 NO contracts of KXNCAAHGAME-26NOV14UMDSCS-UMD still held. Check it on Kalshi.
+2026-11-14 21:10:01,378 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
+2026-11-14 21:16:13,695 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14UMDSCS-SCS at $0.2100 x1 (0 already bid at that price)
+2026-11-14 21:16:13,695 INFO Resting NO bid on KXNCAAHGAME-26NOV14UMDSCS-SCS at $0.2100 x1 (KXNCAAHGAME-26NOV14UMDSCS): locks in $0.37 if it fills; hedge NO UMD@0.3900
+2026-11-14 21:16:13,897 INFO Swept 20677 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-14 21:16:14,211 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
+2026-11-14 21:22:26,074 INFO Swept 20679 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-14 21:22:26,341 INFO PAPER sell 1 YES KXNCAAHGAME-26NOV14UMDSCS-UMD at up to $0.99: not on the book
