@@ -9584,3 +9584,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 18:01:39,112 INFO Swept 18875 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-15 18:06:43,753 INFO Swept 18883 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 18:06:43,905 INFO Quote KXAHLGAME-26NOV151600MANCHI cancelled (0/2 filled)
+2026-11-15 18:11:37,108 INFO PAPER rest NO bid KXNCAAMB1H-26NOV14AFAPAC-TIE at $0.1000 x3 (8 already bid at that price)
+2026-11-15 18:11:37,108 INFO Resting NO bid on KXNCAAMB1H-26NOV14AFAPAC-TIE at $0.10 x3 (KXNCAAMB1H-26NOV14AFAPAC): locks in $0.11 if it fills; hedge NO PAC@0.8500
+2026-11-15 18:11:37,308 INFO Swept 18935 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 18:16:40,263 INFO Swept 18965 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 18:21:35,474 INFO Swept 18981 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 18:26:33,789 INFO Swept 18975 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 18:31:33,648 INFO Swept 18971 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 18:36:28,423 INFO Swept 18959 events: 0 taker trades, 0 new quotes, 1 resting
