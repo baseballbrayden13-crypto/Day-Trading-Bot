@@ -2726,21 +2726,25 @@
  ],
  "quotes": [
   {
-   "event": "KXCONCACAFNLADVANCE-26NOV15PANCUW",
-   "series": "KXCONCACAFNLADVANCE",
-   "title": "Panama vs Curacao",
-   "ticker": "KXCONCACAFNLADVANCE-26NOV15PANCUW-PAN",
-   "order_id": "paper-1103-1794737239",
-   "price": "0.28",
-   "sets": 3,
+   "event": "KXEFLL1GAME-26NOV14WYWHUD",
+   "series": "KXEFLL1GAME",
+   "title": "Wycombe vs Huddersfield",
+   "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
+   "order_id": "paper-1104-1794739360",
+   "price": "0.5200",
+   "sets": 1,
    "done": 0,
-   "reserve": "2.8900",
+   "reserve": "1.8500",
    "multiplier": "1",
-   "placed": 1794737239.5106812,
+   "placed": 1794739360.407503,
    "hedge": [
     {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV15PANCUW-CUW",
-     "limit": "0.6600"
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
+     "limit": "0.5700"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
+     "limit": "0.7100"
     }
    ]
   }
