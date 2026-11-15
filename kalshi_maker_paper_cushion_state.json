@@ -346,21 +346,59 @@
  ],
  "quotes": [
   {
+   "event": "KXNFL1HFT-26NOV15MINGB",
+   "series": "KXNFL1HFT",
+   "title": "Minnesota vs Green Bay: 1st Half / Fulltime Result",
+   "ticker": "KXNFL1HFT-26NOV15MINGB-MINGB",
+   "order_id": "paper-176-1794775307",
+   "price": "0.8100",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.7000",
+   "multiplier": "1",
+   "placed": 1794775307.6189806,
+   "hedge": [
+    {
+     "ticker": "KXNFL1HFT-26NOV15MINGB-MINMIN",
+     "limit": "0.0400"
+    }
+   ]
+  },
+  {
    "event": "KXARGNACBADVANCE-26NOV14DMAMAI",
    "series": "KXARGNACBADVANCE",
    "title": "Madryn vs Maipu",
    "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-MAI",
-   "order_id": "paper-175-1794774094",
+   "order_id": "paper-178-1794776212",
    "price": "0.7400",
    "sets": 5,
    "done": 0,
    "reserve": "4.7300",
    "multiplier": "1",
-   "placed": 1794774094.1070879,
+   "placed": 1794776212.7496436,
    "hedge": [
     {
      "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-DMA",
      "limit": "0.1900"
+    }
+   ]
+  },
+  {
+   "event": "KXNFL2H-26NOV15KCATL",
+   "series": "KXNFL2H",
+   "title": "Kansas City vs Atlanta: 2nd Half Winner",
+   "ticker": "KXNFL2H-26NOV15KCATL-TIE",
+   "order_id": "paper-179-1794776814",
+   "price": "0.3700",
+   "sets": 4,
+   "done": 0,
+   "reserve": "1.6300",
+   "multiplier": "1",
+   "placed": 1794776814.9709942,
+   "hedge": [
+    {
+     "ticker": "KXNFL2H-26NOV15KCATL-KC",
+     "limit": "0.0300"
     }
    ]
   }

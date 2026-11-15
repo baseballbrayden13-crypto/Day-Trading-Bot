@@ -2850,3 +2850,24 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 15:31:38,037 INFO Swept 19625 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 15:36:40,571 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-15 15:36:42,021 INFO Swept 19600 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 15:41:46,125 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 15:41:47,618 INFO PAPER rest NO bid KXNFL1HFT-26NOV15MINGB-MINGB at $0.8100 x2 (0 already bid at that price)
+2026-11-15 15:41:47,618 INFO Resting NO bid on KXNFL1HFT-26NOV15MINGB-MINGB at $0.8100 x2 (KXNFL1HFT-26NOV15MINGB): locks in $0.30 if it fills; hedge NO MINMIN@0.0300
+2026-11-15 15:41:47,620 INFO Swept 19556 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 15:46:47,934 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 15:46:49,457 INFO Swept 19543 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 15:51:48,082 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 15:51:49,442 INFO Swept 19534 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 15:56:51,167 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 15:56:52,731 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV15FAMUWFLA-FAMU at $0.7200 x2 (10 already bid at that price)
+2026-11-15 15:56:52,731 INFO Resting NO bid on KXNCAAWBGAME-26NOV15FAMUWFLA-FAMU at $0.72 x2 (KXNCAAWBGAME-26NOV15FAMUWFLA): locks in $0.20 if it fills; hedge NO WFLA@0.1700
+2026-11-15 15:56:52,749 INFO PAPER rest NO bid KXARGNACBADVANCE-26NOV14DMAMAI-MAI at $0.7400 x5 (0 already bid at that price)
+2026-11-15 15:56:52,749 INFO Resting NO bid on KXARGNACBADVANCE-26NOV14DMAMAI-MAI at $0.7400 x5 (KXARGNACBADVANCE-26NOV14DMAMAI): locks in $0.27 if it fills; hedge NO DMA@0.1900
+2026-11-15 15:56:52,750 INFO Swept 19512 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-15 16:01:56,518 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 16:01:57,898 INFO Swept 19510 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-15 16:02:33,744 INFO Quote KXNCAAWBGAME-26NOV15FAMUWFLA cancelled (0/2 filled)
+2026-11-15 16:06:53,447 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 16:06:54,970 INFO PAPER rest NO bid KXNFL2H-26NOV15KCATL-TIE at $0.3700 x4 (0 already bid at that price)
+2026-11-15 16:06:54,971 INFO Resting NO bid on KXNFL2H-26NOV15KCATL-TIE at $0.3700 x4 (KXNFL2H-26NOV15KCATL): locks in $2.37 if it fills; hedge NO KC@0.0300
+2026-11-15 16:06:54,971 INFO Swept 19491 events: 0 taker trades, 1 new quotes, 3 resting
