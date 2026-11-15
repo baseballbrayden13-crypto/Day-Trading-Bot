@@ -2724,29 +2724,5 @@
    "closed": "2026-11-15T03:50:56.765635+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXEFLL1GAME-26NOV14WYWHUD",
-   "series": "KXEFLL1GAME",
-   "title": "Wycombe vs Huddersfield",
-   "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
-   "order_id": "paper-1104-1794739360",
-   "price": "0.5200",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.8500",
-   "multiplier": "1",
-   "placed": 1794739360.407503,
-   "hedge": [
-    {
-     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
-     "limit": "0.5700"
-    },
-    {
-     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
-     "limit": "0.7100"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
