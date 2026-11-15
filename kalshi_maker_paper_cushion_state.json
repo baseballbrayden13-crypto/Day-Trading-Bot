@@ -346,25 +346,40 @@
  ],
  "quotes": [
   {
-   "event": "KXEFLL1GAME-26NOV14STEMAT",
-   "series": "KXEFLL1GAME",
-   "title": "Stevenage vs Mansfield",
-   "ticker": "KXEFLL1GAME-26NOV14STEMAT-STE",
-   "order_id": "paper-185-1794782814",
-   "price": "0.3200",
+   "event": "KXLIDOMGAME-26NOV151600ESCLIC",
+   "series": "KXLIDOMGAME",
+   "title": "Leones del Escogido vs Tigres del Licey",
+   "ticker": "KXLIDOMGAME-26NOV151600ESCLIC-LIC",
+   "order_id": "paper-187-1794784610",
+   "price": "0.1100",
    "sets": 2,
    "done": 0,
-   "reserve": "3.6900",
+   "reserve": "1.7600",
    "multiplier": "1",
-   "placed": 1794782814.338851,
+   "placed": 1794784610.0035079,
    "hedge": [
     {
-     "ticker": "KXEFLL1GAME-26NOV14STEMAT-MAT",
-     "limit": "0.7800"
-    },
+     "ticker": "KXLIDOMGAME-26NOV151600ESCLIC-ESC",
+     "limit": "0.7500"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAMB1H-26NOV14AFAPAC",
+   "series": "KXNCAAMB1H",
+   "title": "Air Force vs Pacific: 1st Half Winner",
+   "ticker": "KXNCAAMB1H-26NOV14AFAPAC-TIE",
+   "order_id": "paper-188-1794784904",
+   "price": "0.0300",
+   "sets": 5,
+   "done": 0,
+   "reserve": "4.4600",
+   "multiplier": "1",
+   "placed": 1794784904.6054063,
+   "hedge": [
     {
-     "ticker": "KXEFLL1GAME-26NOV14STEMAT-TIE",
-     "limit": "0.7100"
+     "ticker": "KXNCAAMB1H-26NOV14AFAPAC-PAC",
+     "limit": "0.8500"
     }
    ]
   }
