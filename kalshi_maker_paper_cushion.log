@@ -2518,3 +2518,27 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 23:14:09,941 INFO Swept 20203 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-14 23:19:05,030 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 23:19:08,127 INFO Swept 20196 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-14 23:24:09,588 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 23:24:14,360 INFO PAPER rest NO bid KXCONCACAFNLADVANCE-26NOV17USAHTI-HTI at $0.7000 x4 (500 already bid at that price)
+2026-11-14 23:24:14,361 INFO Resting NO bid on KXCONCACAFNLADVANCE-26NOV17USAHTI-HTI at $0.70 x4 (KXCONCACAFNLADVANCE-26NOV17USAHTI): locks in $0.21 if it fills; hedge NO USA@0.2300
+2026-11-14 23:24:14,362 INFO Swept 20172 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-14 23:29:12,518 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 23:29:15,361 INFO Swept 20174 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 23:34:12,630 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 23:34:15,848 INFO PAPER rest NO bid KXNCAAWVMATCH-26NOV142200WASHUSC-WASH at $0.3800 x2 (0 already bid at that price)
+2026-11-14 23:34:15,848 INFO Resting NO bid on KXNCAAWVMATCH-26NOV142200WASHUSC-WASH at $0.3800 x2 (KXNCAAWVMATCH-26NOV142200WASHUSC): locks in $0.29 if it fills; hedge NO USC@0.4500
+2026-11-14 23:34:15,849 INFO Swept 20159 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 23:39:12,448 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 23:39:15,252 INFO Swept 20143 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 23:39:15,440 INFO PAPER KXNCAAWVMATCH-26NOV142200WASHUSC-WASH NO bid at $0.3800: 2/2 filled by real trades
+2026-11-14 23:39:15,503 INFO PAPER buy 2 NO KXNCAAWVMATCH-26NOV142200WASHUSC-USC at up to $0.4500: not on the book
+2026-11-14 23:39:15,563 INFO PAPER buy 2 NO KXNCAAWVMATCH-26NOV142200WASHUSC-USC at up to $0.64: not on the book
+2026-11-14 23:39:15,563 WARNING Quote KXNCAAWVMATCH-26NOV142200WASHUSC: hedge missed on KXNCAAWVMATCH-26NOV142200WASHUSC-USC. Selling back 2 contracts on 1 legs.
+2026-11-14 23:39:15,624 INFO PAPER sell 2 YES KXNCAAWVMATCH-26NOV142200WASHUSC-WASH at up to $0.6700: not on the book
+2026-11-14 23:39:15,624 ERROR STRAY POSITION: 2 NO contracts of KXNCAAWVMATCH-26NOV142200WASHUSC-WASH still held. Check it on Kalshi.
+2026-11-14 23:39:15,684 INFO PAPER sell 2 YES KXNCAAWVMATCH-26NOV142200WASHUSC-WASH at up to $0.7700: filled 2
+2026-11-14 23:39:15,685 INFO Stray KXNCAAWVMATCH-26NOV142200WASHUSC-WASH: sold 2 of 2 at $0.2300 or better, booked $-0.34
+2026-11-14 23:44:17,821 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 23:44:20,608 INFO Swept 20131 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 23:49:21,139 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 23:49:24,078 INFO Swept 20126 events: 0 taker trades, 0 new quotes, 1 resting
