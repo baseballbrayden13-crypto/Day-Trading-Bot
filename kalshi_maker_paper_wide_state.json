@@ -2748,25 +2748,5 @@
    "closed": "2026-11-15T18:55:25.322559+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXCONCACAFNLADVANCE-26NOV17MEXJAM",
-   "series": "KXCONCACAFNLADVANCE",
-   "title": "Mexico vs Jamaica",
-   "ticker": "KXCONCACAFNLADVANCE-26NOV17MEXJAM-JAM",
-   "order_id": "paper-1125-1794781589",
-   "price": "0.72",
-   "sets": 3,
-   "done": 0,
-   "reserve": "2.8800",
-   "multiplier": "1",
-   "placed": 1794781589.4922144,
-   "hedge": [
-    {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV17MEXJAM-MEX",
-     "limit": "0.2200"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

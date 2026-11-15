@@ -9575,3 +9575,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 17:26:29,710 INFO Swept 18933 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-15 17:31:31,936 INFO Swept 18925 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 17:36:31,064 INFO Swept 18920 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:41:34,717 INFO Swept 18915 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:46:37,901 INFO Swept 18909 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:51:37,481 INFO Swept 18905 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:56:41,033 INFO Swept 18885 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 18:01:38,912 INFO PAPER rest NO bid KXAHLGAME-26NOV151600MANCHI-CHI at $0.3100 x2 (0 already bid at that price)
+2026-11-15 18:01:38,912 INFO Resting NO bid on KXAHLGAME-26NOV151600MANCHI-CHI at $0.3100 x2 (KXAHLGAME-26NOV151600MANCHI): locks in $0.21 if it fills; hedge NO MAN@0.5600
+2026-11-15 18:01:39,112 INFO Swept 18875 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 18:06:43,753 INFO Swept 18883 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 18:06:43,905 INFO Quote KXAHLGAME-26NOV151600MANCHI cancelled (0/2 filled)
