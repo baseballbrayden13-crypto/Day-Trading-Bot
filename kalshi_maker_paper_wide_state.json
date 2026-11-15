@@ -100,7 +100,7 @@
      "limit": "0.0400"
     }
    ],
-   "retried": 1794709346.3045201
+   "retried": 1794711146.703961
   }
  ],
  "closed": [
@@ -2720,40 +2720,48 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26NOV14MNSBEM",
-   "series": "KXNCAAHGAME",
-   "title": "Minnesota State vs Bemidji State",
-   "ticker": "KXNCAAHGAME-26NOV14MNSBEM-BEM",
-   "order_id": "paper-1092-1794708600",
-   "price": "0.1100",
-   "sets": 2,
+   "event": "KXEFLL1GAME-26NOV14WYWHUD",
+   "series": "KXEFLL1GAME",
+   "title": "Wycombe vs Huddersfield",
+   "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
+   "order_id": "paper-1094-1794709713",
+   "price": "0.4800",
+   "sets": 1,
    "done": 0,
-   "reserve": "0.9700",
+   "reserve": "1.8100",
    "multiplier": "1",
-   "placed": 1794708600.7785962,
+   "placed": 1794709713.6145,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26NOV14MNSBEM-MNS",
-     "limit": "0.4000"
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
+     "limit": "0.5600"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
+     "limit": "0.7200"
     }
    ]
   },
   {
-   "event": "KXNCAAHGAME-26NOV14UMDSCS",
-   "series": "KXNCAAHGAME",
-   "title": "Minnesota Duluth vs St. Cloud State",
-   "ticker": "KXNCAAHGAME-26NOV14UMDSCS-SCS",
-   "order_id": "paper-1093-1794708973",
-   "price": "0.2100",
+   "event": "KXNCAAF1H-26NOV14EWUUTU",
+   "series": "KXNCAAF1H",
+   "title": "Eastern Washington vs Utah Tech: 1st Half Winner",
+   "ticker": "KXNCAAF1H-26NOV14EWUUTU-TIE",
+   "order_id": "paper-1095-1794711146",
+   "price": "0.4200",
    "sets": 1,
    "done": 0,
-   "reserve": "0.6300",
+   "reserve": "1.5000",
    "multiplier": "1",
-   "placed": 1794708973.695831,
+   "placed": 1794711146.3190548,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26NOV14UMDSCS-UMD",
-     "limit": "0.3900"
+     "ticker": "KXNCAAF1H-26NOV14EWUUTU-UTU",
+     "limit": "0.7800"
+    },
+    {
+     "ticker": "KXNCAAF1H-26NOV14EWUUTU-EWU",
+     "limit": "0.2500"
     }
    ]
   }
