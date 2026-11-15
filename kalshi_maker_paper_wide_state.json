@@ -2726,21 +2726,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNBBGAME-26NOV131730UNIFCRU",
-   "series": "KXNBBGAME",
-   "title": "Unifacisa vs Cruzeiro Basquete",
-   "ticker": "KXNBBGAME-26NOV131730UNIFCRU-UNIF",
-   "order_id": "paper-1107-1794752382",
-   "price": "0.4700",
-   "sets": 3,
+   "event": "KXCOUPEDEFRANCEGAME-26NOV14STRLAV",
+   "series": "KXCOUPEDEFRANCEGAME",
+   "title": "En Avt de St Renan vs Stade Lavallois",
+   "ticker": "KXCOUPEDEFRANCEGAME-26NOV14STRLAV-TIE",
+   "order_id": "paper-1108-1794754191",
+   "price": "0.2800",
+   "sets": 1,
    "done": 0,
-   "reserve": "2.8700",
+   "reserve": "0.4400",
    "multiplier": "1",
-   "placed": 1794752382.8669217,
+   "placed": 1794754191.0197382,
    "hedge": [
     {
-     "ticker": "KXNBBGAME-26NOV131730UNIFCRU-CRU",
-     "limit": "0.4600"
+     "ticker": "KXCOUPEDEFRANCEGAME-26NOV14STRLAV-LAV",
+     "limit": "0.1400"
     }
    ]
   }
