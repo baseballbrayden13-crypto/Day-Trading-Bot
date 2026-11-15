@@ -15588,11 +15588,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794767721.9426656,
-  "checked": 1794767768.8207395,
+  "checked": 1794768023.5775898,
   "expires": 1794769521,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-1115-1794768327": {
+  "id": "paper-1115-1794768327",
+  "ticker": "KXUEFANLSCORE-26NOV15BLRALB-BLR1ALB2",
+  "price": "0.1100",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794768327.598388,
+  "checked": 1794768926.8810403,
+  "expires": 1794770127,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

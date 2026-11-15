@@ -9490,3 +9490,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 13:36:03,683 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.9800: not on the book
 2026-11-15 13:36:03,683 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi.
 2026-11-15 13:36:03,817 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:40:23,492 INFO Swept 19905 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 13:40:23,630 INFO Quote KXLVBPGAME-26NOV151200ARAMAR cancelled (0/2 filled)
+2026-11-15 13:40:23,667 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:41:23,737 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:45:27,607 INFO PAPER rest NO bid KXUEFANLSCORE-26NOV15BLRALB-BLR1ALB2 at $0.1100 x2 (0 already bid at that price)
+2026-11-15 13:45:27,607 INFO Resting NO bid on KXUEFANLSCORE-26NOV15BLRALB-BLR1ALB2 at $0.1100 x2 (KXUEFANLSCORE-26NOV15BLRALB): locks in $0.43 if it fills; hedge NO BLR0ALB2@0.6500
+2026-11-15 13:45:27,645 INFO Swept 19899 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 13:45:27,756 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:46:28,748 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:50:17,152 INFO Swept 19889 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 13:50:17,279 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:51:18,422 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:55:25,322 INFO Settled KXBBSERIEA2GAME-26NOV151200BASCRE (stray): paid $0, profit $-0.08
+2026-11-15 13:55:26,787 INFO Swept 19867 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 13:55:26,938 INFO Quote KXUEFANLSCORE-26NOV15BLRALB cancelled (0/2 filled)
+2026-11-15 14:00:26,834 INFO Swept 19838 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 14:05:32,730 INFO Swept 19807 events: 0 taker trades, 0 new quotes, 0 resting
