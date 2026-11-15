@@ -30,6 +30,54 @@
      "limit": "0.5700"
     }
    ]
+  },
+  {
+   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA",
+   "series": "KXCONCACAFNLADVANCE",
+   "title": "El Salvador vs Saint Martin",
+   "sets": 3,
+   "outlay": "3.1500",
+   "locked_profit": "-0.1500",
+   "opened": "2026-11-15T03:33:45.631014+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
+     "side": "no",
+     "count": 3,
+     "limit": "0.7500"
+    },
+    {
+     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV",
+     "side": "no",
+     "count": 3,
+     "limit": "0.28"
+    }
+   ]
+  },
+  {
+   "event": "KXLIGAEXPADVANCE-26NOV14CLUPIR",
+   "series": "KXLIGAEXPADVANCE",
+   "title": "Club Atletico La Paz vs Piratas Veracruz",
+   "sets": 2,
+   "outlay": "2.0800",
+   "locked_profit": "-0.0800",
+   "opened": "2026-11-15T03:33:45.943251+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLIGAEXPADVANCE-26NOV14CLUPIR-PIR",
+     "side": "no",
+     "count": 2,
+     "limit": "0.2700"
+    },
+    {
+     "ticker": "KXLIGAEXPADVANCE-26NOV14CLUPIR-CLU",
+     "side": "no",
+     "count": 2,
+     "limit": "0.75"
+    }
+   ]
   }
  ],
  "closed": [
@@ -243,29 +291,5 @@
    "closed": "2026-11-14T03:57:50.222799+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAF1H-26NOV14EWUUTU",
-   "series": "KXNCAAF1H",
-   "title": "Eastern Washington vs Utah Tech: 1st Half Winner",
-   "ticker": "KXNCAAF1H-26NOV14EWUUTU-UTU",
-   "order_id": "paper-154-1794712721",
-   "price": "0.4200",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.6300",
-   "multiplier": "1",
-   "placed": 1794712721.0880375,
-   "hedge": [
-    {
-     "ticker": "KXNCAAF1H-26NOV14EWUUTU-EWU",
-     "limit": "0.5000"
-    },
-    {
-     "ticker": "KXNCAAF1H-26NOV14EWUUTU-TIE",
-     "limit": "0.9900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
