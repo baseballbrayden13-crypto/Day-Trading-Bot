@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T23:07:45+00:00",
+ "updated": "2026-11-15T02:46:15+00:00",
  "scan": {
   "sports": [
    "americanfootball_nfl",
@@ -8,27 +8,26 @@
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 116,
-  "kalshi_matched": 104,
+  "games": 70,
+  "kalshi_matched": 62,
   "skipped": [],
-  "pinnacle": 72,
-  "credits_left": 395,
-  "spent_today": 15,
+  "pinnacle": 28,
+  "credits_left": 390,
+  "spent_today": 20,
   "allowance": 23
  },
  "new_finds": [
-  "Arizona Cardinals @ DraftKings 5.0 (fair 4.71, +6.1% expected) Los Angeles Rams at Arizona Cardinals (Sun 4:05PM)",
-  "Vancouver Canucks @ BetRivers 4.6 (fair 4.36, +5.5% expected) Vancouver Canucks at Vegas Golden Knights (Sun 9:10PM)",
-  "Hawaii Rainbow Warriors @ theScore Bet 3.5 (fair 3.38, +3.7% expected) North Dakota State Bison at Hawaii Rainbow Warriors (Sat 11:00PM)"
+  "Milwaukee Bucks @ Pinnacle 3.63 (fair 3.50, +3.7% expected) Atlanta Hawks at Milwaukee Bucks (Sun 8:10PM)",
+  "ARB 2.2% locked: Air Force Falcons at Pacific Tigers (Sun 4:00PM): $15 Air Force Falcons @ FanDuel 6.8, $85 Pacific Tigers @ Kalshi 1.203"
  ],
- "open_bets": 14,
+ "open_bets": 10,
  "record": {
   "value": {
-   "bets": 16,
-   "wins": 4,
-   "staked": 160.0,
-   "pnl": -27.6,
-   "roi": -0.1725
+   "bets": 21,
+   "wins": 5,
+   "staked": 210.0,
+   "pnl": -8.9,
+   "roi": -0.0424
   },
   "kalshi": {
    "bets": 2,
@@ -38,18 +37,18 @@
    "roi": -1.0
   },
   "arb": {
-   "bets": 4,
-   "wins": 4,
-   "staked": 400.0,
-   "pnl": 6.01,
-   "roi": 0.015
+   "bets": 5,
+   "wins": 5,
+   "staked": 500.0,
+   "pnl": 6.99,
+   "roi": 0.014
   },
   "all": {
-   "bets": 22,
-   "wins": 8,
-   "staked": 580.0,
-   "pnl": -41.59,
-   "roi": -0.0717
+   "bets": 28,
+   "wins": 10,
+   "staked": 730.0,
+   "pnl": -21.91,
+   "roi": -0.03
   }
  }
 }

@@ -2,54 +2,6 @@
  "open": [
   {
    "kind": "game",
-   "game": "Denver Nuggets vs New Orleans Pelicans",
-   "start": "2026-11-15T00:10:00Z",
-   "legs": [
-    {
-     "label": "Denver Nuggets to win",
-     "ticker": "KXNBAGAME-26NOV14DENNOP-DEN",
-     "side": "yes",
-     "price": 0.84,
-     "fair": 0.8253,
-     "value": -0.0247,
-     "player": ""
-    },
-    {
-     "label": "Christian Braun 10+ points",
-     "ticker": "KXNBAPTS-26NOV14DENNOP-DENCBRAUN0-10",
-     "side": "yes",
-     "price": 0.67,
-     "fair": 0.7181,
-     "value": 0.0321,
-     "player": "Christian Braun"
-    },
-    {
-     "label": "Cameron Johnson 10+ points",
-     "ticker": "KXNBAPTS-26NOV14DENNOP-DENCJOHNSON23-10",
-     "side": "yes",
-     "price": 0.71,
-     "fair": 0.7567,
-     "value": 0.0317,
-     "player": "Cameron Johnson"
-    },
-    {
-     "label": "DeMar DeRozan 10+ points",
-     "ticker": "KXNBAPTS-26NOV14DENNOP-DENDDEROZAN10-10",
-     "side": "yes",
-     "price": 0.56,
-     "fair": 0.6033,
-     "value": 0.0253,
-     "player": "DeMar DeRozan"
-    }
-   ],
-   "price": 0.2443,
-   "fair": 0.2706,
-   "pays": "+309",
-   "per_dollar": 4.09,
-   "opened": "2026-11-14T14:15:16+00:00"
-  },
-  {
-   "kind": "game",
    "game": "Cleveland Cavaliers vs Dallas Mavericks",
    "start": "2026-11-15T00:40:00Z",
    "legs": [

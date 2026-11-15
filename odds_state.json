@@ -2,44 +2,6 @@
  "open": [
   {
    "kind": "value",
-   "game": "Tenn-Martin Skyhawks at Arkansas St Red Wolves",
-   "game_id": "c01b327672b44187cac6e56917b0784a",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-11T01:00:00Z",
-   "edge": 0.0516,
-   "home": "Arkansas St Red Wolves",
-   "away": "Tenn-Martin Skyhawks",
-   "legs": [
-    {
-     "team": "Tenn-Martin Skyhawks",
-     "book": "DraftKings",
-     "odds": 3.8,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-10T03:30:49+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Tenn-Martin Skyhawks at Arkansas St Red Wolves",
-   "game_id": "c01b327672b44187cac6e56917b0784a",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-11T01:00:00Z",
-   "edge": 0.0516,
-   "home": "Arkansas St Red Wolves",
-   "away": "Tenn-Martin Skyhawks",
-   "legs": [
-    {
-     "team": "Tenn-Martin Skyhawks",
-     "book": "Bovada",
-     "odds": 3.8,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-10T03:30:49+00:00"
-  },
-  {
-   "kind": "value",
    "game": "UMKC Kangaroos at Florida A&M Rattlers",
    "game_id": "eb4ac6c20fe9cf690a2a2409335a3341",
    "sport": "basketball_ncaab",
@@ -135,88 +97,6 @@
   },
   {
    "kind": "value",
-   "game": "Manhattan Jaspers at Le Moyne Dolphins",
-   "game_id": "0d1a14ace2c3c175c03a9ab173daabd0",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-14T23:00:00Z",
-   "edge": 0.0645,
-   "home": "Le Moyne Dolphins",
-   "away": "Manhattan Jaspers",
-   "legs": [
-    {
-     "team": "Manhattan Jaspers",
-     "book": "Bovada",
-     "odds": 2.3,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-14T14:15:12+00:00"
-  },
-  {
-   "kind": "arb",
-   "game": "Manhattan Jaspers at Le Moyne Dolphins",
-   "game_id": "0d1a14ace2c3c175c03a9ab173daabd0",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-14T23:00:00Z",
-   "edge": 0.0098,
-   "home": "Le Moyne Dolphins",
-   "away": "Manhattan Jaspers",
-   "legs": [
-    {
-     "team": "Le Moyne Dolphins",
-     "book": "theScore Bet",
-     "odds": 1.8,
-     "stake": 56.1
-    },
-    {
-     "team": "Manhattan Jaspers",
-     "book": "Bovada",
-     "odds": 2.3,
-     "stake": 43.9
-    }
-   ],
-   "opened": "2026-11-14T14:15:12+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Howard Bison at Davidson Wildcats",
-   "game_id": "4e0ceb792e0b56a12aa0feda82cd6a3b",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-15T00:00:00Z",
-   "edge": 0.0572,
-   "home": "Davidson Wildcats",
-   "away": "Howard Bison",
-   "legs": [
-    {
-     "team": "Howard Bison",
-     "book": "Pinnacle",
-     "odds": 4.87,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-14T14:15:12+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "South Carolina Upstate Spartans at Campbell Fighting Camels",
-   "game_id": "4f85131b4b86a5241b2228638fb6fffb",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-14T21:30:00Z",
-   "edge": 0.063,
-   "home": "Campbell Fighting Camels",
-   "away": "South Carolina Upstate Spartans",
-   "legs": [
-    {
-     "team": "South Carolina Upstate Spartans",
-     "book": "FanDuel",
-     "odds": 5.0,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-14T19:16:08+00:00"
-  },
-  {
-   "kind": "value",
    "game": "Los Angeles Rams at Arizona Cardinals",
    "game_id": "6c932a965110f3f89ec4a5f1a6ac256e",
    "sport": "americanfootball_nfl",
@@ -271,6 +151,52 @@
     }
    ],
    "opened": "2026-11-14T23:07:45+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Atlanta Hawks at Milwaukee Bucks",
+   "game_id": "b931a21d34e414ee92b1a4b8e63774aa",
+   "sport": "basketball_nba",
+   "start": "2026-11-16T01:10:00Z",
+   "edge": 0.0371,
+   "home": "Milwaukee Bucks",
+   "away": "Atlanta Hawks",
+   "legs": [
+    {
+     "team": "Milwaukee Bucks",
+     "book": "Pinnacle",
+     "odds": 3.63,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-15T02:46:15+00:00"
+  },
+  {
+   "kind": "arb",
+   "game": "Air Force Falcons at Pacific Tigers",
+   "game_id": "c3c58341c48b659af034931964de5495",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-15T21:00:00Z",
+   "edge": 0.0224,
+   "home": "Pacific Tigers",
+   "away": "Air Force Falcons",
+   "legs": [
+    {
+     "team": "Air Force Falcons",
+     "book": "FanDuel",
+     "odds": 6.8,
+     "stake": 15.04
+    },
+    {
+     "team": "Pacific Tigers",
+     "book": "Kalshi",
+     "odds": 1.203,
+     "stake": 84.96,
+     "ticker": "KXNCAAMBGAME-26NOV14AFAPAC-PAC",
+     "ask": 0.82
+    }
+   ],
+   "opened": "2026-11-15T02:46:15+00:00"
   }
  ],
  "seen": {
@@ -309,18 +235,20 @@
   "value|4f85131b4b86a5241b2228638fb6fffb|South Carolina Upstate Spartans|FanDuel": "2026-11-14T19:16:08.328295+00:00",
   "value|6c932a965110f3f89ec4a5f1a6ac256e|Arizona Cardinals|DraftKings": "2026-11-14T23:07:45.784919+00:00",
   "value|c4ac537963707b247ad9e4eab06c15de|Vancouver Canucks|BetRivers": "2026-11-14T23:07:45.784919+00:00",
-  "value|ce88da9d6fd67bac81c1e4a70545de29|Hawaii Rainbow Warriors|theScore Bet": "2026-11-14T23:07:45.784919+00:00"
+  "value|ce88da9d6fd67bac81c1e4a70545de29|Hawaii Rainbow Warriors|theScore Bet": "2026-11-14T23:07:45.784919+00:00",
+  "value|b931a21d34e414ee92b1a4b8e63774aa|Milwaukee Bucks|Pinnacle": "2026-11-15T02:46:15.060376+00:00",
+  "arb|c3c58341c48b659af034931964de5495|Air Force Falcons@FanDuel|Pacific Tigers@Kalshi": "2026-11-15T02:46:15.060376+00:00"
  },
  "credits": {
   "day": "2026-11-14",
-  "spent": 15,
-  "remaining": 395
+  "spent": 20,
+  "remaining": 390
  },
  "last_priced": {
-  "basketball_nba": "2026-11-14T23:07:45.784919+00:00",
-  "icehockey_nhl": "2026-11-14T23:07:45.784919+00:00",
-  "americanfootball_ncaaf": "2026-11-14T23:07:45.784919+00:00",
-  "basketball_ncaab": "2026-11-14T23:07:45.784919+00:00",
-  "americanfootball_nfl": "2026-11-14T23:07:45.784919+00:00"
+  "basketball_nba": "2026-11-15T02:46:15.060376+00:00",
+  "icehockey_nhl": "2026-11-15T02:46:15.060376+00:00",
+  "americanfootball_ncaaf": "2026-11-15T02:46:15.060376+00:00",
+  "basketball_ncaab": "2026-11-15T02:46:15.060376+00:00",
+  "americanfootball_nfl": "2026-11-15T02:46:15.060376+00:00"
  }
 }
