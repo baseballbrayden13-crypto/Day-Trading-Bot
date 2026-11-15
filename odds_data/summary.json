@@ -1,33 +1,24 @@
 {
- "updated": "2026-11-15T02:46:15+00:00",
+ "updated": "2026-11-15T11:08:05+00:00",
  "scan": {
-  "sports": [
-   "americanfootball_nfl",
-   "basketball_nba",
-   "icehockey_nhl",
-   "americanfootball_ncaaf",
-   "basketball_ncaab"
-  ],
-  "games": 70,
-  "kalshi_matched": 62,
+  "sports": [],
+  "games": 0,
+  "kalshi_matched": 0,
   "skipped": [],
-  "pinnacle": 28,
+  "note": "quiet hours",
   "credits_left": 390,
-  "spent_today": 20,
-  "allowance": 23
+  "spent_today": 0,
+  "allowance": 24
  },
- "new_finds": [
-  "Milwaukee Bucks @ Pinnacle 3.63 (fair 3.50, +3.7% expected) Atlanta Hawks at Milwaukee Bucks (Sun 8:10PM)",
-  "ARB 2.2% locked: Air Force Falcons at Pacific Tigers (Sun 4:00PM): $15 Air Force Falcons @ FanDuel 6.8, $85 Pacific Tigers @ Kalshi 1.203"
- ],
- "open_bets": 10,
+ "new_finds": [],
+ "open_bets": 9,
  "record": {
   "value": {
-   "bets": 21,
+   "bets": 22,
    "wins": 5,
-   "staked": 210.0,
-   "pnl": -8.9,
-   "roi": -0.0424
+   "staked": 220.0,
+   "pnl": -18.9,
+   "roi": -0.0859
   },
   "kalshi": {
    "bets": 2,
@@ -44,11 +35,11 @@
    "roi": 0.014
   },
   "all": {
-   "bets": 28,
+   "bets": 29,
    "wins": 10,
-   "staked": 730.0,
-   "pnl": -21.91,
-   "roi": -0.03
+   "staked": 740.0,
+   "pnl": -31.91,
+   "roi": -0.0431
   }
  }
 }

@@ -1,43 +1,43 @@
 {
  "open": [
   {
-   "kind": "game",
-   "game": "Cleveland Cavaliers vs Dallas Mavericks",
-   "start": "2026-11-15T00:40:00Z",
+   "kind": "favorites",
+   "game": "Favorites across games",
+   "start": "2026-11-16T00:10:00Z",
    "legs": [
     {
-     "label": "Zaccharie Risacher 5+ points",
-     "ticker": "KXNBAPTS-26NOV14DALCLE-DALZRISACHER10-5",
+     "label": "Rhode Island Rams to win",
+     "ticker": "KXNCAAMBGAME-26NOV15PRINURI-URI",
      "side": "yes",
-     "price": 0.64,
-     "fair": 0.7183,
-     "value": 0.0613,
-     "player": "Zaccharie Risacher"
+     "price": 0.77,
+     "fair": 0.771,
+     "value": -0.012,
+     "player": ""
     },
     {
-     "label": "P.J. Washington 10+ points",
-     "ticker": "KXNBAPTS-26NOV14DALCLE-DALPWASHINGTON25-10",
+     "label": "San Antonio Spurs to win",
+     "ticker": "KXNBAGAME-26NOV15SASUTA-SAS",
      "side": "yes",
-     "price": 0.71,
-     "fair": 0.7706,
-     "value": 0.0456,
-     "player": "P.J. Washington"
+     "price": 0.92,
+     "fair": 0.9121,
+     "value": -0.0139,
+     "player": ""
     },
     {
-     "label": "Jaylon Tyson 10+ points",
-     "ticker": "KXNBAPTS-26NOV14DALCLE-CLEJTYSON20-10",
+     "label": "Houston Rockets to win",
+     "ticker": "KXNBAGAME-26NOV15HOUWAS-HOU",
      "side": "yes",
-     "price": 0.63,
-     "fair": 0.6898,
-     "value": 0.0428,
-     "player": "Jaylon Tyson"
+     "price": 0.78,
+     "fair": 0.7779,
+     "value": -0.0151,
+     "player": ""
     }
    ],
-   "price": 0.3082,
-   "fair": 0.3818,
-   "pays": "+224",
-   "per_dollar": 3.24,
-   "opened": "2026-11-14T14:15:16+00:00"
+   "price": 0.575,
+   "fair": 0.547,
+   "pays": "-135",
+   "per_dollar": 1.74,
+   "opened": "2026-11-15T11:08:07+00:00"
   }
  ],
  "seen": {
@@ -48,6 +48,7 @@
   "game|Milwaukee Bucks vs Orlando Magic|2026-11-14": "2026-11-13T23:39:23.084188+00:00",
   "favorites|Favorites across games|2026-11-14": "2026-11-14T06:38:10.703824+00:00",
   "game|Denver Nuggets vs New Orleans Pelicans|2026-11-15": "2026-11-14T14:15:16.369494+00:00",
-  "game|Cleveland Cavaliers vs Dallas Mavericks|2026-11-15": "2026-11-14T14:15:16.369494+00:00"
+  "game|Cleveland Cavaliers vs Dallas Mavericks|2026-11-15": "2026-11-14T14:15:16.369494+00:00",
+  "favorites|Favorites across games|2026-11-15": "2026-11-15T11:08:07.342823+00:00"
  }
 }

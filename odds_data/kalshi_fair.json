@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T02:46:15+00:00",
+ "updated": "2026-11-15T11:08:05+00:00",
  "prices": {
   "KXNCAAFGAME-26NOV14MISSOKLA-OKLA": {
    "fair_yes": 0.5731,
@@ -21,152 +21,6 @@
    "teams": [
     "Oklahoma Sooners",
     "Ole Miss Rebels"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAFGAME-26NOV14UTAHARIZ-ARIZ": {
-   "fair_yes": 0.4624,
-   "start": "2026-11-15T03:30:00Z",
-   "team": "Arizona Wildcats",
-   "sport": "americanfootball_ncaaf",
-   "teams": [
-    "Arizona Wildcats",
-    "Utah Utes"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAFGAME-26NOV14UTAHARIZ-UTAH": {
-   "fair_yes": 0.5376,
-   "start": "2026-11-15T03:30:00Z",
-   "team": "Utah Utes",
-   "sport": "americanfootball_ncaaf",
-   "teams": [
-    "Arizona Wildcats",
-    "Utah Utes"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAFGAME-26NOV14USUSDSU-SDSU": {
-   "fair_yes": 0.412,
-   "start": "2026-11-15T02:50:00Z",
-   "team": "San Diego State Aztecs",
-   "sport": "americanfootball_ncaaf",
-   "teams": [
-    "San Diego State Aztecs",
-    "Utah State Aggies"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAFGAME-26NOV14USUSDSU-USU": {
-   "fair_yes": 0.588,
-   "start": "2026-11-15T02:50:00Z",
-   "team": "Utah State Aggies",
-   "sport": "americanfootball_ncaaf",
-   "teams": [
-    "San Diego State Aztecs",
-    "Utah State Aggies"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAFGAME-26NOV14WYOUTEP-UTEP": {
-   "fair_yes": 0.2917,
-   "start": "2026-11-15T03:00:00Z",
-   "team": "UTEP Miners",
-   "sport": "americanfootball_ncaaf",
-   "teams": [
-    "UTEP Miners",
-    "Wyoming Cowboys"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAFGAME-26NOV14WYOUTEP-WYO": {
-   "fair_yes": 0.7083,
-   "start": "2026-11-15T03:00:00Z",
-   "team": "Wyoming Cowboys",
-   "sport": "americanfootball_ncaaf",
-   "teams": [
-    "UTEP Miners",
-    "Wyoming Cowboys"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAFGAME-26NOV14CSUWSU-WSU": {
-   "fair_yes": 0.7312,
-   "start": "2026-11-15T03:30:00Z",
-   "team": "Washington State Cougars",
-   "sport": "americanfootball_ncaaf",
-   "teams": [
-    "Washington State Cougars",
-    "Colorado State Rams"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAFGAME-26NOV14CSUWSU-CSU": {
-   "fair_yes": 0.2688,
-   "start": "2026-11-15T03:30:00Z",
-   "team": "Colorado State Rams",
-   "sport": "americanfootball_ncaaf",
-   "teams": [
-    "Washington State Cougars",
-    "Colorado State Rams"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNHLGAME-26NOV14NYIANA-ANA": {
-   "fair_yes": 0.5051,
-   "start": "2026-11-15T03:10:00Z",
-   "team": "Anaheim Ducks",
-   "sport": "icehockey_nhl",
-   "teams": [
-    "Anaheim Ducks",
-    "New York Islanders"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00",
-   "news": "lineup news: New York Islanders: Jean-Gabriel Pageau (Out)"
-  },
-  "KXNHLGAME-26NOV14NYIANA-NYI": {
-   "fair_yes": 0.4949,
-   "start": "2026-11-15T03:10:00Z",
-   "team": "New York Islanders",
-   "sport": "icehockey_nhl",
-   "teams": [
-    "Anaheim Ducks",
-    "New York Islanders"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00",
-   "news": "lineup news: New York Islanders: Jean-Gabriel Pageau (Out)"
-  },
-  "KXNHLGAME-26NOV14CGYLA-LA": {
-   "fair_yes": 0.6057,
-   "start": "2026-11-15T03:10:00Z",
-   "team": "Los Angeles Kings",
-   "sport": "icehockey_nhl",
-   "teams": [
-    "Los Angeles Kings",
-    "Calgary Flames"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNHLGAME-26NOV14CGYLA-CGY": {
-   "fair_yes": 0.3943,
-   "start": "2026-11-15T03:10:00Z",
-   "team": "Calgary Flames",
-   "sport": "icehockey_nhl",
-   "teams": [
-    "Los Angeles Kings",
-    "Calgary Flames"
    ],
    "pinnacle": true,
    "updated": "2026-11-15T02:46:15+00:00"
@@ -325,8 +179,7 @@
     "Miami Dolphins"
    ],
    "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00",
-   "news": "lineup news: Miami Dolphins: Darrell Baker Jr. (Out)"
+   "updated": "2026-11-15T02:46:15+00:00"
   },
   "KXNFLGAME-26NOV15MIAIND-MIA": {
    "fair_yes": 0.3518,
@@ -338,8 +191,7 @@
     "Miami Dolphins"
    ],
    "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00",
-   "news": "lineup news: Miami Dolphins: Darrell Baker Jr. (Out)"
+   "updated": "2026-11-15T02:46:15+00:00"
   },
   "KXNFLGAME-26NOV15JACTEN-TEN": {
    "fair_yes": 0.1789,
@@ -457,54 +309,6 @@
    "teams": [
     "Cincinnati Bengals",
     "Pittsburgh Steelers"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAMBGAME-26NOV14UVUNEV-NEV": {
-   "fair_yes": 0.81,
-   "start": "2026-11-15T03:00:00Z",
-   "team": "Nevada Wolf Pack",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Nevada Wolf Pack",
-    "Utah Valley Wolverines"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAMBGAME-26NOV14UVUNEV-UVU": {
-   "fair_yes": 0.19,
-   "start": "2026-11-15T03:00:00Z",
-   "team": "Utah Valley Wolverines",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Nevada Wolf Pack",
-    "Utah Valley Wolverines"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAMBGAME-26NOV14UNMSCU-SCU": {
-   "fair_yes": 0.4618,
-   "start": "2026-11-15T03:00:00Z",
-   "team": "Santa Clara Broncos",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Santa Clara Broncos",
-    "New Mexico Lobos"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00"
-  },
-  "KXNCAAMBGAME-26NOV14UNMSCU-UNM": {
-   "fair_yes": 0.5382,
-   "start": "2026-11-15T03:00:00Z",
-   "team": "New Mexico Lobos",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Santa Clara Broncos",
-    "New Mexico Lobos"
    ],
    "pinnacle": true,
    "updated": "2026-11-15T02:46:15+00:00"
@@ -831,8 +635,7 @@
     "San Antonio Spurs"
    ],
    "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00",
-   "news": "lineup news: Utah Jazz: Jaxson Hayes (Out)"
+   "updated": "2026-11-15T02:46:15+00:00"
   },
   "KXNBAGAME-26NOV15SASUTA-UTA": {
    "fair_yes": 0.0879,
@@ -844,8 +647,7 @@
     "San Antonio Spurs"
    ],
    "pinnacle": true,
-   "updated": "2026-11-15T02:46:15+00:00",
-   "news": "lineup news: Utah Jazz: Jaxson Hayes (Out)"
+   "updated": "2026-11-15T02:46:15+00:00"
   },
   "KXNBAGAME-26NOV15NYKTOR-NYK": {
    "fair_yes": 0.6206,

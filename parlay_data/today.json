@@ -1,49 +1,49 @@
 {
- "updated": "2026-11-15T02:46:20+00:00",
+ "updated": "2026-11-15T11:08:07+00:00",
  "parlays": [
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-15T20:00:00Z",
+   "start": "2026-11-16T00:10:00Z",
    "legs": [
     {
-     "label": "Quinnipiac Bobcats to win",
-     "ticker": "KXNCAAMBGAME-26NOV15QUINCCSU-QUIN",
+     "label": "Rhode Island Rams to win",
+     "ticker": "KXNCAAMBGAME-26NOV15PRINURI-URI",
      "side": "yes",
-     "price": 0.61,
-     "fair": 0.6143,
-     "value": -0.0127,
+     "price": 0.77,
+     "fair": 0.771,
+     "value": -0.012,
      "player": ""
     },
     {
-     "label": "Washington State Cougars to win",
-     "ticker": "KXNCAAFGAME-26NOV14CSUWSU-WSU",
+     "label": "San Antonio Spurs to win",
+     "ticker": "KXNBAGAME-26NOV15SASUTA-SAS",
      "side": "yes",
-     "price": 0.73,
-     "fair": 0.7312,
-     "value": -0.0128,
+     "price": 0.92,
+     "fair": 0.9121,
+     "value": -0.0139,
      "player": ""
     },
     {
-     "label": "Iowa Hawkeyes to win",
-     "ticker": "KXNCAAMBGAME-26NOV15CREIIOWA-IOWA",
+     "label": "Houston Rockets to win",
+     "ticker": "KXNBAGAME-26NOV15HOUWAS-HOU",
      "side": "yes",
-     "price": 0.61,
-     "fair": 0.6095,
-     "value": -0.0175,
+     "price": 0.78,
+     "fair": 0.7779,
+     "value": -0.0151,
      "player": ""
     }
    ],
-   "price": 0.2925,
-   "fair": 0.2738,
-   "pays": "+242",
-   "per_dollar": 3.42
+   "price": 0.575,
+   "fair": 0.547,
+   "pays": "-135",
+   "per_dollar": 1.74
   }
  ],
  "open_pretend": 1,
  "record": {
-  "parlays": 7,
-  "won": 0,
-  "profit": -7.0
+  "parlays": 8,
+  "won": 1,
+  "profit": -4.76
  }
 }

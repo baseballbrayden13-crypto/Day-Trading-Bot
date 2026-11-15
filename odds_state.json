@@ -78,25 +78,6 @@
   },
   {
    "kind": "value",
-   "game": "Florida Atlantic Owls at Tulsa Golden Hurricane",
-   "game_id": "018349e41d033e3b1fdbc14ce9b09325",
-   "sport": "americanfootball_ncaaf",
-   "start": "2026-11-15T00:15:00Z",
-   "edge": 0.0388,
-   "home": "Tulsa Golden Hurricane",
-   "away": "Florida Atlantic Owls",
-   "legs": [
-    {
-     "team": "Florida Atlantic Owls",
-     "book": "Pinnacle",
-     "odds": 3.16,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-14T14:15:12+00:00"
-  },
-  {
-   "kind": "value",
    "game": "Los Angeles Rams at Arizona Cardinals",
    "game_id": "6c932a965110f3f89ec4a5f1a6ac256e",
    "sport": "americanfootball_nfl",
@@ -240,8 +221,8 @@
   "arb|c3c58341c48b659af034931964de5495|Air Force Falcons@FanDuel|Pacific Tigers@Kalshi": "2026-11-15T02:46:15.060376+00:00"
  },
  "credits": {
-  "day": "2026-11-14",
-  "spent": 20,
+  "day": "2026-11-15",
+  "spent": 0,
   "remaining": 390
  },
  "last_priced": {
