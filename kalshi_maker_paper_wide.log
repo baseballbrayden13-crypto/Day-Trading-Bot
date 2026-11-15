@@ -9372,3 +9372,7 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 01:45:41,138 INFO Swept 20168 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 01:51:36,058 INFO Swept 20175 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 01:51:36,209 INFO Quote KXCONCACAFNLADVANCE-26NOV17USAHTI cancelled (0/3 filled)
+2026-11-15 01:57:31,451 INFO Swept 20167 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 02:03:27,347 INFO Swept 20172 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 02:09:18,736 INFO Swept 20141 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 02:09:23,743 INFO Stopped; all quotes cancelled.
