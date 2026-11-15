@@ -243,5 +243,86 @@
    "closed": "2026-11-14T03:57:50.222799+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXUCLWGAME-26NOV19BARSER",
+   "series": "KXUCLWGAME",
+   "title": "Barcelona vs Servette Chenois",
+   "ticker": "KXUCLWGAME-26NOV19BARSER-TIE",
+   "order_id": "paper-138-1794706066",
+   "price": "0.7400",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.7600",
+   "multiplier": "1",
+   "placed": 1794706066.1251807,
+   "hedge": [
+    {
+     "ticker": "KXUCLWGAME-26NOV19BARSER-BAR",
+     "limit": "0.1300"
+    },
+    {
+     "ticker": "KXUCLWGAME-26NOV19BARSER-SER",
+     "limit": "0.9900"
+    }
+   ]
+  },
+  {
+   "event": "KXCONCACAFNLADVANCE-26NOV16CANGTM",
+   "series": "KXCONCACAFNLADVANCE",
+   "title": "Canada vs Guatemala",
+   "ticker": "KXCONCACAFNLADVANCE-26NOV16CANGTM-CAN",
+   "order_id": "paper-139-1794706066",
+   "price": "0.01",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.7900",
+   "multiplier": "1",
+   "placed": 1794706066.1869698,
+   "hedge": [
+    {
+     "ticker": "KXCONCACAFNLADVANCE-26NOV16CANGTM-GTM",
+     "limit": "0.9300"
+    }
+   ]
+  },
+  {
+   "event": "KXAHLGAME-26NOV141905CHALEH",
+   "series": "KXAHLGAME",
+   "title": "Charlotte Checkers vs Lehigh Valley Phantoms",
+   "ticker": "KXAHLGAME-26NOV141905CHALEH-LEH",
+   "order_id": "paper-141-1794706374",
+   "price": "0.3600",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6700",
+   "multiplier": "1",
+   "placed": 1794706374.9243202,
+   "hedge": [
+    {
+     "ticker": "KXAHLGAME-26NOV141905CHALEH-CHA",
+     "limit": "0.4800"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAHGAME-26NOV14PSUMIC",
+   "series": "KXNCAAHGAME",
+   "title": "Penn State vs Michigan",
+   "ticker": "KXNCAAHGAME-26NOV14PSUMIC-PSU",
+   "order_id": "paper-142-1794707277",
+   "price": "0.2200",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.5500",
+   "multiplier": "1",
+   "placed": 1794707277.9049006,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV14PSUMIC-MIC",
+     "limit": "0.3000"
+    }
+   ]
+  }
+ ]
 }

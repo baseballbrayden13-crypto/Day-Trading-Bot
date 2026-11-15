@@ -2381,3 +2381,27 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 20:22:08,435 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-14 20:22:12,288 INFO Swept 20777 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-14 20:22:17,495 INFO Stopped; all quotes cancelled.
+2026-11-14 20:23:15,722 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-14 20:27:42,623 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:27:46,125 INFO PAPER rest NO bid KXUCLWGAME-26NOV19BARSER-TIE at $0.7400 x2 (0 already bid at that price)
+2026-11-14 20:27:46,125 INFO Resting NO bid on KXUCLWGAME-26NOV19BARSER-TIE at $0.7400 x2 (KXUCLWGAME-26NOV19BARSER): locks in $0.24 if it fills; hedge NO BAR@0.1300, SER@0.9900
+2026-11-14 20:27:46,186 INFO PAPER rest NO bid KXCONCACAFNLADVANCE-26NOV16CANGTM-CAN at $0.0100 x4 (27 already bid at that price)
+2026-11-14 20:27:46,186 INFO Resting NO bid on KXCONCACAFNLADVANCE-26NOV16CANGTM-CAN at $0.01 x4 (KXCONCACAFNLADVANCE-26NOV16CANGTM): locks in $0.21 if it fills; hedge NO GTM@0.9300
+2026-11-14 20:27:46,249 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.2000 x2 (0 already bid at that price)
+2026-11-14 20:27:46,249 INFO Resting NO bid on KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.2000 x2 (KXNCAAHGAME-26NOV14UNOMIA): locks in $0.85 if it fills; hedge NO MIA@0.4000
+2026-11-14 20:27:46,250 INFO Swept 20763 events: 0 taker trades, 3 new quotes, 3 resting
+2026-11-14 20:32:52,177 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:32:54,924 INFO PAPER rest NO bid KXAHLGAME-26NOV141905CHALEH-LEH at $0.3600 x2 (0 already bid at that price)
+2026-11-14 20:32:54,924 INFO Resting NO bid on KXAHLGAME-26NOV141905CHALEH-LEH at $0.3600 x2 (KXAHLGAME-26NOV141905CHALEH): locks in $0.33 if it fills; hedge NO CHA@0.4500
+2026-11-14 20:32:54,925 INFO Swept 20751 events: 0 taker trades, 1 new quotes, 4 resting
+2026-11-14 20:37:53,377 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:37:55,852 INFO Swept 20738 events: 0 taker trades, 0 new quotes, 4 resting
+2026-11-14 20:42:54,290 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:42:56,771 INFO Swept 20723 events: 0 taker trades, 0 new quotes, 4 resting
+2026-11-14 20:42:57,212 INFO Quote KXNCAAHGAME-26NOV14UNOMIA cancelled (0/2 filled)
+2026-11-14 20:47:54,949 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:47:57,904 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14PSUMIC-PSU at $0.2200 x1 (0 already bid at that price)
+2026-11-14 20:47:57,904 INFO Resting NO bid on KXNCAAHGAME-26NOV14PSUMIC-PSU at $0.2200 x1 (KXNCAAHGAME-26NOV14PSUMIC): locks in $0.45 if it fills; hedge NO MIC@0.3000
+2026-11-14 20:47:57,906 INFO Swept 20705 events: 0 taker trades, 1 new quotes, 4 resting
+2026-11-14 20:52:57,926 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:53:00,573 INFO Swept 20691 events: 0 taker trades, 0 new quotes, 4 resting
