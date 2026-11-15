@@ -2596,3 +2596,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 01:50:48,539 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-15 01:50:51,897 INFO Swept 20177 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 01:50:52,090 INFO Quote KXCONCACAFNLADVANCE-26NOV17USAHTI cancelled (0/5 filled)
+2026-11-15 01:55:57,509 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 01:56:00,482 INFO Swept 20167 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 02:00:54,315 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 02:00:57,152 INFO Swept 20173 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 02:05:55,752 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 02:05:58,848 INFO Swept 20141 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 02:10:56,808 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 02:10:59,727 INFO Swept 20139 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 02:11:04,729 INFO Stopped; all quotes cancelled.
