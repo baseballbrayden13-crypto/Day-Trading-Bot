@@ -2702,21 +2702,21 @@
  ],
  "quotes": [
   {
-   "event": "KXCONCACAFNLADVANCE-26NOV16CANGTM",
-   "series": "KXCONCACAFNLADVANCE",
-   "title": "Canada vs Guatemala",
-   "ticker": "KXCONCACAFNLADVANCE-26NOV16CANGTM-GTM",
-   "order_id": "paper-1078-1794697807",
-   "price": "0.80",
-   "sets": 3,
+   "event": "KXNCAAHGAME-26NOV14UNOMIA",
+   "series": "KXNCAAHGAME",
+   "title": "Omaha vs Miami",
+   "ticker": "KXNCAAHGAME-26NOV14UNOMIA-UNO",
+   "order_id": "paper-1079-1794699919",
+   "price": "0.1800",
+   "sets": 2,
    "done": 0,
-   "reserve": "2.8900",
+   "reserve": "1.7500",
    "multiplier": "1",
-   "placed": 1794697807.5212107,
+   "placed": 1794699919.8684006,
    "hedge": [
     {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV16CANGTM-CAN",
-     "limit": "0.1500"
+     "ticker": "KXNCAAHGAME-26NOV14UNOMIA-MIA",
+     "limit": "0.6700"
     }
    ]
   }

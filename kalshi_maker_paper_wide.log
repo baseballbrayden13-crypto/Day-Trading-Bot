@@ -9214,3 +9214,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 18:20:11,615 INFO Swept 20802 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-14 18:25:12,980 INFO Swept 20763 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-14 18:30:14,667 INFO Swept 20762 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 18:35:17,275 INFO Swept 20750 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 18:40:18,877 INFO Swept 20743 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 18:45:19,868 INFO PAPER rest NO bid KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.1800 x2 (0 already bid at that price)
+2026-11-14 18:45:19,868 INFO Resting NO bid on KXNCAAHGAME-26NOV14UNOMIA-UNO at $0.1800 x2 (KXNCAAHGAME-26NOV14UNOMIA): locks in $0.25 if it fills; hedge NO MIA@0.6700
+2026-11-14 18:45:19,942 INFO PAPER rest NO bid KXUSL1H-26NOV14CHALFC-CHA at $0.3500 x1 (0 already bid at that price)
+2026-11-14 18:45:19,942 INFO Resting NO bid on KXUSL1H-26NOV14CHALFC-CHA at $0.3500 x1 (KXUSL1H-26NOV14CHALFC): locks in $0.11 if it fills; hedge NO LFC@0.6500, TIE@0.8500
+2026-11-14 18:45:20,254 INFO Swept 20735 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-14 18:50:21,145 INFO Swept 20741 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 18:50:21,488 INFO Quote KXUSL1H-26NOV14CHALFC cancelled (0/1 filled)
+2026-11-14 18:55:23,984 INFO PAPER rest NO bid KXNCAAFWINMARGIN-26NOV14USCIND-IND1TO6 at $0.6300 x2 (0 already bid at that price)
+2026-11-14 18:55:23,985 INFO Resting NO bid on KXNCAAFWINMARGIN-26NOV14USCIND-IND1TO6 at $0.6300 x2 (KXNCAAFWINMARGIN-26NOV14USCIND): locks in $0.41 if it fills; hedge NO IND7TO14@0.1500
+2026-11-14 18:55:24,291 INFO Swept 20727 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-14 19:00:26,725 INFO Swept 20711 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-14 19:00:27,068 INFO Quote KXNCAAFWINMARGIN-26NOV14USCIND cancelled (0/2 filled)
