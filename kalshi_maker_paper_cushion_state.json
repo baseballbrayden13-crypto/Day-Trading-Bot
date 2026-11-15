@@ -344,5 +344,29 @@
    "closed": "2026-11-15T18:55:54.111428+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXEFLL1GAME-26NOV14STEMAT",
+   "series": "KXEFLL1GAME",
+   "title": "Stevenage vs Mansfield",
+   "ticker": "KXEFLL1GAME-26NOV14STEMAT-STE",
+   "order_id": "paper-185-1794782814",
+   "price": "0.3200",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.6900",
+   "multiplier": "1",
+   "placed": 1794782814.338851,
+   "hedge": [
+    {
+     "ticker": "KXEFLL1GAME-26NOV14STEMAT-MAT",
+     "limit": "0.7800"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14STEMAT-TIE",
+     "limit": "0.7100"
+    }
+   ]
+  }
+ ]
 }

@@ -2921,3 +2921,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 17:31:43,290 INFO Swept 18925 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 17:36:42,292 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-15 17:36:43,661 INFO Swept 18920 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:41:46,969 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:41:48,468 INFO Swept 18915 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 17:46:52,936 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:46:54,338 INFO PAPER rest NO bid KXEFLL1GAME-26NOV14STEMAT-STE at $0.3200 x2 (0 already bid at that price)
+2026-11-15 17:46:54,338 INFO Resting NO bid on KXEFLL1GAME-26NOV14STEMAT-STE at $0.3200 x2 (KXEFLL1GAME-26NOV14STEMAT): locks in $0.31 if it fills; hedge NO MAT@0.7800, TIE@0.7100
+2026-11-15 17:46:54,339 INFO Swept 18909 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 17:51:50,796 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:51:52,164 INFO Swept 18905 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 17:56:50,996 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:56:52,466 INFO Swept 18885 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 18:01:47,334 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 18:01:48,735 INFO PAPER rest NO bid KXAHLGAME-26NOV151600MANCHI-CHI at $0.3100 x2 (0 already bid at that price)
+2026-11-15 18:01:48,735 INFO Resting NO bid on KXAHLGAME-26NOV151600MANCHI-CHI at $0.3100 x2 (KXAHLGAME-26NOV151600MANCHI): locks in $0.21 if it fills; hedge NO MAN@0.5600
+2026-11-15 18:01:48,736 INFO Swept 18876 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 18:06:52,420 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 18:06:53,768 INFO Swept 18883 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 18:06:53,855 INFO Quote KXAHLGAME-26NOV151600MANCHI cancelled (0/2 filled)
