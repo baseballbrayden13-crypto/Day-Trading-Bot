@@ -2753,3 +2753,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 10:30:41,661 INFO PAPER rest NO bid KXLIDOMGAME-26NOV161830ESTAGU-EST at $0.1400 x5 (0 already bid at that price)
 2026-11-15 10:30:41,661 INFO Resting NO bid on KXLIDOMGAME-26NOV161830ESTAGU-EST at $0.1400 x5 (KXLIDOMGAME-26NOV161830ESTAGU): locks in $0.48 if it fills; hedge NO AGU@0.7500
 2026-11-15 10:30:41,663 INFO Swept 20161 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 10:35:42,314 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 10:35:44,130 INFO Swept 20138 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 10:40:39,510 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 10:40:41,297 INFO Swept 20136 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 10:45:43,281 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 10:45:45,163 INFO Swept 20130 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 10:50:45,807 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 10:50:48,111 INFO Swept 20138 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 10:50:53,227 INFO Stopped; all quotes cancelled.
