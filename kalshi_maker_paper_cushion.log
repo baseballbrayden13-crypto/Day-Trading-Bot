@@ -2792,3 +2792,23 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 13:36:00,777 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.9800: not on the book
 2026-11-15 13:36:00,777 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi.
 2026-11-15 13:36:00,821 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:40:44,331 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 13:40:45,686 INFO Swept 19905 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 13:40:45,740 INFO Quote KXLVBPGAME-26NOV151200ARAMAR cancelled (0/2 filled)
+2026-11-15 13:40:45,755 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:45:51,696 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 13:45:52,945 INFO Swept 19899 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 13:45:52,961 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:50:49,502 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 13:50:50,750 INFO PAPER rest NO bid KXUEFANLSCORE-26NOV15BLRALB-BLR0ALB3 at $0.1600 x2 (0 already bid at that price)
+2026-11-15 13:50:50,750 INFO Resting NO bid on KXUEFANLSCORE-26NOV15BLRALB-BLR0ALB3 at $0.1600 x2 (KXUEFANLSCORE-26NOV15BLRALB): locks in $0.43 if it fills; hedge NO BLR0ALB2@0.6000
+2026-11-15 13:50:50,751 INFO Swept 19885 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 13:50:50,798 INFO PAPER sell 1 YES KXBBSERIEA2GAME-26NOV151200BASCRE-BAS at up to $0.99: not on the book
+2026-11-15 13:55:54,111 INFO Settled KXBBSERIEA2GAME-26NOV151200BASCRE (stray): paid $0, profit $-0.08
+2026-11-15 13:55:54,138 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 13:55:55,286 INFO Swept 19867 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 13:55:55,338 INFO Quote KXUEFANLSCORE-26NOV15BLRALB cancelled (0/2 filled)
+2026-11-15 14:00:56,205 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 14:00:57,449 INFO Swept 19834 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 14:05:59,170 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 14:06:00,378 INFO Swept 19804 events: 0 taker trades, 0 new quotes, 0 resting
