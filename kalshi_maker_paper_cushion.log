@@ -2556,3 +2556,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 00:14:39,365 INFO Swept 20144 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 00:19:42,935 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-15 00:19:45,937 INFO Swept 20154 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 00:24:46,165 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 00:24:49,118 INFO Swept 20188 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 00:29:47,284 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 00:29:50,167 INFO Swept 20227 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 00:34:49,761 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 00:34:52,926 INFO Swept 20236 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 00:39:49,600 INFO Settled KXLIGAEXPADVANCE-26NOV14CLUPIR: paid $2, profit $-0.08
+2026-11-15 00:39:49,633 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 00:39:52,643 INFO Swept 20222 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 00:44:54,081 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 00:44:57,151 INFO Swept 20221 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 00:50:00,775 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 00:50:04,164 INFO Swept 20236 events: 0 taker trades, 0 new quotes, 0 resting
