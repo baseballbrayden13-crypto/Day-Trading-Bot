@@ -9376,3 +9376,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 02:03:27,347 INFO Swept 20172 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-15 02:09:18,736 INFO Swept 20141 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-15 02:09:23,743 INFO Stopped; all quotes cancelled.
+2026-11-15 05:03:44,873 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-15 05:07:19,510 INFO PAPER rest NO bid KXCONCACAFNLADVANCE-26NOV15PANCUW-PAN at $0.2800 x3 (3 already bid at that price)
+2026-11-15 05:07:19,510 INFO Resting NO bid on KXCONCACAFNLADVANCE-26NOV15PANCUW-PAN at $0.28 x3 (KXCONCACAFNLADVANCE-26NOV15PANCUW): locks in $0.11 if it fills; hedge NO CUW@0.6600
+2026-11-15 05:07:19,700 INFO Swept 20146 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 05:12:24,156 INFO Swept 20154 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 05:17:28,678 INFO Swept 20159 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 05:22:34,122 INFO Swept 20162 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 05:27:34,483 INFO Swept 20156 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 05:32:35,588 INFO Swept 20165 events: 0 taker trades, 0 new quotes, 1 resting
