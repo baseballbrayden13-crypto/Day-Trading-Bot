@@ -2724,25 +2724,5 @@
    "closed": "2026-11-15T03:50:56.765635+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXCONCACAFNLADVANCE-26NOV17USAHTI",
-   "series": "KXCONCACAFNLADVANCE",
-   "title": "USA vs Haiti",
-   "ticker": "KXCONCACAFNLADVANCE-26NOV17USAHTI-HTI",
-   "order_id": "paper-1101-1794722325",
-   "price": "0.71",
-   "sets": 3,
-   "done": 0,
-   "reserve": "2.8800",
-   "multiplier": "1",
-   "placed": 1794722325.947504,
-   "hedge": [
-    {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV17USAHTI-USA",
-     "limit": "0.2300"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

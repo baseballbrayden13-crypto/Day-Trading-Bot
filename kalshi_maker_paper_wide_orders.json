@@ -15406,11 +15406,25 @@
   "count": 3,
   "ahead": 22,
   "placed": 1794722325.9329545,
-  "checked": 1794723735.6319437,
+  "checked": 1794724125,
   "expires": 1794724125,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-1102-1794724792": {
+  "id": "paper-1102-1794724792",
+  "ticker": "KXCONCACAFNLADVANCE-26NOV17USAHTI-USA",
+  "price": "0.0200",
+  "count": 3,
+  "ahead": 11,
+  "placed": 1794724792.3628736,
+  "checked": 1794725496.1486292,
+  "expires": 1794726592,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
