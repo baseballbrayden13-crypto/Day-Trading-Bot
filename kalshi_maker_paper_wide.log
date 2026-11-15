@@ -9592,3 +9592,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 18:26:33,789 INFO Swept 18975 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 18:31:33,648 INFO Swept 18971 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 18:36:28,423 INFO Swept 18959 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 18:41:33,270 INFO Swept 18943 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 18:46:34,785 INFO PAPER rest NO bid KXCONCACAFNLADVANCE-26NOV16CANGTM-GTM at $0.7600 x3 (30 already bid at that price)
+2026-11-15 18:46:34,785 INFO Resting NO bid on KXCONCACAFNLADVANCE-26NOV16CANGTM-GTM at $0.76 x3 (KXCONCACAFNLADVANCE-26NOV16CANGTM): locks in $0.10 if it fills; hedge NO CAN@0.1900
+2026-11-15 18:46:34,984 INFO Swept 18949 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 18:51:37,076 INFO Swept 18932 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 18:51:37,218 INFO Quote KXCONCACAFNLADVANCE-26NOV16CANGTM cancelled (0/3 filled)
+2026-11-15 18:51:42,223 INFO Stopped; all quotes cancelled.
