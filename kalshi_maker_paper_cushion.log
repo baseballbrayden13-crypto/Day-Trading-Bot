@@ -2370,3 +2370,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-14 20:04:01,605 INFO PAPER rest NO bid KXINTLFRIENDLYGAME-26NOV17ECUBOL-TIE at $0.7400 x2 (0 already bid at that price)
 2026-11-14 20:04:01,605 INFO Resting NO bid on KXINTLFRIENDLYGAME-26NOV17ECUBOL-TIE at $0.7400 x2 (KXINTLFRIENDLYGAME-26NOV17ECUBOL): locks in $0.24 if it fills; hedge NO ECU@0.1500, BOL@0.9700
 2026-11-14 20:04:01,606 INFO Swept 20757 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-14 20:10:04,602 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:10:08,207 INFO PAPER rest NO bid KXUCLWGAME-26NOV19BARSER-TIE at $0.5400 x2 (0 already bid at that price)
+2026-11-14 20:10:08,207 INFO Resting NO bid on KXUCLWGAME-26NOV19BARSER-TIE at $0.5400 x2 (KXUCLWGAME-26NOV19BARSER): locks in $0.55 if it fills; hedge NO BAR@0.1900, SER@0.9700
+2026-11-14 20:10:08,209 INFO Swept 20752 events: 0 taker trades, 1 new quotes, 4 resting
+2026-11-14 20:10:08,650 INFO Quote KXINTLFRIENDLYGAME-26NOV17ECUBOL cancelled (0/2 filled)
+2026-11-14 20:16:08,937 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:16:12,956 INFO Swept 20777 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-14 20:16:13,200 INFO Quote KXARGNACBADVANCE-26NOV14GEJALB cancelled (0/2 filled)
+2026-11-14 20:22:08,435 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-14 20:22:12,288 INFO Swept 20777 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-14 20:22:17,495 INFO Stopped; all quotes cancelled.

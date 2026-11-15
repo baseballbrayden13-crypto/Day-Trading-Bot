@@ -1868,12 +1868,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794703551.6488028,
-  "checked": 1794704641.6067657,
+  "checked": 1794705351,
   "expires": 1794705351,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-135-1794704641": {
   "id": "paper-135-1794704641",
@@ -1882,12 +1882,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794704641.5428107,
-  "checked": 1794704641.7244446,
+  "checked": 1794705373.1381912,
   "expires": 1794706441,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-136-1794704641": {
   "id": "paper-136-1794704641",
@@ -1896,11 +1896,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794704641.6034138,
-  "checked": 1794704641.8439565,
+  "checked": 1794705008.5848086,
   "expires": 1794706441,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-137-1794705008": {
+  "id": "paper-137-1794705008",
+  "ticker": "KXUCLWGAME-26NOV19BARSER-TIE",
+  "price": "0.5400",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794705008.2052567,
+  "checked": 1794705737.425287,
+  "expires": 1794706808,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
