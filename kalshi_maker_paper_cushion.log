@@ -2890,3 +2890,21 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 16:36:58,655 INFO PAPER rest NO bid KXLVBPGAME-26NOV151200ARAMAR-MAR at $0.4100 x4 (0 already bid at that price)
 2026-11-15 16:36:58,655 INFO Resting NO bid on KXLVBPGAME-26NOV151200ARAMAR-MAR at $0.4100 x4 (KXLVBPGAME-26NOV151200ARAMAR): locks in $0.98 if it fills; hedge NO ARA@0.3800
 2026-11-15 16:36:58,656 INFO Swept 19123 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-15 16:41:49,744 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 16:41:51,088 INFO Swept 19095 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-15 16:46:47,205 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 16:46:48,559 INFO Swept 19077 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-15 16:47:39,629 INFO Quote KXLVBPGAME-26NOV151200ARAMAR cancelled (0/4 filled)
+2026-11-15 16:51:44,647 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 16:51:46,062 INFO Swept 19058 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 16:51:46,138 INFO Quote KXNBARACE-26NOV15LALPHX-30 cancelled (0/1 filled)
+2026-11-15 16:56:43,366 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 16:56:44,790 INFO PAPER rest NO bid KXLVBPGAME-26NOV151200ARAMAR-MAR at $0.3900 x4 (0 already bid at that price)
+2026-11-15 16:56:44,790 INFO Resting NO bid on KXLVBPGAME-26NOV151200ARAMAR-MAR at $0.3900 x4 (KXLVBPGAME-26NOV151200ARAMAR): locks in $0.95 if it fills; hedge NO ARA@0.3500
+2026-11-15 16:56:44,791 INFO Swept 19006 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 17:01:45,634 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:01:46,942 INFO Swept 18997 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 17:06:51,117 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 17:06:52,556 INFO PAPER rest NO bid KXARGNACBADVANCE-26NOV14DMAMAI-MAI at $0.7400 x5 (0 already bid at that price)
+2026-11-15 17:06:52,556 INFO Resting NO bid on KXARGNACBADVANCE-26NOV14DMAMAI-MAI at $0.7400 x5 (KXARGNACBADVANCE-26NOV14DMAMAI): locks in $0.27 if it fills; hedge NO DMA@0.1900
+2026-11-15 17:06:52,557 INFO Swept 18963 events: 0 taker trades, 1 new quotes, 2 resting

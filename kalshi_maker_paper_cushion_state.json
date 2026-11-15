@@ -346,59 +346,40 @@
  ],
  "quotes": [
   {
+   "event": "KXLVBPGAME-26NOV151200ARAMAR",
+   "series": "KXLVBPGAME",
+   "title": "Tigres de Aragua vs Bravos de Margarita",
+   "ticker": "KXLVBPGAME-26NOV151200ARAMAR-MAR",
+   "order_id": "paper-183-1794779804",
+   "price": "0.3900",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.0500",
+   "multiplier": "1",
+   "placed": 1794779804.7907429,
+   "hedge": [
+    {
+     "ticker": "KXLVBPGAME-26NOV151200ARAMAR-ARA",
+     "limit": "0.3500"
+    }
+   ]
+  },
+  {
    "event": "KXARGNACBADVANCE-26NOV14DMAMAI",
    "series": "KXARGNACBADVANCE",
    "title": "Madryn vs Maipu",
    "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-MAI",
-   "order_id": "paper-180-1794778324",
+   "order_id": "paper-184-1794780412",
    "price": "0.7400",
    "sets": 5,
    "done": 0,
    "reserve": "4.7300",
    "multiplier": "1",
-   "placed": 1794778324.5435827,
+   "placed": 1794780412.5568743,
    "hedge": [
     {
      "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-DMA",
      "limit": "0.1900"
-    }
-   ]
-  },
-  {
-   "event": "KXNBARACE-26NOV15LALPHX-30",
-   "series": "KXNBARACE",
-   "title": "Los Angeles L vs Phoenix: Race to 30 Points",
-   "ticker": "KXNBARACE-26NOV15LALPHX-30-PHX",
-   "order_id": "paper-181-1794778618",
-   "price": "0.2700",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.7000",
-   "multiplier": "1",
-   "placed": 1794778618.6356852,
-   "hedge": [
-    {
-     "ticker": "KXNBARACE-26NOV15LALPHX-30-LAL",
-     "limit": "0.4000"
-    }
-   ]
-  },
-  {
-   "event": "KXLVBPGAME-26NOV151200ARAMAR",
-   "series": "KXLVBPGAME",
-   "title": "Tigres de Aragua vs Bravos de Margarita",
-   "ticker": "KXLVBPGAME-26NOV151200ARAMAR-MAR",
-   "order_id": "paper-182-1794778618",
-   "price": "0.4100",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.0200",
-   "multiplier": "1",
-   "placed": 1794778618.6559646,
-   "hedge": [
-    {
-     "ticker": "KXLVBPGAME-26NOV151200ARAMAR-ARA",
-     "limit": "0.3800"
     }
    ]
   }
