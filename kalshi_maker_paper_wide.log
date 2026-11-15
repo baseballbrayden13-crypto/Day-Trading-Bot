@@ -9526,3 +9526,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 15:05:57,706 INFO PAPER BET daily_safest: 1 YES KXRAIN-26NOV15-SFO at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
 2026-11-15 15:05:57,875 INFO PAPER COMBO: YES KXRAIN-26NOV15-SFO, NO KXLOWTSATX-26NOV15-T50, NO KXLOWTPHIL-26NOV15-B37.5 at 0.9412. daily combo: all 3 safest sides must win
 2026-11-15 15:05:57,877 INFO Swept 19626 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 15:11:00,720 INFO Swept 19663 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 15:16:06,504 INFO Swept 19655 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 15:21:04,113 INFO PAPER rest NO bid KXARGNACBADVANCE-26NOV14DMAMAI-MAI at $0.7400 x2 (0 already bid at that price)
+2026-11-15 15:21:04,113 INFO Resting NO bid on KXARGNACBADVANCE-26NOV14DMAMAI-MAI at $0.74 x2 (KXARGNACBADVANCE-26NOV14DMAMAI): locks in $0.10 if it fills; hedge NO DMA@0.1900
+2026-11-15 15:21:04,327 INFO Swept 19643 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 15:26:09,154 INFO Swept 19627 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 15:31:18,886 INFO Swept 19625 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 15:36:17,669 INFO Swept 19601 events: 0 taker trades, 0 new quotes, 1 resting

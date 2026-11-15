@@ -2750,21 +2750,21 @@
  ],
  "quotes": [
   {
-   "event": "KXARGNACBADVANCE-26NOV15MORCAC",
+   "event": "KXARGNACBADVANCE-26NOV14DMAMAI",
    "series": "KXARGNACBADVANCE",
-   "title": "Moron vs Colegiales",
-   "ticker": "KXARGNACBADVANCE-26NOV15MORCAC-CAC",
-   "order_id": "paper-1117-1794772854",
-   "price": "0.2600",
+   "title": "Madryn vs Maipu",
+   "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-MAI",
+   "order_id": "paper-1118-1794774064",
+   "price": "0.74",
    "sets": 2,
    "done": 0,
-   "reserve": "1.0000",
+   "reserve": "1.9000",
    "multiplier": "1",
-   "placed": 1794772854.6382906,
+   "placed": 1794774064.11336,
    "hedge": [
     {
-     "ticker": "KXARGNACBADVANCE-26NOV15MORCAC-MOR",
-     "limit": "0.2200"
+     "ticker": "KXARGNACBADVANCE-26NOV14DMAMAI-DMA",
+     "limit": "0.1900"
     }
    ]
   }
