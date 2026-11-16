@@ -1,49 +1,49 @@
 {
- "updated": "2026-11-15T22:56:08+00:00",
+ "updated": "2026-11-16T02:49:30+00:00",
  "parlays": [
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-16T02:10:00Z",
+   "start": "2026-11-17T00:10:00Z",
    "legs": [
     {
-     "label": "New York Knicks to win",
-     "ticker": "KXNBAGAME-26NOV15NYKTOR-NYK",
+     "label": "Clemson Tigers to win",
+     "ticker": "KXNCAAMBGAME-26NOV16CITCLEM-CLEM",
      "side": "yes",
-     "price": 0.61,
-     "fair": 0.6093,
-     "value": -0.0177,
-     "player": ""
-    },
-    {
-     "label": "St. John's Red Storm to win",
-     "ticker": "KXNCAAMBGAME-26NOV15SYRSJU-SJU",
-     "side": "yes",
-     "price": 0.87,
-     "fair": 0.86,
-     "value": -0.018,
-     "player": ""
-    },
-    {
-     "label": "Vegas Golden Knights to win",
-     "ticker": "KXNHLGAME-26NOV15VANVGK-VGK",
-     "side": "yes",
-     "price": 0.79,
-     "fair": 0.7826,
+     "price": 0.98,
+     "fair": 0.9626,
      "value": -0.0194,
+     "player": ""
+    },
+    {
+     "label": "Tulsa Golden Hurricane to win",
+     "ticker": "KXNCAAMBGAME-26NOV16WKUTLSA-TLSA",
+     "side": "yes",
+     "price": 0.74,
+     "fair": 0.7317,
+     "value": -0.0223,
+     "player": ""
+    },
+    {
+     "label": "Cleveland Cavaliers to win",
+     "ticker": "KXNBAGAME-26NOV16CHICLE-CLE",
+     "side": "yes",
+     "price": 0.8,
+     "fair": 0.7875,
+     "value": -0.0245,
      "player": ""
     }
    ],
-   "price": 0.4415,
-   "fair": 0.4101,
-   "pays": "+126",
-   "per_dollar": 2.26
+   "price": 0.6012,
+   "fair": 0.5547,
+   "pays": "-151",
+   "per_dollar": 1.66
   }
  ],
- "open_pretend": 2,
+ "open_pretend": 0,
  "record": {
-  "parlays": 8,
-  "won": 1,
-  "profit": -4.76
+  "parlays": 10,
+  "won": 2,
+  "profit": -5.02
  }
 }

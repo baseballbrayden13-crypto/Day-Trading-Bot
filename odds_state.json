@@ -40,44 +40,6 @@
   },
   {
    "kind": "value",
-   "game": "Los Angeles Rams at Arizona Cardinals",
-   "game_id": "6c932a965110f3f89ec4a5f1a6ac256e",
-   "sport": "americanfootball_nfl",
-   "start": "2026-11-15T21:05:00Z",
-   "edge": 0.0609,
-   "home": "Arizona Cardinals",
-   "away": "Los Angeles Rams",
-   "legs": [
-    {
-     "team": "Arizona Cardinals",
-     "book": "FanDuel",
-     "odds": 5.0,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-14T14:15:12+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Los Angeles Rams at Arizona Cardinals",
-   "game_id": "6c932a965110f3f89ec4a5f1a6ac256e",
-   "sport": "americanfootball_nfl",
-   "start": "2026-11-15T21:05:00Z",
-   "edge": 0.0609,
-   "home": "Arizona Cardinals",
-   "away": "Los Angeles Rams",
-   "legs": [
-    {
-     "team": "Arizona Cardinals",
-     "book": "DraftKings",
-     "odds": 5.0,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-14T23:07:45+00:00"
-  },
-  {
-   "kind": "value",
    "game": "Vancouver Canucks at Vegas Golden Knights",
    "game_id": "c4ac537963707b247ad9e4eab06c15de",
    "sport": "icehockey_nhl",
@@ -132,33 +94,6 @@
     }
    ],
    "opened": "2026-11-15T02:46:15+00:00"
-  },
-  {
-   "kind": "arb",
-   "game": "Air Force Falcons at Pacific Tigers",
-   "game_id": "c3c58341c48b659af034931964de5495",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-15T21:00:00Z",
-   "edge": 0.0224,
-   "home": "Pacific Tigers",
-   "away": "Air Force Falcons",
-   "legs": [
-    {
-     "team": "Air Force Falcons",
-     "book": "FanDuel",
-     "odds": 6.8,
-     "stake": 15.04
-    },
-    {
-     "team": "Pacific Tigers",
-     "book": "Kalshi",
-     "odds": 1.203,
-     "stake": 84.96,
-     "ticker": "KXNCAAMBGAME-26NOV14AFAPAC-PAC",
-     "ask": 0.82
-    }
-   ],
-   "opened": "2026-11-15T02:46:15+00:00"
   }
  ],
  "seen": {
@@ -203,14 +138,14 @@
  },
  "credits": {
   "day": "2026-11-15",
-  "spent": 9,
-  "remaining": 375
+  "spent": 13,
+  "remaining": 371
  },
  "last_priced": {
-  "basketball_nba": "2026-11-15T22:56:04.030350+00:00",
-  "icehockey_nhl": "2026-11-15T22:56:04.030350+00:00",
+  "basketball_nba": "2026-11-16T02:49:27.166922+00:00",
+  "icehockey_nhl": "2026-11-16T02:49:27.166922+00:00",
   "americanfootball_ncaaf": "2026-11-15T17:48:20.589925+00:00",
-  "basketball_ncaab": "2026-11-15T22:56:04.030350+00:00",
-  "americanfootball_nfl": "2026-11-15T22:56:04.030350+00:00"
+  "basketball_ncaab": "2026-11-16T02:49:27.166922+00:00",
+  "americanfootball_nfl": "2026-11-16T02:49:27.166922+00:00"
  }
 }

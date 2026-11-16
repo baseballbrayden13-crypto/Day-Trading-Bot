@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:56:04+00:00",
+ "updated": "2026-11-16T02:49:27+00:00",
  "scan": {
   "sports": [
    "americanfootball_nfl",
@@ -7,23 +7,23 @@
    "icehockey_nhl",
    "basketball_ncaab"
   ],
-  "games": 43,
-  "kalshi_matched": 35,
+  "games": 32,
+  "kalshi_matched": 26,
   "skipped": [],
-  "pinnacle": 17,
-  "credits_left": 375,
-  "spent_today": 9,
-  "allowance": 24
+  "pinnacle": 13,
+  "credits_left": 371,
+  "spent_today": 13,
+  "allowance": 23
  },
  "new_finds": [],
- "open_bets": 8,
+ "open_bets": 5,
  "record": {
   "value": {
-   "bets": 23,
+   "bets": 25,
    "wins": 5,
-   "staked": 230.0,
-   "pnl": -18.9,
-   "roi": -0.0822
+   "staked": 250.0,
+   "pnl": -38.9,
+   "roi": -0.1556
   },
   "kalshi": {
    "bets": 2,
@@ -33,18 +33,18 @@
    "roi": -1.0
   },
   "arb": {
-   "bets": 5,
-   "wins": 5,
-   "staked": 500.0,
-   "pnl": 6.99,
-   "roi": 0.014
+   "bets": 6,
+   "wins": 6,
+   "staked": 600.0,
+   "pnl": 9.2,
+   "roi": 0.0153
   },
   "all": {
-   "bets": 30,
-   "wins": 10,
-   "staked": 750.0,
-   "pnl": -31.91,
-   "roi": -0.0425
+   "bets": 33,
+   "wins": 11,
+   "staked": 870.0,
+   "pnl": -49.7,
+   "roi": -0.0571
   }
  }
 }
