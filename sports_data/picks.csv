@@ -810,8 +810,8 @@ live,2026-11-14,nhl,PHI @ CBJ,Columbus Blue Jackets,home,1.741,0.603,0.551,0.052
 live,2026-11-14,nhl,BUF @ DAL,Dallas Stars,home,1.741,0.602,0.551,0.051,settled,1,7.41,401892717
 live,2026-11-14,nhl,NYI @ ANA,Anaheim Ducks,home,1.926,0.564,0.496,0.069,settled,0,-10.0,401892719
 live,2026-11-14,nhl,CGY @ LA,Calgary Flames,away,2.45,0.463,0.391,0.072,settled,1,14.5,401892720
-live,2026-11-15,nfl,SEA @ LV,Las Vegas Raiders,home,3.4,0.482,0.282,0.2,open,,,401873062
-live,2026-11-15,nfl,SF @ DAL,Dallas Cowboys,home,2.8,0.414,0.343,0.072,open,,,401873063
+live,2026-11-15,nfl,SEA @ LV,Las Vegas Raiders,home,3.4,0.482,0.282,0.2,settled,0,-10.0,401873062
+live,2026-11-15,nfl,SF @ DAL,Dallas Cowboys,home,2.8,0.414,0.343,0.072,settled,0,-10.0,401873063
 replay,2026-11-14,ncaaf,WAKE @ SMU,Wake Forest Demon Deacons,away,2.2,0.507,0.437,0.07,settled,1,12.0,401858301
 replay,2026-11-14,ncaaf,SYR @ NCSU,NC State Wolfpack,home,2.2,0.569,0.437,0.133,settled,0,-10.0,401858300
 replay,2026-11-14,ncaaf,WIS @ MD,Maryland Terrapins,home,3.6,0.388,0.266,0.122,settled,1,26.0,401858520
@@ -839,9 +839,9 @@ replay,2026-11-14,ncaaf,CSU @ WSU,Colorado State Rams,away,3.5,0.455,0.274,0.181
 replay,2026-11-14,nba,DAL @ CLE,Cleveland Cavaliers,home,2.7,0.57,0.356,0.215,settled,1,17.0,401909981
 replay,2026-11-14,nba,DET @ MIA,Miami Heat,home,2.46,0.479,0.391,0.088,settled,1,14.6,401909982
 replay,2026-11-14,nba,BKN @ MEM,Memphis Grizzlies,home,1.82,0.745,0.527,0.217,settled,1,8.2,401909983
-live,2026-11-15,nba,LAL @ PHX,Los Angeles Lakers,away,1.621,0.676,0.593,0.083,open,,,401909986
-live,2026-11-15,nba,CHA @ LAC,LA Clippers,home,1.943,0.642,0.494,0.147,open,,,401909987
-live,2026-11-15,nba,NY @ TOR,Toronto Raptors,home,2.79,0.572,0.344,0.228,open,,,401909990
+live,2026-11-15,nba,LAL @ PHX,Los Angeles Lakers,away,1.621,0.676,0.593,0.083,settled,1,6.21,401909986
+live,2026-11-15,nba,CHA @ LAC,LA Clippers,home,1.943,0.642,0.494,0.147,settled,1,9.43,401909987
+live,2026-11-15,nba,NY @ TOR,Toronto Raptors,home,2.79,0.572,0.344,0.228,settled,0,-10.0,401909990
 replay,2026-11-14,nhl,SEA @ CAR,Seattle Kraken,away,4.0,0.451,0.24,0.211,settled,0,-10.0,401891809
 replay,2026-11-14,nhl,WPG @ CHI,Chicago Blackhawks,home,2.36,0.519,0.407,0.113,settled,0,-10.0,401892708
 replay,2026-11-14,nhl,MIN @ BOS,Boston Bruins,home,2.1,0.553,0.457,0.096,settled,0,-10.0,401892709
