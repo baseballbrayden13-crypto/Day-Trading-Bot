@@ -28,3 +28,7 @@
 2026-11-13 16:02:28,314 INFO Already ran today; nothing to do.
 2026-11-13 16:29:01,784 INFO Connected to Alpaca PAPER account
 2026-11-13 16:29:01,977 INFO Already ran today; nothing to do.
+2026-11-16 09:43:14,558 INFO Connected to Alpaca PAPER account
+2026-11-16 09:43:15,625 INFO 2026-11-13 close: QQQ $680.01 vs 200-day average $681.17 -> hold BIL | holding {'QLD': 20.314130969} | bot 6 value $1627.59 (cash $16.68)
+2026-11-16 09:43:15,625 INFO SELL QLD x20.3141
+2026-11-16 09:43:15,625 INFO BUY BIL with the slice's cash

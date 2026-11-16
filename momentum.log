@@ -19,3 +19,6 @@
 2026-11-13 16:02:29,625 INFO Already ran today; nothing to do.
 2026-11-13 16:29:02,593 INFO Connected to Alpaca PAPER account
 2026-11-13 16:29:02,763 INFO Already ran today; nothing to do.
+2026-11-16 09:43:23,084 INFO Connected to Alpaca PAPER account
+2026-11-16 09:43:24,595 INFO 2026-11-13 close: top 5 by 12-1 month gain ['INTC', 'AMD', 'TXN', 'MRK', 'XOM'] | holding ['AMD', 'CSCO', 'INTC', 'MRK', 'TXN'] | bot 7 value $1610.26 (cash $3.41)
+2026-11-16 09:43:24,595 INFO Not a rebalance day (next: first run of next month).
