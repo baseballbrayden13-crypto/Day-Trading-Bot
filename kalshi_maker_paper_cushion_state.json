@@ -376,21 +376,40 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAMBGAME-26NOV19TXAMTCU",
-   "series": "KXNCAAMBGAME",
-   "title": "Texas A&M vs TCU",
-   "ticker": "KXNCAAMBGAME-26NOV19TXAMTCU-TCU",
-   "order_id": "paper-196-1794797010",
-   "price": "0.1000",
-   "sets": 5,
+   "event": "KXAHLGAME-26NOV152000COLONT",
+   "series": "KXAHLGAME",
+   "title": "Colorado Eagles vs Ontario Reign",
+   "ticker": "KXAHLGAME-26NOV152000COLONT-COL",
+   "order_id": "paper-197-1794799134",
+   "price": "0.2600",
+   "sets": 2,
    "done": 0,
-   "reserve": "4.4300",
+   "reserve": "1.5900",
    "multiplier": "1",
-   "placed": 1794797010.1512156,
+   "placed": 1794799134.9369915,
    "hedge": [
     {
-     "ticker": "KXNCAAMBGAME-26NOV19TXAMTCU-TXAM",
-     "limit": "0.7700"
+     "ticker": "KXAHLGAME-26NOV152000COLONT-ONT",
+     "limit": "0.5100"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAMB1H-26NOV14AFAPAC",
+   "series": "KXNCAAMB1H",
+   "title": "Air Force vs Pacific: 1st Half Winner",
+   "ticker": "KXNCAAMB1H-26NOV14AFAPAC-TIE",
+   "order_id": "paper-198-1794799440",
+   "price": "0.0200",
+   "sets": 4,
+   "done": 0,
+   "reserve": "2.8000",
+   "multiplier": "1",
+   "placed": 1794799440.3463807,
+   "hedge": [
+    {
+     "ticker": "KXNCAAMB1H-26NOV14AFAPAC-PAC",
+     "limit": "0.8000"
     }
    ]
   }

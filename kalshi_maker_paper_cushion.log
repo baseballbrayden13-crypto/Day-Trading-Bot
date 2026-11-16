@@ -3042,3 +3042,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 21:53:40,052 INFO Swept 18964 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 21:58:42,305 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-15 21:58:43,884 INFO Swept 18959 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:03:53,177 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:03:54,773 INFO Swept 18949 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:08:54,079 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:08:55,659 INFO Swept 18960 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:13:48,706 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:13:50,284 INFO Swept 18960 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:18:52,476 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:18:54,936 INFO PAPER rest NO bid KXAHLGAME-26NOV152000COLONT-COL at $0.2600 x2 (0 already bid at that price)
+2026-11-15 22:18:54,937 INFO Resting NO bid on KXAHLGAME-26NOV152000COLONT-COL at $0.2600 x2 (KXAHLGAME-26NOV152000COLONT): locks in $0.41 if it fills; hedge NO ONT@0.5100
+2026-11-15 22:18:54,938 INFO Swept 18964 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 22:23:58,588 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:24:00,346 INFO PAPER rest NO bid KXNCAAMB1H-26NOV14AFAPAC-TIE at $0.0200 x4 (0 already bid at that price)
+2026-11-15 22:24:00,346 INFO Resting NO bid on KXNCAAMB1H-26NOV14AFAPAC-TIE at $0.0200 x4 (KXNCAAMB1H-26NOV14AFAPAC): locks in $1.20 if it fills; hedge NO PAC@0.8000
+2026-11-15 22:24:00,347 INFO Swept 18973 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-15 22:28:57,401 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:28:58,999 INFO Swept 18957 events: 0 taker trades, 0 new quotes, 2 resting
