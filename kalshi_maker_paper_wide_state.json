@@ -83,6 +83,30 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXCS2MAP-26NOV150630CWSTA-2",
+   "series": "KXCS2MAP",
+   "title": "CPH Wolves vs. STATE: Map 2 Winner",
+   "sets": 2,
+   "outlay": "1.8800",
+   "locked_profit": "0.1200",
+   "opened": "2026-11-16T05:37:44.605935+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCS2MAP-26NOV150630CWSTA-2-STA",
+     "side": "no",
+     "count": 2,
+     "limit": "0.6700"
+    },
+    {
+     "ticker": "KXCS2MAP-26NOV150630CWSTA-2-CW",
+     "side": "no",
+     "count": 2,
+     "limit": "0.2500"
+    }
+   ]
   }
  ],
  "closed": [
@@ -2786,25 +2810,5 @@
    "closed": "2026-11-16T04:09:27.999774+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXCS2MAP-26NOV150630CWSTA-2",
-   "series": "KXCS2MAP",
-   "title": "CPH Wolves vs. STATE: Map 2 Winner",
-   "ticker": "KXCS2MAP-26NOV150630CWSTA-2-STA",
-   "order_id": "paper-1138-1794806392",
-   "price": "0.6700",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.8800",
-   "multiplier": "1",
-   "placed": 1794806392.419125,
-   "hedge": [
-    {
-     "ticker": "KXCS2MAP-26NOV150630CWSTA-2-CW",
-     "limit": "0.2500"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

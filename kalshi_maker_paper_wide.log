@@ -9686,3 +9686,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 00:19:52,517 INFO Swept 18954 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-16 00:24:52,862 INFO Swept 18949 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-16 00:29:55,173 INFO Swept 18954 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 00:34:57,503 INFO Swept 18952 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 00:37:44,576 INFO PAPER KXCS2MAP-26NOV150630CWSTA-2-STA NO bid at $0.6700: 2/2 filled by real trades
+2026-11-16 00:37:44,605 INFO PAPER buy 2 NO KXCS2MAP-26NOV150630CWSTA-2-CW at up to $0.2500: filled 2
+2026-11-16 00:37:44,605 INFO Quote KXCS2MAP-26NOV150630CWSTA-2 filled 2: hedged, locks in $0.12
+2026-11-16 00:39:59,907 INFO Swept 18954 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 00:45:00,750 INFO Swept 18951 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 00:50:01,506 INFO Swept 18975 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 00:55:03,181 INFO Swept 18986 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 01:00:03,587 INFO Swept 18988 events: 0 taker trades, 0 new quotes, 0 resting
