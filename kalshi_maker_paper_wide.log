@@ -9646,3 +9646,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 21:48:41,707 INFO Swept 18973 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 21:53:46,050 INFO Swept 18965 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 21:58:50,505 INFO Swept 18959 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:03:54,972 INFO Swept 18949 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:08:59,374 INFO Swept 18960 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:14:03,946 INFO Swept 18960 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:19:07,496 INFO PAPER rest NO bid KXAHLGAME-26NOV152000COLONT-COL at $0.2600 x2 (0 already bid at that price)
+2026-11-15 22:19:07,497 INFO Resting NO bid on KXAHLGAME-26NOV152000COLONT-COL at $0.2600 x2 (KXAHLGAME-26NOV152000COLONT): locks in $0.41 if it fills; hedge NO ONT@0.5100
+2026-11-15 22:19:07,587 INFO Swept 18963 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 22:24:07,975 INFO Swept 18973 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:29:07,380 INFO Swept 18960 events: 0 taker trades, 0 new quotes, 1 resting

@@ -2780,21 +2780,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAMBGAME-26NOV19TXAMTCU",
-   "series": "KXNCAAMBGAME",
-   "title": "Texas A&M vs TCU",
-   "ticker": "KXNCAAMBGAME-26NOV19TXAMTCU-TCU",
-   "order_id": "paper-1134-1794797017",
-   "price": "0.0700",
+   "event": "KXAHLGAME-26NOV152000COLONT",
+   "series": "KXAHLGAME",
+   "title": "Colorado Eagles vs Ontario Reign",
+   "ticker": "KXAHLGAME-26NOV152000COLONT-COL",
+   "order_id": "paper-1135-1794799147",
+   "price": "0.2600",
    "sets": 2,
    "done": 0,
-   "reserve": "1.7200",
+   "reserve": "1.5900",
    "multiplier": "1",
-   "placed": 1794797017.7588494,
+   "placed": 1794799147.4969897,
    "hedge": [
     {
-     "ticker": "KXNCAAMBGAME-26NOV19TXAMTCU-TXAM",
-     "limit": "0.7700"
+     "ticker": "KXAHLGAME-26NOV152000COLONT-ONT",
+     "limit": "0.5100"
     }
    ]
   }
