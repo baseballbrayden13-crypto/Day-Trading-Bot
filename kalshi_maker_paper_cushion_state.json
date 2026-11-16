@@ -1,36 +1,6 @@
 {
- "realized": "-4.6200",
+ "realized": "-4.7700",
  "open": [
-  {
-   "event": "KXEFLL1GAME-26NOV14WYWHUD",
-   "series": "KXEFLL1GAME",
-   "title": "Wycombe vs Huddersfield",
-   "sets": 2,
-   "outlay": "3.7600",
-   "locked_profit": "0.2400",
-   "opened": "2026-11-14T20:53:51.092807+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.5300"
-    },
-    {
-     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
-     "side": "no",
-     "count": 2,
-     "limit": "0.7400"
-    },
-    {
-     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
-     "side": "no",
-     "count": 2,
-     "limit": "0.5700"
-    }
-   ]
-  },
   {
    "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA",
    "series": "KXCONCACAFNLADVANCE",
@@ -52,36 +22,6 @@
      "side": "no",
      "count": 3,
      "limit": "0.28"
-    }
-   ]
-  },
-  {
-   "event": "KXEFLL1GAME-26NOV14STEMAT",
-   "series": "KXEFLL1GAME",
-   "title": "Stevenage vs Mansfield",
-   "sets": 2,
-   "outlay": "3.6300",
-   "locked_profit": "0.3700",
-   "opened": "2026-11-16T02:03:25.292238+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXEFLL1GAME-26NOV14STEMAT-STE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.2800"
-    },
-    {
-     "ticker": "KXEFLL1GAME-26NOV14STEMAT-MAT",
-     "side": "no",
-     "count": 2,
-     "limit": "0.7900"
-    },
-    {
-     "ticker": "KXEFLL1GAME-26NOV14STEMAT-TIE",
-     "side": "no",
-     "count": 2,
-     "limit": "0.7100"
     }
    ]
   }
@@ -372,31 +312,83 @@
     "KXBBSERIEA2GAME-26NOV151200BASCRE-BAS": "yes"
    },
    "closed": "2026-11-15T18:55:54.111428+00:00"
-  }
- ],
- "quotes": [
+  },
   {
-   "event": "KXEFLL2GAME-26NOV14WALBAR",
-   "series": "KXEFLL2GAME",
-   "title": "Walsall vs Barnet",
-   "ticker": "KXEFLL2GAME-26NOV14WALBAR-WAL",
-   "order_id": "paper-199-1794801563",
-   "price": "0.1900",
+   "event": "KXEFLL1GAME-26NOV14WYWHUD",
+   "series": "KXEFLL1GAME",
+   "title": "Wycombe vs Huddersfield",
    "sets": 2,
-   "done": 0,
-   "reserve": "3.7200",
-   "multiplier": "1",
-   "placed": 1794801563.0271156,
-   "hedge": [
+   "outlay": "3.7600",
+   "locked_profit": "0.2400",
+   "opened": "2026-11-14T20:53:51.092807+00:00",
+   "maker": true,
+   "legs": [
     {
-     "ticker": "KXEFLL2GAME-26NOV14WALBAR-BAR",
-     "limit": "0.9200"
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.5300"
     },
     {
-     "ticker": "KXEFLL2GAME-26NOV14WALBAR-TIE",
-     "limit": "0.7200"
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-WYW",
+     "side": "no",
+     "count": 2,
+     "limit": "0.7400"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14WYWHUD-HUD",
+     "side": "no",
+     "count": 2,
+     "limit": "0.5700"
     }
-   ]
+   ],
+   "paid": "3.6800",
+   "pnl": "-0.0800",
+   "results": {
+    "KXEFLL1GAME-26NOV14WYWHUD-TIE": "scalar",
+    "KXEFLL1GAME-26NOV14WYWHUD-WYW": "scalar",
+    "KXEFLL1GAME-26NOV14WYWHUD-HUD": "scalar"
+   },
+   "closed": "2026-11-16T04:09:25.200048+00:00"
+  },
+  {
+   "event": "KXEFLL1GAME-26NOV14STEMAT",
+   "series": "KXEFLL1GAME",
+   "title": "Stevenage vs Mansfield",
+   "sets": 2,
+   "outlay": "3.6300",
+   "locked_profit": "0.3700",
+   "opened": "2026-11-16T02:03:25.292238+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXEFLL1GAME-26NOV14STEMAT-STE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.2800"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14STEMAT-MAT",
+     "side": "no",
+     "count": 2,
+     "limit": "0.7900"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14STEMAT-TIE",
+     "side": "no",
+     "count": 2,
+     "limit": "0.7100"
+    }
+   ],
+   "paid": "3.5600",
+   "pnl": "-0.0700",
+   "results": {
+    "KXEFLL1GAME-26NOV14STEMAT-STE": "scalar",
+    "KXEFLL1GAME-26NOV14STEMAT-MAT": "scalar",
+    "KXEFLL1GAME-26NOV14STEMAT-TIE": "scalar"
+   },
+   "closed": "2026-11-16T04:09:25.537761+00:00"
   }
- ]
+ ],
+ "quotes": []
 }
