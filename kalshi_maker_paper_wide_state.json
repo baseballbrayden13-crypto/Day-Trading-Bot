@@ -2788,25 +2788,21 @@
  ],
  "quotes": [
   {
-   "event": "KXEFLL2GAME-26NOV14WALBAR",
-   "series": "KXEFLL2GAME",
-   "title": "Walsall vs Barnet",
-   "ticker": "KXEFLL2GAME-26NOV14WALBAR-WAL",
-   "order_id": "paper-1137-1794804293",
-   "price": "0.0900",
+   "event": "KXCS2MAP-26NOV150630CWSTA-2",
+   "series": "KXCS2MAP",
+   "title": "CPH Wolves vs. STATE: Map 2 Winner",
+   "ticker": "KXCS2MAP-26NOV150630CWSTA-2-STA",
+   "order_id": "paper-1138-1794806392",
+   "price": "0.6700",
    "sets": 2,
    "done": 0,
-   "reserve": "3.5200",
+   "reserve": "1.8800",
    "multiplier": "1",
-   "placed": 1794804293.233664,
+   "placed": 1794806392.419125,
    "hedge": [
     {
-     "ticker": "KXEFLL2GAME-26NOV14WALBAR-BAR",
-     "limit": "0.9200"
-    },
-    {
-     "ticker": "KXEFLL2GAME-26NOV14WALBAR-TIE",
-     "limit": "0.7200"
+     "ticker": "KXCS2MAP-26NOV150630CWSTA-2-CW",
+     "limit": "0.2500"
     }
    ]
   }
