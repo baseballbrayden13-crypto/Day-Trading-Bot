@@ -3239,3 +3239,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 09:11:51,670 INFO Swept 19051 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-16 09:16:51,050 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-16 09:16:53,368 INFO Swept 19050 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 09:21:55,211 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 09:21:57,537 INFO Swept 19061 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 09:26:59,091 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 09:27:01,492 INFO Swept 19055 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 09:32:01,863 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 09:32:04,200 INFO Swept 19041 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 09:37:04,819 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 09:37:07,240 INFO PAPER rest NO bid KXCONCACAFNLADVANCE-26NOV16MTQARU-MTQ at $0.1700 x5 (0 already bid at that price)
+2026-11-16 09:37:07,240 INFO Resting NO bid on KXCONCACAFNLADVANCE-26NOV16MTQARU-MTQ at $0.1700 x5 (KXCONCACAFNLADVANCE-26NOV16MTQARU): locks in $0.36 if it fills; hedge NO ARU@0.7400
+2026-11-16 09:37:07,242 INFO Swept 19058 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-16 09:42:10,389 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 09:42:12,824 INFO Swept 19054 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-16 09:44:09,287 INFO Quote KXCONCACAFNLADVANCE-26NOV16MTQARU cancelled (0/5 filled)
+2026-11-16 09:47:11,310 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 09:47:13,732 INFO PAPER rest NO bid KXCS2MAP-26NOV150630CWSTA-2-STA at $0.6300 x2 (0 already bid at that price)
+2026-11-16 09:47:13,732 INFO Resting NO bid on KXCS2MAP-26NOV150630CWSTA-2-STA at $0.63 x2 (KXCS2MAP-26NOV150630CWSTA-2): locks in $0.20 if it fills; hedge NO CW@0.2500
+2026-11-16 09:47:13,733 INFO Swept 19071 events: 0 taker trades, 1 new quotes, 1 resting
