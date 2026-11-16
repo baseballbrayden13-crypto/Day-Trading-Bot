@@ -9599,3 +9599,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 18:51:37,076 INFO Swept 18932 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 18:51:37,218 INFO Quote KXCONCACAFNLADVANCE-26NOV16CANGTM cancelled (0/3 filled)
 2026-11-15 18:51:42,223 INFO Stopped; all quotes cancelled.
+2026-11-15 19:30:23,239 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-15 19:33:31,957 INFO PAPER rest NO bid KXEFLL2GAME-26NOV14WALBAR-WAL at $0.2600 x1 (0 already bid at that price)
+2026-11-15 19:33:31,957 INFO Resting NO bid on KXEFLL2GAME-26NOV14WALBAR-WAL at $0.2600 x1 (KXEFLL2GAME-26NOV14WALBAR): locks in $0.19 if it fills; hedge NO BAR@0.7800, TIE@0.7200
+2026-11-15 19:33:32,050 INFO Swept 18836 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 19:38:34,630 INFO Swept 18885 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 19:43:32,997 INFO Swept 18887 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 19:48:37,351 INFO Swept 18891 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 19:53:45,900 INFO Swept 18886 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 19:58:46,721 INFO Swept 18871 events: 0 taker trades, 0 new quotes, 1 resting
