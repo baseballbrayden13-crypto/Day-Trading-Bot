@@ -2820,12 +2820,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794807593.1541483,
-  "checked": 1794808938.3642976,
+  "checked": 1794809393,
   "expires": 1794809393,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-203-1794807896": {
   "id": "paper-203-1794807896",
@@ -2834,11 +2834,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794807896.9786935,
-  "checked": 1794808938.5092075,
+  "checked": 1794809696,
   "expires": 1794809696,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-204-1794809717": {
+  "id": "paper-204-1794809717",
+  "ticker": "KXCS2MAP-26NOV150630CWSTA-2-STA",
+  "price": "0.6300",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794809717.7059588,
+  "checked": 1794809722.9291613,
+  "expires": 1794811517,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

@@ -3131,3 +3131,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 00:55:03,111 INFO Swept 18986 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-16 01:00:04,401 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-16 01:00:06,259 INFO Swept 18988 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-16 01:05:06,507 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 01:05:08,372 INFO Swept 18967 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-16 01:10:10,831 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 01:10:12,892 INFO Swept 18982 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-16 01:15:15,646 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 01:15:17,708 INFO PAPER rest NO bid KXCS2MAP-26NOV150630CWSTA-2-STA at $0.6300 x2 (0 already bid at that price)
+2026-11-16 01:15:17,708 INFO Resting NO bid on KXCS2MAP-26NOV150630CWSTA-2-STA at $0.63 x2 (KXCS2MAP-26NOV150630CWSTA-2): locks in $0.20 if it fills; hedge NO CW@0.2500
+2026-11-16 01:15:17,709 INFO Swept 18994 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-16 01:15:23,005 INFO Stopped; all quotes cancelled.
