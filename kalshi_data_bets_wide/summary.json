@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T14:45:12+00:00",
+ "updated": "2026-11-16T15:15:26+00:00",
  "mode": "paper-bets",
  "start_per_strategy": "20",
  "strategies": {
@@ -31,21 +31,21 @@
    "expected_profit_settled": "0.00"
   },
   "daily_safest": {
-   "equity": "20.17",
-   "free": "18.19",
-   "open_bets": 2,
-   "settled_bets": 17,
-   "won": 17,
-   "realized_profit": "0.17",
-   "expected_profit_settled": "-0.17"
+   "equity": "20.18",
+   "free": "19.19",
+   "open_bets": 1,
+   "settled_bets": 18,
+   "won": 18,
+   "realized_profit": "0.18",
+   "expected_profit_settled": "-0.18"
   },
   "daily_combo": {
-   "equity": "20.15",
-   "free": "19.20",
-   "open_bets": 1,
-   "settled_bets": 3,
-   "won": 3,
-   "realized_profit": "0.15",
+   "equity": "20.20",
+   "free": "20.20",
+   "open_bets": 0,
+   "settled_bets": 4,
+   "won": 4,
+   "realized_profit": "0.20",
    "expected_profit_settled": "0.00"
   }
  }
