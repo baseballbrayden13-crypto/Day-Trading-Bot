@@ -3294,3 +3294,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 11:02:37,519 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-16 11:02:39,679 INFO Swept 19121 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 11:03:04,688 INFO Stopped; all quotes cancelled.
+2026-11-16 16:22:22,620 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-16 16:24:39,019 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 16:24:42,563 INFO PAPER rest NO bid KXNCAAWB1H-26NOV15PSUASU-PSU at $0.5200 x7 (0 already bid at that price)
+2026-11-16 16:24:42,563 INFO Resting NO bid on KXNCAAWB1H-26NOV15PSUASU-PSU at $0.5200 x7 (KXNCAAWB1H-26NOV15PSUASU): locks in $2.28 if it fills; hedge NO ASU@0.1400
+2026-11-16 16:24:42,565 INFO Swept 19438 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 16:25:39,243 INFO Quote KXNCAAWB1H-26NOV15PSUASU cancelled (0/7 filled)
+2026-11-16 16:29:40,457 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 16:29:43,255 INFO Swept 19457 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:34:45,830 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 16:34:48,628 INFO Swept 19454 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:39:45,673 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 16:39:48,483 INFO Swept 19452 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:44:51,162 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 16:44:54,161 INFO Swept 19431 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:49:52,514 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 16:49:55,332 INFO Swept 19436 events: 0 taker trades, 0 new quotes, 0 resting
