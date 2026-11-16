@@ -349,22 +349,22 @@
    "event": "KXEFLL2GAME-26NOV14WALBAR",
    "series": "KXEFLL2GAME",
    "title": "Walsall vs Barnet",
-   "ticker": "KXEFLL2GAME-26NOV14WALBAR-WAL",
-   "order_id": "paper-189-1794789175",
-   "price": "0.2600",
+   "ticker": "KXEFLL2GAME-26NOV14WALBAR-TIE",
+   "order_id": "paper-191-1794791285",
+   "price": "0.1800",
    "sets": 2,
    "done": 0,
-   "reserve": "3.5900",
+   "reserve": "3.5400",
    "multiplier": "1",
-   "placed": 1794789175.506729,
+   "placed": 1794791285.688041,
    "hedge": [
+    {
+     "ticker": "KXEFLL2GAME-26NOV14WALBAR-WAL",
+     "limit": "0.8400"
+    },
     {
      "ticker": "KXEFLL2GAME-26NOV14WALBAR-BAR",
      "limit": "0.7800"
-    },
-    {
-     "ticker": "KXEFLL2GAME-26NOV14WALBAR-TIE",
-     "limit": "0.7200"
     }
    ]
   },
@@ -373,13 +373,13 @@
    "series": "KXEFLL1GAME",
    "title": "Stevenage vs Mansfield",
    "ticker": "KXEFLL1GAME-26NOV14STEMAT-STE",
-   "order_id": "paper-190-1794789175",
-   "price": "0.2900",
+   "order_id": "paper-192-1794791285",
+   "price": "0.3100",
    "sets": 2,
    "done": 0,
-   "reserve": "3.6500",
+   "reserve": "3.6900",
    "multiplier": "1",
-   "placed": 1794789175.5759037,
+   "placed": 1794791285.759666,
    "hedge": [
     {
      "ticker": "KXEFLL1GAME-26NOV14STEMAT-MAT",
@@ -388,6 +388,25 @@
     {
      "ticker": "KXEFLL1GAME-26NOV14STEMAT-TIE",
      "limit": "0.7100"
+    }
+   ]
+  },
+  {
+   "event": "KXLVBPGAME-26NOV151800LARANZ",
+   "series": "KXLVBPGAME",
+   "title": "Cardenales de Lara vs Caribes de Anzoategui",
+   "ticker": "KXLVBPGAME-26NOV151800LARANZ-ANZ",
+   "order_id": "paper-193-1794791285",
+   "price": "0.2700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7000",
+   "multiplier": "1",
+   "placed": 1794791285.8307855,
+   "hedge": [
+    {
+     "ticker": "KXLVBPGAME-26NOV151800LARANZ-LAR",
+     "limit": "0.4000"
     }
    ]
   }
