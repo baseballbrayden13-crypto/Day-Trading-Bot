@@ -3028,3 +3028,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 21:23:26,704 INFO Swept 18965 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-15 21:28:25,953 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-15 21:28:27,854 INFO Swept 18984 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 21:33:26,088 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 21:33:28,075 INFO Swept 19001 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 21:38:25,158 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 21:38:26,964 INFO Swept 18983 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 21:43:28,012 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 21:43:30,151 INFO PAPER rest NO bid KXNCAAMBGAME-26NOV19TXAMTCU-TCU at $0.1000 x5 (0 already bid at that price)
+2026-11-15 21:43:30,151 INFO Resting NO bid on KXNCAAMBGAME-26NOV19TXAMTCU-TCU at $0.1000 x5 (KXNCAAMBGAME-26NOV19TXAMTCU): locks in $0.57 if it fills; hedge NO TXAM@0.7700
+2026-11-15 21:43:30,152 INFO Swept 18967 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 21:48:38,874 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 21:48:40,461 INFO Swept 18965 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 21:53:38,515 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 21:53:40,052 INFO Swept 18964 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 21:58:42,305 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 21:58:43,884 INFO Swept 18959 events: 0 taker trades, 0 new quotes, 1 resting

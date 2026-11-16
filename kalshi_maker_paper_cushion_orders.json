@@ -2728,5 +2728,19 @@
   "at_price": 0,
   "filled": 2,
   "status": "executed"
+ },
+ "paper-196-1794797010": {
+  "id": "paper-196-1794797010",
+  "ticker": "KXNCAAMBGAME-26NOV19TXAMTCU-TCU",
+  "price": "0.1000",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1794797010.1487184,
+  "checked": 1794798072.9220526,
+  "expires": 1794798810,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
