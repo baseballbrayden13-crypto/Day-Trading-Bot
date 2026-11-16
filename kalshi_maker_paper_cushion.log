@@ -2961,3 +2961,20 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 18:51:36,528 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-15 18:51:37,848 INFO Swept 18932 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 18:51:42,902 INFO Stopped; all quotes cancelled.
+2026-11-15 19:30:21,179 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-15 19:32:53,380 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 19:32:55,506 INFO PAPER rest NO bid KXEFLL2GAME-26NOV14WALBAR-WAL at $0.2600 x2 (0 already bid at that price)
+2026-11-15 19:32:55,506 INFO Resting NO bid on KXEFLL2GAME-26NOV14WALBAR-WAL at $0.2600 x2 (KXEFLL2GAME-26NOV14WALBAR): locks in $0.41 if it fills; hedge NO BAR@0.7800, TIE@0.7200
+2026-11-15 19:32:55,575 INFO PAPER rest NO bid KXEFLL1GAME-26NOV14STEMAT-STE at $0.2900 x2 (0 already bid at that price)
+2026-11-15 19:32:55,575 INFO Resting NO bid on KXEFLL1GAME-26NOV14STEMAT-STE at $0.2900 x2 (KXEFLL1GAME-26NOV14STEMAT): locks in $0.35 if it fills; hedge NO MAT@0.7900, TIE@0.7100
+2026-11-15 19:32:55,577 INFO Swept 18836 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-15 19:37:54,234 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 19:37:55,793 INFO Swept 18885 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 19:42:52,693 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 19:42:54,267 INFO Swept 18893 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 19:47:54,041 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 19:47:55,584 INFO Swept 18891 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 19:52:58,383 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 19:52:59,925 INFO Swept 18887 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 19:58:00,766 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 19:58:02,343 INFO Swept 18870 events: 0 taker trades, 0 new quotes, 2 resting

@@ -344,5 +344,52 @@
    "closed": "2026-11-15T18:55:54.111428+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXEFLL2GAME-26NOV14WALBAR",
+   "series": "KXEFLL2GAME",
+   "title": "Walsall vs Barnet",
+   "ticker": "KXEFLL2GAME-26NOV14WALBAR-WAL",
+   "order_id": "paper-189-1794789175",
+   "price": "0.2600",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.5900",
+   "multiplier": "1",
+   "placed": 1794789175.506729,
+   "hedge": [
+    {
+     "ticker": "KXEFLL2GAME-26NOV14WALBAR-BAR",
+     "limit": "0.7800"
+    },
+    {
+     "ticker": "KXEFLL2GAME-26NOV14WALBAR-TIE",
+     "limit": "0.7200"
+    }
+   ]
+  },
+  {
+   "event": "KXEFLL1GAME-26NOV14STEMAT",
+   "series": "KXEFLL1GAME",
+   "title": "Stevenage vs Mansfield",
+   "ticker": "KXEFLL1GAME-26NOV14STEMAT-STE",
+   "order_id": "paper-190-1794789175",
+   "price": "0.2900",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.6500",
+   "multiplier": "1",
+   "placed": 1794789175.5759037,
+   "hedge": [
+    {
+     "ticker": "KXEFLL1GAME-26NOV14STEMAT-MAT",
+     "limit": "0.7900"
+    },
+    {
+     "ticker": "KXEFLL1GAME-26NOV14STEMAT-TIE",
+     "limit": "0.7100"
+    }
+   ]
+  }
+ ]
 }
