@@ -9775,3 +9775,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 10:57:44,734 INFO Swept 19109 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 11:02:42,896 INFO Swept 19121 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 11:03:02,916 INFO Stopped; all quotes cancelled.
+2026-11-16 16:22:07,156 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-16 16:23:39,371 INFO PAPER rest NO bid KXNCAAWB1H-26NOV15PSUASU-PSU at $0.5400 x2 (0 already bid at that price)
+2026-11-16 16:23:39,371 INFO Resting NO bid on KXNCAAWB1H-26NOV15PSUASU-PSU at $0.5400 x2 (KXNCAAWB1H-26NOV15PSUASU): locks in $0.63 if it fills; hedge NO ASU@0.1300
+2026-11-16 16:23:39,529 INFO PAPER BET daily_safest: 1 NO KXDIESELD-26NOV17-T5.990 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-16 16:23:39,665 INFO PAPER COMBO: NO KXDIESELD-26NOV17-T5.990, NO KXYTVIEWSW-DRA26NOV15-14.0M, YES KXLOWTLV-26NOV16-T53 at 0.9412. daily combo: all 3 safest sides must win
+2026-11-16 16:23:39,667 INFO Swept 19431 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 16:25:40,888 INFO Quote KXNCAAWB1H-26NOV15PSUASU cancelled (0/2 filled)
+2026-11-16 16:28:43,810 INFO Swept 19452 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:33:46,900 INFO Swept 19454 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:38:49,701 INFO Swept 19452 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:43:53,136 INFO Swept 19431 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:48:59,506 INFO Swept 19436 events: 0 taker trades, 0 new quotes, 0 resting
