@@ -9608,3 +9608,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 19:48:37,351 INFO Swept 18891 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 19:53:45,900 INFO Swept 18886 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 19:58:46,721 INFO Swept 18871 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 20:03:43,734 INFO Swept 18846 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 20:08:43,238 INFO PAPER rest NO bid KXEFLL1GAME-26NOV14STEMAT-STE at $0.3100 x1 (0 already bid at that price)
+2026-11-15 20:08:43,238 INFO Resting NO bid on KXEFLL1GAME-26NOV14STEMAT-STE at $0.3100 x1 (KXEFLL1GAME-26NOV14STEMAT): locks in $0.14 if it fills; hedge NO MAT@0.7900, TIE@0.7100
+2026-11-15 20:08:43,266 INFO PAPER rest NO bid KXLVBPGAME-26NOV151800LARANZ-ANZ at $0.2700 x1 (0 already bid at that price)
+2026-11-15 20:08:43,266 INFO Resting NO bid on KXLVBPGAME-26NOV151800LARANZ-ANZ at $0.2700 x1 (KXLVBPGAME-26NOV151800LARANZ): locks in $0.30 if it fills; hedge NO LAR@0.4000
+2026-11-15 20:08:43,372 INFO Swept 18845 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-15 20:13:43,966 INFO Swept 18879 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 20:18:44,206 INFO Swept 18879 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 20:23:37,923 INFO Swept 18875 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 20:28:38,529 INFO Swept 18883 events: 0 taker trades, 0 new quotes, 2 resting
