@@ -188,3 +188,63 @@ time,sport,game,stat,player,line,match,book_line,books,fair_yes,yes_ask,no_ask,t
 2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_assists,Devin Booker,5.5,exact,5.5,7,0.4263,0.43,0.58,KXNBAAST-26NOV15LALPHX-PHXDBOOKER15-6
 2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_assists,Collin Gillespie,3.5,exact,3.5,8,0.466,0.47,0.54,KXNBAAST-26NOV15LALPHX-PHXCGILLESPIE12-4
 2026-11-15T17:48:25+00:00,basketball_nba,Los Angeles Lakers at Phoenix Suns,player_assists,Dillon Brooks,1.5,exact,1.5,6,0.6059,0.6,0.41,KXNBAAST-26NOV15LALPHX-PHXDBROOKS3-2
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_points,Franz Wagner,19.5,near,21.5,7,0.5929,0.61,0.4,KXNBAPTS-26NOV16ORLBOS-ORLFWAGNER22-20
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_points,Jordan Walsh,4.5,exact,4.5,6,0.4927,0.51,0.5,KXNBAPTS-26NOV16ORLBOS-BOSJWALSH27-5
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_points,Jayson Tatum,24.5,near,26.5,7,0.5761,0.56,0.45,KXNBAPTS-26NOV16ORLBOS-BOSJTATUM0-25
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_points,Wendell Carter Jr.,9.5,near,10.5,8,0.6045,0.57,0.44,KXNBAPTS-26NOV16ORLBOS-ORLWCARTER34-10
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_points,Paul George,14.5,near,18.5,7,0.7274,0.68,0.33,KXNBAPTS-26NOV16ORLBOS-BOSPGEORGE13-15
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_points,Payton Pritchard,9.5,near,12.5,3,0.7882,0.72,0.29,KXNBAPTS-26NOV16ORLBOS-BOSPPRITCHARD11-10
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_points,Tristan da Silva,9.5,near,12.5,7,0.7508,0.67,0.34,KXNBAPTS-26NOV16ORLBOS-ORLTDASILVA23-10
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_points,Desmond Bane,14.5,near,17.5,8,0.6948,0.66,0.37,KXNBAPTS-26NOV16ORLBOS-ORLDBANE3-15
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_points,Derrick White,9.5,near,12.5,4,0.782,0.73,0.32,KXNBAPTS-26NOV16ORLBOS-BOSDWHITE9-10
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Franz Wagner,5.5,near,6.5,6,0.5733,0.57,0.44,KXNBAREB-26NOV16ORLBOS-ORLFWAGNER22-6
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Franz Wagner,5.5,exact,5.5,3,0.557,0.57,0.44,KXNBAREB-26NOV16ORLBOS-ORLFWAGNER22-6
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Jordan Walsh,3.5,exact,3.5,5,0.4497,0.43,0.58,KXNBAREB-26NOV16ORLBOS-BOSJWALSH27-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Jayson Tatum,7.5,exact,7.5,6,0.4524,0.45,0.56,KXNBAREB-26NOV16ORLBOS-BOSJTATUM0-8
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Jayson Tatum,5.5,near,6.5,3,0.7089,0.75,0.29,KXNBAREB-26NOV16ORLBOS-BOSJTATUM0-6
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Anthony Black,3.5,near,4.5,8,0.7124,0.67,0.37,KXNBAREB-26NOV16ORLBOS-ORLABLACK0-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Wendell Carter Jr.,7.5,near,8.5,6,0.5572,0.56,0.45,KXNBAREB-26NOV16ORLBOS-ORLWCARTER34-8
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Wendell Carter Jr.,7.5,exact,7.5,3,0.5305,0.56,0.45,KXNBAREB-26NOV16ORLBOS-ORLWCARTER34-8
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Paul George,3.5,near,4.5,8,0.6876,0.66,0.37,KXNBAREB-26NOV16ORLBOS-BOSPGEORGE13-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Payton Pritchard,3.5,exact,3.5,6,0.4164,0.4,0.61,KXNBAREB-26NOV16ORLBOS-BOSPPRITCHARD11-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Tristan da Silva,3.5,near,4.5,7,0.6569,0.61,0.43,KXNBAREB-26NOV16ORLBOS-ORLTDASILVA23-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Desmond Bane,3.5,near,4.5,7,0.6386,0.59,0.44,KXNBAREB-26NOV16ORLBOS-ORLDBANE3-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_rebounds,Derrick White,3.5,exact,3.5,7,0.4421,0.43,0.58,KXNBAREB-26NOV16ORLBOS-BOSDWHITE9-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_assists,Franz Wagner,5.5,near,6.5,8,0.635,0.63,0.38,KXNBAAST-26NOV16ORLBOS-ORLFWAGNER22-6
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_assists,Jayson Tatum,5.5,near,6.5,8,0.6173,0.63,0.39,KXNBAAST-26NOV16ORLBOS-BOSJTATUM0-6
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_assists,Anthony Black,3.5,near,4.5,7,0.6217,0.6,0.41,KXNBAAST-26NOV16ORLBOS-ORLABLACK0-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_assists,Paul George,3.5,exact,3.5,8,0.4505,0.46,0.55,KXNBAAST-26NOV16ORLBOS-BOSPGEORGE13-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_assists,Jalen Suggs,3.5,exact,3.5,7,0.5,0.51,0.5,KXNBAAST-26NOV16ORLBOS-ORLJSUGGS4-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_assists,Payton Pritchard,3.5,exact,3.5,6,0.5497,0.57,0.44,KXNBAAST-26NOV16ORLBOS-BOSPPRITCHARD11-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_assists,Tristan da Silva,1.5,exact,1.5,5,0.5121,0.51,0.5,KXNBAAST-26NOV16ORLBOS-ORLTDASILVA23-2
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_assists,Derrick White,3.5,near,4.5,8,0.6798,0.68,0.37,KXNBAAST-26NOV16ORLBOS-BOSDWHITE9-4
+2026-11-16T22:16:18+00:00,basketball_nba,Orlando Magic at Boston Celtics,player_assists,Wendell Carter Jr.,1.5,exact,1.5,3,0.5,0.47,0.54,KXNBAAST-26NOV16ORLBOS-ORLWCARTER34-2
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,Norman Powell,19.5,near,22.5,8,0.6489,0.63,0.38,KXNBAPTS-26NOV16CHICLE-CHINPOWELL24-20
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,Jarrett Allen,14.5,near,15.5,4,0.5631,0.53,0.48,KXNBAPTS-26NOV16CHICLE-CLEJALLEN31-15
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,Jarrett Allen,14.5,exact,14.5,5,0.5185,0.53,0.48,KXNBAPTS-26NOV16CHICLE-CLEJALLEN31-15
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,Donovan Mitchell,24.5,near,26.5,6,0.582,0.58,0.43,KXNBAPTS-26NOV16CHICLE-CLEDMITCHELL45-25
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,Donovan Mitchell,24.5,near,25.5,3,0.5877,0.58,0.43,KXNBAPTS-26NOV16CHICLE-CLEDMITCHELL45-25
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,Josh Giddey,9.5,near,12.5,7,0.7582,0.71,0.33,KXNBAPTS-26NOV16CHICLE-CHIJGIDDEY3-10
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,Matas Buzelis,14.5,near,15.5,8,0.5768,0.54,0.47,KXNBAPTS-26NOV16CHICLE-CHIMBUZELIS14-15
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,James Harden,14.5,near,17.5,5,0.7098,0.69,0.33,KXNBAPTS-26NOV16CHICLE-CLEJHARDEN1-15
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,James Harden,14.5,near,18.5,4,0.7241,0.69,0.33,KXNBAPTS-26NOV16CHICLE-CLEJHARDEN1-15
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,Tre Jones,9.5,near,10.5,8,0.625,0.56,0.45,KXNBAPTS-26NOV16CHICLE-CHITJONES30-10
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_points,Tyrese Proctor,9.5,near,10.5,5,0.6238,0.61,0.43,KXNBAPTS-26NOV16CHICLE-CLETPROCTOR24-10
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_rebounds,Jalen Smith,7.5,exact,7.5,4,0.5522,0.54,0.47,KXNBAREB-26NOV16CHICLE-CHIJSMITH25-8
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_rebounds,Jalen Smith,7.5,near,8.5,5,0.5643,0.54,0.47,KXNBAREB-26NOV16CHICLE-CHIJSMITH25-8
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_rebounds,Norman Powell,3.5,exact,3.5,3,0.4057,0.38,0.64,KXNBAREB-26NOV16CHICLE-CHINPOWELL24-4
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_rebounds,Jarrett Allen,9.5,exact,9.5,8,0.4688,0.46,0.55,KXNBAREB-26NOV16CHICLE-CLEJALLEN31-10
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_rebounds,Donovan Mitchell,3.5,near,4.5,8,0.7164,0.68,0.34,KXNBAREB-26NOV16CHICLE-CLEDMITCHELL45-4
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_rebounds,Peyton Watson,3.5,near,4.5,8,0.7107,0.68,0.36,KXNBAREB-26NOV16CHICLE-CLEPWATSON8-4
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_rebounds,Josh Giddey,5.5,near,6.5,8,0.6497,0.65,0.39,KXNBAREB-26NOV16CHICLE-CHIJGIDDEY3-6
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_rebounds,Matas Buzelis,5.5,exact,5.5,8,0.5154,0.51,0.5,KXNBAREB-26NOV16CHICLE-CHIMBUZELIS14-6
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_rebounds,James Harden,3.5,near,4.5,7,0.7004,0.66,0.38,KXNBAREB-26NOV16CHICLE-CLEJHARDEN1-4
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_rebounds,Tyrese Proctor,3.5,exact,3.5,3,0.5013,0.53,0.5,KXNBAREB-26NOV16CHICLE-CLETPROCTOR24-4
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_assists,Jalen Smith,1.5,exact,1.5,6,0.5305,0.54,0.48,KXNBAAST-26NOV16CHICLE-CHIJSMITH25-2
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_assists,Jarrett Allen,1.5,exact,1.5,4,0.5099,0.5,0.51,KXNBAAST-26NOV16CHICLE-CLEJALLEN31-2
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_assists,Donovan Mitchell,5.5,exact,5.5,8,0.4847,0.48,0.53,KXNBAAST-26NOV16CHICLE-CLEDMITCHELL45-6
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_assists,Josh Giddey,7.5,near,8.5,8,0.5896,0.61,0.41,KXNBAAST-26NOV16CHICLE-CHIJGIDDEY3-8
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_assists,James Harden,5.5,near,6.5,6,0.6805,0.71,0.32,KXNBAAST-26NOV16CHICLE-CLEJHARDEN1-6
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_assists,James Harden,7.5,exact,7.5,3,0.4327,0.41,0.6,KXNBAAST-26NOV16CHICLE-CLEJHARDEN1-8
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_assists,Isaac Okoro,1.5,exact,1.5,6,0.5187,0.54,0.5,KXNBAAST-26NOV16CHICLE-CHIIOKORO35-2
+2026-11-16T22:16:18+00:00,basketball_nba,Chicago Bulls at Cleveland Cavaliers,player_assists,Tre Jones,3.5,exact,3.5,7,0.4827,0.5,0.51,KXNBAAST-26NOV16CHICLE-CHITJONES30-4

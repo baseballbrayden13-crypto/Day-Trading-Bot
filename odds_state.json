@@ -56,6 +56,25 @@
     }
    ],
    "opened": "2026-11-14T23:07:45+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Villanova Wildcats at Pittsburgh Panthers",
+   "game_id": "39bce9119f7631dfd8656e4e8d388192",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-18T00:00:00Z",
+   "edge": 0.0305,
+   "home": "Pittsburgh Panthers",
+   "away": "Villanova Wildcats",
+   "legs": [
+    {
+     "team": "Villanova Wildcats",
+     "book": "DraftKings",
+     "odds": 2.1,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-16T22:16:15+00:00"
   }
  ],
  "seen": {
@@ -96,18 +115,19 @@
   "value|c4ac537963707b247ad9e4eab06c15de|Vancouver Canucks|BetRivers": "2026-11-14T23:07:45.784919+00:00",
   "value|ce88da9d6fd67bac81c1e4a70545de29|Hawaii Rainbow Warriors|theScore Bet": "2026-11-14T23:07:45.784919+00:00",
   "value|b931a21d34e414ee92b1a4b8e63774aa|Milwaukee Bucks|Pinnacle": "2026-11-15T02:46:15.060376+00:00",
-  "arb|c3c58341c48b659af034931964de5495|Air Force Falcons@FanDuel|Pacific Tigers@Kalshi": "2026-11-15T02:46:15.060376+00:00"
+  "arb|c3c58341c48b659af034931964de5495|Air Force Falcons@FanDuel|Pacific Tigers@Kalshi": "2026-11-15T02:46:15.060376+00:00",
+  "value|39bce9119f7631dfd8656e4e8d388192|Villanova Wildcats|DraftKings": "2026-11-16T22:16:15.684347+00:00"
  },
  "credits": {
   "day": "2026-11-16",
-  "spent": 0,
-  "remaining": 371
+  "spent": 5,
+  "remaining": 366
  },
  "last_priced": {
-  "basketball_nba": "2026-11-16T02:49:27.166922+00:00",
-  "icehockey_nhl": "2026-11-16T02:49:27.166922+00:00",
-  "americanfootball_ncaaf": "2026-11-15T17:48:20.589925+00:00",
-  "basketball_ncaab": "2026-11-16T02:49:27.166922+00:00",
-  "americanfootball_nfl": "2026-11-16T02:49:27.166922+00:00"
+  "basketball_nba": "2026-11-16T22:16:15.684347+00:00",
+  "icehockey_nhl": "2026-11-16T22:16:15.684347+00:00",
+  "americanfootball_ncaaf": "2026-11-16T22:16:15.684347+00:00",
+  "basketball_ncaab": "2026-11-16T22:16:15.684347+00:00",
+  "americanfootball_nfl": "2026-11-16T22:16:15.684347+00:00"
  }
 }

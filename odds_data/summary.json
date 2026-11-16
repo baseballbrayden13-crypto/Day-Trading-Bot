@@ -1,17 +1,25 @@
 {
- "updated": "2026-11-16T11:37:15+00:00",
+ "updated": "2026-11-16T22:16:15+00:00",
  "scan": {
-  "sports": [],
-  "games": 0,
-  "kalshi_matched": 0,
+  "sports": [
+   "americanfootball_nfl",
+   "basketball_nba",
+   "icehockey_nhl",
+   "americanfootball_ncaaf",
+   "basketball_ncaab"
+  ],
+  "games": 89,
+  "kalshi_matched": 76,
   "skipped": [],
-  "note": "quiet hours",
-  "credits_left": 371,
-  "spent_today": 0,
+  "pinnacle": 24,
+  "credits_left": 366,
+  "spent_today": 5,
   "allowance": 24
  },
- "new_finds": [],
- "open_bets": 3,
+ "new_finds": [
+  "Villanova Wildcats @ DraftKings 2.1 (fair 2.04, +3.0% expected) Villanova Wildcats at Pittsburgh Panthers (Tue 7:00PM)"
+ ],
+ "open_bets": 4,
  "record": {
   "value": {
    "bets": 27,

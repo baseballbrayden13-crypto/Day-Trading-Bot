@@ -38,6 +38,54 @@
    "pays": "-173",
    "per_dollar": 1.58,
    "opened": "2026-11-16T11:37:22+00:00"
+  },
+  {
+   "kind": "game",
+   "game": "Chicago Bulls vs Cleveland Cavaliers",
+   "start": "2026-11-17T00:10:00Z",
+   "legs": [
+    {
+     "label": "Cleveland Cavaliers to win",
+     "ticker": "KXNBAGAME-26NOV16CHICLE-CLE",
+     "side": "yes",
+     "price": 0.76,
+     "fair": 0.7453,
+     "value": -0.0277,
+     "player": ""
+    },
+    {
+     "label": "Tre Jones 10+ points",
+     "ticker": "KXNBAPTS-26NOV16CHICLE-CHITJONES30-10",
+     "side": "yes",
+     "price": 0.56,
+     "fair": 0.625,
+     "value": 0.047,
+     "player": "Tre Jones"
+    },
+    {
+     "label": "Josh Giddey 10+ points",
+     "ticker": "KXNBAPTS-26NOV16CHICLE-CHIJGIDDEY3-10",
+     "side": "yes",
+     "price": 0.71,
+     "fair": 0.7582,
+     "value": 0.0332,
+     "player": "Josh Giddey"
+    },
+    {
+     "label": "James Harden 4+ rebounds",
+     "ticker": "KXNBAREB-26NOV16CHICLE-CLEJHARDEN1-4",
+     "side": "yes",
+     "price": 0.66,
+     "fair": 0.7004,
+     "value": 0.0244,
+     "player": "James Harden"
+    }
+   ],
+   "price": 0.219,
+   "fair": 0.2474,
+   "pays": "+357",
+   "per_dollar": 4.57,
+   "opened": "2026-11-16T22:16:18+00:00"
   }
  ],
  "seen": {
@@ -51,6 +99,7 @@
   "game|Cleveland Cavaliers vs Dallas Mavericks|2026-11-15": "2026-11-14T14:15:16.369494+00:00",
   "favorites|Favorites across games|2026-11-15": "2026-11-15T11:08:07.342823+00:00",
   "game|Los Angeles Lakers vs Phoenix Suns|2026-11-15": "2026-11-15T17:48:26.279841+00:00",
-  "favorites|Favorites across games|2026-11-16": "2026-11-16T11:37:22.255075+00:00"
+  "favorites|Favorites across games|2026-11-16": "2026-11-16T11:37:22.255075+00:00",
+  "game|Chicago Bulls vs Cleveland Cavaliers|2026-11-17": "2026-11-16T22:16:18.646078+00:00"
  }
 }
