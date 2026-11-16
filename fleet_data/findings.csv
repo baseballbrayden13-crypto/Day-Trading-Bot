@@ -1,27 +1,28 @@
 checked,bot,label,level,check,message,fix
-2026-11-15T06:50:19+00:00,0,fleet,info,events,Coming up: NVDA earnings Tue 11/17; HD earnings Tue 11/17; DIS earnings Tue 11/17. Odd results around these days are normal.,
-2026-11-15T06:50:19+00:00,1,1,act,schedule,Bot 1 should have run by Fri 09:20 ET but its log last changed Thu 11/12 16:05.,Check the Cloud bots runs on GitHub (Actions tab) for a failed or skipped run.
-2026-11-15T06:50:19+00:00,1,1,info,return,"$4,982.21, -0.4% since the $5,000 start.",
-2026-11-15T06:50:19+00:00,1,1,info,performance,11 closed trades so far; 30 are needed before the results say anything about the strategy.,
-2026-11-15T06:50:19+00:00,1,1,ok,slippage,Real fills cost +2.0 bps over 13 fills (backtest assumes 2).,
-2026-11-15T06:50:19+00:00,2,2,info,return,"$2,483.61, -1.7% since the $2,528 start.",
-2026-11-15T06:50:19+00:00,2,2,info,vs hold,Since 2026-10-23: bot -1.7% vs just holding SPY -0.7%.,
-2026-11-15T06:50:19+00:00,3,3,info,return,"$1,666.00, +0.0% since the $1,666 start.",
-2026-11-15T06:50:19+00:00,3,3,info,vs hold,Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -23.4%.,
-2026-11-15T06:50:19+00:00,6,4c,watch,errors,"Bot 4c: 2 errors in the last day. Latest: 2026-11-14 16:15:15,842 ERROR Maker loop error; carrying on","Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug."
-2026-11-15T06:50:19+00:00,6,4c,info,return,"Bot 4c: 3 settled, 1 open, $+7.07 settled profit.",
-2026-11-15T06:50:19+00:00,7,4e,act,losses,Bot 4e: 9 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.,Read kalshi_data/opportunities.csv for those events.
-2026-11-15T06:50:19+00:00,7,4e,act,missed hedges,Bot 4e: 35 one-sided leftovers from missed hedges (not locked-in trades) closed for $-14.13. (Flagged 11 days in a row.),"If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more)."
-2026-11-15T06:50:19+00:00,7,4e,act,drawdown,Bot 4e is at $13.01 of its $20.00 start.,
-2026-11-15T06:50:19+00:00,7,4e,watch,errors,Bot 4e: 2 warnings last loop. Latest: 2026-11-15 02:10 STRAY POSITION: 1 NO contracts of KXNCAAHGAME-26NOV14UMDSCS-UMD still held. Check it on Kalshi.,
-2026-11-15T06:50:19+00:00,7,4e,watch,errors,"Bot 4e: 1 errors in the last day. Latest: 2026-11-14 21:10:01,248 ERROR STRAY POSITION: 1 NO contracts of KXNCAAHGAME-26NOV14UMDSCS-UMD still held. Check it on Kalshi.","Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug."
-2026-11-15T06:50:19+00:00,7,4e,info,return,"Bot 4e: 102 settled, 3 open, $-6.99 settled profit.",
-2026-11-15T06:50:19+00:00,9,4f,act,losses,Bot 4f: 3 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.,Read kalshi_data/opportunities.csv for those events.
-2026-11-15T06:50:19+00:00,9,4f,act,missed hedges,Bot 4f: 7 one-sided leftovers from missed hedges (not locked-in trades) closed for $-3.98. (Flagged 5 days in a row.),"If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more)."
-2026-11-15T06:50:19+00:00,9,4f,act,drawdown,Bot 4f is at $15.46 of its $20.00 start.,
-2026-11-15T06:50:19+00:00,9,4f,act,errors,Bot 4f: 2 warnings last loop. Latest: 2026-11-15 04:39 STRAY POSITION: 2 NO contracts of KXNCAAWVMATCH-26NOV142200WASHUSC-WASH still held. Check it on Kalshi. (Flagged 5 days in a row.),
-2026-11-15T06:50:19+00:00,9,4f,act,errors,"Bot 4f: 1 errors in the last day. Latest: 2026-11-14 23:39:15,624 ERROR STRAY POSITION: 2 NO contracts of KXNCAAWVMATCH-26NOV142200WASHUSC-WASH still held. Check it on Kalshi. (Flagged 5 days in a row.)","Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug."
-2026-11-15T06:50:19+00:00,9,4f,info,return,"Bot 4f: 10 settled, 2 open, $-4.54 settled profit.",
-2026-11-15T06:50:19+00:00,8,5,info,return,"$2,462.81, +0.5% since the $2,450 start.",
-2026-11-15T06:50:19+00:00,10,6,info,return,"$1,627.59, -2.4% since the $1,667 start.",
-2026-11-15T06:50:19+00:00,11,7,info,return,"$1,610.22, -3.4% since the $1,667 start.",
+2026-11-16T06:49:30+00:00,0,fleet,info,events,Coming up: NVDA earnings Tue 11/17; HD earnings Tue 11/17; DIS earnings Tue 11/17; WMT earnings Thu 11/19. Odd results around these days are normal.,
+2026-11-16T06:49:30+00:00,1,1,ok,replay,2026-11-13: bot 1 did what the backtest would have (0 entries).,
+2026-11-16T06:49:30+00:00,1,1,act,schedule,Bot 1 should have run by Fri 09:20 ET but its log last changed Thu 11/12 16:05.,Check the Cloud bots runs on GitHub (Actions tab) for a failed or skipped run.
+2026-11-16T06:49:30+00:00,1,1,info,return,"$4,982.21, -0.4% since the $5,000 start.",
+2026-11-16T06:49:30+00:00,1,1,info,performance,11 closed trades so far; 30 are needed before the results say anything about the strategy.,
+2026-11-16T06:49:30+00:00,1,1,ok,slippage,Real fills cost +2.0 bps over 13 fills (backtest assumes 2).,
+2026-11-16T06:49:30+00:00,2,2,info,return,"$2,491.34, -1.4% since the $2,528 start.",
+2026-11-16T06:49:30+00:00,2,2,info,vs hold,Since 2026-10-23: bot -1.4% vs just holding SPY -0.7%.,
+2026-11-16T06:49:30+00:00,3,3,info,return,"$1,666.00, +0.0% since the $1,666 start.",
+2026-11-16T06:49:30+00:00,3,3,info,vs hold,Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -21.3%.,
+2026-11-16T06:49:30+00:00,6,4c,act,schedule,"Bot 4c (maker_paper) last wrote anything Mon 11/16 01:15 ET, over 30 minutes ago.",Its loop has stopped. Check its scheduled task and its _err.log.
+2026-11-16T06:49:30+00:00,6,4c,info,return,"Bot 4c: 3 settled, 1 open, $+7.07 settled profit.",
+2026-11-16T06:49:30+00:00,7,4e,act,schedule,"Bot 4e (maker_paper) last wrote anything Mon 11/16 01:15 ET, over 30 minutes ago.",Its loop has stopped. Check its scheduled task and its _err.log.
+2026-11-16T06:49:30+00:00,7,4e,act,losses,Bot 4e: 10 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.,Read kalshi_data/opportunities.csv for those events.
+2026-11-16T06:49:30+00:00,7,4e,act,missed hedges,Bot 4e: 36 one-sided leftovers from missed hedges (not locked-in trades) closed for $-14.21. (Flagged 12 days in a row.),"If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more)."
+2026-11-16T06:49:30+00:00,7,4e,act,drawdown,Bot 4e is at $12.88 of its $20.00 start.,
+2026-11-16T06:49:30+00:00,7,4e,act,errors,"Bot 4e: 1 errors in the last day. Latest: 2026-11-15 13:36:03,683 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi. (Flagged 3 days in a row.)","Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug."
+2026-11-16T06:49:30+00:00,7,4e,info,return,"Bot 4e: 104 settled, 4 open, $-7.12 settled profit.",
+2026-11-16T06:49:30+00:00,9,4f,act,schedule,"Bot 4f (maker_paper) last wrote anything Mon 11/16 01:15 ET, over 30 minutes ago.",Its loop has stopped. Check its scheduled task and its _err.log.
+2026-11-16T06:49:30+00:00,9,4f,act,losses,Bot 4f: 5 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.,Read kalshi_data/opportunities.csv for those events.
+2026-11-16T06:49:30+00:00,9,4f,act,missed hedges,Bot 4f: 8 one-sided leftovers from missed hedges (not locked-in trades) closed for $-4.06. (Flagged 6 days in a row.),"If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more)."
+2026-11-16T06:49:30+00:00,9,4f,act,drawdown,Bot 4f is at $15.23 of its $20.00 start.,
+2026-11-16T06:49:30+00:00,9,4f,act,errors,"Bot 4f: 1 errors in the last day. Latest: 2026-11-15 13:36:00,777 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi. (Flagged 6 days in a row.)","Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug."
+2026-11-16T06:49:30+00:00,9,4f,info,return,"Bot 4f: 13 settled, 1 open, $-4.77 settled profit.",
+2026-11-16T06:49:30+00:00,8,5,info,return,"$2,462.81, +0.5% since the $2,450 start.",
+2026-11-16T06:49:30+00:00,10,6,info,return,"$1,592.04, -4.5% since the $1,667 start.",
+2026-11-16T06:49:30+00:00,11,7,info,return,"$1,579.98, -5.2% since the $1,667 start.",

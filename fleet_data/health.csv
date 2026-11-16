@@ -1,11 +1,11 @@
 checked,bot,label,name,status,headline
-2026-11-15T06:50:19+00:00,0,fleet,Whole fleet,info,Running normally.
-2026-11-15T06:50:19+00:00,1,1,ORB day trader,act,Bot 1 should have run by Fri 09:20 ET but its log last changed Thu 11/12 16:05.
-2026-11-15T06:50:19+00:00,2,2,ETF rotation,info,Running normally.
-2026-11-15T06:50:19+00:00,3,3,Crypto trend,info,Running normally.
-2026-11-15T06:50:19+00:00,6,4c,Kalshi maker paper,watch,"Bot 4c: 2 errors in the last day. Latest: 2026-11-14 16:15:15,842 ERROR Maker loop error; carrying on"
-2026-11-15T06:50:19+00:00,7,4e,Kalshi combined,act,Bot 4e: 9 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
-2026-11-15T06:50:19+00:00,9,4f,Kalshi cushion test,act,Bot 4f: 3 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
-2026-11-15T06:50:19+00:00,8,5,Dip buyer,info,Running normally.
-2026-11-15T06:50:19+00:00,10,6,QQQ trend,info,Running normally.
-2026-11-15T06:50:19+00:00,11,7,Momentum,info,Running normally.
+2026-11-16T06:49:30+00:00,0,fleet,Whole fleet,info,Running normally.
+2026-11-16T06:49:30+00:00,1,1,ORB day trader,act,Bot 1 should have run by Fri 09:20 ET but its log last changed Thu 11/12 16:05.
+2026-11-16T06:49:30+00:00,2,2,ETF rotation,info,Running normally.
+2026-11-16T06:49:30+00:00,3,3,Crypto trend,info,Running normally.
+2026-11-16T06:49:30+00:00,6,4c,Kalshi maker paper,act,"Bot 4c (maker_paper) last wrote anything Mon 11/16 01:15 ET, over 30 minutes ago."
+2026-11-16T06:49:30+00:00,7,4e,Kalshi combined,act,"Bot 4e (maker_paper) last wrote anything Mon 11/16 01:15 ET, over 30 minutes ago."
+2026-11-16T06:49:30+00:00,9,4f,Kalshi cushion test,act,"Bot 4f (maker_paper) last wrote anything Mon 11/16 01:15 ET, over 30 minutes ago."
+2026-11-16T06:49:30+00:00,8,5,Dip buyer,info,Running normally.
+2026-11-16T06:49:30+00:00,10,6,QQQ trend,info,Running normally.
+2026-11-16T06:49:30+00:00,11,7,Momentum,info,Running normally.
