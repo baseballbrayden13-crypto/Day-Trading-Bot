@@ -1,8 +1,8 @@
 {
- "checked": "2026-11-16T06:49:30+00:00",
+ "checked": "2026-11-16T21:18:56+00:00",
  "status": {
   "0": "info",
-  "1": "act",
+  "1": "info",
   "2": "info",
   "3": "info",
   "6": "act",
@@ -26,17 +26,8 @@
    "bot": 1,
    "level": "ok",
    "check": "replay",
-   "message": "2026-11-13: bot 1 did what the backtest would have (0 entries).",
+   "message": "2026-11-16: bot 1 did what the backtest would have (0 entries).",
    "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 1,
-   "level": "act",
-   "check": "schedule",
-   "message": "Bot 1 should have run by Fri 09:20 ET but its log last changed Thu 11/12 16:05.",
-   "fix": "Check the Cloud bots runs on GitHub (Actions tab) for a failed or skipped run.",
    "proposal": "",
    "risk": "Low"
   },
@@ -71,7 +62,7 @@
    "bot": 2,
    "level": "info",
    "check": "return",
-   "message": "$2,491.34, -1.4% since the $2,528 start.",
+   "message": "$2,464.95, -2.5% since the $2,528 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -80,7 +71,7 @@
    "bot": 2,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot -1.4% vs just holding SPY -0.7%.",
+   "message": "Since 2026-10-23: bot -2.5% vs just holding SPY -2.6%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -107,7 +98,7 @@
    "bot": 6,
    "level": "act",
    "check": "schedule",
-   "message": "Bot 4c (maker_paper) last wrote anything Mon 11/16 01:15 ET, over 30 minutes ago.",
+   "message": "Bot 4c (maker_paper) last wrote anything Mon 11/16 11:03 ET, over 30 minutes ago.",
    "fix": "Its loop has stopped. Check its scheduled task and its _err.log.",
    "proposal": "",
    "risk": "Low"
@@ -125,7 +116,7 @@
    "bot": 7,
    "level": "act",
    "check": "schedule",
-   "message": "Bot 4e (maker_paper) last wrote anything Mon 11/16 01:15 ET, over 30 minutes ago.",
+   "message": "Bot 4e (maker_paper) last wrote anything Mon 11/16 11:03 ET, over 30 minutes ago.",
    "fix": "Its loop has stopped. Check its scheduled task and its _err.log.",
    "proposal": "",
    "risk": "Low"
@@ -159,15 +150,6 @@
   },
   {
    "bot": 7,
-   "level": "act",
-   "check": "errors",
-   "message": "Bot 4e: 1 errors in the last day. Latest: 2026-11-15 13:36:03,683 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi. (Flagged 3 days in a row.)",
-   "fix": "Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug.",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 7,
    "level": "info",
    "check": "return",
    "message": "Bot 4e: 104 settled, 4 open, $-7.12 settled profit.",
@@ -179,7 +161,7 @@
    "bot": 9,
    "level": "act",
    "check": "schedule",
-   "message": "Bot 4f (maker_paper) last wrote anything Mon 11/16 01:15 ET, over 30 minutes ago.",
+   "message": "Bot 4f (maker_paper) last wrote anything Mon 11/16 11:03 ET, over 30 minutes ago.",
    "fix": "Its loop has stopped. Check its scheduled task and its _err.log.",
    "proposal": "",
    "risk": "Low"
@@ -213,18 +195,9 @@
   },
   {
    "bot": 9,
-   "level": "act",
-   "check": "errors",
-   "message": "Bot 4f: 1 errors in the last day. Latest: 2026-11-15 13:36:00,777 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi. (Flagged 6 days in a row.)",
-   "fix": "Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug.",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 9,
    "level": "info",
    "check": "return",
-   "message": "Bot 4f: 13 settled, 1 open, $-4.77 settled profit.",
+   "message": "Bot 4f: 13 settled, 2 open, $-4.77 settled profit.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -242,7 +215,7 @@
    "bot": 10,
    "level": "info",
    "check": "return",
-   "message": "$1,592.04, -4.5% since the $1,667 start.",
+   "message": "$1,581.72, -5.1% since the $1,667 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -251,7 +224,7 @@
    "bot": 11,
    "level": "info",
    "check": "return",
-   "message": "$1,579.98, -5.2% since the $1,667 start.",
+   "message": "$1,551.50, -6.9% since the $1,667 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
