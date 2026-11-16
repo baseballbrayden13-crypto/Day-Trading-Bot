@@ -396,13 +396,13 @@
    "series": "KXEFLL2GAME",
    "title": "Walsall vs Barnet",
    "ticker": "KXEFLL2GAME-26NOV14WALBAR-WAL",
-   "order_id": "paper-200-1794803678",
-   "price": "0.1300",
+   "order_id": "paper-201-1794805778",
+   "price": "0.0700",
    "sets": 2,
    "done": 0,
-   "reserve": "3.6000",
+   "reserve": "3.4800",
    "multiplier": "1",
-   "placed": 1794803678.9891965,
+   "placed": 1794805778.9423742,
    "hedge": [
     {
      "ticker": "KXEFLL2GAME-26NOV14WALBAR-BAR",
