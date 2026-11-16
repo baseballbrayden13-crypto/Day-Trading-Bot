@@ -2778,5 +2778,25 @@
    "closed": "2026-11-15T18:55:25.322559+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAMBGAME-26NOV19TXAMTCU",
+   "series": "KXNCAAMBGAME",
+   "title": "Texas A&M vs TCU",
+   "ticker": "KXNCAAMBGAME-26NOV19TXAMTCU-TCU",
+   "order_id": "paper-1134-1794797017",
+   "price": "0.0700",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.7200",
+   "multiplier": "1",
+   "placed": 1794797017.7588494,
+   "hedge": [
+    {
+     "ticker": "KXNCAAMBGAME-26NOV19TXAMTCU-TXAM",
+     "limit": "0.7700"
+    }
+   ]
+  }
+ ]
 }

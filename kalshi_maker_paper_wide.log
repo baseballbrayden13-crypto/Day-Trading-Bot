@@ -9638,3 +9638,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 21:18:24,981 INFO Swept 18927 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-15 21:23:24,619 INFO Swept 18965 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-15 21:28:28,190 INFO Swept 18991 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 21:33:36,606 INFO Swept 19004 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 21:38:34,787 INFO Swept 18984 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 21:43:37,758 INFO PAPER rest NO bid KXNCAAMBGAME-26NOV19TXAMTCU-TCU at $0.0700 x2 (0 already bid at that price)
+2026-11-15 21:43:37,758 INFO Resting NO bid on KXNCAAMBGAME-26NOV19TXAMTCU-TCU at $0.0700 x2 (KXNCAAMBGAME-26NOV19TXAMTCU): locks in $0.28 if it fills; hedge NO TXAM@0.7700
+2026-11-15 21:43:37,846 INFO Swept 18967 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-15 21:48:41,707 INFO Swept 18973 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 21:53:46,050 INFO Swept 18965 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 21:58:50,505 INFO Swept 18959 events: 0 taker trades, 0 new quotes, 1 resting
