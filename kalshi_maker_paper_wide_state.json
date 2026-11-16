@@ -2778,25 +2778,5 @@
    "closed": "2026-11-15T18:55:25.322559+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXAHLGAME-26NOV152000COLONT",
-   "series": "KXAHLGAME",
-   "title": "Colorado Eagles vs Ontario Reign",
-   "ticker": "KXAHLGAME-26NOV152000COLONT-COL",
-   "order_id": "paper-1135-1794799147",
-   "price": "0.2600",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.5900",
-   "multiplier": "1",
-   "placed": 1794799147.4969897,
-   "hedge": [
-    {
-     "ticker": "KXAHLGAME-26NOV152000COLONT-ONT",
-     "limit": "0.5100"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
