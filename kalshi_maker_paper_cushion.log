@@ -3058,3 +3058,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 22:24:00,347 INFO Swept 18973 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-15 22:28:57,401 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-15 22:28:58,999 INFO Swept 18957 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 22:34:01,585 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:34:03,129 INFO Swept 18941 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 22:39:08,317 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:39:09,857 INFO Swept 18946 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 22:40:50,344 INFO Quote KXAHLGAME-26NOV152000COLONT cancelled (0/2 filled)
+2026-11-15 22:44:13,813 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:44:15,385 INFO Swept 18937 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:49:16,618 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:49:18,495 INFO Swept 18945 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:54:19,379 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:54:20,951 INFO Swept 18939 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 22:59:21,181 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-15 22:59:23,026 INFO PAPER rest NO bid KXEFLL2GAME-26NOV14WALBAR-WAL at $0.1900 x2 (0 already bid at that price)
+2026-11-15 22:59:23,027 INFO Resting NO bid on KXEFLL2GAME-26NOV14WALBAR-WAL at $0.1900 x2 (KXEFLL2GAME-26NOV14WALBAR): locks in $0.28 if it fills; hedge NO BAR@0.9200, TIE@0.7200
+2026-11-15 22:59:23,028 INFO Swept 18928 events: 0 taker trades, 1 new quotes, 1 resting

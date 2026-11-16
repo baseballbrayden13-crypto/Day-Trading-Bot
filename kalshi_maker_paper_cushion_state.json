@@ -376,40 +376,25 @@
  ],
  "quotes": [
   {
-   "event": "KXAHLGAME-26NOV152000COLONT",
-   "series": "KXAHLGAME",
-   "title": "Colorado Eagles vs Ontario Reign",
-   "ticker": "KXAHLGAME-26NOV152000COLONT-COL",
-   "order_id": "paper-197-1794799134",
-   "price": "0.2600",
+   "event": "KXEFLL2GAME-26NOV14WALBAR",
+   "series": "KXEFLL2GAME",
+   "title": "Walsall vs Barnet",
+   "ticker": "KXEFLL2GAME-26NOV14WALBAR-WAL",
+   "order_id": "paper-199-1794801563",
+   "price": "0.1900",
    "sets": 2,
    "done": 0,
-   "reserve": "1.5900",
+   "reserve": "3.7200",
    "multiplier": "1",
-   "placed": 1794799134.9369915,
+   "placed": 1794801563.0271156,
    "hedge": [
     {
-     "ticker": "KXAHLGAME-26NOV152000COLONT-ONT",
-     "limit": "0.5100"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAMB1H-26NOV14AFAPAC",
-   "series": "KXNCAAMB1H",
-   "title": "Air Force vs Pacific: 1st Half Winner",
-   "ticker": "KXNCAAMB1H-26NOV14AFAPAC-TIE",
-   "order_id": "paper-198-1794799440",
-   "price": "0.0200",
-   "sets": 4,
-   "done": 0,
-   "reserve": "2.8000",
-   "multiplier": "1",
-   "placed": 1794799440.3463807,
-   "hedge": [
+     "ticker": "KXEFLL2GAME-26NOV14WALBAR-BAR",
+     "limit": "0.9200"
+    },
     {
-     "ticker": "KXNCAAMB1H-26NOV14AFAPAC-PAC",
-     "limit": "0.8000"
+     "ticker": "KXEFLL2GAME-26NOV14WALBAR-TIE",
+     "limit": "0.7200"
     }
    ]
   }
