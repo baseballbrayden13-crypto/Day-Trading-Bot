@@ -24,6 +24,30 @@
      "limit": "0.28"
     }
    ]
+  },
+  {
+   "event": "KXCS2MAP-26NOV150630CWSTA-2",
+   "series": "KXCS2MAP",
+   "title": "CPH Wolves vs. STATE: Map 2 Winner",
+   "sets": 2,
+   "outlay": "2.11",
+   "locked_profit": "-0.11",
+   "opened": "2026-11-16T15:32:29.111646+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCS2MAP-26NOV150630CWSTA-2-STA",
+     "side": "no",
+     "count": 2,
+     "limit": "0.63"
+    },
+    {
+     "ticker": "KXCS2MAP-26NOV150630CWSTA-2-CW",
+     "side": "no",
+     "count": 2,
+     "limit": "0.40"
+    }
+   ]
   }
  ],
  "closed": [
