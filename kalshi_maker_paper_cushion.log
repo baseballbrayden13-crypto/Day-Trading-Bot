@@ -3140,3 +3140,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 01:15:17,708 INFO Resting NO bid on KXCS2MAP-26NOV150630CWSTA-2-STA at $0.63 x2 (KXCS2MAP-26NOV150630CWSTA-2): locks in $0.20 if it fills; hedge NO CW@0.2500
 2026-11-16 01:15:17,709 INFO Swept 18994 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-16 01:15:23,005 INFO Stopped; all quotes cancelled.
+2026-11-16 05:18:02,101 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-16 05:20:10,612 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 05:20:13,141 INFO Swept 18991 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 05:25:12,199 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 05:25:14,607 INFO Swept 18987 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 05:30:13,550 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 05:30:15,860 INFO Swept 18988 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 05:35:16,105 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 05:35:18,532 INFO Swept 18984 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 05:40:18,589 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 05:40:20,949 INFO Swept 18984 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 05:45:21,844 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 05:45:24,219 INFO Swept 18988 events: 0 taker trades, 0 new quotes, 0 resting
