@@ -390,5 +390,29 @@
    "closed": "2026-11-16T04:09:25.537761+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXEFLL2GAME-26NOV14WALBAR",
+   "series": "KXEFLL2GAME",
+   "title": "Walsall vs Barnet",
+   "ticker": "KXEFLL2GAME-26NOV14WALBAR-WAL",
+   "order_id": "paper-200-1794803678",
+   "price": "0.1300",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.6000",
+   "multiplier": "1",
+   "placed": 1794803678.9891965,
+   "hedge": [
+    {
+     "ticker": "KXEFLL2GAME-26NOV14WALBAR-BAR",
+     "limit": "0.9200"
+    },
+    {
+     "ticker": "KXEFLL2GAME-26NOV14WALBAR-TIE",
+     "limit": "0.7200"
+    }
+   ]
+  }
+ ]
 }
