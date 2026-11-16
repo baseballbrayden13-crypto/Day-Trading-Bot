@@ -851,4 +851,22 @@ replay,2026-11-14,nhl,PHI @ CBJ,Columbus Blue Jackets,home,1.741,0.603,0.551,0.0
 replay,2026-11-14,nhl,BUF @ DAL,Dallas Stars,home,1.741,0.602,0.551,0.051,settled,1,7.41,401892717
 replay,2026-11-14,nhl,NYI @ ANA,Anaheim Ducks,home,1.926,0.564,0.496,0.069,settled,0,-10.0,401892719
 replay,2026-11-14,nhl,CGY @ LA,Calgary Flames,away,2.45,0.463,0.391,0.072,settled,1,14.5,401892720
-live,2026-11-15,nhl,NSH @ SJ,San Jose Sharks,home,2.42,0.524,0.396,0.128,open,,,401892725
+live,2026-11-15,nhl,NSH @ SJ,San Jose Sharks,home,2.42,0.524,0.396,0.128,settled,1,14.2,401892725
+replay,2026-11-15,nfl,KC @ ATL,Atlanta Falcons,home,2.45,0.489,0.391,0.099,settled,0,-10.0,401873058
+replay,2026-11-15,nfl,HOU @ CLE,Cleveland Browns,home,2.7,0.595,0.355,0.239,settled,1,17.0,401873056
+replay,2026-11-15,nfl,MIN @ GB,Green Bay Packers,home,1.676,0.634,0.572,0.062,settled,0,-10.0,401873060
+replay,2026-11-15,nfl,MIA @ IND,Miami Dolphins,away,2.95,0.404,0.325,0.079,settled,0,-10.0,401873059
+replay,2026-11-15,nfl,CAR @ NO,New Orleans Saints,home,2.02,0.536,0.474,0.063,settled,0,-10.0,401873055
+replay,2026-11-15,nfl,SEA @ LV,Las Vegas Raiders,home,3.4,0.482,0.282,0.2,settled,0,-10.0,401873062
+replay,2026-11-15,nfl,SF @ DAL,Dallas Cowboys,home,2.8,0.414,0.343,0.072,settled,0,-10.0,401873063
+live,2026-11-16,nfl,LAC @ BAL,Baltimore Ravens,home,1.444,0.769,0.664,0.106,open,,,401873065
+replay,2026-11-15,nba,LAL @ PHX,Los Angeles Lakers,away,1.621,0.676,0.593,0.083,settled,1,6.21,401909986
+replay,2026-11-15,nba,CHA @ LAC,LA Clippers,home,1.943,0.642,0.494,0.147,settled,1,9.43,401909987
+replay,2026-11-15,nba,NY @ TOR,Toronto Raptors,home,2.79,0.572,0.344,0.228,settled,0,-10.0,401909990
+live,2026-11-16,nba,ORL @ BOS,Boston Celtics,home,1.263,0.84,0.76,0.08,open,,,401909994
+live,2026-11-16,nba,CHI @ CLE,Chicago Bulls,away,3.76,0.359,0.256,0.103,open,,,401909995
+live,2026-11-16,nba,MEM @ WSH,Memphis Grizzlies,away,1.588,0.696,0.605,0.091,open,,,401909996
+live,2026-11-16,nba,PHI @ BKN,Brooklyn Nets,home,2.8,0.455,0.343,0.113,open,,,401909997
+live,2026-11-16,nba,GS @ NO,Golden State Warriors,away,1.645,0.704,0.584,0.12,open,,,401910000
+replay,2026-11-15,nhl,NSH @ SJ,San Jose Sharks,home,2.42,0.524,0.396,0.128,settled,1,14.2,401892725
+live,2026-11-16,nhl,VAN @ UTA,Vancouver Canucks,away,3.7,0.377,0.259,0.117,open,,,401892727

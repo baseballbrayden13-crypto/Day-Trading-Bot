@@ -4395,3 +4395,144 @@ day,league,game,home,away,score,elo_home,market_home,home_won,seasoned,elo_brier
 2026-11-14,nhl,SJ @ UTA,Utah Mammoth,San Jose Sharks,6-5,0.58,0.622,0,1,0.3367,0.3875
 2026-11-14,nhl,NYI @ ANA,Anaheim Ducks,New York Islanders,6-2,0.564,0.496,0,1,0.3186,0.2457
 2026-11-14,nhl,CGY @ LA,Los Angeles Kings,Calgary Flames,3-2,0.537,0.609,0,1,0.2883,0.3712
+2026-11-15,nfl,NE VS DET,Detroit Lions,New England Patriots,10-35,0.619,0.572,1,1,0.1451,0.1831
+2026-11-15,nfl,KC @ ATL,Atlanta Falcons,Kansas City Chiefs,35-13,0.489,0.391,0,1,0.2396,0.1527
+2026-11-15,nfl,HOU @ CLE,Cleveland Browns,Houston Texans,24-27,0.595,0.355,1,1,0.1643,0.4157
+2026-11-15,nfl,MIN @ GB,Green Bay Packers,Minnesota Vikings,30-10,0.634,0.572,0,1,0.4023,0.3273
+2026-11-15,nfl,JAX @ TEN,Tennessee Titans,Jacksonville Jaguars,40-23,0.29,0.168,0,1,0.0839,0.0283
+2026-11-15,nfl,MIA @ IND,Indianapolis Colts,Miami Dolphins,22-24,0.596,0.675,1,1,0.163,0.1056
+2026-11-15,nfl,CAR @ NO,New Orleans Saints,Carolina Panthers,20-17,0.536,0.474,0,1,0.2878,0.2246
+2026-11-15,nfl,BUF @ NYJ,New York Jets,Buffalo Bills,31-12,0.239,0.209,0,1,0.0574,0.0435
+2026-11-15,nfl,SEA @ LV,Las Vegas Raiders,Seattle Seahawks,21-13,0.482,0.282,0,1,0.2322,0.0795
+2026-11-15,nfl,LAR @ ARI,Arizona Cardinals,Los Angeles Rams,34-6,0.332,0.2,0,1,0.1102,0.04
+2026-11-15,nfl,SF @ DAL,Dallas Cowboys,San Francisco 49ers,46-40,0.414,0.343,0,1,0.1715,0.1173
+2026-11-15,nfl,PIT @ CIN,Cincinnati Bengals,Pittsburgh Steelers,18-38,0.664,0.631,1,1,0.1128,0.1362
+2026-11-15,ncaaf,MISS @ OU,Oklahoma Sooners,Ole Miss Rebels,17-24,0.532,0.551,1,1,0.2195,0.2012
+2026-11-15,nba,IND @ PHI,Philadelphia 76ers,Indiana Pacers,124-131,0.736,0.713,1,1,0.0697,0.0823
+2026-11-15,nba,LAL @ PHX,Phoenix Suns,Los Angeles Lakers,131-123,0.324,0.407,0,1,0.105,0.1658
+2026-11-15,nba,CHA @ LAC,LA Clippers,Charlotte Hornets,105-113,0.642,0.494,1,1,0.1284,0.2556
+2026-11-15,nba,SA @ UTAH,Utah Jazz,San Antonio Spurs,110-102,0.168,0.114,0,1,0.0283,0.0131
+2026-11-15,nba,DAL @ BOS,Boston Celtics,Dallas Mavericks,94-131,0.841,0.863,1,1,0.0253,0.0189
+2026-11-15,nba,NY @ TOR,Toronto Raptors,New York Knicks,112-108,0.572,0.344,0,1,0.327,0.1183
+2026-11-15,nba,HOU @ WSH,Washington Wizards,Houston Rockets,147-119,0.303,0.265,0,1,0.0919,0.0703
+2026-11-15,nba,ATL @ MIL,Milwaukee Bucks,Atlanta Hawks,113-106,0.286,0.266,0,1,0.082,0.0708
+2026-11-15,nba,OKC @ SAC,Sacramento Kings,Oklahoma City Thunder,125-103,0.26,0.208,0,1,0.0676,0.0434
+2026-11-15,ncaab,ABAC @ FGCU,Florida Gulf Coast Eagles,Abraham Baldwin Agricultural Stallions,31-99,0.579,,1,0,0.1772,
+2026-11-15,ncaab,QUIN @ CCSU,Central Connecticut Blue Devils,Quinnipiac Bobcats,67-72,0.644,,1,0,0.1268,
+2026-11-15,ncaab,LOU @ MEM,Memphis Tigers,Louisville Cardinals,78-98,0.547,,1,0,0.2055,
+2026-11-15,ncaab,BOIS VS NEB,Nebraska Cornhuskers,Boise State Broncos,75-102,0.512,,1,0,0.2384,
+2026-11-15,ncaab,NORF @ GAST,Georgia State Panthers,Norfolk State Spartans,53-78,0.622,,1,0,0.1431,
+2026-11-15,ncaab,COLG @ DEL,Delaware Blue Hens,Colgate Raiders,58-64,0.649,,1,0,0.1232,
+2026-11-15,ncaab,DART @ BU,Boston University Terriers,Dartmouth Big Green,75-90,0.602,,1,0,0.1587,
+2026-11-15,ncaab,HARV @ AMER,American University Eagles,Harvard Crimson,64-70,0.553,,1,0,0.2002,
+2026-11-15,ncaab,NIA @ ISU,Iowa State Cyclones,Niagara Purple Eagles,45-66,0.732,,1,0,0.0717,
+2026-11-15,ncaab,UNH @ BC,Boston College Eagles,New Hampshire Wildcats,55-67,0.642,,1,0,0.1282,
+2026-11-15,ncaab,W&M @ MICH,Michigan Wolverines,William & Mary Tribe,79-123,0.603,,1,0,0.1574,
+2026-11-15,ncaab,CAPU @ RMU,Robert Morris Colonials,Capital Crusaders,45-94,0.521,,1,0,0.2296,
+2026-11-15,ncaab,SCST @ COFC,Charleston Cougars,South Carolina State Bulldogs,66-90,0.653,,1,0,0.1206,
+2026-11-15,ncaab,TEM @ LAS,La Salle Explorers,Temple Owls,84-71,0.617,,0,0,0.3809,
+2026-11-15,ncaab,ECMA @ YALE,Yale Bulldogs,Emmanuel (MA) Lions,58-103,0.556,,1,0,0.1975,
+2026-11-15,ncaab,UALB @ HC,Holy Cross Crusaders,UAlbany Great Danes,62-60,0.557,,0,0,0.3103,
+2026-11-15,ncaab,CSUB @ NDSU,North Dakota State Bison,Cal State Bakersfield Roadrunners,73-69,0.478,,0,0,0.228,
+2026-11-15,ncaab,PRIN @ URI,Rhode Island Rams,Princeton Tigers,72-79,0.679,,1,0,0.1031,
+2026-11-15,ncaab,MARQ VS MIZ,Missouri Tigers,Marquette Golden Eagles,64-69,0.518,,1,0,0.2325,
+2026-11-15,ncaab,BAY VS TEX,Texas Longhorns,Baylor Bears,72-75,0.508,,1,0,0.2418,
+2026-11-15,ncaab,WSUL @ TNTC,Tennessee Tech Golden Eagles,Wright State-Lake Lakers,34-101,0.614,,1,0,0.1487,
+2026-11-15,ncaab,PFW @ EIU,Eastern Illinois Panthers,Purdue Fort Wayne Mastodons,86-74,0.609,,0,0,0.3706,
+2026-11-15,ncaab,CLE @ AAMU,Alabama A&M Bulldogs,Cleveland State Vikings,74-73,0.669,,0,0,0.4481,
+2026-11-15,ncaab,HPU @ SLU,Saint Louis Billikens,High Point Panthers,68-58,0.596,,0,0,0.3551,
+2026-11-15,ncaab,CREI VS IOWA,Iowa Hawkeyes,Creighton Bluejays,70-69,0.506,,0,0,0.256,
+2026-11-15,ncaab,AF @ PAC,Pacific Tigers,Air Force Falcons,69-93,0.621,,1,0,0.1434,
+2026-11-15,ncaab,NMSU VS SDSU,San Diego State Aztecs,New Mexico State Aggies,61-73,0.615,,1,0,0.1483,
+2026-11-15,ncaab,UCME @ UCSB,UC Santa Barbara Gauchos,UC Merced Bobcats,47-97,0.694,,1,0,0.0934,
+2026-11-15,ncaab,MERC @ JMU,James Madison Dukes,Mercyhurst Lakers,71-80,0.647,,1,0,0.1247,
+2026-11-15,ncaab,CHST @ LMU,Loyola Marymount Lions,Chicago State Cougars,49-86,0.606,,1,0,0.1553,
+2026-11-15,ncaab,IDST @ SEA,Seattle U Redhawks,Idaho State Bengals,70-77,0.658,,1,0,0.1168,
+2026-11-15,ncaab,DOAN @ SDAK,South Dakota Coyotes,Doane Tigers,57-81,0.537,,1,0,0.2142,
+2026-11-15,ncaab,WMU @ USI,Southern Indiana Screaming Eagles,Western Michigan Broncos,80-59,0.508,,0,0,0.2579,
+2026-11-15,ncaab,NHVN @ PSU,Penn State Nittany Lions,New Haven Chargers,52-86,0.692,,1,0,0.0949,
+2026-11-15,ncaab,CAN @ BUF,Buffalo Bulls,Canisius Golden Griffins,55-79,0.614,,1,0,0.1491,
+2026-11-15,ncaab,ECCL @ UTM,UT Martin Skyhawks,Ecclesia Royals,44-128,0.711,,1,0,0.0836,
+2026-11-15,ncaab,CP @ MTST,Montana State Bobcats,Cal Poly Mustangs,52-77,0.585,,1,0,0.1726,
+2026-11-15,ncaab,SYR @ SJU,St. John's Red Storm,Syracuse Orange,62-79,0.659,,1,0,0.116,
+2026-11-15,ncaab,UAPB @ USC,USC Trojans,Arkansas-Pine Bluff Golden Lions,46-122,0.808,,1,0,0.0368,
+2026-11-15,ncaab,TXST @ UTSA,UTSA Roadrunners,Texas State Bobcats,87-67,0.53,,0,0,0.2804,
+2026-11-15,ncaab,STLM @ BCU,Bethune-Cookman Wildcats,Stillman Tigers,64-88,0.514,,1,0,0.2359,
+2026-11-15,ncaab,CCU @ WIS,Wisconsin Badgers,Coastal Carolina Chanticleers,81-89,0.689,,1,0,0.0964,
+2026-11-15,ncaab,ALST @ SJSU,San José State Spartans,Alabama State Hornets,68-80,0.621,,1,0,0.1439,
+2026-11-15,ncaaw,EMU @ UK,Kentucky Wildcats,Eastern Michigan Eagles,47-81,0.807,,1,0,0.0373,
+2026-11-15,ncaaw,SAM @ PUR,Purdue Boilermakers,Samford Bulldogs,61-70,0.671,,1,0,0.1084,
+2026-11-15,ncaaw,WGA @ UML,UMass Lowell River Hawks,West Georgia Wolves,65-53,0.568,,0,0,0.3228,
+2026-11-15,ncaaw,USC VS SC,South Carolina Gamecocks,USC Trojans,85-89,0.508,,1,0,0.2424,
+2026-11-15,ncaaw,VAN VS IOWA,Iowa Hawkeyes,Vanderbilt Commodores,65-75,0.43,,1,0,0.3247,
+2026-11-15,ncaaw,FDU @ OSU,Ohio State Buckeyes,Fairleigh Dickinson Knights,49-93,0.651,,1,0,0.1217,
+2026-11-15,ncaaw,COLU @ MD,Maryland Terrapins,Columbia Lions,58-85,0.583,,1,0,0.1743,
+2026-11-15,ncaaw,MORG VS L-MD,Loyola Maryland Greyhounds,Morgan State Lady Bears,66-75,0.553,,1,0,0.1999,
+2026-11-15,ncaaw,OAK @ M-OH,Miami (OH) RedHawks,Oakland Golden Grizzlies,49-66,0.728,,1,0,0.0739,
+2026-11-15,ncaaw,IUIN @ MORE,Morehead State Eagles,IU Indianapolis Jaguars,75-68,0.545,,0,0,0.2975,
+2026-11-15,ncaaw,BTLR @ UTM,UT Martin Skyhawks,Butler Bulldogs,73-46,0.433,,0,0,0.1876,
+2026-11-15,ncaaw,WMU @ DAY,Dayton Flyers,Western Michigan Broncos,54-52,0.683,,0,0,0.4663,
+2026-11-15,ncaaw,SHU @ STBK,Stony Brook Seawolves,Sacred Heart Pioneers,34-44,0.761,,1,0,0.0569,
+2026-11-15,ncaaw,SIE @ NHVN,New Haven Chargers,Siena Saints,69-63,0.671,,0,0,0.4502,
+2026-11-15,ncaaw,HOF @ IONA,Iona Gaels,Hofstra Pride,54-57,0.525,,1,0,0.2252,
+2026-11-15,ncaaw,ECU @ JMU,James Madison Dukes,East Carolina Pirates,54-76,0.696,,1,0,0.0923,
+2026-11-15,ncaaw,NCSU @ HALL,Seton Hall Pirates,NC State Wolfpack,75-54,0.586,,0,0,0.3439,
+2026-11-15,ncaaw,BRWN @ ME,Maine Black Bears,Brown Bears,48-53,0.719,,1,0,0.0791,
+2026-11-15,ncaaw,OKST @ SDST,South Dakota State Jackrabbits,Oklahoma State Cowgirls,90-80,0.506,,0,0,0.2563,
+2026-11-15,ncaaw,RHIT @ USI,Southern Indiana Screaming Eagles,Rose Hulman Fightin' Engineers,35-71,0.565,,1,0,0.1889,
+2026-11-15,ncaaw,WILY @ GRAM,Grambling Lady Tigers,Wiley Wildcats,63-101,0.566,,1,0,0.1887,
+2026-11-15,ncaaw,VUL @ WCU,Western Carolina Catamounts,Virginia Lynchburg Dragons,22-93,0.73,,1,0,0.073,
+2026-11-15,ncaaw,USA @ KENN,Kennesaw State Owls,South Alabama Jaguars,77-82,0.693,,1,0,0.0943,
+2026-11-15,ncaaw,LEH @ UVM,Vermont Catamounts,Lehigh Mountain Hawks,67-73,0.607,,1,0,0.1548,
+2026-11-15,ncaaw,JOES @ DREX,Drexel Dragons,Saint Joseph's Hawks,61-56,0.511,,0,0,0.2613,
+2026-11-15,ncaaw,VAL @ TOL,Toledo Rockets,Valparaiso Beacons,53-63,0.622,,1,0,0.1425,
+2026-11-15,ncaaw,HOW @ GTWN,Georgetown Hoyas,Howard Bison,56-68,0.711,,1,0,0.0833,
+2026-11-15,ncaaw,MILW @ IU,Indiana Hoosiers,Milwaukee Panthers,47-85,0.72,,1,0,0.0783,
+2026-11-15,ncaaw,IDST @ SDAK,South Dakota Coyotes,Idaho State Bengals,71-69,0.629,,0,0,0.3956,
+2026-11-15,ncaaw,CCU @ ETSU,East Tennessee State Buccaneers,Coastal Carolina Chanticleers,52-61,0.573,,1,0,0.1824,
+2026-11-15,ncaaw,LAF @ MRST,Marist Red Foxes,Lafayette Leopards,58-67,0.553,,1,0,0.1996,
+2026-11-15,ncaaw,LIP @ UTC,Chattanooga Mocs,Lipscomb Bisons,63-74,0.635,,1,0,0.1333,
+2026-11-15,ncaaw,LAS @ VT,Virginia Tech Hokies,La Salle Explorers,62-83,0.778,,1,0,0.0495,
+2026-11-15,ncaaw,UVA @ ODU,Old Dominion Monarchs,Virginia Cavaliers,80-61,0.495,,0,0,0.2449,
+2026-11-15,ncaaw,VILL @ FAIR,Fairfield Stags,Villanova Wildcats,67-56,0.715,,0,0,0.5119,
+2026-11-15,ncaaw,FAMU @ UWF,West Florida Argonauts,Florida A&M Rattlers,66-70,0.614,,1,0,0.1487,
+2026-11-15,ncaaw,MSU @ HARV,Harvard Crimson,Michigan State Spartans,75-53,0.59,,0,0,0.3479,
+2026-11-15,ncaaw,GAST @ GT,Georgia Tech Yellow Jackets,Georgia State Panthers,54-85,0.67,,1,0,0.1088,
+2026-11-15,ncaaw,W&M @ RICH,Richmond Spiders,William & Mary Tribe,48-72,0.587,,1,0,0.1709,
+2026-11-15,ncaaw,FOR @ MAN,Manhattan Jaspers,Fordham Rams,56-68,0.461,,1,0,0.2902,
+2026-11-15,ncaaw,FLA @ FSU,Florida State Seminoles,Florida Gators,63-71,0.651,,1,0,0.1215,
+2026-11-15,ncaaw,CIN @ UMES,Maryland Eastern Shore Hawks,Cincinnati Bearcats,66-52,0.565,,0,0,0.3187,
+2026-11-15,ncaaw,MRSH @ DUKE,Duke Blue Devils,Marshall Thundering Herd,51-88,0.641,,1,0,0.129,
+2026-11-15,ncaaw,ACU @ TCU,TCU Horned Frogs,Abilene Christian Wildcats,55-88,0.625,,1,0,0.1406,
+2026-11-15,ncaaw,LT @ MISS,Ole Miss Rebels,Louisiana Tech Lady Techsters,53-69,0.579,,1,0,0.1772,
+2026-11-15,ncaaw,SEMO @ ILL,Illinois Fighting Illini,Southeast Missouri State Redhawks,49-105,0.79,,1,0,0.0443,
+2026-11-15,ncaaw,LIN @ MIZ,Missouri Tigers,Lindenwood Lions,63-79,0.738,,1,0,0.0686,
+2026-11-15,ncaaw,UTU @ BOIS,Boise State Broncos,Utah Tech Trailblazers,72-85,0.611,,1,0,0.1514,
+2026-11-15,ncaaw,SELA @ TTU,Texas Tech Lady Raiders,SE Louisiana Lady Lions,51-85,0.731,,1,0,0.0726,
+2026-11-15,ncaaw,ETAM @ BAY,Baylor Bears,East Texas A&M Lions,66-100,0.74,,1,0,0.0678,
+2026-11-15,ncaaw,FIU @ USF,South Florida Bulls,Florida International Panthers,35-69,0.661,,1,0,0.1151,
+2026-11-15,ncaaw,MER @ ALA,Alabama Crimson Tide,Mercer Bears,47-86,0.68,,1,0,0.1026,
+2026-11-15,ncaaw,CREI @ UNI,Northern Iowa Panthers,Creighton Bluejays,72-50,0.536,,0,0,0.2874,
+2026-11-15,ncaaw,ELON @ WAKE,Wake Forest Demon Deacons,Elon Phoenix,67-58,0.735,,0,0,0.5396,
+2026-11-15,ncaaw,UMBC @ TOW,Towson Tigers,UMBC Retrievers,48-58,0.458,,1,0,0.2933,
+2026-11-15,ncaaw,PRST @ SJSU,San José State Spartans,Portland State Vikings,70-72,0.653,,1,0,0.1206,
+2026-11-15,ncaaw,AMER @ DEL,Delaware Blue Hens,American University Eagles,61-83,0.59,,1,0,0.1679,
+2026-11-15,ncaaw,SF @ UCSD,UC San Diego Tritons,San Francisco Dons,79-54,0.602,,0,0,0.3622,
+2026-11-15,ncaaw,TXSO @ TLSA,Tulsa Golden Hurricane,Texas Southern Tigers,47-77,0.72,,1,0,0.0787,
+2026-11-15,ncaaw,SMC VS AAMU,Alabama A&M Bulldogs,Saint Mary's Gaels,59-55,0.48,,0,0,0.2299,
+2026-11-15,ncaaw,WLWL @ IDHO,Idaho Vandals,Walla Walla Wolves,40-109,0.689,,1,0,0.0966,
+2026-11-15,ncaaw,PAC @ CSUF,Cal State Fullerton Titans,Pacific Tigers,60-50,0.628,,0,0,0.3948,
+2026-11-15,ncaaw,GONZ @ STAN,Stanford Cardinal,Gonzaga Bulldogs,65-67,0.698,,1,0,0.0914,
+2026-11-15,ncaaw,STET @ CLEM,Clemson Tigers,Stetson Hatters,28-75,0.705,,1,0,0.0873,
+2026-11-15,ncaaw,CONN @ LOU,Louisville Cardinals,UConn Huskies,51-69,0.68,,1,0,0.1021,
+2026-11-15,ncaaw,PRIN @ UCLA,UCLA Bruins,Princeton Tigers,34-55,0.585,,1,0,0.1723,
+2026-11-15,ncaaw,UIC @ ISU,Iowa State Cyclones,UIC Flames,64-69,0.665,,1,0,0.1123,
+2026-11-15,ncaaw,NICH @ SMU,SMU Mustangs,Nicholls Colonels,65-77,0.692,,1,0,0.0946,
+2026-11-15,ncaaw,CAN @ SYR,Syracuse Orange,Canisius Golden Griffins,68-82,0.662,,1,0,0.1139,
+2026-11-15,ncaaw,LMU @ HAW,Hawai'i Rainbow Wahine,Loyola Marymount Lions,59-49,0.418,,0,0,0.1745,
+2026-11-15,ncaaw,ORST @ ARIZ,Arizona Wildcats,Oregon State Beavers,80-84,0.593,,1,0,0.1655,
+2026-11-15,nhl,EDM @ PHI,Philadelphia Flyers,Edmonton Oilers,5-2,0.433,0.428,0,1,0.1872,0.1831
+2026-11-15,nhl,FLA @ DAL,Dallas Stars,Florida Panthers,1-2,0.563,0.543,1,1,0.1908,0.2091
+2026-11-15,nhl,CGY @ ANA,Anaheim Ducks,Calgary Flames,1-6,0.556,0.583,1,1,0.197,0.1739
+2026-11-15,nhl,VAN @ VGK,Vegas Golden Knights,Vancouver Canucks,6-3,0.664,0.772,0,1,0.4404,0.5952
+2026-11-15,nhl,NSH @ SJ,San Jose Sharks,Nashville Predators,2-4,0.524,0.396,1,1,0.2264,0.3645
