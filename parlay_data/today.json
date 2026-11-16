@@ -1,46 +1,46 @@
 {
- "updated": "2026-11-16T02:49:30+00:00",
+ "updated": "2026-11-16T11:37:22+00:00",
  "parlays": [
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-17T00:10:00Z",
+   "start": "2026-11-17T00:30:00Z",
    "legs": [
-    {
-     "label": "Clemson Tigers to win",
-     "ticker": "KXNCAAMBGAME-26NOV16CITCLEM-CLEM",
-     "side": "yes",
-     "price": 0.98,
-     "fair": 0.9626,
-     "value": -0.0194,
-     "player": ""
-    },
-    {
-     "label": "Tulsa Golden Hurricane to win",
-     "ticker": "KXNCAAMBGAME-26NOV16WKUTLSA-TLSA",
-     "side": "yes",
-     "price": 0.74,
-     "fair": 0.7317,
-     "value": -0.0223,
-     "player": ""
-    },
     {
      "label": "Cleveland Cavaliers to win",
      "ticker": "KXNBAGAME-26NOV16CHICLE-CLE",
      "side": "yes",
-     "price": 0.8,
+     "price": 0.77,
      "fair": 0.7875,
-     "value": -0.0245,
+     "value": 0.0045,
+     "player": ""
+    },
+    {
+     "label": "Clemson Tigers to win",
+     "ticker": "KXNCAAMBGAME-26NOV16CITCLEM-CLEM",
+     "side": "yes",
+     "price": 0.97,
+     "fair": 0.9626,
+     "value": -0.0104,
+     "player": ""
+    },
+    {
+     "label": "Drake Bulldogs to win",
+     "ticker": "KXNCAAMBGAME-26NOV16TARLDRKE-DRKE",
+     "side": "yes",
+     "price": 0.82,
+     "fair": 0.8171,
+     "value": -0.0139,
      "player": ""
     }
    ],
-   "price": 0.6012,
-   "fair": 0.5547,
-   "pays": "-151",
-   "per_dollar": 1.66
+   "price": 0.6331,
+   "fair": 0.6194,
+   "pays": "-173",
+   "per_dollar": 1.58
   }
  ],
- "open_pretend": 0,
+ "open_pretend": 1,
  "record": {
   "parlays": 10,
   "won": 2,

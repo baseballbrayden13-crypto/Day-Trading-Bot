@@ -1,29 +1,24 @@
 {
- "updated": "2026-11-16T02:49:27+00:00",
+ "updated": "2026-11-16T11:37:15+00:00",
  "scan": {
-  "sports": [
-   "americanfootball_nfl",
-   "basketball_nba",
-   "icehockey_nhl",
-   "basketball_ncaab"
-  ],
-  "games": 32,
-  "kalshi_matched": 26,
+  "sports": [],
+  "games": 0,
+  "kalshi_matched": 0,
   "skipped": [],
-  "pinnacle": 13,
+  "note": "quiet hours",
   "credits_left": 371,
-  "spent_today": 13,
-  "allowance": 23
+  "spent_today": 0,
+  "allowance": 24
  },
  "new_finds": [],
- "open_bets": 5,
+ "open_bets": 3,
  "record": {
   "value": {
-   "bets": 25,
-   "wins": 5,
-   "staked": 250.0,
-   "pnl": -38.9,
-   "roi": -0.1556
+   "bets": 27,
+   "wins": 6,
+   "staked": 270.0,
+   "pnl": -12.9,
+   "roi": -0.0478
   },
   "kalshi": {
    "bets": 2,
@@ -40,11 +35,11 @@
    "roi": 0.0153
   },
   "all": {
-   "bets": 33,
-   "wins": 11,
-   "staked": 870.0,
-   "pnl": -49.7,
-   "roi": -0.0571
+   "bets": 35,
+   "wins": 12,
+   "staked": 890.0,
+   "pnl": -23.7,
+   "roi": -0.0266
   }
  }
 }

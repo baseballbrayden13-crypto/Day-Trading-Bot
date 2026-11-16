@@ -1,5 +1,45 @@
 {
- "open": [],
+ "open": [
+  {
+   "kind": "favorites",
+   "game": "Favorites across games",
+   "start": "2026-11-17T00:30:00Z",
+   "legs": [
+    {
+     "label": "Cleveland Cavaliers to win",
+     "ticker": "KXNBAGAME-26NOV16CHICLE-CLE",
+     "side": "yes",
+     "price": 0.77,
+     "fair": 0.7875,
+     "value": 0.0045,
+     "player": ""
+    },
+    {
+     "label": "Clemson Tigers to win",
+     "ticker": "KXNCAAMBGAME-26NOV16CITCLEM-CLEM",
+     "side": "yes",
+     "price": 0.97,
+     "fair": 0.9626,
+     "value": -0.0104,
+     "player": ""
+    },
+    {
+     "label": "Drake Bulldogs to win",
+     "ticker": "KXNCAAMBGAME-26NOV16TARLDRKE-DRKE",
+     "side": "yes",
+     "price": 0.82,
+     "fair": 0.8171,
+     "value": -0.0139,
+     "player": ""
+    }
+   ],
+   "price": 0.6331,
+   "fair": 0.6194,
+   "pays": "-173",
+   "per_dollar": 1.58,
+   "opened": "2026-11-16T11:37:22+00:00"
+  }
+ ],
  "seen": {
   "game|New York Giants vs Washington Commanders|2026-11-13": "2026-11-12T20:47:35.070786+00:00",
   "favorites|Favorites across games|2026-11-12": "2026-11-12T20:47:35.070786+00:00",
@@ -10,6 +50,7 @@
   "game|Denver Nuggets vs New Orleans Pelicans|2026-11-15": "2026-11-14T14:15:16.369494+00:00",
   "game|Cleveland Cavaliers vs Dallas Mavericks|2026-11-15": "2026-11-14T14:15:16.369494+00:00",
   "favorites|Favorites across games|2026-11-15": "2026-11-15T11:08:07.342823+00:00",
-  "game|Los Angeles Lakers vs Phoenix Suns|2026-11-15": "2026-11-15T17:48:26.279841+00:00"
+  "game|Los Angeles Lakers vs Phoenix Suns|2026-11-15": "2026-11-15T17:48:26.279841+00:00",
+  "favorites|Favorites across games|2026-11-16": "2026-11-16T11:37:22.255075+00:00"
  }
 }

@@ -40,25 +40,6 @@
   },
   {
    "kind": "value",
-   "game": "Vancouver Canucks at Vegas Golden Knights",
-   "game_id": "c4ac537963707b247ad9e4eab06c15de",
-   "sport": "icehockey_nhl",
-   "start": "2026-11-16T02:10:00Z",
-   "edge": 0.055,
-   "home": "Vegas Golden Knights",
-   "away": "Vancouver Canucks",
-   "legs": [
-    {
-     "team": "Vancouver Canucks",
-     "book": "BetRivers",
-     "odds": 4.6,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-14T23:07:45+00:00"
-  },
-  {
-   "kind": "value",
    "game": "North Dakota State Bison at Hawaii Rainbow Warriors",
    "game_id": "ce88da9d6fd67bac81c1e4a70545de29",
    "sport": "americanfootball_ncaaf",
@@ -75,25 +56,6 @@
     }
    ],
    "opened": "2026-11-14T23:07:45+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Atlanta Hawks at Milwaukee Bucks",
-   "game_id": "b931a21d34e414ee92b1a4b8e63774aa",
-   "sport": "basketball_nba",
-   "start": "2026-11-16T01:10:00Z",
-   "edge": 0.0371,
-   "home": "Milwaukee Bucks",
-   "away": "Atlanta Hawks",
-   "legs": [
-    {
-     "team": "Milwaukee Bucks",
-     "book": "Pinnacle",
-     "odds": 3.63,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-15T02:46:15+00:00"
   }
  ],
  "seen": {
@@ -137,8 +99,8 @@
   "arb|c3c58341c48b659af034931964de5495|Air Force Falcons@FanDuel|Pacific Tigers@Kalshi": "2026-11-15T02:46:15.060376+00:00"
  },
  "credits": {
-  "day": "2026-11-15",
-  "spent": 13,
+  "day": "2026-11-16",
+  "spent": 0,
   "remaining": 371
  },
  "last_priced": {
