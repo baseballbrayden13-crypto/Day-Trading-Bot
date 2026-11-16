@@ -9628,3 +9628,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-15 20:48:36,585 INFO Swept 18862 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-15 20:53:37,548 INFO Swept 18859 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-15 20:58:42,436 INFO Swept 18858 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 21:03:44,487 INFO Swept 18839 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-15 21:03:44,506 INFO PAPER KXEFLL1GAME-26NOV14STEMAT-STE NO bid at $0.2800: 1/1 filled by real trades
+2026-11-15 21:03:44,533 INFO PAPER buy 1 NO KXEFLL1GAME-26NOV14STEMAT-MAT at up to $0.7900: filled 1
+2026-11-15 21:03:44,549 INFO PAPER buy 1 NO KXEFLL1GAME-26NOV14STEMAT-TIE at up to $0.7100: filled 1
+2026-11-15 21:03:44,549 INFO Quote KXEFLL1GAME-26NOV14STEMAT filled 1: hedged, locks in $0.17
+2026-11-15 21:08:29,830 INFO Swept 18824 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 21:13:28,429 INFO Swept 18873 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 21:18:24,981 INFO Swept 18927 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-15 21:23:24,619 INFO Swept 18965 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-15 21:28:28,190 INFO Swept 18991 events: 0 taker trades, 0 new quotes, 0 resting
