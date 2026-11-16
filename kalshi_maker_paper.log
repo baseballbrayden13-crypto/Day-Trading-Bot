@@ -4787,3 +4787,10 @@ RuntimeError: Kalshi GET /events kept failing
 2026-11-16 10:57:26,733 INFO Swept 19109 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 11:02:31,254 INFO Swept 19124 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 11:03:01,260 INFO Stopped; all quotes cancelled.
+2026-11-16 16:22:08,970 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 3 quotes
+2026-11-16 16:23:39,812 INFO Swept 19431 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:28:43,584 INFO Swept 19452 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:33:46,482 INFO Swept 19454 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:38:49,231 INFO Swept 19452 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:43:52,423 INFO Swept 19431 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 16:48:59,158 INFO Swept 19436 events: 0 taker trades, 0 new quotes, 0 resting
