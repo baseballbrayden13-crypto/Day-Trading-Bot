@@ -9695,3 +9695,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 00:50:01,506 INFO Swept 18975 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 00:55:03,181 INFO Swept 18986 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 01:00:03,587 INFO Swept 18988 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 01:05:04,692 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV18CBUSJSU-CBU at $0.1400 x1 (0 already bid at that price)
+2026-11-16 01:05:04,692 INFO Resting NO bid on KXNCAAWBGAME-26NOV18CBUSJSU-CBU at $0.1400 x1 (KXNCAAWBGAME-26NOV18CBUSJSU): locks in $0.14 if it fills; hedge NO SJSU@0.6900
+2026-11-16 01:05:04,785 INFO Swept 18967 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 01:10:07,637 INFO Swept 18982 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 01:11:23,485 INFO Quote KXNCAAWBGAME-26NOV18CBUSJSU cancelled (0/1 filled)
+2026-11-16 01:15:09,240 INFO Swept 18994 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 01:15:24,256 INFO Stopped; all quotes cancelled.
