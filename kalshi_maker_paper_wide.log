@@ -10124,3 +10124,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 15:26:42,644 INFO Swept 20102 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 15:26:42,752 INFO Quote KXAFCONFTTS-26NOV17NIGMAR cancelled (0/2 filled)
 2026-11-17 15:31:44,921 INFO Swept 20095 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 15:36:46,285 INFO Swept 20081 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 15:41:48,002 INFO PAPER rest NO bid KXCANPLADVANCE-26NOV21CAVOTT-OTT at $0.5100 x3 (6 already bid at that price)
+2026-11-17 15:41:48,002 INFO Resting NO bid on KXCANPLADVANCE-26NOV21CAVOTT-OTT at $0.51 x3 (KXCANPLADVANCE-26NOV21CAVOTT): locks in $0.10 if it fills; hedge NO CAV@0.4300
+2026-11-17 15:41:48,265 INFO Swept 20044 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 15:46:47,601 INFO PAPER rest NO bid KXNM1GAME-26NOV171400SVBVDS-VDS at $0.3400 x1 (0 already bid at that price)
+2026-11-17 15:46:47,601 INFO Resting NO bid on KXNM1GAME-26NOV171400SVBVDS-VDS at $0.3400 x1 (KXNM1GAME-26NOV171400SVBVDS): locks in $0.38 if it fills; hedge NO SVB@0.2500
+2026-11-17 15:46:47,871 INFO Swept 20047 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-17 15:47:08,635 INFO Quote KXCANPLADVANCE-26NOV21CAVOTT cancelled (0/3 filled)
+2026-11-17 15:47:49,355 INFO Stopped; all quotes cancelled.
