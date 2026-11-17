@@ -186,6 +186,88 @@
     }
    ],
    "opened": "2026-11-17T14:34:48+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "New York Knicks at Toronto Raptors",
+   "game_id": "5ff20ee6933177d35e4f8c875842a0b4",
+   "sport": "basketball_nba",
+   "start": "2026-11-18T00:40:00Z",
+   "edge": 0.054,
+   "home": "Toronto Raptors",
+   "away": "New York Knicks",
+   "legs": [
+    {
+     "team": "Toronto Raptors",
+     "book": "Pinnacle",
+     "odds": 2.41,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-17T22:57:34+00:00"
+  },
+  {
+   "kind": "arb",
+   "game": "New York Knicks at Toronto Raptors",
+   "game_id": "5ff20ee6933177d35e4f8c875842a0b4",
+   "sport": "basketball_nba",
+   "start": "2026-11-18T00:40:00Z",
+   "edge": 0.0105,
+   "home": "Toronto Raptors",
+   "away": "New York Knicks",
+   "legs": [
+    {
+     "team": "New York Knicks",
+     "book": "Bovada",
+     "odds": 1.74,
+     "stake": 58.07
+    },
+    {
+     "team": "Toronto Raptors",
+     "book": "Pinnacle",
+     "odds": 2.41,
+     "stake": 41.93
+    }
+   ],
+   "opened": "2026-11-17T22:57:34+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Saint Peter's Peacocks at UMass Lowell River Hawks",
+   "game_id": "cc8bda41e5ca0051fa27efd930cd1ba2",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-17T23:00:00Z",
+   "edge": 0.0359,
+   "home": "UMass Lowell River Hawks",
+   "away": "Saint Peter's Peacocks",
+   "legs": [
+    {
+     "team": "Saint Peter's Peacocks",
+     "book": "BetRivers",
+     "odds": 2.95,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-17T22:57:34+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Illinois Fighting Illini at Duke Blue Devils",
+   "game_id": "e53746f0d6118f523272cb956b7d0133",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-18T00:00:00Z",
+   "edge": 0.0355,
+   "home": "Duke Blue Devils",
+   "away": "Illinois Fighting Illini",
+   "legs": [
+    {
+     "team": "Illinois Fighting Illini",
+     "book": "BetOnline.ag",
+     "odds": 4.5,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-17T22:57:34+00:00"
   }
  ],
  "seen": {
@@ -233,18 +315,22 @@
   "kalshi|69f0b70d1185e537c5ae4be43ebf2c9f|Detroit Pistons|Kalshi": "2026-11-17T14:34:48.056432+00:00",
   "arb|4739482816cbaec0b724e890a4609efb|Bryant Bulldogs@Bovada|Massachusetts Minutemen@BetMGM": "2026-11-17T14:34:48.056432+00:00",
   "kalshi|21b5086e60cae515922e9a8de32ffd84|Le Moyne Dolphins|Kalshi": "2026-11-17T14:34:48.056432+00:00",
-  "arb|21b5086e60cae515922e9a8de32ffd84|Evansville Purple Aces@BetRivers|Le Moyne Dolphins@Kalshi": "2026-11-17T14:34:48.056432+00:00"
+  "arb|21b5086e60cae515922e9a8de32ffd84|Evansville Purple Aces@BetRivers|Le Moyne Dolphins@Kalshi": "2026-11-17T14:34:48.056432+00:00",
+  "value|5ff20ee6933177d35e4f8c875842a0b4|Toronto Raptors|Pinnacle": "2026-11-17T22:57:34.717978+00:00",
+  "arb|5ff20ee6933177d35e4f8c875842a0b4|New York Knicks@Bovada|Toronto Raptors@Pinnacle": "2026-11-17T22:57:34.717978+00:00",
+  "value|cc8bda41e5ca0051fa27efd930cd1ba2|Saint Peter's Peacocks|BetRivers": "2026-11-17T22:57:34.717978+00:00",
+  "value|e53746f0d6118f523272cb956b7d0133|Illinois Fighting Illini|BetOnline.ag": "2026-11-17T22:57:34.717978+00:00"
  },
  "credits": {
   "day": "2026-11-17",
-  "spent": 4,
-  "remaining": 352
+  "spent": 8,
+  "remaining": 342
  },
  "last_priced": {
-  "basketball_nba": "2026-11-17T14:34:48.056432+00:00",
-  "icehockey_nhl": "2026-11-17T14:34:48.056432+00:00",
-  "americanfootball_ncaaf": "2026-11-17T14:34:48.056432+00:00",
-  "basketball_ncaab": "2026-11-17T14:34:48.056432+00:00",
+  "basketball_nba": "2026-11-17T22:57:34.717978+00:00",
+  "icehockey_nhl": "2026-11-17T22:57:34.717978+00:00",
+  "americanfootball_ncaaf": "2026-11-17T22:57:34.717978+00:00",
+  "basketball_ncaab": "2026-11-17T22:57:34.717978+00:00",
   "americanfootball_nfl": "2026-11-16T22:16:15.684347+00:00"
  }
 }

@@ -48,3 +48,7 @@ time,kind,sport,game,start,team,book,odds,fair,edge,picks
 2026-11-17T14:34:48+00:00,arb,basketball_ncaab,Bryant Bulldogs at Massachusetts Minutemen,2026-11-18T00:30:00Z,,,,,0.0067,Bryant Bulldogs @ Bovada 6.25 $16.11; Massachusetts Minutemen @ BetMGM 1.2 $83.89
 2026-11-17T14:34:48+00:00,kalshi,basketball_ncaab,Le Moyne Dolphins at Evansville Purple Aces,2026-11-18T01:00:00Z,Le Moyne Dolphins,Kalshi,4.115,0.256,0.0533,
 2026-11-17T14:34:48+00:00,arb,basketball_ncaab,Le Moyne Dolphins at Evansville Purple Aces,2026-11-18T01:00:00Z,,,,,0.0165,Evansville Purple Aces @ BetRivers 1.35 $75.3; Le Moyne Dolphins @ Kalshi 4.115 $24.7
+2026-11-17T22:57:34+00:00,value,basketball_nba,New York Knicks at Toronto Raptors,2026-11-18T00:40:00Z,Toronto Raptors,Pinnacle,2.41,0.4373,0.054,
+2026-11-17T22:57:34+00:00,arb,basketball_nba,New York Knicks at Toronto Raptors,2026-11-18T00:40:00Z,,,,,0.0105,New York Knicks @ Bovada 1.74 $58.07; Toronto Raptors @ Pinnacle 2.41 $41.93
+2026-11-17T22:57:34+00:00,value,basketball_ncaab,Saint Peter's Peacocks at UMass Lowell River Hawks,2026-11-17T23:00:00Z,Saint Peter's Peacocks,BetRivers,2.95,0.3512,0.0359,
+2026-11-17T22:57:34+00:00,value,basketball_ncaab,Illinois Fighting Illini at Duke Blue Devils,2026-11-18T00:00:00Z,Illinois Fighting Illini,BetOnline.ag,4.5,0.2301,0.0355,
