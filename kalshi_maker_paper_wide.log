@@ -10092,3 +10092,23 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 14:26:12,157 INFO Swept 20095 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-17 14:28:44,803 INFO Quote KXPHLGAME-26NOV171200BYTOSW cancelled (0/2 filled)
 2026-11-17 14:31:12,249 INFO Swept 20083 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 14:36:15,574 INFO Swept 20068 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 14:41:18,548 INFO PAPER rest NO bid KXPHLGAME-26NOV171230JASTOR-JAS at $0.6200 x2 (0 already bid at that price)
+2026-11-17 14:41:18,548 INFO Resting NO bid on KXPHLGAME-26NOV171230JASTOR-JAS at $0.6200 x2 (KXPHLGAME-26NOV171230JASTOR): locks in $0.60 if it fills; hedge NO TOR@0.0700
+2026-11-17 14:41:18,685 INFO Swept 20061 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 14:46:19,587 INFO PAPER rest NO bid KXCONCACAFNL1H-26NOV17DMACAY-TIE at $0.8200 x1 (0 already bid at that price)
+2026-11-17 14:46:19,587 INFO Resting NO bid on KXCONCACAFNL1H-26NOV17DMACAY-TIE at $0.8200 x1 (KXCONCACAFNL1H-26NOV17DMACAY): locks in $0.12 if it fills; hedge NO DMA@0.0400
+2026-11-17 14:46:19,715 INFO Swept 20087 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-17 14:51:23,926 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV19TTUUNC-TTU at $0.2600 x1 (0 already bid at that price)
+2026-11-17 14:51:23,926 INFO Resting NO bid on KXNCAAWBGAME-26NOV19TTUUNC-TTU at $0.2600 x1 (KXNCAAWBGAME-26NOV19TTUUNC): locks in $0.17 if it fills; hedge NO UNC@0.5400
+2026-11-17 14:51:24,051 INFO Swept 20091 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-17 14:51:24,173 INFO Quote KXPHLGAME-26NOV171230JASTOR cancelled (0/2 filled)
+2026-11-17 14:51:24,295 INFO Quote KXCONCACAFNL1H-26NOV17DMACAY cancelled (0/1 filled)
+2026-11-17 14:53:36,375 INFO Quote KXNCAAWBGAME-26NOV19TTUUNC cancelled (0/1 filled)
+2026-11-17 14:56:23,529 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV20ALCNTULN-ALCN at $0.7500 x3 (0 already bid at that price)
+2026-11-17 14:56:23,529 INFO Resting NO bid on KXNCAAWBGAME-26NOV20ALCNTULN-ALCN at $0.7500 x3 (KXNCAAWBGAME-26NOV20ALCNTULN): locks in $0.13 if it fills; hedge NO TULN@0.1900
+2026-11-17 14:56:23,667 INFO Swept 20048 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 14:57:45,092 INFO Quote KXNCAAWBGAME-26NOV20ALCNTULN cancelled (0/3 filled)
+2026-11-17 15:01:25,689 INFO PAPER BET daily_safest: 1 NO KXDIESELD-26NOV18-T5.965 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-17 15:01:25,872 INFO PAPER COMBO: NO KXDIESELD-26NOV18-T5.965, YES KXTRUEV-26NOV17-T1091.17, NO KXLOWTSEA-26NOV17-B36.5 at 0.9412. daily combo: all 3 safest sides must win
+2026-11-17 15:01:25,875 INFO Swept 20029 events: 0 taker trades, 0 new quotes, 0 resting
