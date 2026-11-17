@@ -9875,3 +9875,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 20:46:07,347 INFO Swept 20192 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-16 20:51:07,575 INFO Swept 20194 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-16 20:51:07,680 INFO Quote KXWT20MATCH-26NOV180000UAEPNGW cancelled (0/3 filled)
+2026-11-16 20:56:11,535 INFO PAPER rest NO bid KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.5500 x3 (0 already bid at that price)
+2026-11-16 20:56:11,535 INFO Resting NO bid on KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.5500 x3 (KXWT20MATCH-26NOV180000UAEPNGW): locks in $0.14 if it fills; hedge NO UAE@0.4100
+2026-11-16 20:56:11,654 INFO Swept 20224 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 21:01:09,771 INFO Swept 20215 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 21:01:09,853 INFO Quote KXWT20MATCH-26NOV180000UAEPNGW cancelled (0/3 filled)
+2026-11-16 21:06:11,234 INFO PAPER rest NO bid KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.5700 x2 (0 already bid at that price)
+2026-11-16 21:06:11,234 INFO Resting NO bid on KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.5700 x2 (KXWT20MATCH-26NOV180000UAEPNGW): locks in $0.11 if it fills; hedge NO UAE@0.3500
+2026-11-16 21:06:11,351 INFO Swept 20213 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 21:11:18,336 INFO Swept 20227 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 21:16:20,059 INFO Swept 20252 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 21:16:20,159 INFO Quote KXWT20MATCH-26NOV180000UAEPNGW cancelled (0/2 filled)
+2026-11-16 21:21:27,964 INFO PAPER rest NO bid KXLVBPGAME-26NOV161800LARCAR-CAR at $0.2500 x2 (0 already bid at that price)
+2026-11-16 21:21:27,964 INFO Resting NO bid on KXLVBPGAME-26NOV161800LARCAR-CAR at $0.2500 x2 (KXLVBPGAME-26NOV161800LARCAR): locks in $0.35 if it fills; hedge NO LAR@0.5500
+2026-11-16 21:21:28,001 INFO PAPER rest NO bid KXUSL1H-26NOV15NEWSRP-SRP at $0.3700 x1 (0 already bid at that price)
+2026-11-16 21:21:28,001 INFO Resting NO bid on KXUSL1H-26NOV15NEWSRP-SRP at $0.3700 x1 (KXUSL1H-26NOV15NEWSRP): locks in $0.19 if it fills; hedge NO NEW@0.7800, TIE@0.6100
+2026-11-16 21:21:28,137 INFO Swept 20260 events: 0 taker trades, 2 new quotes, 2 resting

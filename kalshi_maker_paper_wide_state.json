@@ -2841,5 +2841,48 @@
    "closed": "2026-11-17T00:55:35.751956+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLVBPGAME-26NOV161800LARCAR",
+   "series": "KXLVBPGAME",
+   "title": "Cardenales de Lara vs Leones de Caracas",
+   "ticker": "KXLVBPGAME-26NOV161800LARCAR-CAR",
+   "order_id": "paper-1148-1794882087",
+   "price": "0.2500",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6500",
+   "multiplier": "1",
+   "placed": 1794882087.9643283,
+   "hedge": [
+    {
+     "ticker": "KXLVBPGAME-26NOV161800LARCAR-LAR",
+     "limit": "0.6300"
+    }
+   ]
+  },
+  {
+   "event": "KXUSL1H-26NOV15NEWSRP",
+   "series": "KXUSL1H",
+   "title": "New Mexico United vs Sacramento Republic: First Half Winner",
+   "ticker": "KXUSL1H-26NOV15NEWSRP-SRP",
+   "order_id": "paper-1149-1794882087",
+   "price": "0.3700",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.8100",
+   "multiplier": "1",
+   "placed": 1794882088.0016677,
+   "hedge": [
+    {
+     "ticker": "KXUSL1H-26NOV15NEWSRP-NEW",
+     "limit": "0.7800"
+    },
+    {
+     "ticker": "KXUSL1H-26NOV15NEWSRP-TIE",
+     "limit": "0.6100"
+    }
+   ]
+  }
+ ]
 }
