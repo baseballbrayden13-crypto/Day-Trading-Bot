@@ -3829,3 +3829,23 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 14:26:11,948 INFO Swept 20095 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 14:31:12,957 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 14:31:14,210 INFO Swept 20083 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 14:36:14,552 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 14:36:16,071 INFO Swept 20068 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 14:41:15,753 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 14:41:17,517 INFO PAPER rest NO bid KXPHLGAME-26NOV171230JASTOR-JAS at $0.6200 x2 (0 already bid at that price)
+2026-11-17 14:41:17,517 INFO Resting NO bid on KXPHLGAME-26NOV171230JASTOR-JAS at $0.6200 x2 (KXPHLGAME-26NOV171230JASTOR): locks in $0.60 if it fills; hedge NO TOR@0.0700
+2026-11-17 14:41:17,519 INFO Swept 20061 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 14:46:21,120 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 14:46:22,362 INFO Swept 20087 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 14:51:24,572 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 14:51:26,198 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV19TTUUNC-TTU at $0.2600 x6 (0 already bid at that price)
+2026-11-17 14:51:26,199 INFO Resting NO bid on KXNCAAWBGAME-26NOV19TTUUNC-TTU at $0.2600 x6 (KXNCAAWBGAME-26NOV19TTUUNC): locks in $1.06 if it fills; hedge NO UNC@0.5400
+2026-11-17 14:51:26,200 INFO Swept 20092 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-17 14:51:26,294 INFO Quote KXPHLGAME-26NOV171230JASTOR cancelled (0/2 filled)
+2026-11-17 14:56:30,709 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 14:56:32,163 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV20ALCNTULN-ALCN at $0.7500 x4 (1 already bid at that price)
+2026-11-17 14:56:32,163 INFO Resting NO bid on KXNCAAWBGAME-26NOV20ALCNTULN-ALCN at $0.75 x4 (KXNCAAWBGAME-26NOV20ALCNTULN): locks in $0.21 if it fills; hedge NO TULN@0.1900
+2026-11-17 14:56:32,165 INFO Swept 20048 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-17 14:57:49,227 INFO Quote KXNCAAWBGAME-26NOV20ALCNTULN cancelled (0/4 filled)
+2026-11-17 15:01:31,031 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 15:01:32,359 INFO Swept 20030 events: 0 taker trades, 0 new quotes, 1 resting
