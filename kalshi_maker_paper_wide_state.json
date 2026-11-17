@@ -2874,21 +2874,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLIDOMGAME-26NOV151600GIGAGU",
-   "series": "KXLIDOMGAME",
-   "title": "Gigantes del Cibao vs Aguilas Cibaenas",
-   "ticker": "KXLIDOMGAME-26NOV151600GIGAGU-AGU",
-   "order_id": "paper-1156-1794897755",
-   "price": "0.4300",
-   "sets": 4,
+   "event": "KXINTLFRIENDLY1H-26NOV17TAHCOK",
+   "series": "KXINTLFRIENDLY1H",
+   "title": "Tahiti vs Cook Islands: First Half Winner",
+   "ticker": "KXINTLFRIENDLY1H-26NOV17TAHCOK-COK",
+   "order_id": "paper-1157-1794900482",
+   "price": "0.7100",
+   "sets": 2,
    "done": 0,
-   "reserve": "3.6900",
+   "reserve": "1.8800",
    "multiplier": "1",
-   "placed": 1794897755.7764773,
+   "placed": 1794900482.8243897,
    "hedge": [
     {
-     "ticker": "KXLIDOMGAME-26NOV151600GIGAGU-GIG",
-     "limit": "0.4700"
+     "ticker": "KXINTLFRIENDLY1H-26NOV17TAHCOK-TAH",
+     "limit": "0.2100"
     }
    ]
   }
