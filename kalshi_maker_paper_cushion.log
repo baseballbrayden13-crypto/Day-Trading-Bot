@@ -3449,3 +3449,24 @@ Traceback (most recent call last):
 requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 2026-11-16 19:21:39,563 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-16 19:21:42,937 INFO Swept 19698 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:26:39,740 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 19:26:42,745 INFO Swept 19704 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:31:47,332 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 19:31:50,557 INFO PAPER rest NO bid KXDIMAYORGAME-26NOV20BUCAME-TIE at $0.1700 x2 (0 already bid at that price)
+2026-11-16 19:31:50,557 INFO Resting NO bid on KXDIMAYORGAME-26NOV20BUCAME-TIE at $0.1700 x2 (KXDIMAYORGAME-26NOV20BUCAME): locks in $0.36 if it fills; hedge NO BUC@0.8600, AME@0.7600
+2026-11-16 19:31:50,559 INFO Swept 19720 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 19:36:47,762 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 19:36:50,763 INFO Swept 19764 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 19:36:50,957 INFO Quote KXDIMAYORGAME-26NOV20BUCAME cancelled (0/2 filled)
+2026-11-16 19:41:51,163 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 19:41:54,262 INFO Swept 19946 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:46:54,107 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 19:46:57,579 INFO PAPER rest NO bid KXDIMAYORGAME-26NOV20BUCAME-BUC at $0.2100 x2 (0 already bid at that price)
+2026-11-16 19:46:57,579 INFO Resting NO bid on KXDIMAYORGAME-26NOV20BUCAME-BUC at $0.2100 x2 (KXDIMAYORGAME-26NOV20BUCAME): locks in $0.28 if it fills; hedge NO AME@0.7200, TIE@0.9000
+2026-11-16 19:46:57,580 INFO Swept 19959 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 19:48:09,535 INFO Quote KXDIMAYORGAME-26NOV20BUCAME cancelled (0/2 filled)
+2026-11-16 19:52:00,007 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 19:52:03,380 INFO PAPER rest NO bid KXDIMAYORGAME-26NOV20BUCAME-TIE at $0.2600 x2 (0 already bid at that price)
+2026-11-16 19:52:03,380 INFO Resting NO bid on KXDIMAYORGAME-26NOV20BUCAME-TIE at $0.2600 x2 (KXDIMAYORGAME-26NOV20BUCAME): locks in $0.25 if it fills; hedge NO BUC@0.9000, AME@0.6900
+2026-11-16 19:52:03,381 INFO Swept 19954 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 19:53:20,477 INFO Quote KXDIMAYORGAME-26NOV20BUCAME cancelled (0/2 filled)
