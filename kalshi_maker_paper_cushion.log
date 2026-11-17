@@ -3598,3 +3598,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 02:22:10,124 INFO Swept 20001 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 02:27:10,939 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 02:27:13,005 INFO Swept 19995 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 02:32:14,252 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 02:32:16,491 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV18SYRHARV-SYR at $0.3200 x5 (0 already bid at that price)
+2026-11-17 02:32:16,491 INFO Resting NO bid on KXNCAAWBGAME-26NOV18SYRHARV-SYR at $0.3200 x5 (KXNCAAWBGAME-26NOV18SYRHARV): locks in $0.44 if it fills; hedge NO HARV@0.5700
+2026-11-17 02:32:16,492 INFO Swept 19993 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 02:37:21,809 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 02:37:23,874 INFO Swept 19989 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 02:42:24,522 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 02:42:26,618 INFO Swept 19986 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 02:47:27,572 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 02:47:29,661 INFO Swept 19995 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 02:52:30,645 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 02:52:32,764 INFO Swept 19995 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 02:57:35,762 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 02:57:37,865 INFO Swept 19988 events: 0 taker trades, 0 new quotes, 1 resting
