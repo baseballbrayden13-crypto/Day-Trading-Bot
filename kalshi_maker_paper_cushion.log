@@ -3518,3 +3518,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 21:22:53,607 INFO PAPER rest NO bid KXUSL1H-26NOV15NEWSRP-SRP at $0.2100 x3 (0 already bid at that price)
 2026-11-16 21:22:53,608 INFO Resting NO bid on KXUSL1H-26NOV15NEWSRP-SRP at $0.2100 x3 (KXUSL1H-26NOV15NEWSRP): locks in $1.04 if it fills; hedge NO NEW@0.8300, TIE@0.6000
 2026-11-16 21:22:53,609 INFO Swept 20260 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 21:27:56,665 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:27:59,930 INFO Swept 20283 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 21:32:54,139 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:32:57,459 INFO PAPER rest NO bid KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.3600 x5 (0 already bid at that price)
+2026-11-16 21:32:57,459 INFO Resting NO bid on KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.3600 x5 (KXWT20MATCH-26NOV180000UAEPNGW): locks in $0.48 if it fills; hedge NO UAE@0.5600
+2026-11-16 21:32:57,461 INFO Swept 20268 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-16 21:33:18,782 INFO Quote KXWT20MATCH-26NOV180000UAEPNGW cancelled (0/5 filled)
+2026-11-16 21:37:54,877 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:37:58,319 INFO Swept 20211 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 21:42:47,019 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:42:50,111 INFO Swept 20192 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 21:47:47,312 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:47:50,459 INFO Swept 20179 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 21:52:53,670 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:52:56,723 INFO Swept 20161 events: 0 taker trades, 0 new quotes, 1 resting
