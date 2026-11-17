@@ -2872,25 +2872,5 @@
    "closed": "2026-11-17T02:36:27.185491+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXCS2GAME-26NOV180400EYEGOT",
-   "series": "KXCS2GAME",
-   "title": "EYEBALLERS vs. gothboiclique",
-   "ticker": "KXCS2GAME-26NOV180400EYEGOT-GOT",
-   "order_id": "paper-1158-1794904125",
-   "price": "0.6400",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8900",
-   "multiplier": "1",
-   "placed": 1794904125.7027524,
-   "hedge": [
-    {
-     "ticker": "KXCS2GAME-26NOV180400EYEGOT-EYE",
-     "limit": "0.2200"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
