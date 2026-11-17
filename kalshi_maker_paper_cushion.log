@@ -3770,3 +3770,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 12:25:02,777 INFO Swept 19768 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 12:30:04,910 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 12:30:06,674 INFO Swept 19769 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 12:35:08,993 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 12:35:11,197 INFO Swept 19764 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 12:40:12,744 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 12:40:14,628 INFO Swept 19778 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 12:45:16,996 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 12:45:18,822 INFO Swept 19805 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 12:50:20,533 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 12:50:22,975 INFO PAPER rest NO bid KXAFCONSCORE-26NOV17SLECOD-SLE1COD1 at $0.2100 x2 (0 already bid at that price)
+2026-11-17 12:50:22,975 INFO Resting NO bid on KXAFCONSCORE-26NOV17SLECOD-SLE1COD1 at $0.2100 x2 (KXAFCONSCORE-26NOV17SLECOD): locks in $0.66 if it fills; hedge NO SLE0COD1@0.5200, SLE0COD2@0.9800
+2026-11-17 12:50:22,976 INFO Swept 19817 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 12:51:44,170 INFO Quote KXAFCONSCORE-26NOV17SLECOD cancelled (0/2 filled)
+2026-11-17 12:55:20,583 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 12:55:22,469 INFO Swept 19805 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 13:00:24,149 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 13:00:25,763 INFO Swept 19779 events: 0 taker trades, 0 new quotes, 0 resting
