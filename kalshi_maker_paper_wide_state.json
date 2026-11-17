@@ -2872,5 +2872,25 @@
    "closed": "2026-11-17T02:36:27.185491+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXCANPLADVANCE-26NOV21CAVOTT",
+   "series": "KXCANPLADVANCE",
+   "title": "Cavalry vs Ottawa",
+   "ticker": "KXCANPLADVANCE-26NOV21CAVOTT-OTT",
+   "order_id": "paper-1168-1794934205",
+   "price": "0.5600",
+   "sets": 3,
+   "done": 0,
+   "reserve": "2.7100",
+   "multiplier": "1",
+   "placed": 1794934205.31713,
+   "hedge": [
+    {
+     "ticker": "KXCANPLADVANCE-26NOV21CAVOTT-CAV",
+     "limit": "0.3200"
+    }
+   ]
+  }
+ ]
 }
