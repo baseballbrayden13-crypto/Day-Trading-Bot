@@ -3732,3 +3732,29 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 11:24:33,779 INFO Swept 19819 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 11:29:32,669 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 11:29:34,796 INFO Swept 19813 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 11:34:34,091 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 11:34:36,495 INFO PAPER rest NO bid KXAFCON1H-26NOV17LBATUN-LBA at $0.3900 x2 (0 already bid at that price)
+2026-11-17 11:34:36,495 INFO Resting NO bid on KXAFCON1H-26NOV17LBATUN-LBA at $0.3900 x2 (KXAFCON1H-26NOV17LBATUN): locks in $0.69 if it fills; hedge NO TUN@0.2900, TIE@0.9500
+2026-11-17 11:34:36,533 INFO PAPER rest NO bid KXAFCON1H-26NOV17GAMCIV-GAM at $0.7700 x2 (0 already bid at that price)
+2026-11-17 11:34:36,533 INFO Resting NO bid on KXAFCON1H-26NOV17GAMCIV-GAM at $0.7700 x2 (KXAFCON1H-26NOV17GAMCIV): locks in $0.33 if it fills; hedge NO CIV@0.1500, TIE@0.8900
+2026-11-17 11:34:36,572 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV18BUCKALBY-BUCK at $0.5800 x5 (1 already bid at that price)
+2026-11-17 11:34:36,572 INFO Resting NO bid on KXNCAAWBGAME-26NOV18BUCKALBY-BUCK at $0.58 x5 (KXNCAAWBGAME-26NOV18BUCKALBY): locks in $0.24 if it fills; hedge NO ALBY@0.3500
+2026-11-17 11:34:36,573 INFO Swept 19808 events: 0 taker trades, 3 new quotes, 3 resting
+2026-11-17 11:36:31,589 INFO Quote KXAFCON1H-26NOV17GAMCIV cancelled (0/2 filled)
+2026-11-17 11:39:40,665 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 11:39:43,183 INFO PAPER rest NO bid KXKHLGAME-26NOV171100DINNEF-DIN at $0.2800 x2 (0 already bid at that price)
+2026-11-17 11:39:43,183 INFO Resting NO bid on KXKHLGAME-26NOV171100DINNEF-DIN at $0.2800 x2 (KXKHLGAME-26NOV171100DINNEF): locks in $0.24 if it fills; hedge NO NEF@0.5800
+2026-11-17 11:39:43,185 INFO Swept 19803 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-17 11:39:43,295 INFO Quote KXAFCON1H-26NOV17LBATUN cancelled (0/2 filled)
+2026-11-17 11:44:44,027 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 11:44:46,374 INFO PAPER rest NO bid KXCANPLADVANCE-26NOV21CAVOTT-OTT at $0.5300 x3 (0 already bid at that price)
+2026-11-17 11:44:46,375 INFO Resting NO bid on KXCANPLADVANCE-26NOV21CAVOTT-OTT at $0.5300 x3 (KXCANPLADVANCE-26NOV21CAVOTT): locks in $0.38 if it fills; hedge NO CAV@0.3200
+2026-11-17 11:44:46,376 INFO Swept 19801 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-17 11:45:43,778 INFO Quote KXKHLGAME-26NOV171100DINNEF cancelled (0/2 filled)
+2026-11-17 11:46:19,767 INFO Quote KXNCAAWBGAME-26NOV18BUCKALBY cancelled (0/5 filled)
+2026-11-17 11:49:45,566 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 11:49:47,576 INFO Swept 19808 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 11:54:49,463 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 11:54:51,385 INFO Swept 19782 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 11:59:54,635 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 11:59:56,988 INFO Swept 19774 events: 0 taker trades, 0 new quotes, 1 resting
