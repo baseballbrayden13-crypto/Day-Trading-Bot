@@ -9949,3 +9949,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 02:28:02,824 INFO PAPER rest NO bid KXINTLFRIENDLY1H-26NOV17TAHCOK-COK at $0.7100 x2 (0 already bid at that price)
 2026-11-17 02:28:02,824 INFO Resting NO bid on KXINTLFRIENDLY1H-26NOV17TAHCOK-COK at $0.7100 x2 (KXINTLFRIENDLY1H-26NOV17TAHCOK): locks in $0.12 if it fills; hedge NO TAH@0.2100
 2026-11-17 02:28:02,937 INFO Swept 19994 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 02:33:07,317 INFO Swept 19987 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 02:38:12,276 INFO Swept 19989 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 02:43:18,304 INFO Swept 19985 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 02:48:19,029 INFO Swept 19995 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 02:53:18,837 INFO Swept 19994 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 02:58:24,275 INFO Swept 19988 events: 0 taker trades, 0 new quotes, 1 resting

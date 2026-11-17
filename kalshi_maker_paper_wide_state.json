@@ -2872,25 +2872,5 @@
    "closed": "2026-11-17T02:36:27.185491+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXINTLFRIENDLY1H-26NOV17TAHCOK",
-   "series": "KXINTLFRIENDLY1H",
-   "title": "Tahiti vs Cook Islands: First Half Winner",
-   "ticker": "KXINTLFRIENDLY1H-26NOV17TAHCOK-COK",
-   "order_id": "paper-1157-1794900482",
-   "price": "0.7100",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.8800",
-   "multiplier": "1",
-   "placed": 1794900482.8243897,
-   "hedge": [
-    {
-     "ticker": "KXINTLFRIENDLY1H-26NOV17TAHCOK-TAH",
-     "limit": "0.2100"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
