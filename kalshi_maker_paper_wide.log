@@ -9819,3 +9819,35 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 19:15:14,380 INFO Resting NO bid on KXNBARACE-26NOV16MEMWAS-20-MEM at $0.1300 x1 (KXNBARACE-26NOV16MEMWAS-20): locks in $0.12 if it fills; hedge NO WAS@0.7200
 2026-11-16 19:15:14,497 INFO Swept 19658 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-16 19:20:21,708 INFO Swept 19698 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 19:25:19,233 INFO Swept 19704 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 19:26:04,743 INFO PAPER KXNBARACE-26NOV16MEMWAS-20-MEM NO bid at $0.1300: 1/1 filled by real trades
+2026-11-16 19:26:04,773 INFO PAPER buy 1 NO KXNBARACE-26NOV16MEMWAS-20-WAS at up to $0.7200: not on the book
+2026-11-16 19:26:04,807 INFO PAPER buy 1 NO KXNBARACE-26NOV16MEMWAS-20-WAS at up to $0.89: not on the book
+2026-11-16 19:26:04,807 WARNING Quote KXNBARACE-26NOV16MEMWAS-20: hedge missed on KXNBARACE-26NOV16MEMWAS-20-WAS. Selling back 1 contracts on 1 legs.
+2026-11-16 19:26:04,828 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.9200: not on the book
+2026-11-16 19:26:04,828 ERROR STRAY POSITION: 1 NO contracts of KXNBARACE-26NOV16MEMWAS-20-MEM still held. Check it on Kalshi.
+2026-11-16 19:26:04,848 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:27:04,903 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:28:04,959 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:30:21,159 INFO Swept 19720 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:30:21,181 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:31:21,235 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:32:21,288 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:33:21,342 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:35:21,728 INFO Swept 19720 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:35:21,749 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:36:21,804 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:37:21,865 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:38:21,919 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:40:26,691 INFO Swept 19946 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:40:26,712 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:41:26,768 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:42:26,821 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:43:26,875 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:45:28,896 INFO Swept 19953 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:45:28,916 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:46:28,972 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:47:29,026 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:48:29,082 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
+2026-11-16 19:50:39,093 INFO Settled KXNBARACE-26NOV16MEMWAS-20 (stray): paid $0, profit $-0.14
+2026-11-16 19:50:41,116 INFO Swept 19954 events: 0 taker trades, 0 new quotes, 0 resting

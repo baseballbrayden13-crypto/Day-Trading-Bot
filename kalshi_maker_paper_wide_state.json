@@ -1,5 +1,5 @@
 {
- "realized": "-7.1200",
+ "realized": "-7.2600",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -2808,27 +2808,31 @@
     "KXEFLL1GAME-26NOV14STEMAT-TIE": "scalar"
    },
    "closed": "2026-11-16T04:09:27.999774+00:00"
-  }
- ],
- "quotes": [
+  },
   {
-   "event": "KXNBARACE-26NOV16MEMWAS-20",
+   "event": "KXNBARACE-26NOV16MEMWAS-20 (stray)",
    "series": "KXNBARACE",
    "title": "Memphis vs Washington: Race to 20 Points",
-   "ticker": "KXNBARACE-26NOV16MEMWAS-20-MEM",
-   "order_id": "paper-1141-1794874514",
-   "price": "0.1300",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8800",
-   "multiplier": "1",
-   "placed": 1794874514.3801937,
-   "hedge": [
+   "sets": 0,
+   "outlay": "0.1400",
+   "locked_profit": "0",
+   "opened": "2026-11-17T00:26:04.828212+00:00",
+   "legs": [
     {
-     "ticker": "KXNBARACE-26NOV16MEMWAS-20-WAS",
-     "limit": "0.7200"
+     "ticker": "KXNBARACE-26NOV16MEMWAS-20-MEM",
+     "side": "no",
+     "count": 1,
+     "limit": "0.1300"
     }
-   ]
+   ],
+   "retried": 1794876509.0619967,
+   "paid": "0",
+   "pnl": "-0.1400",
+   "results": {
+    "KXNBARACE-26NOV16MEMWAS-20-MEM": "yes"
+   },
+   "closed": "2026-11-17T00:50:39.093206+00:00"
   }
- ]
+ ],
+ "quotes": []
 }
