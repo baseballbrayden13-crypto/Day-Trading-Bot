@@ -1,99 +1,23 @@
 {
- "updated": "2026-11-16T22:16:18+00:00",
+ "updated": "2026-11-17T04:38:03+00:00",
  "parlays": [
-  {
-   "kind": "game",
-   "game": "Chicago Bulls vs Cleveland Cavaliers",
-   "start": "2026-11-17T00:10:00Z",
-   "legs": [
-    {
-     "label": "Cleveland Cavaliers to win",
-     "ticker": "KXNBAGAME-26NOV16CHICLE-CLE",
-     "side": "yes",
-     "price": 0.76,
-     "fair": 0.7453,
-     "value": -0.0277,
-     "player": ""
-    },
-    {
-     "label": "Tre Jones 10+ points",
-     "ticker": "KXNBAPTS-26NOV16CHICLE-CHITJONES30-10",
-     "side": "yes",
-     "price": 0.56,
-     "fair": 0.625,
-     "value": 0.047,
-     "player": "Tre Jones"
-    },
-    {
-     "label": "Josh Giddey 10+ points",
-     "ticker": "KXNBAPTS-26NOV16CHICLE-CHIJGIDDEY3-10",
-     "side": "yes",
-     "price": 0.71,
-     "fair": 0.7582,
-     "value": 0.0332,
-     "player": "Josh Giddey"
-    },
-    {
-     "label": "James Harden 4+ rebounds",
-     "ticker": "KXNBAREB-26NOV16CHICLE-CLEJHARDEN1-4",
-     "side": "yes",
-     "price": 0.66,
-     "fair": 0.7004,
-     "value": 0.0244,
-     "player": "James Harden"
-    }
-   ],
-   "price": 0.219,
-   "fair": 0.2474,
-   "pays": "+357",
-   "per_dollar": 4.57
-  },
-  {
-   "kind": "game (safer 2-leg)",
-   "game": "Chicago Bulls vs Cleveland Cavaliers",
-   "start": "2026-11-17T00:10:00Z",
-   "legs": [
-    {
-     "label": "Josh Giddey 10+ points",
-     "ticker": "KXNBAPTS-26NOV16CHICLE-CHIJGIDDEY3-10",
-     "side": "yes",
-     "price": 0.71,
-     "fair": 0.7582,
-     "value": 0.0332,
-     "player": "Josh Giddey"
-    },
-    {
-     "label": "Cleveland Cavaliers to win",
-     "ticker": "KXNBAGAME-26NOV16CHICLE-CLE",
-     "side": "yes",
-     "price": 0.76,
-     "fair": 0.7453,
-     "value": -0.0277,
-     "player": ""
-    }
-   ],
-   "price": 0.5604,
-   "fair": 0.5651,
-   "pays": "-127",
-   "per_dollar": 1.78
-  },
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-17T21:30:13Z",
+   "start": "2026-11-18T04:00:00Z",
    "legs": [
     {
-     "label": "Utah Mammoth to win",
-     "ticker": "KXNHLGAME-26NOV16VANUTA-UTA",
+     "label": "Minnesota Wild to win",
+     "ticker": "KXNHLGAME-26NOV17NSHMIN-MIN",
      "side": "yes",
-     "price": 0.75,
-     "fair": 0.7477,
-     "value": -0.0163,
+     "price": 0.65,
+     "fair": 0.6485,
+     "value": -0.0175,
      "player": ""
     },
     {
-     "label": "Clemson Tigers to win",
-     "ticker": "KXNCAAMBGAME-26NOV16CITCLEM-CLEM",
+     "label": "Gonzaga Bulldogs to win",
+     "ticker": "KXNCAAMBGAME-26NOV17MTSTGONZ-GONZ",
      "side": "yes",
      "price": 0.98,
      "fair": 0.9626,
@@ -101,25 +25,25 @@
      "player": ""
     },
     {
-     "label": "Florida Gators to win",
-     "ticker": "KXNCAAMBGAME-26NOV17FLAND-FLA",
+     "label": "Wyoming Cowboys to win",
+     "ticker": "KXNCAAMBGAME-26NOV17SHSUWYO-WYO",
      "side": "yes",
-     "price": 0.92,
-     "fair": 0.9058,
-     "value": -0.0202,
+     "price": 0.87,
+     "fair": 0.8577,
+     "value": -0.0203,
      "player": ""
     }
    ],
-   "price": 0.6947,
-   "fair": 0.6519,
-   "pays": "-228",
-   "per_dollar": 1.44
+   "price": 0.5742,
+   "fair": 0.5354,
+   "pays": "-135",
+   "per_dollar": 1.74
   }
  ],
- "open_pretend": 2,
+ "open_pretend": 0,
  "record": {
-  "parlays": 10,
+  "parlays": 12,
   "won": 2,
-  "profit": -5.02
+  "profit": -7.02
  }
 }

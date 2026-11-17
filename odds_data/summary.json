@@ -1,32 +1,32 @@
 {
- "updated": "2026-11-16T22:16:15+00:00",
+ "updated": "2026-11-17T04:37:58+00:00",
  "scan": {
   "sports": [
-   "americanfootball_nfl",
    "basketball_nba",
    "icehockey_nhl",
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 89,
-  "kalshi_matched": 76,
+  "games": 73,
+  "kalshi_matched": 64,
   "skipped": [],
-  "pinnacle": 24,
-  "credits_left": 366,
-  "spent_today": 5,
+  "pinnacle": 37,
+  "credits_left": 356,
+  "spent_today": 9,
   "allowance": 24
  },
  "new_finds": [
-  "Villanova Wildcats @ DraftKings 2.1 (fair 2.04, +3.0% expected) Villanova Wildcats at Pittsburgh Panthers (Tue 7:00PM)"
+  "Ball State Cardinals @ FanDuel 4.75 (fair 4.59, +3.4% expected) Ball State Cardinals at Ohio Bobcats (Tue 7:00PM)",
+  "Bowling Green Falcons @ BetOnline.ag 2.3 (fair 2.23, +3.3% expected) Bowling Green Falcons at William & Mary Tribe (Tue 7:00PM)"
  ],
- "open_bets": 4,
+ "open_bets": 5,
  "record": {
   "value": {
-   "bets": 27,
+   "bets": 28,
    "wins": 6,
-   "staked": 270.0,
+   "staked": 280.0,
    "pnl": -12.9,
-   "roi": -0.0478
+   "roi": -0.0461
   },
   "kalshi": {
    "bets": 2,
@@ -43,11 +43,11 @@
    "roi": 0.0153
   },
   "all": {
-   "bets": 35,
+   "bets": 36,
    "wins": 12,
-   "staked": 890.0,
+   "staked": 900.0,
    "pnl": -23.7,
-   "roi": -0.0266
+   "roi": -0.0263
   }
  }
 }

@@ -2,25 +2,6 @@
  "open": [
   {
    "kind": "value",
-   "game": "Coppin St Eagles at Bradley Braves",
-   "game_id": "d5ffc3709a43565e263ddd08e42c27c0",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-12T23:00:00Z",
-   "edge": 0.0503,
-   "home": "Bradley Braves",
-   "away": "Coppin St Eagles",
-   "legs": [
-    {
-     "team": "Coppin St Eagles",
-     "book": "BetMGM",
-     "odds": 4.75,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-12T03:52:42+00:00"
-  },
-  {
-   "kind": "value",
    "game": "SE Missouri St Redhawks at Middle Tennessee Blue Raiders",
    "game_id": "a75b53f6f3069aebd0d6889fd109a53d",
    "sport": "basketball_ncaab",
@@ -75,6 +56,44 @@
     }
    ],
    "opened": "2026-11-16T22:16:15+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Ball State Cardinals at Ohio Bobcats",
+   "game_id": "5840d479fc52ad2b83d7feb802d4dd23",
+   "sport": "americanfootball_ncaaf",
+   "start": "2026-11-18T00:00:00Z",
+   "edge": 0.0339,
+   "home": "Ohio Bobcats",
+   "away": "Ball State Cardinals",
+   "legs": [
+    {
+     "team": "Ball State Cardinals",
+     "book": "FanDuel",
+     "odds": 4.75,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-17T04:37:58+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Bowling Green Falcons at William & Mary Tribe",
+   "game_id": "ce6dd46cd4c337c1959bb8995b009209",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-18T00:00:00Z",
+   "edge": 0.0331,
+   "home": "William & Mary Tribe",
+   "away": "Bowling Green Falcons",
+   "legs": [
+    {
+     "team": "Bowling Green Falcons",
+     "book": "BetOnline.ag",
+     "odds": 2.3,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-17T04:37:58+00:00"
   }
  ],
  "seen": {
@@ -116,18 +135,20 @@
   "value|ce88da9d6fd67bac81c1e4a70545de29|Hawaii Rainbow Warriors|theScore Bet": "2026-11-14T23:07:45.784919+00:00",
   "value|b931a21d34e414ee92b1a4b8e63774aa|Milwaukee Bucks|Pinnacle": "2026-11-15T02:46:15.060376+00:00",
   "arb|c3c58341c48b659af034931964de5495|Air Force Falcons@FanDuel|Pacific Tigers@Kalshi": "2026-11-15T02:46:15.060376+00:00",
-  "value|39bce9119f7631dfd8656e4e8d388192|Villanova Wildcats|DraftKings": "2026-11-16T22:16:15.684347+00:00"
+  "value|39bce9119f7631dfd8656e4e8d388192|Villanova Wildcats|DraftKings": "2026-11-16T22:16:15.684347+00:00",
+  "value|5840d479fc52ad2b83d7feb802d4dd23|Ball State Cardinals|FanDuel": "2026-11-17T04:37:58.122065+00:00",
+  "value|ce6dd46cd4c337c1959bb8995b009209|Bowling Green Falcons|BetOnline.ag": "2026-11-17T04:37:58.122065+00:00"
  },
  "credits": {
   "day": "2026-11-16",
-  "spent": 5,
-  "remaining": 366
+  "spent": 9,
+  "remaining": 356
  },
  "last_priced": {
-  "basketball_nba": "2026-11-16T22:16:15.684347+00:00",
-  "icehockey_nhl": "2026-11-16T22:16:15.684347+00:00",
-  "americanfootball_ncaaf": "2026-11-16T22:16:15.684347+00:00",
-  "basketball_ncaab": "2026-11-16T22:16:15.684347+00:00",
+  "basketball_nba": "2026-11-17T04:37:58.122065+00:00",
+  "icehockey_nhl": "2026-11-17T04:37:58.122065+00:00",
+  "americanfootball_ncaaf": "2026-11-17T04:37:58.122065+00:00",
+  "basketball_ncaab": "2026-11-17T04:37:58.122065+00:00",
   "americanfootball_nfl": "2026-11-16T22:16:15.684347+00:00"
  }
 }
