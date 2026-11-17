@@ -10064,3 +10064,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 12:55:25,715 INFO Resting NO bid on KXENGWLEAGUECUPGAME-26NOV18LONBRH-BRH at $0.1200 x2 (KXENGWLEAGUECUPGAME-26NOV18LONBRH): locks in $0.32 if it fills; hedge NO LON@0.7800, TIE@0.9400
 2026-11-17 12:55:25,822 INFO Swept 19805 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-17 13:00:28,757 INFO Swept 19779 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 13:05:30,484 INFO Swept 19818 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 13:10:31,617 INFO Swept 19852 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 13:15:34,422 INFO Swept 19863 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 13:20:36,751 INFO Swept 19892 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 13:25:38,933 INFO Swept 19886 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 13:30:44,192 INFO Swept 19885 events: 0 taker trades, 0 new quotes, 0 resting
