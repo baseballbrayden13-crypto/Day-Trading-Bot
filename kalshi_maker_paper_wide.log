@@ -10112,3 +10112,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 15:01:25,689 INFO PAPER BET daily_safest: 1 NO KXDIESELD-26NOV18-T5.965 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
 2026-11-17 15:01:25,872 INFO PAPER COMBO: NO KXDIESELD-26NOV18-T5.965, YES KXTRUEV-26NOV17-T1091.17, NO KXLOWTSEA-26NOV17-B36.5 at 0.9412. daily combo: all 3 safest sides must win
 2026-11-17 15:01:25,875 INFO Swept 20029 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 15:06:26,703 INFO PAPER rest NO bid KXTACAPORTGAME-26NOV21SPOUDS-UDS at $0.5700 x2 (0 already bid at that price)
+2026-11-17 15:06:26,703 INFO Resting NO bid on KXTACAPORTGAME-26NOV21SPOUDS-UDS at $0.5700 x2 (KXTACAPORTGAME-26NOV21SPOUDS): locks in $0.39 if it fills; hedge NO SPO@0.2600, TIE@0.9500
+2026-11-17 15:06:26,918 INFO Swept 20059 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 15:11:31,132 INFO Swept 20112 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 15:16:35,503 INFO Swept 20120 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 15:18:47,360 INFO Quote KXTACAPORTGAME-26NOV21SPOUDS cancelled (0/2 filled)
+2026-11-17 15:21:38,647 INFO PAPER rest NO bid KXAFCONFTTS-26NOV17NIGMAR-NIG at $0.5100 x2 (0 already bid at that price)
+2026-11-17 15:21:38,647 INFO Resting NO bid on KXAFCONFTTS-26NOV17NIGMAR-NIG at $0.5100 x2 (KXAFCONFTTS-26NOV17NIGMAR): locks in $0.41 if it fills; hedge NO MAR@0.2700, NONE@0.9900
+2026-11-17 15:21:38,859 INFO Swept 20118 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 15:26:42,644 INFO Swept 20102 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 15:26:42,752 INFO Quote KXAFCONFTTS-26NOV17NIGMAR cancelled (0/2 filled)
+2026-11-17 15:31:44,921 INFO Swept 20095 events: 0 taker trades, 0 new quotes, 0 resting
