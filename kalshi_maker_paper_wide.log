@@ -10070,3 +10070,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 13:20:36,751 INFO Swept 19892 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 13:25:38,933 INFO Swept 19886 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 13:30:44,192 INFO Swept 19885 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 13:35:43,903 INFO Swept 19883 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 13:40:48,940 INFO PAPER rest NO bid KXEUCHLGAME-26NOV171300ROGSKE-SKE at $0.1800 x2 (0 already bid at that price)
+2026-11-17 13:40:48,940 INFO Resting NO bid on KXEUCHLGAME-26NOV171300ROGSKE-SKE at $0.18 x2 (KXEUCHLGAME-26NOV171300ROGSKE): locks in $0.10 if it fills; hedge NO ROG@0.7500
+2026-11-17 13:40:49,032 INFO Swept 19920 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 13:45:51,844 INFO PAPER rest NO bid KXENGWLEAGUECUPGAME-26NOV18LONBRH-BRH at $0.0800 x1 (0 already bid at that price)
+2026-11-17 13:45:51,844 INFO Resting NO bid on KXENGWLEAGUECUPGAME-26NOV18LONBRH-BRH at $0.0800 x1 (KXENGWLEAGUECUPGAME-26NOV18LONBRH): locks in $0.38 if it fills; hedge NO LON@0.7100, TIE@0.7800
+2026-11-17 13:45:51,932 INFO Swept 20036 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-17 13:50:51,617 INFO Swept 20036 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-17 13:55:56,065 INFO Swept 20048 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-17 14:00:59,995 INFO Swept 20038 events: 0 taker trades, 0 new quotes, 2 resting

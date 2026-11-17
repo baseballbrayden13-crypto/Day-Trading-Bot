@@ -2872,5 +2872,48 @@
    "closed": "2026-11-17T02:36:27.185491+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXEUCHLGAME-26NOV171300ROGSKE",
+   "series": "KXEUCHLGAME",
+   "title": "Rogle BK vs Skellefte\u00e5",
+   "ticker": "KXEUCHLGAME-26NOV171300ROGSKE-SKE",
+   "order_id": "paper-1171-1794940848",
+   "price": "0.18",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.9000",
+   "multiplier": "1",
+   "placed": 1794940848.9409657,
+   "hedge": [
+    {
+     "ticker": "KXEUCHLGAME-26NOV171300ROGSKE-ROG",
+     "limit": "0.7500"
+    }
+   ]
+  },
+  {
+   "event": "KXENGWLEAGUECUPGAME-26NOV18LONBRH",
+   "series": "KXENGWLEAGUECUPGAME",
+   "title": "London vs Brighton and Hove",
+   "ticker": "KXENGWLEAGUECUPGAME-26NOV18LONBRH-BRH",
+   "order_id": "paper-1172-1794941151",
+   "price": "0.0800",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.6200",
+   "multiplier": "1",
+   "placed": 1794941151.8448985,
+   "hedge": [
+    {
+     "ticker": "KXENGWLEAGUECUPGAME-26NOV18LONBRH-LON",
+     "limit": "0.7200"
+    },
+    {
+     "ticker": "KXENGWLEAGUECUPGAME-26NOV18LONBRH-TIE",
+     "limit": "0.7800"
+    }
+   ]
+  }
+ ]
 }
