@@ -15972,5 +15972,19 @@
   "at_price": 0,
   "filled": 1,
   "status": "executed"
+ },
+ "paper-1142-1794876937": {
+  "id": "paper-1142-1794876937",
+  "ticker": "KXLIDOMGAME-26NOV151600GIGAGU-AGU",
+  "price": "0.4700",
+  "count": 3,
+  "ahead": 2,
+  "placed": 1794876937.6673892,
+  "checked": 1794878585.2956038,
+  "expires": 1794878737,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

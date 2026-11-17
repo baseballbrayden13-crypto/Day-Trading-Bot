@@ -9851,3 +9851,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 19:48:29,082 INFO PAPER sell 1 YES KXNBARACE-26NOV16MEMWAS-20-MEM at up to $0.99: not on the book
 2026-11-16 19:50:39,093 INFO Settled KXNBARACE-26NOV16MEMWAS-20 (stray): paid $0, profit $-0.14
 2026-11-16 19:50:41,116 INFO Swept 19954 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:55:35,751 INFO Settled KXCS2MAP-26NOV150630CWSTA-2: paid $2, profit $0.12
+2026-11-16 19:55:37,675 INFO PAPER rest NO bid KXLIDOMGAME-26NOV151600GIGAGU-AGU at $0.4700 x3 (2 already bid at that price)
+2026-11-16 19:55:37,675 INFO Resting NO bid on KXLIDOMGAME-26NOV151600GIGAGU-AGU at $0.47 x3 (KXLIDOMGAME-26NOV151600GIGAGU): locks in $0.10 if it fills; hedge NO GIG@0.4700
+2026-11-16 19:55:37,808 INFO Swept 19956 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 20:00:45,878 INFO Swept 19954 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:05:45,633 INFO Swept 19956 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:10:54,821 INFO Swept 19999 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:15:57,605 INFO Swept 20066 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:20:58,813 INFO Swept 20102 events: 0 taker trades, 0 new quotes, 1 resting
