@@ -9908,3 +9908,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 21:46:31,436 INFO Swept 20170 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-16 21:46:31,533 INFO Quote KXWT20MATCH-26NOV180000UAEPNGW cancelled (0/2 filled)
 2026-11-16 21:51:31,854 INFO Swept 20166 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 21:56:35,726 INFO PAPER rest NO bid KXCS2MAP-26NOV161845MEIAXO-1-AXO at $0.3200 x2 (67 already bid at that price)
+2026-11-16 21:56:35,726 INFO Resting NO bid on KXCS2MAP-26NOV161845MEIAXO-1-AXO at $0.32 x2 (KXCS2MAP-26NOV161845MEIAXO-1): locks in $0.11 if it fills; hedge NO MEI@0.6000
+2026-11-16 21:56:35,854 INFO Swept 20137 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 22:01:33,482 INFO Swept 20118 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 22:06:41,452 INFO PAPER rest NO bid KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.4800 x2 (0 already bid at that price)
+2026-11-16 22:06:41,452 INFO Resting NO bid on KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.4800 x2 (KXWT20MATCH-26NOV180000UAEPNGW): locks in $0.31 if it fills; hedge NO UAE@0.3400
+2026-11-16 22:06:41,576 INFO Swept 20081 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-16 22:07:12,343 INFO Stopped; all quotes cancelled.
