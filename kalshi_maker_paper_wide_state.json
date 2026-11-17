@@ -2872,5 +2872,29 @@
    "closed": "2026-11-17T02:36:27.185491+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXENGWLEAGUECUPGAME-26NOV18LONBRH",
+   "series": "KXENGWLEAGUECUPGAME",
+   "title": "London vs Brighton and Hove",
+   "ticker": "KXENGWLEAGUECUPGAME-26NOV18LONBRH-BRH",
+   "order_id": "paper-1170-1794938125",
+   "price": "0.1200",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.6800",
+   "multiplier": "1",
+   "placed": 1794938125.7150974,
+   "hedge": [
+    {
+     "ticker": "KXENGWLEAGUECUPGAME-26NOV18LONBRH-LON",
+     "limit": "0.7800"
+    },
+    {
+     "ticker": "KXENGWLEAGUECUPGAME-26NOV18LONBRH-TIE",
+     "limit": "0.9400"
+    }
+   ]
+  }
+ ]
 }
