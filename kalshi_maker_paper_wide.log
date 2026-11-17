@@ -9977,3 +9977,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 04:19:04,525 INFO Swept 19990 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 04:24:05,498 INFO Swept 19986 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 04:29:06,229 INFO Swept 19997 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 04:34:06,907 INFO Swept 19993 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 04:39:06,345 INFO Swept 19989 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 04:44:10,636 INFO PAPER rest NO bid KXT20MATCH-26NOV152100ROYCOBBANTHU-ROYCOB at $0.2500 x3 (10 already bid at that price)
+2026-11-17 04:44:10,637 INFO Resting NO bid on KXT20MATCH-26NOV152100ROYCOBBANTHU-ROYCOB at $0.25 x3 (KXT20MATCH-26NOV152100ROYCOBBANTHU): locks in $0.13 if it fills; hedge NO BANTHU@0.7200
+2026-11-17 04:44:10,751 INFO Swept 19984 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 04:49:11,147 INFO Swept 20004 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 04:50:17,021 INFO Quote KXT20MATCH-26NOV152100ROYCOBBANTHU cancelled (0/3 filled)
+2026-11-17 04:54:15,087 INFO PAPER rest NO bid KXT20MATCH-26NOV152100ROYCOBBANTHU-ROYCOB at $0.2400 x1 (0 already bid at that price)
+2026-11-17 04:54:15,087 INFO Resting NO bid on KXT20MATCH-26NOV152100ROYCOBBANTHU-ROYCOB at $0.2400 x1 (KXT20MATCH-26NOV152100ROYCOBBANTHU): locks in $0.11 if it fills; hedge NO BANTHU@0.6200
+2026-11-17 04:54:15,199 INFO Swept 19997 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 04:59:14,783 INFO Swept 19994 events: 0 taker trades, 0 new quotes, 1 resting

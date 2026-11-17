@@ -2874,21 +2874,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAWBGAME-26NOV18SYRHARV",
-   "series": "KXNCAAWBGAME",
-   "title": "Syracuse vs Harvard",
-   "ticker": "KXNCAAWBGAME-26NOV18SYRHARV-SYR",
-   "order_id": "paper-1159-1794906542",
-   "price": "0.37",
-   "sets": 3,
+   "event": "KXT20MATCH-26NOV152100ROYCOBBANTHU",
+   "series": "KXT20MATCH",
+   "title": "Bangkok Thunder vs Royal Cobras",
+   "ticker": "KXT20MATCH-26NOV152100ROYCOBBANTHU-ROYCOB",
+   "order_id": "paper-1161-1794909255",
+   "price": "0.2400",
+   "sets": 1,
    "done": 0,
-   "reserve": "2.9000",
+   "reserve": "0.8900",
    "multiplier": "1",
-   "placed": 1794906542.764182,
+   "placed": 1794909255.0873017,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV18SYRHARV-HARV",
-     "limit": "0.5700"
+     "ticker": "KXT20MATCH-26NOV152100ROYCOBBANTHU-BANTHU",
+     "limit": "0.6200"
     }
    ]
   }
