@@ -10011,3 +10011,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 06:09:42,755 INFO Swept 19977 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 06:14:46,097 INFO Swept 19973 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 06:15:06,389 INFO Stopped; all quotes cancelled.
+2026-11-17 10:02:48,548 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-17 10:04:17,784 INFO Settled daily_safest KXDIESELD-26NOV17-T5.990: NO, profit $0.01
+2026-11-17 10:04:17,886 INFO Swept 19862 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 10:09:23,118 INFO PAPER rest NO bid KXSWPLGAME-26NOV18PARGLA-TIE at $0.6400 x1 (0 already bid at that price)
+2026-11-17 10:09:23,118 INFO Resting NO bid on KXSWPLGAME-26NOV18PARGLA-TIE at $0.6400 x1 (KXSWPLGAME-26NOV18PARGLA): locks in $0.13 if it fills; hedge NO PAR@0.9700, GLA@0.2200
+2026-11-17 10:09:23,226 INFO Swept 19852 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 10:14:26,482 INFO Swept 19847 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 10:19:29,541 INFO Swept 19857 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 10:24:32,218 INFO Swept 19852 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 10:29:34,227 INFO Swept 19861 events: 0 taker trades, 0 new quotes, 1 resting
