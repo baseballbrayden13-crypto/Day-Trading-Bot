@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T18:45:17-05:00",
+ "updated": "2026-11-17T00:06:44-05:00",
  "live": {
-  "bets": 66,
-  "wins": 26,
-  "losses": 40,
-  "pnl": -73.43,
-  "roi": -0.1113,
+  "bets": 72,
+  "wins": 27,
+  "losses": 45,
+  "pnl": -117.55,
+  "roi": -0.1633,
   "by_league": {
    "ncaaf": {
     "bets": 24,
@@ -13,9 +13,9 @@
     "pnl": -20.17
    },
    "nba": {
-    "bets": 19,
-    "wins": 12,
-    "pnl": 87.63
+    "bets": 24,
+    "wins": 13,
+    "pnl": 53.51
    },
    "nhl": {
     "bets": 20,
@@ -23,24 +23,24 @@
     "pnl": -110.89
    },
    "nfl": {
-    "bets": 3,
+    "bets": 4,
     "wins": 0,
-    "pnl": -30.0
+    "pnl": -40.0
    }
   },
-  "open": 7
+  "open": 10
  },
  "test": {
-  "bets": 798,
-  "wins": 309,
-  "losses": 489,
-  "pnl": -690.65,
-  "roi": -0.0865,
+  "bets": 804,
+  "wins": 310,
+  "losses": 494,
+  "pnl": -734.77,
+  "roi": -0.0914,
   "by_league": {
    "nfl": {
-    "bets": 39,
+    "bets": 40,
     "wins": 9,
-    "pnl": -187.05
+    "pnl": -197.05
    },
    "ncaaf": {
     "bets": 60,
@@ -48,9 +48,9 @@
     "pnl": -22.47
    },
    "nba": {
-    "bets": 66,
-    "wins": 33,
-    "pnl": 34.35
+    "bets": 71,
+    "wins": 34,
+    "pnl": 0.23
    },
    "wnba": {
     "bets": 47,
@@ -72,9 +72,9 @@
  },
  "accuracy": {
   "nfl": {
-   "games": 69,
-   "elo_brier": 0.2186,
-   "market_brier": 0.1933
+   "games": 70,
+   "elo_brier": 0.2239,
+   "market_brier": 0.1969
   },
   "ncaaf": {
    "games": 132,
@@ -82,9 +82,9 @@
    "market_brier": 0.2029
   },
   "nba": {
-   "games": 134,
-   "elo_brier": 0.2025,
-   "market_brier": 0.1767
+   "games": 142,
+   "elo_brier": 0.21,
+   "market_brier": 0.1836
   },
   "wnba": {
    "games": 117,
@@ -92,9 +92,9 @@
    "market_brier": 0.1836
   },
   "nhl": {
-   "games": 262,
-   "elo_brier": 0.244,
-   "market_brier": 0.2273
+   "games": 263,
+   "elo_brier": 0.2439,
+   "market_brier": 0.2275
   },
   "mlb": {
    "games": 902,
@@ -102,7 +102,7 @@
    "market_brier": 0.2381
   }
  },
- "picks_today": 7,
+ "picks_today": 9,
  "settings": {
   "leagues": [
    "nfl",
