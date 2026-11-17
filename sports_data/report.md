@@ -1,70 +1,29 @@
-# Sports stats bot: Tue Nov 17, 12:06 AM ET
+# Sports stats bot: Tue Nov 17, 05:54 PM ET
 
 Pretend money only. Ratings = Elo from ESPN results; line = sportsbook odds ESPN shows, margin removed.
 
 ## Pretend record
-- Live picks: 72 settled, 27-45, -$117.55 (-16.3% of money bet), 10 open
+- Live picks: 73 settled, 28-45, -$90.55 (-12.4% of money bet), 9 open
 - Test on past games: 804 bets, 310-494, -$734.77 (-9.1%)
 
 ## Today's picks
-- College football: M-OH @ KENT: **Kent State Golden Flashes @ 3.80 (+9 pts)** (ratings 35% home, line 25% home)
-- NBA: NY @ TOR: **Toronto Raptors @ 2.28 (+10 pts)** (ratings 52% home, line 42% home)
-- NBA: POR @ MIN: **Minnesota Timberwolves @ 1.76 (+6 pts)** (ratings 61% home, line 55% home)
-- NBA: UTAH @ LAC: **LA Clippers @ 1.46 (+8 pts)** (ratings 74% home, line 66% home)
-- NBA: CHA @ LAL: **Los Angeles Lakers @ 1.32 (+16 pts)** (ratings 89% home, line 73% home)
+- College football: M-OH @ KENT: **Kent State Golden Flashes @ 3.95 (+10 pts)** (ratings 35% home, line 24% home)
+- NBA: NY @ TOR: **Toronto Raptors @ 2.21 (+8 pts)** (ratings 52% home, line 43% home)
+- NBA: UTAH @ LAC: **LA Clippers @ 1.42 (+7 pts)** (ratings 74% home, line 68% home)
+- NBA: CHA @ LAL: **Los Angeles Lakers @ 1.35 (+18 pts)** (ratings 89% home, line 71% home)
 - NHL: BUF @ PHI: **Philadelphia Flyers @ 2.05 (+5 pts)** (ratings 52% home, line 47% home)
 - NHL: OTT @ WPG: **Winnipeg Jets @ 2.10 (+7 pts)** (ratings 53% home, line 46% home)
-- NHL: TOR @ CHI: **Chicago Blackhawks @ 2.24 (+10 pts)** (ratings 53% home, line 43% home)
+- NHL: TOR @ CHI: **Chicago Blackhawks @ 2.20 (+10 pts)** (ratings 53% home, line 44% home)
 - NHL: NSH @ MIN: **Nashville Predators @ 2.70 (+6 pts)** (ratings 59% home, line 64% home)
 
 ## Yesterday's scores
-**NFL** (1 games, 1 upsets)
-- Los Angeles Chargers at Baltimore Ravens: 23-20 (upset)
-**NBA** (8 games, 3 upsets)
-- Orlando Magic at Boston Celtics: 115-105 (upset)
-- Chicago Bulls at Cleveland Cavaliers: 115-126
-- Memphis Grizzlies at Washington Wizards: 136-120
-- Philadelphia 76ers at Brooklyn Nets: 135-123
-- Houston Rockets at Miami Heat: 110-128
-- Portland Trail Blazers at Minnesota Timberwolves: 98-106
-- Golden State Warriors at New Orleans Pelicans: 94-115 (upset)
-- Phoenix Suns at Denver Nuggets: 117-105 (upset)
-**Men's college basketball** (31 games)
-- Miami (OH) Hamilton Harriers at Morehead State Eagles: 69-104
-- Fisk Bulldogs at North Alabama Lions: 49-87
-- Ferrum Panthers at George Washington Revolutionaries: 57-94
-- Florida A&M Rattlers at UTEP Miners: 46-79
-- Iona Gaels at UMBC Retrievers: 67-75
-- Alcorn State Braves at Maryland Terrapins: 57-117
-- Prairie View A&M Panthers at Ohio State Buckeyes: 59-86
-- Eastern Kentucky Colonels at Kent State Golden Flashes: 65-49
-- Virginia Lynchburg Dragons at North Carolina Central Eagles: 71-117
-- Western Kentucky Hilltoppers at Tulsa Golden Hurricane: 64-67
-- Florida Memorial Lions at Stetson Hatters: 56-91
-- Grambling Tigers at Kentucky Wildcats: 59-88
-- and 19 more
-**Women's college basketball** (32 games, 1 upsets)
-- Lawrence Tech Blue Devils at Bowling Green Falcons: 38-120
-- UNC Wilmington Seahawks at Presbyterian Blue Hose: 61-35
-- Le Moyne Dolphins at Miami Hurricanes: 40-87
-- Ferrum Panthers at Radford Highlanders: 41-98
-- Northern New Mexico Eagles at Weber State Wildcats: 46-123
-- Penn State Lady Lions at Arizona State Sun Devils: 41-85
-- Lamar Cardinals at Texas A&M Aggies: 53-61
-- Dickinson Red Devils at Navy Midshipmen: 45-84
-- Arkansas-Pine Bluff Golden Lions at UL Monroe Warhawks: 64-62
-- North Carolina Central Eagles at VCU Rams: 36-87
-- Robert Morris Colonials at Duquesne Dukes: 68-73
-- Bryant Bulldogs at Holy Cross Crusaders: 62-49
-- and 20 more
-**NHL** (1 games)
-- Montreal Canadiens at New York Rangers: 1-3
+- No finals yesterday.
 
 ## Today's games
 **College football**: 3 games, 3 with a line
 **NBA**: 5 games, 5 with a line
-**Men's college basketball**: 68 games, 45 with a line
-**Women's college basketball**: 46 games, 0 with a line
+**Men's college basketball**: 68 games, 48 with a line
+**Women's college basketball**: 46 games, 1 with a line
 **NHL**: 11 games, 11 with a line
 
 ## Top teams by rating

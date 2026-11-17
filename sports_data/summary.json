@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T00:06:44-05:00",
+ "updated": "2026-11-17T17:54:54-05:00",
  "live": {
-  "bets": 72,
-  "wins": 27,
+  "bets": 73,
+  "wins": 28,
   "losses": 45,
-  "pnl": -117.55,
-  "roi": -0.1633,
+  "pnl": -90.55,
+  "roi": -0.124,
   "by_league": {
    "ncaaf": {
     "bets": 24,
@@ -18,9 +18,9 @@
     "pnl": 53.51
    },
    "nhl": {
-    "bets": 20,
-    "wins": 4,
-    "pnl": -110.89
+    "bets": 21,
+    "wins": 5,
+    "pnl": -83.89
    },
    "nfl": {
     "bets": 4,
@@ -28,7 +28,7 @@
     "pnl": -40.0
    }
   },
-  "open": 10
+  "open": 9
  },
  "test": {
   "bets": 804,
@@ -102,7 +102,7 @@
    "market_brier": 0.2381
   }
  },
- "picks_today": 9,
+ "picks_today": 8,
  "settings": {
   "leagues": [
    "nfl",
