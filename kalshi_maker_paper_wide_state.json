@@ -2872,25 +2872,5 @@
    "closed": "2026-11-17T02:36:27.185491+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXT20MATCH-26NOV152100ROYCOBBANTHU",
-   "series": "KXT20MATCH",
-   "title": "Bangkok Thunder vs Royal Cobras",
-   "ticker": "KXT20MATCH-26NOV152100ROYCOBBANTHU-ROYCOB",
-   "order_id": "paper-1163-1794911382",
-   "price": "0.2400",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.8900",
-   "multiplier": "1",
-   "placed": 1794911382.542141,
-   "hedge": [
-    {
-     "ticker": "KXT20MATCH-26NOV152100ROYCOBBANTHU-BANTHU",
-     "limit": "0.6200"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
