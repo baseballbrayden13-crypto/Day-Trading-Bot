@@ -2841,25 +2841,5 @@
    "closed": "2026-11-17T00:55:35.751956+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLIDOMGAME-26NOV151600GIGAGU",
-   "series": "KXLIDOMGAME",
-   "title": "Gigantes del Cibao vs Aguilas Cibaenas",
-   "ticker": "KXLIDOMGAME-26NOV151600GIGAGU-AGU",
-   "order_id": "paper-1142-1794876937",
-   "price": "0.47",
-   "sets": 3,
-   "done": 0,
-   "reserve": "2.9000",
-   "multiplier": "1",
-   "placed": 1794876937.675594,
-   "hedge": [
-    {
-     "ticker": "KXLIDOMGAME-26NOV151600GIGAGU-GIG",
-     "limit": "0.4700"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

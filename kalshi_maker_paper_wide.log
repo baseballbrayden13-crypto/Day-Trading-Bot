@@ -9860,3 +9860,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 20:10:54,821 INFO Swept 19999 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-16 20:15:57,605 INFO Swept 20066 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-16 20:20:58,813 INFO Swept 20102 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:26:00,515 INFO Swept 20186 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:31:02,691 INFO PAPER rest NO bid KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.4100 x2 (0 already bid at that price)
+2026-11-16 20:31:02,691 INFO Resting NO bid on KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.4100 x2 (KXWT20MATCH-26NOV180000UAEPNGW): locks in $0.43 if it fills; hedge NO UAE@0.3500
+2026-11-16 20:31:02,727 INFO PAPER rest NO bid KXNBARACE-26NOV16GSWNOP-30-GSW at $0.2800 x2 (0 already bid at that price)
+2026-11-16 20:31:02,728 INFO Resting NO bid on KXNBARACE-26NOV16GSWNOP-30-GSW at $0.2800 x2 (KXNBARACE-26NOV16GSWNOP-30): locks in $0.31 if it fills; hedge NO NOP@0.5400
+2026-11-16 20:31:02,861 INFO Swept 20218 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-16 20:34:17,772 INFO Quote KXWT20MATCH-26NOV180000UAEPNGW cancelled (0/2 filled)
+2026-11-16 20:36:05,464 INFO Swept 20207 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:41:06,962 INFO Swept 20186 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:42:33,175 INFO Quote KXNBARACE-26NOV16GSWNOP-30 cancelled (0/2 filled)
+2026-11-16 20:46:07,210 INFO PAPER rest NO bid KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.5400 x3 (0 already bid at that price)
+2026-11-16 20:46:07,210 INFO Resting NO bid on KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.5400 x3 (KXWT20MATCH-26NOV180000UAEPNGW): locks in $0.18 if it fills; hedge NO UAE@0.4000
+2026-11-16 20:46:07,347 INFO Swept 20192 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 20:51:07,575 INFO Swept 20194 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:51:07,680 INFO Quote KXWT20MATCH-26NOV180000UAEPNGW cancelled (0/3 filled)
