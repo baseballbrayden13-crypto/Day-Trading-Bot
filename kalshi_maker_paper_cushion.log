@@ -3470,3 +3470,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 19:52:03,380 INFO Resting NO bid on KXDIMAYORGAME-26NOV20BUCAME-TIE at $0.2600 x2 (KXDIMAYORGAME-26NOV20BUCAME): locks in $0.25 if it fills; hedge NO BUC@0.9000, AME@0.6900
 2026-11-16 19:52:03,381 INFO Swept 19954 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-16 19:53:20,477 INFO Quote KXDIMAYORGAME-26NOV20BUCAME cancelled (0/2 filled)
+2026-11-16 19:57:01,660 INFO Settled KXCS2MAP-26NOV150630CWSTA-2: paid $2, profit $-0.11
+2026-11-16 19:57:01,698 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 19:57:04,903 INFO Swept 19955 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 20:02:09,158 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:02:12,650 INFO Swept 19954 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 20:07:12,393 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:07:15,698 INFO PAPER rest NO bid KXDIMAYORGAME-26NOV20BUCAME-BUC at $0.2000 x2 (0 already bid at that price)
+2026-11-16 20:07:15,698 INFO Resting NO bid on KXDIMAYORGAME-26NOV20BUCAME-BUC at $0.20 x2 (KXDIMAYORGAME-26NOV20BUCAME): locks in $0.20 if it fills; hedge NO AME@0.7600, TIE@0.9100
+2026-11-16 20:07:15,699 INFO Swept 19961 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 20:07:41,534 INFO Quote KXDIMAYORGAME-26NOV20BUCAME cancelled (0/2 filled)
+2026-11-16 20:12:17,625 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:12:20,688 INFO Swept 20019 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 20:17:22,699 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:17:26,230 INFO Swept 20062 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 20:22:23,013 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:22:26,373 INFO Swept 20102 events: 0 taker trades, 0 new quotes, 0 resting

@@ -1,5 +1,5 @@
 {
- "realized": "-4.7700",
+ "realized": "-4.8800",
  "open": [
   {
    "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA",
@@ -22,30 +22,6 @@
      "side": "no",
      "count": 3,
      "limit": "0.28"
-    }
-   ]
-  },
-  {
-   "event": "KXCS2MAP-26NOV150630CWSTA-2",
-   "series": "KXCS2MAP",
-   "title": "CPH Wolves vs. STATE: Map 2 Winner",
-   "sets": 2,
-   "outlay": "2.11",
-   "locked_profit": "-0.11",
-   "opened": "2026-11-16T15:32:29.111646+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXCS2MAP-26NOV150630CWSTA-2-STA",
-     "side": "no",
-     "count": 2,
-     "limit": "0.63"
-    },
-    {
-     "ticker": "KXCS2MAP-26NOV150630CWSTA-2-CW",
-     "side": "no",
-     "count": 2,
-     "limit": "0.40"
     }
    ]
   }
@@ -412,6 +388,37 @@
     "KXEFLL1GAME-26NOV14STEMAT-TIE": "scalar"
    },
    "closed": "2026-11-16T04:09:25.537761+00:00"
+  },
+  {
+   "event": "KXCS2MAP-26NOV150630CWSTA-2",
+   "series": "KXCS2MAP",
+   "title": "CPH Wolves vs. STATE: Map 2 Winner",
+   "sets": 2,
+   "outlay": "2.11",
+   "locked_profit": "-0.11",
+   "opened": "2026-11-16T15:32:29.111646+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCS2MAP-26NOV150630CWSTA-2-STA",
+     "side": "no",
+     "count": 2,
+     "limit": "0.63"
+    },
+    {
+     "ticker": "KXCS2MAP-26NOV150630CWSTA-2-CW",
+     "side": "no",
+     "count": 2,
+     "limit": "0.40"
+    }
+   ],
+   "paid": "2",
+   "pnl": "-0.11",
+   "results": {
+    "KXCS2MAP-26NOV150630CWSTA-2-STA": "no",
+    "KXCS2MAP-26NOV150630CWSTA-2-CW": "yes"
+   },
+   "closed": "2026-11-17T00:57:01.660231+00:00"
   }
  ],
  "quotes": []
