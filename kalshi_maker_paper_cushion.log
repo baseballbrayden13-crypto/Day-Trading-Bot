@@ -3571,3 +3571,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 01:21:55,082 INFO Swept 20017 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 01:26:45,309 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 01:26:47,331 INFO Swept 20013 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 01:31:54,596 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 01:31:56,633 INFO Swept 20018 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 01:36:52,382 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 01:36:54,405 INFO Swept 20014 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 01:41:54,031 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 01:41:56,206 INFO PAPER rest NO bid KXLIDOMGAME-26NOV151600GIGAGU-AGU at $0.4300 x5 (0 already bid at that price)
+2026-11-17 01:41:56,206 INFO Resting NO bid on KXLIDOMGAME-26NOV151600GIGAGU-AGU at $0.4300 x5 (KXLIDOMGAME-26NOV151600GIGAGU): locks in $0.38 if it fills; hedge NO GIG@0.4700
+2026-11-17 01:41:56,207 INFO Swept 20011 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 01:46:56,621 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 01:46:58,639 INFO Swept 20007 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 01:51:59,053 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 01:52:01,061 INFO Swept 20006 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 01:57:01,604 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 01:57:03,596 INFO Swept 20014 events: 0 taker trades, 0 new quotes, 1 resting
