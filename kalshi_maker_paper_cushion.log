@@ -3636,3 +3636,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 03:52:55,360 INFO Swept 19949 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 03:57:55,376 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 03:57:57,604 INFO Swept 19949 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 04:02:57,147 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 04:02:59,277 INFO Swept 19936 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 04:07:59,848 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 04:08:01,959 INFO Swept 19949 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 04:13:01,576 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 04:13:03,704 INFO Swept 19990 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 04:18:03,133 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 04:18:05,272 INFO Swept 19990 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 04:23:04,242 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 04:23:06,552 INFO PAPER rest NO bid KXT20MATCH-26NOV150130SIAMFALROYCOB-ROYCOB at $0.2600 x6 (0 already bid at that price)
+2026-11-17 04:23:06,552 INFO Resting NO bid on KXT20MATCH-26NOV150130SIAMFALROYCOB-ROYCOB at $0.2600 x6 (KXT20MATCH-26NOV150130SIAMFALROYCOB): locks in $1.12 if it fills; hedge NO SIAMFAL@0.5600
+2026-11-17 04:23:06,553 INFO Swept 19986 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 04:28:06,638 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 04:28:08,768 INFO Swept 19997 events: 0 taker trades, 0 new quotes, 1 resting
