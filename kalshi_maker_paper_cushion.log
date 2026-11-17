@@ -3504,3 +3504,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 20:47:36,471 INFO Swept 20194 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 20:52:37,377 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-16 20:52:40,600 INFO Swept 20195 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 20:57:38,453 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:57:41,520 INFO Swept 20222 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 21:02:37,168 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:02:40,619 INFO Swept 20215 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 21:07:42,870 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:07:45,978 INFO Swept 20210 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 21:12:41,944 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:12:45,041 INFO Swept 20230 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 21:17:44,932 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:17:48,416 INFO Swept 20265 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 21:22:50,041 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 21:22:53,607 INFO PAPER rest NO bid KXUSL1H-26NOV15NEWSRP-SRP at $0.2100 x3 (0 already bid at that price)
+2026-11-16 21:22:53,608 INFO Resting NO bid on KXUSL1H-26NOV15NEWSRP-SRP at $0.2100 x3 (KXUSL1H-26NOV15NEWSRP): locks in $1.04 if it fills; hedge NO NEW@0.8300, TIE@0.6000
+2026-11-16 21:22:53,609 INFO Swept 20260 events: 0 taker trades, 1 new quotes, 1 resting

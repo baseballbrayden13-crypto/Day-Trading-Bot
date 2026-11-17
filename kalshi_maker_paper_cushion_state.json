@@ -421,5 +421,29 @@
    "closed": "2026-11-17T00:57:01.660231+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXUSL1H-26NOV15NEWSRP",
+   "series": "KXUSL1H",
+   "title": "New Mexico United vs Sacramento Republic: First Half Winner",
+   "ticker": "KXUSL1H-26NOV15NEWSRP-SRP",
+   "order_id": "paper-216-1794882173",
+   "price": "0.2100",
+   "sets": 3,
+   "done": 0,
+   "reserve": "4.9600",
+   "multiplier": "1",
+   "placed": 1794882173.608001,
+   "hedge": [
+    {
+     "ticker": "KXUSL1H-26NOV15NEWSRP-NEW",
+     "limit": "0.8300"
+    },
+    {
+     "ticker": "KXUSL1H-26NOV15NEWSRP-TIE",
+     "limit": "0.6500"
+    }
+   ]
+  }
+ ]
 }
