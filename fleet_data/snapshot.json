@@ -1,5 +1,5 @@
 {
- "taken": "2026-11-16T21:18:56+00:00",
+ "taken": "2026-11-17T08:09:12+00:00",
  "bots": {
   "1": {
    "name": "ORB day trader",
@@ -331,7 +331,7 @@
    "errors": [],
    "account": {
     "account": "8T7Y",
-    "equity": 2464.95,
+    "equity": 2456.89,
     "last_equity": 0,
     "cash": 144.93,
     "status": "ACTIVE",
@@ -344,22 +344,22 @@
      "symbol": "XLE",
      "qty": 13.0,
      "avg_entry": 69.177692,
-     "market_value": 827.58,
-     "unrealized_pl": -71.729996
+     "market_value": 823.16,
+     "unrealized_pl": -76.149996
     },
     {
      "symbol": "XLP",
      "qty": 8.0,
      "avg_entry": 90.0975,
-     "market_value": 741.44,
-     "unrealized_pl": 20.66
+     "market_value": 738.8,
+     "unrealized_pl": 18.02
     },
     {
      "symbol": "XLV",
      "qty": 4.0,
      "avg_entry": 178.635,
-     "market_value": 751.0,
-     "unrealized_pl": 36.46
+     "market_value": 750.0,
+     "unrealized_pl": 35.46
     }
    ],
    "orders": [
@@ -448,17 +448,17 @@
    "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-16T09:43:11-05:00",
-    "last_line_time": "2026-11-16T09:43:11",
+    "modified": "2026-11-16T18:47:39-05:00",
+    "last_line_time": "2026-11-16T18:47:39",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-13 16:02:26,149 INFO Already rebalanced in November; nothing to do.",
-     "2026-11-13 16:28:59,995 INFO Connected to Alpaca PAPER account",
-     "2026-11-13 16:29:00,167 INFO Already rebalanced in November; nothing to do.",
-     "2026-11-16 09:43:11,211 INFO Connected to Alpaca PAPER account",
-     "2026-11-16 09:43:11,745 INFO Already rebalanced in November; nothing to do."
+     "2026-11-16 18:04:16,750 INFO Already rebalanced in November; nothing to do.",
+     "2026-11-16 18:33:44,734 INFO Connected to Alpaca PAPER account",
+     "2026-11-16 18:33:45,153 INFO Already rebalanced in November; nothing to do.",
+     "2026-11-16 18:47:38,959 INFO Connected to Alpaca PAPER account",
+     "2026-11-16 18:47:39,258 INFO Already rebalanced in November; nothing to do."
     ],
     "live_warning": false
    },
@@ -492,17 +492,17 @@
    "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-16T01:49:29-05:00",
-    "last_line_time": "2026-11-16T01:49:29",
+    "modified": "2026-11-17T03:09:07-05:00",
+    "last_line_time": "2026-11-17T03:09:07",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-14 01:45:03,715 INFO 2026-11-13 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average, SOL/USD below its 50-day average | bot 3 value $1666.00",
-     "2026-11-15 01:50:15,956 INFO Connected to Alpaca PAPER account",
      "2026-11-15 01:50:16,184 INFO 2026-11-14 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average, SOL/USD below its 50-day average | bot 3 value $1666.00",
      "2026-11-16 01:49:29,262 INFO Connected to Alpaca PAPER account",
-     "2026-11-16 01:49:29,563 INFO 2026-11-15 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average, SOL/USD below its 50-day average | bot 3 value $1666.00"
+     "2026-11-16 01:49:29,563 INFO 2026-11-15 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average, SOL/USD below its 50-day average | bot 3 value $1666.00",
+     "2026-11-17 03:09:06,251 INFO Connected to Alpaca PAPER account",
+     "2026-11-17 03:09:07,798 INFO 2026-11-16 close: BTC/USD below its 50-day average, ETH/USD below its 50-day average, SOL/USD below its 50-day average | bot 3 value $1666.00"
     ],
     "live_warning": false
    }
@@ -515,7 +515,7 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-16T16:00:51+00:00",
+     "updated": "2026-11-17T07:56:04+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
@@ -529,7 +529,7 @@
      "stray_positions": 0,
      "closed_trades": 3,
      "trades_this_loop": 0,
-     "events_swept": 19124,
+     "events_swept": 19988,
      "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -547,8 +547,8 @@
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-16T11:03:01-05:00",
-     "last_line_time": "2026-11-16T11:03:01",
+     "modified": "2026-11-17T02:58:08-05:00",
+     "last_line_time": "2026-11-17T02:58:08",
      "errors": 2,
      "errors_24h": 0,
      "last_errors": [
@@ -556,11 +556,11 @@
       "2026-11-14 16:15:15,842 ERROR Maker loop error; carrying on"
      ],
      "tail": [
-      "2026-11-16 10:47:17,415 INFO Swept 19114 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-16 10:52:21,883 INFO Swept 19121 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-16 10:57:26,733 INFO Swept 19109 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-16 11:02:31,254 INFO Swept 19124 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-16 11:03:01,260 INFO Stopped; all quotes cancelled."
+      "2026-11-17 02:37:51,552 INFO Swept 19990 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-17 02:42:55,655 INFO Swept 19989 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-17 02:48:00,305 INFO Swept 19994 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-17 02:53:04,374 INFO Swept 19994 events: 0 taker trades, 0 new quotes, 0 resting",
+      "2026-11-17 02:58:08,926 INFO Swept 19988 events: 0 taker trades, 0 new quotes, 0 resting"
      ],
      "live_warning": false
     }
@@ -574,21 +574,21 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-16T16:00:44+00:00",
+     "updated": "2026-11-17T07:56:21+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
      "min_profit": "0.10",
-     "equity": "12.88",
-     "realized_profit": "-7.12",
-     "bet_level": "12.88",
-     "open_trades": 4,
-     "open_locked_profit": "2.76",
-     "in_play": "11.24",
+     "equity": "13.05",
+     "realized_profit": "-6.95",
+     "bet_level": "13.05",
+     "open_trades": 3,
+     "open_locked_profit": "2.64",
+     "in_play": "9.36",
      "stray_positions": 0,
-     "closed_trades": 68,
+     "closed_trades": 70,
      "trades_this_loop": 0,
-     "events_swept": 19121,
+     "events_swept": 19988,
      "found_this_loop": 0,
      "top_series": [
       "KXSTARSHIPSPACE"
@@ -596,31 +596,31 @@
      "problems": 0,
      "last_problems": []
     },
-    "realized": -7.12,
-    "open": 4,
-    "closed": 104,
+    "realized": -6.95,
+    "open": 3,
+    "closed": 107,
     "losing_trades": 10,
-    "stray_closed": 36,
-    "stray_pnl": -14.21,
+    "stray_closed": 37,
+    "stray_pnl": -14.35,
     "stray": 0,
     "quotes": 0,
     "log": {
      "exists": true,
-     "modified": "2026-11-16T11:03:02-05:00",
-     "last_line_time": "2026-11-16T11:03:02",
-     "errors": 37,
-     "errors_24h": 0,
+     "modified": "2026-11-17T02:58:24-05:00",
+     "last_line_time": "2026-11-17T02:58:24",
+     "errors": 38,
+     "errors_24h": 1,
      "last_errors": [
-      "2026-11-14 00:52:27,073 ERROR STRAY POSITION: 4 NO contracts of KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA still held. Check it on Kalshi.",
       "2026-11-14 21:10:01,248 ERROR STRAY POSITION: 1 NO contracts of KXNCAAHGAME-26NOV14UMDSCS-UMD still held. Check it on Kalshi.",
-      "2026-11-15 13:36:03,683 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi."
+      "2026-11-15 13:36:03,683 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi.",
+      "2026-11-16 19:26:04,828 ERROR STRAY POSITION: 1 NO contracts of KXNBARACE-26NOV16MEMWAS-20-MEM still held. Check it on Kalshi."
      ],
      "tail": [
-      "2026-11-16 10:47:42,907 INFO Swept 19120 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-16 10:52:44,401 INFO Swept 19122 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-16 10:57:44,734 INFO Swept 19109 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-16 11:02:42,896 INFO Swept 19121 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-16 11:03:02,916 INFO Stopped; all quotes cancelled."
+      "2026-11-17 02:38:12,276 INFO Swept 19989 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-17 02:43:18,304 INFO Swept 19985 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-17 02:48:19,029 INFO Swept 19995 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-17 02:53:18,837 INFO Swept 19994 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-17 02:58:24,275 INFO Swept 19988 events: 0 taker trades, 0 new quotes, 1 resting"
      ],
      "live_warning": false
     }
@@ -634,51 +634,51 @@
    "errors": [],
    "maker_paper": {
     "summary": {
-     "updated": "2026-11-16T16:00:42+00:00",
+     "updated": "2026-11-17T07:56:09+00:00",
      "mode": "maker-paper",
      "env": "prod-prices",
      "start_budget": "20",
      "min_profit": "0.20",
-     "equity": "15.23",
-     "realized_profit": "-4.77",
-     "bet_level": "15.23",
-     "open_trades": 2,
-     "open_locked_profit": "-0.26",
-     "in_play": "5.26",
+     "equity": "15.12",
+     "realized_profit": "-4.88",
+     "bet_level": "15.12",
+     "open_trades": 1,
+     "open_locked_profit": "-0.15",
+     "in_play": "3.15",
      "stray_positions": 0,
-     "closed_trades": 5,
+     "closed_trades": 6,
      "trades_this_loop": 0,
-     "events_swept": 19121,
+     "events_swept": 19988,
      "found_this_loop": 0,
      "top_series": [],
      "problems": 0,
      "last_problems": []
     },
-    "realized": -4.77,
-    "open": 2,
-    "closed": 13,
-    "losing_trades": 5,
+    "realized": -4.88,
+    "open": 1,
+    "closed": 14,
+    "losing_trades": 6,
     "stray_closed": 8,
     "stray_pnl": -4.06,
     "stray": 0,
-    "quotes": 0,
+    "quotes": 1,
     "log": {
      "exists": true,
-     "modified": "2026-11-16T11:03:04-05:00",
-     "last_line_time": "2026-11-16T11:03:04",
-     "errors": 9,
-     "errors_24h": 0,
+     "modified": "2026-11-17T02:57:37-05:00",
+     "last_line_time": "2026-11-17T02:57:37",
+     "errors": 10,
+     "errors_24h": 1,
      "last_errors": [
-      "2026-11-13 21:40:15,250 ERROR STRAY POSITION: 2 NO contracts of KXNCAAHGAME-26NOV13UNIUML-UML still held. Check it on Kalshi.",
       "2026-11-14 23:39:15,624 ERROR STRAY POSITION: 2 NO contracts of KXNCAAWVMATCH-26NOV142200WASHUSC-WASH still held. Check it on Kalshi.",
-      "2026-11-15 13:36:00,777 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi."
+      "2026-11-15 13:36:00,777 ERROR STRAY POSITION: 1 NO contracts of KXBBSERIEA2GAME-26NOV151200BASCRE-BAS still held. Check it on Kalshi.",
+      "2026-11-16 19:16:36,849 ERROR Maker loop error; carrying on"
      ],
      "tail": [
-      "2026-11-16 10:57:34,642 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
-      "2026-11-16 10:57:37,176 INFO Swept 19108 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-16 11:02:37,519 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
-      "2026-11-16 11:02:39,679 INFO Swept 19121 events: 0 taker trades, 0 new quotes, 0 resting",
-      "2026-11-16 11:03:04,688 INFO Stopped; all quotes cancelled."
+      "2026-11-17 02:47:29,661 INFO Swept 19995 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-17 02:52:30,645 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
+      "2026-11-17 02:52:32,764 INFO Swept 19995 events: 0 taker trades, 0 new quotes, 1 resting",
+      "2026-11-17 02:57:35,762 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME",
+      "2026-11-17 02:57:37,865 INFO Swept 19988 events: 0 taker trades, 0 new quotes, 1 resting"
      ],
      "live_warning": false
     }
@@ -741,17 +741,17 @@
    "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-16T09:43:13-05:00",
-    "last_line_time": "2026-11-16T09:43:13",
+    "modified": "2026-11-16T18:47:40-05:00",
+    "last_line_time": "2026-11-16T18:47:40",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-13 16:02:27,241 INFO Already ran today; nothing to do.",
-     "2026-11-13 16:29:00,815 INFO Connected to Alpaca PAPER account",
-     "2026-11-13 16:29:01,151 INFO Already ran today; nothing to do.",
-     "2026-11-16 09:43:12,341 INFO Connected to Alpaca PAPER account",
-     "2026-11-16 09:43:13,981 INFO 2026-11-13 close: dips none | holding nothing | bot 5 value $2462.81 (cash $2462.81)"
+     "2026-11-16 18:04:17,616 INFO Already ran today; nothing to do.",
+     "2026-11-16 18:33:45,592 INFO Connected to Alpaca PAPER account",
+     "2026-11-16 18:33:46,017 INFO Already ran today; nothing to do.",
+     "2026-11-16 18:47:39,745 INFO Connected to Alpaca PAPER account",
+     "2026-11-16 18:47:40,044 INFO Already ran today; nothing to do."
     ],
     "live_warning": false
    }
@@ -763,7 +763,7 @@
    "errors": [],
    "account": {
     "account": "KTS7",
-    "equity": 1581.72,
+    "equity": 1581.89,
     "last_equity": 0,
     "cash": 15.82,
     "status": "ACTIVE",
@@ -776,8 +776,8 @@
      "symbol": "BIL",
      "qty": 17.106183089,
      "avg_entry": 91.54,
-     "market_value": 1565.9,
-     "unrealized_pl": 0.0
+     "market_value": 1566.07,
+     "unrealized_pl": 0.171062
     }
    ],
    "orders": [
@@ -818,7 +818,7 @@
      "order_id": "9c9e0f08-9523-406f-9175-1f6b331d302b"
     },
     {
-     "time": "2026-11-16T14:43:22.031111+00:00",
+     "time": "2026-11-16T14:43:22.031112+00:00",
      "symbol": "BIL",
      "side": "buy",
      "qty": 17.106183089,
@@ -830,17 +830,17 @@
    "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-16T09:43:15-05:00",
-    "last_line_time": "2026-11-16T09:43:15",
+    "modified": "2026-11-16T18:47:40-05:00",
+    "last_line_time": "2026-11-16T18:47:40",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-13 16:29:01,977 INFO Already ran today; nothing to do.",
-     "2026-11-16 09:43:14,558 INFO Connected to Alpaca PAPER account",
-     "2026-11-16 09:43:15,625 INFO 2026-11-13 close: QQQ $680.01 vs 200-day average $681.17 -> hold BIL | holding {'QLD': 20.314130969} | bot 6 value $1627.59 (cash $16.68)",
-     "2026-11-16 09:43:15,625 INFO SELL QLD x20.3141",
-     "2026-11-16 09:43:15,625 INFO BUY BIL with the slice's cash"
+     "2026-11-16 18:04:18,458 INFO Already ran today; nothing to do.",
+     "2026-11-16 18:33:46,435 INFO Connected to Alpaca PAPER account",
+     "2026-11-16 18:33:46,848 INFO Already ran today; nothing to do.",
+     "2026-11-16 18:47:40,502 INFO Connected to Alpaca PAPER account",
+     "2026-11-16 18:47:40,795 INFO Already ran today; nothing to do."
     ],
     "live_warning": false
    }
@@ -852,7 +852,7 @@
    "errors": [],
    "account": {
     "account": "KTS7",
-    "equity": 1551.5,
+    "equity": 1557.62,
     "last_equity": 0,
     "cash": 3.41,
     "status": "ACTIVE",
@@ -865,36 +865,36 @@
      "symbol": "AMD",
      "qty": 0.572652915,
      "avg_entry": 577.802,
-     "market_value": 289.43,
-     "unrealized_pl": -41.454689
+     "market_value": 293.18,
+     "unrealized_pl": -37.704614
     },
     {
      "symbol": "CSCO",
      "qty": 3.354000796,
      "avg_entry": 100.48,
-     "market_value": 317.76,
-     "unrealized_pl": -19.251965
+     "market_value": 320.88,
+     "unrealized_pl": -16.132744
     },
     {
      "symbol": "INTC",
      "qty": 5.399214659,
      "avg_entry": 61.131113,
-     "market_value": 300.3,
-     "unrealized_pl": -29.755682
+     "market_value": 295.5,
+     "unrealized_pl": -34.560983
     },
     {
      "symbol": "MRK",
      "qty": 2.260501355,
      "avg_entry": 147.6,
-     "market_value": 326.55,
-     "unrealized_pl": -7.097974
+     "market_value": 325.85,
+     "unrealized_pl": -7.79873
     },
     {
      "symbol": "TXN",
      "qty": 1.067423316,
      "avg_entry": 311.02,
-     "market_value": 314.05,
-     "unrealized_pl": -17.943386
+     "market_value": 318.8,
+     "unrealized_pl": -13.193352
     }
    ],
    "orders": [
@@ -947,17 +947,17 @@
    "equity_history": [],
    "log": {
     "exists": true,
-    "modified": "2026-11-16T09:43:24-05:00",
-    "last_line_time": "2026-11-16T09:43:24",
+    "modified": "2026-11-16T18:47:41-05:00",
+    "last_line_time": "2026-11-16T18:47:41",
     "errors": 0,
     "errors_24h": 0,
     "last_errors": [],
     "tail": [
-     "2026-11-13 16:29:02,593 INFO Connected to Alpaca PAPER account",
-     "2026-11-13 16:29:02,763 INFO Already ran today; nothing to do.",
-     "2026-11-16 09:43:23,084 INFO Connected to Alpaca PAPER account",
-     "2026-11-16 09:43:24,595 INFO 2026-11-13 close: top 5 by 12-1 month gain ['INTC', 'AMD', 'TXN', 'MRK', 'XOM'] | holding ['AMD', 'CSCO', 'INTC', 'MRK', 'TXN'] | bot 7 value $1610.26 (cash $3.41)",
-     "2026-11-16 09:43:24,595 INFO Not a rebalance day (next: first run of next month)."
+     "2026-11-16 18:04:19,307 INFO Already ran today; nothing to do.",
+     "2026-11-16 18:33:47,277 INFO Connected to Alpaca PAPER account",
+     "2026-11-16 18:33:47,700 INFO Already ran today; nothing to do.",
+     "2026-11-16 18:47:41,254 INFO Connected to Alpaca PAPER account",
+     "2026-11-16 18:47:41,542 INFO Already ran today; nothing to do."
     ],
     "live_warning": false
    }
@@ -1536,95 +1536,47 @@
    },
    {
     "symbol": "BTC/USD",
-    "day": "2026-11-15",
-    "close": 65320.5155,
-    "chg_1d_pct": 1.88,
-    "chg_1m_pct": -18.41,
+    "day": "2026-11-16",
+    "close": 64816.5975,
+    "chg_1d_pct": -0.77,
+    "chg_1m_pct": -18.99,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 41.8
+    "vol_20d_pct": 41.2
    },
    {
     "symbol": "ETH/USD",
-    "day": "2026-11-15",
-    "close": 1834.64,
-    "chg_1d_pct": 3.77,
-    "chg_1m_pct": -21.16,
+    "day": "2026-11-16",
+    "close": 1818.914,
+    "chg_1d_pct": -0.86,
+    "chg_1m_pct": -21.6,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 57.7
+    "vol_20d_pct": 57.1
    },
    {
     "symbol": "SOL/USD",
-    "day": "2026-11-15",
-    "close": 72.7235,
-    "chg_1d_pct": 3.55,
-    "chg_1m_pct": -28.17,
+    "day": "2026-11-16",
+    "close": 71.5155,
+    "chg_1d_pct": -1.66,
+    "chg_1m_pct": -29.02,
     "above_200d": false,
     "above_50d": false,
-    "vol_20d_pct": 54.9
+    "vol_20d_pct": 54.4
    }
   ],
   "news": [
    {
-    "symbol": "SPY",
-    "time": "2026-11-16T19:36:25+00:00",
-    "headline": "BZ Analysis: The 3x Leveraged Semiconductor ETF SOXL Recorded Its Largest Weekly Outflow Ever, At $4.2B",
-    "source": "benzinga"
+    "symbol": "AAPL",
+    "time": "2026-11-16T21:31:25+00:00",
+    "headline": "Apple Releases iOS 27.3 Developer Beta Featuring 'Face Unlock' for iPhone Duo",
+    "source": "fiscal.ai"
    },
    {
-    "symbol": "SPY",
-    "time": "2026-11-16T19:35:20+00:00",
-    "headline": "Goldman Sachs Research Expects Steady Global Economic Growth In 2027 Amid Lower Energy Prices And Ongoing Investment In AI",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "SPY",
-    "time": "2026-11-16T19:34:28+00:00",
-    "headline": "BZ Analysis: Global Equity Funds Attracted +$98B In Inflows In The Week Ending November 11th, Their 2nd-largest Weekly Inflow On Record; The 4-Week Moving Average Of Inflows Is Up To ~$75B , Its Largest Reading On Record",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "SPY",
-    "time": "2026-11-16T19:32:57+00:00",
-    "headline": "BZ Analysis: The NASDAQ 100 Has Recorded An Average Daily Swing Of 2.4% So Far In November, Putting It On Track For Its Most Volatile Month Since April 2025",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "SPY",
-    "time": "2026-11-16T19:32:15+00:00",
-    "headline": "EXCLUSIVE: Ryan Detrick Isn\u2019t Worried About Midterm Election Outcome \u2013 \u2018Focus on the Fundamentals\u2019",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "QQQ",
-    "time": "2026-11-16T16:58:02+00:00",
-    "headline": "Huang Reportedly Weighs Comeback As Bessent Seeks Nvidia Shake-Up; Anthropic's Upcoming IPO; Trump To Meet Putin And Xi",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "QQQ",
-    "time": "2026-11-16T16:00:35+00:00",
-    "headline": "Defensives Lead Sectors Monday As Growth Trails",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "QQQ",
-    "time": "2026-11-16T15:26:35+00:00",
-    "headline": "Reported Earlier, U.S. Department Of Commerce's Bureau of Industry and Security Interim Final Rule To Address Remote Access To Advanced Super Intelligence Chips And Servers",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "QQQ",
-    "time": "2026-11-16T14:23:47+00:00",
-    "headline": "Biotech ETFs Brace for FDA Showdown: Two Drug Decisions Could Test Investor Sentiment",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "QQQ",
-    "time": "2026-11-16T13:25:57+00:00",
-    "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Over China Chips \u2014 BIDU, RKLB, MSTR in Focus (UPDATED)",
-    "source": "benzinga"
+    "symbol": "AAPL",
+    "time": "2026-11-16T21:31:25+00:00",
+    "headline": "Apple Appoints 26-Year Veteran Corey Fugman to Lead Payments and Wallet Unit",
+    "source": "fiscal.ai"
    },
    {
     "symbol": "AAPL",
@@ -1634,27 +1586,21 @@
    },
    {
     "symbol": "AAPL",
-    "time": "2026-11-16T18:35:06+00:00",
-    "headline": "NVDA? \u2018I Wouldn\u2019t Touch It With a Barge Pole,\u2019 Says Quantum Strategy\u2019s David Roche",
-    "source": "benzinga"
+    "time": "2026-11-16T11:31:23+00:00",
+    "headline": "KakaoBank Launches Apple Pay in South Korea",
+    "source": "fiscal.ai"
    },
    {
-    "symbol": "AAPL",
-    "time": "2026-11-16T18:13:57+00:00",
-    "headline": "NVIDIA's Leadership Vacuum Hands AMD Its Biggest Opportunity in Years: Analysts",
-    "source": "benzinga"
+    "symbol": "MSFT",
+    "time": "2026-11-17T03:01:25+00:00",
+    "headline": "Microsoft Releases Preliminary Report on Recent 365 Service Outage",
+    "source": "fiscal.ai"
    },
    {
-    "symbol": "AAPL",
-    "time": "2026-11-16T16:58:02+00:00",
-    "headline": "Huang Reportedly Weighs Comeback As Bessent Seeks Nvidia Shake-Up; Anthropic's Upcoming IPO; Trump To Meet Putin And Xi",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "AAPL",
-    "time": "2026-11-16T15:52:25+00:00",
-    "headline": "Bill Ackman Is Betting on This Battered FAANG Giant Again After a Famous $400 Million Loss",
-    "source": "benzinga"
+    "symbol": "MSFT",
+    "time": "2026-11-16T22:31:21+00:00",
+    "headline": "Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage",
+    "source": "fiscal.ai"
    },
    {
     "symbol": "MSFT",
@@ -1664,86 +1610,56 @@
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-16T18:13:57+00:00",
-    "headline": "NVIDIA's Leadership Vacuum Hands AMD Its Biggest Opportunity in Years: Analysts",
-    "source": "benzinga"
+    "time": "2026-11-16T16:01:21+00:00",
+    "headline": "Microsoft Addresses Recent 365 Service Disruption",
+    "source": "fiscal.ai"
    },
    {
     "symbol": "MSFT",
-    "time": "2026-11-16T18:06:17+00:00",
-    "headline": "EXCLUSIVE: Anthropic IPO Could Trigger a SpaceX-Style ETF Frenzy: Direxion Reveals What It\u2019s Seeing",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-16T16:58:02+00:00",
-    "headline": "Huang Reportedly Weighs Comeback As Bessent Seeks Nvidia Shake-Up; Anthropic's Upcoming IPO; Trump To Meet Putin And Xi",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "MSFT",
-    "time": "2026-11-16T17:15:09+00:00",
-    "headline": "Bernie Sanders Tells Big Tech Their $3 Trillion in AI Debt Rides on a 'High-Stakes Gamble' \u2014 If It Fails, 'Don't Come Begging to Taxpayers'",
-    "source": "benzinga"
+    "time": "2026-11-16T13:01:21+00:00",
+    "headline": "Microsoft Authorizes Parallels Desktop for Windows on Apple Silicon",
+    "source": "fiscal.ai"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-16T21:00:00+00:00",
-    "headline": "EXCLUSIVE: Musk Wants Jensen Huang Back. A Former Intelligence Officer Says Nvidia\u2019s Board May Not Be Able To Do It",
-    "source": "benzinga"
+    "time": "2026-11-16T19:01:25+00:00",
+    "headline": "NVIDIA Announces Quantum Computing Collaborations with IBM and Fermilab",
+    "source": "fiscal.ai"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-16T20:52:48+00:00",
-    "headline": "Tech Stocks Wipe Out $960 Billion as Washington Shuts China's AI Chip Back Door in 5 Countries",
-    "source": "benzinga"
+    "time": "2026-11-16T19:01:25+00:00",
+    "headline": "NVIDIA Introduces Nemotron for Science Platform",
+    "source": "fiscal.ai"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-16T20:51:29+00:00",
-    "headline": "Nvidia Stock Looks \u2018Compelling\u2019 Ahead of Q3 Earnings: Analyst Sees 60% Chance of Beat and Raise",
-    "source": "benzinga"
+    "time": "2026-11-16T19:01:25+00:00",
+    "headline": "NVIDIA Launches Vera CPU Platform for High-Performance Computing",
+    "source": "fiscal.ai"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-16T20:30:26+00:00",
-    "headline": "NVIDIA, Home Depot On Deck Tuesday As AI Demand, Consumer Spending Face Test",
-    "source": "benzinga"
+    "time": "2026-11-16T14:31:25+00:00",
+    "headline": "Corvex Signs $103 Million Agreement for NVIDIA Blackwell Capacity",
+    "source": "fiscal.ai"
    },
    {
     "symbol": "NVDA",
-    "time": "2026-11-16T20:30:09+00:00",
-    "headline": "TSMC Slumps Nearly 6% as Jensen Huang\u2019s Exit and AI Debt Fears Rattle Investors Ahead of Nvidia Earnings",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "TSLA",
-    "time": "2026-11-16T20:00:07+00:00",
-    "headline": "Sen. John Kennedy\u2019s Jaw Is \u2018Stuck on the Floor\u2019 After Jensen Huang\u2019s Nvidia Exit: If You\u2019re Going to Have an Affair, \u2018Make Sure It\u2019s Not With a Chinese Spy\u2019",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "TSLA",
-    "time": "2026-11-16T18:30:13+00:00",
-    "headline": "Elon Musk Backs Jensen Huang With One Word After Saying Hiring Him Would Be 'An Honor' and Signing a Petition to Reinstate the Ousted Nvidia CEO",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "TSLA",
-    "time": "2026-11-16T16:58:02+00:00",
-    "headline": "Huang Reportedly Weighs Comeback As Bessent Seeks Nvidia Shake-Up; Anthropic's Upcoming IPO; Trump To Meet Putin And Xi",
-    "source": "benzinga"
-   },
-   {
-    "symbol": "TSLA",
-    "time": "2026-11-16T17:00:09+00:00",
-    "headline": "Jensen Huang Boasted in 2024 He Managed 'Not to Get Fired' in 31 Years at Nvidia \u2014 An Affair Scandal Ended His Run 2 Years Later",
-    "source": "benzinga"
+    "time": "2026-11-16T11:32:01+00:00",
+    "headline": "NVIDIA Faces Potential Lawsuits Following CEO Resignation",
+    "source": "fiscal.ai"
    },
    {
     "symbol": "TSLA",
     "time": "2026-11-16T16:01:24+00:00",
     "headline": "Tesla Announces \u20ac3 Billion Expansion of German Gigafactory",
+    "source": "fiscal.ai"
+   },
+   {
+    "symbol": "TSLA",
+    "time": "2026-11-16T11:31:28+00:00",
+    "headline": "Unplugged Performance Proposes Investor-Backed Plan to Continue Cybertruck Production",
     "source": "fiscal.ai"
    }
   ],
@@ -4714,11 +4630,6 @@
     "close": 661.8
    },
    {
-    "day": "2025-09-13",
-    "symbol": "BTC/USD",
-    "close": 115991.38
-   },
-   {
     "day": "2025-09-14",
     "symbol": "BTC/USD",
     "close": 115356.875
@@ -6859,9 +6770,9 @@
     "close": 65320.5155
    },
    {
-    "day": "2025-09-13",
-    "symbol": "ETH/USD",
-    "close": 4669.4255
+    "day": "2026-11-16",
+    "symbol": "BTC/USD",
+    "close": 64816.5975
    },
    {
     "day": "2025-09-14",
@@ -9002,6 +8913,11 @@
     "day": "2026-11-15",
     "symbol": "ETH/USD",
     "close": 1834.64
+   },
+   {
+    "day": "2026-11-16",
+    "symbol": "ETH/USD",
+    "close": 1818.914
    }
   ]
  },

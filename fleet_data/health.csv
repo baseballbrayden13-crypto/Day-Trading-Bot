@@ -1,11 +1,11 @@
 checked,bot,label,name,status,headline
-2026-11-16T21:18:56+00:00,0,fleet,Whole fleet,info,Running normally.
-2026-11-16T21:18:56+00:00,1,1,ORB day trader,info,Running normally.
-2026-11-16T21:18:56+00:00,2,2,ETF rotation,info,Running normally.
-2026-11-16T21:18:56+00:00,3,3,Crypto trend,info,Running normally.
-2026-11-16T21:18:56+00:00,6,4c,Kalshi maker paper,act,"Bot 4c (maker_paper) last wrote anything Mon 11/16 11:03 ET, over 30 minutes ago."
-2026-11-16T21:18:56+00:00,7,4e,Kalshi combined,act,"Bot 4e (maker_paper) last wrote anything Mon 11/16 11:03 ET, over 30 minutes ago."
-2026-11-16T21:18:56+00:00,9,4f,Kalshi cushion test,act,"Bot 4f (maker_paper) last wrote anything Mon 11/16 11:03 ET, over 30 minutes ago."
-2026-11-16T21:18:56+00:00,8,5,Dip buyer,info,Running normally.
-2026-11-16T21:18:56+00:00,10,6,QQQ trend,info,Running normally.
-2026-11-16T21:18:56+00:00,11,7,Momentum,info,Running normally.
+2026-11-17T08:09:12+00:00,0,fleet,Whole fleet,info,Running normally.
+2026-11-17T08:09:12+00:00,1,1,ORB day trader,info,Running normally.
+2026-11-17T08:09:12+00:00,2,2,ETF rotation,info,Running normally.
+2026-11-17T08:09:12+00:00,3,3,Crypto trend,info,Running normally.
+2026-11-17T08:09:12+00:00,6,4c,Kalshi maker paper,info,Running normally.
+2026-11-17T08:09:12+00:00,7,4e,Kalshi combined,act,Bot 4e: 10 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
+2026-11-17T08:09:12+00:00,9,4f,Kalshi cushion test,act,Bot 4f: 6 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.
+2026-11-17T08:09:12+00:00,8,5,Dip buyer,info,Running normally.
+2026-11-17T08:09:12+00:00,10,6,QQQ trend,info,Running normally.
+2026-11-17T08:09:12+00:00,11,7,Momentum,info,Running normally.
