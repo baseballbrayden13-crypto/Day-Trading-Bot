@@ -9916,3 +9916,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 22:06:41,452 INFO Resting NO bid on KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.4800 x2 (KXWT20MATCH-26NOV180000UAEPNGW): locks in $0.31 if it fills; hedge NO UAE@0.3400
 2026-11-16 22:06:41,576 INFO Swept 20081 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-16 22:07:12,343 INFO Stopped; all quotes cancelled.
+2026-11-17 00:30:02,710 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-17 00:31:53,398 INFO PAPER rest NO bid KXLIDOMGAME-26NOV151600GIGAGU-AGU at $0.4300 x4 (0 already bid at that price)
+2026-11-17 00:31:53,398 INFO Resting NO bid on KXLIDOMGAME-26NOV151600GIGAGU-AGU at $0.4300 x4 (KXLIDOMGAME-26NOV151600GIGAGU): locks in $0.31 if it fills; hedge NO GIG@0.4700
+2026-11-17 00:31:53,508 INFO Swept 19943 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 00:36:53,609 INFO Swept 19954 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 00:41:55,821 INFO Swept 19992 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 00:46:58,190 INFO Swept 20020 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 00:52:01,356 INFO Swept 20027 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 00:57:04,095 INFO Swept 20035 events: 0 taker trades, 0 new quotes, 1 resting

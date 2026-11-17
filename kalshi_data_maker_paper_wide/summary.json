@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:05:01+00:00",
+ "updated": "2026-11-17T05:55:13+00:00",
  "mode": "maker-paper",
  "env": "prod-prices",
  "start_budget": "20",
@@ -13,14 +13,11 @@
  "stray_positions": 0,
  "closed_trades": 70,
  "trades_this_loop": 0,
- "events_swept": 20081,
+ "events_swept": 20035,
  "found_this_loop": 0,
  "top_series": [
   "KXSTARSHIPSPACE"
  ],
- "problems": 2,
- "last_problems": [
-  "2026-11-17 00:26 Quote KXNBARACE-26NOV16MEMWAS-20: hedge missed on KXNBARACE-26NOV16MEMWAS-20-WAS. Selling back 1 contracts on 1 legs.",
-  "2026-11-17 00:26 STRAY POSITION: 1 NO contracts of KXNBARACE-26NOV16MEMWAS-20-MEM still held. Check it on Kalshi."
- ]
+ "problems": 0,
+ "last_problems": []
 }
