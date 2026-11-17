@@ -3486,3 +3486,21 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 20:17:26,230 INFO Swept 20062 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 20:22:23,013 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-16 20:22:26,373 INFO Swept 20102 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 20:27:20,041 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:27:23,282 INFO Swept 20196 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 20:32:21,023 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:32:24,642 INFO PAPER rest NO bid KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.4100 x4 (0 already bid at that price)
+2026-11-16 20:32:24,642 INFO Resting NO bid on KXWT20MATCH-26NOV180000UAEPNGW-PNGW at $0.4100 x4 (KXWT20MATCH-26NOV180000UAEPNGW): locks in $0.44 if it fills; hedge NO UAE@0.5600
+2026-11-16 20:32:24,708 INFO PAPER rest NO bid KXNBARACE-26NOV16GSWNOP-30-GSW at $0.2800 x2 (0 already bid at that price)
+2026-11-16 20:32:24,708 INFO Resting NO bid on KXNBARACE-26NOV16GSWNOP-30-GSW at $0.2800 x2 (KXNBARACE-26NOV16GSWNOP-30): locks in $0.31 if it fills; hedge NO NOP@0.5400
+2026-11-16 20:32:24,710 INFO Swept 20218 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-16 20:34:15,271 INFO Quote KXWT20MATCH-26NOV180000UAEPNGW cancelled (0/4 filled)
+2026-11-16 20:37:23,382 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:37:26,617 INFO Swept 20205 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:42:33,383 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:42:36,579 INFO Swept 20186 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-16 20:42:36,776 INFO Quote KXNBARACE-26NOV16GSWNOP-30 cancelled (0/2 filled)
+2026-11-16 20:47:33,033 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:47:36,471 INFO Swept 20194 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 20:52:37,377 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-16 20:52:40,600 INFO Swept 20195 events: 0 taker trades, 0 new quotes, 0 resting
