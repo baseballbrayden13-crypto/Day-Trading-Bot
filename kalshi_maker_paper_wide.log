@@ -9933,3 +9933,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 01:17:15,903 INFO Swept 20020 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 01:22:19,162 INFO Swept 20012 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 01:27:22,691 INFO Swept 20012 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 01:32:26,589 INFO Swept 20018 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 01:37:30,476 INFO Swept 20011 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 01:42:35,776 INFO PAPER rest NO bid KXLIDOMGAME-26NOV151600GIGAGU-AGU at $0.4300 x4 (0 already bid at that price)
+2026-11-17 01:42:35,776 INFO Resting NO bid on KXLIDOMGAME-26NOV151600GIGAGU-AGU at $0.4300 x4 (KXLIDOMGAME-26NOV151600GIGAGU): locks in $0.31 if it fills; hedge NO GIG@0.4700
+2026-11-17 01:42:35,887 INFO Swept 20011 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 01:47:34,297 INFO Swept 20008 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 01:52:37,139 INFO Swept 20006 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 01:57:39,976 INFO Swept 20014 events: 0 taker trades, 0 new quotes, 1 resting
