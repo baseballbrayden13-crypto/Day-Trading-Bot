@@ -421,29 +421,5 @@
    "closed": "2026-11-17T00:57:01.660231+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXSWPLGAME-26NOV18PARGLA",
-   "series": "KXSWPLGAME",
-   "title": "Partick Thistle vs Glasgow City",
-   "ticker": "KXSWPLGAME-26NOV18PARGLA-TIE",
-   "order_id": "paper-224-1794928140",
-   "price": "0.6400",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.7100",
-   "multiplier": "1",
-   "placed": 1794928140.1554456,
-   "hedge": [
-    {
-     "ticker": "KXSWPLGAME-26NOV18PARGLA-PAR",
-     "limit": "0.9700"
-    },
-    {
-     "ticker": "KXSWPLGAME-26NOV18PARGLA-GLA",
-     "limit": "0.2200"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
