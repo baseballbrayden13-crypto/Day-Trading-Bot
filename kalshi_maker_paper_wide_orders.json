@@ -15958,5 +15958,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-1141-1794874514": {
+  "id": "paper-1141-1794874514",
+  "ticker": "KXNBARACE-26NOV16MEMWAS-20-MEM",
+  "price": "0.1300",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1794874514.3711696,
+  "checked": 1794874968.3548326,
+  "expires": 1794876314,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

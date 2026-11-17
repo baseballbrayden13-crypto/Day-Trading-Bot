@@ -9811,3 +9811,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-16 18:39:59,460 INFO Swept 19599 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 18:44:57,785 INFO Swept 19608 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-16 18:50:02,757 INFO Swept 19614 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 18:55:05,998 INFO Swept 19610 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:00:09,142 INFO Swept 19612 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:05:11,907 INFO Swept 19601 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:10:18,223 INFO Swept 19644 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-16 19:15:14,380 INFO PAPER rest NO bid KXNBARACE-26NOV16MEMWAS-20-MEM at $0.1300 x1 (0 already bid at that price)
+2026-11-16 19:15:14,380 INFO Resting NO bid on KXNBARACE-26NOV16MEMWAS-20-MEM at $0.1300 x1 (KXNBARACE-26NOV16MEMWAS-20): locks in $0.12 if it fills; hedge NO WAS@0.7200
+2026-11-16 19:15:14,497 INFO Swept 19658 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-16 19:20:21,708 INFO Swept 19698 events: 0 taker trades, 0 new quotes, 1 resting

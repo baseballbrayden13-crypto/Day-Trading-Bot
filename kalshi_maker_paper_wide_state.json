@@ -2810,5 +2810,25 @@
    "closed": "2026-11-16T04:09:27.999774+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNBARACE-26NOV16MEMWAS-20",
+   "series": "KXNBARACE",
+   "title": "Memphis vs Washington: Race to 20 Points",
+   "ticker": "KXNBARACE-26NOV16MEMWAS-20-MEM",
+   "order_id": "paper-1141-1794874514",
+   "price": "0.1300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8800",
+   "multiplier": "1",
+   "placed": 1794874514.3801937,
+   "hedge": [
+    {
+     "ticker": "KXNBARACE-26NOV16MEMWAS-20-WAS",
+     "limit": "0.7200"
+    }
+   ]
+  }
+ ]
 }
