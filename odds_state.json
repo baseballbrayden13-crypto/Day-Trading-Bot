@@ -94,6 +94,98 @@
     }
    ],
    "opened": "2026-11-17T04:37:58+00:00"
+  },
+  {
+   "kind": "kalshi",
+   "game": "Detroit Pistons at San Antonio Spurs",
+   "game_id": "69f0b70d1185e537c5ae4be43ebf2c9f",
+   "sport": "basketball_nba",
+   "start": "2026-11-18T01:10:00Z",
+   "edge": 0.0384,
+   "home": "San Antonio Spurs",
+   "away": "Detroit Pistons",
+   "legs": [
+    {
+     "team": "Detroit Pistons",
+     "book": "Kalshi",
+     "odds": 4.505,
+     "stake": 10.0,
+     "ticker": "KXNBAGAME-26NOV17DETSAS-DET"
+    }
+   ],
+   "opened": "2026-11-17T14:34:48+00:00"
+  },
+  {
+   "kind": "arb",
+   "game": "Bryant Bulldogs at Massachusetts Minutemen",
+   "game_id": "4739482816cbaec0b724e890a4609efb",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-18T00:30:00Z",
+   "edge": 0.0067,
+   "home": "Massachusetts Minutemen",
+   "away": "Bryant Bulldogs",
+   "legs": [
+    {
+     "team": "Bryant Bulldogs",
+     "book": "Bovada",
+     "odds": 6.25,
+     "stake": 16.11
+    },
+    {
+     "team": "Massachusetts Minutemen",
+     "book": "BetMGM",
+     "odds": 1.2,
+     "stake": 83.89
+    }
+   ],
+   "opened": "2026-11-17T14:34:48+00:00"
+  },
+  {
+   "kind": "kalshi",
+   "game": "Le Moyne Dolphins at Evansville Purple Aces",
+   "game_id": "21b5086e60cae515922e9a8de32ffd84",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-18T01:00:00Z",
+   "edge": 0.0533,
+   "home": "Evansville Purple Aces",
+   "away": "Le Moyne Dolphins",
+   "legs": [
+    {
+     "team": "Le Moyne Dolphins",
+     "book": "Kalshi",
+     "odds": 4.115,
+     "stake": 10.0,
+     "ticker": "KXNCAAMBGAME-26NOV17LMCEVAN-LMC"
+    }
+   ],
+   "opened": "2026-11-17T14:34:48+00:00"
+  },
+  {
+   "kind": "arb",
+   "game": "Le Moyne Dolphins at Evansville Purple Aces",
+   "game_id": "21b5086e60cae515922e9a8de32ffd84",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-18T01:00:00Z",
+   "edge": 0.0165,
+   "home": "Evansville Purple Aces",
+   "away": "Le Moyne Dolphins",
+   "legs": [
+    {
+     "team": "Evansville Purple Aces",
+     "book": "BetRivers",
+     "odds": 1.35,
+     "stake": 75.3
+    },
+    {
+     "team": "Le Moyne Dolphins",
+     "book": "Kalshi",
+     "odds": 4.115,
+     "stake": 24.7,
+     "ticker": "KXNCAAMBGAME-26NOV17LMCEVAN-LMC",
+     "ask": 0.23
+    }
+   ],
+   "opened": "2026-11-17T14:34:48+00:00"
   }
  ],
  "seen": {
@@ -137,18 +229,22 @@
   "arb|c3c58341c48b659af034931964de5495|Air Force Falcons@FanDuel|Pacific Tigers@Kalshi": "2026-11-15T02:46:15.060376+00:00",
   "value|39bce9119f7631dfd8656e4e8d388192|Villanova Wildcats|DraftKings": "2026-11-16T22:16:15.684347+00:00",
   "value|5840d479fc52ad2b83d7feb802d4dd23|Ball State Cardinals|FanDuel": "2026-11-17T04:37:58.122065+00:00",
-  "value|ce6dd46cd4c337c1959bb8995b009209|Bowling Green Falcons|BetOnline.ag": "2026-11-17T04:37:58.122065+00:00"
+  "value|ce6dd46cd4c337c1959bb8995b009209|Bowling Green Falcons|BetOnline.ag": "2026-11-17T04:37:58.122065+00:00",
+  "kalshi|69f0b70d1185e537c5ae4be43ebf2c9f|Detroit Pistons|Kalshi": "2026-11-17T14:34:48.056432+00:00",
+  "arb|4739482816cbaec0b724e890a4609efb|Bryant Bulldogs@Bovada|Massachusetts Minutemen@BetMGM": "2026-11-17T14:34:48.056432+00:00",
+  "kalshi|21b5086e60cae515922e9a8de32ffd84|Le Moyne Dolphins|Kalshi": "2026-11-17T14:34:48.056432+00:00",
+  "arb|21b5086e60cae515922e9a8de32ffd84|Evansville Purple Aces@BetRivers|Le Moyne Dolphins@Kalshi": "2026-11-17T14:34:48.056432+00:00"
  },
  "credits": {
-  "day": "2026-11-16",
-  "spent": 9,
-  "remaining": 356
+  "day": "2026-11-17",
+  "spent": 4,
+  "remaining": 352
  },
  "last_priced": {
-  "basketball_nba": "2026-11-17T04:37:58.122065+00:00",
-  "icehockey_nhl": "2026-11-17T04:37:58.122065+00:00",
-  "americanfootball_ncaaf": "2026-11-17T04:37:58.122065+00:00",
-  "basketball_ncaab": "2026-11-17T04:37:58.122065+00:00",
+  "basketball_nba": "2026-11-17T14:34:48.056432+00:00",
+  "icehockey_nhl": "2026-11-17T14:34:48.056432+00:00",
+  "americanfootball_ncaaf": "2026-11-17T14:34:48.056432+00:00",
+  "basketball_ncaab": "2026-11-17T14:34:48.056432+00:00",
   "americanfootball_nfl": "2026-11-16T22:16:15.684347+00:00"
  }
 }

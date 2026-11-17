@@ -1,46 +1,189 @@
 {
- "updated": "2026-11-17T04:38:03+00:00",
+ "updated": "2026-11-17T14:34:54+00:00",
  "parlays": [
+  {
+   "kind": "game",
+   "game": "New York Knicks vs Toronto Raptors",
+   "start": "2026-11-18T00:40:00Z",
+   "legs": [
+    {
+     "label": "New York Knicks to win",
+     "ticker": "KXNBAGAME-26NOV17NYKTOR-NYK",
+     "side": "yes",
+     "price": 0.57,
+     "fair": 0.5698,
+     "value": -0.0182,
+     "player": ""
+    },
+    {
+     "label": "Ja'Kobe Walter 10+ points",
+     "ticker": "KXNBAPTS-26NOV17NYKTOR-TORJWALTER14-10",
+     "side": "yes",
+     "price": 0.6,
+     "fair": 0.6237,
+     "value": 0.0067,
+     "player": "Ja'Kobe Walter"
+    },
+    {
+     "label": "Jamal Shead 4+ assists",
+     "ticker": "KXNBAAST-26NOV17NYKTOR-TORJSHEAD1-4",
+     "side": "yes",
+     "price": 0.66,
+     "fair": 0.6798,
+     "value": 0.0038,
+     "player": "Jamal Shead"
+    },
+    {
+     "label": "Landry Shamet 2+ rebounds",
+     "ticker": "KXNBAREB-26NOV17NYKTOR-NYKLSHAMET44-2",
+     "side": "yes",
+     "price": 0.59,
+     "fair": 0.6107,
+     "value": 0.0037,
+     "player": "Landry Shamet"
+    }
+   ],
+   "price": 0.1489,
+   "fair": 0.1475,
+   "pays": "+572",
+   "per_dollar": 6.72
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "New York Knicks vs Toronto Raptors",
+   "start": "2026-11-18T00:40:00Z",
+   "legs": [
+    {
+     "label": "Jamal Shead 4+ assists",
+     "ticker": "KXNBAAST-26NOV17NYKTOR-TORJSHEAD1-4",
+     "side": "yes",
+     "price": 0.66,
+     "fair": 0.6798,
+     "value": 0.0038,
+     "player": "Jamal Shead"
+    },
+    {
+     "label": "Ja'Kobe Walter 10+ points",
+     "ticker": "KXNBAPTS-26NOV17NYKTOR-TORJWALTER14-10",
+     "side": "yes",
+     "price": 0.6,
+     "fair": 0.6237,
+     "value": 0.0067,
+     "player": "Ja'Kobe Walter"
+    }
+   ],
+   "price": 0.4171,
+   "fair": 0.424,
+   "pays": "+140",
+   "per_dollar": 2.4
+  },
+  {
+   "kind": "game",
+   "game": "Detroit Pistons vs San Antonio Spurs",
+   "start": "2026-11-18T01:10:00Z",
+   "legs": [
+    {
+     "label": "John Collins 10+ points",
+     "ticker": "KXNBAPTS-26NOV17DETSAS-DETJCOLLINS20-10",
+     "side": "yes",
+     "price": 0.64,
+     "fair": 0.6939,
+     "value": 0.0369,
+     "player": "John Collins"
+    },
+    {
+     "label": "Kevin Huerter 10+ points",
+     "ticker": "KXNBAPTS-26NOV17DETSAS-DETKHUERTERSF-10",
+     "side": "yes",
+     "price": 0.73,
+     "fair": 0.7751,
+     "value": 0.0311,
+     "player": "Kevin Huerter"
+    },
+    {
+     "label": "Julian Champagnie 4+ rebounds",
+     "ticker": "KXNBAREB-26NOV17DETSAS-SASJCHAMPAGNIE30-4",
+     "side": "yes",
+     "price": 0.64,
+     "fair": 0.6834,
+     "value": 0.0264,
+     "player": "Julian Champagnie"
+    }
+   ],
+   "price": 0.3211,
+   "fair": 0.3676,
+   "pays": "+211",
+   "per_dollar": 3.11
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "Detroit Pistons vs San Antonio Spurs",
+   "start": "2026-11-18T01:10:00Z",
+   "legs": [
+    {
+     "label": "Kevin Huerter 10+ points",
+     "ticker": "KXNBAPTS-26NOV17DETSAS-DETKHUERTERSF-10",
+     "side": "yes",
+     "price": 0.73,
+     "fair": 0.7751,
+     "value": 0.0311,
+     "player": "Kevin Huerter"
+    },
+    {
+     "label": "John Collins 10+ points",
+     "ticker": "KXNBAPTS-26NOV17DETSAS-DETJCOLLINS20-10",
+     "side": "yes",
+     "price": 0.64,
+     "fair": 0.6939,
+     "value": 0.0369,
+     "player": "John Collins"
+    }
+   ],
+   "price": 0.4888,
+   "fair": 0.5378,
+   "pays": "+105",
+   "per_dollar": 2.05
+  },
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-18T04:00:00Z",
+   "start": "2026-11-18T01:30:00Z",
    "legs": [
+    {
+     "label": "Houston Cougars to win",
+     "ticker": "KXNCAAMBGAME-26NOV17HOURUTG-HOU",
+     "side": "yes",
+     "price": 0.94,
+     "fair": 0.9272,
+     "value": -0.0168,
+     "player": ""
+    },
     {
      "label": "Minnesota Wild to win",
      "ticker": "KXNHLGAME-26NOV17NSHMIN-MIN",
      "side": "yes",
      "price": 0.65,
-     "fair": 0.6485,
-     "value": -0.0175,
+     "fair": 0.6477,
+     "value": -0.0183,
      "player": ""
     },
     {
-     "label": "Gonzaga Bulldogs to win",
-     "ticker": "KXNCAAMBGAME-26NOV17MTSTGONZ-GONZ",
+     "label": "Utah Utes to win",
+     "ticker": "KXNCAAMBGAME-26NOV17EWUUTAH-UTAH",
      "side": "yes",
-     "price": 0.98,
-     "fair": 0.9626,
-     "value": -0.0194,
-     "player": ""
-    },
-    {
-     "label": "Wyoming Cowboys to win",
-     "ticker": "KXNCAAMBGAME-26NOV17SHSUWYO-WYO",
-     "side": "yes",
-     "price": 0.87,
-     "fair": 0.8577,
-     "value": -0.0203,
+     "price": 0.88,
+     "fair": 0.8667,
+     "value": -0.0213,
      "player": ""
     }
    ],
-   "price": 0.5742,
-   "fair": 0.5354,
-   "pays": "-135",
-   "per_dollar": 1.74
+   "price": 0.5583,
+   "fair": 0.5205,
+   "pays": "-126",
+   "per_dollar": 1.79
   }
  ],
- "open_pretend": 0,
+ "open_pretend": 3,
  "record": {
   "parlays": 12,
   "won": 2,

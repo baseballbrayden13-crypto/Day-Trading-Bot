@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T04:37:58+00:00",
+ "updated": "2026-11-17T14:34:48+00:00",
  "scan": {
   "sports": [
    "basketball_nba",
@@ -7,19 +7,21 @@
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 73,
-  "kalshi_matched": 64,
+  "games": 76,
+  "kalshi_matched": 66,
   "skipped": [],
-  "pinnacle": 37,
-  "credits_left": 356,
-  "spent_today": 9,
-  "allowance": 24
+  "pinnacle": 57,
+  "credits_left": 352,
+  "spent_today": 4,
+  "allowance": 25
  },
  "new_finds": [
-  "Ball State Cardinals @ FanDuel 4.75 (fair 4.59, +3.4% expected) Ball State Cardinals at Ohio Bobcats (Tue 7:00PM)",
-  "Bowling Green Falcons @ BetOnline.ag 2.3 (fair 2.23, +3.3% expected) Bowling Green Falcons at William & Mary Tribe (Tue 7:00PM)"
+  "Detroit Pistons @ Kalshi 4.505 (fair 4.34, +3.8% expected) Detroit Pistons at San Antonio Spurs (Tue 8:10PM)",
+  "ARB 0.7% locked: Bryant Bulldogs at Massachusetts Minutemen (Tue 7:30PM): $16 Bryant Bulldogs @ Bovada 6.25, $84 Massachusetts Minutemen @ BetMGM 1.2",
+  "Le Moyne Dolphins @ Kalshi 4.115 (fair 3.91, +5.3% expected) Le Moyne Dolphins at Evansville Purple Aces (Tue 8:00PM)",
+  "ARB 1.7% locked: Le Moyne Dolphins at Evansville Purple Aces (Tue 8:00PM): $75 Evansville Purple Aces @ BetRivers 1.35, $25 Le Moyne Dolphins @ Kalshi 4.115"
  ],
- "open_bets": 5,
+ "open_bets": 9,
  "record": {
   "value": {
    "bets": 28,

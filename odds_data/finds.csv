@@ -44,3 +44,7 @@ time,kind,sport,game,start,team,book,odds,fair,edge,picks
 2026-11-16T22:16:15+00:00,value,basketball_ncaab,Villanova Wildcats at Pittsburgh Panthers,2026-11-18T00:00:00Z,Villanova Wildcats,DraftKings,2.1,0.4907,0.0305,
 2026-11-17T04:37:58+00:00,value,americanfootball_ncaaf,Ball State Cardinals at Ohio Bobcats,2026-11-18T00:00:00Z,Ball State Cardinals,FanDuel,4.75,0.2177,0.0339,
 2026-11-17T04:37:58+00:00,value,basketball_ncaab,Bowling Green Falcons at William & Mary Tribe,2026-11-18T00:00:00Z,Bowling Green Falcons,BetOnline.ag,2.3,0.4492,0.0331,
+2026-11-17T14:34:48+00:00,kalshi,basketball_nba,Detroit Pistons at San Antonio Spurs,2026-11-18T01:10:00Z,Detroit Pistons,Kalshi,4.505,0.2305,0.0384,
+2026-11-17T14:34:48+00:00,arb,basketball_ncaab,Bryant Bulldogs at Massachusetts Minutemen,2026-11-18T00:30:00Z,,,,,0.0067,Bryant Bulldogs @ Bovada 6.25 $16.11; Massachusetts Minutemen @ BetMGM 1.2 $83.89
+2026-11-17T14:34:48+00:00,kalshi,basketball_ncaab,Le Moyne Dolphins at Evansville Purple Aces,2026-11-18T01:00:00Z,Le Moyne Dolphins,Kalshi,4.115,0.256,0.0533,
+2026-11-17T14:34:48+00:00,arb,basketball_ncaab,Le Moyne Dolphins at Evansville Purple Aces,2026-11-18T01:00:00Z,,,,,0.0165,Evansville Purple Aces @ BetRivers 1.35 $75.3; Le Moyne Dolphins @ Kalshi 4.115 $24.7
