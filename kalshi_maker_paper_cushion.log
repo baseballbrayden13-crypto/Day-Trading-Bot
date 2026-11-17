@@ -3868,3 +3868,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 15:26:48,508 INFO Swept 20097 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 15:31:47,881 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 15:31:49,155 INFO Swept 20093 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 15:36:47,739 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 15:36:49,181 INFO Swept 20077 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 15:41:47,913 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 15:41:49,397 INFO PAPER rest NO bid KXNM1GAME-26NOV171400SVBVDS-VDS at $0.3400 x2 (0 already bid at that price)
+2026-11-17 15:41:49,398 INFO Resting NO bid on KXNM1GAME-26NOV171400SVBVDS-VDS at $0.3400 x2 (KXNM1GAME-26NOV171400SVBVDS): locks in $0.78 if it fills; hedge NO SVB@0.2500
+2026-11-17 15:41:49,399 INFO Swept 20039 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 15:46:52,607 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 15:46:53,821 INFO Swept 20046 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 15:47:44,652 INFO Stopped; all quotes cancelled.
