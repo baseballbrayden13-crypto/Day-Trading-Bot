@@ -10080,3 +10080,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 13:50:51,617 INFO Swept 20036 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-17 13:55:56,065 INFO Swept 20048 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-17 14:00:59,995 INFO Swept 20038 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-17 14:06:01,689 INFO Swept 20035 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-17 14:11:04,198 INFO Swept 20073 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-17 14:16:03,847 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV20ALCNTULN-ALCN at $0.7400 x2 (0 already bid at that price)
+2026-11-17 14:16:03,847 INFO Resting NO bid on KXNCAAWBGAME-26NOV20ALCNTULN-ALCN at $0.7400 x2 (KXNCAAWBGAME-26NOV20ALCNTULN): locks in $0.15 if it fills; hedge NO TULN@0.1700
+2026-11-17 14:16:03,931 INFO Swept 20093 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-17 14:19:36,394 INFO Quote KXNCAAWBGAME-26NOV20ALCNTULN cancelled (0/2 filled)
+2026-11-17 14:21:08,647 INFO Swept 20089 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 14:26:12,020 INFO PAPER rest NO bid KXPHLGAME-26NOV171200BYTOSW-OSW at $0.6000 x2 (0 already bid at that price)
+2026-11-17 14:26:12,021 INFO Resting NO bid on KXPHLGAME-26NOV171200BYTOSW-OSW at $0.6000 x2 (KXPHLGAME-26NOV171200BYTOSW): locks in $0.20 if it fills; hedge NO BYT@0.3000
+2026-11-17 14:26:12,157 INFO Swept 20095 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 14:28:44,803 INFO Quote KXPHLGAME-26NOV171200BYTOSW cancelled (0/2 filled)
+2026-11-17 14:31:12,249 INFO Swept 20083 events: 0 taker trades, 0 new quotes, 0 resting
