@@ -3785,3 +3785,23 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 12:55:22,469 INFO Swept 19805 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 13:00:24,149 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 13:00:25,763 INFO Swept 19779 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 13:05:26,994 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 13:05:28,845 INFO PAPER rest NO bid KXEUCHLGAME-26NOV171300VAXFRO-FRO at $0.1300 x2 (0 already bid at that price)
+2026-11-17 13:05:28,845 INFO Resting NO bid on KXEUCHLGAME-26NOV171300VAXFRO-FRO at $0.13 x2 (KXEUCHLGAME-26NOV171300VAXFRO): locks in $0.20 if it fills; hedge NO VAX@0.7500
+2026-11-17 13:05:28,846 INFO Swept 19818 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 13:10:27,338 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 13:10:29,023 INFO PAPER rest NO bid KXCANPLADVANCE-26NOV21CAVOTT-OTT at $0.5200 x5 (20 already bid at that price)
+2026-11-17 13:10:29,023 INFO Resting NO bid on KXCANPLADVANCE-26NOV21CAVOTT-OTT at $0.52 x5 (KXCANPLADVANCE-26NOV21CAVOTT): locks in $0.23 if it fills; hedge NO CAV@0.4100
+2026-11-17 13:10:29,059 INFO PAPER rest NO bid KXAFCONSCORE-26NOV17LBATUN-LBA2TUN2 at $0.1200 x2 (0 already bid at that price)
+2026-11-17 13:10:29,059 INFO Resting NO bid on KXAFCONSCORE-26NOV17LBATUN-LBA2TUN2 at $0.1200 x2 (KXAFCONSCORE-26NOV17LBATUN): locks in $0.40 if it fills; hedge NO LBA1TUN1@0.6600, LBA1TUN2@0.9900
+2026-11-17 13:10:29,060 INFO Swept 19856 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-17 13:10:50,116 INFO Quote KXAFCONSCORE-26NOV17LBATUN cancelled (0/2 filled)
+2026-11-17 13:15:33,003 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 13:15:34,553 INFO Swept 19863 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-17 13:20:38,494 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 13:20:40,307 INFO Swept 19896 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-17 13:22:53,922 INFO Quote KXEUCHLGAME-26NOV171300VAXFRO cancelled (0/2 filled)
+2026-11-17 13:25:43,251 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 13:25:44,933 INFO Swept 19886 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 13:30:44,783 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 13:30:46,485 INFO Swept 19885 events: 0 taker trades, 0 new quotes, 1 resting
