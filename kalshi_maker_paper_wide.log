@@ -10379,3 +10379,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 10:52:16,922 INFO PAPER buy 3 NO KXLVBPGAME-26NOV181200ANZZUL-ZUL at up to $0.62: filled 3
 2026-11-18 10:52:16,922 INFO Quote KXLVBPGAME-26NOV181200ANZZUL: hedge on KXLVBPGAME-26NOV181200ANZZUL-ZUL chased from 0.5400 to 0.62
 2026-11-18 10:52:16,922 INFO Quote KXLVBPGAME-26NOV181200ANZZUL filled 3: hedged, locks in $-0.13
+2026-11-18 10:54:52,256 INFO Swept 20807 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:59:52,865 INFO Swept 20803 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 11:04:51,873 INFO Swept 20854 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 11:09:56,123 INFO Swept 20866 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 11:15:01,046 INFO Swept 20862 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 11:20:04,986 INFO Swept 20873 events: 0 taker trades, 0 new quotes, 0 resting
