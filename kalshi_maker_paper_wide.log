@@ -10389,3 +10389,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 11:30:14,134 INFO Swept 20866 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 11:35:12,676 INFO Swept 20862 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 11:35:57,706 INFO Stopped; all quotes cancelled.
+2026-11-18 14:42:12,124 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-18 14:44:06,286 INFO Swept 21188 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 14:49:11,095 INFO Swept 21208 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 14:54:15,549 INFO Swept 21201 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 14:59:20,236 INFO Swept 21197 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 15:04:23,079 INFO PAPER BET daily_safest: 1 NO KXCONTCLAIMS-26NOV19-T1740 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-18 15:04:23,274 INFO PAPER COMBO: NO KXCONTCLAIMS-26NOV19-T1740, YES KXDIESELD-26NOV19-T5.920, NO KXTRUEV-26NOV18-T1096.12 at 0.9412. daily combo: all 3 safest sides must win
+2026-11-18 15:04:23,276 INFO Swept 21187 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 15:09:26,288 INFO Swept 21264 events: 0 taker trades, 0 new quotes, 0 resting
