@@ -10140,3 +10140,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 19:25:17,238 INFO Swept 20252 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 19:30:19,515 INFO Swept 20265 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 19:35:21,532 INFO Swept 20261 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 19:40:29,785 INFO Swept 20450 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 19:45:32,721 INFO PAPER rest NO bid KXSKLGAME-26NOV171400ILIHOP-ILI at $0.1600 x4 (0 already bid at that price)
+2026-11-17 19:45:32,721 INFO Resting NO bid on KXSKLGAME-26NOV171400ILIHOP-ILI at $0.1600 x4 (KXSKLGAME-26NOV171400ILIHOP): locks in $0.49 if it fills; hedge NO HOP@0.7000
+2026-11-17 19:45:33,211 INFO Swept 20451 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 19:50:36,686 INFO Swept 20448 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 19:55:39,218 INFO Swept 20431 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 20:00:42,506 INFO Swept 20436 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 20:05:43,343 INFO Swept 20439 events: 0 taker trades, 0 new quotes, 1 resting
