@@ -83,6 +83,30 @@
      "limit": "0.4900"
     }
    ]
+  },
+  {
+   "event": "KXLVBPGAME-26NOV181200ANZZUL",
+   "series": "KXLVBPGAME",
+   "title": "Caribes de Anzoategui vs Aguilas del Zulia",
+   "sets": 3,
+   "outlay": "3.13",
+   "locked_profit": "-0.13",
+   "opened": "2026-11-18T15:52:16.922795+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLVBPGAME-26NOV181200ANZZUL-ANZ",
+     "side": "no",
+     "count": 3,
+     "limit": "0.40"
+    },
+    {
+     "ticker": "KXLVBPGAME-26NOV181200ANZZUL-ZUL",
+     "side": "no",
+     "count": 3,
+     "limit": "0.62"
+    }
+   ]
   }
  ],
  "closed": [

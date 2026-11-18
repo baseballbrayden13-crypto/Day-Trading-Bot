@@ -10365,3 +10365,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 10:09:34,585 INFO Swept 20814 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 10:14:37,597 INFO Swept 20815 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 10:19:39,616 INFO Swept 20819 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:24:44,847 INFO Swept 20814 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:29:42,599 INFO Settled daily_combo COMBO-2026-11-17: YES, profit $0.05
+2026-11-18 10:29:42,601 INFO Swept 20811 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:34:45,033 INFO Swept 20802 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:39:47,440 INFO Swept 20819 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:44:47,885 INFO PAPER rest NO bid KXLVBPGAME-26NOV181200ANZZUL-ANZ at $0.4000 x3 (0 already bid at that price)
+2026-11-18 10:44:47,885 INFO Resting NO bid on KXLVBPGAME-26NOV181200ANZZUL-ANZ at $0.40 x3 (KXLVBPGAME-26NOV181200ANZZUL): locks in $0.10 if it fills; hedge NO ZUL@0.5400
+2026-11-18 10:44:48,048 INFO Swept 20816 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 10:49:54,150 INFO Swept 20818 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-18 10:52:16,831 INFO PAPER KXLVBPGAME-26NOV181200ANZZUL-ANZ NO bid at $0.4000: 3/3 filled by real trades
+2026-11-18 10:52:16,882 INFO PAPER buy 3 NO KXLVBPGAME-26NOV181200ANZZUL-ZUL at up to $0.5400: not on the book
+2026-11-18 10:52:16,922 INFO PAPER buy 3 NO KXLVBPGAME-26NOV181200ANZZUL-ZUL at up to $0.62: filled 3
+2026-11-18 10:52:16,922 INFO Quote KXLVBPGAME-26NOV181200ANZZUL: hedge on KXLVBPGAME-26NOV181200ANZZUL-ZUL chased from 0.5400 to 0.62
+2026-11-18 10:52:16,922 INFO Quote KXLVBPGAME-26NOV181200ANZZUL filled 3: hedged, locks in $-0.13

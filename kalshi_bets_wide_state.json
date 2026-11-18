@@ -48,39 +48,6 @@
      "price": "0.9800"
     }
    ]
-  },
-  {
-   "strategy": "daily_combo",
-   "ticker": "COMBO-2026-11-17",
-   "event": "COMBO-2026-11-17",
-   "series": "COMBO",
-   "side": "yes",
-   "count": 1,
-   "price": "0.9412",
-   "fee": "0.01",
-   "prob": 0.9412,
-   "close_time": "2026-11-18T09:00:00Z",
-   "placed": "2026-11-17T20:00:05+00:00",
-   "cost": "0.95",
-   "expected": "0.00",
-   "note": "daily combo: all 3 safest sides must win",
-   "legs": [
-    {
-     "ticker": "KXDIESELD-26NOV18-T5.965",
-     "side": "no",
-     "price": "0.9800"
-    },
-    {
-     "ticker": "KXTRUEV-26NOV17-T1091.17",
-     "side": "yes",
-     "price": "0.9800"
-    },
-    {
-     "ticker": "KXLOWTSEA-26NOV17-B36.5",
-     "side": "no",
-     "price": "0.9800"
-    }
-   ]
   }
  ],
  "closed": [
@@ -631,6 +598,43 @@
    "paid": "1.00",
    "pnl": "0.01",
    "closed": "2026-11-18T14:04:04+00:00"
+  },
+  {
+   "strategy": "daily_combo",
+   "ticker": "COMBO-2026-11-17",
+   "event": "COMBO-2026-11-17",
+   "series": "COMBO",
+   "side": "yes",
+   "count": 1,
+   "price": "0.9412",
+   "fee": "0.01",
+   "prob": 0.9412,
+   "close_time": "2026-11-18T09:00:00Z",
+   "placed": "2026-11-17T20:00:05+00:00",
+   "cost": "0.95",
+   "expected": "0.00",
+   "note": "daily combo: all 3 safest sides must win",
+   "legs": [
+    {
+     "ticker": "KXDIESELD-26NOV18-T5.965",
+     "side": "no",
+     "price": "0.9800"
+    },
+    {
+     "ticker": "KXTRUEV-26NOV17-T1091.17",
+     "side": "yes",
+     "price": "0.9800"
+    },
+    {
+     "ticker": "KXLOWTSEA-26NOV17-B36.5",
+     "side": "no",
+     "price": "0.9800"
+    }
+   ],
+   "result": "yes",
+   "paid": "1.00",
+   "pnl": "0.05",
+   "closed": "2026-11-18T15:29:42+00:00"
   }
  ]
 }
