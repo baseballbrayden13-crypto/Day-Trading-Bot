@@ -3985,3 +3985,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 23:01:47,634 INFO Swept 20462 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 23:06:53,437 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 23:06:56,192 INFO Swept 20444 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 23:11:56,936 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 23:11:59,578 INFO Swept 20443 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 23:17:01,506 INFO Settled KXLVBPGAME-26NOV171800MAGCAR: paid $5, profit $0.28
+2026-11-17 23:17:01,547 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 23:17:04,184 INFO Swept 20439 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 23:22:07,253 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 23:22:09,999 INFO Swept 20455 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 23:27:07,576 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 23:27:10,233 INFO Swept 20453 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 23:32:06,140 INFO Settled KXCONCACAFNLADVANCE-26NOV17SLVSMA: paid $3, profit $-0.15
+2026-11-17 23:32:06,180 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 23:32:08,796 INFO Swept 20445 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 23:37:09,313 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 23:37:11,977 INFO Swept 20445 events: 0 taker trades, 0 new quotes, 0 resting

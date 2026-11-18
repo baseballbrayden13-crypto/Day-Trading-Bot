@@ -1,55 +1,6 @@
 {
- "realized": "-4.8800",
- "open": [
-  {
-   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA",
-   "series": "KXCONCACAFNLADVANCE",
-   "title": "El Salvador vs Saint Martin",
-   "sets": 3,
-   "outlay": "3.1500",
-   "locked_profit": "-0.1500",
-   "opened": "2026-11-15T03:33:45.631014+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
-     "side": "no",
-     "count": 3,
-     "limit": "0.7500"
-    },
-    {
-     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV",
-     "side": "no",
-     "count": 3,
-     "limit": "0.28"
-    }
-   ]
-  },
-  {
-   "event": "KXLVBPGAME-26NOV171800MAGCAR",
-   "series": "KXLVBPGAME",
-   "title": "Navegantes de Magallanes vs Leones de Caracas",
-   "sets": 5,
-   "outlay": "4.7200",
-   "locked_profit": "0.2800",
-   "opened": "2026-11-18T03:03:46.556177+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXLVBPGAME-26NOV171800MAGCAR-MAG",
-     "side": "no",
-     "count": 5,
-     "limit": "0.4300"
-    },
-    {
-     "ticker": "KXLVBPGAME-26NOV171800MAGCAR-CAR",
-     "side": "no",
-     "count": 5,
-     "limit": "0.4900"
-    }
-   ]
-  }
- ],
+ "realized": "-4.7500",
+ "open": [],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -443,6 +394,68 @@
     "KXCS2MAP-26NOV150630CWSTA-2-CW": "yes"
    },
    "closed": "2026-11-17T00:57:01.660231+00:00"
+  },
+  {
+   "event": "KXLVBPGAME-26NOV171800MAGCAR",
+   "series": "KXLVBPGAME",
+   "title": "Navegantes de Magallanes vs Leones de Caracas",
+   "sets": 5,
+   "outlay": "4.7200",
+   "locked_profit": "0.2800",
+   "opened": "2026-11-18T03:03:46.556177+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLVBPGAME-26NOV171800MAGCAR-MAG",
+     "side": "no",
+     "count": 5,
+     "limit": "0.4300"
+    },
+    {
+     "ticker": "KXLVBPGAME-26NOV171800MAGCAR-CAR",
+     "side": "no",
+     "count": 5,
+     "limit": "0.4900"
+    }
+   ],
+   "paid": "5",
+   "pnl": "0.2800",
+   "results": {
+    "KXLVBPGAME-26NOV171800MAGCAR-MAG": "yes",
+    "KXLVBPGAME-26NOV171800MAGCAR-CAR": "no"
+   },
+   "closed": "2026-11-18T04:17:01.506877+00:00"
+  },
+  {
+   "event": "KXCONCACAFNLADVANCE-26NOV17SLVSMA",
+   "series": "KXCONCACAFNLADVANCE",
+   "title": "El Salvador vs Saint Martin",
+   "sets": 3,
+   "outlay": "3.1500",
+   "locked_profit": "-0.1500",
+   "opened": "2026-11-15T03:33:45.631014+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA",
+     "side": "no",
+     "count": 3,
+     "limit": "0.7500"
+    },
+    {
+     "ticker": "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV",
+     "side": "no",
+     "count": 3,
+     "limit": "0.28"
+    }
+   ],
+   "paid": "3",
+   "pnl": "-0.1500",
+   "results": {
+    "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SMA": "no",
+    "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV": "yes"
+   },
+   "closed": "2026-11-18T04:32:06.140421+00:00"
   }
  ],
  "quotes": []
