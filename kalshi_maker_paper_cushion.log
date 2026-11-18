@@ -3890,3 +3890,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 19:30:15,769 INFO Swept 20265 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 19:35:12,960 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 19:35:15,198 INFO Swept 20261 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 19:40:24,491 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 19:40:26,751 INFO PAPER rest NO bid KXNHL1P-26NOV17EDMFLA-FLA at $0.8300 x2 (0 already bid at that price)
+2026-11-17 19:40:26,752 INFO Resting NO bid on KXNHL1P-26NOV17EDMFLA-FLA at $0.8300 x2 (KXNHL1P-26NOV17EDMFLA): locks in $0.27 if it fills; hedge NO EDM@0.0400, TIE@0.9800
+2026-11-17 19:40:26,753 INFO Swept 20456 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 19:42:32,566 INFO Quote KXNHL1P-26NOV17EDMFLA cancelled (0/2 filled)
+2026-11-17 19:45:26,284 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 19:45:28,535 INFO Swept 20451 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 19:50:29,074 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 19:50:31,345 INFO Swept 20448 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 19:55:31,200 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 19:55:33,533 INFO Swept 20431 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 20:00:35,013 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 20:00:37,495 INFO Swept 20436 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 20:05:35,253 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 20:05:37,748 INFO Swept 20439 events: 0 taker trades, 0 new quotes, 0 resting
