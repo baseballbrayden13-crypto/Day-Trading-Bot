@@ -3929,3 +3929,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 21:01:04,397 INFO Swept 20616 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 21:06:02,121 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-17 21:06:04,725 INFO Swept 20616 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:11:04,075 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 21:11:06,945 INFO Swept 20641 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:16:05,897 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 21:16:08,657 INFO Swept 20664 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:21:07,775 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 21:21:10,672 INFO Swept 20702 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:26:10,119 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 21:26:13,020 INFO Swept 20759 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:31:14,462 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 21:31:16,973 INFO Swept 20784 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:36:14,674 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 21:36:17,328 INFO PAPER rest NO bid KXLIDOMGAME-26NOV171815TORESC-TOR at $0.2600 x2 (0 already bid at that price)
+2026-11-17 21:36:17,328 INFO Resting NO bid on KXLIDOMGAME-26NOV171815TORESC-TOR at $0.2600 x2 (KXLIDOMGAME-26NOV171815TORESC): locks in $0.45 if it fills; hedge NO ESC@0.4900
+2026-11-17 21:36:17,330 INFO Swept 20791 events: 0 taker trades, 1 new quotes, 1 resting
