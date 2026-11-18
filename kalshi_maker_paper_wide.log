@@ -10280,3 +10280,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 22:57:13,261 INFO Swept 20475 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 23:02:11,564 INFO Swept 20495 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-17 23:07:14,782 INFO Swept 20444 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 23:12:18,470 INFO Swept 20447 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 23:17:21,070 INFO Settled KXLVBPGAME-26NOV171800MAGCAR: paid $2, profit $0.11
+2026-11-17 23:17:24,440 INFO Swept 20443 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 23:22:26,365 INFO PAPER rest NO bid KXNBARACE-26NOV17CHALAL-20-CHA at $0.1800 x2 (0 already bid at that price)
+2026-11-17 23:22:26,365 INFO Resting NO bid on KXNBARACE-26NOV17CHALAL-20-CHA at $0.18 x2 (KXNBARACE-26NOV17CHALAL-20): locks in $0.10 if it fills; hedge NO LAL@0.7500
+2026-11-17 23:22:26,859 INFO Swept 20457 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 23:22:42,496 INFO Quote KXNBARACE-26NOV17CHALAL-20 cancelled (0/2 filled)
+2026-11-17 23:27:28,653 INFO Swept 20453 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 23:32:30,113 INFO Swept 20446 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 23:37:29,407 INFO Swept 20445 events: 0 taker trades, 0 new quotes, 0 resting

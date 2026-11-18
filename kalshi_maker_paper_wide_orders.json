@@ -16624,11 +16624,25 @@
   "count": 1,
   "ahead": 11,
   "placed": 1794973631.4353273,
-  "checked": 1794974968.3817766,
+  "checked": 1794975431,
   "expires": 1794975431,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-1189-1794975746": {
+  "id": "paper-1189-1794975746",
+  "ticker": "KXNBARACE-26NOV17CHALAL-20-CHA",
+  "price": "0.1800",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794975746.3513815,
+  "checked": 1794975762.4112923,
+  "expires": 1794977546,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
