@@ -10157,3 +10157,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 20:25:57,071 INFO Swept 20589 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 20:30:59,855 INFO Swept 20636 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 20:36:03,551 INFO Swept 20644 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 20:41:05,233 INFO PAPER rest NO bid KXLVBPGAME-26NOV171800MAGCAR-CAR at $0.3400 x2 (0 already bid at that price)
+2026-11-17 20:41:05,233 INFO Resting NO bid on KXLVBPGAME-26NOV171800MAGCAR-CAR at $0.3400 x2 (KXLVBPGAME-26NOV171800MAGCAR): locks in $0.11 if it fills; hedge NO MAG@0.5800
+2026-11-17 20:41:05,721 INFO Swept 20636 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 20:46:05,601 INFO Swept 20644 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 20:51:09,889 INFO Swept 20645 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 20:56:13,624 INFO Swept 20620 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 20:56:13,844 INFO Quote KXLVBPGAME-26NOV171800MAGCAR cancelled (0/2 filled)
+2026-11-17 21:01:17,229 INFO Swept 20616 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:06:18,924 INFO Swept 20616 events: 0 taker trades, 0 new quotes, 0 resting
