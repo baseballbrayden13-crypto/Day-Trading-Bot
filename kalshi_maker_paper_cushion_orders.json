@@ -3386,5 +3386,19 @@
   "at_price": 0,
   "filled": 5,
   "status": "executed"
+ },
+ "paper-243-1795003403": {
+  "id": "paper-243-1795003403",
+  "ticker": "KXCS2MAP-26NOV180700TSAUNK-1-TSA",
+  "price": "0.1300",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1795003403.4790504,
+  "checked": 1795003413.908857,
+  "expires": 1795005203,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

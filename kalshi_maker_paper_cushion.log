@@ -4055,3 +4055,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 06:43:16,358 INFO Swept 20632 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 06:48:14,569 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-18 06:48:16,767 INFO Swept 20654 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 06:53:13,968 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 06:53:16,211 INFO Swept 20655 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 06:58:17,558 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 06:58:19,810 INFO Swept 20658 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 07:03:20,686 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 07:03:23,481 INFO PAPER rest NO bid KXCS2MAP-26NOV180700TSAUNK-1-TSA at $0.1300 x2 (0 already bid at that price)
+2026-11-18 07:03:23,481 INFO Resting NO bid on KXCS2MAP-26NOV180700TSAUNK-1-TSA at $0.1300 x2 (KXCS2MAP-26NOV180700TSAUNK-1): locks in $0.26 if it fills; hedge NO UNK@0.7200
+2026-11-18 07:03:23,483 INFO Swept 20651 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 07:03:33,982 INFO Quote KXCS2MAP-26NOV180700TSAUNK-1 cancelled (0/2 filled)
+2026-11-18 07:08:24,873 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 07:08:27,080 INFO Swept 20659 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 07:13:27,354 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 07:13:29,579 INFO Swept 20657 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 07:18:29,765 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 07:18:31,973 INFO Swept 20656 events: 0 taker trades, 0 new quotes, 0 resting
