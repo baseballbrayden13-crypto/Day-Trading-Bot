@@ -1,5 +1,5 @@
 {
- "realized": "-6.8400",
+ "realized": "-6.9700",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -81,30 +81,6 @@
      "side": "no",
      "count": 4,
      "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXLVBPGAME-26NOV181200ANZZUL",
-   "series": "KXLVBPGAME",
-   "title": "Caribes de Anzoategui vs Aguilas del Zulia",
-   "sets": 3,
-   "outlay": "3.13",
-   "locked_profit": "-0.13",
-   "opened": "2026-11-18T15:52:16.922795+00:00",
-   "maker": true,
-   "legs": [
-    {
-     "ticker": "KXLVBPGAME-26NOV181200ANZZUL-ANZ",
-     "side": "no",
-     "count": 3,
-     "limit": "0.40"
-    },
-    {
-     "ticker": "KXLVBPGAME-26NOV181200ANZZUL-ZUL",
-     "side": "no",
-     "count": 3,
-     "limit": "0.62"
     }
    ]
   }
@@ -2925,6 +2901,37 @@
     "KXLVBPGAME-26NOV171800MAGCAR-CAR": "no"
    },
    "closed": "2026-11-18T04:17:21.070164+00:00"
+  },
+  {
+   "event": "KXLVBPGAME-26NOV181200ANZZUL",
+   "series": "KXLVBPGAME",
+   "title": "Caribes de Anzoategui vs Aguilas del Zulia",
+   "sets": 3,
+   "outlay": "3.13",
+   "locked_profit": "-0.13",
+   "opened": "2026-11-18T15:52:16.922795+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLVBPGAME-26NOV181200ANZZUL-ANZ",
+     "side": "no",
+     "count": 3,
+     "limit": "0.40"
+    },
+    {
+     "ticker": "KXLVBPGAME-26NOV181200ANZZUL-ZUL",
+     "side": "no",
+     "count": 3,
+     "limit": "0.62"
+    }
+   ],
+   "paid": "3",
+   "pnl": "-0.13",
+   "results": {
+    "KXLVBPGAME-26NOV181200ANZZUL-ANZ": "no",
+    "KXLVBPGAME-26NOV181200ANZZUL-ZUL": "yes"
+   },
+   "closed": "2026-11-18T21:05:30.788728+00:00"
   }
  ],
  "quotes": []
