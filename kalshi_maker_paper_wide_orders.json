@@ -16554,11 +16554,25 @@
   "count": 4,
   "ahead": 0,
   "placed": 1794962732.7086174,
-  "checked": 1794964082.1039202,
+  "checked": 1794964532,
   "expires": 1794964532,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-1184-1794964850": {
+  "id": "paper-1184-1794964850",
+  "ticker": "KXNBARACE-26NOV17PORMIN-10-POR",
+  "price": "0.2900",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794964850.538302,
+  "checked": 1794964979.544682,
+  "expires": 1794966650,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
