@@ -24,6 +24,30 @@
      "limit": "0.28"
     }
    ]
+  },
+  {
+   "event": "KXLVBPGAME-26NOV171800MAGCAR",
+   "series": "KXLVBPGAME",
+   "title": "Navegantes de Magallanes vs Leones de Caracas",
+   "sets": 5,
+   "outlay": "4.7200",
+   "locked_profit": "0.2800",
+   "opened": "2026-11-18T03:03:46.556177+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXLVBPGAME-26NOV171800MAGCAR-MAG",
+     "side": "no",
+     "count": 5,
+     "limit": "0.4300"
+    },
+    {
+     "ticker": "KXLVBPGAME-26NOV171800MAGCAR-CAR",
+     "side": "no",
+     "count": 5,
+     "limit": "0.4900"
+    }
+   ]
   }
  ],
  "closed": [
@@ -421,25 +445,5 @@
    "closed": "2026-11-17T00:57:01.660231+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLIDOMGAME-26NOV171815TORESC",
-   "series": "KXLIDOMGAME",
-   "title": "Toros del Este vs Leones del Escogido",
-   "ticker": "KXLIDOMGAME-26NOV171815TORESC-TOR",
-   "order_id": "paper-241-1794969377",
-   "price": "0.2600",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.5500",
-   "multiplier": "1",
-   "placed": 1794969377.328542,
-   "hedge": [
-    {
-     "ticker": "KXLIDOMGAME-26NOV171815TORESC-ESC",
-     "limit": "0.4900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

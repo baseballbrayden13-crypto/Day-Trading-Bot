@@ -3943,3 +3943,21 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 21:36:17,328 INFO PAPER rest NO bid KXLIDOMGAME-26NOV171815TORESC-TOR at $0.2600 x2 (0 already bid at that price)
 2026-11-17 21:36:17,328 INFO Resting NO bid on KXLIDOMGAME-26NOV171815TORESC-TOR at $0.2600 x2 (KXLIDOMGAME-26NOV171815TORESC): locks in $0.45 if it fills; hedge NO ESC@0.4900
 2026-11-17 21:36:17,330 INFO Swept 20791 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 21:41:17,565 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 21:41:20,085 INFO Swept 20761 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 21:46:17,805 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 21:46:20,678 INFO Swept 20742 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 21:51:19,010 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 21:51:21,511 INFO Swept 20696 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 21:56:18,420 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 21:56:20,905 INFO Swept 20682 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 22:01:22,382 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 22:01:24,970 INFO PAPER rest NO bid KXLVBPGAME-26NOV171800MAGCAR-MAG at $0.4300 x5 (0 already bid at that price)
+2026-11-17 22:01:24,970 INFO Resting NO bid on KXLVBPGAME-26NOV171800MAGCAR-MAG at $0.4300 x5 (KXLVBPGAME-26NOV171800MAGCAR): locks in $0.28 if it fills; hedge NO CAR@0.4900
+2026-11-17 22:01:24,972 INFO Swept 20660 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-17 22:03:46,542 INFO PAPER KXLVBPGAME-26NOV171800MAGCAR-MAG NO bid at $0.4300: 5/5 filled by real trades
+2026-11-17 22:03:46,556 INFO PAPER buy 5 NO KXLVBPGAME-26NOV171800MAGCAR-CAR at up to $0.4900: filled 5
+2026-11-17 22:03:46,556 INFO Quote KXLVBPGAME-26NOV171800MAGCAR filled 5: hedged, locks in $0.28
+2026-11-17 22:03:56,631 INFO Quote KXLIDOMGAME-26NOV171815TORESC cancelled (0/2 filled)
+2026-11-17 22:06:27,191 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-17 22:06:29,668 INFO Swept 20642 events: 0 taker trades, 0 new quotes, 0 resting
