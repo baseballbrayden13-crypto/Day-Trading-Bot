@@ -16596,11 +16596,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1794969399.062173,
-  "checked": 1794969528.0314353,
+  "checked": 1794971039.699014,
   "expires": 1794971199,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-1187-1794970912": {
+  "id": "paper-1187-1794970912",
+  "ticker": "KXLVBPGAME-26NOV171800MAGCAR-MAG",
+  "price": "0.4300",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1794970912.7601519,
+  "checked": 1794971024.145262,
+  "expires": 1794972712,
+  "through": 7,
+  "at_price": 0,
+  "filled": 2,
+  "status": "executed"
  }
 }

@@ -10254,3 +10254,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 21:36:39,075 INFO PAPER rest NO bid KXLIDOMGAME-26NOV171815TORESC-TOR at $0.2600 x2 (0 already bid at that price)
 2026-11-17 21:36:39,075 INFO Resting NO bid on KXLIDOMGAME-26NOV171815TORESC-TOR at $0.2600 x2 (KXLIDOMGAME-26NOV171815TORESC): locks in $0.45 if it fills; hedge NO ESC@0.4900
 2026-11-17 21:36:39,572 INFO Swept 20792 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-17 21:41:51,654 INFO Swept 20759 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 21:46:44,132 INFO Swept 20742 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 21:51:51,378 INFO Swept 20696 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 21:56:52,372 INFO Swept 20674 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-17 22:01:52,773 INFO PAPER rest NO bid KXLVBPGAME-26NOV171800MAGCAR-MAG at $0.4300 x2 (0 already bid at that price)
+2026-11-17 22:01:52,773 INFO Resting NO bid on KXLVBPGAME-26NOV171800MAGCAR-MAG at $0.4300 x2 (KXLVBPGAME-26NOV171800MAGCAR): locks in $0.11 if it fills; hedge NO CAR@0.4900
+2026-11-17 22:01:53,273 INFO Swept 20659 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-17 22:03:44,206 INFO PAPER KXLVBPGAME-26NOV171800MAGCAR-MAG NO bid at $0.4300: 2/2 filled by real trades
+2026-11-17 22:03:44,284 INFO PAPER buy 2 NO KXLVBPGAME-26NOV171800MAGCAR-CAR at up to $0.4900: filled 2
+2026-11-17 22:03:44,284 INFO Quote KXLVBPGAME-26NOV171800MAGCAR filled 2: hedged, locks in $0.11
+2026-11-17 22:03:59,784 INFO Quote KXLIDOMGAME-26NOV171815TORESC cancelled (0/2 filled)
+2026-11-17 22:06:57,390 INFO Swept 20642 events: 0 taker trades, 0 new quotes, 0 resting
