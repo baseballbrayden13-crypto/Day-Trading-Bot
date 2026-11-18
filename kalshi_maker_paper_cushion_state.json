@@ -458,5 +458,25 @@
    "closed": "2026-11-18T04:32:06.140421+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXEUCHLGAME-26NOV181345GENFRI",
+   "series": "KXEUCHLGAME",
+   "title": "Gen\u00e8ve Servette vs Fribourg Gott\u00e9ron",
+   "ticker": "KXEUCHLGAME-26NOV181345GENFRI-FRI",
+   "order_id": "paper-245-1795032260",
+   "price": "0.4200",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.3800",
+   "multiplier": "1",
+   "placed": 1795032260.0756466,
+   "hedge": [
+    {
+     "ticker": "KXEUCHLGAME-26NOV181345GENFRI-GEN",
+     "limit": "0.2500"
+    }
+   ]
+  }
+ ]
 }

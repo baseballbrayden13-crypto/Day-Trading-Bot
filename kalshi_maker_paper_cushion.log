@@ -4176,3 +4176,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 11:35:31,370 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-18 11:35:33,660 INFO Swept 20862 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 11:36:03,668 INFO Stopped; all quotes cancelled.
+2026-11-18 14:42:09,889 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-18 14:44:04,068 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 14:44:07,735 INFO Swept 21188 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 14:49:08,334 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 14:49:11,410 INFO Swept 21208 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 14:54:11,989 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 14:54:15,063 INFO Swept 21201 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 14:59:15,470 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 14:59:18,804 INFO Swept 21197 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 15:04:16,956 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 15:04:20,075 INFO PAPER rest NO bid KXEUCHLGAME-26NOV181345GENFRI-FRI at $0.4200 x2 (0 already bid at that price)
+2026-11-18 15:04:20,075 INFO Resting NO bid on KXEUCHLGAME-26NOV181345GENFRI-FRI at $0.4200 x2 (KXEUCHLGAME-26NOV181345GENFRI): locks in $0.62 if it fills; hedge NO GEN@0.2500
+2026-11-18 15:04:20,077 INFO Swept 21187 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 15:09:19,910 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 15:09:23,387 INFO Swept 21264 events: 0 taker trades, 0 new quotes, 1 resting
