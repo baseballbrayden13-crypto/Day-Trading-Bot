@@ -1,27 +1,33 @@
 {
- "updated": "2026-11-18T04:30:11+00:00",
+ "updated": "2026-11-18T14:11:15+00:00",
  "scan": {
   "sports": [
+   "americanfootball_nfl",
    "basketball_nba",
    "icehockey_nhl",
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 77,
-  "kalshi_matched": 58,
+  "games": 81,
+  "kalshi_matched": 63,
   "skipped": [],
-  "pinnacle": 30,
-  "credits_left": 338,
-  "spent_today": 12,
-  "allowance": 24
+  "pinnacle": 53,
+  "credits_left": 333,
+  "spent_today": 5,
+  "allowance": 26
  },
  "new_finds": [
-  "Washington Wizards @ Pinnacle 3.5 (fair 3.34, +4.9% expected) Washington Wizards at Toronto Raptors (Wed 7:40PM)",
-  "Fort Wayne Mastodons @ BetRivers 3.75 (fair 3.51, +6.9% expected) Fort Wayne Mastodons at Bradley Braves (Wed 8:00PM)",
-  "ARB 0.9% locked: Fort Wayne Mastodons at Bradley Braves (Wed 8:00PM): $73 Bradley Braves @ FanDuel 1.38, $27 Fort Wayne Mastodons @ BetRivers 3.75",
-  "UC Riverside Highlanders @ BetRivers 3.7 (fair 3.59, +3.1% expected) UC Riverside Highlanders at San Diego Toreros (Wed 9:30PM)"
+  "Boston Univ. Terriers @ BetRivers 2.65 (fair 2.57, +3.2% expected) Boston Univ. Terriers at Merrimack Warriors (Wed 7:00PM)",
+  "Charleston Southern Buccaneers @ BetRivers 2.55 (fair 2.39, +6.8% expected) Wofford Terriers at Charleston Southern Buccaneers (Wed 7:00PM)",
+  "ARB 0.9% locked: Wofford Terriers at Charleston Southern Buccaneers (Wed 7:00PM): $40 Charleston Southern Buccaneers @ BetRivers 2.55, $60 Wofford Terriers @ Bovada 1.67",
+  "Radford Highlanders @ BetRivers 3.2 (fair 3.07, +4.2% expected) Furman Paladins at Radford Highlanders (Wed 7:00PM)",
+  "Vermont Catamounts @ BetOnline.ag 3.45 (fair 3.15, +9.4% expected) Vermont Catamounts at Yale Bulldogs (Wed 7:00PM)",
+  "Vermont Catamounts @ FanDuel 3.25 (fair 3.15, +3.1% expected) Vermont Catamounts at Yale Bulldogs (Wed 7:00PM)",
+  "West Virginia Mountaineers @ Bovada 4.75 (fair 4.41, +7.7% expected) Kansas Jayhawks at West Virginia Mountaineers (Wed 7:30PM)",
+  "West Virginia Mountaineers @ BetRivers 4.6 (fair 4.41, +4.3% expected) Kansas Jayhawks at West Virginia Mountaineers (Wed 7:30PM)",
+  "UNLV Rebels @ Bovada 4.2 (fair 4.07, +3.2% expected) UNLV Rebels at Auburn Tigers (Wed 10:00PM)"
  ],
- "open_bets": 5,
+ "open_bets": 14,
  "record": {
   "value": {
    "bets": 35,

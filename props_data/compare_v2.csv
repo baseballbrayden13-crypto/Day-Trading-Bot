@@ -314,3 +314,64 @@ time,sport,game,stat,player,line,match,book_line,books,fair_yes,yes_ask,no_ask,t
 2026-11-17T14:34:52+00:00,basketball_nba,Detroit Pistons at San Antonio Spurs,player_assists,Ausar Thompson,3.5,near,4.5,6,0.6307,0.63,0.39,KXNBAAST-26NOV17DETSAS-DETATHOMPSON9-4
 2026-11-17T14:34:52+00:00,basketball_nba,Detroit Pistons at San Antonio Spurs,player_assists,Daniss Jenkins,3.5,near,4.5,6,0.6798,0.69,0.35,KXNBAAST-26NOV17DETSAS-DETDJENKINS24-4
 2026-11-17T14:34:52+00:00,basketball_nba,Detroit Pistons at San Antonio Spurs,player_assists,Paul Reed,1.5,exact,1.5,5,0.5913,0.6,0.44,KXNBAAST-26NOV17DETSAS-DETPREED7-2
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Jarrett Allen,14.5,exact,14.5,6,0.4953,0.49,0.53,KXNBAPTS-26NOV18MEMCLE-CLEJALLEN31-15
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Donovan Mitchell,24.5,near,25.5,6,0.5473,0.56,0.53,KXNBAPTS-26NOV18MEMCLE-CLEDMITCHELL45-25
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Peyton Watson,9.5,near,12.5,3,0.7815,0.76,0.31,KXNBAPTS-26NOV18MEMCLE-CLEPWATSON8-10
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,James Harden,14.5,near,17.5,7,0.6889,0.68,0.45,KXNBAPTS-26NOV18MEMCLE-CLEJHARDEN1-15
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Tyrese Proctor,9.5,near,12.5,7,0.7746,0.74,0.33,KXNBAPTS-26NOV18MEMCLE-CLETPROCTOR24-10
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Jerami Grant,9.5,near,12.5,6,0.7696,0.72,0.32,KXNBAPTS-26NOV18MEMCLE-MEMJGRANT9-10
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Cam Spencer,9.5,near,12.5,5,0.7815,0.74,0.28,KXNBAPTS-26NOV18MEMCLE-MEMCSPENCER24-10
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Jaylen Wells,9.5,near,10.5,7,0.6276,0.6,0.46,KXNBAPTS-26NOV18MEMCLE-MEMJWELLS0-10
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Cameron Boozer,19.5,exact,19.5,7,0.4907,0.5,0.51,KXNBAPTS-26NOV18MEMCLE-MEMCBOOZER27-20
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Cedric Coward,14.5,near,16.5,4,0.6396,0.6,0.43,KXNBAPTS-26NOV18MEMCLE-MEMCCOWARD23-15
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Cedric Coward,14.5,near,15.5,4,0.5925,0.6,0.43,KXNBAPTS-26NOV18MEMCLE-MEMCCOWARD23-15
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_points,Zach Edey,9.5,exact,9.5,6,0.502,0.5,0.52,KXNBAPTS-26NOV18MEMCLE-MEMZEDEY14-10
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_rebounds,Jarrett Allen,9.5,exact,9.5,7,0.48,0.47,0.54,KXNBAREB-26NOV18MEMCLE-CLEJALLEN31-10
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_rebounds,Donovan Mitchell,3.5,near,4.5,7,0.6886,0.65,0.41,KXNBAREB-26NOV18MEMCLE-CLEDMITCHELL45-4
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_rebounds,Peyton Watson,3.5,near,4.5,7,0.6802,0.64,0.39,KXNBAREB-26NOV18MEMCLE-CLEPWATSON8-4
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_rebounds,James Harden,3.5,near,4.5,7,0.6911,0.67,0.37,KXNBAREB-26NOV18MEMCLE-CLEJHARDEN1-4
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_rebounds,Tyrese Proctor,3.5,exact,3.5,7,0.5567,0.58,0.45,KXNBAREB-26NOV18MEMCLE-CLETPROCTOR24-4
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_rebounds,Cameron Boozer,7.5,near,8.5,7,0.6157,0.64,0.4,KXNBAREB-26NOV18MEMCLE-MEMCBOOZER27-8
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_rebounds,Cedric Coward,7.5,exact,7.5,7,0.5174,0.52,0.51,KXNBAREB-26NOV18MEMCLE-MEMCCOWARD23-8
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_rebounds,Zach Edey,7.5,near,8.5,7,0.6002,0.62,0.4,KXNBAREB-26NOV18MEMCLE-MEMZEDEY14-8
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_rebounds,Cam Spencer,3.5,exact,3.5,7,0.4372,0.46,0.57,KXNBAREB-26NOV18MEMCLE-MEMCSPENCER24-4
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,Jarrett Allen,1.5,exact,1.5,6,0.5093,0.53,0.51,KXNBAAST-26NOV18MEMCLE-CLEJALLEN31-2
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,Donovan Mitchell,3.5,near,4.5,5,0.7428,0.75,0.3,KXNBAAST-26NOV18MEMCLE-CLEDMITCHELL45-4
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,Donovan Mitchell,5.5,exact,5.5,3,0.4316,0.43,0.61,KXNBAAST-26NOV18MEMCLE-CLEDMITCHELL45-6
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,James Harden,5.5,near,6.5,7,0.6236,0.64,0.41,KXNBAAST-26NOV18MEMCLE-CLEJHARDEN1-6
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,Tyrese Proctor,3.5,exact,3.5,7,0.4548,0.48,0.56,KXNBAAST-26NOV18MEMCLE-CLETPROCTOR24-4
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,Jerami Grant,1.5,exact,1.5,5,0.5541,0.56,0.49,KXNBAAST-26NOV18MEMCLE-MEMJGRANT9-2
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,Cam Spencer,7.5,near,8.5,4,0.5465,0.53,0.48,KXNBAAST-26NOV18MEMCLE-MEMCSPENCER24-8
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,Cam Spencer,7.5,exact,7.5,4,0.5214,0.53,0.48,KXNBAAST-26NOV18MEMCLE-MEMCSPENCER24-8
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,Jaylen Wells,1.5,exact,1.5,6,0.49,0.52,0.51,KXNBAAST-26NOV18MEMCLE-MEMJWELLS0-2
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,Cameron Boozer,3.5,near,4.5,6,0.7368,0.75,0.29,KXNBAAST-26NOV18MEMCLE-MEMCBOOZER27-4
+2026-11-18T14:11:19+00:00,basketball_nba,Memphis Grizzlies at Cleveland Cavaliers,player_assists,Cedric Coward,3.5,exact,3.5,7,0.5027,0.53,0.5,KXNBAAST-26NOV18MEMCLE-MEMCCOWARD23-4
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Pascal Siakam,19.5,near,21.5,3,0.5814,0.6,0.46,KXNBAPTS-26NOV18HOUIND-INDPSIAKAM43-20
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Pascal Siakam,19.5,near,20.5,5,0.5785,0.6,0.46,KXNBAPTS-26NOV18HOUIND-INDPSIAKAM43-20
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Fred VanVleet,9.5,near,12.5,3,0.7827,0.71,0.31,KXNBAPTS-26NOV18HOUIND-HOUFVANVLEET5-10
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Kelly Oubre Jr.,9.5,near,12.5,6,0.7541,0.68,0.35,KXNBAPTS-26NOV18HOUIND-INDKOUBRE10-10
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Ivica Zubac,9.5,near,12.5,6,0.7445,0.68,0.34,KXNBAPTS-26NOV18HOUIND-INDIZUBAC40-10
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Kevin Durant,19.5,near,22.5,5,0.6667,0.71,0.31,KXNBAPTS-26NOV18HOUIND-HOUKDURANT7-20
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Kevin Durant,19.5,near,23.5,3,0.6659,0.71,0.31,KXNBAPTS-26NOV18HOUIND-HOUKDURANT7-20
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Alperen Sengun,19.5,near,20.5,6,0.5667,0.59,0.44,KXNBAPTS-26NOV18HOUIND-HOUASENGUN28-20
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Jabari Smith Jr.,14.5,near,15.5,7,0.5578,0.53,0.48,KXNBAPTS-26NOV18HOUIND-HOUJSMITH10-15
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Amen Thompson,14.5,near,15.5,6,0.5663,0.56,0.46,KXNBAPTS-26NOV18HOUIND-HOUATHOMPSON1-15
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_points,Andrew Nembhard,14.5,exact,14.5,6,0.5147,0.52,0.5,KXNBAPTS-26NOV18HOUIND-INDANEMBHARD2-15
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_rebounds,Fred VanVleet,3.5,exact,3.5,5,0.4036,0.41,0.63,KXNBAREB-26NOV18HOUIND-HOUFVANVLEET5-4
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_rebounds,Kevin Durant,5.5,exact,5.5,7,0.4483,0.46,0.57,KXNBAREB-26NOV18HOUIND-HOUKDURANT7-6
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_rebounds,Alperen Sengun,9.5,exact,9.5,7,0.4973,0.5,0.52,KXNBAREB-26NOV18HOUIND-HOUASENGUN28-10
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_rebounds,Jabari Smith Jr.,5.5,near,6.5,7,0.6895,0.71,0.34,KXNBAREB-26NOV18HOUIND-HOUJSMITH10-6
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_rebounds,Amen Thompson,7.5,exact,7.5,6,0.4787,0.46,0.55,KXNBAREB-26NOV18HOUIND-HOUATHOMPSON1-8
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_rebounds,Pascal Siakam,5.5,exact,5.5,7,0.5067,0.48,0.53,KXNBAREB-26NOV18HOUIND-INDPSIAKAM43-6
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_rebounds,Aaron Nesmith,3.5,exact,3.5,6,0.5,0.5,0.52,KXNBAREB-26NOV18HOUIND-INDANESMITH23-4
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_rebounds,Kelly Oubre Jr.,3.5,exact,3.5,7,0.48,0.5,0.53,KXNBAREB-26NOV18HOUIND-INDKOUBRE10-4
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_rebounds,Ivica Zubac,9.5,exact,9.5,5,0.4613,0.45,0.58,KXNBAREB-26NOV18HOUIND-INDIZUBAC40-10
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_rebounds,Ivica Zubac,7.5,near,8.5,3,0.6664,0.69,0.39,KXNBAREB-26NOV18HOUIND-INDIZUBAC40-8
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Fred VanVleet,5.5,exact,5.5,6,0.4489,0.46,0.56,KXNBAAST-26NOV18HOUIND-HOUFVANVLEET5-6
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Kevin Durant,3.5,exact,3.5,7,0.5541,0.58,0.44,KXNBAAST-26NOV18HOUIND-HOUKDURANT7-4
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Alperen Sengun,5.5,near,6.5,6,0.6928,0.73,0.33,KXNBAAST-26NOV18HOUIND-HOUASENGUN28-6
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Jabari Smith Jr.,1.5,exact,1.5,5,0.5215,0.54,0.48,KXNBAAST-26NOV18HOUIND-HOUJSMITH10-2
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Amen Thompson,3.5,exact,3.5,6,0.4693,0.48,0.54,KXNBAAST-26NOV18HOUIND-HOUATHOMPSON1-4
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Pascal Siakam,3.5,exact,3.5,7,0.4548,0.49,0.53,KXNBAAST-26NOV18HOUIND-INDPSIAKAM43-4
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Ivica Zubac,1.5,exact,1.5,5,0.52,0.56,0.47,KXNBAAST-26NOV18HOUIND-INDIZUBAC40-2
+2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Andrew Nembhard,5.5,near,6.5,6,0.6401,0.66,0.38,KXNBAAST-26NOV18HOUIND-INDANEMBHARD2-6

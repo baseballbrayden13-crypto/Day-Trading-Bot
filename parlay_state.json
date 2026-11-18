@@ -1,5 +1,132 @@
 {
- "open": [],
+ "open": [
+  {
+   "kind": "game",
+   "game": "Cleveland Cavaliers vs Memphis Grizzlies",
+   "start": "2026-11-19T00:10:00Z",
+   "legs": [
+    {
+     "label": "Cleveland Cavaliers to win",
+     "ticker": "KXNBAGAME-26NOV18MEMCLE-CLE",
+     "side": "yes",
+     "price": 0.64,
+     "fair": 0.6333,
+     "value": -0.0237,
+     "player": ""
+    },
+    {
+     "label": "Jerami Grant 10+ points",
+     "ticker": "KXNBAPTS-26NOV18MEMCLE-MEMJGRANT9-10",
+     "side": "yes",
+     "price": 0.72,
+     "fair": 0.7696,
+     "value": 0.0346,
+     "player": "Jerami Grant"
+    },
+    {
+     "label": "Cam Spencer 10+ points",
+     "ticker": "KXNBAPTS-26NOV18MEMCLE-MEMCSPENCER24-10",
+     "side": "yes",
+     "price": 0.74,
+     "fair": 0.7815,
+     "value": 0.0275,
+     "player": "Cam Spencer"
+    },
+    {
+     "label": "Peyton Watson 4+ rebounds",
+     "ticker": "KXNBAREB-26NOV18MEMCLE-CLEPWATSON8-4",
+     "side": "yes",
+     "price": 0.64,
+     "fair": 0.6802,
+     "value": 0.0232,
+     "player": "Peyton Watson"
+    }
+   ],
+   "price": 0.2392,
+   "fair": 0.2591,
+   "pays": "+318",
+   "per_dollar": 4.18,
+   "opened": "2026-11-18T14:11:21+00:00"
+  },
+  {
+   "kind": "game",
+   "game": "Houston Rockets vs Indiana Pacers",
+   "start": "2026-11-19T00:10:00Z",
+   "legs": [
+    {
+     "label": "Kelly Oubre Jr. 10+ points",
+     "ticker": "KXNBAPTS-26NOV18HOUIND-INDKOUBRE10-10",
+     "side": "yes",
+     "price": 0.68,
+     "fair": 0.7541,
+     "value": 0.0581,
+     "player": "Kelly Oubre Jr."
+    },
+    {
+     "label": "Fred VanVleet 10+ points",
+     "ticker": "KXNBAPTS-26NOV18HOUIND-HOUFVANVLEET5-10",
+     "side": "yes",
+     "price": 0.71,
+     "fair": 0.7827,
+     "value": 0.0577,
+     "player": "Fred VanVleet"
+    },
+    {
+     "label": "Ivica Zubac 10+ points",
+     "ticker": "KXNBAPTS-26NOV18HOUIND-INDIZUBAC40-10",
+     "side": "yes",
+     "price": 0.68,
+     "fair": 0.7445,
+     "value": 0.0485,
+     "player": "Ivica Zubac"
+    }
+   ],
+   "price": 0.3512,
+   "fair": 0.4394,
+   "pays": "+185",
+   "per_dollar": 2.85,
+   "opened": "2026-11-18T14:11:21+00:00"
+  },
+  {
+   "kind": "favorites",
+   "game": "Favorites across games",
+   "start": "2026-11-19T02:00:00Z",
+   "legs": [
+    {
+     "label": "Arizona Wildcats to win",
+     "ticker": "KXNCAAMBGAME-26NOV18CONNARIZ-ARIZ",
+     "side": "yes",
+     "price": 0.6,
+     "fair": 0.6029,
+     "value": -0.0141,
+     "player": ""
+    },
+    {
+     "label": "Chattanooga Mocs to win",
+     "ticker": "KXNCAAMBGAME-26NOV18CHATWIN-CHAT",
+     "side": "yes",
+     "price": 0.61,
+     "fair": 0.6104,
+     "value": -0.0166,
+     "player": ""
+    },
+    {
+     "label": "Arizona St Sun Devils to win",
+     "ticker": "KXNCAAMBGAME-26NOV18OAKASU-ASU",
+     "side": "yes",
+     "price": 0.98,
+     "fair": 0.9626,
+     "value": -0.0194,
+     "player": ""
+    }
+   ],
+   "price": 0.3799,
+   "fair": 0.3542,
+   "pays": "+163",
+   "per_dollar": 2.63,
+   "opened": "2026-11-18T14:11:21+00:00"
+  }
+ ],
  "seen": {
   "game|New York Giants vs Washington Commanders|2026-11-13": "2026-11-12T20:47:35.070786+00:00",
   "favorites|Favorites across games|2026-11-12": "2026-11-12T20:47:35.070786+00:00",
@@ -15,6 +142,9 @@
   "game|Chicago Bulls vs Cleveland Cavaliers|2026-11-17": "2026-11-16T22:16:18.646078+00:00",
   "game|New York Knicks vs Toronto Raptors|2026-11-18": "2026-11-17T14:34:54.618203+00:00",
   "game|Detroit Pistons vs San Antonio Spurs|2026-11-18": "2026-11-17T14:34:54.618203+00:00",
-  "favorites|Favorites across games|2026-11-17": "2026-11-17T14:34:54.618203+00:00"
+  "favorites|Favorites across games|2026-11-17": "2026-11-17T14:34:54.618203+00:00",
+  "game|Cleveland Cavaliers vs Memphis Grizzlies|2026-11-19": "2026-11-18T14:11:21.396666+00:00",
+  "game|Houston Rockets vs Indiana Pacers|2026-11-19": "2026-11-18T14:11:21.396666+00:00",
+  "favorites|Favorites across games|2026-11-18": "2026-11-18T14:11:21.396666+00:00"
  }
 }
