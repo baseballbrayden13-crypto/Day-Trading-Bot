@@ -10166,3 +10166,91 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-17 20:56:13,844 INFO Quote KXLVBPGAME-26NOV171800MAGCAR cancelled (0/2 filled)
 2026-11-17 21:01:17,229 INFO Swept 20616 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-17 21:06:18,924 INFO Swept 20616 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:11:18,086 ERROR Maker loop error; carrying on
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1478, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 312, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1478, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 312, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_maker.py", line 704, in main
+    traded = kl.trade(api, cfg, baskets)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 424, in trade
+    settle(api, state)
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 359, in settle
+    results = {l["ticker"]: api.market(l["ticker"]).get("result", "") for l in b["legs"]}
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 175, in market
+    return self.request("GET", f"/markets/{ticker}").get("market", {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_maker.py", line 591, in request
+    return super().request(method, path, params, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Day-Trading-Bot/Day-Trading-Bot/code/bot/kalshi_live.py", line 142, in request
+    r = self.http.request(method, self.base + path, params=params, json=body,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-17 21:16:26,173 INFO Swept 20675 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:21:29,907 INFO Swept 20704 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:26:31,658 INFO Swept 20759 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:31:36,354 INFO Swept 20784 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-17 21:36:39,075 INFO PAPER rest NO bid KXLIDOMGAME-26NOV171815TORESC-TOR at $0.2600 x2 (0 already bid at that price)
+2026-11-17 21:36:39,075 INFO Resting NO bid on KXLIDOMGAME-26NOV171815TORESC-TOR at $0.2600 x2 (KXLIDOMGAME-26NOV171815TORESC): locks in $0.45 if it fills; hedge NO ESC@0.4900
+2026-11-17 21:36:39,572 INFO Swept 20792 events: 0 taker trades, 1 new quotes, 1 resting

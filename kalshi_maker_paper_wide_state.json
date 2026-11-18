@@ -2872,5 +2872,25 @@
    "closed": "2026-11-17T02:36:27.185491+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIDOMGAME-26NOV171815TORESC",
+   "series": "KXLIDOMGAME",
+   "title": "Toros del Este vs Leones del Escogido",
+   "ticker": "KXLIDOMGAME-26NOV171815TORESC-TOR",
+   "order_id": "paper-1186-1794969399",
+   "price": "0.2600",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.5500",
+   "multiplier": "1",
+   "placed": 1794969399.0755682,
+   "hedge": [
+    {
+     "ticker": "KXLIDOMGAME-26NOV171815TORESC-ESC",
+     "limit": "0.4900"
+    }
+   ]
+  }
+ ]
 }
