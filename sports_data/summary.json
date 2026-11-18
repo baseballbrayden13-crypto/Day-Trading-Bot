@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T23:27:57-05:00",
+ "updated": "2026-11-18T17:37:03-05:00",
  "live": {
-  "bets": 80,
-  "wins": 31,
-  "losses": 49,
-  "pnl": -100.02,
-  "roi": -0.125,
+  "bets": 82,
+  "wins": 32,
+  "losses": 50,
+  "pnl": -106.86,
+  "roi": -0.1303,
   "by_league": {
    "ncaaf": {
     "bets": 25,
@@ -13,9 +13,9 @@
     "pnl": -30.17
    },
    "nba": {
-    "bets": 26,
-    "wins": 14,
-    "pnl": 51.14
+    "bets": 28,
+    "wins": 15,
+    "pnl": 44.3
    },
    "nhl": {
     "bets": 25,
@@ -28,14 +28,14 @@
     "pnl": -40.0
    }
   },
-  "open": 2
+  "open": 9
  },
  "test": {
-  "bets": 804,
-  "wins": 310,
-  "losses": 494,
-  "pnl": -734.77,
-  "roi": -0.0914,
+  "bets": 812,
+  "wins": 313,
+  "losses": 499,
+  "pnl": -758.81,
+  "roi": -0.0934,
   "by_league": {
    "nfl": {
     "bets": 40,
@@ -43,14 +43,14 @@
     "pnl": -197.05
    },
    "ncaaf": {
-    "bets": 60,
+    "bets": 61,
     "wins": 24,
-    "pnl": -22.47
+    "pnl": -32.47
    },
    "nba": {
-    "bets": 71,
-    "wins": 34,
-    "pnl": 0.23
+    "bets": 74,
+    "wins": 35,
+    "pnl": -16.31
    },
    "wnba": {
     "bets": 47,
@@ -58,9 +58,9 @@
     "pnl": 35.55
    },
    "nhl": {
-    "bets": 138,
-    "wins": 45,
-    "pnl": -323.63
+    "bets": 142,
+    "wins": 47,
+    "pnl": -321.13
    },
    "mlb": {
     "bets": 448,
@@ -77,14 +77,14 @@
    "market_brier": 0.1969
   },
   "ncaaf": {
-   "games": 132,
-   "elo_brier": 0.2191,
-   "market_brier": 0.2029
+   "games": 135,
+   "elo_brier": 0.2158,
+   "market_brier": 0.1994
   },
   "nba": {
-   "games": 142,
-   "elo_brier": 0.21,
-   "market_brier": 0.1836
+   "games": 147,
+   "elo_brier": 0.2133,
+   "market_brier": 0.1877
   },
   "wnba": {
    "games": 117,
@@ -92,9 +92,9 @@
    "market_brier": 0.1836
   },
   "nhl": {
-   "games": 263,
-   "elo_brier": 0.2439,
-   "market_brier": 0.2275
+   "games": 274,
+   "elo_brier": 0.2441,
+   "market_brier": 0.2283
   },
   "mlb": {
    "games": 902,
@@ -102,7 +102,7 @@
    "market_brier": 0.2381
   }
  },
- "picks_today": 0,
+ "picks_today": 9,
  "settings": {
   "leagues": [
    "nfl",
