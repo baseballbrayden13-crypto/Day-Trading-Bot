@@ -1,4 +1,4 @@
-# Gameday parlays (Wed Nov 18, 9:11 AM ET)
+# Gameday parlays (Wed Nov 18, 5:04 PM ET)
 
 Advice and pretend money only. Prices are Kalshi's, with its fee. The fair chance multiplies the legs' chances, so same-game legs (which move together) make it a rough guide.
 
@@ -30,10 +30,10 @@ Pays -102 ($1.98 back per $1). Fair chance all legs hit: 59%.
 - Kelly Oubre Jr. 10+ points: Kalshi 68c YES, fair 75%
 
 ## Favorites across games (favorites, Wed 9:00 PM ET)
-Pays +163 ($2.63 back per $1). Fair chance all legs hit: 35%.
+Pays +205 ($3.05 back per $1). Fair chance all legs hit: 31%.
 
+- Yale Bulldogs to win: Kalshi 74c YES, fair 74%
+- Florida Atlantic Owls to win: Kalshi 69c YES, fair 69%
 - Arizona Wildcats to win: Kalshi 60c YES, fair 60%
-- Chattanooga Mocs to win: Kalshi 61c YES, fair 61%
-- Arizona St Sun Devils to win: Kalshi 98c YES, fair 96%
 
 Pretend record so far: 15 settled, 2 won, profit $-10.02 on $1 each.

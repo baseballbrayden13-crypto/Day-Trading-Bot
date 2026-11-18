@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T14:11:15+00:00",
+ "updated": "2026-11-18T22:04:25+00:00",
  "scan": {
   "sports": [
    "americanfootball_nfl",
@@ -8,26 +8,19 @@
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 81,
-  "kalshi_matched": 63,
+  "games": 107,
+  "kalshi_matched": 86,
   "skipped": [],
-  "pinnacle": 53,
-  "credits_left": 333,
-  "spent_today": 5,
-  "allowance": 26
+  "pinnacle": 64,
+  "credits_left": 322,
+  "spent_today": 10,
+  "allowance": 25
  },
  "new_finds": [
-  "Boston Univ. Terriers @ BetRivers 2.65 (fair 2.57, +3.2% expected) Boston Univ. Terriers at Merrimack Warriors (Wed 7:00PM)",
-  "Charleston Southern Buccaneers @ BetRivers 2.55 (fair 2.39, +6.8% expected) Wofford Terriers at Charleston Southern Buccaneers (Wed 7:00PM)",
-  "ARB 0.9% locked: Wofford Terriers at Charleston Southern Buccaneers (Wed 7:00PM): $40 Charleston Southern Buccaneers @ BetRivers 2.55, $60 Wofford Terriers @ Bovada 1.67",
-  "Radford Highlanders @ BetRivers 3.2 (fair 3.07, +4.2% expected) Furman Paladins at Radford Highlanders (Wed 7:00PM)",
-  "Vermont Catamounts @ BetOnline.ag 3.45 (fair 3.15, +9.4% expected) Vermont Catamounts at Yale Bulldogs (Wed 7:00PM)",
-  "Vermont Catamounts @ FanDuel 3.25 (fair 3.15, +3.1% expected) Vermont Catamounts at Yale Bulldogs (Wed 7:00PM)",
-  "West Virginia Mountaineers @ Bovada 4.75 (fair 4.41, +7.7% expected) Kansas Jayhawks at West Virginia Mountaineers (Wed 7:30PM)",
-  "West Virginia Mountaineers @ BetRivers 4.6 (fair 4.41, +4.3% expected) Kansas Jayhawks at West Virginia Mountaineers (Wed 7:30PM)",
-  "UNLV Rebels @ Bovada 4.2 (fair 4.07, +3.2% expected) UNLV Rebels at Auburn Tigers (Wed 10:00PM)"
+  "Morgan St Bears @ BetRivers 4.0 (fair 3.86, +3.7% expected) Morgan St Bears at North Carolina A&T Aggies (Wed 7:00PM)",
+  "West Virginia Mountaineers @ BetOnline.ag 4.16 (fair 4.03, +3.2% expected) Kansas Jayhawks at West Virginia Mountaineers (Wed 7:30PM)"
  ],
- "open_bets": 14,
+ "open_bets": 16,
  "record": {
   "value": {
    "bets": 35,

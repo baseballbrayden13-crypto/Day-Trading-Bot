@@ -277,6 +277,44 @@
     }
    ],
    "opened": "2026-11-18T14:11:15+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Morgan St Bears at North Carolina A&T Aggies",
+   "game_id": "76fcb84461ad12196d08770d0d8bebc8",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-19T00:00:00Z",
+   "edge": 0.0369,
+   "home": "North Carolina A&T Aggies",
+   "away": "Morgan St Bears",
+   "legs": [
+    {
+     "team": "Morgan St Bears",
+     "book": "BetRivers",
+     "odds": 4.0,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-18T22:04:25+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Kansas Jayhawks at West Virginia Mountaineers",
+   "game_id": "c36425b5ec4189fc1acd91902c721bf2",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-19T00:30:00Z",
+   "edge": 0.0319,
+   "home": "West Virginia Mountaineers",
+   "away": "Kansas Jayhawks",
+   "legs": [
+    {
+     "team": "West Virginia Mountaineers",
+     "book": "BetOnline.ag",
+     "odds": 4.16,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-18T22:04:25+00:00"
   }
  ],
  "seen": {
@@ -341,18 +379,20 @@
   "value|d5b20b33c88b112012af9cf6db1b73b8|Vermont Catamounts|FanDuel": "2026-11-18T14:11:15.904199+00:00",
   "value|c36425b5ec4189fc1acd91902c721bf2|West Virginia Mountaineers|Bovada": "2026-11-18T14:11:15.904199+00:00",
   "value|c36425b5ec4189fc1acd91902c721bf2|West Virginia Mountaineers|BetRivers": "2026-11-18T14:11:15.904199+00:00",
-  "value|b86b3fdea018ce4da96e2f720e3a5842|UNLV Rebels|Bovada": "2026-11-18T14:11:15.904199+00:00"
+  "value|b86b3fdea018ce4da96e2f720e3a5842|UNLV Rebels|Bovada": "2026-11-18T14:11:15.904199+00:00",
+  "value|76fcb84461ad12196d08770d0d8bebc8|Morgan St Bears|BetRivers": "2026-11-18T22:04:25.401007+00:00",
+  "value|c36425b5ec4189fc1acd91902c721bf2|West Virginia Mountaineers|BetOnline.ag": "2026-11-18T22:04:25.401007+00:00"
  },
  "credits": {
   "day": "2026-11-18",
-  "spent": 5,
-  "remaining": 333
+  "spent": 10,
+  "remaining": 322
  },
  "last_priced": {
-  "basketball_nba": "2026-11-18T14:11:15.904199+00:00",
-  "icehockey_nhl": "2026-11-18T14:11:15.904199+00:00",
-  "americanfootball_ncaaf": "2026-11-18T14:11:15.904199+00:00",
-  "basketball_ncaab": "2026-11-18T14:11:15.904199+00:00",
-  "americanfootball_nfl": "2026-11-18T14:11:15.904199+00:00"
+  "basketball_nba": "2026-11-18T22:04:25.401007+00:00",
+  "icehockey_nhl": "2026-11-18T22:04:25.401007+00:00",
+  "americanfootball_ncaaf": "2026-11-18T22:04:25.401007+00:00",
+  "basketball_ncaab": "2026-11-18T22:04:25.401007+00:00",
+  "americanfootball_nfl": "2026-11-18T22:04:25.401007+00:00"
  }
 }
