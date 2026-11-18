@@ -4142,3 +4142,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 10:14:52,344 INFO Swept 20814 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 10:19:54,705 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
 2026-11-18 10:19:57,173 INFO Swept 20819 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:24:57,892 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 10:25:00,490 INFO Swept 20814 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:30:02,288 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 10:30:04,486 INFO Swept 20811 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:35:04,310 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 10:35:06,480 INFO Swept 20810 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:40:06,775 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 10:40:08,957 INFO Swept 20819 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 10:45:09,111 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 10:45:12,029 INFO PAPER rest NO bid KXLVBPGAME-26NOV181200ANZZUL-ANZ at $0.3900 x5 (100 already bid at that price)
+2026-11-18 10:45:12,029 INFO Resting NO bid on KXLVBPGAME-26NOV181200ANZZUL-ANZ at $0.39 x5 (KXLVBPGAME-26NOV181200ANZZUL): locks in $0.23 if it fills; hedge NO ZUL@0.5400
+2026-11-18 10:45:12,031 INFO Swept 20816 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 10:50:11,712 INFO Not quoting (hedges keep missing): KXLIGAMXWGAME
+2026-11-18 10:50:13,909 INFO Swept 20818 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-18 10:52:17,642 INFO Quote KXLVBPGAME-26NOV181200ANZZUL cancelled (0/5 filled)
