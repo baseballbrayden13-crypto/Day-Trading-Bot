@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:57:34+00:00",
+ "updated": "2026-11-18T04:30:11+00:00",
  "scan": {
   "sports": [
    "basketball_nba",
@@ -7,49 +7,49 @@
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 103,
-  "kalshi_matched": 85,
+  "games": 77,
+  "kalshi_matched": 58,
   "skipped": [],
-  "pinnacle": 59,
-  "credits_left": 342,
-  "spent_today": 8,
-  "allowance": 25
+  "pinnacle": 30,
+  "credits_left": 338,
+  "spent_today": 12,
+  "allowance": 24
  },
  "new_finds": [
-  "Toronto Raptors @ Pinnacle 2.41 (fair 2.29, +5.4% expected) New York Knicks at Toronto Raptors (Tue 7:40PM)",
-  "ARB 1.1% locked: New York Knicks at Toronto Raptors (Tue 7:40PM): $58 New York Knicks @ Bovada 1.74, $42 Toronto Raptors @ Pinnacle 2.41",
-  "Saint Peter's Peacocks @ BetRivers 2.95 (fair 2.85, +3.6% expected) Saint Peter's Peacocks at UMass Lowell River Hawks (Tue 6:00PM)",
-  "Illinois Fighting Illini @ BetOnline.ag 4.5 (fair 4.35, +3.5% expected) Illinois Fighting Illini at Duke Blue Devils (Tue 7:00PM)"
+  "Washington Wizards @ Pinnacle 3.5 (fair 3.34, +4.9% expected) Washington Wizards at Toronto Raptors (Wed 7:40PM)",
+  "Fort Wayne Mastodons @ BetRivers 3.75 (fair 3.51, +6.9% expected) Fort Wayne Mastodons at Bradley Braves (Wed 8:00PM)",
+  "ARB 0.9% locked: Fort Wayne Mastodons at Bradley Braves (Wed 8:00PM): $73 Bradley Braves @ FanDuel 1.38, $27 Fort Wayne Mastodons @ BetRivers 3.75",
+  "UC Riverside Highlanders @ BetRivers 3.7 (fair 3.59, +3.1% expected) UC Riverside Highlanders at San Diego Toreros (Wed 9:30PM)"
  ],
- "open_bets": 13,
+ "open_bets": 5,
  "record": {
   "value": {
-   "bets": 28,
-   "wins": 6,
-   "staked": 280.0,
-   "pnl": -12.9,
-   "roi": -0.0461
+   "bets": 35,
+   "wins": 7,
+   "staked": 350.0,
+   "pnl": -27.9,
+   "roi": -0.0797
   },
   "kalshi": {
-   "bets": 2,
-   "wins": 0,
-   "staked": 20.0,
-   "pnl": -20.0,
-   "roi": -1.0
+   "bets": 4,
+   "wins": 1,
+   "staked": 40.0,
+   "pnl": 5.05,
+   "roi": 0.1262
   },
   "arb": {
-   "bets": 6,
-   "wins": 6,
-   "staked": 600.0,
-   "pnl": 9.2,
-   "roi": 0.0153
+   "bets": 9,
+   "wins": 9,
+   "staked": 900.0,
+   "pnl": 12.59,
+   "roi": 0.014
   },
   "all": {
-   "bets": 36,
-   "wins": 12,
-   "staked": 900.0,
-   "pnl": -23.7,
-   "roi": -0.0263
+   "bets": 48,
+   "wins": 17,
+   "staked": 1290.0,
+   "pnl": -10.26,
+   "roi": -0.008
   }
  }
 }

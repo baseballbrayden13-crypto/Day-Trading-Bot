@@ -2,25 +2,6 @@
  "open": [
   {
    "kind": "value",
-   "game": "SE Missouri St Redhawks at Middle Tennessee Blue Raiders",
-   "game_id": "a75b53f6f3069aebd0d6889fd109a53d",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-14T00:30:00Z",
-   "edge": 0.0415,
-   "home": "Middle Tennessee Blue Raiders",
-   "away": "SE Missouri St Redhawks",
-   "legs": [
-    {
-     "team": "SE Missouri St Redhawks",
-     "book": "BetRivers",
-     "odds": 3.15,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-13T23:39:17+00:00"
-  },
-  {
-   "kind": "value",
    "game": "North Dakota State Bison at Hawaii Rainbow Warriors",
    "game_id": "ce88da9d6fd67bac81c1e4a70545de29",
    "sport": "americanfootball_ncaaf",
@@ -40,234 +21,85 @@
   },
   {
    "kind": "value",
-   "game": "Villanova Wildcats at Pittsburgh Panthers",
-   "game_id": "39bce9119f7631dfd8656e4e8d388192",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-18T00:00:00Z",
-   "edge": 0.0305,
-   "home": "Pittsburgh Panthers",
-   "away": "Villanova Wildcats",
+   "game": "Washington Wizards at Toronto Raptors",
+   "game_id": "5896e4ed2ed41ce673e882b6529078b8",
+   "sport": "basketball_nba",
+   "start": "2026-11-19T00:40:00Z",
+   "edge": 0.0492,
+   "home": "Toronto Raptors",
+   "away": "Washington Wizards",
    "legs": [
     {
-     "team": "Villanova Wildcats",
-     "book": "DraftKings",
-     "odds": 2.1,
+     "team": "Washington Wizards",
+     "book": "Pinnacle",
+     "odds": 3.5,
      "stake": 10.0
     }
    ],
-   "opened": "2026-11-16T22:16:15+00:00"
+   "opened": "2026-11-18T04:30:11+00:00"
   },
   {
    "kind": "value",
-   "game": "Ball State Cardinals at Ohio Bobcats",
-   "game_id": "5840d479fc52ad2b83d7feb802d4dd23",
-   "sport": "americanfootball_ncaaf",
-   "start": "2026-11-18T00:00:00Z",
-   "edge": 0.0339,
-   "home": "Ohio Bobcats",
-   "away": "Ball State Cardinals",
+   "game": "Fort Wayne Mastodons at Bradley Braves",
+   "game_id": "0184484f6b614c2d85a18a6cd254f32f",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-19T01:00:00Z",
+   "edge": 0.0691,
+   "home": "Bradley Braves",
+   "away": "Fort Wayne Mastodons",
    "legs": [
     {
-     "team": "Ball State Cardinals",
+     "team": "Fort Wayne Mastodons",
+     "book": "BetRivers",
+     "odds": 3.75,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-18T04:30:11+00:00"
+  },
+  {
+   "kind": "arb",
+   "game": "Fort Wayne Mastodons at Bradley Braves",
+   "game_id": "0184484f6b614c2d85a18a6cd254f32f",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-19T01:00:00Z",
+   "edge": 0.0088,
+   "home": "Bradley Braves",
+   "away": "Fort Wayne Mastodons",
+   "legs": [
+    {
+     "team": "Bradley Braves",
      "book": "FanDuel",
-     "odds": 4.75,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-17T04:37:58+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Bowling Green Falcons at William & Mary Tribe",
-   "game_id": "ce6dd46cd4c337c1959bb8995b009209",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-18T00:00:00Z",
-   "edge": 0.0331,
-   "home": "William & Mary Tribe",
-   "away": "Bowling Green Falcons",
-   "legs": [
-    {
-     "team": "Bowling Green Falcons",
-     "book": "BetOnline.ag",
-     "odds": 2.3,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-17T04:37:58+00:00"
-  },
-  {
-   "kind": "kalshi",
-   "game": "Detroit Pistons at San Antonio Spurs",
-   "game_id": "69f0b70d1185e537c5ae4be43ebf2c9f",
-   "sport": "basketball_nba",
-   "start": "2026-11-18T01:10:00Z",
-   "edge": 0.0384,
-   "home": "San Antonio Spurs",
-   "away": "Detroit Pistons",
-   "legs": [
-    {
-     "team": "Detroit Pistons",
-     "book": "Kalshi",
-     "odds": 4.505,
-     "stake": 10.0,
-     "ticker": "KXNBAGAME-26NOV17DETSAS-DET"
-    }
-   ],
-   "opened": "2026-11-17T14:34:48+00:00"
-  },
-  {
-   "kind": "arb",
-   "game": "Bryant Bulldogs at Massachusetts Minutemen",
-   "game_id": "4739482816cbaec0b724e890a4609efb",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-18T00:30:00Z",
-   "edge": 0.0067,
-   "home": "Massachusetts Minutemen",
-   "away": "Bryant Bulldogs",
-   "legs": [
-    {
-     "team": "Bryant Bulldogs",
-     "book": "Bovada",
-     "odds": 6.25,
-     "stake": 16.11
+     "odds": 1.38,
+     "stake": 73.1
     },
     {
-     "team": "Massachusetts Minutemen",
-     "book": "BetMGM",
-     "odds": 1.2,
-     "stake": 83.89
-    }
-   ],
-   "opened": "2026-11-17T14:34:48+00:00"
-  },
-  {
-   "kind": "kalshi",
-   "game": "Le Moyne Dolphins at Evansville Purple Aces",
-   "game_id": "21b5086e60cae515922e9a8de32ffd84",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-18T01:00:00Z",
-   "edge": 0.0533,
-   "home": "Evansville Purple Aces",
-   "away": "Le Moyne Dolphins",
-   "legs": [
-    {
-     "team": "Le Moyne Dolphins",
-     "book": "Kalshi",
-     "odds": 4.115,
-     "stake": 10.0,
-     "ticker": "KXNCAAMBGAME-26NOV17LMCEVAN-LMC"
-    }
-   ],
-   "opened": "2026-11-17T14:34:48+00:00"
-  },
-  {
-   "kind": "arb",
-   "game": "Le Moyne Dolphins at Evansville Purple Aces",
-   "game_id": "21b5086e60cae515922e9a8de32ffd84",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-18T01:00:00Z",
-   "edge": 0.0165,
-   "home": "Evansville Purple Aces",
-   "away": "Le Moyne Dolphins",
-   "legs": [
-    {
-     "team": "Evansville Purple Aces",
+     "team": "Fort Wayne Mastodons",
      "book": "BetRivers",
-     "odds": 1.35,
-     "stake": 75.3
-    },
-    {
-     "team": "Le Moyne Dolphins",
-     "book": "Kalshi",
-     "odds": 4.115,
-     "stake": 24.7,
-     "ticker": "KXNCAAMBGAME-26NOV17LMCEVAN-LMC",
-     "ask": 0.23
+     "odds": 3.75,
+     "stake": 26.9
     }
    ],
-   "opened": "2026-11-17T14:34:48+00:00"
+   "opened": "2026-11-18T04:30:11+00:00"
   },
   {
    "kind": "value",
-   "game": "New York Knicks at Toronto Raptors",
-   "game_id": "5ff20ee6933177d35e4f8c875842a0b4",
-   "sport": "basketball_nba",
-   "start": "2026-11-18T00:40:00Z",
-   "edge": 0.054,
-   "home": "Toronto Raptors",
-   "away": "New York Knicks",
-   "legs": [
-    {
-     "team": "Toronto Raptors",
-     "book": "Pinnacle",
-     "odds": 2.41,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-17T22:57:34+00:00"
-  },
-  {
-   "kind": "arb",
-   "game": "New York Knicks at Toronto Raptors",
-   "game_id": "5ff20ee6933177d35e4f8c875842a0b4",
-   "sport": "basketball_nba",
-   "start": "2026-11-18T00:40:00Z",
-   "edge": 0.0105,
-   "home": "Toronto Raptors",
-   "away": "New York Knicks",
-   "legs": [
-    {
-     "team": "New York Knicks",
-     "book": "Bovada",
-     "odds": 1.74,
-     "stake": 58.07
-    },
-    {
-     "team": "Toronto Raptors",
-     "book": "Pinnacle",
-     "odds": 2.41,
-     "stake": 41.93
-    }
-   ],
-   "opened": "2026-11-17T22:57:34+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Saint Peter's Peacocks at UMass Lowell River Hawks",
-   "game_id": "cc8bda41e5ca0051fa27efd930cd1ba2",
+   "game": "UC Riverside Highlanders at San Diego Toreros",
+   "game_id": "71da7a3b35a159e0eda2605454c15805",
    "sport": "basketball_ncaab",
-   "start": "2026-11-17T23:00:00Z",
-   "edge": 0.0359,
-   "home": "UMass Lowell River Hawks",
-   "away": "Saint Peter's Peacocks",
+   "start": "2026-11-19T02:30:00Z",
+   "edge": 0.0306,
+   "home": "San Diego Toreros",
+   "away": "UC Riverside Highlanders",
    "legs": [
     {
-     "team": "Saint Peter's Peacocks",
+     "team": "UC Riverside Highlanders",
      "book": "BetRivers",
-     "odds": 2.95,
+     "odds": 3.7,
      "stake": 10.0
     }
    ],
-   "opened": "2026-11-17T22:57:34+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Illinois Fighting Illini at Duke Blue Devils",
-   "game_id": "e53746f0d6118f523272cb956b7d0133",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-18T00:00:00Z",
-   "edge": 0.0355,
-   "home": "Duke Blue Devils",
-   "away": "Illinois Fighting Illini",
-   "legs": [
-    {
-     "team": "Illinois Fighting Illini",
-     "book": "BetOnline.ag",
-     "odds": 4.5,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-17T22:57:34+00:00"
+   "opened": "2026-11-18T04:30:11+00:00"
   }
  ],
  "seen": {
@@ -319,18 +151,22 @@
   "value|5ff20ee6933177d35e4f8c875842a0b4|Toronto Raptors|Pinnacle": "2026-11-17T22:57:34.717978+00:00",
   "arb|5ff20ee6933177d35e4f8c875842a0b4|New York Knicks@Bovada|Toronto Raptors@Pinnacle": "2026-11-17T22:57:34.717978+00:00",
   "value|cc8bda41e5ca0051fa27efd930cd1ba2|Saint Peter's Peacocks|BetRivers": "2026-11-17T22:57:34.717978+00:00",
-  "value|e53746f0d6118f523272cb956b7d0133|Illinois Fighting Illini|BetOnline.ag": "2026-11-17T22:57:34.717978+00:00"
+  "value|e53746f0d6118f523272cb956b7d0133|Illinois Fighting Illini|BetOnline.ag": "2026-11-17T22:57:34.717978+00:00",
+  "value|5896e4ed2ed41ce673e882b6529078b8|Washington Wizards|Pinnacle": "2026-11-18T04:30:11.562197+00:00",
+  "value|0184484f6b614c2d85a18a6cd254f32f|Fort Wayne Mastodons|BetRivers": "2026-11-18T04:30:11.562197+00:00",
+  "arb|0184484f6b614c2d85a18a6cd254f32f|Bradley Braves@FanDuel|Fort Wayne Mastodons@BetRivers": "2026-11-18T04:30:11.562197+00:00",
+  "value|71da7a3b35a159e0eda2605454c15805|UC Riverside Highlanders|BetRivers": "2026-11-18T04:30:11.562197+00:00"
  },
  "credits": {
   "day": "2026-11-17",
-  "spent": 8,
-  "remaining": 342
+  "spent": 12,
+  "remaining": 338
  },
  "last_priced": {
-  "basketball_nba": "2026-11-17T22:57:34.717978+00:00",
-  "icehockey_nhl": "2026-11-17T22:57:34.717978+00:00",
-  "americanfootball_ncaaf": "2026-11-17T22:57:34.717978+00:00",
-  "basketball_ncaab": "2026-11-17T22:57:34.717978+00:00",
+  "basketball_nba": "2026-11-18T04:30:11.562197+00:00",
+  "icehockey_nhl": "2026-11-18T04:30:11.562197+00:00",
+  "americanfootball_ncaaf": "2026-11-18T04:30:11.562197+00:00",
+  "basketball_ncaab": "2026-11-18T04:30:11.562197+00:00",
   "americanfootball_nfl": "2026-11-16T22:16:15.684347+00:00"
  }
 }

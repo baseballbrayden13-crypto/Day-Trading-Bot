@@ -52,3 +52,7 @@ time,kind,sport,game,start,team,book,odds,fair,edge,picks
 2026-11-17T22:57:34+00:00,arb,basketball_nba,New York Knicks at Toronto Raptors,2026-11-18T00:40:00Z,,,,,0.0105,New York Knicks @ Bovada 1.74 $58.07; Toronto Raptors @ Pinnacle 2.41 $41.93
 2026-11-17T22:57:34+00:00,value,basketball_ncaab,Saint Peter's Peacocks at UMass Lowell River Hawks,2026-11-17T23:00:00Z,Saint Peter's Peacocks,BetRivers,2.95,0.3512,0.0359,
 2026-11-17T22:57:34+00:00,value,basketball_ncaab,Illinois Fighting Illini at Duke Blue Devils,2026-11-18T00:00:00Z,Illinois Fighting Illini,BetOnline.ag,4.5,0.2301,0.0355,
+2026-11-18T04:30:11+00:00,value,basketball_nba,Washington Wizards at Toronto Raptors,2026-11-19T00:40:00Z,Washington Wizards,Pinnacle,3.5,0.2998,0.0492,
+2026-11-18T04:30:11+00:00,value,basketball_ncaab,Fort Wayne Mastodons at Bradley Braves,2026-11-19T01:00:00Z,Fort Wayne Mastodons,BetRivers,3.75,0.2851,0.0691,
+2026-11-18T04:30:11+00:00,arb,basketball_ncaab,Fort Wayne Mastodons at Bradley Braves,2026-11-19T01:00:00Z,,,,,0.0088,Bradley Braves @ FanDuel 1.38 $73.1; Fort Wayne Mastodons @ BetRivers 3.75 $26.9
+2026-11-18T04:30:11+00:00,value,basketball_ncaab,UC Riverside Highlanders at San Diego Toreros,2026-11-19T02:30:00Z,UC Riverside Highlanders,BetRivers,3.7,0.2785,0.0306,

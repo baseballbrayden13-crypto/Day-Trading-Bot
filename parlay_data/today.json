@@ -1,125 +1,49 @@
 {
- "updated": "2026-11-17T22:57:39+00:00",
+ "updated": "2026-11-18T04:30:17+00:00",
  "parlays": [
-  {
-   "kind": "game",
-   "game": "Detroit Pistons vs San Antonio Spurs",
-   "start": "2026-11-18T01:10:00Z",
-   "legs": [
-    {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV17DETSAS-SAS",
-     "side": "yes",
-     "price": 0.78,
-     "fair": 0.7822,
-     "value": -0.0108,
-     "player": ""
-    },
-    {
-     "label": "John Collins 10+ points",
-     "ticker": "KXNBAPTS-26NOV17DETSAS-DETJCOLLINS20-10",
-     "side": "yes",
-     "price": 0.64,
-     "fair": 0.6939,
-     "value": 0.0369,
-     "player": "John Collins"
-    },
-    {
-     "label": "Kevin Huerter 10+ points",
-     "ticker": "KXNBAPTS-26NOV17DETSAS-DETKHUERTERSF-10",
-     "side": "yes",
-     "price": 0.73,
-     "fair": 0.7751,
-     "value": 0.0311,
-     "player": "Kevin Huerter"
-    },
-    {
-     "label": "Julian Champagnie 4+ rebounds",
-     "ticker": "KXNBAREB-26NOV17DETSAS-SASJCHAMPAGNIE30-4",
-     "side": "yes",
-     "price": 0.64,
-     "fair": 0.6834,
-     "value": 0.0264,
-     "player": "Julian Champagnie"
-    }
-   ],
-   "price": 0.2547,
-   "fair": 0.2875,
-   "pays": "+293",
-   "per_dollar": 3.93
-  },
-  {
-   "kind": "game (safer 2-leg)",
-   "game": "Detroit Pistons vs San Antonio Spurs",
-   "start": "2026-11-18T01:10:00Z",
-   "legs": [
-    {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV17DETSAS-SAS",
-     "side": "yes",
-     "price": 0.78,
-     "fair": 0.7822,
-     "value": -0.0108,
-     "player": ""
-    },
-    {
-     "label": "Kevin Huerter 10+ points",
-     "ticker": "KXNBAPTS-26NOV17DETSAS-DETKHUERTERSF-10",
-     "side": "yes",
-     "price": 0.73,
-     "fair": 0.7751,
-     "value": 0.0311,
-     "player": "Kevin Huerter"
-    }
-   ],
-   "price": 0.59,
-   "fair": 0.6063,
-   "pays": "-144",
-   "per_dollar": 1.69
-  },
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-18T01:10:00Z",
+   "start": "2026-11-19T02:30:00Z",
    "legs": [
     {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV17DETSAS-SAS",
+     "label": "San Diego Toreros to win",
+     "ticker": "KXNCAAMBGAME-26NOV18UCRVUSD-USD",
      "side": "yes",
-     "price": 0.78,
-     "fair": 0.7822,
-     "value": -0.0108,
+     "price": 0.71,
+     "fair": 0.7223,
+     "value": -0.0027,
      "player": ""
     },
     {
-     "label": "Dayton Flyers to win",
-     "ticker": "KXNCAAMBGAME-26NOV17CMUDAY-DAY",
+     "label": "Towson Tigers to win",
+     "ticker": "KXNCAAMBGAME-26NOV18JMUTOWS-TOWS",
      "side": "yes",
-     "price": 0.88,
-     "fair": 0.8765,
+     "price": 0.6,
+     "fair": 0.6055,
      "value": -0.0115,
      "player": ""
     },
     {
-     "label": "Boston Bruins to win",
-     "ticker": "KXNHLGAME-26NOV17LABOS-BOS",
+     "label": "South Carolina Gamecocks to win",
+     "ticker": "KXNCAAMBGAME-26NOV18ELONSCAR-SCAR",
      "side": "yes",
-     "price": 0.6,
-     "fair": 0.6007,
-     "value": -0.0163,
+     "price": 0.92,
+     "fair": 0.9085,
+     "value": -0.0175,
      "player": ""
     }
    ],
-   "price": 0.4345,
-   "fair": 0.4118,
-   "pays": "+130",
-   "per_dollar": 2.3
+   "price": 0.4142,
+   "fair": 0.3973,
+   "pays": "+141",
+   "per_dollar": 2.41
   }
  ],
- "open_pretend": 3,
+ "open_pretend": 0,
  "record": {
-  "parlays": 12,
+  "parlays": 15,
   "won": 2,
-  "profit": -7.02
+  "profit": -10.02
  }
 }
