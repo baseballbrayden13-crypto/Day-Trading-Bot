@@ -2996,29 +2996,5 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXTACAPORTGAME-26NOV21SPOUDS",
-   "series": "KXTACAPORTGAME",
-   "title": "Sporting CP vs Serra: Regulation Time Moneyline",
-   "ticker": "KXTACAPORTGAME-26NOV21SPOUDS-UDS",
-   "order_id": "paper-1208-1795088893",
-   "price": "0.7100",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.8300",
-   "multiplier": "1",
-   "placed": 1795088894.0102112,
-   "hedge": [
-    {
-     "ticker": "KXTACAPORTGAME-26NOV21SPOUDS-SPO",
-     "limit": "0.2400"
-    },
-    {
-     "ticker": "KXTACAPORTGAME-26NOV21SPOUDS-TIE",
-     "limit": "0.9500"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }

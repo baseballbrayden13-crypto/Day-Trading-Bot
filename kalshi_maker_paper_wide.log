@@ -10599,3 +10599,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 06:48:14,010 INFO PAPER rest NO bid KXTACAPORTGAME-26NOV21SPOUDS-UDS at $0.7100 x2 (0 already bid at that price)
 2026-11-19 06:48:14,010 INFO Resting NO bid on KXTACAPORTGAME-26NOV21SPOUDS-UDS at $0.7100 x2 (KXTACAPORTGAME-26NOV21SPOUDS): locks in $0.17 if it fills; hedge NO SPO@0.2300, TIE@0.9500
 2026-11-19 06:48:14,191 INFO Swept 21253 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 06:53:22,474 INFO Swept 21248 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 06:54:38,437 INFO Quote KXTACAPORTGAME-26NOV21SPOUDS cancelled (0/2 filled)
+2026-11-19 06:58:24,952 INFO Swept 21253 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 07:03:26,710 INFO Swept 21250 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 07:08:27,724 INFO Swept 21262 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 07:13:29,176 INFO Swept 21276 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 07:18:27,118 INFO Swept 21289 events: 0 taker trades, 0 new quotes, 0 resting
