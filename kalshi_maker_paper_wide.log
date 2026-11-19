@@ -10537,3 +10537,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 23:55:34,743 INFO Swept 21358 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-19 00:00:37,117 INFO Swept 21361 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-19 00:05:38,325 INFO Swept 21342 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 00:10:42,940 INFO PAPER rest NO bid KXLMPGAME-26NOV182130OBRMOC-MOC at $0.6800 x2 (0 already bid at that price)
+2026-11-19 00:10:42,941 INFO Resting NO bid on KXLMPGAME-26NOV182130OBRMOC-MOC at $0.6800 x2 (KXLMPGAME-26NOV182130OBRMOC): locks in $0.50 if it fills; hedge NO OBR@0.0600
+2026-11-19 00:10:43,125 INFO Swept 21350 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 00:15:48,294 INFO Swept 21354 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 00:20:45,185 INFO Swept 21336 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 00:25:46,654 INFO Swept 21322 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 00:25:46,760 INFO Quote KXLMPGAME-26NOV182130OBRMOC cancelled (0/2 filled)
+2026-11-19 00:30:49,980 INFO Swept 21306 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 00:35:53,109 INFO Swept 21289 events: 0 taker trades, 0 new quotes, 0 resting
