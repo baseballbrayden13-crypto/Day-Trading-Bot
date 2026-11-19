@@ -10722,3 +10722,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 17:01:43,067 INFO Swept 22377 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-19 17:06:41,764 INFO Swept 22354 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-19 17:11:46,491 INFO Swept 22376 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 17:16:51,890 INFO Swept 22398 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 17:21:53,145 INFO Swept 22445 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 17:21:53,247 INFO Quote KXTACAPORTGAME-26NOV21SPOUDS cancelled (0/1 filled)
+2026-11-19 17:26:52,449 INFO Swept 22450 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 17:31:55,563 INFO Swept 22463 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 17:37:00,350 INFO Swept 22456 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 17:42:04,766 INFO Swept 22459 events: 0 taker trades, 0 new quotes, 0 resting
