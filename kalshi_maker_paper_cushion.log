@@ -4496,3 +4496,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 15:29:58,520 INFO Swept 22258 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 15:35:01,153 INFO Swept 22231 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 15:39:59,899 INFO Swept 22233 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:45:04,277 INFO Swept 22227 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:50:06,509 INFO PAPER rest NO bid KXNKLGAME-26NOV191200ALYKED-ALY at $0.2800 x1 (0 already bid at that price)
+2026-11-19 15:50:06,509 INFO Resting NO bid on KXNKLGAME-26NOV191200ALYKED-ALY at $0.2800 x1 (KXNKLGAME-26NOV191200ALYKED): locks in $0.29 if it fills; hedge NO KED@0.4000
+2026-11-19 15:50:06,572 INFO PAPER rest NO bid KXBRASILEIROFTTS-26NOV21BAHCFC-NONE at $0.1100 x4 (0 already bid at that price)
+2026-11-19 15:50:06,572 INFO Resting NO bid on KXBRASILEIROFTTS-26NOV21BAHCFC-NONE at $0.1100 x4 (KXBRASILEIROFTTS-26NOV21BAHCFC): locks in $3.06 if it fills; hedge NO BAH@0.3600, CFC@0.7300
+2026-11-19 15:50:06,573 INFO Swept 22227 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-19 15:55:10,188 INFO Swept 22220 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 16:00:12,494 INFO Swept 22222 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 16:05:31,868 INFO Swept 22200 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 16:10:48,196 INFO Swept 22270 events: 0 taker trades, 0 new quotes, 2 resting
