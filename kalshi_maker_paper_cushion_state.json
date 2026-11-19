@@ -458,25 +458,5 @@
    "closed": "2026-11-18T04:32:06.140421+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNKLGAME-26NOV191200ALYKED",
-   "series": "KXNKLGAME",
-   "title": "Alytaus Patriotai vs K\u0117dainiu Kedainiai BC",
-   "ticker": "KXNKLGAME-26NOV191200ALYKED-ALY",
-   "order_id": "paper-268-1795125677",
-   "price": "0.2800",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.7100",
-   "multiplier": "1",
-   "placed": 1795125677.4328792,
-   "hedge": [
-    {
-     "ticker": "KXNKLGAME-26NOV191200ALYKED-KED",
-     "limit": "0.4000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
