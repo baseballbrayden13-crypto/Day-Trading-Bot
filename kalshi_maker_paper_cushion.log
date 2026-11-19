@@ -4451,3 +4451,21 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 10:14:49,038 INFO Resting NO bid on KXBUNDESLIGAFTTS-26NOV21UNIRBL-NONE at $0.5500 x2 (KXBUNDESLIGAFTTS-26NOV21UNIRBL): locks in $0.62 if it fills; hedge NO UNI@0.7300, RBL@0.3700
 2026-11-19 10:14:49,039 INFO Swept 21599 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-19 10:19:52,314 INFO Swept 21607 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 10:24:57,088 INFO PAPER rest NO bid KXEPLFTTS-26NOV21AVLSUN-NONE at $0.1100 x2 (0 already bid at that price)
+2026-11-19 10:24:57,088 INFO Resting NO bid on KXEPLFTTS-26NOV21AVLSUN-NONE at $0.1100 x2 (KXEPLFTTS-26NOV21AVLSUN): locks in $0.21 if it fills; hedge NO AVL@0.8800, SUN@0.8800
+2026-11-19 10:24:57,089 INFO Swept 21597 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 10:27:29,290 INFO Quote KXEPLFTTS-26NOV21AVLSUN cancelled (0/2 filled)
+2026-11-19 10:29:59,065 INFO PAPER rest NO bid KXEPLFTTS-26NOV21AVLSUN-NONE at $0.1100 x2 (0 already bid at that price)
+2026-11-19 10:29:59,065 INFO Resting NO bid on KXEPLFTTS-26NOV21AVLSUN-NONE at $0.1100 x2 (KXEPLFTTS-26NOV21AVLSUN): locks in $0.25 if it fills; hedge NO AVL@0.8600, SUN@0.8800
+2026-11-19 10:29:59,066 INFO Swept 21597 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 10:30:04,600 INFO Quote KXEPLFTTS-26NOV21AVLSUN cancelled (0/2 filled)
+2026-11-19 10:35:05,948 INFO PAPER rest NO bid KXEPLFTTS-26NOV21TOTIPS-NONE at $0.1100 x3 (0 already bid at that price)
+2026-11-19 10:35:05,948 INFO Resting NO bid on KXEPLFTTS-26NOV21TOTIPS-NONE at $0.1100 x3 (KXEPLFTTS-26NOV21TOTIPS): locks in $1.86 if it fills; hedge NO TOT@0.5200, IPS@0.7100
+2026-11-19 10:35:06,009 INFO PAPER rest NO bid KXEPLFTTS-26NOV21AVLSUN-NONE at $0.1100 x3 (0 already bid at that price)
+2026-11-19 10:35:06,009 INFO Resting NO bid on KXEPLFTTS-26NOV21AVLSUN-NONE at $0.1100 x3 (KXEPLFTTS-26NOV21AVLSUN): locks in $1.67 if it fills; hedge NO AVL@0.4200, SUN@0.8800
+2026-11-19 10:35:06,011 INFO Swept 21589 events: 0 taker trades, 2 new quotes, 3 resting
+2026-11-19 10:40:11,689 INFO PAPER rest NO bid KXEPLFTTS-26NOV21COVCRY-NONE at $0.1100 x2 (0 already bid at that price)
+2026-11-19 10:40:11,689 INFO Resting NO bid on KXEPLFTTS-26NOV21COVCRY-NONE at $0.1100 x2 (KXEPLFTTS-26NOV21COVCRY): locks in $1.53 if it fills; hedge NO COV@0.5200, CRY@0.5600
+2026-11-19 10:40:11,691 INFO Swept 21580 events: 0 taker trades, 1 new quotes, 4 resting
+2026-11-19 10:45:15,735 INFO Swept 21587 events: 0 taker trades, 0 new quotes, 4 resting
+2026-11-19 10:50:18,744 INFO Swept 21583 events: 0 taker trades, 0 new quotes, 3 resting

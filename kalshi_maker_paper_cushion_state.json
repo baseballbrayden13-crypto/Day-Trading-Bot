@@ -460,25 +460,71 @@
  ],
  "quotes": [
   {
-   "event": "KXBUNDESLIGAFTTS-26NOV21UNIRBL",
-   "series": "KXBUNDESLIGAFTTS",
-   "title": "Union Berlin vs RB Leipzig: First Team to Score",
-   "ticker": "KXBUNDESLIGAFTTS-26NOV21UNIRBL-NONE",
-   "order_id": "paper-257-1795101289",
-   "price": "0.5500",
-   "sets": 2,
+   "event": "KXEPLFTTS-26NOV21TOTIPS",
+   "series": "KXEPLFTTS",
+   "title": "Tottenham Hotspur vs Ipswich Town: First Team to Score",
+   "ticker": "KXEPLFTTS-26NOV21TOTIPS-NONE",
+   "order_id": "paper-260-1795102505",
+   "price": "0.1100",
+   "sets": 3,
    "done": 0,
-   "reserve": "3.3800",
+   "reserve": "4.1400",
    "multiplier": "1",
-   "placed": 1795101289.038263,
+   "placed": 1795102505.9487538,
    "hedge": [
     {
-     "ticker": "KXBUNDESLIGAFTTS-26NOV21UNIRBL-UNI",
-     "limit": "0.7300"
+     "ticker": "KXEPLFTTS-26NOV21TOTIPS-TOT",
+     "limit": "0.5200"
     },
     {
-     "ticker": "KXBUNDESLIGAFTTS-26NOV21UNIRBL-RBL",
-     "limit": "0.3700"
+     "ticker": "KXEPLFTTS-26NOV21TOTIPS-IPS",
+     "limit": "0.7100"
+    }
+   ]
+  },
+  {
+   "event": "KXEPLFTTS-26NOV21AVLSUN",
+   "series": "KXEPLFTTS",
+   "title": "Aston Villa vs Sunderland AFC: First Team to Score",
+   "ticker": "KXEPLFTTS-26NOV21AVLSUN-NONE",
+   "order_id": "paper-261-1795102506",
+   "price": "0.1100",
+   "sets": 3,
+   "done": 0,
+   "reserve": "4.3300",
+   "multiplier": "1",
+   "placed": 1795102506.0099196,
+   "hedge": [
+    {
+     "ticker": "KXEPLFTTS-26NOV21AVLSUN-AVL",
+     "limit": "0.4200"
+    },
+    {
+     "ticker": "KXEPLFTTS-26NOV21AVLSUN-SUN",
+     "limit": "0.8800"
+    }
+   ]
+  },
+  {
+   "event": "KXEPLFTTS-26NOV21COVCRY",
+   "series": "KXEPLFTTS",
+   "title": "Coventry City vs Crystal Palace: First Team to Score",
+   "ticker": "KXEPLFTTS-26NOV21COVCRY-NONE",
+   "order_id": "paper-262-1795102811",
+   "price": "0.1100",
+   "sets": 2,
+   "done": 0,
+   "reserve": "2.4700",
+   "multiplier": "1",
+   "placed": 1795102811.6899016,
+   "hedge": [
+    {
+     "ticker": "KXEPLFTTS-26NOV21COVCRY-COV",
+     "limit": "0.5200"
+    },
+    {
+     "ticker": "KXEPLFTTS-26NOV21COVCRY-CRY",
+     "limit": "0.9600"
     }
    ]
   }
