@@ -4289,3 +4289,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 19:32:14,157 INFO Swept 21693 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 19:37:16,313 INFO Swept 21714 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 19:42:23,181 INFO Swept 21787 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:47:21,111 INFO Swept 21779 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:52:23,871 INFO Swept 21765 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:57:26,126 INFO PAPER rest NO bid KXBRASILEIROSCORE-26NOV18CRCHA-CR2CHA1 at $0.4700 x2 (0 already bid at that price)
+2026-11-18 19:57:26,126 INFO Resting NO bid on KXBRASILEIROSCORE-26NOV18CRCHA-CR2CHA1 at $0.4700 x2 (KXBRASILEIROSCORE-26NOV18CRCHA): locks in $0.34 if it fills; hedge NO CR2CHA0@0.3500, CR3CHA0@0.9800
+2026-11-18 19:57:26,128 INFO Swept 21767 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 19:57:46,408 INFO Quote KXBRASILEIROSCORE-26NOV18CRCHA cancelled (0/2 filled)
+2026-11-18 20:02:19,063 INFO Swept 21752 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 20:07:30,604 INFO Swept 21776 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 20:12:34,528 INFO Swept 21824 events: 0 taker trades, 0 new quotes, 0 resting
