@@ -458,5 +458,29 @@
    "closed": "2026-11-18T04:32:06.140421+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXBUNDESLIGAFTTS-26NOV21UNIRBL",
+   "series": "KXBUNDESLIGAFTTS",
+   "title": "Union Berlin vs RB Leipzig: First Team to Score",
+   "ticker": "KXBUNDESLIGAFTTS-26NOV21UNIRBL-NONE",
+   "order_id": "paper-257-1795101289",
+   "price": "0.5500",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.3800",
+   "multiplier": "1",
+   "placed": 1795101289.038263,
+   "hedge": [
+    {
+     "ticker": "KXBUNDESLIGAFTTS-26NOV21UNIRBL-UNI",
+     "limit": "0.7300"
+    },
+    {
+     "ticker": "KXBUNDESLIGAFTTS-26NOV21UNIRBL-RBL",
+     "limit": "0.3700"
+    }
+   ]
+  }
+ ]
 }
