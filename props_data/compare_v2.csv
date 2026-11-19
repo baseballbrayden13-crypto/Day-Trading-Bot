@@ -375,3 +375,57 @@ time,sport,game,stat,player,line,match,book_line,books,fair_yes,yes_ask,no_ask,t
 2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Pascal Siakam,3.5,exact,3.5,7,0.4548,0.49,0.53,KXNBAAST-26NOV18HOUIND-INDPSIAKAM43-4
 2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Ivica Zubac,1.5,exact,1.5,5,0.52,0.56,0.47,KXNBAAST-26NOV18HOUIND-INDIZUBAC40-2
 2026-11-18T14:11:19+00:00,basketball_nba,Houston Rockets at Indiana Pacers,player_assists,Andrew Nembhard,5.5,near,6.5,6,0.6401,0.66,0.38,KXNBAAST-26NOV18HOUIND-INDANEMBHARD2-6
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_points,Brandin Podziemski,14.5,near,16.5,5,0.6183,0.6,0.41,KXNBAPTS-26NOV19GSWMEM-GSWBPODZIEMSKI2-15
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_points,Ty Jerome,19.5,near,22.5,5,0.6383,0.99,0.95,KXNBAPTS-26NOV19GSWMEM-MEMTJEROME2-20
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_points,Yaxel Lendeborg,19.5,near,21.5,6,0.6033,0.61,0.41,KXNBAPTS-26NOV19GSWMEM-GSWYLENDEBORG1-20
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_points,Jaylen Wells,9.5,exact,9.5,5,0.5277,0.54,0.48,KXNBAPTS-26NOV19GSWMEM-MEMJWELLS0-10
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_points,Cameron Boozer,14.5,near,17.5,4,0.7155,0.72,0.35,KXNBAPTS-26NOV19GSWMEM-MEMCBOOZER27-15
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_points,Cameron Boozer,14.5,near,18.5,3,0.7352,0.72,0.35,KXNBAPTS-26NOV19GSWMEM-MEMCBOOZER27-15
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_points,Cedric Coward,14.5,exact,14.5,5,0.5107,0.52,0.5,KXNBAPTS-26NOV19GSWMEM-MEMCCOWARD23-15
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_rebounds,Brandin Podziemski,3.5,near,4.5,6,0.7614,0.75,0.29,KXNBAREB-26NOV19GSWMEM-GSWBPODZIEMSKI2-4
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_rebounds,Charles Bassey,7.5,exact,7.5,3,0.4331,0.45,0.58,KXNBAREB-26NOV19GSWMEM-GSWCBASSEY28-8
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_rebounds,Charles Bassey,5.5,near,6.5,4,0.7,0.73,0.33,KXNBAREB-26NOV19GSWMEM-GSWCBASSEY28-6
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_rebounds,Yaxel Lendeborg,5.5,near,6.5,6,0.6596,0.67,0.35,KXNBAREB-26NOV19GSWMEM-GSWYLENDEBORG1-6
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_rebounds,Gui Santos,3.5,exact,3.5,6,0.5611,0.59,0.43,KXNBAREB-26NOV19GSWMEM-GSWGSANTOS15-4
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_rebounds,Ty Jerome,3.5,exact,3.5,5,0.4087,0.99,0.63,KXNBAREB-26NOV19GSWMEM-MEMTJEROME2-4
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_rebounds,Al Horford,3.5,exact,3.5,4,0.5213,0.99,0.93,KXNBAREB-26NOV19GSWMEM-GSWAHORFORD20-4
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_rebounds,Cameron Boozer,7.5,near,8.5,6,0.5867,0.63,0.4,KXNBAREB-26NOV19GSWMEM-MEMCBOOZER27-8
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_rebounds,Cedric Coward,7.5,exact,7.5,6,0.4854,0.51,0.51,KXNBAREB-26NOV19GSWMEM-MEMCCOWARD23-8
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_rebounds,Zach Edey,7.5,exact,7.5,5,0.492,0.5,0.52,KXNBAREB-26NOV19GSWMEM-MEMZEDEY14-8
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_assists,Brandin Podziemski,3.5,near,4.5,6,0.6416,0.62,0.42,KXNBAAST-26NOV19GSWMEM-GSWBPODZIEMSKI2-4
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_assists,Yaxel Lendeborg,3.5,exact,3.5,6,0.5501,0.56,0.47,KXNBAAST-26NOV19GSWMEM-GSWYLENDEBORG1-4
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_assists,Jaylen Wells,1.5,exact,1.5,4,0.5013,0.53,0.52,KXNBAAST-26NOV19GSWMEM-MEMJWELLS0-2
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_assists,Cameron Boozer,3.5,near,4.5,6,0.7169,0.72,0.33,KXNBAAST-26NOV19GSWMEM-MEMCBOOZER27-4
+2026-11-19T13:24:25+00:00,basketball_nba,Golden State Warriors at Memphis Grizzlies,player_assists,Cedric Coward,3.5,exact,3.5,6,0.4913,0.52,0.5,KXNBAAST-26NOV19GSWMEM-MEMCCOWARD23-4
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Brook Lopez,9.5,near,11.5,8,0.6968,0.65,0.38,KXNBAPTS-26NOV19LACSAS-LACBLOPEZ11-10
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Stephon Castle,14.5,near,17.5,8,0.7012,0.69,0.34,KXNBAPTS-26NOV19LACSAS-SASSCASTLE5-15
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Rui Hachimura,9.5,near,12.5,7,0.7582,0.7,0.33,KXNBAPTS-26NOV19LACSAS-LACRHACHIMURA28-10
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Julian Champagnie,9.5,near,10.5,7,0.6314,0.59,0.43,KXNBAPTS-26NOV19LACSAS-SASJCHAMPAGNIE30-10
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Kris Dunn,4.5,near,5.5,7,0.6917,0.6,0.42,KXNBAPTS-26NOV19LACSAS-LACKDUNN8-5
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Darius Garland,19.5,near,20.5,4,0.5349,0.52,0.49,KXNBAPTS-26NOV19LACSAS-LACDGARLAND10-20
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Darius Garland,19.5,exact,19.5,4,0.512,0.52,0.49,KXNBAPTS-26NOV19LACSAS-LACDGARLAND10-20
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Devin Vassell,9.5,near,11.5,7,0.7124,0.67,0.36,KXNBAPTS-26NOV19LACSAS-SASDVASSELL24-10
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Derrick Jones Jr.,9.5,exact,9.5,7,0.48,0.49,0.53,KXNBAPTS-26NOV19LACSAS-LACDJONES5-10
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Victor Wembanyama,29.5,exact,29.5,7,0.4947,0.5,0.51,KXNBAPTS-26NOV19LACSAS-SASVWEMBANYAMA1-30
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,De'Aaron Fox,14.5,exact,14.5,4,0.5199,0.54,0.47,KXNBAPTS-26NOV19LACSAS-SASDFOX4-15
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,De'Aaron Fox,14.5,near,15.5,5,0.5514,0.54,0.47,KXNBAPTS-26NOV19LACSAS-SASDFOX4-15
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Keldon Johnson,9.5,near,11.5,6,0.7044,0.65,0.39,KXNBAPTS-26NOV19LACSAS-SASKJOHNSON3-10
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_points,Keaton Wagler,9.5,near,10.5,6,0.6046,0.59,0.42,KXNBAPTS-26NOV19LACSAS-LACKWAGLER1-10
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,Brook Lopez,3.5,near,4.5,6,0.756,0.74,0.3,KXNBAREB-26NOV19LACSAS-LACBLOPEZ11-4
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,Stephon Castle,5.5,exact,5.5,6,0.4364,0.44,0.58,KXNBAREB-26NOV19LACSAS-SASSCASTLE5-6
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,Rui Hachimura,3.5,near,4.5,7,0.7407,0.71,0.31,KXNBAREB-26NOV19LACSAS-LACRHACHIMURA28-4
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,Julian Champagnie,5.5,exact,5.5,7,0.4519,0.45,0.57,KXNBAREB-26NOV19LACSAS-SASJCHAMPAGNIE30-6
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,Kris Dunn,3.5,exact,3.5,5,0.4087,0.4,0.61,KXNBAREB-26NOV19LACSAS-LACKDUNN8-4
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,Devin Vassell,3.5,exact,3.5,6,0.5842,0.6,0.43,KXNBAREB-26NOV19LACSAS-SASDVASSELL24-4
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,Derrick Jones Jr.,3.5,exact,3.5,7,0.5476,0.54,0.48,KXNBAREB-26NOV19LACSAS-LACDJONES5-4
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,Victor Wembanyama,11.5,exact,11.5,5,0.5397,0.55,0.46,KXNBAREB-26NOV19LACSAS-SASVWEMBANYAMA1-12
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,Victor Wembanyama,11.5,near,12.5,3,0.5344,0.55,0.46,KXNBAREB-26NOV19LACSAS-SASVWEMBANYAMA1-12
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,De'Aaron Fox,3.5,exact,3.5,6,0.5829,0.6,0.43,KXNBAREB-26NOV19LACSAS-SASDFOX4-4
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_rebounds,Keldon Johnson,5.5,exact,5.5,6,0.4452,0.44,0.57,KXNBAREB-26NOV19LACSAS-SASKJOHNSON3-6
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_assists,Stephon Castle,7.5,exact,7.5,6,0.4536,0.45,0.56,KXNBAAST-26NOV19LACSAS-SASSCASTLE5-8
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_assists,Julian Champagnie,1.5,exact,1.5,6,0.4847,0.5,0.53,KXNBAAST-26NOV19LACSAS-SASJCHAMPAGNIE30-2
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_assists,Kris Dunn,3.5,exact,3.5,7,0.4628,0.47,0.56,KXNBAAST-26NOV19LACSAS-LACKDUNN8-4
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_assists,Darius Garland,5.5,near,6.5,6,0.6555,0.7,0.33,KXNBAAST-26NOV19LACSAS-LACDGARLAND10-6
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_assists,Victor Wembanyama,3.5,exact,3.5,7,0.4145,0.45,0.58,KXNBAAST-26NOV19LACSAS-SASVWEMBANYAMA1-4
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_assists,De'Aaron Fox,5.5,near,6.5,7,0.5919,0.6,0.41,KXNBAAST-26NOV19LACSAS-SASDFOX4-6
+2026-11-19T13:24:25+00:00,basketball_nba,Los Angeles Clippers at San Antonio Spurs,player_assists,Keldon Johnson,1.5,exact,1.5,3,0.5628,0.62,0.44,KXNBAAST-26NOV19LACSAS-SASKJOHNSON3-2

@@ -1,49 +1,201 @@
 {
- "updated": "2026-11-19T03:38:25+00:00",
+ "updated": "2026-11-19T13:24:27+00:00",
  "parlays": [
   {
-   "kind": "favorites",
-   "game": "Favorites across games",
-   "start": "2026-11-20T01:30:00Z",
+   "kind": "game",
+   "game": "Los Angeles Clippers vs San Antonio Spurs",
+   "start": "2026-11-20T01:10:00Z",
    "legs": [
-    {
-     "label": "NC State Wolfpack to win",
-     "ticker": "KXNCAAMBGAME-26NOV19NCSTMURR-NCST",
-     "side": "yes",
-     "price": 0.61,
-     "fair": 0.6207,
-     "value": -0.0063,
-     "player": ""
-    },
-    {
-     "label": "Wisconsin Badgers to win",
-     "ticker": "KXNCAAMBGAME-26NOV19WISHALL-WIS",
-     "side": "yes",
-     "price": 0.65,
-     "fair": 0.6479,
-     "value": -0.0181,
-     "player": ""
-    },
     {
      "label": "San Antonio Spurs to win",
      "ticker": "KXNBAGAME-26NOV19LACSAS-SAS",
      "side": "yes",
-     "price": 0.91,
-     "fair": 0.8964,
-     "value": -0.0196,
+     "price": 0.88,
+     "fair": 0.8798,
+     "value": -0.0082,
+     "player": ""
+    },
+    {
+     "label": "Kris Dunn 5+ points",
+     "ticker": "KXNBAPTS-26NOV19LACSAS-LACKDUNN8-5",
+     "side": "yes",
+     "price": 0.6,
+     "fair": 0.6917,
+     "value": 0.0747,
+     "player": "Kris Dunn"
+    },
+    {
+     "label": "Rui Hachimura 10+ points",
+     "ticker": "KXNBAPTS-26NOV19LACSAS-LACRHACHIMURA28-10",
+     "side": "yes",
+     "price": 0.7,
+     "fair": 0.7582,
+     "value": 0.0432,
+     "player": "Rui Hachimura"
+    },
+    {
+     "label": "Keldon Johnson 10+ points",
+     "ticker": "KXNBAPTS-26NOV19LACSAS-SASKJOHNSON3-10",
+     "side": "yes",
+     "price": 0.65,
+     "fair": 0.7044,
+     "value": 0.0384,
+     "player": "Keldon Johnson"
+    }
+   ],
+   "price": 0.2609,
+   "fair": 0.325,
+   "pays": "+283",
+   "per_dollar": 3.83
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "Los Angeles Clippers vs San Antonio Spurs",
+   "start": "2026-11-20T01:10:00Z",
+   "legs": [
+    {
+     "label": "San Antonio Spurs to win",
+     "ticker": "KXNBAGAME-26NOV19LACSAS-SAS",
+     "side": "yes",
+     "price": 0.88,
+     "fair": 0.8798,
+     "value": -0.0082,
+     "player": ""
+    },
+    {
+     "label": "Rui Hachimura 10+ points",
+     "ticker": "KXNBAPTS-26NOV19LACSAS-LACRHACHIMURA28-10",
+     "side": "yes",
+     "price": 0.7,
+     "fair": 0.7582,
+     "value": 0.0432,
+     "player": "Rui Hachimura"
+    }
+   ],
+   "price": 0.6349,
+   "fair": 0.6671,
+   "pays": "-174",
+   "per_dollar": 1.58
+  },
+  {
+   "kind": "game",
+   "game": "Golden State Warriors vs Memphis Grizzlies",
+   "start": "2026-11-20T01:10:00Z",
+   "legs": [
+    {
+     "label": "Memphis Grizzlies to win",
+     "ticker": "KXNBAGAME-26NOV19GSWMEM-MEM",
+     "side": "yes",
+     "price": 0.69,
+     "fair": 0.678,
+     "value": -0.027,
+     "player": ""
+    },
+    {
+     "label": "Brandin Podziemski 4+ assists",
+     "ticker": "KXNBAAST-26NOV19GSWMEM-GSWBPODZIEMSKI2-4",
+     "side": "yes",
+     "price": 0.62,
+     "fair": 0.6416,
+     "value": 0.0046,
+     "player": "Brandin Podziemski"
+    },
+    {
+     "label": "Cameron Boozer 15+ points",
+     "ticker": "KXNBAPTS-26NOV19GSWMEM-MEMCBOOZER27-15",
+     "side": "yes",
+     "price": 0.72,
+     "fair": 0.7352,
+     "value": 0.0002,
+     "player": "Cameron Boozer"
+    },
+    {
+     "label": "Cedric Coward under 4 assists",
+     "ticker": "KXNBAAST-26NOV19GSWMEM-MEMCCOWARD23-4",
+     "side": "no",
+     "price": 0.5,
+     "fair": 0.5087,
+     "value": -0.0093,
+     "player": "Cedric Coward"
+    }
+   ],
+   "price": 0.171,
+   "fair": 0.1627,
+   "pays": "+485",
+   "per_dollar": 5.85
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "Golden State Warriors vs Memphis Grizzlies",
+   "start": "2026-11-20T01:10:00Z",
+   "legs": [
+    {
+     "label": "Cameron Boozer 15+ points",
+     "ticker": "KXNBAPTS-26NOV19GSWMEM-MEMCBOOZER27-15",
+     "side": "yes",
+     "price": 0.72,
+     "fair": 0.7352,
+     "value": 0.0002,
+     "player": "Cameron Boozer"
+    },
+    {
+     "label": "Memphis Grizzlies to win",
+     "ticker": "KXNBAGAME-26NOV19GSWMEM-MEM",
+     "side": "yes",
+     "price": 0.69,
+     "fair": 0.678,
+     "value": -0.027,
      "player": ""
     }
    ],
-   "price": 0.3825,
-   "fair": 0.3605,
-   "pays": "+161",
-   "per_dollar": 2.61
+   "price": 0.5182,
+   "fair": 0.4985,
+   "pays": "-108",
+   "per_dollar": 1.93
+  },
+  {
+   "kind": "favorites",
+   "game": "Favorites across games",
+   "start": "2026-11-20T01:15:00Z",
+   "legs": [
+    {
+     "label": "San Antonio Spurs to win",
+     "ticker": "KXNBAGAME-26NOV19LACSAS-SAS",
+     "side": "yes",
+     "price": 0.88,
+     "fair": 0.8798,
+     "value": -0.0082,
+     "player": ""
+    },
+    {
+     "label": "Houston Texans to win",
+     "ticker": "KXNFLGAME-26NOV19INDHOU-HOU",
+     "side": "yes",
+     "price": 0.85,
+     "fair": 0.8477,
+     "value": -0.0113,
+     "player": ""
+    },
+    {
+     "label": "Ottawa Senators to win",
+     "ticker": "KXNHLGAME-26NOV19PHIOTT-OTT",
+     "side": "yes",
+     "price": 0.62,
+     "fair": 0.6214,
+     "value": -0.0156,
+     "player": ""
+    }
+   ],
+   "price": 0.4859,
+   "fair": 0.4634,
+   "pays": "+106",
+   "per_dollar": 2.06
   }
  ],
- "open_pretend": 1,
+ "open_pretend": 3,
  "record": {
-  "parlays": 17,
-  "won": 2,
-  "profit": -12.02
+  "parlays": 18,
+  "won": 3,
+  "profit": -10.39
  }
 }

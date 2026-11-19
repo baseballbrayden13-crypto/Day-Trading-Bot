@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T03:38:21+00:00",
+ "updated": "2026-11-19T13:24:20+00:00",
  "scan": {
   "sports": [
    "americanfootball_nfl",
@@ -8,27 +8,26 @@
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 42,
-  "kalshi_matched": 34,
+  "games": 52,
+  "kalshi_matched": 46,
   "skipped": [],
-  "pinnacle": 22,
-  "credits_left": 317,
-  "spent_today": 15,
-  "allowance": 24
+  "pinnacle": 36,
+  "credits_left": 312,
+  "spent_today": 5,
+  "allowance": 26
  },
  "new_finds": [
-  "Robert Morris Colonials @ BetRivers 3.85 (fair 3.63, +6.0% expected) Robert Morris Colonials at Toledo Rockets (Thu 7:00PM)",
-  "Pepperdine Waves @ BetRivers 2.45 (fair 2.35, +4.4% expected) UC Santa Barbara Gauchos at Pepperdine Waves (Thu 9:00PM)",
-  "Pepperdine Waves @ Kalshi 2.457 (fair 2.37, +3.6% expected) UC Santa Barbara Gauchos at Pepperdine Waves (Thu 9:00PM)"
+  "West Virginia Mountaineers @ Bovada 4.75 (fair 4.53, +4.8% expected) Florida Gators at West Virginia Mountaineers (Thu 2:30PM)",
+  "West Virginia Mountaineers @ Kalshi 4.717 (fair 4.57, +3.3% expected) Florida Gators at West Virginia Mountaineers (Thu 2:30PM)"
  ],
- "open_bets": 6,
+ "open_bets": 5,
  "record": {
   "value": {
-   "bets": 46,
+   "bets": 49,
    "wins": 10,
-   "staked": 460.0,
-   "pnl": -38.9,
-   "roi": -0.0846
+   "staked": 490.0,
+   "pnl": -58.9,
+   "roi": -0.1202
   },
   "kalshi": {
    "bets": 4,
@@ -45,11 +44,11 @@
    "roi": 0.0131
   },
   "all": {
-   "bets": 61,
+   "bets": 64,
    "wins": 22,
-   "staked": 1600.0,
-   "pnl": -19.47,
-   "roi": -0.0122
+   "staked": 1630.0,
+   "pnl": -39.47,
+   "roi": -0.0242
   }
  }
 }

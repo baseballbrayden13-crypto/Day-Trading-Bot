@@ -2,63 +2,6 @@
  "open": [
   {
    "kind": "value",
-   "game": "North Dakota State Bison at Hawaii Rainbow Warriors",
-   "game_id": "ce88da9d6fd67bac81c1e4a70545de29",
-   "sport": "americanfootball_ncaaf",
-   "start": "2026-11-15T04:00:00Z",
-   "edge": 0.0369,
-   "home": "Hawaii Rainbow Warriors",
-   "away": "North Dakota State Bison",
-   "legs": [
-    {
-     "team": "Hawaii Rainbow Warriors",
-     "book": "theScore Bet",
-     "odds": 3.5,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-14T23:07:45+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "UC Riverside Highlanders at San Diego Toreros",
-   "game_id": "71da7a3b35a159e0eda2605454c15805",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T02:30:00Z",
-   "edge": 0.0306,
-   "home": "San Diego Toreros",
-   "away": "UC Riverside Highlanders",
-   "legs": [
-    {
-     "team": "UC Riverside Highlanders",
-     "book": "BetRivers",
-     "odds": 3.7,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T04:30:11+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "UNLV Rebels at Auburn Tigers",
-   "game_id": "b86b3fdea018ce4da96e2f720e3a5842",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T03:00:00Z",
-   "edge": 0.0319,
-   "home": "Auburn Tigers",
-   "away": "UNLV Rebels",
-   "legs": [
-    {
-     "team": "UNLV Rebels",
-     "book": "Bovada",
-     "odds": 4.2,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T14:11:15+00:00"
-  },
-  {
-   "kind": "value",
    "game": "Robert Morris Colonials at Toledo Rockets",
    "game_id": "1a7893819f5bab2287cbc72dc8226d7e",
    "sport": "basketball_ncaab",
@@ -114,6 +57,45 @@
     }
    ],
    "opened": "2026-11-19T03:38:21+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Florida Gators at West Virginia Mountaineers",
+   "game_id": "5246df4438e82883d2aa2437d1f9857c",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-19T19:30:00Z",
+   "edge": 0.048,
+   "home": "West Virginia Mountaineers",
+   "away": "Florida Gators",
+   "legs": [
+    {
+     "team": "West Virginia Mountaineers",
+     "book": "Bovada",
+     "odds": 4.75,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-19T13:24:20+00:00"
+  },
+  {
+   "kind": "kalshi",
+   "game": "Florida Gators at West Virginia Mountaineers",
+   "game_id": "5246df4438e82883d2aa2437d1f9857c",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-19T19:30:00Z",
+   "edge": 0.0332,
+   "home": "West Virginia Mountaineers",
+   "away": "Florida Gators",
+   "legs": [
+    {
+     "team": "West Virginia Mountaineers",
+     "book": "Kalshi",
+     "odds": 4.717,
+     "stake": 10.0,
+     "ticker": "KXNCAAMBGAME-26NOV19FLAWVU-WVU"
+    }
+   ],
+   "opened": "2026-11-19T13:24:20+00:00"
   }
  ],
  "seen": {
@@ -183,18 +165,20 @@
   "value|c36425b5ec4189fc1acd91902c721bf2|West Virginia Mountaineers|BetOnline.ag": "2026-11-18T22:04:25.401007+00:00",
   "value|1a7893819f5bab2287cbc72dc8226d7e|Robert Morris Colonials|BetRivers": "2026-11-19T03:38:21.851479+00:00",
   "value|06c795c1626c246ad89e38eb1a35dbfb|Pepperdine Waves|BetRivers": "2026-11-19T03:38:21.851479+00:00",
-  "kalshi|06c795c1626c246ad89e38eb1a35dbfb|Pepperdine Waves|Kalshi": "2026-11-19T03:38:21.851479+00:00"
+  "kalshi|06c795c1626c246ad89e38eb1a35dbfb|Pepperdine Waves|Kalshi": "2026-11-19T03:38:21.851479+00:00",
+  "value|5246df4438e82883d2aa2437d1f9857c|West Virginia Mountaineers|Bovada": "2026-11-19T13:24:20.393736+00:00",
+  "kalshi|5246df4438e82883d2aa2437d1f9857c|West Virginia Mountaineers|Kalshi": "2026-11-19T13:24:20.393736+00:00"
  },
  "credits": {
-  "day": "2026-11-18",
-  "spent": 15,
-  "remaining": 317
+  "day": "2026-11-19",
+  "spent": 5,
+  "remaining": 312
  },
  "last_priced": {
-  "basketball_nba": "2026-11-19T03:38:21.851479+00:00",
-  "icehockey_nhl": "2026-11-19T03:38:21.851479+00:00",
-  "americanfootball_ncaaf": "2026-11-19T03:38:21.851479+00:00",
-  "basketball_ncaab": "2026-11-19T03:38:21.851479+00:00",
-  "americanfootball_nfl": "2026-11-19T03:38:21.851479+00:00"
+  "basketball_nba": "2026-11-19T13:24:20.393736+00:00",
+  "icehockey_nhl": "2026-11-19T13:24:20.393736+00:00",
+  "americanfootball_ncaaf": "2026-11-19T13:24:20.393736+00:00",
+  "basketball_ncaab": "2026-11-19T13:24:20.393736+00:00",
+  "americanfootball_nfl": "2026-11-19T13:24:20.393736+00:00"
  }
 }
