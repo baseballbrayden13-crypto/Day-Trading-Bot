@@ -10489,3 +10489,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 20:27:55,630 INFO Swept 21866 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-18 20:27:55,850 INFO Quote KXBRASILEIROSCORE-26NOV18FLACAP cancelled (0/1 filled)
 2026-11-18 20:28:00,857 INFO Stopped; all quotes cancelled.
+2026-11-18 21:06:40,108 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-18 21:09:20,393 INFO Swept 21838 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 21:14:28,934 INFO Swept 21846 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 21:19:33,108 INFO Swept 21828 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 21:24:36,122 INFO PAPER rest NO bid KXBRASILEIROSCORE-26NOV18GPABAH-GPA0BAH2 at $0.8000 x1 (0 already bid at that price)
+2026-11-18 21:24:36,122 INFO Resting NO bid on KXBRASILEIROSCORE-26NOV18GPABAH-GPA0BAH2 at $0.8000 x1 (KXBRASILEIROSCORE-26NOV18GPABAH): locks in $0.13 if it fills; hedge NO GPA0BAH0@0.0900, GPA0BAH1@0.9800, GPA1BAH0@0.9600
+2026-11-18 21:24:36,304 INFO Swept 21825 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 21:25:37,099 INFO Quote KXBRASILEIROSCORE-26NOV18GPABAH cancelled (0/1 filled)
+2026-11-18 21:29:38,039 INFO Swept 21800 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 21:34:37,808 INFO Swept 21757 events: 0 taker trades, 0 new quotes, 0 resting
