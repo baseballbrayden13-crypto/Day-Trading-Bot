@@ -10681,3 +10681,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 15:10:06,687 INFO PAPER rest NO bid KXLPBGAME-26NOV211000PTMSPO-PTM at $0.6000 x4 (0 already bid at that price)
 2026-11-19 15:10:06,687 INFO Resting NO bid on KXLPBGAME-26NOV211000PTMSPO-PTM at $0.6000 x4 (KXLPBGAME-26NOV211000PTMSPO): locks in $0.23 if it fills; hedge NO SPO@0.3200
 2026-11-19 15:10:06,792 INFO Swept 22211 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 15:15:09,449 INFO Swept 22267 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:20:13,065 INFO Swept 22271 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:25:16,656 INFO Swept 22266 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:30:20,036 INFO Swept 22258 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:35:22,973 INFO Swept 22232 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:40:27,451 INFO Swept 22232 events: 0 taker trades, 0 new quotes, 1 resting
