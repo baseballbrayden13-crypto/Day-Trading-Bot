@@ -10499,3 +10499,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 21:25:37,099 INFO Quote KXBRASILEIROSCORE-26NOV18GPABAH cancelled (0/1 filled)
 2026-11-18 21:29:38,039 INFO Swept 21800 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 21:34:37,808 INFO Swept 21757 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 21:39:42,080 INFO Swept 21714 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 21:44:46,794 INFO Swept 21678 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 21:49:49,087 INFO Swept 21651 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 21:54:50,021 INFO Swept 21630 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 21:59:50,193 INFO Swept 21614 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 22:04:48,148 INFO Swept 21567 events: 0 taker trades, 0 new quotes, 0 resting
