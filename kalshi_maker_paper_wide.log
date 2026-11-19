@@ -10470,3 +10470,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 19:42:25,053 INFO Settled KXNBARACE-26NOV18MILMIA-20: paid $1, profit $-0.04
 2026-11-18 19:42:25,174 INFO Settled KXBRASILEIROSCORE-26NOV18CFCSAN: paid $2, profit $0.44
 2026-11-18 19:42:28,304 INFO Swept 21787 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:47:37,853 INFO PAPER rest NO bid KXBRASILEIROSCORE-26NOV18CRCHA-CR2CHA1 at $0.3600 x1 (0 already bid at that price)
+2026-11-18 19:47:37,854 INFO Resting NO bid on KXBRASILEIROSCORE-26NOV18CRCHA-CR2CHA1 at $0.3600 x1 (KXBRASILEIROSCORE-26NOV18CRCHA): locks in $0.44 if it fills; hedge NO CR2CHA0@0.3400, CR3CHA0@0.8300, CR3CHA1@0.9800
+2026-11-18 19:47:38,346 INFO Swept 21777 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 19:52:32,451 INFO Swept 21765 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-18 19:53:44,637 INFO Quote KXBRASILEIROSCORE-26NOV18CRCHA cancelled (0/1 filled)
+2026-11-18 19:57:35,250 INFO PAPER rest NO bid KXBRASILEIROSCORE-26NOV18CRCHA-CR2CHA1 at $0.4900 x2 (170 already bid at that price)
+2026-11-18 19:57:35,251 INFO Resting NO bid on KXBRASILEIROSCORE-26NOV18CRCHA-CR2CHA1 at $0.4900 x2 (KXBRASILEIROSCORE-26NOV18CRCHA): locks in $0.82 if it fills; hedge NO CR2CHA0@0.1000, CR3CHA0@0.9800
+2026-11-18 19:57:35,753 INFO Swept 21767 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 19:57:41,116 INFO Quote KXBRASILEIROSCORE-26NOV18CRCHA cancelled (0/2 filled)
+2026-11-18 20:02:34,911 INFO Swept 21753 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 20:07:41,828 INFO Swept 21776 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 20:12:45,479 INFO Swept 21838 events: 0 taker trades, 0 new quotes, 0 resting
