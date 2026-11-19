@@ -2934,5 +2934,25 @@
    "closed": "2026-11-18T21:05:30.788728+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNBARACE-26NOV18MILMIA-20",
+   "series": "KXNBARACE",
+   "title": "Milwaukee vs Miami: Race to 20 Points",
+   "ticker": "KXNBARACE-26NOV18MILMIA-20-MIA",
+   "order_id": "paper-1193-1795047137",
+   "price": "0.1400",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8900",
+   "multiplier": "1",
+   "placed": 1795047137.0302265,
+   "hedge": [
+    {
+     "ticker": "KXNBARACE-26NOV18MILMIA-20-MIL",
+     "limit": "0.7200"
+    }
+   ]
+  }
+ ]
 }

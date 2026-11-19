@@ -16672,5 +16672,33 @@
   "at_price": 19,
   "filled": 3,
   "status": "executed"
+ },
+ "paper-1192-1795045631": {
+  "id": "paper-1192-1795045631",
+  "ticker": "KXBRASILEIROFTTS-26NOV18CFCSAN-CFC",
+  "price": "0.1800",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1795045631.0818431,
+  "checked": 1795046017.9603221,
+  "expires": 1795047431,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-1193-1795047137": {
+  "id": "paper-1193-1795047137",
+  "ticker": "KXNBARACE-26NOV18MILMIA-20-MIA",
+  "price": "0.1400",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1795047137.016056,
+  "checked": 1795047276.2976575,
+  "expires": 1795048936,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

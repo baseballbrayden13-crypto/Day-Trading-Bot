@@ -10441,3 +10441,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 18:32:01,554 INFO Swept 21493 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 18:37:00,760 INFO Swept 21498 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 18:42:04,713 INFO Swept 21498 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 18:47:11,095 INFO PAPER rest NO bid KXBRASILEIROFTTS-26NOV18CFCSAN-CFC at $0.1800 x1 (0 already bid at that price)
+2026-11-18 18:47:11,095 INFO Resting NO bid on KXBRASILEIROFTTS-26NOV18CFCSAN-CFC at $0.1800 x1 (KXBRASILEIROFTTS-26NOV18CFCSAN): locks in $0.12 if it fills; hedge NO SAN@0.6900, NONE@0.9700
+2026-11-18 18:47:11,590 INFO Swept 21500 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 18:52:05,377 INFO Swept 21497 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-18 18:53:38,043 INFO Quote KXBRASILEIROFTTS-26NOV18CFCSAN cancelled (0/1 filled)
+2026-11-18 18:57:10,227 INFO Swept 21497 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:02:05,264 INFO Swept 21495 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:07:13,437 INFO Swept 21487 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:12:17,030 INFO PAPER rest NO bid KXNBARACE-26NOV18MILMIA-20-MIA at $0.1400 x1 (0 already bid at that price)
+2026-11-18 19:12:17,030 INFO Resting NO bid on KXNBARACE-26NOV18MILMIA-20-MIA at $0.1400 x1 (KXNBARACE-26NOV18MILMIA-20): locks in $0.11 if it fills; hedge NO MIL@0.7200
+2026-11-18 19:12:17,524 INFO Swept 21521 events: 0 taker trades, 1 new quotes, 1 resting
