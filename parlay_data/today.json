@@ -1,192 +1,49 @@
 {
- "updated": "2026-11-18T22:04:31+00:00",
+ "updated": "2026-11-19T03:38:25+00:00",
  "parlays": [
-  {
-   "kind": "game",
-   "game": "Cleveland Cavaliers vs Memphis Grizzlies",
-   "start": "2026-11-19T00:10:00Z",
-   "legs": [
-    {
-     "label": "Cleveland Cavaliers to win",
-     "ticker": "KXNBAGAME-26NOV18MEMCLE-CLE",
-     "side": "yes",
-     "price": 0.64,
-     "fair": 0.6327,
-     "value": -0.0243,
-     "player": ""
-    },
-    {
-     "label": "Jerami Grant 10+ points",
-     "ticker": "KXNBAPTS-26NOV18MEMCLE-MEMJGRANT9-10",
-     "side": "yes",
-     "price": 0.72,
-     "fair": 0.7696,
-     "value": 0.0346,
-     "player": "Jerami Grant"
-    },
-    {
-     "label": "Cam Spencer 10+ points",
-     "ticker": "KXNBAPTS-26NOV18MEMCLE-MEMCSPENCER24-10",
-     "side": "yes",
-     "price": 0.74,
-     "fair": 0.7815,
-     "value": 0.0275,
-     "player": "Cam Spencer"
-    },
-    {
-     "label": "Peyton Watson 4+ rebounds",
-     "ticker": "KXNBAREB-26NOV18MEMCLE-CLEPWATSON8-4",
-     "side": "yes",
-     "price": 0.64,
-     "fair": 0.6802,
-     "value": 0.0232,
-     "player": "Peyton Watson"
-    }
-   ],
-   "price": 0.2392,
-   "fair": 0.2588,
-   "pays": "+318",
-   "per_dollar": 4.18
-  },
-  {
-   "kind": "game (safer 2-leg)",
-   "game": "Cleveland Cavaliers vs Memphis Grizzlies",
-   "start": "2026-11-19T00:10:00Z",
-   "legs": [
-    {
-     "label": "Cam Spencer 10+ points",
-     "ticker": "KXNBAPTS-26NOV18MEMCLE-MEMCSPENCER24-10",
-     "side": "yes",
-     "price": 0.74,
-     "fair": 0.7815,
-     "value": 0.0275,
-     "player": "Cam Spencer"
-    },
-    {
-     "label": "Jerami Grant 10+ points",
-     "ticker": "KXNBAPTS-26NOV18MEMCLE-MEMJGRANT9-10",
-     "side": "yes",
-     "price": 0.72,
-     "fair": 0.7696,
-     "value": 0.0346,
-     "player": "Jerami Grant"
-    }
-   ],
-   "price": 0.5542,
-   "fair": 0.6014,
-   "pays": "-124",
-   "per_dollar": 1.8
-  },
-  {
-   "kind": "game",
-   "game": "Houston Rockets vs Indiana Pacers",
-   "start": "2026-11-19T00:10:00Z",
-   "legs": [
-    {
-     "label": "Kelly Oubre Jr. 10+ points",
-     "ticker": "KXNBAPTS-26NOV18HOUIND-INDKOUBRE10-10",
-     "side": "yes",
-     "price": 0.68,
-     "fair": 0.7541,
-     "value": 0.0581,
-     "player": "Kelly Oubre Jr."
-    },
-    {
-     "label": "Fred VanVleet 10+ points",
-     "ticker": "KXNBAPTS-26NOV18HOUIND-HOUFVANVLEET5-10",
-     "side": "yes",
-     "price": 0.71,
-     "fair": 0.7827,
-     "value": 0.0577,
-     "player": "Fred VanVleet"
-    },
-    {
-     "label": "Ivica Zubac 10+ points",
-     "ticker": "KXNBAPTS-26NOV18HOUIND-INDIZUBAC40-10",
-     "side": "yes",
-     "price": 0.68,
-     "fair": 0.7445,
-     "value": 0.0485,
-     "player": "Ivica Zubac"
-    }
-   ],
-   "price": 0.3512,
-   "fair": 0.4394,
-   "pays": "+185",
-   "per_dollar": 2.85
-  },
-  {
-   "kind": "game (safer 2-leg)",
-   "game": "Houston Rockets vs Indiana Pacers",
-   "start": "2026-11-19T00:10:00Z",
-   "legs": [
-    {
-     "label": "Fred VanVleet 10+ points",
-     "ticker": "KXNBAPTS-26NOV18HOUIND-HOUFVANVLEET5-10",
-     "side": "yes",
-     "price": 0.71,
-     "fair": 0.7827,
-     "value": 0.0577,
-     "player": "Fred VanVleet"
-    },
-    {
-     "label": "Kelly Oubre Jr. 10+ points",
-     "ticker": "KXNBAPTS-26NOV18HOUIND-INDKOUBRE10-10",
-     "side": "yes",
-     "price": 0.68,
-     "fair": 0.7541,
-     "value": 0.0581,
-     "player": "Kelly Oubre Jr."
-    }
-   ],
-   "price": 0.5046,
-   "fair": 0.5902,
-   "pays": "-102",
-   "per_dollar": 1.98
-  },
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-19T02:00:00Z",
+   "start": "2026-11-20T01:30:00Z",
    "legs": [
     {
-     "label": "Yale Bulldogs to win",
-     "ticker": "KXNCAAMBGAME-26NOV18UVMYALE-YALE",
+     "label": "NC State Wolfpack to win",
+     "ticker": "KXNCAAMBGAME-26NOV19NCSTMURR-NCST",
      "side": "yes",
-     "price": 0.74,
-     "fair": 0.7416,
-     "value": -0.0124,
+     "price": 0.61,
+     "fair": 0.6207,
+     "value": -0.0063,
      "player": ""
     },
     {
-     "label": "Florida Atlantic Owls to win",
-     "ticker": "KXNCAAMBGAME-26NOV18FGCUFAU-FAU",
+     "label": "Wisconsin Badgers to win",
+     "ticker": "KXNCAAMBGAME-26NOV19WISHALL-WIS",
      "side": "yes",
-     "price": 0.69,
-     "fair": 0.6889,
-     "value": -0.0161,
+     "price": 0.65,
+     "fair": 0.6479,
+     "value": -0.0181,
      "player": ""
     },
     {
-     "label": "Arizona Wildcats to win",
-     "ticker": "KXNCAAMBGAME-26NOV18CONNARIZ-ARIZ",
+     "label": "San Antonio Spurs to win",
+     "ticker": "KXNBAGAME-26NOV19LACSAS-SAS",
      "side": "yes",
-     "price": 0.6,
-     "fair": 0.6007,
-     "value": -0.0163,
+     "price": 0.91,
+     "fair": 0.8964,
+     "value": -0.0196,
      "player": ""
     }
    ],
-   "price": 0.328,
-   "fair": 0.3069,
-   "pays": "+205",
-   "per_dollar": 3.05
+   "price": 0.3825,
+   "fair": 0.3605,
+   "pays": "+161",
+   "per_dollar": 2.61
   }
  ],
- "open_pretend": 3,
+ "open_pretend": 1,
  "record": {
-  "parlays": 15,
+  "parlays": 17,
   "won": 2,
-  "profit": -10.02
+  "profit": -12.02
  }
 }

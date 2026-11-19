@@ -47,3 +47,16 @@ settled,kind,sport,game,start,picks,staked,edge,winner,pnl
 2026-11-18T04:30:11+00:00,arb,basketball_nba,New York Knicks at Toronto Raptors,2026-11-18T00:40:00Z,New York Knicks @ Bovada 1.74; Toronto Raptors @ Pinnacle 2.41,100.0,0.0105,New York Knicks,1.04
 2026-11-18T04:30:11+00:00,value,basketball_ncaab,Saint Peter's Peacocks at UMass Lowell River Hawks,2026-11-17T23:00:00Z,Saint Peter's Peacocks @ BetRivers 2.95,10.0,0.0359,UMass Lowell River Hawks,-10.0
 2026-11-18T04:30:11+00:00,value,basketball_ncaab,Illinois Fighting Illini at Duke Blue Devils,2026-11-18T00:00:00Z,Illinois Fighting Illini @ BetOnline.ag 4.5,10.0,0.0355,Illinois Fighting Illini,35.0
+2026-11-19T03:38:21+00:00,value,basketball_nba,Washington Wizards at Toronto Raptors,2026-11-19T00:40:00Z,Washington Wizards @ Pinnacle 3.5,10.0,0.0492,Washington Wizards,25.0
+2026-11-19T03:38:21+00:00,value,basketball_ncaab,Fort Wayne Mastodons at Bradley Braves,2026-11-19T01:00:00Z,Fort Wayne Mastodons @ BetRivers 3.75,10.0,0.0691,Fort Wayne Mastodons,27.5
+2026-11-19T03:38:21+00:00,arb,basketball_ncaab,Fort Wayne Mastodons at Bradley Braves,2026-11-19T01:00:00Z,Bradley Braves @ FanDuel 1.38; Fort Wayne Mastodons @ BetRivers 3.75,100.0,0.0088,Fort Wayne Mastodons,0.87
+2026-11-19T03:38:21+00:00,value,basketball_ncaab,Boston Univ. Terriers at Merrimack Warriors,2026-11-19T00:00:00Z,Boston Univ. Terriers @ BetRivers 2.65,10.0,0.0324,Boston Univ. Terriers,16.5
+2026-11-19T03:38:21+00:00,value,basketball_ncaab,Wofford Terriers at Charleston Southern Buccaneers,2026-11-19T00:00:00Z,Charleston Southern Buccaneers @ BetRivers 2.55,10.0,0.0679,Wofford Terriers,-10.0
+2026-11-19T03:38:21+00:00,arb,basketball_ncaab,Wofford Terriers at Charleston Southern Buccaneers,2026-11-19T00:00:00Z,Charleston Southern Buccaneers @ BetRivers 2.55; Wofford Terriers @ Bovada 1.67,100.0,0.0091,Wofford Terriers,0.92
+2026-11-19T03:38:21+00:00,value,basketball_ncaab,Furman Paladins at Radford Highlanders,2026-11-19T00:00:00Z,Radford Highlanders @ BetRivers 3.2,10.0,0.0423,Furman Paladins,-10.0
+2026-11-19T03:38:21+00:00,value,basketball_ncaab,Vermont Catamounts at Yale Bulldogs,2026-11-19T00:00:00Z,Vermont Catamounts @ BetOnline.ag 3.45,10.0,0.0942,Yale Bulldogs,-10.0
+2026-11-19T03:38:21+00:00,value,basketball_ncaab,Vermont Catamounts at Yale Bulldogs,2026-11-19T00:00:00Z,Vermont Catamounts @ FanDuel 3.25,10.0,0.0308,Yale Bulldogs,-10.0
+2026-11-19T03:38:21+00:00,value,basketball_ncaab,Kansas Jayhawks at West Virginia Mountaineers,2026-11-19T00:30:00Z,West Virginia Mountaineers @ Bovada 4.75,10.0,0.0768,Kansas Jayhawks,-10.0
+2026-11-19T03:38:21+00:00,value,basketball_ncaab,Kansas Jayhawks at West Virginia Mountaineers,2026-11-19T00:30:00Z,West Virginia Mountaineers @ BetRivers 4.6,10.0,0.0428,Kansas Jayhawks,-10.0
+2026-11-19T03:38:21+00:00,value,basketball_ncaab,Morgan St Bears at North Carolina A&T Aggies,2026-11-19T00:00:00Z,Morgan St Bears @ BetRivers 4.0,10.0,0.0369,North Carolina A&T Aggies,-10.0
+2026-11-19T03:38:21+00:00,value,basketball_ncaab,Kansas Jayhawks at West Virginia Mountaineers,2026-11-19T00:30:00Z,West Virginia Mountaineers @ BetOnline.ag 4.16,10.0,0.0319,Kansas Jayhawks,-10.0

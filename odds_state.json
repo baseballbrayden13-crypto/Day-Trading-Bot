@@ -21,69 +21,6 @@
   },
   {
    "kind": "value",
-   "game": "Washington Wizards at Toronto Raptors",
-   "game_id": "5896e4ed2ed41ce673e882b6529078b8",
-   "sport": "basketball_nba",
-   "start": "2026-11-19T00:40:00Z",
-   "edge": 0.0492,
-   "home": "Toronto Raptors",
-   "away": "Washington Wizards",
-   "legs": [
-    {
-     "team": "Washington Wizards",
-     "book": "Pinnacle",
-     "odds": 3.5,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T04:30:11+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Fort Wayne Mastodons at Bradley Braves",
-   "game_id": "0184484f6b614c2d85a18a6cd254f32f",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T01:00:00Z",
-   "edge": 0.0691,
-   "home": "Bradley Braves",
-   "away": "Fort Wayne Mastodons",
-   "legs": [
-    {
-     "team": "Fort Wayne Mastodons",
-     "book": "BetRivers",
-     "odds": 3.75,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T04:30:11+00:00"
-  },
-  {
-   "kind": "arb",
-   "game": "Fort Wayne Mastodons at Bradley Braves",
-   "game_id": "0184484f6b614c2d85a18a6cd254f32f",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T01:00:00Z",
-   "edge": 0.0088,
-   "home": "Bradley Braves",
-   "away": "Fort Wayne Mastodons",
-   "legs": [
-    {
-     "team": "Bradley Braves",
-     "book": "FanDuel",
-     "odds": 1.38,
-     "stake": 73.1
-    },
-    {
-     "team": "Fort Wayne Mastodons",
-     "book": "BetRivers",
-     "odds": 3.75,
-     "stake": 26.9
-    }
-   ],
-   "opened": "2026-11-18T04:30:11+00:00"
-  },
-  {
-   "kind": "value",
    "game": "UC Riverside Highlanders at San Diego Toreros",
    "game_id": "71da7a3b35a159e0eda2605454c15805",
    "sport": "basketball_ncaab",
@@ -100,164 +37,6 @@
     }
    ],
    "opened": "2026-11-18T04:30:11+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Boston Univ. Terriers at Merrimack Warriors",
-   "game_id": "8b7bc1bd7533ac97afd5c1ec251581a0",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T00:00:00Z",
-   "edge": 0.0324,
-   "home": "Merrimack Warriors",
-   "away": "Boston Univ. Terriers",
-   "legs": [
-    {
-     "team": "Boston Univ. Terriers",
-     "book": "BetRivers",
-     "odds": 2.65,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T14:11:15+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Wofford Terriers at Charleston Southern Buccaneers",
-   "game_id": "132c7c36f9f131658b709cf7362933ff",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T00:00:00Z",
-   "edge": 0.0679,
-   "home": "Charleston Southern Buccaneers",
-   "away": "Wofford Terriers",
-   "legs": [
-    {
-     "team": "Charleston Southern Buccaneers",
-     "book": "BetRivers",
-     "odds": 2.55,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T14:11:15+00:00"
-  },
-  {
-   "kind": "arb",
-   "game": "Wofford Terriers at Charleston Southern Buccaneers",
-   "game_id": "132c7c36f9f131658b709cf7362933ff",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T00:00:00Z",
-   "edge": 0.0091,
-   "home": "Charleston Southern Buccaneers",
-   "away": "Wofford Terriers",
-   "legs": [
-    {
-     "team": "Charleston Southern Buccaneers",
-     "book": "BetRivers",
-     "odds": 2.55,
-     "stake": 39.57
-    },
-    {
-     "team": "Wofford Terriers",
-     "book": "Bovada",
-     "odds": 1.67,
-     "stake": 60.43
-    }
-   ],
-   "opened": "2026-11-18T14:11:15+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Furman Paladins at Radford Highlanders",
-   "game_id": "82788d571686840835ddb5b1e6332dd6",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T00:00:00Z",
-   "edge": 0.0423,
-   "home": "Radford Highlanders",
-   "away": "Furman Paladins",
-   "legs": [
-    {
-     "team": "Radford Highlanders",
-     "book": "BetRivers",
-     "odds": 3.2,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T14:11:15+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Vermont Catamounts at Yale Bulldogs",
-   "game_id": "d5b20b33c88b112012af9cf6db1b73b8",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T00:00:00Z",
-   "edge": 0.0942,
-   "home": "Yale Bulldogs",
-   "away": "Vermont Catamounts",
-   "legs": [
-    {
-     "team": "Vermont Catamounts",
-     "book": "BetOnline.ag",
-     "odds": 3.45,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T14:11:15+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Vermont Catamounts at Yale Bulldogs",
-   "game_id": "d5b20b33c88b112012af9cf6db1b73b8",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T00:00:00Z",
-   "edge": 0.0308,
-   "home": "Yale Bulldogs",
-   "away": "Vermont Catamounts",
-   "legs": [
-    {
-     "team": "Vermont Catamounts",
-     "book": "FanDuel",
-     "odds": 3.25,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T14:11:15+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Kansas Jayhawks at West Virginia Mountaineers",
-   "game_id": "c36425b5ec4189fc1acd91902c721bf2",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T00:30:00Z",
-   "edge": 0.0768,
-   "home": "West Virginia Mountaineers",
-   "away": "Kansas Jayhawks",
-   "legs": [
-    {
-     "team": "West Virginia Mountaineers",
-     "book": "Bovada",
-     "odds": 4.75,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T14:11:15+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Kansas Jayhawks at West Virginia Mountaineers",
-   "game_id": "c36425b5ec4189fc1acd91902c721bf2",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T00:30:00Z",
-   "edge": 0.0428,
-   "home": "West Virginia Mountaineers",
-   "away": "Kansas Jayhawks",
-   "legs": [
-    {
-     "team": "West Virginia Mountaineers",
-     "book": "BetRivers",
-     "odds": 4.6,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-18T14:11:15+00:00"
   },
   {
    "kind": "value",
@@ -280,41 +59,61 @@
   },
   {
    "kind": "value",
-   "game": "Morgan St Bears at North Carolina A&T Aggies",
-   "game_id": "76fcb84461ad12196d08770d0d8bebc8",
+   "game": "Robert Morris Colonials at Toledo Rockets",
+   "game_id": "1a7893819f5bab2287cbc72dc8226d7e",
    "sport": "basketball_ncaab",
-   "start": "2026-11-19T00:00:00Z",
-   "edge": 0.0369,
-   "home": "North Carolina A&T Aggies",
-   "away": "Morgan St Bears",
+   "start": "2026-11-20T00:00:00Z",
+   "edge": 0.0602,
+   "home": "Toledo Rockets",
+   "away": "Robert Morris Colonials",
    "legs": [
     {
-     "team": "Morgan St Bears",
+     "team": "Robert Morris Colonials",
      "book": "BetRivers",
-     "odds": 4.0,
+     "odds": 3.85,
      "stake": 10.0
     }
    ],
-   "opened": "2026-11-18T22:04:25+00:00"
+   "opened": "2026-11-19T03:38:21+00:00"
   },
   {
    "kind": "value",
-   "game": "Kansas Jayhawks at West Virginia Mountaineers",
-   "game_id": "c36425b5ec4189fc1acd91902c721bf2",
+   "game": "UC Santa Barbara Gauchos at Pepperdine Waves",
+   "game_id": "06c795c1626c246ad89e38eb1a35dbfb",
    "sport": "basketball_ncaab",
-   "start": "2026-11-19T00:30:00Z",
-   "edge": 0.0319,
-   "home": "West Virginia Mountaineers",
-   "away": "Kansas Jayhawks",
+   "start": "2026-11-20T02:00:00Z",
+   "edge": 0.0437,
+   "home": "Pepperdine Waves",
+   "away": "UC Santa Barbara Gauchos",
    "legs": [
     {
-     "team": "West Virginia Mountaineers",
-     "book": "BetOnline.ag",
-     "odds": 4.16,
+     "team": "Pepperdine Waves",
+     "book": "BetRivers",
+     "odds": 2.45,
      "stake": 10.0
     }
    ],
-   "opened": "2026-11-18T22:04:25+00:00"
+   "opened": "2026-11-19T03:38:21+00:00"
+  },
+  {
+   "kind": "kalshi",
+   "game": "UC Santa Barbara Gauchos at Pepperdine Waves",
+   "game_id": "06c795c1626c246ad89e38eb1a35dbfb",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-20T02:00:00Z",
+   "edge": 0.0365,
+   "home": "Pepperdine Waves",
+   "away": "UC Santa Barbara Gauchos",
+   "legs": [
+    {
+     "team": "Pepperdine Waves",
+     "book": "Kalshi",
+     "odds": 2.457,
+     "stake": 10.0,
+     "ticker": "KXNCAAMBGAME-26NOV19UCSBPEPP-PEPP"
+    }
+   ],
+   "opened": "2026-11-19T03:38:21+00:00"
   }
  ],
  "seen": {
@@ -381,18 +180,21 @@
   "value|c36425b5ec4189fc1acd91902c721bf2|West Virginia Mountaineers|BetRivers": "2026-11-18T14:11:15.904199+00:00",
   "value|b86b3fdea018ce4da96e2f720e3a5842|UNLV Rebels|Bovada": "2026-11-18T14:11:15.904199+00:00",
   "value|76fcb84461ad12196d08770d0d8bebc8|Morgan St Bears|BetRivers": "2026-11-18T22:04:25.401007+00:00",
-  "value|c36425b5ec4189fc1acd91902c721bf2|West Virginia Mountaineers|BetOnline.ag": "2026-11-18T22:04:25.401007+00:00"
+  "value|c36425b5ec4189fc1acd91902c721bf2|West Virginia Mountaineers|BetOnline.ag": "2026-11-18T22:04:25.401007+00:00",
+  "value|1a7893819f5bab2287cbc72dc8226d7e|Robert Morris Colonials|BetRivers": "2026-11-19T03:38:21.851479+00:00",
+  "value|06c795c1626c246ad89e38eb1a35dbfb|Pepperdine Waves|BetRivers": "2026-11-19T03:38:21.851479+00:00",
+  "kalshi|06c795c1626c246ad89e38eb1a35dbfb|Pepperdine Waves|Kalshi": "2026-11-19T03:38:21.851479+00:00"
  },
  "credits": {
   "day": "2026-11-18",
-  "spent": 10,
-  "remaining": 322
+  "spent": 15,
+  "remaining": 317
  },
  "last_priced": {
-  "basketball_nba": "2026-11-18T22:04:25.401007+00:00",
-  "icehockey_nhl": "2026-11-18T22:04:25.401007+00:00",
-  "americanfootball_ncaaf": "2026-11-18T22:04:25.401007+00:00",
-  "basketball_ncaab": "2026-11-18T22:04:25.401007+00:00",
-  "americanfootball_nfl": "2026-11-18T22:04:25.401007+00:00"
+  "basketball_nba": "2026-11-19T03:38:21.851479+00:00",
+  "icehockey_nhl": "2026-11-19T03:38:21.851479+00:00",
+  "americanfootball_ncaaf": "2026-11-19T03:38:21.851479+00:00",
+  "basketball_ncaab": "2026-11-19T03:38:21.851479+00:00",
+  "americanfootball_nfl": "2026-11-19T03:38:21.851479+00:00"
  }
 }
