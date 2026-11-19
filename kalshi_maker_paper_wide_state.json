@@ -2996,5 +2996,25 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXAHLGAME-26NOV201900BELHAMH",
+   "series": "KXAHLGAME",
+   "title": "Belleville Senators vs Hamilton Hammers",
+   "ticker": "KXAHLGAME-26NOV201900BELHAMH-HAMH",
+   "order_id": "paper-1209-1795094048",
+   "price": "0.44",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8900",
+   "multiplier": "1",
+   "placed": 1795094048.1665514,
+   "hedge": [
+    {
+     "ticker": "KXAHLGAME-26NOV201900BELHAMH-BEL",
+     "limit": "0.4800"
+    }
+   ]
+  }
+ ]
 }
