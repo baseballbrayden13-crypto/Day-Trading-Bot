@@ -2996,5 +2996,25 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAMBGAME-26NOV22MASSLCIN",
+   "series": "KXNCAAMBGAME",
+   "title": "UMass Lowell vs Cincinnati",
+   "ticker": "KXNCAAMBGAME-26NOV22MASSLCIN-MASSL",
+   "order_id": "paper-1199-1795058697",
+   "price": "0.6400",
+   "sets": 5,
+   "done": 0,
+   "reserve": "3.7700",
+   "multiplier": "1",
+   "placed": 1795058697.8808627,
+   "hedge": [
+    {
+     "ticker": "KXNCAAMBGAME-26NOV22MASSLCIN-CIN",
+     "limit": "0.1200"
+    }
+   ]
+  }
+ ]
 }
