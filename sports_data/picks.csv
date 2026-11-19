@@ -886,17 +886,17 @@ live,2026-11-17,nhl,OTT @ WPG,Winnipeg Jets,home,2.1,0.529,0.457,0.072,settled,0
 live,2026-11-17,nhl,TOR @ CHI,Chicago Blackhawks,home,2.24,0.531,0.428,0.104,settled,1,12.4,401892733
 live,2026-11-17,nhl,NSH @ MIN,Nashville Predators,away,2.7,0.411,0.355,0.056,settled,0,-10.0,401892735
 replay,2026-11-17,ncaaf,M-OH @ KENT,Kent State Golden Flashes,home,3.95,0.346,0.243,0.104,settled,0,-10.0,401866466
-live,2026-11-18,ncaaf,AKR @ MASS,Massachusetts Minutemen,home,1.556,0.782,0.616,0.166,open,,,401866467
-live,2026-11-18,ncaaf,CMU @ BUFF,Buffalo Bulls,home,1.704,0.687,0.563,0.124,open,,,401866469
+live,2026-11-18,ncaaf,AKR @ MASS,Massachusetts Minutemen,home,1.556,0.782,0.616,0.166,settled,0,-10.0,401866467
+live,2026-11-18,ncaaf,CMU @ BUFF,Buffalo Bulls,home,1.704,0.687,0.563,0.124,settled,1,7.04,401866469
 replay,2026-11-17,nba,NY @ TOR,Toronto Raptors,home,2.21,0.518,0.434,0.084,settled,0,-10.0,401910002
 replay,2026-11-17,nba,UTAH @ LAC,LA Clippers,home,1.42,0.744,0.677,0.067,settled,0,-10.0,401910006
 replay,2026-11-17,nba,CHA @ LAL,Los Angeles Lakers,home,1.346,0.891,0.714,0.177,settled,1,3.46,401910005
-live,2026-11-18,nba,MEM @ CLE,Memphis Grizzlies,away,2.64,0.563,0.364,0.2,open,,,401910007
-live,2026-11-18,nba,HOU @ IND,Indiana Pacers,home,3.61,0.348,0.266,0.082,open,,,401910008
-live,2026-11-18,nba,MIL @ MIA,Miami Heat,home,1.143,0.898,0.841,0.057,open,,,401910009
-live,2026-11-18,nba,CHI @ BKN,Brooklyn Nets,home,1.806,0.594,0.532,0.062,open,,,401910011
-live,2026-11-18,nba,DET @ NO,Detroit Pistons,away,1.541,0.68,0.623,0.057,open,,,401910013
-live,2026-11-18,nba,GS @ DAL,Golden State Warriors,away,2.64,0.519,0.363,0.155,open,,,401910016
+live,2026-11-18,nba,MEM @ CLE,Memphis Grizzlies,away,2.64,0.563,0.364,0.2,settled,1,16.4,401910007
+live,2026-11-18,nba,HOU @ IND,Indiana Pacers,home,3.61,0.348,0.266,0.082,settled,0,-10.0,401910008
+live,2026-11-18,nba,MIL @ MIA,Miami Heat,home,1.143,0.898,0.841,0.057,settled,1,1.43,401910009
+live,2026-11-18,nba,CHI @ BKN,Brooklyn Nets,home,1.806,0.594,0.532,0.062,settled,0,-10.0,401910011
+live,2026-11-18,nba,DET @ NO,Detroit Pistons,away,1.541,0.68,0.623,0.057,settled,1,5.41,401910013
+live,2026-11-18,nba,GS @ DAL,Golden State Warriors,away,2.64,0.519,0.363,0.155,settled,0,-10.0,401910016
 live,2026-11-18,nba,UTAH @ LAL,Los Angeles Lakers,home,1.176,0.894,0.817,0.077,open,,,401910017
 replay,2026-11-17,nhl,BUF @ PHI,Philadelphia Flyers,home,2.05,0.52,0.468,0.052,settled,1,10.5,401892732
 replay,2026-11-17,nhl,OTT @ WPG,Winnipeg Jets,home,2.1,0.529,0.457,0.072,settled,0,-10.0,401892736

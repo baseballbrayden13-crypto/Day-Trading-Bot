@@ -1,89 +1,89 @@
 league,start,game,home,away,state,elo_home,market_home,seasoned,pick,id
-ncaaf,2026-11-19T00:00Z,AKR @ MASS,Massachusetts Minutemen,Akron Zips,pre,0.782,0.616,1,Massachusetts Minutemen @ 1.56 (+17 pts),401866467
-ncaaf,2026-11-19T00:30Z,CMU @ BUFF,Buffalo Bulls,Central Michigan Chippewas,pre,0.687,0.563,1,Buffalo Bulls @ 1.70 (+12 pts),401866469
-nba,2026-11-19T00:00Z,MEM @ CLE,Cleveland Cavaliers,Memphis Grizzlies,pre,0.437,0.636,1,Memphis Grizzlies @ 2.64 (+20 pts),401910007
-nba,2026-11-19T00:00Z,HOU @ IND,Indiana Pacers,Houston Rockets,pre,0.348,0.266,1,Indiana Pacers @ 3.61 (+8 pts),401910008
-nba,2026-11-19T00:00Z,MIL @ MIA,Miami Heat,Milwaukee Bucks,pre,0.898,0.841,1,Miami Heat @ 1.14 (+6 pts),401910009
-nba,2026-11-19T00:00Z,PHI @ ORL,Orlando Magic,Philadelphia 76ers,pre,0.519,0.491,1,,401910010
-nba,2026-11-19T00:30Z,CHI @ BKN,Brooklyn Nets,Chicago Bulls,pre,0.594,0.532,1,Brooklyn Nets @ 1.81 (+6 pts),401910011
-nba,2026-11-19T00:30Z,WSH @ TOR,Toronto Raptors,Washington Wizards,pre,0.662,0.643,1,,401910012
-nba,2026-11-19T01:00Z,DET @ NO,New Orleans Pelicans,Detroit Pistons,pre,0.32,0.377,1,Detroit Pistons @ 1.54 (+6 pts),401910013
-nba,2026-11-19T01:00Z,ATL @ OKC,Oklahoma City Thunder,Atlanta Hawks,pre,0.644,0.685,1,,401910014
-nba,2026-11-19T01:00Z,GS @ DAL,Dallas Mavericks,Golden State Warriors,pre,0.481,0.637,1,Golden State Warriors @ 2.64 (+16 pts),401910016
-nba,2026-11-19T02:30Z,BOS @ DEN,Denver Nuggets,Boston Celtics,pre,0.431,0.437,1,,401910015
-nba,2026-11-19T03:00Z,UTAH @ LAL,Los Angeles Lakers,Utah Jazz,pre,0.894,0.817,1,Los Angeles Lakers @ 1.18 (+8 pts),401910017
-nba,2026-11-19T03:00Z,PHX @ SAC,Sacramento Kings,Phoenix Suns,pre,0.313,0.299,1,,401910018
+ncaaf,2026-11-19T00:00Z,AKR @ MASS,Massachusetts Minutemen,Akron Zips,post,0.782,,1,,401866467
+ncaaf,2026-11-19T00:30Z,CMU @ BUFF,Buffalo Bulls,Central Michigan Chippewas,post,0.687,,1,,401866469
+nba,2026-11-19T00:00Z,MEM @ CLE,Cleveland Cavaliers,Memphis Grizzlies,post,0.437,,1,,401910007
+nba,2026-11-19T00:00Z,HOU @ IND,Indiana Pacers,Houston Rockets,post,0.348,,1,,401910008
+nba,2026-11-19T00:00Z,MIL @ MIA,Miami Heat,Milwaukee Bucks,post,0.898,,1,,401910009
+nba,2026-11-19T00:00Z,PHI @ ORL,Orlando Magic,Philadelphia 76ers,post,0.519,,1,,401910010
+nba,2026-11-19T00:30Z,CHI @ BKN,Brooklyn Nets,Chicago Bulls,post,0.594,,1,,401910011
+nba,2026-11-19T00:30Z,WSH @ TOR,Toronto Raptors,Washington Wizards,post,0.662,,1,,401910012
+nba,2026-11-19T01:00Z,DET @ NO,New Orleans Pelicans,Detroit Pistons,post,0.32,,1,,401910013
+nba,2026-11-19T01:00Z,ATL @ OKC,Oklahoma City Thunder,Atlanta Hawks,post,0.644,,1,,401910014
+nba,2026-11-19T01:00Z,GS @ DAL,Dallas Mavericks,Golden State Warriors,post,0.481,,1,,401910016
+nba,2026-11-19T02:30Z,BOS @ DEN,Denver Nuggets,Boston Celtics,in,0.431,,1,,401910015
+nba,2026-11-19T03:00Z,UTAH @ LAL,Los Angeles Lakers,Utah Jazz,in,0.894,,1,,401910017
+nba,2026-11-19T03:00Z,PHX @ SAC,Sacramento Kings,Phoenix Suns,in,0.313,,1,,401910018
 ncaab,2026-11-18T17:00Z,JKST @ BAY,Baylor Bears,Jackson State Tigers,post,0.713,,0,,401909753
 ncaab,2026-11-18T19:00Z,RUTG VS ND,Notre Dame Fighting Irish,Rutgers Scarlet Knights,post,0.536,,0,,401920513
-ncaab,2026-11-18T21:48Z,HOU VS FLA,Florida Gators,Houston Cougars,in,0.517,,0,,401920514
-ncaab,2026-11-18T23:30Z,TNTC @ UNCA,UNC Asheville Bulldogs,Tennessee Tech Golden Eagles,pre,0.55,0.4,0,,401922292
-ncaab,2026-11-18T23:30Z,SAM @ UPST,South Carolina Upstate Spartans,Samford Bulldogs,pre,0.579,0.256,0,,401922283
-ncaab,2026-11-18T23:30Z,UTC @ WIN,Winthrop Eagles,Chattanooga Mocs,pre,0.477,0.396,0,,401920974
-ncaab,2026-11-18T23:30Z,DETM @ EMU,Eastern Michigan Eagles,Detroit Mercy Titans,pre,0.737,0.84,0,,401920947
-ncaab,2026-11-18T23:30Z,IUIN @ PSU,Penn State Nittany Lions,IU Indianapolis Jaguars,pre,0.654,0.912,0,,401917181
-ncaab,2026-11-18T23:30Z,NAVY @ GTWN,Georgetown Hoyas,Navy Midshipmen,pre,0.668,0.94,0,,401909516
-ncaab,2026-11-19T00:00Z,SIE @ SJU,St. John's Red Storm,Siena Saints,pre,0.661,0.976,0,,401920682
-ncaab,2026-11-19T00:00Z,MCLA @ NHVN,New Haven Chargers,MCLA Mohawks,pre,0.551,,0,,401929014
-ncaab,2026-11-19T00:00Z,DFC @ M-OH,Miami (OH) RedHawks,Defiance Yellow Jackets,pre,0.699,,0,,401928843
-ncaab,2026-11-19T00:00Z,MER @ PRES,Presbyterian Blue Hose,Mercer Bears,pre,0.532,0.522,0,,401928347
-ncaab,2026-11-19T00:00Z,JMU @ TOW,Towson Tigers,James Madison Dukes,pre,0.65,0.6,0,,401926838
-ncaab,2026-11-19T00:00Z,HOW VS DUQ,Duquesne Dukes,Howard Bison,pre,0.529,0.664,0,,401925782
-ncaab,2026-11-19T00:00Z,COPP @ LAS,La Salle Explorers,Coppin State Eagles,pre,0.583,0.899,0,,401925632
-ncaab,2026-11-19T00:00Z,SJBK @ FAIR,Fairfield Stags,St. Joseph's Brooklyn Bears,pre,0.588,,0,,401924763
-ncaab,2026-11-19T00:00Z,BU @ MRMK,Merrimack Warriors,Boston University Terriers,pre,0.487,0.604,0,,401923401
-ncaab,2026-11-19T00:00Z,FGCU @ FAU,Florida Atlantic Owls,Florida Gulf Coast Eagles,pre,0.643,0.696,0,,401922212
-ncaab,2026-11-19T00:00Z,FUR @ RAD,Radford Highlanders,Furman Paladins,pre,0.484,0.378,0,,401922055
-ncaab,2026-11-19T00:00Z,VMI @ LONG,Longwood Lancers,VMI Keydets,pre,0.622,0.734,0,,401922047
-ncaab,2026-11-19T00:00Z,MORG @ NCAT,North Carolina A&T Aggies,Morgan State Bears,pre,0.562,0.734,0,,401921156
-ncaab,2026-11-19T00:00Z,ELON @ SC,South Carolina Gamecocks,Elon Phoenix,pre,0.71,0.908,0,,401921141
-ncaab,2026-11-19T00:00Z,MORE @ OHIO,Ohio Bobcats,Morehead State Eagles,pre,0.615,0.908,0,,401920963
-ncaab,2026-11-19T00:00Z,UTIC @ COLG,Colgate Raiders,Utica Pioneers,pre,0.526,,0,,401920772
-ncaab,2026-11-19T00:00Z,UVM @ YALE,Yale Bulldogs,Vermont Catamounts,pre,0.552,0.748,0,,401920694
-ncaab,2026-11-19T00:00Z,NCCU @ GMU,George Mason Patriots,North Carolina Central Eagles,pre,0.734,0.958,0,,401920075
-ncaab,2026-11-19T00:00Z,UNCW @ LIU,Long Island University Sharks,UNC Wilmington Seahawks,pre,0.338,0.209,0,,401919808
-ncaab,2026-11-19T00:00Z,NJIT @ FDU,Fairleigh Dickinson Knights,NJIT Highlanders,pre,0.706,0.637,0,,401919760
-ncaab,2026-11-19T00:00Z,CHST @ UIC,UIC Flames,Chicago State Cougars,pre,0.713,0.963,0,,401919735
-ncaab,2026-11-19T00:00Z,CCSC @ WGA,West Georgia Wolves,Columbia (SC) Fighting Koalas,pre,0.502,,0,,401917902
-ncaab,2026-11-19T00:00Z,WOF @ CHSO,Charleston Southern Buccaneers,Wofford Terriers,pre,0.62,0.483,0,,401911377
-ncaab,2026-11-19T00:00Z,BRWN @ HC,Holy Cross Crusaders,Brown Bears,pre,0.55,0.29,0,,401911309
-ncaab,2026-11-19T00:00Z,BING @ LAF,Lafayette Leopards,Binghamton Bearcats,pre,0.567,0.622,0,,401911277
-ncaab,2026-11-19T00:30Z,NOLA @ TTU,Texas Tech Red Raiders,LSU New Orleans Privateers,pre,0.694,,0,,401921134
-ncaab,2026-11-19T00:30Z,KU VS WVU,West Virginia Mountaineers,Kansas Jayhawks,pre,0.457,0.243,0,,401920515
-ncaab,2026-11-19T00:30Z,MLN @ WRST,Wright State Raiders,Malone Pioneers,pre,0.747,,0,,401928829
-ncaab,2026-11-19T00:30Z,CBS @ RGV,UT Rio Grande Valley Vaqueros,College of Biblical Studies Ambassadors,pre,0.716,,0,,401925109
-ncaab,2026-11-19T00:30Z,UNKY @ BEL,Belmont Bruins,Union Commonwealth (KY) Bulldogs,pre,0.67,,0,,401920761
-ncaab,2026-11-19T00:30Z,YSU @ CIN,Cincinnati Bearcats,Youngstown State Penguins,pre,0.707,0.976,0,,401920751
-ncaab,2026-11-19T00:30Z,NIU @ MARQ,Marquette Golden Eagles,Northern Illinois Huskies,pre,0.564,0.976,0,,401909526
-ncaab,2026-11-19T01:00Z,ULM @ LSU,LSU Tigers,UL Monroe Warhawks,pre,0.759,,0,,401917982
-ncaab,2026-11-19T01:00Z,FAMU @ UTSA,UTSA Roadrunners,Florida A&M Rattlers,pre,0.761,0.926,0,,401929420
-ncaab,2026-11-19T01:00Z,UIW @ TXST,Texas State Bobcats,Incarnate Word Cardinals,pre,0.846,0.936,0,,401929201
-ncaab,2026-11-19T01:00Z,UAPB @ ARST,Arkansas State Red Wolves,Arkansas-Pine Bluff Golden Lions,pre,0.727,0.973,0,,401928398
-ncaab,2026-11-19T01:00Z,PFW @ BRAD,Bradley Braves,Purdue Fort Wayne Mastodons,pre,0.602,0.714,0,,401927357
-ncaab,2026-11-19T01:00Z,COR @ SYR,Syracuse Orange,Cornell Big Red,pre,0.641,0.943,0,,401924721
-ncaab,2026-11-19T01:00Z,LWU @ USI,Southern Indiana Screaming Eagles,Lindsey Wilson Blue Raiders,pre,0.561,,0,,401923394
-ncaab,2026-11-19T01:00Z,UNH @ STO,Stonehill Skyhawks,New Hampshire Wildcats,pre,0.501,0.457,0,,401919848
-ncaab,2026-11-19T01:00Z,UNCG @ GWEB,Gardner-Webb Runnin' Bulldogs,UNC Greensboro Spartans,pre,0.535,0.428,0,,401911393
-ncaab,2026-11-19T01:00Z,WICH @ LUC,Loyola Chicago Ramblers,Wichita State Shockers,pre,0.626,0.474,0,,401911232
-ncaab,2026-11-19T01:00Z,BC @ HARV,Harvard Crimson,Boston College Eagles,pre,0.489,0.369,0,,401909555
-ncaab,2026-11-19T01:00Z,CAM @ OU,Oklahoma Sooners,Campbell Fighting Camels,pre,0.718,0.949,0,,401906805
-ncaab,2026-11-19T01:30Z,SDAK @ NEB,Nebraska Cornhuskers,South Dakota Coyotes,pre,0.773,,0,,401926064
-ncaab,2026-11-19T02:00Z,CONN @ ARIZ,Arizona Wildcats,UConn Huskies,pre,0.577,0.6,0,,401909742
-ncaab,2026-11-19T02:00Z,UNCO @ BYU,BYU Cougars,Northern Colorado Bears,pre,0.717,0.976,0,,401921742
-ncaab,2026-11-19T02:00Z,NDSU @ CSU,Colorado State Rams,North Dakota State Bison,pre,0.693,0.872,0,,401929176
-ncaab,2026-11-19T02:00Z,WEB @ USU,Utah State Aggies,Weber State Wildcats,pre,0.783,0.976,0,,401925949
-ncaab,2026-11-19T02:00Z,ALCN @ MIZ,Missouri Tigers,Alcorn State Braves,pre,0.804,,0,,401921816
-ncaab,2026-11-19T02:00Z,OAK @ ASU,Arizona State Sun Devils,Oakland Golden Grizzlies,pre,0.796,0.954,0,,401921734
-ncaab,2026-11-19T02:00Z,MCM @ ACU,Abilene Christian Wildcats,McMurry War Hawks,pre,0.549,,0,,401917965
-ncaab,2026-11-19T02:00Z,FRES @ SJSU,San José State Spartans,Fresno State Bulldogs,pre,0.577,0.7,0,,401911473
-ncaab,2026-11-19T02:00Z,PORT @ COLO,Colorado Buffaloes,Portland Pilots,pre,0.559,0.893,0,,401909762
-ncaab,2026-11-19T02:00Z,BCU @ CREI,Creighton Bluejays,Bethune-Cookman Wildcats,pre,0.703,0.963,0,,401909494
-ncaab,2026-11-19T02:30Z,UCR @ USD,San Diego Toreros,UC Riverside Highlanders,pre,0.612,0.714,0,,401917535
-ncaab,2026-11-19T03:00Z,TXSO @ SDSU,San Diego State Aztecs,Texas Southern Tigers,pre,0.759,0.963,0,,401929146
-ncaab,2026-11-19T03:00Z,WSU VS HAW,Hawai'i Rainbow Warriors,Washington State Cougars,pre,0.562,0.504,0,,401929004
-ncaab,2026-11-19T03:00Z,UL @ SF,San Francisco Dons,Louisiana Ragin' Cajuns,pre,0.665,0.827,0,,401921064
-ncaab,2026-11-19T03:00Z,UNLV VS AUB,Auburn Tigers,UNLV Rebels,pre,0.467,0.782,0,,401920516
-ncaab,2026-11-19T03:00Z,IDHO @ NEV,Nevada Wolf Pack,Idaho Vandals,pre,0.619,0.92,0,,401911456
-ncaab,2026-11-19T03:30Z,CSUF @ UCLA,UCLA Bruins,Cal State Fullerton Titans,pre,0.695,,0,,401920158
+ncaab,2026-11-18T21:48Z,HOU VS FLA,Florida Gators,Houston Cougars,post,0.517,,0,,401920514
+ncaab,2026-11-18T23:30Z,TNTC @ UNCA,UNC Asheville Bulldogs,Tennessee Tech Golden Eagles,post,0.55,,0,,401922292
+ncaab,2026-11-18T23:30Z,UTC @ WIN,Winthrop Eagles,Chattanooga Mocs,post,0.477,,0,,401920974
+ncaab,2026-11-18T23:30Z,DETM @ EMU,Eastern Michigan Eagles,Detroit Mercy Titans,post,0.737,,0,,401920947
+ncaab,2026-11-18T23:30Z,IUIN @ PSU,Penn State Nittany Lions,IU Indianapolis Jaguars,post,0.654,,0,,401917181
+ncaab,2026-11-18T23:30Z,NAVY @ GTWN,Georgetown Hoyas,Navy Midshipmen,post,0.668,,0,,401909516
+ncaab,2026-11-19T00:00Z,SIE @ SJU,St. John's Red Storm,Siena Saints,post,0.661,,0,,401920682
+ncaab,2026-11-19T00:00Z,MCLA @ NHVN,New Haven Chargers,MCLA Mohawks,post,0.551,,0,,401929014
+ncaab,2026-11-19T00:00Z,DFC @ M-OH,Miami (OH) RedHawks,Defiance Yellow Jackets,post,0.699,,0,,401928843
+ncaab,2026-11-19T00:00Z,MER @ PRES,Presbyterian Blue Hose,Mercer Bears,post,0.532,,0,,401928347
+ncaab,2026-11-19T00:00Z,JMU @ TOW,Towson Tigers,James Madison Dukes,post,0.65,,0,,401926838
+ncaab,2026-11-19T00:00Z,HOW VS DUQ,Duquesne Dukes,Howard Bison,post,0.529,,0,,401925782
+ncaab,2026-11-19T00:00Z,COPP @ LAS,La Salle Explorers,Coppin State Eagles,post,0.583,,0,,401925632
+ncaab,2026-11-19T00:00Z,SJBK @ FAIR,Fairfield Stags,St. Joseph's Brooklyn Bears,post,0.588,,0,,401924763
+ncaab,2026-11-19T00:00Z,BU @ MRMK,Merrimack Warriors,Boston University Terriers,post,0.487,,0,,401923401
+ncaab,2026-11-19T00:00Z,FGCU @ FAU,Florida Atlantic Owls,Florida Gulf Coast Eagles,post,0.643,,0,,401922212
+ncaab,2026-11-19T00:00Z,FUR @ RAD,Radford Highlanders,Furman Paladins,post,0.484,,0,,401922055
+ncaab,2026-11-19T00:00Z,VMI @ LONG,Longwood Lancers,VMI Keydets,post,0.622,,0,,401922047
+ncaab,2026-11-19T00:00Z,MORG @ NCAT,North Carolina A&T Aggies,Morgan State Bears,post,0.562,,0,,401921156
+ncaab,2026-11-19T00:00Z,ELON @ SC,South Carolina Gamecocks,Elon Phoenix,post,0.71,,0,,401921141
+ncaab,2026-11-19T00:00Z,MORE @ OHIO,Ohio Bobcats,Morehead State Eagles,post,0.615,,0,,401920963
+ncaab,2026-11-19T00:00Z,UTIC @ COLG,Colgate Raiders,Utica Pioneers,post,0.526,,0,,401920772
+ncaab,2026-11-19T00:00Z,UVM @ YALE,Yale Bulldogs,Vermont Catamounts,post,0.552,,0,,401920694
+ncaab,2026-11-19T00:00Z,NCCU @ GMU,George Mason Patriots,North Carolina Central Eagles,post,0.734,,0,,401920075
+ncaab,2026-11-19T00:00Z,UNCW @ LIU,Long Island University Sharks,UNC Wilmington Seahawks,post,0.338,,0,,401919808
+ncaab,2026-11-19T00:00Z,NJIT @ FDU,Fairleigh Dickinson Knights,NJIT Highlanders,post,0.706,,0,,401919760
+ncaab,2026-11-19T00:00Z,CHST @ UIC,UIC Flames,Chicago State Cougars,post,0.713,,0,,401919735
+ncaab,2026-11-19T00:00Z,CCSC @ WGA,West Georgia Wolves,Columbia (SC) Fighting Koalas,post,0.502,,0,,401917902
+ncaab,2026-11-19T00:00Z,WOF @ CHSO,Charleston Southern Buccaneers,Wofford Terriers,post,0.62,,0,,401911377
+ncaab,2026-11-19T00:00Z,BRWN @ HC,Holy Cross Crusaders,Brown Bears,post,0.55,,0,,401911309
+ncaab,2026-11-19T00:00Z,BING @ LAF,Lafayette Leopards,Binghamton Bearcats,post,0.567,,0,,401911277
+ncaab,2026-11-19T00:30Z,NOLA @ TTU,Texas Tech Red Raiders,LSU New Orleans Privateers,post,0.694,,0,,401921134
+ncaab,2026-11-19T00:30Z,KU VS WVU,West Virginia Mountaineers,Kansas Jayhawks,post,0.457,,0,,401920515
+ncaab,2026-11-19T00:30Z,MLN @ WRST,Wright State Raiders,Malone Pioneers,post,0.747,,0,,401928829
+ncaab,2026-11-19T00:30Z,CBS @ RGV,UT Rio Grande Valley Vaqueros,College of Biblical Studies Ambassadors,post,0.716,,0,,401925109
+ncaab,2026-11-19T00:30Z,UNKY @ BEL,Belmont Bruins,Union Commonwealth (KY) Bulldogs,post,0.67,,0,,401920761
+ncaab,2026-11-19T00:30Z,YSU @ CIN,Cincinnati Bearcats,Youngstown State Penguins,post,0.707,,0,,401920751
+ncaab,2026-11-19T00:30Z,NIU @ MARQ,Marquette Golden Eagles,Northern Illinois Huskies,post,0.564,,0,,401909526
+ncaab,2026-11-19T01:00Z,ULM @ LSU,LSU Tigers,UL Monroe Warhawks,post,0.759,,0,,401917982
+ncaab,2026-11-19T01:00Z,FAMU @ UTSA,UTSA Roadrunners,Florida A&M Rattlers,post,0.761,,0,,401929420
+ncaab,2026-11-19T01:00Z,UIW @ TXST,Texas State Bobcats,Incarnate Word Cardinals,post,0.846,,0,,401929201
+ncaab,2026-11-19T01:00Z,UAPB @ ARST,Arkansas State Red Wolves,Arkansas-Pine Bluff Golden Lions,post,0.727,,0,,401928398
+ncaab,2026-11-19T01:00Z,PFW @ BRAD,Bradley Braves,Purdue Fort Wayne Mastodons,post,0.602,,0,,401927357
+ncaab,2026-11-19T01:00Z,COR @ SYR,Syracuse Orange,Cornell Big Red,post,0.641,,0,,401924721
+ncaab,2026-11-19T01:00Z,LWU @ USI,Southern Indiana Screaming Eagles,Lindsey Wilson Blue Raiders,post,0.561,,0,,401923394
+ncaab,2026-11-19T01:00Z,UNH @ STO,Stonehill Skyhawks,New Hampshire Wildcats,post,0.501,,0,,401919848
+ncaab,2026-11-19T01:00Z,UNCG @ GWEB,Gardner-Webb Runnin' Bulldogs,UNC Greensboro Spartans,post,0.535,,0,,401911393
+ncaab,2026-11-19T01:00Z,WICH @ LUC,Loyola Chicago Ramblers,Wichita State Shockers,post,0.626,,0,,401911232
+ncaab,2026-11-19T01:00Z,BC @ HARV,Harvard Crimson,Boston College Eagles,post,0.489,,0,,401909555
+ncaab,2026-11-19T01:00Z,CAM @ OU,Oklahoma Sooners,Campbell Fighting Camels,post,0.718,,0,,401906805
+ncaab,2026-11-19T01:30Z,SDAK @ NEB,Nebraska Cornhuskers,South Dakota Coyotes,post,0.773,,0,,401926064
+ncaab,2026-11-19T01:30Z,SAM @ UPST,South Carolina Upstate Spartans,Samford Bulldogs,post,0.579,,0,,401922283
+ncaab,2026-11-19T02:00Z,CONN @ ARIZ,Arizona Wildcats,UConn Huskies,in,0.577,,0,,401909742
+ncaab,2026-11-19T02:00Z,NDSU @ CSU,Colorado State Rams,North Dakota State Bison,post,0.693,,0,,401929176
+ncaab,2026-11-19T02:00Z,ALCN @ MIZ,Missouri Tigers,Alcorn State Braves,in,0.804,,0,,401921816
+ncaab,2026-11-19T02:00Z,OAK @ ASU,Arizona State Sun Devils,Oakland Golden Grizzlies,in,0.796,,0,,401921734
+ncaab,2026-11-19T02:00Z,FRES @ SJSU,San José State Spartans,Fresno State Bulldogs,post,0.577,,0,,401911473
+ncaab,2026-11-19T02:00Z,PORT @ COLO,Colorado Buffaloes,Portland Pilots,in,0.559,,0,,401909762
+ncaab,2026-11-19T02:00Z,BCU @ CREI,Creighton Bluejays,Bethune-Cookman Wildcats,post,0.703,,0,,401909494
+ncaab,2026-11-19T02:00Z,UNCO @ BYU,BYU Cougars,Northern Colorado Bears,post,0.717,,0,,401921742
+ncaab,2026-11-19T02:00Z,WEB @ USU,Utah State Aggies,Weber State Wildcats,post,0.783,,0,,401925949
+ncaab,2026-11-19T02:00Z,MCM @ ACU,Abilene Christian Wildcats,McMurry War Hawks,post,0.549,,0,,401917965
+ncaab,2026-11-19T02:30Z,UCR @ USD,San Diego Toreros,UC Riverside Highlanders,in,0.612,,0,,401917535
+ncaab,2026-11-19T03:00Z,TXSO @ SDSU,San Diego State Aztecs,Texas Southern Tigers,in,0.759,,0,,401929146
+ncaab,2026-11-19T03:00Z,WSU VS HAW,Hawai'i Rainbow Warriors,Washington State Cougars,in,0.562,,0,,401929004
+ncaab,2026-11-19T03:00Z,UL @ SF,San Francisco Dons,Louisiana Ragin' Cajuns,in,0.665,,0,,401921064
+ncaab,2026-11-19T03:00Z,IDHO @ NEV,Nevada Wolf Pack,Idaho Vandals,in,0.619,,0,,401911456
+ncaab,2026-11-19T03:30Z,CSUF @ UCLA,UCLA Bruins,Cal State Fullerton Titans,in,0.695,,0,,401920158
+ncaab,2026-11-19T03:30Z,UNLV VS AUB,Auburn Tigers,UNLV Rebels,in,0.467,,0,,401920516
 ncaaw,2026-11-18T16:00Z,BUCK @ UALB,UAlbany Great Danes,Bucknell Bison,post,0.653,,0,,401913801
 ncaaw,2026-11-18T16:00Z,UMBC @ PITT,Pittsburgh Panthers,UMBC Retrievers,post,0.633,,0,,401913748
 ncaaw,2026-11-18T17:00Z,ETAM @ TA&M,Texas A&M Aggies,East Texas A&M Lions,post,0.722,,0,,401923485
@@ -92,66 +92,66 @@ ncaaw,2026-11-18T19:00Z,UCR @ ORST,Oregon State Beavers,UC Riverside Highlanders
 ncaaw,2026-11-18T19:00Z,CBU @ SJSU,San José State Spartans,California Baptist Lancers,post,0.447,,0,,401921579
 ncaaw,2026-11-18T19:00Z,SDAK @ CHST,Chicago State Cougars,South Dakota Coyotes,post,0.469,,0,,401918740
 ncaaw,2026-11-18T19:00Z,PCLT @ SEA,Seattle U Redhawks,Pacific Lutheran Lutes,post,0.615,,0,,401917708
-ncaaw,2026-11-18T21:00Z,USU @ BYU,BYU Cougars,Utah State Aggies,in,0.784,,0,,401916154
-ncaaw,2026-11-18T21:30Z,ROW @ LAS,La Salle Explorers,Rowan Profs,in,0.543,,0,,401921150
-ncaaw,2026-11-18T21:30Z,UNH @ YALE,Yale Bulldogs,New Hampshire Wildcats,in,0.648,,0,,401913777
-ncaaw,2026-11-18T22:00Z,BU @ STO,Stonehill Skyhawks,Boston University Terriers,in,0.555,,0,,401919517
-ncaaw,2026-11-18T22:00Z,MRSH @ WRST,Wright State Raiders,Marshall Thundering Herd,in,0.514,,0,,401918659
-ncaaw,2026-11-18T22:00Z,WCU @ CIN,Cincinnati Bearcats,Western Carolina Catamounts,in,0.506,,0,,401916188
-ncaaw,2026-11-18T22:00Z,SYR @ HARV,Harvard Crimson,Syracuse Orange,in,0.529,,0,,401913859
-ncaaw,2026-11-18T23:00Z,COPP @ MD,Maryland Terrapins,Coppin State Eagles,pre,0.662,,0,,401918917
-ncaaw,2026-11-18T23:00Z,VUL @ MORG,Morgan State Lady Bears,Virginia Lynchburg Dragons,pre,0.52,,0,,401929631
-ncaaw,2026-11-18T23:00Z,WOF @ CLT,Charlotte 49ers,Wofford Terriers,pre,0.569,,0,,401926025
-ncaaw,2026-11-18T23:00Z,DREX @ AMER,American University Eagles,Drexel Dragons,pre,0.565,,0,,401919466
-ncaaw,2026-11-18T23:00Z,LAF @ SPU,Saint Peter's Peacocks,Lafayette Leopards,pre,0.57,,0,,401919449
-ncaaw,2026-11-18T23:00Z,UPST @ CLEM,Clemson Tigers,South Carolina Upstate Spartans,pre,0.579,,0,,401915888
-ncaaw,2026-11-18T23:00Z,NHVN @ IONA,Iona Gaels,New Haven Chargers,pre,0.601,,0,,401915668
-ncaaw,2026-11-18T23:00Z,MERC @ COR,Cornell Big Red,Mercyhurst Lakers,pre,0.688,,0,,401914492
-ncaaw,2026-11-18T23:00Z,CCSU @ UML,UMass Lowell River Hawks,Central Connecticut Blue Devils,pre,0.7,,0,,401913814
-ncaaw,2026-11-18T23:00Z,DSU @ NJIT,NJIT Highlanders,Delaware State Hornets,pre,0.721,,0,,401913789
-ncaaw,2026-11-18T23:00Z,UGA @ GT,Georgia Tech Yellow Jackets,Georgia Lady Bulldogs,pre,0.508,,0,,401912981
-ncaaw,2026-11-18T23:00Z,ETSU @ GWEB,Gardner-Webb Runnin' Bulldogs,East Tennessee State Buccaneers,pre,0.506,,0,,401911495
-ncaaw,2026-11-18T23:30Z,ILL @ BALL,Ball State Cardinals,Illinois Fighting Illini,pre,0.465,0.113,0,,401927063
-ncaaw,2026-11-18T23:30Z,EMU @ OAK,Oakland Golden Grizzlies,Eastern Michigan Eagles,pre,0.705,,0,,401929097
-ncaaw,2026-11-18T23:30Z,KENT @ BTLR,Butler Bulldogs,Kent State Golden Flashes,pre,0.817,,0,,401920253
-ncaaw,2026-11-18T23:30Z,EVAN @ IUIN,IU Indianapolis Jaguars,Evansville Purple Aces,pre,0.711,,0,,401919682
-ncaaw,2026-11-18T23:30Z,NU @ ACU,Abilene Christian Wildcats,Northwestern Wildcats,pre,0.727,,0,,401918542
-ncaaw,2026-11-19T00:00Z,NIA @ MICH,Michigan Wolverines,Niagara Purple Eagles,pre,0.877,,0,,401916196
-ncaaw,2026-11-19T00:00Z,SOU @ ND,Notre Dame Fighting Irish,Southern Jaguars,pre,0.792,,0,,401923184
-ncaaw,2026-11-19T00:00Z,MISS @ OSU,Ohio State Buckeyes,Ole Miss Rebels,pre,0.545,0.791,0,,401924633
-ncaaw,2026-11-19T00:00Z,OHIO @ HOW,Howard Bison,Ohio Bobcats,pre,0.547,,0,,401929152
-ncaaw,2026-11-19T00:00Z,TOW @ VILL,Villanova Wildcats,Towson Tigers,pre,0.618,,0,,401923471
-ncaaw,2026-11-19T00:00Z,ALCN @ NICH,Nicholls Colonels,Alcorn State Lady Braves,pre,0.608,,0,,401922659
-ncaaw,2026-11-19T00:00Z,CHSO @ DAV,Davidson Wildcats,Charleston Southern Buccaneers,pre,0.66,,0,,401921020
-ncaaw,2026-11-19T00:00Z,SELA @ GRAM,Grambling Lady Tigers,SE Louisiana Lady Lions,pre,0.649,,0,,401920316
-ncaaw,2026-11-19T00:00Z,MCN @ USM,Southern Miss Lady Eagles,McNeese Cowgirls,pre,0.724,,0,,401920169
-ncaaw,2026-11-19T00:00Z,PENN @ JOES,Saint Joseph's Hawks,Pennsylvania Quakers,pre,0.654,,0,,401919334
-ncaaw,2026-11-19T00:00Z,CCU @ IU,Indiana Hoosiers,Coastal Carolina Chanticleers,pre,0.689,,0,,401918698
-ncaaw,2026-11-19T00:00Z,ISU @ UNI,Northern Iowa Panthers,Iowa State Cyclones,pre,0.387,,0,,401917931
-ncaaw,2026-11-19T00:00Z,GMU @ PRIN,Princeton Tigers,George Mason Patriots,pre,0.68,,0,,401915327
-ncaaw,2026-11-19T00:00Z,SPRH @ UWF,West Florida Argonauts,Spring Hill Badgers,pre,0.59,,0,,401913902
-ncaaw,2026-11-19T00:00Z,COFC @ QUC,Queens University Royals,Charleston Cougars,pre,0.609,,0,,401913886
-ncaaw,2026-11-19T00:00Z,BING @ USF,South Florida Bulls,Binghamton Bearcats,pre,0.589,,0,,401913866
-ncaaw,2026-11-19T00:00Z,BRAD @ DEP,DePaul Blue Demons,Bradley Braves,pre,0.655,,0,,401913048
+ncaaw,2026-11-18T21:00Z,USU @ BYU,BYU Cougars,Utah State Aggies,post,0.784,,0,,401916154
+ncaaw,2026-11-18T21:30Z,ROW @ LAS,La Salle Explorers,Rowan Profs,post,0.543,,0,,401921150
+ncaaw,2026-11-18T21:30Z,UNH @ YALE,Yale Bulldogs,New Hampshire Wildcats,post,0.648,,0,,401913777
+ncaaw,2026-11-18T22:00Z,BU @ STO,Stonehill Skyhawks,Boston University Terriers,post,0.555,,0,,401919517
+ncaaw,2026-11-18T22:00Z,MRSH @ WRST,Wright State Raiders,Marshall Thundering Herd,post,0.514,,0,,401918659
+ncaaw,2026-11-18T22:00Z,WCU @ CIN,Cincinnati Bearcats,Western Carolina Catamounts,post,0.506,,0,,401916188
+ncaaw,2026-11-18T22:00Z,SYR @ HARV,Harvard Crimson,Syracuse Orange,post,0.529,,0,,401913859
+ncaaw,2026-11-18T23:00Z,COPP @ MD,Maryland Terrapins,Coppin State Eagles,post,0.662,,0,,401918917
+ncaaw,2026-11-18T23:00Z,VUL @ MORG,Morgan State Lady Bears,Virginia Lynchburg Dragons,post,0.52,,0,,401929631
+ncaaw,2026-11-18T23:00Z,WOF @ CLT,Charlotte 49ers,Wofford Terriers,post,0.569,,0,,401926025
+ncaaw,2026-11-18T23:00Z,DREX @ AMER,American University Eagles,Drexel Dragons,post,0.565,,0,,401919466
+ncaaw,2026-11-18T23:00Z,LAF @ SPU,Saint Peter's Peacocks,Lafayette Leopards,post,0.57,,0,,401919449
+ncaaw,2026-11-18T23:00Z,UPST @ CLEM,Clemson Tigers,South Carolina Upstate Spartans,post,0.579,,0,,401915888
+ncaaw,2026-11-18T23:00Z,NHVN @ IONA,Iona Gaels,New Haven Chargers,post,0.601,,0,,401915668
+ncaaw,2026-11-18T23:00Z,MERC @ COR,Cornell Big Red,Mercyhurst Lakers,post,0.688,,0,,401914492
+ncaaw,2026-11-18T23:00Z,CCSU @ UML,UMass Lowell River Hawks,Central Connecticut Blue Devils,post,0.7,,0,,401913814
+ncaaw,2026-11-18T23:00Z,DSU @ NJIT,NJIT Highlanders,Delaware State Hornets,post,0.721,,0,,401913789
+ncaaw,2026-11-18T23:00Z,UGA @ GT,Georgia Tech Yellow Jackets,Georgia Lady Bulldogs,post,0.508,,0,,401912981
+ncaaw,2026-11-18T23:00Z,ETSU @ GWEB,Gardner-Webb Runnin' Bulldogs,East Tennessee State Buccaneers,post,0.506,,0,,401911495
+ncaaw,2026-11-18T23:30Z,ILL @ BALL,Ball State Cardinals,Illinois Fighting Illini,post,0.465,,0,,401927063
+ncaaw,2026-11-18T23:30Z,EMU @ OAK,Oakland Golden Grizzlies,Eastern Michigan Eagles,post,0.705,,0,,401929097
+ncaaw,2026-11-18T23:30Z,KENT @ BTLR,Butler Bulldogs,Kent State Golden Flashes,post,0.817,,0,,401920253
+ncaaw,2026-11-18T23:30Z,EVAN @ IUIN,IU Indianapolis Jaguars,Evansville Purple Aces,post,0.711,,0,,401919682
+ncaaw,2026-11-18T23:30Z,NU @ ACU,Abilene Christian Wildcats,Northwestern Wildcats,post,0.727,,0,,401918542
+ncaaw,2026-11-19T00:00Z,NIA @ MICH,Michigan Wolverines,Niagara Purple Eagles,post,0.877,,0,,401916196
+ncaaw,2026-11-19T00:00Z,SOU @ ND,Notre Dame Fighting Irish,Southern Jaguars,post,0.792,,0,,401923184
+ncaaw,2026-11-19T00:00Z,MISS @ OSU,Ohio State Buckeyes,Ole Miss Rebels,post,0.545,,0,,401924633
+ncaaw,2026-11-19T00:00Z,OHIO @ HOW,Howard Bison,Ohio Bobcats,post,0.547,,0,,401929152
+ncaaw,2026-11-19T00:00Z,TOW @ VILL,Villanova Wildcats,Towson Tigers,post,0.618,,0,,401923471
+ncaaw,2026-11-19T00:00Z,ALCN @ NICH,Nicholls Colonels,Alcorn State Lady Braves,post,0.608,,0,,401922659
+ncaaw,2026-11-19T00:00Z,CHSO @ DAV,Davidson Wildcats,Charleston Southern Buccaneers,post,0.66,,0,,401921020
+ncaaw,2026-11-19T00:00Z,SELA @ GRAM,Grambling Lady Tigers,SE Louisiana Lady Lions,post,0.649,,0,,401920316
+ncaaw,2026-11-19T00:00Z,MCN @ USM,Southern Miss Lady Eagles,McNeese Cowgirls,post,0.724,,0,,401920169
+ncaaw,2026-11-19T00:00Z,PENN @ JOES,Saint Joseph's Hawks,Pennsylvania Quakers,post,0.654,,0,,401919334
+ncaaw,2026-11-19T00:00Z,CCU @ IU,Indiana Hoosiers,Coastal Carolina Chanticleers,post,0.689,,0,,401918698
+ncaaw,2026-11-19T00:00Z,ISU @ UNI,Northern Iowa Panthers,Iowa State Cyclones,post,0.387,,0,,401917931
+ncaaw,2026-11-19T00:00Z,GMU @ PRIN,Princeton Tigers,George Mason Patriots,post,0.68,,0,,401915327
+ncaaw,2026-11-19T00:00Z,SPRH @ UWF,West Florida Argonauts,Spring Hill Badgers,post,0.59,,0,,401913902
+ncaaw,2026-11-19T00:00Z,COFC @ QUC,Queens University Royals,Charleston Cougars,post,0.609,,0,,401913886
+ncaaw,2026-11-19T00:00Z,BING @ USF,South Florida Bulls,Binghamton Bearcats,post,0.589,,0,,401913866
+ncaaw,2026-11-19T00:00Z,BRAD @ DEP,DePaul Blue Demons,Bradley Braves,post,0.655,,0,,401913048
 ncaaw,2026-11-19T00:00Z,CHCC @ UTM,UT Martin Skyhawks,Champion Christian Tigers,post,0.526,,0,,401929303
-ncaaw,2026-11-19T00:30Z,TEX @ GB,Green Bay Phoenix,Texas Longhorns,pre,0.494,0.054,0,,401918843
-ncaaw,2026-11-19T00:30Z,UNA @ VAN,Vanderbilt Commodores,North Alabama Lions,pre,0.698,,0,,401918831
-ncaaw,2026-11-19T00:30Z,UTA @ TCU,TCU Horned Frogs,UT Arlington Mavericks,pre,0.776,,0,,401918003
-ncaaw,2026-11-19T00:30Z,SJU @ OKST,Oklahoma State Cowgirls,St. John's Red Storm,pre,0.612,0.748,0,,401907051
-ncaaw,2026-11-19T00:30Z,UAPB @ LT,Louisiana Tech Lady Techsters,Arkansas-Pine Bluff Golden Lions,pre,0.723,,0,,401928004
-ncaaw,2026-11-19T00:30Z,SFPA @ UNT,North Texas Mean Green,Saint Francis Red Wolves,pre,0.707,,0,,401926050
-ncaaw,2026-11-19T00:30Z,NOLA @ TLSA,Tulsa Golden Hurricane,LSU New Orleans Privateers,pre,0.765,,0,,401920211
-ncaaw,2026-11-19T00:30Z,OMA @ CREI,Creighton Bluejays,Omaha Mavericks,pre,0.683,,0,,401911794
-ncaaw,2026-11-19T01:00Z,KU @ MINN,Minnesota Golden Gophers,Kansas Jayhawks,pre,0.672,0.791,0,,401906966
-ncaaw,2026-11-19T01:00Z,BTHS @ NAU,Northern Arizona Lumberjacks,Bethesda Flames,pre,0.541,,0,,401930343
-ncaaw,2026-11-19T01:00Z,MOST @ SLU,Saint Louis Billikens,Missouri State Lady Bears,pre,0.516,,0,,401921235
-ncaaw,2026-11-19T01:00Z,WYO @ SDST,South Dakota State Jackrabbits,Wyoming Cowgirls,pre,0.614,,0,,401920499
-ncaaw,2026-11-19T01:30Z,SUU @ AF,Air Force Falcons,Southern Utah Thunderbirds,pre,0.556,,0,,401920026
-ncaaw,2026-11-19T02:00Z,MONT @ GONZ,Gonzaga Bulldogs,Montana Lady Griz,pre,0.633,,0,,401926987
-ncaaw,2026-11-19T02:00Z,IDST @ UCI,UC Irvine Anteaters,Idaho State Bengals,pre,0.5,,0,,401921616
-ncaaw,2026-11-19T02:00Z,COLO @ UNM,New Mexico Lobos,Colorado Buffaloes,pre,0.447,,0,,401920276
-ncaaw,2026-11-19T02:00Z,PRST @ PORT,Portland Pilots,Portland State Vikings,pre,0.75,,0,,401917709
-ncaaw,2026-11-19T02:30Z,UTU @ CSUB,Cal State Bakersfield Roadrunners,Utah Tech Trailblazers,pre,0.611,,0,,401921496
-nhl,2026-11-19T00:30Z,BOS @ DET,Detroit Red Wings,Boston Bruins,pre,0.504,0.5,1,,401892739
-nhl,2026-11-19T00:30Z,MTL @ NJ,New Jersey Devils,Montreal Canadiens,pre,0.579,0.604,1,,401892740
-nhl,2026-11-19T03:00Z,COL @ UTA,Utah Mammoth,Colorado Avalanche,pre,0.531,0.5,1,,401892741
+ncaaw,2026-11-19T00:30Z,TEX @ GB,Green Bay Phoenix,Texas Longhorns,post,0.494,,0,,401918843
+ncaaw,2026-11-19T00:30Z,UNA @ VAN,Vanderbilt Commodores,North Alabama Lions,post,0.698,,0,,401918831
+ncaaw,2026-11-19T00:30Z,UTA @ TCU,TCU Horned Frogs,UT Arlington Mavericks,post,0.776,,0,,401918003
+ncaaw,2026-11-19T00:30Z,SJU @ OKST,Oklahoma State Cowgirls,St. John's Red Storm,post,0.612,,0,,401907051
+ncaaw,2026-11-19T00:30Z,UAPB @ LT,Louisiana Tech Lady Techsters,Arkansas-Pine Bluff Golden Lions,post,0.723,,0,,401928004
+ncaaw,2026-11-19T00:30Z,SFPA @ UNT,North Texas Mean Green,Saint Francis Red Wolves,post,0.707,,0,,401926050
+ncaaw,2026-11-19T00:30Z,NOLA @ TLSA,Tulsa Golden Hurricane,LSU New Orleans Privateers,post,0.765,,0,,401920211
+ncaaw,2026-11-19T00:30Z,OMA @ CREI,Creighton Bluejays,Omaha Mavericks,post,0.683,,0,,401911794
+ncaaw,2026-11-19T01:00Z,KU @ MINN,Minnesota Golden Gophers,Kansas Jayhawks,post,0.672,,0,,401906966
+ncaaw,2026-11-19T01:00Z,BTHS @ NAU,Northern Arizona Lumberjacks,Bethesda Flames,post,0.541,,0,,401930343
+ncaaw,2026-11-19T01:00Z,MOST @ SLU,Saint Louis Billikens,Missouri State Lady Bears,post,0.516,,0,,401921235
+ncaaw,2026-11-19T01:00Z,WYO @ SDST,South Dakota State Jackrabbits,Wyoming Cowgirls,post,0.614,,0,,401920499
+ncaaw,2026-11-19T01:30Z,SUU @ AF,Air Force Falcons,Southern Utah Thunderbirds,post,0.556,,0,,401920026
+ncaaw,2026-11-19T02:00Z,COLO @ UNM,New Mexico Lobos,Colorado Buffaloes,post,0.447,,0,,401920276
+ncaaw,2026-11-19T02:00Z,MONT @ GONZ,Gonzaga Bulldogs,Montana Lady Griz,post,0.633,,0,,401926987
+ncaaw,2026-11-19T02:00Z,IDST @ UCI,UC Irvine Anteaters,Idaho State Bengals,post,0.5,,0,,401921616
+ncaaw,2026-11-19T02:00Z,PRST @ PORT,Portland Pilots,Portland State Vikings,post,0.75,,0,,401917709
+ncaaw,2026-11-19T02:30Z,UTU @ CSUB,Cal State Bakersfield Roadrunners,Utah Tech Trailblazers,in,0.611,,0,,401921496
+nhl,2026-11-19T00:30Z,BOS @ DET,Detroit Red Wings,Boston Bruins,post,0.504,,1,,401892739
+nhl,2026-11-19T00:30Z,MTL @ NJ,New Jersey Devils,Montreal Canadiens,post,0.579,,1,,401892740
+nhl,2026-11-19T03:00Z,COL @ UTA,Utah Mammoth,Colorado Avalanche,in,0.531,,1,,401892741
