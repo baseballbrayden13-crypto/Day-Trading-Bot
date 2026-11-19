@@ -3002,13 +3002,13 @@
    "series": "KXNKLGAME",
    "title": "Alytaus Patriotai vs K\u0117dainiu Kedainiai BC",
    "ticker": "KXNKLGAME-26NOV191200ALYKED-ALY",
-   "order_id": "paper-1215-1795121130",
+   "order_id": "paper-1219-1795123279",
    "price": "0.2800",
    "sets": 1,
    "done": 0,
    "reserve": "0.7100",
    "multiplier": "1",
-   "placed": 1795121130.6597054,
+   "placed": 1795123279.8219678,
    "hedge": [
     {
      "ticker": "KXNKLGAME-26NOV191200ALYKED-KED",
@@ -3021,40 +3021,17 @@
    "series": "KXLMPGAME",
    "title": "Tomateros de Culiacan vs Jaguares de Nayarit",
    "ticker": "KXLMPGAME-26NOV192130CULNAY-CUL",
-   "order_id": "paper-1216-1795121130",
+   "order_id": "paper-1220-1795123279",
    "price": "0.3400",
    "sets": 1,
    "done": 0,
    "reserve": "0.8600",
    "multiplier": "1",
-   "placed": 1795121130.6829865,
+   "placed": 1795123279.846148,
    "hedge": [
     {
      "ticker": "KXLMPGAME-26NOV192130CULNAY-NAY",
      "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXBRASILEIROFTTS-26NOV21BAHCFC",
-   "series": "KXBRASILEIROFTTS",
-   "title": "EC Bahia BA vs Coritiba FC PR: First Team to Score",
-   "ticker": "KXBRASILEIROFTTS-26NOV21BAHCFC-NONE",
-   "order_id": "paper-1218-1795121738",
-   "price": "0.5400",
-   "sets": 1,
-   "done": 0,
-   "reserve": "1.6800",
-   "multiplier": "1",
-   "placed": 1795121738.4259205,
-   "hedge": [
-    {
-     "ticker": "KXBRASILEIROFTTS-26NOV21BAHCFC-BAH",
-     "limit": "0.3600"
-    },
-    {
-     "ticker": "KXBRASILEIROFTTS-26NOV21BAHCFC-CFC",
-     "limit": "0.7300"
     }
    ]
   }
