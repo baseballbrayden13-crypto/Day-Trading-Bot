@@ -4350,3 +4350,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 23:59:50,767 INFO Resting NO bid on KXNCAAMBGAME-26NOV22MASSLCIN-MASSL at $0.6600 x6 (KXNCAAMBGAME-26NOV22MASSLCIN): locks in $1.44 if it fills; hedge NO CIN@0.0900
 2026-11-18 23:59:50,769 INFO Swept 21361 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-19 00:04:54,065 INFO Swept 21342 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 00:09:56,137 INFO PAPER rest NO bid KXLMPGAME-26NOV182130OBRMOC-MOC at $0.6800 x2 (0 already bid at that price)
+2026-11-19 00:09:56,138 INFO Resting NO bid on KXLMPGAME-26NOV182130OBRMOC-MOC at $0.6800 x2 (KXLMPGAME-26NOV182130OBRMOC): locks in $0.50 if it fills; hedge NO OBR@0.0600
+2026-11-19 00:09:56,139 INFO Swept 21350 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 00:15:00,949 INFO Swept 21354 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 00:15:01,110 INFO Quote KXLMPGAME-26NOV182130OBRMOC cancelled (0/2 filled)
+2026-11-19 00:20:03,768 INFO Swept 21336 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 00:25:04,551 INFO Swept 21321 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 00:30:02,460 INFO Swept 21309 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 00:35:03,994 INFO Swept 21289 events: 0 taker trades, 0 new quotes, 0 resting
