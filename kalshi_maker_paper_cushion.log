@@ -4274,3 +4274,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 18:31:44,324 INFO Swept 21486 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 18:36:46,144 INFO Swept 21498 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 18:41:47,378 INFO Swept 21498 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 18:46:46,561 INFO PAPER rest NO bid KXBRASILEIROFTTS-26NOV18CFCSAN-CFC at $0.1800 x2 (0 already bid at that price)
+2026-11-18 18:46:46,561 INFO Resting NO bid on KXBRASILEIROFTTS-26NOV18CFCSAN-CFC at $0.1800 x2 (KXBRASILEIROFTTS-26NOV18CFCSAN): locks in $0.27 if it fills; hedge NO SAN@0.6900, NONE@0.9700
+2026-11-18 18:46:46,562 INFO Swept 21500 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 18:51:45,724 INFO Swept 21497 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-18 18:53:37,348 INFO Quote KXBRASILEIROFTTS-26NOV18CFCSAN cancelled (0/2 filled)
+2026-11-18 18:56:49,673 INFO Swept 21490 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:01:52,377 INFO Swept 21495 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:06:55,517 INFO Swept 21488 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:12:00,302 INFO Swept 21521 events: 0 taker trades, 0 new quotes, 0 resting
