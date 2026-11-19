@@ -1,82 +1,6 @@
 {
- "updated": "2026-11-19T13:24:27+00:00",
+ "updated": "2026-11-19T22:14:38+00:00",
  "parlays": [
-  {
-   "kind": "game",
-   "game": "Los Angeles Clippers vs San Antonio Spurs",
-   "start": "2026-11-20T01:10:00Z",
-   "legs": [
-    {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV19LACSAS-SAS",
-     "side": "yes",
-     "price": 0.88,
-     "fair": 0.8798,
-     "value": -0.0082,
-     "player": ""
-    },
-    {
-     "label": "Kris Dunn 5+ points",
-     "ticker": "KXNBAPTS-26NOV19LACSAS-LACKDUNN8-5",
-     "side": "yes",
-     "price": 0.6,
-     "fair": 0.6917,
-     "value": 0.0747,
-     "player": "Kris Dunn"
-    },
-    {
-     "label": "Rui Hachimura 10+ points",
-     "ticker": "KXNBAPTS-26NOV19LACSAS-LACRHACHIMURA28-10",
-     "side": "yes",
-     "price": 0.7,
-     "fair": 0.7582,
-     "value": 0.0432,
-     "player": "Rui Hachimura"
-    },
-    {
-     "label": "Keldon Johnson 10+ points",
-     "ticker": "KXNBAPTS-26NOV19LACSAS-SASKJOHNSON3-10",
-     "side": "yes",
-     "price": 0.65,
-     "fair": 0.7044,
-     "value": 0.0384,
-     "player": "Keldon Johnson"
-    }
-   ],
-   "price": 0.2609,
-   "fair": 0.325,
-   "pays": "+283",
-   "per_dollar": 3.83
-  },
-  {
-   "kind": "game (safer 2-leg)",
-   "game": "Los Angeles Clippers vs San Antonio Spurs",
-   "start": "2026-11-20T01:10:00Z",
-   "legs": [
-    {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV19LACSAS-SAS",
-     "side": "yes",
-     "price": 0.88,
-     "fair": 0.8798,
-     "value": -0.0082,
-     "player": ""
-    },
-    {
-     "label": "Rui Hachimura 10+ points",
-     "ticker": "KXNBAPTS-26NOV19LACSAS-LACRHACHIMURA28-10",
-     "side": "yes",
-     "price": 0.7,
-     "fair": 0.7582,
-     "value": 0.0432,
-     "player": "Rui Hachimura"
-    }
-   ],
-   "price": 0.6349,
-   "fair": 0.6671,
-   "pays": "-174",
-   "per_dollar": 1.58
-  },
   {
    "kind": "game",
    "game": "Golden State Warriors vs Memphis Grizzlies",
@@ -86,9 +10,9 @@
      "label": "Memphis Grizzlies to win",
      "ticker": "KXNBAGAME-26NOV19GSWMEM-MEM",
      "side": "yes",
-     "price": 0.69,
-     "fair": 0.678,
-     "value": -0.027,
+     "price": 0.66,
+     "fair": 0.6605,
+     "value": -0.0155,
      "player": ""
     },
     {
@@ -119,10 +43,10 @@
      "player": "Cedric Coward"
     }
    ],
-   "price": 0.171,
-   "fair": 0.1627,
-   "pays": "+485",
-   "per_dollar": 5.85
+   "price": 0.1639,
+   "fair": 0.1585,
+   "pays": "+510",
+   "per_dollar": 6.1
   },
   {
    "kind": "game (safer 2-leg)",
@@ -142,16 +66,16 @@
      "label": "Memphis Grizzlies to win",
      "ticker": "KXNBAGAME-26NOV19GSWMEM-MEM",
      "side": "yes",
-     "price": 0.69,
-     "fair": 0.678,
-     "value": -0.027,
+     "price": 0.66,
+     "fair": 0.6605,
+     "value": -0.0155,
      "player": ""
     }
    ],
-   "price": 0.5182,
-   "fair": 0.4985,
-   "pays": "-108",
-   "per_dollar": 1.93
+   "price": 0.4969,
+   "fair": 0.4856,
+   "pays": "+101",
+   "per_dollar": 2.01
   },
   {
    "kind": "favorites",
@@ -159,12 +83,12 @@
    "start": "2026-11-20T01:15:00Z",
    "legs": [
     {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV19LACSAS-SAS",
+     "label": "Quinnipiac Bobcats to win",
+     "ticker": "KXNCAAMBGAME-26NOV19MEQUIN-QUIN",
      "side": "yes",
-     "price": 0.88,
-     "fair": 0.8798,
-     "value": -0.0082,
+     "price": 0.78,
+     "fair": 0.7822,
+     "value": -0.0108,
      "player": ""
     },
     {
@@ -172,24 +96,24 @@
      "ticker": "KXNFLGAME-26NOV19INDHOU-HOU",
      "side": "yes",
      "price": 0.85,
-     "fair": 0.8477,
-     "value": -0.0113,
+     "fair": 0.8468,
+     "value": -0.0122,
      "player": ""
     },
     {
-     "label": "Ottawa Senators to win",
-     "ticker": "KXNHLGAME-26NOV19PHIOTT-OTT",
+     "label": "Memphis Grizzlies to win",
+     "ticker": "KXNBAGAME-26NOV19GSWMEM-MEM",
      "side": "yes",
-     "price": 0.62,
-     "fair": 0.6214,
-     "value": -0.0156,
+     "price": 0.66,
+     "fair": 0.6605,
+     "value": -0.0155,
      "player": ""
     }
    ],
-   "price": 0.4859,
-   "fair": 0.4634,
-   "pays": "+106",
-   "per_dollar": 2.06
+   "price": 0.4605,
+   "fair": 0.4375,
+   "pays": "+117",
+   "per_dollar": 2.17
   }
  ],
  "open_pretend": 3,

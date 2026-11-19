@@ -57,45 +57,6 @@
     }
    ],
    "opened": "2026-11-19T03:38:21+00:00"
-  },
-  {
-   "kind": "value",
-   "game": "Florida Gators at West Virginia Mountaineers",
-   "game_id": "5246df4438e82883d2aa2437d1f9857c",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T19:30:00Z",
-   "edge": 0.048,
-   "home": "West Virginia Mountaineers",
-   "away": "Florida Gators",
-   "legs": [
-    {
-     "team": "West Virginia Mountaineers",
-     "book": "Bovada",
-     "odds": 4.75,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-19T13:24:20+00:00"
-  },
-  {
-   "kind": "kalshi",
-   "game": "Florida Gators at West Virginia Mountaineers",
-   "game_id": "5246df4438e82883d2aa2437d1f9857c",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-19T19:30:00Z",
-   "edge": 0.0332,
-   "home": "West Virginia Mountaineers",
-   "away": "Florida Gators",
-   "legs": [
-    {
-     "team": "West Virginia Mountaineers",
-     "book": "Kalshi",
-     "odds": 4.717,
-     "stake": 10.0,
-     "ticker": "KXNCAAMBGAME-26NOV19FLAWVU-WVU"
-    }
-   ],
-   "opened": "2026-11-19T13:24:20+00:00"
   }
  ],
  "seen": {
@@ -171,14 +132,14 @@
  },
  "credits": {
   "day": "2026-11-19",
-  "spent": 5,
-  "remaining": 312
+  "spent": 10,
+  "remaining": 301
  },
  "last_priced": {
-  "basketball_nba": "2026-11-19T13:24:20.393736+00:00",
-  "icehockey_nhl": "2026-11-19T13:24:20.393736+00:00",
-  "americanfootball_ncaaf": "2026-11-19T13:24:20.393736+00:00",
-  "basketball_ncaab": "2026-11-19T13:24:20.393736+00:00",
-  "americanfootball_nfl": "2026-11-19T13:24:20.393736+00:00"
+  "basketball_nba": "2026-11-19T22:14:35.615453+00:00",
+  "icehockey_nhl": "2026-11-19T22:14:35.615453+00:00",
+  "americanfootball_ncaaf": "2026-11-19T22:14:35.615453+00:00",
+  "basketball_ncaab": "2026-11-19T22:14:35.615453+00:00",
+  "americanfootball_nfl": "2026-11-19T22:14:35.615453+00:00"
  }
 }
