@@ -10670,3 +10670,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 11:30:52,275 INFO Swept 21638 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 11:35:56,763 INFO Swept 21641 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 11:36:01,860 INFO Stopped; all quotes cancelled.
+2026-11-19 14:41:56,405 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-19 14:44:55,515 INFO Swept 22020 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 14:50:01,841 INFO Swept 22033 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 14:55:03,503 INFO Swept 22028 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 15:00:04,752 INFO Swept 22027 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 15:05:04,782 INFO PAPER BET daily_safest: 1 YES KXLOWTCHI-26NOV19-B47.5 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-19 15:05:04,929 INFO PAPER COMBO: YES KXLOWTCHI-26NOV19-B47.5, NO KXHIGHTSATX-26NOV19-B74.5, NO KXHIGHTEWR-26NOV19-T68 at 0.9412. daily combo: all 3 safest sides must win
+2026-11-19 15:05:04,931 INFO Swept 22067 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 15:10:06,687 INFO PAPER rest NO bid KXLPBGAME-26NOV211000PTMSPO-PTM at $0.6000 x4 (0 already bid at that price)
+2026-11-19 15:10:06,687 INFO Resting NO bid on KXLPBGAME-26NOV211000PTMSPO-PTM at $0.6000 x4 (KXLPBGAME-26NOV211000PTMSPO): locks in $0.23 if it fills; hedge NO SPO@0.3200
+2026-11-19 15:10:06,792 INFO Swept 22211 events: 0 taker trades, 1 new quotes, 1 resting

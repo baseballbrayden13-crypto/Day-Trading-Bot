@@ -2996,5 +2996,25 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLPBGAME-26NOV211000PTMSPO",
+   "series": "KXLPBGAME",
+   "title": "Portimonense SC vs Sporting Cp",
+   "ticker": "KXLPBGAME-26NOV211000PTMSPO-PTM",
+   "order_id": "paper-1214-1795119006",
+   "price": "0.6000",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.7700",
+   "multiplier": "1",
+   "placed": 1795119006.687862,
+   "hedge": [
+    {
+     "ticker": "KXLPBGAME-26NOV211000PTMSPO-SPO",
+     "limit": "0.3200"
+    }
+   ]
+  }
+ ]
 }
