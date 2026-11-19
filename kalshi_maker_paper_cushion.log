@@ -4488,3 +4488,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 14:59:43,863 INFO Swept 22027 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 15:04:41,307 INFO Swept 22067 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 15:09:47,519 INFO Swept 22187 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 15:14:47,892 INFO PAPER rest NO bid KXNKLGAME-26NOV191200ALYKED-ALY at $0.2800 x1 (0 already bid at that price)
+2026-11-19 15:14:47,892 INFO Resting NO bid on KXNKLGAME-26NOV191200ALYKED-ALY at $0.2800 x1 (KXNKLGAME-26NOV191200ALYKED): locks in $0.29 if it fills; hedge NO KED@0.4000
+2026-11-19 15:14:47,893 INFO Swept 22266 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 15:19:50,109 INFO Swept 22271 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:24:53,264 INFO Swept 22267 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:29:58,520 INFO Swept 22258 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:35:01,153 INFO Swept 22231 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:39:59,899 INFO Swept 22233 events: 0 taker trades, 0 new quotes, 1 resting
