@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T23:14:29-05:00",
+ "updated": "2026-11-19T17:41:08-05:00",
  "live": {
-  "bets": 90,
+  "bets": 91,
   "wins": 36,
-  "losses": 54,
-  "pnl": -116.58,
-  "roi": -0.1295,
+  "losses": 55,
+  "pnl": -126.58,
+  "roi": -0.1391,
   "by_league": {
    "ncaaf": {
     "bets": 27,
@@ -13,9 +13,9 @@
     "pnl": -33.13
    },
    "nba": {
-    "bets": 34,
+    "bets": 35,
     "wins": 18,
-    "pnl": 37.54
+    "pnl": 27.54
    },
    "nhl": {
     "bets": 25,
@@ -28,14 +28,14 @@
     "pnl": -40.0
    }
   },
-  "open": 1
+  "open": 6
  },
  "test": {
-  "bets": 812,
-  "wins": 313,
-  "losses": 499,
-  "pnl": -758.81,
-  "roi": -0.0934,
+  "bets": 821,
+  "wins": 317,
+  "losses": 504,
+  "pnl": -778.54,
+  "roi": -0.0948,
   "by_league": {
    "nfl": {
     "bets": 40,
@@ -43,14 +43,14 @@
     "pnl": -197.05
    },
    "ncaaf": {
-    "bets": 61,
-    "wins": 24,
-    "pnl": -32.47
+    "bets": 63,
+    "wins": 25,
+    "pnl": -35.43
    },
    "nba": {
-    "bets": 74,
-    "wins": 35,
-    "pnl": -16.31
+    "bets": 81,
+    "wins": 38,
+    "pnl": -33.08
    },
    "wnba": {
     "bets": 47,
@@ -77,14 +77,14 @@
    "market_brier": 0.1969
   },
   "ncaaf": {
-   "games": 135,
-   "elo_brier": 0.2158,
-   "market_brier": 0.1994
+   "games": 137,
+   "elo_brier": 0.2178,
+   "market_brier": 0.2006
   },
   "nba": {
-   "games": 147,
-   "elo_brier": 0.2133,
-   "market_brier": 0.1877
+   "games": 159,
+   "elo_brier": 0.2185,
+   "market_brier": 0.194
   },
   "wnba": {
    "games": 117,
@@ -92,9 +92,9 @@
    "market_brier": 0.1836
   },
   "nhl": {
-   "games": 274,
-   "elo_brier": 0.2441,
-   "market_brier": 0.2283
+   "games": 277,
+   "elo_brier": 0.2444,
+   "market_brier": 0.2289
   },
   "mlb": {
    "games": 902,
@@ -102,7 +102,7 @@
    "market_brier": 0.2381
   }
  },
- "picks_today": 0,
+ "picks_today": 6,
  "settings": {
   "leagues": [
    "nfl",
