@@ -10664,3 +10664,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 11:10:33,540 INFO Swept 21615 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 11:15:35,920 INFO Swept 21622 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 11:20:38,607 INFO Swept 21615 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 11:25:53,285 INFO PAPER rest NO bid KXNCAAWB1H-26NOV19PURFSU-TIE at $0.7200 x2 (0 already bid at that price)
+2026-11-19 11:25:53,285 INFO Resting NO bid on KXNCAAWB1H-26NOV19PURFSU-TIE at $0.7200 x2 (KXNCAAWB1H-26NOV19PURFSU): locks in $0.37 if it fills; hedge NO PUR@0.9300, FSU@0.1500
+2026-11-19 11:25:53,381 INFO Swept 21628 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 11:30:52,275 INFO Swept 21638 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 11:35:56,763 INFO Swept 21641 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 11:36:01,860 INFO Stopped; all quotes cancelled.
