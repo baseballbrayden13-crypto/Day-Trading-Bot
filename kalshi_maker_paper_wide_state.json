@@ -3002,17 +3002,17 @@
    "series": "KXNCAAMBGAME",
    "title": "UMass Lowell vs Cincinnati",
    "ticker": "KXNCAAMBGAME-26NOV22MASSLCIN-MASSL",
-   "order_id": "paper-1199-1795058697",
-   "price": "0.6400",
-   "sets": 5,
+   "order_id": "paper-1200-1795060811",
+   "price": "0.8600",
+   "sets": 4,
    "done": 0,
-   "reserve": "3.7700",
+   "reserve": "3.8300",
    "multiplier": "1",
-   "placed": 1795058697.8808627,
+   "placed": 1795060811.3899617,
    "hedge": [
     {
      "ticker": "KXNCAAMBGAME-26NOV22MASSLCIN-CIN",
-     "limit": "0.1200"
+     "limit": "0.0900"
     }
    ]
   }
