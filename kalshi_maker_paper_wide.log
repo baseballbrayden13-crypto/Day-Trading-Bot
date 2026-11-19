@@ -10563,3 +10563,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 01:26:10,577 INFO Swept 21287 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 01:31:13,025 INFO Swept 21281 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 01:36:14,364 INFO Swept 21283 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 01:41:15,458 INFO Swept 21278 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 01:46:16,063 INFO Swept 21291 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 01:51:21,143 INFO PAPER rest NO bid KXLIIGAGAME-26NOV181130SAIHPK-HPK at $0.0800 x4 (0 already bid at that price)
+2026-11-19 01:51:21,144 INFO Resting NO bid on KXLIIGAGAME-26NOV181130SAIHPK-HPK at $0.0800 x4 (KXLIIGAGAME-26NOV181130SAIHPK): locks in $0.23 if it fills; hedge NO SAI@0.8500
+2026-11-19 01:51:21,333 INFO Swept 21287 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 01:56:22,892 INFO Swept 21289 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 02:01:22,239 INFO Swept 21287 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 02:06:27,787 INFO Swept 21250 events: 0 taker trades, 0 new quotes, 1 resting
