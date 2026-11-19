@@ -10482,3 +10482,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 20:02:34,911 INFO Swept 21753 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 20:07:41,828 INFO Swept 21776 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-18 20:12:45,479 INFO Swept 21838 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 20:17:55,296 INFO Swept 21862 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 20:22:53,520 INFO PAPER rest NO bid KXBRASILEIROSCORE-26NOV18FLACAP-FLA2CAP3 at $0.1900 x1 (0 already bid at that price)
+2026-11-18 20:22:53,520 INFO Resting NO bid on KXBRASILEIROSCORE-26NOV18FLACAP-FLA2CAP3 at $0.1900 x1 (KXBRASILEIROSCORE-26NOV18FLACAP): locks in $0.39 if it fills; hedge NO FLA2CAP1@0.4700, FLA2CAP2@0.9700, FLA3CAP1@0.9300
+2026-11-18 20:22:54,022 INFO Swept 21864 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 20:27:55,630 INFO Swept 21866 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-18 20:27:55,850 INFO Quote KXBRASILEIROSCORE-26NOV18FLACAP cancelled (0/1 filled)
+2026-11-18 20:28:00,857 INFO Stopped; all quotes cancelled.
