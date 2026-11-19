@@ -3702,12 +3702,12 @@
   "count": 1,
   "ahead": 0,
   "placed": 1795121406.5073693,
-  "checked": 1795122716.4499002,
+  "checked": 1795123206,
   "expires": 1795123206,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-266-1795121406": {
   "id": "paper-266-1795121406",
@@ -3716,8 +3716,22 @@
   "count": 4,
   "ahead": 0,
   "placed": 1795121406.569772,
-  "checked": 1795122716.5655372,
+  "checked": 1795123206,
   "expires": 1795123206,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-267-1795123555": {
+  "id": "paper-267-1795123555",
+  "ticker": "KXNKLGAME-26NOV191200ALYKED-ALY",
+  "price": "0.2800",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1795123555.870101,
+  "checked": 1795124526.180416,
+  "expires": 1795125355,
   "through": 0,
   "at_price": 0,
   "filled": 0,
