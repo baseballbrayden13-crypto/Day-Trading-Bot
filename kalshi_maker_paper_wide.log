@@ -10737,3 +10737,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 18:07:24,232 INFO Resting NO bid on KXLVBPGAME-26NOV191800LAGZUL-ZUL at $0.3300 x1 (KXLVBPGAME-26NOV191800LAGZUL): locks in $0.15 if it fills; hedge NO LAG@0.4900
 2026-11-19 18:07:24,350 INFO Swept 22476 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-19 18:12:26,501 INFO Swept 22561 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 18:17:34,368 INFO PAPER rest NO bid KXLIGAMXFTTS-26NOV21SLALEO-NONE at $0.1100 x1 (0 already bid at that price)
+2026-11-19 18:17:34,368 INFO Resting NO bid on KXLIGAMXFTTS-26NOV21SLALEO-NONE at $0.1100 x1 (KXLIGAMXFTTS-26NOV21SLALEO): locks in $0.10 if it fills; hedge NO SLA@0.8700, LEO@0.8900
+2026-11-19 18:17:34,498 INFO Swept 22609 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 18:22:37,214 INFO Swept 22613 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 18:27:40,450 INFO Swept 22612 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 18:32:41,204 INFO Swept 22614 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 18:37:43,806 INFO Swept 22611 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 18:42:44,011 INFO PAPER rest NO bid KXLVBPGAME-26NOV191800LAGZUL-ZUL at $0.3500 x1 (0 already bid at that price)
+2026-11-19 18:42:44,011 INFO Resting NO bid on KXLVBPGAME-26NOV191800LAGZUL-ZUL at $0.3500 x1 (KXLVBPGAME-26NOV191800LAGZUL): locks in $0.13 if it fills; hedge NO LAG@0.4900
+2026-11-19 18:42:44,134 INFO Swept 22612 events: 0 taker trades, 1 new quotes, 2 resting

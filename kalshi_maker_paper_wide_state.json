@@ -2998,17 +2998,40 @@
  ],
  "quotes": [
   {
+   "event": "KXLIGAMXFTTS-26NOV21SLALEO",
+   "series": "KXLIGAMXFTTS",
+   "title": "Club Santos Laguna vs Club Leon: First Team to Score",
+   "ticker": "KXLIGAMXFTTS-26NOV21SLALEO-NONE",
+   "order_id": "paper-1224-1795130254",
+   "price": "0.1100",
+   "sets": 1,
+   "done": 0,
+   "reserve": "1.9000",
+   "multiplier": "1",
+   "placed": 1795130254.3682435,
+   "hedge": [
+    {
+     "ticker": "KXLIGAMXFTTS-26NOV21SLALEO-SLA",
+     "limit": "0.8700"
+    },
+    {
+     "ticker": "KXLIGAMXFTTS-26NOV21SLALEO-LEO",
+     "limit": "0.8900"
+    }
+   ]
+  },
+  {
    "event": "KXLVBPGAME-26NOV191800LAGZUL",
    "series": "KXLVBPGAME",
    "title": "Tiburones De La Guaira vs Aguilas del Zulia",
    "ticker": "KXLVBPGAME-26NOV191800LAGZUL-ZUL",
-   "order_id": "paper-1223-1795129644",
-   "price": "0.3300",
+   "order_id": "paper-1225-1795131764",
+   "price": "0.3500",
    "sets": 1,
    "done": 0,
-   "reserve": "0.8500",
+   "reserve": "0.8700",
    "multiplier": "1",
-   "placed": 1795129644.23237,
+   "placed": 1795131764.0116963,
    "hedge": [
     {
      "ticker": "KXLVBPGAME-26NOV191800LAGZUL-LAG",
