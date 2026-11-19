@@ -10658,3 +10658,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 10:50:21,187 INFO PAPER rest NO bid KXEPLFTTS-26NOV21TOTIPS-NONE at $0.1100 x2 (0 already bid at that price)
 2026-11-19 10:50:21,187 INFO Resting NO bid on KXEPLFTTS-26NOV21TOTIPS-NONE at $0.1100 x2 (KXEPLFTTS-26NOV21TOTIPS): locks in $1.24 if it fills; hedge NO TOT@0.5200, IPS@0.7100
 2026-11-19 10:50:21,281 INFO Swept 21583 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 10:55:23,153 INFO Swept 21587 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 11:00:25,071 INFO Swept 21584 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 11:05:24,773 INFO Swept 21577 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 11:10:33,540 INFO Swept 21615 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 11:15:35,920 INFO Swept 21622 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 11:20:38,607 INFO Swept 21615 events: 0 taker trades, 0 new quotes, 1 resting
