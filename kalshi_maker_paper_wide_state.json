@@ -2996,5 +2996,25 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLVBPGAME-26NOV191800LAGZUL",
+   "series": "KXLVBPGAME",
+   "title": "Tiburones De La Guaira vs Aguilas del Zulia",
+   "ticker": "KXLVBPGAME-26NOV191800LAGZUL-ZUL",
+   "order_id": "paper-1223-1795129644",
+   "price": "0.3300",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.8500",
+   "multiplier": "1",
+   "placed": 1795129644.23237,
+   "hedge": [
+    {
+     "ticker": "KXLVBPGAME-26NOV191800LAGZUL-LAG",
+     "limit": "0.4900"
+    }
+   ]
+  }
+ ]
 }

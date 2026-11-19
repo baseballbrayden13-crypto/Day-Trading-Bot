@@ -10729,3 +10729,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 17:31:55,563 INFO Swept 22463 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 17:37:00,350 INFO Swept 22456 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 17:42:04,766 INFO Swept 22459 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 17:47:09,124 INFO Swept 22449 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 17:52:13,594 INFO Swept 22468 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 17:57:18,063 INFO Swept 22462 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 18:02:23,257 INFO Swept 22470 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 18:07:24,232 INFO PAPER rest NO bid KXLVBPGAME-26NOV191800LAGZUL-ZUL at $0.3300 x1 (0 already bid at that price)
+2026-11-19 18:07:24,232 INFO Resting NO bid on KXLVBPGAME-26NOV191800LAGZUL-ZUL at $0.3300 x1 (KXLVBPGAME-26NOV191800LAGZUL): locks in $0.15 if it fills; hedge NO LAG@0.4900
+2026-11-19 18:07:24,350 INFO Swept 22476 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 18:12:26,501 INFO Swept 22561 events: 0 taker trades, 0 new quotes, 1 resting
