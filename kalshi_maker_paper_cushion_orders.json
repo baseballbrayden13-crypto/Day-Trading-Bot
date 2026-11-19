@@ -3632,12 +3632,12 @@
   "count": 3,
   "ahead": 0,
   "placed": 1795102505.9453492,
-  "checked": 1795103579.4511416,
+  "checked": 1795104305,
   "expires": 1795104305,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-261-1795102506": {
   "id": "paper-261-1795102506",
@@ -3646,12 +3646,12 @@
   "count": 3,
   "ahead": 0,
   "placed": 1795102506.0067077,
-  "checked": 1795103579.571529,
+  "checked": 1795104305,
   "expires": 1795104305,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-262-1795102811": {
   "id": "paper-262-1795102811",
@@ -3660,11 +3660,11 @@
   "count": 2,
   "ahead": 0,
   "placed": 1795102811.6867323,
-  "checked": 1795103579.6893919,
+  "checked": 1795104611,
   "expires": 1795104611,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  }
 }
