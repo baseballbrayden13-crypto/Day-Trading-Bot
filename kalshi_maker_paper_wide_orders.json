@@ -16932,12 +16932,12 @@
   "count": 3,
   "ahead": 0,
   "placed": 1795101297.208629,
-  "checked": 1795101744.7382793,
+  "checked": 1795103097,
   "expires": 1795103097,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-1211-1795101297": {
   "id": "paper-1211-1795101297",
@@ -16946,8 +16946,22 @@
   "count": 3,
   "ahead": 0,
   "placed": 1795101297.2460575,
-  "checked": 1795101744.7929013,
+  "checked": 1795103097,
   "expires": 1795103097,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
+ },
+ "paper-1212-1795103421": {
+  "id": "paper-1212-1795103421",
+  "ticker": "KXEPLFTTS-26NOV21TOTIPS-NONE",
+  "price": "0.1100",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1795103421.1758199,
+  "checked": 1795103562.953829,
+  "expires": 1795105221,
   "through": 0,
   "at_price": 0,
   "filled": 0,

@@ -10650,3 +10650,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 10:14:57,258 INFO Resting NO bid on KXBUNDESLIGAFTTS-26NOV21SGETSG-NONE at $0.1400 x3 (KXBUNDESLIGAFTTS-26NOV21SGETSG): locks in $0.95 if it fills; hedge NO SGE@0.5200
 2026-11-19 10:14:57,351 INFO Swept 21599 events: 0 taker trades, 2 new quotes, 2 resting
 2026-11-19 10:20:01,623 INFO Swept 21607 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 10:25:06,833 INFO Swept 21597 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 10:30:06,516 INFO Swept 21597 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 10:35:13,594 INFO Swept 21589 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 10:40:17,268 INFO Swept 21580 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 10:45:19,742 INFO Swept 21579 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 10:50:21,187 INFO PAPER rest NO bid KXEPLFTTS-26NOV21TOTIPS-NONE at $0.1100 x2 (0 already bid at that price)
+2026-11-19 10:50:21,187 INFO Resting NO bid on KXEPLFTTS-26NOV21TOTIPS-NONE at $0.1100 x2 (KXEPLFTTS-26NOV21TOTIPS): locks in $1.24 if it fills; hedge NO TOT@0.5200, IPS@0.7100
+2026-11-19 10:50:21,281 INFO Swept 21583 events: 0 taker trades, 1 new quotes, 1 resting

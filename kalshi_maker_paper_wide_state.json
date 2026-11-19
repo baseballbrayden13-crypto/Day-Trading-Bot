@@ -2998,40 +2998,25 @@
  ],
  "quotes": [
   {
-   "event": "KXBUNDESLIGAFTTS-26NOV21LEVPAD",
-   "series": "KXBUNDESLIGAFTTS",
-   "title": "Bayer Leverkusen vs SC Paderborn 07: First Team to Score",
-   "ticker": "KXBUNDESLIGAFTTS-26NOV21LEVPAD-NONE",
-   "order_id": "paper-1210-1795101297",
-   "price": "0.2100",
-   "sets": 3,
+   "event": "KXEPLFTTS-26NOV21TOTIPS",
+   "series": "KXEPLFTTS",
+   "title": "Tottenham Hotspur vs Ipswich Town: First Team to Score",
+   "ticker": "KXEPLFTTS-26NOV21TOTIPS-NONE",
+   "order_id": "paper-1212-1795103421",
+   "price": "0.1100",
+   "sets": 2,
    "done": 0,
-   "reserve": "1.5600",
+   "reserve": "2.7600",
    "multiplier": "1",
-   "placed": 1795101297.2212586,
+   "placed": 1795103421.1872973,
    "hedge": [
     {
-     "ticker": "KXBUNDESLIGAFTTS-26NOV21LEVPAD-LEV",
-     "limit": "0.2900"
-    }
-   ]
-  },
-  {
-   "event": "KXBUNDESLIGAFTTS-26NOV21SGETSG",
-   "series": "KXBUNDESLIGAFTTS",
-   "title": "Eintracht Frankfurt vs TSG Hoffenheim: First Team to Score",
-   "ticker": "KXBUNDESLIGAFTTS-26NOV21SGETSG-NONE",
-   "order_id": "paper-1211-1795101297",
-   "price": "0.1400",
-   "sets": 3,
-   "done": 0,
-   "reserve": "2.0500",
-   "multiplier": "1",
-   "placed": 1795101297.2585204,
-   "hedge": [
-    {
-     "ticker": "KXBUNDESLIGAFTTS-26NOV21SGETSG-SGE",
+     "ticker": "KXEPLFTTS-26NOV21TOTIPS-TOT",
      "limit": "0.5200"
+    },
+    {
+     "ticker": "KXEPLFTTS-26NOV21TOTIPS-IPS",
+     "limit": "0.7100"
     }
    ]
   }
