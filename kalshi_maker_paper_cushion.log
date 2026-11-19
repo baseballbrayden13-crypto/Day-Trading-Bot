@@ -4537,3 +4537,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 18:01:34,862 INFO Swept 22470 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 18:06:40,673 INFO Swept 22476 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 18:11:41,370 INFO Swept 22561 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 18:16:46,298 INFO PAPER rest NO bid KXLIGAMXFTTS-26NOV21SLALEO-NONE at $0.1100 x2 (0 already bid at that price)
+2026-11-19 18:16:46,298 INFO Resting NO bid on KXLIGAMXFTTS-26NOV21SLALEO-NONE at $0.1100 x2 (KXLIGAMXFTTS-26NOV21SLALEO): locks in $0.21 if it fills; hedge NO SLA@0.8700, LEO@0.8900
+2026-11-19 18:16:46,299 INFO Swept 22597 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 18:21:47,681 INFO Swept 22613 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 18:26:50,158 INFO Swept 22612 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 18:31:58,851 INFO Swept 22614 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 18:36:55,173 INFO Swept 22611 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 18:41:58,360 INFO Swept 22612 events: 0 taker trades, 0 new quotes, 1 resting

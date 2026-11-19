@@ -458,5 +458,29 @@
    "closed": "2026-11-18T04:32:06.140421+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGAMXFTTS-26NOV21SLALEO",
+   "series": "KXLIGAMXFTTS",
+   "title": "Club Santos Laguna vs Club Leon: First Team to Score",
+   "ticker": "KXLIGAMXFTTS-26NOV21SLALEO-NONE",
+   "order_id": "paper-270-1795130206",
+   "price": "0.1100",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.7900",
+   "multiplier": "1",
+   "placed": 1795130206.2981393,
+   "hedge": [
+    {
+     "ticker": "KXLIGAMXFTTS-26NOV21SLALEO-SLA",
+     "limit": "0.8700"
+    },
+    {
+     "ticker": "KXLIGAMXFTTS-26NOV21SLALEO-LEO",
+     "limit": "0.8900"
+    }
+   ]
+  }
+ ]
 }
