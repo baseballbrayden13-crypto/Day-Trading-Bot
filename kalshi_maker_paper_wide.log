@@ -10640,3 +10640,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 09:39:47,634 INFO Swept 21460 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 09:44:50,216 INFO Swept 21466 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 09:49:51,051 INFO Swept 21466 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 09:54:51,482 INFO Swept 21460 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 09:59:51,939 INFO Swept 21456 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 10:04:53,186 INFO Swept 21497 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 10:09:52,509 INFO Swept 21587 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 10:14:57,221 INFO PAPER rest NO bid KXBUNDESLIGAFTTS-26NOV21LEVPAD-NONE at $0.2100 x3 (0 already bid at that price)
+2026-11-19 10:14:57,221 INFO Resting NO bid on KXBUNDESLIGAFTTS-26NOV21LEVPAD-NONE at $0.2100 x3 (KXBUNDESLIGAFTTS-26NOV21LEVPAD): locks in $1.44 if it fills; hedge NO LEV@0.2900
+2026-11-19 10:14:57,258 INFO PAPER rest NO bid KXBUNDESLIGAFTTS-26NOV21SGETSG-NONE at $0.1400 x3 (0 already bid at that price)
+2026-11-19 10:14:57,258 INFO Resting NO bid on KXBUNDESLIGAFTTS-26NOV21SGETSG-NONE at $0.1400 x3 (KXBUNDESLIGAFTTS-26NOV21SGETSG): locks in $0.95 if it fills; hedge NO SGE@0.5200
+2026-11-19 10:14:57,351 INFO Swept 21599 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-19 10:20:01,623 INFO Swept 21607 events: 0 taker trades, 0 new quotes, 2 resting
