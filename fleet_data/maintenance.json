@@ -1,11 +1,11 @@
 {
- "checked": "2026-11-18T07:43:52+00:00",
+ "checked": "2026-11-19T07:39:26+00:00",
  "status": {
   "0": "info",
   "1": "act",
   "2": "info",
   "3": "info",
-  "6": "act",
+  "6": "info",
   "7": "act",
   "9": "act",
   "8": "info",
@@ -24,10 +24,10 @@
   },
   {
    "bot": 1,
-   "level": "watch",
+   "level": "ok",
    "check": "replay",
-   "message": "On 2026-11-17 the backtest would have bought AAPL at 09:55 (~$354.76) but bot 1 didn't.",
-   "fix": "Check trades.log that day: was it running, did a risk limit block it, or did the live data differ?",
+   "message": "2026-11-18: bot 1 did what the backtest would have (0 entries).",
+   "fix": "",
    "proposal": "",
    "risk": "Low"
   },
@@ -35,7 +35,7 @@
    "bot": 1,
    "level": "act",
    "check": "schedule",
-   "message": "Bot 1 should have run by Tue 09:20 ET but its log last changed Mon 11/16 16:05.",
+   "message": "Bot 1 should have run by Wed 09:20 ET but its log last changed Mon 11/16 16:05.",
    "fix": "Check the Cloud bots runs on GitHub (Actions tab) for a failed or skipped run.",
    "proposal": "",
    "risk": "Low"
@@ -71,7 +71,7 @@
    "bot": 2,
    "level": "info",
    "check": "return",
-   "message": "$2,428.48, -3.9% since the $2,528 start.",
+   "message": "$2,396.39, -5.2% since the $2,528 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -80,7 +80,7 @@
    "bot": 2,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot -3.9% vs just holding SPY -3.6%.",
+   "message": "Since 2026-10-23: bot -5.2% vs just holding SPY -3.9%.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -98,17 +98,8 @@
    "bot": 3,
    "level": "info",
    "check": "vs hold",
-   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -21.8%.",
+   "message": "Since 2026-10-23: bot +0.0% vs just holding BTC/USD + ETH/USD -24.0%.",
    "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 6,
-   "level": "act",
-   "check": "schedule",
-   "message": "Bot 4c (maker_paper) last wrote anything Wed 11/18 00:52 ET, over 30 minutes ago.",
-   "fix": "Its loop has stopped. Check its scheduled task and its _err.log.",
    "proposal": "",
    "risk": "Low"
   },
@@ -125,7 +116,7 @@
    "bot": 7,
    "level": "act",
    "check": "schedule",
-   "message": "Bot 4e (maker_paper) last wrote anything Wed 11/18 00:53 ET, over 30 minutes ago.",
+   "message": "Bot 4e (maker_paper) last wrote anything Thu 11/19 02:06 ET, over 30 minutes ago.",
    "fix": "Its loop has stopped. Check its scheduled task and its _err.log.",
    "proposal": "",
    "risk": "Low"
@@ -134,7 +125,7 @@
    "bot": 7,
    "level": "act",
    "check": "losses",
-   "message": "Bot 4e: 10 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
+   "message": "Bot 4e: 12 'locked-in' trades lost money. Locked trades can't lose unless a leg missed or the bot misread a market.",
    "fix": "Read kalshi_data/opportunities.csv for those events.",
    "proposal": "Pause Bot 4e until the losing trades are explained.",
    "risk": "Medium"
@@ -143,7 +134,7 @@
    "bot": 7,
    "level": "act",
    "check": "missed hedges",
-   "message": "Bot 4e: 37 one-sided leftovers from missed hedges (not locked-in trades) closed for $-14.35. (Flagged 14 days in a row.)",
+   "message": "Bot 4e: 37 one-sided leftovers from missed hedges (not locked-in trades) closed for $-14.35. (Flagged 15 days in a row.)",
    "fix": "If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more).",
    "proposal": "",
    "risk": "Low"
@@ -152,26 +143,8 @@
    "bot": 7,
    "level": "act",
    "check": "drawdown",
-   "message": "Bot 4e is at $13.16 of its $20.00 start.",
+   "message": "Bot 4e is at $13.43 of its $20.00 start.",
    "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 7,
-   "level": "watch",
-   "check": "errors",
-   "message": "Bot 4e: 1 warnings last loop. Latest: 2026-11-18 02:11 Maker loop error; carrying on",
-   "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 7,
-   "level": "watch",
-   "check": "errors",
-   "message": "Bot 4e: 1 errors in the last day. Latest: 2026-11-17 21:11:18,086 ERROR Maker loop error; carrying on",
-   "fix": "Read the end of the log. Repeated errors usually mean bad keys, no network or a code bug.",
    "proposal": "",
    "risk": "Low"
   },
@@ -179,17 +152,8 @@
    "bot": 7,
    "level": "info",
    "check": "return",
-   "message": "Bot 4e: 108 settled, 3 open, $-6.84 settled profit.",
+   "message": "Bot 4e: 111 settled, 3 open, $-6.57 settled profit.",
    "fix": "",
-   "proposal": "",
-   "risk": "Low"
-  },
-  {
-   "bot": 9,
-   "level": "act",
-   "check": "schedule",
-   "message": "Bot 4f (maker_paper) last wrote anything Wed 11/18 00:53 ET, over 30 minutes ago.",
-   "fix": "Its loop has stopped. Check its scheduled task and its _err.log.",
    "proposal": "",
    "risk": "Low"
   },
@@ -206,7 +170,7 @@
    "bot": 9,
    "level": "act",
    "check": "missed hedges",
-   "message": "Bot 4f: 8 one-sided leftovers from missed hedges (not locked-in trades) closed for $-4.06. (Flagged 8 days in a row.)",
+   "message": "Bot 4f: 8 one-sided leftovers from missed hedges (not locked-in trades) closed for $-4.06. (Flagged 9 days in a row.)",
    "fix": "If this keeps growing, stop quoting the series that miss most (or let the hedge chase pay a little more).",
    "proposal": "",
    "risk": "Low"
@@ -242,7 +206,7 @@
    "bot": 10,
    "level": "info",
    "check": "return",
-   "message": "$1,582.06, -5.1% since the $1,667 start.",
+   "message": "$1,582.23, -5.1% since the $1,667 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
@@ -251,7 +215,7 @@
    "bot": 11,
    "level": "info",
    "check": "return",
-   "message": "$1,562.96, -6.2% since the $1,667 start.",
+   "message": "$1,583.63, -5.0% since the $1,667 start.",
    "fix": "",
    "proposal": "",
    "risk": "Low"
