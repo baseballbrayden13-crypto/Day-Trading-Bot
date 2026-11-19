@@ -10687,3 +10687,18 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 15:30:20,036 INFO Swept 22258 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 15:35:22,973 INFO Swept 22232 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 15:40:27,451 INFO Swept 22232 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 15:45:30,659 INFO PAPER rest NO bid KXNKLGAME-26NOV191200ALYKED-ALY at $0.2800 x1 (0 already bid at that price)
+2026-11-19 15:45:30,659 INFO Resting NO bid on KXNKLGAME-26NOV191200ALYKED-ALY at $0.2800 x1 (KXNKLGAME-26NOV191200ALYKED): locks in $0.29 if it fills; hedge NO KED@0.4000
+2026-11-19 15:45:30,682 INFO PAPER rest NO bid KXLMPGAME-26NOV192130CULNAY-CUL at $0.3400 x1 (0 already bid at that price)
+2026-11-19 15:45:30,683 INFO Resting NO bid on KXLMPGAME-26NOV192130CULNAY-CUL at $0.3400 x1 (KXLMPGAME-26NOV192130CULNAY): locks in $0.14 if it fills; hedge NO NAY@0.4900
+2026-11-19 15:45:30,798 INFO Swept 22227 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-19 15:50:33,843 INFO PAPER rest NO bid KXSLBGAME-26NOV191400CALSUR-SUR at $0.5500 x2 (0 already bid at that price)
+2026-11-19 15:50:33,843 INFO Resting NO bid on KXSLBGAME-26NOV191400CALSUR-SUR at $0.5500 x2 (KXSLBGAME-26NOV191400CALSUR): locks in $0.21 if it fills; hedge NO CAL@0.3200
+2026-11-19 15:50:33,968 INFO Swept 22227 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-19 15:51:09,931 INFO Quote KXSLBGAME-26NOV191400CALSUR cancelled (0/2 filled)
+2026-11-19 15:55:38,425 INFO PAPER rest NO bid KXBRASILEIROFTTS-26NOV21BAHCFC-NONE at $0.5400 x1 (0 already bid at that price)
+2026-11-19 15:55:38,425 INFO Resting NO bid on KXBRASILEIROFTTS-26NOV21BAHCFC-NONE at $0.5400 x1 (KXBRASILEIROFTTS-26NOV21BAHCFC): locks in $0.32 if it fills; hedge NO BAH@0.3600, CFC@0.7300
+2026-11-19 15:55:38,565 INFO Swept 22220 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-19 16:00:39,168 INFO Swept 22222 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-19 16:05:56,877 INFO Swept 22200 events: 0 taker trades, 0 new quotes, 3 resting
+2026-11-19 16:11:10,089 INFO Swept 22270 events: 0 taker trades, 0 new quotes, 3 resting
