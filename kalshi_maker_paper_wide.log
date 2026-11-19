@@ -10546,3 +10546,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 00:25:46,760 INFO Quote KXLMPGAME-26NOV182130OBRMOC cancelled (0/2 filled)
 2026-11-19 00:30:49,980 INFO Swept 21306 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 00:35:53,109 INFO Swept 21289 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 00:40:56,721 INFO Swept 21283 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 00:45:59,417 INFO Swept 21271 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 00:51:02,454 INFO PAPER rest NO bid KXNCAAMBGAME-26NOV22CSFPRST-CSF at $0.4600 x3 (150 already bid at that price)
+2026-11-19 00:51:02,454 INFO Resting NO bid on KXNCAAMBGAME-26NOV22CSFPRST-CSF at $0.4600 x3 (KXNCAAMBGAME-26NOV22CSFPRST): locks in $0.16 if it fills; hedge NO PRST@0.4600
+2026-11-19 00:51:02,639 INFO Swept 21276 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 00:51:43,238 INFO Quote KXNCAAMBGAME-26NOV22CSFPRST cancelled (0/3 filled)
+2026-11-19 00:56:05,278 INFO Swept 21269 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 01:01:07,017 INFO Swept 21300 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 01:06:02,563 INFO Swept 21281 events: 0 taker trades, 0 new quotes, 0 resting
