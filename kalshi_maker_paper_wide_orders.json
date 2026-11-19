@@ -16694,11 +16694,25 @@
   "count": 1,
   "ahead": 0,
   "placed": 1795047137.016056,
-  "checked": 1795047276.2976575,
+  "checked": 1795047446.5505269,
   "expires": 1795048936,
-  "through": 0,
+  "through": 5,
   "at_price": 0,
-  "filled": 0,
-  "status": "resting"
+  "filled": 1,
+  "status": "executed"
+ },
+ "paper-1194-1795048344": {
+  "id": "paper-1194-1795048344",
+  "ticker": "KXBRASILEIROSCORE-26NOV18CFCSAN-CFC0SAN2",
+  "price": "0.5300",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1795048344.3180993,
+  "checked": 1795048411.634191,
+  "expires": 1795050144,
+  "through": 8,
+  "at_price": 0,
+  "filled": 2,
+  "status": "executed"
  }
 }

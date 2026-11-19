@@ -10452,3 +10452,21 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-18 19:12:17,030 INFO PAPER rest NO bid KXNBARACE-26NOV18MILMIA-20-MIA at $0.1400 x1 (0 already bid at that price)
 2026-11-18 19:12:17,030 INFO Resting NO bid on KXNBARACE-26NOV18MILMIA-20-MIA at $0.1400 x1 (KXNBARACE-26NOV18MILMIA-20): locks in $0.11 if it fills; hedge NO MIL@0.7200
 2026-11-18 19:12:17,524 INFO Swept 21521 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 19:17:26,549 INFO Swept 21563 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-18 19:17:26,611 INFO PAPER KXNBARACE-26NOV18MILMIA-20-MIA NO bid at $0.1400: 1/1 filled by real trades
+2026-11-18 19:17:26,685 INFO PAPER buy 1 NO KXNBARACE-26NOV18MILMIA-20-MIL at up to $0.7200: not on the book
+2026-11-18 19:17:26,745 INFO PAPER buy 1 NO KXNBARACE-26NOV18MILMIA-20-MIL at up to $0.88: filled 1
+2026-11-18 19:17:26,745 INFO Quote KXNBARACE-26NOV18MILMIA-20: hedge on KXNBARACE-26NOV18MILMIA-20-MIL chased from 0.7200 to 0.88
+2026-11-18 19:17:26,746 INFO Quote KXNBARACE-26NOV18MILMIA-20 filled 1: hedged, locks in $-0.04
+2026-11-18 19:22:18,838 INFO Swept 21653 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:27:20,893 INFO Swept 21653 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:32:24,331 INFO PAPER rest NO bid KXBRASILEIROSCORE-26NOV18CFCSAN-CFC0SAN2 at $0.5300 x2 (0 already bid at that price)
+2026-11-18 19:32:24,332 INFO Resting NO bid on KXBRASILEIROSCORE-26NOV18CFCSAN-CFC0SAN2 at $0.5300 x2 (KXBRASILEIROSCORE-26NOV18CFCSAN): locks in $0.48 if it fills; hedge NO CFC0SAN1@0.2100
+2026-11-18 19:32:24,825 INFO Swept 21693 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-18 19:33:31,695 INFO PAPER KXBRASILEIROSCORE-26NOV18CFCSAN-CFC0SAN2 NO bid at $0.5300: 2/2 filled by real trades
+2026-11-18 19:33:31,769 INFO PAPER buy 2 NO KXBRASILEIROSCORE-26NOV18CFCSAN-CFC0SAN1 at up to $0.2300: filled 2
+2026-11-18 19:33:31,769 INFO Quote KXBRASILEIROSCORE-26NOV18CFCSAN filled 2: hedged, locks in $0.44
+2026-11-18 19:37:23,670 INFO Swept 21714 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-18 19:42:25,053 INFO Settled KXNBARACE-26NOV18MILMIA-20: paid $1, profit $-0.04
+2026-11-18 19:42:25,174 INFO Settled KXBRASILEIROSCORE-26NOV18CFCSAN: paid $2, profit $0.44
+2026-11-18 19:42:28,304 INFO Swept 21787 events: 0 taker trades, 0 new quotes, 0 resting

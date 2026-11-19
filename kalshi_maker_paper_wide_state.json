@@ -1,5 +1,5 @@
 {
- "realized": "-6.9700",
+ "realized": "-6.5700",
  "open": [
   {
    "event": "KXSTARSHIPSPACE-26",
@@ -2932,27 +2932,69 @@
     "KXLVBPGAME-26NOV181200ANZZUL-ZUL": "yes"
    },
    "closed": "2026-11-18T21:05:30.788728+00:00"
-  }
- ],
- "quotes": [
+  },
   {
    "event": "KXNBARACE-26NOV18MILMIA-20",
    "series": "KXNBARACE",
    "title": "Milwaukee vs Miami: Race to 20 Points",
-   "ticker": "KXNBARACE-26NOV18MILMIA-20-MIA",
-   "order_id": "paper-1193-1795047137",
-   "price": "0.1400",
    "sets": 1,
-   "done": 0,
-   "reserve": "0.8900",
-   "multiplier": "1",
-   "placed": 1795047137.0302265,
-   "hedge": [
+   "outlay": "1.0400",
+   "locked_profit": "-0.0400",
+   "opened": "2026-11-19T00:17:26.746049+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXNBARACE-26NOV18MILMIA-20-MIA",
+     "side": "no",
+     "count": 1,
+     "limit": "0.1400"
+    },
     {
      "ticker": "KXNBARACE-26NOV18MILMIA-20-MIL",
-     "limit": "0.7200"
+     "side": "no",
+     "count": 1,
+     "limit": "0.88"
     }
-   ]
+   ],
+   "paid": "1",
+   "pnl": "-0.0400",
+   "results": {
+    "KXNBARACE-26NOV18MILMIA-20-MIA": "yes",
+    "KXNBARACE-26NOV18MILMIA-20-MIL": "no"
+   },
+   "closed": "2026-11-19T00:42:25.053142+00:00"
+  },
+  {
+   "event": "KXBRASILEIROSCORE-26NOV18CFCSAN",
+   "series": "KXBRASILEIROSCORE",
+   "title": "Coritiba FC PR vs Santos FC SP: Correct Score",
+   "sets": 2,
+   "outlay": "1.5600",
+   "locked_profit": "0.4400",
+   "opened": "2026-11-19T00:33:31.769226+00:00",
+   "maker": true,
+   "legs": [
+    {
+     "ticker": "KXBRASILEIROSCORE-26NOV18CFCSAN-CFC0SAN2",
+     "side": "no",
+     "count": 2,
+     "limit": "0.5300"
+    },
+    {
+     "ticker": "KXBRASILEIROSCORE-26NOV18CFCSAN-CFC0SAN1",
+     "side": "no",
+     "count": 2,
+     "limit": "0.2300"
+    }
+   ],
+   "paid": "2",
+   "pnl": "0.4400",
+   "results": {
+    "KXBRASILEIROSCORE-26NOV18CFCSAN-CFC0SAN2": "no",
+    "KXBRASILEIROSCORE-26NOV18CFCSAN-CFC0SAN1": "yes"
+   },
+   "closed": "2026-11-19T00:42:25.174517+00:00"
   }
- ]
+ ],
+ "quotes": []
 }
