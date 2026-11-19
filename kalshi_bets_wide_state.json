@@ -48,55 +48,6 @@
      "price": "0.9800"
     }
    ]
-  },
-  {
-   "strategy": "daily_safest",
-   "ticker": "KXCONTCLAIMS-26NOV19-T1740",
-   "event": "KXCONTCLAIMS-26NOV19",
-   "series": "KXCONTCLAIMS",
-   "side": "no",
-   "count": 1,
-   "price": "0.9800",
-   "fee": "0.01",
-   "prob": 0.98,
-   "close_time": "2026-11-19T13:29:00Z",
-   "placed": "2026-11-18T20:02:30+00:00",
-   "note": "daily safest: likeliest outcome closing within 24h",
-   "cost": "0.99",
-   "expected": "-0.01"
-  },
-  {
-   "strategy": "daily_combo",
-   "ticker": "COMBO-2026-11-18",
-   "event": "COMBO-2026-11-18",
-   "series": "COMBO",
-   "side": "yes",
-   "count": 1,
-   "price": "0.9412",
-   "fee": "0.01",
-   "prob": 0.9412,
-   "close_time": "2026-11-19T13:29:00Z",
-   "placed": "2026-11-18T20:02:30+00:00",
-   "cost": "0.95",
-   "expected": "0.00",
-   "note": "daily combo: all 3 safest sides must win",
-   "legs": [
-    {
-     "ticker": "KXCONTCLAIMS-26NOV19-T1740",
-     "side": "no",
-     "price": "0.9800"
-    },
-    {
-     "ticker": "KXDIESELD-26NOV19-T5.920",
-     "side": "yes",
-     "price": "0.9800"
-    },
-    {
-     "ticker": "KXTRUEV-26NOV18-T1096.12",
-     "side": "no",
-     "price": "0.9800"
-    }
-   ]
   }
  ],
  "closed": [
@@ -684,6 +635,63 @@
    "paid": "1.00",
    "pnl": "0.05",
    "closed": "2026-11-18T15:29:42+00:00"
+  },
+  {
+   "strategy": "daily_safest",
+   "ticker": "KXCONTCLAIMS-26NOV19-T1740",
+   "event": "KXCONTCLAIMS-26NOV19",
+   "series": "KXCONTCLAIMS",
+   "side": "no",
+   "count": 1,
+   "price": "0.9800",
+   "fee": "0.01",
+   "prob": 0.98,
+   "close_time": "2026-11-19T13:29:00Z",
+   "placed": "2026-11-18T20:02:30+00:00",
+   "note": "daily safest: likeliest outcome closing within 24h",
+   "cost": "0.99",
+   "expected": "-0.01",
+   "result": "yes",
+   "paid": "0.00",
+   "pnl": "-0.99",
+   "closed": "2026-11-19T14:04:32+00:00"
+  },
+  {
+   "strategy": "daily_combo",
+   "ticker": "COMBO-2026-11-18",
+   "event": "COMBO-2026-11-18",
+   "series": "COMBO",
+   "side": "yes",
+   "count": 1,
+   "price": "0.9412",
+   "fee": "0.01",
+   "prob": 0.9412,
+   "close_time": "2026-11-19T13:29:00Z",
+   "placed": "2026-11-18T20:02:30+00:00",
+   "cost": "0.95",
+   "expected": "0.00",
+   "note": "daily combo: all 3 safest sides must win",
+   "legs": [
+    {
+     "ticker": "KXCONTCLAIMS-26NOV19-T1740",
+     "side": "no",
+     "price": "0.9800"
+    },
+    {
+     "ticker": "KXDIESELD-26NOV19-T5.920",
+     "side": "yes",
+     "price": "0.9800"
+    },
+    {
+     "ticker": "KXTRUEV-26NOV18-T1096.12",
+     "side": "no",
+     "price": "0.9800"
+    }
+   ],
+   "result": "no",
+   "paid": "0.00",
+   "pnl": "-0.95",
+   "closed": "2026-11-19T14:04:33+00:00"
   }
  ]
 }
