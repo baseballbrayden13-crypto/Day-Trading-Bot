@@ -2996,25 +2996,5 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLIIGAGAME-26NOV181130SAIHPK",
-   "series": "KXLIIGAGAME",
-   "title": "SaiPa Lappeenranta vs HPK Hameenlinna",
-   "ticker": "KXLIIGAGAME-26NOV181130SAIHPK-HPK",
-   "order_id": "paper-1206-1795071081",
-   "price": "0.0800",
-   "sets": 4,
-   "done": 0,
-   "reserve": "3.7700",
-   "multiplier": "1",
-   "placed": 1795071081.143971,
-   "hedge": [
-    {
-     "ticker": "KXLIIGAGAME-26NOV181130SAIHPK-SAI",
-     "limit": "0.8500"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
