@@ -5576,3 +5576,9 @@ RuntimeError: Kalshi GET /events kept failing
 2026-11-20 15:11:33,851 INFO Swept 23248 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 15:16:35,470 INFO Swept 23272 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 15:21:38,635 INFO Swept 23287 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 15:26:42,704 INFO Swept 23271 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 15:31:46,972 INFO Swept 23271 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 15:36:51,719 INFO Swept 23256 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 15:41:55,468 INFO Swept 23264 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 15:47:02,766 INFO Swept 23256 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 15:52:00,748 INFO Swept 23255 events: 0 taker trades, 0 new quotes, 0 resting
