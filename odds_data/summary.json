@@ -1,30 +1,35 @@
 {
- "updated": "2026-11-19T22:14:35+00:00",
+ "updated": "2026-11-20T03:30:25+00:00",
  "scan": {
   "sports": [
-   "americanfootball_nfl",
    "basketball_nba",
-   "icehockey_nhl",
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 87,
-  "kalshi_matched": 73,
+  "games": 66,
+  "kalshi_matched": 52,
   "skipped": [],
-  "pinnacle": 45,
-  "credits_left": 301,
-  "spent_today": 10,
-  "allowance": 26
+  "pinnacle": 14,
+  "credits_left": 298,
+  "spent_today": 13,
+  "allowance": 25
  },
- "new_finds": [],
- "open_bets": 3,
+ "new_finds": [
+  "Indiana Pacers @ Pinnacle 3.32 (fair 3.17, +4.7% expected) Indiana Pacers at Cleveland Cavaliers (Fri 7:40PM)",
+  "Oklahoma St Cowboys @ theScore Bet 2.0 (fair 1.91, +4.4% expected) Oklahoma St Cowboys at Minnesota Golden Gophers (Fri 12:30PM)",
+  "ARB 1.2% locked: Oklahoma St Cowboys at Minnesota Golden Gophers (Fri 12:30PM): $49 Minnesota Golden Gophers @ Bovada 2.05, $51 Oklahoma St Cowboys @ theScore Bet 2.0",
+  "Western Illinois Leathernecks @ BetMGM 3.8 (fair 3.34, +13.9% expected) Western Illinois Leathernecks at Albany Great Danes (Fri 3:00PM)",
+  "ARB 0.7% locked: Western Illinois Leathernecks at Albany Great Danes (Fri 3:00PM): $74 Albany Great Danes @ DraftKings 1.37, $26 Western Illinois Leathernecks @ BetMGM 3.8",
+  "Mt. St. Mary's Mountaineers @ FanDuel 4.1 (fair 3.95, +3.8% expected) Western Michigan Broncos at Mt. St. Mary's Mountaineers (Fri 7:00PM)"
+ ],
+ "open_bets": 8,
  "record": {
   "value": {
-   "bets": 50,
+   "bets": 51,
    "wins": 10,
-   "staked": 500.0,
-   "pnl": -68.9,
-   "roi": -0.1378
+   "staked": 510.0,
+   "pnl": -78.9,
+   "roi": -0.1547
   },
   "kalshi": {
    "bets": 5,
@@ -41,11 +46,11 @@
    "roi": 0.0131
   },
   "all": {
-   "bets": 66,
+   "bets": 67,
    "wins": 22,
-   "staked": 1650.0,
-   "pnl": -59.47,
-   "roi": -0.036
+   "staked": 1660.0,
+   "pnl": -69.47,
+   "roi": -0.0418
   }
  }
 }

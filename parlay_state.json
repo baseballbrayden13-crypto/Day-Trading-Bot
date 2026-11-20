@@ -95,45 +95,6 @@
    "pays": "+485",
    "per_dollar": 5.85,
    "opened": "2026-11-19T13:24:27+00:00"
-  },
-  {
-   "kind": "favorites",
-   "game": "Favorites across games",
-   "start": "2026-11-20T01:15:00Z",
-   "legs": [
-    {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV19LACSAS-SAS",
-     "side": "yes",
-     "price": 0.88,
-     "fair": 0.8798,
-     "value": -0.0082,
-     "player": ""
-    },
-    {
-     "label": "Houston Texans to win",
-     "ticker": "KXNFLGAME-26NOV19INDHOU-HOU",
-     "side": "yes",
-     "price": 0.85,
-     "fair": 0.8477,
-     "value": -0.0113,
-     "player": ""
-    },
-    {
-     "label": "Ottawa Senators to win",
-     "ticker": "KXNHLGAME-26NOV19PHIOTT-OTT",
-     "side": "yes",
-     "price": 0.62,
-     "fair": 0.6214,
-     "value": -0.0156,
-     "player": ""
-    }
-   ],
-   "price": 0.4859,
-   "fair": 0.4634,
-   "pays": "+106",
-   "per_dollar": 2.06,
-   "opened": "2026-11-19T13:24:27+00:00"
   }
  ],
  "seen": {

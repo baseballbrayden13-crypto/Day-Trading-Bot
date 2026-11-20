@@ -2,25 +2,6 @@
  "open": [
   {
    "kind": "value",
-   "game": "Robert Morris Colonials at Toledo Rockets",
-   "game_id": "1a7893819f5bab2287cbc72dc8226d7e",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-20T00:00:00Z",
-   "edge": 0.0602,
-   "home": "Toledo Rockets",
-   "away": "Robert Morris Colonials",
-   "legs": [
-    {
-     "team": "Robert Morris Colonials",
-     "book": "BetRivers",
-     "odds": 3.85,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-19T03:38:21+00:00"
-  },
-  {
-   "kind": "value",
    "game": "UC Santa Barbara Gauchos at Pepperdine Waves",
    "game_id": "06c795c1626c246ad89e38eb1a35dbfb",
    "sport": "basketball_ncaab",
@@ -57,6 +38,132 @@
     }
    ],
    "opened": "2026-11-19T03:38:21+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Indiana Pacers at Cleveland Cavaliers",
+   "game_id": "10e9b9aca502ce158d6a3a91bf00bfd2",
+   "sport": "basketball_nba",
+   "start": "2026-11-21T00:40:00Z",
+   "edge": 0.0471,
+   "home": "Cleveland Cavaliers",
+   "away": "Indiana Pacers",
+   "legs": [
+    {
+     "team": "Indiana Pacers",
+     "book": "Pinnacle",
+     "odds": 3.32,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-20T03:30:25+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Oklahoma St Cowboys at Minnesota Golden Gophers",
+   "game_id": "2c61b23dd09630b92c98ca00c4e8dad1",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-20T17:30:00Z",
+   "edge": 0.0444,
+   "home": "Minnesota Golden Gophers",
+   "away": "Oklahoma St Cowboys",
+   "legs": [
+    {
+     "team": "Oklahoma St Cowboys",
+     "book": "theScore Bet",
+     "odds": 2.0,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-20T03:30:25+00:00"
+  },
+  {
+   "kind": "arb",
+   "game": "Oklahoma St Cowboys at Minnesota Golden Gophers",
+   "game_id": "2c61b23dd09630b92c98ca00c4e8dad1",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-20T17:30:00Z",
+   "edge": 0.0123,
+   "home": "Minnesota Golden Gophers",
+   "away": "Oklahoma St Cowboys",
+   "legs": [
+    {
+     "team": "Minnesota Golden Gophers",
+     "book": "Bovada",
+     "odds": 2.05,
+     "stake": 49.38
+    },
+    {
+     "team": "Oklahoma St Cowboys",
+     "book": "theScore Bet",
+     "odds": 2.0,
+     "stake": 50.62
+    }
+   ],
+   "opened": "2026-11-20T03:30:25+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Western Illinois Leathernecks at Albany Great Danes",
+   "game_id": "b2f8a6556938a584b2d3ce16aad1aa8c",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-20T20:00:00Z",
+   "edge": 0.1392,
+   "home": "Albany Great Danes",
+   "away": "Western Illinois Leathernecks",
+   "legs": [
+    {
+     "team": "Western Illinois Leathernecks",
+     "book": "BetMGM",
+     "odds": 3.8,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-20T03:30:25+00:00"
+  },
+  {
+   "kind": "arb",
+   "game": "Western Illinois Leathernecks at Albany Great Danes",
+   "game_id": "b2f8a6556938a584b2d3ce16aad1aa8c",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-20T20:00:00Z",
+   "edge": 0.007,
+   "home": "Albany Great Danes",
+   "away": "Western Illinois Leathernecks",
+   "legs": [
+    {
+     "team": "Albany Great Danes",
+     "book": "DraftKings",
+     "odds": 1.37,
+     "stake": 73.5
+    },
+    {
+     "team": "Western Illinois Leathernecks",
+     "book": "BetMGM",
+     "odds": 3.8,
+     "stake": 26.5
+    }
+   ],
+   "opened": "2026-11-20T03:30:25+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Western Michigan Broncos at Mt. St. Mary's Mountaineers",
+   "game_id": "e0a864edd8896bd3eb30a0eb1cd518fb",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-21T00:00:00Z",
+   "edge": 0.0375,
+   "home": "Mt. St. Mary's Mountaineers",
+   "away": "Western Michigan Broncos",
+   "legs": [
+    {
+     "team": "Mt. St. Mary's Mountaineers",
+     "book": "FanDuel",
+     "odds": 4.1,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-20T03:30:25+00:00"
   }
  ],
  "seen": {
@@ -128,18 +235,24 @@
   "value|06c795c1626c246ad89e38eb1a35dbfb|Pepperdine Waves|BetRivers": "2026-11-19T03:38:21.851479+00:00",
   "kalshi|06c795c1626c246ad89e38eb1a35dbfb|Pepperdine Waves|Kalshi": "2026-11-19T03:38:21.851479+00:00",
   "value|5246df4438e82883d2aa2437d1f9857c|West Virginia Mountaineers|Bovada": "2026-11-19T13:24:20.393736+00:00",
-  "kalshi|5246df4438e82883d2aa2437d1f9857c|West Virginia Mountaineers|Kalshi": "2026-11-19T13:24:20.393736+00:00"
+  "kalshi|5246df4438e82883d2aa2437d1f9857c|West Virginia Mountaineers|Kalshi": "2026-11-19T13:24:20.393736+00:00",
+  "value|10e9b9aca502ce158d6a3a91bf00bfd2|Indiana Pacers|Pinnacle": "2026-11-20T03:30:25.409622+00:00",
+  "value|2c61b23dd09630b92c98ca00c4e8dad1|Oklahoma St Cowboys|theScore Bet": "2026-11-20T03:30:25.409622+00:00",
+  "arb|2c61b23dd09630b92c98ca00c4e8dad1|Minnesota Golden Gophers@Bovada|Oklahoma St Cowboys@theScore Bet": "2026-11-20T03:30:25.409622+00:00",
+  "value|b2f8a6556938a584b2d3ce16aad1aa8c|Western Illinois Leathernecks|BetMGM": "2026-11-20T03:30:25.409622+00:00",
+  "arb|b2f8a6556938a584b2d3ce16aad1aa8c|Albany Great Danes@DraftKings|Western Illinois Leathernecks@BetMGM": "2026-11-20T03:30:25.409622+00:00",
+  "value|e0a864edd8896bd3eb30a0eb1cd518fb|Mt. St. Mary's Mountaineers|FanDuel": "2026-11-20T03:30:25.409622+00:00"
  },
  "credits": {
   "day": "2026-11-19",
-  "spent": 10,
-  "remaining": 301
+  "spent": 13,
+  "remaining": 298
  },
  "last_priced": {
-  "basketball_nba": "2026-11-19T22:14:35.615453+00:00",
+  "basketball_nba": "2026-11-20T03:30:25.409622+00:00",
   "icehockey_nhl": "2026-11-19T22:14:35.615453+00:00",
-  "americanfootball_ncaaf": "2026-11-19T22:14:35.615453+00:00",
-  "basketball_ncaab": "2026-11-19T22:14:35.615453+00:00",
+  "americanfootball_ncaaf": "2026-11-20T03:30:25.409622+00:00",
+  "basketball_ncaab": "2026-11-20T03:30:25.409622+00:00",
   "americanfootball_nfl": "2026-11-19T22:14:35.615453+00:00"
  }
 }

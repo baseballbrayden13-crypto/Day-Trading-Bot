@@ -1,125 +1,49 @@
 {
- "updated": "2026-11-19T22:14:38+00:00",
+ "updated": "2026-11-20T03:30:30+00:00",
  "parlays": [
-  {
-   "kind": "game",
-   "game": "Golden State Warriors vs Memphis Grizzlies",
-   "start": "2026-11-20T01:10:00Z",
-   "legs": [
-    {
-     "label": "Memphis Grizzlies to win",
-     "ticker": "KXNBAGAME-26NOV19GSWMEM-MEM",
-     "side": "yes",
-     "price": 0.66,
-     "fair": 0.6605,
-     "value": -0.0155,
-     "player": ""
-    },
-    {
-     "label": "Brandin Podziemski 4+ assists",
-     "ticker": "KXNBAAST-26NOV19GSWMEM-GSWBPODZIEMSKI2-4",
-     "side": "yes",
-     "price": 0.62,
-     "fair": 0.6416,
-     "value": 0.0046,
-     "player": "Brandin Podziemski"
-    },
-    {
-     "label": "Cameron Boozer 15+ points",
-     "ticker": "KXNBAPTS-26NOV19GSWMEM-MEMCBOOZER27-15",
-     "side": "yes",
-     "price": 0.72,
-     "fair": 0.7352,
-     "value": 0.0002,
-     "player": "Cameron Boozer"
-    },
-    {
-     "label": "Cedric Coward under 4 assists",
-     "ticker": "KXNBAAST-26NOV19GSWMEM-MEMCCOWARD23-4",
-     "side": "no",
-     "price": 0.5,
-     "fair": 0.5087,
-     "value": -0.0093,
-     "player": "Cedric Coward"
-    }
-   ],
-   "price": 0.1639,
-   "fair": 0.1585,
-   "pays": "+510",
-   "per_dollar": 6.1
-  },
-  {
-   "kind": "game (safer 2-leg)",
-   "game": "Golden State Warriors vs Memphis Grizzlies",
-   "start": "2026-11-20T01:10:00Z",
-   "legs": [
-    {
-     "label": "Cameron Boozer 15+ points",
-     "ticker": "KXNBAPTS-26NOV19GSWMEM-MEMCBOOZER27-15",
-     "side": "yes",
-     "price": 0.72,
-     "fair": 0.7352,
-     "value": 0.0002,
-     "player": "Cameron Boozer"
-    },
-    {
-     "label": "Memphis Grizzlies to win",
-     "ticker": "KXNBAGAME-26NOV19GSWMEM-MEM",
-     "side": "yes",
-     "price": 0.66,
-     "fair": 0.6605,
-     "value": -0.0155,
-     "player": ""
-    }
-   ],
-   "price": 0.4969,
-   "fair": 0.4856,
-   "pays": "+101",
-   "per_dollar": 2.01
-  },
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-20T01:15:00Z",
+   "start": "2026-11-21T02:40:00Z",
    "legs": [
     {
-     "label": "Quinnipiac Bobcats to win",
-     "ticker": "KXNCAAMBGAME-26NOV19MEQUIN-QUIN",
+     "label": "Temple Owls to win",
+     "ticker": "KXNCAAMBGAME-26NOV20TEMMTU-TEM",
      "side": "yes",
-     "price": 0.78,
-     "fair": 0.7822,
-     "value": -0.0108,
+     "price": 0.6,
+     "fair": 0.6025,
+     "value": -0.0145,
      "player": ""
     },
     {
-     "label": "Houston Texans to win",
-     "ticker": "KXNFLGAME-26NOV19INDHOU-HOU",
+     "label": "Vanderbilt Commodores to win",
+     "ticker": "KXNCAAMBGAME-26NOV20UCFVAN-VAN",
      "side": "yes",
-     "price": 0.85,
-     "fair": 0.8468,
-     "value": -0.0122,
+     "price": 0.93,
+     "fair": 0.9202,
+     "value": -0.0148,
      "player": ""
     },
     {
-     "label": "Memphis Grizzlies to win",
-     "ticker": "KXNBAGAME-26NOV19GSWMEM-MEM",
+     "label": "Phoenix Suns to win",
+     "ticker": "KXNBAGAME-26NOV20PHXUTA-PHX",
      "side": "yes",
-     "price": 0.66,
-     "fair": 0.6605,
-     "value": -0.0155,
+     "price": 0.62,
+     "fair": 0.6146,
+     "value": -0.0224,
      "player": ""
     }
    ],
-   "price": 0.4605,
-   "fair": 0.4375,
-   "pays": "+117",
-   "per_dollar": 2.17
+   "price": 0.3675,
+   "fair": 0.3407,
+   "pays": "+172",
+   "per_dollar": 2.72
   }
  ],
- "open_pretend": 3,
+ "open_pretend": 2,
  "record": {
-  "parlays": 18,
+  "parlays": 19,
   "won": 3,
-  "profit": -10.39
+  "profit": -11.39
  }
 }
