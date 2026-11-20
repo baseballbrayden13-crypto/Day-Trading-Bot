@@ -2998,17 +2998,36 @@
  ],
  "quotes": [
   {
+   "event": "KXNCAAWBGAME-26NOV19MANLIU",
+   "series": "KXNCAAWBGAME",
+   "title": "Manhattan vs LIU",
+   "ticker": "KXNCAAWBGAME-26NOV19MANLIU-MAN",
+   "order_id": "paper-1228-1795135097",
+   "price": "0.37",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8900",
+   "multiplier": "1",
+   "placed": 1795135097.1060853,
+   "hedge": [
+    {
+     "ticker": "KXNCAAWBGAME-26NOV19MANLIU-LIU",
+     "limit": "0.5500"
+    }
+   ]
+  },
+  {
    "event": "KXLBPRCGAME-26NOV191800INDSAT",
    "series": "KXLBPRCGAME",
    "title": "Indios de Mayaguez vs Cangrejeros de Santurce",
    "ticker": "KXLBPRCGAME-26NOV191800INDSAT-IND",
-   "order_id": "paper-1227-1795133276",
+   "order_id": "paper-1229-1795135401",
    "price": "0.3700",
    "sets": 1,
    "done": 0,
    "reserve": "0.8900",
    "multiplier": "1",
-   "placed": 1795133276.221614,
+   "placed": 1795135401.1093779,
    "hedge": [
     {
      "ticker": "KXLBPRCGAME-26NOV191800INDSAT-SAT",

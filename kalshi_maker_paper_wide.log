@@ -10758,3 +10758,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 19:07:56,221 INFO Resting NO bid on KXLBPRCGAME-26NOV191800INDSAT-IND at $0.3700 x1 (KXLBPRCGAME-26NOV191800INDSAT): locks in $0.11 if it fills; hedge NO SAT@0.4900
 2026-11-19 19:07:56,336 INFO Swept 22613 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-19 19:13:01,151 INFO Swept 22644 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 19:18:06,067 INFO Swept 22665 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 19:23:09,636 INFO Swept 22713 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 19:28:14,916 INFO Swept 22708 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 19:33:14,732 INFO Swept 22686 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 19:38:17,105 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV19MANLIU-MAN at $0.3700 x2 (16 already bid at that price)
+2026-11-19 19:38:17,106 INFO Resting NO bid on KXNCAAWBGAME-26NOV19MANLIU-MAN at $0.37 x2 (KXNCAAWBGAME-26NOV19MANLIU): locks in $0.11 if it fills; hedge NO LIU@0.5500
+2026-11-19 19:38:17,210 INFO Swept 22674 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 19:43:21,109 INFO PAPER rest NO bid KXLBPRCGAME-26NOV191800INDSAT-IND at $0.3700 x1 (0 already bid at that price)
+2026-11-19 19:43:21,109 INFO Resting NO bid on KXLBPRCGAME-26NOV191800INDSAT-IND at $0.3700 x1 (KXLBPRCGAME-26NOV191800INDSAT): locks in $0.11 if it fills; hedge NO SAT@0.4900
+2026-11-19 19:43:21,245 INFO Swept 22712 events: 0 taker trades, 1 new quotes, 2 resting
