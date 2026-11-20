@@ -4602,3 +4602,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 22:55:59,152 INFO PAPER rest NO bid KXLMPGAME-26NOV192130CULNAY-CUL at $0.2500 x2 (0 already bid at that price)
 2026-11-19 22:55:59,153 INFO Resting NO bid on KXLMPGAME-26NOV192130CULNAY-CUL at $0.2500 x2 (KXLMPGAME-26NOV192130CULNAY): locks in $0.61 if it fills; hedge NO NAY@0.4200
 2026-11-19 22:55:59,154 INFO Swept 22418 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 23:01:00,478 INFO PAPER rest NO bid KXMLS1HSCORE-26NOV19SEARSL-SEA1RSL1 at $0.3500 x2 (0 already bid at that price)
+2026-11-19 23:01:00,479 INFO Resting NO bid on KXMLS1HSCORE-26NOV19SEARSL-SEA1RSL1 at $0.3500 x2 (KXMLS1HSCORE-26NOV19SEARSL): locks in $0.73 if it fills; hedge NO SEA1RSL0@0.2900, SEA2RSL0@0.9700
+2026-11-19 23:01:00,480 INFO Swept 22411 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 23:01:47,571 INFO Quote KXMLS1HSCORE-26NOV19SEARSL cancelled (0/2 filled)
+2026-11-19 23:02:13,136 INFO Quote KXLMPGAME-26NOV192130CULNAY cancelled (0/2 filled)
+2026-11-19 23:06:03,698 INFO Swept 22402 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 23:11:02,200 INFO Swept 22408 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 23:16:03,003 INFO Swept 22373 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 23:21:05,399 INFO Swept 22372 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 23:26:02,677 INFO Swept 22373 events: 0 taker trades, 0 new quotes, 0 resting
