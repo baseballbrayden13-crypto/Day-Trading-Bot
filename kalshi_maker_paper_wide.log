@@ -11036,3 +11036,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 18:14:15,639 INFO Settled KXVALORANTMAP-26NOV201700YDGNV-1: paid $2, profit $0.37
 2026-11-20 18:14:25,050 INFO Swept 23104 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 18:19:29,324 INFO Swept 23131 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 18:24:41,630 INFO Swept 23182 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 18:29:45,322 INFO Swept 23189 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 18:34:49,079 INFO Swept 23186 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 18:39:52,516 INFO PAPER rest NO bid KXCS2MAP-26NOV201845MIRARUS-1-MIRA at $0.1000 x1 (0 already bid at that price)
+2026-11-20 18:39:52,516 INFO Resting NO bid on KXCS2MAP-26NOV201845MIRARUS-1-MIRA at $0.1000 x1 (KXCS2MAP-26NOV201845MIRARUS-1): locks in $0.30 if it fills; hedge NO RUS@0.5700
+2026-11-20 18:39:52,813 INFO Swept 23179 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 18:44:56,031 INFO Swept 23173 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 18:49:57,793 INFO Swept 23175 events: 0 taker trades, 0 new quotes, 1 resting

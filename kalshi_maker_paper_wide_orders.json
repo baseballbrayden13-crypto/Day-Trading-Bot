@@ -17526,5 +17526,19 @@
   "at_price": 14,
   "filled": 2,
   "status": "executed"
+ },
+ "paper-1253-1795217992": {
+  "id": "paper-1253-1795217992",
+  "ticker": "KXCS2MAP-26NOV201845MIRARUS-1-MIRA",
+  "price": "0.1000",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1795217992.5029747,
+  "checked": 1795218597.794111,
+  "expires": 1795219792,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
