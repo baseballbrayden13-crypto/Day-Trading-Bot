@@ -10811,3 +10811,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 22:46:22,732 INFO Swept 22491 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-19 22:51:24,487 INFO Swept 22449 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-19 22:56:26,544 INFO Swept 22419 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 23:01:28,663 INFO Swept 22411 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 23:06:30,273 INFO Swept 22404 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 23:11:31,019 INFO PAPER rest NO bid KXLMPGAME-26NOV192230HMOMXL-MXL at $0.3000 x1 (0 already bid at that price)
+2026-11-19 23:11:31,020 INFO Resting NO bid on KXLMPGAME-26NOV192230HMOMXL-MXL at $0.3000 x1 (KXLMPGAME-26NOV192230HMOMXL): locks in $0.12 if it fills; hedge NO HMO@0.5500
+2026-11-19 23:11:31,504 INFO Swept 22408 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 23:16:29,431 INFO Swept 22369 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 23:21:33,567 INFO Swept 22372 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 23:26:31,117 INFO Swept 22373 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 23:26:31,328 INFO Quote KXLMPGAME-26NOV192230HMOMXL cancelled (0/1 filled)
