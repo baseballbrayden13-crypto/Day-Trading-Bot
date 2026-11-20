@@ -4661,3 +4661,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 05:59:10,245 INFO Swept 22497 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 06:04:16,066 INFO Swept 22494 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 06:09:14,363 INFO Swept 22489 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 06:14:23,383 INFO Swept 22518 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 06:19:28,198 INFO Swept 22532 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 06:24:26,176 INFO PAPER rest NO bid KXTWEEDEDIVGAME-26NOV21SPAROH-TIE at $0.4500 x2 (0 already bid at that price)
+2026-11-20 06:24:26,176 INFO Resting NO bid on KXTWEEDEDIVGAME-26NOV21SPAROH-TIE at $0.4500 x2 (KXTWEEDEDIVGAME-26NOV21SPAROH): locks in $0.42 if it fills; hedge NO SPA@0.4100, ROH@0.9000
+2026-11-20 06:24:26,177 INFO Swept 22524 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 06:29:38,265 INFO Swept 22520 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 06:34:34,418 INFO Swept 22512 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 06:39:37,268 INFO Swept 22511 events: 0 taker trades, 0 new quotes, 1 resting

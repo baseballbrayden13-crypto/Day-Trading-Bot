@@ -458,5 +458,29 @@
    "closed": "2026-11-18T04:32:06.140421+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXTWEEDEDIVGAME-26NOV21SPAROH",
+   "series": "KXTWEEDEDIVGAME",
+   "title": "Spakenburg vs Rohda Raalte",
+   "ticker": "KXTWEEDEDIVGAME-26NOV21SPAROH-TIE",
+   "order_id": "paper-277-1795173866",
+   "price": "0.4500",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.5800",
+   "multiplier": "1",
+   "placed": 1795173866.1767383,
+   "hedge": [
+    {
+     "ticker": "KXTWEEDEDIVGAME-26NOV21SPAROH-SPA",
+     "limit": "0.4100"
+    },
+    {
+     "ticker": "KXTWEEDEDIVGAME-26NOV21SPAROH-ROH",
+     "limit": "0.9500"
+    }
+   ]
+  }
+ ]
 }
