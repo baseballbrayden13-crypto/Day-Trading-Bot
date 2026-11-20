@@ -4575,3 +4575,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 20:27:53,227 INFO Resting NO bid on KXLVBPGAME-26NOV191800ANZLAR-ANZ at $0.2400 x1 (KXLVBPGAME-26NOV191800ANZLAR): locks in $0.24 if it fills; hedge NO LAR@0.4900
 2026-11-19 20:27:53,228 INFO Swept 22774 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-19 20:27:58,407 INFO Stopped; all quotes cancelled.
+2026-11-19 20:56:20,258 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-19 21:00:01,059 INFO Swept 22740 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 21:05:04,453 INFO Swept 22716 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 21:10:09,369 INFO Swept 22716 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 21:15:14,713 INFO Swept 22736 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 21:20:15,721 INFO Swept 22760 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 21:25:17,217 INFO Swept 22764 events: 0 taker trades, 0 new quotes, 0 resting
