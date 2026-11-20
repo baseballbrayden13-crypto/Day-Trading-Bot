@@ -10883,3 +10883,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 06:10:04,252 INFO PAPER rest NO bid KXNBAGAME-26NOV23CLECHI-CHI at $0.6200 x3 (8 already bid at that price)
 2026-11-20 06:10:04,253 INFO Resting NO bid on KXNBAGAME-26NOV23CLECHI-CHI at $0.62 x3 (KXNBAGAME-26NOV23CLECHI): locks in $0.11 if it fills; hedge NO CLE@0.3200
 2026-11-20 06:10:04,449 INFO Swept 22494 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 06:15:05,749 INFO Swept 22518 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 06:20:08,726 INFO Swept 22532 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 06:25:11,039 INFO Swept 22527 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 06:30:12,964 INFO Swept 22520 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 06:35:18,226 INFO Swept 22514 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 06:40:14,559 INFO Swept 22511 events: 0 taker trades, 0 new quotes, 1 resting
