@@ -458,25 +458,5 @@
    "closed": "2026-11-18T04:32:06.140421+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLMPGAME-26NOV192130CDJMAZ",
-   "series": "KXLMPGAME",
-   "title": "Charros de Jalisco vs Venados de Mazatlan",
-   "ticker": "KXLMPGAME-26NOV192130CDJMAZ-CDJ",
-   "order_id": "paper-276-1795149360",
-   "price": "0.2600",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.7800",
-   "multiplier": "1",
-   "placed": 1795149360.633106,
-   "hedge": [
-    {
-     "ticker": "KXLMPGAME-26NOV192130CDJMAZ-MAZ",
-     "limit": "0.4900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
