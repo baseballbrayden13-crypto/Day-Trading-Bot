@@ -2996,5 +2996,44 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXBNXTGAME-26NOV201430AALLIM",
+   "series": "KXBNXTGAME",
+   "title": "Okapi Aalst vs Limburg United",
+   "ticker": "KXBNXTGAME-26NOV201430AALLIM-LIM",
+   "order_id": "paper-1249-1795206378",
+   "price": "0.1800",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6100",
+   "multiplier": "1",
+   "placed": 1795206378.1802151,
+   "hedge": [
+    {
+     "ticker": "KXBNXTGAME-26NOV201430AALLIM-AAL",
+     "limit": "0.7200"
+    }
+   ]
+  },
+  {
+   "event": "KXCS2MAP-26NOV201430EACXI-2",
+   "series": "KXCS2MAP",
+   "title": "Esport Academy Copenhagen vs. XI Esport: Map 2 Winner",
+   "ticker": "KXCS2MAP-26NOV201430EACXI-2-XI",
+   "order_id": "paper-1250-1795206980",
+   "price": "0.3400",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8700",
+   "multiplier": "1",
+   "placed": 1795206980.407838,
+   "hedge": [
+    {
+     "ticker": "KXCS2MAP-26NOV201430EACXI-2-EAC",
+     "limit": "0.5700"
+    }
+   ]
+  }
+ ]
 }

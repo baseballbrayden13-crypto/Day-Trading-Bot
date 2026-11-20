@@ -10988,3 +10988,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 15:11:14,670 INFO Swept 23211 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 15:16:16,219 INFO Swept 23272 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 15:21:18,087 INFO Swept 23287 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 15:26:18,180 INFO PAPER rest NO bid KXBNXTGAME-26NOV201430AALLIM-LIM at $0.1800 x2 (0 already bid at that price)
+2026-11-20 15:26:18,180 INFO Resting NO bid on KXBNXTGAME-26NOV201430AALLIM-LIM at $0.1800 x2 (KXBNXTGAME-26NOV201430AALLIM): locks in $0.39 if it fills; hedge NO AAL@0.6000
+2026-11-20 15:26:18,473 INFO Swept 23271 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 15:31:18,971 INFO Swept 23271 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 15:36:20,407 INFO PAPER rest NO bid KXCS2MAP-26NOV201430EACXI-2-XI at $0.3400 x2 (0 already bid at that price)
+2026-11-20 15:36:20,407 INFO Resting NO bid on KXCS2MAP-26NOV201430EACXI-2-XI at $0.3400 x2 (KXCS2MAP-26NOV201430EACXI-2): locks in $0.13 if it fills; hedge NO EAC@0.5700
+2026-11-20 15:36:20,716 INFO Swept 23256 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-20 15:41:23,938 INFO Swept 23264 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 15:46:28,627 INFO Swept 23256 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 15:51:32,182 INFO Swept 23255 events: 0 taker trades, 0 new quotes, 2 resting
