@@ -10955,3 +10955,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 10:36:58,985 INFO Resting NO bid on KXNCAAWBGAME-26NOV22PENNME-ME at $0.68 x2 (KXNCAAWBGAME-26NOV22PENNME): locks in $0.10 if it fills; hedge NO PENN@0.2500
 2026-11-20 10:36:59,098 INFO Swept 22925 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-20 10:42:01,304 INFO Swept 22921 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 10:47:03,745 INFO Swept 22919 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 10:52:05,157 INFO Swept 22915 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 10:57:07,234 INFO Swept 22919 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 11:02:07,347 INFO Swept 22918 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 11:07:06,889 INFO PAPER rest NO bid KXLALIGAFTTS-26NOV22SANRSO-NONE at $0.0800 x2 (0 already bid at that price)
+2026-11-20 11:07:06,889 INFO Resting NO bid on KXLALIGAFTTS-26NOV22SANRSO-NONE at $0.0800 x2 (KXLALIGAFTTS-26NOV22SANRSO): locks in $0.53 if it fills; hedge NO SAN@0.6300
+2026-11-20 11:07:06,998 INFO Swept 22895 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-20 11:12:12,950 INFO Swept 22957 events: 0 taker trades, 0 new quotes, 1 resting
