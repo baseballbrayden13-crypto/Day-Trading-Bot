@@ -4722,3 +4722,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 10:31:12,698 INFO Swept 22934 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 10:36:10,397 INFO Swept 22925 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 10:41:15,807 INFO Swept 22921 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 10:46:09,566 INFO Swept 22919 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 10:51:16,603 INFO Swept 22915 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 10:56:21,358 INFO Swept 22919 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 11:01:25,951 INFO Swept 22918 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 11:06:30,569 INFO PAPER rest NO bid KXLALIGAFTTS-26NOV22SANRSO-NONE at $0.0800 x3 (0 already bid at that price)
+2026-11-20 11:06:30,569 INFO Resting NO bid on KXLALIGAFTTS-26NOV22SANRSO-NONE at $0.0800 x3 (KXLALIGAFTTS-26NOV22SANRSO): locks in $0.81 if it fills; hedge NO SAN@0.6300
+2026-11-20 11:06:30,571 INFO Swept 22895 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 11:11:32,817 INFO Swept 22957 events: 0 taker trades, 0 new quotes, 1 resting

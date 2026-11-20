@@ -458,5 +458,25 @@
    "closed": "2026-11-18T04:32:06.140421+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLALIGAFTTS-26NOV22SANRSO",
+   "series": "KXLALIGAFTTS",
+   "title": "Racing Santander vs Real Sociedad San Sebastian: First Team to Score",
+   "ticker": "KXLALIGAFTTS-26NOV22SANRSO-NONE",
+   "order_id": "paper-280-1795190790",
+   "price": "0.0800",
+   "sets": 3,
+   "done": 0,
+   "reserve": "2.1900",
+   "multiplier": "1",
+   "placed": 1795190790.5697021,
+   "hedge": [
+    {
+     "ticker": "KXLALIGAFTTS-26NOV22SANRSO-SAN",
+     "limit": "0.6300"
+    }
+   ]
+  }
+ ]
 }
