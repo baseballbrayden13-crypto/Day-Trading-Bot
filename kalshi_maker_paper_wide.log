@@ -10874,3 +10874,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 02:37:48,705 INFO Swept 22513 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 02:42:55,964 INFO Swept 22510 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 02:43:00,971 INFO Stopped; all quotes cancelled.
+2026-11-20 05:40:57,456 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-20 05:44:54,227 INFO Swept 22513 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 05:49:59,366 INFO Swept 22499 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 05:54:59,404 INFO Swept 22487 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 05:59:57,490 INFO Swept 22497 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 06:05:03,615 INFO Swept 22495 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 06:10:04,252 INFO PAPER rest NO bid KXNBAGAME-26NOV23CLECHI-CHI at $0.6200 x3 (8 already bid at that price)
+2026-11-20 06:10:04,253 INFO Resting NO bid on KXNBAGAME-26NOV23CLECHI-CHI at $0.62 x3 (KXNBAGAME-26NOV23CLECHI): locks in $0.11 if it fills; hedge NO CLE@0.3200
+2026-11-20 06:10:04,449 INFO Swept 22494 events: 0 taker trades, 1 new quotes, 1 resting

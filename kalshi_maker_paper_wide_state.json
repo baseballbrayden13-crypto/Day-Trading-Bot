@@ -2996,5 +2996,25 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNBAGAME-26NOV23CLECHI",
+   "series": "KXNBAGAME",
+   "title": "Cleveland vs Chicago",
+   "ticker": "KXNBAGAME-26NOV23CLECHI-CHI",
+   "order_id": "paper-1239-1795173004",
+   "price": "0.62",
+   "sets": 3,
+   "done": 0,
+   "reserve": "2.8900",
+   "multiplier": "1",
+   "placed": 1795173004.2530665,
+   "hedge": [
+    {
+     "ticker": "KXNBAGAME-26NOV23CLECHI-CLE",
+     "limit": "0.3200"
+    }
+   ]
+  }
+ ]
 }

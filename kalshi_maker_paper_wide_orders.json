@@ -17330,5 +17330,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-1239-1795173004": {
+  "id": "paper-1239-1795173004",
+  "ticker": "KXNBAGAME-26NOV23CLECHI-CHI",
+  "price": "0.6200",
+  "count": 3,
+  "ahead": 8,
+  "placed": 1795173004.2422569,
+  "checked": 1795173055.0513802,
+  "expires": 1795174804,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
