@@ -2,99 +2,138 @@
  "open": [
   {
    "kind": "game",
-   "game": "Los Angeles Clippers vs San Antonio Spurs",
-   "start": "2026-11-20T01:10:00Z",
+   "game": "Atlanta Hawks vs Charlotte Hornets",
+   "start": "2026-11-21T00:10:00Z",
    "legs": [
     {
-     "label": "San Antonio Spurs to win",
-     "ticker": "KXNBAGAME-26NOV19LACSAS-SAS",
+     "label": "Atlanta Hawks to win",
+     "ticker": "KXNBAGAME-26NOV20CHAATL-ATL",
      "side": "yes",
-     "price": 0.88,
-     "fair": 0.8798,
-     "value": -0.0082,
+     "price": 0.68,
+     "fair": 0.6725,
+     "value": -0.0235,
      "player": ""
     },
     {
-     "label": "Kris Dunn 5+ points",
-     "ticker": "KXNBAPTS-26NOV19LACSAS-LACKDUNN8-5",
+     "label": "Aaron Wiggins 10+ points",
+     "ticker": "KXNBAPTS-26NOV20CHAATL-ATLAWIGGINS2-10",
      "side": "yes",
-     "price": 0.6,
-     "fair": 0.6917,
-     "value": 0.0747,
-     "player": "Kris Dunn"
+     "price": 0.73,
+     "fair": 0.7665,
+     "value": 0.0225,
+     "player": "Aaron Wiggins"
     },
     {
-     "label": "Rui Hachimura 10+ points",
-     "ticker": "KXNBAPTS-26NOV19LACSAS-LACRHACHIMURA28-10",
+     "label": "Dyson Daniels 6+ assists",
+     "ticker": "KXNBAAST-26NOV20CHAATL-ATLDDANIELS5-6",
      "side": "yes",
-     "price": 0.7,
-     "fair": 0.7582,
-     "value": 0.0432,
-     "player": "Rui Hachimura"
+     "price": 0.49,
+     "fair": 0.5147,
+     "value": 0.0067,
+     "player": "Dyson Daniels"
     },
     {
-     "label": "Keldon Johnson 10+ points",
-     "ticker": "KXNBAPTS-26NOV19LACSAS-SASKJOHNSON3-10",
+     "label": "Naz Reid 15+ points",
+     "ticker": "KXNBAPTS-26NOV20CHAATL-CHANREID0-15",
      "side": "yes",
-     "price": 0.65,
-     "fair": 0.7044,
-     "value": 0.0384,
-     "player": "Keldon Johnson"
+     "price": 0.74,
+     "fair": 0.7481,
+     "value": -0.0059,
+     "player": "Naz Reid"
     }
    ],
-   "price": 0.2609,
-   "fair": 0.325,
-   "pays": "+283",
-   "per_dollar": 3.83,
-   "opened": "2026-11-19T13:24:27+00:00"
+   "price": 0.1983,
+   "fair": 0.1985,
+   "pays": "+404",
+   "per_dollar": 5.04,
+   "opened": "2026-11-20T13:04:42+00:00"
   },
   {
    "kind": "game",
-   "game": "Golden State Warriors vs Memphis Grizzlies",
-   "start": "2026-11-20T01:10:00Z",
+   "game": "Brooklyn Nets vs Orlando Magic",
+   "start": "2026-11-21T00:40:00Z",
    "legs": [
     {
-     "label": "Memphis Grizzlies to win",
-     "ticker": "KXNBAGAME-26NOV19GSWMEM-MEM",
+     "label": "Orlando Magic to win",
+     "ticker": "KXNBAGAME-26NOV20ORLBKN-ORL",
      "side": "yes",
-     "price": 0.69,
-     "fair": 0.678,
-     "value": -0.027,
+     "price": 0.68,
+     "fair": 0.668,
+     "value": -0.028,
      "player": ""
     },
     {
-     "label": "Brandin Podziemski 4+ assists",
-     "ticker": "KXNBAAST-26NOV19GSWMEM-GSWBPODZIEMSKI2-4",
+     "label": "Jalen Suggs 4+ rebounds",
+     "ticker": "KXNBAREB-26NOV20ORLBKN-ORLJSUGGS4-4",
      "side": "yes",
      "price": 0.62,
-     "fair": 0.6416,
-     "value": 0.0046,
-     "player": "Brandin Podziemski"
+     "fair": 0.6707,
+     "value": 0.0337,
+     "player": "Jalen Suggs"
     },
     {
-     "label": "Cameron Boozer 15+ points",
-     "ticker": "KXNBAPTS-26NOV19GSWMEM-MEMCBOOZER27-15",
+     "label": "Tristan da Silva 10+ points",
+     "ticker": "KXNBAPTS-26NOV20ORLBKN-ORLTDASILVA23-10",
      "side": "yes",
-     "price": 0.72,
-     "fair": 0.7352,
-     "value": 0.0002,
-     "player": "Cameron Boozer"
+     "price": 0.66,
+     "fair": 0.7079,
+     "value": 0.0319,
+     "player": "Tristan da Silva"
     },
     {
-     "label": "Cedric Coward under 4 assists",
-     "ticker": "KXNBAAST-26NOV19GSWMEM-MEMCCOWARD23-4",
-     "side": "no",
-     "price": 0.5,
-     "fair": 0.5087,
-     "value": -0.0093,
-     "player": "Cedric Coward"
+     "label": "Anthony Black 4+ rebounds",
+     "ticker": "KXNBAREB-26NOV20ORLBKN-ORLABLACK0-4",
+     "side": "yes",
+     "price": 0.63,
+     "fair": 0.6745,
+     "value": 0.0275,
+     "player": "Anthony Black"
     }
    ],
-   "price": 0.171,
-   "fair": 0.1627,
-   "pays": "+485",
-   "per_dollar": 5.85,
-   "opened": "2026-11-19T13:24:27+00:00"
+   "price": 0.1939,
+   "fair": 0.2139,
+   "pays": "+416",
+   "per_dollar": 5.16,
+   "opened": "2026-11-20T13:04:42+00:00"
+  },
+  {
+   "kind": "favorites",
+   "game": "Favorites across games",
+   "start": "2026-11-21T02:40:00Z",
+   "legs": [
+    {
+     "label": "Oklahoma City Thunder to win",
+     "ticker": "KXNBAGAME-26NOV20NOPOKC-OKC",
+     "side": "yes",
+     "price": 0.82,
+     "fair": 0.8216,
+     "value": -0.0094,
+     "player": ""
+    },
+    {
+     "label": "Phoenix Suns to win",
+     "ticker": "KXNBAGAME-26NOV20PHXUTA-PHX",
+     "side": "yes",
+     "price": 0.62,
+     "fair": 0.6238,
+     "value": -0.0132,
+     "player": ""
+    },
+    {
+     "label": "Saint Joseph's Hawks to win",
+     "ticker": "KXNCAAMBGAME-26NOV20JOESDREX-JOES",
+     "side": "yes",
+     "price": 0.61,
+     "fair": 0.6064,
+     "value": -0.0206,
+     "player": ""
+    }
+   ],
+   "price": 0.3319,
+   "fair": 0.3108,
+   "pays": "+201",
+   "per_dollar": 3.01,
+   "opened": "2026-11-20T13:04:42+00:00"
   }
  ],
  "seen": {
@@ -118,6 +157,9 @@
   "favorites|Favorites across games|2026-11-18": "2026-11-18T14:11:21.396666+00:00",
   "game|Los Angeles Clippers vs San Antonio Spurs|2026-11-20": "2026-11-19T13:24:27.462482+00:00",
   "game|Golden State Warriors vs Memphis Grizzlies|2026-11-20": "2026-11-19T13:24:27.462482+00:00",
-  "favorites|Favorites across games|2026-11-19": "2026-11-19T13:24:27.462482+00:00"
+  "favorites|Favorites across games|2026-11-19": "2026-11-19T13:24:27.462482+00:00",
+  "game|Atlanta Hawks vs Charlotte Hornets|2026-11-21": "2026-11-20T13:04:42.044074+00:00",
+  "game|Brooklyn Nets vs Orlando Magic|2026-11-21": "2026-11-20T13:04:42.044074+00:00",
+  "favorites|Favorites across games|2026-11-20": "2026-11-20T13:04:42.044074+00:00"
  }
 }

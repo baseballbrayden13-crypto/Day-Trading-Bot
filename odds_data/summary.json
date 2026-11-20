@@ -1,42 +1,38 @@
 {
- "updated": "2026-11-20T03:30:25+00:00",
+ "updated": "2026-11-20T13:04:39+00:00",
  "scan": {
   "sports": [
    "basketball_nba",
    "americanfootball_ncaaf",
    "basketball_ncaab"
   ],
-  "games": 66,
-  "kalshi_matched": 52,
+  "games": 119,
+  "kalshi_matched": 99,
   "skipped": [],
-  "pinnacle": 14,
-  "credits_left": 298,
-  "spent_today": 13,
-  "allowance": 25
+  "pinnacle": 79,
+  "credits_left": 295,
+  "spent_today": 3,
+  "allowance": 27
  },
  "new_finds": [
-  "Indiana Pacers @ Pinnacle 3.32 (fair 3.17, +4.7% expected) Indiana Pacers at Cleveland Cavaliers (Fri 7:40PM)",
-  "Oklahoma St Cowboys @ theScore Bet 2.0 (fair 1.91, +4.4% expected) Oklahoma St Cowboys at Minnesota Golden Gophers (Fri 12:30PM)",
-  "ARB 1.2% locked: Oklahoma St Cowboys at Minnesota Golden Gophers (Fri 12:30PM): $49 Minnesota Golden Gophers @ Bovada 2.05, $51 Oklahoma St Cowboys @ theScore Bet 2.0",
-  "Western Illinois Leathernecks @ BetMGM 3.8 (fair 3.34, +13.9% expected) Western Illinois Leathernecks at Albany Great Danes (Fri 3:00PM)",
-  "ARB 0.7% locked: Western Illinois Leathernecks at Albany Great Danes (Fri 3:00PM): $74 Albany Great Danes @ DraftKings 1.37, $26 Western Illinois Leathernecks @ BetMGM 3.8",
-  "Mt. St. Mary's Mountaineers @ FanDuel 4.1 (fair 3.95, +3.8% expected) Western Michigan Broncos at Mt. St. Mary's Mountaineers (Fri 7:00PM)"
+  "Troy Trojans @ BetRivers 4.3 (fair 3.95, +9.0% expected) Georgia Southern Eagles at Troy Trojans (Sat 4:00PM)",
+  "ARB 0.8% locked: Western Illinois Leathernecks at Albany Great Danes (Fri 3:00PM): $74 Albany Great Danes @ DraftKings 1.36, $26 Western Illinois Leathernecks @ FanDuel 3.9"
  ],
  "open_bets": 8,
  "record": {
   "value": {
-   "bets": 51,
+   "bets": 52,
    "wins": 10,
-   "staked": 510.0,
-   "pnl": -78.9,
-   "roi": -0.1547
+   "staked": 520.0,
+   "pnl": -88.9,
+   "roi": -0.171
   },
   "kalshi": {
-   "bets": 5,
+   "bets": 6,
    "wins": 1,
-   "staked": 50.0,
-   "pnl": -4.95,
-   "roi": -0.099
+   "staked": 60.0,
+   "pnl": -14.95,
+   "roi": -0.2492
   },
   "arb": {
    "bets": 11,
@@ -46,11 +42,11 @@
    "roi": 0.0131
   },
   "all": {
-   "bets": 67,
+   "bets": 69,
    "wins": 22,
-   "staked": 1660.0,
-   "pnl": -69.47,
-   "roi": -0.0418
+   "staked": 1680.0,
+   "pnl": -89.47,
+   "roi": -0.0533
   }
  }
 }
