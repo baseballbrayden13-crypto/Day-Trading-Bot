@@ -11018,3 +11018,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 17:13:43,669 INFO Swept 23097 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-20 17:18:44,654 INFO Swept 23094 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 17:18:44,870 INFO Quote KXNWSLADVANCE-26NOV21WSPKC cancelled (0/4 filled)
+2026-11-20 17:23:55,363 INFO Swept 23094 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 17:28:47,379 INFO Swept 23100 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 17:33:50,703 INFO Swept 23089 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 17:39:06,319 INFO Swept 23058 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 17:44:06,391 INFO Swept 23049 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 17:49:08,593 INFO PAPER rest NO bid KXVALORANTMAP-26NOV201700YDGNV-1-YDG at $0.1200 x2 (0 already bid at that price)
+2026-11-20 17:49:08,593 INFO Resting NO bid on KXVALORANTMAP-26NOV201700YDGNV-1-YDG at $0.1200 x2 (KXVALORANTMAP-26NOV201700YDGNV-1): locks in $0.65 if it fills; hedge NO NV@0.5300
+2026-11-20 17:49:08,887 INFO Swept 23047 events: 0 taker trades, 1 new quotes, 1 resting

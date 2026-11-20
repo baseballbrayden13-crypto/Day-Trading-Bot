@@ -2996,5 +2996,25 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXVALORANTMAP-26NOV201700YDGNV-1",
+   "series": "KXVALORANTMAP",
+   "title": "Yellow Dragon Gaming vs. Team Envy: Map 1 Winner",
+   "ticker": "KXVALORANTMAP-26NOV201700YDGNV-1-YDG",
+   "order_id": "paper-1252-1795214948",
+   "price": "0.1200",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.3500",
+   "multiplier": "1",
+   "placed": 1795214948.5939126,
+   "hedge": [
+    {
+     "ticker": "KXVALORANTMAP-26NOV201700YDGNV-1-NV",
+     "limit": "0.5300"
+    }
+   ]
+  }
+ ]
 }

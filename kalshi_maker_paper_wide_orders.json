@@ -17512,5 +17512,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-1252-1795214948": {
+  "id": "paper-1252-1795214948",
+  "ticker": "KXVALORANTMAP-26NOV201700YDGNV-1-YDG",
+  "price": "0.1200",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1795214948.5796654,
+  "checked": 1795214948.888645,
+  "expires": 1795216748,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
