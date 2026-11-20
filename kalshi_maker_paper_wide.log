@@ -10947,3 +10947,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 10:01:34,901 INFO Quote KXROMLNBMGAME-26NOV201100STEDIB cancelled (0/3 filled)
 2026-11-20 10:06:38,023 INFO Swept 22754 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 10:11:41,954 INFO Swept 22948 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 10:16:45,537 INFO Swept 22945 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 10:21:49,902 INFO Swept 22945 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 10:26:52,709 INFO Swept 22935 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 10:31:55,614 INFO Swept 22934 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 10:36:58,985 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV22PENNME-ME at $0.6800 x2 (0 already bid at that price)
+2026-11-20 10:36:58,985 INFO Resting NO bid on KXNCAAWBGAME-26NOV22PENNME-ME at $0.68 x2 (KXNCAAWBGAME-26NOV22PENNME): locks in $0.10 if it fills; hedge NO PENN@0.2500
+2026-11-20 10:36:59,098 INFO Swept 22925 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 10:42:01,304 INFO Swept 22921 events: 0 taker trades, 0 new quotes, 1 resting

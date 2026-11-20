@@ -17414,5 +17414,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-1245-1795189018": {
+  "id": "paper-1245-1795189018",
+  "ticker": "KXNCAAWBGAME-26NOV22PENNME-ME",
+  "price": "0.6800",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1795189018.9725993,
+  "checked": 1795189382.0754561,
+  "expires": 1795190818,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }
