@@ -10918,3 +10918,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 08:31:07,083 INFO Swept 22654 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 08:36:00,222 INFO Swept 22639 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 08:41:03,136 INFO Swept 22646 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 08:46:08,714 INFO Swept 22641 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 08:51:08,934 INFO PAPER rest NO bid KXT10MATCH-26NOV200815NAPKNIROMGLD-ROMGLD at $0.2500 x1 (600 already bid at that price)
+2026-11-20 08:51:08,934 INFO Resting NO bid on KXT10MATCH-26NOV200815NAPKNIROMGLD-ROMGLD at $0.25 x1 (KXT10MATCH-26NOV200815NAPKNIROMGLD): locks in $0.10 if it fills; hedge NO NAPKNI@0.6200
+2026-11-20 08:51:09,044 INFO Swept 22644 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 08:56:07,850 INFO Swept 22634 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 08:56:07,953 INFO Quote KXT10MATCH-26NOV200815NAPKNIROMGLD cancelled (0/1 filled)
+2026-11-20 09:01:08,575 INFO Swept 22633 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 09:06:18,084 INFO Swept 22626 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 09:11:18,556 INFO Swept 22750 events: 0 taker trades, 0 new quotes, 0 resting
