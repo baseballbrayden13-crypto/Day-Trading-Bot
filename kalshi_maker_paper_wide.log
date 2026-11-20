@@ -11026,3 +11026,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 17:49:08,593 INFO PAPER rest NO bid KXVALORANTMAP-26NOV201700YDGNV-1-YDG at $0.1200 x2 (0 already bid at that price)
 2026-11-20 17:49:08,593 INFO Resting NO bid on KXVALORANTMAP-26NOV201700YDGNV-1-YDG at $0.1200 x2 (KXVALORANTMAP-26NOV201700YDGNV-1): locks in $0.65 if it fills; hedge NO NV@0.5300
 2026-11-20 17:49:08,887 INFO Swept 23047 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 17:54:17,128 INFO Swept 23055 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 17:59:17,964 INFO Swept 23051 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 18:04:18,197 INFO Swept 23053 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 18:04:18,257 INFO PAPER KXVALORANTMAP-26NOV201700YDGNV-1-YDG NO bid at $0.1200: 2/2 filled by real trades
+2026-11-20 18:04:18,327 INFO PAPER buy 2 NO KXVALORANTMAP-26NOV201700YDGNV-1-NV at up to $0.6700: filled 2
+2026-11-20 18:04:18,327 INFO Quote KXVALORANTMAP-26NOV201700YDGNV-1 filled 2: hedged, locks in $0.37
+2026-11-20 18:09:20,057 INFO Swept 23044 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 18:14:15,639 INFO Settled KXVALORANTMAP-26NOV201700YDGNV-1: paid $2, profit $0.37
+2026-11-20 18:14:25,050 INFO Swept 23104 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 18:19:29,324 INFO Swept 23131 events: 0 taker trades, 0 new quotes, 0 resting

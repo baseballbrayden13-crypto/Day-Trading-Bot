@@ -17520,11 +17520,11 @@
   "count": 2,
   "ahead": 0,
   "placed": 1795214948.5796654,
-  "checked": 1795214948.888645,
+  "checked": 1795215858.198392,
   "expires": 1795216748,
-  "through": 0,
-  "at_price": 0,
-  "filled": 0,
-  "status": "resting"
+  "through": 199,
+  "at_price": 14,
+  "filled": 2,
+  "status": "executed"
  }
 }
