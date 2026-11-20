@@ -10801,3 +10801,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 22:16:10,154 INFO Swept 22639 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 22:21:13,252 INFO Swept 22637 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 22:26:16,877 INFO Swept 22625 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 22:31:19,449 INFO Swept 22601 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 22:36:19,900 INFO PAPER rest NO bid KXLMPGAME-26NOV192230HMOMXL-MXL at $0.3000 x1 (0 already bid at that price)
+2026-11-19 22:36:19,900 INFO Resting NO bid on KXLMPGAME-26NOV192230HMOMXL-MXL at $0.3000 x1 (KXLMPGAME-26NOV192230HMOMXL): locks in $0.12 if it fills; hedge NO HMO@0.5500
+2026-11-19 22:36:20,388 INFO Swept 22527 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 22:41:21,009 INFO Swept 22511 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 22:46:22,244 INFO PAPER rest NO bid KXBNXTGAME-26NOV211400SPIANT-ANT at $0.1400 x3 (1 already bid at that price)
+2026-11-19 22:46:22,244 INFO Resting NO bid on KXBNXTGAME-26NOV211400SPIANT-ANT at $0.14 x3 (KXBNXTGAME-26NOV211400SPIANT): locks in $0.10 if it fills; hedge NO SPI@0.8100
+2026-11-19 22:46:22,732 INFO Swept 22491 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 22:51:24,487 INFO Swept 22449 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 22:56:26,544 INFO Swept 22419 events: 0 taker trades, 0 new quotes, 2 resting
