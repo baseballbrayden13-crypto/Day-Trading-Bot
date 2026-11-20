@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-20T13:04:39+00:00",
+ "updated": "2026-11-20T21:14:47+00:00",
  "prices": {
   "KXNCAAFGAME-26NOV20ISUUCF-UCF": {
-   "fair_yes": 0.5175,
+   "fair_yes": 0.4791,
    "start": "2026-11-20T23:00:00Z",
    "team": "UCF Knights",
    "sport": "americanfootball_ncaaf",
@@ -11,10 +11,10 @@
     "Iowa State Cyclones"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20ISUUCF-ISU": {
-   "fair_yes": 0.4825,
+   "fair_yes": 0.5209,
    "start": "2026-11-20T23:00:00Z",
    "team": "Iowa State Cyclones",
    "sport": "americanfootball_ncaaf",
@@ -23,10 +23,10 @@
     "Iowa State Cyclones"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20BGSUTOL-TOL": {
-   "fair_yes": 0.8504,
+   "fair_yes": 0.8544,
    "start": "2026-11-21T00:30:00Z",
    "team": "Toledo Rockets",
    "sport": "americanfootball_ncaaf",
@@ -35,10 +35,10 @@
     "Bowling Green Falcons"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20BGSUTOL-BGSU": {
-   "fair_yes": 0.1496,
+   "fair_yes": 0.1456,
    "start": "2026-11-21T00:30:00Z",
    "team": "Bowling Green Falcons",
    "sport": "americanfootball_ncaaf",
@@ -47,10 +47,10 @@
     "Bowling Green Falcons"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20CLEMDUKE-DUKE": {
-   "fair_yes": 0.8175,
+   "fair_yes": 0.8012,
    "start": "2026-11-21T00:30:00Z",
    "team": "Duke Blue Devils",
    "sport": "americanfootball_ncaaf",
@@ -59,10 +59,10 @@
     "Clemson Tigers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20CLEMDUKE-CLEM": {
-   "fair_yes": 0.1825,
+   "fair_yes": 0.1988,
    "start": "2026-11-21T00:30:00Z",
    "team": "Clemson Tigers",
    "sport": "americanfootball_ncaaf",
@@ -71,10 +71,10 @@
     "Clemson Tigers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20UTEPAFA-AFA": {
-   "fair_yes": 0.9175,
+   "fair_yes": 0.9201,
    "start": "2026-11-21T01:00:00Z",
    "team": "Air Force Falcons",
    "sport": "americanfootball_ncaaf",
@@ -83,10 +83,10 @@
     "UTEP Miners"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20UTEPAFA-UTEP": {
-   "fair_yes": 0.0825,
+   "fair_yes": 0.0799,
    "start": "2026-11-21T01:00:00Z",
    "team": "UTEP Miners",
    "sport": "americanfootball_ncaaf",
@@ -95,10 +95,10 @@
     "UTEP Miners"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20OREMSU-MSU": {
-   "fair_yes": 0.1267,
+   "fair_yes": 0.1276,
    "start": "2026-11-21T01:00:00Z",
    "team": "Michigan State Spartans",
    "sport": "americanfootball_ncaaf",
@@ -107,10 +107,10 @@
     "Oregon Ducks"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20OREMSU-ORE": {
-   "fair_yes": 0.8733,
+   "fair_yes": 0.8724,
    "start": "2026-11-21T01:00:00Z",
    "team": "Oregon Ducks",
    "sport": "americanfootball_ncaaf",
@@ -119,10 +119,10 @@
     "Oregon Ducks"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20UNMWYO-WYO": {
-   "fair_yes": 0.2789,
+   "fair_yes": 0.2433,
    "start": "2026-11-21T02:00:00Z",
    "team": "Wyoming Cowboys",
    "sport": "americanfootball_ncaaf",
@@ -131,10 +131,10 @@
     "New Mexico Lobos"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV20UNMWYO-UNM": {
-   "fair_yes": 0.7211,
+   "fair_yes": 0.7567,
    "start": "2026-11-21T02:00:00Z",
    "team": "New Mexico Lobos",
    "sport": "americanfootball_ncaaf",
@@ -143,10 +143,10 @@
     "New Mexico Lobos"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20CHAATL-CHA": {
-   "fair_yes": 0.3275,
+   "fair_yes": 0.3081,
    "start": "2026-11-21T00:10:00Z",
    "team": "Charlotte Hornets",
    "sport": "basketball_nba",
@@ -155,10 +155,10 @@
     "Charlotte Hornets"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20CHAATL-ATL": {
-   "fair_yes": 0.6725,
+   "fair_yes": 0.6919,
    "start": "2026-11-21T00:10:00Z",
    "team": "Atlanta Hawks",
    "sport": "basketball_nba",
@@ -167,10 +167,10 @@
     "Charlotte Hornets"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20ORLBKN-ORL": {
-   "fair_yes": 0.668,
+   "fair_yes": 0.6907,
    "start": "2026-11-21T00:40:00Z",
    "team": "Orlando Magic",
    "sport": "basketball_nba",
@@ -179,10 +179,10 @@
     "Orlando Magic"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20ORLBKN-BKN": {
-   "fair_yes": 0.332,
+   "fair_yes": 0.3093,
    "start": "2026-11-21T00:40:00Z",
    "team": "Brooklyn Nets",
    "sport": "basketball_nba",
@@ -191,10 +191,10 @@
     "Orlando Magic"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20INDCLE-IND": {
-   "fair_yes": 0.3044,
+   "fair_yes": 0.3341,
    "start": "2026-11-21T00:40:00Z",
    "team": "Indiana Pacers",
    "sport": "basketball_nba",
@@ -203,10 +203,11 @@
     "Indiana Pacers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00",
+   "news": "lineup news: Indiana Pacers: Tyrese Haliburton (Out)"
   },
   "KXNBAGAME-26NOV20INDCLE-CLE": {
-   "fair_yes": 0.6956,
+   "fair_yes": 0.6659,
    "start": "2026-11-21T00:40:00Z",
    "team": "Cleveland Cavaliers",
    "sport": "basketball_nba",
@@ -215,10 +216,11 @@
     "Indiana Pacers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00",
+   "news": "lineup news: Indiana Pacers: Tyrese Haliburton (Out)"
   },
   "KXNBAGAME-26NOV20TORDET-TOR": {
-   "fair_yes": 0.2854,
+   "fair_yes": 0.2992,
    "start": "2026-11-21T00:40:00Z",
    "team": "Toronto Raptors",
    "sport": "basketball_nba",
@@ -227,10 +229,11 @@
     "Toronto Raptors"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00",
+   "news": "lineup news: Toronto Raptors: Kawhi Leonard (Out)"
   },
   "KXNBAGAME-26NOV20TORDET-DET": {
-   "fair_yes": 0.7146,
+   "fair_yes": 0.7008,
    "start": "2026-11-21T00:40:00Z",
    "team": "Detroit Pistons",
    "sport": "basketball_nba",
@@ -239,10 +242,11 @@
     "Toronto Raptors"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00",
+   "news": "lineup news: Toronto Raptors: Kawhi Leonard (Out)"
   },
   "KXNBAGAME-26NOV20WASCHI-WAS": {
-   "fair_yes": 0.4384,
+   "fair_yes": 0.447,
    "start": "2026-11-21T01:10:00Z",
    "team": "Washington Wizards",
    "sport": "basketball_nba",
@@ -251,10 +255,10 @@
     "Washington Wizards"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20WASCHI-CHI": {
-   "fair_yes": 0.5616,
+   "fair_yes": 0.553,
    "start": "2026-11-21T01:10:00Z",
    "team": "Chicago Bulls",
    "sport": "basketball_nba",
@@ -263,10 +267,10 @@
     "Washington Wizards"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20NOPOKC-NOP": {
-   "fair_yes": 0.1784,
+   "fair_yes": 0.1772,
    "start": "2026-11-21T01:10:00Z",
    "team": "New Orleans Pelicans",
    "sport": "basketball_nba",
@@ -275,10 +279,10 @@
     "New Orleans Pelicans"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20NOPOKC-OKC": {
-   "fair_yes": 0.8216,
+   "fair_yes": 0.8228,
    "start": "2026-11-21T01:10:00Z",
    "team": "Oklahoma City Thunder",
    "sport": "basketball_nba",
@@ -287,10 +291,10 @@
     "New Orleans Pelicans"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20PHXUTA-PHX": {
-   "fair_yes": 0.6238,
+   "fair_yes": 0.6245,
    "start": "2026-11-21T02:40:00Z",
    "team": "Phoenix Suns",
    "sport": "basketball_nba",
@@ -299,10 +303,10 @@
     "Phoenix Suns"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20PHXUTA-UTA": {
-   "fair_yes": 0.3762,
+   "fair_yes": 0.3755,
    "start": "2026-11-21T02:40:00Z",
    "team": "Utah Jazz",
    "sport": "basketball_nba",
@@ -311,10 +315,10 @@
     "Phoenix Suns"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20HOUDEN-HOU": {
-   "fair_yes": 0.4767,
+   "fair_yes": 0.4627,
    "start": "2026-11-21T03:10:00Z",
    "team": "Houston Rockets",
    "sport": "basketball_nba",
@@ -323,10 +327,10 @@
     "Houston Rockets"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20HOUDEN-DEN": {
-   "fair_yes": 0.5233,
+   "fair_yes": 0.5373,
    "start": "2026-11-21T03:10:00Z",
    "team": "Denver Nuggets",
    "sport": "basketball_nba",
@@ -335,10 +339,10 @@
     "Houston Rockets"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20SACLAL-SAC": {
-   "fair_yes": 0.1369,
+   "fair_yes": 0.1372,
    "start": "2026-11-21T03:10:00Z",
    "team": "Sacramento Kings",
    "sport": "basketball_nba",
@@ -347,10 +351,10 @@
     "Sacramento Kings"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNBAGAME-26NOV20SACLAL-LAL": {
-   "fair_yes": 0.8631,
+   "fair_yes": 0.8628,
    "start": "2026-11-21T03:10:00Z",
    "team": "Los Angeles Lakers",
    "sport": "basketball_nba",
@@ -359,154 +363,10 @@
     "Sacramento Kings"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20GBFSU-FSU": {
-   "fair_yes": 0.9519,
-   "start": "2026-11-20T17:00:00Z",
-   "team": "Florida St Seminoles",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Florida St Seminoles",
-    "Green Bay Phoenix"
-   ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20GBFSU-GB": {
-   "fair_yes": 0.0481,
-   "start": "2026-11-20T17:00:00Z",
-   "team": "Green Bay Phoenix",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Florida St Seminoles",
-    "Green Bay Phoenix"
-   ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20TEMMTU-MTU": {
-   "fair_yes": 0.3985,
-   "start": "2026-11-20T17:30:00Z",
-   "team": "Middle Tennessee Blue Raiders",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Middle Tennessee Blue Raiders",
-    "Temple Owls"
-   ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20TEMMTU-TEM": {
-   "fair_yes": 0.6015,
-   "start": "2026-11-20T17:30:00Z",
-   "team": "Temple Owls",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Middle Tennessee Blue Raiders",
-    "Temple Owls"
-   ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20OKSTMINN-MINN": {
-   "fair_yes": 0.5079,
-   "start": "2026-11-20T17:30:00Z",
-   "team": "Minnesota Golden Gophers",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Minnesota Golden Gophers",
-    "Oklahoma St Cowboys"
-   ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20OKSTMINN-OKST": {
-   "fair_yes": 0.4921,
-   "start": "2026-11-20T17:30:00Z",
-   "team": "Oklahoma St Cowboys",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Minnesota Golden Gophers",
-    "Oklahoma St Cowboys"
-   ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20INSTSFA-SFA": {
-   "fair_yes": 0.6414,
-   "start": "2026-11-20T20:00:00Z",
-   "team": "Stephen F. Austin Lumberjacks",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Stephen F. Austin Lumberjacks",
-    "Indiana St Sycamores"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20INSTSFA-INST": {
-   "fair_yes": 0.3586,
-   "start": "2026-11-20T20:00:00Z",
-   "team": "Indiana St Sycamores",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Stephen F. Austin Lumberjacks",
-    "Indiana St Sycamores"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20NWVT-VT": {
-   "fair_yes": 0.8178,
-   "start": "2026-11-20T20:00:00Z",
-   "team": "Virginia Tech Hokies",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Virginia Tech Hokies",
-    "Northwestern Wildcats"
-   ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20NWVT-NW": {
-   "fair_yes": 0.1822,
-   "start": "2026-11-20T20:00:00Z",
-   "team": "Northwestern Wildcats",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Virginia Tech Hokies",
-    "Northwestern Wildcats"
-   ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20SDSTIDST-IDST": {
-   "fair_yes": 0.291,
-   "start": "2026-11-20T21:00:00Z",
-   "team": "Idaho State Bengals",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Idaho State Bengals",
-    "South Dakota St Jackrabbits"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20SDSTIDST-SDST": {
-   "fair_yes": 0.709,
-   "start": "2026-11-20T21:00:00Z",
-   "team": "South Dakota St Jackrabbits",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Idaho State Bengals",
-    "South Dakota St Jackrabbits"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20URILIB-LIB": {
-   "fair_yes": 0.47,
+   "fair_yes": 0.4809,
    "start": "2026-11-20T21:30:00Z",
    "team": "Liberty Flames",
    "sport": "basketball_ncaab",
@@ -515,10 +375,10 @@
     "Rhode Island Rams"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20URILIB-URI": {
-   "fair_yes": 0.53,
+   "fair_yes": 0.5191,
    "start": "2026-11-20T21:30:00Z",
    "team": "Rhode Island Rams",
    "sport": "basketball_ncaab",
@@ -527,10 +387,10 @@
     "Rhode Island Rams"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20DAYUTAH-UTAH": {
-   "fair_yes": 0.5105,
+   "fair_yes": 0.5298,
    "start": "2026-11-20T22:30:00Z",
    "team": "Utah Utes",
    "sport": "basketball_ncaab",
@@ -538,11 +398,11 @@
     "Utah Utes",
     "Dayton Flyers"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20DAYUTAH-DAY": {
-   "fair_yes": 0.4895,
+   "fair_yes": 0.4702,
    "start": "2026-11-20T22:30:00Z",
    "team": "Dayton Flyers",
    "sport": "basketball_ncaab",
@@ -550,11 +410,11 @@
     "Utah Utes",
     "Dayton Flyers"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20UNTAPP-APP": {
-   "fair_yes": 0.4196,
+   "fair_yes": 0.4485,
    "start": "2026-11-20T23:30:00Z",
    "team": "Appalachian St Mountaineers",
    "sport": "basketball_ncaab",
@@ -563,10 +423,10 @@
     "North Texas Mean Green"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20UNTAPP-UNT": {
-   "fair_yes": 0.5804,
+   "fair_yes": 0.5515,
    "start": "2026-11-20T23:30:00Z",
    "team": "North Texas Mean Green",
    "sport": "basketball_ncaab",
@@ -575,10 +435,10 @@
     "North Texas Mean Green"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20CMUPITT-PITT": {
-   "fair_yes": 0.9516,
+   "fair_yes": 0.9491,
    "start": "2026-11-21T00:00:00Z",
    "team": "Pittsburgh Panthers",
    "sport": "basketball_ncaab",
@@ -587,10 +447,10 @@
     "Central Michigan Chippewas"
    ],
    "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20CMUPITT-CMU": {
-   "fair_yes": 0.0484,
+   "fair_yes": 0.0509,
    "start": "2026-11-21T00:00:00Z",
    "team": "Central Michigan Chippewas",
    "sport": "basketball_ncaab",
@@ -599,10 +459,10 @@
     "Central Michigan Chippewas"
    ],
    "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20JOESDREX-DREX": {
-   "fair_yes": 0.3936,
+   "fair_yes": 0.39,
    "start": "2026-11-21T00:00:00Z",
    "team": "Drexel Dragons",
    "sport": "basketball_ncaab",
@@ -610,11 +470,11 @@
     "Drexel Dragons",
     "Saint Joseph's Hawks"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20JOESDREX-JOES": {
-   "fair_yes": 0.6064,
+   "fair_yes": 0.61,
    "start": "2026-11-21T00:00:00Z",
    "team": "Saint Joseph's Hawks",
    "sport": "basketball_ncaab",
@@ -622,11 +482,11 @@
     "Drexel Dragons",
     "Saint Joseph's Hawks"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20GASTJVST-JVST": {
-   "fair_yes": 0.5286,
+   "fair_yes": 0.525,
    "start": "2026-11-21T00:00:00Z",
    "team": "Jacksonville St Gamecocks",
    "sport": "basketball_ncaab",
@@ -635,10 +495,10 @@
     "Georgia St Panthers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20GASTJVST-GAST": {
-   "fair_yes": 0.4714,
+   "fair_yes": 0.475,
    "start": "2026-11-21T00:00:00Z",
    "team": "Georgia St Panthers",
    "sport": "basketball_ncaab",
@@ -647,10 +507,10 @@
     "Georgia St Panthers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20MONMPRIN-PRIN": {
-   "fair_yes": 0.609,
+   "fair_yes": 0.6127,
    "start": "2026-11-21T00:00:00Z",
    "team": "Princeton Tigers",
    "sport": "basketball_ncaab",
@@ -659,10 +519,10 @@
     "Monmouth Hawks"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20MONMPRIN-MONM": {
-   "fair_yes": 0.391,
+   "fair_yes": 0.3873,
    "start": "2026-11-21T00:00:00Z",
    "team": "Monmouth Hawks",
    "sport": "basketball_ncaab",
@@ -671,10 +531,10 @@
     "Monmouth Hawks"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20WMUMSM-MSM": {
-   "fair_yes": 0.2534,
+   "fair_yes": 0.2562,
    "start": "2026-11-21T00:00:00Z",
    "team": "Mt. St. Mary's Mountaineers",
    "sport": "basketball_ncaab",
@@ -682,11 +542,11 @@
     "Mt. St. Mary's Mountaineers",
     "Western Michigan Broncos"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20WMUMSM-WMU": {
-   "fair_yes": 0.7466,
+   "fair_yes": 0.7438,
    "start": "2026-11-21T00:00:00Z",
    "team": "Western Michigan Broncos",
    "sport": "basketball_ncaab",
@@ -694,11 +554,11 @@
     "Mt. St. Mary's Mountaineers",
     "Western Michigan Broncos"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20WKURICH-RICH": {
-   "fair_yes": 0.5052,
+   "fair_yes": 0.5026,
    "start": "2026-11-21T00:00:00Z",
    "team": "Richmond Spiders",
    "sport": "basketball_ncaab",
@@ -706,11 +566,11 @@
     "Richmond Spiders",
     "Western Kentucky Hilltoppers"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20WKURICH-WKU": {
-   "fair_yes": 0.4948,
+   "fair_yes": 0.4974,
    "start": "2026-11-21T00:00:00Z",
    "team": "Western Kentucky Hilltoppers",
    "sport": "basketball_ncaab",
@@ -718,8 +578,8 @@
     "Richmond Spiders",
     "Western Kentucky Hilltoppers"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20IOWAXAV-XAV": {
    "fair_yes": 0.5993,
@@ -731,7 +591,7 @@
     "Iowa Hawkeyes"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20IOWAXAV-IOWA": {
    "fair_yes": 0.4007,
@@ -743,10 +603,10 @@
     "Iowa Hawkeyes"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20TLSAMSST-MSST": {
-   "fair_yes": 0.6969,
+   "fair_yes": 0.7284,
    "start": "2026-11-21T00:30:00Z",
    "team": "Mississippi St Bulldogs",
    "sport": "basketball_ncaab",
@@ -755,10 +615,10 @@
     "Tulsa Golden Hurricane"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20TLSAMSST-TLSA": {
-   "fair_yes": 0.3031,
+   "fair_yes": 0.2716,
    "start": "2026-11-21T00:30:00Z",
    "team": "Tulsa Golden Hurricane",
    "sport": "basketball_ncaab",
@@ -767,10 +627,10 @@
     "Tulsa Golden Hurricane"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20CAMPKSU-KSU": {
-   "fair_yes": 0.9129,
+   "fair_yes": 0.9169,
    "start": "2026-11-21T01:00:00Z",
    "team": "Kansas St Wildcats",
    "sport": "basketball_ncaab",
@@ -778,11 +638,11 @@
     "Kansas St Wildcats",
     "Campbell Fighting Camels"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20CAMPKSU-CAMP": {
-   "fair_yes": 0.0871,
+   "fair_yes": 0.0831,
    "start": "2026-11-21T01:00:00Z",
    "team": "Campbell Fighting Camels",
    "sport": "basketball_ncaab",
@@ -790,11 +650,11 @@
     "Kansas St Wildcats",
     "Campbell Fighting Camels"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20ECUUVU-UVU": {
-   "fair_yes": 0.5982,
+   "fair_yes": 0.6059,
    "start": "2026-11-21T01:00:00Z",
    "team": "Utah Valley Wolverines",
    "sport": "basketball_ncaab",
@@ -803,10 +663,10 @@
     "East Carolina Pirates"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20ECUUVU-ECU": {
-   "fair_yes": 0.4018,
+   "fair_yes": 0.3941,
    "start": "2026-11-21T01:00:00Z",
    "team": "East Carolina Pirates",
    "sport": "basketball_ncaab",
@@ -815,10 +675,10 @@
     "East Carolina Pirates"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20UKIND-IND": {
-   "fair_yes": 0.5741,
+   "fair_yes": 0.5963,
    "start": "2026-11-21T01:00:00Z",
    "team": "Indiana Hoosiers",
    "sport": "basketball_ncaab",
@@ -827,10 +687,10 @@
     "Kentucky Wildcats"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20UKIND-UK": {
-   "fair_yes": 0.4259,
+   "fair_yes": 0.4037,
    "start": "2026-11-21T01:00:00Z",
    "team": "Kentucky Wildcats",
    "sport": "basketball_ncaab",
@@ -839,10 +699,10 @@
     "Kentucky Wildcats"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20USASMU-SMU": {
-   "fair_yes": 0.9131,
+   "fair_yes": 0.9082,
    "start": "2026-11-21T01:00:00Z",
    "team": "SMU Mustangs",
    "sport": "basketball_ncaab",
@@ -851,10 +711,10 @@
     "South Alabama Jaguars"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20USASMU-USA": {
-   "fair_yes": 0.0869,
+   "fair_yes": 0.0918,
    "start": "2026-11-21T01:00:00Z",
    "team": "South Alabama Jaguars",
    "sport": "basketball_ncaab",
@@ -863,10 +723,10 @@
     "South Alabama Jaguars"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20UCFVAN-VAN": {
-   "fair_yes": 0.9268,
+   "fair_yes": 0.9202,
    "start": "2026-11-21T01:00:00Z",
    "team": "Vanderbilt Commodores",
    "sport": "basketball_ncaab",
@@ -875,10 +735,10 @@
     "UCF Knights"
    ],
    "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20UCFVAN-UCF": {
-   "fair_yes": 0.0732,
+   "fair_yes": 0.0798,
    "start": "2026-11-21T01:00:00Z",
    "team": "UCF Knights",
    "sport": "basketball_ncaab",
@@ -887,10 +747,10 @@
     "UCF Knights"
    ],
    "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20SHSUBSU-BSU": {
-   "fair_yes": 0.848,
+   "fair_yes": 0.8594,
    "start": "2026-11-21T02:00:00Z",
    "team": "Boise State Broncos",
    "sport": "basketball_ncaab",
@@ -898,11 +758,11 @@
     "Boise State Broncos",
     "Sam Houston St Bearkats"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20SHSUBSU-SHSU": {
-   "fair_yes": 0.152,
+   "fair_yes": 0.1406,
    "start": "2026-11-21T02:00:00Z",
    "team": "Sam Houston St Bearkats",
    "sport": "basketball_ncaab",
@@ -910,11 +770,11 @@
     "Boise State Broncos",
     "Sam Houston St Bearkats"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20SLUSMC-SMC": {
-   "fair_yes": 0.5478,
+   "fair_yes": 0.5311,
    "start": "2026-11-21T04:00:00Z",
    "team": "Saint Mary's Gaels",
    "sport": "basketball_ncaab",
@@ -923,10 +783,10 @@
     "Saint Louis Billikens"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20SLUSMC-SLU": {
-   "fair_yes": 0.4522,
+   "fair_yes": 0.4689,
    "start": "2026-11-21T04:00:00Z",
    "team": "Saint Louis Billikens",
    "sport": "basketball_ncaab",
@@ -935,10 +795,10 @@
     "Saint Louis Billikens"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21OSUNEB-NEB": {
-   "fair_yes": 0.3872,
+   "fair_yes": 0.3897,
    "start": "2026-11-21T16:59:00Z",
    "team": "Nebraska Cornhuskers",
    "sport": "americanfootball_ncaaf",
@@ -947,10 +807,10 @@
     "Ohio State Buckeyes"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21OSUNEB-OSU": {
-   "fair_yes": 0.6128,
+   "fair_yes": 0.6103,
    "start": "2026-11-21T16:59:00Z",
    "team": "Ohio State Buckeyes",
    "sport": "americanfootball_ncaaf",
@@ -959,10 +819,10 @@
     "Ohio State Buckeyes"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21ECUARMY-ARMY": {
-   "fair_yes": 0.6805,
+   "fair_yes": 0.6776,
    "start": "2026-11-21T17:00:00Z",
    "team": "Army Black Knights",
    "sport": "americanfootball_ncaaf",
@@ -971,10 +831,10 @@
     "East Carolina Pirates"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21ECUARMY-ECU": {
-   "fair_yes": 0.3195,
+   "fair_yes": 0.3224,
    "start": "2026-11-21T17:00:00Z",
    "team": "East Carolina Pirates",
    "sport": "americanfootball_ncaaf",
@@ -983,7 +843,7 @@
     "East Carolina Pirates"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21BYUKU-KU": {
    "fair_yes": 0.3364,
@@ -995,7 +855,7 @@
     "BYU Cougars"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21BYUKU-BYU": {
    "fair_yes": 0.6636,
@@ -1007,10 +867,10 @@
     "BYU Cougars"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21SYRBC-BC": {
-   "fair_yes": 0.4419,
+   "fair_yes": 0.4335,
    "start": "2026-11-21T17:00:00Z",
    "team": "Boston College Eagles",
    "sport": "americanfootball_ncaaf",
@@ -1019,10 +879,10 @@
     "Syracuse Orange"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21SYRBC-SYR": {
-   "fair_yes": 0.5581,
+   "fair_yes": 0.5665,
    "start": "2026-11-21T17:00:00Z",
    "team": "Syracuse Orange",
    "sport": "americanfootball_ncaaf",
@@ -1031,10 +891,10 @@
     "Syracuse Orange"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21COLOCIN-CIN": {
-   "fair_yes": 0.5872,
+   "fair_yes": 0.5844,
    "start": "2026-11-21T17:00:00Z",
    "team": "Cincinnati Bearcats",
    "sport": "americanfootball_ncaaf",
@@ -1043,10 +903,10 @@
     "Colorado Buffaloes"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21COLOCIN-COLO": {
-   "fair_yes": 0.4128,
+   "fair_yes": 0.4156,
    "start": "2026-11-21T17:00:00Z",
    "team": "Colorado Buffaloes",
    "sport": "americanfootball_ncaaf",
@@ -1055,10 +915,10 @@
     "Colorado Buffaloes"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21VANFLA-FLA": {
-   "fair_yes": 0.8051,
+   "fair_yes": 0.8056,
    "start": "2026-11-21T17:00:00Z",
    "team": "Florida Gators",
    "sport": "americanfootball_ncaaf",
@@ -1067,10 +927,10 @@
     "Vanderbilt Commodores"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21VANFLA-VAN": {
-   "fair_yes": 0.1949,
+   "fair_yes": 0.1944,
    "start": "2026-11-21T17:00:00Z",
    "team": "Vanderbilt Commodores",
    "sport": "americanfootball_ncaaf",
@@ -1079,10 +939,10 @@
     "Vanderbilt Commodores"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21WAKEGT-GT": {
-   "fair_yes": 0.1012,
+   "fair_yes": 0.1014,
    "start": "2026-11-21T17:00:00Z",
    "team": "Georgia Tech Yellow Jackets",
    "sport": "americanfootball_ncaaf",
@@ -1091,10 +951,10 @@
     "Wake Forest Demon Deacons"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21WAKEGT-WAKE": {
-   "fair_yes": 0.8988,
+   "fair_yes": 0.8986,
    "start": "2026-11-21T17:00:00Z",
    "team": "Wake Forest Demon Deacons",
    "sport": "americanfootball_ncaaf",
@@ -1103,10 +963,10 @@
     "Wake Forest Demon Deacons"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21MEMNAVY-NAVY": {
-   "fair_yes": 0.4247,
+   "fair_yes": 0.4264,
    "start": "2026-11-21T17:00:00Z",
    "team": "Navy Midshipmen",
    "sport": "americanfootball_ncaaf",
@@ -1115,10 +975,10 @@
     "Memphis Tigers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21MEMNAVY-MEM": {
-   "fair_yes": 0.5753,
+   "fair_yes": 0.5736,
    "start": "2026-11-21T17:00:00Z",
    "team": "Memphis Tigers",
    "sport": "americanfootball_ncaaf",
@@ -1127,10 +987,10 @@
     "Memphis Tigers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21NWMINN-MINN": {
-   "fair_yes": 0.4537,
+   "fair_yes": 0.454,
    "start": "2026-11-21T17:00:00Z",
    "team": "Minnesota Golden Gophers",
    "sport": "americanfootball_ncaaf",
@@ -1139,10 +999,10 @@
     "Northwestern Wildcats"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21NWMINN-NW": {
-   "fair_yes": 0.5463,
+   "fair_yes": 0.546,
    "start": "2026-11-21T17:00:00Z",
    "team": "Northwestern Wildcats",
    "sport": "americanfootball_ncaaf",
@@ -1151,10 +1011,10 @@
     "Northwestern Wildcats"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UNTTULN-TULN": {
-   "fair_yes": 0.311,
+   "fair_yes": 0.3048,
    "start": "2026-11-21T17:00:00Z",
    "team": "Tulane Green Wave",
    "sport": "americanfootball_ncaaf",
@@ -1163,10 +1023,10 @@
     "North Texas Mean Green"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UNTTULN-UNT": {
-   "fair_yes": 0.689,
+   "fair_yes": 0.6952,
    "start": "2026-11-21T17:00:00Z",
    "team": "North Texas Mean Green",
    "sport": "americanfootball_ncaaf",
@@ -1175,10 +1035,10 @@
     "North Texas Mean Green"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21WISPUR-PUR": {
-   "fair_yes": 0.3288,
+   "fair_yes": 0.3307,
    "start": "2026-11-21T17:00:00Z",
    "team": "Purdue Boilermakers",
    "sport": "americanfootball_ncaaf",
@@ -1187,10 +1047,10 @@
     "Wisconsin Badgers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21WISPUR-WIS": {
-   "fair_yes": 0.6712,
+   "fair_yes": 0.6693,
    "start": "2026-11-21T17:00:00Z",
    "team": "Wisconsin Badgers",
    "sport": "americanfootball_ncaaf",
@@ -1199,10 +1059,10 @@
     "Wisconsin Badgers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UNCUVA-UVA": {
-   "fair_yes": 0.5246,
+   "fair_yes": 0.5233,
    "start": "2026-11-21T17:30:00Z",
    "team": "Virginia Cavaliers",
    "sport": "americanfootball_ncaaf",
@@ -1211,10 +1071,10 @@
     "North Carolina Tar Heels"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UNCUVA-UNC": {
-   "fair_yes": 0.4754,
+   "fair_yes": 0.4767,
    "start": "2026-11-21T17:30:00Z",
    "team": "North Carolina Tar Heels",
    "sport": "americanfootball_ncaaf",
@@ -1223,10 +1083,10 @@
     "North Carolina Tar Heels"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21HOUWVU-WVU": {
-   "fair_yes": 0.2811,
+   "fair_yes": 0.2814,
    "start": "2026-11-21T18:00:00Z",
    "team": "West Virginia Mountaineers",
    "sport": "americanfootball_ncaaf",
@@ -1235,10 +1095,10 @@
     "Houston Cougars"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21HOUWVU-HOU": {
-   "fair_yes": 0.7189,
+   "fair_yes": 0.7186,
    "start": "2026-11-21T18:00:00Z",
    "team": "Houston Cougars",
    "sport": "americanfootball_ncaaf",
@@ -1247,10 +1107,10 @@
     "Houston Cougars"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21WKULIB-LIB": {
-   "fair_yes": 0.863,
+   "fair_yes": 0.867,
    "start": "2026-11-21T18:00:00Z",
    "team": "Liberty Flames",
    "sport": "americanfootball_ncaaf",
@@ -1259,10 +1119,10 @@
     "Western Kentucky Hilltoppers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21WKULIB-WKU": {
-   "fair_yes": 0.137,
+   "fair_yes": 0.133,
    "start": "2026-11-21T18:00:00Z",
    "team": "Western Kentucky Hilltoppers",
    "sport": "americanfootball_ncaaf",
@@ -1271,10 +1131,10 @@
     "Western Kentucky Hilltoppers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21CHARTLSA-TLSA": {
-   "fair_yes": 0.9186,
+   "fair_yes": 0.919,
    "start": "2026-11-21T19:00:00Z",
    "team": "Tulsa Golden Hurricane",
    "sport": "americanfootball_ncaaf",
@@ -1283,10 +1143,10 @@
     "Charlotte 49ers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21CHARTLSA-CHAR": {
-   "fair_yes": 0.0814,
+   "fair_yes": 0.081,
    "start": "2026-11-21T19:00:00Z",
    "team": "Charlotte 49ers",
    "sport": "americanfootball_ncaaf",
@@ -1295,10 +1155,10 @@
     "Charlotte 49ers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21MOSUJVST-JVST": {
-   "fair_yes": 0.776,
+   "fair_yes": 0.775,
    "start": "2026-11-21T19:00:00Z",
    "team": "Jacksonville State Gamecocks",
    "sport": "americanfootball_ncaaf",
@@ -1307,10 +1167,10 @@
     "Missouri State Bears"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21MOSUJVST-MOSU": {
-   "fair_yes": 0.224,
+   "fair_yes": 0.225,
    "start": "2026-11-21T19:00:00Z",
    "team": "Missouri State Bears",
    "sport": "americanfootball_ncaaf",
@@ -1319,10 +1179,10 @@
     "Missouri State Bears"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21MTUSHSU-SHSU": {
-   "fair_yes": 0.3333,
+   "fair_yes": 0.3318,
    "start": "2026-11-21T19:00:00Z",
    "team": "Sam Houston State Bearkats",
    "sport": "americanfootball_ncaaf",
@@ -1331,10 +1191,10 @@
     "Middle Tennessee Blue Raiders"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21MTUSHSU-MTU": {
-   "fair_yes": 0.6667,
+   "fair_yes": 0.6682,
    "start": "2026-11-21T19:00:00Z",
    "team": "Middle Tennessee Blue Raiders",
    "sport": "americanfootball_ncaaf",
@@ -1343,10 +1203,10 @@
     "Middle Tennessee Blue Raiders"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21USFFAU-FAU": {
-   "fair_yes": 0.4948,
+   "fair_yes": 0.4941,
    "start": "2026-11-21T19:30:00Z",
    "team": "Florida Atlantic Owls",
    "sport": "americanfootball_ncaaf",
@@ -1355,10 +1215,10 @@
     "South Florida Bulls"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21USFFAU-USF": {
-   "fair_yes": 0.5052,
+   "fair_yes": 0.5059,
    "start": "2026-11-21T19:30:00Z",
    "team": "South Florida Bulls",
    "sport": "americanfootball_ncaaf",
@@ -1367,10 +1227,10 @@
     "South Florida Bulls"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21IOWAILL-ILL": {
-   "fair_yes": 0.26,
+   "fair_yes": 0.2559,
    "start": "2026-11-21T19:30:00Z",
    "team": "Illinois Fighting Illini",
    "sport": "americanfootball_ncaaf",
@@ -1379,10 +1239,10 @@
     "Iowa Hawkeyes"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21IOWAILL-IOWA": {
-   "fair_yes": 0.74,
+   "fair_yes": 0.7441,
    "start": "2026-11-21T19:30:00Z",
    "team": "Iowa Hawkeyes",
    "sport": "americanfootball_ncaaf",
@@ -1391,10 +1251,10 @@
     "Iowa Hawkeyes"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21CCARULL-ULL": {
-   "fair_yes": 0.7678,
+   "fair_yes": 0.7661,
    "start": "2026-11-21T20:00:00Z",
    "team": "Louisiana Ragin Cajuns",
    "sport": "americanfootball_ncaaf",
@@ -1403,10 +1263,10 @@
     "Coastal Carolina Chanticleers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21CCARULL-CCAR": {
-   "fair_yes": 0.2322,
+   "fair_yes": 0.2339,
    "start": "2026-11-21T20:00:00Z",
    "team": "Coastal Carolina Chanticleers",
    "sport": "americanfootball_ncaaf",
@@ -1415,10 +1275,10 @@
     "Coastal Carolina Chanticleers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21DELNMSU-NMSU": {
-   "fair_yes": 0.4094,
+   "fair_yes": 0.4129,
    "start": "2026-11-21T20:00:00Z",
    "team": "New Mexico State Aggies",
    "sport": "americanfootball_ncaaf",
@@ -1427,10 +1287,10 @@
     "Delaware Blue Hens"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21DELNMSU-DEL": {
-   "fair_yes": 0.5906,
+   "fair_yes": 0.5871,
    "start": "2026-11-21T20:00:00Z",
    "team": "Delaware Blue Hens",
    "sport": "americanfootball_ncaaf",
@@ -1439,10 +1299,10 @@
     "Delaware Blue Hens"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21FIUKENN-KENN": {
-   "fair_yes": 0.5689,
+   "fair_yes": 0.5663,
    "start": "2026-11-21T20:00:00Z",
    "team": "Kennesaw State Owls",
    "sport": "americanfootball_ncaaf",
@@ -1451,10 +1311,10 @@
     "Florida International Panthers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21FIUKENN-FIU": {
-   "fair_yes": 0.4311,
+   "fair_yes": 0.4337,
    "start": "2026-11-21T20:00:00Z",
    "team": "Florida International Panthers",
    "sport": "americanfootball_ncaaf",
@@ -1463,10 +1323,10 @@
     "Florida International Panthers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21ARKTEX-TEX": {
-   "fair_yes": 0.9023,
+   "fair_yes": 0.9021,
    "start": "2026-11-21T20:30:00Z",
    "team": "Texas Longhorns",
    "sport": "americanfootball_ncaaf",
@@ -1475,10 +1335,10 @@
     "Arkansas Razorbacks"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21ARKTEX-ARK": {
-   "fair_yes": 0.0977,
+   "fair_yes": 0.0979,
    "start": "2026-11-21T20:30:00Z",
    "team": "Arkansas Razorbacks",
    "sport": "americanfootball_ncaaf",
@@ -1487,10 +1347,10 @@
     "Arkansas Razorbacks"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21TTUBAY-BAY": {
-   "fair_yes": 0.357,
+   "fair_yes": 0.3545,
    "start": "2026-11-21T20:30:00Z",
    "team": "Baylor Bears",
    "sport": "americanfootball_ncaaf",
@@ -1499,10 +1359,10 @@
     "Texas Tech Red Raiders"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21TTUBAY-TTU": {
-   "fair_yes": 0.643,
+   "fair_yes": 0.6455,
    "start": "2026-11-21T20:30:00Z",
    "team": "Texas Tech Red Raiders",
    "sport": "americanfootball_ncaaf",
@@ -1511,10 +1371,10 @@
     "Texas Tech Red Raiders"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21NCSTFSU-FSU": {
-   "fair_yes": 0.7691,
+   "fair_yes": 0.7702,
    "start": "2026-11-21T20:30:00Z",
    "team": "Florida State Seminoles",
    "sport": "americanfootball_ncaaf",
@@ -1523,10 +1383,10 @@
     "NC State Wolfpack"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21NCSTFSU-NCST": {
-   "fair_yes": 0.2309,
+   "fair_yes": 0.2298,
    "start": "2026-11-21T20:30:00Z",
    "team": "NC State Wolfpack",
    "sport": "americanfootball_ncaaf",
@@ -1535,10 +1395,10 @@
     "NC State Wolfpack"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21INDWASH-WASH": {
-   "fair_yes": 0.2739,
+   "fair_yes": 0.2764,
    "start": "2026-11-21T20:30:00Z",
    "team": "Washington Huskies",
    "sport": "americanfootball_ncaaf",
@@ -1547,10 +1407,10 @@
     "Indiana Hoosiers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21INDWASH-IND": {
-   "fair_yes": 0.7261,
+   "fair_yes": 0.7236,
    "start": "2026-11-21T20:30:00Z",
    "team": "Indiana Hoosiers",
    "sport": "americanfootball_ncaaf",
@@ -1559,10 +1419,10 @@
     "Indiana Hoosiers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21LSUTENN-TENN": {
-   "fair_yes": 0.4948,
+   "fair_yes": 0.4961,
    "start": "2026-11-21T20:30:00Z",
    "team": "Tennessee Volunteers",
    "sport": "americanfootball_ncaaf",
@@ -1571,10 +1431,10 @@
     "LSU Tigers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21LSUTENN-LSU": {
-   "fair_yes": 0.5052,
+   "fair_yes": 0.5039,
    "start": "2026-11-21T20:30:00Z",
    "team": "LSU Tigers",
    "sport": "americanfootball_ncaaf",
@@ -1583,7 +1443,7 @@
     "LSU Tigers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UCLAMICH-MICH": {
    "fair_yes": 0.3812,
@@ -1595,7 +1455,7 @@
     "UCLA Bruins"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UCLAMICH-UCLA": {
    "fair_yes": 0.6188,
@@ -1607,7 +1467,7 @@
     "UCLA Bruins"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21ODUCONN-CONN": {
    "fair_yes": 0.8184,
@@ -1619,7 +1479,7 @@
     "Old Dominion Monarchs"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21ODUCONN-ODU": {
    "fair_yes": 0.1816,
@@ -1631,10 +1491,10 @@
     "Old Dominion Monarchs"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21RUTGPSU-PSU": {
-   "fair_yes": 0.9346,
+   "fair_yes": 0.9353,
    "start": "2026-11-21T20:30:00Z",
    "team": "Penn State Nittany Lions",
    "sport": "americanfootball_ncaaf",
@@ -1643,10 +1503,10 @@
     "Rutgers Scarlet Knights"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21RUTGPSU-RUTG": {
-   "fair_yes": 0.0654,
+   "fair_yes": 0.0647,
    "start": "2026-11-21T20:30:00Z",
    "team": "Rutgers Scarlet Knights",
    "sport": "americanfootball_ncaaf",
@@ -1655,7 +1515,7 @@
     "Rutgers Scarlet Knights"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21TXAMOKLA-OKLA": {
    "fair_yes": 0.7153,
@@ -1667,7 +1527,7 @@
     "Texas A&M Aggies"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21TXAMOKLA-TXAM": {
    "fair_yes": 0.2847,
@@ -1679,10 +1539,10 @@
     "Texas A&M Aggies"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21GASOTROY-TROY": {
-   "fair_yes": 0.2534,
+   "fair_yes": 0.2523,
    "start": "2026-11-21T21:00:00Z",
    "team": "Troy Trojans",
    "sport": "americanfootball_ncaaf",
@@ -1691,10 +1551,10 @@
     "Georgia Southern Eagles"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21GASOTROY-GASO": {
-   "fair_yes": 0.7466,
+   "fair_yes": 0.7477,
    "start": "2026-11-21T21:00:00Z",
    "team": "Georgia Southern Eagles",
    "sport": "americanfootball_ncaaf",
@@ -1703,10 +1563,10 @@
     "Georgia Southern Eagles"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21GASTMRSH-MRSH": {
-   "fair_yes": 0.5482,
+   "fair_yes": 0.5583,
    "start": "2026-11-21T21:00:00Z",
    "team": "Marshall Thundering Herd",
    "sport": "americanfootball_ncaaf",
@@ -1715,10 +1575,10 @@
     "Georgia State Panthers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21GASTMRSH-GAST": {
-   "fair_yes": 0.4518,
+   "fair_yes": 0.4417,
    "start": "2026-11-21T21:00:00Z",
    "team": "Georgia State Panthers",
    "sport": "americanfootball_ncaaf",
@@ -1727,7 +1587,7 @@
     "Georgia State Panthers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21NIUNDSU-NDSU": {
    "fair_yes": 0.9374,
@@ -1739,7 +1599,7 @@
     "Northern Illinois Huskies"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21NIUNDSU-NIU": {
    "fair_yes": 0.0626,
@@ -1751,10 +1611,10 @@
     "Northern Illinois Huskies"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21USAUSM-USM": {
-   "fair_yes": 0.3789,
+   "fair_yes": 0.3563,
    "start": "2026-11-21T21:00:00Z",
    "team": "Southern Mississippi Golden Eagles",
    "sport": "americanfootball_ncaaf",
@@ -1763,10 +1623,10 @@
     "South Alabama Jaguars"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21USAUSM-USA": {
-   "fair_yes": 0.6211,
+   "fair_yes": 0.6437,
    "start": "2026-11-21T21:00:00Z",
    "team": "South Alabama Jaguars",
    "sport": "americanfootball_ncaaf",
@@ -1775,10 +1635,10 @@
     "South Alabama Jaguars"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21WSUTXST-TXST": {
-   "fair_yes": 0.8081,
+   "fair_yes": 0.8161,
    "start": "2026-11-21T23:00:00Z",
    "team": "Texas State Bobcats",
    "sport": "americanfootball_ncaaf",
@@ -1787,10 +1647,10 @@
     "Washington State Cougars"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21WSUTXST-WSU": {
-   "fair_yes": 0.1919,
+   "fair_yes": 0.1839,
    "start": "2026-11-21T23:00:00Z",
    "team": "Washington State Cougars",
    "sport": "americanfootball_ncaaf",
@@ -1799,10 +1659,10 @@
     "Washington State Cougars"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21MDUSC-USC": {
-   "fair_yes": 0.8691,
+   "fair_yes": 0.8701,
    "start": "2026-11-21T23:15:00Z",
    "team": "USC Trojans",
    "sport": "americanfootball_ncaaf",
@@ -1811,10 +1671,10 @@
     "Maryland Terrapins"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21MDUSC-MD": {
-   "fair_yes": 0.1309,
+   "fair_yes": 0.1299,
    "start": "2026-11-21T23:15:00Z",
    "team": "Maryland Terrapins",
    "sport": "americanfootball_ncaaf",
@@ -1823,7 +1683,7 @@
     "Maryland Terrapins"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21ARIZKSU-KSU": {
    "fair_yes": 0.2829,
@@ -1835,7 +1695,7 @@
     "Arizona Wildcats"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21ARIZKSU-ARIZ": {
    "fair_yes": 0.7171,
@@ -1847,10 +1707,10 @@
     "Arizona Wildcats"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21ARSTLT-LT": {
-   "fair_yes": 0.8179,
+   "fair_yes": 0.8233,
    "start": "2026-11-22T00:00:00Z",
    "team": "Louisiana Tech Bulldogs",
    "sport": "americanfootball_ncaaf",
@@ -1859,10 +1719,10 @@
     "Arkansas State Red Wolves"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21ARSTLT-ARST": {
-   "fair_yes": 0.1821,
+   "fair_yes": 0.1767,
    "start": "2026-11-22T00:00:00Z",
    "team": "Arkansas State Red Wolves",
    "sport": "americanfootball_ncaaf",
@@ -1871,10 +1731,10 @@
     "Arkansas State Red Wolves"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UNLVSJSU-SJSU": {
-   "fair_yes": 0.3168,
+   "fair_yes": 0.3176,
    "start": "2026-11-22T00:00:00Z",
    "team": "San Jose State Spartans",
    "sport": "americanfootball_ncaaf",
@@ -1883,10 +1743,10 @@
     "UNLV Rebels"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UNLVSJSU-UNLV": {
-   "fair_yes": 0.6832,
+   "fair_yes": 0.6824,
    "start": "2026-11-22T00:00:00Z",
    "team": "UNLV Rebels",
    "sport": "americanfootball_ncaaf",
@@ -1895,10 +1755,10 @@
     "UNLV Rebels"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21STANCAL-CAL": {
-   "fair_yes": 0.4496,
+   "fair_yes": 0.448,
    "start": "2026-11-22T00:30:00Z",
    "team": "California Golden Bears",
    "sport": "americanfootball_ncaaf",
@@ -1907,10 +1767,10 @@
     "Stanford Cardinal"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21STANCAL-STAN": {
-   "fair_yes": 0.5504,
+   "fair_yes": 0.552,
    "start": "2026-11-22T00:30:00Z",
    "team": "Stanford Cardinal",
    "sport": "americanfootball_ncaaf",
@@ -1919,10 +1779,10 @@
     "Stanford Cardinal"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21CSUFRES-FRES": {
-   "fair_yes": 0.9002,
+   "fair_yes": 0.9001,
    "start": "2026-11-22T00:30:00Z",
    "team": "Fresno State Bulldogs",
    "sport": "americanfootball_ncaaf",
@@ -1931,10 +1791,10 @@
     "Colorado State Rams"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21CSUFRES-CSU": {
-   "fair_yes": 0.0998,
+   "fair_yes": 0.0999,
    "start": "2026-11-22T00:30:00Z",
    "team": "Colorado State Rams",
    "sport": "americanfootball_ncaaf",
@@ -1943,10 +1803,10 @@
     "Colorado State Rams"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UGASCAR-SCAR": {
-   "fair_yes": 0.1521,
+   "fair_yes": 0.1512,
    "start": "2026-11-22T00:30:00Z",
    "team": "South Carolina Gamecocks",
    "sport": "americanfootball_ncaaf",
@@ -1955,10 +1815,10 @@
     "Georgia Bulldogs"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UGASCAR-UGA": {
-   "fair_yes": 0.8479,
+   "fair_yes": 0.8488,
    "start": "2026-11-22T00:30:00Z",
    "team": "Georgia Bulldogs",
    "sport": "americanfootball_ncaaf",
@@ -1967,10 +1827,10 @@
     "Georgia Bulldogs"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UKMIZZ-MIZZ": {
-   "fair_yes": 0.643,
+   "fair_yes": 0.6419,
    "start": "2026-11-22T00:30:00Z",
    "team": "Missouri Tigers",
    "sport": "americanfootball_ncaaf",
@@ -1979,10 +1839,10 @@
     "Kentucky Wildcats"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UKMIZZ-UK": {
-   "fair_yes": 0.357,
+   "fair_yes": 0.3581,
    "start": "2026-11-22T00:30:00Z",
    "team": "Kentucky Wildcats",
    "sport": "americanfootball_ncaaf",
@@ -1991,7 +1851,7 @@
     "Kentucky Wildcats"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21PITTLOU-LOU": {
    "fair_yes": 0.8142,
@@ -2003,7 +1863,7 @@
     "Pittsburgh Panthers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21PITTLOU-PITT": {
    "fair_yes": 0.1858,
@@ -2015,10 +1875,10 @@
     "Pittsburgh Panthers"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21SMUND-ND": {
-   "fair_yes": 0.9012,
+   "fair_yes": 0.9014,
    "start": "2026-11-22T00:30:00Z",
    "team": "Notre Dame Fighting Irish",
    "sport": "americanfootball_ncaaf",
@@ -2027,10 +1887,10 @@
     "SMU Mustangs"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21SMUND-SMU": {
-   "fair_yes": 0.0988,
+   "fair_yes": 0.0986,
    "start": "2026-11-22T00:30:00Z",
    "team": "SMU Mustangs",
    "sport": "americanfootball_ncaaf",
@@ -2039,10 +1899,10 @@
     "SMU Mustangs"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UTSAUAB-UAB": {
-   "fair_yes": 0.3219,
+   "fair_yes": 0.3248,
    "start": "2026-11-22T01:00:00Z",
    "team": "UAB Blazers",
    "sport": "americanfootball_ncaaf",
@@ -2051,10 +1911,10 @@
     "UTSA Roadrunners"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAFGAME-26NOV21UTSAUAB-UTSA": {
-   "fair_yes": 0.6781,
+   "fair_yes": 0.6752,
    "start": "2026-11-22T01:00:00Z",
    "team": "UTSA Roadrunners",
    "sport": "americanfootball_ncaaf",
@@ -2063,10 +1923,10 @@
     "UTSA Roadrunners"
    ],
    "pinnacle": true,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20MHUCAN-CAN": {
-   "fair_yes": 0.4288,
+   "fair_yes": 0.3874,
    "start": "2026-11-20T22:30:00Z",
    "team": "Canisius Golden Griffins",
    "sport": "basketball_ncaab",
@@ -2074,11 +1934,11 @@
     "Canisius Golden Griffins",
     "Mercyhurst Lakers"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20MHUCAN-MHU": {
-   "fair_yes": 0.5712,
+   "fair_yes": 0.6126,
    "start": "2026-11-20T22:30:00Z",
    "team": "Mercyhurst Lakers",
    "sport": "basketball_ncaab",
@@ -2086,11 +1946,11 @@
     "Canisius Golden Griffins",
     "Mercyhurst Lakers"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20BELLEKY-EKY": {
-   "fair_yes": 0.7415,
+   "fair_yes": 0.7565,
    "start": "2026-11-21T00:00:00Z",
    "team": "Eastern Kentucky Colonels",
    "sport": "basketball_ncaab",
@@ -2098,11 +1958,11 @@
     "Eastern Kentucky Colonels",
     "Bellarmine Knights"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20BELLEKY-BELL": {
-   "fair_yes": 0.2585,
+   "fair_yes": 0.2435,
    "start": "2026-11-21T00:00:00Z",
    "team": "Bellarmine Knights",
    "sport": "basketball_ncaab",
@@ -2110,11 +1970,11 @@
     "Eastern Kentucky Colonels",
     "Bellarmine Knights"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20NIAGDSU-DSU": {
-   "fair_yes": 0.5602,
+   "fair_yes": 0.524,
    "start": "2026-11-21T00:00:00Z",
    "team": "Delaware St Hornets",
    "sport": "basketball_ncaab",
@@ -2122,11 +1982,11 @@
     "Delaware St Hornets",
     "Niagara Purple Eagles"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20NIAGDSU-NIAG": {
-   "fair_yes": 0.4398,
+   "fair_yes": 0.476,
    "start": "2026-11-21T00:00:00Z",
    "team": "Niagara Purple Eagles",
    "sport": "basketball_ncaab",
@@ -2134,11 +1994,11 @@
     "Delaware St Hornets",
     "Niagara Purple Eagles"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20HARVHC-HC": {
-   "fair_yes": 0.1293,
+   "fair_yes": 0.1339,
    "start": "2026-11-21T00:00:00Z",
    "team": "Holy Cross Crusaders",
    "sport": "basketball_ncaab",
@@ -2146,11 +2006,11 @@
     "Holy Cross Crusaders",
     "Harvard Crimson"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20HARVHC-HARV": {
-   "fair_yes": 0.8707,
+   "fair_yes": 0.8661,
    "start": "2026-11-21T00:00:00Z",
    "team": "Harvard Crimson",
    "sport": "basketball_ncaab",
@@ -2158,11 +2018,11 @@
     "Holy Cross Crusaders",
     "Harvard Crimson"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20OAKPUR-PUR": {
-   "fair_yes": 0.9539,
+   "fair_yes": 0.9491,
    "start": "2026-11-21T00:00:00Z",
    "team": "Purdue Boilermakers",
    "sport": "basketball_ncaab",
@@ -2171,10 +2031,10 @@
     "Oakland Golden Grizzlies"
    ],
    "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20OAKPUR-OAK": {
-   "fair_yes": 0.0461,
+   "fair_yes": 0.0509,
    "start": "2026-11-21T00:00:00Z",
    "team": "Oakland Golden Grizzlies",
    "sport": "basketball_ncaab",
@@ -2183,10 +2043,10 @@
     "Oakland Golden Grizzlies"
    ],
    "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20SCSTCIT-CIT": {
-   "fair_yes": 0.5714,
+   "fair_yes": 0.5964,
    "start": "2026-11-21T00:00:00Z",
    "team": "The Citadel Bulldogs",
    "sport": "basketball_ncaab",
@@ -2194,11 +2054,11 @@
     "The Citadel Bulldogs",
     "South Carolina St Bulldogs"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20SCSTCIT-SCST": {
-   "fair_yes": 0.4286,
+   "fair_yes": 0.4036,
    "start": "2026-11-21T00:00:00Z",
    "team": "South Carolina St Bulldogs",
    "sport": "basketball_ncaab",
@@ -2206,11 +2066,11 @@
     "The Citadel Bulldogs",
     "South Carolina St Bulldogs"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20UTANWST-NWST": {
-   "fair_yes": 0.3936,
+   "fair_yes": 0.3928,
    "start": "2026-11-21T00:30:00Z",
    "team": "Northwestern St Demons",
    "sport": "basketball_ncaab",
@@ -2218,11 +2078,11 @@
     "Northwestern St Demons",
     "UT-Arlington Mavericks"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20UTANWST-UTA": {
-   "fair_yes": 0.6064,
+   "fair_yes": 0.6072,
    "start": "2026-11-21T00:30:00Z",
    "team": "UT-Arlington Mavericks",
    "sport": "basketball_ncaab",
@@ -2230,11 +2090,11 @@
     "Northwestern St Demons",
     "UT-Arlington Mavericks"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20LIPAAMU-AAMU": {
-   "fair_yes": 0.3287,
+   "fair_yes": 0.3472,
    "start": "2026-11-21T01:00:00Z",
    "team": "Alabama A&M Bulldogs",
    "sport": "basketball_ncaab",
@@ -2242,11 +2102,11 @@
     "Alabama A&M Bulldogs",
     "Lipscomb Bisons"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20LIPAAMU-LIP": {
-   "fair_yes": 0.6713,
+   "fair_yes": 0.6528,
    "start": "2026-11-21T01:00:00Z",
    "team": "Lipscomb Bisons",
    "sport": "basketball_ncaab",
@@ -2254,11 +2114,11 @@
     "Alabama A&M Bulldogs",
     "Lipscomb Bisons"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20MRSHUNC-UNC": {
-   "fair_yes": 0.9437,
+   "fair_yes": 0.9332,
    "start": "2026-11-21T02:00:00Z",
    "team": "North Carolina Tar Heels",
    "sport": "basketball_ncaab",
@@ -2267,10 +2127,10 @@
     "Marshall Thundering Herd"
    ],
    "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20MRSHUNC-MRSH": {
-   "fair_yes": 0.0563,
+   "fair_yes": 0.0668,
    "start": "2026-11-21T02:00:00Z",
    "team": "Marshall Thundering Herd",
    "sport": "basketball_ncaab",
@@ -2279,10 +2139,10 @@
     "Marshall Thundering Herd"
    ],
    "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20ALSTFRES-FRES": {
-   "fair_yes": 0.8017,
+   "fair_yes": 0.7839,
    "start": "2026-11-21T03:00:00Z",
    "team": "Fresno St Bulldogs",
    "sport": "basketball_ncaab",
@@ -2290,11 +2150,11 @@
     "Fresno St Bulldogs",
     "Alabama St Hornets"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   },
   "KXNCAAMBGAME-26NOV20ALSTFRES-ALST": {
-   "fair_yes": 0.1983,
+   "fair_yes": 0.2161,
    "start": "2026-11-21T03:00:00Z",
    "team": "Alabama St Hornets",
    "sport": "basketball_ncaab",
@@ -2302,8 +2162,466 @@
     "Fresno St Bulldogs",
     "Alabama St Hornets"
    ],
-   "pinnacle": false,
-   "updated": "2026-11-20T13:04:39+00:00"
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21EDMCAR-CAR": {
+   "fair_yes": 0.6214,
+   "start": "2026-11-21T18:00:00Z",
+   "team": "Carolina Hurricanes",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Carolina Hurricanes",
+    "Edmonton Oilers"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21EDMCAR-EDM": {
+   "fair_yes": 0.3786,
+   "start": "2026-11-21T18:00:00Z",
+   "team": "Edmonton Oilers",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Carolina Hurricanes",
+    "Edmonton Oilers"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21CHICGY-CGY": {
+   "fair_yes": 0.5841,
+   "start": "2026-11-21T20:30:00Z",
+   "team": "Calgary Flames",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Calgary Flames",
+    "Chicago Blackhawks"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21CHICGY-CHI": {
+   "fair_yes": 0.4159,
+   "start": "2026-11-21T20:30:00Z",
+   "team": "Chicago Blackhawks",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Calgary Flames",
+    "Chicago Blackhawks"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21BUFFLA-FLA": {
+   "fair_yes": 0.5724,
+   "start": "2026-11-21T23:00:00Z",
+   "team": "Florida Panthers",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Florida Panthers",
+    "Buffalo Sabres"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21BUFFLA-BUF": {
+   "fair_yes": 0.4276,
+   "start": "2026-11-21T23:00:00Z",
+   "team": "Buffalo Sabres",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Florida Panthers",
+    "Buffalo Sabres"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21PITNSH-NSH": {
+   "fair_yes": 0.5504,
+   "start": "2026-11-21T23:00:00Z",
+   "team": "Nashville Predators",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Nashville Predators",
+    "Pittsburgh Penguins"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21PITNSH-PIT": {
+   "fair_yes": 0.4496,
+   "start": "2026-11-21T23:00:00Z",
+   "team": "Pittsburgh Penguins",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Nashville Predators",
+    "Pittsburgh Penguins"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21WSHBOS-BOS": {
+   "fair_yes": 0.5265,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "Boston Bruins",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Boston Bruins",
+    "Washington Capitals"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21WSHBOS-WSH": {
+   "fair_yes": 0.4735,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "Washington Capitals",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Boston Bruins",
+    "Washington Capitals"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21CBJTOR-TOR": {
+   "fair_yes": 0.5257,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "Toronto Maple Leafs",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Toronto Maple Leafs",
+    "Columbus Blue Jackets"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21CBJTOR-CBJ": {
+   "fair_yes": 0.4743,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "Columbus Blue Jackets",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Toronto Maple Leafs",
+    "Columbus Blue Jackets"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21NYIDET-DET": {
+   "fair_yes": 0.4835,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "Detroit Red Wings",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Detroit Red Wings",
+    "New York Islanders"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21NYIDET-NYI": {
+   "fair_yes": 0.5165,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "New York Islanders",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Detroit Red Wings",
+    "New York Islanders"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21LAOTT-OTT": {
+   "fair_yes": 0.613,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "Ottawa Senators",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Ottawa Senators",
+    "Los Angeles Kings"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21LAOTT-LA": {
+   "fair_yes": 0.387,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "Los Angeles Kings",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Ottawa Senators",
+    "Los Angeles Kings"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21NJSTL-STL": {
+   "fair_yes": 0.4634,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "St Louis Blues",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "St Louis Blues",
+    "New Jersey Devils"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00",
+   "news": "lineup news: St Louis Blues: Connor McMichael (Out)"
+  },
+  "KXNHLGAME-26NOV21NJSTL-NJ": {
+   "fair_yes": 0.5366,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "New Jersey Devils",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "St Louis Blues",
+    "New Jersey Devils"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00",
+   "news": "lineup news: St Louis Blues: Connor McMichael (Out)"
+  },
+  "KXNHLGAME-26NOV21VGKWPG-WPG": {
+   "fair_yes": 0.4458,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "Winnipeg Jets",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Winnipeg Jets",
+    "Vegas Golden Knights"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21VGKWPG-VGK": {
+   "fair_yes": 0.5542,
+   "start": "2026-11-22T00:00:00Z",
+   "team": "Vegas Golden Knights",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Winnipeg Jets",
+    "Vegas Golden Knights"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21ANAUTA-UTA": {
+   "fair_yes": 0.5923,
+   "start": "2026-11-22T02:00:00Z",
+   "team": "Utah Mammoth",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Utah Mammoth",
+    "Anaheim Ducks"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21ANAUTA-ANA": {
+   "fair_yes": 0.4077,
+   "start": "2026-11-22T02:00:00Z",
+   "team": "Anaheim Ducks",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Utah Mammoth",
+    "Anaheim Ducks"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21MINVAN-VAN": {
+   "fair_yes": 0.2875,
+   "start": "2026-11-22T03:00:00Z",
+   "team": "Vancouver Canucks",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Vancouver Canucks",
+    "Minnesota Wild"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21MINVAN-MIN": {
+   "fair_yes": 0.7125,
+   "start": "2026-11-22T03:00:00Z",
+   "team": "Minnesota Wild",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "Vancouver Canucks",
+    "Minnesota Wild"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21SEASJ-SJ": {
+   "fair_yes": 0.5168,
+   "start": "2026-11-22T03:00:00Z",
+   "team": "San Jose Sharks",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "San Jose Sharks",
+    "Seattle Kraken"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNHLGAME-26NOV21SEASJ-SEA": {
+   "fair_yes": 0.4832,
+   "start": "2026-11-22T03:00:00Z",
+   "team": "Seattle Kraken",
+   "sport": "icehockey_nhl",
+   "teams": [
+    "San Jose Sharks",
+    "Seattle Kraken"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAFGAME-26NOV21UTAHTCU-TCU": {
+   "fair_yes": 0.2862,
+   "start": "2026-11-22T02:00:00Z",
+   "team": "TCU Horned Frogs",
+   "sport": "americanfootball_ncaaf",
+   "teams": [
+    "TCU Horned Frogs",
+    "Utah Utes"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAFGAME-26NOV21UTAHTCU-UTAH": {
+   "fair_yes": 0.7138,
+   "start": "2026-11-22T02:00:00Z",
+   "team": "Utah Utes",
+   "sport": "americanfootball_ncaaf",
+   "teams": [
+    "TCU Horned Frogs",
+    "Utah Utes"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAFGAME-26NOV21SDSUBSU-BSU": {
+   "fair_yes": 0.8674,
+   "start": "2026-11-22T02:30:00Z",
+   "team": "Boise State Broncos",
+   "sport": "americanfootball_ncaaf",
+   "teams": [
+    "Boise State Broncos",
+    "San Diego State Aztecs"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAFGAME-26NOV21SDSUBSU-SDSU": {
+   "fair_yes": 0.1326,
+   "start": "2026-11-22T02:30:00Z",
+   "team": "San Diego State Aztecs",
+   "sport": "americanfootball_ncaaf",
+   "teams": [
+    "Boise State Broncos",
+    "San Diego State Aztecs"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAFGAME-26NOV21OKSTASU-ASU": {
+   "fair_yes": 0.4507,
+   "start": "2026-11-22T03:15:00Z",
+   "team": "Arizona State Sun Devils",
+   "sport": "americanfootball_ncaaf",
+   "teams": [
+    "Arizona State Sun Devils",
+    "Oklahoma State Cowboys"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAFGAME-26NOV21OKSTASU-OKST": {
+   "fair_yes": 0.5493,
+   "start": "2026-11-22T03:15:00Z",
+   "team": "Oklahoma State Cowboys",
+   "sport": "americanfootball_ncaaf",
+   "teams": [
+    "Arizona State Sun Devils",
+    "Oklahoma State Cowboys"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAFGAME-26NOV21USUORST-ORST": {
+   "fair_yes": 0.7355,
+   "start": "2026-11-22T03:30:00Z",
+   "team": "Oregon State Beavers",
+   "sport": "americanfootball_ncaaf",
+   "teams": [
+    "Oregon State Beavers",
+    "Utah State Aggies"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAFGAME-26NOV21USUORST-USU": {
+   "fair_yes": 0.2645,
+   "start": "2026-11-22T03:30:00Z",
+   "team": "Utah State Aggies",
+   "sport": "americanfootball_ncaaf",
+   "teams": [
+    "Oregon State Beavers",
+    "Utah State Aggies"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAMBGAME-26NOV20MURRWIS-WIS": {
+   "fair_yes": 0.605,
+   "start": "2026-11-21T00:00:00Z",
+   "team": "Wisconsin Badgers",
+   "sport": "basketball_ncaab",
+   "teams": [
+    "Wisconsin Badgers",
+    "Murray St Racers"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAMBGAME-26NOV20MURRWIS-MURR": {
+   "fair_yes": 0.395,
+   "start": "2026-11-21T00:00:00Z",
+   "team": "Murray St Racers",
+   "sport": "basketball_ncaab",
+   "teams": [
+    "Wisconsin Badgers",
+    "Murray St Racers"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAMBGAME-26NOV20NCSTHALL-HALL": {
+   "fair_yes": 0.4005,
+   "start": "2026-11-21T02:30:00Z",
+   "team": "Seton Hall Pirates",
+   "sport": "basketball_ncaab",
+   "teams": [
+    "Seton Hall Pirates",
+    "NC State Wolfpack"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
+  },
+  "KXNCAAMBGAME-26NOV20NCSTHALL-NCST": {
+   "fair_yes": 0.5995,
+   "start": "2026-11-21T02:30:00Z",
+   "team": "NC State Wolfpack",
+   "sport": "basketball_ncaab",
+   "teams": [
+    "Seton Hall Pirates",
+    "NC State Wolfpack"
+   ],
+   "pinnacle": true,
+   "updated": "2026-11-20T21:14:47+00:00"
   }
  }
 }

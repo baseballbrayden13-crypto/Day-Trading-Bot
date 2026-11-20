@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T13:04:42+00:00",
+ "updated": "2026-11-20T21:14:52+00:00",
  "parlays": [
   {
    "kind": "game",
@@ -10,9 +10,9 @@
      "label": "Atlanta Hawks to win",
      "ticker": "KXNBAGAME-26NOV20CHAATL-ATL",
      "side": "yes",
-     "price": 0.68,
-     "fair": 0.6725,
-     "value": -0.0235,
+     "price": 0.7,
+     "fair": 0.6919,
+     "value": -0.0231,
      "player": ""
     },
     {
@@ -43,10 +43,10 @@
      "player": "Naz Reid"
     }
    ],
-   "price": 0.1983,
-   "fair": 0.1985,
-   "pays": "+404",
-   "per_dollar": 5.04
+   "price": 0.2038,
+   "fair": 0.2042,
+   "pays": "+391",
+   "per_dollar": 4.91
   },
   {
    "kind": "game (safer 2-leg)",
@@ -86,9 +86,9 @@
      "label": "Orlando Magic to win",
      "ticker": "KXNBAGAME-26NOV20ORLBKN-ORL",
      "side": "yes",
-     "price": 0.68,
-     "fair": 0.668,
-     "value": -0.028,
+     "price": 0.7,
+     "fair": 0.6907,
+     "value": -0.0243,
      "player": ""
     },
     {
@@ -119,10 +119,10 @@
      "player": "Anthony Black"
     }
    ],
-   "price": 0.1939,
-   "fair": 0.2139,
-   "pays": "+416",
-   "per_dollar": 5.16
+   "price": 0.1992,
+   "fair": 0.2212,
+   "pays": "+402",
+   "per_dollar": 5.02
   },
   {
    "kind": "game (safer 2-leg)",
@@ -139,57 +139,57 @@
      "player": "Tristan da Silva"
     },
     {
-     "label": "Anthony Black 4+ rebounds",
-     "ticker": "KXNBAREB-26NOV20ORLBKN-ORLABLACK0-4",
+     "label": "Orlando Magic to win",
+     "ticker": "KXNBAGAME-26NOV20ORLBKN-ORL",
      "side": "yes",
-     "price": 0.63,
-     "fair": 0.6745,
-     "value": 0.0275,
-     "player": "Anthony Black"
+     "price": 0.7,
+     "fair": 0.6907,
+     "value": -0.0243,
+     "player": ""
     }
    ],
-   "price": 0.4374,
-   "fair": 0.4775,
-   "pays": "+129",
-   "per_dollar": 2.29
+   "price": 0.4833,
+   "fair": 0.4889,
+   "pays": "+107",
+   "per_dollar": 2.07
   },
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-21T02:40:00Z",
+   "start": "2026-11-21T21:00:00Z",
    "legs": [
     {
-     "label": "Oklahoma City Thunder to win",
-     "ticker": "KXNBAGAME-26NOV20NOPOKC-OKC",
+     "label": "South Alabama Jaguars to win",
+     "ticker": "KXNCAAFGAME-26NOV21USAUSM-USA",
      "side": "yes",
-     "price": 0.82,
-     "fair": 0.8216,
-     "value": -0.0094,
+     "price": 0.63,
+     "fair": 0.6437,
+     "value": -0.0033,
      "player": ""
     },
     {
-     "label": "Phoenix Suns to win",
-     "ticker": "KXNBAGAME-26NOV20PHXUTA-PHX",
+     "label": "Tulsa Golden Hurricane to win",
+     "ticker": "KXNCAAFGAME-26NOV21CHARTLSA-TLSA",
+     "side": "yes",
+     "price": 0.93,
+     "fair": 0.919,
+     "value": -0.016,
+     "player": ""
+    },
+    {
+     "label": "UCLA Bruins to win",
+     "ticker": "KXNCAAFGAME-26NOV21UCLAMICH-UCLA",
      "side": "yes",
      "price": 0.62,
-     "fair": 0.6238,
-     "value": -0.0132,
-     "player": ""
-    },
-    {
-     "label": "Saint Joseph's Hawks to win",
-     "ticker": "KXNCAAMBGAME-26NOV20JOESDREX-JOES",
-     "side": "yes",
-     "price": 0.61,
-     "fair": 0.6064,
-     "value": -0.0206,
+     "fair": 0.6188,
+     "value": -0.0182,
      "player": ""
     }
    ],
-   "price": 0.3319,
-   "fair": 0.3108,
-   "pays": "+201",
-   "per_dollar": 3.01
+   "price": 0.3853,
+   "fair": 0.3661,
+   "pays": "+160",
+   "per_dollar": 2.6
   }
  ],
  "open_pretend": 3,
