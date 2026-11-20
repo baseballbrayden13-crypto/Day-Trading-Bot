@@ -10843,3 +10843,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 00:46:52,929 INFO Swept 22528 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 00:51:53,575 INFO Swept 22535 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 00:56:55,312 INFO Swept 22528 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 01:01:56,903 INFO PAPER rest NO bid KXLMPGAME-26NOV192230HMOMXL-MXL at $0.3300 x2 (0 already bid at that price)
+2026-11-20 01:01:56,904 INFO Resting NO bid on KXLMPGAME-26NOV192230HMOMXL-MXL at $0.3300 x2 (KXLMPGAME-26NOV192230HMOMXL): locks in $0.11 if it fills; hedge NO HMO@0.5900
+2026-11-20 01:01:57,458 INFO Swept 22534 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 01:07:01,364 INFO Swept 22511 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 01:07:01,605 INFO Quote KXLMPGAME-26NOV192230HMOMXL cancelled (0/2 filled)
+2026-11-20 01:12:02,768 INFO Swept 22530 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 01:17:05,213 INFO Swept 22520 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 01:22:08,190 INFO Swept 22529 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 01:27:12,723 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV21FAIRORST-FAIR at $0.3500 x4 (0 already bid at that price)
+2026-11-20 01:27:12,723 INFO Resting NO bid on KXNCAAWBGAME-26NOV21FAIRORST-FAIR at $0.3500 x4 (KXNCAAWBGAME-26NOV21FAIRORST): locks in $0.19 if it fills; hedge NO ORST@0.5800
+2026-11-20 01:27:13,278 INFO Swept 22526 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 01:27:13,519 INFO Quote KXNCAAWBGAME-26NOV21FAIRORST cancelled (0/4 filled)
