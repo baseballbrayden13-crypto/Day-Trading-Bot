@@ -4545,3 +4545,15 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 18:31:58,851 INFO Swept 22614 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 18:36:55,173 INFO Swept 22611 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 18:41:58,360 INFO Swept 22612 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 18:47:02,916 INFO Swept 22615 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 18:52:14,378 INFO PAPER rest NO bid KXMLSFTTS-26NOV21MIACLB-NONE at $0.1100 x5 (0 already bid at that price)
+2026-11-19 18:52:14,379 INFO Resting NO bid on KXMLSFTTS-26NOV21MIACLB-NONE at $0.1100 x5 (KXMLSFTTS-26NOV21MIACLB): locks in $0.85 if it fills; hedge NO CLB@0.7100
+2026-11-19 18:52:14,438 INFO PAPER rest NO bid KXLIGAMXFTTS-26NOV21SLALEO-NONE at $0.1100 x2 (0 already bid at that price)
+2026-11-19 18:52:14,438 INFO Resting NO bid on KXLIGAMXFTTS-26NOV21SLALEO-NONE at $0.1100 x2 (KXLIGAMXFTTS-26NOV21SLALEO): locks in $0.25 if it fills; hedge NO SLA@0.8700, LEO@0.8700
+2026-11-19 18:52:14,439 INFO Swept 22621 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-19 18:57:10,539 INFO Swept 22628 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 19:02:08,004 INFO Swept 22625 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 19:02:08,350 INFO Quote KXMLSFTTS-26NOV21MIACLB cancelled (0/5 filled)
+2026-11-19 19:02:08,527 INFO Quote KXLIGAMXFTTS-26NOV21SLALEO cancelled (0/2 filled)
+2026-11-19 19:07:20,266 INFO Swept 22613 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 19:12:14,440 INFO Swept 22644 events: 0 taker trades, 0 new quotes, 0 resting
