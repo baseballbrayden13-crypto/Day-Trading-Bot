@@ -10768,3 +10768,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 19:43:21,109 INFO PAPER rest NO bid KXLBPRCGAME-26NOV191800INDSAT-IND at $0.3700 x1 (0 already bid at that price)
 2026-11-19 19:43:21,109 INFO Resting NO bid on KXLBPRCGAME-26NOV191800INDSAT-IND at $0.3700 x1 (KXLBPRCGAME-26NOV191800INDSAT): locks in $0.11 if it fills; hedge NO SAT@0.4900
 2026-11-19 19:43:21,245 INFO Swept 22712 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 19:48:26,349 INFO Swept 22706 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 19:53:31,018 INFO Swept 22717 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 19:58:33,771 INFO Swept 22700 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-19 19:58:55,191 INFO Quote KXNCAAWBGAME-26NOV19MANLIU cancelled (0/2 filled)
+2026-11-19 20:03:32,584 INFO Swept 22692 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 20:08:40,722 INFO Swept 22686 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 20:13:46,398 INFO PAPER rest NO bid KXNBARACE-26NOV19LACSAS-30-LAC at $0.5200 x2 (0 already bid at that price)
+2026-11-19 20:13:46,398 INFO Resting NO bid on KXNBARACE-26NOV19LACSAS-30-LAC at $0.5200 x2 (KXNBARACE-26NOV19LACSAS-30): locks in $0.11 if it fills; hedge NO SAS@0.4000
+2026-11-19 20:13:46,514 INFO Swept 22735 events: 0 taker trades, 1 new quotes, 2 resting
