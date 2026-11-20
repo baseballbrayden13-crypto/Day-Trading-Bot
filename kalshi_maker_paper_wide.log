@@ -10777,3 +10777,8 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 20:13:46,398 INFO PAPER rest NO bid KXNBARACE-26NOV19LACSAS-30-LAC at $0.5200 x2 (0 already bid at that price)
 2026-11-19 20:13:46,398 INFO Resting NO bid on KXNBARACE-26NOV19LACSAS-30-LAC at $0.5200 x2 (KXNBARACE-26NOV19LACSAS-30): locks in $0.11 if it fills; hedge NO SAS@0.4000
 2026-11-19 20:13:46,514 INFO Swept 22735 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-19 20:18:49,792 INFO Swept 22779 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 20:18:49,866 INFO Quote KXNBARACE-26NOV19LACSAS-30 cancelled (0/2 filled)
+2026-11-19 20:23:52,262 INFO Swept 22774 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 20:28:53,540 INFO Swept 22774 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 20:28:58,546 INFO Stopped; all quotes cancelled.

@@ -2996,25 +2996,5 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXNBARACE-26NOV19LACSAS-30",
-   "series": "KXNBARACE",
-   "title": "Los Angeles C vs San Antonio: Race to 30 Points",
-   "ticker": "KXNBARACE-26NOV19LACSAS-30-LAC",
-   "order_id": "paper-1230-1795137226",
-   "price": "0.5200",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.8900",
-   "multiplier": "1",
-   "placed": 1795137226.3983903,
-   "hedge": [
-    {
-     "ticker": "KXNBARACE-26NOV19LACSAS-30-SAS",
-     "limit": "0.4000"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
