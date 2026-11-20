@@ -10980,3 +10980,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 14:51:11,954 INFO PAPER rest NO bid KXLIGMAGGAME-26NOV201415AGLAMI-AGL at $0.1500 x2 (5 already bid at that price)
 2026-11-20 14:51:11,955 INFO Resting NO bid on KXLIGMAGGAME-26NOV201415AGLAMI-AGL at $0.15 x2 (KXLIGMAGGAME-26NOV201415AGLAMI): locks in $0.10 if it fills; hedge NO AMI@0.7800
 2026-11-20 14:51:12,019 INFO Swept 23180 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 14:56:08,298 INFO Swept 23151 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 15:01:09,437 INFO Swept 23157 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 15:06:09,010 INFO PAPER BET daily_safest: 1 YES KXDIESELD-26NOV21-T5.860 at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-20 15:06:09,223 INFO PAPER COMBO: YES KXDIESELD-26NOV21-T5.860, NO KXRAIN-26NOV20-MIA, NO KXLOWTMIA-26NOV20-B69.5 at 0.9412. daily combo: all 3 safest sides must win
+2026-11-20 15:06:09,225 INFO Swept 23143 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 15:11:14,670 INFO Swept 23211 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 15:16:16,219 INFO Swept 23272 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 15:21:18,087 INFO Swept 23287 events: 0 taker trades, 0 new quotes, 1 resting

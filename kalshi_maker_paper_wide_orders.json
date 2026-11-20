@@ -17464,11 +17464,11 @@
   "count": 2,
   "ahead": 5,
   "placed": 1795204271.9421992,
-  "checked": 1795204302.814664,
+  "checked": 1795206071,
   "expires": 1795206071,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  }
 }
