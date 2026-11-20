@@ -10938,3 +10938,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 09:36:28,265 INFO Swept 22736 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-20 09:36:28,444 INFO Quote KXEPLFTTS-26NOV22HULBRI cancelled (0/3 filled)
 2026-11-20 09:41:32,339 INFO Swept 22730 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 09:46:34,263 INFO Swept 22721 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 09:51:37,594 INFO Swept 22724 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 09:56:37,422 INFO PAPER rest NO bid KXROMLNBMGAME-26NOV201100STEDIB-STE at $0.8000 x3 (0 already bid at that price)
+2026-11-20 09:56:37,422 INFO Resting NO bid on KXROMLNBMGAME-26NOV201100STEDIB-STE at $0.80 x3 (KXROMLNBMGAME-26NOV201100STEDIB): locks in $0.11 if it fills; hedge NO DIB@0.1500
+2026-11-20 09:56:37,532 INFO Swept 22717 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-20 10:01:34,794 INFO Swept 22728 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 10:01:34,901 INFO Quote KXROMLNBMGAME-26NOV201100STEDIB cancelled (0/3 filled)
+2026-11-20 10:06:38,023 INFO Swept 22754 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 10:11:41,954 INFO Swept 22948 events: 0 taker trades, 0 new quotes, 0 resting
