@@ -10820,3 +10820,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 23:21:33,567 INFO Swept 22372 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 23:26:31,117 INFO Swept 22373 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-19 23:26:31,328 INFO Quote KXLMPGAME-26NOV192230HMOMXL cancelled (0/1 filled)
+2026-11-19 23:31:31,802 INFO Swept 22378 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 23:36:26,729 INFO PAPER rest NO bid KXLMPGAME-26NOV192130CDJMAZ-CDJ at $0.3000 x1 (0 already bid at that price)
+2026-11-19 23:36:26,730 INFO Resting NO bid on KXLMPGAME-26NOV192130CDJMAZ-CDJ at $0.3000 x1 (KXLMPGAME-26NOV192130CDJMAZ): locks in $0.18 if it fills; hedge NO MAZ@0.4900
+2026-11-19 23:36:27,210 INFO Swept 22375 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-19 23:41:26,211 INFO Swept 22409 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 23:46:26,673 INFO Swept 22403 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 23:51:27,241 INFO Swept 22467 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-19 23:56:27,611 INFO Swept 22458 events: 0 taker trades, 0 new quotes, 1 resting
