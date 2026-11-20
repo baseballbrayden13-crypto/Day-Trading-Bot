@@ -911,9 +911,9 @@ replay,2026-11-18,nba,CHI @ BKN,Brooklyn Nets,home,1.806,0.594,0.532,0.062,settl
 replay,2026-11-18,nba,DET @ NO,Detroit Pistons,away,1.54,0.68,0.623,0.057,settled,1,5.4,401910013
 replay,2026-11-18,nba,GS @ DAL,Golden State Warriors,away,2.64,0.519,0.363,0.155,settled,0,-10.0,401910016
 replay,2026-11-18,nba,UTAH @ LAL,Los Angeles Lakers,home,1.176,0.894,0.817,0.077,settled,0,-10.0,401910017
-live,2026-11-19,nba,GS @ MEM,Memphis Grizzlies,home,1.463,0.752,0.656,0.096,open,,,401910019
-live,2026-11-19,nba,NY @ MIN,Minnesota Timberwolves,home,1.962,0.712,0.49,0.222,open,,,401910021
-live,2026-11-19,nhl,MTL @ CAR,Montreal Canadiens,away,3.8,0.417,0.252,0.165,open,,,401892747
-live,2026-11-19,nhl,EDM @ TB,Edmonton Oilers,away,2.2,0.487,0.437,0.05,open,,,401892744
-live,2026-11-19,nhl,CBJ @ CHI,Chicago Blackhawks,home,2.36,0.524,0.407,0.117,open,,,401892748
-live,2026-11-19,nhl,MIN @ CGY,Calgary Flames,home,2.95,0.491,0.325,0.166,open,,,401892750
+live,2026-11-19,nba,GS @ MEM,Memphis Grizzlies,home,1.463,0.752,0.656,0.096,settled,1,4.63,401910019
+live,2026-11-19,nba,NY @ MIN,Minnesota Timberwolves,home,1.962,0.712,0.49,0.222,settled,0,-10.0,401910021
+live,2026-11-19,nhl,MTL @ CAR,Montreal Canadiens,away,3.8,0.417,0.252,0.165,settled,1,28.0,401892747
+live,2026-11-19,nhl,EDM @ TB,Edmonton Oilers,away,2.2,0.487,0.437,0.05,settled,0,-10.0,401892744
+live,2026-11-19,nhl,CBJ @ CHI,Chicago Blackhawks,home,2.36,0.524,0.407,0.117,settled,0,-10.0,401892748
+live,2026-11-19,nhl,MIN @ CGY,Calgary Flames,home,2.95,0.491,0.325,0.166,settled,0,-10.0,401892750
