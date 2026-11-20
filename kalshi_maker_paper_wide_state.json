@@ -2996,5 +2996,25 @@
    "closed": "2026-11-19T00:42:25.174517+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGMAGGAME-26NOV201415AGLAMI",
+   "series": "KXLIGMAGGAME",
+   "title": "Anglet Hormadi Elite vs HC Amiens Somme",
+   "ticker": "KXLIGMAGGAME-26NOV201415AGLAMI-AGL",
+   "order_id": "paper-1248-1795204271",
+   "price": "0.15",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.9000",
+   "multiplier": "1",
+   "placed": 1795204271.9551477,
+   "hedge": [
+    {
+     "ticker": "KXLIGMAGGAME-26NOV201415AGLAMI-AMI",
+     "limit": "0.7800"
+    }
+   ]
+  }
+ ]
 }

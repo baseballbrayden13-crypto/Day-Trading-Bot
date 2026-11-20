@@ -10967,3 +10967,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 11:22:14,602 INFO Swept 22974 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 11:27:17,962 INFO Swept 22973 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 11:27:23,081 INFO Stopped; all quotes cancelled.
+2026-11-20 14:21:47,278 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-20 14:25:50,706 INFO Settled daily_combo COMBO-2026-11-16: YES, profit $0.05
+2026-11-20 14:25:50,708 INFO Swept 23221 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 14:30:55,371 INFO Swept 23214 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 14:36:00,452 INFO Swept 23193 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 14:41:01,657 INFO Swept 23193 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 14:46:02,850 INFO PAPER rest NO bid KXNWSLADVANCE-26NOV21WSPKC-WSP at $0.4600 x4 (7 already bid at that price)
+2026-11-20 14:46:02,850 INFO Resting NO bid on KXNWSLADVANCE-26NOV21WSPKC-WSP at $0.46 x4 (KXNWSLADVANCE-26NOV21WSPKC): locks in $0.11 if it fills; hedge NO KC@0.4900
+2026-11-20 14:46:02,917 INFO Swept 23179 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 14:46:44,203 INFO Quote KXNWSLADVANCE-26NOV21WSPKC cancelled (0/4 filled)
+2026-11-20 14:51:11,954 INFO PAPER rest NO bid KXLIGMAGGAME-26NOV201415AGLAMI-AGL at $0.1500 x2 (5 already bid at that price)
+2026-11-20 14:51:11,955 INFO Resting NO bid on KXLIGMAGGAME-26NOV201415AGLAMI-AGL at $0.15 x2 (KXLIGMAGGAME-26NOV201415AGLAMI): locks in $0.10 if it fills; hedge NO AMI@0.7800
+2026-11-20 14:51:12,019 INFO Swept 23180 events: 0 taker trades, 1 new quotes, 1 resting
