@@ -4699,3 +4699,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 09:00:38,549 INFO Swept 22633 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 09:05:42,069 INFO Swept 22626 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 09:10:43,843 INFO Swept 22750 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 09:15:48,980 INFO Swept 22757 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 09:20:49,020 INFO Swept 22768 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 09:25:53,082 INFO PAPER rest NO bid KXLIGUE1FTTS-26NOV22PARANG-NONE at $0.0500 x3 (0 already bid at that price)
+2026-11-20 09:25:53,082 INFO Resting NO bid on KXLIGUE1FTTS-26NOV22PARANG-NONE at $0.0500 x3 (KXLIGUE1FTTS-26NOV22PARANG): locks in $1.95 if it fills; hedge NO PAR@0.2800
+2026-11-20 09:25:53,122 INFO PAPER rest NO bid KXEPLFTTS-26NOV22HULBRI-NONE at $0.0300 x3 (0 already bid at that price)
+2026-11-20 09:25:53,122 INFO Resting NO bid on KXEPLFTTS-26NOV22HULBRI-NONE at $0.0300 x3 (KXEPLFTTS-26NOV22HULBRI): locks in $0.58 if it fills; hedge NO HUL@0.7600
+2026-11-20 09:25:53,123 INFO Swept 22754 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-20 09:30:55,628 INFO Swept 22744 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 09:35:56,422 INFO Swept 22736 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 09:35:56,692 INFO Quote KXEPLFTTS-26NOV22HULBRI cancelled (0/3 filled)
+2026-11-20 09:40:59,229 INFO Swept 22730 events: 0 taker trades, 0 new quotes, 1 resting
