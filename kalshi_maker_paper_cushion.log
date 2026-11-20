@@ -4594,3 +4594,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-19 22:15:41,884 INFO Swept 22636 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 22:20:44,826 INFO Swept 22637 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-19 22:25:49,905 INFO Swept 22625 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 22:30:47,563 INFO Swept 22601 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 22:35:47,690 INFO Swept 22530 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 22:40:46,226 INFO Swept 22513 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 22:45:49,512 INFO Swept 22490 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 22:50:53,333 INFO Swept 22447 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-19 22:55:59,152 INFO PAPER rest NO bid KXLMPGAME-26NOV192130CULNAY-CUL at $0.2500 x2 (0 already bid at that price)
+2026-11-19 22:55:59,153 INFO Resting NO bid on KXLMPGAME-26NOV192130CULNAY-CUL at $0.2500 x2 (KXLMPGAME-26NOV192130CULNAY): locks in $0.61 if it fills; hedge NO NAY@0.4200
+2026-11-19 22:55:59,154 INFO Swept 22418 events: 0 taker trades, 1 new quotes, 1 resting
