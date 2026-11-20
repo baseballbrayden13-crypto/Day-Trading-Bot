@@ -10889,3 +10889,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 06:30:12,964 INFO Swept 22520 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 06:35:18,226 INFO Swept 22514 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 06:40:14,559 INFO Swept 22511 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 06:45:14,051 INFO Swept 22511 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 06:50:20,283 INFO PAPER rest NO bid KXWKBLGAME-26NOV200500BLUHAN-HAN at $0.5300 x2 (0 already bid at that price)
+2026-11-20 06:50:20,283 INFO Resting NO bid on KXWKBLGAME-26NOV200500BLUHAN-HAN at $0.5300 x2 (KXWKBLGAME-26NOV200500BLUHAN): locks in $0.34 if it fills; hedge NO BLU@0.3000
+2026-11-20 06:50:20,478 INFO Swept 22520 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 06:55:18,769 INFO Swept 22516 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 07:00:23,705 INFO Swept 22512 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 07:05:27,906 INFO Swept 22495 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 07:05:28,008 INFO Quote KXWKBLGAME-26NOV200500BLUHAN cancelled (0/2 filled)
+2026-11-20 07:10:32,717 INFO Swept 22522 events: 0 taker trades, 0 new quotes, 0 resting
