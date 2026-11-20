@@ -10861,3 +10861,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 01:47:19,947 INFO Swept 22511 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 01:52:22,575 INFO Swept 22524 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 01:57:26,581 INFO Swept 22522 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 02:02:29,169 INFO Swept 22521 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 02:07:32,101 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV21FAIRORST-FAIR at $0.4100 x4 (0 already bid at that price)
+2026-11-20 02:07:32,101 INFO Resting NO bid on KXNCAAWBGAME-26NOV21FAIRORST-FAIR at $0.41 x4 (KXNCAAWBGAME-26NOV21FAIRORST): locks in $0.11 if it fills; hedge NO ORST@0.5400
+2026-11-20 02:07:32,666 INFO Swept 22499 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 02:12:32,088 INFO Swept 22507 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 02:17:36,821 INFO Swept 22511 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 02:17:37,062 INFO Quote KXNCAAWBGAME-26NOV21FAIRORST cancelled (0/4 filled)
+2026-11-20 02:22:41,761 INFO Swept 22505 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 02:27:43,617 INFO Swept 22507 events: 0 taker trades, 0 new quotes, 0 resting
