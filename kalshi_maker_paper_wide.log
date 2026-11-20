@@ -10836,3 +10836,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 00:16:34,858 INFO Swept 22543 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 00:21:33,858 INFO Swept 22544 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 00:26:38,954 INFO Swept 22548 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 00:31:47,656 INFO Swept 22556 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 00:36:51,440 INFO Swept 22538 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 00:36:51,679 INFO Quote KXLMPGAME-26NOV192130CDJMAZ cancelled (0/1 filled)
+2026-11-20 00:41:52,647 INFO Swept 22532 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 00:46:52,929 INFO Swept 22528 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 00:51:53,575 INFO Swept 22535 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 00:56:55,312 INFO Swept 22528 events: 0 taker trades, 0 new quotes, 0 resting
