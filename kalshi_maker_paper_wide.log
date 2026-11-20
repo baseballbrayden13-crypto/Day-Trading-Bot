@@ -11009,3 +11009,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 16:37:55,658 INFO Swept 23151 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 16:43:04,687 INFO Swept 23146 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 16:48:16,681 INFO Swept 23136 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 16:53:37,968 INFO Swept 23128 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 16:58:48,233 INFO Swept 23109 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 17:03:56,440 INFO Swept 23072 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 17:08:52,121 INFO Swept 23049 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 17:13:43,374 INFO PAPER rest NO bid KXNWSLADVANCE-26NOV21WSPKC-WSP at $0.4300 x4 (48 already bid at that price)
+2026-11-20 17:13:43,374 INFO Resting NO bid on KXNWSLADVANCE-26NOV21WSPKC-WSP at $0.43 x4 (KXNWSLADVANCE-26NOV21WSPKC): locks in $0.11 if it fills; hedge NO KC@0.5200
+2026-11-20 17:13:43,669 INFO Swept 23097 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 17:18:44,654 INFO Swept 23094 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 17:18:44,870 INFO Quote KXNWSLADVANCE-26NOV21WSPKC cancelled (0/4 filled)
