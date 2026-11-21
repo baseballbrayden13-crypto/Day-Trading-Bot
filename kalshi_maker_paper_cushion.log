@@ -4968,3 +4968,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 07:48:22,694 INFO PAPER sell 2 YES KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW at up to $0.9600: filled 2
 2026-11-21 07:48:22,694 INFO Stray KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW: sold 2 of 2 at $0.0400 or better, booked $-0.32
 2026-11-21 07:53:30,852 INFO Swept 22864 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 07:58:45,578 INFO Swept 22858 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 08:03:53,672 INFO Swept 22853 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 08:09:02,748 INFO Swept 22835 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 08:14:11,197 INFO Swept 22899 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 08:19:23,620 INFO Swept 22898 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 08:24:35,957 INFO Swept 22908 events: 0 taker trades, 0 new quotes, 0 resting
