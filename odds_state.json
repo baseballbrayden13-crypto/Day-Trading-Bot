@@ -65,25 +65,6 @@
   },
   {
    "kind": "value",
-   "game": "Western Michigan Broncos at Mt. St. Mary's Mountaineers",
-   "game_id": "e0a864edd8896bd3eb30a0eb1cd518fb",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-21T00:00:00Z",
-   "edge": 0.0375,
-   "home": "Mt. St. Mary's Mountaineers",
-   "away": "Western Michigan Broncos",
-   "legs": [
-    {
-     "team": "Mt. St. Mary's Mountaineers",
-     "book": "FanDuel",
-     "odds": 4.1,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-20T03:30:25+00:00"
-  },
-  {
-   "kind": "value",
    "game": "Georgia Southern Eagles at Troy Trojans",
    "game_id": "0a1a6c2630e51e32d24695f02c0b3f23",
    "sport": "americanfootball_ncaaf",
@@ -128,46 +109,69 @@
   },
   {
    "kind": "value",
-   "game": "Bellarmine Knights at Eastern Kentucky Colonels",
-   "game_id": "4f71b0b4696cf2d3fa0688acb7fe896a",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-21T00:00:00Z",
-   "edge": 0.0359,
-   "home": "Eastern Kentucky Colonels",
-   "away": "Bellarmine Knights",
+   "game": "Memphis Grizzlies at Minnesota Timberwolves",
+   "game_id": "37e3f99d7ee68587400e99e417db0e6a",
+   "sport": "basketball_nba",
+   "start": "2026-11-22T01:10:00Z",
+   "edge": 0.041,
+   "home": "Minnesota Timberwolves",
+   "away": "Memphis Grizzlies",
    "legs": [
     {
-     "team": "Bellarmine Knights",
-     "book": "BetRivers",
-     "odds": 4.25,
+     "team": "Memphis Grizzlies",
+     "book": "Pinnacle",
+     "odds": 2.94,
      "stake": 10.0
     }
    ],
-   "opened": "2026-11-20T21:14:47+00:00"
+   "opened": "2026-11-21T02:30:18+00:00"
   },
   {
    "kind": "value",
-   "game": "Saint Joseph's Hawks at Drexel Dragons",
-   "game_id": "3290d93b2078b71d318a773cb4252d89",
+   "game": "Siena Saints at Bucknell Bison",
+   "game_id": "934d69fc4e080af297a4f91987ad87f0",
    "sport": "basketball_ncaab",
-   "start": "2026-11-21T00:00:00Z",
-   "edge": 0.0338,
-   "home": "Drexel Dragons",
-   "away": "Saint Joseph's Hawks",
+   "start": "2026-11-21T16:00:00Z",
+   "edge": 0.0353,
+   "home": "Bucknell Bison",
+   "away": "Siena Saints",
    "legs": [
     {
-     "team": "Drexel Dragons",
-     "book": "BetRivers",
-     "odds": 2.65,
+     "team": "Bucknell Bison",
+     "book": "FanDuel",
+     "odds": 3.15,
      "stake": 10.0
     }
    ],
-   "opened": "2026-11-20T21:14:47+00:00"
+   "opened": "2026-11-21T02:30:18+00:00"
+  },
+  {
+   "kind": "arb",
+   "game": "Pennsylvania Quakers at La Salle Explorers",
+   "game_id": "b21de9c914b929255529918fffaa1efb",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-21T21:00:00Z",
+   "edge": 0.0137,
+   "home": "La Salle Explorers",
+   "away": "Pennsylvania Quakers",
+   "legs": [
+    {
+     "team": "La Salle Explorers",
+     "book": "BetRivers",
+     "odds": 1.88,
+     "stake": 53.92
+    },
+    {
+     "team": "Pennsylvania Quakers",
+     "book": "Bovada",
+     "odds": 2.2,
+     "stake": 46.08
+    }
+   ],
+   "opened": "2026-11-21T02:30:18+00:00"
   }
  ],
  "seen": {
-  "value|f41d186dc7a7dcf01adab32579a82ca3|Golden State Warriors|FanDuel": "2026-11-11T01:17:25.257882+00:00",
-  "arb|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes@Kalshi|UNC Wilmington Seahawks@BetMGM": "2026-11-11T01:17:25.257882+00:00",
   "arb|e6a37eea1dddcbd0384c81237e81f47f|Brooklyn Nets@Bovada|New Orleans Pelicans@FanDuel": "2026-11-11T16:17:42.264504+00:00",
   "value|eb4ac6c20fe9cf690a2a2409335a3341|Florida A&M Rattlers|BetRivers": "2026-11-11T16:17:42.264504+00:00",
   "value|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes|FanDuel": "2026-11-11T16:17:42.264504+00:00",
@@ -240,18 +244,21 @@
   "value|0a1a6c2630e51e32d24695f02c0b3f23|Troy Trojans|BetRivers": "2026-11-20T13:04:39.316152+00:00",
   "arb|b2f8a6556938a584b2d3ce16aad1aa8c|Albany Great Danes@DraftKings|Western Illinois Leathernecks@FanDuel": "2026-11-20T13:04:39.316152+00:00",
   "value|4f71b0b4696cf2d3fa0688acb7fe896a|Bellarmine Knights|BetRivers": "2026-11-20T21:14:47.081448+00:00",
-  "value|3290d93b2078b71d318a773cb4252d89|Drexel Dragons|BetRivers": "2026-11-20T21:14:47.081448+00:00"
+  "value|3290d93b2078b71d318a773cb4252d89|Drexel Dragons|BetRivers": "2026-11-20T21:14:47.081448+00:00",
+  "value|37e3f99d7ee68587400e99e417db0e6a|Memphis Grizzlies|Pinnacle": "2026-11-21T02:30:18.901640+00:00",
+  "value|934d69fc4e080af297a4f91987ad87f0|Bucknell Bison|FanDuel": "2026-11-21T02:30:18.901640+00:00",
+  "arb|b21de9c914b929255529918fffaa1efb|La Salle Explorers@BetRivers|Pennsylvania Quakers@Bovada": "2026-11-21T02:30:18.901640+00:00"
  },
  "credits": {
   "day": "2026-11-20",
-  "spent": 7,
-  "remaining": 285
+  "spent": 11,
+  "remaining": 281
  },
  "last_priced": {
-  "basketball_nba": "2026-11-20T21:14:47.081448+00:00",
-  "icehockey_nhl": "2026-11-20T21:14:47.081448+00:00",
-  "americanfootball_ncaaf": "2026-11-20T21:14:47.081448+00:00",
-  "basketball_ncaab": "2026-11-20T21:14:47.081448+00:00",
+  "basketball_nba": "2026-11-21T02:30:18.901640+00:00",
+  "icehockey_nhl": "2026-11-21T02:30:18.901640+00:00",
+  "americanfootball_ncaaf": "2026-11-21T02:30:18.901640+00:00",
+  "basketball_ncaab": "2026-11-21T02:30:18.901640+00:00",
   "americanfootball_nfl": "2026-11-19T22:14:35.615453+00:00"
  }
 }

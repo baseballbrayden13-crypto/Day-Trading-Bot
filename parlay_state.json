@@ -2,54 +2,6 @@
  "open": [
   {
    "kind": "game",
-   "game": "Atlanta Hawks vs Charlotte Hornets",
-   "start": "2026-11-21T00:10:00Z",
-   "legs": [
-    {
-     "label": "Atlanta Hawks to win",
-     "ticker": "KXNBAGAME-26NOV20CHAATL-ATL",
-     "side": "yes",
-     "price": 0.68,
-     "fair": 0.6725,
-     "value": -0.0235,
-     "player": ""
-    },
-    {
-     "label": "Aaron Wiggins 10+ points",
-     "ticker": "KXNBAPTS-26NOV20CHAATL-ATLAWIGGINS2-10",
-     "side": "yes",
-     "price": 0.73,
-     "fair": 0.7665,
-     "value": 0.0225,
-     "player": "Aaron Wiggins"
-    },
-    {
-     "label": "Dyson Daniels 6+ assists",
-     "ticker": "KXNBAAST-26NOV20CHAATL-ATLDDANIELS5-6",
-     "side": "yes",
-     "price": 0.49,
-     "fair": 0.5147,
-     "value": 0.0067,
-     "player": "Dyson Daniels"
-    },
-    {
-     "label": "Naz Reid 15+ points",
-     "ticker": "KXNBAPTS-26NOV20CHAATL-CHANREID0-15",
-     "side": "yes",
-     "price": 0.74,
-     "fair": 0.7481,
-     "value": -0.0059,
-     "player": "Naz Reid"
-    }
-   ],
-   "price": 0.1983,
-   "fair": 0.1985,
-   "pays": "+404",
-   "per_dollar": 5.04,
-   "opened": "2026-11-20T13:04:42+00:00"
-  },
-  {
-   "kind": "game",
    "game": "Brooklyn Nets vs Orlando Magic",
    "start": "2026-11-21T00:40:00Z",
    "legs": [
@@ -94,45 +46,6 @@
    "fair": 0.2139,
    "pays": "+416",
    "per_dollar": 5.16,
-   "opened": "2026-11-20T13:04:42+00:00"
-  },
-  {
-   "kind": "favorites",
-   "game": "Favorites across games",
-   "start": "2026-11-21T02:40:00Z",
-   "legs": [
-    {
-     "label": "Oklahoma City Thunder to win",
-     "ticker": "KXNBAGAME-26NOV20NOPOKC-OKC",
-     "side": "yes",
-     "price": 0.82,
-     "fair": 0.8216,
-     "value": -0.0094,
-     "player": ""
-    },
-    {
-     "label": "Phoenix Suns to win",
-     "ticker": "KXNBAGAME-26NOV20PHXUTA-PHX",
-     "side": "yes",
-     "price": 0.62,
-     "fair": 0.6238,
-     "value": -0.0132,
-     "player": ""
-    },
-    {
-     "label": "Saint Joseph's Hawks to win",
-     "ticker": "KXNCAAMBGAME-26NOV20JOESDREX-JOES",
-     "side": "yes",
-     "price": 0.61,
-     "fair": 0.6064,
-     "value": -0.0206,
-     "player": ""
-    }
-   ],
-   "price": 0.3319,
-   "fair": 0.3108,
-   "pays": "+201",
-   "per_dollar": 3.01,
    "opened": "2026-11-20T13:04:42+00:00"
   }
  ],
