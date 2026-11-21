@@ -11195,3 +11195,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 06:43:41,333 INFO Swept 22781 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 06:48:40,982 INFO Swept 22782 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 06:53:45,709 INFO Swept 22794 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 06:58:54,384 INFO Swept 22794 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 07:03:51,455 INFO Swept 22792 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 07:08:58,304 INFO Swept 22796 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 07:14:00,571 INFO PAPER rest NO bid KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW at $0.1900 x2 (0 already bid at that price)
+2026-11-21 07:14:00,571 INFO Resting NO bid on KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW at $0.1900 x2 (KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW): locks in $0.23 if it fills; hedge NO MUSCTHDW@0.7600
+2026-11-21 07:14:00,726 INFO Swept 22867 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 07:19:04,355 INFO Swept 22875 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 07:24:07,111 INFO Swept 22876 events: 0 taker trades, 0 new quotes, 1 resting

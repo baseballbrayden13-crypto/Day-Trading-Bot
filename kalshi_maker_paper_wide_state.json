@@ -3029,25 +3029,21 @@
  ],
  "quotes": [
   {
-   "event": "KXUKRPLGAME-26NOV21KRYKUD",
-   "series": "KXUKRPLGAME",
-   "title": "Kryvbas Kriviy vs Kudrivka",
-   "ticker": "KXUKRPLGAME-26NOV21KRYKUD-KRY",
-   "order_id": "paper-1272-1795261120",
-   "price": "0.29",
+   "event": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW",
+   "series": "KXWT20MATCH",
+   "title": "Muscat Thunders Women vs OCA Strikers Women",
+   "ticker": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW",
+   "order_id": "paper-1273-1795263240",
+   "price": "0.1900",
    "sets": 2,
    "done": 0,
-   "reserve": "3.8900",
+   "reserve": "1.7700",
    "multiplier": "1",
-   "placed": 1795261120.206071,
+   "placed": 1795263240.5719695,
    "hedge": [
     {
-     "ticker": "KXUKRPLGAME-26NOV21KRYKUD-KUD",
-     "limit": "0.8000"
-    },
-    {
-     "ticker": "KXUKRPLGAME-26NOV21KRYKUD-TIE",
-     "limit": "0.8200"
+     "ticker": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-MUSCTHDW",
+     "limit": "0.7600"
     }
    ]
   }
