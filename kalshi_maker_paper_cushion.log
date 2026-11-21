@@ -5003,3 +5003,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 10:43:27,545 INFO Swept 22740 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 10:48:35,208 INFO Swept 22734 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 10:53:43,804 INFO Swept 22725 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 10:58:58,430 INFO PAPER rest NO bid KXCS2GAME-26NOV220900GROGLI-GLI at $0.4100 x1 (0 already bid at that price)
+2026-11-21 10:58:58,430 INFO Resting NO bid on KXCS2GAME-26NOV220900GROGLI-GLI at $0.4100 x1 (KXCS2GAME-26NOV220900GROGLI): locks in $0.26 if it fills; hedge NO GRO@0.3000
+2026-11-21 10:58:58,432 INFO Swept 22615 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 11:04:04,995 INFO Swept 22558 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 11:09:11,563 INFO Swept 22516 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 11:09:11,934 INFO Quote KXCS2GAME-26NOV220900GROGLI cancelled (0/1 filled)
+2026-11-21 11:09:16,936 INFO Stopped; all quotes cancelled.
