@@ -4122,11 +4122,25 @@
   "count": 2,
   "ahead": 0,
   "placed": 1795262497.3037019,
-  "checked": 1795263745.455488,
+  "checked": 1795264297,
   "expires": 1795264297,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-296-1795264684": {
+  "id": "paper-296-1795264684",
+  "ticker": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW",
+  "price": "0.1900",
+  "count": 2,
+  "ahead": 0,
+  "placed": 1795264684.337682,
+  "checked": 1795265302.1889093,
+  "expires": 1795266484,
+  "through": 10,
+  "at_price": 0,
+  "filled": 2,
+  "status": "executed"
  }
 }

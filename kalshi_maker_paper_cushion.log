@@ -4952,3 +4952,19 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 07:11:59,997 INFO Swept 22853 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 07:17:12,658 INFO Swept 22863 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 07:22:25,455 INFO Swept 22876 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 07:27:42,902 INFO Swept 22870 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 07:32:54,447 INFO Swept 22875 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 07:38:04,341 INFO PAPER rest NO bid KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW at $0.1900 x2 (0 already bid at that price)
+2026-11-21 07:38:04,341 INFO Resting NO bid on KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW at $0.1900 x2 (KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW): locks in $0.23 if it fills; hedge NO MUSCTHDW@0.7600
+2026-11-21 07:38:04,343 INFO Swept 22867 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 07:43:12,976 INFO Swept 22862 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 07:48:22,188 INFO Swept 22860 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 07:48:22,453 INFO PAPER KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW NO bid at $0.1900: 2/2 filled by real trades
+2026-11-21 07:48:22,515 INFO PAPER buy 2 NO KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-MUSCTHDW at up to $0.7600: not on the book
+2026-11-21 07:48:22,574 INFO PAPER buy 2 NO KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-MUSCTHDW at up to $0.84: not on the book
+2026-11-21 07:48:22,575 WARNING Quote KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW: hedge missed on KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-MUSCTHDW. Selling back 2 contracts on 1 legs.
+2026-11-21 07:48:22,634 INFO PAPER sell 2 YES KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW at up to $0.8600: not on the book
+2026-11-21 07:48:22,634 ERROR STRAY POSITION: 2 NO contracts of KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW still held. Check it on Kalshi.
+2026-11-21 07:48:22,694 INFO PAPER sell 2 YES KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW at up to $0.9600: filled 2
+2026-11-21 07:48:22,694 INFO Stray KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW: sold 2 of 2 at $0.0400 or better, booked $-0.32
+2026-11-21 07:53:30,852 INFO Swept 22864 events: 0 taker trades, 0 new quotes, 0 resting

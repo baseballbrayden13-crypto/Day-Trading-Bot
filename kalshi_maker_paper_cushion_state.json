@@ -1,5 +1,5 @@
 {
- "realized": "-5.0900",
+ "realized": "-5.4100",
  "open": [],
  "closed": [
   {
@@ -478,27 +478,29 @@
    "pnl": "-0.3400",
    "closed": "2026-11-21T03:01:53.156353+00:00",
    "sold_back": true
-  }
- ],
- "quotes": [
+  },
   {
-   "event": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW",
+   "event": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW (stray)",
    "series": "KXWT20MATCH",
    "title": "Muscat Thunders Women vs OCA Strikers Women",
-   "ticker": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW",
-   "order_id": "paper-295-1795262497",
-   "price": "0.1900",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.7700",
-   "multiplier": "1",
-   "placed": 1795262497.3073187,
-   "hedge": [
+   "sets": 0,
+   "outlay": "0.3900",
+   "locked_profit": "0",
+   "opened": "2026-11-21T12:48:22.635040+00:00",
+   "legs": [
     {
-     "ticker": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-MUSCTHDW",
-     "limit": "0.7600"
+     "ticker": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW",
+     "side": "no",
+     "count": 2,
+     "limit": "0.1900"
     }
-   ]
+   ],
+   "retried": 1795265302.6350603,
+   "paid": "0.0800",
+   "pnl": "-0.3200",
+   "closed": "2026-11-21T12:48:22.694935+00:00",
+   "sold_back": true
   }
- ]
+ ],
+ "quotes": []
 }
