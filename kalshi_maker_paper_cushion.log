@@ -4905,3 +4905,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 01:13:19,904 INFO Swept 22777 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 01:18:22,837 INFO Swept 22792 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 01:23:26,214 INFO Swept 22797 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 01:28:27,479 INFO Swept 22789 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 01:33:29,546 INFO Swept 22793 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 01:38:31,932 INFO Swept 22793 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 01:43:34,205 INFO Swept 22796 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 01:48:36,080 INFO PAPER rest NO bid KXALEAGUE1H-26NOV21CCMPER-CCM at $0.3000 x2 (0 already bid at that price)
+2026-11-21 01:48:36,080 INFO Resting NO bid on KXALEAGUE1H-26NOV21CCMPER-CCM at $0.3000 x2 (KXALEAGUE1H-26NOV21CCMPER): locks in $1.20 if it fills; hedge NO PER@0.9700, TIE@0.1100
+2026-11-21 01:48:36,082 INFO Swept 22792 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 01:53:37,217 INFO Swept 22791 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 01:53:37,468 INFO Quote KXALEAGUE1H-26NOV21CCMPER cancelled (0/2 filled)
