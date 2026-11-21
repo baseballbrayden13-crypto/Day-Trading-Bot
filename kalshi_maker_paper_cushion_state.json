@@ -460,40 +460,21 @@
  ],
  "quotes": [
   {
-   "event": "KXLVBPGAME-26NOV201800CARLAR",
-   "series": "KXLVBPGAME",
-   "title": "Leones de Caracas vs Cardenales de Lara",
-   "ticker": "KXLVBPGAME-26NOV201800CARLAR-CAR",
-   "order_id": "paper-282-1795219731",
-   "price": "0.3000",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.6300",
-   "multiplier": "1",
-   "placed": 1795219731.6616445,
-   "hedge": [
-    {
-     "ticker": "KXLVBPGAME-26NOV201800CARLAR-LAR",
-     "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAHGAME-26NOV20CANNIA",
-   "series": "KXNCAAHGAME",
-   "title": "Canisius vs Niagara",
-   "ticker": "KXNCAAHGAME-26NOV20CANNIA-CAN",
-   "order_id": "paper-283-1795220644",
-   "price": "0.2400",
+   "event": "KXLBPRCGAME-26NOV201800GIGSAT",
+   "series": "KXLBPRCGAME",
+   "title": "Gigantes de Carolina vs Cangrejeros de Santurce",
+   "ticker": "KXLBPRCGAME-26NOV201800GIGSAT-SAT",
+   "order_id": "paper-284-1795221553",
+   "price": "0.2600",
    "sets": 1,
    "done": 0,
-   "reserve": "0.7900",
+   "reserve": "0.7800",
    "multiplier": "1",
-   "placed": 1795220644.1986928,
+   "placed": 1795221553.1703207,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26NOV20CANNIA-NIA",
-     "limit": "0.5200"
+     "ticker": "KXLBPRCGAME-26NOV201800GIGSAT-GIG",
+     "limit": "0.4900"
     }
    ]
   }
