@@ -17736,5 +17736,19 @@
   "at_price": 0,
   "filled": 0,
   "status": "canceled"
+ },
+ "paper-1268-1795239682": {
+  "id": "paper-1268-1795239682",
+  "ticker": "KXNCAAWBGAME-26NOV22UCLATENN-UCLA",
+  "price": "0.2600",
+  "count": 4,
+  "ahead": 1,
+  "placed": 1795239682.7398996,
+  "checked": 1795240354.9467065,
+  "expires": 1795241482,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

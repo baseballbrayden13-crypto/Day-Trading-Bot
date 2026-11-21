@@ -3027,5 +3027,25 @@
    "closed": "2026-11-20T23:14:15.639326+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAWBGAME-26NOV22UCLATENN",
+   "series": "KXNCAAWBGAME",
+   "title": "UCLA vs Tennessee",
+   "ticker": "KXNCAAWBGAME-26NOV22UCLATENN-UCLA",
+   "order_id": "paper-1268-1795239682",
+   "price": "0.26",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.9000",
+   "multiplier": "1",
+   "placed": 1795239682.7507017,
+   "hedge": [
+    {
+     "ticker": "KXNCAAWBGAME-26NOV22UCLATENN-TENN",
+     "limit": "0.7000"
+    }
+   ]
+  }
+ ]
 }

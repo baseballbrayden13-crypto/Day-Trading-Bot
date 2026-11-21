@@ -11136,3 +11136,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 00:16:11,867 INFO Swept 22865 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 00:21:10,567 INFO Swept 22867 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 00:21:10,648 INFO Quote KXNBAGAME-26NOV24BOSWAS cancelled (0/4 filled)
+2026-11-21 00:26:13,539 INFO Swept 22853 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 00:31:20,589 INFO Swept 22851 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 00:36:26,206 INFO Swept 22827 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 00:41:22,750 INFO PAPER rest NO bid KXNCAAWBGAME-26NOV22UCLATENN-UCLA at $0.2600 x4 (1 already bid at that price)
+2026-11-21 00:41:22,750 INFO Resting NO bid on KXNCAAWBGAME-26NOV22UCLATENN-UCLA at $0.26 x4 (KXNCAAWBGAME-26NOV22UCLATENN): locks in $0.10 if it fills; hedge NO TENN@0.7000
+2026-11-21 00:41:22,843 INFO Swept 22836 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 00:46:29,536 INFO Swept 22815 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 00:51:33,998 INFO Swept 22809 events: 0 taker trades, 0 new quotes, 1 resting
