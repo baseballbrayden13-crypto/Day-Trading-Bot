@@ -17,7 +17,7 @@
      "limit": "0.3300"
     }
    ],
-   "retried": 1795227693.1771874
+   "retried": 1795229512.6280303
   }
  ],
  "closed": [
@@ -479,40 +479,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAHGAME-26NOV20BCMAI",
+   "event": "KXNCAAHGAME-26NOV20ASUUMD",
    "series": "KXNCAAHGAME",
-   "title": "Boston College vs Maine",
-   "ticker": "KXNCAAHGAME-26NOV20BCMAI-MAI",
-   "order_id": "paper-285-1795226182",
-   "price": "0.15",
-   "sets": 2,
+   "title": "Arizona State vs Minnesota Duluth",
+   "ticker": "KXNCAAHGAME-26NOV20ASUUMD-ASU",
+   "order_id": "paper-289-1795228293",
+   "price": "0.2400",
+   "sets": 1,
    "done": 0,
-   "reserve": "1.8000",
+   "reserve": "0.7900",
    "multiplier": "1",
-   "placed": 1795226182.1547284,
+   "placed": 1795228293.4421704,
    "hedge": [
     {
-     "ticker": "KXNCAAHGAME-26NOV20BCMAI-BC",
-     "limit": "0.7300"
-    }
-   ]
-  },
-  {
-   "event": "KXLVBPGAME-26NOV201800CARLAR",
-   "series": "KXLVBPGAME",
-   "title": "Leones de Caracas vs Cardenales de Lara",
-   "ticker": "KXLVBPGAME-26NOV201800CARLAR-CAR",
-   "order_id": "paper-287-1795226182",
-   "price": "0.3100",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.6500",
-   "multiplier": "1",
-   "placed": 1795226182.2146811,
-   "hedge": [
-    {
-     "ticker": "KXLVBPGAME-26NOV201800CARLAR-LAR",
-     "limit": "0.4900"
+     "ticker": "KXNCAAHGAME-26NOV20ASUUMD-UMD",
+     "limit": "0.5200"
     }
    ]
   }

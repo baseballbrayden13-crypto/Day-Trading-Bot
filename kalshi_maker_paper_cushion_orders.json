@@ -3982,12 +3982,12 @@
   "count": 2,
   "ahead": 4,
   "placed": 1795226182.151436,
-  "checked": 1795227698.2058954,
+  "checked": 1795227982,
   "expires": 1795227982,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-286-1795226182": {
   "id": "paper-286-1795226182",
@@ -4010,12 +4010,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1795226182.211453,
-  "checked": 1795227698.2576373,
+  "checked": 1795227982,
   "expires": 1795227982,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-288-1795226784": {
   "id": "paper-288-1795226784",
@@ -4030,5 +4030,19 @@
   "at_price": 0,
   "filled": 2,
   "status": "executed"
+ },
+ "paper-289-1795228293": {
+  "id": "paper-289-1795228293",
+  "ticker": "KXNCAAHGAME-26NOV20ASUUMD-ASU",
+  "price": "0.2400",
+  "count": 1,
+  "ahead": 0,
+  "placed": 1795228293.4388282,
+  "checked": 1795229517.6558495,
+  "expires": 1795230093,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "resting"
  }
 }

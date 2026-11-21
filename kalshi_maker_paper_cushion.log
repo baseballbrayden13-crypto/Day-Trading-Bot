@@ -4839,3 +4839,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 21:16:30,819 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
 2026-11-20 21:21:33,063 INFO Swept 23378 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-20 21:21:33,204 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
+2026-11-20 21:26:34,124 INFO Swept 23353 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 21:26:34,212 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
+2026-11-20 21:31:33,442 INFO PAPER rest NO bid KXNCAAHGAME-26NOV20ASUUMD-ASU at $0.2400 x1 (0 already bid at that price)
+2026-11-20 21:31:33,442 INFO Resting NO bid on KXNCAAHGAME-26NOV20ASUUMD-ASU at $0.2400 x1 (KXNCAAHGAME-26NOV20ASUUMD): locks in $0.21 if it fills; hedge NO UMD@0.5200
+2026-11-20 21:31:33,444 INFO Swept 23327 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 21:31:33,525 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
+2026-11-20 21:36:41,473 INFO Swept 23288 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 21:36:41,554 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
+2026-11-20 21:41:45,220 INFO Swept 23262 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 21:41:45,304 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
+2026-11-20 21:46:49,552 INFO Swept 23247 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 21:46:49,634 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
+2026-11-20 21:51:52,571 INFO Swept 23228 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 21:51:52,654 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
