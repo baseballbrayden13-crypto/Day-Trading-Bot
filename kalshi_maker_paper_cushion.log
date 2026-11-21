@@ -4792,3 +4792,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 18:43:40,396 INFO Swept 23173 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 18:48:40,329 INFO Swept 23177 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 18:53:44,247 INFO Swept 23169 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 18:58:54,349 INFO Swept 23172 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 19:03:47,585 INFO Swept 23164 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 19:08:51,661 INFO PAPER rest NO bid KXLVBPGAME-26NOV201800CARLAR-CAR at $0.3000 x2 (0 already bid at that price)
+2026-11-20 19:08:51,661 INFO Resting NO bid on KXLVBPGAME-26NOV201800CARLAR-CAR at $0.3000 x2 (KXLVBPGAME-26NOV201800CARLAR): locks in $0.37 if it fills; hedge NO LAR@0.4900
+2026-11-20 19:08:51,664 INFO Swept 23153 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 19:13:59,534 INFO Swept 23239 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 19:19:01,684 INFO Swept 23255 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 19:24:04,198 INFO PAPER rest NO bid KXNCAAHGAME-26NOV20CANNIA-CAN at $0.2400 x1 (0 already bid at that price)
+2026-11-20 19:24:04,198 INFO Resting NO bid on KXNCAAHGAME-26NOV20CANNIA-CAN at $0.2400 x1 (KXNCAAHGAME-26NOV20CANNIA): locks in $0.21 if it fills; hedge NO NIA@0.5200
+2026-11-20 19:24:04,200 INFO Swept 23274 events: 0 taker trades, 1 new quotes, 2 resting

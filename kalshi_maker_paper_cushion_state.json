@@ -458,5 +458,44 @@
    "closed": "2026-11-18T04:32:06.140421+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLVBPGAME-26NOV201800CARLAR",
+   "series": "KXLVBPGAME",
+   "title": "Leones de Caracas vs Cardenales de Lara",
+   "ticker": "KXLVBPGAME-26NOV201800CARLAR-CAR",
+   "order_id": "paper-282-1795219731",
+   "price": "0.3000",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6300",
+   "multiplier": "1",
+   "placed": 1795219731.6616445,
+   "hedge": [
+    {
+     "ticker": "KXLVBPGAME-26NOV201800CARLAR-LAR",
+     "limit": "0.4900"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAHGAME-26NOV20CANNIA",
+   "series": "KXNCAAHGAME",
+   "title": "Canisius vs Niagara",
+   "ticker": "KXNCAAHGAME-26NOV20CANNIA-CAN",
+   "order_id": "paper-283-1795220644",
+   "price": "0.2400",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7900",
+   "multiplier": "1",
+   "placed": 1795220644.1986928,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV20CANNIA-NIA",
+     "limit": "0.5200"
+    }
+   ]
+  }
+ ]
 }
