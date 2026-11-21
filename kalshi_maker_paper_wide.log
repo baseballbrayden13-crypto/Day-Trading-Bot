@@ -11158,3 +11158,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 01:42:02,984 INFO Swept 22796 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 01:47:07,022 INFO Swept 22792 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 01:52:09,408 INFO Swept 22791 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 01:57:11,403 INFO PAPER rest NO bid KXVALORANTMAP-26NOV210100QIATEC-1-TEC at $0.3100 x2 (2 already bid at that price)
+2026-11-21 01:57:11,404 INFO Resting NO bid on KXVALORANTMAP-26NOV210100QIATEC-1-TEC at $0.31 x2 (KXVALORANTMAP-26NOV210100QIATEC-1): locks in $0.11 if it fills; hedge NO QIA@0.6100
+2026-11-21 01:57:11,537 INFO Swept 22785 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 01:58:07,352 INFO Quote KXVALORANTMAP-26NOV210100QIATEC-1 cancelled (0/2 filled)
+2026-11-21 02:02:13,725 INFO Swept 22749 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 02:07:13,401 INFO Swept 22711 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 02:12:18,838 INFO Swept 22718 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 02:17:15,951 INFO Swept 22718 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 02:22:17,241 INFO Swept 22714 events: 0 taker trades, 0 new quotes, 0 resting
