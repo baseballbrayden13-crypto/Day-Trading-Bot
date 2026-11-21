@@ -1,104 +1,6 @@
 {
- "updated": "2026-11-21T02:30:18+00:00",
+ "updated": "2026-11-21T11:18:25+00:00",
  "prices": {
-  "KXNBAGAME-26NOV20PHXUTA-PHX": {
-   "fair_yes": 0.6318,
-   "start": "2026-11-21T02:40:00Z",
-   "team": "Phoenix Suns",
-   "sport": "basketball_nba",
-   "teams": [
-    "Utah Jazz",
-    "Phoenix Suns"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-21T02:30:18+00:00"
-  },
-  "KXNBAGAME-26NOV20PHXUTA-UTA": {
-   "fair_yes": 0.3682,
-   "start": "2026-11-21T02:40:00Z",
-   "team": "Utah Jazz",
-   "sport": "basketball_nba",
-   "teams": [
-    "Utah Jazz",
-    "Phoenix Suns"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-21T02:30:18+00:00"
-  },
-  "KXNBAGAME-26NOV20HOUDEN-HOU": {
-   "fair_yes": 0.5207,
-   "start": "2026-11-21T03:10:00Z",
-   "team": "Houston Rockets",
-   "sport": "basketball_nba",
-   "teams": [
-    "Denver Nuggets",
-    "Houston Rockets"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-21T02:30:18+00:00"
-  },
-  "KXNBAGAME-26NOV20HOUDEN-DEN": {
-   "fair_yes": 0.4793,
-   "start": "2026-11-21T03:10:00Z",
-   "team": "Denver Nuggets",
-   "sport": "basketball_nba",
-   "teams": [
-    "Denver Nuggets",
-    "Houston Rockets"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-21T02:30:18+00:00"
-  },
-  "KXNBAGAME-26NOV20SACLAL-SAC": {
-   "fair_yes": 0.1384,
-   "start": "2026-11-21T03:10:00Z",
-   "team": "Sacramento Kings",
-   "sport": "basketball_nba",
-   "teams": [
-    "Los Angeles Lakers",
-    "Sacramento Kings"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-21T02:30:18+00:00",
-   "news": "lineup news: Los Angeles Lakers: Austin Reaves (Out)"
-  },
-  "KXNBAGAME-26NOV20SACLAL-LAL": {
-   "fair_yes": 0.8616,
-   "start": "2026-11-21T03:10:00Z",
-   "team": "Los Angeles Lakers",
-   "sport": "basketball_nba",
-   "teams": [
-    "Los Angeles Lakers",
-    "Sacramento Kings"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-21T02:30:18+00:00",
-   "news": "lineup news: Los Angeles Lakers: Austin Reaves (Out)"
-  },
-  "KXNCAAMBGAME-26NOV20SLUSMC-SMC": {
-   "fair_yes": 0.5298,
-   "start": "2026-11-21T04:00:00Z",
-   "team": "Saint Mary's Gaels",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Saint Mary's Gaels",
-    "Saint Louis Billikens"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-21T02:30:18+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20SLUSMC-SLU": {
-   "fair_yes": 0.4702,
-   "start": "2026-11-21T04:00:00Z",
-   "team": "Saint Louis Billikens",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Saint Mary's Gaels",
-    "Saint Louis Billikens"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-21T02:30:18+00:00"
-  },
   "KXNCAAFGAME-26NOV21OSUNEB-NEB": {
    "fair_yes": 0.3923,
    "start": "2026-11-21T16:59:00Z",
@@ -1223,30 +1125,6 @@
    "teams": [
     "UAB Blazers",
     "UTSA Roadrunners"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-21T02:30:18+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20ALSTFRES-FRES": {
-   "fair_yes": 0.8124,
-   "start": "2026-11-21T03:00:00Z",
-   "team": "Fresno St Bulldogs",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Fresno St Bulldogs",
-    "Alabama St Hornets"
-   ],
-   "pinnacle": true,
-   "updated": "2026-11-21T02:30:18+00:00"
-  },
-  "KXNCAAMBGAME-26NOV20ALSTFRES-ALST": {
-   "fair_yes": 0.1876,
-   "start": "2026-11-21T03:00:00Z",
-   "team": "Alabama St Hornets",
-   "sport": "basketball_ncaab",
-   "teams": [
-    "Fresno St Bulldogs",
-    "Alabama St Hornets"
    ],
    "pinnacle": true,
    "updated": "2026-11-21T02:30:18+00:00"

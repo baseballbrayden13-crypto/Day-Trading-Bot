@@ -1,20 +1,11 @@
 {
- "updated": "2026-11-21T02:30:28+00:00",
+ "updated": "2026-11-21T11:18:26+00:00",
  "parlays": [
   {
    "kind": "favorites",
    "game": "Favorites across games",
-   "start": "2026-11-21T21:00:00Z",
+   "start": "2026-11-22T03:00:00Z",
    "legs": [
-    {
-     "label": "Kent State Golden Flashes to win",
-     "ticker": "KXNCAAMBGAME-26NOV21KENTCLEV-KENT",
-     "side": "yes",
-     "price": 0.59,
-     "fair": 0.6049,
-     "value": -0.0021,
-     "player": ""
-    },
     {
      "label": "South Alabama Jaguars to win",
      "ticker": "KXNCAAFGAME-26NOV21USAUSM-USA",
@@ -25,25 +16,34 @@
      "player": ""
     },
     {
-     "label": "Bowling Green Falcons to win",
-     "ticker": "KXNCAAMBGAME-26NOV21NIUBGSU-BGSU",
+     "label": "Pacific Tigers to win",
+     "ticker": "KXNCAAMBGAME-26NOV21BRADPAC-PAC",
+     "side": "yes",
+     "price": 0.79,
+     "fair": 0.7907,
+     "value": -0.0113,
+     "player": ""
+    },
+    {
+     "label": "New York Knicks to win",
+     "ticker": "KXNBAGAME-26NOV21PORNYK-NYK",
      "side": "yes",
      "price": 0.66,
-     "fair": 0.6643,
-     "value": -0.0117,
+     "fair": 0.6638,
+     "value": -0.0122,
      "player": ""
     }
    ],
-   "price": 0.2655,
-   "fair": 0.2587,
-   "pays": "+277",
-   "per_dollar": 3.77
+   "price": 0.3508,
+   "fair": 0.3379,
+   "pays": "+185",
+   "per_dollar": 2.85
   }
  ],
  "open_pretend": 1,
  "record": {
-  "parlays": 23,
+  "parlays": 24,
   "won": 4,
-  "profit": -11.56
+  "profit": -12.56
  }
 }

@@ -1,52 +1,43 @@
 {
  "open": [
   {
-   "kind": "game",
-   "game": "Brooklyn Nets vs Orlando Magic",
-   "start": "2026-11-21T00:40:00Z",
+   "kind": "favorites",
+   "game": "Favorites across games",
+   "start": "2026-11-22T03:00:00Z",
    "legs": [
     {
-     "label": "Orlando Magic to win",
-     "ticker": "KXNBAGAME-26NOV20ORLBKN-ORL",
+     "label": "South Alabama Jaguars to win",
+     "ticker": "KXNCAAFGAME-26NOV21USAUSM-USA",
      "side": "yes",
-     "price": 0.68,
-     "fair": 0.668,
-     "value": -0.028,
+     "price": 0.63,
+     "fair": 0.6437,
+     "value": -0.0033,
      "player": ""
     },
     {
-     "label": "Jalen Suggs 4+ rebounds",
-     "ticker": "KXNBAREB-26NOV20ORLBKN-ORLJSUGGS4-4",
+     "label": "Pacific Tigers to win",
+     "ticker": "KXNCAAMBGAME-26NOV21BRADPAC-PAC",
      "side": "yes",
-     "price": 0.62,
-     "fair": 0.6707,
-     "value": 0.0337,
-     "player": "Jalen Suggs"
+     "price": 0.79,
+     "fair": 0.7907,
+     "value": -0.0113,
+     "player": ""
     },
     {
-     "label": "Tristan da Silva 10+ points",
-     "ticker": "KXNBAPTS-26NOV20ORLBKN-ORLTDASILVA23-10",
+     "label": "New York Knicks to win",
+     "ticker": "KXNBAGAME-26NOV21PORNYK-NYK",
      "side": "yes",
      "price": 0.66,
-     "fair": 0.7079,
-     "value": 0.0319,
-     "player": "Tristan da Silva"
-    },
-    {
-     "label": "Anthony Black 4+ rebounds",
-     "ticker": "KXNBAREB-26NOV20ORLBKN-ORLABLACK0-4",
-     "side": "yes",
-     "price": 0.63,
-     "fair": 0.6745,
-     "value": 0.0275,
-     "player": "Anthony Black"
+     "fair": 0.6638,
+     "value": -0.0122,
+     "player": ""
     }
    ],
-   "price": 0.1939,
-   "fair": 0.2139,
-   "pays": "+416",
-   "per_dollar": 5.16,
-   "opened": "2026-11-20T13:04:42+00:00"
+   "price": 0.3508,
+   "fair": 0.3379,
+   "pays": "+185",
+   "per_dollar": 2.85,
+   "opened": "2026-11-21T11:18:26+00:00"
   }
  ],
  "seen": {
@@ -73,6 +64,7 @@
   "favorites|Favorites across games|2026-11-19": "2026-11-19T13:24:27.462482+00:00",
   "game|Atlanta Hawks vs Charlotte Hornets|2026-11-21": "2026-11-20T13:04:42.044074+00:00",
   "game|Brooklyn Nets vs Orlando Magic|2026-11-21": "2026-11-20T13:04:42.044074+00:00",
-  "favorites|Favorites across games|2026-11-20": "2026-11-20T13:04:42.044074+00:00"
+  "favorites|Favorites across games|2026-11-20": "2026-11-20T13:04:42.044074+00:00",
+  "favorites|Favorites across games|2026-11-21": "2026-11-21T11:18:26.923535+00:00"
  }
 }

@@ -1,33 +1,24 @@
 {
- "updated": "2026-11-21T02:30:18+00:00",
+ "updated": "2026-11-21T11:18:25+00:00",
  "scan": {
-  "sports": [
-   "basketball_nba",
-   "icehockey_nhl",
-   "americanfootball_ncaaf",
-   "basketball_ncaab"
-  ],
-  "games": 133,
-  "kalshi_matched": 118,
+  "sports": [],
+  "games": 0,
+  "kalshi_matched": 0,
   "skipped": [],
-  "pinnacle": 77,
+  "note": "quiet hours",
   "credits_left": 281,
-  "spent_today": 11,
-  "allowance": 25
+  "spent_today": 0,
+  "allowance": 28
  },
- "new_finds": [
-  "Memphis Grizzlies @ Pinnacle 2.94 (fair 2.82, +4.1% expected) Memphis Grizzlies at Minnesota Timberwolves (Sat 8:10PM)",
-  "Bucknell Bison @ FanDuel 3.15 (fair 3.04, +3.5% expected) Siena Saints at Bucknell Bison (Sat 11:00AM)",
-  "ARB 1.4% locked: Pennsylvania Quakers at La Salle Explorers (Sat 4:00PM): $54 La Salle Explorers @ BetRivers 1.88, $46 Pennsylvania Quakers @ Bovada 2.2"
- ],
- "open_bets": 8,
+ "new_finds": [],
+ "open_bets": 7,
  "record": {
   "value": {
-   "bets": 56,
+   "bets": 57,
    "wins": 12,
-   "staked": 560.0,
-   "pnl": -59.9,
-   "roi": -0.107
+   "staked": 570.0,
+   "pnl": -69.9,
+   "roi": -0.1226
   },
   "kalshi": {
    "bets": 6,
@@ -44,11 +35,11 @@
    "roi": 0.013
   },
   "all": {
-   "bets": 74,
+   "bets": 75,
    "wins": 25,
-   "staked": 1820.0,
-   "pnl": -59.24,
-   "roi": -0.0325
+   "staked": 1830.0,
+   "pnl": -69.24,
+   "roi": -0.0378
   }
  }
 }
