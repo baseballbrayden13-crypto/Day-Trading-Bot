@@ -11209,3 +11209,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 07:44:17,729 INFO Swept 22862 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 07:49:17,662 INFO Swept 22861 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 07:54:25,735 INFO Swept 22865 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 07:59:24,335 INFO Swept 22857 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 08:04:30,418 INFO Swept 22848 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 08:09:31,257 INFO Swept 22838 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 08:14:33,667 INFO PAPER rest NO bid KXEFLL2GAME-26NOV21NCSWI-TIE at $0.5900 x1 (0 already bid at that price)
+2026-11-21 08:14:33,668 INFO Resting NO bid on KXEFLL2GAME-26NOV21NCSWI-TIE at $0.5900 x1 (KXEFLL2GAME-26NOV21NCSWI): locks in $0.31 if it fills; hedge NO NC@0.0800
+2026-11-21 08:14:33,822 INFO Swept 22898 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 08:19:37,402 INFO Swept 22912 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 08:24:39,260 INFO Swept 22908 events: 0 taker trades, 0 new quotes, 1 resting

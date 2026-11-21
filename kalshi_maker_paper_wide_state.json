@@ -3027,5 +3027,25 @@
    "closed": "2026-11-20T23:14:15.639326+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXEFLL2GAME-26NOV21NCSWI",
+   "series": "KXEFLL2GAME",
+   "title": "Newport vs Swindon",
+   "ticker": "KXEFLL2GAME-26NOV21NCSWI-TIE",
+   "order_id": "paper-1274-1795266873",
+   "price": "0.5900",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.6900",
+   "multiplier": "1",
+   "placed": 1795266873.668229,
+   "hedge": [
+    {
+     "ticker": "KXEFLL2GAME-26NOV21NCSWI-NC",
+     "limit": "0.0800"
+    }
+   ]
+  }
+ ]
 }
