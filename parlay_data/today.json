@@ -1,46 +1,189 @@
 {
- "updated": "2026-11-21T11:18:26+00:00",
+ "updated": "2026-11-21T19:24:39+00:00",
  "parlays": [
   {
-   "kind": "favorites",
-   "game": "Favorites across games",
-   "start": "2026-11-22T03:00:00Z",
+   "kind": "game",
+   "game": "New York Knicks vs Portland Trail Blazers",
+   "start": "2026-11-22T00:40:00Z",
    "legs": [
-    {
-     "label": "South Alabama Jaguars to win",
-     "ticker": "KXNCAAFGAME-26NOV21USAUSM-USA",
-     "side": "yes",
-     "price": 0.63,
-     "fair": 0.6437,
-     "value": -0.0033,
-     "player": ""
-    },
-    {
-     "label": "Pacific Tigers to win",
-     "ticker": "KXNCAAMBGAME-26NOV21BRADPAC-PAC",
-     "side": "yes",
-     "price": 0.79,
-     "fair": 0.7907,
-     "value": -0.0113,
-     "player": ""
-    },
     {
      "label": "New York Knicks to win",
      "ticker": "KXNBAGAME-26NOV21PORNYK-NYK",
      "side": "yes",
+     "price": 0.59,
+     "fair": 0.5817,
+     "value": -0.0253,
+     "player": ""
+    },
+    {
+     "label": "Mikal Bridges 10+ points",
+     "ticker": "KXNBAPTS-26NOV21PORNYK-NYKMBRIDGES25-10",
+     "side": "yes",
+     "price": 0.6,
+     "fair": 0.6881,
+     "value": 0.0711,
+     "player": "Mikal Bridges"
+    },
+    {
+     "label": "Toumani Camara 10+ points",
+     "ticker": "KXNBAPTS-26NOV21PORNYK-PORTCAMARA33-10",
+     "side": "yes",
+     "price": 0.68,
+     "fair": 0.7424,
+     "value": 0.0464,
+     "player": "Toumani Camara"
+    },
+    {
+     "label": "Donovan Clingan 10+ points",
+     "ticker": "KXNBAPTS-26NOV21PORNYK-PORDCLINGAN23-10",
+     "side": "yes",
+     "price": 0.56,
+     "fair": 0.5987,
+     "value": 0.0207,
+     "player": "Donovan Clingan"
+    }
+   ],
+   "price": 0.1507,
+   "fair": 0.1779,
+   "pays": "+564",
+   "per_dollar": 6.64
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "New York Knicks vs Portland Trail Blazers",
+   "start": "2026-11-22T00:40:00Z",
+   "legs": [
+    {
+     "label": "Toumani Camara 10+ points",
+     "ticker": "KXNBAPTS-26NOV21PORNYK-PORTCAMARA33-10",
+     "side": "yes",
+     "price": 0.68,
+     "fair": 0.7424,
+     "value": 0.0464,
+     "player": "Toumani Camara"
+    },
+    {
+     "label": "Mikal Bridges 10+ points",
+     "ticker": "KXNBAPTS-26NOV21PORNYK-NYKMBRIDGES25-10",
+     "side": "yes",
+     "price": 0.6,
+     "fair": 0.6881,
+     "value": 0.0711,
+     "player": "Mikal Bridges"
+    }
+   ],
+   "price": 0.4294,
+   "fair": 0.5108,
+   "pays": "+133",
+   "per_dollar": 2.33
+  },
+  {
+   "kind": "game",
+   "game": "Dallas Mavericks vs Los Angeles Clippers",
+   "start": "2026-11-22T01:10:00Z",
+   "legs": [
+    {
+     "label": "Kris Dunn 5+ points",
+     "ticker": "KXNBAPTS-26NOV21LACDAL-LACKDUNN8-5",
+     "side": "yes",
+     "price": 0.56,
+     "fair": 0.6871,
+     "value": 0.1091,
+     "player": "Kris Dunn"
+    },
+    {
+     "label": "Naji Marshall 10+ points",
+     "ticker": "KXNBAPTS-26NOV21LACDAL-DALNMARSHALL3-10",
+     "side": "yes",
+     "price": 0.69,
+     "fair": 0.7761,
+     "value": 0.0711,
+     "player": "Naji Marshall"
+    },
+    {
+     "label": "Caleb Martin 5+ points",
+     "ticker": "KXNBAPTS-26NOV21LACDAL-DALCMARTIN16-5",
+     "side": "yes",
      "price": 0.66,
-     "fair": 0.6638,
-     "value": -0.0122,
+     "fair": 0.7376,
+     "value": 0.0616,
+     "player": "Caleb Martin"
+    }
+   ],
+   "price": 0.2755,
+   "fair": 0.3933,
+   "pays": "+263",
+   "per_dollar": 3.63
+  },
+  {
+   "kind": "game (safer 2-leg)",
+   "game": "Dallas Mavericks vs Los Angeles Clippers",
+   "start": "2026-11-22T01:10:00Z",
+   "legs": [
+    {
+     "label": "Naji Marshall 10+ points",
+     "ticker": "KXNBAPTS-26NOV21LACDAL-DALNMARSHALL3-10",
+     "side": "yes",
+     "price": 0.69,
+     "fair": 0.7761,
+     "value": 0.0711,
+     "player": "Naji Marshall"
+    },
+    {
+     "label": "Caleb Martin 5+ points",
+     "ticker": "KXNBAPTS-26NOV21LACDAL-DALCMARTIN16-5",
+     "side": "yes",
+     "price": 0.66,
+     "fair": 0.7376,
+     "value": 0.0616,
+     "player": "Caleb Martin"
+    }
+   ],
+   "price": 0.4766,
+   "fair": 0.5725,
+   "pays": "+110",
+   "per_dollar": 2.1
+  },
+  {
+   "kind": "favorites",
+   "game": "Favorites across games",
+   "start": "2026-11-22T00:30:00Z",
+   "legs": [
+    {
+     "label": "Notre Dame Fighting Irish to win",
+     "ticker": "KXNCAAFGAME-26NOV21SMUND-ND",
+     "side": "yes",
+     "price": 0.91,
+     "fair": 0.9026,
+     "value": -0.0134,
+     "player": ""
+    },
+    {
+     "label": "Arizona Wildcats to win",
+     "ticker": "KXNCAAFGAME-26NOV21ARIZKSU-ARIZ",
+     "side": "yes",
+     "price": 0.76,
+     "fair": 0.7571,
+     "value": -0.0159,
+     "player": ""
+    },
+    {
+     "label": "Mercer Bears to win",
+     "ticker": "KXNCAAMBGAME-26NOV21CHSOMER-MER",
+     "side": "yes",
+     "price": 0.78,
+     "fair": 0.775,
+     "value": -0.018,
      "player": ""
     }
    ],
-   "price": 0.3508,
-   "fair": 0.3379,
-   "pays": "+185",
-   "per_dollar": 2.85
+   "price": 0.5615,
+   "fair": 0.5296,
+   "pays": "-128",
+   "per_dollar": 1.78
   }
  ],
- "open_pretend": 1,
+ "open_pretend": 3,
  "record": {
   "parlays": 24,
   "won": 4,

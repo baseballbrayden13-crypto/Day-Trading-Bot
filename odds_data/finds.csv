@@ -85,3 +85,8 @@ time,kind,sport,game,start,team,book,odds,fair,edge,picks
 2026-11-21T02:30:18+00:00,value,basketball_nba,Memphis Grizzlies at Minnesota Timberwolves,2026-11-22T01:10:00Z,Memphis Grizzlies,Pinnacle,2.94,0.3541,0.041,
 2026-11-21T02:30:18+00:00,value,basketball_ncaab,Siena Saints at Bucknell Bison,2026-11-21T16:00:00Z,Bucknell Bison,FanDuel,3.15,0.3287,0.0353,
 2026-11-21T02:30:18+00:00,arb,basketball_ncaab,Pennsylvania Quakers at La Salle Explorers,2026-11-21T21:00:00Z,,,,,0.0137,La Salle Explorers @ BetRivers 1.88 $53.92; Pennsylvania Quakers @ Bovada 2.2 $46.08
+2026-11-21T19:24:33+00:00,value,americanfootball_nfl,Tennessee Titans at Dallas Cowboys,2026-11-22T18:00:00Z,Tennessee Titans,FanDuel,4.3,0.2424,0.0422,
+2026-11-21T19:24:33+00:00,value,basketball_ncaab,Northeastern Huskies at Stonehill Skyhawks,2026-11-21T22:00:00Z,Stonehill Skyhawks,FanDuel,4.6,0.225,0.0349,
+2026-11-21T19:24:33+00:00,value,basketball_ncaab,Northeastern Huskies at Stonehill Skyhawks,2026-11-21T22:00:00Z,Stonehill Skyhawks,BetRivers,4.7,0.225,0.0574,
+2026-11-21T19:24:33+00:00,value,basketball_ncaab,Bradley Braves at Pacific Tigers,2026-11-22T03:00:00Z,Bradley Braves,BetRivers,4.5,0.2326,0.0465,
+2026-11-21T19:24:33+00:00,kalshi,basketball_ncaab,Bradley Braves at Pacific Tigers,2026-11-22T03:00:00Z,Bradley Braves,Kalshi,4.505,0.2326,0.0476,

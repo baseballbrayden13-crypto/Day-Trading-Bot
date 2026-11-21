@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-21T11:18:26+00:00",
+ "updated": "2026-11-21T19:24:37+00:00",
  "mode": "pretend money, forward test (not part of 4e/4f)",
  "scan": {
-  "games": 0,
-  "compared": 0,
-  "bets": 0,
-  "spent_today": 0,
+  "games": 2,
+  "compared": 65,
+  "bets": 1,
+  "spent_today": 6,
   "cap": 6,
-  "note": "quiet hours"
+  "credits_left": 270
  },
- "open_bets": 0,
+ "open_bets": 1,
  "record": {
   "bets": 2,
   "won": 2,

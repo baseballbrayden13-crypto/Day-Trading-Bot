@@ -488,3 +488,68 @@ time,sport,game,stat,player,line,match,book_line,books,fair_yes,yes_ask,no_ask,t
 2026-11-20T13:04:41+00:00,basketball_nba,Orlando Magic at Brooklyn Nets,player_assists,Jalen Suggs,3.5,near,4.5,7,0.6456,0.66,0.38,KXNBAAST-26NOV20ORLBKN-ORLJSUGGS4-4
 2026-11-20T13:04:41+00:00,basketball_nba,Orlando Magic at Brooklyn Nets,player_assists,Tristan da Silva,1.5,exact,1.5,6,0.4662,0.49,0.54,KXNBAAST-26NOV20ORLBKN-ORLTDASILVA23-2
 2026-11-20T13:04:41+00:00,basketball_nba,Orlando Magic at Brooklyn Nets,player_assists,Michael Porter Jr.,1.5,exact,1.5,6,0.5483,0.56,0.47,KXNBAAST-26NOV20ORLBKN-BKNMPORTER17-2
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Deni Avdija,19.5,near,22.5,7,0.6446,0.65,0.37,KXNBAPTS-26NOV21PORNYK-PORDAVDIJA8-20
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Toumani Camara,9.5,near,12.5,7,0.7424,0.68,0.35,KXNBAPTS-26NOV21PORNYK-PORTCAMARA33-10
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Karl-Anthony Towns,19.5,near,21.5,5,0.5814,0.59,0.42,KXNBAPTS-26NOV21PORNYK-NYKKTOWNS32-20
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Karl-Anthony Towns,19.5,near,20.5,4,0.5759,0.59,0.42,KXNBAPTS-26NOV21PORNYK-NYKKTOWNS32-20
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Mikal Bridges,9.5,near,10.5,6,0.6295,0.6,0.41,KXNBAPTS-26NOV21PORNYK-NYKMBRIDGES25-10
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Mikal Bridges,9.5,near,11.5,3,0.6881,0.6,0.41,KXNBAPTS-26NOV21PORNYK-NYKMBRIDGES25-10
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Jalen Brunson,24.5,near,28.5,7,0.6696,0.69,0.32,KXNBAPTS-26NOV21PORNYK-NYKJBRUNSON11-25
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Donovan Clingan,9.5,near,10.5,8,0.5987,0.56,0.46,KXNBAPTS-26NOV21PORNYK-PORDCLINGAN23-10
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Landry Shamet,9.5,near,11.5,6,0.6851,0.61,0.4,KXNBAPTS-26NOV21PORNYK-NYKLSHAMET44-10
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Landry Shamet,9.5,near,10.5,3,0.6401,0.61,0.4,KXNBAPTS-26NOV21PORNYK-NYKLSHAMET44-10
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Damian Lillard,19.5,near,20.5,7,0.5535,0.56,0.45,KXNBAPTS-26NOV21PORNYK-PORDLILLARD0-20
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_points,Josh Hart,9.5,exact,9.5,7,0.508,0.51,0.5,KXNBAPTS-26NOV21PORNYK-NYKJHART3-10
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Deni Avdija,5.5,exact,5.5,3,0.5632,0.57,0.46,KXNBAREB-26NOV21PORNYK-PORDAVDIJA8-6
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Deni Avdija,5.5,near,6.5,6,0.6064,0.57,0.46,KXNBAREB-26NOV21PORNYK-PORDAVDIJA8-6
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Toumani Camara,3.5,exact,3.5,3,0.5833,0.6,0.41,KXNBAREB-26NOV21PORNYK-PORTCAMARA33-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Toumani Camara,3.5,near,4.5,6,0.6525,0.6,0.41,KXNBAREB-26NOV21PORNYK-PORTCAMARA33-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Karl-Anthony Towns,11.5,near,12.5,8,0.6115,0.65,0.36,KXNBAREB-26NOV21PORNYK-NYKKTOWNS32-12
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Mikal Bridges,3.5,exact,3.5,7,0.472,0.49,0.53,KXNBAREB-26NOV21PORNYK-NYKMBRIDGES25-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Jalen Brunson,3.5,exact,3.5,6,0.4314,0.42,0.59,KXNBAREB-26NOV21PORNYK-NYKJBRUNSON11-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Donovan Clingan,9.5,near,10.5,8,0.5941,0.61,0.41,KXNBAREB-26NOV21PORNYK-PORDCLINGAN23-10
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Jrue Holiday,3.5,exact,3.5,6,0.5194,0.52,0.49,KXNBAREB-26NOV21PORNYK-PORJHOLIDAY5-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Damian Lillard,3.5,exact,3.5,8,0.437,0.44,0.57,KXNBAREB-26NOV21PORNYK-PORDLILLARD0-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Josh Hart,7.5,exact,7.5,6,0.4708,0.46,0.55,KXNBAREB-26NOV21PORNYK-NYKJHART3-8
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Josh Hart,5.5,near,6.5,3,0.7013,0.7,0.33,KXNBAREB-26NOV21PORNYK-NYKJHART3-6
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_rebounds,Sidy Cissoko,3.5,exact,3.5,7,0.5,0.49,0.52,KXNBAREB-26NOV21PORNYK-PORSCISSOKO91-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_assists,Deni Avdija,5.5,exact,5.5,8,0.4767,0.47,0.54,KXNBAAST-26NOV21PORNYK-PORDAVDIJA8-6
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_assists,Toumani Camara,1.5,exact,1.5,6,0.518,0.54,0.49,KXNBAAST-26NOV21PORNYK-PORTCAMARA33-2
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_assists,Karl-Anthony Towns,3.5,exact,3.5,8,0.4813,0.49,0.52,KXNBAAST-26NOV21PORNYK-NYKKTOWNS32-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_assists,Jalen Brunson,5.5,near,6.5,7,0.5919,0.59,0.42,KXNBAAST-26NOV21PORNYK-NYKJBRUNSON11-6
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_assists,Donovan Clingan,1.5,exact,1.5,6,0.5566,0.56,0.45,KXNBAAST-26NOV21PORNYK-PORDCLINGAN23-2
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_assists,Jrue Holiday,3.5,near,4.5,5,0.6181,0.63,0.4,KXNBAAST-26NOV21PORNYK-PORJHOLIDAY5-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_assists,Damian Lillard,3.5,exact,3.5,4,0.5851,0.6,0.41,KXNBAAST-26NOV21PORNYK-PORDLILLARD0-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_assists,Damian Lillard,3.5,near,4.5,5,0.6188,0.6,0.41,KXNBAAST-26NOV21PORNYK-PORDLILLARD0-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_assists,Josh Hart,3.5,exact,3.5,8,0.4993,0.5,0.51,KXNBAAST-26NOV21PORNYK-NYKJHART3-4
+2026-11-21T19:24:37+00:00,basketball_nba,Portland Trail Blazers at New York Knicks,player_assists,Sidy Cissoko,1.5,exact,1.5,5,0.601,0.59,0.42,KXNBAAST-26NOV21PORNYK-PORSCISSOKO91-2
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Brook Lopez,9.5,near,12.5,7,0.7746,0.7,0.32,KXNBAPTS-26NOV21LACDAL-LACBLOPEZ11-10
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Cooper Flagg,24.5,exact,24.5,6,0.5027,0.52,0.49,KXNBAPTS-26NOV21LACDAL-DALCFLAGG32-25
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Rui Hachimura,14.5,exact,14.5,3,0.48,0.46,0.55,KXNBAPTS-26NOV21LACDAL-LACRHACHIMURA28-15
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Kris Dunn,4.5,near,5.5,7,0.6871,0.56,0.47,KXNBAPTS-26NOV21LACDAL-LACKDUNN8-5
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Darius Garland,19.5,near,21.5,8,0.6103,0.6,0.42,KXNBAPTS-26NOV21LACDAL-LACDGARLAND10-20
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Kyrie Irving,19.5,near,22.5,5,0.674,0.68,0.36,KXNBAPTS-26NOV21LACDAL-DALKIRVING11-20
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Kyrie Irving,19.5,near,23.5,3,0.7051,0.68,0.36,KXNBAPTS-26NOV21LACDAL-DALKIRVING11-20
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Keaton Wagler,9.5,exact,9.5,8,0.5,0.51,0.5,KXNBAPTS-26NOV21LACDAL-LACKWAGLER1-10
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Naji Marshall,9.5,near,12.5,4,0.7761,0.69,0.36,KXNBAPTS-26NOV21LACDAL-DALNMARSHALL3-10
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Daniel Gafford,9.5,exact,9.5,3,0.4695,0.44,0.57,KXNBAPTS-26NOV21LACDAL-DALDGAFFORD21-10
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_points,Caleb Martin,4.5,near,5.5,4,0.7376,0.66,0.37,KXNBAPTS-26NOV21LACDAL-DALCMARTIN16-5
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Brook Lopez,5.5,exact,5.5,7,0.4308,0.43,0.58,KXNBAREB-26NOV21LACDAL-LACBLOPEZ11-6
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Cooper Flagg,5.5,near,6.5,4,0.6989,0.71,0.33,KXNBAREB-26NOV21LACDAL-DALCFLAGG32-6
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Cooper Flagg,7.5,exact,7.5,4,0.4415,0.45,0.59,KXNBAREB-26NOV21LACDAL-DALCFLAGG32-8
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Rui Hachimura,3.5,near,4.5,6,0.7545,0.71,0.3,KXNBAREB-26NOV21LACDAL-LACRHACHIMURA28-4
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Rui Hachimura,5.5,exact,5.5,3,0.4278,0.41,0.6,KXNBAREB-26NOV21LACDAL-LACRHACHIMURA28-6
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Caleb Martin,3.5,exact,3.5,6,0.5007,0.52,0.49,KXNBAREB-26NOV21LACDAL-DALCMARTIN16-4
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Derrick Jones Jr.,3.5,exact,3.5,7,0.5658,0.57,0.44,KXNBAREB-26NOV21LACDAL-LACDJONES5-4
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Kyrie Irving,3.5,near,4.5,4,0.6241,0.6,0.43,KXNBAREB-26NOV21LACDAL-DALKIRVING11-4
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Kyrie Irving,3.5,exact,3.5,4,0.577,0.6,0.43,KXNBAREB-26NOV21LACDAL-DALKIRVING11-4
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Naji Marshall,3.5,exact,3.5,4,0.5746,0.59,0.44,KXNBAREB-26NOV21LACDAL-DALNMARSHALL3-4
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_rebounds,Daniel Gafford,5.5,near,6.5,7,0.631,0.63,0.39,KXNBAREB-26NOV21LACDAL-DALDGAFFORD21-6
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_assists,Cooper Flagg,5.5,near,6.5,6,0.5701,0.59,0.44,KXNBAAST-26NOV21LACDAL-DALCFLAGG32-6
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_assists,Kyrie Irving,3.5,near,4.5,7,0.6905,0.71,0.34,KXNBAAST-26NOV21LACDAL-DALKIRVING11-4
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_assists,Naji Marshall,3.5,exact,3.5,5,0.5387,0.51,0.5,KXNBAAST-26NOV21LACDAL-DALNMARSHALL3-4
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_assists,Daniel Gafford,1.5,exact,1.5,4,0.4472,0.47,0.56,KXNBAAST-26NOV21LACDAL-DALDGAFFORD21-2
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_assists,Rui Hachimura,1.5,exact,1.5,5,0.45,0.43,0.58,KXNBAAST-26NOV21LACDAL-LACRHACHIMURA28-2
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_assists,Kris Dunn,3.5,exact,3.5,3,0.4057,0.41,0.61,KXNBAAST-26NOV21LACDAL-LACKDUNN8-4
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_assists,Darius Garland,7.5,exact,7.5,7,0.4459,0.46,0.55,KXNBAAST-26NOV21LACDAL-LACDGARLAND10-8
+2026-11-21T19:24:37+00:00,basketball_nba,Los Angeles Clippers at Dallas Mavericks,player_assists,Derrick Jones Jr.,1.5,exact,1.5,5,0.3813,0.38,0.64,KXNBAAST-26NOV21LACDAL-LACDJONES5-2

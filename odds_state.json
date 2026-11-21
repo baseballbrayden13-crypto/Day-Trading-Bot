@@ -108,25 +108,6 @@
    "opened": "2026-11-21T02:30:18+00:00"
   },
   {
-   "kind": "value",
-   "game": "Siena Saints at Bucknell Bison",
-   "game_id": "934d69fc4e080af297a4f91987ad87f0",
-   "sport": "basketball_ncaab",
-   "start": "2026-11-21T16:00:00Z",
-   "edge": 0.0353,
-   "home": "Bucknell Bison",
-   "away": "Siena Saints",
-   "legs": [
-    {
-     "team": "Bucknell Bison",
-     "book": "FanDuel",
-     "odds": 3.15,
-     "stake": 10.0
-    }
-   ],
-   "opened": "2026-11-21T02:30:18+00:00"
-  },
-  {
    "kind": "arb",
    "game": "Pennsylvania Quakers at La Salle Explorers",
    "game_id": "b21de9c914b929255529918fffaa1efb",
@@ -150,12 +131,105 @@
     }
    ],
    "opened": "2026-11-21T02:30:18+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Tennessee Titans at Dallas Cowboys",
+   "game_id": "5e63079b678f8c13419adc169fff02d3",
+   "sport": "americanfootball_nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "edge": 0.0422,
+   "home": "Dallas Cowboys",
+   "away": "Tennessee Titans",
+   "legs": [
+    {
+     "team": "Tennessee Titans",
+     "book": "FanDuel",
+     "odds": 4.3,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-21T19:24:33+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Northeastern Huskies at Stonehill Skyhawks",
+   "game_id": "e7d59ea4f2c81294a88a46cc63628713",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-21T22:00:00Z",
+   "edge": 0.0349,
+   "home": "Stonehill Skyhawks",
+   "away": "Northeastern Huskies",
+   "legs": [
+    {
+     "team": "Stonehill Skyhawks",
+     "book": "FanDuel",
+     "odds": 4.6,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-21T19:24:33+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Northeastern Huskies at Stonehill Skyhawks",
+   "game_id": "e7d59ea4f2c81294a88a46cc63628713",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-21T22:00:00Z",
+   "edge": 0.0574,
+   "home": "Stonehill Skyhawks",
+   "away": "Northeastern Huskies",
+   "legs": [
+    {
+     "team": "Stonehill Skyhawks",
+     "book": "BetRivers",
+     "odds": 4.7,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-21T19:24:33+00:00"
+  },
+  {
+   "kind": "value",
+   "game": "Bradley Braves at Pacific Tigers",
+   "game_id": "a771a9f91712c2747321ed9cadf62f36",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-22T03:00:00Z",
+   "edge": 0.0465,
+   "home": "Pacific Tigers",
+   "away": "Bradley Braves",
+   "legs": [
+    {
+     "team": "Bradley Braves",
+     "book": "BetRivers",
+     "odds": 4.5,
+     "stake": 10.0
+    }
+   ],
+   "opened": "2026-11-21T19:24:33+00:00"
+  },
+  {
+   "kind": "kalshi",
+   "game": "Bradley Braves at Pacific Tigers",
+   "game_id": "a771a9f91712c2747321ed9cadf62f36",
+   "sport": "basketball_ncaab",
+   "start": "2026-11-22T03:00:00Z",
+   "edge": 0.0476,
+   "home": "Pacific Tigers",
+   "away": "Bradley Braves",
+   "legs": [
+    {
+     "team": "Bradley Braves",
+     "book": "Kalshi",
+     "odds": 4.505,
+     "stake": 10.0,
+     "ticker": "KXNCAAMBGAME-26NOV21BRADPAC-BRAD"
+    }
+   ],
+   "opened": "2026-11-21T19:24:33+00:00"
   }
  ],
  "seen": {
-  "arb|e6a37eea1dddcbd0384c81237e81f47f|Brooklyn Nets@Bovada|New Orleans Pelicans@FanDuel": "2026-11-11T16:17:42.264504+00:00",
-  "value|eb4ac6c20fe9cf690a2a2409335a3341|Florida A&M Rattlers|BetRivers": "2026-11-11T16:17:42.264504+00:00",
-  "value|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes|FanDuel": "2026-11-11T16:17:42.264504+00:00",
   "value|015a3bad9e6d4b3ce108f6e7c663ed88|Kent State Golden Flashes|BetOnline.ag": "2026-11-11T22:53:52.925382+00:00",
   "value|5d71d9f77f845ab0748462e4714c0215|Abilene Christian Wildcats|BetRivers": "2026-11-11T22:53:52.925382+00:00",
   "value|92cc2f2a169d4efd4f1a0ac9d25672bc|California Golden Bears|FanDuel": "2026-11-11T22:53:52.925382+00:00",
@@ -228,18 +302,23 @@
   "value|3290d93b2078b71d318a773cb4252d89|Drexel Dragons|BetRivers": "2026-11-20T21:14:47.081448+00:00",
   "value|37e3f99d7ee68587400e99e417db0e6a|Memphis Grizzlies|Pinnacle": "2026-11-21T02:30:18.901640+00:00",
   "value|934d69fc4e080af297a4f91987ad87f0|Bucknell Bison|FanDuel": "2026-11-21T02:30:18.901640+00:00",
-  "arb|b21de9c914b929255529918fffaa1efb|La Salle Explorers@BetRivers|Pennsylvania Quakers@Bovada": "2026-11-21T02:30:18.901640+00:00"
+  "arb|b21de9c914b929255529918fffaa1efb|La Salle Explorers@BetRivers|Pennsylvania Quakers@Bovada": "2026-11-21T02:30:18.901640+00:00",
+  "value|5e63079b678f8c13419adc169fff02d3|Tennessee Titans|FanDuel": "2026-11-21T19:24:33.882441+00:00",
+  "value|e7d59ea4f2c81294a88a46cc63628713|Stonehill Skyhawks|FanDuel": "2026-11-21T19:24:33.882441+00:00",
+  "value|e7d59ea4f2c81294a88a46cc63628713|Stonehill Skyhawks|BetRivers": "2026-11-21T19:24:33.882441+00:00",
+  "value|a771a9f91712c2747321ed9cadf62f36|Bradley Braves|BetRivers": "2026-11-21T19:24:33.882441+00:00",
+  "kalshi|a771a9f91712c2747321ed9cadf62f36|Bradley Braves|Kalshi": "2026-11-21T19:24:33.882441+00:00"
  },
  "credits": {
   "day": "2026-11-21",
-  "spent": 0,
-  "remaining": 281
+  "spent": 5,
+  "remaining": 276
  },
  "last_priced": {
-  "basketball_nba": "2026-11-21T02:30:18.901640+00:00",
-  "icehockey_nhl": "2026-11-21T02:30:18.901640+00:00",
-  "americanfootball_ncaaf": "2026-11-21T02:30:18.901640+00:00",
-  "basketball_ncaab": "2026-11-21T02:30:18.901640+00:00",
-  "americanfootball_nfl": "2026-11-19T22:14:35.615453+00:00"
+  "basketball_nba": "2026-11-21T19:24:33.882441+00:00",
+  "icehockey_nhl": "2026-11-21T19:24:33.882441+00:00",
+  "americanfootball_ncaaf": "2026-11-21T19:24:33.882441+00:00",
+  "basketball_ncaab": "2026-11-21T19:24:33.882441+00:00",
+  "americanfootball_nfl": "2026-11-21T19:24:33.882441+00:00"
  }
 }

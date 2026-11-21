@@ -1,24 +1,36 @@
 {
- "updated": "2026-11-21T11:18:25+00:00",
+ "updated": "2026-11-21T19:24:33+00:00",
  "scan": {
-  "sports": [],
-  "games": 0,
-  "kalshi_matched": 0,
+  "sports": [
+   "americanfootball_nfl",
+   "basketball_nba",
+   "icehockey_nhl",
+   "americanfootball_ncaaf",
+   "basketball_ncaab"
+  ],
+  "games": 105,
+  "kalshi_matched": 95,
   "skipped": [],
-  "note": "quiet hours",
-  "credits_left": 281,
-  "spent_today": 0,
+  "pinnacle": 95,
+  "credits_left": 276,
+  "spent_today": 5,
   "allowance": 28
  },
- "new_finds": [],
- "open_bets": 7,
+ "new_finds": [
+  "Tennessee Titans @ FanDuel 4.3 (fair 4.13, +4.2% expected) Tennessee Titans at Dallas Cowboys (Sun 1:00PM)",
+  "Stonehill Skyhawks @ FanDuel 4.6 (fair 4.44, +3.5% expected) Northeastern Huskies at Stonehill Skyhawks (Sat 5:00PM)",
+  "Stonehill Skyhawks @ BetRivers 4.7 (fair 4.44, +5.7% expected) Northeastern Huskies at Stonehill Skyhawks (Sat 5:00PM)",
+  "Bradley Braves @ BetRivers 4.5 (fair 4.30, +4.7% expected) Bradley Braves at Pacific Tigers (Sat 10:00PM)",
+  "Bradley Braves @ Kalshi 4.505 (fair 4.30, +4.8% expected) Bradley Braves at Pacific Tigers (Sat 10:00PM)"
+ ],
+ "open_bets": 11,
  "record": {
   "value": {
-   "bets": 57,
+   "bets": 58,
    "wins": 12,
-   "staked": 570.0,
-   "pnl": -69.9,
-   "roi": -0.1226
+   "staked": 580.0,
+   "pnl": -79.9,
+   "roi": -0.1378
   },
   "kalshi": {
    "bets": 6,
@@ -35,11 +47,11 @@
    "roi": 0.013
   },
   "all": {
-   "bets": 75,
+   "bets": 76,
    "wins": 25,
-   "staked": 1830.0,
-   "pnl": -69.24,
-   "roi": -0.0378
+   "staked": 1840.0,
+   "pnl": -79.24,
+   "roi": -0.0431
   }
  }
 }
