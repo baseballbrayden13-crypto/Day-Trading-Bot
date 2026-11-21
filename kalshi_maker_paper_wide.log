@@ -11217,3 +11217,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 08:14:33,822 INFO Swept 22898 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-21 08:19:37,402 INFO Swept 22912 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 08:24:39,260 INFO Swept 22908 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 08:29:42,584 INFO Swept 22884 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 08:34:45,296 INFO Swept 22872 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 08:39:46,418 INFO Swept 22863 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 08:44:47,477 INFO Swept 22860 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 08:49:46,972 INFO PAPER rest NO bid KXF1H2HLOTP-VEGAS26NORANT-NOR at $0.5500 x4 (0 already bid at that price)
+2026-11-21 08:49:46,972 INFO Resting NO bid on KXF1H2HLOTP-VEGAS26NORANT-NOR at $0.5500 x4 (KXF1H2HLOTP-VEGAS26NORANT): locks in $0.15 if it fills; hedge NO ANT@0.3900
+2026-11-21 08:49:47,124 INFO Swept 22863 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 08:54:45,309 INFO Swept 22859 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 08:55:00,570 INFO PAPER KXF1H2HLOTP-VEGAS26NORANT-NOR NO bid at $0.5500: 4/4 filled by real trades
+2026-11-21 08:55:00,612 INFO PAPER buy 4 NO KXF1H2HLOTP-VEGAS26NORANT-ANT at up to $0.3900: not on the book
+2026-11-21 08:55:00,640 INFO PAPER buy 4 NO KXF1H2HLOTP-VEGAS26NORANT-ANT at up to $0.47: filled 4
+2026-11-21 08:55:00,641 INFO Quote KXF1H2HLOTP-VEGAS26NORANT: hedge on KXF1H2HLOTP-VEGAS26NORANT-ANT chased from 0.3900 to 0.47
+2026-11-21 08:55:00,641 INFO Quote KXF1H2HLOTP-VEGAS26NORANT filled 4: hedged, locks in $-0.17
