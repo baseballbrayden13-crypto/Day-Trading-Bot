@@ -3033,36 +3033,17 @@
    "series": "KXNCAAHGAME",
    "title": "Arizona State vs Minnesota Duluth",
    "ticker": "KXNCAAHGAME-26NOV20ASUUMD-ASU",
-   "order_id": "paper-1261-1795228208",
-   "price": "0.2400",
+   "order_id": "paper-1264-1795230321",
+   "price": "0.2700",
    "sets": 1,
    "done": 0,
-   "reserve": "0.7900",
+   "reserve": "0.8200",
    "multiplier": "1",
-   "placed": 1795228208.518729,
+   "placed": 1795230321.144753,
    "hedge": [
     {
      "ticker": "KXNCAAHGAME-26NOV20ASUUMD-UMD",
      "limit": "0.5200"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAHGAME-26NOV20CANNIA",
-   "series": "KXNCAAHGAME",
-   "title": "Canisius vs Niagara",
-   "ticker": "KXNCAAHGAME-26NOV20CANNIA-CAN",
-   "order_id": "paper-1262-1795228508",
-   "price": "0.1300",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.6500",
-   "multiplier": "1",
-   "placed": 1795228508.2147222,
-   "hedge": [
-    {
-     "ticker": "KXNCAAHGAME-26NOV20CANNIA-NIA",
-     "limit": "0.8200"
     }
    ]
   }

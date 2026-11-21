@@ -11093,3 +11093,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 21:40:03,888 INFO Swept 23262 events: 0 taker trades, 0 new quotes, 3 resting
 2026-11-20 21:45:06,720 INFO Swept 23247 events: 0 taker trades, 0 new quotes, 3 resting
 2026-11-20 21:50:11,705 INFO Swept 23228 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 21:55:16,120 INFO PAPER rest NO bid KXLIGAMXSCORE-26NOV20PUEASL-PUE1ASL2 at $0.7300 x1 (0 already bid at that price)
+2026-11-20 21:55:16,120 INFO Resting NO bid on KXLIGAMXSCORE-26NOV20PUEASL-PUE1ASL2 at $0.7300 x1 (KXLIGAMXSCORE-26NOV20PUEASL): locks in $0.19 if it fills; hedge NO PUE1ASL1@0.0600
+2026-11-20 21:55:16,218 INFO Swept 23209 events: 0 taker trades, 1 new quotes, 3 resting
+2026-11-20 21:55:21,516 INFO Quote KXLIGAMXSCORE-26NOV20PUEASL cancelled (0/1 filled)
+2026-11-20 22:00:18,839 INFO Swept 23200 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 22:05:21,144 INFO PAPER rest NO bid KXNCAAHGAME-26NOV20ASUUMD-ASU at $0.2700 x1 (0 already bid at that price)
+2026-11-20 22:05:21,144 INFO Resting NO bid on KXNCAAHGAME-26NOV20ASUUMD-ASU at $0.2700 x1 (KXNCAAHGAME-26NOV20ASUUMD): locks in $0.18 if it fills; hedge NO UMD@0.5200
+2026-11-20 22:05:21,280 INFO Swept 23157 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-20 22:10:19,401 INFO Swept 23155 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 22:15:28,238 INFO Swept 23110 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 22:20:27,635 INFO Swept 23101 events: 0 taker trades, 0 new quotes, 1 resting
