@@ -3029,21 +3029,21 @@
  ],
  "quotes": [
   {
-   "event": "KXNCAAWBGAME-26NOV22UCLATENN",
-   "series": "KXNCAAWBGAME",
-   "title": "UCLA vs Tennessee",
-   "ticker": "KXNCAAWBGAME-26NOV22UCLATENN-UCLA",
-   "order_id": "paper-1268-1795239682",
-   "price": "0.26",
+   "event": "KXNBAGAME-26NOV24DETORL",
+   "series": "KXNBAGAME",
+   "title": "Detroit vs Orlando",
+   "ticker": "KXNBAGAME-26NOV24DETORL-ORL",
+   "order_id": "paper-1269-1795241807",
+   "price": "0.50",
    "sets": 4,
    "done": 0,
-   "reserve": "3.9000",
+   "reserve": "3.8900",
    "multiplier": "1",
-   "placed": 1795239682.7507017,
+   "placed": 1795241807.803191,
    "hedge": [
     {
-     "ticker": "KXNCAAWBGAME-26NOV22UCLATENN-TENN",
-     "limit": "0.7000"
+     "ticker": "KXNBAGAME-26NOV24DETORL-DET",
+     "limit": "0.4500"
     }
    ]
   }
