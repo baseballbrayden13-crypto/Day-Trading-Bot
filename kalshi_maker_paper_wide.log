@@ -11065,3 +11065,7 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 19:51:08,357 INFO PAPER rest NO bid KXNCAAHGAME-26NOV20CANNIA-CAN at $0.4000 x2 (0 already bid at that price)
 2026-11-20 19:51:08,357 INFO Resting NO bid on KXNCAAHGAME-26NOV20CANNIA-CAN at $0.4000 x2 (KXNCAAHGAME-26NOV20CANNIA): locks in $0.13 if it fills; hedge NO NIA@0.5100
 2026-11-20 19:51:08,655 INFO Swept 23386 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-20 19:56:28,376 INFO Swept 23371 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 20:01:39,544 INFO Swept 23362 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 20:06:50,216 INFO Swept 23357 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 20:06:55,660 INFO Stopped; all quotes cancelled.

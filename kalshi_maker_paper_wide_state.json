@@ -3027,44 +3027,5 @@
    "closed": "2026-11-20T23:14:15.639326+00:00"
   }
  ],
- "quotes": [
-  {
-   "event": "KXLBPRCGAME-26NOV201800GIGSAT",
-   "series": "KXLBPRCGAME",
-   "title": "Gigantes de Carolina vs Cangrejeros de Santurce",
-   "ticker": "KXLBPRCGAME-26NOV201800GIGSAT-SAT",
-   "order_id": "paper-1256-1795221658",
-   "price": "0.2600",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.7800",
-   "multiplier": "1",
-   "placed": 1795221658.5133495,
-   "hedge": [
-    {
-     "ticker": "KXLBPRCGAME-26NOV201800GIGSAT-GIG",
-     "limit": "0.4900"
-    }
-   ]
-  },
-  {
-   "event": "KXNCAAHGAME-26NOV20CANNIA",
-   "series": "KXNCAAHGAME",
-   "title": "Canisius vs Niagara",
-   "ticker": "KXNCAAHGAME-26NOV20CANNIA-CAN",
-   "order_id": "paper-1257-1795222268",
-   "price": "0.4000",
-   "sets": 2,
-   "done": 0,
-   "reserve": "1.8700",
-   "multiplier": "1",
-   "placed": 1795222268.357201,
-   "hedge": [
-    {
-     "ticker": "KXNCAAHGAME-26NOV20CANNIA-NIA",
-     "limit": "0.5100"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
