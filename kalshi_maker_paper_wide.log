@@ -11119,3 +11119,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 23:10:50,093 INFO Swept 22909 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 23:15:52,126 INFO Swept 22896 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-20 23:20:54,637 INFO Swept 22915 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 23:25:58,896 INFO PAPER rest NO bid KXNBAGAME-26NOV24DETORL-ORL at $0.4900 x4 (2 already bid at that price)
+2026-11-20 23:25:58,896 INFO Resting NO bid on KXNBAGAME-26NOV24DETORL-ORL at $0.49 x4 (KXNBAGAME-26NOV24DETORL): locks in $0.12 if it fills; hedge NO DET@0.4800
+2026-11-20 23:25:58,999 INFO Swept 22916 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-20 23:30:59,127 INFO Swept 22920 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 23:36:02,227 INFO Swept 22917 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 23:41:05,816 INFO Swept 22914 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 23:46:01,747 INFO Swept 22907 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 23:51:01,959 INFO Swept 22943 events: 0 taker trades, 0 new quotes, 1 resting

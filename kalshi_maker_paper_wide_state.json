@@ -3027,5 +3027,25 @@
    "closed": "2026-11-20T23:14:15.639326+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNBAGAME-26NOV24DETORL",
+   "series": "KXNBAGAME",
+   "title": "Detroit vs Orlando",
+   "ticker": "KXNBAGAME-26NOV24DETORL-ORL",
+   "order_id": "paper-1266-1795235158",
+   "price": "0.49",
+   "sets": 4,
+   "done": 0,
+   "reserve": "3.8800",
+   "multiplier": "1",
+   "placed": 1795235158.8967605,
+   "hedge": [
+    {
+     "ticker": "KXNBAGAME-26NOV24DETORL-DET",
+     "limit": "0.4800"
+    }
+   ]
+  }
+ ]
 }
