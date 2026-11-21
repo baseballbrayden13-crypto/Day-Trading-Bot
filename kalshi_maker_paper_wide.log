@@ -11171,3 +11171,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 02:32:24,407 INFO Swept 22727 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 02:37:06,124 INFO Swept 22739 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 02:37:11,130 INFO Stopped; all quotes cancelled.
+2026-11-21 05:23:53,426 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-21 05:28:08,871 INFO Swept 22722 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 05:33:11,840 INFO Swept 22729 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 05:38:14,189 INFO PAPER rest NO bid KXNBBGAME-26NOV221500PAUMOG-MOG at $0.1400 x4 (331 already bid at that price)
+2026-11-21 05:38:14,189 INFO Resting NO bid on KXNBBGAME-26NOV221500PAUMOG-MOG at $0.14 x4 (KXNBBGAME-26NOV221500PAUMOG): locks in $0.10 if it fills; hedge NO PAU@0.8200
+2026-11-21 05:38:14,344 INFO Swept 22722 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 05:43:16,435 INFO Swept 22720 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 05:48:20,870 INFO Swept 22717 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 05:48:20,994 INFO Quote KXNBBGAME-26NOV221500PAUMOG cancelled (0/4 filled)
+2026-11-21 05:53:26,401 INFO Swept 22719 events: 0 taker trades, 0 new quotes, 0 resting
