@@ -4926,3 +4926,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 02:38:21,130 INFO Resting NO bid on KXALEAGUEWGAME-26NOV21BRIMCY-TIE at $0.5000 x2 (KXALEAGUEWGAME-26NOV21BRIMCY): locks in $0.50 if it fills; hedge NO BRI@0.2300
 2026-11-21 02:38:21,132 INFO Swept 22739 events: 0 taker trades, 1 new quotes, 1 resting
 2026-11-21 02:38:26,225 INFO Stopped; all quotes cancelled.
+2026-11-21 05:23:58,005 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-21 05:28:56,094 INFO Swept 22730 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 05:34:01,349 INFO Swept 22729 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 05:39:07,923 INFO Swept 22722 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 05:44:14,841 INFO Swept 22720 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 05:49:24,516 INFO Swept 22715 events: 0 taker trades, 0 new quotes, 0 resting
