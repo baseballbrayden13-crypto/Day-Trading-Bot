@@ -5010,3 +5010,16 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 11:09:11,563 INFO Swept 22516 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 11:09:11,934 INFO Quote KXCS2GAME-26NOV220900GROGLI cancelled (0/1 filled)
 2026-11-21 11:09:16,936 INFO Stopped; all quotes cancelled.
+2026-11-21 13:23:48,058 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.20, up to 10 quotes
+2026-11-21 13:27:02,850 INFO Swept 22165 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 13:32:10,226 INFO Swept 22134 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 13:37:12,101 INFO PAPER rest NO bid KXNCAAF2Q-26NOV21SYRBC-SYR at $0.5300 x2 (0 already bid at that price)
+2026-11-21 13:37:12,101 INFO Resting NO bid on KXNCAAF2Q-26NOV21SYRBC-SYR at $0.5300 x2 (KXNCAAF2Q-26NOV21SYRBC): locks in $0.40 if it fills; hedge NO BC@0.2500
+2026-11-21 13:37:12,152 INFO PAPER rest NO bid KXT20MATCH-26NOV212130MNPRSVCS-MNPR at $0.7500 x4 (0 already bid at that price)
+2026-11-21 13:37:12,152 INFO Resting NO bid on KXT20MATCH-26NOV212130MNPRSVCS-MNPR at $0.7500 x4 (KXT20MATCH-26NOV212130MNPRSVCS): locks in $0.42 if it fills; hedge NO SVCS@0.1300
+2026-11-21 13:37:12,154 INFO Swept 22107 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-21 13:42:13,072 INFO Swept 22080 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-21 13:42:18,630 INFO Quote KXT20MATCH-26NOV212130MNPRSVCS cancelled (0/4 filled)
+2026-11-21 13:47:16,331 INFO Swept 22064 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 13:52:18,788 INFO Swept 22049 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 13:52:19,087 INFO Quote KXNCAAF2Q-26NOV21SYRBC cancelled (0/2 filled)
