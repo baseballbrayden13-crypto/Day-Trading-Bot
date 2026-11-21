@@ -4810,3 +4810,7 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 19:44:16,431 INFO Swept 23400 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-20 19:49:19,595 INFO Swept 23379 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-20 19:54:27,525 INFO Swept 23377 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 19:59:38,411 INFO Swept 23364 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 20:04:24,006 INFO Swept 23359 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 20:09:30,233 INFO Swept 23365 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 20:09:35,300 INFO Stopped; all quotes cancelled.
