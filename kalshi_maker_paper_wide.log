@@ -11278,3 +11278,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 14:39:39,105 INFO Swept 21953 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 14:44:41,864 INFO Swept 21912 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 14:49:44,652 INFO Swept 21892 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 14:54:53,421 INFO Swept 21882 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 14:59:51,833 INFO Swept 21869 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 15:04:57,844 INFO PAPER BET daily_safest: 1 NO KXRAIN-26NOV21-DEN at 0.9800 (fee 0.01), model 98%, expects $-0.01. daily safest: likeliest outcome closing within 24h
+2026-11-21 15:04:58,091 INFO PAPER COMBO: NO KXRAIN-26NOV21-DEN, YES KXLOWTPHX-26NOV21-T49, YES KXLOWTOKC-26NOV21-B51.5 at 0.9412. daily combo: all 3 safest sides must win
+2026-11-21 15:04:58,094 INFO Swept 21838 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 15:09:59,051 INFO Swept 21806 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 15:15:04,006 INFO Swept 21915 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 15:20:07,080 INFO Swept 21898 events: 0 taker trades, 0 new quotes, 0 resting
