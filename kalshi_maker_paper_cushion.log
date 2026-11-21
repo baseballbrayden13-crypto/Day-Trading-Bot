@@ -4893,3 +4893,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 00:17:46,297 INFO Swept 22867 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-21 00:22:48,748 INFO Swept 22867 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-21 00:22:49,015 INFO Quote KXNBAGAME-26NOV24BOSWAS cancelled (0/5 filled)
+2026-11-21 00:27:48,599 INFO Swept 22853 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 00:32:59,902 INFO Swept 22851 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 00:38:03,870 INFO Swept 22827 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 00:43:02,779 INFO Swept 22833 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 00:48:08,095 INFO Swept 22815 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 00:53:06,323 INFO Swept 22809 events: 0 taker trades, 0 new quotes, 0 resting
