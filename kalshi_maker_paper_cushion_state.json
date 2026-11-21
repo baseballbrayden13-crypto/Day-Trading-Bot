@@ -480,5 +480,44 @@
    "sold_back": true
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXLIGAPROMATCH-26NOV210000BLIPRI",
+   "series": "KXLIGAPROMATCH",
+   "title": "Blinov Igor vs Priakhin Vadim",
+   "ticker": "KXLIGAPROMATCH-26NOV210000BLIPRI-PRI",
+   "order_id": "paper-290-1795235841",
+   "price": "0.3700",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.7900",
+   "multiplier": "1",
+   "placed": 1795235841.7005227,
+   "hedge": [
+    {
+     "ticker": "KXLIGAPROMATCH-26NOV210000BLIPRI-BLI",
+     "limit": "0.5000"
+    }
+   ]
+  },
+  {
+   "event": "KXNBAGAME-26NOV25MIAPHI",
+   "series": "KXNBAGAME",
+   "title": "Miami vs Philadelphia",
+   "ticker": "KXNBAGAME-26NOV25MIAPHI-MIA",
+   "order_id": "paper-291-1795236750",
+   "price": "0.56",
+   "sets": 3,
+   "done": 0,
+   "reserve": "2.8000",
+   "multiplier": "1",
+   "placed": 1795236750.5773876,
+   "hedge": [
+    {
+     "ticker": "KXNBAGAME-26NOV25MIAPHI-PHI",
+     "limit": "0.3500"
+    }
+   ]
+  }
+ ]
 }
