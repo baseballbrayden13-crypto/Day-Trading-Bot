@@ -4853,3 +4853,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 21:46:49,634 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
 2026-11-20 21:51:52,571 INFO Swept 23228 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 21:51:52,654 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
+2026-11-20 21:56:53,553 INFO Swept 23208 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 21:56:53,634 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: not on the book
+2026-11-20 22:01:53,099 INFO Swept 23200 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 22:01:53,156 INFO PAPER sell 2 YES KXLVBPGAME-26NOV201800ANZMAG-ANZ at up to $0.8200: filled 2
+2026-11-20 22:01:53,156 INFO Stray KXLVBPGAME-26NOV201800ANZMAG-ANZ: sold 2 of 2 at $0.1800 or better, booked $-0.34
+2026-11-20 22:07:00,699 INFO Swept 23160 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 22:12:02,904 INFO Swept 23155 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 22:17:01,786 INFO Swept 23109 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-20 22:22:05,835 INFO Swept 23100 events: 0 taker trades, 0 new quotes, 0 resting

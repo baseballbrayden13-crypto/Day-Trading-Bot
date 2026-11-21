@@ -1,25 +1,6 @@
 {
- "realized": "-4.7500",
- "open": [
-  {
-   "event": "KXLVBPGAME-26NOV201800ANZMAG (stray)",
-   "series": "KXLVBPGAME",
-   "title": "Caribes de Anzoategui vs Navegantes de Magallanes",
-   "sets": 0,
-   "outlay": "0.6700",
-   "locked_profit": "0",
-   "opened": "2026-11-21T02:11:28.625292+00:00",
-   "legs": [
-    {
-     "ticker": "KXLVBPGAME-26NOV201800ANZMAG-ANZ",
-     "side": "no",
-     "count": 2,
-     "limit": "0.3300"
-    }
-   ],
-   "retried": 1795229512.6280303
-  }
- ],
+ "realized": "-5.0900",
+ "open": [],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -475,27 +456,29 @@
     "KXCONCACAFNLADVANCE-26NOV17SLVSMA-SLV": "yes"
    },
    "closed": "2026-11-18T04:32:06.140421+00:00"
+  },
+  {
+   "event": "KXLVBPGAME-26NOV201800ANZMAG (stray)",
+   "series": "KXLVBPGAME",
+   "title": "Caribes de Anzoategui vs Navegantes de Magallanes",
+   "sets": 0,
+   "outlay": "0.6700",
+   "locked_profit": "0",
+   "opened": "2026-11-21T02:11:28.625292+00:00",
+   "legs": [
+    {
+     "ticker": "KXLVBPGAME-26NOV201800ANZMAG-ANZ",
+     "side": "no",
+     "count": 2,
+     "limit": "0.3300"
+    }
+   ],
+   "retried": 1795230113.13038,
+   "paid": "0.3600",
+   "pnl": "-0.3400",
+   "closed": "2026-11-21T03:01:53.156353+00:00",
+   "sold_back": true
   }
  ],
- "quotes": [
-  {
-   "event": "KXNCAAHGAME-26NOV20ASUUMD",
-   "series": "KXNCAAHGAME",
-   "title": "Arizona State vs Minnesota Duluth",
-   "ticker": "KXNCAAHGAME-26NOV20ASUUMD-ASU",
-   "order_id": "paper-289-1795228293",
-   "price": "0.2400",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.7900",
-   "multiplier": "1",
-   "placed": 1795228293.4421704,
-   "hedge": [
-    {
-     "ticker": "KXNCAAHGAME-26NOV20ASUUMD-UMD",
-     "limit": "0.5200"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
