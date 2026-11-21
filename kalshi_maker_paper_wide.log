@@ -11069,3 +11069,17 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 20:01:39,544 INFO Swept 23362 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-20 20:06:50,216 INFO Swept 23357 events: 0 taker trades, 0 new quotes, 2 resting
 2026-11-20 20:06:55,660 INFO Stopped; all quotes cancelled.
+2026-11-20 20:51:28,249 INFO Maker PAPER mode on REAL Kalshi prices, pretend budget $20, min profit $0.10, up to 10 quotes
+2026-11-20 20:54:48,903 INFO PAPER rest NO bid KXNCAAHGAME-26NOV20BCMAI-MAI at $0.1600 x2 (0 already bid at that price)
+2026-11-20 20:54:48,903 INFO Resting NO bid on KXNCAAHGAME-26NOV20BCMAI-MAI at $0.1600 x2 (KXNCAAHGAME-26NOV20BCMAI): locks in $0.18 if it fills; hedge NO BC@0.7300
+2026-11-20 20:54:48,942 INFO PAPER rest NO bid KXNCAAHGAME-26NOV20ASUUMD-ASU at $0.3400 x2 (1 already bid at that price)
+2026-11-20 20:54:48,942 INFO Resting NO bid on KXNCAAHGAME-26NOV20ASUUMD-ASU at $0.34 x2 (KXNCAAHGAME-26NOV20ASUUMD): locks in $0.11 if it fills; hedge NO UMD@0.6400
+2026-11-20 20:54:49,110 INFO Swept 23384 events: 0 taker trades, 2 new quotes, 2 resting
+2026-11-20 20:59:51,582 INFO Swept 23378 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 21:04:54,918 INFO Swept 23360 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 21:09:57,795 INFO Swept 23373 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 21:09:57,951 INFO Quote KXNCAAHGAME-26NOV20ASUUMD cancelled (0/2 filled)
+2026-11-20 21:15:02,518 INFO PAPER rest NO bid KXLVBPGAME-26NOV201800CARLAR-CAR at $0.3300 x2 (0 already bid at that price)
+2026-11-20 21:15:02,519 INFO Resting NO bid on KXLVBPGAME-26NOV201800CARLAR-CAR at $0.3300 x2 (KXLVBPGAME-26NOV201800CARLAR): locks in $0.31 if it fills; hedge NO LAR@0.4900
+2026-11-20 21:15:02,614 INFO Swept 23378 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-20 21:20:03,811 INFO Swept 23379 events: 0 taker trades, 0 new quotes, 2 resting

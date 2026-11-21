@@ -3027,5 +3027,44 @@
    "closed": "2026-11-20T23:14:15.639326+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAHGAME-26NOV20BCMAI",
+   "series": "KXNCAAHGAME",
+   "title": "Boston College vs Maine",
+   "ticker": "KXNCAAHGAME-26NOV20BCMAI-MAI",
+   "order_id": "paper-1258-1795226088",
+   "price": "0.1600",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8200",
+   "multiplier": "1",
+   "placed": 1795226088.9039085,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV20BCMAI-BC",
+     "limit": "0.7300"
+    }
+   ]
+  },
+  {
+   "event": "KXLVBPGAME-26NOV201800CARLAR",
+   "series": "KXLVBPGAME",
+   "title": "Leones de Caracas vs Cardenales de Lara",
+   "ticker": "KXLVBPGAME-26NOV201800CARLAR-CAR",
+   "order_id": "paper-1260-1795227302",
+   "price": "0.3300",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6900",
+   "multiplier": "1",
+   "placed": 1795227302.5190291,
+   "hedge": [
+    {
+     "ticker": "KXLVBPGAME-26NOV201800CARLAR-LAR",
+     "limit": "0.4900"
+    }
+   ]
+  }
+ ]
 }
