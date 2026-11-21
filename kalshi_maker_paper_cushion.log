@@ -5046,3 +5046,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 15:13:04,039 INFO Swept 21903 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 15:18:07,647 INFO Swept 21898 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 15:23:12,291 INFO Swept 21892 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 15:28:15,786 INFO PAPER rest NO bid KXEPLFTTS-26NOV23BREEVE-NONE at $0.1100 x2 (0 already bid at that price)
+2026-11-21 15:28:15,786 INFO Resting NO bid on KXEPLFTTS-26NOV23BREEVE-NONE at $0.1100 x2 (KXEPLFTTS-26NOV23BREEVE): locks in $0.29 if it fills; hedge NO BRE@0.8500, EVE@0.8700
+2026-11-21 15:28:15,787 INFO Swept 21832 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 15:33:17,877 INFO Swept 21813 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 15:38:20,961 INFO Swept 21804 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 15:43:21,139 INFO PAPER rest NO bid KXNM1GAME-26NOV211400LYSOBLS-LYSO at $0.2100 x2 (0 already bid at that price)
+2026-11-21 15:43:21,139 INFO Resting NO bid on KXNM1GAME-26NOV211400LYSOBLS-LYSO at $0.2100 x2 (KXNM1GAME-26NOV211400LYSOBLS): locks in $0.38 if it fills; hedge NO BLS@0.7500
+2026-11-21 15:43:21,140 INFO Swept 21750 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-21 15:48:22,150 INFO Swept 21710 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-21 15:49:09,430 INFO Quote KXNM1GAME-26NOV211400LYSOBLS cancelled (0/2 filled)
+2026-11-21 15:53:21,988 INFO Swept 21663 events: 0 taker trades, 0 new quotes, 1 resting

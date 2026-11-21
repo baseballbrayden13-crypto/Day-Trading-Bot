@@ -502,5 +502,29 @@
    "sold_back": true
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXEPLFTTS-26NOV23BREEVE",
+   "series": "KXEPLFTTS",
+   "title": "Brentford FC vs Everton FC: First Team to Score",
+   "ticker": "KXEPLFTTS-26NOV23BREEVE-NONE",
+   "order_id": "paper-302-1795292895",
+   "price": "0.1100",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.7100",
+   "multiplier": "1",
+   "placed": 1795292895.7865336,
+   "hedge": [
+    {
+     "ticker": "KXEPLFTTS-26NOV23BREEVE-BRE",
+     "limit": "0.8500"
+    },
+    {
+     "ticker": "KXEPLFTTS-26NOV23BREEVE-EVE",
+     "limit": "0.8700"
+    }
+   ]
+  }
+ ]
 }
