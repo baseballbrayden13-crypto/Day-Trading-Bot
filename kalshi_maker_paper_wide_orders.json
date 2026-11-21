@@ -17716,11 +17716,25 @@
   "count": 4,
   "ahead": 2,
   "placed": 1795235158.8859837,
-  "checked": 1795236732.8707333,
+  "checked": 1795236958,
   "expires": 1795236958,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-1267-1795237267": {
+  "id": "paper-1267-1795237267",
+  "ticker": "KXNBAGAME-26NOV24BOSWAS-BOS",
+  "price": "0.2700",
+  "count": 4,
+  "ahead": 0,
+  "placed": 1795237267.11936,
+  "checked": 1795238470.615924,
+  "expires": 1795239067,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }

@@ -11127,3 +11127,12 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 23:41:05,816 INFO Swept 22914 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 23:46:01,747 INFO Swept 22907 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-20 23:51:01,959 INFO Swept 22943 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-20 23:56:01,495 INFO Swept 22920 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 00:01:07,132 INFO PAPER rest NO bid KXNBAGAME-26NOV24BOSWAS-BOS at $0.2700 x4 (0 already bid at that price)
+2026-11-21 00:01:07,132 INFO Resting NO bid on KXNBAGAME-26NOV24BOSWAS-BOS at $0.2700 x4 (KXNBAGAME-26NOV24BOSWAS): locks in $0.15 if it fills; hedge NO WAS@0.6700
+2026-11-21 00:01:07,267 INFO Swept 22921 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 00:06:09,552 INFO Swept 22890 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 00:11:10,796 INFO Swept 22888 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 00:16:11,867 INFO Swept 22865 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 00:21:10,567 INFO Swept 22867 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 00:21:10,648 INFO Quote KXNBAGAME-26NOV24BOSWAS cancelled (0/4 filled)
