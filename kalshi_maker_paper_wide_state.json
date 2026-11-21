@@ -3027,5 +3027,29 @@
    "closed": "2026-11-20T23:14:15.639326+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXUKRPLGAME-26NOV21KRYKUD",
+   "series": "KXUKRPLGAME",
+   "title": "Kryvbas Kriviy vs Kudrivka",
+   "ticker": "KXUKRPLGAME-26NOV21KRYKUD-KRY",
+   "order_id": "paper-1272-1795261120",
+   "price": "0.29",
+   "sets": 2,
+   "done": 0,
+   "reserve": "3.8900",
+   "multiplier": "1",
+   "placed": 1795261120.206071,
+   "hedge": [
+    {
+     "ticker": "KXUKRPLGAME-26NOV21KRYKUD-KUD",
+     "limit": "0.8000"
+    },
+    {
+     "ticker": "KXUKRPLGAME-26NOV21KRYKUD-TIE",
+     "limit": "0.8200"
+    }
+   ]
+  }
+ ]
 }

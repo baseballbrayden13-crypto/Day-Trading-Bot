@@ -11187,3 +11187,11 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 06:13:34,179 INFO Swept 22783 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 06:18:34,523 INFO Swept 22782 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 06:23:35,399 INFO Swept 22780 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 06:28:36,511 INFO Swept 22773 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 06:33:38,117 INFO Swept 22781 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 06:38:40,205 INFO PAPER rest NO bid KXUKRPLGAME-26NOV21KRYKUD-KRY at $0.2900 x2 (12 already bid at that price)
+2026-11-21 06:38:40,206 INFO Resting NO bid on KXUKRPLGAME-26NOV21KRYKUD-KRY at $0.29 x2 (KXUKRPLGAME-26NOV21KRYKUD): locks in $0.11 if it fills; hedge NO KUD@0.8000, TIE@0.8200
+2026-11-21 06:38:40,363 INFO Swept 22781 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 06:43:41,333 INFO Swept 22781 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 06:48:40,982 INFO Swept 22782 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 06:53:45,709 INFO Swept 22794 events: 0 taker trades, 0 new quotes, 1 resting
