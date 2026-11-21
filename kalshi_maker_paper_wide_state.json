@@ -3029,21 +3029,40 @@
  ],
  "quotes": [
   {
-   "event": "KXCS2MAP-26NOV201845MIRARUS-1",
-   "series": "KXCS2MAP",
-   "title": "Mira vs. Rush: Map 1 Winner",
-   "ticker": "KXCS2MAP-26NOV201845MIRARUS-1-MIRA",
-   "order_id": "paper-1253-1795217992",
-   "price": "0.1000",
-   "sets": 1,
+   "event": "KXLVBPGAME-26NOV201800CARLAR",
+   "series": "KXLVBPGAME",
+   "title": "Leones de Caracas vs Cardenales de Lara",
+   "ticker": "KXLVBPGAME-26NOV201800CARLAR-CAR",
+   "order_id": "paper-1254-1795219815",
+   "price": "0.3000",
+   "sets": 2,
    "done": 0,
-   "reserve": "0.7000",
+   "reserve": "1.6300",
    "multiplier": "1",
-   "placed": 1795217992.5163634,
+   "placed": 1795219815.0994396,
    "hedge": [
     {
-     "ticker": "KXCS2MAP-26NOV201845MIRARUS-1-RUS",
-     "limit": "0.5700"
+     "ticker": "KXLVBPGAME-26NOV201800CARLAR-LAR",
+     "limit": "0.4900"
+    }
+   ]
+  },
+  {
+   "event": "KXNCAAHGAME-26NOV20CANNIA",
+   "series": "KXNCAAHGAME",
+   "title": "Canisius vs Niagara",
+   "ticker": "KXNCAAHGAME-26NOV20CANNIA-CAN",
+   "order_id": "paper-1255-1795220120",
+   "price": "0.2400",
+   "sets": 1,
+   "done": 0,
+   "reserve": "0.7900",
+   "multiplier": "1",
+   "placed": 1795220120.159225,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV20CANNIA-NIA",
+     "limit": "0.5200"
     }
    ]
   }
