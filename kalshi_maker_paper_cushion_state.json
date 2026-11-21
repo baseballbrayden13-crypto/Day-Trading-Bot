@@ -480,5 +480,25 @@
    "sold_back": true
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW",
+   "series": "KXWT20MATCH",
+   "title": "Muscat Thunders Women vs OCA Strikers Women",
+   "ticker": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-OCASTRW",
+   "order_id": "paper-295-1795262497",
+   "price": "0.1900",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.7700",
+   "multiplier": "1",
+   "placed": 1795262497.3073187,
+   "hedge": [
+    {
+     "ticker": "KXWT20MATCH-26NOV201000OCASTRWMUSCTHDW-MUSCTHDW",
+     "limit": "0.7600"
+    }
+   ]
+  }
+ ]
 }
