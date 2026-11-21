@@ -5033,3 +5033,10 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 14:22:33,331 INFO PAPER rest NO bid KXENGNLGAME-26NOV21YEOFGR-FGR at $0.7000 x2 (0 already bid at that price)
 2026-11-21 14:22:33,331 INFO Resting NO bid on KXENGNLGAME-26NOV21YEOFGR-FGR at $0.7000 x2 (KXENGNLGAME-26NOV21YEOFGR): locks in $0.45 if it fills; hedge NO YEO@0.1500, TIE@0.9000
 2026-11-21 14:22:33,332 INFO Swept 22013 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-21 14:27:44,659 INFO Swept 21999 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-21 14:27:45,043 INFO Quote KXENGNLGAME-26NOV21YEOFGR cancelled (0/2 filled)
+2026-11-21 14:32:42,539 INFO Swept 21962 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 14:37:44,388 INFO Swept 21926 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 14:42:50,553 INFO Swept 21910 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 14:47:44,363 INFO Swept 21892 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 14:52:48,334 INFO Swept 21883 events: 0 taker trades, 0 new quotes, 0 resting

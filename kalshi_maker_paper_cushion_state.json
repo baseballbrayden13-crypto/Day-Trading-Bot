@@ -502,48 +502,5 @@
    "sold_back": true
   }
  ],
- "quotes": [
-  {
-   "event": "KXCS2GAME-26NOV211400EACEXC",
-   "series": "KXCS2GAME",
-   "title": "Esport Academy Copenhagen vs. ex-Copenhagen Wolves",
-   "ticker": "KXCS2GAME-26NOV211400EACEXC-EAC",
-   "order_id": "paper-300-1795287743",
-   "price": "0.2100",
-   "sets": 1,
-   "done": 0,
-   "reserve": "0.7900",
-   "multiplier": "1",
-   "placed": 1795287743.2573278,
-   "hedge": [
-    {
-     "ticker": "KXCS2GAME-26NOV211400EACEXC-EXC",
-     "limit": "0.5500"
-    }
-   ]
-  },
-  {
-   "event": "KXENGNLGAME-26NOV21YEOFGR",
-   "series": "KXENGNLGAME",
-   "title": "Yeovil vs Forest Green",
-   "ticker": "KXENGNLGAME-26NOV21YEOFGR-FGR",
-   "order_id": "paper-301-1795288953",
-   "price": "0.7000",
-   "sets": 2,
-   "done": 0,
-   "reserve": "3.5500",
-   "multiplier": "1",
-   "placed": 1795288953.3316655,
-   "hedge": [
-    {
-     "ticker": "KXENGNLGAME-26NOV21YEOFGR-YEO",
-     "limit": "0.1600"
-    },
-    {
-     "ticker": "KXENGNLGAME-26NOV21YEOFGR-TIE",
-     "limit": "0.9900"
-    }
-   ]
-  }
- ]
+ "quotes": []
 }
