@@ -5023,3 +5023,13 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 13:47:16,331 INFO Swept 22064 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 13:52:18,788 INFO Swept 22049 events: 0 taker trades, 0 new quotes, 1 resting
 2026-11-21 13:52:19,087 INFO Quote KXNCAAF2Q-26NOV21SYRBC cancelled (0/2 filled)
+2026-11-21 13:57:26,515 INFO Swept 22002 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 14:02:23,257 INFO PAPER rest NO bid KXCS2GAME-26NOV211400EACEXC-EAC at $0.2100 x1 (0 already bid at that price)
+2026-11-21 14:02:23,257 INFO Resting NO bid on KXCS2GAME-26NOV211400EACEXC-EAC at $0.2100 x1 (KXCS2GAME-26NOV211400EACEXC): locks in $0.21 if it fills; hedge NO EXC@0.5500
+2026-11-21 14:02:23,258 INFO Swept 21980 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 14:07:31,347 INFO Swept 21962 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 14:12:35,759 INFO Swept 22000 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 14:17:41,672 INFO Swept 22023 events: 0 taker trades, 0 new quotes, 1 resting
+2026-11-21 14:22:33,331 INFO PAPER rest NO bid KXENGNLGAME-26NOV21YEOFGR-FGR at $0.7000 x2 (0 already bid at that price)
+2026-11-21 14:22:33,331 INFO Resting NO bid on KXENGNLGAME-26NOV21YEOFGR-FGR at $0.7000 x2 (KXENGNLGAME-26NOV21YEOFGR): locks in $0.45 if it fills; hedge NO YEO@0.1500, TIE@0.9000
+2026-11-21 14:22:33,332 INFO Swept 22013 events: 0 taker trades, 1 new quotes, 2 resting
