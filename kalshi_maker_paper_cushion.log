@@ -4920,3 +4920,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 02:13:44,473 INFO Swept 22718 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 02:18:47,492 INFO Swept 22718 events: 0 taker trades, 0 new quotes, 0 resting
 2026-11-21 02:23:49,527 INFO Swept 22714 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 02:28:50,849 INFO Swept 22716 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 02:33:53,350 INFO Swept 22727 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 02:38:21,129 INFO PAPER rest NO bid KXALEAGUEWGAME-26NOV21BRIMCY-TIE at $0.5000 x2 (0 already bid at that price)
+2026-11-21 02:38:21,130 INFO Resting NO bid on KXALEAGUEWGAME-26NOV21BRIMCY-TIE at $0.5000 x2 (KXALEAGUEWGAME-26NOV21BRIMCY): locks in $0.50 if it fills; hedge NO BRI@0.2300
+2026-11-21 02:38:21,132 INFO Swept 22739 events: 0 taker trades, 1 new quotes, 1 resting
+2026-11-21 02:38:26,225 INFO Stopped; all quotes cancelled.
