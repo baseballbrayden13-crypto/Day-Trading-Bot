@@ -1,6 +1,25 @@
 {
  "realized": "-4.7500",
- "open": [],
+ "open": [
+  {
+   "event": "KXLVBPGAME-26NOV201800ANZMAG (stray)",
+   "series": "KXLVBPGAME",
+   "title": "Caribes de Anzoategui vs Navegantes de Magallanes",
+   "sets": 0,
+   "outlay": "0.6700",
+   "locked_profit": "0",
+   "opened": "2026-11-21T02:11:28.625292+00:00",
+   "legs": [
+    {
+     "ticker": "KXLVBPGAME-26NOV201800ANZMAG-ANZ",
+     "side": "no",
+     "count": 2,
+     "limit": "0.3300"
+    }
+   ],
+   "retried": 1795227693.1771874
+  }
+ ],
  "closed": [
   {
    "event": "KXNBARACE-26NOV10LACPHX-10 (stray)",
@@ -458,5 +477,44 @@
    "closed": "2026-11-18T04:32:06.140421+00:00"
   }
  ],
- "quotes": []
+ "quotes": [
+  {
+   "event": "KXNCAAHGAME-26NOV20BCMAI",
+   "series": "KXNCAAHGAME",
+   "title": "Boston College vs Maine",
+   "ticker": "KXNCAAHGAME-26NOV20BCMAI-MAI",
+   "order_id": "paper-285-1795226182",
+   "price": "0.15",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.8000",
+   "multiplier": "1",
+   "placed": 1795226182.1547284,
+   "hedge": [
+    {
+     "ticker": "KXNCAAHGAME-26NOV20BCMAI-BC",
+     "limit": "0.7300"
+    }
+   ]
+  },
+  {
+   "event": "KXLVBPGAME-26NOV201800CARLAR",
+   "series": "KXLVBPGAME",
+   "title": "Leones de Caracas vs Cardenales de Lara",
+   "ticker": "KXLVBPGAME-26NOV201800CARLAR-CAR",
+   "order_id": "paper-287-1795226182",
+   "price": "0.3100",
+   "sets": 2,
+   "done": 0,
+   "reserve": "1.6500",
+   "multiplier": "1",
+   "placed": 1795226182.2146811,
+   "hedge": [
+    {
+     "ticker": "KXLVBPGAME-26NOV201800CARLAR-LAR",
+     "limit": "0.4900"
+    }
+   ]
+  }
+ ]
 }
