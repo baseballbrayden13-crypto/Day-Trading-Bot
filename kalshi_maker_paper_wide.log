@@ -11230,3 +11230,9 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-21 08:55:00,640 INFO PAPER buy 4 NO KXF1H2HLOTP-VEGAS26NORANT-ANT at up to $0.47: filled 4
 2026-11-21 08:55:00,641 INFO Quote KXF1H2HLOTP-VEGAS26NORANT: hedge on KXF1H2HLOTP-VEGAS26NORANT-ANT chased from 0.3900 to 0.47
 2026-11-21 08:55:00,641 INFO Quote KXF1H2HLOTP-VEGAS26NORANT filled 4: hedged, locks in $-0.17
+2026-11-21 08:59:49,424 INFO Swept 22851 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 09:04:53,550 INFO Swept 22842 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 09:09:57,530 INFO Swept 22857 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 09:14:59,804 INFO Swept 22958 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 09:20:03,155 INFO Swept 22953 events: 0 taker trades, 0 new quotes, 0 resting
+2026-11-21 09:25:08,643 INFO Swept 22954 events: 0 taker trades, 0 new quotes, 0 resting
