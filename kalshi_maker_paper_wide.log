@@ -11054,3 +11054,14 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2026-11-20 19:15:20,159 INFO Resting NO bid on KXNCAAHGAME-26NOV20CANNIA-CAN at $0.2400 x1 (KXNCAAHGAME-26NOV20CANNIA): locks in $0.21 if it fills; hedge NO NIA@0.5200
 2026-11-20 19:15:20,453 INFO Swept 23239 events: 0 taker trades, 1 new quotes, 2 resting
 2026-11-20 19:20:25,800 INFO Swept 23271 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 19:25:40,071 INFO Swept 23276 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 19:30:46,826 INFO Swept 23304 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 19:35:52,252 INFO Swept 23306 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 19:35:52,466 INFO Quote KXLVBPGAME-26NOV201800CARLAR cancelled (0/2 filled)
+2026-11-20 19:40:58,513 INFO PAPER rest NO bid KXLBPRCGAME-26NOV201800GIGSAT-SAT at $0.2600 x1 (0 already bid at that price)
+2026-11-20 19:40:58,513 INFO Resting NO bid on KXLBPRCGAME-26NOV201800GIGSAT-SAT at $0.2600 x1 (KXLBPRCGAME-26NOV201800GIGSAT): locks in $0.22 if it fills; hedge NO GIG@0.4900
+2026-11-20 19:40:58,809 INFO Swept 23334 events: 0 taker trades, 1 new quotes, 2 resting
+2026-11-20 19:46:04,172 INFO Swept 23386 events: 0 taker trades, 0 new quotes, 2 resting
+2026-11-20 19:51:08,357 INFO PAPER rest NO bid KXNCAAHGAME-26NOV20CANNIA-CAN at $0.4000 x2 (0 already bid at that price)
+2026-11-20 19:51:08,357 INFO Resting NO bid on KXNCAAHGAME-26NOV20CANNIA-CAN at $0.4000 x2 (KXNCAAHGAME-26NOV20CANNIA): locks in $0.13 if it fills; hedge NO NIA@0.5100
+2026-11-20 19:51:08,655 INFO Swept 23386 events: 0 taker trades, 1 new quotes, 2 resting
