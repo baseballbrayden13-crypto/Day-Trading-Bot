@@ -4052,12 +4052,12 @@
   "count": 2,
   "ahead": 0,
   "placed": 1795235841.6968684,
-  "checked": 1795236781.2466624,
+  "checked": 1795237641,
   "expires": 1795237641,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
  },
  "paper-291-1795236750": {
   "id": "paper-291-1795236750",
@@ -4066,11 +4066,25 @@
   "count": 3,
   "ahead": 4,
   "placed": 1795236750.5721738,
-  "checked": 1795236781.3008685,
+  "checked": 1795238550,
   "expires": 1795238550,
   "through": 0,
   "at_price": 0,
   "filled": 0,
-  "status": "resting"
+  "status": "canceled"
+ },
+ "paper-292-1795237356": {
+  "id": "paper-292-1795237356",
+  "ticker": "KXNBAGAME-26NOV24BOSWAS-BOS",
+  "price": "0.2700",
+  "count": 5,
+  "ahead": 0,
+  "placed": 1795237356.7488139,
+  "checked": 1795238568.9815094,
+  "expires": 1795239156,
+  "through": 0,
+  "at_price": 0,
+  "filled": 0,
+  "status": "canceled"
  }
 }
